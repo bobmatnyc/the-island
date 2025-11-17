@@ -7,30 +7,89 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-- Roadmap documentation with 6 development phases
-- Comprehensive changelog tracking
-- Version file for automated version management
-- Dark/light theme toggle with localStorage persistence
-- Source suggestion submission system in web UI
-- OpenRouter GPT-4.5 integration for AI chatbot
-- Collapsible chat sidebar for better UX
-- Hierarchical roadmap tracking system
-- Roadmap tab in web interface navigation
-
-### Changed
-- Enhanced web interface navigation structure
-- Improved theme switching performance
-- Updated documentation structure
-
 ### Planned
 - GitHub repository initialization (public)
 - FBI Vault download automation (22 parts)
 - Complete OCR processing of remaining 18,472 files
 - Extract ~2,330 emails from OCR results
 - Full document classification (67,144 documents)
-- Timeline generation from dated documents
 - Admin dashboard for source review
+
+## [1.1.0] - 2025-11-17
+
+### Added - Major Feature Release
+
+#### New Pages
+- **Timeline page**: Interactive timeline with 103 historical events (1989-2024)
+  - Event type filtering (legal, social, death, arrest, investigation, lawsuit, media)
+  - Entity linking from timeline events to entity pages
+  - Chronological visualization of Epstein case history
+- **Login page**: User authentication interface
+  - Terms of Service display and acceptance
+  - Audit logging for login attempts
+  - Session management preparation
+- **Documents page**: Full-text document search and browsing
+  - Search across 38,177 indexed documents
+  - Entity mention highlighting in search results
+  - Document type filtering (11 categories)
+  - Direct links to entity pages from document mentions
+- **Flights map page**: Geographic visualization of flight routes
+  - Leaflet.js integration for interactive maps
+  - Flight route polylines with origin/destination markers
+  - Passenger list display per flight
+  - Date and tail number filtering
+
+#### Entity Enhancements
+- **Biographical details**: Added detailed biographies for 30+ key figures
+  - Jeffrey Epstein, Ghislaine Maxwell, Prince Andrew, Bill Clinton
+  - Alan Dershowitz, Les Wexner, Jean-Luc Brunel, and 23 others
+  - Structured data with roles, organizations, dates, locations
+- **Entity normalization**: Improved name consistency
+  - Consolidated duplicate entries (e.g., "Je Epstein" → "Jeffrey Epstein")
+  - Reduced network from 387 to 287 nodes
+  - Filtered out 100 generic terms (Mr, Ms, Dr, etc.)
+- **Entity network filtering**: Cleaner graph visualization
+  - Removed staff titles and generic terms
+  - Improved relationship accuracy
+
+#### Developer Experience
+- **Hot-reload capability**: Server-Sent Events (SSE) for live updates
+  - Automatic page refresh on file changes
+  - SSE endpoint at `/api/events`
+  - Development mode optimization
+- **Comprehensive linting system**: Code quality automation
+  - Ruff for fast Python linting
+  - Black for code formatting
+  - isort for import sorting
+  - mypy for type checking
+  - Makefile targets: `make lint`, `make format`, `make quality`
+- **Icon system**: Lucide icons integration
+  - Consistent iconography across UI
+  - Lightweight SVG-based icons
+
+#### Updates Feed
+- **Git commit tracking**: Real-time project updates on homepage
+  - Last 10 commits displayed with timestamps
+  - Author attribution and commit messages
+  - Direct links to changed files (when applicable)
+
+### Fixed
+- **Entity name duplication**: Resolved duplicate "Je Epstein" entries in network graph
+- **Unclosed HTML tags**: Fixed malformed anchor tags in entity network
+- **Document count accuracy**: Corrected display from 6 to 38,177 documents
+- **Entity disambiguation**: Improved name matching and consolidation
+
+### Changed
+- **Entity network optimization**: Reduced node count by 26% (387→287)
+- **Flights page styling**: Enhanced visual presentation and navigation
+- **Entity cards**: Added dual linking (entity page + documents mentioning entity)
+- **Web interface navigation**: Added Timeline, Documents, Login, Flights pages
+
+### Technical Improvements
+- Enhanced entity data structure with biographical fields
+- Improved search index with document content
+- Added geolocation data for flight visualization
+- Implemented event typing system for timeline categorization
 
 ## [0.1.0] - 2025-11-16
 
@@ -148,6 +207,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Release Date | Key Highlights |
 |---------|--------------|----------------|
+| 1.1.0   | 2025-11-17   | Timeline page (103 events), Documents search (38,177 docs), Flights map, Login page, Entity biographies, Hot-reload, Linting system |
 | 0.1.0   | 2025-11-16   | Initial release with 67,144 documents, entity extraction, network visualization, AI chatbot |
 
 ---

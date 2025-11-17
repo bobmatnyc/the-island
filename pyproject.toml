@@ -1,0 +1,174 @@
+[project]
+name = "epstein-document-archive"
+version = "1.1.0"
+description = "Comprehensive searchable archive of publicly available Epstein documents"
+authors = [{name = "Epstein Archive Contributors"}]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+# Dependencies (for reference, actual installation uses requirements.txt)
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "pydantic>=2.5.0",
+    "httpx>=0.25.0",
+    "python-dotenv>=1.0.0",
+    "beautifulsoup4>=4.12.0",
+    "pytesseract>=0.3.10",
+    "pdf2image>=1.16.3",
+    "Pillow>=10.1.0",
+    "tqdm>=4.66.0",
+    "openai>=1.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0",
+    "black>=23.11.0",
+    "isort>=5.12.0",
+    "mypy>=1.7.0",
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+# =============================================================================
+# Black Configuration (Code Formatter)
+# =============================================================================
+[tool.black]
+line-length = 100
+target-version = ['py39', 'py310', 'py311', 'py312']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+    \.git
+  | \.venv
+  | venv
+  | __pycache__
+  | build
+  | dist
+  | data
+)/
+'''
+
+# =============================================================================
+# isort Configuration (Import Sorting)
+# =============================================================================
+[tool.isort]
+profile = "black"
+line_length = 100
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+skip_gitignore = true
+known_first_party = ["scripts", "server"]
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
+
+# =============================================================================
+# mypy Configuration (Type Checking)
+# =============================================================================
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false  # Gradual adoption - set to true eventually
+disallow_incomplete_defs = false
+check_untyped_defs = true
+disallow_untyped_decorators = false
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+exclude = [
+    'venv',
+    '.venv',
+    'build',
+    'dist',
+    'data',
+]
+
+# Per-module options
+[[tool.mypy.overrides]]
+module = [
+    "pytesseract.*",
+    "pdf2image.*",
+    "ssdeep.*",
+    "bs4.*",
+]
+ignore_missing_imports = true
+
+# =============================================================================
+# pytest Configuration (Testing)
+# =============================================================================
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--cov=scripts",
+    "--cov=server",
+    "--cov-report=html",
+    "--cov-report=term-missing",
+]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+]
+
+# =============================================================================
+# coverage Configuration (Test Coverage)
+# =============================================================================
+[tool.coverage.run]
+source = ["scripts", "server"]
+omit = [
+    "*/tests/*",
+    "*/test_*.py",
+    "*/__pycache__/*",
+    "*/venv/*",
+    "*/.venv/*",
+    "*/data/*",
+]
+branch = true
+
+[tool.coverage.report]
+precision = 2
+show_missing = true
+skip_covered = false
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if TYPE_CHECKING:",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if 0:",
+    "if False:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
+
+[tool.coverage.html]
+directory = "htmlcov"
+
+# =============================================================================
+# Ruff Configuration (imported from .ruff.toml for reference)
+# =============================================================================
+# See .ruff.toml for full configuration
+[tool.ruff]
+# Ruff reads configuration from .ruff.toml by default
+# This section exists for completeness but .ruff.toml takes precedence
