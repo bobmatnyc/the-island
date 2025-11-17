@@ -1,0 +1,16 @@
+{
+  "document_id": "DOJ-OGR-00023544",
+  "email_index": 96,
+  "extracted_at": "2025-11-17T04:14:45.465922",
+  "from_address": "ODOC washpost.com>",
+  "to_address": "BOP-IPP/Public Affairs <BOP-IPP/PublicAffairs@bop.gov>, [EIGEEI@bop.gov\" {RGiEIObop.gov>",
+  "cc_address": null,
+  "subject": "Epstein/Washington Post question",
+  "date": "Mon, 26 Aug 2019 18:59:46 +0000",
+  "body": "Hi\u2014\n\nDO OMECY|from the Washington Post here. We are in the process of working on a story about the cameras outside Jeffrey\nEpstein\u2019s cell on the morning of his death. The story will assert that the data in those cameras was found to be\ncorrupted/unreadable, though it is being sent to Quantico for further analysis.\n\nCan the BOP comment on that assertion? Is the functionality of cameras a larger issue at BOP or MCC? Are you able to say what\nother cameras might have captured that night to support the assertion that Mr. Epstein killed himself?\nThank you,\n\nEVO | The Washington Post\n(202) 629-{8)@) (cell)",
+  "confidence": 0.7,
+  "email_addresses": [
+    "EIGEEI@bop.gov",
+    "PublicAffairs@bop.gov"
+  ]
+}

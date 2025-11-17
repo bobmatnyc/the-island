@@ -1,444 +1,348 @@
 #!/usr/bin/env python3
+"""Extract detected emails from OCR results into organized directory.
+
+This script processes email candidates identified during OCR processing
+and extracts them into a structured directory with:
+- Organized subdirectories by date (YYYY-MM format)
+- Metadata JSON with parsed email headers
+- Full OCR text and body-only text files
+
+Author: Claude Code (Python Engineer)
+Created: 2025-11-16
 """
-Extract Epstein email documents and notes from DocumentCloud.
 
-This script downloads:
-- Structured JSON (73 pages)
-- Complete PDF (87 pages)
-- Individual page text files (pages 1-87)
-- Notes data and creates human-readable summary
-
-Author: Claude Code
-Date: 2025-11-16
-"""
-
-import os
 import json
-import time
-import requests
+import re
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional
+from dataclasses import dataclass, asdict
+import logging
 
-# Configuration
-BASE_DIR = Path("/Users/masa/Projects/Epstein")
-DATA_DIR = BASE_DIR / "data" / "emails"
-PAGES_DIR = DATA_DIR / "pages"
-NOTES_DIR = DATA_DIR / "notes"
-
-# DocumentCloud URLs
-DOC_ID = "6506732"
-BASE_URL = f"https://s3.documentcloud.org/documents/{DOC_ID}"
-API_URL = f"https://api.www.documentcloud.org/api/documents/{DOC_ID}"
-
-STRUCTURED_JSON_URL = f"{BASE_URL}/Epstein-Emails-Doc-Dump.txt.json"
-PDF_URL = f"{BASE_URL}/Epstein-Emails-Doc-Dump.pdf"
-NOTES_API_URL = f"{API_URL}/notes/"
-PAGE_URL_PATTERN = f"{BASE_URL}/pages/Epstein-Emails-Doc-Dump-p{{page}}.txt"
-
-TOTAL_PAGES = 87
-RATE_LIMIT_DELAY = 0.1  # seconds between requests
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 
-class DownloadStats:
-    """Track download statistics."""
+@dataclass
+class EmailMetadata:
+    """Structured email metadata extracted from OCR text."""
+    document_id: str
+    email_index: int
+    extracted_at: str
+    from_address: Optional[str] = None
+    to_address: Optional[str] = None
+    cc_address: Optional[str] = None
+    subject: Optional[str] = None
+    date: Optional[str] = None
+    body: Optional[str] = None
+    confidence: float = 0.0
+    email_addresses: List[str] = None
 
-    def __init__(self):
-        self.successful = 0
-        self.failed = 0
-        self.total_bytes = 0
-        self.failed_pages = []
-        self.file_sizes = {}
-
-    def add_success(self, filename: str, size: int):
-        self.successful += 1
-        self.total_bytes += size
-        self.file_sizes[filename] = size
-
-    def add_failure(self, filename: str, error: str):
-        self.failed += 1
-        self.failed_pages.append((filename, error))
-
-    def get_summary(self) -> str:
-        summary = f"""
-Download Statistics:
--------------------
-Total Successful: {self.successful}
-Total Failed: {self.failed}
-Total Bytes: {self.total_bytes:,} ({self.total_bytes / 1024 / 1024:.2f} MB)
-
-"""
-        if self.failed_pages:
-            summary += "Failed Downloads:\n"
-            for filename, error in self.failed_pages:
-                summary += f"  - {filename}: {error}\n"
-
-        return summary
+    def __post_init__(self):
+        if self.email_addresses is None:
+            self.email_addresses = []
 
 
-def download_file(url: str, output_path: Path, stats: DownloadStats) -> bool:
-    """
-    Download a file from URL to output path.
-
-    Args:
-        url: Source URL
-        output_path: Destination file path
-        stats: DownloadStats object to track progress
-
-    Returns:
-        True if successful, False otherwise
-    """
-    try:
-        response = requests.get(url, timeout=30)
-        response.raise_for_status()
-
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        output_path.write_bytes(response.content)
-
-        file_size = len(response.content)
-        stats.add_success(output_path.name, file_size)
-
-        return True
-
-    except requests.exceptions.RequestException as e:
-        stats.add_failure(output_path.name, str(e))
-        print(f"  ✗ Failed: {e}")
-        return False
+def load_email_candidates(jsonl_path: Path) -> List[Dict]:
+    """Load email candidates from JSONL file."""
+    candidates = []
+    with open(jsonl_path) as f:
+        for line in f:
+            if line.strip():
+                candidates.append(json.loads(line))
+    return candidates
 
 
-def download_structured_json(stats: DownloadStats) -> bool:
-    """Download the structured JSON file."""
-    print("\n[1/4] Downloading structured JSON...")
-    output_path = DATA_DIR / "epstein-emails-structured.json"
+def extract_email_field(text: str, field: str) -> Optional[str]:
+    """Extract email header field from text."""
+    patterns = [
+        rf'{field}:\s*(.+?)(?=\n[A-Z][a-z]+:|$)',
+        rf'{field}:\s*(.+?)(?=\n\n|$)'
+    ]
 
-    success = download_file(STRUCTURED_JSON_URL, output_path, stats)
-    if success:
-        print(f"  ✓ Saved to: {output_path}")
+    for pattern in patterns:
+        match = re.search(pattern, text, re.IGNORECASE | re.DOTALL)
+        if match:
+            value = match.group(1).strip()
+            # Clean up
+            value = re.sub(r'\s+', ' ', value)
+            value = re.sub(r'\|+', '', value)
+            return value if value else None
 
-    return success
-
-
-def download_pdf(stats: DownloadStats) -> bool:
-    """Download the complete PDF file."""
-    print("\n[2/4] Downloading complete PDF...")
-    output_path = DATA_DIR / "epstein-emails-complete.pdf"
-
-    success = download_file(PDF_URL, output_path, stats)
-    if success:
-        print(f"  ✓ Saved to: {output_path}")
-
-    return success
+    return None
 
 
-def download_individual_pages(stats: DownloadStats) -> Tuple[int, int]:
-    """
-    Download individual page text files.
+def extract_date(text: str) -> Optional[str]:
+    """Extract date from email text."""
+    # Try "Date:" or "Sent:" headers first
+    for pattern in [r'Date:\s*(.+?)(?=\n|$)', r'Sent:\s*(.+?)(?=\n|$)']:
+        match = re.search(pattern, text, re.IGNORECASE)
+        if match:
+            return match.group(1).strip()
 
-    Returns:
-        Tuple of (successful_count, failed_count)
-    """
-    print(f"\n[3/4] Downloading individual pages (1-{TOTAL_PAGES})...")
-    print("This may take a few minutes with rate limiting...")
+    # Try date patterns
+    date_patterns = [
+        r'(\d{1,2}/\d{1,2}/\d{2,4})',
+        r'(\d{4}-\d{2}-\d{2})',
+        r'([A-Z][a-z]+\s+\d{1,2},\s*\d{4})',
+    ]
 
-    successful = 0
-    failed = 0
+    for pattern in date_patterns:
+        match = re.search(pattern, text)
+        if match:
+            return match.group(1)
 
-    for page_num in range(1, TOTAL_PAGES + 1):
-        url = PAGE_URL_PATTERN.format(page=page_num)
-        output_path = PAGES_DIR / f"page-{page_num:03d}.txt"
-
-        # Progress indicator every 10 pages
-        if page_num % 10 == 0:
-            print(f"  Progress: {page_num}/{TOTAL_PAGES} pages...")
-
-        if download_file(url, output_path, stats):
-            successful += 1
-        else:
-            failed += 1
-
-        # Rate limiting
-        time.sleep(RATE_LIMIT_DELAY)
-
-    print(f"  ✓ Downloaded {successful}/{TOTAL_PAGES} pages")
-    if failed > 0:
-        print(f"  ✗ Failed: {failed} pages")
-
-    return successful, failed
+    return None
 
 
-def download_and_process_notes(stats: DownloadStats) -> bool:
-    """
-    Download notes from API and create human-readable summary.
-
-    Returns:
-        True if successful, False otherwise
-    """
-    print("\n[4/4] Downloading and processing notes...")
-
-    # Download raw notes JSON
-    notes_json_path = NOTES_DIR / "epstein-emails-notes.json"
+def parse_date_to_subdirectory(date_str: Optional[str]) -> str:
+    """Parse date string to YYYY-MM subdirectory name."""
+    if not date_str:
+        return "undated"
 
     try:
-        response = requests.get(NOTES_API_URL, timeout=30)
-        response.raise_for_status()
+        # Extract year
+        year_match = re.search(r'(20\d{2}|19\d{2})', date_str)
+        if not year_match:
+            return "undated"
 
-        notes_data = response.json()
+        year = year_match.group(1)
 
-        # Save raw JSON
-        notes_json_path.write_text(json.dumps(notes_data, indent=2))
-        stats.add_success(notes_json_path.name, len(json.dumps(notes_data)))
-        print(f"  ✓ Saved raw notes JSON to: {notes_json_path}")
+        # Extract month
+        month_match = re.search(r'/(\d{1,2})/', date_str)
+        if month_match:
+            month = month_match.group(1).zfill(2)
+            return f"{year}-{month}"
 
-        # Create human-readable summary
-        summary_path = NOTES_DIR / "notes-summary.md"
-        create_notes_summary(notes_data, summary_path, stats)
+        month_match = re.search(r'-(\d{2})-', date_str)
+        if month_match:
+            month = month_match.group(1)
+            return f"{year}-{month}"
 
-        return True
+        # Try month names
+        months = {
+            'january': '01', 'february': '02', 'march': '03', 'april': '04',
+            'may': '05', 'june': '06', 'july': '07', 'august': '08',
+            'september': '09', 'october': '10', 'november': '11', 'december': '12',
+            'jan': '01', 'feb': '02', 'mar': '03', 'apr': '04',
+            'jun': '06', 'jul': '07', 'aug': '08', 'sep': '09',
+            'oct': '10', 'nov': '11', 'dec': '12'
+        }
 
-    except requests.exceptions.RequestException as e:
-        stats.add_failure("notes.json", str(e))
-        print(f"  ✗ Failed to download notes: {e}")
-        return False
+        for month_name, month_num in months.items():
+            if month_name in date_str.lower():
+                return f"{year}-{month_num}"
+
+        return f"{year}-00"
+
     except Exception as e:
-        stats.add_failure("notes.json", str(e))
-        print(f"  ✗ Error processing notes: {e}")
-        return False
+        logger.warning(f"Failed to parse date '{date_str}': {e}")
+        return "undated"
 
 
-def create_notes_summary(notes_data: Dict, output_path: Path, stats: DownloadStats):
-    """
-    Create a human-readable summary of notes.
+def extract_email_body(text: str) -> Optional[str]:
+    """Extract email body text (content after headers)."""
+    header_patterns = ['from:', 'to:', 'cc:', 'subject:', 'date:', 'sent:']
+    last_header_pos = 0
 
-    Args:
-        notes_data: Notes data from API
-        output_path: Path to save summary markdown
-        stats: DownloadStats object
-    """
-    results = notes_data.get('results', [])
+    for pattern in header_patterns:
+        pos = text.lower().rfind(pattern)
+        if pos > last_header_pos:
+            last_header_pos = pos
 
-    summary_lines = [
-        "# Epstein Emails - DocumentCloud Notes Summary",
-        "",
-        f"**Total Notes:** {len(results)}",
-        f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-        f"**Source:** {NOTES_API_URL}",
-        "",
-        "---",
-        ""
-    ]
+    if last_header_pos == 0:
+        return None
 
-    if not results:
-        summary_lines.append("*No notes found in this document.*")
-    else:
-        for idx, note in enumerate(results, 1):
-            # Handle user field - can be int (user ID) or dict (user object)
-            user_info = note.get('user', 'Unknown')
-            if isinstance(user_info, dict):
-                author_str = f"{user_info.get('name', 'Unknown')} ({user_info.get('email', 'N/A')})"
-            else:
-                author_str = f"User ID: {user_info}"
+    body_start = text.find('\n', last_header_pos)
+    if body_start == -1:
+        return None
 
-            summary_lines.extend([
-                f"## Note {idx}: {note.get('title', 'Untitled')}",
-                "",
-                f"- **Page:** {note.get('page_number', 'N/A')}",
-                f"- **Author:** {author_str}",
-                f"- **Organization:** {note.get('organization', 'N/A')}",
-                f"- **Created:** {note.get('created_at', 'N/A')}",
-                f"- **Updated:** {note.get('updated_at', 'N/A')}",
-                f"- **Access:** {note.get('access', 'N/A')}",
-                "",
-            ])
+    body = text[body_start:].strip()
 
-            # Add content if available
-            content = note.get('content', '').strip()
-            if content:
-                summary_lines.extend([
-                    "**Content:**",
-                    "",
-                    content,
-                    ""
-                ])
+    # Remove common footer artifacts
+    body = re.sub(r'DOJ-OGR-\d+\s*$', '', body, flags=re.IGNORECASE)
+    body = re.sub(r'RFP.*?\d+\s*$', '', body, flags=re.IGNORECASE)
 
-            # Add location if available
-            if note.get('x1') is not None:
-                summary_lines.append(f"**Location:** x1={note.get('x1')}, y1={note.get('y1')}, x2={note.get('x2')}, y2={note.get('y2')}")
-                summary_lines.append("")
-
-            summary_lines.append("---")
-            summary_lines.append("")
-
-    summary_text = "\n".join(summary_lines)
-    output_path.write_text(summary_text)
-    stats.add_success(output_path.name, len(summary_text))
-
-    print(f"  ✓ Created notes summary: {output_path}")
-    print(f"  ✓ Found {len(results)} notes")
+    return body.strip() if body else None
 
 
-def create_manifest(stats: DownloadStats):
-    """Create a manifest file documenting all downloads."""
-    print("\nCreating manifest file...")
+def extract_email_metadata(text: str, candidate: Dict, index: int) -> EmailMetadata:
+    """Extract complete email metadata from OCR text."""
+    doc_id = Path(candidate.get("file", "unknown")).stem
 
-    manifest_path = DATA_DIR / "MANIFEST.md"
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    metadata = EmailMetadata(
+        document_id=doc_id,
+        email_index=index,
+        extracted_at=datetime.utcnow().isoformat(),
+        confidence=candidate.get("confidence", 0.0),
+        email_addresses=candidate.get("email_addresses", [])
+    )
 
-    manifest_lines = [
-        "# Epstein Emails - Download Manifest",
-        "",
-        f"**Download Date:** {timestamp}",
-        f"**Source:** DocumentCloud Document ID {DOC_ID}",
-        "",
-        "## Summary",
-        "",
-        f"- **Total Files Downloaded:** {stats.successful}",
-        f"- **Failed Downloads:** {stats.failed}",
-        f"- **Total Size:** {stats.total_bytes:,} bytes ({stats.total_bytes / 1024 / 1024:.2f} MB)",
-        "",
-        "## Data Sources",
-        "",
-        "### Primary Documents",
-        "",
-        f"1. **Structured JSON** (73 pages)",
-        f"   - URL: {STRUCTURED_JSON_URL}",
-        f"   - File: `epstein-emails-structured.json`",
-        f"   - Size: {stats.file_sizes.get('epstein-emails-structured.json', 0):,} bytes",
-        "",
-        f"2. **Complete PDF** (87 pages)",
-        f"   - URL: {PDF_URL}",
-        f"   - File: `epstein-emails-complete.pdf`",
-        f"   - Size: {stats.file_sizes.get('epstein-emails-complete.pdf', 0):,} bytes",
-        "",
-        "### Individual Pages",
-        "",
-        f"3. **Page Text Files** (pages 1-{TOTAL_PAGES})",
-        f"   - URL Pattern: `{PAGE_URL_PATTERN}`",
-        f"   - Directory: `pages/`",
-        f"   - Files: `page-001.txt` through `page-{TOTAL_PAGES:03d}.txt`",
-        "",
-        "### Annotations",
-        "",
-        "4. **Notes Data**",
-        f"   - API URL: {NOTES_API_URL}",
-        f"   - Raw JSON: `notes/epstein-emails-notes.json`",
-        f"   - Summary: `notes/notes-summary.md`",
-        "",
-        "## File Descriptions",
-        "",
-        "### `epstein-emails-structured.json`",
-        "Structured JSON export containing page-by-page text content with metadata. ",
-        "Contains 73 pages of email content in machine-readable format.",
-        "",
-        "### `epstein-emails-complete.pdf`",
-        "Complete PDF document containing all 87 pages of Epstein email records.",
-        "Includes scanned documents and email printouts.",
-        "",
-        "### `pages/page-*.txt`",
-        "Individual text files for each page (1-87). Each file contains the OCR-extracted",
-        "text from the corresponding PDF page. Useful for page-by-page analysis.",
-        "",
-        "### `notes/epstein-emails-notes.json`",
-        "Raw JSON data of annotations and notes added to the DocumentCloud document.",
-        "Includes author information, timestamps, and note locations.",
-        "",
-        "### `notes/notes-summary.md`",
-        "Human-readable summary of all notes with formatted metadata and content.",
-        "",
-    ]
+    metadata.from_address = extract_email_field(text, "From")
+    metadata.to_address = extract_email_field(text, "To")
+    metadata.cc_address = extract_email_field(text, "CC")
+    metadata.subject = extract_email_field(text, "Subject")
+    metadata.date = extract_date(text)
+    metadata.body = extract_email_body(text)
 
-    if stats.failed_pages:
-        manifest_lines.extend([
-            "## Download Issues",
-            "",
-            f"The following {len(stats.failed_pages)} file(s) failed to download:",
-            ""
-        ])
-        for filename, error in stats.failed_pages:
-            manifest_lines.append(f"- `{filename}`: {error}")
-        manifest_lines.append("")
+    return metadata
 
-    manifest_lines.extend([
-        "## Directory Structure",
-        "",
-        "```",
-        "data/emails/",
-        "├── epstein-emails-structured.json",
-        "├── epstein-emails-complete.pdf",
-        "├── MANIFEST.md",
-        "├── pages/",
-        "│   ├── page-001.txt",
-        "│   ├── page-002.txt",
-        "│   └── ... (87 total)",
-        "└── notes/",
-        "    ├── epstein-emails-notes.json",
-        "    └── notes-summary.md",
-        "```",
-        "",
-        "## Usage Notes",
-        "",
-        "- All page numbers are zero-padded to 3 digits (e.g., page-001.txt)",
-        "- The structured JSON contains 73 pages, but the PDF has 87 pages",
-        "- Individual page text files cover all 87 pages for completeness",
-        "- Rate limiting of 0.1 seconds was applied between page downloads",
-        "",
-        "## Data Integrity",
-        "",
-        f"- Downloads completed: {timestamp}",
-        f"- Total files verified: {stats.successful}",
-        f"- All file sizes recorded in this manifest",
-        "",
-        "---",
-        "",
-        "*Generated by extract_emails.py*",
-        ""
-    ])
 
-    manifest_text = "\n".join(manifest_lines)
-    manifest_path.write_text(manifest_text)
+def save_email(email_dir: Path, metadata: EmailMetadata, ocr_text: str) -> None:
+    """Save email with metadata to directory structure."""
+    subdirname = parse_date_to_subdirectory(metadata.date)
+    subdir = email_dir / subdirname
+    subdir.mkdir(parents=True, exist_ok=True)
 
-    print(f"  ✓ Manifest created: {manifest_path}")
+    # Save metadata JSON
+    metadata_path = subdir / f"{metadata.document_id}_metadata.json"
+    with open(metadata_path, 'w') as f:
+        json.dump(asdict(metadata), f, indent=2)
+
+    # Save full OCR text
+    text_path = subdir / f"{metadata.document_id}_full.txt"
+    with open(text_path, 'w') as f:
+        f.write(ocr_text)
+
+    # Save body only
+    if metadata.body:
+        body_path = subdir / f"{metadata.document_id}_body.txt"
+        with open(body_path, 'w') as f:
+            f.write(metadata.body)
+
+
+def generate_email_index(email_dir: Path, metadata_list: List[EmailMetadata]) -> Dict:
+    """Generate email index with statistics."""
+    index = {
+        "total_emails": len(metadata_list),
+        "extraction_date": datetime.utcnow().isoformat(),
+        "by_date": {},
+        "by_sender": {},
+        "by_confidence": {
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        }
+    }
+
+    for metadata in metadata_list:
+        subdir = parse_date_to_subdirectory(metadata.date)
+        index["by_date"][subdir] = index["by_date"].get(subdir, 0) + 1
+
+        if metadata.from_address:
+            sender = metadata.from_address[:50]
+            index["by_sender"][sender] = index["by_sender"].get(sender, 0) + 1
+
+        if metadata.confidence >= 0.8:
+            index["by_confidence"]["high"] += 1
+        elif metadata.confidence >= 0.6:
+            index["by_confidence"]["medium"] += 1
+        else:
+            index["by_confidence"]["low"] += 1
+
+    return index
 
 
 def main():
-    """Main execution function."""
-    print("=" * 70)
-    print("Epstein Emails - DocumentCloud Extraction Script")
-    print("=" * 70)
-    print(f"\nOutput Directory: {DATA_DIR}")
-    print(f"Total Pages to Download: {TOTAL_PAGES}")
-    print(f"Rate Limit: {RATE_LIMIT_DELAY}s between requests")
+    """Main extraction workflow."""
+    base_dir = Path(__file__).parent.parent.parent
+    ocr_text_dir = base_dir / "data" / "sources" / "house_oversight_nov2025" / "ocr_text"
+    candidates_file = base_dir / "data" / "sources" / "house_oversight_nov2025" / "email_candidates.jsonl"
+    email_output_dir = base_dir / "data" / "emails" / "house_oversight_nov2025"
 
-    stats = DownloadStats()
-    start_time = time.time()
+    email_output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Execute downloads
-    download_structured_json(stats)
-    download_pdf(stats)
-    download_individual_pages(stats)
-    download_and_process_notes(stats)
+    logger.info(f"Loading email candidates from: {candidates_file}")
+    candidates = load_email_candidates(candidates_file)
+    logger.info(f"Found {len(candidates)} email candidates")
 
-    # Create manifest
-    create_manifest(stats)
+    extracted = 0
+    failed = 0
+    metadata_list = []
 
-    # Final summary
-    elapsed_time = time.time() - start_time
+    for i, candidate in enumerate(candidates, 1):
+        try:
+            file_path = candidate.get("file", "")
+            doc_id = Path(file_path).stem
 
-    print("\n" + "=" * 70)
-    print("EXTRACTION COMPLETE")
-    print("=" * 70)
-    print(stats.get_summary())
-    print(f"Elapsed Time: {elapsed_time:.2f} seconds ({elapsed_time / 60:.2f} minutes)")
-    print(f"\nAll data saved to: {DATA_DIR}")
-    print(f"See MANIFEST.md for detailed information about downloaded files.")
-    print("=" * 70)
+            ocr_text_path = ocr_text_dir / f"{doc_id}.txt"
+            if not ocr_text_path.exists():
+                logger.warning(f"OCR text file not found: {ocr_text_path}")
+                failed += 1
+                continue
 
-    # Exit code based on failures
-    if stats.failed > 0:
-        print(f"\n⚠️  Warning: {stats.failed} download(s) failed. Check output above for details.")
-        return 1
+            with open(ocr_text_path) as f:
+                ocr_text = f.read()
 
-    return 0
+            if not ocr_text:
+                logger.warning(f"Empty OCR text for {doc_id}")
+                failed += 1
+                continue
+
+            metadata = extract_email_metadata(ocr_text, candidate, i)
+            save_email(email_output_dir, metadata, ocr_text)
+            metadata_list.append(metadata)
+            extracted += 1
+
+            if i % 50 == 0:
+                logger.info(f"Progress: {i}/{len(candidates)} ({extracted} extracted, {failed} failed)")
+
+        except Exception as e:
+            logger.error(f"Error processing {candidate.get('file')}: {e}")
+            failed += 1
+
+    logger.info(f"\nExtraction complete!")
+    logger.info(f"Total: {len(candidates)} | Extracted: {extracted} | Failed: {failed}")
+
+    # Generate email index
+    email_index = generate_email_index(email_output_dir, metadata_list)
+    index_path = email_output_dir / "EMAIL_INDEX.json"
+    with open(index_path, 'w') as f:
+        json.dump(email_index, f, indent=2)
+
+    logger.info(f"Email index saved to: {index_path}")
+
+    # Generate summary report
+    summary_path = email_output_dir / "EXTRACTION_SUMMARY.md"
+    with open(summary_path, 'w') as f:
+        f.write(f"# Email Extraction Summary\n\n")
+        f.write(f"**Extraction Date**: {datetime.utcnow().isoformat()}\n\n")
+        f.write(f"## Statistics\n\n")
+        f.write(f"- **Total candidates**: {len(candidates)}\n")
+        f.write(f"- **Successfully extracted**: {extracted}\n")
+        f.write(f"- **Failed**: {failed}\n")
+        f.write(f"- **Success rate**: {extracted/len(candidates)*100:.1f}%\n\n")
+
+        f.write(f"## Confidence Distribution\n\n")
+        f.write(f"- **High (≥0.8)**: {email_index['by_confidence']['high']} emails\n")
+        f.write(f"- **Medium (≥0.6)**: {email_index['by_confidence']['medium']} emails\n")
+        f.write(f"- **Low (<0.6)**: {email_index['by_confidence']['low']} emails\n\n")
+
+        f.write(f"## Date Distribution\n\n")
+        sorted_dates = sorted(email_index['by_date'].items())
+        for date_dir, count in sorted_dates:
+            f.write(f"- **{date_dir}**: {count} emails\n")
+
+        f.write(f"\n## Top Senders\n\n")
+        sorted_senders = sorted(email_index['by_sender'].items(), key=lambda x: x[1], reverse=True)
+        for sender, count in sorted_senders[:20]:
+            f.write(f"- **{sender}**: {count} emails\n")
+
+        f.write(f"\n## Output Structure\n\n```\n")
+        f.write(f"data/emails/house_oversight_nov2025/\n")
+        f.write(f"├── YYYY-MM/\n")
+        f.write(f"│   ├── DOC-ID_metadata.json\n")
+        f.write(f"│   ├── DOC-ID_full.txt\n")
+        f.write(f"│   └── DOC-ID_body.txt\n")
+        f.write(f"└── undated/\n```\n")
+
+    logger.info(f"Summary report saved to: {summary_path}")
+    logger.info("\n✅ Email extraction complete!")
 
 
 if __name__ == "__main__":
-    exit(main())
+    main()

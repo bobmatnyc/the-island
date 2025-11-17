@@ -1,0 +1,17 @@
+{
+  "document_id": "DOJ-OGR-00001531",
+  "email_index": 9,
+  "extracted_at": "2025-11-17T04:14:45.437741",
+  "from_address": "ecf bounce@nhd.uscourts .gov",
+  "to_address": "nef@nhd.uscourts.gov",
+  "cc_address": null,
+  "subject": null,
+  "date": "Message-1d:2212948@nhd.uscourts.gov",
+  "body": "Message-1d:2212948@nhd.uscourts.gov\nSubject :Activity in Case 20-132 Sealed v. Sealed (Redacted Notice)\nContent-Type: text/html\nNOTE: This docket entry (or case) is sealed, no email notices have been sent.\nU.S. District Court\nDistrict of New Hampshire\nNotice of Electronic Filing\nThe following transaction was entered on 7/2/2020 at 9:45 AM EDT and filed on 7/2/2020\nCase Name: USA v. Maxwell\nCase Number: 1:20\u2014mj\u201400132\u2014AJ *SEALED*\nFiler:\nDocument Number: No document attached\nDocket Text:\nArrest (Removal) of Ghislaine Maxwell.(kad)\n1:20-\u2014mj\u201400132\u2014AJ *SEALED*-\u20141 No electronic public notice will be sent because the case/entry is\nsealed.",
+  "confidence": 0.7,
+  "email_addresses": [
+    "bounce@nhd.uscourts",
+    "nef@nhd.uscourts.gov",
+    "2212948@nhd.uscourts.gov"
+  ]
+}

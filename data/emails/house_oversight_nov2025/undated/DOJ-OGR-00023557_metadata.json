@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00023557",
+  "email_index": 98,
+  "extracted_at": "2025-11-17T04:14:45.466513",
+  "from_address": null,
+  "to_address": "BOP-IPP/PublicAffairs@bop.gov, Lee Plourde {DE} @bop. gov>",
+  "cc_address": null,
+  "subject": "Fwd: Epstein/Washington Post question",
+  "date": "8/26/19 3:00 PM (GMT-05:00)",
+  "body": ">>> [EDO 98/26/2019 15:00 >>>\n\nHi-\n\n(HOM from the Washington Post here. We are in the process of working on a story about the cameras outside Jeffrey Epstein's cell on the morn\nCan the BOP comment on that assertion? Is the functionality of cameras a larger issue at BOP or MCC? Are you able to say what other cameras might ha\nThank you,\n\nThe Washington Post\n(202) 629 cell)\nPage 772",
+  "confidence": 0.8999999999999999,
+  "email_addresses": [
+    "PublicAffairs@bop.gov"
+  ]
+}

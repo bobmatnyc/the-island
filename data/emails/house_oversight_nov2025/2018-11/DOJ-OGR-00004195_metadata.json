@@ -1,0 +1,19 @@
+{
+  "document_id": "DOJ-OGR-00004195",
+  "email_index": 34,
+  "extracted_at": "2025-11-17T04:14:45.445877",
+  "from_address": "Peter Skinner <PSkinner@BSFLLP.com>",
+  "to_address": "Kramer, Amanda (USANYS) <AKramer@usa.doj.gov>",
+  "cc_address": "StanPottinger@aol.com; brad@pathtojustice.com; Sigrid McCawley <Smccawley@BSFLLP.com>",
+  "subject": "FW: Virginia Guiffre",
+  "date": "Friday, November 30, 2018 4:02 PM",
+  "body": "Amanda,\nlam adding Sigrid McCawley to this email chain as well. As we mentioned\nearlier today, Sigrid is one of the lead attorneys on the case and knows both\nVirginia and the facts very well. Please include Sigrid in any follow-up that you\nmay.\nBest,\nPete\nSDNY_GM_02742761",
+  "confidence": 0.7,
+  "email_addresses": [
+    "AKramer@usa.doj.gov",
+    "brad@pathtojustice.com",
+    "StanPottinger@aol.com",
+    "Smccawley@BSFLLP.com",
+    "PSkinner@BSFLLP.com"
+  ]
+}

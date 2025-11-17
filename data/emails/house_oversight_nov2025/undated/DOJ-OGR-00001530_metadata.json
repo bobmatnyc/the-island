@@ -1,0 +1,25 @@
+{
+  "document_id": "DOJ-OGR-00001530",
+  "email_index": 10,
+  "extracted_at": "2025-11-17T04:14:45.438016",
+  "from_address": "ecf bounce@nhd.uscourts.gov",
+  "to_address": "nef@nhd.uscourts.gov",
+  "cc_address": null,
+  "subject": null,
+  "date": "Message-1d:2213529@nhd.uscourts.gov",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "bounce@nhd.uscourts.gov",
+    "usanh.ecfdocket@usdoj.gov",
+    "CaseView.ECF@usdoj.gov",
+    "2213529@nhd.uscourts.gov",
+    "kristina.mcnamara@usdoj.gov",
+    "USANH.ECFCriminal@usdoj.gov",
+    "caseview.ecf@usdoj.gov",
+    "usanh.ecfcriminal@usdoj.gov",
+    "john.davis8@usdoj.gov",
+    "nef@nhd.uscourts.gov",
+    "USANH.ECFDocket@usdoj.gov"
+  ]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "46c3c1ec-436f-432e-bf2b-dcf97f159118",
+    "url": "https://example.com/epstein-documents",
+    "description": "Test document source with important files about the case",
+    "source_name": "Example Archive",
+    "submitter_email": null,
+    "status": "approved",
+    "submitted_at": "2025-11-17T03:29:51.849524",
+    "submitted_by": "test_user",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "review_notes": "Looks like a good source!",
+    "priority": "critical",
+    "document_count_estimate": 500,
+    "tags": [
+      "court-docs",
+      "test"
+    ],
+    "processing_started_at": null,
+    "processing_completed_at": null,
+    "documents_ingested": null,
+    "error_message": null
+  }
+]

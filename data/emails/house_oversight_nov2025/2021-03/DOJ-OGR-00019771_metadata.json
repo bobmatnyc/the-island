@@ -1,0 +1,31 @@
+{
+  "document_id": "DOJ-OGR-00019771",
+  "email_index": 79,
+  "extracted_at": "2025-11-17T04:14:45.460294",
+  "from_address": "NYSD_ ECF Pool@nysd.uscourts.gov",
+  "to_address": "NYSD CourtMail",
+  "cc_address": null,
+  "subject": "Activity in Case 1:20-cr-00330-AJN USA v. Maxwell Appeal Record Sent to USCA - Electronic File",
+  "date": "Wednesday, March 24, 2021 11:31:59 AM",
+  "body": "Jeffrey S. Pagliuca jpagliuca@hmflaw.com, nsimmons@hmflaw.com\nLaura A. Menninger Imenninger@hmflaw.com, alundberg@hmflaw.com,\nhrogers@hmflaw.com, nsimmons@hmflaw.com\nBobbi C Sternheim bc@sternheimlaw.com, besternheim@mac.com,\necf@sternheimlaw.com\nChristian R. Everdell ceverdell@cohengresser.com, autodocket@cohengresser.com\nMark Stewart Cohen mcohen@cohengresser.com, Mark-Cohen-1234@ecf.pacerpro.com,\nautodocket@cohengresser.com, managingclerksoffice@cohengresser.com\nLara Elizabeth Pomerantz Lara.Pomerantz@usdoj.gov, CaseView.ECF@usdoj.gov,\nUSANYS.ECF@USDOJ.GOV",
+  "confidence": 0.7,
+  "email_addresses": [
+    "jpagliuca@hmflaw.com",
+    "mcohen@cohengresser.com",
+    "alundberg@hmflaw.com",
+    "Lara.Pomerantz@usdoj.gov",
+    "Mark-Cohen-1234@ecf.pacerpro.com",
+    "managingclerksoffice@cohengresser.com",
+    "Imenninger@hmflaw.com",
+    "bc@sternheimlaw.com",
+    "autodocket@cohengresser.com",
+    "hrogers@hmflaw.com",
+    "ecf@sternheimlaw.com",
+    "CaseView.ECF@usdoj.gov",
+    "besternheim@mac.com",
+    "USANYS.ECF@USDOJ.GOV",
+    "nsimmons@hmflaw.com",
+    "Pool@nysd.uscourts.gov",
+    "ceverdell@cohengresser.com"
+  ]
+}

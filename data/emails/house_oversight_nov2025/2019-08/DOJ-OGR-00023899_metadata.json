@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00023899",
+  "email_index": 126,
+  "extracted_at": "2025-11-17T04:14:45.474410",
+  "from_address": "Charisma Owens {@@@30(@@ gmail.com>",
+  "to_address": "Home <cedge@bop.gov>",
+  "cc_address": null,
+  "subject": "Guards at Jeffrey Epstein\u2019s jail mistakenly let another inmate go free; blunder came just days before accused perv\u2019s suicide - New York Daily News",
+  "date": "Thu, 22 Aug 2019 13:36:02 -0400",
+  "body": "https://www.nydailynews.com/new-york/ny-inmate-at-mcc-mistakenly-released-after-jeffrey-epstein-suicide-20190815-\nh2r76qnxnfcodp225goyte6y7a-story.html",
+  "confidence": 0.7,
+  "email_addresses": [
+    "cedge@bop.gov"
+  ]
+}

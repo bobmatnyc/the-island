@@ -337,6 +337,127 @@ async def get_stats(username: str = Depends(authenticate)):
         "sources": source_list  # Frontend expects this field
     }
 
+@app.get("/api/sources/index")
+async def get_sources_index(username: str = Depends(authenticate)):
+    """Get master document index with deduplication statistics.
+
+    Design Decision: Complete Source Provenance
+    Rationale: Provides comprehensive view of all document sources with
+    deduplication metrics for transparency and quality assessment.
+
+    Performance: Large file (~17MB) loaded on-demand, not cached in memory
+    to avoid memory bloat. Frontend caches response.
+
+    Returns:
+        {
+            "total_files": int,
+            "unique_documents": int,
+            "sources": [{name, total_files, unique_docs, total_size, status}, ...],
+            "cross_source_duplicates": [{document, sources, size}, ...]
+        }
+    """
+    try:
+        index_path = METADATA_DIR / "master_document_index.json"
+
+        if not index_path.exists():
+            return {
+                "total_files": 0,
+                "unique_documents": 0,
+                "sources": [],
+                "cross_source_duplicates": [],
+                "error": "Master document index not found"
+            }
+
+        # Load master index (on-demand, not cached due to size)
+        with open(index_path) as f:
+            index_data = json.load(f)
+
+        # Format sources for frontend
+        sources = []
+        source_info = index_data.get("sources", {})
+
+        # Calculate per-source statistics from documents array
+        source_stats = {}
+        documents = index_data.get("documents", [])
+
+        for doc in documents:
+            doc_sources = doc.get("sources", [])
+            doc_size = doc.get("size", 0)
+
+            # Track unique docs per source
+            for source_path in doc_sources:
+                # Extract source name from path (e.g., "data/sources/giuffre_maxwell/..." -> "giuffre_maxwell")
+                parts = Path(source_path).parts
+                source_name = parts[2] if len(parts) >= 3 and parts[0] == "data" and parts[1] == "sources" else "unknown"
+
+                if source_name not in source_stats:
+                    source_stats[source_name] = {
+                        "unique_docs": 0,
+                        "total_size": 0
+                    }
+
+                # Each document counts as one unique doc for each source it appears in
+                source_stats[source_name]["unique_docs"] += 1
+                source_stats[source_name]["total_size"] += doc_size
+
+        # Build sources list
+        for source_name, source_meta in source_info.items():
+            total_files = source_meta.get("document_count", 0)
+            stats = source_stats.get(source_name, {"unique_docs": total_files, "total_size": 0})
+
+            sources.append({
+                "name": source_name.replace("_", " ").title(),
+                "total_files": total_files,
+                "unique_docs": stats["unique_docs"],
+                "total_size": stats["total_size"],
+                "status": "downloaded" if total_files > 0 else "pending"
+            })
+
+        # Sort sources by total files (descending)
+        sources.sort(key=lambda x: x["total_files"], reverse=True)
+
+        # Find cross-source duplicates from documents with source_count > 1
+        cross_source = []
+        for doc in documents[:100]:  # Limit to first 100 for performance
+            if doc.get("source_count", 1) > 1:
+                doc_sources = doc.get("sources", [])
+                # Extract source names
+                source_names = set()
+                for source_path in doc_sources:
+                    parts = Path(source_path).parts
+                    if len(parts) >= 3 and parts[0] == "data" and parts[1] == "sources":
+                        source_names.add(parts[2])
+
+                if len(source_names) > 1:
+                    # Get document name from canonical path
+                    canonical = doc.get("canonical_path", "")
+                    doc_name = Path(canonical).name if canonical else "unknown"
+
+                    cross_source.append({
+                        "document": doc_name,
+                        "sources": sorted(list(source_names)),
+                        "file_count": len(doc_sources)
+                    })
+
+        return {
+            "total_files": index_data.get("total_files", 0),
+            "unique_documents": index_data.get("unique_documents", 0),
+            "sources": sources,
+            "cross_source_duplicates": cross_source
+        }
+
+    except Exception as e:
+        print(f"Error loading sources index: {e}")
+        import traceback
+        traceback.print_exc()
+        return {
+            "total_files": 0,
+            "unique_documents": 0,
+            "sources": [],
+            "cross_source_duplicates": [],
+            "error": str(e)
+        }
+
 @app.get("/api/ingestion/status")
 async def get_ingestion_status(username: str = Depends(authenticate)):
     """Get ingestion progress status

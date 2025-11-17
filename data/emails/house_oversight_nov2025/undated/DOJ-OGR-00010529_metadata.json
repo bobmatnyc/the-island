@@ -1,0 +1,21 @@
+{
+  "document_id": "DOJ-OGR-00010529",
+  "email_index": 65,
+  "extracted_at": "2025-11-17T04:14:45.455291",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "mcohen@cohengresser.com Imenninger@hmflaw.com besternheim@mac.com smccawley@bsfllp.com alison. moe@usdoj.gov maurene.comey(@usdoj.gov lara.pomerantz@usdoj.gov ktownsend@rcfp.org DOJ-OGR-00010529",
+  "subject": null,
+  "date": "06/21/22",
+  "body": "Imenninger@hmflaw.com\nbesternheim@mac.com\nsmccawley@bsfllp.com\nalison. moe@usdoj.gov\nmaurene.comey(@usdoj.gov\nlara.pomerantz@usdoj.gov\nktownsend@rcfp.org",
+  "confidence": 0.7,
+  "email_addresses": [
+    "smccawley@bsfllp.com",
+    "ktownsend@rcfp.org",
+    "Imenninger@hmflaw.com",
+    "besternheim@mac.com",
+    "mcohen@cohengresser.com",
+    "lara.pomerantz@usdoj.gov",
+    "moe@usdoj.gov"
+  ]
+}

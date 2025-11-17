@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00025840",
+  "email_index": 237,
+  "extracted_at": "2025-11-17T04:14:45.509903",
+  "from_address": null,
+  "to_address": "@bop.gov>",
+  "cc_address": null,
+  "subject": "Fwd: Washington Post reporter reaching out",
+  "date": "7/23/19 6:32 PM (GMT-05:00)",
+  "body": "</div>\nafer) f@washpost.com> 07/23/2019 18:00 >>>\nMi,\nI'm told that MCC inmate Jeffrey Epstein was found unconscious and unresponsive in his jail cell, and that there is currently an internal inquiry to determ\n\n[Per an you please call?\nThanks,\nWashington Post\nPage 9889",
+  "confidence": 0.8999999999999999,
+  "email_addresses": [
+    "f@washpost.com"
+  ]
+}

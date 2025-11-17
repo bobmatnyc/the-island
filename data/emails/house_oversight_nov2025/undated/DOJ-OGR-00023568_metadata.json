@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00023568",
+  "email_index": 99,
+  "extracted_at": "2025-11-17T04:14:45.466795",
+  "from_address": "(GTEC \u00a9 washpost.com>",
+  "to_address": "BOP-IPP/PublicAffairs@bop.gav, Lee Plourde {ioe bop.gov>",
+  "cc_address": null,
+  "subject": "Re: Fwd: Epstein/Washington Post question",
+  "date": "8/26/19 3:00 PM (GMT-05:00)",
+  "body": ">> HGNC) | 08/26/2019 15:00 >>>\nHi-\n\n(XO. OME) from the Washington Post here. We are in the process of working ona story about the cameras outside Jeffrey Epstein's cell on the morning of his death. 1\nCan the BOP comment on that assertion? Is the functionality of cameras a larger issue at BOP or MCC? Are you able to say what other cameras might have captured that ni\nThank you,\n\n| The Washington Post\n(cell)\nPage 850",
+  "confidence": 0.8999999999999999,
+  "email_addresses": [
+    "PublicAffairs@bop.gav"
+  ]
+}

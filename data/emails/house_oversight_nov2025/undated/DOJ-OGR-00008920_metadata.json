@@ -1,0 +1,17 @@
+{
+  "document_id": "DOJ-OGR-00008920",
+  "email_index": 57,
+  "extracted_at": "2025-11-17T04:14:45.453141",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "counsel for all parties (via email) DOJ-OGR-00008920",
+  "subject": null,
+  "date": "02/11/22",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "ADLowell@winston.com",
+    "CMan@winston.com",
+    "jbrudin@rudinlaw.com"
+  ]
+}

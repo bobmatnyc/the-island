@@ -1,0 +1,18 @@
+{
+  "document_id": "DOJ-OGR-00004198",
+  "email_index": 35,
+  "extracted_at": "2025-11-17T04:14:45.446166",
+  "from_address": "Kramer, Amanda (USANYS)",
+  "to_address": "Moe, Alison (USANYS); Rossmiller, Alexander (USANYS)",
+  "cc_address": "Brad@pathtojustice.com; Smccawley@BSFLLP.com",
+  "subject": "FW: Contact Info i (from ",
+  "date": "Thursday, December 6, 2018 1:40:33 PM",
+  "body": "Subj: (no subject)\n\nSent from my Samsung Galaxy smartphone.\n\nCONFIDENTIAL nl",
+  "confidence": 0.7,
+  "email_addresses": [
+    "StanPottinger@aol.com",
+    "AKramer@usa.doj.gov",
+    "Brad@pathtojustice.com",
+    "Smccawley@BSFLLP.com"
+  ]
+}

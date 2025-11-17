@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00025926",
+  "email_index": 247,
+  "extracted_at": "2025-11-17T04:14:45.513225",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": null,
+  "subject": "Re: hi and a question",
+  "date": "7/25/19 9:20 AM (GMT-05:00)",
+  "body": "Toy (@b op.gov>\nSnhiect: hi and a anection\nPage 11595",
+  "confidence": 0.8999999999999999,
+  "email_addresses": [
+    "p@bop.gov"
+  ]
+}

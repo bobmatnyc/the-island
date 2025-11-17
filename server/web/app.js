@@ -422,6 +422,10 @@ function switchTab(tabName, clickedTab) {
     if (tabName === 'ingestion') {
         loadIngestionStatus();
     }
+
+    if (tabName === 'sources') {
+        loadSources();
+    }
 }
 
 // Load network data
@@ -1178,4 +1182,240 @@ function showEntityDetails(entityName) {
     } else {
         selectNode(entityName);
     }
+}
+
+// ===== SOURCES TAB FUNCTIONS =====
+
+// Sources feature state
+let sourcesData = null;
+let filteredSources = null;
+let currentSortColumn = 'total';
+let currentSortDirection = 'desc';
+
+async function loadSources() {
+    // Only load once
+    if (sourcesData) {
+        renderSourcesTable();
+        renderCrossSourceAnalysis();
+        return;
+    }
+
+    try {
+        // Load master document index
+        const response = await fetch(`${API_BASE}/sources/index`, {
+            credentials: 'include'
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to load sources');
+        }
+
+        sourcesData = await response.json();
+        filteredSources = sourcesData.sources;
+
+        // Update summary cards
+        document.getElementById('total-files').textContent = sourcesData.total_files.toLocaleString();
+        document.getElementById('unique-docs').textContent = sourcesData.unique_documents.toLocaleString();
+        document.getElementById('duplicates-removed').textContent =
+            (sourcesData.total_files - sourcesData.unique_documents).toLocaleString();
+        const dedupRate = ((sourcesData.total_files - sourcesData.unique_documents) / sourcesData.total_files * 100).toFixed(1);
+        document.getElementById('dedup-rate').textContent = dedupRate + '%';
+
+        // Render sources table
+        renderSourcesTable();
+
+        // Render cross-source analysis
+        renderCrossSourceAnalysis();
+
+    } catch (error) {
+        console.error('Error loading sources:', error);
+        document.getElementById('total-files').textContent = 'Error';
+        document.getElementById('unique-docs').textContent = 'Error';
+        document.getElementById('duplicates-removed').textContent = 'Error';
+        document.getElementById('dedup-rate').textContent = 'Error';
+
+        document.getElementById('sources-tbody').innerHTML = `
+            <tr>
+                <td colspan="6" style="text-align: center; padding: 40px;">
+                    <div class="chat-message system">Error loading sources: ${error.message}</div>
+                </td>
+            </tr>
+        `;
+    }
+}
+
+function renderSourcesTable() {
+    const tbody = document.getElementById('sources-tbody');
+    tbody.innerHTML = '';
+
+    if (!filteredSources || filteredSources.length === 0) {
+        tbody.innerHTML = `
+            <tr>
+                <td colspan="6" style="text-align: center; padding: 40px;">
+                    <div class="chat-message system">No sources match your filter</div>
+                </td>
+            </tr>
+        `;
+        return;
+    }
+
+    filteredSources.forEach(source => {
+        const row = document.createElement('tr');
+
+        const duplicates = source.total_files - source.unique_docs;
+        const dedupRate = source.total_files > 0 ? ((duplicates / source.total_files) * 100).toFixed(1) : '0.0';
+
+        row.innerHTML = `
+            <td><strong>${source.name}</strong></td>
+            <td>${source.total_files.toLocaleString()}</td>
+            <td>${source.unique_docs.toLocaleString()}</td>
+            <td>${duplicates.toLocaleString()}</td>
+            <td>${dedupRate}%</td>
+            <td>${formatFileSize(source.total_size)}</td>
+        `;
+
+        tbody.appendChild(row);
+    });
+}
+
+function filterSources(filterType) {
+    if (!sourcesData) return;
+
+    // Update active button
+    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+
+    // Filter sources
+    if (filterType === 'all') {
+        filteredSources = sourcesData.sources;
+    } else if (filterType === 'downloaded') {
+        filteredSources = sourcesData.sources.filter(s => s.status === 'downloaded');
+    } else if (filterType === 'large') {
+        filteredSources = sourcesData.sources.filter(s => s.total_files > 1000);
+    }
+
+    // Re-apply search if active
+    const searchValue = document.getElementById('source-search').value;
+    if (searchValue.trim()) {
+        searchSources(searchValue);
+    } else {
+        renderSourcesTable();
+    }
+}
+
+function searchSources(query) {
+    if (!sourcesData) return;
+
+    const currentFilter = document.querySelector('.filter-btn.active')?.textContent.toLowerCase();
+    let baseList = sourcesData.sources;
+
+    // Apply filter first
+    if (currentFilter && currentFilter.includes('downloaded')) {
+        baseList = baseList.filter(s => s.status === 'downloaded');
+    } else if (currentFilter && currentFilter.includes('large')) {
+        baseList = baseList.filter(s => s.total_files > 1000);
+    }
+
+    // Then apply search
+    if (!query.trim()) {
+        filteredSources = baseList;
+    } else {
+        const lowerQuery = query.toLowerCase();
+        filteredSources = baseList.filter(s =>
+            s.name.toLowerCase().includes(lowerQuery)
+        );
+    }
+
+    renderSourcesTable();
+}
+
+function sortSourcesTable(column) {
+    if (!filteredSources) return;
+
+    // Toggle direction if clicking same column
+    if (currentSortColumn === column) {
+        currentSortDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
+    } else {
+        currentSortColumn = column;
+        currentSortDirection = 'desc';
+    }
+
+    // Sort the filtered sources
+    filteredSources.sort((a, b) => {
+        let valA, valB;
+
+        switch (column) {
+            case 'name':
+                valA = a.name.toLowerCase();
+                valB = b.name.toLowerCase();
+                break;
+            case 'total':
+                valA = a.total_files;
+                valB = b.total_files;
+                break;
+            case 'unique':
+                valA = a.unique_docs;
+                valB = b.unique_docs;
+                break;
+            case 'duplicates':
+                valA = a.total_files - a.unique_docs;
+                valB = b.total_files - b.unique_docs;
+                break;
+            case 'rate':
+                valA = a.total_files > 0 ? (a.total_files - a.unique_docs) / a.total_files : 0;
+                valB = b.total_files > 0 ? (b.total_files - b.unique_docs) / b.total_files : 0;
+                break;
+            case 'size':
+                valA = a.total_size;
+                valB = b.total_size;
+                break;
+            default:
+                return 0;
+        }
+
+        // Compare values
+        if (typeof valA === 'string') {
+            return currentSortDirection === 'asc' ?
+                valA.localeCompare(valB) : valB.localeCompare(valA);
+        } else {
+            return currentSortDirection === 'asc' ?
+                valA - valB : valB - valA;
+        }
+    });
+
+    renderSourcesTable();
+}
+
+function formatFileSize(bytes) {
+    if (!bytes || bytes === 0) return '0 B';
+    if (bytes < 1024) return bytes + ' B';
+    if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+    if (bytes < 1024 * 1024 * 1024) return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+    return (bytes / (1024 * 1024 * 1024)).toFixed(1) + ' GB';
+}
+
+function renderCrossSourceAnalysis() {
+    const container = document.getElementById('duplicate-details');
+
+    if (!sourcesData || !sourcesData.cross_source_duplicates || sourcesData.cross_source_duplicates.length === 0) {
+        container.innerHTML = '<div style="text-align: center; padding: 20px;"><div class="chat-message system">No cross-source duplicates found.</div></div>';
+        return;
+    }
+
+    let html = '';
+    const duplicates = sourcesData.cross_source_duplicates.slice(0, 20); // Top 20
+
+    duplicates.forEach(dup => {
+        html += `
+            <div class="duplicate-item">
+                <div class="duplicate-item-name">${dup.document}</div>
+                <div class="duplicate-item-sources">
+                    Found in ${dup.sources.length} sources (${dup.file_count} total files):
+                    ${dup.sources.map(s => `<span class="source-badge">${s}</span>`).join('')}
+                </div>
+            </div>
+        `;
+    });
+
+    container.innerHTML = html;
 }

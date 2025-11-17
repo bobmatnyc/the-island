@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00033147.pdf",
+  "ocr_date": "2025-11-16T22:15:27.013113",
+  "text_length": 2914,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "jgoldberger@agwpa.com"
+  ]
+}

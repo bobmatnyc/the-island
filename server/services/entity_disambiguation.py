@@ -1,0 +1,295 @@
+#!/usr/bin/env python3
+"""
+Entity Disambiguation Service
+Handles name normalization and alias resolution for entity queries
+"""
+
+from typing import Dict, Set, Optional
+import re
+
+
+class EntityDisambiguation:
+    """Service for resolving entity name variations to canonical forms"""
+
+    # Known aliases mapping variations to canonical names
+    ENTITY_ALIASES: Dict[str, str] = {
+        # Jeffrey Epstein variations
+        "Je Je Epstein": "Jeffrey Epstein",
+        "Je        Je Epstein": "Jeffrey Epstein",
+        "Je Epstein": "Jeffrey Epstein",
+        "JE": "Jeffrey Epstein",
+        "J Epstein": "Jeffrey Epstein",
+        "Jeff Epstein": "Jeffrey Epstein",
+
+        # Ghislaine Maxwell variations
+        "Ghislaine Ghislaine": "Ghislaine Maxwell",
+        "Ghislaine": "Ghislaine Maxwell",
+        "G Maxwell": "Ghislaine Maxwell",
+
+        # Common duplicated first names (from flight logs OCR issues)
+        "Nadia Nadia": "Nadia Marcinko",
+        "Celina      Celina Dubin": "Celina Dubin",
+        "Eva         Eva Dubin": "Eva Dubin",
+        "Glenn       Glenn Dubin": "Glenn Dubin",
+        "Jordan      Jordan Dubin": "Jordan Dubin",
+        "Maya        Maya Dubin": "Maya Dubin",
+        "Virginia   Virginia Roberts": "Virginia Roberts",
+        "Teala       Teala Davies": "Teala Davies",
+        "Emmy       Emmy Tayler": "Emmy Tayler",
+
+        # Bill Clinton variations
+        "Bill Clinton": "William Clinton",
+        "President Clinton": "William Clinton",
+        "B Clinton": "William Clinton",
+
+        # Donald Trump variations
+        "Donald      Donald Trump": "Donald Trump",
+        "President Trump": "Donald Trump",
+        "D Trump": "Donald Trump",
+
+        # Prince Andrew variations
+        "Prince Andrew": "Andrew Windsor",
+        "Duke of York": "Andrew Windsor",
+        "HRH Andrew": "Andrew Windsor",
+    }
+
+    # Reverse mapping: canonical -> all known variations
+    CANONICAL_TO_VARIATIONS: Dict[str, Set[str]] = {}
+
+    def __init__(self):
+        """Initialize disambiguation service and build reverse mappings"""
+        self._build_reverse_mappings()
+
+    def _build_reverse_mappings(self) -> None:
+        """Build canonical -> variations reverse index"""
+        for variation, canonical in self.ENTITY_ALIASES.items():
+            if canonical not in self.CANONICAL_TO_VARIATIONS:
+                self.CANONICAL_TO_VARIATIONS[canonical] = {canonical}
+            self.CANONICAL_TO_VARIATIONS[canonical].add(variation)
+
+    def normalize_name(self, name: str) -> str:
+        """Normalize entity name to canonical form
+
+        Args:
+            name: Input name (may be variation or canonical)
+
+        Returns:
+            Canonical name or original if no mapping exists
+
+        Examples:
+            >>> disambiguator.normalize_name("Je Je Epstein")
+            "Jeffrey Epstein"
+            >>> disambiguator.normalize_name("Ghislaine Ghislaine")
+            "Ghislaine Maxwell"
+        """
+        # Direct alias lookup
+        if name in self.ENTITY_ALIASES:
+            return self.ENTITY_ALIASES[name]
+
+        # Remove extra whitespace (common OCR issue)
+        cleaned = re.sub(r'\s+', ' ', name.strip())
+        if cleaned in self.ENTITY_ALIASES:
+            return self.ENTITY_ALIASES[cleaned]
+
+        # Check for duplicated first names pattern (OCR artifact)
+        # Example: "John      John Smith" -> "John Smith"
+        parts = cleaned.split()
+        if len(parts) >= 2 and parts[0] == parts[1]:
+            deduplicated = ' '.join(parts[1:])
+            if deduplicated in self.ENTITY_ALIASES:
+                return self.ENTITY_ALIASES[deduplicated]
+            # Return deduplicated form even if not in aliases
+            return deduplicated
+
+        # Return original name if no normalization found
+        return name
+
+    def get_all_variations(self, canonical_name: str) -> Set[str]:
+        """Get all known variations for a canonical name
+
+        Args:
+            canonical_name: Canonical form of entity name
+
+        Returns:
+            Set of all known variations (including canonical)
+
+        Examples:
+            >>> disambiguator.get_all_variations("Jeffrey Epstein")
+            {"Jeffrey Epstein", "Je Je Epstein", "Je Epstein", "JE", ...}
+        """
+        return self.CANONICAL_TO_VARIATIONS.get(canonical_name, {canonical_name})
+
+    def search_entity(self, query: str, entity_dict: Dict[str, any]) -> Optional[any]:
+        """Search entity dictionary with disambiguation support
+
+        Args:
+            query: Search query (may be canonical or variation)
+            entity_dict: Dictionary keyed by entity names
+
+        Returns:
+            Entity data if found, None otherwise
+
+        Examples:
+            >>> data = disambiguator.search_entity("Je Je Epstein", entities)
+            # Searches for "Jeffrey Epstein" if no direct match
+        """
+        # Direct match first
+        if query in entity_dict:
+            return entity_dict[query]
+
+        # Try normalized form
+        canonical = self.normalize_name(query)
+        if canonical in entity_dict:
+            return entity_dict[canonical]
+
+        # Try all variations of canonical form
+        for variation in self.get_all_variations(canonical):
+            if variation in entity_dict:
+                return entity_dict[variation]
+
+        # Case-insensitive fallback
+        query_lower = query.lower()
+        for entity_name, entity_data in entity_dict.items():
+            if entity_name.lower() == query_lower:
+                return entity_data
+
+        return None
+
+    def merge_duplicate_nodes(self, nodes: list[dict]) -> list[dict]:
+        """Merge duplicate entity nodes based on canonical names
+
+        Args:
+            nodes: List of entity nodes with 'name' field
+
+        Returns:
+            Deduplicated list of nodes with merged connection counts
+
+        Design Decision: Name Deduplication Strategy
+
+        Rationale: Flight logs contain OCR artifacts with duplicated first names
+        ("Je        Je Epstein", "Ghislaine Ghislaine", etc.). This creates
+        duplicate nodes in network graphs and inflates entity counts.
+
+        Approach: Normalize all names to canonical form, merge nodes with same
+        canonical name by summing their connection_count and flight_count.
+
+        Trade-offs:
+        - Accuracy vs. Deduplication: Aggressive normalization risks merging
+          distinct entities with similar names. Mitigated by explicit alias
+          dictionary rather than fuzzy matching.
+        - Performance: O(n) pass over nodes, acceptable for <10k entities
+        - Data Loss: Preserves billionaire status, categories via union
+
+        Examples:
+            Input: [{"name": "Je Je Epstein", "connection_count": 162},
+                    {"name": "Jeffrey Epstein", "connection_count": 50}]
+            Output: [{"name": "Jeffrey Epstein", "connection_count": 212}]
+        """
+        canonical_nodes: Dict[str, dict] = {}
+
+        for node in nodes:
+            original_name = node.get("name", node.get("id", ""))
+            canonical_name = self.normalize_name(original_name)
+
+            if canonical_name in canonical_nodes:
+                # Merge with existing canonical node
+                existing = canonical_nodes[canonical_name]
+                existing["connection_count"] = (
+                    existing.get("connection_count", 0) +
+                    node.get("connection_count", 0)
+                )
+                existing["flight_count"] = (
+                    existing.get("flight_count", 0) +
+                    node.get("flight_count", 0)
+                )
+                # Preserve billionaire status if either is true
+                existing["is_billionaire"] = (
+                    existing.get("is_billionaire", False) or
+                    node.get("is_billionaire", False)
+                )
+                # Union of categories
+                existing_cats = set(existing.get("categories", []))
+                new_cats = set(node.get("categories", []))
+                existing["categories"] = list(existing_cats | new_cats)
+            else:
+                # Create new canonical node
+                canonical_node = node.copy()
+                canonical_node["name"] = canonical_name
+                canonical_node["id"] = canonical_name
+                canonical_node["original_names"] = [original_name]
+                canonical_nodes[canonical_name] = canonical_node
+
+        return list(canonical_nodes.values())
+
+    def deduplicate_edges(self, edges: list[dict], node_mapping: Dict[str, str]) -> list[dict]:
+        """Deduplicate network edges after node merging
+
+        Args:
+            edges: List of edges with 'source', 'target', 'weight' fields
+            node_mapping: Mapping from original names to canonical names
+
+        Returns:
+            Deduplicated edges with merged weights
+
+        Design Decision: Edge Consolidation
+
+        After merging duplicate nodes, edges between the same canonical entities
+        must be consolidated. Multiple edges may exist due to OCR name variations.
+
+        Approach: Update source/target to canonical names, merge edges with same
+        (source, target) pair by summing weights.
+
+        Examples:
+            Input: [{"source": "Je Je Epstein", "target": "Ghislaine Ghislaine", "weight": 100},
+                    {"source": "Jeffrey Epstein", "target": "Ghislaine Maxwell", "weight": 128}]
+            Output: [{"source": "Jeffrey Epstein", "target": "Ghislaine Maxwell", "weight": 228}]
+        """
+        canonical_edges: Dict[tuple[str, str], dict] = {}
+
+        for edge in edges:
+            source_canonical = self.normalize_name(edge.get("source", ""))
+            target_canonical = self.normalize_name(edge.get("target", ""))
+
+            # Skip self-loops
+            if source_canonical == target_canonical:
+                continue
+
+            # Normalize edge direction (ensure consistent ordering)
+            edge_key = tuple(sorted([source_canonical, target_canonical]))
+
+            if edge_key in canonical_edges:
+                # Merge weights
+                canonical_edges[edge_key]["weight"] += edge.get("weight", 1)
+            else:
+                # Create new canonical edge
+                canonical_edges[edge_key] = {
+                    "source": edge_key[0],
+                    "target": edge_key[1],
+                    "weight": edge.get("weight", 1),
+                    "label": edge.get("label", "")
+                }
+
+        return list(canonical_edges.values())
+
+    def add_alias(self, variation: str, canonical: str) -> None:
+        """Add new alias mapping dynamically
+
+        Args:
+            variation: Name variation to map
+            canonical: Canonical form to map to
+        """
+        self.ENTITY_ALIASES[variation] = canonical
+        if canonical not in self.CANONICAL_TO_VARIATIONS:
+            self.CANONICAL_TO_VARIATIONS[canonical] = {canonical}
+        self.CANONICAL_TO_VARIATIONS[canonical].add(variation)
+
+
+# Global singleton instance
+_disambiguator_instance: Optional[EntityDisambiguation] = None
+
+def get_disambiguator() -> EntityDisambiguation:
+    """Get global EntityDisambiguation instance (lazy singleton)"""
+    global _disambiguator_instance
+    if _disambiguator_instance is None:
+        _disambiguator_instance = EntityDisambiguation()
+    return _disambiguator_instance

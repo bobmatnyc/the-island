@@ -1,0 +1,17 @@
+{
+  "document_id": "DOJ-OGR-00023941",
+  "email_index": 130,
+  "extracted_at": "2025-11-17T04:14:45.476695",
+  "from_address": "NEWS12BKLN <NEWS12BKLN@news12.com>",
+  "to_address": "\"BOP-IPP/PublicAffairs@bop.gov\" <BOP-IPP/PublicAffairs@bop.gov>, \"BRO/ExecAssistant@bop.gov\" <BRO/ExecAssistant@bop.gov>",
+  "cc_address": null,
+  "subject": "News 12 Inquiry- Jeffrey Epstein",
+  "date": "Thu, 25 Jul 2019 10:39:12 +0000",
+  "body": "Good morning,\n\nReaching out in response to reports that Jeffrey Epstein, being held at Metropolitan Correctional Center in Manhattan, was found\ninjured in his cell after a possible suicide attempt, allegedly semi-conscious with marks on his neck.\nCan you provide a statement in response to these reports and clarify what happened? Is there a possibility that Epstein will be\ntransferred to another facility?\nFeel free to give us a call at 718-8613]\nThank you.\nBest,\nAssignment el\nNews 12 The Bronx/Brooklyn\nnews12.com\n719-00 1-\n\nThe information transmitted in this email and any of its attachments is intended only for the person or entity to which it is\naddressed and may contain information concerning Altice USA and/or its affiliates and subsidiaries that is proprietary, privileged,\nconfidential and/or subject to copyright. Any review, retransmission, dissemination or other use of, or taking of any action in\nreliance upon, this information by persons or entities other than the intended recipient(s) is prohibited and may be unlawful. If you\nreceived this in error, please contact the sender immediately and delete and destroy the communication and all of the attachments\nyou have received and all copies thereof.",
+  "confidence": 0.7,
+  "email_addresses": [
+    "ExecAssistant@bop.gov",
+    "PublicAffairs@bop.gov",
+    "NEWS12BKLN@news12.com"
+  ]
+}

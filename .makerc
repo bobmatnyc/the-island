@@ -1,0 +1,22 @@
+# Makefile Configuration
+# Environment variables for Epstein Document Archive Makefile
+
+# Python configuration
+PYTHON_VERSION=3.11
+
+# Development server
+DEV_HOST=0.0.0.0
+DEV_PORT=8000
+
+# Database backup retention (days)
+BACKUP_RETENTION=30
+
+# Log rotation size (MB)
+LOG_MAX_SIZE=100
+
+# OCR processing
+OCR_WORKERS=10
+OCR_TIMEOUT=300
+
+# Classification confidence threshold
+CLASSIFICATION_THRESHOLD=0.5

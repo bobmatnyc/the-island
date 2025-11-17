@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00008809",
+  "email_index": 55,
+  "extracted_at": "2025-11-17T04:14:45.452714",
+  "from_address": null,
+  "to_address": "The Clerk of Court and all parties of record  am admitted or otherwise authorized to practice in this Court, and  appear in this case as counsel for JURY NUMBER 50.",
+  "cc_address": "All Counsel (By ECF). DOJ-OGR-00008809",
+  "subject": null,
+  "date": "01/05/22",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "ts@spodeklawgroup.com"
+  ]
+}

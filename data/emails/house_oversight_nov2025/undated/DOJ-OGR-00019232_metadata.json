@@ -1,0 +1,31 @@
+{
+  "document_id": "DOJ-OGR-00019232",
+  "email_index": 72,
+  "extracted_at": "2025-11-17T04:14:45.458078",
+  "from_address": "ecf bounce@nhd.uscourts.gov",
+  "to_address": "nef@nhd.uscourts.gov",
+  "cc_address": null,
+  "subject": "Activity in Case 1:20-mj-00132-AJ USA v. Maxwell Notice of Hearing Content-Type: text/html US. District Court District of New Hampshire Notice of Electronic Filing The following transaction was entered on 7/2/2020 at 12:09 PM EDT and filed on 7/2/2020 Case Name: USA v. Maxwell Case Number: 1:20\u2014mj\u201400132\u2014AJ",
+  "date": "Message\u2014-Id:2213049@nhd.uscourts.gov",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "USANH.ECFCriminal@usdoj.gov",
+    "kristina.mcnamara@usdoj.gov",
+    "bounce@nhd.uscourts.gov",
+    "brenda.mikelson2@usdoj.gov",
+    "usanh.ecfdocket@usdoj.gov",
+    "kathleen.renaud@usdoj.gov",
+    "wanda.dechaine@usdoj.gov",
+    "2213049@nhd.uscourts.gov",
+    "nef@nhd.uscourts.gov",
+    "usanh.ecfcriminal@usdoj.gov",
+    "kimberly.dow@usdoj.gov",
+    "caseview.ecf@usdoj.gov",
+    "eugene.robinson2@usdoj.gov",
+    "mcnamara@usdoj.gov",
+    "USANH.ECFDocket@usdoj.gov",
+    "john.davis8@usdoj.gov",
+    "cmecf@nhp.uscourts.gov"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "document_id": "DOJ-OGR-00031096",
+  "email_index": 287,
+  "extracted_at": "2025-11-17T04:14:45.526329",
+  "from_address": "Cabato, Nilda",
+  "to_address": "'jrecarey@palmbeachpolice.com'",
+  "cc_address": null,
+  "subject": "Sarah L. Kellen Detective Joe Recarey, Below is the subject's photo image. Please call me if you have any questions or concerns. Nilda . Cabato Supervising Driver License Clerk K 808-832-4116 S 808-832-2904 fax# S DOJ-OGR-00031096",
+  "date": "Monday, November 07, 2005 7:14 AM",
+  "body": "Detective Joe Recarey,\nBelow is the subject's photo image. Please call me if you have any questions or concerns.\nNilda |. Cabato\nSupervising Driver License Clerk K\n808-832-4116 S\n808-832-2904 fax# S",
+  "confidence": 0.7,
+  "email_addresses": [
+    "ncabato@honolulu.gov",
+    "jrecarey@palmbeachpolice.com"
+  ]
+}

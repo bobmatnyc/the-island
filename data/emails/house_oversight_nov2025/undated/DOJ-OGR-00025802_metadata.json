@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00025802",
+  "email_index": 230,
+  "extracted_at": "2025-11-17T04:14:45.507300",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": null,
+  "subject": "Re: Suicide Watch/Psych Observation Update Attachments; TEXT.htm Good morning, You assessed inmate Epstein today? Sent from my Verizon, Samsung Galaxy smartphone -------- Original message -------- Fromm Jabop.gov>",
+  "date": "7/27/19 6:08 AM (GMT-05:00)",
+  "body": "OE Page 9517",
+  "confidence": 0.8999999999999999,
+  "email_addresses": [
+    "f@bop.gov"
+  ]
+}

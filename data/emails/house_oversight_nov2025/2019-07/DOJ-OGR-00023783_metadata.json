@@ -1,0 +1,16 @@
+{
+  "document_id": "DOJ-OGR-00023783",
+  "email_index": 116,
+  "extracted_at": "2025-11-17T04:14:45.471470",
+  "from_address": "Adam Johnson <al0johnson@bop.gov>",
+  "to_address": "Miller, Michael <mmiller@steptoe.com>",
+  "cc_address": null,
+  "subject": "RE: EPSTEIN, Jeffrey, reg. no. 76318-054",
+  "date": "Tuesday, July 30, 2019 12:59 PM",
+  "body": "Good morning Mike,\n| wanted to let you know that there may be a brief delay in getting your client to attorney-conference this\nmorning as he is getting a shower, haircut, medical assessment, etc.\nThank you,\nAdam\nPage 2935",
+  "confidence": 0.7,
+  "email_addresses": [
+    "mmiller@steptoe.com",
+    "al0johnson@bop.gov"
+  ]
+}

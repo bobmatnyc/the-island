@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00011288",
+  "email_index": 68,
+  "extracted_at": "2025-11-17T04:14:45.456421",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "All Counsel of Record (By ECF) 2053489. 1 DOJ-OGR-00011288",
+  "subject": null,
+  "date": "07/12/22",
+  "body": "2053489. 1",
+  "confidence": 0.7,
+  "email_addresses": [
+    "ceverdell@cohengresser.com"
+  ]
+}
