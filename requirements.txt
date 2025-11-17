@@ -11,5 +11,14 @@ pytesseract>=0.3.10
 Pillow>=10.0.0
 pdf2image>=1.16.3
 
-# Optional: Ollama integration
+# LLM Integration
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Web search and enrichment
+httpx>=0.25.0
+beautifulsoup4>=4.12.0
+html5lib>=1.1
+
+# Optional: Ollama integration (deprecated)
 # ollama-python>=0.1.0
