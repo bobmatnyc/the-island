@@ -1,0 +1,38 @@
+Fed =< Invoice Number: 4-495-33932
+e Invoice Date: Dec 16, 2002
+Account Number: 1144-2081-6
+Page: 8of 15
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 10, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a [vel surcharge of 4.00% |o this shipmen|
+Cistance Based Pricing, Zone 8
+Package seni from: 10021 zip code
+Tracking ID 837133965314 Sender Recpient
+Service Type FedEx Standard Overnighi G MAXWELL ISABEL MAXWELL
+Package Type FedEx Box JEFFREY E EPSTEIN
+Zone 8 457 MADISON AVE
+Packages 1 NEW YORK NY 10022 6843 US
+Weight 3.0 Ibs, 1.4 kgs
+Delivered Dec 11, 2002 13:40 Transportation Charge 28.75
+Sara =A Discount 288
+wey oe Declared Value Change 0.00
+Dec. Value USD 20.00 Fuel Surcharge 1.03
+FedEx Use 3462047 10/014 15/_ Courier Pickup Charge 0.00
+Residential Delivery 1.35
+Total Transportation Charges USD $ 28.25
+Picked up: Dec 10, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a fuel surchame of 4.00% lo this shipment.
+Déslance Based Pricing, Zone 8
+Package sent from: 10021 zp code
+Tracking ID 837133955380 Sender Recpient
+Service Type FedEx 2Day G MAXWELL
+Package Type Customer Packaging JEFFREY E EPSTEIN
+Zone 8 457 MADISON AVE
+Packages 1 NEW YORK NY 10022 6843 US
+Weight §.0 Ibs, 2.3 kgs
+Delivered = Dec 12, 200208:38 Transporiation Change 16.75
+Sve Area Al Discount -1.68
+Signed by C.WOOD Peed fexbange 0.60
+FedEx Use 346204710/06112/ Courier Pickup Charge 0.00
+Total Transportation Charges USD$ 15.67
+DOJ-OGR-00016056

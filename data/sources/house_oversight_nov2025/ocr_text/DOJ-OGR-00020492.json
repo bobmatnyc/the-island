@@ -1,0 +1,13 @@
+{
+  "source_pdf": "DOJ-OGR-00020492.pdf",
+  "ocr_date": "2025-11-16T21:43:28.863411",
+  "text_length": 1278,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "smccawley@bsfllp.com",
+    "dboies@bsfllp.com",
+    "alexander.rossmiller@usdoj.gov",
+    "ktownsend@rcfp.org"
+  ]
+}

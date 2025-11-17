@@ -1,0 +1,28 @@
+Invoice Number: 7-153-78512
+ee # :
+a Invoice Date: Dec 12, 2002
+- Account Number: 1144-2081-6
+Page: 4of5
+FedEx Express Shipment Detail By Payment Type (Original)
+Shipped: Dec 06,2002 Payor: Shipper Reference: 343-FX5060
+Still in bond cage.
+Tracking ID 828821139729 Sender_ Recipient
+Service Type FedEx Intl Economy S KERLEN VALDSON COTRIN
+Package Type Customer Packaging JEFFREY E EPSTE N J EPSTEIN
+Orig/Dest FLU/TNF 457 MADISON AVE 22 AVENUE FOCH
+Packages 0 NEW YORK NY 10022-6843 US APT 2DD
+Weight 0 PARIS FR
+Delivered Dec 12, 2002 09 20
+Signed by _GARDIENNE Dec 06, 2002 - Conversion Rate EUR USD 1.0185714290
+Bundle ID Transportation Charge 0.00
+FedecUse: 16456/_/60 Total Transportation Charges USD $ 0.00
+Customs Customs Duty EUR 7.00 7.13
+Entry Date Dec 09, 2002 Original VAT EUR 49.00 49.89
+Entry No. FRC000525450105 Advancement Fee EUR 7.20 7.33
+1/1000 Charge 0.06
+Total Duties, Tax, Customs, Other Fees USD $ 64.41
+Shipment Total USD $ 64.41
+Shipment Detail Subtotal een USD $ 64.41
+FDX..*25400*.5047882001.14781.14781..........-EDXDTY........000003649.1 14420816
+SDNY_GM_00342911 108
+DOJ-OGR-00015417

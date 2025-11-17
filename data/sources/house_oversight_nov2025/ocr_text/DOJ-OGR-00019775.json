@@ -1,0 +1,12 @@
+{
+  "source_pdf": "DOJ-OGR-00019775.pdf",
+  "ocr_date": "2025-11-16T21:41:23.295995",
+  "text_length": 1227,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "Lara.Pomerantz@usdoj.gov",
+    "alexander.rossmiller@usdoj.gov",
+    "alison.moe@usdoj.gov"
+  ]
+}

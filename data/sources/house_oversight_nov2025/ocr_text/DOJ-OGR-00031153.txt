@@ -1,0 +1,37 @@
+ae HOW TO INTERPRET
+PAID MONEY TRANSFER
+' COMPUTER RECORD
+1) Money transfer number assigned to transfer by computer at time of
+recording.
+2) Origineting city
+3) Originating agent identification number (O-Agent XXX######)
+4) Paying agent identification number (P-Agent XXX######)
+5) Payee name
+6) Sender name
+7) A - Sender's phone number
+B - Willcall Money Order ;
+€ = Originating city
+D - Date recorded
+E - Time recorded (aJl-times are eastern standard time)
+8) Internal code
+9) A - Money transfer control number
+B - Intended payout city and state (CITYST)
+10) Principal amount of transfer
+11) Payee name
+12) Test question? Answer
+13) Will Call = Customer will come in to pick up money transfer.
+14) Sender's name
+15) DYID = Paying Agent ID #
+16) ANI Phone = Phone number of caller if transfer called in by agent or
+credit card holder if credit card transaction.
+17) Recipient information if any given such as address, id#, phone #, etc.
+| 18) Message for paying agent or recipient
+Each time a transaction is accessed, our computer system records it:
+EO, = 26
+A - Operator #
+B - Computer terminal id#
+C - Date transaction accessed
+D - Time transaction accessed
+27) Operator 810 added a test question & a message - Proper ID required
+07/26/17 Page 61 of 81 Public Records Request No.: 17-295
+DOJ-OGR-00031153

@@ -1,0 +1,36 @@
+f ; - | FD-340 (Rev. 4-11-03) ;
+a i
+; ' File Number S| EE oat Mimh- i OFS5G2-iMIFr 4
+. . .
+i Field Office Acquiring Evidence Saws
+- ‘ a Serial # of Originating Documeyt
+. Date Received o i i G t.0 ai
+. From { ¥ 2.45 pe] 4 SB
+: (Name of Contributor/Interviewee) ;
+. i (Address)
+b6 -2
+, b7C -2
+4
+. , -By i
+| _ "2... 5) ToBeRetumed (J Yes No ‘s
+‘ Do es ; ReceiptGiven [1 Yes [1 No: : ;
+| —_ h Grand Jury Material - Disseminate Only Pursuant to Rule 6 (e) a
+_ Coo, 3 Federal Rules of Criminal Procedure . i
+- 5 oo [1 Yes [1 No ; -
+| ; oe Federal Taxpayer Information (FTI) |
+— 7 C] Yes [] No
+| Title: ;
+, ; Reference:
+: . : . : ; (Communication Enclosing Material) ‘
+. a 4 i
+mo Description: «f+ Original mores Te tnterviewef$——_. |
+an Subbga sve wis Gar |
+~ b6 -3
+. a # iy tag ot q & b7Cc -3
+b3 -1
+’ . ° SNS ad
+: , h
+ere ' d
+An rh oR CH I ens vince Sn nygpene is stra GEE OCIS. to ,
+- ye 7 03956-10599
+DOJ-OGR-00030166

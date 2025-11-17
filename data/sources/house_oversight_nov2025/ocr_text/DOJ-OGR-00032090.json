@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00032090.pdf",
+  "ocr_date": "2025-11-16T22:12:08.216227",
+  "text_length": 3603,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "landon_thomas@newyorkmag.com",
+    "h@pxmewyorkmetro.com"
+  ]
+}

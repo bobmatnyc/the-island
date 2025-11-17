@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00005224.pdf",
+  "ocr_date": "2025-11-16T21:03:49.831236",
+  "text_length": 1389,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "Wendy.Olson@usdoj.gov",
+    "_Pecorino@nysd.uscourts.gov"
+  ]
+}

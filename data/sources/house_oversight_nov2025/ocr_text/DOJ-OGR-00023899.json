@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00023899.pdf",
+  "ocr_date": "2025-11-16T21:53:15.208312",
+  "text_length": 431,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "cedge@bop.gov"
+  ]
+}

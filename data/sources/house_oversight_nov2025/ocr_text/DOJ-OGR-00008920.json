@@ -1,0 +1,12 @@
+{
+  "source_pdf": "DOJ-OGR-00008920.pdf",
+  "ocr_date": "2025-11-16T21:13:20.471365",
+  "text_length": 797,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "ADLowell@winston.com",
+    "CMan@winston.com",
+    "jbrudin@rudinlaw.com"
+  ]
+}

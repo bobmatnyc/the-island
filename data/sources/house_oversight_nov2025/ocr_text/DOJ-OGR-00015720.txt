@@ -1,0 +1,37 @@
+JPMorgan
+The Morgan Account
+Application: Asset Account
+J.P. MORGAN USE ONLY US902 2/99
+Title Financial Trust Company, Inc.
+SPN AS rg Asset AcctNo. [R001
+A SWEEP OPTIONS SWEEP OPTIONS (PLEASE SELECT ONE):
+[_] J.P. Morgan Deposit Account C] J.P. Morgan Federal Money Market Sweep Fund
+(Only for Natural Persons or Not for Profit)
+| J.P. Morgan Prime Money Market Sweep Fund CJ American Century Califomia Tax-Free Money Market Sweep Fund
+{For California Residents ONLY)
+C] J.P. Morgan Tax Exempt Money Market Sweep
+Fund
+B | LINE OF CREDIT | HERESY APPLY FOR A LINE OF CREDIT SECURED BY MY ASSET ACCOUNT UNLESS | CHECK THE BOX BELOW
+(CREOIT 1S NOT AVAILABLE FOR IRAS):
+| No, I do not request a Line of Credit.
+PLEASE SELECT A PRINCIPAL REPAYMENT OPTION FOR THE LINE OF CREDIT:
+0 Pay in full each day to the extent that funds are available in my Asset Account.
+Oo Pay in full monthly on fast business day to the extent funds are available in my Asset Account.
+O Pay at my request.
+(In any event, all outstanding advances under my Line of Credit are payable upon demand.)
+| PLEASE COMPLETE THIS SECTION FOR ASSET ACCOUNT CHECKS (CHECKS ARE NOT AVAILABLE FOR IRAS)-
+Check Style:
+CO) Newport Desk Book C) Personal Wallet C Computer Checks
+Checks will be imprinted with Title of Account as it appears on the first page of this Application.
+& Please include my address as it appears on the first page of this Application.
+Alternate Check Delivery Address:
+Name
+Company
+Address
+City State Zip
+Country
+Custody for the Asset Account is with Morgan Guaranty Trust Company of New York
+The Asset Account Line of Credit and cash deposits are with Morgan Guaranty Trust Company of New York.
+902
+Confidential Treatment Requested by JPMorgan Chase JPM-SDNY-00065489
+DOJ-OGR-00015720

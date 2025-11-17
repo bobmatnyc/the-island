@@ -1,0 +1,104 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                    HOUSE OVERSIGHT OCR - QUICK REFERENCE                      ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+BACKGROUND PROCESS INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Process ID (PID):     29722
+  Started:              2025-11-16 20:49:01
+  Expected Completion:  ~1.5-2 hours from start
+  Total Files:          33,572 PDFs
+
+
+QUICK COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  📊 CHECK STATUS:
+     cd /Users/masa/Projects/Epstein
+     source .venv/bin/activate
+     python scripts/extraction/check_ocr_status.py
+
+  📝 VIEW LIVE LOG:
+     tail -f /Users/masa/Projects/Epstein/logs/ocr_house_oversight.log
+
+  🛑 STOP PROCESSING:
+     kill 29722
+
+  ▶️  RESTART (with resume):
+     /Users/masa/Projects/Epstein/scripts/extraction/start_ocr_background.sh
+
+  🔍 CHECK PROCESS:
+     ps aux | grep 29722
+
+  📈 COUNT PROCESSED FILES:
+     find /Users/masa/Projects/Epstein/data/sources/house_oversight_nov2025/ocr_text -name "*.txt" | wc -l
+
+
+IMPORTANT FILE LOCATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  OCR Output:      /Users/masa/Projects/Epstein/data/sources/house_oversight_nov2025/ocr_text/
+  Progress File:   /Users/masa/Projects/Epstein/data/sources/house_oversight_nov2025/ocr_progress.json
+  Email Index:     /Users/masa/Projects/Epstein/data/sources/house_oversight_nov2025/email_candidates.jsonl
+  Log File:        /Users/masa/Projects/Epstein/logs/ocr_house_oversight.log
+  PID File:        /Users/masa/Projects/Epstein/logs/ocr_process.pid
+
+
+MONITORING WHILE RUNNING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Every 5 minutes, run:  python scripts/extraction/check_ocr_status.py
+  Or watch log:          tail -f logs/ocr_house_oversight.log
+
+
+WHEN PROCESSING COMPLETES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1. Verify completion:  python scripts/extraction/check_ocr_status.py
+  2. Count emails:       wc -l data/sources/house_oversight_nov2025/email_candidates.jsonl
+  3. Quality check:      find data/sources/house_oversight_nov2025/ocr_text -name "*.txt" -size 0
+
+
+TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Process died?
+    → Check: tail -20 /Users/masa/Projects/Epstein/logs/ocr_house_oversight.log
+    → Restart: /Users/masa/Projects/Epstein/scripts/extraction/start_ocr_background.sh
+
+  Too slow?
+    → Kill and restart with fewer workers:
+      kill 29722
+      python scripts/extraction/ocr_house_oversight.py --workers 5 --resume &
+
+  Process stalled?
+    → Check: ps aux | grep 29722
+    → Force kill: pkill -f ocr_house_oversight.py
+    → Restart: /Users/masa/Projects/Epstein/scripts/extraction/start_ocr_background.sh
+
+
+DOCUMENTATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Full README:    OCR_PROCESSING_README.md
+  Summary:        OCR_PROCESSING_SUMMARY.md
+  This Reference: QUICK_REFERENCE.txt
+
+  All located in: /Users/masa/Projects/Epstein/data/sources/house_oversight_nov2025/
+
+
+PERFORMANCE STATS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Processing Rate:  ~7-8 files/second
+  Time per File:    ~0.14 seconds
+  Batch Time:       ~2.5 minutes per 1,000 files
+  Total Batches:    34 batches
+  Est. Total Time:  ~1.5-2 hours
+
+
+CURRENT STATUS (as of last check)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ✅ Background process running (PID: 29722)
+  ✅ Progress tracking active
+  ✅ Email detection functional
+  ✅ Automatic resume enabled
+  ✅ ~900+ files processed so far
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  For full documentation, see OCR_PROCESSING_README.md                         ║
+╚═══════════════════════════════════════════════════════════════════════════════╝

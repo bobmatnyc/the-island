@@ -1,0 +1,43 @@
+Fed =< Invoice Number: 4-495-75031
+e Invoice Date: Dee 23, 2002
+Account Number: 1144-20814
+Page: 5o0f 21
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 10, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a Ive! surcharge of 4.00% lo this shipment
+Distance Based Pricing, Zone 8
+Package seni from: 10021 zip code
+1s\ allempi Dec 12, 2002 al 12:50 PM.
+Incorrect recipient address
+Griginal address 10064 TOLUCA LAKE AVE/NORTH HOLLYWOOD,CA 91602
+FedEx has audiled this shpment for comeci packages. weighl and service. Any changes made are reflecied in the invoice amount.
+Tracking ID 837133955370 Senger Recprent
+Service Type FedEx 2Day G MAXWELL DANNY HILUS
+Package Type Customer Packaging JEFFREY E EPSTEIN
+Zone 8 457 MADISON AVE
+Packages 1 NEw YORK NY 10022 6843 US
+Weight 5.0 Ibs, 2.3 kgs
+Delivered Dec 16, 200209:14 Transportation Charge 16:75
+—— Discount 1.68
+Signedby = M.CHRISTMAN Address Correction 10.00
+FedEx Use — 346204710/06 11203 Fuel Surcharge 060
+Courier Pickup Charge 0.00
+Total Transportation Charges USD $ 25.67
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+FuelSurcharge FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 2
+The delivery commitment for Express Saver Packages \o homes or privaie residences (Including home offices} is 7PM the third business day for all regions. =
+1st attempt Dec 13, 2002 at 04:27 PM. =
+Recipient nol in/business closed. =
+=
+Tracking ID 828694900915 Sender Recipient =
+Service Type FedEx Express Saver JEPSTEIN KIRSTIE FERGUSEN =
+Package Type Customer Packaging JEFFREY E EPSTEIN =
+Zone 2 457 MADISON AVE =
+Packages 1 NEw YORK NY 10022 6843 US =
+Weight 2.0 Ibs, 0.9 kgs =
+Delivered Dec 16, 2002 12:52 Transportalion Charge 7.80
+Svc Area 3R Discount 0.78
+FedEx Use 347 1804 10/07167/08 Residential Delivery 135
+Total Transportation Charges USD$ 8.65
+DOJ-OGR-00016068

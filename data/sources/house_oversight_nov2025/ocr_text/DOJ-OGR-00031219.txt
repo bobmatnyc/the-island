@@ -1,0 +1,20 @@
+Call Number:, 050330105 Call Type.: 008 ALARM/BURG-INTRUSION-PAN, Police
+Entry Day/Tm: 2/02/05 12:02:44 REVIEW 008 ALARM/BURG-INTRUSION-PAN Police
+Caller Name: Last BENHAM First OPR/DAVID Mid See Caller:
+Address...: Dr Mod
+City/State: Phone#: 877-280-6549 Source:
+Location....,..:, 358 Dr EL BRILLO wy Mod
+, City............, PALM BEACH Block#:, 300 Loc ID:, Mapr:, 10S
+intersectn.:, TRAVERS DEAD END
+Agency... 2: QOL. Polioe Dept. A....,..2, fmm:
+Call Taker.: 0000008265 KOENIG DANIEL ., Dspcher: 0000008312 GOODFELLOW GENE
+Disposition: 034 Human Error... .vbueccumanecre, 4293 .,, OL = 99000000
+*NONE RT 12:02:46 00:00:00 00:00:00 GO 2 OO SO Be caked be le ee wl
+a ae DPD 12:03216 (PR 12:03216 AT 12°07:21T AV 12217:40 AUTERL, DONALD... ,
+F6=Add Unit F7/F8=Roll Units F9=Caller Check List F10=Print F1l=Narrative
+Fl2=Return F14=Addtl Disp. F15=Addtl Locations F16=Vehicle F17=Persons
+|
+|
+|
+07/26/17 Page 46 of 135 PPublic Records Request No.: 17-295
+DOJ-OGR-00031219

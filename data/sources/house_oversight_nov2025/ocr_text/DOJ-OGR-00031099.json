@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00031099.pdf",
+  "ocr_date": "2025-11-16T22:09:14.859721",
+  "text_length": 822,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "jrecarey@palmbeachpolice.com",
+    "ncabato@honolulu.gov"
+  ]
+}

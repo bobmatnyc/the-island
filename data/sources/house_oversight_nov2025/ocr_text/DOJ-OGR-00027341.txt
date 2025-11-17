@@ -1,0 +1,46 @@
+Description of course of illness (past and present) and cause of the death in sufficient detail to indicate
+
+circumstances of death, including treatment, medications, diagnostic testing, etc. Give findings of diagnostic exams. Insert
+pages in this section as required.
+
+Intake Screening History and Physical present? _v¥_Yes ——_No ——NA
+Date of most recent History and Physical 07/09/2019
+Timeliness of Diagnostic and Treatment reqimes? _¥_Yes ——No ——NA
+Discharge summary from Attending M.D. on chart
+
+Institution ___Yes —¥ No __NA
+Community Hospital __Yes _Y¥ _No —NA
+Autopsy Yes _¥_No NA
+Toxicology —__Yes _¥_No —_NA
+Death Certificate Available —_—_Yes _¥_No ——NA
+INSTITUTION MEDICAL CARE REVIEW:
+
+Severity of illness at time of admission to hospital / Health Services Unit _— Critical. Stable — Unknown
+Prognosis on admission to hospital / health Services Unit —— Poor —“ Good -— NA
+Were diagnostic procedures appropriate and timely _¥_ Yes —___No
+
+Was treatment appropriate to diagnosis and instituted timely _¥_Yes —_No
+
+Prognosis with treatment — Poo —%_ Good ___ Unknown
+Any complications adversely affecting outcorne: —__-Yes _¥_No
+
+Describe briefly _Asphyxiation Secondary to Hanging.
+
+Was treatment appropriate to complication ¥_ Yes —_No
+
+Surgical Procedures (list) Yes No {NA
+
+!
+
+Appropriate pre-operative evaluation completed, Yes No v_NA
+including lab, physical exam, updated history
+
+Complications related to surgical procedures Yes No _v¥ NA
+(describe)
+
+Prognosis following surgical procedure Poor —m— Good ¥_ Unknown
+Patient compiiant with treatment / medications Yes __ No _Y¥_NA
+
+3
+PDF Prescribed by P6013
+DOJ-OGR-00027341

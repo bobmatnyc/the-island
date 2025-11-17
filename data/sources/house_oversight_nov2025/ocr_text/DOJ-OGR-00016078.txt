@@ -1,0 +1,41 @@
+Fed =< Invoice Number: 4-495-75031
+e Invoice Date: Dee 23, 2002
+Account Number: 1144-2081-6
+Page: 15 o0f21
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 18, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a [uel surcharge of 4.00% lo this shipment
+The delivery commilment for FedEx 2day to homes or private residences (Including home offices} is 7 P.M the second business day for A1, A2. AA, A3, AM, PM, 01 and RM service areas.
+Distance BasedPricing. Zone 6
+Release signature on file.
+hiemeiShp Senger Recipient
+Tracking ID 792794370512 CECILIA STEEN LARRY VISOSKI
+Service Type FedEx 2Day JEFFREY E EPSTEIN
+Package Type Cusiomer Packaging 457 MADISON AVE
+Zone 6 NEW YORK NY 10022-6843 US
+Packages 1
+Woy Sohn. Goh Transportation Ch 10.50
+Delivered — Dec 20,2002 17:02 Dediowst iio 105
+ee ae Fuel Surcharge 0.38
+Signedby: = 14704574 Residential Delivery 1.35
+FedEx Use 523209738/06068/02 eee
+Total Transportation Charges uso $ 11.18
+Picked up: Dec 18, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge Fed&x has applied a [uel surcharge of 4.00% lo ihis shipment
+The delivery commilment for FedEx 2day to homes or private residences (Including home offices} is 7 P.M. the second business day for A1, A2, AA, A3, AM, PM, 01 and RM service areas.
+Distance Based Pricing, Zone 6
+Release signature on fie.
+internetShip Sender Recipient
+Tracking ID 792794379461 CECILIA STEEN PA VE i
+Service Type FedEx 2Day JEFFREY E EPSTEIN =
+Package Type Customer Packaging 457 MADISON AVE =
+Zone 6 NEW YORK NY 10022-6843 US =
+Packages 1 =
+Weight 2.0 Ibs, 0.9 kgs Transportation Ch no =
+Delivered Dec 20,2002 16:36 naaeos nid 105 =
+Sve Area 2R =
+Fuel Surcharge 03 =
+Signed by =: 2579904 Residential Delivery 1.35
+FedEx Use 523209958/06068/02 nee
+Total Transportation Charges USD $ 11.18
+DOJ-OGR-00016078

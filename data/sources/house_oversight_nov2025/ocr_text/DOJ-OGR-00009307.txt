@@ -1,0 +1,31 @@
+Case 1f2@ser400330& AécurDatt = Sanaa 18 of 130
+246
+C2GFDAU1 Hearing
+b | called as a witness by the Government,
+2 having been duly sworn, testified as follows:
+3 THE COURT: Take a seat, state your full name and
+4 spell your last name slowly for the court reporter,
+> THE WITNESS: My name is Susan Elizabeth Brune. My
+6 last name is spelled B-r-u-n-e.
+7 THE COURT: You may inquire, Ms. Davis.
+8 MS. DAVIS: Thank you, your Honor.
+9 DIRECT EXAMINATION
+10 BY MS. DAVIS:
+14 Q@. Good morning Ms. Brune.
+12 A. Good morning.
+13 QO. Are you represented by counsel for purposes of this
+14 hearing?
+iS A. No.
+16 Q. You went to Harvard Law School, correct?
+Li A. Correct.
+18 Q. Graduating in 1988?
+Ig A. That's right.
+20 Q. So you've been a practicing lawyer for almost 25 years, is
+an that right?
+22 A. That's right.
+23 QO. And you're a member of the New York Bar?
+24 A. I am.
+25 Q. And you were an Assistant United States Attorney for
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00009307

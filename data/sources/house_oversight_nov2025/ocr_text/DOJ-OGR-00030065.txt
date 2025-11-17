@@ -1,0 +1,59 @@
+: i
+FD-340 (Rev. 4-11-03)
+File Number SIE-mm- legoba 8
+
+i
+
+Field Office Acquiring Evidence |
+| Serial # of Originating Document ast ;
+Date Received — 03f/infaoit |
+
+From
+
+(Name of Contributor/interviewee)
+
+|
+
+(Address) |
+
+(City and State) |
+
+b6 -2!
+
+|
+
+ToBeRetumed [1 Yes Bt No
+
+Receipt Given [I Yes No |
+
+Grand Jury Material - Disseminate Only Pursuant to Rute 6 {e}
+
+. Federal Rules of Criminal Procedure
+
+. [] Yes i No i
+
+Federal Taxpayer Information (FTI) |
+
+. . |
+
+C} Yes [+ No
+
+Title: t
+
+|
+
+Reference:
+
+{Communicztion Enclosing Material} I
+
+, i
+
+Description: (4 Original notes re interview of
+
+are l Jo bé -3°
+
+; b7c -3
+
+. b3 -1°
+
+03956-9395 ©

@@ -1,0 +1,51 @@
+Fed =< Invoice Number: 4-494-19676
+2 Invoice Date: Nov 25, 2002
+Account Number: 1144-2081-6
+Page: 5 of 10
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 13, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 6
+Tracking D 837169384326 Sender Recipient
+Service Type FedEx Priority Overnight BELLA DOTTIE WIRSON
+Package Type FedEx Envelope JEFFREY E EPSTEIN PARM BECH NATIOAL BANK & TRUST
+Zone 6 457 MADISON AVE Po
+Packages 1 NEW YORK NY 10022-6843 US Po
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Nov 14, 2002 09:14 Transportation Charge 1600
+Sveirea KN Discount 256
+Signed by M.BROWN Fuel Surcharge 054
+FedEx Use 323086930/00230/_ SSS
+Total Transportation Charges USD $ 13.98
+Picked up: Nov 14, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 7
+Package sent from: 10021 zip code
+Tracking D 837169384290 Sender Recipient
+Service Type FedEx Priority Overnight SARAH KELLEN MY TWIAN WORK SHOP
+Package Type FedEx Envelope JEFFREY E EPSTEIN ee
+Zone 457 MADISON AVE es
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 1.0 Ibs, 0.5 kgs =
+Delivered Nov 15, 200209 57 Transportation Charge 16.75 =
+Sve Area Al Discount 26 =
+Signed by D.CHAMBERLIN Fuel Surcharge 056 =
+FedEx Use 323204030/00241/_ Courier Pickup Charge 000 =
+Total Transportation Charges USD $ 14.63 2
+Picked up: Nov 15, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 2
+InternetShip Sender Recipient
+Tracking D 790141420562 CECILIA STEEN FRANCES GOLDMAN
+Service Type FedEx Priority Overnight JEFFREY E EPSTEIN Fs
+Package Type FedEx Envelope 457 MADISON AVE Po
+Zone 2 NEW YORK NY 10022-6843 US
+Packages 1
+Welght 1.0 Ibs, 0.5 kgs Transportation Charge 13.10
+Delivered Nov 18, 2002 09:18 Discount 2.10
+Sve Area sini Fuel Surcharge 0.44
+Signed by = .GOLDMAN Residential Delivery 135
+FedEx Use 523520904/00186/_ ———_—
+Total Transportation Charges USD $ 12.79
+SDNY_GM_00340737 68
+DOJ-OGR-00015377

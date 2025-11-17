@@ -1,0 +1,84 @@
+Invoice Number: 4-487-30791 *
+® Invoice Date: Dec 13, 2002
+Account Number: 2292-0750-4
+Page: 4o0f4
+FedEx Ground Reference Chart
+SERVICE CODES FEDEX HOME DELIVERY SERVICE CODES ZONE DEFINITIONS
+FedEx Ground 800 AutoPOD, Prepaid 2-8 Ground Service 48 contiguous states
+804 Prepaid 9 Service to Hawaii
+808 Signature, Prepaid 10 Service to Puerto Rico
+015 — AutoPOD, Prepaid, Domestic 810 Evening, AutoPOD, Prepaid 14 Service to Oahu
+016 COD, Prepaid, Domestic 814 Evening, Prepaid 17 Service to Alaska
+017 ECOD, Prepaid, Domestic 818 Evening, Signature, Prepaid 22 Service within Alaska
+018 — FedEx Ground, PRP, Prepaid, Domestic 820 Date Certain, AutoPOD, Prepaid 23 Service from Alaska
+019 Prepaid, Domestic 824 Date Certain, Prepaid 25 Service from Alaska
+020 AutoPOD, Collect, Domestic 828 Date Certain, Signature, Prepaid 51 & 54 Service to Canada
+021 Collect, Domestic 830 Appointment, AutoPOD, Prepaid 92 & 96 Service from Hawaii (Deferred)
+030 COD, Callect, Domestic 834 Appointment, Prepaid
+031 ECOD, Callect, Domestic 835 Adult AutoPOD, Prepaid
+032 Cash COD, Collect, Domestic 836 Adult Signature, Prepaid
+033 Guaranteed Funds COD, Collect, Domestic 837 Evening, AdultPOD, Prepaid
+136 Ground, Prepaid, Return Manager 838 Evening, Adult Signature, Prepaid
+408 — Guaranteed Funds COD, Prepaid, Domestic 839 Date Certain, Adult AutoPOD, Prepaid OTHER CHARGE CODE DEFINITIONS
+409 Cash COD, Prepaid, Domestic 840 _ Date Certain, Adult Signature, Prepaid
+410 AutoPOD, COD, Prepaid, Domestic 841 Appointment, Adult Signature, Prepaid
+411 AutoPOD, COD, Collect, Domestic 842 Appointment, AdultPOD, Prepaid (1) C.O.D. (Collect on Delivery)
+412 AutoPOD, ECOD, Prepaid, Domestic 850 Bill 3rd Party (2) A.O.D. (Acknowledgement of Delivery)
+413 AutoPOD, ECOD, Collect, Domestic 851 Bill 3rd Party, Auto POD (3) Call Tag
+414 AutoPOD, PRP, Prepaid, Domestic 852 _Bill 3rd Party, Signature (4) Oversize > 84" Combined Length and Girth
+415 AutoPOD, Guaranteed Funds COD, Ppd, Dom. 853 Evening, Bill 3rd Party (5) Declared Value
+416 AutoPOD, Cash cop, Prepaid, Domestic 854 Evening, Bill 3rd Party, AutoPOD (6) Address Correction
+417 __ Bill 3rd Party, Domestic ; 855 Evening, Bill 3rd Party, Signature (7) Hazardous Material
+#18} Bilherd Party AutsROD! Domest 856 Date Certain, Bill 3rd Party (8) Automatic Proof of Delivery
+419 Bill 3rd Party, COD, Domestic 857 Date Certain, Bill 3rd Party, AutoPOD (9) Additional Handling
+420 Bill 3rd Party, Guaranteed Funds COD, Dom. 858 Date Certain, Bill 3rd Party, Signature (10) Oversize Extra Service Fee
+421 Bill 3rd Party, Cash cop, Domestic 859 Appointment, Bill 3rd Party (11) Overweight > 150 Ibs.
+422 _ Bill Recipient, Domestic ; 860 Appointment, Bill 3rd Party, AutoPOD (12) Electronic C.0.D., 24 hours
+423 Bill Recipient, AutoPOD, Domestic 861 Bill 3rd Party, Adult AutoPOD (13) Electronic C.0.D., 48 hours
+pea Bill Reelplent..COD: Domestic, 862 _Bill 3rd Party, Adult Signature (14) FedEx Ground Residential
+425 Bill Recipient, Guaranteed Funds COD, Dom. 863 Evening, Bill 3rd Party, Adult AutoPOD (15) FedEx Ground Residential - Rural
+426 _Bill Recipient, Cash COD, Dom. ' 864 Evening, Bill 3rd Party, Adult Signature (16) Return Manager Transmission Fee
+427 — AutoPOD, Cash COD, Collect, Domestic 865 Date Certain, Bill 3rd Party, Adult AutoPOD (20) FedEx Signature Home Delivery
+428 AutoPOD, Guaranteed Funds COD, Collect, Dom. 866 Date Certain, Bill 3rd Party, Adult Signature (21) FedEx Date Certain Home Delivery
+429 ECOD, Bill 3rd Party, Domestic ' 869 _ Bill Recipient (22) FedEx Appointment Home Delivery
+430 AutoPOD, COD, Bill 3rd Party, Domestic 870 Bill Recipient, AutoPOD (23) FedEx Evening Home Delivery
+got, PULSED, ECOD, Bill rd Paty,.Domestc 871 Bill Recipient, Signature (24) FedEx Home Delivery Residential
+S62; AUTOROD) Gash COD,BIll Std Rartysbomestic 872 Evening, Bill Recipient (25) FedEx Home Delivery Residential - Rural
+433 AutoPOD, Guaranteed Funds COD, Bill 3rd Party, Dom. 873 Evening, Bill Recipient, AutoPOD (26) Cash C.O.D. Charge
+434 ECOD, Bill Recipient, Domestic ; 874 Evening, Bill Recipient, Signature (27) Cash C.O.D. High Density Charge
+pee! «AULD OD: GOD .Blll Recipient, Domestic, 875 Date Certain, Bill Recipient (28) Cash C.0.D. Extra Difference Charge
+#86} AUIGROD) ECOD,BilLRstipientyDomestic 876 Date Certain, Bill Recipient, AutoPOD (29) Proof of Delivery Advantage Charge
+por sAUIEP OD: Cash COD, bill Recipient Denieatic 877 _ Date Certain, Bill Recipient, Signature (30) FedEx Home Delivery Forced Appointment
+438] wAuipPOD: Guaranteed, Funds/COD, BilliRecipient,.Dom, 878 Appointment, Bill Recipient (31) FedEx Home Delivery Surcharge - Out of Service Area
+879 Appointment, Bill Recipe aumkOD (32) | FedEx Home Delivery Surcharge - Hazardous Material
+‘ 880 Bill Recipient, Adult Auto (33) FedEx Home Delivery Surcharge - Over 70 Pounds
+Paces International areuna 881 Bill Recipient, Adult Signature (34) FedEx Home Delivery Surcharge - COD Package
+882 Evening, Bill Recipient, Adult AutoPOD (35) Fuel Surcharge
+022 AutoPOD, Prepaid 883 Evening, Bill Recipient, Adult Signature (36) Oversize > 108" Combined Length and Girth
+023 COD, Prepaid 884 Date Certain, Bill Recipient, Adult AutoPOD (37) Oversize > 108” in Length
+024 ECOD, Prepaid 885 Date Certain, Bill Recipient, Adult Signature (38) Oversize > 130" Combined Length and Girth
+025 PRP, Prepaid 886 Appointment, Bill Recipient, Adult Signature (39) Supplemental Oversize Package Charge
+026 Prepaid 887 Appointment, Bill Recipient, Adult AutoPOD (40) Canada Goods & Services Tax - GST
+027 AutoPOD, Collect (41) Canada Harmonized and Service Tax - HST
+028 Collect (42) Canada Quebec Sales Tax - QST
+478 Guaranteed Funds COD, Prepaid (43) Reserved
+479 Cash COD, Prepaid (44) Return Manager
+480 AutoPOD, COD, Prepaid (45) Credit Card Decline Surcharge
+481 AutoPOD, Collect (46) Consolidated Returns Polybag
+482 AutoPOD, ECOD, Prepaid (47) Consolidated Returns Package 2x2x4 - 2x6x8
+483 AutoPOD, ECOD, Collect (48) Consolidated Returns Package 4x4x6 - 4x8x12
+484 AutoPOD, PRP, Prepaid (49) Consolidated Returns Package 6x6x10 - 6x10x16
+485 AutoPOD, Guaranteed Funds COD, Prepaid (50) Consolidated Returns Package 8x10x12 - 10x12x16
+486 AutoPOD, Cash COD, Prepaid (51) Consolidated Returns Package Fill Charge
+487 Bill 3rd Party (52) Consolidated Returns Oversize Package Charge
+488 Bill 3rd Party, AutoPOD (53) Ship Manager/Return Manager
+489 Bill 3rd Party, COD (54) Security Surcharge
+490 Bill 3rd Party, Guaranteed Funds COD
+491 Bill 3rd Party, Cash COD
+492 Bill Recipient
+493 Bill Recipient, AutoPOD
+494 Bill Recipient, COD
+495 Bill Recipient, Guaranteed Funds COD
+496 Bill Recipient, Cash COD
+SDNY_GM_00340732 113
+DOJ-OGR-00015422

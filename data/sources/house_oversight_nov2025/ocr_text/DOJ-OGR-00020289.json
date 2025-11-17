@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00020289.pdf",
+  "ocr_date": "2025-11-16T21:42:48.655177",
+  "text_length": 638,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "ceverdell@cohengresser.com",
+    "dmarkus@markuslaw.com"
+  ]
+}

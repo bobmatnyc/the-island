@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00024866.pdf",
+  "ocr_date": "2025-11-16T21:55:18.635363",
+  "text_length": 1429,
+  "is_email": true,
+  "email_confidence": 0.8999999999999999,
+  "email_addresses": [
+    "EFOIA@BOP.GOV"
+  ]
+}

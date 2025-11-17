@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00019340.pdf",
+  "ocr_date": "2025-11-16T21:40:12.263197",
+  "text_length": 820,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "amueller@hmflaw.com"
+  ]
+}

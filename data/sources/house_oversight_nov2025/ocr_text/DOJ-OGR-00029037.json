@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00029037.pdf",
+  "ocr_date": "2025-11-16T22:04:23.348169",
+  "text_length": 2980,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "jane_musgrave@pbpost.com"
+  ]
+}

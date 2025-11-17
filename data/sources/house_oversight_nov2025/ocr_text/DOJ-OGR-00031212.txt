@@ -1,0 +1,24 @@
+Call Number:, 052520160 Call Type.: 005 ACCIDENT/HIT & RUN ......, Police
+Entry Day/Tm: 9/09/05 15:16:40 REVIEW 005 ACCIDENT/HIT & RUN ...... Police
+Caller Name: Last TORRES First JOSEF Mid See Caller: Y
+Address...: 358 Dr EL BRILLO WY Mod
+City/State: PALM BEACH Phone#: 561-805-8663 Source: 911
+
+Location «+.«,2, 358 Dr EL BRILLO wy Mod
+
+_ City..,.......,..3, PALM BEACH Block#:, 300 Loc, ID:, Mapr:, 10S
+
+NARRATIVE
+
+001 neg inj, neg desc for other 1/2 15:18:47
+002 veh was parked outside 10-20, veh was un-occd. noi 15:18200
+000 00:00:00
+
+000 00:00:00
+
+000 00:00:00
+
+1 PDCO5A 2 PDCO5A
+F7=Scroll Back F8=Scroll Forward F12=Return No Update
+07/26/17 Page 39 of 135 PPublic Records Request No.: 17-295
+DOJ-OGR-00031212

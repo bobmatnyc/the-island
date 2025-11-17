@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epstein Document Archive</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0d1117;
+            color: #c9d1d9;
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #161b22 0%, #0d1117 100%);
+            border-bottom: 1px solid #30363d;
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .header h1 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #f0f6fc;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .archive-badge {
+            background: linear-gradient(135deg, #1f6feb 0%, #0969da 100%);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .header-stats {
+            display: flex;
+            gap: 20px;
+            font-size: 13px;
+            color: #8b949e;
+        }
+
+        .stat {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .stat-value {
+            color: #58a6ff;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        /* Main Layout */
+        .container {
+            display: flex;
+            height: calc(100vh - 65px);
+            overflow: hidden;
+        }
+
+        /* Collapsible Chat Sidebar */
+        .chat-sidebar {
+            width: 380px;
+            background: #161b22;
+            border-right: 1px solid #30363d;
+            display: flex;
+            flex-direction: column;
+            transition: margin-left 0.3s ease;
+            position: relative;
+        }
+
+        .chat-sidebar.collapsed {
+            margin-left: -380px;
+        }
+
+        .chat-toggle-btn {
+            position: absolute;
+            right: -40px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-left: none;
+            width: 40px;
+            height: 80px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8b949e;
+            font-size: 18px;
+            border-radius: 0 8px 8px 0;
+            z-index: 10;
+            transition: all 0.3s ease;
+        }
+
+        .chat-toggle-btn:hover {
+            background: #21262d;
+            color: #58a6ff;
+        }
+
+        .chat-header {
+            padding: 20px;
+            background: linear-gradient(135deg, #1c2128 0%, #161b22 100%);
+            border-bottom: 1px solid #30363d;
+        }
+
+        .chat-header h2 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #f0f6fc;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .chat-header .subtitle {
+            font-size: 12px;
+            color: #8b949e;
+            line-height: 1.5;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .chat-messages::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .chat-messages::-webkit-scrollbar-thumb {
+            background: #30363d;
+            border-radius: 4px;
+        }
+
+        .chat-message {
+            padding: 12px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            line-height: 1.6;
+            animation: messageSlide 0.3s ease;
+        }
+
+        @keyframes messageSlide {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .chat-message.user {
+            background: linear-gradient(135deg, #1f6feb 0%, #0969da 100%);
+            color: white;
+            align-self: flex-end;
+            max-width: 80%;
+        }
+
+        .chat-message.assistant {
+            background: #21262d;
+            border: 1px solid #30363d;
+            align-self: flex-start;
+            max-width: 90%;
+        }
+
+        .chat-message.system {
+            background: #1c2128;
+            border-left: 3px solid #58a6ff;
+            font-style: italic;
+            color: #8b949e;
+            font-size: 12px;
+        }
+
+        .chat-message.loading {
+            background: #21262d;
+            border: 1px solid #30363d;
+            color: #8b949e;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .loading-dots {
+            display: flex;
+            gap: 4px;
+        }
+
+        .loading-dots span {
+            width: 6px;
+            height: 6px;
+            background: #58a6ff;
+            border-radius: 50%;
+            animation: bounce 1.4s infinite ease-in-out both;
+        }
+
+        .loading-dots span:nth-child(1) { animation-delay: -0.32s; }
+        .loading-dots span:nth-child(2) { animation-delay: -0.16s; }
+
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
+        }
+
+        .chat-input-area {
+            padding: 16px;
+            background: #0d1117;
+            border-top: 1px solid #30363d;
+        }
+
+        .chat-input-wrapper {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .chat-input {
+            flex: 1;
+            background: #21262d;
+            border: 1px solid #30363d;
+            color: #c9d1d9;
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        .chat-input:focus {
+            outline: none;
+            border-color: #58a6ff;
+        }
+
+        .chat-send-btn {
+            background: linear-gradient(135deg, #1f6feb 0%, #0969da 100%);
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .chat-send-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(31, 111, 235, 0.3);
+        }
+
+        .chat-send-btn:active {
+            transform: translateY(0);
+        }
+
+        .suggest-source-btn {
+            width: 100%;
+            background: transparent;
+            border: 1px solid #30363d;
+            color: #8b949e;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-top: 12px;
+            transition: all 0.2s;
+        }
+
+        .suggest-source-btn:hover {
+            border-color: #58a6ff;
+            color: #58a6ff;
+        }
+
+        /* Main Content Area */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .tabs {
+            display: flex;
+            background: #161b22;
+            border-bottom: 1px solid #30363d;
+            padding: 0 20px;
+        }
+
+        .tab {
+            padding: 14px 20px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            font-size: 14px;
+            font-weight: 500;
+            color: #8b949e;
+            transition: all 0.2s;
+        }
+
+        .tab:hover {
+            color: #c9d1d9;
+            background: #21262d;
+        }
+
+        .tab.active {
+            border-bottom-color: #58a6ff;
+            color: #58a6ff;
+        }
+
+        .view-container {
+            flex: 1;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .view {
+            display: none;
+            height: 100%;
+            padding: 24px;
+            overflow-y: auto;
+        }
+
+        .view.active {
+            display: block;
+        }
+
+        /* Overview View */
+        .overview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .info-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .info-card h3 {
+            font-size: 14px;
+            font-weight: 600;
+            color: #8b949e;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-card ul {
+            list-style: none;
+            font-size: 14px;
+            line-height: 2;
+        }
+
+        .info-card ul li::before {
+            content: "→";
+            color: #58a6ff;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+
+        .mission-statement {
+            background: linear-gradient(135deg, #1c2128 0%, #161b22 100%);
+            border: 1px solid #30363d;
+            border-left: 4px solid #58a6ff;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 30px;
+        }
+
+        .mission-statement h2 {
+            font-size: 18px;
+            color: #f0f6fc;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .mission-statement p {
+            line-height: 1.7;
+            color: #8b949e;
+            margin-bottom: 20px;
+        }
+
+        .mission-goals {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .goal {
+            background: #0d1117;
+            padding: 16px;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+        }
+
+        .goal strong {
+            color: #58a6ff;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        /* Network View */
+        #network-container {
+            width: 100%;
+            height: 100%;
+            background: #0d1117;
+            border-radius: 8px;
+            border: 1px solid #30363d;
+        }
+
+        .network-controls {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+
+        .network-controls h4 {
+            font-size: 13px;
+            font-weight: 600;
+            color: #f0f6fc;
+            margin-bottom: 12px;
+        }
+
+        .control-group {
+            margin-bottom: 12px;
+        }
+
+        .control-group label {
+            display: block;
+            font-size: 12px;
+            color: #8b949e;
+            margin-bottom: 6px;
+        }
+
+        .control-group input[type="range"] {
+            width: 100%;
+        }
+
+        /* Entity Details Panel */
+        .entity-panel {
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+            max-width: 400px;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            display: none;
+            z-index: 10;
+        }
+
+        .entity-panel.show {
+            display: block;
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .entity-panel h3 {
+            font-size: 16px;
+            color: #f0f6fc;
+            margin-bottom: 12px;
+        }
+
+        .entity-panel .detail {
+            font-size: 13px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .entity-panel .detail span:first-child {
+            color: #8b949e;
+        }
+
+        .entity-panel .detail span:last-child {
+            color: #c9d1d9;
+            font-weight: 500;
+        }
+
+        /* Source Form Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.show {
+            display: flex;
+        }
+
+        .modal {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+
+        .modal h3 {
+            font-size: 18px;
+            color: #f0f6fc;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            color: #8b949e;
+            margin-bottom: 6px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            background: #0d1117;
+            border: 1px solid #30363d;
+            color: #c9d1d9;
+            padding: 10px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-family: inherit;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #58a6ff;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 24px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #1f6feb 0%, #0969da 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(31, 111, 235, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border: 1px solid #30363d;
+            color: #8b949e;
+        }
+
+        .btn-secondary:hover {
+            border-color: #58a6ff;
+            color: #58a6ff;
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0d1117;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #30363d;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #484f58;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-left">
+            <h1>
+                <span class="archive-badge">Archive</span>
+                Epstein Document Archive
+            </h1>
+        </div>
+        <div class="header-stats">
+            <div class="stat">
+                <span class="stat-value" id="stat-entities">---</span>
+                <span>Entities</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="stat-connections">---</span>
+                <span>Connections</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="stat-documents">---</span>
+                <span>Documents</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Collapsible Chat Sidebar -->
+        <div class="chat-sidebar" id="chat-sidebar">
+            <button class="chat-toggle-btn" onclick="toggleChatSidebar()">
+                <span id="toggle-icon">◀</span>
+            </button>
+
+            <div class="chat-header">
+                <h2>🤖 Archive Assistant</h2>
+                <div class="subtitle">
+                    Powered by Qwen 2.5 Coder. Responses may take 30-60 seconds.
+                </div>
+            </div>
+
+            <div class="chat-messages" id="chat-messages">
+                <div class="chat-message system">
+                    👋 Welcome! I'm your archive assistant. Ask me about entities, connections, or documents in the Epstein archive.
+                    I can search across our entity database, document metadata, and knowledge graph.
+                </div>
+            </div>
+
+            <div class="chat-input-area">
+                <div class="chat-input-wrapper">
+                    <input type="text"
+                           id="chat-input"
+                           class="chat-input"
+                           placeholder="Ask about entities, connections, documents..."
+                           onkeypress="handleChatKeyPress(event)">
+                    <button class="chat-send-btn" onclick="sendMessage()">Send</button>
+                </div>
+                <button class="suggest-source-btn" onclick="showSourceForm()">
+                    📤 Suggest a Document Source
+                </button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="tabs">
+                <div class="tab active" onclick="switchTab('overview')">Overview</div>
+                <div class="tab" onclick="switchTab('entities')">Entities</div>
+                <div class="tab" onclick="switchTab('network')">Network Graph</div>
+                <div class="tab" onclick="switchTab('ingestion')">Ingestion Status</div>
+            </div>
+
+            <div class="view-container">
+                <!-- Overview View -->
+                <div class="view active" id="overview-view">
+                    <div class="mission-statement">
+                        <h2>📚 Mission Statement</h2>
+                        <p>
+                            This is a <strong>public resource</strong> dedicated to organizing and making accessible
+                            all publicly available documents related to the Jeffrey Epstein investigation.
+                        </p>
+                        <div class="mission-goals">
+                            <div class="goal">
+                                <strong>Transparency</strong>
+                                All sources from public records and court filings
+                            </div>
+                            <div class="goal">
+                                <strong>Provenance</strong>
+                                Complete tracking of document sources and origins
+                            </div>
+                            <div class="goal">
+                                <strong>Accessibility</strong>
+                                Advanced search, entity extraction, and AI assistance
+                            </div>
+                            <div class="goal">
+                                <strong>Integrity</strong>
+                                No editorialization - only original documents
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="overview-grid">
+                        <div class="info-card">
+                            <h3>Current Status</h3>
+                            <ul>
+                                <li id="overview-entities">Loading...</li>
+                                <li id="overview-connections">Loading...</li>
+                                <li id="overview-documents">Loading...</li>
+                                <li id="overview-ocr">Loading...</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Features</h3>
+                            <ul>
+                                <li>Entity extraction with NER</li>
+                                <li>Knowledge graph analysis</li>
+                                <li>Network visualization (D3.js)</li>
+                                <li>AI-powered search assistant</li>
+                                <li>Multi-vector search</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Data Sources</h3>
+                            <ul id="sources-list">
+                                <li>Loading sources...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Entities View -->
+                <div class="view" id="entities-view">
+                    <div style="margin-bottom: 20px; display: flex; gap: 16px; align-items: center;">
+                        <input type="text"
+                               id="entity-search"
+                               placeholder="Search entities by name..."
+                               style="flex: 1; background: #21262d; border: 1px solid #30363d; color: #c9d1d9; padding: 12px 16px; border-radius: 6px; font-size: 14px;"
+                               oninput="filterEntities(this.value)">
+                        <select id="entity-filter"
+                                style="background: #21262d; border: 1px solid #30363d; color: #c9d1d9; padding: 12px 16px; border-radius: 6px; font-size: 14px;"
+                                onchange="filterEntities(document.getElementById('entity-search').value)">
+                            <option value="all">All Entities</option>
+                            <option value="billionaire">Billionaires Only</option>
+                            <option value="high-connections">High Connections (>10)</option>
+                        </select>
+                    </div>
+
+                    <div id="entities-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px;">
+                        <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #8b949e;">
+                            Loading entities...
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Network View -->
+                <div class="view" id="network-view">
+                    <div id="network-container"></div>
+
+                    <div class="network-controls">
+                        <h4>Network Controls</h4>
+                        <div class="control-group">
+                            <label>Link Distance: <span id="link-distance-value">50</span></label>
+                            <input type="range" id="link-distance" min="20" max="200" value="50"
+                                   oninput="updateLinkDistance(this.value)">
+                        </div>
+                        <div class="control-group">
+                            <label>Charge Strength: <span id="charge-value">-300</span></label>
+                            <input type="range" id="charge-strength" min="-1000" max="-100" value="-300"
+                                   oninput="updateChargeStrength(this.value)">
+                        </div>
+                    </div>
+
+                    <div class="entity-panel" id="entity-panel">
+                        <h3 id="entity-name">Entity Name</h3>
+                        <div class="detail">
+                            <span>Connections:</span>
+                            <span id="entity-connections">0</span>
+                        </div>
+                        <div class="detail">
+                            <span>Documents:</span>
+                            <span id="entity-documents">0</span>
+                        </div>
+                        <div class="detail">
+                            <span>Billionaire:</span>
+                            <span id="entity-billionaire">No</span>
+                        </div>
+                        <div class="detail">
+                            <span>Centrality:</span>
+                            <span id="entity-centrality">0.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ingestion View -->
+                <div class="view" id="ingestion-view">
+                    <div class="info-card" style="margin-bottom: 20px;">
+                        <h3>OCR Processing Status</h3>
+                        <div id="ingestion-progress">Loading...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Source Suggestion Modal -->
+    <div class="modal-overlay" id="source-modal">
+        <div class="modal">
+            <h3>📤 Suggest a Document Source</h3>
+            <p style="font-size: 13px; color: #8b949e; margin-bottom: 20px;">
+                Help expand the archive by suggesting publicly accessible document sources.
+            </p>
+
+            <div class="form-group">
+                <label>Source URL *</label>
+                <input type="text" id="source-url" placeholder="https://example.com/documents.pdf">
+            </div>
+
+            <div class="form-group">
+                <label>Description *</label>
+                <textarea id="source-description" placeholder="Describe what these documents contain..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Source Name (Optional)</label>
+                <input type="text" id="source-name" placeholder="e.g., Court Filing, FOIA Release">
+            </div>
+
+            <div class="modal-actions">
+                <button class="btn btn-secondary" onclick="hideSourceForm()">Cancel</button>
+                <button class="btn btn-primary" onclick="submitSource()">Submit for Review</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

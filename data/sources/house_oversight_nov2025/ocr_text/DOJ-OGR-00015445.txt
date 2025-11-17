@@ -1,0 +1,26 @@
+Fed =< Invoice Number: 4-495-45970
+2 Invoice Date: Dec 16, 2002
+Account Number: 1144-2081-6
+Page: 3 of 9
+FedEx Express Shipment Summary by Payment Type
+Original
+Shipper
+Number of Shipments 14
+Transportation Charges 1,238.78
+Base Discount -37.16
+Special Handling Charges 48.05
+TOTAL USD $ 1,249.67
+Number of Shipments 14
+Total Charges USD $ 1,249.67
+Recipient
+Number of Shipments 2
+Transportation Charges 847.23
+Base Discount -25.35
+Special Handling Charges 77.87
+TOTAL USD $ 899.75
+Number of Shipments 2 =
+Total Charges USD $ 899.75 =
+TOTAL SHIPMENTS 16 =
+TOTAL CHARGES USD $ 2,149.42 —
+SDNY_GM_00340797 136
+DOJ-OGR-00015445

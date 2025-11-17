@@ -1,0 +1,39 @@
+! . “US, GPO: 2004-397-754 60015 ;
+
+: | BD-597 (Rev 8-11-94) Page fig | “€
+
+Poy UNITED STATES DEPARTMENT OF JUSTICE i
+
+is : ; FEDERAL BUREAU OF INVESTIGATION q
+
+ml Receipt for Property Received/Returned/Released /Seized 7
+
+1 | File # SlE- mim- /0g062 ™
+
+i i
+
+| q On (date) oihy e/ item(s) listed below were: rs
+
+i iq Received From al
+
+HF fF] Returned To br
+
+t . [J Released To us
+
+aoe | (Name) bic -3
+
+fe (Street Address) ~ Le
+
+' . { Description of Item(s): AD PyeT? &tACHS ;
+
+ih: ¥ = ——— — :
+
+a . — os — = — _ Hi
+q <A wl
+3 eS) 4H
+f b6 -2,-3%
+b7c -2,-3
+} b3 -1 i
+Received By: Received Fro sf
+03956-9430 awa
+7 , DOJ-OGR-00030068 —

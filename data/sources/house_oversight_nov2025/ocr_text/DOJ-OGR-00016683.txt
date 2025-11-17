@@ -1,0 +1,47 @@
+Case 1:20-cr-00330-PAE Document 761 Filed 08/10/22 Page 200 of 246 2495
+LCGCmax6 Aznaran — direct
+
+1 A. It's supposed to be what's called the securing of flight
+
+2 doors. So once the door to the aircraft is shut, the
+
+3 information or the manifest is supposed to be sent to APIS.
+
+4 Q. So the manifest information is supposed to reflect the
+
+D people who are on board at the time the doors are shut at the
+
+6 gate?
+
+7 A. Yes.
+
+8 Q. Before wheels up, I guess?
+
+9 A. Yes.
+
+10 Q. All right. And how soon after the traveler passes through
+11 the immigration line at the kiosk is that information populated
+12 into the TECS system?
+
+13 A. I'm sorry. Could you repeat the question.
+
+14 Q. You mentioned that certain information gets populated after
+15 the traveler goes through the immigration line at, say, the
+
+16 airport they're coming into; right?
+
+17 A. Yes.
+
+18 Q. How soon after the passenger travels through that
+
+19 immigration line does that information hit the system, hit the
+20 TECS system?
+21 A. It should be at that same time.
+22 Q. And is it the regular practice of customs and border
+23 protection to keep this type of border crossing information in
+24 its records in the TECS system?
+25 A. Yes.
+
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00016683

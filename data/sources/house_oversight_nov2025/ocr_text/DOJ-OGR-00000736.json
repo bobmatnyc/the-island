@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00000736.pdf",
+  "ocr_date": "2025-11-16T20:50:40.369263",
+  "text_length": 916,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "Jeffrey.Oestericher@usdoj.gov"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source_pdf": "DOJ-OGR-00009614.pdf",
+  "ocr_date": "2025-11-16T21:15:17.682571",
+  "text_length": 1026,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "info@spodeklawgroup.com",
+    "NathanNYSDChambers@nysd.uscourts.gov",
+    "ts@spodeklawgroup.com"
+  ]
+}

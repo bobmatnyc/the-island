@@ -1,0 +1,16 @@
+{
+  "source_pdf": "DOJ-OGR-00003752.pdf",
+  "ocr_date": "2025-11-16T20:59:35.916367",
+  "text_length": 1600,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "Peachey@independent.co.uk",
+    "martin.robinson@mailonline.co.uk",
+    "nick.alway@bbc.co.uk",
+    "ross@acuityreputation.com",
+    "jo-anne.pugh@bbc.co.uk",
+    "nick.sommerlad@mirror.co.uk",
+    "david.brown@thetimes.co.uk"
+  ]
+}

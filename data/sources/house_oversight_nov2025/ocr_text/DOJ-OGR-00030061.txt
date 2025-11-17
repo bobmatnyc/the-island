@@ -1,0 +1,108 @@
+Page 479 ~ b3 - 1; b6 - 3,-4; b7Cc - 3,-4; bYD - 1;
+
+Page 482 ~ b3 - 1; b6& - 3,-5; b?c — 3,-5;
+
+Page 483 ~ b3 - 1; b6 - 3; b?c — 3; b’vE —- 1;
+
+Page 484 ~ b3 - 1; b6 - 3; b?C - 3; BYE - 1;
+
+Page 485 ~ b3 - 1; b6 - 3; b?C - 3; BYE - 1;
+
+Page 486 ~ b3 - 1; b6 - 3,-5; b?C - 3,-5; bDVE - 1;
+
+Page 487 ~ b3 - 1; b6 - 3,-5; b?C - 3,-5; blTE —- 1;
+
+Page 488 ~ b3 - 1; b6 - 3; b?c — 3; b’?E —- 1;
+
+Page 489 ~ b3 - 1; b6 - 3,-5; b7C - 3,-5; bE - 1;
+
+Page 490 ~ b3 - 1; b6 - 3,-5; b7C - 3,-5; DYE - 1;
+
+Page 491 ~ b3 - 1; b6 - 3; b?c — 3; b’?E —- 1;
+
+Page 492 ~ bvE - 1;
+
+Page 493 ~ b3 - 1; b6 - 3; b?C - 3; BTE - 1;
+
+Page 494 ~ b3 - 1; b6 - 2,-3; b7C - 2,-3; DIVE - 1;
+
+Page 495 ~ b3 - 1; b6 - 2,-3; b7C - 2,-3; DIVE - 1;
+
+Page 496 ~ b3 - 1; b6 - 2,-3; b?C -— 2,-3; blE —- 1;
+
+Page 497 ~ b3 - 1; b6 - 2,-3; b?C -— 2,-3; b?E —- 1;
+
+Page 498 ~ b3 - 1; b6 - 3; bYC - 3; BTE - 1;
+
+Page 499 ~ Duplicate;
+
+Page 500 ~ Duplicate;
+
+Page 501 ~ Duplicate;
+
+Page 502 ~ Duplicate;
+
+Page 503 ~ Duplicate;
+
+Page 504 ~ b6 - 5; b7vC - 5; bB7E - 1;
+
+Page 505 ~ b6 - 5; b’c - 5; bvE - 1;
+
+Page 506 ~ b6 - 5; b’c - 5; bvE - 1;
+
+Page 507 ~ b6 - 5; b7vC - 5; bB7E - 1;
+
+Page 508 ~ b6 - 5; b7vC - 5; B7E - 1;
+
+Page 509 ~ b6 - 5; b?c - 5; bvE - 1;
+
+Page 510 ~ b6 - 5; bic - 5; bvE - 1;
+
+Page 511 ~ b6 - 5; bic - 5; bvE - 1;
+
+Page 512 ~ b6 - 5; b7vC - 5; B7E - 1;
+
+Page 513 ~ b6 - 5; b7vC - 5; B7E - 1;
+
+Page 514 ~ b6 - 5; blc - 5; bvE - 1;
+
+Page 515 ~ bo - 5; bic - 5; b?E - 1;
+
+Page 516 ~ b6 - 5; b?vC - 5; bBVE - 1;
+
+Page 517 ~ b6 - 5; b?vC - 5; bBVE - 1;
+
+Page 5168 ~ bo - 5; bic - 5; b?E - 1;
+
+Page 519 ~ bo - 5; bic - 5; b?E - 1;
+
+Page 520 ~ bo - 5; bic - 5; b?vE - 1;
+
+Page 521 ~ b6 - 5; b?vC - 5; bBTVE - 1;
+
+Page 522 ~ b6 - 5; b?vC - 5; bBVE - 1;
+
+Page 523 ~ bo - 5; bic - 5; bvE - 1;
+
+Page 524 ~ bo - 5; bic - 5; b?E - 1;
+
+Page 525 ~ b6 - 5; b?vC - 5; BYE - 1;
+
+Page 526 ~ b6 - 5; b?vC - 5; BYE - 1;
+
+Page 527 ~ b6 - 5; b?vC - 5; BVE - 1;
+
+Page 528 ~ bo - 5; bic - 5; bvE - 1;
+
+Page 529 ~ bo - 5; bic - 5; b?E - 1;
+
+Page 530 ~ b6 - 5; b?vC - 5; BYE - 1;
+
+Page 531 ~ b6 - 5; b?vC - 5; BYE - 1;
+
+Page 532 ~ bo - 5; bic - 5; bvE —- 1;
+
+Page 533 ~ bo - 5; bic - 5; b?E —- 1;
+
+Page 534 ~ b6 - 5; b?vc - 5; BYE - 1;
+DOJ-OGR-O00030061

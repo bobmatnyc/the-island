@@ -1,0 +1,29 @@
+; FD-340 (Rev. 4-11-03)
+- . ae P { . yoy ee. 7.
+, File Number Sic _ inv \— |OXOC>~ * fhe 23
+Field Office Acquiring Evidence 4 wn, — < ( <tNas
+SF . Serial # of Originating Document
+: . Date Recei ge
+| b6 -3
+— From b7C -3
+a b3 -3
+| - . (Address)
+i be -2
+. ; b7C -2
+. a - DO To Be Retumed LC] Yes No -:
+Lo Receipt Given [1] Yes CK ‘
+. . ; Grand Jury Material - Disseminate Only Pursuant to Rule 6 (e)
+. 7 7 Federal Rules of Criminal Procedure
+en [] Yes No
+’ ce Federal Taxpayer Information (FTI)
+~ S CI Yes [=o
+7 Title:
+Po Reference: : —_—
+: (Communication Enclsing Material)
+‘ Description: El origalnotesseinterview of
+; i, ; b6 -3
+. - . * a" (. _ ‘ \ b7C -3
+; ; ; — b3 -1
+. x . = - Free So aee ae REE Re Cee en
+, . at a 03956-10742
+oo ~ -DOJ-OGR-00030196 |

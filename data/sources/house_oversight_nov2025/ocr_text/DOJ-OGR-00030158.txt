@@ -1,0 +1,33 @@
+|
+. i ; ‘
+; Ss FD-340 (Rev. 4-11-03)
+. \ . | . ; fn _ - - yy
+, _ File Number ‘si te —-H{r] /O4 CORA nlb
+_. ; | Field Office Acquiring Evidence Win | P Rec C
+7 Serial # of Originating Document __ .
+Date Received t \ 6 LOO ~l
+. | b6 -5
+i | From b7c -5
+: : : (Address)
+, b6 -2
+wo : b7C -2
+- 7.4, .+ ToBe Retumed (J Yes [no _
+oe «Receipt Given [I Yes CT No
+| ‘ St 3 Grand Jury Material - Disseminate Only Pursuant to Rule 6 (e)
+| ae 7 co Federal Rules of Criminal Procedure .
+a, ee Ove Evo
+“ * . "". Bederal Taxpayer Information (FT!) .
+N 4
+oo : CI Yes ErNo
+ae Se i Title:
+, . . Reference:
+- ‘ (Communication Enclosing Material)
+;
+‘
+: re
+- , _ Description: “Original notes re interview of
+. os ‘ b6 -5
+-® | b7C -5
+b7D -1
+oe 7 03956-10584
+DOJ-OGR-00030158

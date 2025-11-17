@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00002223.pdf",
+  "ocr_date": "2025-11-16T20:54:50.645392",
+  "text_length": 3042,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "wj@wjavocats.com"
+  ]
+}

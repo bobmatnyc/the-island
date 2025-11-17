@@ -1,0 +1,45 @@
+Fed =< a cae
+e Invoice Date: Dee 16, 2002
+Account Number: 1144-2081-6
+Page: 4o0f 15
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 14, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surchange - FedEx has applied a [uel surcharge of 4.00% (co (his shipment.
+
+Distance Based Pricing, Zone 2
+
+Package seni from: 33461 zip code
+Tracking ID 828694901680 Sender Recipient
+Service Type FedEx Express Saver JEFFREY E EPSTEIN B.ALLEN
+Package Type Cusiomer Packaging 457 MADISON AVE PF
+Zone 2 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 20 bs 09 ee Transportation Charge 7.80
+Delivered Nov 15, 200209:23 Discount 0.78
+Sve Area _ Fuel Surcharge 0.28
+Signed by = B.ALLEN Pa EE eet
+FedExUse §34631410/07167/_ Total Transportation Charges uSD$ 7.30
+Dropped off: Nov 14, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fue! surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 6
+
+Package sent from: 33480 zip code
+
+FedEx has audited this shipment for comect packages, weighL, and service. Any changes made are reflected in the invoice amount.
+Tracking ID 837574806371 Sender Recipient
+Service Type FedEx Priority Ovemight NICOLE HESSE HELEN
+Package Type FedEx Pak JEFFREY E EPSTEIN
+Zone 6 457 MADISON AVE
+Packages 1 NEW YORK NY 10022 68@ US
+Weight 2.0 Ibs, 0.9 kgs
+Delivered Nov 15,200209:25 Transportation Charge 27.50
+Sve Area Al Deecount 26
+Signed by W.DOULIN Fuel Surcharge 0.99
+FedExUse 346081720/01574/ a
+
+Total Transportation Charges uSD$ 25.74
+DOJ-OGR-00016052

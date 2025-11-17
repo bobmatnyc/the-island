@@ -1,0 +1,12 @@
+{
+  "source_pdf": "DOJ-OGR-00000821.pdf",
+  "ocr_date": "2025-11-16T20:50:54.455760",
+  "text_length": 1058,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "mscavelli@steptoe.com",
+    "rweingarten@steptoe.com",
+    "alexander.rossmiller@usdoj.gov"
+  ]
+}

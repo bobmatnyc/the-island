@@ -1,0 +1,137 @@
+{
+  "analysis_date": "2025-11-16",
+  "source": "/Users/masa/Projects/Epstein/data/sources/documentcloud_6250471/epstein-docs-6250471.pdf",
+  "summary": {
+    "total_pages": 2024,
+    "pages_with_at": 39,
+    "pages_with_emails": 39,
+    "unique_email_addresses": 13
+  },
+  "email_addresses": [
+    "brad@pathtojustice.com",
+    "cassellp@law.utah.edu",
+    "jjansen@acm.orq",
+    "jpagliuca@hmflaw.com",
+    "lmenninger@hmflaw.com",
+    "mschultz@bsfllp.com",
+    "nsimmons@hmflaw.com",
+    "owenassocs@aol.com",
+    "paul.cassell@law.utah.edu",
+    "philip.barden@devonshires.co.uk",
+    "ross@acuityreputation.com",
+    "smccawley@bsfllp.com",
+    "stanpottinger@aol.com"
+  ],
+  "email_pages": {
+    "ross@acuityreputation.com": [
+      34,
+      896,
+      1855
+    ],
+    "lmenninger@hmflaw.com": [
+      48,
+      209,
+      261,
+      298,
+      318,
+      818,
+      893,
+      959,
+      967,
+      1888,
+      1895,
+      1897,
+      1906,
+      1940
+    ],
+    "cassellp@law.utah.edu": [
+      49,
+      133,
+      819,
+      1889,
+      1893
+    ],
+    "smccawley@bsfllp.com": [
+      49,
+      133,
+      260,
+      317,
+      774,
+      819,
+      1889,
+      1893,
+      1896,
+      1897,
+      1905,
+      1939
+    ],
+    "mschultz@bsfllp.com": [
+      49,
+      133,
+      819,
+      1889,
+      1893
+    ],
+    "stanpottinger@aol.com": [
+      49,
+      133,
+      819,
+      1889,
+      1893
+    ],
+    "brad@pathtojustice.com": [
+      49,
+      133,
+      260,
+      298,
+      774,
+      819,
+      1889,
+      1893,
+      1896,
+      1939
+    ],
+    "jpagliuca@hmflaw.com": [
+      261,
+      318,
+      774,
+      893,
+      959,
+      967,
+      1906,
+      1940
+    ],
+    "nsimmons@hmflaw.com": [
+      298
+    ],
+    "owenassocs@aol.com": [
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363
+    ],
+    "jjansen@acm.orq": [
+      1403
+    ],
+    "philip.barden@devonshires.co.uk": [
+      1896
+    ],
+    "paul.cassell@law.utah.edu": [
+      1896
+    ]
+  },
+  "pages_with_headers": {
+    "Date": [
+      297,
+      1018,
+      1029
+    ]
+  },
+  "email_sections": []
+}

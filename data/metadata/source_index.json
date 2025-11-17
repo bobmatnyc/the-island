@@ -1,0 +1,53 @@
+{
+  "generated": "2025-11-16T23:30:00",
+  "sources": {
+    "entities": {
+      "description": "",
+      "raw_files": [
+        "epstein-birthday-book.pdf",
+        "flight_logs_raw.txt",
+        "birthday_book_raw.txt"
+      ],
+      "md_files": [
+        "EXTRACTION_SUMMARY.md",
+        "flight_logs_stats.json",
+        "little_black_book.md",
+        "README.md",
+        "flight_logs.md",
+        "birthday_book.md",
+        "black_book.md",
+        "ENTITIES_INDEX.json"
+      ],
+      "raw_count": 3,
+      "md_count": 8
+    },
+    "house_oversight_nov2025": {
+      "description": "House Oversight Nov 2025 release (67,144 PDFs)",
+      "raw_files": [],
+      "md_files": [],
+      "raw_count": 0,
+      "md_count": 0
+    },
+    "giuffre_maxwell": {
+      "description": "Giuffre v. Maxwell documents",
+      "raw_files": [],
+      "md_files": [],
+      "raw_count": 0,
+      "md_count": 0
+    },
+    "documentcloud_6506732": {
+      "description": "DocumentCloud 6506732 - Florida legal emails 2006-2010",
+      "raw_files": [],
+      "md_files": [],
+      "raw_count": 0,
+      "md_count": 0
+    },
+    "documentcloud_6250471": {
+      "description": "DocumentCloud 6250471 - Court documents",
+      "raw_files": [],
+      "md_files": [],
+      "raw_count": 0,
+      "md_count": 0
+    }
+  }
+}

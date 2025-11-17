@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00028900.pdf",
+  "ocr_date": "2025-11-16T22:04:01.559288",
+  "text_length": 2520,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "tany_keller@pbpost.com"
+  ]
+}

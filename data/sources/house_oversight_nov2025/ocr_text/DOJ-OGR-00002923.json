@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00002923.pdf",
+  "ocr_date": "2025-11-16T20:57:05.123400",
+  "text_length": 1601,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "bc@sternheimlaw.com"
+  ]
+}

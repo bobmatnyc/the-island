@@ -1,0 +1,29 @@
+. oN Pam
+. FD-340 (Rev. 4-11-03) j B auf
+; , - ‘Bile Number BLE M4 « 16806 an PES _
+. Field Office Acquiring Evidence - fr ew,
+. Serial # of Originating Decument
+Date Received o2/ Bf f BSC"?
+b7D -1
+From .
+TName of Contrivutor/Interviewee)
+{Address) :
+a (City and State)
+a b6 -2
+ra ; ToBeRetumed (1 Yes [No ,
+co Receipt Given CT Yes [leNo
+; Oo ° Grand Jury Material - Disseminate Only Pursuant to Rule 6 (e)
+. . Federal Rules of Criminal Procedure
+a CI Yes [Ble No .
+, “ ae Federal Taxpayer Information (FTI) . .
+an , CI Yes 1 No .
+, Title:
+a a Reference: _
+(Communication Enclosing Material)
+| Description: Cj Original notes re interview of
+a ; : ; b6 -3 ° ye
+| Ss bIC -3_.S bBr keine ante
+b3 -1
+~~ "03956-10745
+
+ee ; —  DOJ=-OGR-00030199 ~

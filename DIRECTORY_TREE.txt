@@ -1,0 +1,133 @@
+Epstein Document Collection - Directory Structure
+Generated: November 16, 2025
+
+/Users/masa/Projects/Epstein/
+│
+├── CLAUDE.md ⭐                          # START HERE - Complete resumption guide
+├── README.md                             # Project overview
+├── ORGANIZATION_SUMMARY.md               # This reorganization summary
+├── DIRECTORY_TREE.txt                    # This file
+├── QUICK_START_COMMANDS.sh               # Automated download script
+├── .gitignore                            # Git ignore patterns
+│
+├── docs/                                 # All documentation
+│   ├── README.md                         # Documentation index
+│   │
+│   ├── Overview & Planning
+│   │   ├── EXECUTIVE_SUMMARY.md          # ⭐ What exists vs. what we have
+│   │   ├── COMPREHENSIVE_EPSTEIN_DOCUMENT_SOURCES.md  # Complete inventory
+│   │   └── SYSTEM_READY_REPORT.md        # System status
+│   │
+│   ├── Getting Started
+│   │   ├── QUICK_START.md                # Getting started guide
+│   │   ├── QUICK_REFERENCE.md            # Command reference
+│   │   └── DIRECT_ACCESS_URLS.md         # Download links
+│   │
+│   ├── System Documentation
+│   │   ├── DEDUPLICATION_SYSTEM.md       # Deduplication guide
+│   │   ├── CANONICALIZATION_SYSTEM_DESIGN.md  # Architecture
+│   │   ├── CANONICALIZATION_README.md    # User guide
+│   │   └── IMPLEMENTATION_SUMMARY.md     # Implementation details
+│   │
+│   ├── Results & Reports
+│   │   └── CONVERSION_REPORT.md          # First 87 pages results
+│   │
+│   ├── guides/                           # User guides (empty, ready)
+│   ├── research/                         # Research findings (empty, ready)
+│   ├── reports/                          # Analysis reports (empty, ready)
+│   └── archive/                          # Old docs (empty, ready)
+│
+├── scripts/                              # All scripts
+│   ├── README.md                         # Scripts index
+│   │
+│   ├── core/                             # Core library modules
+│   │   ├── __init__.py                   # Module initialization
+│   │   ├── database.py                   # SQLite database management
+│   │   ├── deduplicator.py               # Deduplication logic
+│   │   ├── hasher.py                     # Content hashing (SHA-256)
+│   │   └── ocr_quality.py                # OCR quality assessment
+│   │
+│   ├── extraction/                       # PDF extraction scripts
+│   │   └── extract_emails.py             # Extract emails from PDFs
+│   │
+│   ├── canonicalization/                 # Deduplication scripts
+│   │   ├── canonicalize.py               # Main canonicalization
+│   │   ├── canonicalize_emails.py        # Email-specific canonicalization
+│   │   ├── initialize_deduplication.py   # Setup deduplication DB
+│   │   ├── process_bulk_emails.py        # Bulk email processing
+│   │   └── query_deduplication.py        # Query dedup database
+│   │
+│   ├── analysis/                         # Analysis scripts
+│   │   └── analyze_giuffre_maxwell_pdfs.py  # Analyze Giuffre-Maxwell docs
+│   │
+│   ├── utilities/                        # Helper scripts
+│   │   └── convert_emails_to_markdown.py # PDF → Markdown converter
+│   │
+│   └── downloaders/                      # Download scripts (empty, ready)
+│
+├── config/                               # Configuration files
+│   ├── source_definitions.yaml           # Document source definitions
+│   └── canonicalization_rules.yaml       # Deduplication rules
+│
+├── data/                                 # All data files
+│   ├── README.md                         # Data organization guide
+│   │
+│   ├── sources/                          # Raw downloads (by collection)
+│   │   ├── documentcloud_6250471/        # 2,024-page collection (partial)
+│   │   ├── giuffre_maxwell/              # 4,553-page collection (partial)
+│   │   ├── house_oversight_nov2025/      # 20,000-page collection (pending)
+│   │   └── house_oversight_sept2025/     # 33,000 documents (pending)
+│   │
+│   ├── canonical/                        # Deduplicated canonical documents
+│   │   ├── emails/                       # 5 canonical emails ⭐
+│   │   ├── court_filings/                # Court documents
+│   │   ├── fbi_reports/                  # FBI Vault documents
+│   │   ├── financial/                    # Financial records
+│   │   ├── flight_logs/                  # Flight logs
+│   │   ├── address_books/                # Address books
+│   │   └── other/                        # Miscellaneous
+│   │
+│   ├── emails/                           # Original 87-page extraction
+│   │   ├── epstein-emails-complete.pdf   # Original PDF (6.4 MB)
+│   │   ├── epstein-emails-structured.json # Structured data
+│   │   ├── pages/                        # 87 individual page extracts
+│   │   ├── markdown/                     # Converted markdown docs
+│   │   ├── notes/                        # Processing notes
+│   │   ├── EXTRACTION_REPORT.txt         # Extraction details
+│   │   ├── MANIFEST.md                   # Document manifest
+│   │   └── README.md                     # Collection info
+│   │
+│   ├── metadata/                         # Databases and indexes
+│   │   └── deduplication.db              # SQLite deduplication DB ⭐
+│   │
+│   └── temp/                             # Temporary processing files
+│
+└── .venv/                                # Python virtual environment
+    ├── bin/                              # Executables
+    ├── lib/                              # Python packages
+    └── pyvenv.cfg                        # Environment config
+
+Key:
+⭐ = Critical file/directory
+(partial) = Partially downloaded
+(pending) = Not yet downloaded
+(empty, ready) = Directory created, ready for content
+
+Current Stats:
+- Canonical Emails: 5 (target: 20,000 = 0.025% complete)
+- Documentation Files: 12 files
+- Script Categories: 6 directories
+- Downloaded Collections: 2 partial collections
+- Total Size: ~110 MB
+
+Quick Start:
+1. Open CLAUDE.md
+2. Activate .venv: source .venv/bin/activate
+3. Check email count: find data/canonical/emails -name "*.md" | wc -l
+4. Process next collection: python3 scripts/canonicalization/canonicalize_emails.py
+
+Next Actions:
+1. Process existing Giuffre-Maxwell PDFs
+2. Download House Oversight Nov 2025 collection
+3. Canonicalize extracted emails
+4. Target: 100 canonical emails this week

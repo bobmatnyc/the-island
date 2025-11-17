@@ -1,0 +1,67 @@
+Page 592
+Page 3
+Log Assignment
+Date/Time User Action Alias Post Shiftdate Watch Type Mndtry
+08/10/19 13:05 {Pie | OT Assigned eee 11 SOUTH 08/10/19 EW List Exempt O
+list exausted
+08/10/19 13:05 Last MNDTRY OT Date Set N/A N/A N/A Cc]
+mandated LAST MANDATORY OT ASSIGNMENT SET TO: 08/10/19 11:05
+08/10/19 13:04 OT Assigned SHU #1 08/10/19 EW List Exempt CT
+list exausted
+08/10/19 13:00 Last MNDTRY OT Date Set N/A NIA N/A CT
+mandated LAST MANDATORY OT ASSIGNMENT SET TO: 08/10/19 10:30
+08/10/19 13:00 OT Assigned DRY CELL 08/10/19 EW List Exempt |
+list exausted
+08/10/19 12:51 OT Assigned INTERNAL 08/10/19 EW List Exempt oO
+list exausted
+08/10/19 12:22 Last MNDTRY OT Date Set N/A NIA NIA Oo
+mandated LAST MANDATORY OT ASSIGNMENT SET TO: 08/09/19 12:10
+08/10/19 12:20 OT Assigned 5 SOUTH 08/10/19 EW List Exempt fe]
+list exausted
+08/10/19 10:40 OT Removed - Mgmt Cancelle VISIT #3 08/10/19 DAV _ Signup List CT
+CPD ADJUS -LAST OT DATE SET TO 7/24/2019 8:38:13 AM - REMOVED
+FROM [Sick / Annual]
+08/10/19 10:40 OT Removed - Mgmt Cancelle VISIT #2 08/10/19 D/W _ Signup List O
+CPD ADJUS -LAST OT DATE SET TO 7/11/2019 2:29:23 PM - REMOVED
+FROM [Sick / Annual]
+08/10/19 10:39 OT Assigned UNIT 3 08/10/19 D/W List Exempt CO
+CPD ADJUS
+08/10/19 10:39 OT Removed - Mgmt Cancelle UNIT 3 08/10/19 D/W List Exempt (cl
+CPD ADJUS - REMOVED FROM [Sick / Annual]
+08/10/19 10:38 OT Removed - Mgmt Cancelle SHU #1 08/10/19 DAV List Exempt a
+CPD ADJUS - REMOVED FROM [Sick / Annual]
+08/10/19 10:38 OT Assigned 10 SOUTH #2 08/10/19 A/M List Exempt Oo
+CPD ADJUS
+08/10/19 10:37 OT Assigned INTERNAL 08/10/19 DW List Exempt OC
+CPD ADJUS
+08/10/19 10:35 OT Removed - Staff Cancelled INTERNAL 08/10/19 DW _— Signup List oO
+STAFF CANC - REMOVED FROM [Sick / Annual]
+08/10/19 10:34 OT Removed - Mamt Cancelle LOBBY 08/10/19 AM List Exempt Oo
+CPD ADJUS - REMOVED FROM [Sick / Annual]
+08/10/19 10:34 OT Assigned CONTROL #2 08/10/19 A/M List Exempt fl
+CPD ADJUS
+08/10/19 10:34 OT Assigned SHU #4 08/10/19 DW List Exempt fe)
+| CPD ADJUS
+08/10/19 10:33 OT Removed - Mgmt Cancelle SHU #2 08/10/19 D/W _ Signup List C
+CPD ADJUS -LAST OT DATE SET TO 8/7/2019 10:05:45 AM - REMOVED
+FROM [Sick / Annual]
+08/10/19 10:32 OT Assigned SHU #3 08/10/19 A/M List Exempt O
+CPD ADJUS
+08/10/19 10:34 OT Assigned ESCORT #2 08/10/19 D/W List Exempt (J
+CPD ADJUS
+08/10/19 10:34 OT Assigned ESCORT #1 08/10/19 DW List Exempt CJ
+CPD ADJUS
+08/10/19 10:29 OT Removed - Mgmt Cancelle UNIT 2 08/10/19 DW List Exempt 2]
+cpd adjustme - REMOVED FROM [Sick / Annual]
+08/10/19 10:28 OT Assigned 7 NORTH 08/10/19 DW List Exempt C}
+cpd adjustme:
+08/10/19 6:44 OT Removed - Mgmt Cancelle ACT LT 08/10/19 P/M List Exempt CJ
+cpd adjustme - REMOVED FROM [Sick / Annual]
+08/10/19 6:27 OT Assigned UNIT 3 08/10/19 D/W List Exempt oO
+cpd adjustme
+08/10/19 6:20 OT Removed - Mgmt Cancelle 5 NORTH 08/10/19 DAW List Exempt C7]
+: - REMOVED FROM [Sick / Annual]
+08/10/19 6:20 OT Assigned UNIT 2 08/10/19 DW List Exempt C)
+cpd adjustment
+5/19/2020 10:37:33 AM
+DOJ-OGR-00025045

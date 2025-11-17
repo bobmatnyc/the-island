@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00024347.pdf",
+  "ocr_date": "2025-11-16T21:54:06.423779",
+  "text_length": 995,
+  "is_email": true,
+  "email_confidence": 0.8999999999999999,
+  "email_addresses": [
+    "PIRI@OCHabop.gov"
+  ]
+}

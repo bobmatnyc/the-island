@@ -1,0 +1,15 @@
+Fed=< Invoice Number: 4-495-75031
+e Invoice Date: Dee 23, 2002
+Account Number: 1144-2081-6
+Page: 18 of 21
+FedEx Ground Summary
+Date Packages Weight Base Charges Other Charges Total Charges
+Prepaid Ground
+12105 600 5.00
+12/12 4 120 1657 021 16 78
+12/14 1 10 25a 004 2.2
+Package Total 5 130 2015 525 25 40
+Weekly Service Charge 12/13/2002 1100 1100
+Total Charges 5 130 20.15 1625 36.40
+@ - Other charges billed out of weak
+DOJ-OGR-00016081

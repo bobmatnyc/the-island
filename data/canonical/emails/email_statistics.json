@@ -1,0 +1,52 @@
+{
+  "total_emails": 8,
+  "date_range": {
+    "earliest": "2007-09-20",
+    "latest": "2015-01-12",
+    "span_years": 8
+  },
+  "sources": {
+    "DocumentCloud 6506732 - Public Records Request 19-372": 3,
+    "Giuffre v Maxwell 2024": 5
+  },
+  "participants": {},
+  "quality_metrics": {
+    "ocr_quality": {
+      "high": 8,
+      "medium": 0,
+      "low": 0
+    },
+    "completeness": {
+      "complete": 8,
+      "partial": 0
+    },
+    "redactions": {
+      "yes": 0,
+      "no": 8
+    }
+  },
+  "unique_participants": 21,
+  "participant_list": [
+    "Ann Marie C. Villafana",
+    "Ann Marie Villafana",
+    "Barbara Burns",
+    "Barry Krischer",
+    "Bill Clinton",
+    "Brad Edwards",
+    "Christina Pyror",
+    "Ghislaine Maxwell",
+    "Jack Goldberger",
+    "Jason R. Richards",
+    "Jason Richards",
+    "Jeffrey E. Epstein",
+    "Jeffrey Epstein",
+    "Lanna Belohlavek",
+    "Michael McAuliffe",
+    "Paul Cassell",
+    "Philip Barden",
+    "Ron Eppinger",
+    "Ross Gow",
+    "Stephen Hawking",
+    "Virginia Roberts Giuffre"
+  ]
+}

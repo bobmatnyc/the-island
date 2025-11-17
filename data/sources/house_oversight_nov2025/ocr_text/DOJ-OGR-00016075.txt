@@ -1,0 +1,39 @@
+Fed =< Invoice Number: 4-495-75031
+. invoice Date: Dec 23, 2002
+Account Number: 1144-2081-6
+Page: 12 0f 21
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Dec 16, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a [uel surcharge of 4.00% \o this shipment.
+Cistance Based Pricing, Zone 6
+FedEx has audited this shipment for correct packages, weight, and service. Any changes made are reflected in the invoice amount
+We calculaled your charges based on a dimensional weigh! of 24.0 Ibs..24" x 16" x 12°, divided by 194.
+Release signature on file.
+InterneiShip Sender Recipient
+Tracking ID 790655282289 CECILIA STEEN JEFFREY E. EPSTEIN
+Service Type FedEx Priorily Overnight JEFFREY E EPSTEIN 358 EL BRILLO WAY
+Package Type Customer Packaging 457 MADISON AVE PALM BEACH FL 33480 US
+Zone 6 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 15.0 Ibs, 6.8 kgs Transportation Ch 77.75
+Delivered Dec 17, 2002.03:40 Discount a 778
+SwiAwa = AA Fuel Surcharge 2.80
+Signed by = EJSPTEIN Residential Delivery 1.35
+FedEx Use 523702206/01574/02 a
+Total Transportation Charges USD $ 74.12
+Picked up: Dec 16, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a fue! surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 4
+InterneiShip Sender Recipient
+Tracking ID 791996415167 CECILIA STEEN LES WEXNER
+Service Type FedEx Express Saver JEFFREY E EPSTEIN
+Package Type Customer Packaging 457 MADISON AVE
+Zone 4 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 5.0 Ibs, 2.3 kgs ‘Tienagoadlion Gh
+Sport ange 1040
+Delivered Dec 18, 2002 11 57 Digcount 1.04
+Sve Area fa Fuel Surcharge 037
+Signed by K.DANIELS ee
+FedEx Use 523763807/07171/_ Total Transportation Charges USD $ 9.73
+DOJ-OGR-00016075

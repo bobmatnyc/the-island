@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00032048.pdf",
+  "ocr_date": "2025-11-16T22:11:54.059473",
+  "text_length": 1034,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "losephsA@aal.com"
+  ]
+}

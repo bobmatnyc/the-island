@@ -1,0 +1,46 @@
+Fed =< Invoice Number: 4-447-12299
+2 Invoice Date: Nov 04, 2002
+Account Number: 1144-2081-6
+Page: 6 of 8
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Oct 29, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Tracking D 791219545923 Sender Recipient
+Service Type FedEx Intl Priority CECILIA STEEN DIANA COOK
+Package Type FedEx Envelope JEFFREY E. EPSTE N Po
+Zone E 457 MADISON AVENUE Fs
+Orig./Dest. JRB/FCO 4TH FLOOR fF
+Packages 1 NEW YORK NY 10022 US
+Weight 0.5 Ibs, 0.2 kgs
+Delivered Oct 31, 2002 17 23 Transportation Charge 28 00
+Signed by KOZLOWSKI Fuel Surcharge 081
+FedExUse _/US010/_ Discount -0 84
+Total Transportation Charges USD $ 27.97
+Picked up: Oct 29, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Tracking D 791968383157 Sender Recipient
+Service Type FedEx Intl Priority CECILIA STEEN NATASHA MILAN
+Package Type FedEx Envelope JEFFREY E. EPSTE N Po
+Zone E 457 MADISON AVENUE PF
+Orig./Dest. JRB/MIL 4TH FLOOR
+Packages 1 NEW YORK NY 10022 US
+Weight 0.5 Ibs, 0.2 kgs
+Delivered Oct 31, 2002 09 59 Transportation Charge 28 00
+Signed by BIAL K Fuel Surcharge 081
+FedEx Use _/US010/_ Discount -0 84
+Total Transportation Charges USD $ 27.97
+Picked up: Oct 29, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Tracking D 792123992179 Sender Recipient
+Service Type FedEx Intl Priority CECILIA STEEN EDUARDO TEODORANI-FABBRI
+Package Type FedEx Envelope JEFFREY E. EPSTE N CNH UKL MITED
+Zone D 457 MADISON AVENUE Fs
+Orig./Dest. JRB/XPW 4TH FLOOR Po
+Packages 1 NEW YORK NY 10022 US
+Weight 0.5 Ibs, 0.2 kgs
+Delivered Oct 31, 2002 11:11 Transportation Charge 28 00
+Signed by STONE Fuel Surcharge 081
+FedEx Use _/US010/_ Discount -0 84
+Total Transportation Charges USD $ 27.97
+SDNY_GM_00340676 6
+DOJ-OGR-00015315

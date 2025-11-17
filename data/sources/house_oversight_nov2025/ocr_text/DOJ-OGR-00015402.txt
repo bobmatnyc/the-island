@@ -1,0 +1,52 @@
+Fed=< Invoice Number: 4-494-69923
+2 Invoice Date: Dec 02, 2002
+Account Number: 1144-2081-6
+Page: 4o0f5
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Nov 13, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Discount applied is the greater of volume discount or dropoff discount. No additional discount applies.
+Tracking ID 831051480353 Sender Recipient
+Service Type FedEx Intl Economy KATE BELAERUD MILES ALEXANDER
+Package Type Customer Packaging JEFFREY E EPSTE N C/O FINANCIAL TRUST COMPANY
+Zone I 457 MADISON AVE 6100 RED HOOK QUARTERS
+Orig /Dest. SAF/STT NEW YORK NY 10022-6843 US SUITE B3
+Packages 1 ST THOMAS 00802 VI
+Weight 67.0 Ibs, 30.5 kgs
+Delivered Nov 14, 2002 17:10 Transportation Charge 287.55
+Signed by J.CHAML N Fuel Surcharge 11.16
+FedEx Use _/US010/_ piseaurt 8.63
+Total Transportation Charges USD $ 290.08
+Picked up: Nov 21, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Recipient not in/business closed.
+Tracking ID 830273245327 Sender Recipient
+Service Type FedEx Intl Priority CHRISTINE MAXWELL CHRIST NE MAXWELL
+Package Type Customer Packaging JEFFREY E EPSTE N eee
+Zone D 457 MADISON AVE fF ssSY
+Orig /Dest. FLU/MRS NEW YORK NY 10022-6843 US PF
+Packages 1
+Weight 3.0 Ibs, 1.4 kgs Transportation Charge 60.76
+Delivered Nov 27, 2002 13:45 Fuel Surcharge 2.36
+Signed by . MAXWELL Discount 1.82
+FedEx Use _/US010/08 ——
+Total Transportation Charges USD $ 61.30
+Shipment Detail Subtotal 0... cece seeseeeeeeeesseeeneeeseeeeceeeeseeseeesseesaeeetaeseseseeeteereeereee OD § 351.38
+Picked up: Nov 14, 2002 Payor: Third Party Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.50% to this shipment.
+FedEx has audited this airbill for correct pieces, weight, and service. Any changes made are reflected in the invoice amount.
+Recipient not in/business closed.
+Tracking ID 827814643462 Sender Recipient
+Service Type FedEx Intl Priority VALASON COTRIN SHELLEY LEWIS
+Package Type Customer Packaging ES
+Zone a a
+Orig /Dest. TNF/LON PY
+Packages 1
+Weight RO .KGs; 8.8/8 Nov 14, 2002 - Conversion Ra&UR-USII.0313901350
+Delivered = Nov 19, 2002 11:25 Transportation Charge EUR65.70 67.69
+Signed by = |, BOGDANOVIC Fuel Surcharge EUR2.23 2.30
+FedExUse:  _/FROIO/08 France VAT EUR12 91 13.32
+Discount -2.04
+Total Transportation Charges USD $ 81.27
+SDNY_GM_00340758 93
+DOJ-OGR-00015402

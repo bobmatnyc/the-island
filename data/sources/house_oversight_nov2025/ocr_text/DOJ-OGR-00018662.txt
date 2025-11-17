@@ -1,0 +1,44 @@
+Case 1:20-cr-00330-PAE Document 753 Filed 08/10/22 Page 64 of 264 1490
+LC7Cmax2 Flatley - direct
+
+1 and 422 saved?
+
+2 A. They were on Government Exhibit 54.
+
+3 Q. Were they saved under any user account?
+
+4 A. Just give me one second. Yes, they were saved under -- in
+5 the documents folder for a user, Ghislaine.
+
+6 Q. When you say they were saved under a user account, what
+
+7 does that mean?
+
+8 MS. MENNINGER: Objection, your Honor. The user
+
+9 account was outside the scope.
+
+10 THE COURT: Overruled.
+
+11 A. So when you have a computer, a Windows computer, when you
+12 have a Sign-in, a log-in ID username and password, it creates a
+13 folder structure under that name to organize the different data
+14 on it in case there is other users that are also on the
+
+15 machine. So, these particular documents were saved under the
+16 documents folder under the user Ghislaine.
+
+17 QO. What kind of files are Government Exhibits 418, 420, 421,
+18 and 422?
+
+19 A. They're Microsoft Word documents.
+20 Q. Where are properties stored in a Word document?
+21 A. So Word documents are actually not just one file, there are
+22 several files that are kind of cobbled together and one of
+23 those files maintains the properties of the document.
+24 Q. Just put simply, how can someone determine the properties
+25 in a Word document?
+
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00018662

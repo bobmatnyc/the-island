@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00031851.pdf",
+  "ocr_date": "2025-11-16T22:11:21.001061",
+  "text_length": 1165,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "jherman@hermaniaw.com"
+  ]
+}

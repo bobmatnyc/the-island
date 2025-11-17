@@ -1,0 +1,45 @@
+Case 1:20-cr-00330-PAE Document 753 Filed 08/10/22 Page 51 of 264 1477
+LC7Cmax2 Flatley - direct
+
+1 Q. I'm sorry, Mr. Flatley. Just to take a step back, when you
+2 first get it, do you mark it in some way?
+
+3 A. Yes. I'm sorry. The first thing I do is put the NYC
+
+4 number on it and the sticker with my initials.
+
+5 Q. After marking it, do you create an image of the drive?
+
+6 A. Yes. In this case, I had to inspect it to see what kind of
+7 data was on it, to see if it was already an image or if it was
+8 a clone so that if it was a clone, I would have to image it.
+
+9 If it was an image, I would just have to copy it.
+
+10 Q. Did you end up making an image of this device?
+
+11 A. Yes, I did.
+
+12 Q. What does it mean to make an image of a device?
+
+13 MS. MENNINGER: Your Honor, this is outside the 702
+
+14 disclosure.
+
+15 THE COURT: Overruled.
+
+16 A. So an image is a bit-for-bit copy of the media from the
+
+17 very beginning to the very end. We take those -—- that copy and
+18 we write it into several different files and then that way it
+19 containerizes the data inside it so we don't accidentally mess
+20 it up.
+21 Q. Did you image the drive that's been marked for
+22 identification that's been marked as Government Exhibit 54?
+23 A. Yes, I did.
+24 Q. Can you explain to the jury how you made or what tools you
+25 used to make a forensic image of the hard drive?
+
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00013064

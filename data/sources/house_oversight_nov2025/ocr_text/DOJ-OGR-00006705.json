@@ -1,0 +1,13 @@
+{
+  "source_pdf": "DOJ-OGR-00006705.pdf",
+  "ocr_date": "2025-11-16T21:07:38.961963",
+  "text_length": 2009,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "besternheim@mac.com",
+    "be@sternheimlaw.com",
+    "ceverdell@cohengresser.com",
+    "Moe@usdoj.gov"
+  ]
+}

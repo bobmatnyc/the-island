@@ -1,0 +1,12 @@
+{
+  "source_pdf": "DOJ-OGR-00001557.pdf",
+  "ocr_date": "2025-11-16T20:52:51.891181",
+  "text_length": 485,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "Maurene.comey@usdoj.gov",
+    "Alexander.rossmiller@usdoj.gov",
+    "Alison.moe@usdoj.gov"
+  ]
+}

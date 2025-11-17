@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00004025.pdf",
+  "ocr_date": "2025-11-16T21:00:18.592078",
+  "text_length": 1851,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "spapapetru@bop.gov",
+    "bc@sternheimlaw.com"
+  ]
+}

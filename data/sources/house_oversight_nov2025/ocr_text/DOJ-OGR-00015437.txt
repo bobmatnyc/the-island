@@ -1,0 +1,52 @@
+Fed =< Invoice Number: 4-495-33932
+2 Invoice Date: Dec 16, 2002
+Account Number: 1144-2081-6
+Page: 10 of 15
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 8
+FedEx has audited this shipment for correct packages, weight, and service. Any changes made are reflected in the invoice amount.
+We calculated your charges based on a dimensional weight of 22.0 Ibs.,24" x 16" x 11", divided by 194.
+Tracking D 828694899837 Sender Recipient
+Service Type FedEx Express Saver J ESPTEIN EMMY TAYLOR
+Package Type Customer Packaging JEFFREY E EPSTEIN Po
+Zone 8 457 MADISON AVE es
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 15.0 Ibs, 6 8 kgs
+Delivered Dec 13, 2002 10:45 Transportation Charge 43 35
+Sve real st Discount -4 34
+Signed by AEMLLY Fuel Surcharge 156
+FedEx Use 347150410/07179/_ _———
+Total Transportation Charges USD $ 40.57
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 2
+Tracking D 828694900926 Sender Recipient
+Service Type FedEx Express Saver J EPSTEIN JOANNE TECLUCKAUGH
+Package Type Customer Packaging JEFFREY E EPSTEIN
+Zone 2 457 MADISON AVE
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 2.0 Ibs, 0.9 kgs
+Delivered Dec 13, 2002 14 33 Transportation Charge 780
+Suc Area Al Discount -0.78
+Signed by J.TECLUCLSINGH Fuel Surcharge 028
+FedEx Use  347150410/07167/_ EEE
+Total Transportation Charges USD $ 7.30
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 2
+The delivery commitment for Express Saver Packages to homes or private residences (Including home offices) is 7PM the third business day for all regions.
+Tracking D 828694900937 Sender Recipient
+Service Type FedEx Express Saver J EPSTEIN SHANNON KILLIAN
+Package Type Customer Packaging JEFFREY E EPSTEIN |
+Zone 2 457 MADISON AVE  ~—SY
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 5.0 Ibs, 2.3 kgs
+Delivered Dec 13, 2002 12 33 Transportation Charge 855
+sveAiea = SR Discount -0 86
+Signed:by FLORES Fuel Surcharge 031
+FedEx Use 347150410/07167/_ Residential Delivery 135
+Total Transportation Charges USD $ 9.35
+SDNY_GM_00340789 128
+DOJ-OGR-00015437

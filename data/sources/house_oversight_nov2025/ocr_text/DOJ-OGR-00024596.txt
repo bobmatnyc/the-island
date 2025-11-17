@@ -1,0 +1,43 @@
+Date: 08/19/2019
+Time: 10:27 AM Federal Bureau of Prisons
+TRUINTEL
+Log Entries By Event Date
+Sensitive But Unclassified
+Entered Date Alpha Code Level 1 Location Level2 Location _Level3 Location Event Date Shift User Event Base Count
+7723/2018 8:14 AM . NYM SHU Housing Unt, Spedal 9 SOUTH SHU Fiz312019 B 4AM Day "Rounds (Officer)
+(SHU)
+= Summary Text: Completed.
+Wea2019 10.02 AM NYM SHU Housing Unit, Special 9 SOUTH SHU 7123/2019 10:02 AM Day Search (Areas)
+(SHU)
+~Summaty Text Common Area: LAUNDRY ROOM.
+7123/2019 10:02 AM NYM SHU Housing Unit, Special $8 SOUTH SHU 7123/2019 10:02AM Dey Search (Areas)
+(SHU)
+- Summary Text Common Area: LAW LIBRARY.
+W2H2019 16:02 AM NYM SHU Housing Unit, Special S SOUTH SHU 7/23/2019 W02AM Day Search (Areas)
+{SHU)
+- Summary Text: Cammon Area: RECREATION AREA.
+2 ee ee EE SS SES ee
+7123/2019 10:02 AM NYM SHU Housing Unit, Special 9 SOUTH SHU 7242019 10:02 AM Day Search (Areas)
+(SHU3
+- Summary Text: Common Area; STAFF BATHROOM.
+66 ee ee SS
+7/23/2019 10:02 AM NYM SHU Housing Unit, Special § SOUTH SHU 7232019 1002 AM Day Search (Areas)
+(SHU)
+- Summary Text: Common Area: STRIP ROOM.
+«0 Ss eS SS SS oe
+7123/2019 10:02 AM NYM SHU Housing Unit, Special § SOUTH SHU W242019 16:02 AM Day Search (Areas)
+(SHU)
+- Summary Text: Common Area: VISITNG STRIP ROOM.
+H292019 11:35 AM NYM SHU Housing Unit, Special 9 SOUTH SHU 7232019. 11:35 AM Day Rounds (Lieutenant)
+(SHU)
+- Summary Text: Completed - PREA.
+es
+FIV2019 3:00 PM NYM SHU Housing Unit, Special 9 SOUTH SHU F2H2019 3:00 PM Day Search (Cells)
+(SHU}
+- Summary Text: Cell: 102,
+H232019 3:06 PM NYM SHU Housing Unit, Special 9 SOUTH SHU 7/23/2019 3:00 PM = Day Census {PM}
+(SHU)
+- Summary Text: Unauthorized Inmates Present: 0, Unauthorized [nmates Absent: 0,
+— Bit ka Sf.
+7/23/2019 4:44 PM NYM SHU Housing Unit, Special 9 SOUTH SHU 7/29/2019 4:00 PM =“ Evening Begin Shift
+DOJ-OGR-00024596

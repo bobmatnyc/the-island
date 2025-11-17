@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00001422.pdf",
+  "ocr_date": "2025-11-16T20:52:33.083217",
+  "text_length": 1131,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "dmarkus@markuslaw.com"
+  ]
+}

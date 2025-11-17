@@ -1,0 +1,65 @@
+Fed =< Invoice Number: 4-447-40902
+2 Invoice Date: Nov 11, 2002
+Account Number: 1144-2081-6
+Page: 7 of 11
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 04, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 5
+
+Package sent from: 33461 zip code
+Tracking D 837574510812 Sender Recipient
+Service Type FedEx Priority Overnight G MAXWELL MARC LUMBERG
+Package Type FedEx Envelope JEFFREY E EPSTEIN NA PROPERTY
+Zone 8 457 MADISON AVE a
+Packages 1 NEW YORK NY 10022-6843 US Po
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Nov 05, 2002 09 33 Transportation Charge 1550
+SveArea = AZ Discount 2.48
+Signed by D.OAKLEY Fuel Surcharge 052
+FedEx Use 310007530/00219/_ Courier Pickup Charge 000
+
+Total Transportation Charges USD $ 13.54
+
+Dropped off: Nov 05, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 4
+InternetShip Sender Recipient
+Tracking D 790133272544 CECILIA STEEN PEG UGLAND
+Service Type FedEx Priority Overnight JEFFREY E EPSTEIN N. A. PROPERTY
+Package Type FedEx Envelope 457 MADISON AVE PY
+Zone 4 NEW YORK NY 10022-6843 US Po
+Packages 1 =
+Weight 1.0 Ibs, 0.5 kgs Transportation Charge 15 25 =
+Delivered Nov 06, 200209 53 Discount 2.44 =
+SvaiArea Be Fuel Surcharge 1 =
+Signed by D.OAKLEY ——— ——  ——————— — ——————  -— —
+FedEx Use  523306552/00208/_ Total Transportation Charges USD $ 13.32 2
+Picked up: Nov 06, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 4
+
+FedEx has audited this shipment for correct packages, weight, and service. Any changes made are reflected in the invoice amount.
+
+We calculated your charges based on a dimensional weight of 26.0 Ibs.,24" x 17" x 12”, divided by 194.
+InternetShip Sender Recipient
+Tracking D 790134104544 CECILIA STEEN LESLIE H. WEXNER
+Service Type FedEx Standard Overnight § JEFFREY E EPSTEIN FY
+Package Type Customer Packaging 457 MADISON AVE Po
+Zone 4 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 15 0 Ibs, 6.8 kgs Transportation Charge 63 25
+Delivered Nov 07, 2002 10 28 Discount 6 33
+SveiArea Re Fuel Surcharge 2 28
+Signed by M.ANDERSON ——
+FedEx Use 523451822/01327/_ Total Transportation Charges USD $ 59.20
+
+SDNY_GM_00340685 23
+DOJ-OGR-00015332

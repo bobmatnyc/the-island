@@ -1,0 +1,60 @@
+Case 1:20-cr-00330-PAE Document 452-2 Filed 11/12/21 Page 41 of 45
+Predictors of delayed disclosure of rape
+SD = 103.3; 2(314) =4.06, p <0.001). Mean and median delayed disclosers were less likely to use medical services
+time to seek help were 37.7 and 12.0 weeks, respectively. and to report to the police than early disclosers.
+Mean time to seek help did not differ between groups Furthermore, this study identified a number of factors
+(#309) =2.54, p <0.48). Excluding outliers (W/+3 SD, related to the timing of rape disclosure, showing that
+N=11) did not change the outcome of this analysis. Both delayed disclosers represented significantly more adoles-
+early and delayed disclosers scored in the highest level cents than young adults, significantly more victims of
+of psychological distress when compared to previously penetration than assault, significantly more victims who
+reported norm scores (CRTI, Alisic, Eland, Huijbregts, were threatened than not threatened, and significantly
+& Kleber, 2012; CDI, Timbremont et al., 2008; YSR, more victims who were close with the assailant.
+Achenbach & Rescorla, 2001; SCL-90, Arrindell & The finding that delayed disclosers are less likely to
+Ettema, 1986), but the MANCOVA results showed that utilize medical services and report to the police than early
+when comparing multiple continuous psychological disclosers is in line with previous studies in adult women
+scores, the overall psychological functioning (posttrau- (Ahrens et al., 2010; Ullman, 1996; Ullman & Filipas,
+matic stress, depression, behavioural problems, and gen- 2001). It suggests that disclosure latency is important for
+eral psychopathology) did not differ significantly between public health and safety, as delayed disclosure may not
+early and delayed disclosers (F(6,198) =0.88, p =0.51). only impede reception of proper medical care, such as
+Table 3 shows the ORs with 95% CIs for the associa- treating anogenital injuries and preventing the onset of
+tions between potential risk factors and delayed disclosure. STDs and unwanted pregnancy (Linden, 2011), but also
+Delayed disclosers, when compared to early disclosers, impede the forensic investigation and apprehension of the
+were significantly more likely to be in the age category assailant (Lacy & Stark, 2013).
+of 12-17 years (OR =2.10), to have experienced rape by Three variables were identified that successfully pre-
+a close person (OR =2.35), to have been threatened dicted delayed disclosure: age category 12-17 years,
+verbally and/or with a weapon (OR = 1.75), and to have penetration, and the assailant being a close person. The
+experienced penetration (OR = 1.99). Delayed disclosers finding that the victim’s age significantly predicts disclo-
+were also found less likely to have used alcohol prior to sure latency is in line with previous research showing that
+the rape (OR =0.22). None of the other factors were adolescents are at a greater risk for delayed disclosure
+found to be significant risk factors for delayed disclosure. when compared to their older counterparts (Kogan, 2004;
+Smith et al., 2000). Adolescents may be less able to over-
+Predicting delayed disclosure come the barriers to disclose, including factors such as
+A stepwise forward LR analysis was conducted to predict assailant tactics for maintaining secrecy, stigma that often
+delayed disclosure, using “age category,” “close assailant,” accompanies rape, and fear that their parents would
+“use of threats,” and “penetration” as predictors. Victims’ consequently limit their freedom (Crisma, Bascelli, Paci,
+alcohol use was not entered in the analysis because of & Romito, 2004). Also, as victims approach adulthood,
+missing values for 33.4% of the cases. The use of threats they may possess more information about their rights and
+was not a significant predictor in the model. A test of the options after victimization, and have more possibilities for
+full model against a constant-only model was statistically whom to disclose. In our study, most adolescents disclosed
+significant, indicating that the predictors (e., age cate- the rape event to peers, in line with prior research (Crisma
+gory 12-17 years, close assailant, penetration) reliably et al., 2004; Priebe & Svedin, 2008).
+distinguished between early and delayed disclosers (y* The use of penetration was found to make victims
+(3) =23.09, p <0.000). There were no significant interac- more likely to postpone disclosure, opposite to the results
+tions between the predictors. Nagelkerke’s R? of 10.5% from Priebe and Svedin (2008), but in line with an older
+suggests only a modest association between the predic- study by Arata (1998), who found that more severe forms
+tors and delayed disclosure, although the model did show of sexual abuse were associated with less disclosure.
+an adequate fit to the data (Hosmer—Lemeshow x” (4) = Penetration may influence disclosure latency through
+2.77, p <0.60). In total, 62% of the respondents were a variety of mechanisms. It could be argued that more
+categorized correctly, when using the three predictors severe rape, indicated by the use of penetration, is more
+that contributed significantly to the prediction of delayed likely to be accompanied by extensive coercive use of
+disclosure: age category 12-17 years (OR 2.05, CI 1.13— tactics to maintain the victim’s silence, with fear of re-
+3.73), penetration (OR 2.36, CI 1.25—4.46), and closeness prisal possibly contributing to the finding of delayed dis-
+to the assailant (OR 2.64, CI 1.52-4.60). closure (Kogan, 2004). Also, adolescents may think that
+social reactions in response to disclosure are more nega-
+Discussion tive in case of completed rape compared to assault.
+The results of this study show that, although no dif- Another factor that seems to make immediate dis-
+ferences were found between delayed and early disclosers closure of rape less likely is closeness to the assailant,
+in psychological functioning and time to seek help, as indicated by the assailant being a (boy)friend, family
+Citation: European Journal of Psychotraumatology 2015, 6: 25883 _ http://dx.doi.org/10.3402/ejpt.v6.25883 —_ 5
+(page number not for citation purpose)
+DOJ-OGR-00006876

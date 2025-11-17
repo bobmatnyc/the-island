@@ -1,0 +1,32 @@
+Invoice Number: 7-152-41155
+tte j .
+a Invoice Date: Nov 21, 2002
+- 4 & Account Number: 1144-2081-6
+Page: 4of5
+FedEx Express Shipment Detail By Payment Type (Original)
+Shipped: Nov 13, 2002 Payor: Shipper Reference: 318FX5040
+Still in bond cage.
+
+Tracking ID 831051480239 Sender_ Recipient
+Service Type FedEx Intl Economy MRS SHERMAN VALDSON COTR N
+Package Type Customer Packaging JEFFREY E EPSTEIN EPSTEIN & CO
+Orig/Dest SAF/TNF 457 MADISON AVE 22 AVE FACH
+Packages 0 NEW YORK NY 10022-6843 US PARIS FR
+Weight 0
+Delivered Nov 18, 2002 10:12 Nov 13, 2002 - Conversion Rate EUR USD 1.0284920630
+Signed by COTRN Transportation Charge 0.00
+Bundle 1D Total Transportation Charges USD $ 0.00 a
+FedEx Use: 15688/_/60 P 9 ;
+
+Original VAT EUR 126.00 129.59
+Customs Advancement Fee EUR 7.20 7.41
+Entry Date Nov 14, 2002 1/1000 Charge 0.13 __
+EneiviNG: FREN00525)90921 Total Duties, Tax, Customs, Other Fees USD $ 137.13
+
+Shipment Total USD $ 137.13
+
+Shipment Detail Subtotal ene USD $ 137.13
+FDX..*46400*.504 136100 1.197 41.197 41.........FEDXDTY.......000004415.1 14420816
+
+SDNY_GM_00342906 62
+DOJ-OGR-00015371

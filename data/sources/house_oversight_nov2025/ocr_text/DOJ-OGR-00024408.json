@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00024408.pdf",
+  "ocr_date": "2025-11-16T21:54:13.869487",
+  "text_length": 660,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "HHurwitz@bop.gov"
+  ]
+}

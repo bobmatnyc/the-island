@@ -1,0 +1,53 @@
+Fed =< Invoice Number: 4-495-75031
+e Invoice Date: Dec 23, 2002
+Account Number: 1144-20814
+Page: 7of2i
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NOREFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a uel surcharge of 4.00% (6 (his shipment.
+Distance Based Pricing, Zone 8
+The delivery commilment for Express Saver Packages to homes or private residences (including home offices) is 7PM the third business day for all regions.
+1s allemp| Dec 13,2002 al 11:47 AM.
+incorrec| recipien| address.
+Tracking ID 828694901006 Sender Recipient
+Service Type FedEx Express Saver JEPSTEIN
+Package Type Cusiomer Packaging JEFFREY E EPSTEIN
+Zone 8 457 MADISON AVE
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 2.0 lbs, 0.9 kgs
+Delivered = Dee 17, 2002 13:10 Transportation Charge 10.55
+SvcAma = 3h Discount 1.06
+Signed by S.MOA186310 Address Correction 10.00
+FedEx Use 347150410/07179/03 Fuel Surcharge 0.38
+Residential Delivery 1.35
+Total Transportation Charges uso$ 21.22
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge Fedx has applied a luel surchage of 4.00% lo this shipment.
+Distance Based Pricing, Zone 4
+Package sent from: 43230 zip code
+Tracking |D += 837657306527 Sender Recpient
+Service Type FedEx Slandard Overnight LES WEXNER EDWINA SIMMONCOS —
+Package Type FedEx Envelope JEFFREY E EPSTEIN =
+Zone 4 457 MADISON AVE =
+Packages 1 NEW YORK NY 10022 6843 US =
+Weight 1.0 lbs, 0.5 kgs =
+Delivered Dec 12, 2002 12:10 Transportation Charge 13.50 =
+mone = A Discount 26 =
+——y ae Fuel Surcharge us =
+FedEx Use — 34720140000222/ Residential Delivery 1.35
+Total Transportation Charges USD $ 13.14
+Picked up: Dec 12, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a [uel surcharge of 4.00% lo this shipment.
+Disiance Based Pricing, Zone 2
+Tracking ID += 828694899859 Sender Recipient
+Service Type FedEx Express Saver JEPSTEIN HEIDI FREILER
+Package Type FedE x Pak JEFFREY E EPSTEIN MERCEDES BENZ USA
+Zone 2 457 MADISON AVE
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Dec 13, 2002 09:44 Transportation Charge 7.70
+—— -* Discount 0.77
+Sioned by = D.BAUZIA Fuel Surcharge 028
+FedEx Use 348 171900/07167/ we
+Total Transportation Charges USD$ 7.21
+DOJ-OGR-00016070

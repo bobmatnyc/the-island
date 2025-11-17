@@ -1,0 +1,102 @@
+Page 596
+Page 7
+
+Log Assignment
+
+Date/Time User Action Alias Post Shift date Watch Type Mndtry
+
+08/09/19 11:05 OT By-passed SHU #1 og/09/19 EW _ Signup List CO
+The staff membe is already working this watch. List Selected: [All]
+
+08/09/19 11:05 [>\5) | OT By-passed Bye) (NTN) SHU #1 08/09/19 EW _ Signup List C]
+shift conflict : List Selected: [All]
+
+08/09/19 11:05 OT By-passed SHU #1 08/0919 Ew Signup List a
+shift conficit List Selected: [All]
+
+08/09/19 11:04 OT By-passed SHU #1 08/09/19 E/W — Signup List a
+shift conflict List Selected: [All]
+
+08/09/19 11:04 OT By-passed SHU #1 08/09/19 E/W _ Signup List Cl
+left message List Selected: [All]
+
+08/09/19 11:04 OT By-passed SHU #1 08/09/19 EW _ Signup List =
+shift conflict List Selected: [All]
+
+08/09/19 11:04 OT By-passed SHU #1 08/09/19 EW _ Signup List O
+The staff member $) is already working this watch. List Selected: [All]
+
+08/09/19 11:04  [ib)ié), OT By-passed YMG} (DMT NC) SHU #1 08/09/19 EW Signup List i
+left message me? List Selected: [All]
+
+08/09/19 11:04 OT By-passed SHU #1 08/09/19 EW _ Signup List oO
+left message! List Selected: [All]
+
+08/09/19 11:03 OT Refused SHU #1 08/09/19 E/W — Signup List ia,
+refused List Selected: [All]
+
+08/09/19 11:03 OT By-passed SHU #1 08/09/19 EAV Signup List Cc]
+left message List Selected: [All]
+
+08/09/19 11:02 OT By-passed SHU #1 08/09/19 EW _ Signup List Oo
+left message! List Selected: [All]
+
+08/09/19 10:59 OT Removed - Staff Cancelled SHU #1 08/09/19 E/W _— Signup List {j
+cancelled over time - REMOVED FROM [Sick / Annual]
+
+08/09/19 10:22 ch * OT Assigned INTERNAL #2 08/10/19 M/W _ Signup List OQ
+AGREED List Selected: [All]
+
+08/09/19 10:22 OT By-passed INTERNAL #2 08/10/19 M/W Signup List OC
+UNABLE TO WORK List Selected: [All]
+
+08/09/19 9:57 ‘al OT Assigned TREATY 2 08/09/19 P/M List Exempt C]
+treaty
+
+08/09/19 9:48 Last MNDTRY OT Date Set N/A N/A NIA C
+man LAST MANDATORY OT ASSIGNMENT SET TO: 08/09/19 13:00
+
+08/09/19 9:47 OT Assigned TREATY 1 08/09/19 P/M List Exempt Cc]
+treaty
+
+08/09/19 9:47 OT Assigned TREATY LT 08/09/19 P/M List Exempt EJ
+treaty It
+
+08/09/19 9:18 Signed Up for OT N/A 08/15/19 N/A N/A Oo
+Selected List Selected Shifts:
+[All] EW
+
+08/09/19 9:18 Signed Up for OT N/A 08/14/19 NIA N/A a
+Selected Lis Selected Shifts:
+[All] EW
+
+08/08/19 9:18 Signed Up for OT N/A 08/13/19 N/A N/A oO
+Selected Lis’ Selected Shifts:
+(All) EW
+
+08/09/19 9:09 OT Assigned 7 NORTH 08/09/19 EW List Exempt ez)
+list
+
+08/09/19 8:59 OT Assigned ACT LT 08/09/19 P/M List Exempt rj
+cpd adjustme
+
+08/09/19 8:03 OT Assigned TNWDVR 08/09/19 P/M List Exempt tC]
+driver
+
+08/09/19 8:03 OT Removed - Mamt Cancelle TNWDVR 08/09/19 P/M List Exempt Cl
+canc - REMOVED FROM [Sick / Annual]
+
+08/09/19 7:49 Last MNDTRY OT Date Set N/A N/A N/A OC
+man LAST MANDATORY OT ASSIGNMENT SET TO: 08/08/19 17:00
+
+08/09/19 7:44 Last MNDTRY OT Date Set N/A N/A N/A CJ
+m LAST MANDATORY OT ASSIGNMENT SET TO: 08/03/19 15:58
+
+08/09/19 7:43 Last MNDTRY OT Date Set N/A N/A N/A Oo
+m LAST MANDATORY OT ASSIGNMENT SET TO: 08/03/19 15:00
+
+08/09/19 6:55 OT Assigned 11 NORTH 08/09/19 DW List Exempt Fy
+cpd adjustment
+
+5/19/2020 10:37:33 AM
+DOJ-OGR-00025049

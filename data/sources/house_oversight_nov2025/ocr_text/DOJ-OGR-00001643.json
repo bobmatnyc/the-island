@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00001643.pdf",
+  "ocr_date": "2025-11-16T20:53:05.540126",
+  "text_length": 2110,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "mcohen@cohengtesset.com",
+    "ceverdell@cohengtesset.com"
+  ]
+}

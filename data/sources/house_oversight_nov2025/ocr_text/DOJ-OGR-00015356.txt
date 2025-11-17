@@ -1,0 +1,42 @@
+Fed =< Invoice Number: 4-447-80862
+2 Invoice Date: Nov 18, 2002
+Account Number: 1144-2081-6
+Page: 12 of 14
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 14, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 6
+InternetShip Sender Recipient
+Tracking D 790632119515 CECILIA STEEN ALLTEL IND OF SOUTH FLOR DA
+Service Type FedEx Priority Overnight JEFFREY E EPSTEIN Po
+Package Type FedEx Envelope 457 MADISON AVE Po
+Zone 6 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 1.0 Ibs, 0.5 kgs Transportation Charge 16 00
+Delivered Nov 15, 2002 09:49 Discount -256
+Sve Area AA Fuel Surcharge 054
+Signed by BELL ——
+FedEx Use  523375744/00230/_ Total Transportation Charges USD $ 13.98
+Picked up: Nov 14, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 6
+InternetShip Sender Recipient
+Tracking D 791979186386 CECILIA STEEN DOTT E WILSON
+Service Type FedEx Priority Overnight JEFFREY E EPSTEIN PALM BEACH NATIONAL BANK & TRU
+Package Type FedEx Envelope 457 MADISON AVE
+Zone 6 NEW YORK NY 10022-6843 US
+Packages 1
+Weignt 1.0 Ibs, 0.5 kgs Transportation Charge 16 00
+Delivered Nov 15, 2002 09:14 Discount -256
+Sve Area AA Fuel Surcharge 054
+Signed by M BROWN ——$—_$_—_$_—_$_—_$_—_$__$—$_—$——————————————————————————
+FedEx Use  523419512/00230/_ Total Transportation Charges USD $ 13.98
+
+Shipment Detall Subtotal sccm SDD 665.26
+SDNY_GM_00340709 47
+DOJ-OGR-00015356

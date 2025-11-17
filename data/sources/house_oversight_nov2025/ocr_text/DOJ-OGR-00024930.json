@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00024930.pdf",
+  "ocr_date": "2025-11-16T21:55:26.516523",
+  "text_length": 1764,
+  "is_email": true,
+  "email_confidence": 0.8999999999999999,
+  "email_addresses": [
+    "OGC_EFOLA@BOP.GOV"
+  ]
+}

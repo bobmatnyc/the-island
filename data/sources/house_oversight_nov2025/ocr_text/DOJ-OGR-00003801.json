@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00003801.pdf",
+  "ocr_date": "2025-11-16T20:59:42.777323",
+  "text_length": 765,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "jpagliuca@hmflaw.com",
+    "Imenninger@bhmflaw.com"
+  ]
+}

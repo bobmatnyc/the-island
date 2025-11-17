@@ -1,0 +1,67 @@
+Page 590
+MCC NEW YORK
+NEW YORK, NY
+Overtime Log - 5/19/2020
+Criteria: Log Date between 8/9/2019 and 8/10/2019
+Page 1
+Log Assignment
+Date/Time User Action Alias Post Shift date Watch Type Madtry
+08/10/19 22:33 Last MNDTRY OT Date Set [POX NIA NIA NIA Ol
+MANDATED TO WORK LAST MANDATORY OT ASSIGNMENT SET TO: 08/10/19 22:04
+08/10/19 22:32 Last MNDTRY OT Date Set N/A N/A NIA 0
+MANDATED TO WORK LAST MANDATORY OT ASSIGNMENT SET TO: 08/10/19 22:01
+08/10/19 22:34 OT Assigned UNIT 2 08/11/19 MMW _ List Exempt oO
+OT LIST EXHAUSTED
+08/10/19 22:30 OT Removed - Mgmt Cancelle INTERNAL #2 08/11/19 M/W List Exempt |
+ADMIN ERROR STAFF REASSIGNED - REMOVED FROM [Sick / Annual]
+08/10/19 21:26 Signed Up for OT N/A 08/24/19 N/A N/A O
+Selected Lists: Selected Shifts:
+BPT ARMED ESCORT MW
+08/10/19 21:25 Signed Up for OT NIA 08/23/19 N/A NIA oO
+Selected Lists: Selected Shifts:
+BPT ARMED ESCORT Mw
+08/10/19 21:25 Signed Up for OT NIA 08/21/19 N/A NIA oO
+Selected Lists: Selected Shifts:
+BPT ARMED ESCORT MW
+08/10/19 21:09 OT Assigned TREATY PICK 08/08/19 EW List Exempt Oo
+EMERGENCY TREATY PICK UP
+08/10/19 21:05 OT Assigned TREATY#4 08/09/19 MW List Exempt 0
+TREATY PICK UP
+08/10/19 21:05 |;'°\., | OT Assigned TREATY LT 08/09/19 MW List Exempt oO
+LIEUTENAN
+08/10/19 21:04 OT Removed - Mgmt Cancelle TREATY LT 08/09/19 MMW List Exempt oO
+CANCELLED - REMOVED FROM [Sick / Annual}
+08/10/19 21:02 OT Assigned TREATY LT 08/09/19 M/W List Exempt Ci
+LIEUTENA
+08/10/19 21:01 OT Assigned ESCORT #3 08/10/19 DW List Exempt Oo
+ESCORT TO LOCAL HOSPITAL
+08/10/19 20:57 [8] OT Assigned TREATY LT#2 08/08/19 EW List Exempt O)
+TREATY LT!
+08/10/19 20:54 OT Assigned SIS LT 08/10/19 EW List Exempt oO
+LIEUTENAN
+08/10/19 20:53 OT Assigned SIS LT 08/10/19 DW List Exempt 0
+LIEUTENA
+08/10/19 20:52 Last MNDTRY OT Date Set NIA N/A N/A oO
+| MANDATED TO WORK LAST MANDATORY OT ASSIGNMENT SET TO: 08/10/19 20:49
+08/10/19 20:51 OT Assigned OSP #1 08/11/19 MMW Mandtry List v7
+MANDATED TO WORK
+08/10/19 20:50 OT By-passed OsP #1 08/11/19 MAW Mandtry List
+The staff member is already working this watch.
+08/10/19 20:50 OT By-passed OSP #1 08/11/19 MMW Mandtry List Zw
+The staff membejb\i5), (b)/7C) fis already working this watch.
+08/10/19 20:50 call aon (bY(6); (OM7NC) OSP #1 08/11/19 MAW Mandtry List
+UNABLE
+08/10/19 20:50 OT By-passed OSP #1 08/11/19 MAN — Mandtry List
+SHIFT CONFLICT
+08/10/19 20:50 OT By-passed OSP #1 08/11/19 MMW Mandtry List
+SHIFT CONFLICT
+08/10/19 20:50 OT Removed - Mgmt Cancel OSP #1 08/11/19 MMW _ List Exempt oO
+ADMIN ERROR - REMOVED FROM [Sick / Annual]
+08/10/19 20:37 OT Assigned CONTROL #1 08/11/19 EW List Exempt 0
+cpd adjustment
+08/10/19 20:35 [°° lOT Assigned 10 SOUTH #2 08/11/19 A/M List Exempt O
+cpd adjustment
+08/10/19 20:28 (°° oT Assigned INTERNAL #2 08/11/19 MMW List Exempt 0
+cpd adjustment
+5/19/2020 10:37:33 AM
+DOJ-OGR-00025043

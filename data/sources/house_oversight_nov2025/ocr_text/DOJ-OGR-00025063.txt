@@ -1,0 +1,70 @@
+Page 610
+
+Page 8
+Log Assignment
+Date/Time User Action Alias Post Shiftdate Watch Type Mndtry
+07/22/19 10:50 |?" | OT By-passed ROE ENS) 5 SOUTH 07/27/19 MMW __ Signup List O
+07/22/19 10:50 OT By-passed 5 SOUTH 07/2719 M/W — Signup List [2]
+07/22/19 10:50 OT By-passed 5 SOUTH 07/27/19 MW _ Signup List ‘a
+07/22/19 10:50 OT By-passed 5 SOUTH 07/27/19 MMW _ Signup List C)
+07/22/19 10:50 OT By-passed 5 SOUTH 07/27/19 M/W _ _ Signup List CO
+07/22/19 10:50 OT By-passed 5 SOUTH 07/27/19 MMW _ _ Signup List |
+07/22/19 10:50 OT By-passed 5 SOUTH 07/27/19 MMW _ Signup List CO
+07/22/19 10:50 OT By-passed 5 SOUTH 07/2719 MW _ — Signup List |
+07/22/19 10:50 OT By-passed 5 SOUTH 07/27/19 MW — Signup List El
+07/22/19 10:50 OT By-passed 5 SOUTH 07/27/19 MW — Signup List aa
+07/22/19 10:50 OT By-passed 5 SOUTH 07/2719 MW _ Signup List Oo
+07/22/19 10:50 OT By-passed 5 SOUTH 07/2719 MMW _ Signup List oO
+07/22/19 10:45 OT Assigned SIS LT 07/19/19 P/M List Exempt CJ
+07/22/19 10:43 OT Removed - Mgmt Cancelle 7 NORTH 07/23/19 M/W Signup List |
+07/22/19 10:39 OT Assigned VISIT #1 07/19/19 P/M List Exempt ial
+07/22/19 10:33 OT Assigned LOBBY #2 07/19/19 P/M List Exempt oO
+07/22/19 10:31 OT Assigned SHU #4 07/22/19 EW Signup List CJ
+07/22/19 10:30 OT By-passed SHU #4 07/22/19 EW Signup List |
+07/22/19 10:30 OT By-passed SHU #4 07/22/19 EW _ Signup List ‘|
+07/22/19 10:30 OT By-passed SHU #4 07/22/19 EW Signup List EI
+07/22/19 10:30 OT By-passed SHU #4 07/22/19 EAN Signup List EI
+07/22/19 10:26 OT Assigned ATTY CONF 07/24/19 DW _ Signup List C]
+07/22/19 10:26 OT By-passed ATTY CONF 07/24/19 DAW — Signup List I]
+07/22/19 10:26 OT By-passed ATTY CONF 07/24/19 DAW _ Signup List CT]
+07/22/19 10:26 OT By-passed ATTY CONF 07/2419 DAW — Signup List C]
+07/22/19 10:26 OT By-passed ATTY CONF 07/24/19 DAW Signup List LI
+07/22/19 10:26 OT By-passed ATTY CONF 07/2419 DAW — Signup List CL]
+07/22/19 10:26 OT By-passed ATTY CONF 07/2419 DW Signup List C]
+07/22/19 10:26 OT By-passed ATTY CONF 07/24/19 DAW _ Signup List C)
+07/22/19 10:22 OT Assigned LOBBY 07/22/19 P/M Signup List |
+07/22/19 10:22 OT By-passed LOBBY 07/22/19 P/M Signup List fa]
+07/22/19 10:22 OT Removed - Mgmt Cancelle SHU #4 07/22/19 EW Signup List C]
+07/22/19 10:19 OT Assigned SHU #2 o7/2319 D/W Signup List ‘a
+07/22/19 10:19 OT By-passed SHU #2 07/23/19 DAW — Signup List CO]
+07/22/19 10:04 OT Assigned SHU #4 07/23/19 DW _ Signup List CL)
+07/22/19 10:04 OT By-passed SHU #4 07/23/19 DW — Signup List [|
+07/22/19 10:04 OT By-passed SHU #4 07/23/19 DW — Signup List C]
+07/22/19 9:55 Deleted OT Sign Up - Day N/A 07/22/19 NIA N/A [=]
+07/22/19 9:55 Signed Up for OT N/A 08/12/19 N/A N/A C]
+07/22/19 9:55 Signed Up for OT N/A 08/05/19 N/A NA CJ
+07/22/19 9:55 Signed Up for OT N/A 07/29/19 N/A N/A Cc]
+07/22/19 9:55 — Signed Up for OT N/A 08/26/19 N/A N/A C]
+07/22/19 9:55 Signed Up for OT N/A 09/02/19 N/A N/A Cc]
+07/22/19 9:55 Signed Up for OT N/A 08/19/19 N/A NIA C]
+07/22/19 9:55 Signed Up for OT N/A 07/22/19 N/A N/A C]
+07/22/19 9:23 OT Assigned UNIT 2 07/29/19 M/W _ Signup List [jl
+07/22/19 9:23 OT By-passed UNIT 2 07/29/19 MMW — Signup List Cl
+07/22/19 9:23 OT By-passed UNIT 2 07/29/19 MMW _ _ Signup List CO
+07/22/19 9:23 OT By-passed UNIT 2 07/29/19 M/W _ Signup List CO]
+07/22/19 9:20 OT Assigned SHU #1 07/23/19 M/W _ Signup List fl
+07/22/19 9:20 OT By-passed SHU #1 07/23/19 MMW _ Signup List |
+07/22/19 9:20 OT By-passed SHU #1 07/23/19 M/W — Signup List C)
+07/22/19 9:20 OT By-passed SHU #1 07/23/19 M/W — Signup List CJ
+07/22/19 9:20 OT By-passed SHU #1 07/23/19 MW _ Signup List C]
+07/22/19 9:20 OT By-passed SHU #1 07/23/19 M/W _ Signup List Cl
+07/22/19 9:20 OT By-passed SHU #1 07/23/19 M/W _ Signup List C
+07/22/19 9:20 OT By-passed SHU #1 07/23/19 MAW _ Signup List C]
+07/22/19 9:20 OT By-passed SHU #1 07/23/19 M/W _ Signup List 4
+07/22/19 9:20 OT By-passed SHU #1 07/23/19 M/W _ Signup List a
+07/22/19 9:20 OT By-passed SHU #1 07/23/19 M/W _ Signup List Ll
+07/22/19 9:02 Quarterly Shift Preference N/A N/A N/A CI
+07/22/19 8:45 OT Assigned 11 NORTH 07/23/19 MMW — Signup List 4G
+
+5/19/2020 10:36:43 AM
+DOJ-OGR-00025063

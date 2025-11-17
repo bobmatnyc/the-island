@@ -1,0 +1,16 @@
+{
+  "source_pdf": "DOJ-OGR-00004188.pdf",
+  "ocr_date": "2025-11-16T21:00:42.176952",
+  "text_length": 1324,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "amanda.kramer@usdoj.gov",
+    "AKramer@usa.doj.gov",
+    "brad@pathtojustice.com",
+    "StanPottinger@aol.com",
+    "pskinner@bsfllp.com",
+    "Smccawley@BSFLLP.com",
+    "PSkinner@BSFLLP.com"
+  ]
+}

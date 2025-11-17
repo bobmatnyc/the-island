@@ -1,0 +1,70 @@
+Page 607
+
+Page 5
+Log Assignment
+Date/Time User Action Alias Post Shift date Watch Type Mndtry
+07/22/19 22:07 [°° | signed Up for OT (DH6); (BYZKC) NIA 08/30/19 N/A NIA CJ
+07/22/19 22:07 Signed Up for OT N/A 08/30/19 N/A N/A CO
+07/22/19 22:06 Signed Up for OT N/A 08/31/19 N/A N/A O
+07/22/19 22:06 Signed Up for OT N/A 08/31/19 N/A N/A Ic]
+07/22/19 22:06 Signed Up for OT N/A 09/01/19 N/A N/A Cc)
+07/22/19 22:06 Signed Up for OT N/A 09/01/19 N/A N/A (cl
+07/22/19 22:06 Signed Up for OT NIA 09/02/19 N/A NIA a
+07/22/19 22:06 Signed Up for OT N/A 09/02/19 N/A N/A i
+07/22/19 22:06 Signed Up for OT N/A 09/03/19 N/A NIA im
+07/22/19 22:06 Signed Up for OT N/A 09/03/19 N/A N/A C
+07/22/19 22:06 Signed Up for OT N/A 09/03/19 N/A N/A |
+07/22/19 22:05 Signed Up for OT N/A 09/03/19 N/A N/A [J
+07/22/19 22:05 Signed Up for OT N/A 09/04/19 N/A N/A CJ
+07/22/19 22:05 Signed Up for OT N/A 09/04/19 N/A NIA LI
+07/22/19 22:05 Signed Up for OT N/A 09/04/19 N/A N/A CJ
+07/22/19 22:05 Signed Up for OT N/A 09/04/19 N/A N/A CJ
+07/22/19 22:05 Signed Up for OT N/A 09/04/19 N/A N/A IJ
+07/22/19 22:05 Signed Up for OT N/A 09/05/19 N/A N/A |
+07/22/19 22:04 Signed Up for OT N/A 09/05/19 N/A N/A CJ
+07/22/19 22:04 Signed Up for OT N/A 09/05/19 NIA N/A im
+07/22/19 22:04 Signed Up for OT N/A 09/05/19 N/A NIA mi
+07/22/19 22:04 Signed Up for OT N/A 09/06/19 N/A N/A Cc
+07/22/19 22:04 Signed Up for OT N/A 09/06/19 N/A NIA i}
+07/22/19 22:04 Signed Up for OT N/A 09/06/19 N/A NIA CL]
+07/22/19 22:04 Signed Up for OT N/A 09/06/19 N/A N/A iz
+07/22/19 22:04 Signed Up for.OT N/A 09/07/19 N/A NIA LJ
+07/22/19 22:03 Signed Up for OT N/A 09/07/19 N/A N/A C]
+07/22/19 22:03 Signed Up for OT N/A 07/30/19 N/A NIA L]
+07/22/19 22:03 Signed Up for OT N/A 07/30/19 N/A N/A CJ
+07/22/19 22:03 Signed Up for OT N/A 07/30/19 N/A N/A LJ
+07/22/19 22:03 Signed Up for OT N/A 07/30/19 N/A N/A CJ
+07/22/19 22:02 Quarterly Shift Preference N/A N/A N/A CJ
+07/22/19 21:54 Signed Up for OT N/A 07/29/19 N/A N/A CJ
+07/22/19 21:54 Signed Up for OT N/A 07/2919 NIA N/A C
+07/22/19 21:27 Signed Up for OT N/A 08/07/19 N/A N/A CJ
+07/22/19 21:27 Signed Up for OT N/A 08/0719 N/A NIA CJ
+07/22/19 21:26 Signed Up for OT N/A 07/3119 N/A NIA (cl
+07/22/19 21:26 Signed Up for OT N/A 07/3119 NIA N/A ia
+07/22/19 21:26 Signed Up for OT N/A 07/30/19 N/A N/A ia
+07/22/19 21:26 Signed Up for OT NIA 07/29/19 N/A N/A rl
+07/22/19 21:26 Signed Up for OT N/A 08/06/19 N/A N/A |
+07/22/19 21:25 Signed Up for OT N/A 08/05/19 N/A N/A LC
+07/22/19 21:25 Signed Up for OT N/A 08/2719 NIA NIA LJ
+07/22/19 21:25 Signed Up for OT N/A 07/29/19 N/A N/A =
+07/22/19 21:14 OT Assigned SHU #2 07/23/19 MAW List Exempt CJ
+07/22/19 21:14 OT Removed - Mgmt Cancelle SHU #2 07/23/19 MMW — Signup List CJ
+07/22/19 20:19 Quarterly Shift Preference N/A NIA N/A LJ
+07/22/19 20:16 OT Assigned ; 10 SOUTH #1 07/2619 DW Signup List tJ
+07/22/19 20:12 OT Assigned ESCORT OFF #2 07/2619 DAW _ Signup List CJ
+07/22/19 20:02 OT Removed - Mgmt Cancelle OPS LT 08/03/19 DW List Exempt il
+07/22/19 20:01 Signed Up for OT N/A 07/2619 NIA N/A C
+07/22/19 20:01 OT Assigned OPS LT 08/03/19 DW List Exempt a
+07/22/19 20:01 Deleted OT Sign Up - Day N/A 07/25/19 N/A NIA O
+07/22/19 20:01 Deleted OT Sign Up - Day N/A 07/2419 NIA N/A i
+07/22/19 19:58 Deleted OT Sign Up - Day N/A 07/22/19 NIA N/A Oo
+07/22/19 19:58 Quarterly Shift Preference N/A NIA NIA ia|
+07/22/19 19:21 OT Assigned 11 SOUTH 07/23/19 M/W  Mandtry List |
+07/22/19 19:21 OT By-passed 11 SOUTH 07/23/19 M/W Mandtry List |
+07/22/19 19:21 OT By-passed 11 SOUTH 07/23/19 M/W Mandtry List a
+07/22/19 19:21 OT By-passed 11 SOUTH 07/23/19 M/W ~ Mandtry List
+07/22/19 18:49 OT Assigned 10 SOUTH #2 07/24/19 PIM List Exempt fi
+07/22/19 18:12 OT Assigned 5 NORTH 07/23/19 M/W _ Signup List fel
+
+5/19/2020 10:36:43 AM
+DOJ-OGR-00025060

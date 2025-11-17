@@ -1,0 +1,52 @@
+Fed =< Invoice Number: 4-447-80862
+2 Invoice Date: Nov 18, 2002
+Account Number: 1144-2081-6
+Page: 7 of 14
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Nov 08, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 6
+
+Package sent from: 75038 zip code
+
+FedEx has audited this shipment for correct packages, weight, and service. Any changes made are reflected in the invoice amount.
+Tracking D 837575316936 Sender Recipient
+Service Type FedEx Priority Overnight LARRY VISOSKI DAVE RODSERS N908JE
+Package Type FedEx Envelope JEFFREY E EPSTEIN JET AVIATION COSTOMER SERVICES
+Zone 457 MADISON AVE Po
+Packages 1 NEW YORK NY 10022-6843 US PO]
+Weight 0
+Delivered Nov 09, 2002 10 57 Transportation Charge 1600
+SvcArea AA Discount -2.56
+Signed by P KOONS Saturday Delivery 1000
+FedEx Use 318061590/00230/_ Fuel Surcharge 054
+
+Total Transportation Charges USD $ 23.98
+
+Picked up: Nov 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 7
+
+The delivery commitment for Express Saver Packages to homes or private residences (Including home offices) is 7PM the third business day for all regions.
+
+Release signature on file.
+InternetShip Sender Recipient
+Tracking D 790629107684 CECILIA STEEN SHANNON HEALY
+Service Type FedEx Express Saver JEFFREY E EPSTEIN Po =
+Package Type FedEx Envelope 457 MADISON AVE Po =
+Zone 7 NEW YORK NY 10022-6843 US =
+Packages 1 —
+Weight 1.0 Ibs, 0.5 kgs Transportation Charge 8 80 =
+Delivered Nov 13, 2002 12:43 Discount 0 88 =
+Sve Area 3R Fuel Surcharge 032 =
+Signed by = 7279236 Residential Delivery 13 =
+FedEx Use = 523919313/00834/02 Delivery Area Surcharge 150
+
+Total Transportation Charges USD $ 11.09
+SDNY_GM_00340704 42
+DOJ-OGR-00015351

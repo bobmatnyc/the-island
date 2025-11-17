@@ -1,0 +1,45 @@
+Fed =< Invoice Number: 4-495-75031
+e invoice Date: Dec 23, 2002
+Account Number: 1144-2081-6
+Page: 10 of 21
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 13, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a luel surcharge of 4.00% Io this shipment.
+Distance Based Pricing, Zone 6
+FedEx has audited this shipment for correct packages, weight, and service. Any changes made are reflected in Ihe invoice amount
+We calcu laied your charges based on a dimensional weighi of 22.0 Ibs .24” x 16" x 11°. divided by 194.
+Release signature on file.
+InterneiShip Sender Recipient
+Tracking ID 790161716618 CECILIA STEEN JEFFREY E. EPSTEIN
+Service Type FedEx Priorily Overnight JEFFREY E EPSTEIN 358 EL BRILLO WAY
+Package Type Customer Packaging 457 MADISON AVE PALM BEACH FL 33480 US
+Zone 6 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 15.0 Ibs, 6.6 kgs Transportation Ch 74.25
+Delivered Dec 14, 2002 11:06 Discount se 7.43
+Sve Area AA
+Saturday Deli 10.00
+2 Fuel a 2.67
+FedExUse 523497764/01574/02 Residential Delivery 135
+Total Transportation Charges USD $ 80.84
+Picked up: Dec 13, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a ve! surcharge of 4.00% \o this shipment.
+Cisiance Based Pricing, Zone 2
+The delivery commilment for Express Saver Packages to homes or private reddences (Including home offices) is 7PM the third business day for all regions.
+1st attempt Dec 17, 2002 at 03:30 PM.
+Incorrect recipient address.
+Original address - 120 VERMILYEA STREET, APTH2/NEW YORK.NY 10034
+FedEx has audited this shipment for correct packages, weight, and service. Any changes made are reflecied in the invoice ammount.
+InternaShip Sender Reapient
+Tracking ID 791254610500 CECILIASTEEN ELISABETH ANDUJAR
+Service Type FedEx Express Saver JEFFREY E EPSTEIN
+Package Type Customer Packaging 457 MADISON AVE
+Zone 2 NEW YORK NY 10022 6843 US
+Packages 1
+Weight 2.0 Ibs, 0.9 kgs - talc Ch 750
+Delivered Dec 18, 2002 14:36 maaan . -0.78
+SvcArea oR Address Correction 10.00
+yedty =A Fuel Surcharge 0.28
+FedEx Use §23555907/0716703 Residential Delivery 1.35
+Total Transportation Charges USD$ 18.65
+DOJ-OGR-00016073

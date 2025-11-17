@@ -1,0 +1,17 @@
+| ® ®
+Automated Serial Permanent Charge-Out
+FD-5a (1-5-94)
+Date: 04/02/08 Time: 13:21
+| Case ID: 31B-MM-108062 Serial: 153
+| Description of Document:
+Type : EC
+Date : 03/27/08
+| To : MIAMI
+| From : NEW YORK
+Topic: TO COVER LEAD SET BY THE MIAMI DIVISION, SERIAL 134,LEAD 1
+Reason for Permanent Charge-Out:
+Brror in serializing.
+b6 -2
+D29pO71049
+| 3 [etn 108062193
+| DOJ-OGR-00029007 |

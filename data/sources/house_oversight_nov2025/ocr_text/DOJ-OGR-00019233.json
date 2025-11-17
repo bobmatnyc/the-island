@@ -1,0 +1,19 @@
+{
+  "source_pdf": "DOJ-OGR-00019233.pdf",
+  "ocr_date": "2025-11-16T21:39:56.073944",
+  "text_length": 1530,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "nef@nhd.uscourts.gov",
+    "john.davis8@usdoj.gov",
+    "USANH.ECFCriminal@usdoj.gov",
+    "usanh.ecfcriminal@usdoj.gov",
+    "2213529@nhd.uscourts.gov",
+    "bounce@nhd.uscourts.gov",
+    "usanh.ecfdocket@usdoj.gov",
+    "caseview.ecf@usdoj.gov",
+    "USANH.ECFDocket@usdoj.gov",
+    "kristina.mcnamara@usdoj.gov"
+  ]
+}

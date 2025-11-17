@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00026830.pdf",
+  "ocr_date": "2025-11-16T21:59:45.336036",
+  "text_length": 963,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "nms@nmslabs.com"
+  ]
+}

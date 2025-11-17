@@ -1,0 +1,26 @@
+FD-340 (Rev. 411-03) . ; ::
+° File Number BalE~- Mm 7 [ O KOG2_ “SF /] . q
+' Field Office Acquiring Evidence _. (Viv ay g ERA ae \ 1
+‘Serial # of Originating Document a '
+| Date Received Of / 2 {S) | bID 2
+: From |
+of Contributor/Interviewee} : 5
+iy pe -2
+/b7C -2
+a t 1
+: To Be Retumed Yes lo : yo
+' ReceiptGiven 0 Yes Do rong
+. Grand Jury Material - Disseminate Only Pursuant to Rule 6 (e) . st t
+: Federal Rules of Criminal Procedure . . on i
+i CF Yes Ce . °
+: Federal Taxpayer Information TD DG
+Cl Yes No tS
+Title: . ; of
+| Reference:
+| oo, {Communication Enclosing Material) . A .
+| Description: i} —Oripinabngtes re interview ¢ [i
+ir | PEs =!
+b7C -3
+b7D -2
+03956-9935 °° } °
+=e "DO J-OGR-00030140

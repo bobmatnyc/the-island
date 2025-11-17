@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00024957.pdf",
+  "ocr_date": "2025-11-16T21:55:30.320131",
+  "text_length": 1512,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "J@usa.dojgovsj"
+  ]
+}

@@ -1,0 +1,53 @@
+Fed =< Invoice Number: 4-495-75031
+. invoice Date: Dee 23, 2002
+Account Number: 1144-2081-6
+Page: 9of 21
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Dec 12, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharmge FedEx has applied a [uel surcharge o/ 4.00% \o this shipment
+Distance Based Piicing, Zone 4
+The delivery commimenit for Express Saver Packages to homes or private residences (including home offices} is 7PM the third business day for all regions.
+FedEx has audited this shipment lor correct packages. weight, and service. Any changes made are reflecied in the invoice amount.
+Release signature on file.
+Tracking ID 828694900948 Sender Recipient
+Service Type FedEx Express Saver JEPETEIN AUREN PETRELLA
+Package Type Customer Packaging JEFFREY E EPSTEIN
+Zone 4 457 MADISON AVE
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 2.0 Ibs, 0.9 kgs
+Delivered Dec 16, 2002 13:52 Transportation Change 810
+Svc Area 3R Discount 0.81
+Signed by L.NNA266287 Fuel Surchame 0.29
+FedEx Use 348 188670/0717102 Residential Delivery 1.35
+Total Transportation Charges usp $ 8.93
+Picked up: Dec 12, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surchame - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Dsiance Based Pricing, Zone 6
+Tracking ID 837169285013 Sender Reapient
+Service Type FedEx Priority Overnight LAURENKWINTNER HUGH BATE
+Package Type FedEx Envelope JEFFREY E EPSTEIN CHANOTS OF PALM BEACH
+Zone 6 457 MADISON AVE —
+Packages 1 NEW YORK NY 10022 6843 US =
+Weight 1.0 Ibs, 0.S5kgs |
+— Dec 13, 200210:46 Tinhaporation Chase 16.00 =
+veAsa 86M Discount 26 =
+Signed by H.BAK ; Fuel Surchame ss SS
+FedEx Use  248171900/00230/ (i a” Ae
+Total Transportation Charges USD $ 13.9% =
+Picked up: Dec 13, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a fuel surcharge of 4.00% \o this shipment
+Distance Based Pricing, Zone 8
+Release signature on file.
+inlernetShip Sender Recipient
+Tracking ID 790161678197 CECILIA STEEN ISABEL MAXWELL
+Service Type FedEx StandardOvernght JEFFREY E EPSTEIN
+Package Type FedEx Pak 457 MADISON AVE
+Zone 8 New YORK NY 10022 6843 US
+Packages 1
+Weight 2.0 Ibs, 0.9 kgs Tranepostation Chasge 25.50
+Delivered Dec 16, 200214:02 Discount 255
+aie Fuel Surcharge 0.92
+a lee Residential Delivery 1.35
+FedEx Use 523497064/01415/02 ed
+Total Transportation Charges USD$ 25.22
+DOJ-OGR-00016072

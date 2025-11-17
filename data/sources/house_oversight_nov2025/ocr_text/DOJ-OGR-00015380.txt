@@ -1,0 +1,67 @@
+Fed =< Invoice Number: 4-494-19676
+2 Invoice Date: Nov 25, 2002
+Account Number: 1144-2081-6
+Page: 8 of 10
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Nov 20, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 6
+
+1st attempt Nov 21, 2002 at 08 59 AM.
+
+Recipient not in/business closed.
+Tracking D 003664181850 Sender Recipient
+Service Type FedEx Priority Overnight JEFFREY E EPSTEIN RICK
+Package Type FedEx Tube 457 MADISON AVE CELL ANTENNA CORP
+Zone 6 NEW YORK NY 10022-6843 US Po
+Packages 1 es
+Weight 3.0 Ibs, 1.4 kgs
+Delivered Nov 21, 2002 10 52 Transportation Charge 30 00
+Sve real ast Discount -3 00
+Signed by L.FOSTER Fuel Surcharge 108
+FedEx Use  325057990/01574/08 —_———
+
+Total Transportation Charges USD $ 28.08
+
+Picked up: Nov 20, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 4
+InternetShip Sender Recipient
+Tracking D 791235914678 CECILIA STEEN PEG UGLAND
+Service Type FedEx Priority Overnight JEFFREY E EPSTEIN N. A. PROPERTY
+Package Type FedEx Envelope 457 MADISON AVE PY
+Zone 4 NEW YORK NY 10022-6843 US Po
+Packages 1
+Weight 1.0 Ibs, 0.5 kgs Transportation Charge 15 25
+Delivered Nov 21, 2002 09 58 Discount “2.44
+Sve Area A2 Fuel Surcharge 051
+Signed by D.OAKLEY EEE
+FedEx Use  523021063/00208/_ Total Transportation Charges USD $ 19.02
+Dropped off: Nov 20, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 8
+
+Package sent from: 92121 zip code
+
+Release signature on file.
+Tracking D 836663864967 Sender Recipient
+Service Type FedEx Standard Overnight DR GERALD ELDEMAN EDWINA SIMMONDS
+Package Type FedEx Envelope JEFFREY E EPSTEIN FY
+Zone 8 457 MADISON AVE Po
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Nov 21, 2002 11 56 Transportation Charge 15 25
+SycAted = Al Discount “2.44
+Signed by E DELMAN Fuel Surcharge 051
+FedEx Use  324260720/00266/02 Residential Delivery 135
+
+Total Transportation Charges USD $ 14.67
+SDNY_GM_00340740 71
+DOJ-OGR-00015380

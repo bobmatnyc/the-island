@@ -1,0 +1,12 @@
+{
+  "source_pdf": "DOJ-OGR-00004022.pdf",
+  "ocr_date": "2025-11-16T21:00:17.839303",
+  "text_length": 955,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "bcsternheim@mac.com",
+    "nmcfarland@bop.gov",
+    "spapapetru@bop.gov"
+  ]
+}

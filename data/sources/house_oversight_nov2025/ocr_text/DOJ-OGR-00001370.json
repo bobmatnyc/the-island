@@ -1,0 +1,13 @@
+{
+  "source_pdf": "DOJ-OGR-00001370.pdf",
+  "ocr_date": "2025-11-16T20:52:25.645595",
+  "text_length": 889,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "Maurene.Comey@usdoj.gov",
+    "Thomas.McKay@usdoj.gov",
+    "Lara.Pomerantz@usdoj.gov",
+    "Won.Shin@usdoj.gov"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "analysis_date": "2025-11-16T20:48:07.558283",
+  "source_file": "/Users/masa/Projects/Epstein/data/sources/documentcloud_6250471/epstein-docs-6250471.pdf",
+  "summary": {
+    "total_pages": 2024,
+    "total_emails": 0,
+    "unique_email_addresses": 0
+  },
+  "document_type_breakdown": {
+    "court_filing": 175,
+    "other": 1849
+  },
+  "quality_metrics": {
+    "total_pages": 2024,
+    "pages_with_text": 2024,
+    "avg_chars_per_page": 1240.953557312253,
+    "emails_with_complete_headers": 0,
+    "emails_with_from": 0,
+    "emails_with_to": 0,
+    "emails_with_subject": 0,
+    "emails_with_date": 0
+  },
+  "email_addresses": [],
+  "emails": []
+}

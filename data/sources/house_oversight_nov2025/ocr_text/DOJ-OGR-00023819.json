@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00023819.pdf",
+  "ocr_date": "2025-11-16T21:53:05.169445",
+  "text_length": 1433,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "ExecAssistant@bop.gov"
+  ]
+}

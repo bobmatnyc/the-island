@@ -1,0 +1,18 @@
+Bureau of Prisons
+Health Services
+Blood Glucose
+Begin Date: 07/06/2019 End Date: 05/11/2020
+Reg #: 76318-054 Inmate Name: EPSTEIN, JEFFREY EDWARD
+(Reference Range: Random or Fasting 70 - 100, 2 hour post-prandial 70 - 140)
+Date Time Value Type Comments
+08/04/2019 08:30 NYM 156 Non-Fasting
+Orig Entered: 08/04/2019 09:08 EST _ SRISWORERN
+08/02/2019 06:30NYM 97 Non-Fasting
+Orig Entered: 08/02/2019 08:16 EST ([i@i=iaey) MLP
+08/01/2019 06:30NYM 103 Non-Fasting
+Orig Entered: 08/01/2019 09:00 EST [G3 MLP
+07/31/2019 O6:15NYM 108 Non-Fasting
+Orig Entered: 07/31/2019 08:36 EST [GI Mp
+Total: 4
+Generated 05/11/2020 09:57 2 ea Bureau of Prisons - DAN Page 1 of 1
+DOJ-OGR-00024159

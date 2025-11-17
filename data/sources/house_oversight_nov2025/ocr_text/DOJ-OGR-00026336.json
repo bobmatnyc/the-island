@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00026336.pdf",
+  "ocr_date": "2025-11-16T21:58:37.253570",
+  "text_length": 2165,
+  "is_email": true,
+  "email_confidence": 0.8999999999999999,
+  "email_addresses": [
+    "J@jmd.usdoj.gov",
+    "j@jmd.usdoj.gov"
+  ]
+}

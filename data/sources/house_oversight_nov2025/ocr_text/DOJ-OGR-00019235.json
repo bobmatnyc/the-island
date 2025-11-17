@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00019235.pdf",
+  "ocr_date": "2025-11-16T21:39:56.071046",
+  "text_length": 737,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "LVogelman@davenixonlaw.com"
+  ]
+}

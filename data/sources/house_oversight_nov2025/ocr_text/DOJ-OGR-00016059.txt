@@ -1,0 +1,43 @@
+Fed =< a ieee
+e Invoice Date: Dec 16, 2002
+Account Number: 1144-2081-6
+Page: 11 0f15
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a [uel surcharge of 4.00% \o this shipment.
+Oistance Based Pricing, Zone 8
+The delivery commilmeni for Express Saver Packages to homes or private residences (Including home olfices) is 7PM the third business day for all regions.
+1s allermpi Dec 13, 2002 al 10:48 AM.
+Incorrect recipient address.
+Original address 4337 MARINACITY ORMMARINA DEL REY.CA 90292
+FedEx has audited this shipment for correct packages. weight, and service. Any changes made are reflecied in the invoice amount.
+Tracking ID 828694900959 Sender Recipient
+Service Type FedEx Express Saver J EPSTEIN BAM KUCUKKOUGLU
+Package Type Customer Packaging JEFFREY E EPSTEIN
+Zone 8 457 MADISON AVE
+Packages 1 NEW YORK NY 10022 6843 US
+Weight 20 Ibs, 0.9 kgs
+Delivered Dec 13,2002 11:19 Transportation Charge 10.55
+SvcAra = Residential Delivery 1.35
+Signed by C.MARIA Discount -1.06
+FedEx Use 347150410/0717903 Address Correction 10.00
+Fuel Surcharge 038
+Total Transportation Charges USD $ 21.22
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a fue! surcharge of 4.00% to this shipment.
+Oistance Based Pricing, Zone 2
+The delivery commitment for Express Saver Packages lo homes or privale residences (Induding home offices} is 7PM (he third business day for all regions. =m
+Release signature on file. =
+=
+Tracking ID 828694900992 Sender Recipient =
+Service Type FedEx Express Saver JEPSTEIN DIANA VK =
+Package Type Customer Packaging JEFFREY E EPSTEIN =
+Zone 2 457 MADISON AVE =
+Packages 1 NEW YORK NY 10022 6843 US =
+Weight 2.0 Ibs, 0.9 kgs =
+Delivered Dec 13, 2002 10:27 Transportation Charge 7.80
+SvcArea SR Discount 0.78
+Signed by == 0 COOK Fuel Surcharge 028
+FedEx Use 347 15041007 167/02 Residential Delivery 1.35
+Total Transportation Charges USD$ 8.65
+DOJ-OGR-00016059

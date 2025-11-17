@@ -1,0 +1,48 @@
+Page 2471
+Begin Date: 07/07/2019 End Date: 08/10/2019
+Reg #: 76318-054 Inmate Name: EPSTEIN, JEFFREY EDWARD
+Blood Pressure:
+Date Time Value Location Position Cuff Size Provider
+07/30/2019 13:02NYM 114/84 Left Arm Standing a |
+Orig Entered: 07/30/2019 13:04 EST [POO MD
+07/30/2019 09:40 NYM 125/60 — Right Arm Standing ii
+Orig Entered: 07/30/2019 13:04 EST[P™ PT MD
+07/30/2019 09:30NYM 108/86 Left Arm Sitting inal
+Orig Entered: 07/30/2019 12:s9esT [PP ™"™
+07/28/2019 20:28NYM 157/91 fexerexney RN
+Orig Entered: 07/28/2019 20:29 EST RN
+07/28/2019 06:57 NYM 138/80 peers RN
+Orig Entered: 07/28/2019 06:58 EST PO ""™ RN
+07/24/2019 13:12NYM 132/89 RightArm __ Sitting Adult-regular perme yup
+Orig Entered: 07/24/2019 13:14 EST [21 MLP
+07/23/2019 06:30 NYM 140/85 Right Arm Sitting Adult-regularPPO OT | MLP
+Orig Entered: 07/23/2019 08:33 EST [PO |MLP
+07/09/2019 12:49NYM 117/66 RightArm _ Sitting Adult-regular iit
+Orig Entered: 07/09/2019 12:51 EST eee —4),F
+Blood Glucose:
+Date Time Value (mg/dl) Type RegularInsulin Provider
+08/04/2019 08:30 156 Non-Fasting RN
+Orig Entered: 08/04/2019 09:08 EST [POP IRN
+08/02/2019 06:30 97 Non-Fasting perenne IMP
+Orig Entered: 08/02/2019 08:16 EST MLP
+08/01/2019 06:30 103 Non-Fasting oar [MLP
+Orig Entered: 08/01/2019 09:00 EST MLP
+07/31/2019 06:15 108 Non-Fasting MLP
+Orig Entered: 07/31/2019 08:36 EST Pere Mur
+$aO2:
+Date Time Value(%) Air Provider
+07/30/2019 09:30 NYM 98 Room Air D
+Orig Entered: 07/30/2019 12:59EST [POP IMD
+07/28/2019 20:28 NYM 98 RN
+Orig Entered: 07/28/2019 20:29 EST [PPM IRN
+07/28/2019 06:57 NYM 98 pene IRN
+Orig Entered: 07/28/2019 06:58EST [P"™™"" IRN
+07/24/2019 13:12 NYM 96 Room Air MLP
+Orig Entered: 07/24/2019 13:14 EST MLP
+07/23/2019 06:30 NYM 96 Room Air MLP
+Orig Entered: 07/23/2019 08:33 EST MLP
+07/09/2019 12:49NYM 97 Room Air MLP
+Orig Entered: 07/09/2019 12:51 EST[PXP™ — MLP
+Height:
+Generated 08/10/2019 11:02 yer | Bureau of Prisons - NYM Page 2 of 3
+DOJ-OGR-00026147

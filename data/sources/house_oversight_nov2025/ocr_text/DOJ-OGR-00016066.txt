@@ -1,0 +1,37 @@
+Fed =< Invoice Number: 4-495-75031
+e Invoice Date: Dee 23, 2002
+Account Number: 1144-20814
+Page: 3 of 21
+FedEx Express Shipment Summary by Payment Type
+Original
+
+Shipper
+Number of Shipments 31
+Transportation Charges 595.30
+Base Discount 4.15
+Special Handling Charges 110.96
+TOTAL USD $ 642.11
+Number of Shipments 31
+Total Charges USD$ 642.11
+Recipient
+Number of Shipments 2
+Transportaton Charges 33.25
+Base Discount 424
+Special Handling Charges 1251
+TOTAL USD $ 41.52
+
+=
+Number of Shipments 2 =
+Total Charges USD$ 4152 =
+Third Party =
+Number of Shipments 1 a =
+Transportation Charges 54.50 =
+Base Discount “6.45
+Special Handling Charges 3.31
+TOTAL USD $ 52.36
+Number of Shipments 1
+Total Charges USD$ 52.36
+TOTAL SHIPMENTS 34
+TOTAL CHARGES USD $ 735.99
+
+DOJ-OGR-00016066

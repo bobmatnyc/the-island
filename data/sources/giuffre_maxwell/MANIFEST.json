@@ -1,0 +1,92 @@
+{
+  "collection": "Giuffre v. Maxwell Unsealed Documents",
+  "case_number": "1:15-cv-07433-LAP",
+  "court": "United States District Court, Southern District of New York",
+  "release_date": "2024-01-03",
+  "court_order": "Judge Loretta Preska, 2023-12-18",
+  "source": "Internet Archive",
+  "source_url": "https://archive.org/details/final-epstein-documents",
+  "source_id": "final-epstein-documents",
+  "download_date": "2025-11-16",
+  "status": "complete",
+  "statistics": {
+    "total_files": 43,
+    "total_size_mb": 110,
+    "pdf_files": 43,
+    "combined_pdf_pages": 943,
+    "combined_pdf_size_mb": 23,
+    "individual_filings": 42,
+    "individual_filings_size_mb": 48,
+    "source_archive_size_mb": 37
+  },
+  "files": {
+    "combined_pdf": {
+      "path": "2024_unsealed/Final_Epstein_documents_2024_943pages.pdf",
+      "size_mb": 23,
+      "pages": 943,
+      "format": "PDF"
+    },
+    "individual_filings": {
+      "path": "2024_unsealed_documents/",
+      "count": 42,
+      "naming_pattern": "1320*.pdf",
+      "format": "PDF"
+    },
+    "source_archive": {
+      "path": "EpsteinDocs_2024.zip",
+      "size_mb": 37,
+      "format": "ZIP"
+    }
+  },
+  "largest_documents": [
+    {
+      "filename": "1320-30.pdf",
+      "size_mb": 7.8,
+      "description": "Extensive testimony"
+    },
+    {
+      "filename": "1320-32.pdf",
+      "size_mb": 7.0,
+      "description": "Major exhibit"
+    },
+    {
+      "filename": "1320-13.pdf",
+      "size_mb": 5.3,
+      "description": "Large exhibit"
+    },
+    {
+      "filename": "1320-7.pdf",
+      "size_mb": 4.4,
+      "description": "Substantial filing"
+    },
+    {
+      "filename": "1320-4.pdf",
+      "size_mb": 3.7,
+      "description": "Substantial filing"
+    }
+  ],
+  "reports_generated": [
+    "FINAL_REPORT.md",
+    "DOWNLOAD_SUMMARY.md",
+    "FILE_LIST.txt",
+    "MANIFEST.json"
+  ],
+  "verification": {
+    "all_files_downloaded": true,
+    "no_corrupted_files": true,
+    "all_pdfs_readable": true,
+    "no_download_errors": true
+  },
+  "next_steps": [
+    "Text extraction for full-text search",
+    "Entity recognition (names, dates, locations)",
+    "Cross-reference with House Oversight documents",
+    "Database integration",
+    "Timeline construction"
+  ],
+  "notes": {
+    "page_count_note": "Initial research mentioned 4,553 pages across 8 batches. The 2024 release contains 943 pages and represents the most recent and authoritative court-ordered unsealing following Judge Preska's December 2023 ruling.",
+    "earlier_batches": "Multiple earlier batches from 2020-2021 were identified on Internet Archive (Parts 1, 3, 5, 8, 9) but Parts 2, 4, 6, 7 were not located. The 2024 collection appears to be the most complete.",
+    "parallel_download": "This collection was downloaded in parallel with the House Oversight Committee Epstein documents for efficiency."
+  }
+}

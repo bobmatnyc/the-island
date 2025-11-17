@@ -1,0 +1,45 @@
+Case 1:20-cr-00330-PAE Document 753 Filed 08/10/22 Page 49 of 264 1475
+LC7Cmax2 Flatley - direct
+
+1 BY MS. POMERANTZ:
+
+2 Q. You mentioned digital evidence. What do you mean by
+
+3 digital evidence?
+
+4 A. Things like computers, thumb drives, CDs, anything that
+
+5 stores information in a digital format.
+
+6 Q. Taking a step back, what does it mean to forensically
+
+7 examine an electronic device?
+
+8 A. Basically we just categorize and organize the data so it's
+9 easier to look through.
+
+10 Q. Mr. Flatley, what is considered a computer?
+
+11 A. To be considered a computer, a device has to have four
+
+12 characteristics. It has to take input, it has to give output,
+13 it has to have some kind of processor, and have some kind of
+14 storage.
+
+15 Q. Where is information stored on a computer?
+
+16 A. On your average computer, it's stored on the hard drive.
+17 Q. What is a hard drive?
+
+18 A. It's an electromechanical device for storing digital data.
+19 Q. When you analyze digital evidence, what, if anything, do
+20 you know about the case?
+21 A. Usually nothing.
+22 Q. Mr. Flatley, did there come a time when you examined
+23 digital evidence in this case?
+24 A. Yes, there did.
+25 Q. In approximately what year or years?
+
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00018647
