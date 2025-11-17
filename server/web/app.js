@@ -226,7 +226,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 // Load statistics
 async function loadStats() {
     try {
-        const response = await fetch(`${API_BASE}/stats`);
+        const response = await fetch(`${API_BASE}/stats`, {
+            credentials: 'include'  // Include HTTP Basic Auth credentials
+        });
         const data = await response.json();
 
         document.getElementById('stat-entities').textContent = data.total_entities.toLocaleString();
@@ -251,7 +253,9 @@ async function loadStats() {
 // Load ingestion status
 async function loadIngestionStatus() {
     try {
-        const response = await fetch(`${API_BASE}/ingestion/status`);
+        const response = await fetch(`${API_BASE}/ingestion/status`, {
+            credentials: 'include'  // Include HTTP Basic Auth credentials
+        });
         const data = await response.json();
 
         const progressHTML = `
@@ -284,11 +288,17 @@ async function loadRoadmap() {
         // Ensure marked.js is loaded first
         await loadMarkedJS();
 
-        const response = await fetch('/ROADMAP.md');
+        const response = await fetch('/ROADMAP.md', {
+            credentials: 'include'  // Include HTTP Basic Auth credentials
+        });
         const markdown = await response.text();
 
         // Use renderMarkdown for full markdown support with feature links
-        const html = renderMarkdown(markdown);
+        let html = renderMarkdown(markdown);
+
+        // Make roadmap sections collapsible
+        html = makeRoadmapCollapsible(html);
+
         document.getElementById('roadmap-content').innerHTML = html;
         roadmapLoaded = true;
     } catch (error) {
@@ -299,6 +309,82 @@ async function loadRoadmap() {
             </div>
         `;
     }
+}
+
+// Make roadmap sections collapsible with completed sections hidden by default
+function makeRoadmapCollapsible(html) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, 'text/html');
+
+    const h2Elements = doc.querySelectorAll('h2');
+
+    h2Elements.forEach((h2) => {
+        const headingText = h2.textContent;
+
+        // Only make Phase sections collapsible
+        if (!headingText.includes('Phase')) {
+            return;
+        }
+
+        // Create details element
+        const details = doc.createElement('details');
+        details.className = 'roadmap-section';
+
+        // Create summary from h2 content
+        const summary = doc.createElement('summary');
+        summary.className = 'roadmap-summary';
+        summary.innerHTML = h2.innerHTML;
+
+        // Create content wrapper
+        const contentDiv = doc.createElement('div');
+        contentDiv.className = 'roadmap-content';
+
+        // Collect all content until next h2
+        let nextElement = h2.nextElementSibling;
+        const contentElements = [];
+
+        while (nextElement && nextElement.tagName !== 'H2') {
+            contentElements.push(nextElement);
+            nextElement = nextElement.nextElementSibling;
+        }
+
+        // Move content into wrapper
+        contentElements.forEach(el => {
+            contentDiv.appendChild(el.cloneNode(true));
+        });
+
+        // Check if section is completed
+        // Count ✅ vs total task markers (✅, 🔄, 📋, ⏸️)
+        const contentText = contentDiv.textContent;
+        const allTasks = (contentText.match(/[✅🔄📋⏸️]/g) || []).length;
+        const completedTasks = (contentText.match(/✅/g) || []).length;
+        const inProgressTasks = (contentText.match(/🔄/g) || []).length;
+
+        // Section is "completed" if all tasks are done (no in-progress or planned tasks)
+        const isCompleted = allTasks > 0 && completedTasks === allTasks;
+
+        // Open by default if not completed or has in-progress tasks
+        if (!isCompleted || inProgressTasks > 0) {
+            details.setAttribute('open', '');
+        }
+
+        // Build the details element
+        details.appendChild(summary);
+        details.appendChild(contentDiv);
+
+        // Replace h2 and its content with details element
+        h2.parentNode.insertBefore(details, h2);
+
+        // Remove original elements
+        h2.remove();
+        contentElements.forEach(el => {
+            if (el.parentNode) {
+                el.remove();
+            }
+        });
+    });
+
+    return doc.body.innerHTML;
 }
 
 // Note: markdownToHTML() removed - using renderMarkdown() for all markdown rendering
@@ -343,7 +429,9 @@ async function loadNetworkData() {
     if (networkData) return networkData;
 
     try {
-        const response = await fetch(`${API_BASE}/network`);
+        const response = await fetch(`${API_BASE}/network`, {
+            credentials: 'include'  // Include HTTP Basic Auth credentials
+        });
         networkData = await response.json();
 
         // Initialize visible nodes set
@@ -406,10 +494,13 @@ async function renderNetwork() {
     simulation = d3.forceSimulation(networkData.nodes)
         .force('link', d3.forceLink(networkData.edges)
             .id(d => d.id)
-            .distance(50))
-        .force('charge', d3.forceManyBody().strength(-300))
-        .force('center', d3.forceCenter(width / 2, height / 2))
-        .force('collision', d3.forceCollide().radius(20));
+            .distance(50)
+            .strength(1.0))
+        .force('charge', d3.forceManyBody().strength(-150))
+        .force('center', d3.forceCenter(width / 2, height / 2).strength(0.1))
+        .force('collision', d3.forceCollide().radius(15))
+        .alphaDecay(0.02)
+        .velocityDecay(0.4);
 
     const rootStyles = getComputedStyle(document.documentElement);
     const borderColor = rootStyles.getPropertyValue('--border-color').trim();
@@ -873,6 +964,7 @@ async function sendMessage() {
     try {
         const response = await fetch(`${API_BASE}/chat`, {
             method: 'POST',
+            credentials: 'include',  // Include HTTP Basic Auth credentials
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -965,6 +1057,7 @@ async function submitSource() {
     try {
         const response = await fetch(`${API_BASE}/suggest-source`, {
             method: 'POST',
+            credentials: 'include',  // Include HTTP Basic Auth credentials
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -1002,10 +1095,13 @@ let allEntitiesData = [];
 
 async function loadEntitiesList() {
     try {
-        const response = await fetch(`${API_BASE}/entities`);
-        const entities = await response.json();
-        allEntitiesData = entities;
-        renderEntitiesList(entities);
+        const response = await fetch(`${API_BASE}/entities?limit=1000`, {
+            credentials: 'include'  // Include HTTP Basic Auth credentials
+        });
+        const data = await response.json();
+        // Handle paginated response structure
+        allEntitiesData = data.entities || data;
+        renderEntitiesList(allEntitiesData);
     } catch (error) {
         console.error('Failed to load entities:', error);
         document.getElementById('entities-list').innerHTML = '<div class="chat-message system" style="grid-column: 1/-1; text-align: center; padding: 40px;">Failed to load entities</div>';

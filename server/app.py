@@ -299,34 +299,108 @@ async def get_roadmap():
 
 @app.get("/api/stats")
 async def get_stats(username: str = Depends(authenticate)):
-    """Get overall statistics"""
+    """Get overall statistics
+
+    Design Decision: Frontend Compatibility
+    Rationale: Frontend expects 'total_connections' field for network edges display.
+    Also includes 'sources' field for source list rendering.
+
+    Error Handling: Returns safe fallback values if data not loaded.
+    """
+    # Load source index for sources list
+    source_list = []
+    source_index_path = METADATA_DIR / "source_index.json"
+    if source_index_path.exists():
+        try:
+            with open(source_index_path) as f:
+                sources_data = json.load(f)
+                # source_index.json has structure: {sources: {key: {description: ...}}}
+                sources = sources_data.get("sources", {})
+                for source_key, source_info in sources.items():
+                    description = source_info.get("description", source_key)
+                    if description:
+                        source_list.append(description)
+                    else:
+                        # Fallback to formatted key name
+                        source_list.append(source_key.replace("_", " ").title())
+        except Exception as e:
+            print(f"Error loading source index: {e}")
+
     return {
         "total_entities": len(entity_stats),
         "total_documents": len(classifications),
         "network_nodes": len(network_data.get("nodes", [])),
         "network_edges": len(network_data.get("edges", [])),
+        "total_connections": len(network_data.get("edges", [])),  # Frontend expects this field
         "timeline_events": timeline_data.get("total_events", 0),
-        "date_range": timeline_data.get("date_range", {})
+        "date_range": timeline_data.get("date_range", {}),
+        "sources": source_list  # Frontend expects this field
     }
 
 @app.get("/api/ingestion/status")
 async def get_ingestion_status(username: str = Depends(authenticate)):
-    """Get ingestion progress status"""
+    """Get ingestion progress status
+
+    Design Decision: Frontend Compatibility
+    Rationale: Frontend expects specific field names:
+    - status, files_processed, total_files, progress_percentage
+    - current_source, last_updated
+
+    Returns flat structure matching frontend expectations.
+    """
     ocr_status = get_ocr_status()
 
     # Get entity stats
     merged_index_path = MD_DIR / "entities/ENTITIES_INDEX_MERGED.json"
     if merged_index_path.exists():
-        with open(merged_index_path) as f:
-            entity_data = json.load(f)
-            entities_merged = entity_data.get("duplicates_merged", 0)
-            total_entities = entity_data.get("total_entities", 0)
+        try:
+            with open(merged_index_path) as f:
+                entity_data = json.load(f)
+                entities_merged = entity_data.get("duplicates_merged", 0)
+                total_entities = entity_data.get("total_entities", 0)
+        except Exception as e:
+            print(f"Error loading merged index: {e}")
+            entities_merged = 0
+            total_entities = len(entity_stats)
     else:
         entities_merged = 0
         total_entities = len(entity_stats)
 
+    # Calculate progress percentage
+    processed = ocr_status.get("processed", 0)
+    total = ocr_status.get("total", 0)
+    progress_pct = (processed / total * 100) if total > 0 else 0
+
+    # Determine status
+    if processed >= total and total > 0:
+        status_text = "complete"
+    elif ocr_status.get("active"):
+        status_text = "processing"
+    else:
+        status_text = "idle"
+
+    # Get last updated timestamp
+    progress_path = METADATA_DIR.parent / "sources/house_oversight_nov2025/ocr_progress.json"
+    last_updated = None
+    current_source = "House Oversight Committee Nov 2025"
+
+    if progress_path.exists():
+        try:
+            with open(progress_path) as f:
+                progress_data = json.load(f)
+                last_updated = progress_data.get("last_updated")
+        except Exception:
+            pass
+
+    # Return frontend-compatible format
     return {
-        "ocr": ocr_status,
+        "status": status_text,
+        "files_processed": processed,
+        "total_files": total,
+        "progress_percentage": progress_pct,
+        "current_source": current_source if status_text == "processing" else None,
+        "last_updated": last_updated,
+        "ocr": ocr_status,  # Keep detailed OCR status for compatibility
         "entities": {
             "total": total_entities,
             "duplicates_merged": entities_merged,

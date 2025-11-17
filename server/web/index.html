@@ -1275,6 +1275,101 @@
             font-style: italic;
             color: var(--text-secondary);
         }
+
+        /* Roadmap Collapsible Sections */
+        .roadmap-section {
+            margin: 24px 0;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            background: var(--bg-secondary);
+            transition: all 0.3s ease;
+        }
+
+        .roadmap-section:hover {
+            border-color: var(--accent-blue);
+            box-shadow: 0 2px 8px var(--shadow-color);
+        }
+
+        .roadmap-summary {
+            padding: 16px 20px;
+            background: var(--bg-secondary);
+            cursor: pointer;
+            list-style: none;
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            user-select: none;
+            transition: background 0.2s ease;
+        }
+
+        .roadmap-summary:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .roadmap-summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .roadmap-summary::before {
+            content: '▼';
+            display: inline-block;
+            font-size: 14px;
+            color: var(--accent-blue);
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        details:not([open]) .roadmap-summary::before {
+            transform: rotate(-90deg);
+        }
+
+        /* Completed sections have muted appearance when closed */
+        details:not([open]) .roadmap-summary {
+            opacity: 0.7;
+        }
+
+        .roadmap-content {
+            padding: 20px;
+            background: var(--bg-primary);
+            border-top: 1px solid var(--border-color);
+            animation: slideDown 0.3s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Ensure roadmap content inside collapsible sections maintains styling */
+        .roadmap-content h3,
+        .roadmap-content h4 {
+            margin-top: 20px;
+        }
+
+        .roadmap-content h3:first-child,
+        .roadmap-content h4:first-child {
+            margin-top: 0;
+        }
+
+        /* Add visual indicator for completed sections */
+        .roadmap-section:has(details:not([open])) {
+            border-color: var(--border-color);
+        }
+
+        /* Smooth transitions for expand/collapse */
+        details[open] .roadmap-content {
+            animation: slideDown 0.3s ease;
+        }
     </style>
 </head>
 <body>
