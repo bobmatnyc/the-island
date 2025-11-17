@@ -4,8 +4,9 @@ Demonstration Script: API Fixes
 Shows the four issues that were fixed and how they work now
 """
 
+
 import requests
-import json
+
 
 BASE_URL = "http://localhost:8081"
 USERNAME = "epstein"
@@ -45,7 +46,7 @@ def demo_issue_2_ocr_status():
     response = requests.get(f"{BASE_URL}/api/ingestion/status", auth=(USERNAME, PASSWORD))
     data = response.json()
 
-    ocr = data['ocr']
+    ocr = data["ocr"]
     print(f"✓ OCR Active: {ocr.get('active', False)}")
     print(f"✓ Progress: {ocr.get('progress', 0):.1f}%")
     print(f"✓ Processed: {ocr.get('processed', 0):,} / {ocr.get('total', 0):,} files")
@@ -75,8 +76,8 @@ def demo_issue_3_disambiguation():
 
         if response.status_code == 200:
             data = response.json()
-            canonical = data.get('canonical_name', 'N/A')
-            docs = data.get('total_documents', 0)
+            canonical = data.get("canonical_name", "N/A")
+            docs = data.get("total_documents", 0)
             print(f"✓ '{search_name}' → '{canonical}'")
             print(f"  ({description}) - {docs} documents")
         else:
@@ -96,8 +97,8 @@ def demo_issue_4_deduplication():
         auth=(USERNAME, PASSWORD)
     )
     data1 = response1.json()
-    original_nodes = len(data1['nodes'])
-    original_edges = len(data1['edges'])
+    original_nodes = len(data1["nodes"])
+    original_edges = len(data1["edges"])
 
     # Get deduplicated graph
     response2 = requests.get(
@@ -105,8 +106,8 @@ def demo_issue_4_deduplication():
         auth=(USERNAME, PASSWORD)
     )
     data2 = response2.json()
-    dedup_nodes = len(data2['nodes'])
-    dedup_edges = len(data2['edges'])
+    dedup_nodes = len(data2["nodes"])
+    dedup_edges = len(data2["edges"])
 
     duplicates_removed = original_nodes - dedup_nodes
     reduction_pct = (duplicates_removed / original_nodes) * 100 if original_nodes > 0 else 0
@@ -120,9 +121,9 @@ def demo_issue_4_deduplication():
     sample_names = ["Jeffrey Epstein", "Ghislaine Maxwell", "Celina Dubin", "Eva Dubin"]
     for name in sample_names:
         # Find in original graph
-        original = next((n for n in data1['nodes'] if name in n['name']), None)
+        original = next((n for n in data1["nodes"] if name in n["name"]), None)
         # Find in deduplicated graph
-        dedup = next((n for n in data2['nodes'] if name in n['name']), None)
+        dedup = next((n for n in data2["nodes"] if name in n["name"]), None)
 
         if dedup:
             print(f"  • {dedup['name']}: {dedup['connection_count']} connections")
@@ -142,8 +143,8 @@ def demo_api_enhancements():
     )
     data = response.json()
     print(f"   ✓ Billionaire entities: {data['total']} found")
-    print(f"   ✓ Top 5 billionaires:")
-    for entity in data['entities'][:5]:
+    print("   ✓ Top 5 billionaires:")
+    for entity in data["entities"][:5]:
         print(f"      - {entity['name']}: {entity.get('total_documents', 0)} documents")
 
     # Search
@@ -154,8 +155,8 @@ def demo_api_enhancements():
     )
     data = response.json()
     print(f"   ✓ Search 'Clinton': {data['total']} results")
-    for result in data['results'][:3]:
-        if result['type'] == 'entity':
+    for result in data["results"][:3]:
+        if result["type"] == "entity":
             print(f"      - Entity: {result['name']}")
 
     # Network filtering
@@ -166,8 +167,8 @@ def demo_api_enhancements():
     )
     data = response.json()
     print(f"   ✓ Highly connected entities (>50 connections): {len(data['nodes'])} nodes")
-    if data['nodes']:
-        top = sorted(data['nodes'], key=lambda n: n.get('connection_count', 0), reverse=True)[:3]
+    if data["nodes"]:
+        top = sorted(data["nodes"], key=lambda n: n.get("connection_count", 0), reverse=True)[:3]
         for node in top:
             print(f"      - {node['name']}: {node['connection_count']} connections")
 
@@ -178,7 +179,7 @@ def main():
     print("  EPSTEIN ARCHIVE API - FIX DEMONSTRATIONS")
     print("=" * 70)
     print(f"\n  Server: {BASE_URL}")
-    print(f"  Testing 4 issues + bonus enhancements\n")
+    print("  Testing 4 issues + bonus enhancements\n")
 
     try:
         demo_issue_1_entity_loading()

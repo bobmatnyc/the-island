@@ -17,11 +17,11 @@ Commands:
     export <format>     Export database to CSV/JSON
 """
 
-import sys
-import json
 import argparse
+import json
+import sys
 from pathlib import Path
-from datetime import datetime
+
 
 # Add scripts to path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -37,31 +37,31 @@ def show_statistics(db: CanonicalDatabase):
     print("DATABASE STATISTICS")
     print("=" * 60)
 
-    print(f"\nOverview:")
+    print("\nOverview:")
     print(f"  Total documents: {stats['total_documents']}")
     print(f"  Total sources: {stats['total_sources']}")
     print(f"  Duplicate groups: {stats['duplicate_groups']}")
     print(f"  Avg sources per doc: {stats['avg_sources_per_doc']:.2f}")
 
-    if stats['documents_by_type']:
-        print(f"\nDocuments by type:")
-        for doc_type, count in stats['documents_by_type'].items():
+    if stats["documents_by_type"]:
+        print("\nDocuments by type:")
+        for doc_type, count in stats["documents_by_type"].items():
             print(f"  {doc_type}: {count}")
 
-    if stats['documents_by_quality']:
-        print(f"\nDocuments by quality:")
-        for quality, count in stats['documents_by_quality'].items():
+    if stats["documents_by_quality"]:
+        print("\nDocuments by quality:")
+        for quality, count in stats["documents_by_quality"].items():
             print(f"  {quality}: {count}")
 
     # Recent activity
     recent_logs = db.get_recent_logs(limit=10)
     if recent_logs:
-        print(f"\nRecent activity (last 10):")
+        print("\nRecent activity (last 10):")
         for log in recent_logs:
-            timestamp = log['timestamp']
-            operation = log['operation']
-            status = log['status']
-            message = log['message']
+            timestamp = log["timestamp"]
+            operation = log["operation"]
+            status = log["status"]
+            message = log["message"]
             print(f"  [{timestamp}] {operation} - {status}: {message}")
 
 
@@ -96,12 +96,12 @@ def list_duplicates(db: CanonicalDatabase):
     print(f"\nFound {len(rows)} duplicate entries:\n")
 
     for row in rows:
-        canonical_id = row['canonical_id']
-        title = row['title'] or 'Untitled'
-        date = row['date'] or 'No date'
-        dup_type = row['duplicate_type']
-        similarity = row['similarity_score'] or 0
-        method = row['detection_method']
+        canonical_id = row["canonical_id"]
+        title = row["title"] or "Untitled"
+        date = row["date"] or "No date"
+        dup_type = row["duplicate_type"]
+        similarity = row["similarity_score"] or 0
+        method = row["detection_method"]
 
         print(f"ID: {canonical_id}")
         print(f"  Title: {title}")
@@ -168,12 +168,12 @@ def show_recent(db: CanonicalDatabase, limit: int = 20):
         return
 
     for row in rows:
-        canonical_id = row['canonical_id']
-        doc_type = row['document_type']
-        title = row['title'] or 'Untitled'
-        date = row['date'] or 'No date'
-        from_person = row['from_person'] or 'Unknown'
-        created = row['created_at']
+        canonical_id = row["canonical_id"]
+        doc_type = row["document_type"]
+        title = row["title"] or "Untitled"
+        date = row["date"] or "No date"
+        from_person = row["from_person"] or "Unknown"
+        created = row["created_at"]
 
         print(f"\n{canonical_id}")
         print(f"  Type: {doc_type}")
@@ -248,7 +248,7 @@ def search_documents(db: CanonicalDatabase, term: str):
             FROM canonical_documents
             WHERE title LIKE ? OR subject LIKE ?
             ORDER BY date DESC
-        """, (f'%{term}%', f'%{term}%'))
+        """, (f"%{term}%", f"%{term}%"))
 
         rows = cursor.fetchall()
 
@@ -263,11 +263,11 @@ def search_documents(db: CanonicalDatabase, term: str):
     print(f"\nFound {len(rows)} documents:\n")
 
     for row in rows:
-        canonical_id = row['canonical_id']
-        doc_type = row['document_type']
-        title = row['title'] or row['subject'] or 'Untitled'
-        date = row['date'] or 'No date'
-        from_person = row['from_person'] or 'Unknown'
+        canonical_id = row["canonical_id"]
+        doc_type = row["document_type"]
+        title = row["title"] or row["subject"] or "Untitled"
+        date = row["date"] or "No date"
+        from_person = row["from_person"] or "Unknown"
 
         print(f"{canonical_id}")
         print(f"  Type: {doc_type}")
@@ -285,16 +285,16 @@ def export_database(db: CanonicalDatabase, format: str, output_file: Path):
         cursor.execute("SELECT * FROM canonical_documents")
         rows = cursor.fetchall()
 
-    if format == 'json':
+    if format == "json":
         # Convert to JSON
         documents = [dict(row) for row in rows]
         output_file.write_text(json.dumps(documents, indent=2))
         print(f"Exported {len(documents)} documents to {output_file}")
 
-    elif format == 'csv':
+    elif format == "csv":
         # Convert to CSV
         import csv
-        with output_file.open('w', newline='') as f:
+        with output_file.open("w", newline="") as f:
             if rows:
                 writer = csv.DictWriter(f, fieldnames=rows[0].keys())
                 writer.writeheader()
@@ -306,21 +306,21 @@ def export_database(db: CanonicalDatabase, format: str, output_file: Path):
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
-        description='Query deduplication database',
+        description="Query deduplication database",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__
     )
 
     parser.add_argument(
-        'command',
-        choices=['stats', 'duplicates', 'sources', 'recent', 'quality', 'search', 'export'],
-        help='Command to run'
+        "command",
+        choices=["stats", "duplicates", "sources", "recent", "quality", "search", "export"],
+        help="Command to run"
     )
 
     parser.add_argument(
-        'args',
-        nargs='*',
-        help='Command arguments'
+        "args",
+        nargs="*",
+        help="Command arguments"
     )
 
     args = parser.parse_args()
@@ -337,32 +337,32 @@ def main():
     db = CanonicalDatabase(db_path)
 
     # Execute command
-    if args.command == 'stats':
+    if args.command == "stats":
         show_statistics(db)
 
-    elif args.command == 'duplicates':
+    elif args.command == "duplicates":
         list_duplicates(db)
 
-    elif args.command == 'sources':
+    elif args.command == "sources":
         if not args.args:
             print("Error: Provide canonical_id")
             sys.exit(1)
         show_sources(db, args.args[0])
 
-    elif args.command == 'recent':
+    elif args.command == "recent":
         limit = int(args.args[0]) if args.args else 20
         show_recent(db, limit)
 
-    elif args.command == 'quality':
+    elif args.command == "quality":
         show_quality(db)
 
-    elif args.command == 'search':
+    elif args.command == "search":
         if not args.args:
             print("Error: Provide search term")
             sys.exit(1)
-        search_documents(db, ' '.join(args.args))
+        search_documents(db, " ".join(args.args))
 
-    elif args.command == 'export':
+    elif args.command == "export":
         if len(args.args) < 2:
             print("Error: Provide format (json|csv) and output file")
             sys.exit(1)

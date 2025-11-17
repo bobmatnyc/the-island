@@ -2,18 +2,17 @@
 
 **Vision**: Create the most comprehensive, searchable, and accessible public archive of Epstein-related documents with complete provenance tracking, AI-powered discovery, and community collaboration.
 
-**Last Updated**: 2025-11-16
+**Last Updated**: 2025-11-17
 
 ---
 
 ## Navigation
 - [Overview](#overview)
-- [Phase 1: Foundation](#phase-1-foundation-current) (Current)
-- [Phase 2: Data Enhancement](#phase-2-data-enhancement)
-- [Phase 3: Search & Discovery](#phase-3-search--discovery)
-- [Phase 4: Community Features](#phase-4-community-features)
-- [Phase 5: Advanced Analytics](#phase-5-advanced-analytics)
-- [Phase 6: Public Platform](#phase-6-public-platform)
+- [Completed Recently](#completed-recently)
+- [Current Sprint](#current-sprint)
+- [Next Up](#next-up)
+- [Future Enhancements](#future-enhancements)
+- [Development Phases](#development-phases)
 - [Long-term Vision](#long-term-vision)
 
 ---
@@ -31,12 +30,219 @@
 
 ### Key Metrics
 - **Total Documents**: 67,144 PDFs (House Oversight Nov 2025)
-- **OCR Progress**: 45% complete (15,100 / 33,572 files)
-- **Entities Indexed**: 1,773 unique entities
+- **Unique Documents**: 38,177 (after deduplication)
+- **Classified Emails**: 305 emails extracted and classified
+- **Entities Indexed**: 296 unique entities (normalized)
 - **Entity Network**: 387 entities with 2,221 connections
-- **Expected Emails**: ~2,330 (per DocETL analysis)
+- **Timeline Events**: 92 events tracked
 
 ---
+
+## Completed Recently
+
+### Document Processing & Classification ✅
+- **Document Deduplication System** (v1.0.0)
+  - Content-based deduplication with hash comparison
+  - Quality scoring algorithm (OCR 40%, redactions 25%, completeness 20%)
+  - 38,177 unique documents identified from 67,144 total
+  - SQLite database for duplicate tracking
+
+- **Email Classification** (v1.0.0)
+  - 305 emails successfully extracted and classified
+  - Email header parsing (From, To, Subject, Date)
+  - Pattern-based detection with confidence scoring
+  - Organized in `/data/md/house_oversight_nov2025/emails/`
+
+### Entity Management ✅
+- **Entity Normalization** (v1.0.0)
+  - Standardized 296 unique entity names
+  - Name variation handling (e.g., "Clinton" vs "Bill Clinton")
+  - Cross-reference validation across sources
+  - Billionaire status identification (33 billionaires)
+
+### Web Interface Enhancements ✅
+- **Timeline Page** (v1.0.0)
+  - 92 events with dates, categories, and descriptions
+  - Chronological event visualization
+  - Event filtering by category
+  - Document associations for each event
+
+- **Login Page with Terms of Service** (v1.0.0)
+  - User authentication interface
+  - Terms of service acceptance workflow
+  - Session management
+  - Privacy policy integration
+
+- **Icon System Integration** (v1.0.0)
+  - Lucide icons library integration
+  - Consistent iconography across UI
+  - Improved visual hierarchy
+  - Enhanced user experience
+
+### Development Infrastructure ✅
+- **Comprehensive Linting Setup** (v1.0.0)
+  - Ruff linter configuration with 100+ rules
+  - Black code formatter (line length: 100)
+  - isort import sorting
+  - mypy type checking (gradual adoption)
+  - pytest test suite with coverage tracking
+  - Pre-release quality gate script (`scripts/pre_release.sh`)
+  - Automated linting reports
+
+---
+
+## Current Sprint
+
+### Active Development 🔄
+
+#### Flights Map Visualization
+- **Status**: In Progress
+- **Priority**: 🔴 High
+- **Description**: Interactive map showing flight routes from flight log data
+- **Features**:
+  - Geographic visualization of flight paths
+  - Location markers for airports/destinations
+  - Date range filtering
+  - Entity filtering (show flights for specific passengers)
+  - Integration with existing network visualization
+- **Dependencies**: Flight log data (✅ Complete)
+
+#### Git-Based Updates Feed
+- **Status**: In Progress
+- **Priority**: 🟡 Medium
+- **Description**: Automated changelog from git commits
+- **Features**:
+  - Parse git commit history for recent changes
+  - Generate "What's New" feed for homepage
+  - Link commits to relevant documentation
+  - Automatic update detection
+- **Dependencies**: Git repository setup
+
+#### Login Audit Logging
+- **Status**: In Progress
+- **Priority**: 🔴 High
+- **Description**: Track and log all authentication events
+- **Features**:
+  - Login attempt logging (success/failure)
+  - Session tracking
+  - IP address recording
+  - Timestamp for all events
+  - Admin dashboard for reviewing logs
+- **Dependencies**: Login page (✅ Complete)
+
+#### Comprehensive Case Timeline Expansion
+- **Status**: In Progress
+- **Priority**: 🔴 High
+- **Description**: Expand timeline from 92 to 500+ events
+- **Features**:
+  - Extract additional dates from classified documents
+  - Cross-reference multiple sources
+  - Enhanced event categorization
+  - Visual timeline with filtering
+  - Export timeline data (JSON, CSV)
+- **Dependencies**: Document classification, OCR completion
+
+---
+
+## Next Up
+
+### Prioritized Backlog 📋
+
+#### 1. Separate Documents Page (🔴 High Priority)
+- **Target**: Sprint 2
+- **Description**: Dedicated searchable page for extracted documents
+- **Features**:
+  - Full-text search across all OCR'd documents
+  - Advanced filtering (date, type, source, entity mentions)
+  - Document preview with highlighting
+  - Pagination and sorting
+  - Export capabilities (PDF, text)
+- **Dependencies**: OCR completion, document classification
+
+#### 2. Web-Researched Entity Relationships (🔴 High Priority)
+- **Target**: Sprint 2-3
+- **Description**: Augment entity data with public web research
+- **Features**:
+  - Automated web scraping for entity information
+  - Wikipedia integration for biographies
+  - News article aggregation
+  - Relationship verification from multiple sources
+  - Source citation tracking
+- **Dependencies**: Entity normalization (✅ Complete)
+
+#### 3. Source Attribution UI (🟡 Medium Priority)
+- **Target**: Sprint 3
+- **Description**: Clear display of document provenance
+- **Features**:
+  - Source badges on each document
+  - Provenance timeline (when/how document was obtained)
+  - Original source links
+  - Download dates and verification
+  - Chain of custody tracking
+- **Dependencies**: Source index (✅ Complete)
+
+#### 4. Advanced Search Filters (🔴 High Priority)
+- **Target**: Sprint 3-4
+- **Description**: Multi-faceted search capabilities
+- **Features**:
+  - Boolean operators (AND, OR, NOT)
+  - Date range filtering
+  - Entity co-occurrence search
+  - Document type filtering
+  - Source filtering
+  - Saved searches
+- **Dependencies**: Semantic search implementation
+
+---
+
+## Future Enhancements
+
+### Natural Language Search (RAG) ⚪
+- **Description**: AI-powered conversational search using Retrieval-Augmented Generation
+- **Features**:
+  - Natural language queries ("Find all emails between Clinton and Epstein in 2002")
+  - Context-aware responses with citations
+  - Multi-turn conversations
+  - Summary generation
+- **Dependencies**: Vector embeddings, GPT-4 integration
+- **Estimated Timeline**: Q2 2026
+
+### Document Summarization ⚪
+- **Description**: Automatic summarization of lengthy documents
+- **Features**:
+  - AI-generated summaries for documents >10 pages
+  - Key entity extraction
+  - Important date highlighting
+  - Topic classification
+- **Dependencies**: LLM integration, document classification
+- **Estimated Timeline**: Q2 2026
+
+### Relationship Graph Algorithms ⚪
+- **Description**: Advanced graph analysis for entity relationships
+- **Features**:
+  - Shortest path between entities
+  - Community detection (cluster analysis)
+  - Centrality metrics (PageRank, betweenness)
+  - Temporal relationship evolution
+  - Influence scoring
+- **Dependencies**: Knowledge graph expansion
+- **Estimated Timeline**: Q3 2026
+
+### Export Capabilities 🟡
+- **Description**: Comprehensive data export functionality
+- **Features**:
+  - JSON export (full dataset)
+  - CSV export (tabular views)
+  - PDF document bundles
+  - Network graph exports (GEXF, GraphML)
+  - Timeline exports
+  - API access for programmatic export
+- **Dependencies**: Data standardization
+- **Estimated Timeline**: Q1 2026
+
+---
+
+## Development Phases
 
 ## Phase 1: Foundation (Current)
 

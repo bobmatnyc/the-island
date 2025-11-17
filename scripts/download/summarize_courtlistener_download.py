@@ -6,9 +6,8 @@ Analyzes downloaded PDFs and metadata to create comprehensive summary.
 """
 
 import json
-from pathlib import Path
 from collections import Counter
-import PyPDF2
+from pathlib import Path
 
 
 def summarize_download(output_dir: Path):
@@ -50,7 +49,7 @@ def summarize_download(output_dir: Path):
     print("=" * 70)
     print("CourtListener Download Summary - Giuffre v. Maxwell")
     print("=" * 70)
-    print(f"\n📊 Download Statistics:")
+    print("\n📊 Download Statistics:")
     print(f"  ✓ Successfully downloaded: {len(downloads)} / {total_expected}")
     print(f"  ✗ Failed downloads: {len(failed)}")
     print(f"  📁 Files in directory: {len(pdf_files)}")
@@ -60,14 +59,14 @@ def summarize_download(output_dir: Path):
 
     # Size distribution
     sizes = [d["size_bytes"] for d in downloads]
-    print(f"\n📏 Size Distribution:")
+    print("\n📏 Size Distribution:")
     print(f"  Smallest: {min(sizes) / 1024:.1f} KB")
     print(f"  Largest: {max(sizes) / (1024 * 1024):.2f} MB")
     print(f"  Average: {(sum(sizes) / len(sizes)) / 1024:.1f} KB")
 
     # Documents with most attachments
     if attachments_by_doc:
-        print(f"\n📎 Documents with Most Attachments:")
+        print("\n📎 Documents with Most Attachments:")
         for doc_num, count in attachments_by_doc.most_common(5):
             print(f"  Document {doc_num}: {count} attachments")
 
@@ -94,8 +93,8 @@ def summarize_download(output_dir: Path):
 
     # Save summary to file
     summary_file = output_dir / "DOWNLOAD_SUMMARY.txt"
-    with open(summary_file, 'w') as f:
-        f.write(f"CourtListener Download Summary - Giuffre v. Maxwell\n")
+    with open(summary_file, "w") as f:
+        f.write("CourtListener Download Summary - Giuffre v. Maxwell\n")
         f.write(f"{'=' * 70}\n\n")
         f.write(f"Download Date: {metadata.get('last_update', 'Unknown')}\n")
         f.write(f"Total PDFs: {len(downloads)} / {total_expected}\n")
@@ -103,7 +102,7 @@ def summarize_download(output_dir: Path):
         f.write(f"Total Size: {total_size / (1024 * 1024):.2f} MB\n")
         f.write(f"Unique Documents: {len(doc_numbers)}\n\n")
 
-        f.write(f"Document Numbers:\n")
+        f.write("Document Numbers:\n")
         for doc_num in sorted(doc_numbers, key=lambda x: int(x)):
             attach_count = attachments_by_doc.get(doc_num, 0)
             if attach_count > 0:

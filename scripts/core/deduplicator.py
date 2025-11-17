@@ -8,10 +8,10 @@ Implements multi-strategy duplicate detection:
 4. Partial overlap detection
 """
 
-from pathlib import Path
-from typing import Dict, List, Tuple, Optional
 from dataclasses import dataclass
 from difflib import SequenceMatcher
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
 
 
 @dataclass
@@ -127,7 +127,7 @@ class Deduplicator:
         all_groups.extend(fuzzy_groups)
 
         # Phase 3: Metadata matching (emails only)
-        email_docs = [doc for doc in documents if doc.document_type == 'email']
+        email_docs = [doc for doc in documents if doc.document_type == "email"]
         metadata_groups = self.detect_metadata_duplicates(email_docs)
         all_groups.extend(metadata_groups)
 
@@ -167,11 +167,11 @@ class Deduplicator:
         for content_hash, doc_ids in content_hash_map.items():
             if len(doc_ids) > 1:
                 groups.append(DuplicateGroup(
-                    type='exact',
+                    type="exact",
                     docs=doc_ids,
                     similarity=1.0,
-                    method='content_hash',
-                    metadata={'hash': content_hash}
+                    method="content_hash",
+                    metadata={"hash": content_hash}
                 ))
 
         # File hash duplicates (only if not already in content groups)
@@ -182,11 +182,11 @@ class Deduplicator:
                 unique_docs = [doc_id for doc_id in doc_ids if doc_id not in content_group_docs]
                 if len(unique_docs) > 1:
                     groups.append(DuplicateGroup(
-                        type='exact',
+                        type="exact",
                         docs=unique_docs,
                         similarity=1.0,
-                        method='file_hash',
-                        metadata={'hash': file_hash}
+                        method="file_hash",
+                        metadata={"hash": file_hash}
                     ))
 
         return groups
@@ -219,11 +219,11 @@ class Deduplicator:
 
                 if similarity >= self.fuzzy_threshold:
                     groups.append(DuplicateGroup(
-                        type='fuzzy',
+                        type="fuzzy",
                         docs=[doc_a.id, doc_b.id],
                         similarity=similarity,
-                        method='fuzzy_hash' if doc_a.fuzzy_hash else 'text_diff',
-                        metadata={'score': similarity}
+                        method="fuzzy_hash" if doc_a.fuzzy_hash else "text_diff",
+                        metadata={"score": similarity}
                     ))
 
         return groups
@@ -250,8 +250,8 @@ class Deduplicator:
             try:
                 import ssdeep
                 # Strip 'ssdeep:' prefix
-                hash_a = doc_a.fuzzy_hash.replace('ssdeep:', '')
-                hash_b = doc_b.fuzzy_hash.replace('ssdeep:', '')
+                hash_a = doc_a.fuzzy_hash.replace("ssdeep:", "")
+                hash_b = doc_b.fuzzy_hash.replace("ssdeep:", "")
                 fuzzy_score = ssdeep.compare(hash_a, hash_b) / 100.0
                 scores.append(fuzzy_score)
             except ImportError:
@@ -294,11 +294,11 @@ class Deduplicator:
         for signature, doc_ids in metadata_map.items():
             if len(doc_ids) > 1:
                 groups.append(DuplicateGroup(
-                    type='metadata',
+                    type="metadata",
                     docs=doc_ids,
                     similarity=self.metadata_threshold,
-                    method='email_metadata',
-                    metadata={'signature': str(signature)}
+                    method="email_metadata",
+                    metadata={"signature": str(signature)}
                 ))
 
         return groups
@@ -313,8 +313,8 @@ class Deduplicator:
         # Normalize subject (remove Re:, Fwd:, etc.)
         subject = doc.subject or ""
         subject = subject.lower()
-        subject = subject.replace('re:', '').replace('fw:', '').replace('fwd:', '')
-        subject = ' '.join(subject.split())  # Normalize whitespace
+        subject = subject.replace("re:", "").replace("fw:", "").replace("fwd:", "")
+        subject = " ".join(subject.split())  # Normalize whitespace
 
         # Normalize email addresses
         from_email = (doc.from_person or "").lower().strip()
@@ -349,10 +349,10 @@ class Deduplicator:
 
                 if overlap_info:
                     groups.append(DuplicateGroup(
-                        type='partial',
+                        type="partial",
                         docs=[doc_a.id, doc_b.id],
-                        similarity=overlap_info['overlap_percentage'],
-                        method='page_hash',
+                        similarity=overlap_info["overlap_percentage"],
+                        method="page_hash",
                         metadata=overlap_info
                     ))
 
@@ -402,12 +402,12 @@ class Deduplicator:
                    if hash_val in common]
 
         return {
-            'common_pages': len(common),
-            'overlap_pct_a': overlap_a,
-            'overlap_pct_b': overlap_b,
-            'overlap_percentage': max(overlap_a, overlap_b),
-            'pages_a': self._format_page_range(pages_a),
-            'pages_b': self._format_page_range(pages_b)
+            "common_pages": len(common),
+            "overlap_pct_a": overlap_a,
+            "overlap_pct_b": overlap_b,
+            "overlap_percentage": max(overlap_a, overlap_b),
+            "pages_a": self._format_page_range(pages_a),
+            "pages_b": self._format_page_range(pages_b)
         }
 
     @staticmethod
@@ -455,30 +455,30 @@ if __name__ == "__main__":
     # Create test documents
     docs = [
         Document(
-            id='doc1',
-            file_path=Path('test1.pdf'),
-            file_hash='sha256:abc123',
-            content_hash=hasher.hash_content('This is document 1'),
+            id="doc1",
+            file_path=Path("test1.pdf"),
+            file_hash="sha256:abc123",
+            content_hash=hasher.hash_content("This is document 1"),
             fuzzy_hash=None,
-            text='This is document 1',
-            document_type='email',
-            from_person='sender@example.com',
-            to_persons=['recipient@example.com'],
-            date='2008-05-15',
-            subject='Test Email'
+            text="This is document 1",
+            document_type="email",
+            from_person="sender@example.com",
+            to_persons=["recipient@example.com"],
+            date="2008-05-15",
+            subject="Test Email"
         ),
         Document(
-            id='doc2',
-            file_path=Path('test2.pdf'),
-            file_hash='sha256:def456',
-            content_hash=hasher.hash_content('This is document 1'),  # Same content
+            id="doc2",
+            file_path=Path("test2.pdf"),
+            file_hash="sha256:def456",
+            content_hash=hasher.hash_content("This is document 1"),  # Same content
             fuzzy_hash=None,
-            text='This is document 1',
-            document_type='email',
-            from_person='sender@example.com',
-            to_persons=['recipient@example.com'],
-            date='2008-05-15',
-            subject='Test Email'
+            text="This is document 1",
+            document_type="email",
+            from_person="sender@example.com",
+            to_persons=["recipient@example.com"],
+            date="2008-05-15",
+            subject="Test Email"
         )
     ]
 

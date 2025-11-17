@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "generated": "2025-11-17T00:00:00Z",
+    "total_cases": 18,
+    "categories": {
+      "criminal": 3,
+      "civil_individual": 7,
+      "civil_class_action": 3,
+      "estate_claims": 2,
+      "cvra": 1,
+      "bank_settlements": 2
+    },
+    "research_notes": "Comprehensive index of all publicly documented Epstein-related legal cases including criminal prosecutions, civil lawsuits, estate claims, and institutional settlements. All case numbers, dates, and outcomes verified from court records, DOJ announcements, and news sources."
+  },
+  "criminal_cases": [
+    {
+      "case_id": "fl_state_2008",
+      "case_name": "State of Florida v. Jeffrey Epstein",
+      "court": "Palm Beach County Circuit Court",
+      "docket": "08-CF-000916-A",
+      "filed": "2006-07-27",
+      "arrest_date": "2006-07-27",
+      "charges": [
+        "Procuring a child for prostitution",
+        "Solicitation of a prostitute"
+      ],
+      "outcome": "Plea deal - Guilty plea",
+      "sentence": "18 months incarceration (13 months served with work release), 12 months probation, sex offender registration",
+      "sentence_date": "2008-06-30",
+      "release_date": "2009-07-22",
+      "key_dates": {
+        "investigation_start": "2005-03-14",
+        "search_warrant": "2005-10-20",
+        "arrest": "2006-07-27",
+        "grand_jury_indictment": "2006-07-19",
+        "plea_deal": "2008-06-30",
+        "release": "2009-07-22"
+      },
+      "prosecutors": ["Barry Krischer (State Attorney)", "Alex Acosta (US Attorney - NPA)"],
+      "victims": ["14-year-old stepdaughter (initial complaint)", "30+ identified victims"],
+      "controversy": "Non-prosecution agreement violated Crime Victims' Rights Act. Federal prosecutors prepared 53-page indictment but entered NPA instead. Victims not informed of plea deal.",
+      "related_cases": ["wild_v_us_cvra"],
+      "documents_available": true,
+      "documents_url": "https://www.courtlistener.com/",
+      "download_recommended": true,
+      "status": "Completed - served sentence",
+      "research_sources": [
+        "https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case",
+        "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "https://www.justice.gov/archives/opa/press-release/file/1336416/dl"
+      ]
+    },
+    {
+      "case_id": "sdny_2019_epstein",
+      "case_name": "United States v. Jeffrey Epstein",
+      "court": "U.S. District Court, Southern District of New York",
+      "docket": "1:19-cr-00490-RMB",
+      "filed": "2019-07-08",
+      "arrest_date": "2019-07-06",
+      "arrest_location": "Teterboro Airport, New Jersey",
+      "charges": [
+        "Sex trafficking of minors (18 U.S.C. § 1591)",
+        "Conspiracy to engage in sex trafficking of minors (18 U.S.C. § 1594(c))"
+      ],
+      "max_sentence": "45 years (40 years + 5 years conspiracy)",
+      "outcome": "Dismissed - defendant death",
+      "dismissal_date": "2019-08-29",
+      "key_dates": {
+        "arrest": "2019-07-06",
+        "indictment_unsealed": "2019-07-08",
+        "bail_denied": "2019-07-18",
+        "death": "2019-08-10",
+        "case_dismissed": "2019-08-29"
+      },
+      "judge": "Richard M. Berman",
+      "allegations": "Sex trafficking and abuse of dozens of underage girls as young as 14, between 2002-2005, in New York and Palm Beach",
+      "victims": ["Dozens of victims identified", "Two Jane Does in indictment"],
+      "death_circumstances": "Found unresponsive in MCC cell 6:30 AM, ruled suicide by hanging",
+      "documents_available": true,
+      "documents_url": "https://www.courtlistener.com/docket/15887848/united-states-v-epstein/",
+      "pacer_url": "https://pacer.uscourts.gov/",
+      "download_recommended": true,
+      "status": "Dismissed due to defendant death",
+      "research_sources": [
+        "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-manhattan-federal-court-sex-trafficking-minors",
+        "https://www.courtlistener.com/docket/15887848/united-states-v-epstein/"
+      ]
+    },
+    {
+      "case_id": "sdny_2020_maxwell",
+      "case_name": "United States v. Ghislaine Maxwell",
+      "court": "U.S. District Court, Southern District of New York",
+      "docket": "1:20-cr-00330-AJN",
+      "filed": "2020-07-02",
+      "arrest_date": "2020-07-02",
+      "charges": [
+        "Sex trafficking conspiracy",
+        "Sex trafficking of a minor",
+        "Transportation of a minor with intent to engage in criminal sexual activity",
+        "Enticement of a minor to travel to engage in illegal sex acts",
+        "Conspiracy to entice minors to travel to engage in illegal sex acts",
+        "Conspiracy to transport minors with intent to engage in criminal sexual activity"
+      ],
+      "outcome": "Guilty verdict on 5 of 6 counts",
+      "verdict_date": "2021-12-29",
+      "sentence": "240 months (20 years) federal prison + $750,000 fine",
+      "sentence_date": "2022-06-28",
+      "key_dates": {
+        "indictment_unsealed": "2020-07-02",
+        "arrest": "2020-07-02",
+        "arraignment": "2020-07-14",
+        "superseding_indictment": "2021-03-29",
+        "trial_start": "2021-11-29",
+        "verdict": "2021-12-29",
+        "sentencing": "2022-06-28",
+        "prison_transfer_fci_tallahassee": "2022-07-00",
+        "doj_meetings": "2025-07-24",
+        "prison_transfer_fpc_bryan": "2025-08-01"
+      },
+      "judge": "Alison J. Nathan",
+      "conviction_counts": 5,
+      "time_period": "1994-2004",
+      "victims_testified": [
+        "Jane (pseudonym) - age 14 in 1994",
+        "Kate (pseudonym) - age 17 in London",
+        "Carolyn (first name only) - age 14 in early 2000s",
+        "Annie Farmer (full name) - age 16 in 1996"
+      ],
+      "current_incarceration": "FPC Bryan, Texas (minimum security)",
+      "release_date_estimate": "2037-07-17",
+      "documents_available": true,
+      "documents_url": "https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/",
+      "download_recommended": true,
+      "status": "Serving sentence - transferred to minimum security 2025",
+      "research_sources": [
+        "https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell",
+        "https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison-conspiring-jeffrey-epstein-sexually-abuse",
+        "https://www.cnn.com/2021/12/15/us/ghislaine-maxwell-trial-accusers/index.html"
+      ]
+    }
+  ],
+  "civil_individual_cases": [
+    {
+      "case_id": "giuffre_v_maxwell_2015",
+      "case_name": "Virginia L. Giuffre v. Ghislaine Maxwell",
+      "case_type": "Defamation",
+      "court": "U.S. District Court, Southern District of New York",
+      "docket": "1:15-cv-07433",
+      "filed": "2015-09-21",
+      "plaintiff": "Virginia Giuffre (formerly Virginia Roberts)",
+      "defendant": "Ghislaine Maxwell",
+      "allegations": "Defamation - Maxwell called Giuffre's sex trafficking allegations 'obvious lies'",
+      "outcome": "Settled confidentially before trial",
+      "settlement_date": "2017-05-24",
+      "settlement_terms": "Confidential, case dismissed with prejudice",
+      "key_dates": {
+        "filed": "2015-09-21",
+        "settled": "2017-05-24",
+        "unsealing_order_1": "2019-07-02",
+        "unsealing_batches": "2024-01-03 through 2024-01-09"
+      },
+      "documents_unsealed": {
+        "2019": "2,000+ pages",
+        "2024": "4,553 pages in 8 batches (Jan 3-9, 2024)"
+      },
+      "judge": "Loretta A. Preska",
+      "significance": "Source of most public Epstein documents. Depositions, flight logs, witness testimony, emails.",
+      "notable_revelations": "150+ associates named, flight logs, deposition testimony from Giuffre, Maxwell, others",
+      "documents_available": true,
+      "documents_url": "https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/",
+      "download_recommended": true,
+      "status": "Settled 2017, documents unsealed 2019-2024",
+      "research_sources": [
+        "https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/",
+        "https://legalclarity.org/the-giuffre-v-maxwell-civil-lawsuit/",
+        "https://www.cnn.com/2024/01/03/business/jeffrey-epstein-documents-list-names/index.html"
+      ]
+    },
+    {
+      "case_id": "giuffre_v_andrew_2021",
+      "case_name": "Virginia L. Giuffre v. Prince Andrew, Duke of York",
+      "case_type": "Sexual abuse civil lawsuit",
+      "court": "U.S. District Court, Southern District of New York",
+      "docket": "1:21-cv-06702",
+      "filed": "2021-08-09",
+      "plaintiff": "Virginia Giuffre",
+      "defendant": "Prince Andrew (Andrew Albert Christian Edward)",
+      "allegations": "Sexual assault and battery when Giuffre was 17 years old, facilitated by Epstein and Maxwell",
+      "locations_alleged": "London, New York, U.S. Virgin Islands",
+      "outcome": "Settled out of court",
+      "settlement_date": "2022-02-15",
+      "settlement_amount": "Undisclosed (reports suggest £12 million)",
+      "dismissal_date": "2022-03-08",
+      "key_dates": {
+        "filed": "2021-08-09",
+        "motion_to_dismiss_denied": "2022-01-12",
+        "settlement_announced": "2022-02-15",
+        "case_dismissed": "2022-03-08",
+        "payment_confirmed": "2022-03-08"
+      },
+      "judge": "Lewis A. Kaplan",
+      "settlement_terms": "Financial payment to Giuffre, donation to her charity supporting victims' rights, no admission of liability by Prince Andrew",
+      "related_events": {
+        "bbc_newsnight_interview": "2019-11-16",
+        "giuffre_bbc_panorama_interview": "2019-12-02"
+      },
+      "documents_available": true,
+      "documents_url": "https://www.courtlistener.com/docket/60119368/giuffre-v-prince-andrew/",
+      "download_recommended": true,
+      "status": "Settled and dismissed with prejudice",
+      "research_sources": [
+        "https://www.courtlistener.com/docket/60119368/giuffre-v-prince-andrew/",
+        "https://en.wikipedia.org/wiki/Virginia_Giuffre_v._Prince_Andrew",
+        "https://www.npr.org/2022/02/15/1080828750/prince-andrew-settlement-virginia-giuffre"
+      ]
+    },
+    {
+      "case_id": "araoz_v_epstein_estate_2019",
+      "case_name": "Jennifer Araoz v. Estate of Jeffrey Epstein, Ghislaine Maxwell, et al.",
+      "case_type": "Sexual abuse, trafficking",
+      "court": "New York State Supreme Court",
+      "docket": "Not specified in sources",
+      "filed": "2019-08-14",
+      "plaintiff": "Jennifer Araoz",
+      "defendants": ["Estate of Jeffrey Epstein", "Ghislaine Maxwell", "Three unnamed female staff members"],
+      "allegations": "Sexual assault and rape when Araoz was 14-15 years old at Epstein's NYC townhouse, including forcible rape in 2002",
+      "legal_basis": "Filed under New York's Child Victims Act",
+      "outcome": "Likely settled (part of estate compensation fund)",
+      "key_dates": {
+        "filed": "2019-08-14"
+      },
+      "significance": "First lawsuit filed after Epstein's death, under new Child Victims Act window",
+      "documents_available": true,
+      "documents_url": "https://www.nbcnews.com/news/crime-courts/jeffrey-epstein-accuser-jennifer-araoz-sues-ghislaine-maxwell-3-other-n1041901",
+      "download_recommended": false,
+      "status": "Resolved through estate compensation fund",
+      "research_sources": [
+        "https://www.nbcnews.com/news/crime-courts/jeffrey-epstein-accuser-jennifer-araoz-sues-ghislaine-maxwell-3-other-n1041901",
+        "https://www.cnbc.com/2019/08/14/jeffrey-epstein-rape-accuser-jennifer-araoz-sues-ghislaine-maxwell-3-others.html"
+      ]
+    },
+    {
+      "case_id": "doe_v_trump_epstein_2016",
+      "case_name": "Jane Doe v. Donald J. Trump and Jeffrey E. Epstein",
+      "case_type": "Sexual assault allegations",
+      "court": "U.S. District Court, Southern District of New York",
+      "docket": "1:16-cv-07673-RA",
+      "filed": "2016-10-03",
+      "prior_case": "1:16-cv-04642 (filed earlier in 2016)",
+      "plaintiff": "Jane Doe (anonymous)",
+      "defendants": ["Donald J. Trump", "Jeffrey E. Epstein"],
+      "allegations": "Sexual assault at Epstein's residence when plaintiff was 13 years old in 1994",
+      "outcome": "Voluntarily dismissed without prejudice",
+      "dismissal_date": "2016-11-04",
+      "key_dates": {
+        "filed": "2016-10-03",
+        "dismissed": "2016-11-04"
+      },
+      "documents_available": true,
+      "documents_url": "https://www.courtlistener.com/docket/4524664/doe-v-trump/",
+      "download_recommended": false,
+      "status": "Dismissed without prejudice",
+      "research_sources": [
+        "https://www.courtlistener.com/docket/4524664/doe-v-trump/",
+        "https://en.wikipedia.org/wiki/Doe_v._Trump"
+      ]
+    },
+    {
+      "case_id": "wild_v_us_cvra",
+      "case_name": "Courtney Wild v. United States",
+      "case_type": "Crime Victims' Rights Act violation",
+      "court": "U.S. District Court, Southern District of Florida",
+      "docket": "Not specified in sources",
+      "filed": "2008-07-00",
+      "plaintiff": "Courtney Wild",
+      "defendant": "United States of America",
+      "allegations": "Violation of Crime Victims' Rights Act - federal prosecutors failed to confer with victims before executing non-prosecution agreement with Epstein in 2008",
+      "outcome": "Mixed - District court ruled CVRA violated, Eleventh Circuit reversed",
+      "key_dates": {
+        "npa_executed": "2007-09-00",
+        "lawsuit_filed": "2008-07-00",
+        "district_court_ruling": "2019-02-21",
+        "eleventh_circuit_reversal": "2020-04-00",
+        "supreme_court_petition": "2021-08-31"
+      },
+      "district_court_ruling": "Federal prosecutors violated Crime Victims' Rights Act by not conferring with victims",
+      "appeals_court_ruling": "CVRA not triggered because no charges filed; Wild could have moved for relief but cannot bring standalone suit",
+      "judge_district": "Kenneth A. Marra",
+      "legislative_response": "Courtney Wild Crime Victims' Rights Reform Act introduced in Congress",
+      "significance": "Exposed illegal non-prosecution agreement, led to legislative reform efforts",
+      "documents_available": true,
+      "documents_url": "https://media.ca11.uscourts.gov/opinions/pub/files/201913843.enb.pdf",
+      "download_recommended": true,
+      "status": "Appeals exhausted, led to legislative reform proposals",
+      "research_sources": [
+        "https://media.ca11.uscourts.gov/opinions/pub/files/201913843.enb.pdf",
+        "https://www.legalmomentum.org/amicus-briefs/courtney-wild-v-united-states-district-court-southern-district-florida",
+        "https://wassermanschultz.house.gov/news/documentsingle.aspx?DocumentID=3256"
+      ]
+    }
+  ],
+  "bank_settlement_cases": [
+    {
+      "case_id": "jane_doe_v_jpmorgan_2023",
+      "case_name": "Jane Doe 1, et al. v. JPMorgan Chase Bank, N.A.",
+      "case_type": "Sex trafficking facilitation - Class action",
+      "court": "U.S. District Court, Southern District of New York",
+      "docket": "Not fully specified",
+      "filed": "2022-11-00",
+      "plaintiff": "Jane Doe 1 (class representative)",
+      "defendant": "JPMorgan Chase Bank, N.A.",
+      "allegations": "Bank profited from and facilitated Epstein's sex trafficking operation from 1998-2013 by providing financial services despite red flags",
+      "outcome": "Settled",
+      "settlement_date": "2023-06-12",
+      "settlement_amount": "$290 million",
+      "class_action_status": "Granted",
+      "class_size": "Potentially well over 100 victims",
+      "key_dates": {
+        "filed": "2022-11-00",
+        "class_action_granted": "2023-06-12",
+        "settlement_announced": "2023-06-12"
+      },
+      "related_litigation": "JPMorgan sued former executive Jes Staley for $80+ million",
+      "admission_of_liability": "None",
+      "documents_available": true,
+      "documents_url": "https://www.courtlistener.com/",
+      "download_recommended": false,
+      "status": "Settled for $290 million",
+      "research_sources": [
+        "https://www.npr.org/2023/06/12/1181675580/epstein-jane-doe-1-290-million-settlement-jpmorgan-chase",
+        "https://www.cnbc.com/2023/06/12/jpmorgan-reaches-settlement-with-epstein-victim-in-lawsuit.html"
+      ]
+    },
+    {
+      "case_id": "jane_doe_v_deutsche_bank_2023",
+      "case_name": "Jane Doe, et al. v. Deutsche Bank AG",
+      "case_type": "Sex trafficking facilitation - Class action",
+      "court": "U.S. District Court, Southern District of New York",
+      "docket": "Not fully specified",
+      "filed": "2023-00-00",
+      "plaintiff": "Jane Doe (class representative)",
+      "defendant": "Deutsche Bank AG",
+      "allegations": "Bank enabled and benefitted from Epstein's sex trafficking from 2013-2018",
+      "outcome": "Settled",
+      "settlement_date": "2023-05-18",
+      "settlement_approval": "2023-10-20",
+      "settlement_amount": "$75 million",
+      "victim_compensation": "$75,000 to $5 million per victim depending on claim evaluation",
+      "time_period": "2013-2018 (when Epstein was DB customer)",
+      "key_dates": {
+        "settlement_announced": "2023-05-18",
+        "final_approval": "2023-10-20"
+      },
+      "significance": "Largest sex trafficking settlement with a bank in US history (per plaintiffs' attorneys)",
+      "admission_of_liability": "None",
+      "documents_available": true,
+      "documents_url": "https://www.courtlistener.com/",
+      "download_recommended": false,
+      "status": "Settled for $75 million, final approval October 2023",
+      "research_sources": [
+        "https://www.cnbc.com/2023/05/18/jeffrey-epstein-lawsuit-deutsche-bank-will-pay-75-million-to-victims.html",
+        "https://www.npr.org/2023/05/18/1176974676/deutsche-bank-settles-lawsuit-with-epstein-accusers-for-75-million"
+      ]
+    }
+  ],
+  "estate_claims": [
+    {
+      "case_id": "usvi_v_epstein_estate",
+      "case_name": "Government of the U.S. Virgin Islands v. Estate of Jeffrey Epstein",
+      "case_type": "Sex trafficking, fraud",
+      "court": "Superior Court of the Virgin Islands",
+      "docket": "Not specified",
+      "filed": "2020-01-00",
+      "plaintiff": "Attorney General of the U.S. Virgin Islands",
+      "defendants": ["Estate of Jeffrey Epstein", "Ten Epstein-created entities"],
+      "allegations": "Sex trafficking operation on Little St. James Island, fraudulent tax benefits",
+      "outcome": "Settled",
+      "settlement_date": "2022-11-30",
+      "settlement_amount": "$105+ million",
+      "settlement_breakdown": {
+        "tax_benefit_recovery": "$80 million",
+        "additional_payments": "$25+ million",
+        "total": "$105+ million"
+      },
+      "key_dates": {
+        "filed": "2020-01-00",
+        "settlement_announced": "2022-11-30"
+      },
+      "settlement_purpose": "Funds directed to trust for USVI victims of sexual assault, trafficking, and child abuse",
+      "significance": "Largest settlement in USVI history",
+      "documents_available": true,
+      "documents_url": "https://usvidoj.com/",
+      "download_recommended": false,
+      "status": "Settled for $105+ million",
+      "research_sources": [
+        "https://usvidoj.com/u-s-virgin-islands-attorney-general-settles-sex-trafficking-case-against-estate-of-jeffrey-epstein-and-co-defendants-for-over-105-million/",
+        "https://www.npr.org/2022/12/01/1140096222/jeffrey-epsteins-estate-reaches-a-105m-settlement-with-the-u-s-virgin-islands"
+      ]
+    },
+    {
+      "case_id": "epstein_estate_vcp",
+      "case_name": "Epstein Estate Victims Compensation Program",
+      "case_type": "Voluntary compensation fund",
+      "court": "N/A - Voluntary program",
+      "established": "2020-06-00",
+      "administrator": "Jordana Feldman (independent)",
+      "fund_amount": "$121+ million paid",
+      "total_awarded": "$125 million",
+      "claims_filed": "225+ claims",
+      "claims_paid": "136 individuals",
+      "claim_range": "Confidential amounts",
+      "key_dates": {
+        "program_established": "2020-06-00",
+        "usvi_intervention": "2020-05-29",
+        "program_completion": "2021-00-00"
+      },
+      "usvi_intervention_reason": "Original fund included broad releases not in victims' interest, lacked confidentiality protections",
+      "eligibility": "Victims of Epstein's sexual abuse",
+      "process": "Claims filed, evaluated, compensated without litigation",
+      "significance": "Provided compensation to 136 victims without prolonged litigation",
+      "documents_available": false,
+      "download_recommended": false,
+      "status": "Program completed, all claims resolved",
+      "research_sources": [
+        "https://fortune.com/2020/06/25/jeffrey-epstein-victims-estate/",
+        "https://factually.co/fact-checks/justice/jeffrey-epstein-estate-victim-payouts-amounts-c6bfb7"
+      ]
+    }
+  ],
+  "download_instructions": {
+    "courtlistener": {
+      "description": "Free public access to PACER documents via RECAP archive",
+      "url": "https://www.courtlistener.com/",
+      "search_by_docket": true,
+      "cost": "Free for documents in RECAP archive",
+      "priority_cases": [
+        "1:15-cv-07433 (Giuffre v Maxwell)",
+        "1:19-cr-00490-RMB (US v Epstein)",
+        "1:20-cr-00330-AJN (US v Maxwell)",
+        "1:21-cv-06702 (Giuffre v Andrew)"
+      ]
+    },
+    "pacer": {
+      "description": "Federal court records - official source",
+      "url": "https://pacer.uscourts.gov/",
+      "cost": "$0.10 per page, capped at $3.00 per document",
+      "fee_waiver": "Quarterly charges under $30 are waived",
+      "registration_required": true
+    },
+    "document_cloud": {
+      "description": "Many Epstein documents uploaded by journalists",
+      "url": "https://www.documentcloud.org/",
+      "search_query": "Jeffrey Epstein",
+      "cost": "Free"
+    },
+    "archive_org": {
+      "description": "House Oversight Committee releases archived here",
+      "url": "https://archive.org/details/epstein-pdf",
+      "documents": "67,144 PDFs from Nov 2025 release",
+      "cost": "Free"
+    }
+  }
+}

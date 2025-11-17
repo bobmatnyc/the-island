@@ -4,11 +4,12 @@ API Endpoint Test Script
 Tests all API endpoints to verify data loading and functionality
 """
 
-import requests
 import json
-from typing import Optional, Dict
-from pathlib import Path
 import sys
+from typing import Dict, Optional
+
+import requests
+
 
 # Server configuration
 BASE_URL = "http://localhost:8081"
@@ -18,11 +19,11 @@ PASSWORD = "@rchiv*!2025"
 
 class Colors:
     """ANSI color codes for terminal output"""
-    GREEN = '\033[92m'
-    RED = '\033[91m'
-    YELLOW = '\033[93m'
-    BLUE = '\033[94m'
-    RESET = '\033[0m'
+    GREEN = "\033[92m"
+    RED = "\033[91m"
+    YELLOW = "\033[93m"
+    BLUE = "\033[94m"
+    RESET = "\033[0m"
 
 
 def test_endpoint(
@@ -86,8 +87,7 @@ def test_endpoint(
                 print(f"   {Colors.RED}✗ Missing keys: {missing_keys}{Colors.RESET}")
                 print(f"   Available keys: {list(result.keys())}")
                 return False
-            else:
-                print(f"   {Colors.GREEN}✓ All expected keys present{Colors.RESET}")
+            print(f"   {Colors.GREEN}✓ All expected keys present{Colors.RESET}")
 
         # Print summary statistics
         print(f"   {Colors.BLUE}📊 Response summary:{Colors.RESET}")

@@ -9,9 +9,9 @@ Usage:
     python validate_version.py [--fix]
 """
 
-import sys
 import re
 import subprocess
+import sys
 from pathlib import Path
 from typing import Optional
 

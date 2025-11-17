@@ -20,20 +20,21 @@ Pipeline:
     Store Canonical → Track Sources → Generate Report
 """
 
+import argparse
 import sys
 import time
-import argparse
-from pathlib import Path
-from datetime import datetime
-from typing import List, Dict, Optional
 from dataclasses import dataclass
+from datetime import datetime
+from pathlib import Path
+from typing import List
+
 
 # Add scripts to path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from core.database import CanonicalDatabase
+from core.deduplicator import Deduplicator
 from core.hasher import DocumentHasher, generate_canonical_id
-from core.deduplicator import Deduplicator, Document
 
 
 @dataclass
@@ -115,7 +116,7 @@ class EmailProcessor:
 
         self.stats = ProcessingStats()
 
-    def process_directory(self, input_dir: Path, file_format: str = 'markdown'):
+    def process_directory(self, input_dir: Path, file_format: str = "markdown"):
         """
         Process all files in directory.
 
@@ -123,7 +124,7 @@ class EmailProcessor:
             input_dir: Input directory path
             file_format: File format (pdf, markdown)
         """
-        print(f"\n=== Bulk Email Processing ===")
+        print("\n=== Bulk Email Processing ===")
         print(f"Input directory: {input_dir}")
         print(f"Source: {self.source_name}")
         print(f"Collection: {self.collection}")
@@ -131,9 +132,9 @@ class EmailProcessor:
         print(f"Batch size: {self.batch_size}")
 
         # Find all files
-        if file_format == 'markdown':
+        if file_format == "markdown":
             files = sorted(input_dir.glob("**/*.md"))
-        elif file_format == 'pdf':
+        elif file_format == "pdf":
             files = sorted(input_dir.glob("**/*.pdf"))
         else:
             print(f"Error: Unsupported format '{file_format}'")
@@ -197,10 +198,10 @@ class EmailProcessor:
             file_path: Path to file
         """
         # Read file
-        if file_path.suffix == '.md':
-            text = file_path.read_text(encoding='utf-8')
+        if file_path.suffix == ".md":
+            text = file_path.read_text(encoding="utf-8")
             metadata = self._extract_markdown_metadata(text)
-        elif file_path.suffix == '.pdf':
+        elif file_path.suffix == ".pdf":
             # TODO: Implement PDF extraction
             raise NotImplementedError("PDF extraction not yet implemented")
         else:
@@ -220,20 +221,20 @@ class EmailProcessor:
 
             # Add as additional source
             self.db.insert_source({
-                'canonical_id': existing['canonical_id'],
-                'source_name': self.source_name,
-                'collection': self.collection,
-                'file_path': str(file_path),
-                'format': file_path.suffix[1:],
-                'download_date': datetime.now().isoformat()
+                "canonical_id": existing["canonical_id"],
+                "source_name": self.source_name,
+                "collection": self.collection,
+                "file_path": str(file_path),
+                "format": file_path.suffix[1:],
+                "download_date": datetime.now().isoformat()
             })
 
             self.db.log(
-                operation='import',
+                operation="import",
                 source=self.source_name,
-                status='duplicate',
-                message=f'Duplicate: {file_path.name}',
-                details={'canonical_id': existing['canonical_id']}
+                status="duplicate",
+                message=f"Duplicate: {file_path.name}",
+                details={"canonical_id": existing["canonical_id"]}
             )
 
             return
@@ -243,21 +244,21 @@ class EmailProcessor:
 
         # Create document
         doc = {
-            'canonical_id': canonical_id,
-            'content_hash': content_hash,
-            'file_hash': file_hash,
-            'document_type': metadata.get('document_type', 'email'),
-            'title': metadata.get('title'),
-            'date': metadata.get('date'),
-            'from_person': metadata.get('from'),
-            'to_persons': metadata.get('to', []),
-            'subject': metadata.get('subject'),
-            'ocr_quality': metadata.get('ocr_quality'),
-            'has_redactions': metadata.get('has_redactions', False),
-            'completeness': metadata.get('completeness', 'unknown'),
-            'page_count': metadata.get('page_count', 1),
-            'primary_source': self.source_name,
-            'selection_reason': 'bulk_import'
+            "canonical_id": canonical_id,
+            "content_hash": content_hash,
+            "file_hash": file_hash,
+            "document_type": metadata.get("document_type", "email"),
+            "title": metadata.get("title"),
+            "date": metadata.get("date"),
+            "from_person": metadata.get("from"),
+            "to_persons": metadata.get("to", []),
+            "subject": metadata.get("subject"),
+            "ocr_quality": metadata.get("ocr_quality"),
+            "has_redactions": metadata.get("has_redactions", False),
+            "completeness": metadata.get("completeness", "unknown"),
+            "page_count": metadata.get("page_count", 1),
+            "primary_source": self.source_name,
+            "selection_reason": "bulk_import"
         }
 
         # Insert into database
@@ -265,21 +266,21 @@ class EmailProcessor:
 
         # Add source
         self.db.insert_source({
-            'canonical_id': canonical_id,
-            'source_name': self.source_name,
-            'collection': self.collection,
-            'file_path': str(file_path),
-            'format': file_path.suffix[1:],
-            'download_date': datetime.now().isoformat()
+            "canonical_id": canonical_id,
+            "source_name": self.source_name,
+            "collection": self.collection,
+            "file_path": str(file_path),
+            "format": file_path.suffix[1:],
+            "download_date": datetime.now().isoformat()
         })
 
         # Log processing
         self.db.log(
-            operation='import',
+            operation="import",
             source=self.source_name,
-            status='success',
-            message=f'Imported {file_path.name}',
-            details={'canonical_id': canonical_id}
+            status="success",
+            message=f"Imported {file_path.name}",
+            details={"canonical_id": canonical_id}
         )
 
         self.stats.processed += 1
@@ -297,19 +298,19 @@ class EmailProcessor:
         metadata = {}
 
         # Simple frontmatter parser
-        if text.startswith('---'):
-            parts = text.split('---', 2)
+        if text.startswith("---"):
+            parts = text.split("---", 2)
             if len(parts) >= 3:
                 frontmatter = parts[1]
-                for line in frontmatter.strip().split('\n'):
-                    if ':' in line:
-                        key, value = line.split(':', 1)
+                for line in frontmatter.strip().split("\n"):
+                    if ":" in line:
+                        key, value = line.split(":", 1)
                         key = key.strip()
                         value = value.strip()
 
                         # Handle lists
-                        if value.startswith('[') and value.endswith(']'):
-                            value = [v.strip().strip('"\'') for v in value[1:-1].split(',')]
+                        if value.startswith("[") and value.endswith("]"):
+                            value = [v.strip().strip('"\'') for v in value[1:-1].split(",")]
 
                         metadata[key] = value
 
@@ -326,11 +327,11 @@ class EmailProcessor:
         self.stats.errors += 1
 
         self.db.log(
-            operation='import',
+            operation="import",
             source=self.source_name,
-            status='error',
-            message=f'Failed to import {file_path.name}',
-            details={'error': str(error)}
+            status="error",
+            message=f"Failed to import {file_path.name}",
+            details={"error": str(error)}
         )
 
         print(f"\n✗ Error processing {file_path.name}: {error}")
@@ -351,31 +352,31 @@ class EmailProcessor:
             f"{emails_per_sec:.1f} emails/sec | "
             f"Duplicates: {self.stats.duplicates} | "
             f"Errors: {self.stats.errors}",
-            end='',
+            end="",
             flush=True
         )
 
     def _print_summary(self):
         """Print processing summary."""
         print(f"\n{'=' * 60}")
-        print(f"PROCESSING COMPLETE")
+        print("PROCESSING COMPLETE")
         print(f"{'=' * 60}")
 
-        print(f"\nResults:")
+        print("\nResults:")
         print(f"  Total files: {self.stats.total_files}")
         print(f"  Processed (new): {self.stats.processed}")
         print(f"  Duplicates: {self.stats.duplicates}")
         print(f"  Errors: {self.stats.errors}")
         print(f"  Skipped: {self.stats.skipped}")
 
-        print(f"\nPerformance:")
+        print("\nPerformance:")
         print(f"  Elapsed time: {self.stats.elapsed:.1f} seconds")
         print(f"  Processing speed: {self.stats.emails_per_second:.1f} emails/second")
         print(f"  Duplicate rate: {self.stats.duplicate_rate * 100:.1f}%")
 
         # Database statistics
         db_stats = self.db.get_statistics()
-        print(f"\nDatabase:")
+        print("\nDatabase:")
         print(f"  Total documents: {db_stats['total_documents']}")
         print(f"  Total sources: {db_stats['total_sources']}")
         print(f"  Avg sources per doc: {db_stats['avg_sources_per_doc']:.2f}")
@@ -420,65 +421,65 @@ class EmailProcessor:
         ])
 
         # Add document type breakdown
-        if db_stats['documents_by_type']:
+        if db_stats["documents_by_type"]:
             report.append("DOCUMENTS BY TYPE:")
-            for doc_type, count in db_stats['documents_by_type'].items():
+            for doc_type, count in db_stats["documents_by_type"].items():
                 report.append(f"  {doc_type}: {count}")
 
-        report_path.write_text('\n'.join(report))
+        report_path.write_text("\n".join(report))
         print(f"\nReport saved to: {report_path}")
 
 
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
-        description='Bulk email processing pipeline',
+        description="Bulk email processing pipeline",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__
     )
 
     parser.add_argument(
-        'input_dir',
+        "input_dir",
         type=Path,
-        help='Input directory containing emails'
+        help="Input directory containing emails"
     )
 
     parser.add_argument(
-        '--source-name',
-        default='bulk_import',
-        help='Source collection name (default: bulk_import)'
+        "--source-name",
+        default="bulk_import",
+        help="Source collection name (default: bulk_import)"
     )
 
     parser.add_argument(
-        '--collection',
-        default='house_oversight',
-        help='Collection identifier (default: house_oversight)'
+        "--collection",
+        default="house_oversight",
+        help="Collection identifier (default: house_oversight)"
     )
 
     parser.add_argument(
-        '--format',
-        choices=['pdf', 'markdown'],
-        default='markdown',
-        help='Input file format (default: markdown)'
+        "--format",
+        choices=["pdf", "markdown"],
+        default="markdown",
+        help="Input file format (default: markdown)"
     )
 
     parser.add_argument(
-        '--batch-size',
+        "--batch-size",
         type=int,
         default=100,
-        help='Batch size for commits (default: 100)'
+        help="Batch size for commits (default: 100)"
     )
 
     parser.add_argument(
-        '--skip-duplicates',
-        action='store_true',
-        help='Skip duplicate detection (faster)'
+        "--skip-duplicates",
+        action="store_true",
+        help="Skip duplicate detection (faster)"
     )
 
     parser.add_argument(
-        '--report',
+        "--report",
         type=Path,
-        help='Save processing report to file'
+        help="Save processing report to file"
     )
 
     args = parser.parse_args()
@@ -493,7 +494,7 @@ def main():
     db_path = project_root / "data" / "metadata" / "deduplication.db"
 
     if not db_path.exists():
-        print(f"Error: Database not initialized. Run initialize_deduplication.py first.")
+        print("Error: Database not initialized. Run initialize_deduplication.py first.")
         sys.exit(1)
 
     db = CanonicalDatabase(db_path)

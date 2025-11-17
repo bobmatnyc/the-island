@@ -9,9 +9,9 @@ Calculates quality scores for OCR'd documents using multiple metrics:
 """
 
 import re
+import unicodedata
 from pathlib import Path
 from typing import Dict, Set, Tuple
-import unicodedata
 
 
 class OCRQualityAssessor:
@@ -58,17 +58,17 @@ class OCRQualityAssessor:
 
         # Built-in common words (reduced set for performance)
         return {
-            'the', 'be', 'to', 'of', 'and', 'a', 'in', 'that', 'have', 'i',
-            'it', 'for', 'not', 'on', 'with', 'he', 'as', 'you', 'do', 'at',
-            'this', 'but', 'his', 'by', 'from', 'they', 'we', 'say', 'her', 'she',
-            'or', 'an', 'will', 'my', 'one', 'all', 'would', 'there', 'their',
-            'email', 'subject', 'from', 'sent', 'date', 'cc', 'bcc',
-            'dear', 'sincerely', 'regards', 'thank', 'please', 'attached',
+            "the", "be", "to", "of", "and", "a", "in", "that", "have", "i",
+            "it", "for", "not", "on", "with", "he", "as", "you", "do", "at",
+            "this", "but", "his", "by", "from", "they", "we", "say", "her", "she",
+            "or", "an", "will", "my", "one", "all", "would", "there", "their",
+            "email", "subject", "sent", "date", "cc", "bcc",
+            "dear", "sincerely", "regards", "thank", "please", "attached",
             # Common legal terms
-            'court', 'judge', 'case', 'defendant', 'plaintiff', 'attorney',
-            'subpoena', 'deposition', 'motion', 'order', 'counsel',
+            "court", "judge", "case", "defendant", "plaintiff", "attorney",
+            "subpoena", "deposition", "motion", "order", "counsel",
             # Common names in Epstein docs
-            'epstein', 'maxwell', 'giuffre', 'clinton', 'trump', 'andrew'
+            "epstein", "maxwell", "giuffre", "clinton", "trump", "andrew"
         }
 
     def assess(self, text: str) -> Dict[str, float]:
@@ -105,10 +105,10 @@ class OCRQualityAssessor:
         )
 
         return {
-            'word_score': word_score,
-            'corruption_score': corruption_score,
-            'line_score': line_score,
-            'overall_score': overall_score
+            "word_score": word_score,
+            "corruption_score": corruption_score,
+            "line_score": line_score,
+            "overall_score": overall_score
         }
 
     def _assess_word_quality(self, text: str) -> float:
@@ -144,7 +144,7 @@ class OCRQualityAssessor:
             List of normalized words
         """
         # Extract alphanumeric sequences
-        words = re.findall(r'\b[a-z]+\b', text.lower())
+        words = re.findall(r"\b[a-z]+\b", text.lower())
 
         # Filter short words and numbers
         words = [w for w in words if len(w) >= 2 and not w.isdigit()]
@@ -167,7 +167,7 @@ class OCRQualityAssessor:
 
         # Common patterns that look valid
         # Email addresses, URLs, file extensions
-        if '@' in word or '.' in word or word.endswith(('.com', '.org', '.pdf')):
+        if "@" in word or "." in word or word.endswith((".com", ".org", ".pdf")):
             return True
 
         # Common abbreviations (all caps, 2-4 chars)
@@ -201,16 +201,16 @@ class OCRQualityAssessor:
 
         for char in text:
             # Replacement character (�)
-            if char == '\ufffd':
+            if char == "\ufffd":
                 corruption_count += 5  # Heavy penalty
 
             # Control characters (except newline, tab)
-            elif unicodedata.category(char).startswith('C') and char not in '\n\t\r':
+            elif unicodedata.category(char).startswith("C") and char not in "\n\t\r":
                 corruption_count += 3
 
             # Unexpected unicode categories
             category = unicodedata.category(char)
-            if category in ('Co', 'Cn'):  # Private use, not assigned
+            if category in ("Co", "Cn"):  # Private use, not assigned
                 corruption_count += 2
 
         # Calculate corruption rate
@@ -239,7 +239,7 @@ class OCRQualityAssessor:
         if not text:
             return 0.0
 
-        lines = text.split('\n')
+        lines = text.split("\n")
 
         if len(lines) < 2:
             return 1.0  # Single line, no breaks to assess
@@ -255,7 +255,7 @@ class OCRQualityAssessor:
         # Check for mid-word breaks (lines ending without punctuation)
         mid_word_breaks = sum(
             1 for line in lines
-            if line and not line.rstrip().endswith(('.', '!', '?', ':', ';', ','))
+            if line and not line.rstrip().endswith((".", "!", "?", ":", ";", ","))
             and len(line) > 10
         )
 
@@ -277,11 +277,10 @@ class OCRQualityAssessor:
             'high'|'medium'|'low'
         """
         if score >= 0.9:
-            return 'high'
-        elif score >= 0.7:
-            return 'medium'
-        else:
-            return 'low'
+            return "high"
+        if score >= 0.7:
+            return "medium"
+        return "low"
 
 
 def calculate_ocr_quality(text: str) -> Tuple[float, str]:
@@ -300,7 +299,7 @@ def calculate_ocr_quality(text: str) -> Tuple[float, str]:
     """
     assessor = OCRQualityAssessor()
     metrics = assessor.assess(text)
-    score = metrics['overall_score']
+    score = metrics["overall_score"]
     category = assessor.categorize_quality(score)
 
     return score, category
@@ -325,9 +324,9 @@ if __name__ == "__main__":
     L1n3s ar3 br0k3n r4nd0m1y.
     """
 
-    for name, text in [('High Quality', high_quality), ('Low Quality', low_quality)]:
+    for name, text in [("High Quality", high_quality), ("Low Quality", low_quality)]:
         metrics = assessor.assess(text)
-        category = assessor.categorize_quality(metrics['overall_score'])
+        category = assessor.categorize_quality(metrics["overall_score"])
 
         print(f"\n{name}:")
         print(f"  Overall Score: {metrics['overall_score']:.2f} ({category})")

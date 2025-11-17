@@ -1,0 +1,25 @@
+{
+  "generated": "2025-11-17T00:17:48.139045",
+  "statistics": {
+    "total_documents": 68287,
+    "by_type": {
+      "pdf": 67976,
+      "email": 305,
+      "entity_document": 6
+    },
+    "by_source": {
+      "raw_entities": 1,
+      "doj_official": 1,
+      "giuffre_maxwell": 42,
+      "house_oversight_sept2024": 4,
+      "courtlistener_giuffre_maxwell": 371,
+      "404media": 388,
+      "house_oversight_nov2025": 67449,
+      "documentcloud_6250471": 1,
+      "documentcloud": 3,
+      "fbi_vault": 21,
+      "entities": 6
+    },
+    "linked_emails": 304
+  }
+}

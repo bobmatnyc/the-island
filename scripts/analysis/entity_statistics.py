@@ -9,9 +9,10 @@ Generates comprehensive statistics for each entity including:
 """
 
 import json
+from collections import Counter
 from pathlib import Path
 from typing import Dict, List
-from collections import defaultdict, Counter
+
 
 PROJECT_ROOT = Path("/Users/masa/Projects/Epstein")
 DATA_DIR = PROJECT_ROOT / "data"
@@ -183,7 +184,7 @@ class EntityStatisticsGenerator:
             "statistics": self.entity_stats
         }
 
-        with open(output_path, 'w') as f:
+        with open(output_path, "w") as f:
             json.dump(output_data, f, indent=2)
 
         print(f"\n✓ Exported statistics: {output_path}")

@@ -5,15 +5,17 @@ Links documents to entities mentioned in them
 """
 
 import json
-import sys
-from pathlib import Path
-from typing import Dict, List, Set
 import re
+import sys
 from collections import defaultdict
+from pathlib import Path
+from typing import Dict, Set
+
 
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent))
-from document_classifier import DocumentClassifier, DocumentType, ClassificationResult
+from document_classifier import DocumentClassifier
+
 
 PROJECT_ROOT = Path("/Users/masa/Projects/Epstein")
 DATA_DIR = PROJECT_ROOT / "data"
@@ -53,7 +55,7 @@ class SemanticIndexBuilder:
 
         for entity_name in self.entity_names:
             # Use word boundaries for better matching
-            pattern = r'\b' + re.escape(entity_name) + r'\b'
+            pattern = r"\b" + re.escape(entity_name) + r"\b"
             if re.search(pattern, text_lower):
                 found_entities.add(entity_name)
 
@@ -62,7 +64,7 @@ class SemanticIndexBuilder:
     def index_document(self, filepath: Path) -> Dict:
         """Create semantic index entry for a document"""
         try:
-            text = filepath.read_text(encoding='utf-8', errors='ignore')
+            text = filepath.read_text(encoding="utf-8", errors="ignore")
 
             # Find entities mentioned
             entities_mentioned = self.find_entities_in_text(text)
@@ -132,7 +134,7 @@ def classify_all_documents():
 
     # Save classification results
     classification_path = METADATA_DIR / "document_classifications.json"
-    with open(classification_path, 'w') as f:
+    with open(classification_path, "w") as f:
         json.dump({
             "generated": "2025-11-16T23:35:00",
             "total_documents": len(results),
@@ -143,7 +145,7 @@ def classify_all_documents():
 
     # Save semantic index (entity -> documents)
     semantic_index_path = METADATA_DIR / "semantic_index.json"
-    with open(semantic_index_path, 'w') as f:
+    with open(semantic_index_path, "w") as f:
         json.dump({
             "generated": "2025-11-16T23:35:00",
             "total_entities": len(entity_to_docs),

@@ -1,0 +1,87 @@
+================================================================================
+EPSTEIN DOCUMENT ARCHIVE - CLASSIFICATION SUMMARY REPORT
+================================================================================
+Generated: 2025-11-17 00:23:32
+
+OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total Documents Indexed: 38,482
+  - PDF Documents: 38,177
+  - Email Documents: 305
+
+DOCUMENT SOURCES
+--------------------------------------------------------------------------------
+  unknown                                 :  38,177 ( 99.2%)
+  house_oversight_nov2025_emails          :     305 (  0.8%)
+
+EMAIL CLASSIFICATION DETAILS
+--------------------------------------------------------------------------------
+Total Emails Classified: 305
+
+Email Classification Confidence Distribution:
+  High Confidence (≥0.8):  32 ( 10.5%)
+  Medium Confidence (≥0.6): 229 ( 75.1%)
+  Low Confidence (<0.6):  44 ( 14.4%)
+
+Email Document Types:
+  email               : 285 ( 93.4%)
+  court_filing        :  20 (  6.6%)
+
+OVERALL CLASSIFICATION BREAKDOWN
+--------------------------------------------------------------------------------
+Total Classified Documents: 38,482 of 38,482
+Classification Coverage: 100.0%
+
+Classification Types:
+  administrative      :  38,177 ( 99.2%)
+  email               :     285 (  0.7%)
+  court_filing        :      20 (  0.1%)
+
+EMAIL DATE DISTRIBUTION (Top 20)
+--------------------------------------------------------------------------------
+  2019-08:   6 emails
+  2019-07:   5 emails
+  2021-05:   2 emails
+  2001-05:   1 emails
+  2006-08:   1 emails
+  2007-06:   1 emails
+  2007-69:   1 emails
+  2008-03:   1 emails
+  2020-01:   1 emails
+  2020-02:   1 emails
+  2020-07:   1 emails
+  2020-09:   1 emails
+  2888-01:   1 emails
+
+EMAIL CONTENT INSIGHTS
+--------------------------------------------------------------------------------
+Court-related notifications: 13
+Bureau of Prisons emails: 48
+
+Secondary Classification Patterns:
+  administrative      :  52
+  court_notification  :  13
+  court_filing        :  13
+  investigative       :   2
+
+KEY FINDINGS
+--------------------------------------------------------------------------------
+1. Email to PDF Ratio: 1:125
+2. Email Classification Accuracy: 85.6% (medium+ confidence)
+3. Court Filings in Emails: 20 (6.6%)
+4. Primary Email Type: email (93.4%)
+5. Email Date Range: 2001-05 to 2888-01
+6. Most Active Period: 2019-08 (6 emails)
+
+RECOMMENDED NEXT STEPS
+--------------------------------------------------------------------------------
+1. Review low-confidence email classifications (44 emails)
+2. Classify remaining 38,177 PDF documents
+3. Extract entity mentions from emails
+4. Build email network graph (sender/recipient relationships)
+5. Create timeline visualization from dated documents
+6. Implement full-text search across all documents
+
+================================================================================
+Report generated: 2025-11-17 00:23:32
+================================================================================

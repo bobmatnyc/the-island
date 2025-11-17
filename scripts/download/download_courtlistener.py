@@ -23,21 +23,23 @@ Extension Points:
 - Add authentication support for restricted documents
 """
 
-import re
-import time
 import json
 import logging
-import requests
-from pathlib import Path
-from typing import Optional, List, Dict, Set
+import re
+import time
 from dataclasses import dataclass
-from urllib.parse import urljoin, urlparse
+from pathlib import Path
+from typing import Dict, List, Optional, Set
+from urllib.parse import urljoin
+
+import requests
 from bs4 import BeautifulSoup
+
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -87,9 +89,9 @@ class CourtListenerDownloader:
 
         # Multiple User-Agent strings to rotate through
         self.user_agents = [
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         ]
         self.current_ua_index = 0
 
@@ -106,16 +108,16 @@ class CourtListenerDownloader:
     def _update_headers(self):
         """Update session headers with current User-Agent."""
         self.session.headers.update({
-            'User-Agent': self.user_agents[self.current_ua_index],
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.5',
-            'Accept-Encoding': 'gzip, deflate',  # Removed 'br' (Brotli) - requires extra package
-            'DNT': '1',
-            'Connection': 'keep-alive',
-            'Upgrade-Insecure-Requests': '1',
-            'Sec-Fetch-Dest': 'document',
-            'Sec-Fetch-Mode': 'navigate',
-            'Sec-Fetch-Site': 'none',
+            "User-Agent": self.user_agents[self.current_ua_index],
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5",
+            "Accept-Encoding": "gzip, deflate",  # Removed 'br' (Brotli) - requires extra package
+            "DNT": "1",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
         })
 
     def _rotate_user_agent(self):
@@ -138,7 +140,7 @@ class CourtListenerDownloader:
         """Save download metadata to JSON file."""
         import datetime
         self.metadata["last_update"] = datetime.datetime.now().isoformat()
-        with open(self.metadata_file, 'w') as f:
+        with open(self.metadata_file, "w") as f:
             json.dump(self.metadata, f, indent=2)
 
     def _fetch_with_retry(self, url: str, max_retries: int = 3) -> Optional[requests.Response]:
@@ -158,7 +160,7 @@ class CourtListenerDownloader:
 
                 # Handle rate limiting
                 if response.status_code == 429:
-                    retry_after = int(response.headers.get('Retry-After', 5 * (2 ** attempt)))
+                    retry_after = int(response.headers.get("Retry-After", 5 * (2 ** attempt)))
                     logger.warning(f"Rate limited, waiting {retry_after}s")
                     time.sleep(retry_after)
                     continue
@@ -166,13 +168,12 @@ class CourtListenerDownloader:
                 # Handle forbidden - try rotating User-Agent
                 if response.status_code == 403:
                     if attempt < max_retries - 1:
-                        logger.warning(f"403 Forbidden, rotating User-Agent and retrying")
+                        logger.warning("403 Forbidden, rotating User-Agent and retrying")
                         self._rotate_user_agent()
                         time.sleep(2)
                         continue
-                    else:
-                        logger.error(f"403 Forbidden after all retries: {url}")
-                        return None
+                    logger.error(f"403 Forbidden after all retries: {url}")
+                    return None
 
                 response.raise_for_status()
                 return response
@@ -208,21 +209,21 @@ class CourtListenerDownloader:
             logger.error("Failed to fetch docket page")
             return []
 
-        soup = BeautifulSoup(response.text, 'html.parser')
+        soup = BeautifulSoup(response.text, "html.parser")
         links: List[DocumentLink] = []
         seen_urls: Set[str] = set()
 
         # Extract all RECAP PDF links from storage.courtlistener.com
-        for link in soup.find_all('a', href=True):
-            href = link['href']
+        for link in soup.find_all("a", href=True):
+            href = link["href"]
 
             # Match RECAP PDF pattern
-            if '.pdf' in href.lower() and ('storage.courtlistener.com/recap/' in href or '/recap/gov.uscourts.' in href):
+            if ".pdf" in href.lower() and ("storage.courtlistener.com/recap/" in href or "/recap/gov.uscourts." in href):
                 # Make absolute URL
-                if href.startswith('http'):
+                if href.startswith("http"):
                     full_url = href
                 else:
-                    full_url = urljoin('https://www.courtlistener.com', href)
+                    full_url = urljoin("https://www.courtlistener.com", href)
 
                 # Skip duplicates
                 if full_url in seen_urls:
@@ -232,7 +233,7 @@ class CourtListenerDownloader:
                 # gov.uscourts.nysd.447706/gov.uscourts.nysd.447706.123.0.pdf
                 # gov.uscourts.nysd.447706/gov.uscourts.nysd.447706.123.0_5.pdf (version)
                 # where 123 is doc number, 0 is attachment number
-                match = re.search(r'gov\.uscourts\.\w+\.\d+\.(\d+)\.(\d+)(?:_\d+)?\.pdf', href)
+                match = re.search(r"gov\.uscourts\.\w+\.\d+\.(\d+)\.(\d+)(?:_\d+)?\.pdf", href)
                 if match:
                     doc_num = match.group(1)
                     attach_num = match.group(2)
@@ -263,8 +264,8 @@ class CourtListenerDownloader:
         logger.info(f"Found {len(links)} RECAP PDF links")
 
         # Log summary statistics
-        main_docs = [l for l in links if l.document_number and l.document_number.endswith('.0')]
-        attachments = [l for l in links if l.document_number and not l.document_number.endswith('.0')]
+        main_docs = [l for l in links if l.document_number and l.document_number.endswith(".0")]
+        attachments = [l for l in links if l.document_number and not l.document_number.endswith(".0")]
         logger.info(f"  Main documents: {len(main_docs)}")
         logger.info(f"  Attachments: {len(attachments)}")
 
@@ -274,10 +275,10 @@ class CourtListenerDownloader:
         """Extract document number from URL."""
         # Try various patterns
         patterns = [
-            r'/(\d+)\.pdf$',           # Direct PDF: /123.pdf
-            r'/document/(\d+)',         # Document page: /document/123
-            r'\.(\d+)\.pdf$',          # RECAP: name.123.pdf
-            r'/(\d+)-\d+\.pdf$',       # Entry-attachment: /123-1.pdf
+            r"/(\d+)\.pdf$",           # Direct PDF: /123.pdf
+            r"/document/(\d+)",         # Document page: /document/123
+            r"\.(\d+)\.pdf$",          # RECAP: name.123.pdf
+            r"/(\d+)-\d+\.pdf$",       # Entry-attachment: /123-1.pdf
         ]
 
         for pattern in patterns:
@@ -337,13 +338,13 @@ class CourtListenerDownloader:
                 return False
 
             # Verify it's actually a PDF
-            content_type = pdf_response.headers.get('Content-Type', '')
-            if 'pdf' not in content_type.lower() and not pdf_url.endswith('.pdf'):
+            content_type = pdf_response.headers.get("Content-Type", "")
+            if "pdf" not in content_type.lower() and not pdf_url.endswith(".pdf"):
                 logger.warning(f"  Content-Type is not PDF: {content_type}")
                 # Save anyway, might still be valid
 
             # Save to file
-            with open(filepath, 'wb') as f:
+            with open(filepath, "wb") as f:
                 for chunk in pdf_response.iter_content(chunk_size=8192):
                     f.write(chunk)
 
@@ -415,7 +416,7 @@ def main():
     print("=" * 70)
     print("CourtListener Document Downloader")
     print("=" * 70)
-    print(f"Case: Giuffre v. Maxwell")
+    print("Case: Giuffre v. Maxwell")
     print(f"URL: {docket_url}")
     print(f"Output: {output_dir}")
     print("=" * 70)
@@ -439,11 +440,11 @@ def main():
         print("=" * 70)
 
         # Show failed downloads if any
-        if downloader.metadata['failed']:
+        if downloader.metadata["failed"]:
             print("\nFailed Downloads:")
-            for fail in downloader.metadata['failed'][:10]:  # Show first 10
+            for fail in downloader.metadata["failed"][:10]:  # Show first 10
                 print(f"  - {fail['filename']}: {fail['reason']}")
-            if len(downloader.metadata['failed']) > 10:
+            if len(downloader.metadata["failed"]) > 10:
                 print(f"  ... and {len(downloader.metadata['failed']) - 10} more")
 
     except KeyboardInterrupt:

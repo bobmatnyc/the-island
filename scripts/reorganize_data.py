@@ -4,10 +4,10 @@ Reorganize Epstein data into /raw and /md structure
 Organize by source, maintain provenance
 """
 
-import os
+import json
 import shutil
 from pathlib import Path
-import json
+
 
 PROJECT_ROOT = Path("/Users/masa/Projects/Epstein")
 DATA_DIR = PROJECT_ROOT / "data"
@@ -58,7 +58,7 @@ def create_directory_structure():
     MD_DIR.mkdir(exist_ok=True)
 
     # Create source subdirectories
-    for source in SOURCES.keys():
+    for source in SOURCES:
         (RAW_DIR / source).mkdir(exist_ok=True)
         (MD_DIR / source).mkdir(exist_ok=True)
         print(f"  Created: raw/{source} and md/{source}")
@@ -188,7 +188,7 @@ def create_source_index():
 
     index_path = DATA_DIR / "metadata" / "source_index.json"
     index_path.parent.mkdir(exist_ok=True)
-    with open(index_path, 'w') as f:
+    with open(index_path, "w") as f:
         json.dump(index, f, indent=2)
 
     print(f"✓ Created source index: {index_path}")

@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epstein Document Archive</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-curve@1.0.0/leaflet.curve.min.js"></script>
     <style>
         :root {
             /* Light theme (default) */
@@ -138,6 +142,35 @@
         }
 
         .theme-toggle:active {
+            transform: translateY(0);
+        }
+
+        /* Logout Button */
+        .logout-button {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            height: 40px;
+            padding: 0 16px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            margin-left: 12px;
+        }
+
+        .logout-button:hover {
+            background: var(--bg-tertiary);
+            border-color: var(--accent-blue);
+            color: var(--text-primary);
+            transform: translateY(-1px);
+        }
+
+        .logout-button:active {
             transform: translateY(0);
         }
 
@@ -557,6 +590,77 @@
             color: var(--accent-blue);
         }
 
+        /* Lucide Icons */
+        .lucide {
+            width: 16px;
+            height: 16px;
+            stroke: currentColor;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            fill: none;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .tab .lucide {
+            margin-right: 6px;
+            width: 18px;
+            height: 18px;
+        }
+
+        .entity-type-icon {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .entity-type-icon.person {
+            background: rgba(34, 197, 94, 0.1);
+            color: #16a34a;
+        }
+
+        .entity-type-icon.business {
+            background: rgba(59, 130, 246, 0.1);
+            color: #2563eb;
+        }
+
+        .entity-type-icon.location {
+            background: rgba(239, 68, 68, 0.1);
+            color: #dc2626;
+        }
+
+        .entity-type-icon.organization {
+            background: rgba(168, 85, 247, 0.1);
+            color: #9333ea;
+        }
+
+        [data-theme="dark"] .entity-type-icon.person {
+            background: rgba(34, 197, 94, 0.15);
+            color: #4ade80;
+        }
+
+        [data-theme="dark"] .entity-type-icon.business {
+            background: rgba(59, 130, 246, 0.15);
+            color: #60a5fa;
+        }
+
+        [data-theme="dark"] .entity-type-icon.location {
+            background: rgba(239, 68, 68, 0.15);
+            color: #f87171;
+        }
+
+        [data-theme="dark"] .entity-type-icon.organization {
+            background: rgba(168, 85, 247, 0.15);
+            color: #c084fc;
+        }
+
         .view-container {
             flex: 1;
             overflow: hidden;
@@ -612,6 +716,221 @@
             font-weight: bold;
         }
 
+        /* Latest Updates Section */
+        .latest-updates-section {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .latest-updates-section h2 {
+            font-size: 18px;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+        }
+
+        .commits-container {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .commits-loading {
+            padding: 40px;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .commit-card {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border-color);
+            transition: background-color 0.2s ease;
+        }
+
+        .commit-card:last-child {
+            border-bottom: none;
+        }
+
+        .commit-card:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .commit-type-badge {
+            flex-shrink: 0;
+            width: 60px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .commit-type-feat {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        [data-theme="dark"] .commit-type-feat {
+            background: #1e3a8a;
+            color: #93c5fd;
+        }
+
+        .commit-type-fix {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        [data-theme="dark"] .commit-type-fix {
+            background: #7f1d1d;
+            color: #fca5a5;
+        }
+
+        .commit-type-docs {
+            background: #dcfce7;
+            color: #14532d;
+        }
+
+        [data-theme="dark"] .commit-type-docs {
+            background: #14532d;
+            color: #86efac;
+        }
+
+        .commit-type-refactor {
+            background: #f3e8ff;
+            color: #581c87;
+        }
+
+        [data-theme="dark"] .commit-type-refactor {
+            background: #581c87;
+            color: #d8b4fe;
+        }
+
+        .commit-type-test {
+            background: #fef3c7;
+            color: #78350f;
+        }
+
+        [data-theme="dark"] .commit-type-test {
+            background: #78350f;
+            color: #fde68a;
+        }
+
+        .commit-type-chore {
+            background: #f1f5f9;
+            color: #475569;
+        }
+
+        [data-theme="dark"] .commit-type-chore {
+            background: #334155;
+            color: #cbd5e1;
+        }
+
+        .commit-type-style {
+            background: #fce7f3;
+            color: #831843;
+        }
+
+        [data-theme="dark"] .commit-type-style {
+            background: #831843;
+            color: #f9a8d4;
+        }
+
+        .commit-type-perf {
+            background: #ffedd5;
+            color: #7c2d12;
+        }
+
+        [data-theme="dark"] .commit-type-perf {
+            background: #7c2d12;
+            color: #fed7aa;
+        }
+
+        .commit-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .commit-message {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .commit-scope {
+            display: inline-block;
+            padding: 2px 6px;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-right: 8px;
+        }
+
+        .commit-breaking {
+            display: inline-block;
+            padding: 2px 6px;
+            background: #fee2e2;
+            color: #991b1b;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: 700;
+            margin-right: 8px;
+        }
+
+        [data-theme="dark"] .commit-breaking {
+            background: #7f1d1d;
+            color: #fca5a5;
+        }
+
+        .commit-meta {
+            font-size: 12px;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .commit-hash {
+            font-family: 'Monaco', 'Courier New', monospace;
+            background: var(--bg-tertiary);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 11px;
+        }
+
+        .commit-author {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .commit-date {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .commit-icon {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
         .mission-statement {
             background: linear-gradient(135deg, var(--bg-tertiary) 0%, var(--bg-secondary) 100%);
             border: 1px solid var(--border-color);
@@ -663,6 +982,131 @@
             background: var(--bg-primary);
             border-radius: 8px;
             border: 1px solid var(--border-color);
+            position: relative;
+        }
+
+        .network-legend {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 4px 12px var(--shadow-color);
+            z-index: 10;
+            max-width: 280px;
+        }
+
+        .network-legend h4 {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 0 0 12px 0;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+            font-size: 11px;
+            color: var(--text-secondary);
+        }
+
+        .legend-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .legend-line {
+            width: 30px;
+            height: 2px;
+            background: var(--border-color);
+        }
+
+        .legend-line.thin {
+            height: 1px;
+        }
+
+        .legend-line.medium {
+            height: 2px;
+        }
+
+        .legend-line.thick {
+            height: 3px;
+        }
+
+        .legend-circle {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 2px solid var(--bg-primary);
+        }
+
+        .legend-circle.normal {
+            background: var(--accent-blue);
+        }
+
+        .legend-circle.billionaire {
+            background: #ffd700;
+        }
+
+        /* Mobile responsive adjustments for network legend */
+        @media (max-width: 768px) {
+            .network-legend {
+                bottom: 10px;
+                left: 10px;
+                padding: 12px;
+                max-width: 220px;
+                font-size: 10px;
+            }
+
+            .network-legend h4 {
+                font-size: 12px;
+                margin-bottom: 8px;
+            }
+
+            .legend-item {
+                gap: 8px;
+                margin-bottom: 8px;
+                font-size: 10px;
+            }
+
+            .legend-line {
+                width: 20px;
+            }
+
+            .legend-circle {
+                width: 10px;
+                height: 10px;
+            }
+        }
+
+        /* Connection details panel responsive */
+        #connection-details-panel {
+            position: fixed;
+            right: 20px;
+            top: 100px;
+            width: 350px;
+            max-height: calc(100vh - 140px);
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            display: none;
+            overflow-y: auto;
+        }
+
+        @media (max-width: 768px) {
+            #connection-details-panel {
+                right: 10px;
+                left: 10px;
+                width: auto;
+                top: 80px;
+                max-height: calc(100vh - 100px);
+            }
         }
 
         .network-controls {
@@ -1142,6 +1586,14 @@
             box-shadow: 0 4px 12px var(--shadow-color);
         }
 
+        .entity-bio {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin: 8px 0;
+            font-style: italic;
+        }
+
         .billionaire-badge {
             background: linear-gradient(135deg, #ffd700, #ffed4e);
             color: #000000;
@@ -1558,6 +2010,1863 @@
             margin-right: 6px;
             margin-top: 4px;
         }
+
+        /* Documents Search Styles */
+        .documents-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .documents-search-bar {
+            flex: 1;
+            min-width: 300px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .documents-search-bar input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--input-bg);
+            color: var(--text-primary);
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+
+        .documents-search-bar input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.1);
+        }
+
+        .documents-search-bar button {
+            padding: 12px 24px;
+            background: var(--accent-blue);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .documents-search-bar button:hover {
+            background: var(--accent-blue-hover);
+            transform: translateY(-1px);
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: 4px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 4px;
+        }
+
+        .view-toggle button {
+            padding: 8px 16px;
+            background: transparent;
+            border: none;
+            border-radius: 6px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .view-toggle button.active {
+            background: var(--bg-primary);
+            color: var(--accent-blue);
+        }
+
+        .documents-filters {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .documents-filters select {
+            padding: 10px 14px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--input-bg);
+            color: var(--text-primary);
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .documents-filters select:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+        }
+
+        .documents-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .document-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .document-card:hover {
+            border-color: var(--accent-blue);
+            box-shadow: 0 4px 12px var(--shadow-color);
+            transform: translateY(-2px);
+        }
+
+        .document-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .document-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .document-badges {
+            display: flex;
+            gap: 8px;
+            flex-shrink: 0;
+        }
+
+        .document-badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-email { background: #dbeafe; color: #1e40af; }
+        .badge-court { background: #fce7f3; color: #9f1239; }
+        .badge-flight { background: #dcfce7; color: #166534; }
+        .badge-financial { background: #fef3c7; color: #92400e; }
+        .badge-unknown { background: var(--bg-tertiary); color: var(--text-secondary); }
+
+        [data-theme="dark"] .badge-email { background: #1e3a8a; color: #93c5fd; }
+        [data-theme="dark"] .badge-court { background: #881337; color: #fbcfe8; }
+        [data-theme="dark"] .badge-flight { background: #14532d; color: #86efac; }
+        [data-theme="dark"] .badge-financial { background: #78350f; color: #fcd34d; }
+
+        .document-meta {
+            display: flex;
+            gap: 16px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .document-preview {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .document-entities {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .entity-tag {
+            padding: 4px 10px;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 12px;
+            color: var(--accent-blue);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .entity-tag:hover {
+            background: var(--accent-blue);
+            color: white;
+            transform: translateY(-1px);
+        }
+
+        .documents-pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            margin-top: 32px;
+            padding: 20px;
+        }
+
+        .documents-pagination button {
+            padding: 10px 20px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .documents-pagination button:hover:not(:disabled) {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+
+        .documents-pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .page-info {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        /* Document Viewer Modal */
+        .document-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            padding: 40px;
+        }
+
+        .document-modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .document-modal-content {
+            background: var(--bg-primary);
+            border-radius: 12px;
+            width: 100%;
+            max-width: 1200px;
+            max-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .document-modal-header {
+            padding: 24px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .document-modal-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .modal-close {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: var(--text-secondary);
+            transition: all 0.2s ease;
+        }
+
+        .modal-close:hover {
+            background: var(--bg-tertiary);
+            color: var(--accent-blue);
+        }
+
+        .document-modal-body {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .document-content {
+            flex: 1;
+            padding: 24px;
+            overflow-y: auto;
+            line-height: 1.8;
+            color: var(--text-primary);
+        }
+
+        .document-sidebar {
+            width: 300px;
+            background: var(--bg-secondary);
+            border-left: 1px solid var(--border-color);
+            padding: 24px;
+            overflow-y: auto;
+        }
+
+        .sidebar-section {
+            margin-bottom: 24px;
+        }
+
+        .sidebar-section h4 {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .sidebar-meta {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .sidebar-meta strong {
+            color: var(--text-primary);
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        .no-results i {
+            font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.5;
+        }
+
+        /* Pipeline Status Styles */
+        .pipeline-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .pipeline-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .pipeline-card:hover {
+            border-color: var(--accent-blue);
+            box-shadow: 0 4px 12px var(--shadow-color);
+            transform: translateY(-2px);
+        }
+
+        .pipeline-icon {
+            font-size: 32px;
+            flex-shrink: 0;
+        }
+
+        .pipeline-stats {
+            flex: 1;
+        }
+
+        .pipeline-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .pipeline-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+
+        .pipeline-status {
+            font-size: 11px;
+            color: var(--text-secondary);
+        }
+
+        .pipeline-status.complete {
+            color: #28a745;
+        }
+
+        .pipeline-status.in-progress {
+            color: var(--accent-blue);
+        }
+
+        .pipeline-status.failed {
+            color: #dc3545;
+        }
+
+        .pipeline-stages {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .pipeline-stage {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .pipeline-stage:hover {
+            border-color: var(--accent-blue);
+        }
+
+        .stage-header {
+            padding: 16px 20px;
+            background: var(--bg-secondary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            user-select: none;
+            transition: background 0.2s ease;
+        }
+
+        .stage-header:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .stage-header h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .stage-icon {
+            font-size: 20px;
+        }
+
+        .stage-toggle {
+            display: inline-block;
+            font-size: 12px;
+            color: var(--accent-blue);
+            transition: transform 0.3s ease;
+            margin-left: auto;
+        }
+
+        .stage-header.collapsed .stage-toggle {
+            transform: rotate(-90deg);
+        }
+
+        .stage-summary {
+            font-size: 13px;
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        .stage-content {
+            padding: 20px;
+            background: var(--bg-primary);
+            border-top: 1px solid var(--border-color);
+            animation: slideDown 0.3s ease;
+        }
+
+        .stage-content.collapsed {
+            display: none;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 24px;
+            background: var(--bg-tertiary);
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 16px;
+            border: 1px solid var(--border-color);
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-blue) 0%, var(--accent-blue-hover) 100%);
+            transition: width 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 12px;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .progress-bar.complete {
+            background: linear-gradient(90deg, #28a745 0%, #20c997 100%);
+        }
+
+        .progress-bar.failed {
+            background: linear-gradient(90deg, #dc3545 0%, #c82333 100%);
+        }
+
+        .stage-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }
+
+        .detail-item {
+            background: var(--bg-secondary);
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+        }
+
+        .detail-label {
+            font-size: 11px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .detail-value {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .loading-message {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 13px;
+            grid-column: 1 / -1;
+        }
+
+        .stage-error {
+            background: rgba(220, 53, 69, 0.1);
+            border: 1px solid rgba(220, 53, 69, 0.3);
+            border-radius: 6px;
+            padding: 12px;
+            color: #dc3545;
+            font-size: 13px;
+            margin-top: 12px;
+        }
+
+        .stage-logs {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 12px;
+            margin-top: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 11px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .stage-logs::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .stage-logs::-webkit-scrollbar-thumb {
+            background: var(--scrollbar-thumb);
+            border-radius: 4px;
+        }
+
+        /* Timeline Styles */
+        .timeline-header {
+            margin-bottom: 24px;
+        }
+
+        .timeline-filters {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .timeline-filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .timeline-filter-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+
+        .timeline-filter-buttons {
+            display: flex;
+            gap: 6px;
+        }
+
+        .timeline-filter-btn {
+            padding: 6px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.2s;
+        }
+
+        .timeline-filter-btn:hover {
+            background: var(--bg-tertiary);
+            border-color: var(--accent-blue);
+        }
+
+        .timeline-filter-btn.active {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+
+        .timeline-date-filter {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .timeline-date-input {
+            padding: 6px 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--input-bg);
+            color: var(--text-primary);
+            font-size: 12px;
+            font-family: inherit;
+        }
+
+        .timeline-date-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+        }
+
+        .timeline-search {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .timeline-search input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--input-bg);
+            color: var(--text-primary);
+            font-size: 13px;
+        }
+
+        .timeline-search input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+        }
+
+        .timeline-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .timeline-event {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 32px;
+            position: relative;
+        }
+
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            left: 115px;
+            top: 24px;
+            bottom: -32px;
+            width: 2px;
+            background: var(--border-color);
+        }
+
+        .timeline-event:last-child::before {
+            display: none;
+        }
+
+        .timeline-date-col {
+            min-width: 100px;
+            text-align: right;
+            padding-top: 4px;
+        }
+
+        .timeline-date {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--accent-blue);
+            margin-bottom: 2px;
+        }
+
+        .timeline-time {
+            font-size: 11px;
+            color: var(--text-tertiary);
+        }
+
+        .timeline-marker {
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .timeline-dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--accent-blue);
+            border: 3px solid var(--bg-primary);
+            box-shadow: 0 0 0 2px var(--accent-blue);
+            position: relative;
+            z-index: 1;
+        }
+
+        .timeline-dot.case {
+            background: #dc3545;
+            box-shadow: 0 0 0 2px #dc3545;
+        }
+
+        .timeline-dot.life {
+            background: #28a745;
+            box-shadow: 0 0 0 2px #28a745;
+        }
+
+        .timeline-dot.documents {
+            background: #0969da;
+            box-shadow: 0 0 0 2px #0969da;
+        }
+
+        .timeline-content {
+            flex: 1;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 16px;
+            transition: all 0.2s;
+        }
+
+        .timeline-content:hover {
+            border-color: var(--accent-blue);
+            box-shadow: 0 4px 12px var(--shadow-color);
+            transform: translateY(-1px);
+        }
+
+        .timeline-event-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+        .timeline-event-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+
+        .timeline-event-type {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            flex-shrink: 0;
+        }
+
+        .timeline-event-type.case {
+            background: rgba(220, 53, 69, 0.15);
+            color: #dc3545;
+        }
+
+        .timeline-event-type.life {
+            background: rgba(40, 167, 69, 0.15);
+            color: #28a745;
+        }
+
+        .timeline-event-type.documents {
+            background: rgba(9, 105, 218, 0.15);
+            color: #0969da;
+        }
+
+        .timeline-event-description {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .timeline-event-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+            font-size: 12px;
+            color: var(--text-tertiary);
+        }
+
+        .timeline-provenance {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .timeline-provenance-icon {
+            font-size: 14px;
+        }
+
+        .timeline-provenance-link {
+            color: var(--accent-blue);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--accent-blue);
+        }
+
+        .timeline-provenance-link:hover {
+            border-bottom-style: solid;
+        }
+
+        .timeline-entities {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .timeline-entity-tag {
+            padding: 2px 8px;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 11px;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .timeline-entity-tag:hover {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+
+        .timeline-documents {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .timeline-doc-link {
+            padding: 2px 8px;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 11px;
+            color: var(--accent-blue);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .timeline-doc-link:hover {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+
+        .timeline-empty {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .timeline-empty-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.3;
+        }
+
+        .timeline-empty-text {
+            font-size: 16px;
+            color: var(--text-secondary);
+        }
+
+        .timeline-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+            padding: 16px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+        }
+
+        .timeline-stat {
+            text-align: center;
+        }
+
+        .timeline-stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--accent-blue);
+            margin-bottom: 4px;
+        }
+
+        .timeline-stat-label {
+            font-size: 11px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 768px) {
+            .timeline-event {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .timeline-event::before {
+                left: 8px;
+                top: 40px;
+            }
+
+            .timeline-date-col {
+                text-align: left;
+            }
+
+            .timeline-marker {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            .timeline-content {
+                margin-left: 32px;
+            }
+        }
+
+        /* Hot-Reload Toast Notifications */
+        .hot-reload-toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--accent-blue);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px var(--shadow-color);
+            z-index: 10000;
+            font-size: 14px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateX(400px);
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            pointer-events: none;
+        }
+
+        .hot-reload-toast.show {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        [data-theme="dark"] .hot-reload-toast {
+            background: var(--accent-blue);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Hot-reload status indicator (optional) */
+        .hot-reload-indicator {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 11px;
+            color: var(--text-tertiary);
+            z-index: 9999;
+            display: none;
+        }
+
+        .hot-reload-indicator.connected {
+            display: block;
+        }
+
+        .hot-reload-indicator .status-dot {
+            width: 6px;
+            height: 6px;
+            background: #22c55e;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 6px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* ===========================
+           FLIGHTS PAGE STYLES
+           =========================== */
+
+        /* ===== FLIGHTS VIEW - FULLSCREEN MAP LAYOUT ===== */
+
+        #flights-view {
+            position: relative;
+            width: 100%;
+            height: calc(100vh - 60px);
+            padding: 0;
+            overflow: hidden;
+        }
+
+        /* Fullscreen Map Background */
+        #flight-map {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        /* Horizontal Filter Bar (Top Overlay) */
+        .flight-filters-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 0 20px;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            color: #1f2937;
+        }
+
+        .filter-item {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .filter-item label {
+            font-size: 11px;
+            font-weight: 600;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .filter-item-wide {
+            min-width: 180px;
+        }
+
+        .filter-separator {
+            color: rgba(0, 0, 0, 0.3);
+            font-size: 20px;
+            align-self: center;
+            opacity: 0.5;
+        }
+
+        .flight-filter-input {
+            padding: 8px 10px;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: 6px;
+            background: rgba(249, 250, 251, 0.9);
+            color: #1f2937;
+            font-size: 13px;
+            transition: all 0.2s ease;
+            min-width: 120px;
+        }
+
+        .flight-filter-input:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0 0 0 2px rgba(var(--accent-color-rgb, 88, 166, 255), 0.2);
+        }
+
+        .flight-filter-input::placeholder {
+            color: rgba(0, 0, 0, 0.4);
+            opacity: 1;
+        }
+
+        /* Limit passenger filter height to prevent map overlap */
+        #flight-passenger-filter {
+            max-height: 120px !important;
+            overflow-y: auto;
+            min-width: 150px;
+            max-width: 200px;
+        }
+
+        .filter-actions {
+            display: flex;
+            gap: 8px;
+            margin-left: auto;
+            align-self: center;
+        }
+
+        .filter-btn {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            border: none;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn i {
+            width: 14px;
+            height: 14px;
+        }
+
+        .filter-btn-apply {
+            background: var(--accent-color);
+            color: white;
+        }
+
+        .filter-btn-apply:hover {
+            background: var(--accent-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(var(--accent-color-rgb, 88, 166, 255), 0.3);
+        }
+
+        .filter-btn-clear {
+            background: rgba(249, 250, 251, 0.9);
+            color: #6b7280;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+        }
+
+        .filter-btn-clear:hover {
+            background: rgba(243, 244, 246, 1);
+            color: #1f2937;
+            border-color: rgba(0, 0, 0, 0.25);
+        }
+
+        /* Statistics Panel (Bottom-Right Overlay) */
+        .flight-stats-panel {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.95) !important;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 0;
+            border-radius: 10px;
+            z-index: 100;
+            min-width: 240px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            color: #1f2937 !important;
+        }
+
+        .flight-stats-panel.minimized .stats-panel-content {
+            display: none;
+        }
+
+        .flight-stats-panel.minimized .panel-toggle-btn i {
+            transform: rotate(180deg);
+        }
+
+        .stats-panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 16px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .stats-panel-header h4 {
+            font-size: 13px;
+            font-weight: 700;
+            color: #1f2937 !important;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .panel-toggle-btn {
+            background: transparent;
+            border: none;
+            color: #6b7280 !important;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .panel-toggle-btn:hover {
+            background: rgba(0, 0, 0, 0.05);
+            color: #1f2937 !important;
+        }
+
+        .panel-toggle-btn i {
+            width: 16px;
+            height: 16px;
+            transition: transform 0.3s ease;
+        }
+
+        .stats-panel-content {
+            padding: 12px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+        }
+
+        .stat-row:not(:last-child) {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-row .stat-label {
+            font-size: 12px;
+            color: #6b7280 !important;
+            font-weight: 500;
+        }
+
+        .stat-row .stat-value {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--accent-color) !important;
+        }
+
+        .stat-row .stat-value-small {
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        /* Passenger Popup Modal (Centered Overlay) */
+        .flight-popup-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 199;
+            display: none;
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+
+        .flight-popup-overlay.active {
+            display: block;
+        }
+
+        .flight-popup {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            background: rgba(255, 255, 255, 0.98) !important;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 0;
+            border-radius: 12px;
+            min-width: 320px;
+            max-width: 450px;
+            z-index: 200;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+            border: 2px solid rgba(0, 0, 0, 0.15);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            color: #1f2937 !important;
+        }
+
+        .flight-popup.active {
+            opacity: 1;
+            pointer-events: all;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .popup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            background: rgba(249, 250, 251, 0.8);
+        }
+
+        .popup-header h4 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1f2937 !important;
+            margin: 0;
+        }
+
+        .popup-close-btn {
+            background: transparent;
+            border: none;
+            color: #6b7280 !important;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .popup-close-btn:hover {
+            background: rgba(0, 0, 0, 0.05);
+            color: #1f2937 !important;
+        }
+
+        .popup-close-btn i {
+            width: 18px;
+            height: 18px;
+        }
+
+        .popup-content {
+            padding: 20px;
+        }
+
+        .popup-flight-info {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .popup-flight-info .info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #1f2937 !important;
+            font-size: 14px;
+        }
+
+        .popup-flight-info .info-item i {
+            width: 16px;
+            height: 16px;
+            color: var(--accent-color);
+        }
+
+        .popup-passengers h5 {
+            font-size: 13px;
+            font-weight: 700;
+            color: #6b7280 !important;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .passenger-links {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            max-height: 240px;
+            overflow-y: auto;
+        }
+
+        .passenger-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 12px;
+            background: rgba(249, 250, 251, 0.9);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+            color: #1f2937 !important;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .passenger-link:hover {
+            background: rgba(243, 244, 246, 1);
+            border-color: var(--accent-color);
+            transform: translateX(4px);
+        }
+
+        .passenger-link i {
+            width: 14px;
+            height: 14px;
+            color: #6b7280 !important;
+            transition: color 0.2s ease;
+        }
+
+        .passenger-link:hover i {
+            color: var(--accent-color) !important;
+        }
+
+        /* Plane Icon Marker (Custom SVG) */
+        .plane-marker {
+            background: transparent;
+            border: none;
+        }
+
+        .flight-plane-icon {
+            width: 24px;
+            height: 24px;
+            color: var(--accent-color);
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+            transition: all 0.3s ease;
+        }
+
+        .plane-marker:hover .flight-plane-icon {
+            transform: scale(1.3);
+            color: var(--accent-hover);
+        }
+
+        /* Responsive Design for Flights */
+        @media (max-width: 768px) {
+            .flight-filters-bar {
+                height: auto;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 12px;
+                gap: 8px;
+            }
+
+            .filter-item {
+                width: 100%;
+            }
+
+            .filter-separator {
+                display: none;
+            }
+
+            .filter-actions {
+                margin-left: 0;
+                width: 100%;
+            }
+
+            .filter-btn {
+                flex: 1;
+            }
+
+            .flight-stats-panel {
+                bottom: 10px;
+                right: 10px;
+                left: 10px;
+                min-width: auto;
+            }
+
+            .flight-popup {
+                min-width: 90%;
+                max-width: 90%;
+            }
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-blue-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(9, 105, 218, 0.3);
+        }
+
+        .btn-secondary {
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--bg-secondary);
+            border-color: var(--accent-blue);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1400px) {
+            .flight-details-panel {
+                width: 320px;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .flights-stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            #flights-view {
+                padding: 12px;
+            }
+
+            .flights-stats {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .stat-card {
+                padding: 16px;
+            }
+
+            #flight-map {
+                height: 400px !important;
+            }
+
+            .filter-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-group {
+                min-width: 100%;
+            }
+
+            .flight-details-panel {
+                width: 100%;
+                top: 65px;
+            }
+
+            .passengers-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .flights-header h2 {
+                font-size: 20px;
+            }
+
+            .stat-card .stat-value {
+                font-size: 20px;
+            }
+
+            #flight-map {
+                height: 300px !important;
+            }
+        }
+
+        /* ================================================================
+           Entity Linking System Styles
+           ================================================================ */
+
+        /* Entity Action Links */
+        .entity-links {
+            display: flex;
+            gap: 6px;
+            margin-top: 8px;
+            flex-wrap: wrap;
+        }
+
+        .entity-link-btn {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 8px;
+            font-size: 11px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .entity-link-btn:hover {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+            transform: translateY(-1px);
+        }
+
+        .entity-link-btn i {
+            width: 12px;
+            height: 12px;
+        }
+
+        /* Entity Tags Inline (on cards) */
+        .entity-tags-inline {
+            display: flex;
+            gap: 4px;
+            margin: 6px 0;
+            flex-wrap: wrap;
+        }
+
+        /* Entity Modal Card */
+        .entity-modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.2s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .entity-modal-card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            animation: slideUp 0.3s ease;
+            position: relative;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .modal-close-btn:hover {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        /* Entity Tags */
+        .entity-tags {
+            display: flex;
+            gap: 6px;
+            margin: 12px 0;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .tag-victim { background: #fee; color: #c00; }
+        .tag-advocate { background: #efe; color: #060; }
+        .tag-politician { background: #eef; color: #009; }
+        .tag-celebrity { background: #fef; color: #909; }
+        .tag-business { background: #ffe; color: #990; }
+        .tag-legal { background: #ffe; color: #990; }
+        .tag-financier { background: #eff; color: #099; }
+        .tag-associate { background: #f9f; color: #909; }
+        .tag-staff { background: #f5f5f5; color: #666; }
+        .tag-academic { background: #e8f4f8; color: #0066aa; }
+        .tag-socialite { background: #ffeef8; color: #aa0066; }
+
+        /* Dark theme tag adjustments */
+        [data-theme="dark"] .tag-victim { background: #4a0000; color: #ff6666; }
+        [data-theme="dark"] .tag-advocate { background: #004a00; color: #66ff66; }
+        [data-theme="dark"] .tag-politician { background: #00004a; color: #6666ff; }
+        [data-theme="dark"] .tag-celebrity { background: #4a004a; color: #ff66ff; }
+        [data-theme="dark"] .tag-business { background: #4a4a00; color: #ffff66; }
+        [data-theme="dark"] .tag-legal { background: #4a4a00; color: #ffff66; }
+        [data-theme="dark"] .tag-financier { background: #004a4a; color: #66ffff; }
+        [data-theme="dark"] .tag-associate { background: #4a004a; color: #ff66ff; }
+        [data-theme="dark"] .tag-staff { background: #2a2a2a; color: #aaa; }
+        [data-theme="dark"] .tag-academic { background: #003344; color: #66aaff; }
+        [data-theme="dark"] .tag-socialite { background: #440033; color: #ff66aa; }
+
+        /* Entity Biography Text */
+        .entity-bio-full {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin: 16px 0;
+        }
+
+        /* Entity Stats Grid */
+        .entity-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin: 16px 0;
+            padding: 16px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+        }
+
+        .entity-stats-grid .stat {
+            text-align: center;
+        }
+
+        .entity-stats-grid .stat span {
+            display: block;
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+
+        .entity-stats-grid .stat strong {
+            font-size: 20px;
+            color: var(--accent-blue);
+        }
+
+        /* Entity Card Actions */
+        .entity-card-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+
+        .entity-card-actions .action-btn {
+            flex: 1;
+            min-width: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 10px 16px;
+            background: var(--accent-blue);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .entity-card-actions .action-btn:hover {
+            background: var(--accent-blue-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .entity-card-actions .action-btn i {
+            width: 14px;
+            height: 14px;
+        }
+
+        /* Toast Notifications */
+        .toast-notification {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+            padding: 12px 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 12px var(--shadow-color);
+            z-index: 10001;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+            font-size: 14px;
+            max-width: 300px;
+        }
+
+        .toast-notification.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
     </style>
 </head>
 <body>
@@ -1584,6 +3893,10 @@
             </div>
             <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme" title="Toggle light/dark theme">
                 <span id="theme-icon">☀️</span>
+            </button>
+            <button class="logout-button" onclick="logout()" aria-label="Logout" title="Logout">
+                <span>🚪</span>
+                <span>Logout</span>
             </button>
         </div>
     </div>
@@ -1628,19 +3941,40 @@
         <!-- Main Content -->
         <div class="main-content">
             <div class="tabs">
-                <div class="tab active" onclick="switchTab('overview', this)">Overview</div>
-                <div class="tab" onclick="switchTab('entities', this)">Entities</div>
-                <div class="tab" onclick="switchTab('network', this)">Network Graph</div>
-                <div class="tab" onclick="switchTab('sources', this)">Sources</div>
-                <div class="tab" onclick="switchTab('roadmap', this)">Roadmap</div>
-                <div class="tab" onclick="switchTab('ingestion', this)">Ingestion Status</div>
+                <div class="tab active" onclick="switchTab('overview', this)">
+                    <i data-lucide="home"></i><span>Overview</span>
+                </div>
+                <div class="tab" onclick="switchTab('timeline', this)">
+                    <i data-lucide="clock"></i><span>Timeline</span>
+                </div>
+                <div class="tab" onclick="switchTab('entities', this)">
+                    <i data-lucide="users"></i><span>Entities</span>
+                </div>
+                <div class="tab" onclick="switchTab('network', this)">
+                    <i data-lucide="network"></i><span>Network Graph</span>
+                </div>
+                <div class="tab" onclick="switchTab('flights', this)">
+                    <i data-lucide="plane"></i><span>Flights</span>
+                </div>
+                <div class="tab" onclick="switchTab('sources', this)">
+                    <i data-lucide="folder-open"></i><span>Sources</span>
+                </div>
+                <div class="tab" onclick="switchTab('documents', this)">
+                    <i data-lucide="file-text"></i><span>Documents</span>
+                </div>
+                <div class="tab" onclick="switchTab('roadmap', this)">
+                    <i data-lucide="map"></i><span>Roadmap</span>
+                </div>
+                <div class="tab" onclick="switchTab('ingestion', this)">
+                    <i data-lucide="database"></i><span>Ingestion Status</span>
+                </div>
             </div>
 
             <div class="view-container">
                 <!-- Overview View -->
                 <div class="view active" id="overview-view">
                     <div class="mission-statement">
-                        <h2>📚 Mission Statement</h2>
+                        <h2><i data-lucide="book-open" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;"></i>Mission Statement</h2>
                         <p>
                             This is a <strong>public resource</strong> dedicated to organizing and making accessible
                             all publicly available documents related to the Jeffrey Epstein investigation.
@@ -1694,6 +4028,88 @@
                             </ul>
                         </div>
                     </div>
+
+                    <!-- Latest Updates Section -->
+                    <div class="latest-updates-section">
+                        <h2>
+                            <i data-lucide="git-commit" style="width: 20px; height: 20px; margin-right: 8px; vertical-align: middle;"></i>
+                            Latest Updates
+                        </h2>
+                        <div id="commits-container" class="commits-container">
+                            <div class="commits-loading">Loading recent commits...</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline View -->
+                <div class="view" id="timeline-view">
+                    <div class="timeline-header">
+                        <h2 style="margin-bottom: 8px;">Timeline of Events</h2>
+                        <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 20px;">
+                            Chronological history with complete source provenance
+                        </p>
+
+                        <!-- Statistics Cards -->
+                        <div class="timeline-stats" id="timeline-stats">
+                            <div class="timeline-stat">
+                                <div class="timeline-stat-value" id="timeline-total">0</div>
+                                <div class="timeline-stat-label">Total Events</div>
+                            </div>
+                            <div class="timeline-stat">
+                                <div class="timeline-stat-value" id="timeline-case">0</div>
+                                <div class="timeline-stat-label">Case Events</div>
+                            </div>
+                            <div class="timeline-stat">
+                                <div class="timeline-stat-value" id="timeline-life">0</div>
+                                <div class="timeline-stat-label">Life Events</div>
+                            </div>
+                            <div class="timeline-stat">
+                                <div class="timeline-stat-value" id="timeline-docs">0</div>
+                                <div class="timeline-stat-label">Documents</div>
+                            </div>
+                        </div>
+
+                        <!-- Filters -->
+                        <div class="timeline-filters">
+                            <!-- Event Type Filter -->
+                            <div class="timeline-filter-group">
+                                <div class="timeline-filter-label">Event Type</div>
+                                <div class="timeline-filter-buttons">
+                                    <button class="timeline-filter-btn active" onclick="filterTimelineByType('all')">All</button>
+                                    <button class="timeline-filter-btn" onclick="filterTimelineByType('case')">Case</button>
+                                    <button class="timeline-filter-btn" onclick="filterTimelineByType('life')">Life</button>
+                                    <button class="timeline-filter-btn" onclick="filterTimelineByType('documents')">Documents</button>
+                                </div>
+                            </div>
+
+                            <!-- Date Range Filter -->
+                            <div class="timeline-filter-group">
+                                <div class="timeline-filter-label">Date Range</div>
+                                <div class="timeline-date-filter">
+                                    <input type="date" id="timeline-start-date" class="timeline-date-input" onchange="filterTimelineByDate()">
+                                    <span style="color: var(--text-secondary);">to</span>
+                                    <input type="date" id="timeline-end-date" class="timeline-date-input" onchange="filterTimelineByDate()">
+                                </div>
+                            </div>
+
+                            <!-- Search Filter -->
+                            <div class="timeline-filter-group timeline-search">
+                                <div class="timeline-filter-label">Search</div>
+                                <input type="text"
+                                       id="timeline-search-input"
+                                       placeholder="Search events, entities, or documents..."
+                                       oninput="filterTimelineBySearch(this.value)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Container -->
+                    <div class="timeline-container" id="timeline-events">
+                        <div class="timeline-empty">
+                            <div class="timeline-empty-icon">⏳</div>
+                            <div class="timeline-empty-text">Loading timeline events...</div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Entities View -->
@@ -1724,7 +4140,49 @@
 
                 <!-- Network View -->
                 <div class="view" id="network-view">
-                    <div id="network-container"></div>
+                    <div id="network-container">
+                        <!-- Network Legend -->
+                        <div class="network-legend">
+                            <h4>Legend</h4>
+
+                            <div class="legend-item">
+                                <div class="legend-circle normal"></div>
+                                <span>Entity</span>
+                            </div>
+
+                            <div class="legend-item">
+                                <div class="legend-circle billionaire"></div>
+                                <span>Billionaire</span>
+                            </div>
+
+                            <div style="border-top: 1px solid var(--border-color); margin: 12px 0; padding-top: 12px;">
+                                <div style="font-size: 11px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px;">
+                                    Connection Strength
+                                </div>
+                            </div>
+
+                            <div class="legend-item">
+                                <div class="legend-line thin"></div>
+                                <span>1-10 co-occurrences</span>
+                            </div>
+
+                            <div class="legend-item">
+                                <div class="legend-line medium"></div>
+                                <span>11-50 co-occurrences</span>
+                            </div>
+
+                            <div class="legend-item">
+                                <div class="legend-line thick"></div>
+                                <span>&gt;50 co-occurrences</span>
+                            </div>
+
+                            <div style="border-top: 1px solid var(--border-color); margin: 12px 0; padding-top: 8px;">
+                                <div style="font-size: 10px; color: var(--text-tertiary); font-style: italic;">
+                                    Hover over connections for details
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="network-controls">
                         <h4>Network Controls</h4>
@@ -1823,6 +4281,102 @@
                     </div>
                 </div>
 
+                <!-- Flights View -->
+                <div class="view" id="flights-view">
+                    <!-- Fullscreen Map Background -->
+                    <div id="flight-map"></div>
+
+                    <!-- Horizontal Filter Bar (Top Overlay) -->
+                    <div class="flight-filters-bar">
+                        <div class="filter-item">
+                            <label>Start Date</label>
+                            <input type="date" id="flight-date-start" class="flight-filter-input">
+                        </div>
+                        <div class="filter-separator">|</div>
+                        <div class="filter-item">
+                            <label>End Date</label>
+                            <input type="date" id="flight-date-end" class="flight-filter-input">
+                        </div>
+                        <div class="filter-separator">|</div>
+                        <div class="filter-item filter-item-wide">
+                            <label>Passengers</label>
+                            <select id="flight-passenger-filter" class="flight-filter-input" multiple>
+                                <option value="">All Passengers</option>
+                            </select>
+                        </div>
+                        <div class="filter-separator">|</div>
+                        <div class="filter-item">
+                            <label>Airport</label>
+                            <input type="text" id="flight-airport-filter" class="flight-filter-input" placeholder="TEB, PBI...">
+                        </div>
+                        <div class="filter-actions">
+                            <button class="filter-btn filter-btn-apply" onclick="applyFlightFilters()">
+                                <i data-lucide="filter"></i>
+                                Apply
+                            </button>
+                            <button class="filter-btn filter-btn-clear" onclick="clearFlightFilters()">
+                                <i data-lucide="x"></i>
+                                Clear
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Statistics Panel (Bottom-Right Overlay) -->
+                    <div class="flight-stats-panel" id="flight-stats-panel">
+                        <div class="stats-panel-header">
+                            <h4>Flight Statistics</h4>
+                            <button class="panel-toggle-btn" onclick="toggleStatsPanel()" title="Minimize">
+                                <i data-lucide="chevron-down"></i>
+                            </button>
+                        </div>
+                        <div class="stats-panel-content">
+                            <div class="stat-row">
+                                <span class="stat-label">Total Flights</span>
+                                <span class="stat-value" id="flights-total">0</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Date Range</span>
+                                <span class="stat-value stat-value-small" id="flights-date-range">All Time</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">Unique Passengers</span>
+                                <span class="stat-value" id="flights-passengers">0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Passenger Popup Modal (Centered Overlay) -->
+                    <div class="flight-popup-overlay" id="flight-popup-overlay" onclick="closeFlightPopup()"></div>
+                    <div class="flight-popup" id="flight-popup">
+                        <div class="popup-header">
+                            <h4 id="popup-flight-title">Flight Details</h4>
+                            <button class="popup-close-btn" onclick="closeFlightPopup()">
+                                <i data-lucide="x"></i>
+                            </button>
+                        </div>
+                        <div class="popup-content">
+                            <div class="popup-flight-info">
+                                <div class="info-item">
+                                    <i data-lucide="calendar"></i>
+                                    <span id="popup-flight-date">Date</span>
+                                </div>
+                                <div class="info-item">
+                                    <i data-lucide="plane-takeoff"></i>
+                                    <span id="popup-flight-origin">Origin</span>
+                                </div>
+                                <div class="info-item">
+                                    <i data-lucide="plane-landing"></i>
+                                    <span id="popup-flight-destination">Destination</span>
+                                </div>
+                            </div>
+                            <div class="popup-passengers">
+                                <h5>Passengers</h5>
+                                <div id="popup-passenger-list" class="passenger-links"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Sources View -->
                 <div class="view" id="sources-view">
                     <h2>Document Sources</h2>
@@ -1903,11 +4457,253 @@
                     </div>
                 </div>
 
+                <!-- Documents View -->
+                <div class="view" id="documents-view">
+                    <h2 style="margin-bottom: 8px;">Document Search</h2>
+                    <p class="subtitle" style="color: var(--text-secondary); margin-bottom: 24px;">
+                        Search and explore 38,482 extracted documents
+                    </p>
+
+                    <!-- Search Header -->
+                    <div class="documents-header">
+                        <div class="documents-search-bar">
+                            <input type="text" id="doc-search-input" placeholder="Search documents by filename, entity, or content...">
+                            <button id="doc-search-btn" onclick="searchDocuments()">
+                                <i data-lucide="search" style="width: 16px; height: 16px;"></i>
+                                Search
+                            </button>
+                        </div>
+                        <div class="view-toggle">
+                            <button class="active" onclick="setDocumentView('list')">
+                                <i data-lucide="list" style="width: 14px; height: 14px; margin-right: 4px;"></i>
+                                List
+                            </button>
+                            <button onclick="setDocumentView('grid')">
+                                <i data-lucide="grid" style="width: 14px; height: 14px; margin-right: 4px;"></i>
+                                Grid
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Filters -->
+                    <div class="documents-filters">
+                        <select id="doc-type-filter" onchange="searchDocuments()">
+                            <option value="">All Document Types</option>
+                        </select>
+                        <select id="doc-source-filter" onchange="searchDocuments()">
+                            <option value="">All Sources</option>
+                        </select>
+                        <select id="doc-entity-filter" onchange="searchDocuments()">
+                            <option value="">Filter by Entity</option>
+                        </select>
+                    </div>
+
+                    <!-- Results Count -->
+                    <div style="margin-bottom: 16px;">
+                        <span id="doc-results-count" style="color: var(--text-secondary); font-size: 14px;">
+                            Loading documents...
+                        </span>
+                    </div>
+
+                    <!-- Document List -->
+                    <div id="documents-list" class="documents-list">
+                        <!-- Documents will be inserted here -->
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="documents-pagination">
+                        <button id="doc-prev-page" onclick="changePage(-1)" disabled>
+                            <i data-lucide="chevron-left" style="width: 16px; height: 16px;"></i>
+                            Previous
+                        </button>
+                        <span class="page-info" id="doc-page-info">Page 1 of 1</span>
+                        <button id="doc-next-page" onclick="changePage(1)" disabled>
+                            Next
+                            <i data-lucide="chevron-right" style="width: 16px; height: 16px;"></i>
+                        </button>
+                    </div>
+                </div>
+
                 <!-- Ingestion View -->
                 <div class="view" id="ingestion-view">
-                    <div class="info-card" style="margin-bottom: 20px;">
-                        <h3>OCR Processing Status</h3>
-                        <div id="ingestion-progress">Loading...</div>
+                    <h2 style="margin-bottom: 8px;">Data Pipeline Status</h2>
+                    <p class="subtitle" style="color: var(--text-secondary); margin-bottom: 24px;">
+                        Real-time monitoring of all data processing operations
+                    </p>
+
+                    <!-- Pipeline Overview Cards -->
+                    <div class="pipeline-overview">
+                        <div class="pipeline-card">
+                            <div class="pipeline-icon">📥</div>
+                            <div class="pipeline-stats">
+                                <div class="pipeline-label">Downloads</div>
+                                <div class="pipeline-value" id="downloads-count">---</div>
+                                <div class="pipeline-status" id="downloads-status">checking...</div>
+                            </div>
+                        </div>
+                        <div class="pipeline-card">
+                            <div class="pipeline-icon"><i data-lucide="file-text"></i></div>
+                            <div class="pipeline-stats">
+                                <div class="pipeline-label">OCR Processing</div>
+                                <div class="pipeline-value" id="conversion-count">---</div>
+                                <div class="pipeline-status" id="conversion-status">checking...</div>
+                            </div>
+                        </div>
+                        <div class="pipeline-card">
+                            <div class="pipeline-icon"><i data-lucide="mail"></i></div>
+                            <div class="pipeline-stats">
+                                <div class="pipeline-label">Email Extraction</div>
+                                <div class="pipeline-value" id="emails-count">---</div>
+                                <div class="pipeline-status" id="emails-status">checking...</div>
+                            </div>
+                        </div>
+                        <div class="pipeline-card">
+                            <div class="pipeline-icon"><i data-lucide="tag"></i></div>
+                            <div class="pipeline-stats">
+                                <div class="pipeline-label">Classification</div>
+                                <div class="pipeline-value" id="classification-count">---</div>
+                                <div class="pipeline-status" id="classification-status">checking...</div>
+                            </div>
+                        </div>
+                        <div class="pipeline-card">
+                            <div class="pipeline-icon"><i data-lucide="search"></i></div>
+                            <div class="pipeline-stats">
+                                <div class="pipeline-label">Deduplication</div>
+                                <div class="pipeline-value" id="dedup-count">---</div>
+                                <div class="pipeline-status" id="dedup-status">checking...</div>
+                            </div>
+                        </div>
+                        <div class="pipeline-card">
+                            <div class="pipeline-icon"><i data-lucide="users"></i></div>
+                            <div class="pipeline-stats">
+                                <div class="pipeline-label">Entity Extraction</div>
+                                <div class="pipeline-value" id="entities-count">---</div>
+                                <div class="pipeline-status" id="entities-status">checking...</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Detailed Pipeline Stages -->
+                    <div class="pipeline-stages">
+                        <!-- Download Queue -->
+                        <div class="pipeline-stage">
+                            <div class="stage-header" onclick="toggleStage('downloads')">
+                                <h3>
+                                    <span class="stage-icon">📥</span>
+                                    Document Downloads
+                                </h3>
+                                <div class="stage-summary" id="downloads-summary">Loading...</div>
+                                <span class="stage-toggle" id="downloads-toggle">▼</span>
+                            </div>
+                            <div class="stage-content" id="downloads-content">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="downloads-progress" style="width: 0%"></div>
+                                </div>
+                                <div class="stage-details" id="downloads-details">
+                                    <div class="loading-message">Checking download queue...</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PDF to Markdown Conversion -->
+                        <div class="pipeline-stage">
+                            <div class="stage-header" onclick="toggleStage('conversion')">
+                                <h3>
+                                    <span class="stage-icon"><i data-lucide="file-text"></i></span>
+                                    OCR Processing (PDF → Markdown)
+                                </h3>
+                                <div class="stage-summary" id="conversion-summary">Loading...</div>
+                                <span class="stage-toggle" id="conversion-toggle">▼</span>
+                            </div>
+                            <div class="stage-content" id="conversion-content">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="conversion-progress" style="width: 0%"></div>
+                                </div>
+                                <div class="stage-details" id="conversion-details">
+                                    <div class="loading-message">Checking OCR status...</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Email Extraction -->
+                        <div class="pipeline-stage">
+                            <div class="stage-header" onclick="toggleStage('emails')">
+                                <h3>
+                                    <span class="stage-icon"><i data-lucide="mail"></i></span>
+                                    Email Extraction
+                                </h3>
+                                <div class="stage-summary" id="emails-summary">Loading...</div>
+                                <span class="stage-toggle" id="emails-toggle">▼</span>
+                            </div>
+                            <div class="stage-content" id="emails-content">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="emails-progress" style="width: 0%"></div>
+                                </div>
+                                <div class="stage-details" id="emails-details">
+                                    <div class="loading-message">Checking email extraction status...</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Document Classification -->
+                        <div class="pipeline-stage">
+                            <div class="stage-header" onclick="toggleStage('classification')">
+                                <h3>
+                                    <span class="stage-icon"><i data-lucide="tag"></i></span>
+                                    Document Classification
+                                </h3>
+                                <div class="stage-summary" id="classification-summary">Loading...</div>
+                                <span class="stage-toggle" id="classification-toggle">▼</span>
+                            </div>
+                            <div class="stage-content" id="classification-content">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="classification-progress" style="width: 0%"></div>
+                                </div>
+                                <div class="stage-details" id="classification-details">
+                                    <div class="loading-message">Checking classification status...</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Deduplication -->
+                        <div class="pipeline-stage">
+                            <div class="stage-header" onclick="toggleStage('dedup')">
+                                <h3>
+                                    <span class="stage-icon"><i data-lucide="search"></i></span>
+                                    Deduplication
+                                </h3>
+                                <div class="stage-summary" id="dedup-summary">Loading...</div>
+                                <span class="stage-toggle" id="dedup-toggle">▼</span>
+                            </div>
+                            <div class="stage-content" id="dedup-content">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="dedup-progress" style="width: 0%"></div>
+                                </div>
+                                <div class="stage-details" id="dedup-details">
+                                    <div class="loading-message">Checking deduplication status...</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entity Extraction & Network -->
+                        <div class="pipeline-stage">
+                            <div class="stage-header" onclick="toggleStage('entities')">
+                                <h3>
+                                    <span class="stage-icon"><i data-lucide="users"></i></span>
+                                    Entity Extraction & Relationship Network
+                                </h3>
+                                <div class="stage-summary" id="entities-summary">Loading...</div>
+                                <span class="stage-toggle" id="entities-toggle">▼</span>
+                            </div>
+                            <div class="stage-content" id="entities-content">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="entities-progress" style="width: 0%"></div>
+                                </div>
+                                <div class="stage-details" id="entities-details">
+                                    <div class="loading-message">Checking entity extraction status...</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1944,6 +4740,45 @@
         </div>
     </div>
 
+    <!-- Hot-reload status indicator (optional) -->
+    <div class="hot-reload-indicator" id="hot-reload-status">
+        <span class="status-dot"></span>
+        <span>Live</span>
+    </div>
+
+    <!-- Document Viewer Modal -->
+    <div id="document-modal" class="document-modal">
+        <div class="document-modal-content">
+            <div class="document-modal-header">
+                <h3 class="document-modal-title" id="modal-doc-title">Document Title</h3>
+                <button class="modal-close" onclick="closeDocumentModal()">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+            <div class="document-modal-body">
+                <div class="document-content" id="modal-doc-content">
+                    Loading document...
+                </div>
+                <div class="document-sidebar">
+                    <div class="sidebar-section">
+                        <h4>Document Information</h4>
+                        <div class="sidebar-meta" id="modal-doc-meta">
+                            <!-- Metadata will be inserted here -->
+                        </div>
+                    </div>
+                    <div class="sidebar-section">
+                        <h4>Entities Mentioned</h4>
+                        <div class="document-entities" id="modal-doc-entities">
+                            <!-- Entity tags will be inserted here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="hot-reload.js"></script>
+    <script src="documents.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

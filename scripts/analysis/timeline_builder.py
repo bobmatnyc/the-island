@@ -6,10 +6,11 @@ Extracts dates from documents and creates chronological timeline
 
 import json
 import re
-from pathlib import Path
-from datetime import datetime
-from typing import List, Dict, Tuple
 from collections import defaultdict
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, List, Tuple
+
 
 PROJECT_ROOT = Path("/Users/masa/Projects/Epstein")
 DATA_DIR = PROJECT_ROOT / "data"
@@ -22,14 +23,14 @@ class TimelineBuilder:
     # Date patterns to match
     DATE_PATTERNS = [
         # MM/DD/YYYY or M/D/YYYY
-        (r'(\d{1,2})/(\d{1,2})/(\d{4})', lambda m: f"{m[3]}-{m[1]:0>2}-{m[2]:0>2}"),
+        (r"(\d{1,2})/(\d{1,2})/(\d{4})", lambda m: f"{m[3]}-{m[1]:0>2}-{m[2]:0>2}"),
         # Month DD, YYYY
-        (r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),?\s+(\d{4})',
+        (r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),?\s+(\d{4})",
          lambda m: f"{m[3]}-{TimelineBuilder.month_to_num(m[1]):0>2}-{m[2]:0>2}"),
         # YYYY-MM-DD
-        (r'(\d{4})-(\d{2})-(\d{2})', lambda m: f"{m[1]}-{m[2]}-{m[3]}"),
+        (r"(\d{4})-(\d{2})-(\d{2})", lambda m: f"{m[1]}-{m[2]}-{m[3]}"),
         # DD Month YYYY
-        (r'(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})',
+        (r"(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})",
          lambda m: f"{m[3]}-{TimelineBuilder.month_to_num(m[2]):0>2}-{m[1]:0>2}"),
     ]
 
@@ -79,7 +80,7 @@ class TimelineBuilder:
         context = text[start:end].strip()
 
         # Clean up
-        context = re.sub(r'\s+', ' ', context)
+        context = re.sub(r"\s+", " ", context)
         return context
 
     def process_document(self, doc_path: Path) -> List[Dict]:
@@ -90,7 +91,7 @@ class TimelineBuilder:
             List of timeline events
         """
         try:
-            text = doc_path.read_text(encoding='utf-8', errors='ignore')
+            text = doc_path.read_text(encoding="utf-8", errors="ignore")
         except Exception:
             return []
 
@@ -160,7 +161,7 @@ class TimelineBuilder:
             "events": self.events
         }
 
-        with open(output_path, 'w') as f:
+        with open(output_path, "w") as f:
             json.dump(timeline_data, f, indent=2)
 
         print(f"\n✓ Exported timeline: {output_path}")

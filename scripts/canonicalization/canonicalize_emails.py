@@ -2,11 +2,12 @@
 """
 Convert emails to canonical markdown format with full source tracking
 """
-import json
 import hashlib
+import json
 import re
 from datetime import datetime
 from pathlib import Path
+
 
 # Email data extracted from sources
 EMAILS = [
@@ -176,7 +177,7 @@ EMAILS = [
 def calculate_content_hash(text):
     """Calculate SHA256 hash of normalized content"""
     # Normalize: lowercase, remove extra whitespace
-    normalized = re.sub(r'\s+', ' ', text.lower().strip())
+    normalized = re.sub(r"\s+", " ", text.lower().strip())
     return hashlib.sha256(normalized.encode()).hexdigest()
 
 def generate_canonical_id(email_data):
@@ -254,14 +255,14 @@ if __name__ == "__main__":
     # Create email index
     index = create_email_index()
     index_path = Path("/Users/masa/Projects/Epstein/data/canonical/emails/email_index.json")
-    with open(index_path, 'w') as f:
+    with open(index_path, "w") as f:
         json.dump(index, f, indent=2)
     print(f"✓ Created email index: {index_path}")
 
     # Generate statistics
     stats = generate_statistics()
     stats_path = Path("/Users/masa/Projects/Epstein/data/canonical/emails/email_statistics.json")
-    with open(stats_path, 'w') as f:
+    with open(stats_path, "w") as f:
         json.dump(stats, f, indent=2)
     print(f"✓ Generated statistics: {stats_path}")
 
@@ -271,10 +272,10 @@ if __name__ == "__main__":
     print(f"Total emails processed: {stats['total_emails']}")
     print(f"Date range: {stats['date_range']['earliest']} to {stats['date_range']['latest']}")
     print(f"Unique participants: {stats['unique_participants']}")
-    print(f"\nSource breakdown:")
-    for source, count in stats['sources'].items():
+    print("\nSource breakdown:")
+    for source, count in stats["sources"].items():
         print(f"  - {source}: {count} emails")
-    print(f"\nQuality metrics:")
+    print("\nQuality metrics:")
     print(f"  - OCR quality: {stats['quality_metrics']['ocr_quality']['high']} high")
     print(f"  - Complete emails: {stats['quality_metrics']['completeness']['complete']}")
     print(f"  - No redactions: {stats['quality_metrics']['redactions']['no']}")

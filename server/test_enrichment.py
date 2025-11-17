@@ -12,16 +12,14 @@ Demonstrates:
 
 import asyncio
 import json
-from pathlib import Path
 import sys
+from pathlib import Path
+
 
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from server.services.entity_enrichment import (
-    EntityEnrichmentService,
-    format_for_ui
-)
+from server.services.entity_enrichment import EntityEnrichmentService, format_for_ui
 
 
 async def test_enrichment():
@@ -46,7 +44,7 @@ async def test_enrichment():
         force_refresh=True
     )
 
-    print(f"✓ Enrichment completed")
+    print("✓ Enrichment completed")
     print(f"  - Entity: {enrichment.entity_name}")
     print(f"  - Sources found: {enrichment.total_sources}")
     print(f"  - Average confidence: {enrichment.average_confidence:.2f}")
@@ -71,7 +69,7 @@ async def test_enrichment():
     cached = await service.get_enrichment("ghislaine_maxwell_test", "Ghislaine Maxwell")
 
     if cached:
-        print(f"✓ Cache hit!")
+        print("✓ Cache hit!")
         print(f"  - Last updated: {cached.last_updated}")
         print(f"  - Sources cached: {cached.total_sources}")
     else:
@@ -84,14 +82,14 @@ async def test_enrichment():
 
     ui_data = format_for_ui(enrichment)
 
-    print(f"✓ UI data generated")
+    print("✓ UI data generated")
     print(f"  - Facts extracted: {len(ui_data['facts'])}")
     print(f"  - Disclaimer: {ui_data['disclaimer'][:80]}...")
     print()
 
     print("  Sample fact:")
-    if ui_data['facts']:
-        fact = ui_data['facts'][0]
+    if ui_data["facts"]:
+        fact = ui_data["facts"][0]
         print(f"    Category: {fact['category']}")
         print(f"    Text: {fact['text'][:150]}...")
         print(f"    Sources: {len(fact['sources'])}")
@@ -117,7 +115,7 @@ async def test_enrichment():
         max_concurrent=2  # Limit concurrency for test
     )
 
-    print(f"✓ Batch enrichment completed")
+    print("✓ Batch enrichment completed")
     print(f"  - Entities processed: {len(batch_results)}")
     print()
 
@@ -134,7 +132,7 @@ async def test_enrichment():
 
     stats = service.get_statistics()
 
-    print(f"✓ Statistics generated")
+    print("✓ Statistics generated")
     print(f"  - Total enrichments: {stats['total_enrichments']}")
     print(f"  - Valid enrichments: {stats['valid_enrichments']}")
     print(f"  - Stale enrichments: {stats['stale_enrichments']}")
@@ -152,10 +150,10 @@ async def test_enrichment():
         for entity_id, enrichment in service.cache.items()
     }
 
-    with open(export_path, 'w') as f:
+    with open(export_path, "w") as f:
         json.dump(export_data, f, indent=2, default=str)
 
-    print(f"✓ Enrichment data exported")
+    print("✓ Enrichment data exported")
     print(f"  - File: {export_path}")
     print(f"  - Size: {export_path.stat().st_size / 1024:.2f} KB")
     print()

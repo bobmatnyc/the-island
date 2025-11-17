@@ -1,10 +1,33 @@
-# Epstein Document Canonicalization - Quick Reference
+# Epstein Document Archive - Quick Reference
 
-**Last Updated**: November 16, 2025
+**Last Updated**: November 17, 2025
 
 ---
 
 ## 🚀 Quick Commands
+
+### Pre-Release Quality Gate
+```bash
+# Run all checks
+./scripts/pre_release.sh
+
+# Auto-fix linting issues
+./scripts/pre_release.sh --fix
+
+# Fast mode (skip tests)
+./scripts/pre_release.sh --fast
+```
+
+**Exit Codes**: `0` = Ready | `1` = Linting | `2` = Types | `3` = Tests
+
+### Version Management
+```bash
+# Check current version
+grep 'version = ' pyproject.toml
+
+# Update version (MAJOR.MINOR.PATCH)
+sed -i '' 's/version = "1.0.0"/version = "1.1.0"/' pyproject.toml
+```
 
 ### Initialize System
 ```bash

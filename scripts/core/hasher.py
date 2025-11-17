@@ -55,7 +55,7 @@ class DocumentHasher:
         """
         sha256 = hashlib.sha256()
 
-        with open(file_path, 'rb') as f:
+        with open(file_path, "rb") as f:
             # Read in 8KB chunks for memory efficiency
             while chunk := f.read(8192):
                 sha256.update(chunk)
@@ -81,7 +81,7 @@ class DocumentHasher:
             text = self.normalize_text(text)
 
         sha256 = hashlib.sha256()
-        sha256.update(text.encode('utf-8'))
+        sha256.update(text.encode("utf-8"))
 
         return f"sha256:{sha256.hexdigest()}"
 
@@ -131,21 +131,21 @@ class DocumentHasher:
         text = text.lower()
 
         # Normalize whitespace
-        text = re.sub(r'\s+', ' ', text)
+        text = re.sub(r"\s+", " ", text)
 
         # Normalize line breaks
-        text = text.replace('\r\n', '\n').replace('\r', '\n')
+        text = text.replace("\r\n", "\n").replace("\r", "\n")
 
         # Remove common OCR artifacts
         # Replace common OCR misreads
-        text = text.replace('‐', '-')  # Unicode hyphen to ASCII
-        text = text.replace('–', '-')  # En dash to hyphen
-        text = text.replace('—', '-')  # Em dash to hyphen
+        text = text.replace("‐", "-")  # Unicode hyphen to ASCII
+        text = text.replace("–", "-")  # En dash to hyphen
+        text = text.replace("—", "-")  # Em dash to hyphen
         text = text.replace('"', '"').replace('"', '"')  # Smart quotes
-        text = text.replace(''', "'").replace(''', "'")  # Smart apostrophes
+        text = text.replace(""", "'").replace(""", "'")  # Smart apostrophes
 
         # Remove control characters except newlines
-        text = ''.join(char for char in text if char == '\n' or not char.isspace() or char == ' ')
+        text = "".join(char for char in text if char == "\n" or not char.isspace() or char == " ")
 
         # Trim
         text = text.strip()
@@ -174,12 +174,12 @@ class DocumentHasher:
             hashes = hasher.hash_document(pdf_file, text)
         """
         result = {
-            'file_hash': self.hash_file(file_path)
+            "file_hash": self.hash_file(file_path)
         }
 
         if text:
-            result['content_hash'] = self.hash_content(text, normalize=True)
-            result['fuzzy_hash'] = self.hash_fuzzy(text)
+            result["content_hash"] = self.hash_content(text, normalize=True)
+            result["fuzzy_hash"] = self.hash_fuzzy(text)
 
         return result
 
@@ -201,8 +201,8 @@ class DocumentHasher:
         import ssdeep
 
         # Strip 'ssdeep:' prefix if present
-        h1 = hash1.replace('ssdeep:', '')
-        h2 = hash2.replace('ssdeep:', '')
+        h1 = hash1.replace("ssdeep:", "")
+        h2 = hash2.replace("ssdeep:", "")
 
         # ssdeep.compare returns 0-100
         similarity = ssdeep.compare(h1, h2)
@@ -305,7 +305,7 @@ def generate_canonical_id(content_hash: str) -> str:
     Alternative Considered: Sequential IDs (rejected due to non-determinism)
     """
     # Extract hex portion
-    hash_hex = content_hash.split(':')[1] if ':' in content_hash else content_hash
+    hash_hex = content_hash.split(":")[1] if ":" in content_hash else content_hash
 
     # Use first 12 characters for readability
     short_hash = hash_hex[:12]

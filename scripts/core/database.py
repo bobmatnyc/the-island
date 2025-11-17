@@ -8,12 +8,11 @@ Provides clean interface to deduplication_index.db with:
 - Query utilities
 """
 
-import sqlite3
 import json
-from pathlib import Path
-from typing import Dict, List, Optional, Tuple
-from datetime import datetime
+import sqlite3
 from contextlib import contextmanager
+from pathlib import Path
+from typing import Dict, List, Optional
 
 
 class CanonicalDatabase:
@@ -219,24 +218,24 @@ class CanonicalDatabase:
                     primary_source, selection_reason
                 ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
-                doc['canonical_id'],
-                doc['content_hash'],
-                doc['file_hash'],
-                doc['document_type'],
-                doc.get('title'),
-                doc.get('date'),
-                doc.get('from_person'),
-                json.dumps(doc.get('to_persons', [])),
-                doc.get('subject'),
-                doc.get('ocr_quality'),
-                doc.get('has_redactions'),
-                doc.get('completeness'),
-                doc.get('page_count'),
-                doc.get('primary_source'),
-                doc.get('selection_reason')
+                doc["canonical_id"],
+                doc["content_hash"],
+                doc["file_hash"],
+                doc["document_type"],
+                doc.get("title"),
+                doc.get("date"),
+                doc.get("from_person"),
+                json.dumps(doc.get("to_persons", [])),
+                doc.get("subject"),
+                doc.get("ocr_quality"),
+                doc.get("has_redactions"),
+                doc.get("completeness"),
+                doc.get("page_count"),
+                doc.get("primary_source"),
+                doc.get("selection_reason")
             ))
 
-        return doc['canonical_id']
+        return doc["canonical_id"]
 
     def get_canonical_document(self, canonical_id: str) -> Optional[Dict]:
         """
@@ -260,8 +259,8 @@ class CanonicalDatabase:
             if row:
                 doc = dict(row)
                 # Parse JSON fields
-                if doc.get('to_persons'):
-                    doc['to_persons'] = json.loads(doc['to_persons'])
+                if doc.get("to_persons"):
+                    doc["to_persons"] = json.loads(doc["to_persons"])
                 return doc
 
         return None
@@ -287,8 +286,8 @@ class CanonicalDatabase:
 
             if row:
                 doc = dict(row)
-                if doc.get('to_persons'):
-                    doc['to_persons'] = json.loads(doc['to_persons'])
+                if doc.get("to_persons"):
+                    doc["to_persons"] = json.loads(doc["to_persons"])
                 return doc
 
         return None
@@ -315,16 +314,16 @@ class CanonicalDatabase:
                     quality_score, file_size, format
                 ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
-                source['canonical_id'],
-                source['source_name'],
-                source.get('source_url'),
-                source.get('collection'),
-                source.get('download_date'),
-                source.get('pages'),
-                source.get('file_path'),
-                source.get('quality_score'),
-                source.get('file_size'),
-                source.get('format')
+                source["canonical_id"],
+                source["source_name"],
+                source.get("source_url"),
+                source.get("collection"),
+                source.get("download_date"),
+                source.get("pages"),
+                source.get("file_path"),
+                source.get("quality_score"),
+                source.get("file_size"),
+                source.get("format")
             ))
 
             return cursor.lastrowid
@@ -369,10 +368,10 @@ class CanonicalDatabase:
                     canonical_id, duplicate_type, similarity_score, detection_method
                 ) VALUES (?, ?, ?, ?)
             """, (
-                group['canonical_id'],
-                group.get('duplicate_type'),
-                group.get('similarity_score'),
-                group.get('detection_method')
+                group["canonical_id"],
+                group.get("duplicate_type"),
+                group.get("similarity_score"),
+                group.get("detection_method")
             ))
 
             return cursor.lastrowid
@@ -409,12 +408,12 @@ class CanonicalDatabase:
                     overlap_type, overlap_percentage, pages_a, pages_b
                 ) VALUES (?, ?, ?, ?, ?, ?)
             """, (
-                overlap['doc_a_canonical_id'],
-                overlap['doc_b_canonical_id'],
-                overlap.get('overlap_type'),
-                overlap.get('overlap_percentage'),
-                overlap.get('pages_a'),
-                overlap.get('pages_b')
+                overlap["doc_a_canonical_id"],
+                overlap["doc_b_canonical_id"],
+                overlap.get("overlap_type"),
+                overlap.get("overlap_percentage"),
+                overlap.get("pages_a"),
+                overlap.get("pages_b")
             ))
 
             return cursor.lastrowid
@@ -485,21 +484,21 @@ class CanonicalDatabase:
 
             # Total documents
             cursor.execute("SELECT COUNT(*) FROM canonical_documents")
-            stats['total_documents'] = cursor.fetchone()[0]
+            stats["total_documents"] = cursor.fetchone()[0]
 
             # Total sources
             cursor.execute("SELECT COUNT(*) FROM document_sources")
-            stats['total_sources'] = cursor.fetchone()[0]
+            stats["total_sources"] = cursor.fetchone()[0]
 
             # Duplicate groups
             cursor.execute("SELECT COUNT(DISTINCT canonical_id) FROM duplicate_groups")
-            stats['duplicate_groups'] = cursor.fetchone()[0]
+            stats["duplicate_groups"] = cursor.fetchone()[0]
 
             # Average sources per document
-            if stats['total_documents'] > 0:
-                stats['avg_sources_per_doc'] = stats['total_sources'] / stats['total_documents']
+            if stats["total_documents"] > 0:
+                stats["avg_sources_per_doc"] = stats["total_sources"] / stats["total_documents"]
             else:
-                stats['avg_sources_per_doc'] = 0.0
+                stats["avg_sources_per_doc"] = 0.0
 
             # Documents by type
             cursor.execute("""
@@ -508,7 +507,7 @@ class CanonicalDatabase:
                 GROUP BY document_type
                 ORDER BY count DESC
             """)
-            stats['documents_by_type'] = {row[0]: row[1] for row in cursor.fetchall()}
+            stats["documents_by_type"] = {row[0]: row[1] for row in cursor.fetchall()}
 
             # Documents by quality
             cursor.execute("""
@@ -523,7 +522,7 @@ class CanonicalDatabase:
                 WHERE ocr_quality IS NOT NULL
                 GROUP BY quality_level
             """)
-            stats['documents_by_quality'] = {row[0]: row[1] for row in cursor.fetchall()}
+            stats["documents_by_quality"] = {row[0]: row[1] for row in cursor.fetchall()}
 
             return stats
 
@@ -534,19 +533,19 @@ if __name__ == "__main__":
 
     # Insert test document
     doc = {
-        'canonical_id': 'epstein_doc_test123',
-        'content_hash': 'sha256:abc123',
-        'file_hash': 'sha256:def456',
-        'document_type': 'email',
-        'title': 'Test Email',
-        'date': '2008-05-15',
-        'from_person': 'test@example.com',
-        'to_persons': ['recipient@example.com'],
-        'subject': 'Test Subject',
-        'ocr_quality': 0.95,
-        'has_redactions': False,
-        'completeness': 'complete',
-        'page_count': 1
+        "canonical_id": "epstein_doc_test123",
+        "content_hash": "sha256:abc123",
+        "file_hash": "sha256:def456",
+        "document_type": "email",
+        "title": "Test Email",
+        "date": "2008-05-15",
+        "from_person": "test@example.com",
+        "to_persons": ["recipient@example.com"],
+        "subject": "Test Subject",
+        "ocr_quality": 0.95,
+        "has_redactions": False,
+        "completeness": "complete",
+        "page_count": 1
     }
 
     try:
@@ -554,7 +553,7 @@ if __name__ == "__main__":
         print("Document inserted successfully")
 
         # Retrieve it
-        retrieved = db.get_canonical_document('epstein_doc_test123')
+        retrieved = db.get_canonical_document("epstein_doc_test123")
         print(f"Retrieved: {retrieved}")
 
         # Get statistics

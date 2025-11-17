@@ -9,15 +9,16 @@ Usage:
 """
 
 import sys
-from pathlib import Path
 from datetime import datetime
+from pathlib import Path
+
 
 # Add scripts to path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from core.database import CanonicalDatabase
-from core.hasher import DocumentHasher, generate_canonical_id
 from core.deduplicator import Deduplicator, Document
+from core.hasher import DocumentHasher, generate_canonical_id
 
 
 def initialize_database(db_path: Path) -> CanonicalDatabase:
@@ -27,7 +28,7 @@ def initialize_database(db_path: Path) -> CanonicalDatabase:
     Returns:
         CanonicalDatabase instance
     """
-    print(f"\n=== Initializing Database ===")
+    print("\n=== Initializing Database ===")
     print(f"Location: {db_path}")
 
     # Create database (tables created automatically)
@@ -44,7 +45,7 @@ def initialize_database(db_path: Path) -> CanonicalDatabase:
         tables = [row[0] for row in cursor.fetchall()]
 
     print(f"Tables created: {', '.join(tables)}")
-    print(f"Database initialized successfully")
+    print("Database initialized successfully")
 
     return db
 
@@ -57,7 +58,7 @@ def process_test_emails(db: CanonicalDatabase, email_dir: Path):
         db: Database instance
         email_dir: Directory containing markdown email files
     """
-    print(f"\n=== Processing Test Emails ===")
+    print("\n=== Processing Test Emails ===")
     print(f"Email directory: {email_dir}")
 
     hasher = DocumentHasher()
@@ -75,7 +76,7 @@ def process_test_emails(db: CanonicalDatabase, email_dir: Path):
     for email_file in email_files:
         try:
             # Read file
-            text = email_file.read_text(encoding='utf-8')
+            text = email_file.read_text(encoding="utf-8")
 
             # Extract metadata from frontmatter
             metadata = extract_metadata(text)
@@ -97,32 +98,32 @@ def process_test_emails(db: CanonicalDatabase, email_dir: Path):
 
                 # Add as additional source
                 db.insert_source({
-                    'canonical_id': canonical_id,
-                    'source_name': 'test_import',
-                    'collection': 'initial_8_emails',
-                    'file_path': str(email_file),
-                    'format': 'markdown',
-                    'download_date': datetime.now().isoformat()
+                    "canonical_id": canonical_id,
+                    "source_name": "test_import",
+                    "collection": "initial_8_emails",
+                    "file_path": str(email_file),
+                    "format": "markdown",
+                    "download_date": datetime.now().isoformat()
                 })
                 continue
 
             # Create document
             doc = {
-                'canonical_id': canonical_id,
-                'content_hash': content_hash,
-                'file_hash': file_hash,
-                'document_type': metadata.get('document_type', 'email'),
-                'title': metadata.get('title'),
-                'date': metadata.get('date'),
-                'from_person': metadata.get('from'),
-                'to_persons': metadata.get('to', []),
-                'subject': metadata.get('subject'),
-                'ocr_quality': None,  # Markdown doesn't have OCR quality
-                'has_redactions': False,
-                'completeness': 'complete',
-                'page_count': 1,
-                'primary_source': 'test_import',
-                'selection_reason': 'initial_test_set'
+                "canonical_id": canonical_id,
+                "content_hash": content_hash,
+                "file_hash": file_hash,
+                "document_type": metadata.get("document_type", "email"),
+                "title": metadata.get("title"),
+                "date": metadata.get("date"),
+                "from_person": metadata.get("from"),
+                "to_persons": metadata.get("to", []),
+                "subject": metadata.get("subject"),
+                "ocr_quality": None,  # Markdown doesn't have OCR quality
+                "has_redactions": False,
+                "completeness": "complete",
+                "page_count": 1,
+                "primary_source": "test_import",
+                "selection_reason": "initial_test_set"
             }
 
             # Insert into database
@@ -130,21 +131,21 @@ def process_test_emails(db: CanonicalDatabase, email_dir: Path):
 
             # Add source
             db.insert_source({
-                'canonical_id': canonical_id,
-                'source_name': 'test_import',
-                'collection': 'initial_8_emails',
-                'file_path': str(email_file),
-                'format': 'markdown',
-                'download_date': datetime.now().isoformat()
+                "canonical_id": canonical_id,
+                "source_name": "test_import",
+                "collection": "initial_8_emails",
+                "file_path": str(email_file),
+                "format": "markdown",
+                "download_date": datetime.now().isoformat()
             })
 
             # Log processing
             db.log(
-                operation='import',
-                source='test_import',
-                status='success',
-                message=f'Imported {email_file.name}',
-                details={'canonical_id': canonical_id}
+                operation="import",
+                source="test_import",
+                status="success",
+                message=f"Imported {email_file.name}",
+                details={"canonical_id": canonical_id}
             )
 
             print(f"  ✓ {email_file.name} -> {canonical_id}")
@@ -153,11 +154,11 @@ def process_test_emails(db: CanonicalDatabase, email_dir: Path):
         except Exception as e:
             print(f"  ✗ {email_file.name}: {e}")
             db.log(
-                operation='import',
-                source='test_import',
-                status='error',
-                message=f'Failed to import {email_file.name}',
-                details={'error': str(e)}
+                operation="import",
+                source="test_import",
+                status="error",
+                message=f"Failed to import {email_file.name}",
+                details={"error": str(e)}
             )
 
     print(f"\nProcessed: {processed_count} new documents")
@@ -177,19 +178,19 @@ def extract_metadata(text: str) -> dict:
     metadata = {}
 
     # Simple frontmatter parser
-    if text.startswith('---'):
-        parts = text.split('---', 2)
+    if text.startswith("---"):
+        parts = text.split("---", 2)
         if len(parts) >= 3:
             frontmatter = parts[1]
-            for line in frontmatter.strip().split('\n'):
-                if ':' in line:
-                    key, value = line.split(':', 1)
+            for line in frontmatter.strip().split("\n"):
+                if ":" in line:
+                    key, value = line.split(":", 1)
                     key = key.strip()
                     value = value.strip()
 
                     # Handle lists
-                    if value.startswith('[') and value.endswith(']'):
-                        value = [v.strip().strip('"\'') for v in value[1:-1].split(',')]
+                    if value.startswith("[") and value.endswith("]"):
+                        value = [v.strip().strip('"\'') for v in value[1:-1].split(",")]
 
                     metadata[key] = value
 
@@ -203,7 +204,7 @@ def run_deduplication_test(db: CanonicalDatabase):
     Args:
         db: Database instance
     """
-    print(f"\n=== Testing Deduplication Engine ===")
+    print("\n=== Testing Deduplication Engine ===")
 
     # Get all documents
     with db.get_connection() as conn:
@@ -246,7 +247,7 @@ def test_bulk_performance(db: CanonicalDatabase):
 
     Simulates processing 1,000 documents to verify performance.
     """
-    print(f"\n=== Testing Bulk Performance ===")
+    print("\n=== Testing Bulk Performance ===")
 
     hasher = DocumentHasher()
 
@@ -273,7 +274,7 @@ def test_bulk_performance(db: CanonicalDatabase):
 
 def print_statistics(db: CanonicalDatabase):
     """Print database statistics."""
-    print(f"\n=== Database Statistics ===")
+    print("\n=== Database Statistics ===")
 
     stats = db.get_statistics()
 
@@ -282,9 +283,9 @@ def print_statistics(db: CanonicalDatabase):
     print(f"Duplicate groups: {stats['duplicate_groups']}")
     print(f"Avg sources per doc: {stats['avg_sources_per_doc']:.2f}")
 
-    if stats['documents_by_type']:
-        print(f"\nDocuments by type:")
-        for doc_type, count in stats['documents_by_type'].items():
+    if stats["documents_by_type"]:
+        print("\nDocuments by type:")
+        for doc_type, count in stats["documents_by_type"].items():
             print(f"  {doc_type}: {count}")
 
 
@@ -295,7 +296,7 @@ def verify_system_ready(db: CanonicalDatabase, db_path: Path) -> bool:
     Returns:
         True if system is ready
     """
-    print(f"\n=== System Readiness Check ===")
+    print("\n=== System Readiness Check ===")
 
     checks = []
 
@@ -314,7 +315,7 @@ def verify_system_ready(db: CanonicalDatabase, db_path: Path) -> bool:
 
     # Check 3: Test data loaded
     stats = db.get_statistics()
-    data_loaded = stats['total_documents'] > 0
+    data_loaded = stats["total_documents"] > 0
     checks.append(("Test data loaded", data_loaded))
 
     # Check 4: Indexes created
@@ -335,9 +336,9 @@ def verify_system_ready(db: CanonicalDatabase, db_path: Path) -> bool:
             all_passed = False
 
     if all_passed:
-        print(f"\n✓ System is READY for bulk processing")
+        print("\n✓ System is READY for bulk processing")
     else:
-        print(f"\n✗ System is NOT ready - fix issues above")
+        print("\n✗ System is NOT ready - fix issues above")
 
     return all_passed
 
@@ -372,7 +373,7 @@ def main():
     is_ready = verify_system_ready(db, db_path)
 
     # Print summary
-    print(f"\n" + "=" * 60)
+    print("\n" + "=" * 60)
     print("INITIALIZATION COMPLETE")
     print("=" * 60)
 
@@ -380,13 +381,13 @@ def main():
     print(f"Size: {db_path.stat().st_size / 1024:.1f} KB")
 
     if is_ready:
-        print(f"\n✓ System ready for House Oversight collection processing")
-        print(f"\nNext steps:")
-        print(f"  1. Run: python scripts/process_bulk_emails.py <email_directory>")
-        print(f"  2. Monitor processing with database statistics")
-        print(f"  3. Review duplicates and quality metrics")
+        print("\n✓ System ready for House Oversight collection processing")
+        print("\nNext steps:")
+        print("  1. Run: python scripts/process_bulk_emails.py <email_directory>")
+        print("  2. Monitor processing with database statistics")
+        print("  3. Review duplicates and quality metrics")
     else:
-        print(f"\n✗ Fix issues above before bulk processing")
+        print("\n✗ Fix issues above before bulk processing")
         sys.exit(1)
 
 

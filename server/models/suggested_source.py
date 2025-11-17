@@ -7,11 +7,12 @@ Rejected SQLite for this use case to minimize dependencies and complexity.
 Future: Migrate to SQLite when volume exceeds 10,000 suggestions.
 """
 
-from pydantic import BaseModel, Field, HttpUrl, field_validator
-from typing import Optional, List
+import uuid
 from datetime import datetime
 from enum import Enum
-import uuid
+from typing import List, Optional
+
+from pydantic import BaseModel, Field, field_validator
 
 
 class SourceStatus(str, Enum):
@@ -37,20 +38,20 @@ class SuggestedSourceCreate(BaseModel):
     url: str = Field(..., description="URL of the document source")
     description: str = Field(..., min_length=10, max_length=2000, description="Description of the source")
     source_name: Optional[str] = Field(None, max_length=200, description="Name of the source (optional)")
-    submitter_email: Optional[str] = Field(None, pattern=r'^[\w\.-]+@[\w\.-]+\.\w+$', description="Submitter's email (optional)")
+    submitter_email: Optional[str] = Field(None, pattern=r"^[\w\.-]+@[\w\.-]+\.\w+$", description="Submitter's email (optional)")
     priority: SourcePriority = Field(default=SourcePriority.MEDIUM, description="Suggested priority level")
     document_count_estimate: Optional[int] = Field(None, ge=0, description="Estimated number of documents")
     tags: List[str] = Field(default_factory=list, description="Tags for categorization")
 
-    @field_validator('url')
+    @field_validator("url")
     @classmethod
     def validate_url_scheme(cls, v: str) -> str:
         """Ensure URL uses HTTP/HTTPS only"""
-        if not v.startswith(('http://', 'https://')):
+        if not v.startswith(("http://", "https://")):
             raise ValueError("URL must start with http:// or https://")
         return v
 
-    @field_validator('tags')
+    @field_validator("tags")
     @classmethod
     def validate_tags(cls, v: List[str]) -> List[str]:
         """Limit number of tags and normalize"""

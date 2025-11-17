@@ -2,12 +2,21 @@
 """
 Rebuild flight network from raw flight logs
 Groups passengers by flight to find co-occurrences
+Applies entity name normalization to consolidate name variations
 """
 
 import json
-from pathlib import Path
-from collections import defaultdict
 import re
+import sys
+from collections import defaultdict
+from pathlib import Path
+
+
+# Add utils to path for entity normalization and filtering
+sys.path.insert(0, str(Path(__file__).parent.parent / "utils"))
+from entity_filtering import EntityFilter
+from entity_normalization import EntityNormalizer
+
 
 PROJECT_ROOT = Path("/Users/masa/Projects/Epstein")
 DATA_DIR = PROJECT_ROOT / "data"
@@ -19,14 +28,21 @@ def parse_flight_logs_for_network():
     """
     Parse flight logs and group passengers by flight
     Each flight is identified by date + tail number + route
+    Applies entity name normalization to consolidate variations
     """
 
     raw_text = RAW_DIR / "flight_logs_raw.txt"
 
     print(f"Reading flight logs from {raw_text.name}...")
 
-    with open(raw_text, 'r', encoding='utf-8') as f:
+    with open(raw_text, encoding="utf-8") as f:
         lines = f.readlines()
+
+    # Initialize entity normalizer and filter
+    normalizer = EntityNormalizer()
+    entity_filter = EntityFilter()
+    print(f"  Loaded {normalizer.stats()['total_mappings']} entity name mappings")
+    print(f"  Loaded {entity_filter.get_filtered_count()} generic entity filters")
 
     # Group by flight
     flights = defaultdict(lambda: {
@@ -43,35 +59,35 @@ def parse_flight_logs_for_network():
             continue
 
         # Extract date
-        date_match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})', line)
+        date_match = re.search(r"(\d{1,2}/\d{1,2}/\d{4})", line)
         if not date_match:
             continue
         date = date_match.group(1)
 
         # Extract tail number
-        tail_match = re.search(r'(N\d{3,5}[A-Z]{0,2})', line)
+        tail_match = re.search(r"(N\d{3,5}[A-Z]{0,2})", line)
         tail = tail_match.group(1) if tail_match else "UNKNOWN"
 
         # Extract airports
-        airport_matches = re.findall(r'\b([A-Z]{3})\b', line)
+        airport_matches = re.findall(r"\b([A-Z]{3})\b", line)
         dep = airport_matches[0] if len(airport_matches) > 0 else ""
         arr = airport_matches[1] if len(airport_matches) > 1 else ""
         route = f"{dep}-{arr}" if dep and arr else "UNKNOWN"
 
         # Extract passenger name
         # Try main pattern first
-        name_match = re.search(r'([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\s+[A-Z?]{1,3}\s+(?:Yes|No)\s+Flight Log', line)
+        name_match = re.search(r"([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\s+[A-Z?]{1,3}\s+(?:Yes|No)\s+Flight Log", line)
 
         if name_match:
             full_name = name_match.group(1).strip()
         else:
             # Try alternate pattern for "Female (1)" etc
-            alt_match = re.search(r'((?:Female|Male|Nanny)\s*\(\d+\))', line)
+            alt_match = re.search(r"((?:Female|Male|Nanny)\s*\(\d+\))", line)
             if alt_match:
                 full_name = alt_match.group(1).strip()
             else:
                 # Try another pattern
-                cols_match = re.search(r'([A-Z][a-z]+)\s+([A-Z][a-z]+)\s+\2,\s+\1\s+\1\s+\2', line)
+                cols_match = re.search(r"([A-Z][a-z]+)\s+([A-Z][a-z]+)\s+\2,\s+\1\s+\1\s+\2", line)
                 if cols_match:
                     full_name = f"{cols_match.group(1)} {cols_match.group(2)}"
                 else:
@@ -80,10 +96,17 @@ def parse_flight_logs_for_network():
         if not full_name or len(full_name) < 2:
             continue
 
+        # Normalize entity name before adding to flight
+        normalized_name = normalizer.normalize(full_name)
+
+        # Skip generic entities (Male, Female, Nanny (1), etc.)
+        if entity_filter.is_generic(normalized_name):
+            continue
+
         # Create unique flight identifier
         flight_id = f"{date}_{tail}_{route}"
 
-        flights[flight_id]["passengers"].add(full_name)
+        flights[flight_id]["passengers"].add(normalized_name)
         flights[flight_id]["date"] = date
         flights[flight_id]["tail"] = tail
         flights[flight_id]["route"] = route
@@ -104,7 +127,7 @@ def parse_flight_logs_for_network():
 
     # Save flights with passengers
     flights_output = MD_DIR / "flight_logs_by_flight.json"
-    with open(flights_output, 'w') as f:
+    with open(flights_output, "w") as f:
         json.dump({
             "total_flights": len(flights_list),
             "flights": flights_list
@@ -171,18 +194,33 @@ def export_network_graph(edges, connections):
 
     print("\nExporting network graph...")
 
+    # Initialize normalizer
+    normalizer = EntityNormalizer()
+
     # Load entity index
     entities_index = MD_DIR / "ENTITIES_INDEX.json"
     with open(entities_index) as f:
         entities_data = json.load(f)
 
-    # Create lookup
+    # Create lookup with normalization
     entity_lookup = {}
     if "entities" in entities_data:
         for entity in entities_data["entities"]:
             name = entity.get("name", "").strip()
             if name:
-                entity_lookup[name] = entity
+                # Store by normalized name
+                normalized_name = normalizer.normalize(name)
+                if normalized_name not in entity_lookup:
+                    entity_lookup[normalized_name] = entity
+                else:
+                    # Merge data if entity already exists under different variant
+                    existing = entity_lookup[normalized_name]
+                    # Sum trips/flights
+                    existing["trips"] = existing.get("trips", 0) + entity.get("trips", 0)
+                    # Merge sources
+                    existing_sources = set(existing.get("sources", []))
+                    new_sources = set(entity.get("sources", []))
+                    existing["sources"] = list(existing_sources | new_sources)
 
     # Create nodes
     nodes = []
@@ -213,7 +251,7 @@ def export_network_graph(edges, connections):
         "edges": edges
     }
 
-    with open(graph_output, 'w') as f:
+    with open(graph_output, "w") as f:
         json.dump(graph_data, f, indent=2)
 
     print(f"✓ Saved network graph: {graph_output}")

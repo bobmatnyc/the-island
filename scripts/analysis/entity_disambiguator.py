@@ -6,11 +6,11 @@ Uses fuzzy matching and heuristics to find similar names
 """
 
 import json
-from pathlib import Path
-from typing import Dict, List, Set, Tuple
-from difflib import SequenceMatcher
-from collections import defaultdict
 import re
+from difflib import SequenceMatcher
+from pathlib import Path
+from typing import Dict, List
+
 
 PROJECT_ROOT = Path("/Users/masa/Projects/Epstein")
 DATA_DIR = PROJECT_ROOT / "data"
@@ -45,10 +45,10 @@ class EntityDisambiguator:
     def normalize_name(self, name: str) -> str:
         """Normalize name for comparison"""
         # Remove extra whitespace
-        name = re.sub(r'\s+', ' ', name.strip())
+        name = re.sub(r"\s+", " ", name.strip())
 
         # Remove common suffixes
-        name = re.sub(r'\s+(Jr\.?|Sr\.?|III?|IV)$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r"\s+(Jr\.?|Sr\.?|III?|IV)$", "", name, flags=re.IGNORECASE)
 
         # Lowercase for comparison
         return name.lower()
@@ -161,7 +161,7 @@ class EntityDisambiguator:
         # Merge contact info if available
         contact_info = {}
         for entity in entity_group:
-            if "contact_info" in entity and entity["contact_info"]:
+            if entity.get("contact_info"):
                 contact_info.update(entity["contact_info"])
 
         if contact_info:
@@ -193,7 +193,7 @@ class EntityDisambiguator:
             merged = self.merge_entities(group)
 
             report.append(f"\n{i}. Canonical: {merged['name']} ({len(group)} variations)")
-            report.append(f"   Variations:")
+            report.append("   Variations:")
             for entity in group:
                 name = entity.get("name", "")
                 trips = entity.get("trips", 0)
@@ -246,7 +246,7 @@ class EntityDisambiguator:
             "entities": merged_entities
         }
 
-        with open(output_path, 'w') as f:
+        with open(output_path, "w") as f:
             json.dump(output_data, f, indent=2)
 
         print(f"✓ Exported merged index: {output_path}")

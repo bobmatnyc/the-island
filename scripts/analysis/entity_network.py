@@ -5,10 +5,11 @@ Creates network graph from flight co-occurrences and contact book overlaps
 """
 
 import json
-from pathlib import Path
-from typing import Dict, List, Set, Tuple
 from collections import defaultdict
 from dataclasses import dataclass
+from pathlib import Path
+from typing import Dict, List, Set
+
 
 PROJECT_ROOT = Path("/Users/masa/Projects/Epstein")
 DATA_DIR = PROJECT_ROOT / "data"
@@ -72,7 +73,7 @@ class EntityNetworkBuilder:
         with open(flight_logs_stats_path) as f:
             data = json.load(f)
 
-        print(f"\nBuilding co-occurrence network from flight logs...")
+        print("\nBuilding co-occurrence network from flight logs...")
 
         flights_processed = 0
 
@@ -177,7 +178,7 @@ class EntityNetworkBuilder:
             "edges": edges_list
         }
 
-        with open(output_path, 'w') as f:
+        with open(output_path, "w") as f:
             json.dump(graph_data, f, indent=2)
 
         print(f"\n✓ Exported graph: {output_path}")

@@ -4,11 +4,11 @@ Entity-based document search
 Search documents by entity mentions, document type, or keywords
 """
 
-import json
 import argparse
+import json
 from pathlib import Path
-from typing import List, Dict, Set
-import sys
+from typing import Dict, List
+
 
 PROJECT_ROOT = Path("/Users/masa/Projects/Epstein")
 DATA_DIR = PROJECT_ROOT / "data"
@@ -263,7 +263,7 @@ def main():
             print(f"  Flight Count: {result['flight_count']}")
             print(f"  Total Connections: {result['connection_count']}")
             print("\nTop Connections:")
-            for conn in result['top_connections']:
+            for conn in result["top_connections"]:
                 print(f"  - {conn['connected_to']:40s}: {conn['flights_together']} flights together")
 
     elif args.multiple:

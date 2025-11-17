@@ -9,10 +9,10 @@ Usage:
     python bump_version.py [major|minor|patch]
 """
 
-import sys
 import re
-from pathlib import Path
+import sys
 from datetime import datetime
+from pathlib import Path
 
 
 class VersionBumper:
@@ -147,14 +147,14 @@ def main():
 
     print()
     print(f"✅ Version bumped to {new_version}")
-    print(f"✅ CHANGELOG.md updated")
+    print("✅ CHANGELOG.md updated")
     print()
     print("Next steps:")
-    print(f"  1. Review CHANGELOG.md")
-    print(f"  2. Commit changes: git add VERSION CHANGELOG.md")
+    print("  1. Review CHANGELOG.md")
+    print("  2. Commit changes: git add VERSION CHANGELOG.md")
     print(f"  3. Commit: git commit -m 'chore: bump version to {new_version}'")
     print(f"  4. Tag release: git tag -a v{new_version} -m 'Release {new_version}'")
-    print(f"  5. Push: git push && git push --tags")
+    print("  5. Push: git push && git push --tags")
 
 
 if __name__ == "__main__":

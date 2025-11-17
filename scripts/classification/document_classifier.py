@@ -5,11 +5,11 @@ Classifies documents into 11 primary categories with confidence scoring
 """
 
 import re
-import json
-from pathlib import Path
-from typing import Dict, List, Tuple
 from dataclasses import dataclass
 from enum import Enum
+from pathlib import Path
+from typing import Dict, List, Tuple
+
 
 class DocumentType(Enum):
     """Document classification categories"""
@@ -306,7 +306,7 @@ class DocumentClassifier:
     def classify_file(self, filepath: Path) -> ClassificationResult:
         """Classify a file by reading its content"""
         try:
-            text = filepath.read_text(encoding='utf-8', errors='ignore')
+            text = filepath.read_text(encoding="utf-8", errors="ignore")
             return self.classify(text, filepath.name)
         except Exception as e:
             return ClassificationResult(

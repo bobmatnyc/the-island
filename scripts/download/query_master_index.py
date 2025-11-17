@@ -10,10 +10,9 @@ Usage:
     python3 query_master_index.py --hash 674c8534bc4b8b4c
 """
 
-import json
 import argparse
+import json
 from pathlib import Path
-from typing import Dict, List, Optional
 
 
 class MasterIndexQuery:
@@ -29,7 +28,7 @@ class MasterIndexQuery:
         self.index_path = base_dir / "data" / "metadata" / "master_document_index.json"
 
         # Load index
-        with open(self.index_path, 'r') as f:
+        with open(self.index_path) as f:
             self.index = json.load(f)
 
     def print_stats(self) -> None:
@@ -50,8 +49,8 @@ class MasterIndexQuery:
         print("SOURCES:")
         print("-" * 70)
         total_docs = 0
-        for source, info in sorted(self.index['sources'].items(), key=lambda x: x[1]['document_count'], reverse=True):
-            count = info['document_count']
+        for source, info in sorted(self.index["sources"].items(), key=lambda x: x[1]["document_count"], reverse=True):
+            count = info["document_count"]
             total_docs += count
             print(f"  {source:30s}: {count:6,} documents")
         print("-" * 70)
@@ -59,7 +58,7 @@ class MasterIndexQuery:
         print()
 
         # Calculate total storage
-        total_size = sum(doc['size'] for doc in self.index['documents'])
+        total_size = sum(doc["size"] for doc in self.index["documents"])
         print(f"Total Storage (unique docs): {total_size / (1024**3):.2f} GB")
 
     def list_duplicates(self, limit: int = 20) -> None:
@@ -74,15 +73,15 @@ class MasterIndexQuery:
         print()
 
         # Get documents with duplicates
-        dup_docs = [d for d in self.index['documents'] if d['duplicate_count'] > 0]
-        dup_docs.sort(key=lambda x: x['duplicate_count'], reverse=True)
+        dup_docs = [d for d in self.index["documents"] if d["duplicate_count"] > 0]
+        dup_docs.sort(key=lambda x: x["duplicate_count"], reverse=True)
 
         for i, doc in enumerate(dup_docs[:limit], 1):
             print(f"{i}. Hash: {doc['hash'][:16]}... ({doc['duplicate_count']} duplicates)")
             print(f"   Canonical: {doc['canonical_path']}")
             print(f"   Size: {doc['size'] / (1024**2):.1f} MB")
             print(f"   Sources ({doc['source_count']}):")
-            for source in doc['sources']:
+            for source in doc["sources"]:
                 print(f"     - {source}")
             print()
 
@@ -97,15 +96,15 @@ class MasterIndexQuery:
         print("=" * 70)
         print()
 
-        if source_name not in self.index['sources']:
+        if source_name not in self.index["sources"]:
             print(f"Error: Source '{source_name}' not found")
             print(f"Available sources: {', '.join(self.index['sources'].keys())}")
             return
 
         # Find all docs from this source
         matching_docs = []
-        for doc in self.index['documents']:
-            for source in doc['sources']:
+        for doc in self.index["documents"]:
+            for source in doc["sources"]:
                 if source_name in source:
                     matching_docs.append(doc)
                     break
@@ -114,13 +113,13 @@ class MasterIndexQuery:
         print()
 
         # Show top 10 by size
-        matching_docs.sort(key=lambda x: x['size'], reverse=True)
+        matching_docs.sort(key=lambda x: x["size"], reverse=True)
         print("Top 10 by size:")
         for i, doc in enumerate(matching_docs[:10], 1):
             print(f"{i}. {doc['canonical_path']}")
             print(f"   Size: {doc['size'] / (1024**2):.1f} MB")
             print(f"   Hash: {doc['hash'][:16]}...")
-            if doc['duplicate_count'] > 0:
+            if doc["duplicate_count"] > 0:
                 print(f"   Duplicates: {doc['duplicate_count']} in other sources")
             print()
 
@@ -135,7 +134,7 @@ class MasterIndexQuery:
         print("=" * 70)
         print()
 
-        matching_docs = [d for d in self.index['documents'] if d['hash'].startswith(hash_prefix)]
+        matching_docs = [d for d in self.index["documents"] if d["hash"].startswith(hash_prefix)]
 
         if not matching_docs:
             print(f"No documents found matching hash prefix: {hash_prefix}")
@@ -149,7 +148,7 @@ class MasterIndexQuery:
             print(f"Duplicate Count: {doc['duplicate_count']}")
             print()
             print("All sources:")
-            for source in doc['sources']:
+            for source in doc["sources"]:
                 print(f"  - {source}")
             print()
 
@@ -162,30 +161,30 @@ class MasterIndexQuery:
 
         # Find docs with different source directories
         cross_source = []
-        for doc in self.index['documents']:
-            if doc['source_count'] > 1:
+        for doc in self.index["documents"]:
+            if doc["source_count"] > 1:
                 # Extract source directories
                 source_dirs = set()
-                for source_path in doc['sources']:
+                for source_path in doc["sources"]:
                     parts = Path(source_path).parts
                     if len(parts) >= 3:  # data/sources/SOURCE_NAME
                         source_dirs.add(parts[2])
 
                 if len(source_dirs) > 1:
                     cross_source.append({
-                        'doc': doc,
-                        'source_dirs': source_dirs
+                        "doc": doc,
+                        "source_dirs": source_dirs
                     })
 
-        cross_source.sort(key=lambda x: len(x['source_dirs']), reverse=True)
+        cross_source.sort(key=lambda x: len(x["source_dirs"]), reverse=True)
 
         print(f"Found {len(cross_source)} documents appearing in multiple sources")
         print()
 
         # Show top 20
         for i, item in enumerate(cross_source[:20], 1):
-            doc = item['doc']
-            sources = item['source_dirs']
+            doc = item["doc"]
+            sources = item["source_dirs"]
             print(f"{i}. {doc['canonical_path']}")
             print(f"   Size: {doc['size'] / (1024**2):.1f} MB")
             print(f"   Appears in {len(sources)} different sources: {', '.join(sorted(sources))}")
@@ -194,13 +193,13 @@ class MasterIndexQuery:
 
 def main():
     """Main execution."""
-    parser = argparse.ArgumentParser(description='Query master document index')
-    parser.add_argument('--stats', action='store_true', help='Show statistics')
-    parser.add_argument('--duplicates', action='store_true', help='List duplicate sets')
-    parser.add_argument('--source', type=str, help='Search by source name')
-    parser.add_argument('--hash', type=str, help='Search by hash prefix')
-    parser.add_argument('--cross-source', action='store_true', help='Find cross-source duplicates')
-    parser.add_argument('--limit', type=int, default=20, help='Limit results (default: 20)')
+    parser = argparse.ArgumentParser(description="Query master document index")
+    parser.add_argument("--stats", action="store_true", help="Show statistics")
+    parser.add_argument("--duplicates", action="store_true", help="List duplicate sets")
+    parser.add_argument("--source", type=str, help="Search by source name")
+    parser.add_argument("--hash", type=str, help="Search by hash prefix")
+    parser.add_argument("--cross-source", action="store_true", help="Find cross-source duplicates")
+    parser.add_argument("--limit", type=int, default=20, help="Limit results (default: 20)")
 
     args = parser.parse_args()
 

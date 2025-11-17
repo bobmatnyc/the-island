@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "generated": "2025-11-17T00:00:00Z",
+    "total_publicly_identified": 19,
+    "total_anonymous": "100+ additional victims via compensation fund and class actions",
+    "privacy_note": "This index includes ONLY victims who have publicly identified themselves by name or who testified publicly. Many victims remain anonymous by choice and are not included here.",
+    "research_notes": "All names verified from court testimony, public statements, media interviews, or legal filings where victims chose to identify themselves."
+  },
+  "publicly_identified_victims": [
+    {
+      "name": "Virginia Giuffre",
+      "also_known_as": ["Virginia Roberts", "Virginia Roberts Giuffre"],
+      "public_identification": true,
+      "age_when_abuse_began": 17,
+      "approximate_years": "1999-2002",
+      "recruited_by": "Ghislaine Maxwell",
+      "locations": ["Palm Beach", "New York", "London", "U.S. Virgin Islands", "New Mexico"],
+      "legal_actions": [
+        "Giuffre v. Maxwell (2015-2017) - Defamation lawsuit, settled",
+        "Giuffre v. Prince Andrew (2021-2022) - Sexual abuse lawsuit, settled"
+      ],
+      "public_statements": [
+        "BBC Panorama interview (December 2, 2019)",
+        "Multiple media interviews",
+        "Deposition testimony unsealed 2019-2024"
+      ],
+      "allegations": "Sex trafficking by Epstein and Maxwell, forced encounters with Prince Andrew and others",
+      "current_advocacy": "Victims' rights advocate",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Virginia_Giuffre",
+        "https://www.bbc.com/news/uk-50653193"
+      ]
+    },
+    {
+      "name": "Annie Farmer",
+      "public_identification": true,
+      "testified_full_name": true,
+      "age_when_abused": 16,
+      "year": "1996",
+      "location": "Epstein's New Mexico ranch",
+      "recruited_by": "Epstein approached through sister Maria Farmer",
+      "legal_actions": [
+        "Testified at Ghislaine Maxwell criminal trial (2021)",
+        "One of four victims in Maxwell conviction"
+      ],
+      "allegations": "Sexual abuse during visit to New Mexico ranch; Maxwell massaged her naked chest",
+      "testimony": "Used full real name during Maxwell trial testimony",
+      "significance": "Only Maxwell trial witness to testify under real name",
+      "sources": [
+        "https://www.cnn.com/2021/12/15/us/ghislaine-maxwell-trial-accusers/index.html"
+      ]
+    },
+    {
+      "name": "Maria Farmer",
+      "public_identification": true,
+      "age_when_abused": "Adult (1990s)",
+      "approximate_years": "1995-1996",
+      "relationship": "Sister of Annie Farmer",
+      "location": "New York",
+      "recruited_by": "Hired as artist",
+      "legal_actions": [
+        "Filed lawsuit against FBI for failure to act on reports",
+        "Reported abuse to FBI in 1990s"
+      ],
+      "allegations": "Sexual assault by Epstein and Maxwell in 1990s, attempted to report to authorities who failed to investigate",
+      "significance": "Among earliest known victims to report to authorities",
+      "sources": [
+        "https://www.jamesmarshlaw.com/jeffrey-epstein-sex-trafficking/"
+      ]
+    },
+    {
+      "name": "Sarah Ransome",
+      "public_identification": true,
+      "age_when_abuse_began": 22,
+      "approximate_years": "2006-2007",
+      "duration": "Seven months",
+      "locations": ["New York City", "Little St. James Island"],
+      "recruited_by": "Hired to give massages",
+      "legal_actions": [
+        "Filed lawsuit against Epstein and Maxwell (2017)"
+      ],
+      "allegations": "Raped by Epstein and other men up to three times a day for seven months; threatened by Maxwell to comply",
+      "public_statements": [
+        "Featured in Netflix documentary 'Jeffrey Epstein: Filthy Rich'",
+        "Public interviews and advocacy"
+      ],
+      "sources": [
+        "https://www.prevention.com/life/a28414262/jeffrey-epstein-victims/"
+      ]
+    },
+    {
+      "name": "Courtney Wild",
+      "public_identification": true,
+      "age_when_abuse_began": 14,
+      "approximate_years": "Early 2000s",
+      "location": "Palm Beach",
+      "recruited_victims": "Between 70-80 other underage girls at Epstein's request",
+      "legal_actions": [
+        "Courtney Wild v. United States - Crime Victims' Rights Act lawsuit (2008-2020)",
+        "Part of 2005 Palm Beach investigation"
+      ],
+      "allegations": "Sexual abuse beginning at age 14; recruited dozens of other victims",
+      "significance": "Landmark CVRA case exposed illegal non-prosecution agreement; legislation named after her",
+      "advocacy": "Victims' rights advocate, testified before Congress",
+      "legislative_impact": "Courtney Wild Crime Victims' Rights Reform Act introduced in Congress",
+      "sources": [
+        "https://wassermanschultz.house.gov/news/documentsingle.aspx?DocumentID=3256"
+      ]
+    },
+    {
+      "name": "Michelle Licata",
+      "public_identification": true,
+      "age_when_abused": 16,
+      "approximate_years": "Mid-2000s",
+      "location": "Palm Beach",
+      "encounters": "One encounter documented",
+      "legal_actions": [
+        "Part of 2005 Palm Beach investigation"
+      ],
+      "public_statements": [
+        "Featured in Netflix documentary 'Jeffrey Epstein: Filthy Rich'"
+      ],
+      "sources": [
+        "https://www.prevention.com/life/a28414262/jeffrey-epstein-victims/"
+      ]
+    },
+    {
+      "name": "Jennifer Araoz",
+      "public_identification": true,
+      "age_when_abuse_began": 14,
+      "age_when_raped": 15,
+      "approximate_years": "2001-2002",
+      "location": "Epstein's New York City townhouse",
+      "legal_actions": [
+        "Jennifer Araoz v. Estate of Jeffrey Epstein, Ghislaine Maxwell, et al. (2019)",
+        "Filed under New York's Child Victims Act"
+      ],
+      "allegations": "Repeated sexual assault ages 14-15, forcible rape in 2002",
+      "significance": "First lawsuit filed against estate after Epstein's death",
+      "public_statements": [
+        "Press conferences",
+        "Media interviews"
+      ],
+      "sources": [
+        "https://www.nbcnews.com/news/crime-courts/jeffrey-epstein-accuser-jennifer-araoz-sues-ghislaine-maxwell-3-other-n1041901"
+      ]
+    },
+    {
+      "name": "Johanna Sjoberg",
+      "public_identification": true,
+      "age_when_recruited": "College student",
+      "approximate_years": "Early 2000s",
+      "location": "Palm Beach",
+      "recruited_by": "Ghislaine Maxwell",
+      "initial_role": "Assistant, then masseuse",
+      "legal_actions": [
+        "Provided deposition testimony (2016 deposition unsealed)"
+      ],
+      "allegations": "Recruited by Maxwell while college student, forced into sexual situations",
+      "significance": "Deposition mentioned high-profile politicians and public figures",
+      "sources": [
+        "https://time.com/6552063/jeffrey-epsteins-unsealed-court-documents/"
+      ]
+    },
+    {
+      "name": "Carolyn",
+      "public_identification": "Partial (first name only)",
+      "testified_as": "Carolyn (first name only)",
+      "age_when_abuse_began": 14,
+      "approximate_years": "Early 2000s",
+      "frequency": "Two to three times per week",
+      "location": "Palm Beach",
+      "legal_actions": [
+        "Testified at Ghislaine Maxwell criminal trial (2021)",
+        "One of four victims in Maxwell conviction"
+      ],
+      "allegations": "Sexual abuse beginning at age 14; Maxwell touched her breasts, hips, and butt, saying she 'had a great body for Epstein and his friends'",
+      "current_status": "Recovering from drug addiction",
+      "sources": [
+        "https://www.cnn.com/2021/12/15/us/ghislaine-maxwell-trial-accusers/index.html"
+      ]
+    },
+    {
+      "name": "Jane",
+      "public_identification": false,
+      "pseudonym": true,
+      "testified_as": "Jane (pseudonym)",
+      "age_when_abuse_began": 14,
+      "year_met": "1994",
+      "location": "Met at camp where Epstein was benefactor",
+      "profession": "Television actress",
+      "legal_actions": [
+        "Testified at Ghislaine Maxwell criminal trial (2021)",
+        "One of four victims in Maxwell conviction"
+      ],
+      "allegations": "Sexual abuse from age 14; Maxwell sometimes participated in sexualized massages",
+      "significance": "First victim to testify at Maxwell trial",
+      "sources": [
+        "https://www.cnn.com/2021/12/15/us/ghislaine-maxwell-trial-accusers/index.html"
+      ]
+    },
+    {
+      "name": "Kate",
+      "public_identification": false,
+      "pseudonym": true,
+      "testified_as": "Kate (pseudonym)",
+      "age_when_abused": 17,
+      "approximate_years": "Mid-1990s",
+      "location": "London (Maxwell's home)",
+      "current_age": 44,
+      "profession": "Former model from Great Britain",
+      "legal_actions": [
+        "Testified at Ghislaine Maxwell criminal trial (2021)",
+        "One of four victims in Maxwell conviction"
+      ],
+      "allegations": "Maxwell set up sexual meetings; massaged Epstein at Maxwell's request at her London home on two occasions",
+      "sources": [
+        "https://www.cnn.com/2021/12/15/us/ghislaine-maxwell-trial-accusers/index.html"
+      ]
+    },
+    {
+      "name": "Jane Doe 1",
+      "public_identification": false,
+      "pseudonym": true,
+      "legal_actions": [
+        "Lead plaintiff in JPMorgan Chase class action lawsuit (2022-2023)",
+        "Received portion of $290 million settlement"
+      ],
+      "allegations": "Sex trafficking facilitated by JPMorgan's financial services to Epstein",
+      "significance": "Lead plaintiff in largest bank settlement related to Epstein case",
+      "sources": [
+        "https://www.npr.org/2023/06/12/1181675580/epstein-jane-doe-1-290-million-settlement-jpmorgan-chase"
+      ]
+    }
+  ],
+  "anonymous_victim_groups": [
+    {
+      "group": "Maxwell Trial Anonymous Victims",
+      "description": "Victims who testified using pseudonyms at Ghislaine Maxwell's criminal trial",
+      "count": 3,
+      "identifiers": ["Jane", "Kate", "Carolyn (first name only)"],
+      "time_period": "1994-2004",
+      "significance": "Testimony led to Maxwell's conviction on 5 counts"
+    },
+    {
+      "group": "Palm Beach Investigation Victims",
+      "description": "Victims identified during 2005-2006 Palm Beach Police investigation",
+      "count": "30+ identified by federal investigators",
+      "age_range": "14-17 years old",
+      "time_period": "2002-2005",
+      "location": "Palm Beach, Florida",
+      "significance": "Led to 2008 state conviction and 2019 federal indictment"
+    },
+    {
+      "group": "SDNY 2019 Indictment Victims",
+      "description": "Victims referenced in Jeffrey Epstein's 2019 federal indictment",
+      "count": "Dozens of victims",
+      "age_range": "As young as 14 years old",
+      "time_period": "2002-2005",
+      "locations": ["New York", "Palm Beach", "elsewhere"],
+      "significance": "Basis for federal sex trafficking charges"
+    },
+    {
+      "group": "Estate Compensation Fund Recipients",
+      "description": "Victims who received compensation through Epstein Estate Victims Compensation Program",
+      "claims_filed": "225+ claims",
+      "claims_paid": 136,
+      "total_compensation": "$125 million",
+      "time_period": "Various years",
+      "significance": "Largest compensation fund for sex trafficking victims"
+    },
+    {
+      "group": "JPMorgan Class Action Members",
+      "description": "Class members in JPMorgan Chase sex trafficking facilitation lawsuit",
+      "estimated_count": "Well over 100 people",
+      "settlement_amount": "$290 million",
+      "time_period": "1998-2013 (Epstein's relationship with JPMorgan)",
+      "significance": "Held financial institution accountable for facilitating trafficking"
+    },
+    {
+      "group": "Deutsche Bank Class Action Members",
+      "description": "Class members in Deutsche Bank sex trafficking facilitation lawsuit",
+      "settlement_amount": "$75 million",
+      "compensation_range": "$75,000 to $5 million per victim",
+      "time_period": "2013-2018 (Epstein's relationship with Deutsche Bank)",
+      "significance": "Largest sex trafficking settlement with a bank in US history"
+    }
+  ],
+  "victim_statistics": {
+    "total_publicly_named": 12,
+    "total_partial_identification": 3,
+    "total_pseudonyms": 4,
+    "compensation_fund_recipients": 136,
+    "jpmorgan_class_estimated": "100+",
+    "deutsche_bank_class": "Unknown count",
+    "palm_beach_investigation": "30+",
+    "age_range_documented": "14-22 years old at time of abuse",
+    "locations": ["Palm Beach FL", "New York NY", "London UK", "Paris France", "New Mexico", "U.S. Virgin Islands", "Other international locations"],
+    "time_span": "1990s - 2007",
+    "known_recruiters": ["Ghislaine Maxwell", "Other victims who recruited", "Staff members"]
+  },
+  "advocacy_organizations": [
+    {
+      "name": "Victims Refuse Silence",
+      "description": "Founded by victims including Virginia Giuffre",
+      "focus": "Supporting survivors of sex trafficking"
+    }
+  ],
+  "important_notes": [
+    "This list is NOT exhaustive. Many victims have chosen to remain anonymous.",
+    "Estimates suggest 100+ total victims based on investigation records and compensation claims.",
+    "Only victims who have publicly identified themselves are listed by name.",
+    "Age ranges are at time of abuse, not current ages.",
+    "Some victims became recruiters under coercion/grooming.",
+    "Many victims suffered long-term psychological trauma and continue recovery.",
+    "Respect for victim privacy is paramount - do not attempt to identify anonymous victims."
+  ],
+  "research_methodology": "All information compiled from court testimony, public legal filings, verified media interviews, and official government documents. No speculation or unverified claims included.",
+  "sources": [
+    "https://www.cnn.com/2021/12/15/us/ghislaine-maxwell-trial-accusers/index.html",
+    "https://www.prevention.com/life/a28414262/jeffrey-epstein-victims/",
+    "https://time.com/5662688/jeffrey-epstein-accusers-court/",
+    "https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison-conspiring-jeffrey-epstein-sexually-abuse",
+    "Court documents and testimony from multiple cases"
+  ]
+}

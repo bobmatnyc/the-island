@@ -8,8 +8,10 @@ This script validates that the OpenRouter API key and configuration work correct
 import os
 import sys
 from pathlib import Path
+
 from dotenv import load_dotenv
 from openai import OpenAI
+
 
 # Add project root to path
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -83,7 +85,7 @@ try:
     print()
 
     # Print usage info if available
-    if hasattr(completion, 'usage'):
+    if hasattr(completion, "usage"):
         usage = completion.usage
         print("Token Usage:")
         print(f"  Prompt tokens: {usage.prompt_tokens}")
@@ -96,7 +98,7 @@ try:
 except Exception as e:
     print("❌ ERROR: Failed to connect to OpenRouter API")
     print(f"Error type: {type(e).__name__}")
-    print(f"Error message: {str(e)}")
+    print(f"Error message: {e!s}")
     print()
     print("Troubleshooting:")
     print("1. Check that your API key is correct")

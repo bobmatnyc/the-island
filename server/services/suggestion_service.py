@@ -13,32 +13,33 @@ Future Optimization: Migrate to SQLite when suggestions exceed 5,000
 or when concurrent write load exceeds 10 writes/second.
 """
 
+import fcntl
+import json
+from contextlib import contextmanager
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import List, Optional
-from datetime import datetime, timedelta
-import json
-import fcntl
-from contextlib import contextmanager
+
 
 try:
     # Try relative import (when used as module)
     from ..models.suggested_source import (
+        SourcePriority,
+        SourceStatus,
         SuggestedSource,
         SuggestedSourceCreate,
         SuggestedSourceUpdate,
-        SourceStatus,
-        SourcePriority,
-        SuggestionStatistics
+        SuggestionStatistics,
     )
 except ImportError:
     # Fallback to absolute import (when used directly)
     from models.suggested_source import (
+        SourcePriority,
+        SourceStatus,
         SuggestedSource,
         SuggestedSourceCreate,
         SuggestedSourceUpdate,
-        SourceStatus,
-        SourcePriority,
-        SuggestionStatistics
+        SuggestionStatistics,
     )
 
 
@@ -76,7 +77,7 @@ class SuggestionService:
             self._write_suggestions([])
 
     @contextmanager
-    def _file_lock(self, mode: str = 'r'):
+    def _file_lock(self, mode: str = "r"):
         """Context manager for file locking
 
         Prevents concurrent write corruption using fcntl.flock.
@@ -103,12 +104,12 @@ class SuggestionService:
             return []
 
         try:
-            with self._file_lock('r') as f:
+            with self._file_lock("r") as f:
                 data = json.load(f)
                 return [SuggestedSource(**item) for item in data]
         except json.JSONDecodeError as e:
             # Attempt backup recovery
-            backup_path = self.storage_path.with_suffix('.json.bak')
+            backup_path = self.storage_path.with_suffix(".json.bak")
             if backup_path.exists():
                 try:
                     with open(backup_path) as f:
@@ -134,15 +135,15 @@ class SuggestionService:
         """
         # Create backup of existing file
         if self.storage_path.exists():
-            backup_path = self.storage_path.with_suffix('.json.bak')
+            backup_path = self.storage_path.with_suffix(".json.bak")
             import shutil
             shutil.copy2(self.storage_path, backup_path)
 
         # Write to temp file
-        temp_path = self.storage_path.with_suffix('.json.tmp')
-        data = [s.model_dump(mode='json') for s in suggestions]
+        temp_path = self.storage_path.with_suffix(".json.tmp")
+        data = [s.model_dump(mode="json") for s in suggestions]
 
-        with open(temp_path, 'w') as f:
+        with open(temp_path, "w") as f:
             json.dump(data, f, indent=2, default=str)
 
         # Atomic rename
@@ -317,12 +318,12 @@ class SuggestionService:
         suggestions = self._read_suggestions()
 
         # Count by status
-        status_counts = {status: 0 for status in SourceStatus}
+        status_counts = dict.fromkeys(SourceStatus, 0)
         for suggestion in suggestions:
             status_counts[suggestion.status] += 1
 
         # Count by priority
-        priority_counts = {priority: 0 for priority in SourcePriority}
+        priority_counts = dict.fromkeys(SourcePriority, 0)
         for suggestion in suggestions:
             priority_counts[suggestion.priority] += 1
 

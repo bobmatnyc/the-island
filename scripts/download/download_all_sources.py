@@ -15,22 +15,22 @@ Sources:
 
 import hashlib
 import json
-import re
-import time
-import requests
-from pathlib import Path
-from typing import Dict, List, Set, Optional, Tuple
-from datetime import datetime
-from urllib.parse import urljoin, urlparse
 import logging
-from dataclasses import dataclass, asdict
+import time
+from dataclasses import asdict, dataclass
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, List, Optional, Set, Tuple
+
+import requests
+
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler('/Users/masa/Projects/epstein/logs/download_all_sources.log'),
+        logging.FileHandler("/Users/masa/Projects/epstein/logs/download_all_sources.log"),
         logging.StreamHandler()
     ]
 )
@@ -84,10 +84,10 @@ class EpsteinDocumentDownloader:
         index_path = self.metadata_dir / "master_document_index.json"
         if index_path.exists():
             try:
-                with open(index_path, 'r') as f:
+                with open(index_path) as f:
                     index = json.load(f)
-                    for doc in index.get('documents', []):
-                        self.downloaded_hashes.add(doc['hash'])
+                    for doc in index.get("documents", []):
+                        self.downloaded_hashes.add(doc["hash"])
                 logger.info(f"Loaded {len(self.downloaded_hashes)} existing document hashes")
             except Exception as e:
                 logger.warning(f"Could not load existing index: {e}")
@@ -102,8 +102,8 @@ class EpsteinDocumentDownloader:
             Hex digest of SHA256 hash
         """
         sha256 = hashlib.sha256()
-        with open(filepath, 'rb') as f:
-            for chunk in iter(lambda: f.read(8192), b''):
+        with open(filepath, "rb") as f:
+            for chunk in iter(lambda: f.read(8192), b""):
                 sha256.update(chunk)
         return sha256.hexdigest()
 
@@ -143,7 +143,7 @@ class EpsteinDocumentDownloader:
             True if successfully downloaded (not duplicate), False otherwise
         """
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         }
 
         for attempt in range(max_retries):
@@ -153,7 +153,7 @@ class EpsteinDocumentDownloader:
                 response.raise_for_status()
 
                 # Write file
-                with open(output_path, 'wb') as f:
+                with open(output_path, "wb") as f:
                     for chunk in response.iter_content(chunk_size=8192):
                         if chunk:
                             f.write(chunk)
@@ -413,14 +413,13 @@ class EpsteinDocumentDownloader:
             # Choose canonical file (prefer certain sources, then alphabetically)
             # Priority: doj_official > fbi_vault > documentcloud > others
             def source_priority(f: Path) -> int:
-                if 'doj_official' in str(f):
+                if "doj_official" in str(f):
                     return 0
-                elif 'fbi_vault' in str(f):
+                if "fbi_vault" in str(f):
                     return 1
-                elif 'documentcloud' in str(f):
+                if "documentcloud" in str(f):
                     return 2
-                else:
-                    return 3
+                return 3
 
             canonical = sorted(files, key=lambda f: (source_priority(f), str(f)))[0]
 
@@ -436,11 +435,11 @@ class EpsteinDocumentDownloader:
             master_index["documents"].append(doc_entry)
 
         # Sort documents by size (largest first)
-        master_index["documents"].sort(key=lambda d: d['size'], reverse=True)
+        master_index["documents"].sort(key=lambda d: d["size"], reverse=True)
 
         # Save index
         index_path = self.metadata_dir / "master_document_index.json"
-        with open(index_path, 'w') as f:
+        with open(index_path, "w") as f:
             json.dump(master_index, f, indent=2)
 
         logger.info(f"\nMaster index saved: {index_path}")
@@ -461,7 +460,7 @@ class EpsteinDocumentDownloader:
 
         report_path = self.base_dir / "DOWNLOAD_DEDUPLICATION_REPORT.md"
 
-        with open(report_path, 'w') as f:
+        with open(report_path, "w") as f:
             f.write("# Epstein Document Collection - Download & Deduplication Report\n\n")
             f.write(f"**Generated**: {datetime.utcnow().isoformat()}\n\n")
 
@@ -480,31 +479,31 @@ class EpsteinDocumentDownloader:
             f.write("## Sources\n\n")
             f.write("| Source | Document Count | Path |\n")
             f.write("|--------|---------------|------|\n")
-            for source, info in sorted(master_index['sources'].items()):
+            for source, info in sorted(master_index["sources"].items()):
                 f.write(f"| {source} | {info['document_count']} | `{info['path']}` |\n")
 
             f.write("\n## Top 10 Largest Documents\n\n")
             f.write("| Size (MB) | Hash | Canonical Path | Sources |\n")
             f.write("|-----------|------|----------------|----------|\n")
-            for doc in master_index['documents'][:10]:
-                size_mb = doc['size'] / (1024**2)
-                hash_short = doc['hash'][:16]
-                source_count = doc['source_count']
+            for doc in master_index["documents"][:10]:
+                size_mb = doc["size"] / (1024**2)
+                hash_short = doc["hash"][:16]
+                source_count = doc["source_count"]
                 f.write(f"| {size_mb:.1f} | `{hash_short}...` | `{doc['canonical_path']}` | {source_count} |\n")
 
             f.write("\n## Duplicate Analysis\n\n")
-            if master_index['duplicate_sets'] > 0:
+            if master_index["duplicate_sets"] > 0:
                 f.write(f"Found {master_index['duplicate_sets']} sets of duplicate documents across sources.\n\n")
                 f.write("### Sample Duplicate Sets (showing first 10)\n\n")
 
                 # Get documents with duplicates
-                dup_docs = [d for d in master_index['documents'] if d['duplicate_count'] > 0][:10]
+                dup_docs = [d for d in master_index["documents"] if d["duplicate_count"] > 0][:10]
 
                 for i, doc in enumerate(dup_docs, 1):
                     f.write(f"#### Set {i} - Hash: `{doc['hash'][:16]}...`\n\n")
                     f.write(f"**Canonical**: `{doc['canonical_path']}`\n\n")
                     f.write("**All sources**:\n")
-                    for source in doc['sources']:
+                    for source in doc["sources"]:
                         f.write(f"- `{source}`\n")
                     f.write("\n")
             else:
@@ -527,13 +526,13 @@ class EpsteinDocumentDownloader:
             f.write("\n## Provenance Tracking\n\n")
             f.write("Each unique document tracks all sources where it appears:\n\n")
             f.write("```json\n")
-            if master_index['documents']:
-                sample_doc = master_index['documents'][0]
+            if master_index["documents"]:
+                sample_doc = master_index["documents"][0]
                 f.write(json.dumps({
-                    "hash": sample_doc['hash'],
-                    "canonical_path": sample_doc['canonical_path'],
-                    "sources": sample_doc['sources'],
-                    "source_count": sample_doc['source_count']
+                    "hash": sample_doc["hash"],
+                    "canonical_path": sample_doc["canonical_path"],
+                    "sources": sample_doc["sources"],
+                    "source_count": sample_doc["source_count"]
                 }, indent=2))
             f.write("\n```\n\n")
 
@@ -557,7 +556,7 @@ class EpsteinDocumentDownloader:
 
         # Also save download log as JSON
         log_path = self.metadata_dir / "download_log.json"
-        with open(log_path, 'w') as f:
+        with open(log_path, "w") as f:
             json.dump([asdict(entry) for entry in self.download_log], f, indent=2)
         logger.info(f"Download log saved: {log_path}")
 
@@ -584,11 +583,11 @@ def main():
     logger.info("\n" + "=" * 70)
     logger.info("DOWNLOAD COMPLETE")
     logger.info("=" * 70)
-    logger.info(f"\nStatistics:")
+    logger.info("\nStatistics:")
     logger.info(f"  ✓ Successful downloads: {downloader.success_count}")
     logger.info(f"  ✗ Duplicates detected: {downloader.duplicate_count}")
     logger.info(f"  ✗ Errors: {downloader.error_count}")
-    logger.info(f"\nSee DOWNLOAD_DEDUPLICATION_REPORT.md for full details")
+    logger.info("\nSee DOWNLOAD_DEDUPLICATION_REPORT.md for full details")
 
 
 if __name__ == "__main__":

@@ -22,17 +22,16 @@ Ethical Constraints:
 import asyncio
 import json
 import re
-from datetime import datetime, timedelta
-from pathlib import Path
-from typing import Optional, List, Dict, Any
-from dataclasses import dataclass, asdict
-from urllib.parse import urlparse
 import time
 from collections import deque
+from datetime import datetime, timedelta
+from pathlib import Path
+from typing import Any, Dict, List, Optional
+from urllib.parse import urlparse
 
-from pydantic import BaseModel, HttpUrl, Field, validator
 import httpx
 from bs4 import BeautifulSoup
+from pydantic import BaseModel, Field, HttpUrl, validator
 
 
 # ============================================================================
@@ -53,11 +52,11 @@ class EnrichmentSource(BaseModel):
     search_query: str
     domain: str = ""
 
-    @validator('domain', always=True)
+    @validator("domain", always=True)
     def set_domain(cls, v, values):
         """Extract domain from URL for display and confidence scoring"""
-        if 'url' in values:
-            return urlparse(str(values['url'])).netloc
+        if "url" in values:
+            return urlparse(str(values["url"])).netloc
         return v
 
     class Config:
@@ -88,13 +87,13 @@ class EntityEnrichment(BaseModel):
     total_sources: int = 0
     average_confidence: float = 0.0
 
-    @validator('total_sources', always=True)
+    @validator("total_sources", always=True)
     def count_sources(cls, v, values):
-        return len(values.get('sources', []))
+        return len(values.get("sources", []))
 
-    @validator('average_confidence', always=True)
+    @validator("average_confidence", always=True)
     def calc_avg_confidence(cls, v, values):
-        sources = values.get('sources', [])
+        sources = values.get("sources", [])
         if not sources:
             return 0.0
         return sum(s.confidence for s in sources) / len(sources)
@@ -128,50 +127,50 @@ class SourceReliabilityScorer:
     # Domain patterns with confidence scores
     DOMAIN_SCORES = {
         # Court records and official documents (highest trust)
-        r'courtlistener\.com': 1.0,
-        r'supremecourt\.gov': 1.0,
-        r'pacer\.gov': 1.0,
-        r'documentcloud\.org': 0.95,
+        r"courtlistener\.com": 1.0,
+        r"supremecourt\.gov": 1.0,
+        r"pacer\.gov": 1.0,
+        r"documentcloud\.org": 0.95,
 
         # Wikipedia and academic sources
-        r'wikipedia\.org': 0.9,
-        r'britannica\.com': 0.9,
-        r'scholar\.google\.com': 0.9,
-        r'jstor\.org': 0.9,
-        r'\.edu($|/)': 0.85,
+        r"wikipedia\.org": 0.9,
+        r"britannica\.com": 0.9,
+        r"scholar\.google\.com": 0.9,
+        r"jstor\.org": 0.9,
+        r"\.edu($|/)": 0.85,
 
         # Major news outlets (high trust)
-        r'nytimes\.com': 0.85,
-        r'washingtonpost\.com': 0.85,
-        r'theguardian\.com': 0.85,
-        r'reuters\.com': 0.85,
-        r'apnews\.com': 0.85,
-        r'bbc\.(com|co\.uk)': 0.85,
-        r'npr\.org': 0.8,
-        r'wsj\.com': 0.8,
-        r'ft\.com': 0.8,
+        r"nytimes\.com": 0.85,
+        r"washingtonpost\.com": 0.85,
+        r"theguardian\.com": 0.85,
+        r"reuters\.com": 0.85,
+        r"apnews\.com": 0.85,
+        r"bbc\.(com|co\.uk)": 0.85,
+        r"npr\.org": 0.8,
+        r"wsj\.com": 0.8,
+        r"ft\.com": 0.8,
 
         # Mid-tier news outlets
-        r'cnn\.com': 0.7,
-        r'forbes\.com': 0.7,
-        r'bloomberg\.com': 0.75,
-        r'vanityfair\.com': 0.65,
-        r'newyorker\.com': 0.75,
+        r"cnn\.com": 0.7,
+        r"forbes\.com": 0.7,
+        r"bloomberg\.com": 0.75,
+        r"vanityfair\.com": 0.65,
+        r"newyorker\.com": 0.75,
 
         # Archive and research sites
-        r'archive\.org': 0.8,
-        r'archive\.is': 0.7,
+        r"archive\.org": 0.8,
+        r"archive\.is": 0.7,
 
         # Social media (low trust for facts)
-        r'twitter\.com': 0.3,
-        r'x\.com': 0.3,
-        r'facebook\.com': 0.3,
-        r'reddit\.com': 0.35,
+        r"twitter\.com": 0.3,
+        r"x\.com": 0.3,
+        r"facebook\.com": 0.3,
+        r"reddit\.com": 0.35,
 
         # Blogs and unknown sources (lowest)
-        r'blogspot\.com': 0.2,
-        r'wordpress\.com': 0.2,
-        r'medium\.com': 0.4,
+        r"blogspot\.com": 0.2,
+        r"wordpress\.com": 0.2,
+        r"medium\.com": 0.4,
     }
 
     DEFAULT_SCORE = 0.5  # Unknown sources get medium confidence
@@ -361,7 +360,7 @@ class MockWebSearch:
         await self.rate_limiter.acquire()
 
         # Extract entity name from query
-        entity_name = query.lower().replace('"', '').replace(' epstein documents', '').strip()
+        entity_name = query.lower().replace('"', "").replace(" epstein documents", "").strip()
 
         # Return mock results if available
         if entity_name in self.mock_results:
@@ -378,7 +377,6 @@ class MockWebSearch:
 
     async def close(self):
         """Cleanup (no-op for mock)"""
-        pass
 
 
 class DuckDuckGoSearch:
@@ -447,64 +445,64 @@ class DuckDuckGoSearch:
             response.raise_for_status()
 
             # Parse HTML results
-            soup = BeautifulSoup(response.text, 'html.parser')
+            soup = BeautifulSoup(response.text, "html.parser")
             results = []
 
             # DuckDuckGo Lite uses simple table structure
             # Each result is in a table row with links and snippets
-            result_tables = soup.find_all('table', class_='result-table')
+            result_tables = soup.find_all("table", class_="result-table")
 
             for table in result_tables[:max_results]:
                 # Find the link
-                link_elem = table.find('a', class_='result-link')
+                link_elem = table.find("a", class_="result-link")
                 if not link_elem:
                     # Try without class
-                    link_elem = table.find('a')
+                    link_elem = table.find("a")
                 if not link_elem:
                     continue
 
                 title = link_elem.get_text(strip=True)
-                url = link_elem.get('href', '')
+                url = link_elem.get("href", "")
 
                 # Extract snippet (usually in a td with class='result-snippet')
-                snippet_elem = table.find('td', class_='result-snippet')
+                snippet_elem = table.find("td", class_="result-snippet")
                 if not snippet_elem:
                     # Try to find any td after the link
-                    all_tds = table.find_all('td')
+                    all_tds = table.find_all("td")
                     snippet_elem = all_tds[1] if len(all_tds) > 1 else None
 
                 snippet = snippet_elem.get_text(strip=True) if snippet_elem else ""
 
                 # Clean up URL (DuckDuckGo redirects)
-                if url.startswith('//duckduckgo.com/l/'):
+                if url.startswith("//duckduckgo.com/l/"):
                     # Extract actual URL from redirect
                     import urllib.parse
-                    parsed = urllib.parse.parse_qs(url.split('?')[1] if '?' in url else '')
-                    url = parsed.get('uddg', [url])[0]
+                    parsed = urllib.parse.parse_qs(url.split("?")[1] if "?" in url else "")
+                    url = parsed.get("uddg", [url])[0]
 
                 if url and title:
                     results.append({
-                        'title': title,
-                        'url': url,
-                        'snippet': snippet
+                        "title": title,
+                        "url": url,
+                        "snippet": snippet
                     })
 
             # If Lite structure didn't work, try fallback parsing
             if not results:
                 # Look for any links that aren't DDG internal
-                all_links = soup.find_all('a', href=True)
+                all_links = soup.find_all("a", href=True)
                 for link in all_links[:max_results]:
-                    href = link.get('href', '')
+                    href = link.get("href", "")
                     # Skip internal DDG links
-                    if 'duckduckgo.com' in href or href.startswith('/'):
+                    if "duckduckgo.com" in href or href.startswith("/"):
                         continue
 
                     title = link.get_text(strip=True)
                     if title and len(title) > 10:  # Reasonable title length
                         results.append({
-                            'title': title,
-                            'url': href,
-                            'snippet': ''  # No snippet in fallback mode
+                            "title": title,
+                            "url": href,
+                            "snippet": ""  # No snippet in fallback mode
                         })
 
             return results
@@ -591,7 +589,7 @@ class EntityEnrichmentService:
     def _save_cache(self):
         """Save enrichments to disk"""
         try:
-            with open(self.storage_path, 'w') as f:
+            with open(self.storage_path, "w") as f:
                 json.dump(
                     {
                         entity_id: json.loads(enrichment.json())
@@ -668,32 +666,32 @@ class EntityEnrichmentService:
         dates = []
 
         for result in search_results:
-            confidence = self.scorer.score_source(result['url'])
+            confidence = self.scorer.score_source(result["url"])
 
             source = EnrichmentSource(
-                url=result['url'],
-                title=result['title'],
-                snippet=result['snippet'],
+                url=result["url"],
+                title=result["title"],
+                snippet=result["snippet"],
                 confidence=confidence,
                 search_query=search_query
             )
             sources.append(source)
 
             # Extract information from snippet
-            snippet = result['snippet']
+            snippet = result["snippet"]
 
             # Extract profession indicators
             profession_patterns = [
-                r'(businessman|financier|banker|investor|executive|CEO|president|lawyer|attorney)',
-                r'(professor|doctor|scientist|researcher|academic)',
-                r'(model|actress|celebrity|socialite)',
+                r"(businessman|financier|banker|investor|executive|CEO|president|lawyer|attorney)",
+                r"(professor|doctor|scientist|researcher|academic)",
+                r"(model|actress|celebrity|socialite)",
             ]
             for pattern in profession_patterns:
                 matches = re.findall(pattern, snippet, re.IGNORECASE)
                 professions.extend(matches)
 
             # Extract dates (YYYY or YYYY-MM-DD format)
-            date_matches = re.findall(r'\b(19\d{2}|20\d{2})(?:-\d{2}-\d{2})?\b', snippet)
+            date_matches = re.findall(r"\b(19\d{2}|20\d{2})(?:-\d{2}-\d{2})?\b", snippet)
             dates.extend(date_matches)
 
             # Collect biography snippets from high-confidence sources
@@ -751,8 +749,8 @@ class EntityEnrichmentService:
         async def bounded_enrich(entity: Dict[str, str]) -> EntityEnrichment:
             async with semaphore:
                 return await self.enrich_entity(
-                    entity_id=entity['id'],
-                    entity_name=entity['name']
+                    entity_id=entity["id"],
+                    entity_name=entity["name"]
                 )
 
         return await asyncio.gather(*[

@@ -5,8 +5,9 @@ Quick status check for ongoing OCR processing
 """
 
 import json
-from pathlib import Path
 from datetime import datetime, timedelta
+from pathlib import Path
+
 
 PROGRESS_FILE = Path("/Users/masa/Projects/Epstein/data/sources/house_oversight_nov2025/ocr_progress.json")
 LOG_FILE = Path("/Users/masa/Projects/Epstein/logs/ocr_house_oversight.log")
@@ -45,13 +46,13 @@ def main():
         return
 
     # Load progress
-    with open(PROGRESS_FILE, 'r') as f:
+    with open(PROGRESS_FILE) as f:
         progress = json.load(f)
 
-    stats = progress.get('stats', {})
-    completed_count = len(progress.get('completed', []))
-    failed_count = len(progress.get('failed', []))
-    email_count = stats.get('emails_found', 0)
+    stats = progress.get("stats", {})
+    completed_count = len(progress.get("completed", []))
+    failed_count = len(progress.get("failed", []))
+    email_count = stats.get("emails_found", 0)
 
     # Calculate progress
     progress_pct = (completed_count / TOTAL_FILES) * 100 if TOTAL_FILES > 0 else 0
@@ -63,12 +64,12 @@ def main():
     # Show progress bar
     bar_width = 50
     filled = int(bar_width * progress_pct / 100)
-    bar = '█' * filled + '░' * (bar_width - filled)
+    bar = "█" * filled + "░" * (bar_width - filled)
     print(f"\n[{bar}] {progress_pct:.1f}%")
 
     # Time estimates
-    start_time_str = stats.get('start_time')
-    last_update_str = stats.get('last_update')
+    start_time_str = stats.get("start_time")
+    last_update_str = stats.get("last_update")
 
     if start_time_str and completed_count > 0:
         start_time = datetime.fromisoformat(start_time_str)
@@ -103,7 +104,7 @@ def main():
     # Recent failures
     if failed_count > 0:
         print(f"\n⚠️  {failed_count} files failed to process")
-        recent_failures = progress.get('failed', [])[-5:]
+        recent_failures = progress.get("failed", [])[-5:]
         print("\nRecent failures:")
         for failure in recent_failures:
             print(f"  - {failure.get('file', 'unknown')}: {failure.get('error', 'unknown error')}")
@@ -111,7 +112,7 @@ def main():
     # Email candidates summary
     if email_count > 0:
         email_pct = (email_count / max(completed_count, 1)) * 100
-        print(f"\n📧 Email Detection:")
+        print("\n📧 Email Detection:")
         print(f"  {email_count} email candidates ({email_pct:.1f}% of processed files)")
 
         if EMAIL_INDEX_FILE.exists():
@@ -122,7 +123,7 @@ def main():
         log_size = LOG_FILE.stat().st_size / 1024 / 1024  # MB
         print(f"\nLog file: {LOG_FILE}")
         print(f"Log size: {log_size:.2f} MB")
-        print(f"\nTo view recent log entries:")
+        print("\nTo view recent log entries:")
         print(f"  tail -f {LOG_FILE}")
 
     print("\n" + "=" * 70 + "\n")

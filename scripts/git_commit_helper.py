@@ -9,8 +9,8 @@ Usage:
     python git_commit_helper.py [--type TYPE] [--scope SCOPE] [--message MESSAGE]
 """
 
-import sys
 import subprocess
+import sys
 from typing import Optional
 
 

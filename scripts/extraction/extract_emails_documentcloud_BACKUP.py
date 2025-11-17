@@ -12,17 +12,17 @@ Created: 2025-11-16
 """
 
 import json
-import re
-from pathlib import Path
-from datetime import datetime
-from typing import Dict, List, Optional
-from dataclasses import dataclass, asdict
 import logging
+from dataclasses import dataclass
+from datetime import datetime
+from pathlib import Path
+from typing import Dict
+
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -203,7 +203,7 @@ def create_notes_summary(notes_data: Dict, output_path: Path, stats: DownloadSta
         output_path: Path to save summary markdown
         stats: DownloadStats object
     """
-    results = notes_data.get('results', [])
+    results = notes_data.get("results", [])
 
     summary_lines = [
         "# Epstein Emails - DocumentCloud Notes Summary",
@@ -221,7 +221,7 @@ def create_notes_summary(notes_data: Dict, output_path: Path, stats: DownloadSta
     else:
         for idx, note in enumerate(results, 1):
             # Handle user field - can be int (user ID) or dict (user object)
-            user_info = note.get('user', 'Unknown')
+            user_info = note.get("user", "Unknown")
             if isinstance(user_info, dict):
                 author_str = f"{user_info.get('name', 'Unknown')} ({user_info.get('email', 'N/A')})"
             else:
@@ -240,7 +240,7 @@ def create_notes_summary(notes_data: Dict, output_path: Path, stats: DownloadSta
             ])
 
             # Add content if available
-            content = note.get('content', '').strip()
+            content = note.get("content", "").strip()
             if content:
                 summary_lines.extend([
                     "**Content:**",
@@ -250,7 +250,7 @@ def create_notes_summary(notes_data: Dict, output_path: Path, stats: DownloadSta
                 ])
 
             # Add location if available
-            if note.get('x1') is not None:
+            if note.get("x1") is not None:
                 summary_lines.append(f"**Location:** x1={note.get('x1')}, y1={note.get('y1')}, x2={note.get('x2')}, y2={note.get('y2')}")
                 summary_lines.append("")
 
@@ -270,7 +270,7 @@ def create_manifest(stats: DownloadStats):
     print("\nCreating manifest file...")
 
     manifest_path = DATA_DIR / "MANIFEST.md"
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     manifest_lines = [
         "# Epstein Emails - Download Manifest",
@@ -288,29 +288,29 @@ def create_manifest(stats: DownloadStats):
         "",
         "### Primary Documents",
         "",
-        f"1. **Structured JSON** (73 pages)",
+        "1. **Structured JSON** (73 pages)",
         f"   - URL: {STRUCTURED_JSON_URL}",
-        f"   - File: `epstein-emails-structured.json`",
+        "   - File: `epstein-emails-structured.json`",
         f"   - Size: {stats.file_sizes.get('epstein-emails-structured.json', 0):,} bytes",
         "",
-        f"2. **Complete PDF** (87 pages)",
+        "2. **Complete PDF** (87 pages)",
         f"   - URL: {PDF_URL}",
-        f"   - File: `epstein-emails-complete.pdf`",
+        "   - File: `epstein-emails-complete.pdf`",
         f"   - Size: {stats.file_sizes.get('epstein-emails-complete.pdf', 0):,} bytes",
         "",
         "### Individual Pages",
         "",
         f"3. **Page Text Files** (pages 1-{TOTAL_PAGES})",
         f"   - URL Pattern: `{PAGE_URL_PATTERN}`",
-        f"   - Directory: `pages/`",
+        "   - Directory: `pages/`",
         f"   - Files: `page-001.txt` through `page-{TOTAL_PAGES:03d}.txt`",
         "",
         "### Annotations",
         "",
         "4. **Notes Data**",
         f"   - API URL: {NOTES_API_URL}",
-        f"   - Raw JSON: `notes/epstein-emails-notes.json`",
-        f"   - Summary: `notes/notes-summary.md`",
+        "   - Raw JSON: `notes/epstein-emails-notes.json`",
+        "   - Summary: `notes/notes-summary.md`",
         "",
         "## File Descriptions",
         "",
@@ -374,7 +374,7 @@ def create_manifest(stats: DownloadStats):
         "",
         f"- Downloads completed: {timestamp}",
         f"- Total files verified: {stats.successful}",
-        f"- All file sizes recorded in this manifest",
+        "- All file sizes recorded in this manifest",
         "",
         "---",
         "",
@@ -418,7 +418,7 @@ def main():
     print(stats.get_summary())
     print(f"Elapsed Time: {elapsed_time:.2f} seconds ({elapsed_time / 60:.2f} minutes)")
     print(f"\nAll data saved to: {DATA_DIR}")
-    print(f"See MANIFEST.md for detailed information about downloaded files.")
+    print("See MANIFEST.md for detailed information about downloaded files.")
     print("=" * 70)
 
     # Exit code based on failures

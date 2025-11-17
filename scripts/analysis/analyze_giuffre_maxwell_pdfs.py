@@ -4,31 +4,31 @@ Analyze Giuffre v. Maxwell PDF collection to identify and count emails.
 Extract metadata and prepare for markdown conversion.
 """
 
-import os
-import re
 import json
+import re
+from collections import defaultdict
+from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
-from datetime import datetime
-from collections import defaultdict
 
 import pdfplumber
 
+
 # Email header patterns
 EMAIL_PATTERNS = {
-    'from': re.compile(r'^From:\s*(.+?)$', re.MULTILINE | re.IGNORECASE),
-    'to': re.compile(r'^To:\s*(.+?)$', re.MULTILINE | re.IGNORECASE),
-    'cc': re.compile(r'^Cc:\s*(.+?)$', re.MULTILINE | re.IGNORECASE),
-    'date': re.compile(r'^(?:Date|Sent):\s*(.+?)$', re.MULTILINE | re.IGNORECASE),
-    'subject': re.compile(r'^Subject:\s*(.+?)$', re.MULTILINE | re.IGNORECASE),
+    "from": re.compile(r"^From:\s*(.+?)$", re.MULTILINE | re.IGNORECASE),
+    "to": re.compile(r"^To:\s*(.+?)$", re.MULTILINE | re.IGNORECASE),
+    "cc": re.compile(r"^Cc:\s*(.+?)$", re.MULTILINE | re.IGNORECASE),
+    "date": re.compile(r"^(?:Date|Sent):\s*(.+?)$", re.MULTILINE | re.IGNORECASE),
+    "subject": re.compile(r"^Subject:\s*(.+?)$", re.MULTILINE | re.IGNORECASE),
 }
 
 # Document type indicators
 DOC_TYPE_PATTERNS = {
-    'deposition': [r'deposition', r'sworn testimony', r'examination by', r'Q\..*A\.'],
-    'court_filing': [r'united states district court', r'motion to', r'memorandum', r'plaintiff', r'defendant'],
-    'exhibit': [r'exhibit\s+\w+', r'plaintiff.*exhibit', r'defendant.*exhibit'],
-    'email': [r'from:.*to:.*subject:', r'sent:.*from:.*to:', r're:.*fw:'],
+    "deposition": [r"deposition", r"sworn testimony", r"examination by", r"Q\..*A\."],
+    "court_filing": [r"united states district court", r"motion to", r"memorandum", r"plaintiff", r"defendant"],
+    "exhibit": [r"exhibit\s+\w+", r"plaintiff.*exhibit", r"defendant.*exhibit"],
+    "email": [r"from:.*to:.*subject:", r"sent:.*from:.*to:", r"re:.*fw:"],
 }
 
 
@@ -36,11 +36,11 @@ class PDFAnalyzer:
     def __init__(self, pdf_dir: str):
         self.pdf_dir = Path(pdf_dir)
         self.results = {
-            'total_documents': 0,
-            'documents': [],
-            'statistics': defaultdict(int),
-            'emails': [],
-            'date_range': {'earliest': None, 'latest': None},
+            "total_documents": 0,
+            "documents": [],
+            "statistics": defaultdict(int),
+            "emails": [],
+            "date_range": {"earliest": None, "latest": None},
         }
 
     def extract_text_from_pdf(self, pdf_path: Path) -> Tuple[str, int]:
@@ -68,7 +68,7 @@ class PDFAnalyzer:
                 email_indicators += 1
 
         if email_indicators >= 3:  # From, To, Subject/Date
-            return 'email'
+            return "email"
 
         # Check other document types
         for doc_type, patterns in DOC_TYPE_PATTERNS.items():
@@ -76,18 +76,18 @@ class PDFAnalyzer:
             if matches >= 2:
                 return doc_type
 
-        return 'other'
+        return "other"
 
     def extract_email_metadata(self, text: str, filename: str) -> Optional[Dict]:
         """Extract email metadata from text."""
         metadata = {
-            'filename': filename,
-            'from': None,
-            'to': None,
-            'cc': None,
-            'date': None,
-            'subject': None,
-            'has_attachments': False,
+            "filename": filename,
+            "from": None,
+            "to": None,
+            "cc": None,
+            "date": None,
+            "subject": None,
+            "has_attachments": False,
         }
 
         # Extract headers
@@ -97,11 +97,11 @@ class PDFAnalyzer:
                 metadata[field] = match.group(1).strip()
 
         # Check for attachments
-        if re.search(r'attachment|attached file', text[:5000], re.IGNORECASE):
-            metadata['has_attachments'] = True
+        if re.search(r"attachment|attached file", text[:5000], re.IGNORECASE):
+            metadata["has_attachments"] = True
 
         # Only return if we have minimum email metadata
-        if metadata['from'] or metadata['to'] or metadata['subject']:
+        if metadata["from"] or metadata["to"] or metadata["subject"]:
             return metadata
         return None
 
@@ -110,7 +110,7 @@ class PDFAnalyzer:
         emails = []
 
         # Split by common email separators
-        sections = re.split(r'\n-{3,}\s*Original Message\s*-{3,}|\n={10,}|\nPage \d+ of \d+', text)
+        sections = re.split(r"\n-{3,}\s*Original Message\s*-{3,}|\n={10,}|\nPage \d+ of \d+", text)
 
         for idx, section in enumerate(sections):
             if len(section.strip()) < 100:  # Skip tiny sections
@@ -118,9 +118,9 @@ class PDFAnalyzer:
 
             email_meta = self.extract_email_metadata(section, f"{filename}_email_{idx+1}")
             if email_meta:
-                email_meta['page_count'] = page_count
-                email_meta['section_index'] = idx
-                email_meta['is_thread'] = '----Original Message----' in text or 'Re:' in str(email_meta.get('subject', ''))
+                email_meta["page_count"] = page_count
+                email_meta["section_index"] = idx
+                email_meta["is_thread"] = "----Original Message----" in text or "Re:" in str(email_meta.get("subject", ""))
                 emails.append(email_meta)
 
         return emails
@@ -132,12 +132,12 @@ class PDFAnalyzer:
 
         # Common date formats
         formats = [
-            '%m/%d/%Y %I:%M:%S %p',
-            '%m/%d/%Y %I:%M %p',
-            '%m/%d/%Y',
-            '%B %d, %Y',
-            '%d %B %Y',
-            '%Y-%m-%d',
+            "%m/%d/%Y %I:%M:%S %p",
+            "%m/%d/%Y %I:%M %p",
+            "%m/%d/%Y",
+            "%B %d, %Y",
+            "%d %B %Y",
+            "%Y-%m-%d",
         ]
 
         for fmt in formats:
@@ -155,51 +155,51 @@ class PDFAnalyzer:
         doc_type = self.detect_document_type(text)
 
         doc_info = {
-            'filename': pdf_path.name,
-            'file_size': pdf_path.stat().st_size,
-            'page_count': page_count,
-            'type': doc_type,
-            'has_redactions': 'redacted' in text.lower() or '█' in text,
-            'ocr_quality': 'good' if len(text) > page_count * 100 else 'poor',
-            'emails_found': 0,
+            "filename": pdf_path.name,
+            "file_size": pdf_path.stat().st_size,
+            "page_count": page_count,
+            "type": doc_type,
+            "has_redactions": "redacted" in text.lower() or "█" in text,
+            "ocr_quality": "good" if len(text) > page_count * 100 else "poor",
+            "emails_found": 0,
         }
 
         # If it's an email document, extract all emails
-        if doc_type == 'email':
+        if doc_type == "email":
             emails = self.find_emails_in_text(text, pdf_path.name, page_count)
-            doc_info['emails_found'] = len(emails)
-            self.results['emails'].extend(emails)
+            doc_info["emails_found"] = len(emails)
+            self.results["emails"].extend(emails)
 
             # Update date range
             for email in emails:
-                if email.get('date'):
-                    parsed_date = self.parse_date(email['date'])
+                if email.get("date"):
+                    parsed_date = self.parse_date(email["date"])
                     if parsed_date:
-                        if not self.results['date_range']['earliest'] or parsed_date < self.results['date_range']['earliest']:
-                            self.results['date_range']['earliest'] = parsed_date
-                        if not self.results['date_range']['latest'] or parsed_date > self.results['date_range']['latest']:
-                            self.results['date_range']['latest'] = parsed_date
+                        if not self.results["date_range"]["earliest"] or parsed_date < self.results["date_range"]["earliest"]:
+                            self.results["date_range"]["earliest"] = parsed_date
+                        if not self.results["date_range"]["latest"] or parsed_date > self.results["date_range"]["latest"]:
+                            self.results["date_range"]["latest"] = parsed_date
 
         return doc_info
 
     def analyze_all_documents(self):
         """Analyze all PDFs in the directory."""
-        pdf_files = sorted(self.pdf_dir.glob('*.pdf'))
-        self.results['total_documents'] = len(pdf_files)
+        pdf_files = sorted(self.pdf_dir.glob("*.pdf"))
+        self.results["total_documents"] = len(pdf_files)
 
         print(f"\nAnalyzing {len(pdf_files)} PDF documents...\n")
 
         for pdf_path in pdf_files:
             doc_info = self.analyze_document(pdf_path)
-            self.results['documents'].append(doc_info)
-            self.results['statistics'][doc_info['type']] += 1
+            self.results["documents"].append(doc_info)
+            self.results["statistics"][doc_info["type"]] += 1
 
         # Calculate additional statistics
-        self.results['statistics']['total_emails'] = len(self.results['emails'])
-        self.results['statistics']['total_pages'] = sum(d['page_count'] for d in self.results['documents'])
-        self.results['statistics']['documents_with_emails'] = sum(1 for d in self.results['documents'] if d['emails_found'] > 0)
-        self.results['statistics']['poor_ocr_quality'] = sum(1 for d in self.results['documents'] if d['ocr_quality'] == 'poor')
-        self.results['statistics']['redacted_documents'] = sum(1 for d in self.results['documents'] if d['has_redactions'])
+        self.results["statistics"]["total_emails"] = len(self.results["emails"])
+        self.results["statistics"]["total_pages"] = sum(d["page_count"] for d in self.results["documents"])
+        self.results["statistics"]["documents_with_emails"] = sum(1 for d in self.results["documents"] if d["emails_found"] > 0)
+        self.results["statistics"]["poor_ocr_quality"] = sum(1 for d in self.results["documents"] if d["ocr_quality"] == "poor")
+        self.results["statistics"]["redacted_documents"] = sum(1 for d in self.results["documents"] if d["has_redactions"])
 
     def generate_report(self) -> str:
         """Generate analysis report."""
@@ -215,8 +215,8 @@ class PDFAnalyzer:
         report.append("")
 
         report.append("## DOCUMENT TYPES")
-        for doc_type in ['email', 'deposition', 'court_filing', 'exhibit', 'other']:
-            count = self.results['statistics'].get(doc_type, 0)
+        for doc_type in ["email", "deposition", "court_filing", "exhibit", "other"]:
+            count = self.results["statistics"].get(doc_type, 0)
             if count > 0:
                 report.append(f"  {doc_type.replace('_', ' ').title()}: {count}")
         report.append("")
@@ -225,13 +225,13 @@ class PDFAnalyzer:
         report.append(f"Total Emails Found: {self.results['statistics']['total_emails']}")
         report.append(f"Documents Containing Emails: {self.results['statistics']['documents_with_emails']}")
 
-        if self.results['date_range']['earliest'] and self.results['date_range']['latest']:
+        if self.results["date_range"]["earliest"] and self.results["date_range"]["latest"]:
             report.append(f"Date Range: {self.results['date_range']['earliest'].strftime('%Y-%m-%d')} to {self.results['date_range']['latest'].strftime('%Y-%m-%d')}")
 
-        emails_with_threads = sum(1 for e in self.results['emails'] if e.get('is_thread'))
+        emails_with_threads = sum(1 for e in self.results["emails"] if e.get("is_thread"))
         report.append(f"Email Threads: {emails_with_threads}")
 
-        emails_with_attachments = sum(1 for e in self.results['emails'] if e.get('has_attachments'))
+        emails_with_attachments = sum(1 for e in self.results["emails"] if e.get("has_attachments"))
         report.append(f"Emails with Attachments: {emails_with_attachments}")
         report.append("")
 
@@ -241,7 +241,7 @@ class PDFAnalyzer:
         report.append("")
 
         report.append("## SAMPLE EMAIL METADATA (First 5)")
-        for i, email in enumerate(self.results['emails'][:5], 1):
+        for i, email in enumerate(self.results["emails"][:5], 1):
             report.append(f"\n{i}. {email['filename']}")
             report.append(f"   From: {email.get('from', 'N/A')}")
             report.append(f"   To: {email.get('to', 'N/A')}")
@@ -254,13 +254,13 @@ class PDFAnalyzer:
         report.append("=" * 80)
 
         issues = []
-        if self.results['statistics']['poor_ocr_quality'] > 0:
+        if self.results["statistics"]["poor_ocr_quality"] > 0:
             issues.append(f"⚠️  {self.results['statistics']['poor_ocr_quality']} documents have poor OCR quality")
 
-        if self.results['statistics']['redacted_documents'] > 0:
+        if self.results["statistics"]["redacted_documents"] > 0:
             issues.append(f"⚠️  {self.results['statistics']['redacted_documents']} documents contain redactions")
 
-        if not self.results['emails']:
+        if not self.results["emails"]:
             issues.append("⚠️  No emails found in collection")
 
         if issues:
@@ -279,26 +279,26 @@ class PDFAnalyzer:
         output_dir.mkdir(parents=True, exist_ok=True)
 
         # Save full JSON
-        json_path = output_dir / 'pdf_analysis_results.json'
-        with open(json_path, 'w') as f:
+        json_path = output_dir / "pdf_analysis_results.json"
+        with open(json_path, "w") as f:
             # Convert datetime objects to strings
             results_copy = self.results.copy()
-            if results_copy['date_range']['earliest']:
-                results_copy['date_range']['earliest'] = results_copy['date_range']['earliest'].isoformat()
-            if results_copy['date_range']['latest']:
-                results_copy['date_range']['latest'] = results_copy['date_range']['latest'].isoformat()
+            if results_copy["date_range"]["earliest"]:
+                results_copy["date_range"]["earliest"] = results_copy["date_range"]["earliest"].isoformat()
+            if results_copy["date_range"]["latest"]:
+                results_copy["date_range"]["latest"] = results_copy["date_range"]["latest"].isoformat()
 
             json.dump(results_copy, f, indent=2, default=str)
 
         # Save report
-        report_path = output_dir / 'PDF_ANALYSIS_REPORT.md'
-        with open(report_path, 'w') as f:
+        report_path = output_dir / "PDF_ANALYSIS_REPORT.md"
+        with open(report_path, "w") as f:
             f.write(self.generate_report())
 
         # Save email index
-        email_index_path = output_dir / 'email_index.json'
-        with open(email_index_path, 'w') as f:
-            json.dump(self.results['emails'], f, indent=2, default=str)
+        email_index_path = output_dir / "email_index.json"
+        with open(email_index_path, "w") as f:
+            json.dump(self.results["emails"], f, indent=2, default=str)
 
         print(f"\n✅ Results saved to {output_dir}")
         print(f"   - {json_path.name}")

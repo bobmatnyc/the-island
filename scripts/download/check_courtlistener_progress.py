@@ -4,6 +4,7 @@
 import json
 from pathlib import Path
 
+
 # Paths
 output_dir = Path(__file__).parent.parent.parent / "data" / "sources" / "courtlistener_giuffre_maxwell"
 metadata_file = output_dir / "download_metadata.json"
