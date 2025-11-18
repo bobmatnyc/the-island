@@ -143,7 +143,7 @@
       "component_size": 387
     },
     {
-      "id": "Ghislaine Ghislaine",
+      "id": "Maxwell, Ghislaine",
       "node_type": "person",
       "is_billionaire": false,
       "in_black_book": false,
@@ -155,7 +155,7 @@
       ],
       "categories": [],
       "aliases": [
-        "Ghislaine Ghislaine"
+        "Maxwell, Ghislaine"
       ],
       "degree_centrality": 0.6632124352331606,
       "betweenness_centrality": 0.40622277446689403,
@@ -6337,7 +6337,7 @@
       "component_size": 387
     },
     {
-      "id": "Nadia Nadia",
+      "id": "Marcinkova, Nadia",
       "node_type": "person",
       "is_billionaire": false,
       "in_black_book": false,
@@ -6349,7 +6349,7 @@
       ],
       "categories": [],
       "aliases": [
-        "Nadia Nadia"
+        "Marcinkova, Nadia"
       ],
       "degree_centrality": 0.1606217616580311,
       "betweenness_centrality": 0.016716936049622856,
@@ -7677,7 +7677,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Ghislaine Ghislaine",
+      "target": "Maxwell, Ghislaine",
       "relationship": "flew_with",
       "weight": 12,
       "flights_together": 12
@@ -7859,7 +7859,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 1,
       "flights_together": 1
@@ -7894,7 +7894,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Ghislaine Ghislaine",
+      "target": "Maxwell, Ghislaine",
       "relationship": "flew_with",
       "weight": 38,
       "flights_together": 38
@@ -8279,7 +8279,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Ghislaine Ghislaine",
+      "target": "Maxwell, Ghislaine",
       "relationship": "flew_with",
       "weight": 228,
       "flights_together": 228
@@ -9252,7 +9252,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 44,
       "flights_together": 44
@@ -9378,7 +9378,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Ghislaine Ghislaine",
+      "target": "Maxwell, Ghislaine",
       "relationship": "flew_with",
       "weight": 12,
       "flights_together": 12
@@ -9574,7 +9574,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 1,
       "flights_together": 1
@@ -9595,7 +9595,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Ghislaine Ghislaine",
+      "target": "Maxwell, Ghislaine",
       "relationship": "flew_with",
       "weight": 10,
       "flights_together": 10
@@ -9714,7 +9714,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 1,
       "flights_together": 1
@@ -9728,7 +9728,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Ghislaine Ghislaine",
+      "target": "Maxwell, Ghislaine",
       "relationship": "flew_with",
       "weight": 1,
       "flights_together": 1
@@ -11324,7 +11324,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 20,
       "flights_together": 20
@@ -14145,7 +14145,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 73,
       "flights_together": 73
@@ -14957,7 +14957,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 1,
       "flights_together": 1
@@ -15307,7 +15307,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 4,
       "flights_together": 4
@@ -15440,7 +15440,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 4,
       "flights_together": 4
@@ -15643,7 +15643,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 4,
       "flights_together": 4
@@ -15720,7 +15720,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 2,
       "flights_together": 2
@@ -16525,7 +16525,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 1,
       "flights_together": 1
@@ -16567,7 +16567,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 1,
       "flights_together": 1
@@ -16805,7 +16805,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 2,
       "flights_together": 2
@@ -16840,7 +16840,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 2,
       "flights_together": 2
@@ -17176,7 +17176,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 5,
       "flights_together": 5
@@ -17806,7 +17806,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 11,
       "flights_together": 11
@@ -18569,7 +18569,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 42,
       "flights_together": 42
@@ -19157,7 +19157,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 63,
       "flights_together": 63
@@ -19535,7 +19535,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 1,
       "flights_together": 1
@@ -19766,7 +19766,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 31,
       "flights_together": 31
@@ -20081,7 +20081,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 1,
       "flights_together": 1
@@ -21201,7 +21201,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 6,
       "flights_together": 6
@@ -21908,7 +21908,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 18,
       "flights_together": 18
@@ -21999,7 +21999,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 15,
       "flights_together": 15
@@ -22069,7 +22069,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 3,
       "flights_together": 3
@@ -22132,7 +22132,7 @@
     },
     {
       "source": "flight_logs",
-      "target": "Nadia Nadia",
+      "target": "Marcinkova, Nadia",
       "relationship": "flew_with",
       "weight": 1,
       "flights_together": 1

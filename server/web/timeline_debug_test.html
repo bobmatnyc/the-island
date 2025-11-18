@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline Debug Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        #console-output {
+            background: #000;
+            color: #0f0;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: monospace;
+            height: 400px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+        #timeline-events {
+            border: 2px solid #ccc;
+            padding: 20px;
+            min-height: 400px;
+        }
+        .log-entry {
+            margin: 4px 0;
+        }
+        .log-error { color: #ff6b6b; }
+        .log-warn { color: #ffd93d; }
+        .log-info { color: #6bcf7f; }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        .stats {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Timeline Debug Test Page</h1>
+
+    <div class="stats">
+        <h3>Statistics</h3>
+        <div id="stats-output">Not loaded yet</div>
+    </div>
+
+    <button onclick="testApiDirectly()">Test API Directly</button>
+    <button onclick="loadTimelineTest()">Load Timeline (Full Function)</button>
+    <button onclick="clearConsole()">Clear Console</button>
+    <button onclick="clearTimeline()">Clear Timeline</button>
+
+    <h2>Console Output</h2>
+    <div id="console-output"></div>
+
+    <h2>Timeline Events Container</h2>
+    <div id="timeline-events">
+        <div style="text-align: center; padding: 40px; color: #999;">
+            Click "Load Timeline" button above to test
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.protocol + '//' + window.location.host + '/api';
+        const consoleDiv = document.getElementById('console-output');
+        const statsDiv = document.getElementById('stats-output');
+
+        // Intercept console methods
+        const originalLog = console.log;
+        const originalError = console.error;
+        const originalWarn = console.warn;
+
+        function addToConsole(message, type = 'info') {
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            consoleDiv.appendChild(entry);
+            consoleDiv.scrollTop = consoleDiv.scrollHeight;
+        }
+
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            addToConsole(args.join(' '), 'info');
+        };
+
+        console.error = function(...args) {
+            originalError.apply(console, args);
+            addToConsole(args.join(' '), 'error');
+        };
+
+        console.warn = function(...args) {
+            originalWarn.apply(console, args);
+            addToConsole(args.join(' '), 'warn');
+        };
+
+        function clearConsole() {
+            consoleDiv.innerHTML = '';
+            console.log('Console cleared');
+        }
+
+        function clearTimeline() {
+            const container = document.getElementById('timeline-events');
+            container.innerHTML = '<div style="text-align: center; padding: 40px; color: #999;">Timeline cleared</div>';
+            console.log('Timeline cleared');
+        }
+
+        async function testApiDirectly() {
+            console.log('🔍 Testing API directly...');
+            try {
+                const url = `${API_BASE}/timeline`;
+                console.log('📡 Fetching from:', url);
+
+                const response = await fetch(url, {
+                    credentials: 'include'
+                });
+
+                console.log('📊 Response status:', response.status, response.statusText);
+                console.log('📊 Response headers:', [...response.headers.entries()]);
+
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log('✅ API Response:', data);
+                    console.log('📊 Events count:', data.events?.length || 0);
+
+                    if (data.events && data.events.length > 0) {
+                        console.log('📊 First event:', data.events[0]);
+                        console.log('📊 Last event:', data.events[data.events.length - 1]);
+                    }
+
+                    statsDiv.innerHTML = `
+                        <strong>API Test Results:</strong><br>
+                        Total Events: ${data.events?.length || 0}<br>
+                        Status: ${response.status} ${response.statusText}<br>
+                        Response OK: ${response.ok}
+                    `;
+                } else {
+                    console.error('❌ API response not OK');
+                    statsDiv.innerHTML = `
+                        <strong>API Test Failed:</strong><br>
+                        Status: ${response.status} ${response.statusText}
+                    `;
+                }
+            } catch (error) {
+                console.error('❌ Error testing API:', error);
+                console.error('Stack:', error.stack);
+                statsDiv.innerHTML = `
+                    <strong>API Test Error:</strong><br>
+                    ${error.message}
+                `;
+            }
+        }
+
+        // Baseline hardcoded timeline events (minimal for testing)
+        const baselineEvents = [
+            {
+                date: '2019-08-10',
+                title: 'Jeffrey Epstein Dies in Custody',
+                description: 'Found dead in his cell at Metropolitan Correctional Center',
+                category: 'case',
+                source: 'Official Records',
+                source_type: 'court',
+                source_url: '#',
+                related_entities: ['Jeffrey Epstein'],
+                related_documents: []
+            }
+        ];
+
+        let timelineData = [];
+        let filteredTimelineData = [];
+
+        async function loadTimelineTest() {
+            console.log('🔍 loadTimeline() called');
+            console.log('📊 Baseline events:', baselineEvents.length);
+
+            try {
+                const url = `${API_BASE}/timeline`;
+                console.log('📡 Fetching from:', url);
+
+                const response = await fetch(url, {
+                    credentials: 'include'
+                });
+
+                console.log('📊 Response status:', response.status, response.statusText);
+
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log('✅ API data received:', data);
+                    console.log('📊 API events count:', data.events?.length || 0);
+
+                    // Merge API events with baseline
+                    timelineData = [...baselineEvents, ...(data.events || [])];
+                } else {
+                    console.warn('⚠️ API response not OK, using baseline only');
+                    timelineData = [...baselineEvents];
+                }
+
+                console.log('📋 Total timeline data:', timelineData.length, 'events');
+
+                // Sort by date (most recent first)
+                timelineData.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+                // Initial render
+                filteredTimelineData = [...timelineData];
+                console.log('🎨 About to render', filteredTimelineData.length, 'events');
+
+                statsDiv.innerHTML = `
+                    <strong>Timeline Loaded:</strong><br>
+                    Total Events: ${timelineData.length}<br>
+                    Baseline: ${baselineEvents.length}<br>
+                    From API: ${(data?.events?.length || 0)}<br>
+                    Filtered: ${filteredTimelineData.length}
+                `;
+
+                renderTimelineTest();
+
+            } catch (error) {
+                console.error('❌ Error loading timeline:', error);
+                console.error('Stack trace:', error.stack);
+                timelineData = [...baselineEvents];
+                filteredTimelineData = [...timelineData];
+                renderTimelineTest();
+            }
+        }
+
+        function renderTimelineTest() {
+            console.log('🎨 renderTimeline() called');
+            console.log('📊 filteredTimelineData.length:', filteredTimelineData.length);
+
+            const container = document.getElementById('timeline-events');
+            console.log('📦 Container element:', container);
+
+            if (!container) {
+                console.error('❌ CRITICAL: Container #timeline-events not found in DOM!');
+                return;
+            }
+
+            if (filteredTimelineData.length === 0) {
+                console.log('⚠️ No events to display (showing empty state)');
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 40px;">
+                        <div style="font-size: 48px;">📭</div>
+                        <div style="margin-top: 20px; color: #666;">No events to display</div>
+                    </div>
+                `;
+                return;
+            }
+
+            console.log('✅ Rendering', filteredTimelineData.length, 'events to container');
+
+            container.innerHTML = filteredTimelineData.map((event, index) => {
+                const eventDate = new Date(event.date);
+                const formattedDate = eventDate.toLocaleDateString('en-US', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
+                });
+
+                return `
+                    <div style="border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 8px;">
+                        <div style="display: flex; justify-content: space-between; align-items: start;">
+                            <div>
+                                <strong style="font-size: 16px;">${event.title}</strong>
+                                <div style="color: #666; margin-top: 5px;">${formattedDate}</div>
+                            </div>
+                            <span style="background: #4CAF50; color: white; padding: 4px 12px; border-radius: 12px; font-size: 12px;">
+                                ${event.category}
+                            </span>
+                        </div>
+                        <div style="margin-top: 10px; color: #333;">
+                            ${event.description}
+                        </div>
+                        <div style="margin-top: 10px; font-size: 12px; color: #999;">
+                            Event #${index + 1} | Source: ${event.source}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            console.log('✅ Timeline rendered successfully!');
+        }
+
+        // Auto-run API test on load
+        console.log('🚀 Debug page loaded');
+        console.log('📍 API_BASE:', API_BASE);
+    </script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+
+ENTITY NAME FORMATTING REPORT
+==============================
+Timestamp: 2025-11-17 18:32:07
+Backup Location: /Users/masa/Projects/epstein/data/backups/name_fix_20251117_183207
+
+STATISTICS
+----------
+Total Entities Processed: 1702
+Names Changed: 1660
+
+Processing Methods:
+  - Procedural (High Confidence): 1543
+  - Procedural (Medium Confidence): 136
+  - LLM Queries: 0
+    - LLM Successes: 0
+    - LLM Failures: 0
+  - Original Preserved: 23
+
+SAMPLE CHANGES BY METHOD
+-------------------------
+
+ORIGINAL (23 changes):
+--------------------------------------------------
+  1. 'Domingo' → 'Julio Mario Santo Domingo'
+     Entity Key: Julio Mario Santo Domingo
+     Reasoning: Complex name with 4 parts
+
+  2. 'Kotick' → 'Robert (Boby) A. Kotick'
+     Entity Key: Robert (Boby) A. Kotick
+     Reasoning: Complex name with 4 parts
+
+  3. 'Candy' → 'Nicholas A C Candy'
+     Entity Key: Nicholas A C Candy
+     Reasoning: Complex name with 4 parts
+
+  4. 'Hauen' → 'Sophie Van Van Hauen'
+     Entity Key: Sophie Van Van Hauen
+     Reasoning: Complex name with 4 parts
+
+  5. 'Bono' → 'Luca Del Del Bono'
+     Entity Key: Luca Del Del Bono
+     Reasoning: Complex name with 4 parts
+
+  6. 'West' → 'Alistair McAlpine, Baron of West'
+     Entity Key: Alistair McAlpine, Baron of West
+     Reasoning: Complex name with 5 parts
+
+  7. 'Ignacio' → 'Alvarez de Toledo Ignacio'
+     Entity Key: Alvarez de Toledo Ignacio
+     Reasoning: Complex name with 4 parts
+
+  8. 'Pavoncelli' → 'Cosima von Bülow Pavoncelli'
+     Entity Key: Cosima von Bülow Pavoncelli
+     Reasoning: Complex name with 4 parts
+
+  9. 'Nardi' → 'Dott. M Jacope Nardi'
+     Entity Key: Dott. M Jacope Nardi
+     Reasoning: Complex name with 4 parts
+
+  10. 'Robilant' → 'Edmondo di Maya Robilant'
+     Entity Key: Edmondo di Maya Robilant
+     Reasoning: Complex name with 4 parts
+
+  ... and 13 more
+
+
+PROCEDURAL_HIGH (1501 changes):
+--------------------------------------------------
+  1. 'Dubin' → 'Dubin, Glenn'
+     Entity Key: Glenn Dubin
+     Reasoning: Standard two-part name
+
+  2. 'Trump' → 'Trump, Donald'
+     Entity Key: Donald Trump
+     Reasoning: Standard two-part name
+
+  3. 'Trump' → 'Trump, Ivanka'
+     Entity Key: Ivanka Trump
+     Reasoning: Standard two-part name
+
+  4. 'Pashcow' → 'Pashcow, Joel'
+     Entity Key: Joel Pashcow
+     Reasoning: Standard two-part name
+
+  5. 'Spector' → 'Spector, Warren'
+     Entity Key: Warren Spector
+     Reasoning: Standard two-part name
+
+  6. 'Fekkai' → 'Fekkai, Frederic'
+     Entity Key: Frederic Fekkai
+     Reasoning: Standard two-part name
+
+  7. 'Rosovsky' → 'Rosovsky, Henry'
+     Entity Key: Henry Rosovsky
+     Reasoning: Standard two-part name
+
+  8. 'Epstein' → 'Epstein, Mark'
+     Entity Key: Mark Epstein
+     Reasoning: Standard two-part name
+
+  9. 'Kerney' → 'Kerney, Gary'
+     Entity Key: Gary Kerney
+     Reasoning: Standard two-part name
+
+  10. 'Minsky' → 'Minsky, Marvin'
+     Entity Key: Marvin Minsky
+     Reasoning: Standard two-part name
+
+  ... and 1491 more
+
+
+PROCEDURAL_MEDIUM (136 changes):
+--------------------------------------------------
+  1. 'Jr.' → 'Garnero, Mario B. Jr.'
+     Entity Key: Mario B. Garnero Jr.
+     Reasoning: Three-part name assumed First Middle Last
+
+  2. 'Philipson' → 'Philipson, Kate Murray'
+     Entity Key: Kate Murray Philipson
+     Reasoning: Three-part name assumed First Middle Last
+
+  3. 'Rothschild' → 'Rothschild, Edouard de'
+     Entity Key: Edouard de Rothschild
+     Reasoning: Three-part name assumed First Middle Last
+
+  4. 'Rothschild' → 'Rothschild, Evelyn de'
+     Entity Key: Evelyn de Rothschild
+     Reasoning: Three-part name assumed First Middle Last
+
+  5. 'Sultan' → 'Sultan, Bandar bin'
+     Entity Key: Prince Bandar bin Sultan
+     Reasoning: Three-part name assumed First Middle Last
+
+  6. 'Furstenberg' → 'Furstenberg, Alexandra V.'
+     Entity Key: Alexandra V. Furstenberg
+     Reasoning: Three-part name assumed First Middle Last
+
+  7. 'Yugoslavia' → 'Yugoslavia, Michel of'
+     Entity Key: Prince Michel of Yugoslavia
+     Reasoning: Three-part name assumed First Middle Last
+
+  8. 'Experton' → 'Experton, Marie Joseph'
+     Entity Key: Marie Joseph Experton
+     Reasoning: Three-part name assumed First Middle Last
+
+  9. 'Stroll' → 'Stroll, Lawrence S.'
+     Entity Key: Lawrence S. Stroll
+     Reasoning: Three-part name assumed First Middle Last
+
+  10. 'Ong' → 'Ong, Beng Seng'
+     Entity Key: Beng Seng Ong
+     Reasoning: Three-part name assumed First Middle Last
+
+  ... and 126 more
+
+
+PROCEDURAL HIGH CONFIDENCE EXAMPLES
+--------------------------------------------------
+  1. 'Glenn Dubin' → 'Dubin, Glenn'
+     Standard two-part name
+
+  2. 'Donald Trump' → 'Trump, Donald'
+     Standard two-part name
+
+  3. 'Ivanka Trump' → 'Trump, Ivanka'
+     Standard two-part name
+
+  4. 'Joel Pashcow' → 'Pashcow, Joel'
+     Standard two-part name
+
+  5. 'Warren Spector' → 'Spector, Warren'
+     Standard two-part name
+
+  6. 'Frederic Fekkai' → 'Fekkai, Frederic'
+     Standard two-part name
+
+  7. 'Henry Rosovsky' → 'Rosovsky, Henry'
+     Standard two-part name
+
+  8. 'Mark Epstein' → 'Epstein, Mark'
+     Standard two-part name
+
+  9. 'Gary Kerney' → 'Kerney, Gary'
+     Standard two-part name
+
+  10. 'Marvin Minsky' → 'Minsky, Marvin'
+     Standard two-part name
+
+
+SUMMARY
+-------
+Entity names have been formatted using a hybrid approach:
+1. Simple names handled by procedural rules (fast, deterministic)
+2. Complex names processed by LLM (mistral:latest)
+3. Ambiguous cases preserved as original
+
+Original file backed up to: /Users/masa/Projects/epstein/data/backups/name_fix_20251117_183207
+
+To restore from backup if needed:
+  cp /Users/masa/Projects/epstein/data/backups/name_fix_20251117_183207/entity_statistics.json /Users/masa/Projects/epstein/data/metadata/
+
+VERIFICATION
+------------
+Check sample entities in the API to verify correct formatting:
+  curl http://localhost:8081/api/entities | jq '.entities | .[] | .name' | head -20
+
+NEXT STEPS
+----------
+1. Restart server to reload updated data:
+   kill -9 $(lsof -ti:8081)
+   cd server && python3 app.py 8081 > /tmp/epstein_8081.log 2>&1 &
+
+2. Verify in UI that entity names appear correctly formatted
+3. Delete backup after verification (optional):
+   rm -rf /Users/masa/Projects/epstein/data/backups/name_fix_20251117_183207

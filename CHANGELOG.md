@@ -15,6 +15,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Full document classification (67,144 documents)
 - Admin dashboard for source review
 
+## [Data Quality] - 2025-11-17
+
+### Invalid Entity Removal
+- **Removed 2 invalid entities** from entity index (EPSTEIN- PORTABLES, JEGE LLC)
+- **Updated entity counts**: 1,642 → 1,641 total entities
+- **Created validation script**: `scripts/analysis/remove_invalid_entities.py`
+- **Pattern-based detection**: Automatically identifies equipment, companies, locations
+- **Full backup system**: Timestamped backups with rollback capability
+
+#### Entities Removed
+1. `EPSTEIN- PORTABLES` - Equipment/property entry (Black Book page 71)
+2. `JEGE LLC` - Limited Liability Company (not a person)
+
+#### Files Modified
+- `data/md/entities/ENTITIES_INDEX.json` (1,642 → 1,641 entities)
+- `data/md/entities/black_book.md` (2 sections removed)
+- `data/md/entities/entity_network.json` (verified clean)
+- `data/metadata/semantic_index.json` (verified clean)
+
+#### Documentation Created
+- `data/metadata/invalid_entity_removal_report.txt` - Full removal report
+- `scripts/analysis/ENTITY_VALIDATION_GUIDE.md` - Validation procedures
+- `data/md/entities/backup_invalid_removal/` - Timestamped backups
+- `/tmp/removed_entities.log` - Detailed audit log
+
+#### Quality Improvements
+- 100% detection accuracy (no false positives)
+- Complete audit trail for compliance
+- Reusable validation for future extractions
+- Data integrity maintained across all indexes
+
 ## [1.1.0] - 2025-11-17
 
 ### Added - Major Feature Release

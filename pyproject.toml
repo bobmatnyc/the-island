@@ -1,6 +1,6 @@
 [project]
 name = "epstein-document-archive"
-version = "1.1.0"
+version = "1.2.1"
 description = "Comprehensive searchable archive of publicly available Epstein documents"
 authors = [{name = "Epstein Archive Contributors"}]
 requires-python = ">=3.9"

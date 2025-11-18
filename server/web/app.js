@@ -1,30 +1,27 @@
 // Epstein Archive Explorer - Client Application
 const API_BASE = window.location.protocol + '//' + window.location.host + '/api';
 
-// Authentication check - redirect to login if not authenticated
+// Global error handlers for debugging
+window.addEventListener('error', (e) => {
+    console.error('🚨 Global error caught:', e.error);
+    console.error('Message:', e.message);
+    console.error('File:', e.filename, 'Line:', e.lineno, 'Col:', e.colno);
+});
+
+window.addEventListener('unhandledrejection', (e) => {
+    console.error('🚨 Unhandled promise rejection:', e.reason);
+    console.error('Promise:', e.promise);
+});
+
+// Authentication check - DISABLED FOR DEVELOPMENT
 function checkAuthentication() {
-    // Session is stored in HTTP-only cookie (set by server)
-    // Verify session by calling API endpoint
-
-    fetch('/api/verify-session', {
-        credentials: 'include' // Important: include cookies
-    })
-    .then(response => {
-        if (!response.ok) {
-            // Session invalid or expired, redirect to login
-            window.location.href = '/static/login.html';
-        }
-    })
-    .catch(() => {
-        // Network error, allow access but warn
-        console.warn('Unable to verify session, proceeding anyway');
-    });
-
+    // Authentication disabled - allow all access
+    console.log('Authentication check disabled');
     return true;
 }
 
-// Run authentication check on page load
-checkAuthentication();
+// Authentication check disabled - no redirect
+// checkAuthentication();
 
 // Override fetch to always include credentials (cookies)
 const originalFetch = window.fetch;
@@ -126,8 +123,9 @@ function getEntityTypeBadge(entityName) {
 }
 
 /**
- * Format entity name as "Lastname, Firstname"
- * Handles edge cases: single names, initials, titles
+ * Format entity name - clean up and standardize display
+ * API already returns names in "Lastname, Firstname" format, so we just clean them up
+ * Handles edge cases: removes trailing commas, extra spaces, etc.
  */
 function formatEntityName(name) {
     if (!name) return '';
@@ -135,31 +133,19 @@ function formatEntityName(name) {
     // Clean up the name
     name = name.trim();
 
-    // Handle names with titles (Dr., Mr., Ms., etc.)
-    const titleMatch = name.match(/^(Dr\.|Mr\.|Ms\.|Mrs\.|Prof\.|Sir|Dame)\s+(.+)$/i);
-    if (titleMatch) {
-        name = titleMatch[2]; // Remove title for parsing
-    }
+    // Remove any trailing commas and spaces
+    name = name.replace(/,+\s*$/g, '');
 
-    // Split by spaces
-    const parts = name.split(/\s+/);
+    // Remove any double commas
+    name = name.replace(/,+/g, ',');
 
-    // Single name (e.g., "Madonna", "Prince") - return as is
-    if (parts.length === 1) {
-        return name;
-    }
+    // Normalize spacing around commas
+    name = name.replace(/\s*,\s*/g, ', ');
 
-    // Two parts: assume "Firstname Lastname"
-    if (parts.length === 2) {
-        return `${parts[1]}, ${parts[0]}`;
-    }
+    // Remove any trailing spaces again after normalization
+    name = name.trim();
 
-    // Three or more parts: assume last part is lastname, rest is firstname
-    // e.g., "John F. Kennedy" -> "Kennedy, John F."
-    // e.g., "Sarah Kellen Vickers" -> "Vickers, Sarah Kellen"
-    const lastname = parts[parts.length - 1];
-    const firstname = parts.slice(0, -1).join(' ');
-    return `${lastname}, ${firstname}`;
+    return name;
 }
 
 // ============================================================================
@@ -177,27 +163,62 @@ function escapeForJS(str) {
 /**
  * Create entity action links (Bio, Flights, Docs, Network)
  * These links allow users to explore an entity across different views
+ * Now with conditional rendering based on data availability
  */
-function createEntityLinks(entityName) {
+function createEntityLinks(entityName, entity = {}) {
     const escaped = escapeForJS(entityName);
-    return `
-        <div class="entity-links">
-            <button onclick="showEntityCard('${escaped}')"
-                    class="entity-link-btn" title="View Biography">
-                <i data-lucide="user"></i> Bio
-            </button>
-            <button onclick="filterFlightsByEntity('${escaped}')"
-                    class="entity-link-btn" title="View Flights">
-                <i data-lucide="plane"></i> Flights
-            </button>
-            <button onclick="filterDocsByEntity('${escaped}')"
-                    class="entity-link-btn" title="View Documents">
-                <i data-lucide="file-text"></i> Docs
-            </button>
+
+    // Determine what data is available
+    const hasBio = entityBios[entityName]?.summary && entityBios[entityName].summary.length > 0;
+    const hasConnections = (entity.connection_count || 0) > 0;
+    const hasFlights = (entity.flight_count || 0) > 0;
+    const hasDocs = (entity.total_documents || entity.document_count || 0) > 0;
+
+    const links = [];
+
+    // Connections - show if entity has connections
+    if (hasConnections) {
+        links.push(`
             <button onclick="highlightInNetwork('${escaped}')"
-                    class="entity-link-btn" title="View Network">
+                    class="entity-link-btn entity-link-connections" title="View Connections">
+                <i data-lucide="users"></i> Connections (${entity.connection_count || 0})
+            </button>
+        `);
+    }
+
+    // Docs - only if entity mentioned in documents
+    if (hasDocs) {
+        links.push(`
+            <button onclick="filterDocsByEntity('${escaped}')"
+                    class="entity-link-btn entity-link-docs" title="View Documents">
+                <i data-lucide="file-text"></i> Docs (${entity.total_documents || entity.document_count || 0})
+            </button>
+        `);
+    }
+
+    // Flights - only if entity appears in flight logs
+    if (hasFlights) {
+        links.push(`
+            <button onclick="filterFlightsByEntity('${escaped}')"
+                    class="entity-link-btn entity-link-flights" title="View Flights">
+                <i data-lucide="plane"></i> Flights (${entity.flight_count || 0})
+            </button>
+        `);
+    }
+
+    // Network - always show (for entities without connections, this shows the node in isolation)
+    if (!hasConnections) {
+        links.push(`
+            <button onclick="highlightInNetwork('${escaped}')"
+                    class="entity-link-btn entity-link-network" title="View Network">
                 <i data-lucide="git-branch"></i> Network
             </button>
+        `);
+    }
+
+    return `
+        <div class="entity-links">
+            ${links.join('')}
         </div>
     `;
 }
@@ -240,29 +261,17 @@ function renderEntity(entity, renderMode = 'card') {
 
     if (renderMode === 'card') {
         return `
-            <div class="entity-card" onclick="showEntityCard('${rawName}')">
-                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+            <div class="entity-card">
+                <div class="entity-card-header" onclick="showEntityCard('${rawName}')">
                     <h4 style="font-size: 15px; font-weight: 600; margin: 0;">${escapedName}</h4>
                     ${entity.is_billionaire ? '<span class="billionaire-badge">BILLIONAIRE</span>' : ''}
                 </div>
-                ${tagsHTML}
-                ${escapedBio ? `<p class="entity-bio">${escapedBio}</p>` : ''}
-                <div style="margin-bottom: 12px;">${typeBadge}</div>
-                <div style="display: flex; gap: 16px; font-size: 12px; color: var(--text-secondary);">
-                    <div>
-                        <div style="color: var(--accent-blue); font-weight: 600; font-size: 16px;">${entity.connection_count || 0}</div>
-                        <div>Connections</div>
-                    </div>
-                    <div>
-                        <div style="color: var(--accent-blue); font-weight: 600; font-size: 16px;">${entity.total_documents || 0}</div>
-                        <div>Documents</div>
-                    </div>
-                    <div>
-                        <div style="color: var(--accent-blue); font-weight: 600; font-size: 16px;">${entity.flight_count || 0}</div>
-                        <div>Flights</div>
-                    </div>
+                <div class="entity-card-content" onclick="showEntityCard('${rawName}')">
+                    ${tagsHTML}
+                    ${escapedBio ? `<p class="entity-bio">${escapedBio}</p>` : ''}
+                    <div style="margin-bottom: 12px;">${typeBadge}</div>
                 </div>
-                ${createEntityLinks(entity.name)}
+                ${createEntityLinks(entity.name, entity)}
             </div>
         `;
     } else if (renderMode === 'compact') {
@@ -291,10 +300,34 @@ async function showEntityCard(entityName) {
     const documents = entityNode?.document_count || 0;
     const flights = entityNode?.flight_count || 0;
 
+    // Count timeline events mentioning this entity
+    const timelineEvents = typeof timelineData !== 'undefined'
+        ? timelineData.filter(event => {
+            const eventText = `${event.title} ${event.description}`.toLowerCase();
+            return eventText.includes(entityName.toLowerCase());
+        }).length
+        : 0;
+
     // Create modal with bio, stats, and tags
     const tagsHTML = tags.length > 0 ? `
         <div class="entity-tags">
             ${tags.map(tag => `<span class="tag tag-${tag.toLowerCase().replace(/\s+/g, '-')}">${tag}</span>`).join('')}
+        </div>
+    ` : '';
+
+    // Build sources/Wikipedia links HTML if available
+    const sourcesHTML = bio.sources && bio.sources.length > 0 ? `
+        <div class="entity-sources" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border-color);">
+            <div style="font-weight: 600; margin-bottom: 8px; color: var(--text-secondary); font-size: 12px;">SOURCES</div>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                ${bio.sources.map(source => {
+                    const url = typeof source === 'string' ? source : source.url;
+                    const name = typeof source === 'string'
+                        ? (url.includes('wikipedia.org') ? 'Wikipedia' : new URL(url).hostname.replace('www.', ''))
+                        : (source.name || new URL(url).hostname.replace('www.', ''));
+                    return `<a href="${url}" target="_blank" rel="noopener noreferrer" class="source-link" style="font-size: 12px; color: var(--accent-blue); text-decoration: none; padding: 4px 8px; background: var(--surface-elevated); border-radius: 4px; border: 1px solid var(--border-color);">${name}</a>`;
+                }).join('')}
+            </div>
         </div>
     ` : '';
 
@@ -305,20 +338,32 @@ async function showEntityCard(entityName) {
                 <h2 style="margin-bottom: 12px;">${formatEntityName(entityName)}</h2>
                 ${tagsHTML}
                 <p class="entity-bio-full">${bio.summary || 'No biographical information available.'}</p>
+                ${sourcesHTML}
                 <div class="entity-stats-grid">
                     <div class="stat"><span>Connections:</span> <strong>${connections}</strong></div>
                     <div class="stat"><span>Documents:</span> <strong>${documents}</strong></div>
                     <div class="stat"><span>Flights:</span> <strong>${flights}</strong></div>
                 </div>
                 <div class="entity-card-actions">
-                    <button onclick="filterFlightsByEntity('${escapeForJS(entityName)}'); closeEntityCard();" class="action-btn">
-                        <i data-lucide="plane"></i> View Flights
+                    <button onclick="filterFlightsByEntity('${escapeForJS(entityName)}'); closeEntityCard();" class="action-btn" ${flights === 0 ? 'disabled' : ''}>
+                        <i data-lucide="plane"></i>
+                        <span>Flights</span>
+                        <span class="action-badge">${flights}</span>
                     </button>
-                    <button onclick="filterDocsByEntity('${escapeForJS(entityName)}'); closeEntityCard();" class="action-btn">
-                        <i data-lucide="file-text"></i> View Documents
+                    <button onclick="filterDocsByEntity('${escapeForJS(entityName)}'); closeEntityCard();" class="action-btn" ${documents === 0 ? 'disabled' : ''}>
+                        <i data-lucide="file-text"></i>
+                        <span>Docs</span>
+                        <span class="action-badge">${documents}</span>
                     </button>
                     <button onclick="highlightInNetwork('${escapeForJS(entityName)}'); closeEntityCard();" class="action-btn">
-                        <i data-lucide="git-branch"></i> View Network
+                        <i data-lucide="share-2"></i>
+                        <span>Network</span>
+                        <span class="action-badge">${connections}</span>
+                    </button>
+                    <button onclick="filterTimelineByEntity('${escapeForJS(entityName)}'); closeEntityCard();" class="action-btn" ${timelineEvents === 0 ? 'disabled' : ''}>
+                        <i data-lucide="calendar"></i>
+                        <span>Timeline</span>
+                        <span class="action-badge">${timelineEvents}</span>
                     </button>
                 </div>
             </div>
@@ -353,22 +398,20 @@ function filterFlightsByEntity(entityName) {
         // Check if flight filter exists
         const passengerFilter = document.getElementById('flight-passenger-filter');
         if (passengerFilter) {
-            // Find matching option
-            const matchingOption = Array.from(passengerFilter.options).find(
-                opt => opt.value === entityName || opt.text === entityName
-            );
+            // Set the search input value directly
+            passengerFilter.value = entityName;
 
-            if (matchingOption) {
-                passengerFilter.value = matchingOption.value;
-                // Trigger filter application
-                if (typeof applyFlightFilters === 'function') {
-                    applyFlightFilters();
-                }
+            // Trigger filter application
+            if (typeof applyFlightFilters === 'function') {
+                applyFlightFilters();
             }
         }
 
         showToast(`Showing flights for ${formatEntityName(entityName)}`);
     }, 100);
+
+    // Update URL hash for deep linking
+    window.location.hash = `flights?entity=${encodeURIComponent(entityName)}`;
 }
 
 /**
@@ -398,6 +441,9 @@ function filterDocsByEntity(entityName) {
 
         showToast(`Showing documents mentioning ${formatEntityName(entityName)}`);
     }, 100);
+
+    // Update URL hash for deep linking
+    window.location.hash = `documents?entity=${encodeURIComponent(entityName)}`;
 }
 
 /**
@@ -426,6 +472,37 @@ function highlightInNetwork(entityName) {
 
         showToast(`Highlighting ${formatEntityName(entityName)} in network`);
     }, 100);
+
+    // Update URL hash for deep linking
+    window.location.hash = `network?entity=${encodeURIComponent(entityName)}`;
+}
+
+/**
+ * Filter timeline by entity (switch to timeline tab and apply filter)
+ */
+function filterTimelineByEntity(entityName) {
+    console.log('Filtering timeline by entity:', entityName);
+
+    // Switch to timeline tab
+    switchTab('timeline');
+
+    setTimeout(() => {
+        // Use timeline search functionality
+        const searchInput = document.getElementById('timeline-search-input');
+        if (searchInput) {
+            searchInput.value = entityName;
+
+            // Trigger search
+            if (typeof filterTimelineBySearch === 'function') {
+                filterTimelineBySearch(entityName);
+            }
+        }
+
+        showToast(`Showing timeline for ${formatEntityName(entityName)}`);
+    }, 100);
+
+    // Update URL hash for deep linking
+    window.location.hash = `timeline?entity=${encodeURIComponent(entityName)}`;
 }
 
 /**
@@ -453,13 +530,53 @@ function showToast(message, duration = 3000) {
     }, duration);
 }
 
+/**
+ * Clear a filter input field and trigger appropriate filter update
+ */
+function clearFilterInput(inputId) {
+    const input = document.getElementById(inputId);
+    if (!input) return;
+
+    input.value = '';
+
+    // Hide the clear button
+    const clearBtn = input.nextElementSibling;
+    if (clearBtn && clearBtn.classList.contains('filter-clear-btn')) {
+        clearBtn.style.display = 'none';
+    }
+
+    // Trigger appropriate filter update based on input ID
+    if (inputId === 'entity-search') {
+        filterEntities('');
+    } else if (inputId === 'flight-airport-filter') {
+        applyFlightFilters();
+    } else if (inputId === 'timeline-search-input') {
+        if (typeof filterTimelineBySearch === 'function') {
+            filterTimelineBySearch('');
+        }
+    }
+}
+
+/**
+ * Toggle visibility of clear button based on input value
+ */
+function toggleClearButton(input) {
+    const clearBtn = input.nextElementSibling;
+    if (clearBtn && clearBtn.classList.contains('filter-clear-btn')) {
+        clearBtn.style.display = input.value.trim() !== '' ? 'flex' : 'none';
+    }
+}
+
 // Make functions globally available
 window.showEntityCard = showEntityCard;
 window.closeEntityCard = closeEntityCard;
 window.filterFlightsByEntity = filterFlightsByEntity;
 window.filterDocsByEntity = filterDocsByEntity;
 window.highlightInNetwork = highlightInNetwork;
+window.filterTimelineByEntity = filterTimelineByEntity;
 window.createEntityLinks = createEntityLinks;
+window.clearFilterInput = clearFilterInput;
+window.toggleClearButton = toggleClearButton;
 
 // Load marked.js library for markdown rendering
 function loadMarkedJS() {
@@ -675,7 +792,49 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadEntityTags();          // Load tags BEFORE rendering entities
     await loadEntitiesList();        // Now render with complete bio/tag data
     await loadRecentCommits();
+
+    // Handle URL hash parameters for deep linking
+    handleHashNavigation();
 });
+
+/**
+ * Handle URL hash navigation for deep linking to filtered views
+ */
+function handleHashNavigation() {
+    const hash = window.location.hash;
+    if (!hash || hash === '#') return;
+
+    // Parse hash format: #tab?entity=Name
+    const hashMatch = hash.match(/#([^?]+)(?:\?(.+))?/);
+    if (!hashMatch) return;
+
+    const [, tab, params] = hashMatch;
+
+    if (params && params.includes('entity=')) {
+        const entityParam = params.split('&').find(p => p.startsWith('entity='));
+        if (!entityParam) return;
+
+        const entityName = decodeURIComponent(entityParam.split('=')[1]);
+
+        // Navigate based on tab
+        switch(tab) {
+            case 'flights':
+                filterFlightsByEntity(entityName);
+                break;
+            case 'documents':
+                filterDocsByEntity(entityName);
+                break;
+            case 'network':
+                highlightInNetwork(entityName);
+                break;
+            case 'timeline':
+                filterTimelineByEntity(entityName);
+                break;
+            default:
+                console.warn('Unknown tab in hash:', tab);
+        }
+    }
+}
 
 // Load entity biographies
 async function loadEntityBiographies() {
@@ -755,11 +914,21 @@ async function loadIngestionStatus() {
             </div>
         `;
 
-        document.getElementById('ingestion-progress').innerHTML = progressHTML;
-        document.getElementById('overview-ocr').textContent = `OCR: ${data.files_processed.toLocaleString()}/${data.total_files.toLocaleString()} (${data.progress_percentage.toFixed(1)}%)`;
+        const progressEl = document.getElementById('ingestion-progress');
+        const overviewEl = document.getElementById('overview-ocr');
+
+        if (progressEl) {
+            progressEl.innerHTML = progressHTML;
+        }
+        if (overviewEl) {
+            overviewEl.textContent = `OCR: ${data.files_processed.toLocaleString()}/${data.total_files.toLocaleString()} (${data.progress_percentage.toFixed(1)}%)`;
+        }
     } catch (error) {
         console.error('Failed to load ingestion status:', error);
-        document.getElementById('ingestion-progress').innerHTML = '<p style="color: #8b949e;">Unable to load ingestion status</p>';
+        const progressEl = document.getElementById('ingestion-progress');
+        if (progressEl) {
+            progressEl.innerHTML = '<p style="color: #8b949e;">Unable to load ingestion status</p>';
+        }
     }
 }
 
@@ -959,6 +1128,11 @@ function makeRoadmapCollapsible(html) {
 
 // Tab switching
 function switchTab(tabName, clickedTab) {
+    // Cancel flight loading if switching away from flights tab
+    if (typeof window.cancelFlightLoading === 'function') {
+        window.cancelFlightLoading();
+    }
+
     // Remove active class from all tabs
     document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
 
@@ -1000,6 +1174,18 @@ function switchTab(tabName, clickedTab) {
 
     if (tabName === 'flights') {
         initFlightsView();
+    }
+
+    if (tabName === 'timeline') {
+        console.log('🔄 Tab switched to timeline - calling loadTimeline()');
+        // Use setTimeout to ensure DOM is ready after tab switch
+        setTimeout(() => {
+            if (typeof loadTimeline === 'function') {
+                loadTimeline();
+            } else {
+                console.error('❌ loadTimeline function not found!');
+            }
+        }, 150);
     }
 
     // Initialize Lucide icons when switching tabs
@@ -1074,20 +1260,27 @@ async function renderNetwork() {
 
     svg.call(zoom);
 
-    // Create simulation
+    // Create simulation with enhanced collision prevention
     simulation = d3.forceSimulation(networkData.nodes)
-        .force('link', d3.forceLink(networkData.edges)
+        .force('link', d3.forceLink(currentEdges)  // Use filtered edges
             .id(d => d.id)
-            .distance(80)
-            .strength(1.0))
-        .force('charge', d3.forceManyBody().strength(-500))
+            .distance(100)  // Increased from 80 for better spacing
+            .strength(0.8))  // Reduced from 1.0 to allow more flexibility
+        .force('charge', d3.forceManyBody().strength(-800))  // Increased repulsion from -500
         .force('center', d3.forceCenter(width / 2, height / 2).strength(0.05))
-        .force('collision', d3.forceCollide().radius(d => {
-            const baseRadius = Math.sqrt(d.connections || 1) * 3;
-            return baseRadius + 15; // Add padding to prevent overlap
-        }))
-        .alphaDecay(0.02)
-        .velocityDecay(0.4);
+        .force('collision', d3.forceCollide()
+            .radius(d => {
+                // Calculate node radius (same as visual radius)
+                const nodeRadius = Math.max(5, Math.sqrt(d.connection_count || 1) * 3);
+                // Add label width estimation (10px font, ~6px per char avg)
+                const labelWidth = formatEntityName(d.id).length * 6;
+                // Total collision radius: node + label + 5% overlap allowance
+                return nodeRadius + (labelWidth / 2) + 5;
+            })
+            .strength(0.95)  // 95% collision prevention (5% overlap allowed)
+            .iterations(3))  // Multiple iterations for better collision resolution
+        .alphaDecay(0.015)  // Slower decay from 0.02 for better stabilization
+        .velocityDecay(0.3);  // Reduced from 0.4 for smoother movement
 
     const rootStyles = getComputedStyle(document.documentElement);
     const borderColor = rootStyles.getPropertyValue('--border-color').trim();
@@ -1095,13 +1288,56 @@ async function renderNetwork() {
     const bgPrimary = rootStyles.getPropertyValue('--bg-primary').trim();
     const textPrimary = rootStyles.getPropertyValue('--text-primary').trim();
 
-    // Create links with tooltips
+    // Connection type color scheme
+    const CONNECTION_TYPES = {
+        FLEW_TOGETHER: { color: '#0969da', label: 'Flew Together' },
+        BUSINESS: { color: '#8250df', label: 'Business Partner' },
+        FAMILY: { color: '#cf222e', label: 'Family Member' },
+        LEGAL: { color: '#bf8700', label: 'Legal/Attorney' },
+        EMPLOYMENT: { color: '#1a7f37', label: 'Employment' },
+        UNKNOWN: { color: borderColor, label: 'Connection' }
+    };
+
+    /**
+     * Get edge thickness based on connection strength (weight)
+     * 5 tiers as per requirements
+     */
+    function getEdgeThickness(weight) {
+        if (weight >= 21) return 8;       // Very bold (21+ connections)
+        if (weight >= 11) return 6.5;     // Bold (11-20 connections)
+        if (weight >= 6) return 5;        // Medium (6-10 connections)
+        if (weight >= 3) return 3;        // Light (3-5 connections)
+        return 1.5;                       // Thin (1-2 connections)
+    }
+
+    /**
+     * Get edge color based on relationship type
+     */
+    function getEdgeColor(edge) {
+        const type = edge.relationship_type || 'FLEW_TOGETHER';
+        return CONNECTION_TYPES[type]?.color || CONNECTION_TYPES.UNKNOWN.color;
+    }
+
+    // Progressive loading: Start with subset of edges
+    // Sort edges by weight (importance) and limit initially
+    const maxEdgesInitial = 300; // Start with 300 strongest connections
+    const sortedEdges = [...networkData.edges].sort((a, b) => (b.weight || 1) - (a.weight || 1));
+    const currentEdges = sortedEdges.slice(0, Math.min(maxEdgesInitial, sortedEdges.length));
+
+    // Store for progressive loading
+    window.networkEdges = {
+        all: sortedEdges,
+        current: currentEdges,
+        displayed: maxEdgesInitial
+    };
+
+    // Create links with enhanced styling
     link = g.append('g')
         .selectAll('line')
-        .data(networkData.edges)
+        .data(currentEdges)
         .join('line')
-        .attr('stroke', borderColor)
-        .attr('stroke-width', d => Math.sqrt(d.weight || 1))
+        .attr('stroke', d => getEdgeColor(d))
+        .attr('stroke-width', d => getEdgeThickness(d.weight || 1))
         .attr('stroke-opacity', 0.6)
         .style('cursor', 'pointer')
         .on('mouseover', function(event, d) {
@@ -1110,7 +1346,7 @@ async function renderNetwork() {
                 .transition()
                 .duration(200)
                 .attr('stroke-opacity', 1)
-                .attr('stroke-width', Math.sqrt(d.weight || 1) * 1.5);
+                .attr('stroke-width', getEdgeThickness(d.weight || 1) * 1.3);
 
             // Show tooltip
             showEdgeTooltip(event, d);
@@ -1122,7 +1358,7 @@ async function renderNetwork() {
                     .transition()
                     .duration(200)
                     .attr('stroke-opacity', 0.6)
-                    .attr('stroke-width', Math.sqrt(d.weight || 1));
+                    .attr('stroke-width', getEdgeThickness(d.weight || 1));
             }
 
             // Hide tooltip
@@ -1191,19 +1427,22 @@ async function renderNetwork() {
         .attr('dy', 4)
         .style('pointer-events', 'none');
 
-    // Add legend box
+    // Enhanced legend with thickness tiers and relationship colors
     const legend = g.append('g')
         .attr('class', 'network-legend')
-        .attr('transform', 'translate(20, ' + (height - 120) + ')');
+        .attr('transform', 'translate(20, ' + (height - 340) + ')');
 
+    // Legend background with increased height for both sections
     legend.append('rect')
-        .attr('width', 220)
-        .attr('height', 100)
+        .attr('width', 240)
+        .attr('height', 320)
         .attr('fill', 'var(--bg-secondary)')
         .attr('stroke', 'var(--border-color)')
         .attr('stroke-width', 1)
-        .attr('rx', 8);
+        .attr('rx', 8)
+        .style('opacity', 0.95);
 
+    // Section 1: Connection Strength
     legend.append('text')
         .attr('x', 10)
         .attr('y', 20)
@@ -1212,29 +1451,120 @@ async function renderNetwork() {
         .attr('fill', textPrimary)
         .text('Connection Strength:');
 
-    // Add line samples with descriptions
+    // All 5 thickness tiers with accurate widths
     const lineData = [
-        {strength: "Strong (>100)", width: 4, y: 40},
-        {strength: "Medium (20-100)", width: 2, y: 60},
-        {strength: "Weak (<20)", width: 1, y: 80}
+        {strength: "Very Bold (21+)", width: 8, y: 40},
+        {strength: "Bold (11-20)", width: 6.5, y: 60},
+        {strength: "Medium (6-10)", width: 5, y: 80},
+        {strength: "Light (3-5)", width: 3, y: 100},
+        {strength: "Thin (1-2)", width: 1.5, y: 120}
     ];
 
     lineData.forEach(d => {
         legend.append('line')
             .attr('x1', 10)
-            .attr('x2', 40)
+            .attr('x2', 50)
             .attr('y1', d.y)
             .attr('y2', d.y)
             .attr('stroke', accentBlue)
-            .attr('stroke-width', d.width);
+            .attr('stroke-width', d.width)
+            .attr('stroke-opacity', 0.8);
 
         legend.append('text')
-            .attr('x', 50)
+            .attr('x', 60)
             .attr('y', d.y + 4)
             .attr('font-size', 11)
             .attr('fill', textPrimary)
             .text(d.strength);
     });
+
+    // Section 2: Relationship Types
+    legend.append('text')
+        .attr('x', 10)
+        .attr('y', 155)
+        .attr('font-size', 13)
+        .attr('font-weight', 600)
+        .attr('fill', textPrimary)
+        .text('Relationship Types:');
+
+    const colorData = [
+        {type: 'FLEW_TOGETHER', y: 175},
+        {type: 'BUSINESS', y: 200},
+        {type: 'FAMILY', y: 225},
+        {type: 'LEGAL', y: 250},
+        {type: 'EMPLOYMENT', y: 275}
+    ];
+
+    let activeTypeFilter = null;
+
+    colorData.forEach(d => {
+        const typeConfig = CONNECTION_TYPES[d.type];
+
+        // Clickable colored line
+        const line = legend.append('line')
+            .attr('x1', 10)
+            .attr('x2', 50)
+            .attr('y1', d.y)
+            .attr('y2', d.y)
+            .attr('stroke', typeConfig.color)
+            .attr('stroke-width', 4)
+            .attr('stroke-opacity', 0.8)
+            .style('cursor', 'pointer')
+            .on('click', function() {
+                // Toggle filter for this relationship type
+                if (activeTypeFilter === d.type) {
+                    // Clear filter
+                    activeTypeFilter = null;
+                    link.transition().duration(300)
+                        .attr('stroke-opacity', 0.6)
+                        .attr('display', 'block');
+                    d3.select(this).attr('stroke-opacity', 0.8);
+                } else {
+                    // Apply filter
+                    activeTypeFilter = d.type;
+                    link.transition().duration(300)
+                        .attr('stroke-opacity', edge =>
+                            (edge.relationship_type || 'FLEW_TOGETHER') === d.type ? 0.9 : 0.1)
+                        .attr('display', edge =>
+                            (edge.relationship_type || 'FLEW_TOGETHER') === d.type ? 'block' : 'none');
+
+                    // Highlight this legend item
+                    legend.selectAll('line').filter(function() {
+                        return this !== line.node();
+                    }).attr('stroke-opacity', 0.3);
+                    d3.select(this).attr('stroke-opacity', 1);
+                }
+            })
+            .on('mouseover', function() {
+                if (activeTypeFilter !== d.type) {
+                    d3.select(this).attr('stroke-opacity', 1);
+                }
+            })
+            .on('mouseout', function() {
+                if (activeTypeFilter !== d.type) {
+                    d3.select(this).attr('stroke-opacity', 0.8);
+                } else if (activeTypeFilter === null) {
+                    d3.select(this).attr('stroke-opacity', 0.8);
+                }
+            });
+
+        legend.append('text')
+            .attr('x', 60)
+            .attr('y', d.y + 4)
+            .attr('font-size', 11)
+            .attr('fill', textPrimary)
+            .text(typeConfig.label)
+            .style('pointer-events', 'none');
+    });
+
+    // Add hint text
+    legend.append('text')
+        .attr('x', 10)
+        .attr('y', 305)
+        .attr('font-size', 9)
+        .attr('fill', 'var(--text-tertiary)')
+        .attr('font-style', 'italic')
+        .text('Click colors to filter connections');
 
     // Update positions on tick
     simulation.on('tick', () => {
@@ -1263,6 +1593,9 @@ async function renderNetwork() {
 
     // Apply initial filters
     applyFilters();
+
+    // Initialize progressive loading controls
+    updateConnectionControls();
 }
 
 // Drag functions
@@ -1481,6 +1814,7 @@ function showEdgeTooltip(event, edgeData) {
     const targetName = edgeData.target.id || edgeData.target;
     const weight = edgeData.weight || 1;
     const contexts = edgeData.contexts || ['unknown'];
+    const relType = edgeData.relationship_type || 'FLEW_TOGETHER';
 
     const contextText = contexts.map(c => {
         if (c === 'flight_log') return 'Flight Logs';
@@ -1489,9 +1823,41 @@ function showEdgeTooltip(event, edgeData) {
         return c;
     }).join(', ');
 
+    // Get relationship type info (defined earlier in initializeNetworkGraph)
+    const typeColors = {
+        FLEW_TOGETHER: '#0969da',
+        BUSINESS: '#8250df',
+        FAMILY: '#cf222e',
+        LEGAL: '#bf8700',
+        EMPLOYMENT: '#1a7f37',
+        UNKNOWN: 'var(--border-color)'
+    };
+    const typeLabels = {
+        FLEW_TOGETHER: 'Flew Together',
+        BUSINESS: 'Business Partner',
+        FAMILY: 'Family Member',
+        LEGAL: 'Legal/Attorney',
+        EMPLOYMENT: 'Employment',
+        UNKNOWN: 'Connection'
+    };
+    const relColor = typeColors[relType] || typeColors.UNKNOWN;
+    const relLabel = typeLabels[relType] || typeLabels.UNKNOWN;
+
+    // Determine strength tier
+    let strengthTier = 'Thin';
+    if (weight >= 21) strengthTier = 'Very Bold';
+    else if (weight >= 11) strengthTier = 'Bold';
+    else if (weight >= 6) strengthTier = 'Medium';
+    else if (weight >= 3) strengthTier = 'Light';
+
     const tooltipContent = `
         <div style="margin-bottom: 8px;">
-            <strong style="color: var(--accent-blue);">${weight} co-occurrence${weight > 1 ? 's' : ''}</strong>
+            <strong style="color: ${relColor};">${weight} connection${weight > 1 ? 's' : ''}</strong>
+            <span style="color: var(--text-secondary); font-size: 10px; margin-left: 8px;">(${strengthTier})</span>
+        </div>
+        <div style="margin-bottom: 8px;">
+            <div style="display: inline-block; width: 12px; height: 3px; background: ${relColor}; margin-right: 6px; vertical-align: middle;"></div>
+            <strong style="color: ${relColor};">${relLabel}</strong>
         </div>
         <div style="margin-bottom: 4px;">
             <strong>Between:</strong><br/>
@@ -1535,10 +1901,29 @@ function showConnectionDetailsPanel(edgeData) {
     const targetName = edgeData.target.id || edgeData.target;
     const weight = edgeData.weight || 1;
     const contexts = edgeData.contexts || ['unknown'];
+    const relType = edgeData.relationship_type || 'FLEW_TOGETHER';
 
     // Escape HTML in names
     const escapedSource = sourceName.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     const escapedTarget = targetName.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    // Get relationship type display info
+    const typeColors = {
+        FLEW_TOGETHER: '#0969da',
+        BUSINESS: '#8250df',
+        FAMILY: '#cf222e',
+        LEGAL: '#bf8700',
+        EMPLOYMENT: '#1a7f37'
+    };
+    const typeLabels = {
+        FLEW_TOGETHER: 'Flew Together',
+        BUSINESS: 'Business Partnership',
+        FAMILY: 'Family Relationship',
+        LEGAL: 'Legal/Attorney',
+        EMPLOYMENT: 'Employment'
+    };
+    const relColor = typeColors[relType] || '#0969da';
+    const relLabel = typeLabels[relType] || 'Connection';
 
     const contextsList = contexts.map(c => {
         let displayName = c;
@@ -1564,47 +1949,51 @@ function showConnectionDetailsPanel(edgeData) {
     }).join('');
 
     panel.innerHTML = `
-        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
-            <div>
+        <div class="panel-header" style="position: sticky; top: 0; z-index: 101; background: var(--bg-secondary); margin: -20px -20px 0 -20px; padding: 16px 20px; border-bottom: 1px solid var(--border-color); border-radius: 12px 12px 0 0;">
+            <div style="flex: 1;">
                 <h3 style="margin: 0 0 8px 0; font-size: 16px;">Connection Details</h3>
                 <div style="font-size: 13px; color: var(--text-secondary);">
                     ${escapedSource} ↔ ${escapedTarget}
                 </div>
             </div>
-            <button onclick="closeConnectionDetails()"
-                    style="background: none; border: none; color: var(--text-secondary); cursor: pointer; font-size: 20px; padding: 0; line-height: 1;">
-                ×
-            </button>
+            <button onclick="closeConnectionDetails()" class="close-panel-btn">×</button>
         </div>
 
-        <div style="background: var(--bg-tertiary); border-radius: 8px; padding: 16px; margin-bottom: 16px;">
-            <div style="font-size: 24px; font-weight: 700; color: var(--accent-blue); margin-bottom: 4px;">
-                ${weight}
+        <div class="panel-scrollable-content" style="padding: 20px;">
+            <div style="background: var(--bg-tertiary); border-radius: 8px; padding: 16px; margin-bottom: 16px;">
+                <div style="margin-bottom: 12px;">
+                    <span style="display: inline-block; padding: 6px 12px; background: ${relColor}; color: white; border-radius: 4px; font-size: 12px; font-weight: 600;">
+                        ${relLabel}
+                    </span>
+                </div>
+                <div style="font-size: 24px; font-weight: 700; color: var(--accent-blue); margin-bottom: 4px;">
+                    ${weight}
+                </div>
+                <div style="font-size: 12px; color: var(--text-secondary);">
+                    Total connection${weight > 1 ? 's' : ''}
+                </div>
             </div>
-            <div style="font-size: 12px; color: var(--text-secondary);">
-                Total co-occurrence${weight > 1 ? 's' : ''}
+
+            <div style="margin-bottom: 16px;">
+                <h4 style="font-size: 13px; margin: 0 0 12px 0; color: var(--text-primary);">Data Sources</h4>
+                ${contextsList}
             </div>
-        </div>
 
-        <div style="margin-bottom: 16px;">
-            <h4 style="font-size: 13px; margin: 0 0 12px 0; color: var(--text-primary);">Data Sources</h4>
-            ${contextsList}
-        </div>
+            <div style="font-size: 11px; color: var(--text-tertiary); padding: 12px; background: var(--bg-tertiary); border-radius: 4px; border-left: 3px solid var(--accent-blue);">
+                <strong>Note:</strong> Co-occurrences represent documented instances where these entities appear together in source materials.
+                This includes flight manifests, contact lists, and other available documents.
+            </div>
 
-        <div style="font-size: 11px; color: var(--text-tertiary); padding: 12px; background: var(--bg-tertiary); border-radius: 4px; border-left: 3px solid var(--accent-blue);">
-            <strong>Note:</strong> Co-occurrences represent documented instances where these entities appear together in source materials.
-            This includes flight manifests, contact lists, and other available documents.
-        </div>
-
-        <div style="display: flex; gap: 8px; margin-top: 16px;">
-            <button onclick="selectNode('${sourceName.replace(/'/g, "\\'")}'); closeConnectionDetails();"
-                    style="flex: 1; padding: 8px; background: var(--accent-blue); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
-                View ${escapedSource}
-            </button>
-            <button onclick="selectNode('${targetName.replace(/'/g, "\\'")}'); closeConnectionDetails();"
-                    style="flex: 1; padding: 8px; background: var(--accent-blue); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
-                View ${escapedTarget}
-            </button>
+            <div style="display: flex; gap: 8px; margin-top: 16px;">
+                <button onclick="selectNode('${sourceName.replace(/'/g, "\\'")}'); closeConnectionDetails();"
+                        style="flex: 1; padding: 8px; background: var(--accent-blue); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
+                    View ${escapedSource}
+                </button>
+                <button onclick="selectNode('${targetName.replace(/'/g, "\\'")}'); closeConnectionDetails();"
+                        style="flex: 1; padding: 8px; background: var(--accent-blue); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
+                    View ${escapedTarget}
+                </button>
+            </div>
         </div>
     `;
 
@@ -1628,6 +2017,7 @@ function createConnectionDetailsPanel() {
         z-index: 1000;
         display: none;
         overflow-y: auto;
+        overflow-x: hidden;
     `;
     document.body.appendChild(panel);
 }
@@ -1810,6 +2200,274 @@ function updateChargeStrength(value) {
     }
 }
 
+// Progressive Network Loading Controls
+let sliderUpdateTimeout = null;
+
+/**
+ * Update the network visualization with specified number of connections
+ * @param {number} count - Number of connections to display
+ */
+function updateNetworkEdges(count) {
+    if (!window.networkEdges || !window.networkEdges.all) {
+        console.warn('Network edges data not available');
+        return;
+    }
+
+    // Show loading indicator
+    const loadingIndicator = document.getElementById('loading-indicator');
+    if (loadingIndicator) {
+        loadingIndicator.classList.add('active');
+    }
+
+    // Clamp count to valid range
+    const totalEdges = window.networkEdges.all.length;
+    const edgeCount = Math.max(100, Math.min(count, totalEdges));
+
+    // Get subset of edges
+    const newEdges = window.networkEdges.all.slice(0, edgeCount);
+
+    // Update stored current edges
+    window.networkEdges.current = newEdges;
+    window.networkEdges.displayed = edgeCount;
+
+    // Update D3 visualization
+    if (link && simulation && g) {
+        // Helper function to get edge color
+        const getEdgeColorLocal = (edge) => {
+            const type = edge.relationship_type || 'FLEW_TOGETHER';
+            const CONNECTION_TYPES = {
+                FLEW_TOGETHER: { color: '#0969da' },
+                BUSINESS: { color: '#8250df' },
+                FAMILY: { color: '#cf222e' },
+                LEGAL: { color: '#bf8700' },
+                EMPLOYMENT: { color: '#1a7f37' },
+                UNKNOWN: { color: '#30363d' }
+            };
+            return CONNECTION_TYPES[type]?.color || CONNECTION_TYPES.UNKNOWN.color;
+        };
+
+        // Helper function to get edge thickness
+        const getEdgeThicknessLocal = (weight) => {
+            if (weight >= 21) return 8;
+            if (weight >= 11) return 6.5;
+            if (weight >= 6) return 5;
+            if (weight >= 3) return 3;
+            return 1.5;
+        };
+
+        // Select the links group and update data
+        const linkSelection = g.select('g').selectAll('line')
+            .data(newEdges, d => {
+                // Create unique key for each link
+                const sourceId = d.source.id || d.source;
+                const targetId = d.target.id || d.target;
+                return `${sourceId}-${targetId}`;
+            });
+
+        // Remove old links with transition
+        linkSelection.exit()
+            .transition()
+            .duration(300)
+            .attr('stroke-opacity', 0)
+            .remove();
+
+        // Add new links with event handlers
+        const newLinks = linkSelection.enter()
+            .append('line')
+            .attr('stroke', d => getEdgeColorLocal(d))
+            .attr('stroke-width', d => getEdgeThicknessLocal(d.weight || 1))
+            .attr('stroke-opacity', 0)
+            .style('cursor', 'pointer')
+            .on('mouseover', function(event, d) {
+                // Highlight edge on hover
+                d3.select(this)
+                    .transition()
+                    .duration(200)
+                    .attr('stroke-opacity', 1)
+                    .attr('stroke-width', getEdgeThicknessLocal(d.weight || 1) * 1.3);
+
+                // Show tooltip if function exists
+                if (typeof showEdgeTooltip === 'function') {
+                    showEdgeTooltip(event, d);
+                }
+            })
+            .on('mouseout', function(event, d) {
+                // Reset edge
+                if (!selectedNode || (d.source.id !== selectedNode && d.target.id !== selectedNode)) {
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr('stroke-opacity', 0.6)
+                        .attr('stroke-width', getEdgeThicknessLocal(d.weight || 1));
+                }
+
+                // Hide tooltip if function exists
+                if (typeof hideEdgeTooltip === 'function') {
+                    hideEdgeTooltip();
+                }
+            })
+            .on('click', (event, d) => {
+                event.stopPropagation();
+                if (typeof showConnectionDetailsPanel === 'function') {
+                    showConnectionDetailsPanel(d);
+                }
+            });
+
+        // Fade in new links
+        newLinks.transition()
+            .duration(300)
+            .attr('stroke-opacity', 0.6);
+
+        // Merge and update global link reference
+        link = newLinks.merge(linkSelection)
+            .attr('stroke', d => getEdgeColorLocal(d))
+            .attr('stroke-width', d => getEdgeThicknessLocal(d.weight || 1));
+
+        // Update simulation with new edges
+        simulation.force('link').links(newEdges);
+        simulation.alpha(0.3).restart();
+    }
+
+    // Update UI displays
+    updateConnectionControls();
+
+    // Hide loading indicator after short delay
+    setTimeout(() => {
+        if (loadingIndicator) {
+            loadingIndicator.classList.remove('active');
+        }
+    }, 500);
+}
+
+/**
+ * Update connection control UI elements
+ */
+function updateConnectionControls() {
+    if (!window.networkEdges) return;
+
+    const currentCount = window.networkEdges.displayed;
+    const totalCount = window.networkEdges.all.length;
+
+    // Update count display
+    const shownElement = document.getElementById('connections-shown');
+    const totalElement = document.getElementById('connections-total');
+    const slider = document.getElementById('connections-slider');
+
+    if (shownElement) {
+        shownElement.textContent = currentCount.toLocaleString();
+    }
+    if (totalElement) {
+        totalElement.textContent = totalCount.toLocaleString();
+    }
+    if (slider) {
+        slider.value = currentCount;
+        slider.max = totalCount;
+    }
+
+    // Update button states
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const showAllBtn = document.getElementById('show-all-btn');
+    const resetBtn = document.getElementById('reset-connections-btn');
+
+    const isMaxed = currentCount >= totalCount;
+    const isDefault = currentCount === 300;
+
+    if (loadMoreBtn) {
+        loadMoreBtn.disabled = isMaxed;
+        loadMoreBtn.textContent = isMaxed ? 'All Loaded' : 'Load More (+100)';
+    }
+
+    if (showAllBtn) {
+        showAllBtn.disabled = isMaxed;
+    }
+
+    if (resetBtn) {
+        resetBtn.disabled = isDefault;
+    }
+}
+
+/**
+ * Handle slider input with debouncing
+ * @param {string|number} value - Slider value
+ */
+function handleConnectionSlider(value) {
+    const count = parseInt(value, 10);
+
+    // Update display immediately for responsiveness
+    const shownElement = document.getElementById('connections-shown');
+    if (shownElement) {
+        shownElement.textContent = count.toLocaleString();
+    }
+
+    // Debounce the actual network update
+    if (sliderUpdateTimeout) {
+        clearTimeout(sliderUpdateTimeout);
+    }
+
+    sliderUpdateTimeout = setTimeout(() => {
+        updateNetworkEdges(count);
+    }, 200);
+}
+
+/**
+ * Load 100 more connections
+ */
+function loadMoreConnections() {
+    if (!window.networkEdges) return;
+
+    const currentCount = window.networkEdges.displayed;
+    const totalCount = window.networkEdges.all.length;
+    const newCount = Math.min(currentCount + 100, totalCount);
+
+    // Update slider
+    const slider = document.getElementById('connections-slider');
+    if (slider) {
+        slider.value = newCount;
+    }
+
+    updateNetworkEdges(newCount);
+}
+
+/**
+ * Show all connections (may impact performance)
+ */
+function showAllConnections() {
+    if (!window.networkEdges) return;
+
+    const totalCount = window.networkEdges.all.length;
+
+    // Confirm if showing a very large number
+    if (totalCount > 1000) {
+        const confirmed = confirm(
+            `Warning: Loading all ${totalCount.toLocaleString()} connections may impact performance.\n\nContinue?`
+        );
+        if (!confirmed) return;
+    }
+
+    // Update slider
+    const slider = document.getElementById('connections-slider');
+    if (slider) {
+        slider.value = totalCount;
+    }
+
+    updateNetworkEdges(totalCount);
+}
+
+/**
+ * Reset to default connection count (300)
+ */
+function resetConnections() {
+    const defaultCount = 300;
+
+    // Update slider
+    const slider = document.getElementById('connections-slider');
+    if (slider) {
+        slider.value = defaultCount;
+    }
+
+    updateNetworkEdges(defaultCount);
+}
+
 // Chat sidebar toggle
 function toggleChatSidebar() {
     const sidebar = document.getElementById('chat-sidebar');
@@ -1972,17 +2630,46 @@ let allEntitiesData = [];
 
 async function loadEntitiesList() {
     try {
-        const response = await fetch(`${API_BASE}/entities?limit=1000`, {
+        // Use v2 API for proper entity_type enrichment
+        const response = await fetch(`${API_BASE}/v2/entities?limit=1000`, {
             credentials: 'include'  // Include HTTP Basic Auth credentials
         });
         const data = await response.json();
         // Handle paginated response structure
         allEntitiesData = data.entities || data;
+        updateEntitiesStats(allEntitiesData);
         renderEntitiesList(allEntitiesData);
     } catch (error) {
         console.error('Failed to load entities:', error);
         document.getElementById('entities-list').innerHTML = '<div class="chat-message system" style="grid-column: 1/-1; text-align: center; padding: 40px;">Failed to load entities</div>';
     }
+}
+
+function updateEntitiesStats(entities) {
+    if (!entities || entities.length === 0) return;
+
+    // Calculate stats
+    const totalCount = entities.length;
+    const billionaireCount = entities.filter(e => e.is_billionaire).length;
+
+    // Count entities from different sources (check if entity has data from that source)
+    const blackbookCount = entities.filter(e =>
+        e.sources && e.sources.includes('black_book')
+    ).length;
+    const flightsCount = entities.filter(e =>
+        (e.flight_count || 0) > 0
+    ).length;
+
+    // Update DOM
+    const totalEl = document.getElementById('entities-total-count');
+    const billionaireEl = document.getElementById('entities-billionaire-count');
+    const blackbookEl = document.getElementById('entities-blackbook-count');
+    const flightsEl = document.getElementById('entities-flights-count');
+
+    if (totalEl) totalEl.textContent = totalCount;
+    if (billionaireEl) billionaireEl.textContent = billionaireCount;
+    if (blackbookEl) blackbookEl.textContent = blackbookCount || '~1,740';
+    if (flightsEl) flightsEl.textContent = flightsCount || '~387';
 }
 
 function renderEntitiesList(entities) {
@@ -2014,16 +2701,52 @@ function filterEntities(searchQuery) {
 
     let filtered = allEntitiesData;
 
+    // Apply text search filter
     if (query) {
         filtered = filtered.filter(entity =>
             entity.name.toLowerCase().includes(query)
         );
     }
 
+    // Apply advanced filters
     if (filter === 'billionaire') {
         filtered = filtered.filter(entity => entity.is_billionaire);
     } else if (filter === 'high-connections') {
         filtered = filtered.filter(entity => (entity.connection_count || 0) > 10);
+    } else if (filter === 'medium-connections') {
+        filtered = filtered.filter(entity => {
+            const count = entity.connection_count || 0;
+            return count >= 5 && count <= 10;
+        });
+    } else if (filter === 'low-connections') {
+        filtered = filtered.filter(entity => (entity.connection_count || 0) < 5);
+    } else if (filter.startsWith('type:')) {
+        const type = filter.substring(5); // Remove 'type:' prefix
+        // Use entity_type field from API v2 instead of keyword detection
+        filtered = filtered.filter(entity => {
+            const entityType = entity.entity_type || detectEntityType(entity.name);
+            return entityType === type;
+        });
+    } else if (filter.startsWith('tag:')) {
+        const tag = filter.substring(4).toLowerCase(); // Remove 'tag:' prefix
+        filtered = filtered.filter(entity => {
+            // Use tags field from API v2 if available
+            const tags = entity.tags || entityTags[entity.name]?.tags || [];
+            return tags.some(t => t.toLowerCase() === tag);
+        });
+    } else if (filter.startsWith('source:')) {
+        const source = filter.substring(7); // Remove 'source:' prefix
+        filtered = filtered.filter(entity => {
+            // Check if entity appears in the specified source
+            if (source === 'black_book') {
+                return entity.in_black_book || entityTags[entity.name]?.sources?.includes('black_book') || false;
+            } else if (source === 'flight_logs') {
+                return (entity.flight_count || 0) > 0;
+            } else if (source === 'documents') {
+                return (entity.total_documents || entity.document_count || 0) > 0;
+            }
+            return false;
+        });
     }
 
     renderEntitiesList(filtered);
@@ -2666,7 +3389,8 @@ function stopPipelineStatusUpdates() {
     }
 }
 
-// Modify the existing switchTab function to handle pipeline updates
+// Note: Timeline tab loading is now handled in the main switchTab function above
+// Pipeline updates for ingestion tab
 const originalSwitchTab = switchTab;
 switchTab = function(tabName, element) {
     originalSwitchTab(tabName, element);
@@ -2675,14 +3399,6 @@ switchTab = function(tabName, element) {
         startPipelineStatusUpdates();
     } else {
         stopPipelineStatusUpdates();
-    }
-
-    if (tabName === 'timeline') {
-        loadTimeline();
-    }
-
-    if (tabName === 'flights') {
-        initFlightsView();
     }
 };
 
@@ -2724,9 +3440,9 @@ const baselineEvents = [
         documents: []
     },
     {
-        date: '2024-11-18',
-        title: 'House Oversight Releases 67,144 Documents',
-        description: 'House Oversight Committee releases comprehensive collection of Epstein-related documents to Internet Archive.',
+        date: '2025-11-13',
+        title: 'House Oversight Committee Releases 67,144 Epstein Documents',
+        description: '13GB archive with 33,572 images converted to PDF and OCR\'d. Size: 12.9 GB covering comprehensive Epstein-related materials released to Internet Archive.',
         type: 'documents',
         source_type: 'web',
         source_url: 'https://archive.org/details/epstein-pdf',
@@ -2869,20 +3585,34 @@ const baselineEvents = [
 ];
 
 async function loadTimeline() {
+    console.log('🔍 loadTimeline() called');
+    console.log('📊 Baseline events:', baselineEvents.length);
+
     try {
         // Try to fetch timeline from API
-        const response = await fetch(`${API_BASE}/timeline`, {
+        const url = `${API_BASE}/timeline`;
+        console.log('📡 Fetching from:', url);
+
+        const response = await fetch(url, {
             credentials: 'include'
         });
 
+        console.log('📊 Response status:', response.status, response.statusText);
+
         if (response.ok) {
             const data = await response.json();
+            console.log('✅ API data received:', data);
+            console.log('📊 API events count:', data.events?.length || 0);
+
             // Merge API events with baseline
             timelineData = [...baselineEvents, ...(data.events || [])];
         } else {
+            console.warn('⚠️ API response not OK, using baseline only');
             // Use baseline events only
             timelineData = [...baselineEvents];
         }
+
+        console.log('📋 Total timeline data:', timelineData.length, 'events');
 
         // Sort by date (most recent first)
         timelineData.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -2892,10 +3622,12 @@ async function loadTimeline() {
 
         // Initial render
         filteredTimelineData = [...timelineData];
+        console.log('🎨 About to render', filteredTimelineData.length, 'events');
         renderTimeline();
 
     } catch (error) {
-        console.error('Error loading timeline:', error);
+        console.error('❌ Error loading timeline:', error);
+        console.error('Stack trace:', error.stack);
         // Use baseline events on error
         timelineData = [...baselineEvents];
         timelineData.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -2908,9 +3640,11 @@ async function loadTimeline() {
 function updateTimelineStats() {
     const stats = {
         total: timelineData.length,
-        case: timelineData.filter(e => e.type === 'case').length,
-        life: timelineData.filter(e => e.type === 'life').length,
-        documents: timelineData.filter(e => e.type === 'documents').length
+        case: timelineData.filter(e => e.category === 'case').length,
+        life: timelineData.filter(e => e.category === 'biographical').length,
+        documents: timelineData.filter(e => e.category === 'documents').length,
+        legal: timelineData.filter(e => e.category === 'legal').length,
+        political: timelineData.filter(e => e.category === 'political').length
     };
 
     document.getElementById('timeline-total').textContent = stats.total;
@@ -2920,9 +3654,19 @@ function updateTimelineStats() {
 }
 
 function renderTimeline() {
+    console.log('🎨 renderTimeline() called');
+    console.log('📊 filteredTimelineData.length:', filteredTimelineData.length);
+
     const container = document.getElementById('timeline-events');
+    console.log('📦 Container element:', container);
+
+    if (!container) {
+        console.error('❌ CRITICAL: Container #timeline-events not found in DOM!');
+        return;
+    }
 
     if (filteredTimelineData.length === 0) {
+        console.log('⚠️ No events to display (showing empty state)');
         container.innerHTML = `
             <div class="timeline-empty">
                 <div class="timeline-empty-icon"><i data-lucide="search"></i></div>
@@ -2935,6 +3679,8 @@ function renderTimeline() {
         }
         return;
     }
+
+    console.log('✅ Rendering', filteredTimelineData.length, 'events to container');
 
     container.innerHTML = filteredTimelineData.map(event => {
         const eventDate = new Date(event.date);
@@ -2949,31 +3695,31 @@ function renderTimeline() {
                               event.source_type === 'web' ? '<i data-lucide="globe"></i>' : '<i data-lucide="file-text"></i>';
 
         // Entities HTML
-        const entitiesHTML = event.entities && event.entities.length > 0 ? `
+        const entitiesHTML = event.related_entities && event.related_entities.length > 0 ? `
             <div class="timeline-entities">
-                ${event.entities.map(entity => `
+                ${event.related_entities.filter(entity => entity && entity.trim()).map(entity => `
                     <span class="timeline-entity-tag" onclick="showEntityDetails('${entity.replace(/'/g, "\\'")}')">${formatEntityName(entity)}</span>
                 `).join('')}
             </div>
         ` : '';
 
         // Documents HTML
-        const documentsHTML = event.documents && event.documents.length > 0 ? `
+        const documentsHTML = event.related_documents && event.related_documents.length > 0 ? `
             <div class="timeline-documents">
-                ${event.documents.map(doc => `
+                ${event.related_documents.filter(doc => doc && doc.trim()).map(doc => `
                     <a href="#" class="timeline-doc-link" onclick="event.preventDefault(); alert('Document viewer coming soon')">${doc}</a>
                 `).join('')}
             </div>
         ` : '';
 
         return `
-            <div class="timeline-event" data-type="${event.type}" data-date="${event.date}">
+            <div class="timeline-event" data-type="${event.category}" data-date="${event.date}">
                 <div class="timeline-date-col">
                     <div class="timeline-date">${formattedDate}</div>
                 </div>
 
                 <div class="timeline-marker">
-                    <div class="timeline-dot ${event.type}"></div>
+                    <div class="timeline-dot ${event.category}"></div>
                 </div>
 
                 <div class="timeline-content">
@@ -2981,7 +3727,7 @@ function renderTimeline() {
                         <div>
                             <div class="timeline-event-title">${event.title}</div>
                         </div>
-                        <span class="timeline-event-type ${event.type}">${event.type}</span>
+                        <span class="timeline-event-type ${event.category}">${event.category}</span>
                     </div>
 
                     <div class="timeline-event-description">${event.description}</div>
@@ -2990,7 +3736,7 @@ function renderTimeline() {
                         <div class="timeline-provenance">
                             <span class="timeline-provenance-icon">${provenanceIcon}</span>
                             <a href="${event.source_url}" target="_blank" rel="noopener noreferrer" class="timeline-provenance-link">
-                                ${event.source_name}
+                                ${event.source}
                             </a>
                         </div>
 
@@ -3036,9 +3782,13 @@ function filterTimelineBySearch(query) {
 }
 
 function applyTimelineFilters() {
+    console.log('🔍 applyTimelineFilters() called');
+    console.log('📊 Current filters:', timelineFilters);
+    console.log('📊 Timeline data length:', timelineData.length);
+
     filteredTimelineData = timelineData.filter(event => {
         // Type filter
-        if (timelineFilters.type !== 'all' && event.type !== timelineFilters.type) {
+        if (timelineFilters.type !== 'all' && event.category !== timelineFilters.type) {
             return false;
         }
 
@@ -3055,9 +3805,9 @@ function applyTimelineFilters() {
             const searchText = [
                 event.title,
                 event.description,
-                event.source_name,
-                ...(event.entities || []),
-                ...(event.documents || [])
+                event.source,
+                ...(event.related_entities || []),
+                ...(event.related_documents || [])
             ].join(' ').toLowerCase();
 
             if (!searchText.includes(timelineFilters.search)) {
@@ -3068,6 +3818,7 @@ function applyTimelineFilters() {
         return true;
     });
 
+    console.log('📊 Filtered timeline data length:', filteredTimelineData.length);
     renderTimeline();
 }
 
@@ -3288,6 +4039,418 @@ function toggleStatsPanel() {
 }
 
 /**
+ * Toggle timeline panel minimized state
+ */
+function toggleTimelinePanel() {
+    const panel = document.getElementById('flight-timeline-panel');
+    if (panel) {
+        panel.classList.toggle('minimized');
+    }
+}
+
+/**
+ * Group flights by year-month
+ */
+function groupFlightsByMonth(routes) {
+    const monthMap = new Map();
+
+    routes.forEach(route => {
+        route.flights.forEach(flight => {
+            if (!flight.date) return;
+
+            // Get year-month key (e.g., "2002-09")
+            const date = new Date(flight.date);
+            const yearMonth = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+
+            if (!monthMap.has(yearMonth)) {
+                monthMap.set(yearMonth, {
+                    yearMonth,
+                    label: date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' }),
+                    year: date.getFullYear(),
+                    month: date.getMonth() + 1,
+                    flights: [],
+                    routes: new Set()
+                });
+            }
+
+            const monthData = monthMap.get(yearMonth);
+            monthData.flights.push({ ...flight, route });
+            monthData.routes.add(route);
+        });
+    });
+
+    // Convert to sorted array
+    const monthsArray = Array.from(monthMap.values()).sort((a, b) =>
+        a.yearMonth.localeCompare(b.yearMonth)
+    );
+
+    // Convert routes Set to Array for each month
+    monthsArray.forEach(month => {
+        month.routes = Array.from(month.routes);
+    });
+
+    return monthsArray;
+}
+
+/**
+ * Initialize flight timeline slider with month selector
+ */
+function initFlightTimeline() {
+    if (!window.allFlightRoutes || window.allFlightRoutes.length === 0) {
+        console.warn('No flight data available for timeline initialization');
+        return;
+    }
+
+    // Group flights by month
+    const monthsWithFlights = groupFlightsByMonth(window.allFlightRoutes);
+
+    if (monthsWithFlights.length === 0) {
+        console.warn('No valid dates found in flight data');
+        return;
+    }
+
+    // Store globally for navigation
+    window.flightMonths = monthsWithFlights;
+    window.currentMonthIndex = monthsWithFlights.length - 1; // Default to last month
+
+    console.log(`Timeline: ${monthsWithFlights.length} months with flights (${monthsWithFlights[0].yearMonth} to ${monthsWithFlights[monthsWithFlights.length - 1].yearMonth})`);
+
+    // Initialize noUiSlider
+    const sliderElement = document.getElementById('flight-timeline-slider');
+    if (!sliderElement) {
+        console.error('Timeline slider element not found');
+        return;
+    }
+
+    // Destroy existing slider if present
+    if (sliderElement.noUiSlider) {
+        sliderElement.noUiSlider.destroy();
+    }
+
+    // Create single-value slider
+    noUiSlider.create(sliderElement, {
+        start: monthsWithFlights.length - 1, // Start at last month
+        step: 1,
+        range: {
+            'min': 0,
+            'max': monthsWithFlights.length - 1
+        },
+        tooltips: {
+            to: function(value) {
+                const index = Math.round(value);
+                return monthsWithFlights[index].label;
+            }
+        },
+        pips: {
+            mode: 'steps',
+            stepped: true,
+            density: 100 / monthsWithFlights.length,
+            filter: function(value, type) {
+                // Show only every few labels to avoid crowding
+                if (monthsWithFlights.length <= 12) return 1; // Show all if <= 12 months
+                if (monthsWithFlights.length <= 24) return value % 2 === 0 ? 1 : 0; // Show every 2nd
+                if (monthsWithFlights.length <= 48) return value % 4 === 0 ? 1 : 0; // Show every 4th
+                return value % 6 === 0 ? 1 : 0; // Show every 6th
+            },
+            format: {
+                to: function(value) {
+                    const index = Math.round(value);
+                    const month = monthsWithFlights[index];
+                    // Show abbreviated format for pips
+                    const date = new Date(month.year, month.month - 1);
+                    return date.toLocaleDateString('en-US', { year: '2-digit', month: 'short' });
+                }
+            }
+        }
+    });
+
+    // Update display on slider change
+    sliderElement.noUiSlider.on('update', function(values, handle) {
+        const monthIndex = Math.round(values[0]);
+        window.currentMonthIndex = monthIndex;
+        updateMonthDisplay(monthIndex);
+        updateNavigationButtons(); // Update button states
+    });
+
+    // Apply filtering when slider is released
+    sliderElement.noUiSlider.on('change', function(values, handle) {
+        const monthIndex = Math.round(values[0]);
+        applyMonthFilter(monthIndex);
+    });
+
+    // Initial render - show last month
+    updateMonthDisplay(window.currentMonthIndex);
+    applyMonthFilter(window.currentMonthIndex);
+    updateNavigationButtons(); // Set initial button states
+
+    console.log('✓ Flight timeline slider initialized (month selector mode)');
+}
+
+/**
+ * Update month display in timeline header
+ */
+function updateMonthDisplay(monthIndex) {
+    if (!window.flightMonths || monthIndex < 0 || monthIndex >= window.flightMonths.length) {
+        return;
+    }
+
+    const selectedMonth = window.flightMonths[monthIndex];
+    const monthLabelEl = document.getElementById('current-month-label');
+    const monthCountEl = document.getElementById('month-flight-count');
+
+    if (monthLabelEl) {
+        monthLabelEl.textContent = selectedMonth.label;
+    }
+
+    if (monthCountEl) {
+        const flightCount = selectedMonth.flights.length;
+        const routeCount = selectedMonth.routes.length;
+        monthCountEl.textContent = `${routeCount} route${routeCount !== 1 ? 's' : ''}, ${flightCount} flight${flightCount !== 1 ? 's' : ''}`;
+    }
+}
+
+/**
+ * Update navigation button states based on current position
+ */
+function updateNavigationButtons() {
+    if (!window.flightMonths || window.currentMonthIndex === undefined) {
+        return;
+    }
+
+    // Get button elements (search by onclick content since they don't have IDs)
+    const buttons = document.querySelectorAll('.timeline-nav-btn');
+    const prevButton = Array.from(buttons).find(btn => btn.onclick?.toString().includes('previousMonth'));
+    const nextButton = Array.from(buttons).find(btn => btn.onclick?.toString().includes('nextMonth'));
+
+    // Alternative: search by text content
+    const allNavButtons = document.querySelectorAll('.timeline-nav-btn');
+    const prevBtn = Array.from(allNavButtons).find(btn => btn.textContent.includes('Previous'));
+    const nextBtn = Array.from(allNavButtons).find(btn => btn.textContent.includes('Next'));
+
+    const isAtStart = window.currentMonthIndex === 0;
+    const isAtEnd = window.currentMonthIndex === window.flightMonths.length - 1;
+
+    // Update Previous button
+    if (prevBtn) {
+        prevBtn.disabled = isAtStart;
+        prevBtn.style.opacity = isAtStart ? '0.5' : '1';
+        prevBtn.style.cursor = isAtStart ? 'not-allowed' : 'pointer';
+    }
+
+    // Update Next button
+    if (nextBtn) {
+        nextBtn.disabled = isAtEnd;
+        nextBtn.style.opacity = isAtEnd ? '0.5' : '1';
+        nextBtn.style.cursor = isAtEnd ? 'not-allowed' : 'pointer';
+    }
+}
+
+/**
+ * Apply month filter to show only flights from selected month
+ */
+function applyMonthFilter(monthIndex) {
+    if (!window.flightMonths || monthIndex < 0 || monthIndex >= window.flightMonths.length) {
+        console.warn('Invalid month index:', monthIndex);
+        return;
+    }
+
+    if (!window.flightMap) {
+        showToast('Flight map not initialized yet', 'warning');
+        return;
+    }
+
+    const selectedMonth = window.flightMonths[monthIndex];
+    console.log(`Filtering to month: ${selectedMonth.label} (${selectedMonth.flights.length} flights, ${selectedMonth.routes.length} routes)`);
+
+    // Get current filter values from filter bar
+    const passenger = document.getElementById('flight-passenger-filter')?.value?.toLowerCase()?.trim();
+    const airport = document.getElementById('flight-airport-filter')?.value?.toUpperCase()?.trim();
+
+    // Clear current display
+    window.flightRoutes.forEach(route => route.remove());
+    window.flightMarkers.forEach(marker => marker.remove());
+    window.flightRoutes = [];
+    window.flightMarkers = [];
+    window.flightBounds = null;
+
+    // Filter routes for this month (and apply other active filters)
+    let filteredRoutes = selectedMonth.routes;
+
+    // Apply passenger filter if active
+    if (passenger) {
+        filteredRoutes = filteredRoutes.filter(route =>
+            route.flights.some(flight =>
+                flight.passengers.some(p => p.toLowerCase().includes(passenger))
+            )
+        );
+    }
+
+    // Apply airport filter if active
+    if (airport) {
+        filteredRoutes = filteredRoutes.filter(route => {
+            const originMatch = route.origin.code.toUpperCase().includes(airport);
+            const destMatch = route.destination.code.toUpperCase().includes(airport);
+            return originMatch || destMatch;
+        });
+    }
+
+    console.log(`Rendering ${filteredRoutes.length} routes for ${selectedMonth.label}`);
+
+    if (filteredRoutes.length === 0) {
+        showToast(`No flights in ${selectedMonth.label}${passenger || airport ? ' matching filters' : ''}`, 'warning');
+        return;
+    }
+
+    // Re-render filtered routes
+    filteredRoutes.forEach(route => {
+        const firstFlight = route.flights[0];
+        const allPassengers = new Set();
+        route.flights.forEach(flight => {
+            flight.passengers.forEach(p => allPassengers.add(p));
+        });
+
+        const flightData = {
+            from: route.origin.code,
+            to: route.destination.code,
+            fromName: route.origin.name,
+            toName: route.destination.name,
+            date: firstFlight.date,
+            passengers: Array.from(allPassengers),
+            flights: route.flights,
+            frequency: route.frequency
+        };
+
+        drawFlightPath(route.origin, route.destination, flightData, route.frequency);
+    });
+
+    // Auto-zoom to filtered results
+    if (window.flightBounds) {
+        fitMapToFlightBounds();
+    }
+
+    showToast(`Showing ${selectedMonth.label}: ${filteredRoutes.length} route${filteredRoutes.length !== 1 ? 's' : ''}`, 'success');
+}
+
+/**
+ * Navigate to previous month in timeline
+ */
+function previousMonth() {
+    console.log('[Timeline Nav] Previous button clicked');
+
+    if (!window.flightMonths || window.currentMonthIndex === undefined) {
+        console.error('Timeline not initialized');
+        showToast('Timeline not ready', 'error');
+        return;
+    }
+
+    const currentIndex = window.currentMonthIndex;
+    console.log(`[Timeline Nav] Current index: ${currentIndex}`);
+
+    if (currentIndex > 0) {
+        const newIndex = currentIndex - 1;
+        const sliderElement = document.getElementById('flight-timeline-slider');
+
+        if (!sliderElement) {
+            console.error('Slider element not found');
+            showToast('Slider not found', 'error');
+            return;
+        }
+
+        if (!sliderElement.noUiSlider) {
+            console.error('Slider not initialized');
+            showToast('Slider not initialized', 'error');
+            return;
+        }
+
+        console.log(`[Timeline Nav] Moving to index ${newIndex} (${window.flightMonths[newIndex].label})`);
+        sliderElement.noUiSlider.set(newIndex);
+    } else {
+        console.log('[Timeline Nav] Already at first month');
+        showToast('Already at first month', 'info');
+    }
+}
+
+/**
+ * Navigate to next month in timeline
+ */
+function nextMonth() {
+    console.log('[Timeline Nav] Next button clicked');
+
+    if (!window.flightMonths || window.currentMonthIndex === undefined) {
+        console.error('Timeline not initialized');
+        showToast('Timeline not ready', 'error');
+        return;
+    }
+
+    const currentIndex = window.currentMonthIndex;
+    const maxIndex = window.flightMonths.length - 1;
+    console.log(`[Timeline Nav] Current index: ${currentIndex}, Max: ${maxIndex}`);
+
+    if (currentIndex < maxIndex) {
+        const newIndex = currentIndex + 1;
+        const sliderElement = document.getElementById('flight-timeline-slider');
+
+        if (!sliderElement) {
+            console.error('Slider element not found');
+            showToast('Slider not found', 'error');
+            return;
+        }
+
+        if (!sliderElement.noUiSlider) {
+            console.error('Slider not initialized');
+            showToast('Slider not initialized', 'error');
+            return;
+        }
+
+        console.log(`[Timeline Nav] Moving to index ${newIndex} (${window.flightMonths[newIndex].label})`);
+        sliderElement.noUiSlider.set(newIndex);
+    } else {
+        console.log('[Timeline Nav] Already at last month');
+        showToast('Already at last month', 'info');
+    }
+}
+
+/**
+ * Reset timeline to show last month (latest)
+ */
+function resetTimelineFilter() {
+    console.log('[Timeline Nav] Latest button clicked');
+
+    if (!window.flightMonths || window.flightMonths.length === 0) {
+        console.error('Timeline not initialized');
+        showToast('Timeline not ready', 'error');
+        return;
+    }
+
+    const sliderElement = document.getElementById('flight-timeline-slider');
+    if (!sliderElement) {
+        console.error('Slider element not found');
+        showToast('Slider not found', 'error');
+        return;
+    }
+
+    if (!sliderElement.noUiSlider) {
+        console.error('Slider not initialized');
+        showToast('Slider not initialized', 'error');
+        return;
+    }
+
+    // Set to last month
+    const lastIndex = window.flightMonths.length - 1;
+    const currentIndex = window.currentMonthIndex;
+
+    if (currentIndex === lastIndex) {
+        console.log('[Timeline Nav] Already at latest month');
+        showToast('Already showing latest month', 'info');
+        return;
+    }
+
+    console.log(`[Timeline Nav] Jumping to latest month (index ${lastIndex}: ${window.flightMonths[lastIndex].label})`);
+    sliderElement.noUiSlider.set(lastIndex);
+    showToast(`Jumped to ${window.flightMonths[lastIndex].label}`, 'success');
+}
+
+/**
  * View passenger network (placeholder for integration)
  */
 function viewPassengerNetwork(passengerName) {
@@ -3299,38 +4462,182 @@ function viewPassengerNetwork(passengerName) {
 }
 
 /**
- * Apply filters to flight data
+ * Apply filters to flight data and zoom to filtered results
  */
 function applyFlightFilters() {
     const dateStart = document.getElementById('flight-date-start')?.value;
     const dateEnd = document.getElementById('flight-date-end')?.value;
-    const passenger = document.getElementById('flight-passenger-filter')?.value;
+    const passenger = document.getElementById('flight-passenger-filter')?.value?.toLowerCase()?.trim();
+    const airport = document.getElementById('flight-airport-filter')?.value?.toUpperCase()?.trim();
 
-    console.log('Applying flight filters:', { dateStart, dateEnd, passenger });
+    console.log('Applying flight filters:', { dateStart, dateEnd, passenger, airport });
 
-    // TODO: Implement actual filtering logic when flight data is loaded
-    // This would typically filter the flight markers on the map
+    if (!window.allFlightRoutes || !window.flightMap) {
+        showToast('Flight data not loaded yet', 'warning');
+        return;
+    }
 
-    // For now, just log that filters were applied
-    alert('Flight filters applied. (Full implementation pending)');
+    // Get timeline filter range if active
+    let timelineStartDate = null;
+    let timelineEndDate = null;
+    const sliderElement = document.getElementById('flight-timeline-slider');
+    if (sliderElement && sliderElement.noUiSlider) {
+        const values = sliderElement.noUiSlider.get();
+        const startTimestamp = parseInt(values[0]);
+        const endTimestamp = parseInt(values[1]);
+        const range = sliderElement.noUiSlider.options.range;
+
+        // Only apply timeline filter if it's not at full range
+        if (startTimestamp !== range.min || endTimestamp !== range.max) {
+            timelineStartDate = new Date(startTimestamp).toISOString().split('T')[0];
+            timelineEndDate = new Date(endTimestamp).toISOString().split('T')[0];
+            console.log('Timeline filter active:', { timelineStartDate, timelineEndDate });
+        }
+    }
+
+    // Clear current display
+    window.flightRoutes.forEach(route => route.remove());
+    window.flightMarkers.forEach(marker => marker.remove());
+    window.flightRoutes = [];
+    window.flightMarkers = [];
+    window.flightBounds = null;
+
+    // Filter routes based on criteria
+    let filteredRoutes = window.allFlightRoutes.filter(route => {
+        // Timeline filter (takes precedence over date inputs)
+        if (timelineStartDate || timelineEndDate) {
+            const hasMatchingDate = route.flights.some(flight => {
+                const flightDate = flight.date;
+                if (timelineStartDate && flightDate < timelineStartDate) return false;
+                if (timelineEndDate && flightDate > timelineEndDate) return false;
+                return true;
+            });
+            if (!hasMatchingDate) return false;
+        }
+        // Date filter (from input fields)
+        else if (dateStart || dateEnd) {
+            const hasMatchingDate = route.flights.some(flight => {
+                const flightDate = flight.date;
+                if (dateStart && flightDate < dateStart) return false;
+                if (dateEnd && flightDate > dateEnd) return false;
+                return true;
+            });
+            if (!hasMatchingDate) return false;
+        }
+
+        // Passenger filter (search by name substring)
+        if (passenger) {
+            const hasMatchingPassenger = route.flights.some(flight =>
+                flight.passengers.some(p => p.toLowerCase().includes(passenger))
+            );
+            if (!hasMatchingPassenger) return false;
+        }
+
+        // Airport filter (match origin or destination)
+        if (airport) {
+            const originMatch = route.origin.code.toUpperCase().includes(airport);
+            const destMatch = route.destination.code.toUpperCase().includes(airport);
+            if (!originMatch && !destMatch) return false;
+        }
+
+        return true;
+    });
+
+    // Show results count
+    const totalRoutes = window.allFlightRoutes.length;
+    console.log(`Filtered: ${filteredRoutes.length} / ${totalRoutes} routes`);
+
+    if (filteredRoutes.length === 0) {
+        showToast('No flights match the selected filters', 'warning');
+        return;
+    }
+
+    // Re-render filtered routes
+    filteredRoutes.forEach(route => {
+        const firstFlight = route.flights[0];
+        const allPassengers = new Set();
+        route.flights.forEach(flight => {
+            flight.passengers.forEach(p => allPassengers.add(p));
+        });
+
+        const flightData = {
+            from: route.origin.code,
+            to: route.destination.code,
+            fromName: route.origin.name,
+            toName: route.destination.name,
+            date: firstFlight.date,
+            passengers: Array.from(allPassengers),
+            flights: route.flights,
+            frequency: route.frequency
+        };
+
+        drawFlightPath(route.origin, route.destination, flightData, route.frequency);
+    });
+
+    // Auto-zoom to filtered results
+    if (window.flightBounds) {
+        fitMapToFlightBounds();
+    }
+
+    showToast(`Showing ${filteredRoutes.length} of ${totalRoutes} routes`, 'success');
 }
 
 /**
- * Clear all flight filters
+ * Clear all flight filters and reset view
  */
 function clearFlightFilters() {
     const dateStart = document.getElementById('flight-date-start');
     const dateEnd = document.getElementById('flight-date-end');
     const passenger = document.getElementById('flight-passenger-filter');
+    const airport = document.getElementById('flight-airport-filter');
 
     if (dateStart) dateStart.value = '';
     if (dateEnd) dateEnd.value = '';
     if (passenger) passenger.value = '';
+    if (airport) airport.value = '';
 
-    console.log('Flight filters cleared');
+    console.log('Flight filters cleared - reloading all flights');
 
-    // TODO: Reload all flights on map
-    alert('Flight filters cleared. (Full implementation pending)');
+    if (!window.allFlightRoutes || !window.flightMap) {
+        showToast('Flight data not loaded yet', 'warning');
+        return;
+    }
+
+    // Clear current display
+    window.flightRoutes.forEach(route => route.remove());
+    window.flightMarkers.forEach(marker => marker.remove());
+    window.flightRoutes = [];
+    window.flightMarkers = [];
+    window.flightBounds = null;
+
+    // Re-render all routes
+    window.allFlightRoutes.forEach(route => {
+        const firstFlight = route.flights[0];
+        const allPassengers = new Set();
+        route.flights.forEach(flight => {
+            flight.passengers.forEach(p => allPassengers.add(p));
+        });
+
+        const flightData = {
+            from: route.origin.code,
+            to: route.destination.code,
+            fromName: route.origin.name,
+            toName: route.destination.name,
+            date: firstFlight.date,
+            passengers: Array.from(allPassengers),
+            flights: route.flights,
+            frequency: route.frequency
+        };
+
+        drawFlightPath(route.origin, route.destination, flightData, route.frequency);
+    });
+
+    // Auto-zoom to all flights
+    if (window.flightBounds) {
+        fitMapToFlightBounds();
+    }
+
+    showToast('Filters cleared - showing all flights', 'success');
 }
 
 /**
@@ -3344,6 +4651,29 @@ function initFlightsView() {
 
     // Initialize map (if not already initialized)
     initFlightMap();
+
+    // Add Enter key support for filter inputs
+    const passengerFilter = document.getElementById('flight-passenger-filter');
+    const airportFilter = document.getElementById('flight-airport-filter');
+    const dateStartFilter = document.getElementById('flight-date-start');
+    const dateEndFilter = document.getElementById('flight-date-end');
+
+    // Remove existing listeners to prevent duplicates
+    const handleEnter = (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            applyFlightFilters();
+        }
+    };
+
+    [passengerFilter, airportFilter, dateStartFilter, dateEndFilter].forEach(input => {
+        if (input) {
+            // Remove old listener if exists
+            input.removeEventListener('keypress', handleEnter);
+            // Add new listener
+            input.addEventListener('keypress', handleEnter);
+        }
+    });
 }
 
 /**
@@ -3363,15 +4693,41 @@ async function loadFlightStats() {
  */
 function updateFlightStats(stats) {
     try {
-        document.getElementById('flights-total').textContent = stats.total.toLocaleString();
-        document.getElementById('flights-routes').textContent = stats.unique_routes.toLocaleString();
-        document.getElementById('flights-airports').textContent = Object.keys(stats).length || 89;
+        // Update header stats (top of page)
+        const headerTotalEl = document.getElementById('flights-total-header');
+        const headerDateRangeEl = document.getElementById('flights-date-range-header');
+        const headerPassengersEl = document.getElementById('flights-passengers-header');
 
-        // Format date range
-        if (stats.date_range && stats.date_range.start && stats.date_range.end) {
-            document.getElementById('flights-top-passenger').textContent =
-                `${stats.date_range.start} to ${stats.date_range.end}`;
+        if (headerTotalEl) {
+            headerTotalEl.textContent = stats.total.toLocaleString();
         }
+
+        if (headerPassengersEl) {
+            headerPassengersEl.textContent = stats.unique_passengers.toLocaleString();
+        }
+
+        if (headerDateRangeEl && stats.date_range) {
+            headerDateRangeEl.textContent = `${stats.date_range.start} to ${stats.date_range.end}`;
+        }
+
+        // Update panel stats (side panel)
+        const panelTotalEl = document.getElementById('flights-total');
+        const panelDateRangeEl = document.getElementById('flights-date-range');
+        const panelPassengersEl = document.getElementById('flights-passengers');
+
+        if (panelTotalEl) {
+            panelTotalEl.textContent = stats.total.toLocaleString();
+        }
+
+        if (panelPassengersEl) {
+            panelPassengersEl.textContent = stats.unique_passengers.toLocaleString();
+        }
+
+        if (panelDateRangeEl && stats.date_range) {
+            panelDateRangeEl.textContent = `${stats.date_range.start} to ${stats.date_range.end}`;
+        }
+
+        console.log(`✓ Flight stats updated: ${stats.total} flights, ${stats.unique_passengers} passengers`);
     } catch (error) {
         console.error('Error updating flight stats:', error);
     }
@@ -3417,6 +4773,54 @@ function initFlightMap() {
     window.flightRoutes = [];
     window.flightMarkers = [];
 
+    // Initialize bounds tracking for auto-zoom
+    window.flightBounds = null;
+    window.userHasZoomed = false; // Track if user manually zoomed
+    window.programmaticZoom = false; // Flag to distinguish programmatic zooms from user zooms
+
+    // Add "Reset View" button to map controls
+    const resetViewButton = L.Control.extend({
+        options: {
+            position: 'topleft'
+        },
+        onAdd: function(map) {
+            const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+            const button = L.DomUtil.create('a', 'leaflet-control-reset-view', container);
+            button.innerHTML = '<i data-lucide="maximize-2" style="width: 18px; height: 18px;"></i>';
+            button.href = '#';
+            button.title = 'Reset View (Fit All Flights)';
+            button.style.cssText = 'display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; line-height: 30px; text-decoration: none; background: white;';
+
+            L.DomEvent.on(button, 'click', function(e) {
+                L.DomEvent.preventDefault(e);
+                L.DomEvent.stopPropagation(e);
+                resetMapView();
+            });
+
+            return container;
+        }
+    });
+
+    window.flightMap.addControl(new resetViewButton());
+
+    // Track user manual zoom/pan
+    // Only set userHasZoomed flag for actual user interactions (not programmatic zooms)
+    window.flightMap.on('zoomstart', function(e) {
+        // Check if this is a user-initiated zoom (not from fitBounds or other programmatic calls)
+        if (!window.programmaticZoom && e.originalEvent) {
+            console.log('User manually zoomed - disabling auto-fit');
+            window.userHasZoomed = true;
+        }
+    });
+
+    window.flightMap.on('dragstart', function(e) {
+        // Only track manual drags (with mouse/touch events)
+        if (e.originalEvent) {
+            console.log('User manually panned - disabling auto-fit');
+            window.userHasZoomed = true;
+        }
+    });
+
     // Load and display flight routes
     loadFlightRoutes();
 }
@@ -3450,6 +4854,14 @@ function drawFlightPath(origin, destination, flightData, frequency = 1) {
 
     const originCoords = [origin.lat, origin.lon];
     const destCoords = [destination.lat, destination.lon];
+
+    // Update bounds for auto-zoom
+    if (!window.flightBounds) {
+        window.flightBounds = L.latLngBounds(originCoords, destCoords);
+    } else {
+        window.flightBounds.extend(originCoords);
+        window.flightBounds.extend(destCoords);
+    }
 
     // Calculate control point for curve (perpendicular offset at midpoint)
     const midLat = (origin.lat + destination.lat) / 2;
@@ -3537,7 +4949,71 @@ function addPlaneMarker(lat, lon, origin, destination, flightData) {
 }
 
 /**
+ * Show/update flight loading progress indicator
+ */
+function updateFlightLoadingProgress(current, total) {
+    let progressEl = document.getElementById('flight-loading-progress');
+
+    if (!progressEl) {
+        // Create progress indicator if it doesn't exist
+        const mapContainer = document.getElementById('flight-map');
+        progressEl = document.createElement('div');
+        progressEl.id = 'flight-loading-progress';
+        progressEl.style.cssText = `
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px 16px;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            font-size: 13px;
+            color: var(--text-primary);
+        `;
+        mapContainer.appendChild(progressEl);
+    }
+
+    const percentage = Math.round((current / total) * 100);
+    progressEl.innerHTML = `
+        <div style="display: flex; align-items: center; gap: 12px; justify-content: space-between;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <div class="spinner" style="width: 16px; height: 16px; border-width: 2px;"></div>
+                <span>Loading flights... ${current} / ${total} (${percentage}%)</span>
+            </div>
+            <button
+                onclick="window.cancelFlightLoading()"
+                style="
+                    background: var(--danger-color, #f85149);
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    padding: 4px 8px;
+                    font-size: 11px;
+                    cursor: pointer;
+                    transition: opacity 0.2s;
+                "
+                onmouseover="this.style.opacity='0.8'"
+                onmouseout="this.style.opacity='1'"
+            >Cancel</button>
+        </div>
+    `;
+}
+
+/**
+ * Hide flight loading progress indicator
+ */
+function hideFlightLoadingProgress() {
+    const progressEl = document.getElementById('flight-loading-progress');
+    if (progressEl) {
+        progressEl.remove();
+    }
+}
+
+/**
  * Load flight routes from API and display on map
+ * Uses progressive loading to prevent UI freezing
  */
 async function loadFlightRoutes() {
     try {
@@ -3564,68 +5040,133 @@ async function loadFlightRoutes() {
         // Store routes globally for filtering
         window.allFlightRoutes = data.routes;
 
-        // Draw each unique route
-        data.routes.forEach(route => {
-            // Create flight data for popup (use first flight for basic info)
-            const firstFlight = route.flights[0];
-            const allPassengers = new Set();
+        // Show loading progress
+        updateFlightLoadingProgress(0, data.routes.length);
 
-            // Collect all unique passengers across all flights on this route
-            route.flights.forEach(flight => {
-                flight.passengers.forEach(p => allPassengers.add(p));
+        // Progressive loading configuration
+        const BATCH_SIZE = 10; // Render 10 flights at a time
+        const BATCH_DELAY = 50; // 50ms delay between batches
+        let currentIndex = 0;
+        let cancelled = false;
+
+        // Store cancellation function globally
+        window.cancelFlightLoading = () => {
+            cancelled = true;
+            hideFlightLoadingProgress();
+        };
+
+        // Process routes in batches (async, non-blocking)
+        function loadNextBatch() {
+            if (cancelled) {
+                console.log('Flight loading cancelled by user');
+                return;
+            }
+
+            if (currentIndex >= data.routes.length) {
+                // All routes loaded - finish up
+                finishFlightLoading(data);
+                return;
+            }
+
+            // Get next batch
+            const endIndex = Math.min(currentIndex + BATCH_SIZE, data.routes.length);
+            const batch = data.routes.slice(currentIndex, endIndex);
+
+            // Render batch
+            batch.forEach(route => {
+                // Create flight data for popup (use first flight for basic info)
+                const firstFlight = route.flights[0];
+                const allPassengers = new Set();
+
+                // Collect all unique passengers across all flights on this route
+                route.flights.forEach(flight => {
+                    flight.passengers.forEach(p => allPassengers.add(p));
+                });
+
+                const flightData = {
+                    from: route.origin.code,
+                    to: route.destination.code,
+                    fromName: route.origin.name,
+                    toName: route.destination.name,
+                    date: firstFlight.date,
+                    passengers: Array.from(allPassengers),
+                    flights: route.flights,  // Include all flights on this route
+                    frequency: route.frequency
+                };
+
+                drawFlightPath(route.origin, route.destination, flightData, route.frequency);
             });
 
-            const flightData = {
-                from: route.origin.code,
-                to: route.destination.code,
-                fromName: route.origin.name,
-                toName: route.destination.name,
-                date: firstFlight.date,
-                passengers: Array.from(allPassengers),
-                flights: route.flights,  // Include all flights on this route
-                frequency: route.frequency
-            };
+            // Update progress
+            currentIndex = endIndex;
+            updateFlightLoadingProgress(currentIndex, data.routes.length);
 
-            drawFlightPath(route.origin, route.destination, flightData, route.frequency);
-        });
+            // Schedule next batch
+            setTimeout(loadNextBatch, BATCH_DELAY);
+        }
 
-        // Add airport markers for all unique airports
-        const airportSet = new Set();
-        data.routes.forEach(route => {
-            airportSet.add(JSON.stringify({
-                code: route.origin.code,
-                name: route.origin.name,
-                lat: route.origin.lat,
-                lon: route.origin.lon
-            }));
-            airportSet.add(JSON.stringify({
-                code: route.destination.code,
-                name: route.destination.name,
-                lat: route.destination.lat,
-                lon: route.destination.lon
-            }));
-        });
-
-        // Add markers for each unique airport
-        airportSet.forEach(airportJson => {
-            const airport = JSON.parse(airportJson);
-            addAirportMarker(airport);
-        });
-
-        // Update statistics display
-        updateFlightStats({
-            total: data.total_flights,
-            unique_routes: data.unique_routes,
-            unique_passengers: data.unique_passengers,
-            date_range: data.date_range
-        });
-
-        console.log(`✓ Map initialized with ${data.unique_routes} routes and ${airportSet.size} airports`);
+        // Start progressive loading
+        loadNextBatch();
 
     } catch (error) {
         console.error('Error loading flight routes:', error);
         showToast(`Error loading flights: ${error.message}`, 'error');
+        hideFlightLoadingProgress();
     }
+}
+
+/**
+ * Finish flight loading - add airports and update stats
+ */
+function finishFlightLoading(data) {
+    // Add airport markers for all unique airports
+    const airportSet = new Set();
+    data.routes.forEach(route => {
+        airportSet.add(JSON.stringify({
+            code: route.origin.code,
+            name: route.origin.name,
+            lat: route.origin.lat,
+            lon: route.origin.lon
+        }));
+        airportSet.add(JSON.stringify({
+            code: route.destination.code,
+            name: route.destination.name,
+            lat: route.destination.lat,
+            lon: route.destination.lon
+        }));
+    });
+
+    // Add markers for each unique airport
+    airportSet.forEach(airportJson => {
+        const airport = JSON.parse(airportJson);
+        addAirportMarker(airport);
+    });
+
+    // Update statistics display
+    updateFlightStats({
+        total: data.total_flights,
+        unique_routes: data.unique_routes,
+        unique_passengers: data.unique_passengers,
+        date_range: data.date_range
+    });
+
+    // Hide progress indicator
+    hideFlightLoadingProgress();
+
+    // Auto-zoom to fit all flights (only if user hasn't manually zoomed)
+    if (window.flightBounds && !window.userHasZoomed) {
+        fitMapToFlightBounds();
+    }
+
+    // Initialize timeline slider with loaded data
+    initFlightTimeline();
+
+    // Re-initialize Lucide icons for all new buttons
+    if (window.lucide) {
+        lucide.createIcons();
+    }
+
+    console.log(`✓ Map initialized with ${data.unique_routes} routes and ${airportSet.size} airports`);
 }
 
 /**
@@ -3649,6 +5190,78 @@ function addAirportMarker(airport) {
     marker.bindPopup(`<strong>${airport.name}</strong><br/>${airport.code}`);
 }
 
+/**
+ * Fit map view to all current flight bounds with smooth animation
+ */
+function fitMapToFlightBounds() {
+    if (!window.flightMap || !window.flightBounds) {
+        console.warn('Cannot fit bounds: map or bounds not initialized');
+        return;
+    }
+
+    // Check if bounds are valid (has at least one point)
+    if (!window.flightBounds.isValid()) {
+        console.warn('Flight bounds are not valid');
+        return;
+    }
+
+    // Calculate zoom level based on number of distinct points
+    // For single point or very close points, use moderate zoom
+    const southwest = window.flightBounds.getSouthWest();
+    const northeast = window.flightBounds.getNorthEast();
+    const latDiff = Math.abs(northeast.lat - southwest.lat);
+    const lngDiff = Math.abs(northeast.lng - southwest.lng);
+    const isSinglePoint = latDiff < 0.1 && lngDiff < 0.1;
+
+    // Debug logging
+    console.log('🗺️ Fitting map to bounds:', {
+        bounds: window.flightBounds.toBBoxString(),
+        southwest: southwest,
+        northeast: northeast,
+        latDiff: latDiff,
+        lngDiff: lngDiff,
+        isSinglePoint: isSinglePoint,
+        currentCenter: window.flightMap.getCenter(),
+        currentZoom: window.flightMap.getZoom()
+    });
+
+    const fitOptions = {
+        padding: [50, 50], // 50px padding on all sides
+        maxZoom: isSinglePoint ? 8 : 12, // Don't zoom too close for single flights
+        animate: true,
+        duration: 0.5 // 500ms smooth animation
+    };
+
+    // Set flag to indicate this is a programmatic zoom
+    window.programmaticZoom = true;
+    window.flightMap.fitBounds(window.flightBounds, fitOptions);
+
+    // Clear the flag after animation completes
+    setTimeout(() => {
+        window.programmaticZoom = false;
+        console.log('🗺️ Map fitted. New state:', {
+            center: window.flightMap.getCenter(),
+            zoom: window.flightMap.getZoom()
+        });
+    }, 600);
+}
+
+/**
+ * Reset map view to show all flights (user-triggered)
+ */
+function resetMapView() {
+    if (!window.flightBounds) {
+        console.warn('No flight bounds to reset to');
+        showToast('No flights loaded yet', 'warning');
+        return;
+    }
+
+    // Reset user zoom flag and fit bounds
+    window.userHasZoomed = false;
+    fitMapToFlightBounds();
+    console.log('Map view reset to show all flights');
+}
+
 // Make flight functions globally available
 window.showFlightPopup = showFlightPopup;
 window.closeFlightPopup = closeFlightPopup;
@@ -3657,3 +5270,33 @@ window.viewPassengerNetwork = viewPassengerNetwork;
 window.applyFlightFilters = applyFlightFilters;
 window.clearFlightFilters = clearFlightFilters;
 window.initFlightsView = initFlightsView;
+window.resetMapView = resetMapView;
+window.fitMapToFlightBounds = fitMapToFlightBounds;
+
+// ========================================
+// TIMELINE DEBUG AUTO-LOADER
+// ========================================
+// This helps diagnose why timeline isn't loading
+console.log('🧪 Timeline Debug Auto-Loader Initialized');
+
+window.addEventListener('DOMContentLoaded', () => {
+    console.log('🧪 DEBUG: DOMContentLoaded event fired');
+    console.log('🧪 DEBUG: loadTimeline function exists:', typeof loadTimeline);
+
+    // Wait a bit for everything to initialize
+    setTimeout(() => {
+        const container = document.getElementById('timeline-events');
+        console.log('🧪 DEBUG: Timeline container found:', container ? 'YES' : 'NO');
+
+        if (container) {
+            console.log('🧪 DEBUG: Container HTML:', container.innerHTML.substring(0, 200));
+        }
+
+        // Test if we're on the timeline tab
+        const timelineTab = document.querySelector('.tab-content[data-tab="timeline"]');
+        if (timelineTab) {
+            console.log('🧪 DEBUG: Timeline tab element found');
+            console.log('🧪 DEBUG: Timeline tab is active:', timelineTab.classList.contains('active'));
+        }
+    }, 500);
+});

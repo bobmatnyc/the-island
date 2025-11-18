@@ -1,0 +1,19 @@
+{
+    "name": "Epstein Archive",
+    "short_name": "Epstein Archive",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2E5C8A",
+    "background_color": "#4A90E2",
+    "display": "standalone"
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stats Diagnostic</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        .success { color: green; }
+        .error { color: red; }
+        .info { color: blue; }
+    </style>
+</head>
+<body>
+    <h1>Stats Loading Diagnostic</h1>
+    
+    <div class="test-section">
+        <h2>1. DOM Elements Test</h2>
+        <div id="dom-test">Testing...</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>2. API Response Test</h2>
+        <div id="api-test">Testing...</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>3. Stats Display</h2>
+        <div>
+            <strong>Entities:</strong> <span id="stat-entities">---</span><br>
+            <strong>Connections:</strong> <span id="stat-connections">---</span><br>
+            <strong>Documents:</strong> <span id="stat-documents">---</span>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>4. Console Log</h2>
+        <pre id="console-log"></pre>
+    </div>
+    
+    <script>
+        const log = [];
+        function addLog(msg, type = 'info') {
+            log.push(`[${type.toUpperCase()}] ${msg}`);
+            document.getElementById('console-log').textContent = log.join('\n');
+        }
+        
+        // Test 1: DOM Elements
+        const entities = document.getElementById('stat-entities');
+        const connections = document.getElementById('stat-connections');
+        const documents = document.getElementById('stat-documents');
+        
+        if (entities && connections && documents) {
+            document.getElementById('dom-test').innerHTML = '<span class="success">✓ All DOM elements found</span>';
+            addLog('DOM elements found', 'success');
+        } else {
+            document.getElementById('dom-test').innerHTML = '<span class="error">✗ Some DOM elements missing</span>';
+            addLog('Missing elements: ' + [entities?'':'entities', connections?'':'connections', documents?'':'documents'].filter(x=>x).join(', '), 'error');
+        }
+        
+        // Test 2: API Call
+        async function testAPI() {
+            const API_BASE = window.location.protocol + '//' + window.location.host + '/api';
+            addLog('API_BASE: ' + API_BASE);
+            
+            try {
+                addLog('Fetching stats from API...');
+                const response = await fetch(`${API_BASE}/stats`, {
+                    credentials: 'include'
+                });
+                
+                addLog(`Response status: ${response.status}`);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                addLog('Data received: ' + JSON.stringify({
+                    total_entities: data.total_entities,
+                    total_connections: data.total_connections,
+                    total_documents: data.total_documents
+                }, null, 2));
+                
+                document.getElementById('api-test').innerHTML = '<span class="success">✓ API response received</span>';
+                
+                // Test 3: Update DOM
+                addLog('Updating DOM...');
+                document.getElementById('stat-entities').textContent = data.total_entities.toLocaleString();
+                document.getElementById('stat-connections').textContent = data.total_connections.toLocaleString();
+                document.getElementById('stat-documents').textContent = data.total_documents.toLocaleString();
+                addLog('DOM updated successfully', 'success');
+                
+            } catch (error) {
+                document.getElementById('api-test').innerHTML = '<span class="error">✗ API call failed</span>';
+                addLog('ERROR: ' + error.message, 'error');
+                addLog('Stack: ' + error.stack, 'error');
+            }
+        }
+        
+        testAPI();
+    </script>
+</body>
+</html>

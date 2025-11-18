@@ -1,0 +1,757 @@
+{
+  "metadata": {
+    "source": "flight_logs",
+    "extraction_date": "2025-11-17",
+    "total_locations": 41,
+    "total_airport_codes": 88,
+    "unknown_airports": 47
+  },
+  "locations": [
+    {
+      "name": "Albuquerque International Sunport",
+      "code": "ABQ",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Albuquerque",
+      "state": "NM",
+      "country": "USA",
+      "coordinates": {
+        "lat": 35.0402,
+        "lon": -106.6091
+      },
+      "flights_count": 22,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Southwest Georgia Regional Airport",
+      "code": "ABY",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Albany",
+      "state": "GA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 31.5355,
+        "lon": -84.1945
+      },
+      "flights_count": 11,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Atlantic City International Airport",
+      "code": "ACY",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "country": "USA",
+      "coordinates": {
+        "lat": 39.4577,
+        "lon": -74.5772
+      },
+      "flights_count": 2,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Addison Airport",
+      "code": "ADS",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Dallas",
+      "state": "TX",
+      "country": "USA",
+      "coordinates": {
+        "lat": 32.9686,
+        "lon": -96.8364
+      },
+      "flights_count": 4,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Aspen-Pitkin County Airport",
+      "code": "ASE",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Aspen",
+      "state": "CO",
+      "country": "USA",
+      "coordinates": {
+        "lat": 39.2232,
+        "lon": -106.869
+      },
+      "flights_count": 10,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Laurence G. Hanscom Field",
+      "code": "BED",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Bedford",
+      "state": "MA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 42.47,
+        "lon": -71.289
+      },
+      "flights_count": 74,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Bangor International Airport",
+      "code": "BGR",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Bangor",
+      "state": "ME",
+      "country": "USA",
+      "coordinates": {
+        "lat": 44.8074,
+        "lon": -68.8281
+      },
+      "flights_count": 18,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Boston Logan International Airport",
+      "code": "BOS",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 42.3656,
+        "lon": -71.0096
+      },
+      "flights_count": 7,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Charlottesville-Albemarle Airport",
+      "code": "CHO",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Charlottesville",
+      "state": "VA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.1386,
+        "lon": -78.4529
+      },
+      "flights_count": 2,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "John Glenn Columbus International Airport",
+      "code": "CMH",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Columbus",
+      "state": "OH",
+      "country": "USA",
+      "coordinates": {
+        "lat": 39.998,
+        "lon": -82.8919
+      },
+      "flights_count": 59,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Jacksonville Executive at Craig Airport",
+      "code": "CRG",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "USA",
+      "coordinates": {
+        "lat": 30.3363,
+        "lon": -81.5144
+      },
+      "flights_count": 2,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Dallas Love Field",
+      "code": "DAL",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Dallas",
+      "state": "TX",
+      "country": "USA",
+      "coordinates": {
+        "lat": 32.8471,
+        "lon": -96.8518
+      },
+      "flights_count": 2,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Ronald Reagan Washington National Airport",
+      "code": "DCA",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Washington",
+      "state": "DC",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.8521,
+        "lon": -77.0377
+      },
+      "flights_count": 17,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Dallas/Fort Worth International Airport",
+      "code": "DFW",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Dallas",
+      "state": "TX",
+      "country": "USA",
+      "coordinates": {
+        "lat": 32.8998,
+        "lon": -97.0403
+      },
+      "flights_count": 4,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Newark Liberty International Airport",
+      "code": "EWR",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Newark",
+      "state": "NJ",
+      "country": "USA",
+      "coordinates": {
+        "lat": 40.6895,
+        "lon": -74.1745
+      },
+      "flights_count": 13,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Fort Lauderdale-Hollywood International Airport",
+      "code": "FLL",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "country": "USA",
+      "coordinates": {
+        "lat": 26.0742,
+        "lon": -80.1506
+      },
+      "flights_count": 5,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Godman Army Airfield",
+      "code": "FTK",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Fort Knox",
+      "state": "KY",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.9071,
+        "lon": -85.9721
+      },
+      "flights_count": 2,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Westchester County Airport",
+      "code": "HPN",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "White Plains",
+      "state": "NY",
+      "country": "USA",
+      "coordinates": {
+        "lat": 41.067,
+        "lon": -73.7076
+      },
+      "flights_count": 32,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Washington Dulles International Airport",
+      "code": "IAD",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Washington",
+      "state": "DC",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.9531,
+        "lon": -77.4565
+      },
+      "flights_count": 10,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Kissimmee Gateway Airport",
+      "code": "ISM",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Kissimmee",
+      "state": "FL",
+      "country": "USA",
+      "coordinates": {
+        "lat": 28.2898,
+        "lon": -81.4372
+      },
+      "flights_count": 6,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Long Island MacArthur Airport",
+      "code": "ISP",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Ronkonkoma",
+      "state": "NY",
+      "country": "USA",
+      "coordinates": {
+        "lat": 40.7952,
+        "lon": -73.1002
+      },
+      "flights_count": 6,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Jackson-Medgar Wiley Evers International Airport",
+      "code": "JAN",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Jackson",
+      "state": "MS",
+      "country": "USA",
+      "coordinates": {
+        "lat": 32.3112,
+        "lon": -90.0759
+      },
+      "flights_count": 4,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "John F. Kennedy International Airport",
+      "code": "JFK",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "coordinates": {
+        "lat": 40.6413,
+        "lon": -73.7781
+      },
+      "flights_count": 160,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Los Angeles International Airport",
+      "code": "LAX",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 33.9416,
+        "lon": -118.4085
+      },
+      "flights_count": 4,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "LaGuardia Airport",
+      "code": "LGA",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "coordinates": {
+        "lat": 40.7769,
+        "lon": -73.874
+      },
+      "flights_count": 12,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Gwinnett County Airport",
+      "code": "LZU",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 33.9781,
+        "lon": -83.9624
+      },
+      "flights_count": 4,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Chicago Midway International Airport",
+      "code": "MDW",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA",
+      "coordinates": {
+        "lat": 41.7868,
+        "lon": -87.7522
+      },
+      "flights_count": 8,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Miami International Airport",
+      "code": "MIA",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "coordinates": {
+        "lat": 25.7959,
+        "lon": -80.287
+      },
+      "flights_count": 8,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Monterey Regional Airport",
+      "code": "MRY",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Monterey",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 36.587,
+        "lon": -121.8429
+      },
+      "flights_count": 8,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Martha's Vineyard Airport",
+      "code": "MVY",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Martha's Vineyard",
+      "state": "MA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 41.3931,
+        "lon": -70.6143
+      },
+      "flights_count": 19,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Orlando Executive Airport",
+      "code": "ORL",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Orlando",
+      "state": "FL",
+      "country": "USA",
+      "coordinates": {
+        "lat": 28.5455,
+        "lon": -81.3329
+      },
+      "flights_count": 2,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Palm Beach International Airport",
+      "code": "PBI",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "country": "USA",
+      "coordinates": {
+        "lat": 26.6832,
+        "lon": -80.0956
+      },
+      "flights_count": 739,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "DeKalb-Peachtree Airport",
+      "code": "PDK",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 33.8756,
+        "lon": -84.302
+      },
+      "flights_count": 2,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Santa Fe Municipal Airport",
+      "code": "SAF",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Santa Fe",
+      "state": "NM",
+      "country": "USA",
+      "coordinates": {
+        "lat": 35.6174,
+        "lon": -106.0881
+      },
+      "flights_count": 97,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "San Diego International Airport",
+      "code": "SAN",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "San Diego",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 32.7336,
+        "lon": -117.1897
+      },
+      "flights_count": 10,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "San Antonio International Airport",
+      "code": "SAT",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "San Antonio",
+      "state": "TX",
+      "country": "USA",
+      "coordinates": {
+        "lat": 29.5337,
+        "lon": -98.4698
+      },
+      "flights_count": 2,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Norman Y. Mineta San Jose International Airport",
+      "code": "SJC",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "San Jose",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.3639,
+        "lon": -121.9289
+      },
+      "flights_count": 2,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "St. Louis Lambert International Airport",
+      "code": "STL",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "St. Louis",
+      "state": "MO",
+      "country": "USA",
+      "coordinates": {
+        "lat": 38.7487,
+        "lon": -90.37
+      },
+      "flights_count": 2,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Teterboro Airport",
+      "code": "TEB",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Teterboro",
+      "state": "NJ",
+      "country": "USA",
+      "coordinates": {
+        "lat": 40.8501,
+        "lon": -74.0608
+      },
+      "flights_count": 589,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Cherry Capital Airport",
+      "code": "TVC",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Traverse City",
+      "state": "MI",
+      "country": "USA",
+      "coordinates": {
+        "lat": 44.7414,
+        "lon": -85.5822
+      },
+      "flights_count": 6,
+      "sources": [
+        "flight_logs"
+      ]
+    },
+    {
+      "name": "Van Nuys Airport",
+      "code": "VNY",
+      "entity_type": "location",
+      "location_type": "airport",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": {
+        "lat": 34.2098,
+        "lon": -118.4898
+      },
+      "flights_count": 33,
+      "sources": [
+        "flight_logs"
+      ]
+    }
+  ],
+  "unknown_airport_codes": [
+    "AGC",
+    "AMA",
+    "APF",
+    "AVO",
+    "BCT",
+    "BHT",
+    "BKL",
+    "CPS",
+    "EYW",
+    "FDK",
+    "FOK",
+    "GAI",
+    "GNV",
+    "HTO",
+    "IMS",
+    "JAX",
+    "JVY",
+    "LAL",
+    "LAS",
+    "LCQ",
+    "LEE",
+    "LGB",
+    "LIT",
+    "LSJ",
+    "LUK",
+    "MCN",
+    "MIV",
+    "MTN",
+    "OAK",
+    "OEO",
+    "OFF",
+    "OPF",
+    "OQU",
+    "OSU",
+    "OXC",
+    "PBF",
+    "PHX",
+    "PVD",
+    "RIC",
+    "RSW",
+    "SAV",
+    "SBA",
+    "SFO",
+    "TED",
+    "TGB",
+    "TIX",
+    "VNC"
+  ]
+}

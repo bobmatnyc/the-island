@@ -11,6 +11,7 @@ let currentDocFilters = {
 };
 let totalDocPages = 1;
 let documentsCache = null;
+let documentsViewInitialized = false;
 
 /**
  * Initialize documents view
@@ -21,17 +22,21 @@ async function initDocumentsView() {
     // Load initial documents
     await searchDocuments();
 
-    // Load filter options
-    await loadDocumentFilters();
+    // Load filter options only once
+    if (!documentsViewInitialized) {
+        await loadDocumentFilters();
 
-    // Add enter key listener to search input
-    const searchInput = document.getElementById('doc-search-input');
-    if (searchInput) {
-        searchInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                searchDocuments();
-            }
-        });
+        // Add enter key listener to search input (only once)
+        const searchInput = document.getElementById('doc-search-input');
+        if (searchInput) {
+            searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    searchDocuments();
+                }
+            });
+        }
+
+        documentsViewInitialized = true;
     }
 }
 
@@ -47,7 +52,13 @@ async function loadDocumentFilters() {
             // Populate type filter
             const typeFilter = document.getElementById('doc-type-filter');
             if (typeFilter && data.filters.types) {
-                data.filters.types.forEach(type => {
+                // Clear existing options (except first "All Types" option)
+                typeFilter.innerHTML = '<option value="">All Document Types</option>';
+
+                // Get unique types and sort them
+                const uniqueTypes = [...new Set(data.filters.types)].sort();
+
+                uniqueTypes.forEach(type => {
                     const option = document.createElement('option');
                     option.value = type;
                     option.textContent = capitalizeDocType(type);
@@ -58,7 +69,13 @@ async function loadDocumentFilters() {
             // Populate source filter
             const sourceFilter = document.getElementById('doc-source-filter');
             if (sourceFilter && data.filters.sources) {
-                data.filters.sources.forEach(source => {
+                // Clear existing options (except first "All Sources" option)
+                sourceFilter.innerHTML = '<option value="">All Sources</option>';
+
+                // Get unique sources and sort them
+                const uniqueSources = [...new Set(data.filters.sources)].sort();
+
+                uniqueSources.forEach(source => {
                     const option = document.createElement('option');
                     option.value = source;
                     option.textContent = source;

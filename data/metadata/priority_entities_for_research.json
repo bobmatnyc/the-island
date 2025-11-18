@@ -1,0 +1,1204 @@
+{
+  "generated_date": "2025-11-17T14:13:10.544878",
+  "total_priority_entities": 131,
+  "criteria": {
+    "top_frequent_flyers": 50,
+    "billionaires": 32,
+    "public_figures": "keyword-based identification"
+  },
+  "entities": [
+    {
+      "name": "Ghislaine",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 520,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Nadia",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 125,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Female (1)",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 120,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Didier",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 32,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Luc Brunel",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 30,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Roberts, Virginia",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 28,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Davies, Teala",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 23,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Gramza",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 20,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Midelfart, Celina",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 18,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Lang",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 18,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Nanny (1)",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 18,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Dubin, Celina",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 15,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Dubin, Eva",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 15,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Band, Doug",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 13,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Mucinska, Adriana",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 12,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Peter Rathgeb",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 12,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Mitrovich, Andrea",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 11,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Christopher Tucker",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 11,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Slang, David",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 11,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Nonacs, Eric",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 11,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "James Kennez",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 11,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Spacey, Kevin",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 11,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Swater, Rodey",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 11,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Biddle, Sophie",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 11,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Kovylina, Tatiana",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 11,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "William Clinton",
+      "priority_reason": "top_50_frequent_flyer, public_figure",
+      "flights": 11,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Casey",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 10,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Beck, Gwendolyn",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 10,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Jordan Dubin",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 10,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Laura Wasserman",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 10,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Patsy Rodgers",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 9,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Epstein, Jeffrey",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 8,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "No Passengers",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 8,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Dana Burns",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 7,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Gayle Smith",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 7,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Jennifer Kalin",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 7,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Dubin, Glenn",
+      "priority_reason": "top_50_frequent_flyer, billionaire",
+      "flights": 6,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "James Cayne",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 6,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Jessica Bauer",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 6,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Patricia Cayne",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 6,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Kellen, Sarah",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 6,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Teal",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 6,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Alberto Pinto",
+      "priority_reason": "top_50_frequent_flyer, public_figure",
+      "flights": 5,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Aline Weber",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 5,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Tayler, Emmy",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 5,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Jeffrey Schantz",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 5,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Kelly Spamm",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 5,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Larry Visoski",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 5,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Linda Pinto",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 5,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Sheridan Gibson",
+      "priority_reason": "top_50_frequent_flyer",
+      "flights": 5,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Stewart",
+      "priority_reason": "public_figure",
+      "flights": 2,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Laura Andrew",
+      "priority_reason": "public_figure",
+      "flights": 2,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Lisa Andrew",
+      "priority_reason": "public_figure",
+      "flights": 2,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Donald Trump",
+      "priority_reason": "billionaire, public_figure",
+      "flights": 1,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Thomas Pritzker",
+      "priority_reason": "billionaire",
+      "flights": 1,
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Andrew Mitchell",
+      "priority_reason": "public_figure",
+      "flights": 1,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Prince Andrew",
+      "priority_reason": "public_figure",
+      "flights": 1,
+      "sources": [
+        "flight_logs"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Alexander Furstenberg",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Alfred Taubman",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Andrew Tish",
+      "priority_reason": "billionaire, public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Anne Tish",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Conrad Black",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "David Koch",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "David Tisch",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Edouard de Rothschild",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Evelyn de Rothschild",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "George Lindemann Sr.",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Henry Kravis",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Ivanka Trump",
+      "priority_reason": "billionaire, public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "James Staley",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Jimmy Tisch",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Julio Mario Santo Domingo",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Leon Black",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Leslie Wexner",
+      "priority_reason": "billionaire, public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Mark Getty",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Merryl Tisch",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Michael Bloomberg",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Mortimer Zuckerman",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Nick Pritzker",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Prince Bandar bin Sultan",
+      "priority_reason": "billionaire, public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Richard Branson",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Ronald Perelman",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Rupert Murdoch",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Steven Forbes",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Steven Wynn",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Thomas Barrack",
+      "priority_reason": "billionaire",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": true
+    },
+    {
+      "name": "Albert Benamou",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Alistair McAlpine, Baron of West",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew (piggy) Yates",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew de Candole",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Edwards",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Farkas",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Feldman",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Fox",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Gilifilan",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Gillmour",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Huntley",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Jarecki",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Neil",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Rosen",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Solomon",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Stengel",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Andrew Wong",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Baron Bentinck",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Baroness Francesca Theilmann",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Blaine Trump",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Bobby Kennedy Jr.",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Ethel Kennedy",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Governor Andrew Cuomo",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Governor Charles Turnbull",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Jo Kennedy",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Kerry Kennedy Cuomo",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Lord George Weidenfeld",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Louis Albert de Broglie",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Mary Kennedy",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Prince Andrew, Duke of York",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Prince Michel of Yugoslavia",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Prince Pavlos",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Prince Pierre d'Arenberg",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Prince Salman",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Princess Firyal",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Princess Georgina Brandolini d'Adda",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Princess Hermine de Clermont-Tonnerre",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Princess Marie-Claire",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Princess Olga",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Robert Trump",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Senator George Mitchell",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Senator John Kerry",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Senator Ted Kennedy",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "Ted Kennedy Jr.",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    },
+    {
+      "name": "William Richardson",
+      "priority_reason": "public_figure",
+      "flights": 0,
+      "sources": [
+        "black_book"
+      ],
+      "is_billionaire": false
+    }
+  ]
+}

@@ -79,7 +79,7 @@ app = FastAPI(
 )
 
 # Basic auth for password protection
-security = HTTPBasic()
+# HTTPBasic() now created inline with auto_error=False in get_current_user()
 
 # Load credentials from file
 import os
@@ -126,7 +126,7 @@ def load_credentials():
 
     return credentials
 
-def authenticate(credentials: HTTPBasicCredentials = Depends(security)):
+def authenticate(credentials: HTTPBasicCredentials):
     """Verify username and password against .credentials file (dynamically reloaded)"""
     # Reload credentials on each request for dynamic updates
     current_credentials = load_credentials()
@@ -214,43 +214,53 @@ class LoginResponse(BaseModel):
 # Flexible authentication (supports both session cookie and HTTP Basic Auth)
 async def get_current_user(
     request: Request,
-    credentials: Optional[HTTPBasicCredentials] = Depends(security)
+    credentials: Optional[HTTPBasicCredentials] = Depends(HTTPBasic(auto_error=False))
 ) -> str:
     """
-    Accept either session cookie OR HTTP Basic Auth
-    Returns username if authenticated
+    AUTHENTICATION DISABLED - Public access enabled
 
-    Authentication priority:
-    1. Session cookie (session_token) - for web app users
-    2. HTTP Basic Auth - for API clients and curl commands
+    Returns 'public-user' for all requests without authentication.
 
-    This allows:
-    - Web users to authenticate once and use cookies
-    - API clients to use HTTP Basic Auth
-    - Seamless experience without double authentication
+    NOTE: Authentication temporarily removed for ngrok deployment.
+    Future implementation should use proper auth (OAuth, JWT, etc.) - NOT basic auth.
+
+    Previous implementation included:
+    - Localhost bypass
+    - Session cookie auth
+    - HTTP Basic Auth fallback
     """
-    # Try session cookie first (for web app users)
-    session_token = request.cookies.get("session_token")
+    # Authentication disabled - return public user for all requests
+    return "public-user"
 
-    if session_token and session_token in session_tokens:
-        session = session_tokens[session_token]
-        # Verify session not expired
-        if datetime.now() <= session["expires"]:
-            return session["username"]
-        else:
-            # Clean up expired session
-            del session_tokens[session_token]
-
-    # Fall back to HTTP Basic Auth (for API clients)
-    if credentials:
-        return authenticate(credentials)
-
-    # No valid authentication found
-    raise HTTPException(
-        status_code=status.HTTP_401_UNAUTHORIZED,
-        detail="Not authenticated. Please log in via /static/login.html or use HTTP Basic Auth.",
-        headers={"WWW-Authenticate": "Basic"},
-    )
+    # COMMENTED OUT - Previous authentication logic preserved for future reference
+    # # Check if request is from localhost - skip authentication
+    # host = request.headers.get("host", "")
+    # if "localhost" in host or "127.0.0.1" in host:
+    #     return "local-user"  # Skip authentication for localhost
+    #
+    # # For ngrok and other external access, require authentication
+    # # Try session cookie first (for web app users)
+    # session_token = request.cookies.get("session_token")
+    #
+    # if session_token and session_token in session_tokens:
+    #     session = session_tokens[session_token]
+    #     # Verify session not expired
+    #     if datetime.now() <= session["expires"]:
+    #         return session["username"]
+    #     else:
+    #         # Clean up expired session
+    #         del session_tokens[session_token]
+    #
+    # # Fall back to HTTP Basic Auth (for API clients)
+    # if credentials:
+    #     return authenticate(credentials)
+    #
+    # # No valid authentication found
+    # raise HTTPException(
+    #     status_code=status.HTTP_401_UNAUTHORIZED,
+    #     detail="Not authenticated. Please log in via /static/login.html or use HTTP Basic Auth.",
+    #     headers={"WWW-Authenticate": "Basic"},
+    # )
 
 # Enable CORS
 app.add_middleware(
@@ -261,10 +271,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Mount static files
-app.mount("/static", StaticFiles(directory=Path(__file__).parent / "web"), name="static")
-
-# Data caches
+# Data caches (initialized before routes)
 entity_stats = {}
 network_data = {}
 semantic_index = {}
@@ -427,18 +434,8 @@ async def startup_event():
 
 @app.get("/")
 async def root(request: Request):
-    """Redirect to main app if logged in, otherwise redirect to login page"""
-    # Check for session cookie
-    session_token = request.cookies.get("session_token")
-
-    if session_token and session_token in session_tokens:
-        session = session_tokens[session_token]
-        # Verify session not expired
-        if datetime.now() <= session["expires"]:
-            return RedirectResponse(url="/static/index.html")
-
-    # Not logged in - redirect to login
-    return RedirectResponse(url="/static/login.html")
+    """Serve index.html directly - authentication disabled"""
+    return FileResponse(Path(__file__).parent / "web" / "index.html")
 
 @app.post("/login", response_model=LoginResponse)
 async def login(login_data: LoginRequest, request: Request, response: Response):
@@ -2152,9 +2149,12 @@ async def get_all_flights(username: str = Depends(get_current_user)):
                 "end": sorted_dates[-1]
             }
 
+        # Calculate actual processed flights (flights that made it onto the map)
+        processed_flight_count = sum(len(route["flights"]) for route in routes)
+
         return {
             "routes": routes,
-            "total_flights": len(all_flights),
+            "total_flights": processed_flight_count,
             "unique_routes": len(routes),
             "unique_passengers": len(unique_passengers_set),
             "date_range": date_range,
@@ -2539,6 +2539,48 @@ async def shutdown_event():
 
     # Close enrichment service
     await enrichment_service.close()
+
+
+# ============================================================================
+# API v2 Routes - API-First Architecture
+# ============================================================================
+
+# Import and register new API routes
+import api_routes
+
+# Import RAG routes
+try:
+    from routes.rag import router as rag_router
+    rag_available = True
+except ImportError:
+    logger.warning("RAG routes not available - ChromaDB dependencies may not be installed")
+    rag_available = False
+
+# Initialize services on startup
+@app.on_event("startup")
+async def init_api_services():
+    """Initialize API v2 services"""
+    api_routes.init_services(DATA_DIR)
+    logger.info("API v2 services initialized")
+
+    if rag_available:
+        logger.info("RAG system available at /api/rag")
+
+# Register API v2 routes
+app.include_router(api_routes.router)
+logger.info("API v2 routes registered at /api/v2")
+
+# Register RAG routes
+if rag_available:
+    app.include_router(rag_router)
+    logger.info("RAG routes registered at /api/rag")
+
+
+# Mount old web directory at root (includes sidebar with Archive Assistant)
+app.mount("/", StaticFiles(directory=Path(__file__).parent / "web", html=True), name="static")
+
+# Mount Svelte build at /svelte for alternate access
+app.mount("/svelte", StaticFiles(directory=Path(__file__).parent / "web-svelte" / "build", html=True), name="svelte")
 
 
 def main():

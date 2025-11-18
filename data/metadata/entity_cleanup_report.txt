@@ -1,0 +1,106 @@
+
+ENTITY CLEANUP REPORT
+=====================
+Timestamp: 2025-11-17 15:44:54
+Backup Location: /Users/masa/Projects/epstein/data/backups/cleanup_20251117_154454
+
+STATISTICS
+----------
+Mappings Applied: 238
+OCR Artifacts Removed: 238
+Entity Data Merged: 0
+Entities Deleted: 0
+
+KNOWN FIXES APPLIED
+-------------------
+  ✗ 'Baby Baby' → REMOVED
+  ✓ 'Epstein Je' → 'Epstein, Jeffrey'
+  ✓ 'Epstein, Je Je' → 'Epstein, Jeffrey'
+  ✓ 'Ghislaine Ghislaine' → 'Maxwell, Ghislaine'
+  ✓ 'Illegible Illegible' → 'Illegible'
+  ✓ 'Je Epstein' → 'Epstein, Jeffrey'
+  ✓ 'Je Je' → 'Epstein, Jeffrey'
+  ✓ 'Nadia Nadia' → 'Marcinkova, Nadia'
+  ✗ 'No No' → REMOVED
+  ✗ 'Passengers, No No' → REMOVED
+  ✓ 'Reposition Reposition' → 'Reposition'
+  ✓ 'Virginia Virginia' → 'Roberts, Virginia'
+  ✓ 'Virginia Virginia Roberts' → 'Roberts, Virginia'
+
+
+OCR ARTIFACTS DETECTED (238)
+--------------------------------------------------
+  'Adriana Adriana Mucinska' → 'Adriana Mucinska'
+  'Alan    Alan Dershowitz' → 'Alan Dershowitz'
+  'Alan    Alan Greenberg' → 'Alan Greenberg'
+  'Alberto     Alberto Pinto' → 'Alberto Pinto'
+  'Alex       Alex Resnick' → 'Alex Resnick'
+  'Alexander   Alexander Fekkai' → 'Alexander Fekkai'
+  'Alexandria   Alexandria Dixon' → 'Alexandria Dixon'
+  'Alexia    Alexia Wallert' → 'Alexia Wallert'
+  'Aline       Aline Weber' → 'Aline Weber'
+  'Alison      Alison Cayne' → 'Alison Cayne'
+  'Andrea   Andrea Mitrovich' → 'Andrea Mitrovich'
+  'Andres   Andres Pastrana' → 'Andres Pastrana'
+  'Andrew    Andrew Mitchell' → 'Andrew Mitchell'
+  'Andy      Andy Stewart' → 'Andy Stewart'
+  'Anna         Anna Hanks' → 'Anna Hanks'
+  'Anna        Anna Molova' → 'Anna Molova'
+  'Anouk      Anouk Lavalee' → 'Anouk Lavalee'
+  'Anthony    Anthony Barrett' → 'Anthony Barrett'
+  'Audrey      Audrey Blaise' → 'Audrey Blaise'
+  'Audrey Audrey Raimbault' → 'Audrey Raimbault'
+  'Ben       Ben Forester' → 'Ben Forester'
+  'Bill        Bill Clinton' → 'Bill Clinton'
+  'Brent      Brent Tindall' → 'Brent Tindall'
+  'Brian      Brian Mathis' → 'Brian Mathis'
+  'Carolyn     Carolyn Miller' → 'Carolyn Miller'
+  'Catherine    Catherine Derby' → 'Catherine Derby'
+  'Catherine   Catherine Finglas' → 'Catherine Finglas'
+  'Celina      Celina Dubin' → 'Celina Dubin'
+  'Celina   Celina Midelfart' → 'Celina Midelfart'
+  'Chauntae    Chauntae Davies' → 'Chauntae Davies'
+  'Cheri       Cheri Krape' → 'Cheri Krape'
+  'Cheri       Cheri Lynch' → 'Cheri Lynch'
+  'Chori       Chori Krove' → 'Chori Krove'
+  'Chris       Chris Tucker' → 'Chris Tucker'
+  'Chris      Chris Camaros' → 'Chris Camaros'
+  'Christina    Christina Estrada' → 'Christina Estrada'
+  'Chuck      Chuck Schumi' → 'Chuck Schumi'
+  'Cindy        Cindy Lopez' → 'Cindy Lopez'
+  'Cocoa       Cocoa Brown' → 'Cocoa Brown'
+  'Craig       Craig Adams' → 'Craig Adams'
+  'Cresencia   Cresencia Valdez' → 'Cresencia Valdez'
+  'Cristalle   Cristalle Wasche' → 'Cristalle Wasche'
+  'Dan          Dan Maran' → 'Dan Maran'
+  'Dana        Dana Burns' → 'Dana Burns'
+  'Daniel      Daniel Dennet' → 'Daniel Dennet'
+  'Daniel     Daniel Heller' → 'Daniel Heller'
+  'Dave      Dave Killary' → 'Dave Killary'
+  'David        David Slang' → 'David Slang'
+  'David       David Anton' → 'David Anton'
+  'David       David Mullen' → 'David Mullen'
+  ... and 188 more
+
+
+SUMMARY
+-------
+All OCR artifacts and duplicate entity patterns have been eliminated.
+Original file backed up to: /Users/masa/Projects/epstein/data/backups/cleanup_20251117_154454
+
+To restore from backup if needed:
+  cp /Users/masa/Projects/epstein/data/backups/cleanup_20251117_154454/entity_statistics.json /Users/masa/Projects/epstein/data/metadata/
+
+NEXT STEPS
+----------
+1. Restart server on port 8081 to reload clean data:
+   kill -9 $(lsof -ti:8081)
+   cd server && python3 app.py 8081 > /tmp/epstein_8081.log 2>&1 &
+
+2. Verify in UI:
+   - No "Je Je" variants
+   - No whitespace-padded duplicates like "Glenn       Glenn Dubin"
+   - Entity counts properly merged
+
+3. Delete backup after verification (optional):
+   rm -rf /Users/masa/Projects/epstein/data/backups/cleanup_20251117_154454

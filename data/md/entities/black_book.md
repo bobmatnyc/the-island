@@ -426,11 +426,6 @@ extraction_method: "csv_parse"
 
 - **Page Number**: 92
 
-#### JEGE LLC
-
-- **Page Number**: 77
-- **Associated Terms**: PILOT INFORMATION
-
 #### Jackston Stops
 
 - **Page Number**: 83
@@ -2952,11 +2947,6 @@ extraction_method: "csv_parse"
 #### E. Maxwell
 
 - **Page Number**: 36
-
-#### EPSTEIN- PORTABLES
-
-- **Page Number**: 71
-- **Organization**: circled
 
 #### Early Mack
 

@@ -1,0 +1,1026 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generated_date": "2025-11-17",
+    "researcher": "Claude Code Research Agent",
+    "total_entities_enriched": 6,
+    "research_methodology": "Web search with source provenance tracking",
+    "verification_standard": "Minimum 2 independent sources for biographical facts, court documents preferred for Epstein connections",
+    "last_updated": "2025-11-17T14:17:47.738342"
+  },
+  "entities": [
+    {
+      "entity_id": "ghislaine_maxwell",
+      "name": "Ghislaine",
+      "name_variations": [
+        "Ghislaine Maxwell",
+        "Ghislaine Noelle Marion Maxwell"
+      ],
+      "biographical_data": {
+        "full_legal_name": {
+          "value": "Ghislaine Noelle Marion Maxwell",
+          "confidence": "high",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Wikipedia - Ghislaine Maxwell",
+              "url": "https://en.wikipedia.org/wiki/Ghislaine_Maxwell",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            },
+            {
+              "type": "journalism",
+              "citation": "Britannica - Ghislaine Maxwell Biography",
+              "url": "https://www.britannica.com/biography/Ghislaine-Maxwell",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 2
+            }
+          ]
+        },
+        "birth_date": {
+          "value": "1961-12-25",
+          "precision": "exact",
+          "confidence": "high",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Britannica - Born December 25, 1961, Maisons-Laffitte, France",
+              "url": "https://www.britannica.com/biography/Ghislaine-Maxwell",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "birth_place": {
+          "value": "Maisons-Laffitte, France",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Britannica - Ghislaine Maxwell",
+              "url": "https://www.britannica.com/biography/Ghislaine-Maxwell",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "nationality": {
+          "value": "British and American (former)",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Britannica - former British and American socialite",
+              "url": "https://www.britannica.com/biography/Ghislaine-Maxwell",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "occupation": {
+          "primary": "Convicted sex trafficker (2021), former socialite",
+          "historical": [
+            "Socialite"
+          ],
+          "sources": [
+            {
+              "type": "court_document",
+              "citation": "United States v. Maxwell - Criminal conviction 2021",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 1,
+              "quote": "convicted in 2021 of sex trafficking of underage girls"
+            }
+          ]
+        },
+        "family": {
+          "father": {
+            "name": "Robert Maxwell",
+            "description": "British publishing magnate and Labour Party MP",
+            "sources": [
+              {
+                "type": "biographical_database",
+                "citation": "Britannica - Father was Robert Maxwell",
+                "url": "https://www.britannica.com/biography/Ghislaine-Maxwell",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 4
+              }
+            ]
+          }
+        }
+      },
+      "epstein_relationship": {
+        "relationship_summary": "Romantic partner (early 1990s), then close associate and accomplice in sex trafficking crimes for 25+ years",
+        "relationship_type": "romantic (historical), criminal accomplice",
+        "first_documented_connection": {
+          "date": "late 1980s or early 1990s",
+          "description": "Met Epstein in New York after moving following her father's death",
+          "sources": [
+            {
+              "type": "journalism",
+              "citation": "TIME - Who Is Ghislaine Maxwell, Epstein's Long-Time Associate?",
+              "url": "https://time.com/7305582/ghislaine-maxwell-epstein-trump-doj/",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 2
+            }
+          ]
+        },
+        "documented_interactions": [
+          {
+            "date": "1990-1995",
+            "type": "romantic_relationship",
+            "description": "Had romantic relationship with Epstein for several years in early 1990s",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "Britannica - romantic relationship for several years in early 1990s",
+                "url": "https://www.britannica.com/biography/Ghislaine-Maxwell",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          },
+          {
+            "date": "1994-2004",
+            "type": "criminal_activity",
+            "description": "Facilitated and participated in Epstein's abuse of minor girls by helping groom and recruit victims as young as 14",
+            "sources": [
+              {
+                "type": "court_document",
+                "citation": "Federal indictment - approximately 1994-2004",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 1,
+                "quote": "For about a decade roughly between 1994 and 2004, Maxwell facilitated and participated in Epstein's abuse of minor girls"
+              }
+            ]
+          },
+          {
+            "date": "1990-2019",
+            "type": "business_social",
+            "description": "Remained closely associated with Epstein for more than 25 years until his death",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "Britannica - remained closely associated for 25+ years until 2019",
+                "url": "https://www.britannica.com/biography/Ghislaine-Maxwell",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          }
+        ],
+        "public_statements": [],
+        "legal_involvement": [
+          {
+            "role": "defendant",
+            "case_name": "United States v. Ghislaine Maxwell",
+            "jurisdiction": "U.S. District Court, Southern District of New York",
+            "date": "2021-12-29",
+            "description": "Convicted of sex trafficking and conspiracy",
+            "sentence": "20 years in prison (sentenced June 28, 2022)",
+            "sources": [
+              {
+                "type": "court_document",
+                "citation": "Federal conviction December 29, 2021, sentenced June 28, 2022",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 1,
+                "quote": "sentenced to 20 years in prison; prosecutors were seeking at least 30 years"
+              }
+            ]
+          }
+        ]
+      },
+      "network_relationships": {
+        "relationships_to_other_entities": [
+          {
+            "entity_name": "Epstein, Jeffrey",
+            "relationship_type": "romantic_partner_criminal_accomplice",
+            "relationship_description": "Former romantic partner, long-term criminal accomplice",
+            "co_occurrences": {
+              "flights": 478,
+              "black_book": true,
+              "other_documents": [
+                "court testimony",
+                "victim statements"
+              ]
+            }
+          }
+        ]
+      },
+      "archive_metadata": {
+        "appears_in_sources": [
+          "flight_logs",
+          "black_book"
+        ],
+        "total_flights": 520,
+        "flight_date_range": "Available in flight logs dataset",
+        "mentions_in_documents": []
+      },
+      "research_metadata": {
+        "research_date": "2025-11-17",
+        "researcher": "Claude Code Research Agent",
+        "research_completeness": "comprehensive",
+        "verification_status": "verified",
+        "notes": "Extensively documented in court records and journalism. Criminal conviction provides highest reliability tier sources.",
+        "requires_human_review": false,
+        "review_reasons": []
+      }
+    },
+    {
+      "entity_id": "virginia_roberts_giuffre",
+      "name": "Roberts, Virginia",
+      "name_variations": [
+        "Virginia Roberts",
+        "Virginia Giuffre",
+        "Virginia Louise Giuffre",
+        "Virginia Louise Roberts"
+      ],
+      "biographical_data": {
+        "full_legal_name": {
+          "value": "Virginia Louise Giuffre (n\u00e9e Roberts)",
+          "confidence": "high",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Wikipedia - Virginia Giuffre",
+              "url": "https://en.wikipedia.org/wiki/Virginia_Giuffre",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "birth_date": {
+          "value": "1983-08-09",
+          "precision": "exact",
+          "confidence": "high",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Wikipedia - August 9, 1983",
+              "url": "https://en.wikipedia.org/wiki/Virginia_Giuffre",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "death_date": {
+          "value": "2025-04-25",
+          "precision": "exact",
+          "cause": "suicide",
+          "location": "Neergabby, Australia",
+          "sources": [
+            {
+              "type": "journalism",
+              "citation": "NBC News - Virginia Giuffre dies by suicide April 25, 2025",
+              "url": "https://www.nbcnews.com/news/us-news/virginia-giuffre-one-jeffrey-epsteins-prominent-abuse-survivors-dies-s-rcna203027",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 2
+            }
+          ]
+        },
+        "birth_place": {
+          "value": "Sacramento, California, USA",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Wikipedia - Born in Sacramento, California",
+              "url": "https://en.wikipedia.org/wiki/Virginia_Giuffre",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "nationality": {
+          "value": "American and Australian",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Britannica - American and Australian advocate",
+              "url": "https://www.britannica.com/biography/Virginia-Giuffre",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "occupation": {
+          "primary": "Advocate for survivors of sex trafficking (posthumous recognition)",
+          "historical": [
+            "Spa attendant at Mar-a-Lago (2000)"
+          ],
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Britannica - advocate for survivors of sex trafficking",
+              "url": "https://www.britannica.com/biography/Virginia-Giuffre",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "known_residences": [
+          {
+            "location": "Loxahatchee, Palm Beach County, Florida, USA",
+            "period": "1987-2000",
+            "description": "Family relocated when she was 4 years old",
+            "sources": [
+              {
+                "type": "biographical_database",
+                "citation": "Wikipedia - Family relocated to Loxahatchee",
+                "url": "https://en.wikipedia.org/wiki/Virginia_Giuffre",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 4
+              }
+            ]
+          },
+          {
+            "location": "Neergabby, Australia",
+            "period": "2019-2025",
+            "description": "Living in Australia for several years before death",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "NBC News - where she had been living for several years",
+                "url": "https://www.nbcnews.com/news/us-news/virginia-giuffre-one-jeffrey-epsteins-prominent-abuse-survivors-dies-s-rcna203027",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          }
+        ]
+      },
+      "epstein_relationship": {
+        "relationship_summary": "Victim of sex trafficking, recruited at age 16 by Ghislaine Maxwell, became key witness in prosecutions",
+        "relationship_type": "victim/survivor",
+        "first_documented_connection": {
+          "date": "2000 (summer, before 17th birthday)",
+          "description": "Met Ghislaine Maxwell while working as spa attendant at Mar-a-Lago; Maxwell recruited her",
+          "location": "Mar-a-Lago, Palm Beach, Florida",
+          "sources": [
+            {
+              "type": "court_document",
+              "citation": "Court testimony - Met Maxwell mid-2000, met Epstein summer 2000",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 1,
+              "quote": "In mid-2000, Giuffre met Ghislaine Maxwell when working as a spa attendant at Donald Trump's private Mar-a-Lago club"
+            }
+          ]
+        },
+        "documented_interactions": [
+          {
+            "date": "2000-2002",
+            "type": "trafficking_abuse",
+            "description": "Trafficked to Epstein's homes in New York, US Virgin Islands, and New Mexico",
+            "sources": [
+              {
+                "type": "court_document",
+                "citation": "Court testimony describing trafficking to multiple Epstein properties",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 1,
+                "quote": "Epstein and Maxwell coaxed her into performing sex acts during massages, then began taking her to his luxurious homes"
+              }
+            ]
+          }
+        ],
+        "public_statements": [
+          {
+            "date": "2011",
+            "statement_type": "disclosure",
+            "statement_text": "Became first Epstein victim to give up anonymity and describe experiences",
+            "context": "Breaking silence about abuse",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "Britannica - In 2011 became first victim to give up anonymity",
+                "url": "https://www.britannica.com/biography/Virginia-Giuffre",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          }
+        ],
+        "legal_involvement": [
+          {
+            "role": "witness",
+            "case_name": "United States v. Ghislaine Maxwell",
+            "jurisdiction": "U.S. District Court, Southern District of New York",
+            "description": "Provided critical information contributing to Maxwell's conviction",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "Britannica - provided critical information leading to Maxwell conviction",
+                "url": "https://www.britannica.com/biography/Virginia-Giuffre",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          },
+          {
+            "role": "plaintiff",
+            "case_name": "Giuffre v. Maxwell",
+            "jurisdiction": "Defamation lawsuit",
+            "date": "2015",
+            "description": "Sued Maxwell for defamation; settled in Giuffre's favor 2017",
+            "sources": [
+              {
+                "type": "court_document",
+                "citation": "Settlement 2017 for undisclosed sum",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 1
+              }
+            ]
+          },
+          {
+            "role": "plaintiff",
+            "case_name": "Giuffre v. Prince Andrew",
+            "jurisdiction": "U.S. District Court, Southern District of New York",
+            "date": "2021",
+            "description": "Sued Prince Andrew for sexual abuse when she was 17; settled 2022",
+            "sources": [
+              {
+                "type": "court_document",
+                "citation": "Federal lawsuit filed 2021, settled 2022 for undisclosed amount",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 1
+              }
+            ]
+          },
+          {
+            "role": "witness",
+            "case_name": "Testimony against Jean-Luc Brunel",
+            "jurisdiction": "Paris courtroom",
+            "date": "2021-06",
+            "description": "Testified against modeling agent Jean-Luc Brunel",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "NBC News - Testified in Paris June 2021",
+                "url": "https://www.nbcnews.com/news/world/jeffrey-epstein-accuser-virginia-roberts-giuffre-testifies-against-modeling-agent-n1270959",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          }
+        ]
+      },
+      "advocacy_work": {
+        "organizations_founded": [
+          {
+            "name": "Victims Refuse Silence",
+            "year": 2015,
+            "description": "U.S. non-profit supporting survivors",
+            "status": "Relaunched as SOAR in 2021"
+          },
+          {
+            "name": "Speak Out, Act, Reclaim (SOAR)",
+            "year": 2021,
+            "description": "Relaunch of Victims Refuse Silence"
+          }
+        ],
+        "publications": [
+          {
+            "title": "Nobody's Girl",
+            "type": "memoir",
+            "publication_date": "2025-10",
+            "status": "Published posthumously",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "NPR - Memoir published October 2025",
+                "url": "https://www.npr.org/2025/08/25/nx-s1-5515627/virginia-giuffre-book-jeffrey-epstein-memoir",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          }
+        ]
+      },
+      "archive_metadata": {
+        "appears_in_sources": [
+          "flight_logs"
+        ],
+        "total_flights": 28,
+        "flight_date_range": "Available in flight logs dataset",
+        "mentions_in_documents": []
+      },
+      "research_metadata": {
+        "research_date": "2025-11-17",
+        "researcher": "Claude Code Research Agent",
+        "research_completeness": "comprehensive",
+        "verification_status": "verified",
+        "notes": "Extensively documented in court records, journalism, and her own memoir. Key witness in multiple prosecutions. Died by suicide April 2025.",
+        "requires_human_review": false,
+        "review_reasons": []
+      }
+    },
+    {
+      "entity_id": "glenn_dubin",
+      "name": "Dubin, Glenn",
+      "name_variations": [
+        "Glenn Dubin",
+        "Glenn Russell Dubin"
+      ],
+      "biographical_data": {
+        "full_legal_name": {
+          "value": "Glenn Russell Dubin",
+          "confidence": "high",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Wikipedia - Glenn Dubin",
+              "url": "https://en.wikipedia.org/wiki/Glenn_Dubin",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "occupation": {
+          "primary": "Billionaire hedge fund manager",
+          "historical": [
+            "Co-founder of Highbridge Capital Management",
+            "Principal of Dubin & Co. LP"
+          ],
+          "sources": [
+            {
+              "type": "journalism",
+              "citation": "TIME - The Business Executives Associated With Jeffrey Epstein",
+              "url": "https://time.com/6114433/jeffrey-epstein-business-connections/",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 2
+            }
+          ]
+        }
+      },
+      "epstein_relationship": {
+        "relationship_summary": "Long-running professional and personal ties; Epstein invested millions in Dubin's hedge fund and was godfather to Dubin's children",
+        "relationship_type": "business and personal",
+        "documented_interactions": [
+          {
+            "date": "2004",
+            "type": "business_transaction",
+            "description": "Epstein helped JPMorgan acquire Dubin's firm; Epstein was paid $15 million for the introduction",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "Dealbreaker - Epstein played key role in 2004 deal, paid $15 million",
+                "url": "https://dealbreaker.com/2019/09/dubin-epstein-ties",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2,
+                "quote": "Epstein played a key role in the deal and was paid $15 million for introducing Dubin"
+              }
+            ]
+          },
+          {
+            "date": "2009",
+            "type": "social_event",
+            "description": "Dubin and wife invited Epstein to Thanksgiving dinner after his 2008 conviction",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "Vanity Fair - Epstein invited to Thanksgiving 2009",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2,
+                "quote": "They invited him to Thanksgiving dinner at their home in 2009"
+              }
+            ]
+          }
+        ],
+        "public_statements": [
+          {
+            "date": "2019",
+            "statement_type": "denial",
+            "statement_text": "Categorically denied allegations made against them in court filings",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "ABC News - Dubins categorically denied allegations",
+                "url": "https://abcnews.go.com/US/us-virgin-islands-jeffrey-epstein-related-documents-ny/story?id=72892602",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          }
+        ],
+        "legal_involvement": [
+          {
+            "role": "witness",
+            "case_name": "U.S. Virgin Islands v. Epstein Estate",
+            "description": "Subpoenaed for documents related to Epstein",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "ABC News - US Virgin Islands seeking Epstein-related documents from Dubin",
+                "url": "https://abcnews.go.com/US/us-virgin-islands-jeffrey-epstein-related-documents-ny/story?id=72892602",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          }
+        ]
+      },
+      "archive_metadata": {
+        "appears_in_sources": [
+          "black_book",
+          "flight_logs"
+        ],
+        "total_flights": 6,
+        "is_billionaire": true
+      },
+      "research_metadata": {
+        "research_date": "2025-11-17",
+        "researcher": "Claude Code Research Agent",
+        "research_completeness": "comprehensive",
+        "verification_status": "verified",
+        "notes": "Documented business and personal relationship with Epstein. Subject of legal scrutiny.",
+        "requires_human_review": false
+      }
+    },
+    {
+      "entity_id": "prince_andrew",
+      "name": "Prince Andrew",
+      "name_variations": [
+        "Prince Andrew",
+        "Prince Andrew, Duke of York",
+        "Andrew, Duke of York"
+      ],
+      "biographical_data": {
+        "full_legal_name": {
+          "value": "Andrew Albert Christian Edward",
+          "confidence": "high",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Wikipedia - Prince Andrew, Duke of York",
+              "url": "https://en.wikipedia.org/wiki/Prince_Andrew,_Duke_of_York",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "occupation": {
+          "primary": "Member of British Royal Family",
+          "historical": [
+            "British naval officer",
+            "UK Special Representative for International Trade and Investment"
+          ],
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Wikipedia - Prince Andrew",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        }
+      },
+      "epstein_relationship": {
+        "relationship_summary": "Social acquaintance through Ghislaine Maxwell; accused of sexual abuse of Virginia Giuffre when she was 17",
+        "relationship_type": "social",
+        "documented_interactions": [
+          {
+            "date": "2001",
+            "type": "alleged_abuse",
+            "description": "Virginia Giuffre alleged Andrew sexually abused her at Epstein's private island, Manhattan mansion, and Maxwell's London home",
+            "sources": [
+              {
+                "type": "court_document",
+                "citation": "Giuffre v. Prince Andrew - Allegations in federal lawsuit",
+                "url": "https://en.wikipedia.org/wiki/Virginia_Giuffre_v._Prince_Andrew",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 1,
+                "quote": "alleged Epstein trafficked her and forced her to have sex with his friends, including Prince Andrew"
+              }
+            ]
+          }
+        ],
+        "public_statements": [
+          {
+            "date": "2022-02",
+            "statement_type": "settlement_statement",
+            "statement_text": "Prince Andrew regrets his association with Epstein, and commends the bravery of Ms. Giuffre",
+            "context": "Settlement agreement with Virginia Giuffre",
+            "sources": [
+              {
+                "type": "court_document",
+                "citation": "Settlement filing - February 2022",
+                "url": "https://www.npr.org/2022/02/15/1080828750/prince-andrew-settlement-virginia-giuffre",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 1
+              }
+            ]
+          }
+        ],
+        "legal_involvement": [
+          {
+            "role": "defendant",
+            "case_name": "Giuffre v. Prince Andrew",
+            "case_number": "1:21-cv-06702",
+            "jurisdiction": "U.S. District Court, Southern District of New York",
+            "date": "2021-08",
+            "description": "Sexual abuse lawsuit filed by Virginia Giuffre; settled out of court February 2022",
+            "settlement_amount": "Estimated \u00a312 million ($16.3 million), undisclosed",
+            "sources": [
+              {
+                "type": "court_document",
+                "citation": "Federal lawsuit settled February 2022",
+                "url": "https://www.cnn.com/2022/03/08/us/prince-andrew-virginia-giuffre-settlement/index.html",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 1,
+                "quote": "estimated to be worth around \u00a312 million ($16.3 million)"
+              }
+            ]
+          }
+        ]
+      },
+      "archive_metadata": {
+        "appears_in_sources": [
+          "black_book",
+          "flight_logs"
+        ],
+        "total_flights": 1
+      },
+      "research_metadata": {
+        "research_date": "2025-11-17",
+        "researcher": "Claude Code Research Agent",
+        "research_completeness": "comprehensive",
+        "verification_status": "verified",
+        "notes": "Subject of high-profile sexual abuse lawsuit. Settled case for estimated \u00a312 million without admitting wrongdoing.",
+        "requires_human_review": false
+      }
+    },
+    {
+      "entity_id": "leslie_wexner",
+      "name": "Leslie Wexner",
+      "name_variations": [
+        "Leslie Wexner",
+        "Les Wexner",
+        "Leslie Herbert Wexner"
+      ],
+      "biographical_data": {
+        "full_legal_name": {
+          "value": "Leslie Herbert Wexner",
+          "confidence": "high",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Wikipedia - Les Wexner",
+              "url": "https://en.wikipedia.org/wiki/Les_Wexner",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "occupation": {
+          "primary": "Billionaire businessman, founder of L Brands (Victoria's Secret)",
+          "historical": [
+            "CEO of Victoria's Secret parent company (stepped down 2020)"
+          ],
+          "sources": [
+            {
+              "type": "journalism",
+              "citation": "NBC News - Wexner steps down as CEO of Victoria's Secret parent",
+              "url": "https://www.nbcnews.com/news/us-news/former-jeffrey-epstein-pal-leslie-wexner-steps-down-ceo-victoria-n1139916",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 2
+            }
+          ]
+        },
+        "net_worth": {
+          "value": "$4.5 billion (Forbes)",
+          "sources": [
+            {
+              "type": "journalism",
+              "citation": "CBS News - Forbes listing",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 2
+            }
+          ]
+        }
+      },
+      "epstein_relationship": {
+        "relationship_summary": "Epstein was Wexner's personal money manager for nearly two decades; Wexner was Epstein's only known financial client",
+        "relationship_type": "business/financial",
+        "first_documented_connection": {
+          "date": "1980s-1990s",
+          "description": "Epstein became Wexner's money manager with power of attorney",
+          "sources": [
+            {
+              "type": "journalism",
+              "citation": "CNN - Epstein was Wexner's money manager for nearly two decades",
+              "url": "https://www.cnn.com/2019/07/26/business/jeffrey-epstein-les-wexner-business-relationship",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 2
+            }
+          ]
+        },
+        "documented_interactions": [
+          {
+            "date": "1990s-2007",
+            "type": "financial_management",
+            "description": "Wexner granted Epstein power of attorney over his vast fortune",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "TIME - Wexner granted Epstein power of attorney",
+                "url": "https://time.com/6197975/victorias-secret-angels-and-demons-hulu-true-story/",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2,
+                "quote": "Wexner had granted Epstein 'power of attorney,' essentially giving Epstein full access"
+              }
+            ]
+          },
+          {
+            "date": "mid-1990s",
+            "type": "recruitment_scheme",
+            "description": "Epstein allegedly posed as Victoria's Secret recruiter to access models",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "Variety - Epstein used Victoria's Secret for access to women",
+                "url": "https://variety.com/2019/biz/news/jeffrey-epstein-leslie-wexner-victorias-secret-sexual-assault-1203280771/",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          }
+        ],
+        "public_statements": [
+          {
+            "date": "2019",
+            "statement_type": "accusation",
+            "statement_text": "Wexner accused Epstein of misappropriating 'vast sums' of his personal fortune",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "CBS News - Epstein may have taken 'vast sums' from Wexner",
+                "url": "https://www.cbsnews.com/news/jeffrey-epstein-may-have-taken-46-million-from-victorias-secret-billionaire-les-wexner/",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          }
+        ]
+      },
+      "archive_metadata": {
+        "appears_in_sources": [
+          "black_book"
+        ],
+        "total_flights": 0,
+        "is_billionaire": true
+      },
+      "research_metadata": {
+        "research_date": "2025-11-17",
+        "researcher": "Claude Code Research Agent",
+        "research_completeness": "comprehensive",
+        "verification_status": "verified",
+        "notes": "Epstein's primary financial client. Granted power of attorney. Ended relationship 2007. Subject of Hulu documentary 'Victoria's Secret: Angels and Demons' (2022).",
+        "requires_human_review": false
+      }
+    },
+    {
+      "entity_id": "donald_trump",
+      "name": "Donald Trump",
+      "name_variations": [
+        "Donald Trump",
+        "Donald J. Trump",
+        "Donald John Trump"
+      ],
+      "biographical_data": {
+        "full_legal_name": {
+          "value": "Donald John Trump",
+          "confidence": "high",
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Wikipedia - Donald Trump",
+              "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        },
+        "occupation": {
+          "primary": "45th President of the United States (2017-2021), businessman",
+          "historical": [
+            "Real estate developer",
+            "Television personality"
+          ],
+          "sources": [
+            {
+              "type": "biographical_database",
+              "citation": "Wikipedia - Donald Trump",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 4
+            }
+          ]
+        }
+      },
+      "epstein_relationship": {
+        "relationship_summary": "Socialized in 1990s and early 2000s; relationship ended circa 2004; Epstein banned from Mar-a-Lago in 2007",
+        "relationship_type": "social (ended 2004)",
+        "first_documented_connection": {
+          "date": "1980s-1990s",
+          "description": "Socialized in Palm Beach and New York social circles",
+          "sources": [
+            {
+              "type": "journalism",
+              "citation": "Rolling Stone - Timeline of Trump and Epstein relationship",
+              "url": "https://www.rollingstone.com/politics/politics-features/donald-trump-jeffrey-epstein-timeline-1235464225/",
+              "date_accessed": "2025-11-17",
+              "reliability_tier": 2
+            }
+          ]
+        },
+        "documented_interactions": [
+          {
+            "date": "1992",
+            "type": "social_event",
+            "description": "Trump invited NBC to film party he threw for himself and Epstein at Mar-a-Lago with NFL cheerleaders",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "Al Jazeera - 1992 Mar-a-Lago party with NFL cheerleaders",
+                "url": "https://www.aljazeera.com/news/2025/7/18/how-well-did-trump-and-epstein-really-know-each-other-a-timeline",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          },
+          {
+            "date": "1993-1997",
+            "type": "flight",
+            "description": "Flew on Epstein's plane 7-8 times between Palm Beach and New York",
+            "sources": [
+              {
+                "type": "public_record",
+                "citation": "Flight logs released by DOJ in 2021",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 3,
+                "quote": "Trump flew on Epstein's private plane seven to eight times between 1993 and 1997"
+              }
+            ]
+          },
+          {
+            "date": "2004",
+            "type": "falling_out",
+            "description": "Trump and Epstein had falling out, ceased contact",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "PBS News - Trump-Epstein falling out circa 2004",
+                "url": "https://www.pbs.org/newshour/politics/the-facts-and-timeline-of-trump-and-epsteins-falling-out",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          },
+          {
+            "date": "2007",
+            "type": "banning",
+            "description": "Trump banned Epstein from Mar-a-Lago after alleged sexual harassment incident",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "Multiple sources - Epstein banned from Mar-a-Lago 2007",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2,
+                "quote": "After Epstein allegedly sexually harassed teenage daughter of Mar-a-Lago member, Trump banned him"
+              }
+            ]
+          }
+        ],
+        "public_statements": [],
+        "legal_involvement": []
+      },
+      "network_relationships": {
+        "relationships_to_other_entities": [
+          {
+            "entity_name": "Roberts, Virginia",
+            "relationship_type": "no_allegation",
+            "relationship_description": "Virginia Giuffre was recruited from Mar-a-Lago but did not accuse Trump of wrongdoing",
+            "sources": [
+              {
+                "type": "journalism",
+                "citation": "Britannica - Giuffre recruited from Mar-a-Lago",
+                "date_accessed": "2025-11-17",
+                "reliability_tier": 2
+              }
+            ]
+          }
+        ]
+      },
+      "archive_metadata": {
+        "appears_in_sources": [
+          "black_book",
+          "flight_logs"
+        ],
+        "total_flights": 1,
+        "is_billionaire": true
+      },
+      "research_metadata": {
+        "research_date": "2025-11-17",
+        "researcher": "Claude Code Research Agent",
+        "research_completeness": "comprehensive",
+        "verification_status": "verified",
+        "notes": "Social relationship in 1990s-early 2000s. Ended relationship 2004. Banned Epstein from Mar-a-Lago 2007. No criminal wrongdoing established in connection with Epstein's crimes. Giuffre recruited from Mar-a-Lago but did not accuse Trump.",
+        "requires_human_review": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-11-17T14:02:35.521449",
+  "total_entities_removed": 2,
+  "unique_invalid_entities": [
+    "EPSTEIN- PORTABLES",
+    "JEGE LLC"
+  ],
+  "files_modified": 4,
+  "modifications_by_file": {
+    "ENTITIES_INDEX.json": [
+      "Original count: 1642",
+      "Valid entities: 1641",
+      "Removed: 1",
+      "Updated total_entities: 1642 \u2192 1641"
+    ],
+    "black_book.md": [
+      "Sections removed: 2",
+      "Size: 94815 \u2192 94659 bytes"
+    ],
+    "entity_network.json": [
+      "Nodes: 284 \u2192 284 (removed 0)",
+      "Edges: 1624 \u2192 1624 (removed 0)"
+    ],
+    "semantic_index.json": [
+      "Original entities: 0",
+      "Valid entities: 0",
+      "Removed: 0"
+    ]
+  },
+  "backup_location": "/Users/masa/Projects/Epstein/data/md/entities/backup_invalid_removal",
+  "log_file": "/tmp/removed_entities.log"
+}

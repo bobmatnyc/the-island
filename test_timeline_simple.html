@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline Debug Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #fff;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #2a2a2a;
+            border-radius: 8px;
+        }
+        .test-result {
+            margin: 10px 0;
+            padding: 10px;
+            background: #3a3a3a;
+            border-left: 4px solid #4CAF50;
+        }
+        .error {
+            border-left-color: #f44336;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        #console-output {
+            background: #000;
+            color: #0f0;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Timeline Debug Test</h1>
+
+    <div class="test-section">
+        <h2>Console Output</h2>
+        <div id="console-output"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>API Tests</h2>
+        <button onclick="testTimelineAPI()">Test Timeline API</button>
+        <button onclick="testNavigateToTimeline()">Navigate to Timeline Tab</button>
+        <button onclick="checkDOMElements()">Check DOM Elements</button>
+        <div id="test-results"></div>
+    </div>
+
+    <script>
+        // Capture all console messages
+        const consoleOutput = document.getElementById('console-output');
+        const originalLog = console.log;
+        const originalError = console.error;
+        const originalWarn = console.warn;
+
+        function logToPage(type, ...args) {
+            const message = args.map(a => typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)).join(' ');
+            const timestamp = new Date().toISOString().split('T')[1].slice(0, -1);
+            consoleOutput.innerHTML += `<div>[${timestamp}] [${type}] ${message}</div>`;
+            consoleOutput.scrollTop = consoleOutput.scrollHeight;
+        }
+
+        console.log = function(...args) {
+            logToPage('LOG', ...args);
+            originalLog.apply(console, args);
+        };
+
+        console.error = function(...args) {
+            logToPage('ERROR', ...args);
+            originalError.apply(console, args);
+        };
+
+        console.warn = function(...args) {
+            logToPage('WARN', ...args);
+            originalWarn.apply(console, args);
+        };
+
+        // Test functions
+        async function testTimelineAPI() {
+            console.log('🧪 Testing Timeline API...');
+            const resultsDiv = document.getElementById('test-results');
+
+            try {
+                const response = await fetch('http://localhost:8000/api/timeline');
+                console.log('Response status:', response.status);
+
+                const data = await response.json();
+                console.log('Timeline data received:', {
+                    total: data.total,
+                    events: data.events?.length,
+                    firstEvent: data.events?.[0]
+                });
+
+                resultsDiv.innerHTML += `
+                    <div class="test-result">
+                        ✅ API Test Passed<br>
+                        Total events: ${data.total}<br>
+                        Events array length: ${data.events?.length}<br>
+                        First event: ${data.events?.[0]?.title || 'N/A'}
+                    </div>
+                `;
+            } catch (error) {
+                console.error('API test failed:', error);
+                resultsDiv.innerHTML += `
+                    <div class="test-result error">
+                        ❌ API Test Failed: ${error.message}
+                    </div>
+                `;
+            }
+        }
+
+        async function testNavigateToTimeline() {
+            console.log('🧪 Testing Timeline Tab Navigation...');
+
+            // Open the main page in a new window
+            const mainWindow = window.open('http://localhost:8000/', 'epstein_main');
+
+            if (mainWindow) {
+                console.log('Main window opened, waiting 2 seconds...');
+
+                setTimeout(() => {
+                    try {
+                        // Try to access the main window and click timeline tab
+                        console.log('Attempting to click timeline tab...');
+
+                        const timelineTab = mainWindow.document.querySelector('[data-tab="timeline"]');
+                        if (timelineTab) {
+                            console.log('Timeline tab found, clicking...');
+                            timelineTab.click();
+
+                            setTimeout(() => {
+                                const timelineEvents = mainWindow.document.getElementById('timeline-events');
+                                console.log('Timeline events container:', timelineEvents?.innerHTML?.substring(0, 200));
+                            }, 1000);
+                        } else {
+                            console.error('Timeline tab not found in main window');
+                        }
+                    } catch (error) {
+                        console.error('Cross-origin error - cannot access main window:', error.message);
+                        console.log('ℹ️  This is expected due to browser security. Use Playwright for full testing.');
+                    }
+                }, 2000);
+            } else {
+                console.error('Failed to open main window - popup blocked?');
+            }
+        }
+
+        function checkDOMElements() {
+            console.log('🧪 Checking DOM elements in this test page...');
+            const resultsDiv = document.getElementById('test-results');
+
+            const requiredElements = [
+                'timeline-view',
+                'timeline-events',
+                'timeline-stats',
+                'timeline-total',
+                'timeline-case',
+                'timeline-life',
+                'timeline-docs'
+            ];
+
+            resultsDiv.innerHTML += '<div class="test-result">Checking if elements exist in main page (simulated):</div>';
+
+            requiredElements.forEach(id => {
+                console.log(`Checking element: ${id}`);
+                resultsDiv.innerHTML += `<div class="test-result">Element #${id}: Required in main page</div>`;
+            });
+        }
+
+        // Auto-run API test on load
+        console.log('🚀 Timeline Debug Test Page Loaded');
+        console.log('Click buttons to run tests');
+    </script>
+</body>
+</html>

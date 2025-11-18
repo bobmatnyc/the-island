@@ -1,0 +1,55 @@
+ENTITY DATA QUALITY FIXES
+================================================================================
+
+Execution Date: 2025-11-17
+Total Changes: 44
+Initial Entity Count: 1641
+Final Entity Count: 1640
+Net Change: -1
+
+CHANGES
+================================================================================
+[TYPE_ADD] Added entity_type for 'Carmine S. Villani': person
+[LOCATION_CREATE] Created location: ABQ - Albuquerque International Sunport (22 flights)
+[LOCATION_CREATE] Created location: ABY - Southwest Georgia Regional Airport (11 flights)
+[LOCATION_CREATE] Created location: ACY - Atlantic City International Airport (2 flights)
+[LOCATION_CREATE] Created location: ADS - Addison Airport (4 flights)
+[LOCATION_CREATE] Created location: ASE - Aspen-Pitkin County Airport (10 flights)
+[LOCATION_CREATE] Created location: BED - Laurence G. Hanscom Field (74 flights)
+[LOCATION_CREATE] Created location: BGR - Bangor International Airport (18 flights)
+[LOCATION_CREATE] Created location: BOS - Boston Logan International Airport (7 flights)
+[LOCATION_CREATE] Created location: CHO - Charlottesville-Albemarle Airport (2 flights)
+[LOCATION_CREATE] Created location: CMH - John Glenn Columbus International Airport (59 flights)
+[LOCATION_CREATE] Created location: CRG - Jacksonville Executive at Craig Airport (2 flights)
+[LOCATION_CREATE] Created location: DAL - Dallas Love Field (2 flights)
+[LOCATION_CREATE] Created location: DCA - Ronald Reagan Washington National Airport (17 flights)
+[LOCATION_CREATE] Created location: DFW - Dallas/Fort Worth International Airport (4 flights)
+[LOCATION_CREATE] Created location: EWR - Newark Liberty International Airport (13 flights)
+[LOCATION_CREATE] Created location: FLL - Fort Lauderdale-Hollywood International Airport (5 flights)
+[LOCATION_CREATE] Created location: FTK - Godman Army Airfield (2 flights)
+[LOCATION_CREATE] Created location: HPN - Westchester County Airport (32 flights)
+[LOCATION_CREATE] Created location: IAD - Washington Dulles International Airport (10 flights)
+[LOCATION_CREATE] Created location: ISM - Kissimmee Gateway Airport (6 flights)
+[LOCATION_CREATE] Created location: ISP - Long Island MacArthur Airport (6 flights)
+[LOCATION_CREATE] Created location: JAN - Jackson-Medgar Wiley Evers International Airport (4 flights)
+[LOCATION_CREATE] Created location: JFK - John F. Kennedy International Airport (160 flights)
+[LOCATION_CREATE] Created location: LAX - Los Angeles International Airport (4 flights)
+[LOCATION_CREATE] Created location: LGA - LaGuardia Airport (12 flights)
+[LOCATION_CREATE] Created location: LZU - Gwinnett County Airport (4 flights)
+[LOCATION_CREATE] Created location: MDW - Chicago Midway International Airport (8 flights)
+[LOCATION_CREATE] Created location: MIA - Miami International Airport (8 flights)
+[LOCATION_CREATE] Created location: MRY - Monterey Regional Airport (8 flights)
+[LOCATION_CREATE] Created location: MVY - Martha's Vineyard Airport (19 flights)
+[LOCATION_CREATE] Created location: ORL - Orlando Executive Airport (2 flights)
+[LOCATION_CREATE] Created location: PBI - Palm Beach International Airport (739 flights)
+[LOCATION_CREATE] Created location: PDK - DeKalb-Peachtree Airport (2 flights)
+[LOCATION_CREATE] Created location: SAF - Santa Fe Municipal Airport (97 flights)
+[LOCATION_CREATE] Created location: SAN - San Diego International Airport (10 flights)
+[LOCATION_CREATE] Created location: SAT - San Antonio International Airport (2 flights)
+[LOCATION_CREATE] Created location: SJC - Norman Y. Mineta San Jose International Airport (2 flights)
+[LOCATION_CREATE] Created location: STL - St. Louis Lambert International Airport (2 flights)
+[LOCATION_CREATE] Created location: TEB - Teterboro Airport (589 flights)
+[LOCATION_CREATE] Created location: TVC - Cherry Capital Airport (6 flights)
+[LOCATION_CREATE] Created location: VNY - Van Nuys Airport (33 flights)
+[MERGE] Merged 'Ghislaine' into 'Maxwell, Ghislaine' (total: 520 flights)
+[NETWORK] Updated entity network: 1 nodes, 188 edges
