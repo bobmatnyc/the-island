@@ -638,6 +638,51 @@ Return ONLY one word: person, organization, or location"""
         logger.debug(f"Procedural classified '{name}' as 'person' (default)")
         return 'person'
 
+    def _get_entity_type(self, entity_id: str, entity_name: str) -> str:
+        """Get entity type from pre-classified data or fallback to detection.
+
+        Uses pre-classified entity_type from biography data (from LLM classification script).
+        Only falls back to dynamic detection if entity is not pre-classified.
+
+        Args:
+            entity_id: Entity ID (snake_case slug)
+            entity_name: Entity display name
+
+        Returns:
+            Entity type: 'person', 'organization', or 'location'
+
+        Design Decision: Pre-classified Data First
+        Rationale: The entity_biographies.json contains accurate LLM-classified types
+        from a batch classification process (ticket 1M-364). Using pre-classified data
+        ensures consistency and avoids re-classification overhead. Only entities without
+        pre-classification (new entities, old data) fallback to dynamic detection.
+        """
+        # Try to get from bio data by ID first (preferred lookup)
+        if entity_id and entity_id in self.entity_bios:
+            bio_type = self.entity_bios[entity_id].get('entity_type')
+            if bio_type:
+                logger.debug(f"Using pre-classified type for '{entity_name}' (ID: {entity_id}): {bio_type}")
+                return bio_type
+
+        # Fallback to name-based lookup (for backward compatibility)
+        if entity_name and entity_name in self.entity_bios:
+            bio_type = self.entity_bios[entity_name].get('entity_type')
+            if bio_type:
+                logger.debug(f"Using pre-classified type for '{entity_name}' (name lookup): {bio_type}")
+                return bio_type
+
+        # No pre-classified data found, fallback to dynamic detection
+        logger.debug(f"No pre-classified type for '{entity_name}', using dynamic detection")
+
+        # Build context for better LLM classification
+        context = {}
+        if entity_id and entity_id in self.entity_bios:
+            context['bio'] = self.entity_bios[entity_id].get('biography', '')
+        elif entity_name and entity_name in self.entity_bios:
+            context['bio'] = self.entity_bios[entity_name].get('biography', '')
+
+        return self.detect_entity_type(entity_name, context if context else None)
+
     def detect_entity_type(self, entity_name: str, context: Optional[dict] = None) -> str:
         """Detect entity type using tiered classification approach.
 
@@ -832,7 +877,7 @@ Return ONLY one word: person, organization, or location"""
             entities_list = [
                 e
                 for e in entities_list
-                if self.detect_entity_type(e.get("name", "")) == entity_type
+                if self._get_entity_type(e.get("id", ""), e.get("name", "")) == entity_type
             ]
 
         # Tag filter
@@ -868,16 +913,8 @@ Return ONLY one word: person, organization, or location"""
             entity_name = entity.get("name", "")
             entity_id = entity.get("id", "")
 
-            # Build context for better LLM classification
-            context = {}
-            if entity_id in self.entity_bios:
-                context['bio'] = self.entity_bios[entity_id].get('biography', '')
-            elif entity_name in self.entity_bios:
-                context['bio'] = self.entity_bios[entity_name].get('biography', '')
-            if entity.get('sources'):
-                context['sources'] = entity.get('sources', [])
-
-            entity["entity_type"] = self.detect_entity_type(entity_name, context if context else None)
+            # Use pre-classified entity type from biography data (or detect if not available)
+            entity["entity_type"] = self._get_entity_type(entity_id, entity_name)
 
             # Add bio if available (try ID first, then fallback to name)
             if entity_id in self.entity_bios:
