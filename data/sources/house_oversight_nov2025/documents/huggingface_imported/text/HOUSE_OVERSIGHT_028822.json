@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028822",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028822.txt",
+  "text": "InsightsPod\n\nOpportunity\n\nProblem & Solution\n\nInsightsPod offers services such as marketing research, reports composed with said\nresearch, and plan consultation. The service is extremely relevant, timely, and accurate\nenabling clients to make informed decisions. Social media platforms such as Facebook,\nYouTube, and Twitter are used to gather live feeds on which we run a sentiment\nanalysis, and in turn, offer our clients a superior approach to market research. We\nprovide the expertise to companies seeking the means to develop and improve their\nproducts and services. To improve a company's reputation and overall customer\nexperience, we help identify which customer is dissatisfied in minutes. We help\nbusinesses determine a customer’s intent and buying habits. Through the vast amounts\nof data available across social media, we not only help politicians to understand what\ntheir constituencies are talking about but also to influence people, track voters and get\nthem to vote. Investors who predict stock behavior by interpreting the news and public\nsentiment make better trades. InsightsPod can give an insight into public sentiment\nquickly and can aid financial institutions, as well as individuals, to make sound\ninvestment decisions.\n\nInsightsPod has already been tested during the recent EU referendum and it is\ncurrently evaluating public opinion on the two US presidential candidates; Donald\nTrump and Hillary Clinton. The results that InsightsPod produced during the\nreferendum proved to be positive in favour of a Brexit, and a week later, Britain voted\nto leave the EU, indicating that our model was reliable. The final results of the\nreferendum were the complete opposite of the poll projected figures; the Leave\ncampaign won with a 51.9% majority. This is potentially a great example of how polls\nare not as reliable as we originally thought them to be when it comes to collecting data\non general public consensus. In contrast, we gather live feeds on significant political\nevents to aid political figures in their campaigns and activities.\n\n| Page 5 |\n\nCONFIDENTIAL - DO NOT DISSEMINATE. This business plan contains confidential, trade-secret\ninformation and is shared only with the understanding that you will not share its contents or ideas with\nthird parties without the express written consent of the plan author.\n\nHOUSE_OVERSIGHT_028822",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028822.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2360,
+    "word_count": 364,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:48.984778",
+    "prefix": "IMAGES-010"
+  }
+}

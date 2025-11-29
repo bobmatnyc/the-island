@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_032324",
+  "filename": "IMAGES-011-HOUSE_OVERSIGHT_032324.txt",
+  "text": "US Election Report\n\nFrom 1st of Nov till now, we have captured around 3 million tweets.\n\nHere is the performance of candidates:\n\n1. Donald Trump\n2. Hillary Clinton\n\nWinning chances\n\nPositive — 19.29%\nPositive — 20.44%\n\nClinton: 45% — Trump: 55%\n\nWinning chances in US States\n\nNew York\nCalifornia\nTexas\n\nNorth Carolina\nFlorida\nWashington\nOhio\n\nNew Jersey\nMichigan\nPennsylvania\nlowa\nWisconsin\n\nNevada\n\nTrump 39% - Clinton 61%\nTrump 37% - Clinton 63%\nTrump 80% - Clinton 20%\nTrump 54% - Clinton 46%\nTrump 52% - Clinton 48%\nTrump 31% - Clinton 69%\nTrump 62% - Clinton 38%\nTrump 19% - Clinton 81%\nTrump 37% - Clinton 63%\nTrump 51% - Clinton 49%\nTrump 67% - Clinton 33%\nTrump 18% - Clinton 82%\n\nTrump 39% - Clinton 61%\n\nNeutral — 35.03%\nNeutral — 20.79%\n\nNegative — 45.68%\nNegative — 58.77%\n\nHOUSE_OVERSIGHT_032324",
+  "metadata": {
+    "original_filename": "IMAGES-011-HOUSE_OVERSIGHT_032324.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 808,
+    "word_count": 140,
+    "line_count": 57,
+    "import_date": "2025-11-19T21:47:45.449446",
+    "prefix": "IMAGES-011"
+  }
+}

@@ -1,0 +1,57 @@
+US Election Report
+
+From 1st of Nov till now, we have captured around 3 million tweets.
+
+Here is the performance of candidates:
+
+1. Donald Trump
+2. Hillary Clinton
+
+Winning chances
+
+Positive — 19.29%
+Positive — 20.44%
+
+Clinton: 45% — Trump: 55%
+
+Winning chances in US States
+
+New York
+California
+Texas
+
+North Carolina
+Florida
+Washington
+Ohio
+
+New Jersey
+Michigan
+Pennsylvania
+lowa
+Wisconsin
+
+Nevada
+
+Trump 39% - Clinton 61%
+Trump 37% - Clinton 63%
+Trump 80% - Clinton 20%
+Trump 54% - Clinton 46%
+Trump 52% - Clinton 48%
+Trump 31% - Clinton 69%
+Trump 62% - Clinton 38%
+Trump 19% - Clinton 81%
+Trump 37% - Clinton 63%
+Trump 51% - Clinton 49%
+Trump 67% - Clinton 33%
+Trump 18% - Clinton 82%
+
+Trump 39% - Clinton 61%
+
+Neutral — 35.03%
+Neutral — 20.79%
+
+Negative — 45.68%
+Negative — 58.77%
+
+HOUSE_OVERSIGHT_032324

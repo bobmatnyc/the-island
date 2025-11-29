@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013742",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013742.txt",
+  "text": "to box occupancy densities they are likely to occur ( Adler et al, 1964; Alexeev and\nJacobson, 1981; Cornfield et al, 1982; Ornstein, 1989; Ruelle, 1990). The close\n\nrelationships in real brain observables between the appearance rate of new\nsymbols or new unstable periodic orbits, hr , and log 4(+), reflecting the rate of\n\ndivergence from the next expected value generating a new, unexpected value, is\nnot surprising. In fact, a maximal estimate of the entropy of a dynamical system, hr\n= log 4(+) whereas the largest value that hy can attain is log(#of states). A great\ndeal of substantial mathematics has gone into proofs that similarities (“equivalence\n\nrelations”) and differences between dynamical patterns are robustly indicated by\ndifferences in hy and hy (Adler et al, 1977; Adler and Marcus, 1979).\n\nlf the sum of the densities in each | box were normalized so as to sum to 1.0,\nsuch that each is a probability, pj , then - X pj log p; represents the metric entropy,\nhu. hy was first described in the dynamical context by Kolmogorov (1958;1959).\nThe sum having a —1 prefactor converts the negative log of < 1 to a meaningful\npositive value in the expression. hy is maximal for the equidistributed, uniformly\nexpansive, C or Axiom A systems (see above). As noted above, generally hy = the\nmaximum estimate of the entropy and hy the minimum estimate (Adler and Weiss,\n1965). ht = hw in uniformly hyperbolic systems (Bowen, 1975) and the difference,\n[hz — hy] is an index of non-uniformity found useful in discriminating among classes\nof single neurons from their discharge patterns (Mandell, 1987; Selz and Mandell,\n1992: Mandell and Selz, 1993; Mandell and Selz, 1997a). These measures applied\nto temporal and spatial patterns of rat exploratory behavior have been used to\ndiscriminate among stimulant drug effects (Paulus et al, 1990; Paulus and Geyer,\n1992). Similar computations involving the symbolic dynamics and disallowed\ntransitions have been used to study the complexity of the the EEG (Xu, 1994) in\nwhich both extremely low (fixed point, periodic) and high (Gaussian random)\nentropies are seen as manifesting low “complexity as a function of the diversity of\n\nthe available patterns of behavior (Crutchfield and Young, 1989a).\nBefore describing the simple but definitional matrix operations for ht and hy\n\nbelow which might seem forbidding to those “not up on their linear algebra,” we note\n\n242\n\nHOUSE_OVERSIGHT_013742",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013742.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2439,
+    "word_count": 398,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:44.048421",
+    "prefix": "IMAGES-002"
+  }
+}

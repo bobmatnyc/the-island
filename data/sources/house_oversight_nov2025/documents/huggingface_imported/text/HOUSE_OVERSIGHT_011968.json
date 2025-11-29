@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011968",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011968.txt",
+  "text": "COMPOSITE\nEXHIBIT |\n\nHOUSE_OVERSIGHT_011968",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011968.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 43,
+    "word_count": 4,
+    "line_count": 4,
+    "import_date": "2025-11-19T21:47:45.983566",
+    "prefix": "IMAGES-001"
+  }
+}

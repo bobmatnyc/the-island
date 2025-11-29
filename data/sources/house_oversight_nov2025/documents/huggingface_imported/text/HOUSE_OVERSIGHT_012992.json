@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012992",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012992.txt",
+  "text": "76 4 Brief Survey of Cognitive Architectures\n\n4.4.1.1 Neural-Symbolic Integration\n\nThe distinction between neural and symbolic systems has gotten fuzzier and fuzzier in recent\nyears, with developments such as\n\ne Logic-based systems being used to control embodied agents (hence using logical terms to\ndeal with data that is apparently perception or actuation-oriented in nature, rather than\nbeing symbolic in the semiotic sense), see [SSO3a] and [GMIT08].\n\ne Hybrid systems combining neural net and logical parts, or using logical or neural net com-\nponents interchangeably in the same role [L Aon].\n\ne Neural net systems being used for strongly symbolic tasks such as automated grammar\nlearning ([Elm91], [Elm91], plus more recent work.)\n\nFigure 4.7 presents a schematic diagram of a generic neural-symbolic system, generalizing\nfrom [BI05], a paper that gives an elegant categorization of neural-symbolic AI systems. Figure\n4.8 depicts several broad categories of neural-symbolic architecture.\n\n: “\nF “\n\nInteraction Interaction\nF Representation |\n; Symbolic > Neural -\nLearning (Localist) (Globalist) ) Learning\n~ System ‘ System Zz\n\nFig. 4.7: Generic neural-symbolic architecture\n\nBader and Hitzler categorize neural-symbolic systems according to three orthogonal axes:\ninterrelation, language and usage. “Language” refers to the type of language used in the symbolic\ncomponent, which may be logical, automata-based, formal grammar-based, etc. “Usage” refers\nto the purpose to which the neural-symbolic interrelation is put. We tend to use “learning” as\nan encompassing term for all forms of ongoing knowledge-creation, whereas Bader and Hitzler\ndistinguish learning from reasoning.\n\nOf Bader and Hitzler’s three axes the one that interests us most here is “interrelation”, which\nrefers to the way the neural and symbolic components of the architecture intersect with each\nother. They distinguish “hybrid” architectures which contain separate but equal, interacting\nneural and symbolic components; versus “integrative” architectures in which the symbolic com-\nponent essentially rides piggyback on the neural component, extracting information from it and\nhelping it carry out its learning, but playing a clearly derived and secondary role. We prefer\nSun’s (2001) term “monolithic” to Bader and Hitzler’s “integrative” to describe this type of\nsystem, as the latter term seems best preserved in its broader meaning.\n\nHOUSE_OVERSIGHT_012992",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012992.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2440,
+    "word_count": 354,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:45.661526",
+    "prefix": "IMAGES-002"
+  }
+}

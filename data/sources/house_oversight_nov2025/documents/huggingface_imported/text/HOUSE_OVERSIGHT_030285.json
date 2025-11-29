@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_030285",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_030285.txt",
+  "text": "Hardwired for Hope?\n\nI would have liked to tell you that my work on optimism grew out of\na keen interest in the positive side of human nature. The reality is that\nI stumbled onto the brain's innate optimism by accident. After living\nthrough Sept. 11, 2001, in New York City, I had set out to investigate\npeople's memories of the terrorist attacks. I was intrigued by the fact\nthat people felt their memories were as accurate as a videotape, while\noften they were filled with errors. A survey conducted around the\ncountry showed that 11 months after the attacks, individuals'\nrecollections of their experience that day were consistent with their\ninitial accounts (given in September 2011) only 63% of the time.\nThey were also poor at remembering details of the event, such as the\nnames of the airline carriers. Where did these mistakes in memory\ncome from?\n\nScientists who study memory proposed an intriguing answer:\nmemories are susceptible to inaccuracies partly because the neural\nsystem responsible for remembering episodes from our past might not\nhave evolved for memory alone. Rather, the core function of the\nmemory system could in fact be to imagine the future — to enable us\nto prepare for what has yet to come. The system is not designed to\nperfectly replay past events, the researchers claimed. It is designed to\nflexibly construct future scenarios in our minds. As a result, memory\nalso ends up being a reconstructive process, and occasionally, details\nare deleted and others inserted. To test this, I decided to record the\nbrain activity of volunteers while they imagined future events — not\nevents on the scale of 9/11, but events in their everyday lives — and\ncompare those results with the pattern I observed when the same\nindividuals recalled past events. But something unexpected occurred.\nOnce people started imagining the future, even the most banal life\nevents seemed to take a dramatic turn for the better. Mundane scenes\nbrightened with upbeat details as if polished by a Hollywood script\n\nHOUSE_OVERSIGHT_030285",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_030285.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2034,
+    "word_count": 338,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:44.011719",
+    "prefix": "IMAGES-010"
+  }
+}

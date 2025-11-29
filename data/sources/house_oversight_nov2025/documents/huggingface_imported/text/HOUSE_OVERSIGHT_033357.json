@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_033357",
+  "filename": "TEXT-002-HOUSE_OVERSIGHT_033357.txt",
+  "text": "From: paul krassner \nSent: 5/9/2019 11:24:30 PM \nTo: Kevin Bright \nSubject: my occasional tweet \n• Danny Goldberg \n\"Trump has grabbed the pussy of the statue of Liberty.\" \nHOUSE OVERSIGHT 033357",
+  "metadata": {
+    "original_filename": "TEXT-002-HOUSE_OVERSIGHT_033357.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 194,
+    "word_count": 30,
+    "line_count": 7,
+    "import_date": "2025-11-19T21:47:48.838515",
+    "prefix": "TEXT-002"
+  }
+}

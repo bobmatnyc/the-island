@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012977",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012977.txt",
+  "text": "4.2 Symbolic Cognitive Architectures 61\n\n4.2.2 ACT-R\n\nIn the grand scope of cognitive architectures, ACT-R is quite similar to Soar, but there are\nmany micro-level differences. ACT-R is defined in terms of declarative and procedural knowl-\nedge, where procedural knowledge takes the form of Soar-like production rules, and declarative\nknowledge takes the form of chunks. It contains a variety of mechanisms for learning new rules\nand chunks from old; and also contains sophisticated probabilistic equations for updating the\nactivation levels associated with items of knowledge (these equations being roughly analogous\nin function to, though quite different from, the ECAN equations in CogPrime).\n\nFigure 4.2 displays the current architecture of ACT-R. The flow of cognition in the system is\nin response to the current goal, currently active information from declarative memory, informa-\ntion attended to in perceptual modules (vision and audition are implemented), and the current\nstate of motor modules (hand and speech are implemented). The early work with ACT-R was\nbased on comparing system performance to human behavior, using only behavioral measures,\nsuch as the timing of keystrokes or patterns of eye movements. Using such measures, it was not\npossible to test detailed assumptions about which modules were active in the performance of\na task. More recently the ACT-R community has been engaged in a process of using imaging\ndata to provide converging data on module activity. Figure 4.3 illustrates the associations they\nhave made between the modules in Figure 4.2 and brain regions. Coordination among all of\nthese components occurs through actions of the procedural module, which is mapped to the\nbasal ganglia.\n\nFig. 4.2: High-level architecture of ACT-R\n\nIn practice ACT-R, even more so than Soar, seems to be used more as a programming\nframework for cognitive modeling than as an AI system. One can fairly easily use ACT-R\nto program models of specific human mental behaviors, which may then be matched against\n\nHOUSE_OVERSIGHT_012977",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012977.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2049,
+    "word_count": 316,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:47.792633",
+    "prefix": "IMAGES-002"
+  }
+}

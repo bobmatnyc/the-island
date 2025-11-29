@@ -1,0 +1,220 @@
+================================================================================
+MISTRAL ENTITY DISAMBIGUATION - QUICK START GUIDE
+================================================================================
+
+✅ STATUS: Implementation Complete - Ready for Testing
+📅 Date: 2025-11-17
+🎯 Goal: Disambiguate 48 ambiguous entities in Epstein archive
+
+================================================================================
+CURRENT STATS
+================================================================================
+
+Entities in Database:     1,640
+Ambiguous Entities:       48
+  • High Priority:        9    (single name + 10+ flights)
+  • Medium Priority:      39   (single name + <10 flights)
+
+Top Cases Needing Disambiguation:
+  1. Ghislaine (520 flights) → Maxwell, Ghislaine
+  2. Nadia (125 flights)     → [needs identification]
+  3. Female (1) (120 flights) → [needs identification]
+  4. Didier (32 flights)     → [needs full name]
+  5. Gramza (20 flights)     → [needs full name]
+
+================================================================================
+3-STEP QUICK START
+================================================================================
+
+STEP 1: Test the System
+────────────────────────
+Command:
+  python3 scripts/analysis/mistral_entity_disambiguator.py
+
+Time: 5-10 minutes (includes model download ~14GB)
+
+What happens:
+  • Downloads Mistral-7B-Instruct model (one-time)
+  • Loads model into memory
+  • Tests disambiguation on "Ghislaine"
+  • Tests role classification
+  • Tests duplicate detection
+
+Expected output:
+  ✅ Test 1: Disambiguate 'Ghislaine'
+     Original name: Ghislaine
+     Suggested name: Maxwell, Ghislaine
+     Confidence: 0.95
+     Reasoning: Ghislaine Maxwell is documented in court records...
+
+
+STEP 2: Disambiguate Top 10 Entities
+────────────────────────────────────
+Command:
+  python3 scripts/analysis/batch_entity_disambiguation.py --priority high --max-count 10
+
+Time: ~1 hour (interactive, includes user confirmation)
+
+What happens:
+  • Shows each entity with context
+  • Mistral suggests full name (2-3 sec/entity)
+  • You approve or reject (y/n/skip)
+  • Automatic backup created
+  • Changes logged to changelog
+
+Interactive workflow:
+  ┌──────────────────────────────────────────────────────────┐
+  │ Entity: Ghislaine                                        │
+  │ Flights: 520                                             │
+  │ Sources: ['flight_logs']                                 │
+  ├──────────────────────────────────────────────────────────┤
+  │ 📝 Suggestion:                                           │
+  │    Original: Ghislaine                                   │
+  │    Suggested: Maxwell, Ghislaine                         │
+  │    Confidence: 0.95                                      │
+  │    Reasoning: Court documents confirm...                 │
+  ├──────────────────────────────────────────────────────────┤
+  │ ✅ Accept this suggestion? (y/n/skip): _                │
+  └──────────────────────────────────────────────────────────┘
+
+  Type 'y' to accept, 'n' to reject, 'skip' to skip
+
+
+STEP 3: Review Results
+────────────────────────
+Commands:
+  # View changelog
+  cat data/metadata/disambiguation_changelog.json | python3 -m json.tool
+
+  # Check backups
+  ls -lh data/metadata/entity_index_backups/
+
+  # View updated entities
+  python3 -c "
+  import json
+  data = json.load(open('data/md/entities/ENTITIES_INDEX.json'))
+  print(f'Total entities: {len(data[\"entities\"])}')
+  print('Recently updated:')
+  for e in data['entities'][:10]:
+      if e.get('merged_from'):
+          print(f'  {e[\"name\"]} (was: {e[\"merged_from\"]})')
+  "
+
+================================================================================
+SAFETY FEATURES
+================================================================================
+
+✅ Automatic Backups
+   Every save creates timestamped backup:
+   data/metadata/entity_index_backups/ENTITIES_INDEX_[timestamp].json
+
+✅ Complete Changelog
+   Every change logged with timestamp, confidence, reasoning:
+   data/metadata/disambiguation_changelog.json
+
+✅ Human Confirmation
+   All changes require your approval (y/n/skip)
+
+✅ Dry-Run Mode
+   Preview without saving:
+   --dry-run flag
+
+✅ Easy Rollback
+   Restore any backup:
+   cp data/metadata/entity_index_backups/[backup] data/md/entities/ENTITIES_INDEX.json
+
+================================================================================
+HELPFUL COMMANDS
+================================================================================
+
+Preview without saving:
+  python3 scripts/analysis/batch_entity_disambiguation.py --dry-run
+
+Process specific entities:
+  python3 scripts/analysis/batch_entity_disambiguation.py --entities "Ghislaine" "Nadia"
+
+Process all high-priority:
+  python3 scripts/analysis/batch_entity_disambiguation.py --priority high
+
+Get help:
+  python3 scripts/analysis/batch_entity_disambiguation.py --help
+
+================================================================================
+PERFORMANCE (M1 Mac, 16GB RAM, MPS)
+================================================================================
+
+Model download:           5-10 minutes (one-time)
+Model load:               30-60 seconds (each run)
+Single disambiguation:    2-3 seconds
+Batch 10 (interactive):   ~1 hour
+All 48 entities:          ~4-5 hours
+
+================================================================================
+ETHICAL SAFEGUARDS
+================================================================================
+
+✅ Privacy: All processing local, no external APIs
+✅ Evidence-based: Prompts constrain to documented evidence only
+✅ No speculation: Cannot make allegations without proof
+✅ Victim classification: ONLY from court designations
+✅ Human oversight: Every change requires approval
+✅ Full audit trail: Complete change logging
+
+================================================================================
+DOCUMENTATION
+================================================================================
+
+Quick Reference:          scripts/analysis/README_MISTRAL.md
+Full Documentation:       docs/MISTRAL_DISAMBIGUATION.md
+Integration Overview:     MISTRAL_INTEGRATION_SUMMARY.md
+Setup Checklist:          MISTRAL_SETUP_CHECKLIST.md
+This Quick Start:         MISTRAL_QUICK_START.txt
+
+================================================================================
+READY TO BEGIN?
+================================================================================
+
+Run this command to start testing:
+
+  python3 scripts/analysis/mistral_entity_disambiguator.py
+
+Expected time: 5-10 minutes
+What happens: Downloads model, runs test cases, shows results
+
+After successful test, run:
+
+  python3 scripts/analysis/batch_entity_disambiguation.py --priority high --max-count 10
+
+Expected time: ~1 hour
+What happens: Disambiguate first 10 high-priority entities
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+If model won't download:
+  • Check disk space (need 20GB free)
+  • Check internet connection
+  • Try manual download (see docs/MISTRAL_DISAMBIGUATION.md)
+
+If out of memory:
+  • Close other applications
+  • See CPU-only mode in docs
+  • Reduce batch size with --max-count
+
+If slow performance:
+  • Check GPU/MPS is enabled (should see "device: mps")
+  • Consider running during off-hours
+  • Process in smaller batches (--max-count 5)
+
+For detailed help:
+  See docs/MISTRAL_DISAMBIGUATION.md
+
+================================================================================
+QUESTIONS?
+================================================================================
+
+See comprehensive documentation at docs/MISTRAL_DISAMBIGUATION.md
+Or run: python3 scripts/analysis/batch_entity_disambiguation.py --help
+
+================================================================================

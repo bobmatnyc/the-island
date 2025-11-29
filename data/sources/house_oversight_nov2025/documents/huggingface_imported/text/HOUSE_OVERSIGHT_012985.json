@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012985",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012985.txt",
+  "text": "4.3 Emergentist Cognitive Architectures 69\n\ne The second layer, and all those above it, receive as input the belief states of nodes at their\ncorresponding lower layers, and attempt to construct belief states that capture regularities\nin their inputs.\n\ne Each node also receives as input the belief state of the node above it in the hierarchy (which\nconstitutes “contextual” information)\n\nFeedback\n(contextual) P(s*|S)\nsignals\n\nP(O|S\")\n\nP(Ss\"|S.C) P(s\"|5,C)\n\nP(O|s’) # ™ P(O]S’)\n\nP(S\"| S.C) P(S']5.C) P(S']5,C) P(S'|S,C)\n\nP(O|S*) P(O|S*) P(O!|S*) P(O]S’)\n\nObservation\n\n(e.g. 32x32 image)\n\nFig. 4.6: Small-scale instantiation of the DeSTIN perceptual hierarchy. Each box represents a\nnode, which corresponds to a spatiotemporal region (nodes higher in the hierarchy corresponding\nto larger regions). O denotes the current observation in the region, C is the state of the higher-\nlayer node, and S and S’ denote state variables pertaining to two subsequent time steps. In\neach node, a statistical learning algorithm is used to predict subsequent states based on prior\nstates, current observations, and the state of the higher-layer node.\n\nMore specifically, each of the DeSTIN nodes, referring to a specific spacetime region, contains\na set of state variables conceived as clusters, each corresponding to a set of previously-observed\nsequences of events. These clusters are characterized by centroids (and are hence assumed\nroughly spherical in shape), and each of them comprises a certain \"spatiotemporal form\" recog-\nnized by the system in that region. Each node then contains the task of predicting the likelihood\nof a certain centroid being most apropos in the near future, based on the past history of ob-\nservations in the node. This prediction may be done by simple probability tabulation, or via\n\nHOUSE_OVERSIGHT_012985",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012985.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1824,
+    "word_count": 277,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:45.352474",
+    "prefix": "IMAGES-002"
+  }
+}

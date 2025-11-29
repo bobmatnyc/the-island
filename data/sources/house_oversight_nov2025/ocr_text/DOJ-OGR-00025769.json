@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00025769.pdf",
+  "ocr_date": "2025-11-16T21:57:22.668480",
+  "text_length": 236,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "Thea@usdoj.gov"
+  ]
+}

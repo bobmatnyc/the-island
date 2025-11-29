@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010952",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010952.txt",
+  "text": "input of nurture and schooling, and then depreciates gradually to zero just as\nbuildings do. Yoram Ben-Porath combined these ideas and more in a masterly life-\n\ncycle model published in 1967. We'll get to it soon.\n\nSchultz called the part of consumption exhausted in taste satisfaction “pure\nconsumption”. The part invested in human capital was “pure investment”. I change\nthat to “invested consumption” to avoid confusion with investment in physical\ncapital. Since there is no settled term for the part of work invested in learning, | call\nit “self-invested work”. I call the part of work sold for pay “realized work”. Then the\nconsensus view formed in the 1960s held that human capital growth equals\ninvested consumption plus self-invested work less human depreciation. I agree,\nwith a clarification as to possible deadweight loss that I'll come to in Chapter 6. I call\nit the Ben-Porath equation, although he drew it from the Schultz-led consensus. It is\n\nreally a summary of the first four of the equations in his 1967 paper taken together.\n\nThis explains my critique of the Y=I+C equation. The equation would be true if\nhuman capital growth equaled invested consumption. In fact it equals that plus self-\ninvested work less human depreciation. The corrected equation would read “output\nequals consumption plus investment plus self-invested work less human\n\ndepreciation”. | call this the “Y rule”.\n\nUpending the Y =! + C equation is big news. Macroeconomics and the national\naccounts are founded on it. That’s one reason, although not the main one, why |\nthink that macroeconomics should start over. It doesn’t follow that national\naccounts in themselves need much change, aside from reporting net investment at\nmarket as well as at book, because accountants must measure what they can.\nHuman depreciation and self-invested work elude market measurement. But\neconomists can allow for them, and they are huge flows. Human depreciation is\ndepreciation of the larger factor. And self-invested work includes more than\nlearning. Ben-Porath showed, as we will see, that it equals all growth in human\n\ncapital not explained by inflows of nurture and schooling less outflows in human\n\nChapter 2: Fast Forward 1/06/16 12\n\nHOUSE_OVERSIGHT_010952",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010952.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2240,
+    "word_count": 358,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:48.611248",
+    "prefix": "IMAGES-001"
+  }
+}

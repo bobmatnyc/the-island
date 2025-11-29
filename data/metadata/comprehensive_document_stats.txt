@@ -1,0 +1,39 @@
+================================================================================
+COMPREHENSIVE DOCUMENT STATISTICS
+================================================================================
+
+Generated: 2025-11-17T00:15:56.488618
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Documents: 68,287
+  - PDFs: 67,976
+  - Emails: 305
+  - Entity Documents: 6
+  - OCR Markdown: 0
+  - Classified: 6
+
+PDFs BY SOURCE
+--------------------------------------------------------------------------------
+  house_oversight_nov2025: 67,144
+  404media: 388
+  courtlistener_giuffre_maxwell: 371
+  giuffre_maxwell: 42
+  fbi_vault: 21
+  house_oversight_sept2024: 4
+  documentcloud: 3
+  raw_entities: 1
+  doj_official: 1
+  documentcloud_6250471: 1
+
+EMAILS BY SOURCE
+--------------------------------------------------------------------------------
+  house_oversight_nov2025: 305
+
+CLASSIFICATIONS BY TYPE
+--------------------------------------------------------------------------------
+  flight_log: 2
+  administrative: 1
+  contact_book: 1
+  personal: 1
+  media: 1

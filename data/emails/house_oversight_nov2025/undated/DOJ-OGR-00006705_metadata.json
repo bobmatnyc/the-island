@@ -1,0 +1,18 @@
+{
+  "document_id": "DOJ-OGR-00006705",
+  "email_index": 48,
+  "extracted_at": "2025-11-17T04:14:45.450597",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "Alison. Moe@usdoj.gov, maurene.comey@usdo].gov, be@sternheimlaw.com, besternheim@mac.com, ceverdell@cohengresser.com 2 DOJ-OGR-00006705",
+  "subject": null,
+  "date": "11/12/21",
+  "body": "besternheim@mac.com, ceverdell@cohengresser.com\n\n2",
+  "confidence": 0.7,
+  "email_addresses": [
+    "besternheim@mac.com",
+    "be@sternheimlaw.com",
+    "ceverdell@cohengresser.com",
+    "Moe@usdoj.gov"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011149",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011149.txt",
+  "text": "I argued that outside investment in human young, including the unpaid work of\nparenting, might not be far from constant. School costs rise as parenting costs\n\ndecline. (A10.1) in that case gives\n\nH(x)= ale -1), if x<=A. (A10.2)\n\nAt maturity (A10.1) becomes\nH(A)= | . C (ze dz, (A10.3)\n\nH in adulthood is easiest to model at present value rather than present cost. Human\n\ncash flow is pay 7 less C_. Discounted cash flow becomes\n\nHox) =f\" (r-C, (Her dz, if x>=A, (A10.4)\n\nwhere r(z) now is best understood as time preference rate. This is identical to\nexpected rate of return, as shown in the diamond ring parable. Note that there is no\nexplicit adjustment for asset risk. | argue that human capital is not inherently riskier\nthan physical capital, but rather adapts to the risk tolerance of its owner. It is riskier\ncollectively because owned disproportionately by the risk-tolerant young. I treat\nrisk profile as a function of the owner’s age, gender and wealth. (A10.4) describes\ncohort value, and so neglects individual differences in gender and wealth as already\n\ncaptured in the characteristics of the cohort.\n\nI model C, as negligible in adulthood because I see so little of it. That would reduce\n\nadult human cash flow to pay alone, and so simplify (A10.4) to\n\nAPPENDIX A: The Argument in Notation 3/7/16 23\n\nHOUSE_OVERSIGHT_011149",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011149.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1338,
+    "word_count": 225,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:45.828722",
+    "prefix": "IMAGES-001"
+  }
+}

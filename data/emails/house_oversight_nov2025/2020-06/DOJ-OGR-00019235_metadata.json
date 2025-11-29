@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00019235",
+  "email_index": 74,
+  "extracted_at": "2025-11-17T04:14:45.458643",
+  "from_address": null,
+  "to_address": "The clerk of court and all parties of record Iam admitted or otherwise authorized to practice in this court, and I appear in this case as counsel for: Ghislaine Maxwell .",
+  "cc_address": null,
+  "subject": null,
+  "date": "07/06/2020 /s/Lawrence A. Vogelman",
+  "body": "Attorney\u2019s signature\nLawrence A. Vogelman #10280\nPrinted name and bar number\n77 Central Street\nManchester, NH 03101\nAddress\nLVogelman@davenixonlaw.com\nE-mail address\n(603) 669-7070\nTelephone number\n(603) 669-7080\nFAX number",
+  "confidence": 0.7,
+  "email_addresses": [
+    "LVogelman@davenixonlaw.com"
+  ]
+}

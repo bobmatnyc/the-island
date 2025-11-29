@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013128",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013128.txt",
+  "text": "212 12 The Engineering and Development of Ethics\n\nStage Substages\n\nPre-Conventional\n\n@ Obedience and Punishment Orientation\n@ Self-interest orientation\n\nConventional\n\ne Interpersonal accord (conformity) orientation\ne Authority and socialorder maintaining (law and order)\norientation\n\nPost-Conventional\n\ne Social contract (human rights) orientation\ne@ Universal ethical principles (universal human rights) ori-\nentation\n\nTable 12.1: Kohlberg’s Stages of Development of the Ethics of Justice\n\nfrom formal and then reflexive thinking about ethics comes the post-conventional modalities of\ncontractualism and universal mutual respect.\n\nStage of Social Per-|Interpersonal Outlook\nspective\n\nBlind egoism No interpersonal perspective. Only self is considered.\n\nInstrumental egoism [See that others have goals and perspectives, and either con-\nform to or rebel against norms.\n\nSocial Relationships|Able to see abstract normative systems\n\nperspective\n\nSocial Systems per-|Recognize positive and negative intentions\n\nspective\n\nContractual perspec-|Recognize that contracts (mutually beneficial agreements of\n\ntive any kind) will allow intelligences to increase the welfare of\nboth.\n\nUniversal principle of|See how human fallibility and frailty are impacted by commu-\n\nmutual respect nication.\n\nTable 12.2: Kohlberg’s Stages of Development of Social Perspective and Interpersonal Morals\n\n12.4.1.1 Uncertain Inference and the Ethics of Justice\n\nTaking our cue from the analysis given in Chapter 11 of Piagetan stages in uncertain infer-\nence based AGI systems (such as CogPrime ), we may explore the manifestation of Kohlberg’s\nstages in AGI systems of this nature. Uncertain inference seems generally well-suited as a\ndeclarative-ethics learning system, due to the nuanced ethical environment of real world sit-\nuations. Probabilistic knowledge networks can model belief networks, imitative reinforcement\nlearning based ethical pedagogy, and even simplistic moral maxims. In principle, they have the\nflexibility to deal with complex ethical decisions, including not only weighted “for the greater\n\nHOUSE_OVERSIGHT_013128",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013128.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2109,
+    "word_count": 280,
+    "line_count": 64,
+    "import_date": "2025-11-19T21:47:47.305015",
+    "prefix": "IMAGES-002"
+  }
+}

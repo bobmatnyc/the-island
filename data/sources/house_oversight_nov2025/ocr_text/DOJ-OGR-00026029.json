@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00026029.pdf",
+  "ocr_date": "2025-11-16T21:57:56.248048",
+  "text_length": 1884,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "J@ocme.nyc.gov",
+    "J@ocme.nye.gov"
+  ]
+}

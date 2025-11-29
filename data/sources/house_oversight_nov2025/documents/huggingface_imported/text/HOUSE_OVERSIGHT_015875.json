@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015875",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015875.txt",
+  "text": "00 185\n\nNow, a very clever or annoying student asks, “What happens if an\ninfinite number of infinitely large buses arrive at the hotel. Can they all\nfit in?” The mathematical question is “does infinity times infinity, equal\ninfinity?” Let us ask all the guests to get out of the bus and line up in the\nparking lot in neat rows. Passengers from bus one in line 1, those from\nbus 2 in line 2, and so on. All the guests now form a two-dimensional\ngrid. We already know how to map a two-dimensional grid to one-\ndimension using the zigzag method. We can fit them all in the hotel and\nwe are done!\n\nIs Anything Larger than Infinity?\nIs there any bus or combination of buses that would cause the manager\nof Hilbert’s Hotel a problem.\n\nThe answer is yes and it involves a subtle change to the contents of\nthe bus.\n\nAn infinite number of buses turn up but this time the buses are\nfilled with men and women. The hotel manager is asked to put everyone\nin a room and once again he obliges using the zigzag method.\n\nAt the end of the process the tour guide comes to him. “I think you\nhave missed some people,’ he says. “Since I am just one person, I know\nyou can fit me in. But, I have a whole bus in the car park you completely\nmissed.”\n\n“No,” says the manager. “I did every bus.”\n\nInfinity Plus Infinity Equals Infinity\n\nHOUSE_OVERSIGHT_015875",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015875.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1333,
+    "word_count": 252,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:45.605704",
+    "prefix": "IMAGES-003"
+  }
+}

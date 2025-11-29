@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00023543",
+  "email_index": 97,
+  "extracted_at": "2025-11-17T04:14:45.466202",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": null,
+  "subject": "Epstein/Washington Post question",
+  "date": "19/08/26",
+  "body": "Attachments: TEXT.htm, Mime.822\n\nHi\u2014\n(EVO from the Washington Post here. We are in the process of working on a story about the\ncameras outside Jeffrey Epstein\u2019s cell on the morning of his death. The story will assert that the data in\nthose cameras was found to be corrupted/unreadable, though it is being sent to Quantico for further\nanalysis.\n\nCan the BOP comment on that assertion? Is the functionality of cameras a larger issue at BOP or MCC?\nAre you able to say what other cameras might have captured that night to support the assertion that\nMr. Epstein killed himself?\n\nThank you,\nSEM | The Washington Post\n\n(202) 629M (cell)\n\nPage 580",
+  "confidence": 0.7,
+  "email_addresses": [
+    "ffairs@bop.gov"
+  ]
+}

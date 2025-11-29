@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00024868.pdf",
+  "ocr_date": "2025-11-16T21:55:18.553776",
+  "text_length": 886,
+  "is_email": true,
+  "email_confidence": 0.8999999999999999,
+  "email_addresses": [
+    "jpetrucci@bop.gov"
+  ]
+}

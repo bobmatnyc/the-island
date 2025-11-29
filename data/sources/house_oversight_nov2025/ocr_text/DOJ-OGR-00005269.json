@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00005269.pdf",
+  "ocr_date": "2025-11-16T21:03:56.574527",
+  "text_length": 3291,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "bbrown@refp.org"
+  ]
+}

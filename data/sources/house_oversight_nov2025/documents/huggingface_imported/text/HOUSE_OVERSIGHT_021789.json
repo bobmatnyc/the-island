@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_021789",
+  "filename": "IMAGES-006-HOUSE_OVERSIGHT_021789.txt",
+  "text": "And Mr. Epstein has changed his e-mail address to alert people that he will be\nunavailable for the next 18 months. The new address indicates he is “‘on vacation.”\n\nCopyright 2008 The New York Times Company\n\nHOUSE_OVERSIGHT_021789",
+  "metadata": {
+    "original_filename": "IMAGES-006-HOUSE_OVERSIGHT_021789.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 229,
+    "word_count": 37,
+    "line_count": 6,
+    "import_date": "2025-11-19T21:47:45.168393",
+    "prefix": "IMAGES-006"
+  }
+}

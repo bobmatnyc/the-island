@@ -1,0 +1,24 @@
+{
+  "source_pdf": "DOJ-OGR-00000818.pdf",
+  "ocr_date": "2025-11-16T20:50:53.978329",
+  "text_length": 1980,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "ehartman@steptoe.com",
+    "USANYS.ECF@USDOJ.GOV",
+    "bhamerschlag@steptoe.com",
+    "ggraham@fernichlaw.com",
+    "maf@fernichlaw.com",
+    "owlmgw@att.net",
+    "rweingarten@steptoe.com",
+    "jbrochin@brochinlawpllc.com",
+    "owlmcb@att.net",
+    "alison.moe@usdoj.gov",
+    "mscavelli@steptoe.com",
+    "mmiller@steptoe.com",
+    "NYSD_ECF_Pool@nysd.uscourts.gov",
+    "ocorn@steptoe.com",
+    "ocorn@Steptoe.com"
+  ]
+}

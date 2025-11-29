@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_029349",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_029349.txt",
+  "text": "This message is intended only for the use of the Addressee and may contain information that is privileged and\nconfidential. If you are not the intended recipient, you are hereby notified that any dissemination of this\ncommunication is strictly prohibited. If you have received this communication in error, please erase all copies\nof the message and its attachments and notify us immediately.\n\nHOUSE_OVERSIGHT_029349",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_029349.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 415,
+    "word_count": 63,
+    "line_count": 6,
+    "import_date": "2025-11-19T21:47:46.241923",
+    "prefix": "IMAGES-010"
+  }
+}

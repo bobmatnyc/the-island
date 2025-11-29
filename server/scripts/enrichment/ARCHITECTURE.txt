@@ -1,0 +1,227 @@
+ENTITY ENRICHMENT CONTENT AGENT - SYSTEM ARCHITECTURE
+======================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         PRIORITY ENTITY LIST (131)                          │
+│  • Top 50 frequent flyers (Band, Tucker, Spacey, Clinton, etc.)            │
+│  • 32 billionaires (Trump, Wexner, Bloomberg, etc.)                        │
+│  • 49 public figures (Prince Andrew, Kennedy family, etc.)                 │
+└──────────────────────────────────┬──────────────────────────────────────────┘
+                                   │
+                                   │ INPUT: entity name, metadata
+                                   ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      AUTOMATED ENTITY ENRICHMENT                            │
+│                  (automated_entity_enrichment.py)                           │
+│                                                                             │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ 1. SEARCH STRATEGY                                                  │   │
+│  │    • Biographical: "{Name}" biography                               │   │
+│  │    • Epstein: "{Name}" Jeffrey Epstein court documents              │   │
+│  │    • Flights: "{Name}" Epstein flight logs                          │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+│                                   │                                         │
+│                                   ▼                                         │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ 2. WEB SEARCH INTEGRATION                                           │   │
+│  │    (websearch_integration.py)                                       │   │
+│  │    • WebSearch MCP tool (or mock for testing)                       │   │
+│  │    • 7-day cache (avoid redundant queries)                          │   │
+│  │    • Rate limiting: 2s between requests                             │   │
+│  │    • Domain filtering (prioritize reliable sources)                 │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+│                                   │                                         │
+│                                   ▼                                         │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ 3. CONTENT EXTRACTION                                               │   │
+│  │    • Extract biographical facts (birth, occupation, nationality)    │   │
+│  │    • Extract Epstein connections (relationship, interactions)       │   │
+│  │    • Extract dates, quotes, context                                 │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+│                                   │                                         │
+│                                   ▼                                         │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ 4. RELIABILITY TIER CLASSIFICATION                                  │   │
+│  │    Tier 1 (Court): courtlistener.com, pacer.gov                     │   │
+│  │    Tier 2 (Journalism): nytimes.com, washingtonpost.com, bbc.com    │   │
+│  │    Tier 3 (Public): wikipedia.org, britannica.com                   │   │
+│  │    Tier 4 (General): forbes.com, cnn.com                            │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+│                                   │                                         │
+│                                   ▼                                         │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ 5. PROVENANCE TRACKING                                              │   │
+│  │    Every fact → source URL + tier + access date + quote             │   │
+│  │    {                                                                 │   │
+│  │      "fact": "Born 1946-08-19",                                      │   │
+│  │      "source": {                                                     │   │
+│  │        "url": "https://en.wikipedia.org/wiki/Bill_Clinton",         │   │
+│  │        "reliability_tier": 3,                                        │   │
+│  │        "accessed_date": "2025-11-17"                                 │   │
+│  │      }                                                               │   │
+│  │    }                                                                 │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+│                                   │                                         │
+│                                   ▼                                         │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ 6. QUALITY ASSESSMENT                                               │   │
+│  │    • Research completeness (comprehensive/partial/minimal)          │   │
+│  │    • Verification status (verified/partial/unverified)              │   │
+│  │    • Human review needed? (flag if <3 sources, no Tier 1-2, etc.)   │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└──────────────────────────────────┬──────────────────────────────────────────┘
+                                   │
+                                   │ OUTPUT: enriched entity data
+                                   ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        QA VALIDATION                                        │
+│                      (qa_validation.py)                                     │
+│                                                                             │
+│  ✓ Source Provenance: Every fact has ≥1 source                             │
+│  ✓ High-Risk Claims: Epstein allegations need Tier 1-2 sources             │
+│  ✓ URL Validity: All source URLs well-formed                               │
+│  ✓ Minimum Sources: ≥2 independent sources per entity                      │
+│  ✓ Reliability Distribution: ≥30% Tier 1-2 sources                         │
+│  ✓ Completeness: Biographical + Epstein data present                       │
+│                                                                             │
+│  Output:                                                                    │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │ VALIDATION REPORT                                                   │   │
+│  │ Total Issues: 3                                                     │   │
+│  │   Critical: 0                                                       │   │
+│  │   High:     0                                                       │   │
+│  │   Medium:   2 (insufficient sources)                                │   │
+│  │   Low:      1 (incomplete Epstein info)                             │   │
+│  │                                                                     │   │
+│  │ ✅ VALIDATION PASSED                                                │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└──────────────────────────────────┬──────────────────────────────────────────┘
+                                   │
+                                   │ PASSED
+                                   ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                  ENRICHED ENTITY DATABASE                                   │
+│              (enriched_entity_data.json)                                    │
+│                                                                             │
+│  {                                                                          │
+│    "metadata": {                                                            │
+│      "total_entities_enriched": 131,                                        │
+│      "research_methodology": "Automated web search with provenance"         │
+│    },                                                                       │
+│    "entities": [                                                            │
+│      {                                                                      │
+│        "entity_id": "band_doug",                                            │
+│        "name": "Band, Doug",                                                │
+│        "biographical_data": { /* with sources */ },                         │
+│        "epstein_relationship": { /* with sources */ },                      │
+│        "research_metadata": {                                               │
+│          "research_completeness": "comprehensive",                          │
+│          "verification_status": "verified",                                 │
+│          "requires_human_review": false                                     │
+│        }                                                                    │
+│      },                                                                     │
+│      ...                                                                    │
+│    ]                                                                        │
+│  }                                                                          │
+└──────────────────────────────────┬──────────────────────────────────────────┘
+                                   │
+                                   ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         WEB INTERFACE                                       │
+│  • Search entities                                                          │
+│  • View biographical data with sources                                      │
+│  • Explore Epstein relationships                                            │
+│  • Filter by reliability tier                                               │
+│  • Click sources for verification                                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+BATCH PROCESSING WORKFLOW
+=========================
+
+batch_enrich.sh
+  │
+  ├─> Load checkpoint (resume from failure)
+  │
+  ├─> FOR EACH BATCH (10 entities):
+  │     │
+  │     ├─> automated_entity_enrichment.py --batch 10
+  │     │     │
+  │     │     └─> For each entity:
+  │     │           1. Search web (3-4 queries)
+  │     │           2. Extract facts
+  │     │           3. Classify tiers
+  │     │           4. Build provenance
+  │     │           5. Assess quality
+  │     │
+  │     ├─> qa_validation.py
+  │     │     └─> Run 6 validation checks
+  │     │
+  │     ├─> Save checkpoint
+  │     │
+  │     └─> Wait 30 seconds (rate limiting)
+  │
+  └─> Final report & QA validation
+
+
+PERFORMANCE METRICS
+===================
+
+Manual Research:     15-20 minutes per entity
+Automated Pipeline:  <5 minutes per entity
+Throughput:          ~12 entities/hour (with rate limiting)
+
+Timeline:
+  10 entities:   ~1 hour (testing)
+  50 entities:   ~4-5 hours (first production batch)
+  131 entities:  ~11-12 hours (full dataset)
+
+
+RELIABILITY TIER SYSTEM
+========================
+
+Tier 1: Court Documents (HIGHEST)
+├─ courtlistener.com
+├─ pacer.gov
+├─ supremecourt.gov
+└─ justice.gov
+   REQUIRED FOR: Epstein allegations, legal claims
+
+Tier 2: Major Journalism (HIGH)
+├─ nytimes.com
+├─ washingtonpost.com
+├─ theguardian.com
+├─ reuters.com
+├─ bbc.com
+└─ propublica.org
+   ACCEPTABLE FOR: Epstein connections (with corroboration)
+
+Tier 3: Public Records (VERIFIED)
+├─ wikipedia.org
+├─ britannica.com
+└─ documentcloud.org
+   USE FOR: Biographical data, public facts
+
+Tier 4: General Sources
+├─ forbes.com
+├─ cnn.com
+└─ bloomberg.com
+   USE FOR: Supporting information (require corroboration)
+
+
+QUALITY GATES
+=============
+
+Automated Checks:
+  ✓ Source provenance (every fact → source)
+  ✓ Reliability tiers (Epstein claims need Tier 1-2)
+  ✓ URL validity (well-formed, accessible)
+  ✓ Minimum sources (≥2 per entity)
+  ✓ Completeness (bio + Epstein data)
+
+Human Review Triggers:
+  ⚠ <3 total sources
+  ⚠ No Tier 1-2 sources for Epstein claims
+  ⚠ Missing biographical data
+  ⚠ Missing Epstein connection info
+

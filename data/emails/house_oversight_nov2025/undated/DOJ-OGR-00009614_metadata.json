@@ -1,0 +1,17 @@
+{
+  "document_id": "DOJ-OGR-00009614",
+  "email_index": 60,
+  "extracted_at": "2025-11-17T04:14:45.453982",
+  "from_address": null,
+  "to_address": "NathanNYSDChambers@nysd.uscourts.gov Honorable Alison J. Nathan District Judge Thurgood Marshall United States Courthouse 40 Foley Square New York, NY 10007",
+  "cc_address": "All Counsel (By Email). Juror 50 (By Email). 85 Broad Street, 17th Floor NY, NY 10004  T: (212) 300-5196  F: (212) 300-6371  info@spodeklawgroup.com DOJ-OGR-00009614",
+  "subject": null,
+  "date": "03/02/22",
+  "body": "Juror 50 (By Email).\n\n85 Broad Street, 17th Floor NY, NY 10004 | T: (212) 300-5196 | F: (212) 300-6371 | info@spodeklawgroup.com",
+  "confidence": 0.7,
+  "email_addresses": [
+    "info@spodeklawgroup.com",
+    "NathanNYSDChambers@nysd.uscourts.gov",
+    "ts@spodeklawgroup.com"
+  ]
+}

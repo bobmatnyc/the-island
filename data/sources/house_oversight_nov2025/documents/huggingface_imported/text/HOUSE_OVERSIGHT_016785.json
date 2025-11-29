@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016785",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016785.txt",
+  "text": "‘OGE Ferm 27ke (March 21.4)\n\nInstructions for Part 2\n\nNote: This is a public farm, Do not include account numbers, street addresses, or family member names, See instructions for required information,\naa\ni\n\nReference # bea\n539 DT ENDEAVOR | MEMBER CORP *(3)\nOwned by: % Ownership Name Role\n100 DTTM Operations Managing Shareholder\nMember Corp\n540 47 HOLDINGS ONE LLC \"/3)\nOwned by: % Ownership Name Role\n100 TITT VENTURE LLC Member\n541 4T HOLDINGS TWO LLC\nOwned by: % Ouinership Name Role\n100 TITT VENTURE LLC Member\nHas ownership interestin: Entity Name Ownership Title\nSC CLEVELAND M5 MANAGEMENT 100.00% Member\nLic\nSC PIER VILLAGE 100.00%, Member\nMANAGEMENT LLC\n542 STORAGE 106 LLE\nOwned by: % Ownership Name Role\n100 The Donald J. Trump Revocable Trust Member\n543 TEXPRESS LLC\nOwned by: % Ownership Name Role\n1 TEXPRESS MANAGER MEMBER CORP Managing Member\na9 THT VENTURE LLC Member\n544 TEXPRESS MANAGER MEMBER CORP */1)\n(Owned by: % Ownership Name Role\n100 BIT HOLDINGS MANAGING MEMBER Shareholder\nLuc\nHas ownership interest in: Entity Name Ownership Title\nT EXPRESS LLC 1.00% Managing\nMember\n545 SC CLEVELAND MS MANAGEMENT LLC\nOwned by: % Ownership armen Role\n100 47 HOLDINGS TWO LLC Member\n546 SC PIER VILLAGE MANAGEMENT LLC *(3)\nOwned by: 3% Ownership Mame Role\n100 47 HOLDINGS TWO LLC Member\n547 T PROMOTIONS LLC\n‘Owned by: % Ownersh Name Role\n100 DTTM OPERATIONS LLC Member\n548 T RETAIL\nOwned by: % Ownership Name: Role\nOs T RETAIL MANAGING MEMBER CORP Managing Member\nOs DTTM OPERATIONS LLC Member\n59 TITT VENTURE LLC Member\n549 T RETAIL MANAGING MEMBER CORP */1)\nOwned by: 6 Ownership Name Role\n100 DJT HOLDINGS MANAGING MEMBER Sole Shareholder\n\nLuc\n\nHOUSE_OVERSIGHT_016785",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016785.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1682,
+    "word_count": 283,
+    "line_count": 59,
+    "import_date": "2025-11-19T21:47:46.880885",
+    "prefix": "IMAGES-004"
+  }
+}

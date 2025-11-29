@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00004093.pdf",
+  "ocr_date": "2025-11-16T21:00:28.332407",
+  "text_length": 713,
+  "is_email": true,
+  "email_confidence": 0.6000000000000001,
+  "email_addresses": [
+    "NathanNYSDChambers@nysd.uscourts.gov"
+  ]
+}

@@ -1,0 +1,50 @@
+Fed =< Invoice Number: 4-447-52055
+2 Invoice Date: Nov 11, 2002
+Account Number: 1144-2081-6
+Page: 7 of 8
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 06, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Tracking D 790626598360 Sender Recipient
+Service Type FedEx Intl Priority CECILIA STEEN ELIZABETH MAXWELL
+Package Type FedEx Envelope JEFFREY E. EPSTE N Po
+Zone D 457 MADISON AVENUE Fs
+Orig./Dest. JRB/LON 4TH FLOOR Po
+Packages 1 NEW YORK NY 10022 US
+Weight 0.5 Ibs, 0.2 kgs
+Delivered Nov 08, 2002 11 37 Transportation Charge 28 00
+Signed by T.FLYNN Fuel Surcharge 109
+FedEx Use _/US010/_ Discount 0 84
+Total Transportation Charges USD $ 28.25
+Dropped off: Nov 06, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Discount applied is the greater of volume discount or dropoff discount. No additional discount applies.
+Tracking D 831051480228 Sender Recipient
+Service Type FedEx Intl Economy KATE JEANNE BRENNAN
+Package Type Customer Packaging JEFFREY E EPSTEIN FINANCIAL TRUST
+Zone I 457 MADISON AVE 6100 RED HOOK QUARTERS
+Orig./Dest. SAF/STT NEW YORK NY 10022-6843 US STE B-3
+Packages 1 ST THOMAS VI
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Nov 07, 2002 16 01 Transportation Charge 37 60 =
+Signed by D.WALLACE Fuel Surcharge 146 =
+Dec. Value USD 100 Discount 1.13 =
+FedEx Use _/US010/_ — SO —S
+Total Transportation Charges USD $ 37.93 =
+Picked up: Nov 07, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION =
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+FedEx has audited this airbill for correct pieces, weight, and service. Any changes made are reflected in the invoice amount.
+Tracking D 790627365223 Sender Recipient
+Service Type FedEx Intl Priority CECILIA STEEN JEANNE BRENNAN
+Package Type FedEx Pak JEFFREY E. EPSTE N FINANCIAL TRUST COMPANY
+Zone | 457 MADISON AVENUE 6100 RED HOOK QUARTER
+Orig./Dest. JRB/STT 4TH FLOOR SUITE B-3
+Packages 1 NEW YORK NY 10022 US ST. THOMAS 00802 VI
+Weight 4.9 Ibs, 2.2 kgs
+Delivered Nov 08, 2002 17 23 Transportation Charge 71.73
+Saned,by 4 RUAN Fuel Surcharge 2.78
+FedEx Use  _/US010/_ Discount 2415
+Total Transportation Charges USD $ 72.36
+Shipment Detail Subtotal) cic: secenc ccna es cavarneen rena cwsceveeccasccssraen ncn S DG 531.36
+SDNY_GM_00340696 34
+DOJ-OGR-00015343

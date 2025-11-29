@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013165",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013165.txt",
+  "text": "13.3 Atoms: Their Types and Weights 249\n\nNote that SubsetLink refers to a purely extensional subset relationship, and that Inheri-\ntanceLInk should be used for the generic \"intensional + extensional\" analogue of this — more\non this below. SubsetLink could more consistently (with other link types) be named Extension-\nalInheritanceLink, but SubsetLink is used because it’s shorter and more intuitive.\n\nThere are links representing Boolean operations AND, OR and NOT. For instance, we may\nsay\nImplicationLink\n\nANDLink\nConceptNode young\n\nConceptNode beautiful\nConceptNode attractive\n\nor, using links and VariableNodes instead of ConceptNodes,\n\nAverageLink $X\nImplicationLink\nANDLink\nEvaluationLink young $X\nEvaluationLink beautiful $x\nEvaluationLink attractive $X\n\nNOTLink is a unary link, so e.g. we might say\n\nAverageLink $X\nImplicationLink\nANDLink\nEvaluationLink young $X\nEvaluationLink beautiful $x\nEvaluationLink\nNOT\nEvaluationLink poor $X\nEvaluationLink attractive $X\n\nContextLink allows explicit contextualization of knowledge, which is used in PLN, e.g.\n\nContextLink\nConceptNode golf\nInheritanceLink\nObjectNode BenGoertzel\nConceptNode incompetent\n\nsays that Ben Goertzel is incompetent in the context of golf.\n\n13.3.2 Variable Atoms\n\nWe have already introduced VariableNodes above; it’s also possible to specify the type of a\nVariableNode via linking it to a VariableTypeNode via a TypedVariableLink, e.g.\nVariableTypeLink\n\nVariableNode $X\n\nVariableTypeNode ConceptNode\nwhich specifies that the variable $X should be filled with a ConceptNode.\n\nVariables are handled via quantifiers; the default quantifier being the AverageLink, so that\nthe default interpretation of\n\nHOUSE_OVERSIGHT_013165",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013165.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1697,
+    "word_count": 227,
+    "line_count": 63,
+    "import_date": "2025-11-19T21:47:48.057854",
+    "prefix": "IMAGES-002"
+  }
+}

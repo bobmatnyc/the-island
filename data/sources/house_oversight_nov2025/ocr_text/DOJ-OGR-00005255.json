@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00005255.pdf",
+  "ocr_date": "2025-11-16T21:03:54.124473",
+  "text_length": 2041,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "besternheim@mac.com"
+  ]
+}

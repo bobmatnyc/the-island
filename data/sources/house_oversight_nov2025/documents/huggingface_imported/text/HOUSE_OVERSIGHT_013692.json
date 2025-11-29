@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013692",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013692.txt",
+  "text": "As noted above, the cross-disciplinary cohesiveness of such a vaguely\ndefined field occurred as the result of the unanticipated discovery of a relatively\nsmall set of nonlinear phenomena, universalities, that implicated many fields of\nmathematics, from differential geometry to number theory, and were found in a\nbroad range of physical and biological realizations, from turbulent plasmas and\nchemical and enzymatic reactions to neuroendocrine hormone release patterns. It is\nperhaps counter-intuitive but, whereas linear systems can generate an infinite\nnumber of solutions locating points anywhere the person writing the equations\nwants them to go, nonlinear systems are generally restricted to a finite set of global\ndynamics and these emerge on their own from the intrinsic dynamics of the system.\nTrying to make these systems follow orders, not unlike finding the most clinically\neffective dosage range of a psychopharmacological agent, require the empiricism of\n\ntrial and error experiments.\n\nA second class of computational accidents involving nonlinear systems\nresulted in unanticipated coherence rather than unpredictable disorder. Using one\nof the early “high speed” digital computers at Los Alamos, MANIC I, Enrico Fermi\nwith Pasta and Ulam (1955) attempted to obtain a many-body statistical\nthermodynamic equilibrium analogous to heat generated noise by coupling 64\nparticles together with nonlinear springs. They found only a few low period modes\nthat oscillated indefinitely. Instead of equidistribution of the energy into 128 degrees\nof freedom (64 locations x 64 velocities in 128 dimensional phase space), they\nfound it gathered up into only few coherent modes. Although the relevance to\nbiological science of nonlinear multifrequency coherence is a bit off from our focus,\nit is worthwhile noting that a recent (Karhunen-Loeve) decomposition of the alpha\nband of the resting alert human EEG revealed only three dominant temporal-spatial\nmodes: anterior-posterior, rotational and standing (Friedrich et al, 1991) and “few\n\nfrequency coherence’ is a frontier of inquiry in brain wave research.\n\nA heterogeneous collection of coupled nonlinear elements in the form of\nwidely distributed, multi-location, multifrequency systems such as cross-cortical,\n\nbrain stem-thalamic-cortical and interconnected spinal motor neurons can generate\n\n192\n\nHOUSE_OVERSIGHT_013692",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013692.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2377,
+    "word_count": 340,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:46.383674",
+    "prefix": "IMAGES-002"
+  }
+}

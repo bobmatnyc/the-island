@@ -1,0 +1,255 @@
+AUTHENTICATED
+US, GOVERNMENT,
+INFORMATION,
+
+GPO,
+
+54006
+
+Federal Register/Vol. 76, No. 168/Tuesday, August 30, 2011/Rules and Regulations
+
+NATIONAL LABOR RELATIONS
+BOARD
+
+29 CFR Part 104
+RIN 3142-AA07
+
+Notification of Employee Rights Under
+the National Labor Relations Act
+
+AGENCY: National Labor Relations
+Board.
+
+ACTION: Final rule.
+
+SUMMARY: On December 22, 2010, the
+National Labor Relations Board (Board)
+issued a proposed rule requiring
+employers, including labor
+organizations in their capacity as
+employers, subject to the National Labor
+Relations Act (NLRA) to post notices
+informing their employees of their rights
+as employees under the NLRA. This
+final rule sets forth the Board’s review
+of and responses to comments on the
+proposal and incorporates any changes
+made to the rule in response to those
+comments.
+
+The Board believes that many
+employees protected by the NLRA are
+unaware of their rights under the statute
+and that the rule will increase
+knowledge of the NLRA among
+employees, in order to better enable the
+exercise of rights under the statute. A
+beneficial side effect may well be the
+promotion of statutory compliance by
+employers and unions.
+
+The final rule establishes the size,
+form, and content of the notice, and sets
+forth provisions regarding the
+enforcement of the rule.
+
+DATES: This rule will be effective on
+November 14, 2011.
+
+FOR FURTHER INFORMATION CONTACT:
+Lester A. Heltzer, Executive Secretary,
+National Labor Relations Board, 1099
+14th Street, NW., Washington, DC
+20570, (202) 273-1067 (this is not a toll-
+free number), 1-866-315-6572 (TTY/
+TDD).
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background on the Rulemaking
+
+The NLRA, enacted in 1935, is the
+Federal statute that regulates most
+private sector labor-management
+relations in the United States.1 Section
+7 of the NLRA, 29 U.S.C. 157,
+guarantees that
+
+Employees shall have the right to self-
+organization, to form, join, or assist labor
+organizations, to bargain collectively through
+representatives of their own choosing, and to
+engage in other concerted activities for the
+purpose of collective bargaining or other
+
+1 Labor-management relations in the railroad and
+airline industries are governed by the Railway
+Labor Act, 45 U.S.C. 151 et seq.
+
+mutual aid or protection, and shall also have
+the right to refrain from any or all such
+activities[.]
+
+In Section 1, 29 U.S.C. 151, Congress
+explained why it was necessary for
+those rights to be protected:
+
+The denial by some employers of the right
+of employees to organize and the refusal by
+some employers to accept the procedure of
+collective bargaining lead to strikes and other
+forms of industrial strife or unrest, which
+have the intent or the necessary effect of
+burdening or obstructing commerce[.] * * *
+* * * * *
+
+Experience has proved that protection by
+law of the right of employees to organize and
+bargain collectively safeguards commerce
+from injury, impairment, or interruption, and
+promotes the flow of commerce by removing
+certain recognized sources of industrial strife
+and unrest, by encouraging practices
+fundamental to the friendly adjustment of
+industrial disputes arising out of differences
+as to wages, hours, or other working
+conditions, and by restoring equality of
+bargaining power between employers and
+employees.
+
+* * * * *
+
+It is declared to be the policy of the United
+States to eliminate the causes of certain
+substantial obstructions to the free flow of
+commerce and to mitigate and eliminate
+these obstructions when they have occurred
+by encouraging the practice and procedure of
+collective bargaining and by protecting the
+exercise by workers of full freedom of
+association, self-organization, and
+designation of representatives of their own
+choosing, for the purpose of negotiating the
+terms and conditions of their employment or
+other mutual aid or protection.
+
+Thus, Congress plainly stated that, in its
+judgment, protecting the rights of
+employees to form and join unions and
+to engage in collective bargaining would
+benefit not only the employees
+themselves, but the nation as a whole.
+The Board was established to ensure
+that employers and, later, unions
+respect the exercise of employees’ rights
+under the NLRA.?
+
+For employees to fully exercise their
+NLRA rights, however, they must know
+that those rights exist and that the Board
+protects those rights. As the Board
+explained in its Notice of Proposed
+Rulemaking (NPRM), 75 FR 80410, it
+has reason to think that most do not.3
+
+2 The original NLRA did not include restrictions
+on the actions of unions; those were added in the
+Labor-Management Relations (Taft-Hartley) Act of
+1947, 29 U.S.C. 141 et seq., Title I.
+
+3 The Board cited three law review articles in
+which the authors contended that American
+workers are largely unaware of their NLRA rights,
+that the Board can take action to vindicate those
+rights, and that this lack of knowledge stands in the
+way of employees’ effectively exercising their
+rights. Peter D. DeChiara, ‘‘The Right to Know: An
+Argument for Informing Employees of Their Rights
+under the National Labor Relations Act,’’ 32 Harv.
+J. on Legis. 431, 433-434 (1995); Charles J. Morris,
+
+The Board suggested a number of
+reasons why such a knowledge gap
+could exist—the low percentage of
+employees who are represented by
+unions, and thus lack an important
+source of information about NLRA
+rights; the increasing proportion of
+immigrants in the work force, who are
+unlikely to be familiar with their
+workplace rights; and lack of
+information about labor law and labor
+relations on the part of high school
+students who are about to enter the
+labor force.*
+
+Of greatest concern to the Board,
+however, is the fact that, except in very
+limited circumstances, no one is
+required to inform employees of their
+NLRA rights.5 The Board is almost
+unique among agencies and
+departments administering major
+
+“Renaissance at the NLRB—Opportunity and
+Prospect for Non-Legislative Procedural Reform at
+the Labor Board,” 23 Stetson L. Rev. 101, 107
+(1993); Morris, “NLRB Protection in the Nonunion
+Workplace: A Glimpse at a General Theory of
+Section 7 Conduct,” 137 U. Pa. L. Rev. 1673, 1675-
+1676 (1989). 75 FR at 80411.
+
+4 Id.
+
+5 The Board requires that employees be notified
+of their NLRA rights in only the following narrow
+circumstances: (1) For the three working days
+before a Board-conducted representation election,
+the employer is required to post a notice of election
+including a brief description of employee rights; see
+29 CFR 103.20. (2) When an employer or a union
+has been found to have violated employee rights
+under the NLRA, it is required to post a notice
+containing a brief summary of those rights. (3)
+Before a union may seek to obligate newly hired
+nonmember employees to pay dues and fees under
+a union-security clause, it must inform them of
+their right under NLRB v. General Motors, 373 U.S.
+734 (1963), and Communications Workers v. Beck,
+487 U.S. 735 (1988), to be or remain nonmembers
+and that nonmembers have the right to object to
+paying for union activities unrelated to the union’s
+duties as the bargaining representative and to obtain
+a reduction in dues and fees of such activities.
+California Saw & Knife Works, 320 NLRB 224, 233
+(1995), enfd. sub nom. Machinists v. NLRB, 133
+F.3d 1012 (7th Cir. 1998), cert. denied sub nom.
+Strang v. NLRB, 525 U.S. 813 (1998). The same
+notice must also be given to union members if they
+did not receive it when they entered the bargaining
+unit. Paperworkers Local 1033 (Weyerhaeuser Paper
+Co.}, 320 NLRB 349, 350 (1995), rev’d. on other
+grounds sub nom. Buzenius v. NLRB, 124 F.3d 788
+(6th Cir. 1997), vacated sub nom. United
+Paperworkers Intern. Union v. Buzenius, 525 U.S.
+979 (1998). (4) When an employer voluntarily
+recognizes a union, the Board has required that the
+employer must post a notice informing employees:
+(i) That the employer recognized the union on the
+basis of evidence that it was designated by a
+majority of the unit employees; (ii) the date of
+recognition; (iii) that all employees, including those
+who previously signed cards for the recognized
+union, have the right to be represented by a labor
+organization of their choice, or no union at all; (iv)
+that within 45 days of the date of the notice a
+decertification or rival petition, supported by 30
+percent or more of the unit employees, may be filed
+with the Board and will be processed to an election;
+and, (v) that ifno petition is filed within 45 days,
+the recognition will not be subject to challenge for
+a reasonable period to allow the employer and
+union to negotiate a collective-bargaining
+agreement. Dana Corp., 351 NLRB 434 (2007).
+
+HOUSE_OVERSIGHT_022277

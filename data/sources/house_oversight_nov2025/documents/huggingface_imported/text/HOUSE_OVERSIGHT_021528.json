@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_021528",
+  "filename": "IMAGES-006-HOUSE_OVERSIGHT_021528.txt",
+  "text": ". b6\n* @ b7C\n|\n\nAutomated Serial Permanent Charge-Out\nFD-5a (1-5-94)\nDate: 04/02/08 Time: 13:21\n\nCase ID: 31E-MM-108062 Serial: 153\n\nDescription of Document:\n\nType : EC |\nDate : 03/27/08\nTo : MIAMI\n\nFrom : NEW YORK\nTopic: TO COVER LEAD SET BY THE MIAMI DIVISION,SERIAL 134,LEAD 1\n\nReason for Permanent Charge-Out:\n\nError in serializing.\n\n3B E-mm- le R062 153\nHOUSE_OVERSIGHT_021528",
+  "metadata": {
+    "original_filename": "IMAGES-006-HOUSE_OVERSIGHT_021528.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 381,
+    "word_count": 62,
+    "line_count": 25,
+    "import_date": "2025-11-19T21:47:46.123874",
+    "prefix": "IMAGES-006"
+  }
+}

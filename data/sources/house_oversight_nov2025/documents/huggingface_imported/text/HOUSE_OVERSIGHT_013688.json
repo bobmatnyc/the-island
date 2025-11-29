@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013688",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013688.txt",
+  "text": "number spectra; (4) Non-Gaussian distributions with heavy tails and correlations\nreflected in their Hurst, Fano, Allan and Levy exponents; (5) Statistical dynamical\ndescriptions of trajectories of the system in their embedding space such as\nLyapounov exponents, Hausdorff-Mandelbrot dimensions, Sinai-Ruelle-Bowen\nmeasures, and Adler-Weiss-Ornstein topological and metric entropies.\n\nCharacteristics which discriminate between experimental versus control\nconditions in parametric computational and real physiological and pharmacological\nexperiments serve to generate and test ideas and imagery arising out of behavior\nobserved in both biological and abstract dynamical realms. New experiments can\nbe suggested by the implicative structure of dynamical systems theory as well as\nneurobiological findings and intuitions. As examples, the sudden “switch” of manic-\ndepressive bipolarity syndromes may be a “bifurcation” in nonlinear dynamical\nsystems; the “noise” of the statistical physicist may be the “arousal” of the brain\nstem-thalamic biogenic amine and reticular formation neurophysiologist; aspects of\n“thought disorder” in the pathophysiology of schizophrenic patients may be an\nentropic sequencing idiosyncrasy in the “symbolic dynamics” of a particular brain\nsystem attractor; neuronal “bursting” may be the “intermittency” of a neurodynamical\nsystem; a multiplicity of “discrete ion channel conductances” may be a single “global\nscaling hierarchy” of conductances times. The number of published examples of this\nfusion of ideas and methodology in the biological-relevant literature is already in the\nseveral hundreds and Medline counts indicate is growing exponentially.\nRepresentative samples of these are described below.\n\nIn addition to the technological advances in computational hardware and\nsoftware, the major scientific surprise making this new era possible is the discovery\nof universalities, the finite set of behaviors characteristic of most, if not all nonlinear\nsystems, across most if not all of the specific equations or neural systems being\nexplored. This makes the emergence of semi-quantitative equivalence relations\nbetween model and data not only possible but likely, even though we don’t now and\nperhaps never will know enough to either write or solve completely the specific and\ndetailed equations for the biological system of interest. We neuroscientists need not\n\nbe apologetic for using these ideas and tools qualitatively and empirically. In fact,\n\n188\n\nHOUSE_OVERSIGHT_013688",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013688.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2511,
+    "word_count": 346,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:46.907660",
+    "prefix": "IMAGES-002"
+  }
+}

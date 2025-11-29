@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016034",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016034.txt",
+  "text": "344 Are the Androids Dreaming Yet?\n\nbad. If we measure something in the quantum world, it always yields a\nclassical result — in this case the magnitudes of spin are 1, 0 and 1. (Minus\none squared is one.)\n\nWe need to imagine measuring the spin of a particle along three\naxes; x, y and z. Hold your hand up and make a shape that looks like\nthe one in the following picture. You might remember it from science\nclasses; it was used to help you understand Fleming’s left-hand rule. For\nour purposes it does not matter which hand you use; it is just the shape\nthat matters. I am going to use my left hand for sentimental reasons.\n\nNow, imagine the palm of your hand is the measuring apparatus:\nyour index finger the x axis, your middle finger, y and your thumb, z. At\nany moment you can move your hand to point in any direction and take\na measurement. We will have to round up or down. Quantum mechanics\nis named ‘quantum because ail the readings must be whole numbers.\nYou will never see 10% spin in x, 90% in y and 85% in z; just ones, and\nzeros. The measurements for a Boson will always be 1,0,1 in some order.\nThis is known as the ‘101’ rule.\n\nNow, we ask the question: does a particle have a definite spin before\nwe take a measurement? The instinctive answer is yes, and this way of\nviewing things is known as realism. It seems obvious that even if we did\nnot make a measurement, the particle would still have its spin; we just\nwouldn't know which type. Einstein explained realism by saying “T like\n\nKochen Specker\n\nHOUSE_OVERSIGHT_016034",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016034.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1538,
+    "word_count": 287,
+    "line_count": 31,
+    "import_date": "2025-11-19T21:47:47.522929",
+    "prefix": "IMAGES-003"
+  }
+}

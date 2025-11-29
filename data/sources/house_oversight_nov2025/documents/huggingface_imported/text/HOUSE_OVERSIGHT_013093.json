@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013093",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013093.txt",
+  "text": "Chapter 10\nA Mind-World Correspondence Principle\n\n10.1 Introduction\n\nReal-world minds are always adapted to certain classes of environments and goals. The ideas\nof the previous chapter, regarding the connection between a human-like intelligence’s internals\nand its environment, result from exploring the implications of this adaptation in the context\nof the cognitive synergy concept. In this chapter we explore the mind-world connection in a\nbroader and more abstract way — making a more ambitious attempt to move toward a \"general\ntheory of general intelligence.\"\n\nOne basic premise here, as in the preceding chapters is: Even a system of vast general\nintelligence, subject to real-world space and time constraints, will necessarily be more efficient\nat some kinds of learning than others. Thus, one approach to formulating a general theory of\ngeneral intelligence is to look at the relationship between minds and worlds — where a \"world\"\nis conceived as an environment and a set of goals defined in terms of that environment.\n\nIn this spirit, we here formulate a broad principle binding together worlds and the minds that\nare intelligent in these worlds. The ideas of the previous chapter constitute specific, concrete\ninstantiations of this general principle. A careful statement of the principle requires introduction\nof a number of technical concepts, and will be given later on in the chapter. A crude, informal\nversion of the principle would be:\n\nMIND-WORLD CORRESPONDENCE-PRINCIPLE\n\nFor a mind to work intelligently toward certain goals in a certain world, there should be a\nnice mapping from goal-directed sequences of world-states into sequences of mind-states, where\n\"nice\" means that a world-state-sequence W composed of two parts W, and Wo, gets mapped\ninto a mind-state-sequence M composed of two corresponding parts M, and Mo.\n\nWhat’s nice about this principle is that it relates the decomposition of the world into parts,\nto the decomposition of the mind into parts.\n\n177\n\nHOUSE_OVERSIGHT_013093",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013093.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2012,
+    "word_count": 311,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:45.575898",
+    "prefix": "IMAGES-002"
+  }
+}

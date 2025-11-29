@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013723",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013723.txt",
+  "text": "A(+) were reported in awake relaxed subjects and were lost in deep sleep (Stage\n\nIV) and coma (advanced Jakob-Creutzfeld disease), suggesting that level of\n\nconsciousness correlated positively with amount of orbital divergence (Gallez and\nBablioyantz, 1991). A “pathologically low’ leading 4(+)was also found to be\n\ncharacteristic of the EEG of patients with Alzheimer’s syndromes (Jeong et al,\n\n1998). Technically defined sleep stages (I, Il, Ill, IV, REM) were found to correlate\nwell with the values of the leading 4(+) of the EEG in normal subjects (Fell et al,\n\n1993; 1996; Pradhan and Sadasivan, 1996). EEG recordings during problem\n\nsolving sometimes, but not always, demonstrated a relationship between values of\nA(+) and the kind or amount of load of the task (Micheloyannis et al, 1998;\nPopivanovov et al, 1998; Meyer-Lindenberg et al, 1998). Both emotionally positive\nand negative videos increased the value of the leading 4(+) (Aftanos et al, 1997) as\n\ndid computer generated music with sounds that exploited a “pleasing” hierarchical,\n1/f but not an “unpleasant” 1/f 7 frequency spectrum (see previous section about\n\npower law scaling) (Jeong et al, 1998). The EEG theta rhythm of “day dreaming”\nmanifested a lower 4(+) than the “relaxed alert awake” alpha rhythm (Roschke et al,\n\n1997). Relationships between the Lyapounov spectra demonstrated both regional\nindependence and task-related dependence in the magnetoencephalography record\nin man (Kowalik and Elbert, 1995).\n\nThese and other studies suggest that divergence rate of orbits on a\ngeometrically reconstructed attractor is a subtle measure, which can be quantified\nas a continuous variable and which has been found to be useful in a variety of\nneuroscience-related, experimental contexts. The range’ includes’ the\ncharacterization of the discharge pattern of a single somatic or renal sympathetic\nnerve fiber (Gong et al, 1998;Zhang and Johns, 1998); quantifying the results of\nperturbing autonomic nervous system activity, for examples, exercise, atropine and\npropranolol decrease 4(+)in the cardiac interbeat interval attractor (Hagerman et\n\nal, 1996) and interference with the function of the baroreflex or clonidine alters the\n\nA(+)in the blood pressure attractor in man and animals (Wagner et al, 1996;\n\n223\n\nHOUSE_OVERSIGHT_013723",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013723.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2308,
+    "word_count": 345,
+    "line_count": 45,
+    "import_date": "2025-11-19T21:47:45.761810",
+    "prefix": "IMAGES-002"
+  }
+}

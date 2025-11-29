@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013788",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013788.txt",
+  "text": "Silipo, R., Deco, G., Vergassola, R., Bartsch, H.(1998)Dynamics extraction in\n\nmultivariate biomedical time series. Biol Cybern 79:15-27\n\nSimoyi, R.H., Wolf, A., Swinnery, H.L (1982): One dimensional dynamics in a\n\nmulticomponent chemical reaction. Phys. Rev. Lett. 49:245-248\n\nSinai, Ya G. (1959) On the concept of entropy of a dynamical system. Dokl. Akad.\nNauk SSSR 124:768\n\nSinger, W. (1993): Synchronization of cortical activity and its putative role in\n\ninformation processing and learning. Ann. Rev. Physiol. 55:349-374\n\nSkinner, J.E., Martin, J.L., Landisman, C.E., Mommer, M.M., Fulton, K., Mitra, M.,\nBurton, W.D., Saltzberg,B. (1990) Chaotic attractors in a model of neocortex:\ndimensionalities of olfactory bulb surface potentaisl are spatially uniform and event-\nrelated. In (eds. Basar, E., Bullock, T.H.) Brain Dynamics, Progress and\n\nPerspectives. Springer-Verlag, Berlin. pp 119-134\n\nSmale, S. (1967): Differentiable dynanmical systems. Bull. AMS 13:714-817\n\nSmith, L.A. (1988) Intrinsic limits on dimension calculations Phys. Lett. A133:283-\n288\n\nSmith, L.A. (1992) Identification and prediction of low-dimensional dynamics.\nPhysica D58:50-76\n\n288\n\nHOUSE_OVERSIGHT_013788",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013788.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1189,
+    "word_count": 158,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:47.976184",
+    "prefix": "IMAGES-002"
+  }
+}

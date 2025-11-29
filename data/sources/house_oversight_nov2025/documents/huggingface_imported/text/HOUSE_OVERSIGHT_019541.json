@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019541",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019541.txt",
+  "text": "Hacktivist | 53\n\nagainst the surveillance of the state, and in particular the NSA, they\nnot only attempt to hide their own identities but also use encryption\nto obscure their messages. Their goal is to free their movements “of\nany interference from law-enforcement.” In this mind-set, accord-\ning to Fitzpatrick, “they believe government intelligence agencies\nwill stop at nothing to stop them from absolute encryption.”\n\nTor software was a means to defeat the NSA, but for it to be suc-\ncessful, there needed to be such a proliferation of Tor servers that\nthe NSA could not piece together IP addresses. The problem was that\nthe Tor Project, as they called it, was still a very tiny operation in\n2012. It employed fewer than a hundred core developers, who were\nlocated mainly in Germany, Iceland, Japan, Estonia, and the United\nStates. Its staff worked mainly out of a single room in Cambridge,\nMassachusetts.\n\nThe guiding spirit behind the Tor movement in the private sector\nwas Jacob Appelbaum, a charismatic twenty-eight-year-old who had\ngrown up in Northern California. Like Snowden, he had dropped\nout of high school. Appelbaum identified himself to his followers on\n\n© the Internet as a “hacktivist” battling state surveillance. For him, as ©\nfor many in the hacktivist culture, the main enemy was the NSA.\nAfter all, the NSA had a vast army of computer scientists working\nto defeat Tor software. Appelbaum was well connected in this cul-\nture, having been the North American representative for WikiLeaks\nbefore he moved to Berlin in 2013. He also managed WikiLeaks’s\ncyber security when it released the classified documents it obtained\nfrom Manning in 2010. He was so well regarded among hacktiv-\nists that Assange chose him as his keynote speaker replacement at\nthe Hackers on Planet Earth (HOPE) convention in New York City.\nAssange told Rolling Stone, “Jake [Appelbaum] has been a tireless\npromoter behind the scenes of our cause.” For its part, Rolling Stone\ntitled its profile of Appelbaum “Meet the Most Dangerous Man in\nCyberspace.” (Assange needed a replacement for this particular event\nbecause he feared if he came to New York, he would be arrested for\nreleasing the Manning files on WikiLeaks.)\n\nIn Berlin, Appelbaum went to extreme lengths to protect him-\nself from American surveillance. For example, when George Packer\ninterviewed him for The New Yorker in 2014, he insisted on meet-\n\n| | Epst_9780451494566_2p_all_r1.z.indd 53 ® 9/29/16 5:51 Pa | |\n\nHOUSE_OVERSIGHT_019541",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019541.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2494,
+    "word_count": 407,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:46.106229",
+    "prefix": "IMAGES-005"
+  }
+}

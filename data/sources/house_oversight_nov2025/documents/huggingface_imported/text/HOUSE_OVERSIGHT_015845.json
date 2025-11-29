@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015845",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015845.txt",
+  "text": "Kittens & Gorillas 155\n\nThe mathematical reason for it being a false paradox is that some\nseries converge and some do not. If I move progressively closer and\ncloser to something in smaller and smaller time intervals then I may\nindeed reach it. On the other hand, some series never converge. I will\nnever reach infinity how ever many steps I take.\n\nThe Barber Paradox\nNow, for a slightly harder paradox, let’s suppose there is a town with just\none barber.\n\nIn this town, every man keeps himself clean-shaven by either\nshaving himself or going to the barber; the barber shaves all the men in\ntown who do not shave themselves. All this seems perfectly logical, until\nwe pose the question: who shaves the barber?\n\nThis question results in a paradox because, according to the\nstatement above, he can either be shaven by himself or the barber, which\nis he. However, neither of these possibilities is valid! This is because if\nthe barber shaves himself, then the barber must not shave himself and if\nthe barber does not shave himself, then the barber must shave himself.\n\nYou might think this paradox an oddity but, using this simple idea,\nBertrand Russell changed the course of mathematical history and it is\nthe fundamental paradox used to show computers are Turing limited.\n\nThe Russell Paradox\nIn the late 19 century, mathematicians began to think about the nature\nof numbers.\n\nWhat is a number?\n\nIt is certainly not an object we can hold.\n\nI can't hold a two, unless it’s the brass number plate, for my front\ndoor. And, in that case I am holding one number plate, so I am not\nholding the idea of two, but rather the idea of one: one brass plate in the\nshape of a two.\n\nThe ‘idea’ of a number is to say something about the things I have in\nmy hand: two apples, two oranges and two brass number plates. These\nare all sets of two things and ‘two’ is the collection of all these sets.\n\nIn 1890, Gottlob Frege completed his theory of sets. The project had\ntaken him five years. Unfortunately, just before sending the book to the\npublisher, Bertrand Russell wrote to him and pointed out the following\nparadox. What about the set of sets that does not contain itself? Think\nabout it...\n\nHOUSE_OVERSIGHT_015845",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015845.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2200,
+    "word_count": 391,
+    "line_count": 51,
+    "import_date": "2025-11-19T21:47:47.274427",
+    "prefix": "IMAGES-003"
+  }
+}

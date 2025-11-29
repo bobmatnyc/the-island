@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_023598",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_023598.txt",
+  "text": "Table 6: Summary of open trades as of 5-Jun-17\n\nTrade Description Open Open\n\nDate Level\nLong 1x EEM 3m 97.5% put vs. short ~0.09x units each of 3m 97.5% puts on 15% 0.0%\nFXI, EWY, EW2Z, EPI, EWT, RSX, EZA, and EWW 7“ “e\nBuy Tencent Jul1? 250/300 strangle 22-May-17 2.45%\nBuy A-shares (2823 HK) Jul17 105% call 22-May-17 1.15%\n\nBuy 1x contract of ESTX50 Jun17 3525, sell 4x contracts of V2X Aug future 22-May-17 1.00%\n\nBuy SX5E Dec17 3450-3700 bullish risk reversal vs short IBOXX HY TRS\n. : _ 30-May-17 1.17%\nwith equal notional sizing\n6.9%\n(FB),\n\n1.2%\n\n(AMZN),\n\nBuy 6m ATM calls on FB, AMZN, NFLX and GOOGL 30-May-17 9.40%\n1/0\n\n(NFLX),\n\n6.2%\n\n(GOOGL)\n\nBuy a 6m outperformance call on FANG stocks vs. SPX conditional on SPX>\ncurrent levels at expiry\nBuy HSI Sep17 90% put, sell ASX200 Sep-17 90% put 30-May-17 0.15%\n\n30-May-17 3.4%\n\nExpected Trade\nTerm\n\n3m\n\nJul-17 expiry\nJul-17 expiry\n\nJun-17 expiry\n\nDec-17 expiry\n\n6m\n\nSep-17 expiry\n\nRationale\n\nBuy EEM puts financed by a basket of EM puts to lever near record low correl\n\nHedge the China tech bubble; Tencent unlikely to stand still after a 45% rally YTD\n\nHedge the upside into MSCI announcement on 20-Jun\n\nFundamental case to be long EU equities remains intact but stretched bullish positioning could\nlead to near-term consolidation\n\nBofAML Equity & Credit strategists highlight they favour equities over HY credit as div yields have\nsurpassed HY credit yield & equities offer more gearing to rising PMI's, earnings and FCF\n\nStock replace FANG stocks\n\nLever extremely depressed FANG volatility and low correlation to buy upside\n\nHSl is unlikely to outperform if AS51 drops more than 10%; HSI vol below AS51 vol\n\nSource: BofA Merrill Lynch Global Research. Prices reflective of most recently available data which may be delayed in some cases. “Trade Value” represents current valuation of trades initiated on the “Open Date”.\n\n24 Global Equity Volatility Insights | 06 June 2017\n\nBankofAmerica\nMerrill Lynch\n\nHOUSE_OVERSIGHT_023598",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_023598.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1984,
+    "word_count": 328,
+    "line_count": 81,
+    "import_date": "2025-11-19T21:47:45.251385",
+    "prefix": "IMAGES-007"
+  }
+}

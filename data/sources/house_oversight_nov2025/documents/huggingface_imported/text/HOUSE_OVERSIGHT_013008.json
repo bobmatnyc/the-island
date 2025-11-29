@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013008",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013008.txt",
+  "text": "92 4 Brief Survey of Cognitive Architectures\n\narousal\n\nresolution level\n\nselection threshold (i.e. degree of dominance of the leading motive)\nlevel of background checks (the rate of the securing behavior)\n\nlevel of goal-directed behavior\n\nFigure 4.16 shows how the latter 5 of these dimensions are derived from underlying urges and\nmodulators. Note that these dimensions are not orthogonal; for instance resolution is mainly in-\nversely related to arousal. Additional dimensions are also discussed, for instance it is postulated\nthat to deal with social emotions one may wish to introduce two more demands corresponding\nto inner and outer obedience to social norms, and then define dimensions in terms of these.\n\n-| Resolution\n= Level\n\nImportance:\n\nleading Motive )_ } leading Motive\nall Motives \\ / all Motives\n\nGoal\na Directedness\n\nCompetence:\n\nspecific to\ncurrent task | 7\n\ngeneral\n\nFig. 4.16: Five Proto-Emotional Dimensions Implicit in the Psi Model\n\nSpecific emotions are then characterized in terms of these dimensions. According to [Bac09],\nfor instance, “Anger ... is characterized by high arousal, low resolution, strong motive dominance,\nfew background checks and strong goal-orientedness; sadness by low arousal, high resolution,\nstrong dominance, few background-checks and low goal-orientedness.”\n\nI’m a bit skeptical of the contention that these dimensions fully characterize the relevant\nemotions. Anger for instance seems to have some particular characteristics not implied by the\nabove list of dimensional values. The list of dimensional values associated with anger doesn’t\ntell us that an angry person is more likely to punch someone than to bounce up and down,\nfor example. However, it does seem that the dimensional values associated with an emotion are\n\nHOUSE_OVERSIGHT_013008",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013008.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1798,
+    "word_count": 269,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:45.148565",
+    "prefix": "IMAGES-002"
+  }
+}

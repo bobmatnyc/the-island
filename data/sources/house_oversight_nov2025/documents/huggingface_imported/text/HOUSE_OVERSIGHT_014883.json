@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014883",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014883.txt",
+  "text": "iQmethod™ Measures Definitions\n\nBusiness Performance Numerator Denominator\n\nReturn On Capital Employed NOPAT = (EBIT + Interest Income) * (1 - Tax Rate) + Goodwill Amortization Total Assets — Current Liabilities + ST Debt + Accumulated Goodwill\nAmortization\n\nReturn On Equity Net Income Shareholders’ Equity\n\nOperating Margin Operating Profit Sales\n\nEarnings Growth Expected 5-Year CAGR From Latest Actual N/A\n\nFree Cash Flow Cash Flow From Operations — Total Capex N/A\n\nQuality of Earnings\n\nCash Realization Ratio Cash Flow From Operations Net Income\n\nAsset Replacement Ratio Capex Depreciation\n\nTax Rate Tax Charge Pre-Tax Income\n\nNet Debt-To-Equity Ratio Net Debt = Total Debt, Less Cash & Equivalents Total Equity\n\nInterest Cover EBIT Interest Expense\n\nValuation Toolkit\n\nPrice / Earnings Ratio Current Share Price Diluted Earnings Per Share (Basis As Specified)\n\nPrice / Book Value Current Share Price Shareholders’ Equity / Current Basic Shares\n\nDividend Yield Annualised Declared Cash Dividend Current Share Price\n\nFree Cash Flow Yield Cash Flow From Operations — Total Capex Market Cap. = Current Share Price * Current Basic Shares\n\nEnterprise Value / Sales EV = Current Share Price * Current Shares + Minority Equity +NetDebt+ Sales\n\nOther LT Liabilities\nEV/ EBITDA Enterprise Value Basic EBIT + Depreciation + Amortization\n\niQnethod™is the set of BofA Merrill Lynch standard measures that serve to maintain global consistency under three broad headings: Business Performance, Quality of Earnings, and validations. The key features of\niQmethod are: A consistently structured, detailed, and transparent methodology. Guidelines to maximize the effectiveness of the comparative valuation process, and to identify some common pitfalls.\n\niQdatabase® is our real-time global research database that is sourced directly fram our equity analysts’ earnings madels and includes forecasted as well as historical data for income statements, balance sheets, and cash\nflow statements for companies covered by BofA Merrill Lynch.\n\niQprofile™, i@method™ are service marks of Bank of America Corporation. database *is a registered service mark of Bank of America Corporation.\n\nBankof America >\nMerrill Lynch Hess Corp.| 11 April2017 11\n\nHOUSE_OVERSIGHT_014883",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014883.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2250,
+    "word_count": 328,
+    "line_count": 54,
+    "import_date": "2025-11-19T21:47:44.242410",
+    "prefix": "IMAGES-003"
+  }
+}

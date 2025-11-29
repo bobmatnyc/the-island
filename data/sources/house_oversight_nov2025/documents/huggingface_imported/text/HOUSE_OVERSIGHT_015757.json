@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015757",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015757.txt",
+  "text": "Understanding 67\n\nA key problem posed by Searle's Chinese Room is whether you can\nknow everything about a situation from just looking at the inputs and\noutputs. This is very similar to the restriction posed by the Turing Test.\nIn that case if we were to trace the wire from our computer terminal\nto the other room we would either find a human typing messages or a\nlarge box covered in flashing lights. This would definitively answer the\nquestion whether we were talking to a man or a machine. Similarly, if\nwe opened the door to the Chinese Room we would immediately know\nwhether there was a real Chinese speaker in there or not. But opening\nthe door on both tests misses the point. The question asks, “if the inputs\nand outputs are the same does it matter what is really going on inside a\nclosed system?”\n\nBlack Boxes\n\nExperiments involving closed systems are known as Black Box\nexperiments. They presume you can learn everything about the inner\nworkings of a box simply by probing it from the outside. Young electronic\nengineers are often given black boxes as a test. Electronic components\nhidden in the box are connected to three external terminals on the\noutside. The student is asked to deduce what is in the box using only\nan electric meter to probe those terminals. Here are a few examples of\nthe possible contents of a black box. They would all show up identically\non the student’s meter. Although internally different they are externally\nidentical. Even my ‘silly fourth choice with a cat in the box does not give\n\n170\n\nBlack Box Equivalence\n\nHOUSE_OVERSIGHT_015757",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015757.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1574,
+    "word_count": 274,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:44.975163",
+    "prefix": "IMAGES-003"
+  }
+}

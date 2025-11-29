@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://www.miamiherald.com/news/local/article219494920.html",
+    "publication": "Miami Herald",
+    "error": "API POST failed"
+  },
+  {
+    "url": "https://www.miamiherald.com/news/local/article222628265.html",
+    "publication": "Miami Herald",
+    "error": "Failed to fetch HTML"
+  },
+  {
+    "url": "https://www.miamiherald.com/news/local/article222897465.html",
+    "publication": "Miami Herald",
+    "error": "Failed to fetch HTML"
+  },
+  {
+    "url": "https://apnews.com/article/jeffrey-epstein-arrested-sex-trafficking-90303d0c6c4a462fa28dedc82fa5ac72",
+    "publication": "Associated Press",
+    "error": "Failed to fetch HTML"
+  },
+  {
+    "url": "https://www.reuters.com/article/us-people-jeffrey-epstein-idUSKCN1U10QU",
+    "publication": "Reuters",
+    "error": "Failed to fetch HTML"
+  }
+]

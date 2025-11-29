@@ -1,0 +1,16 @@
+{
+  "source_pdf": "DOJ-OGR-00010529.pdf",
+  "ocr_date": "2025-11-16T21:17:48.203989",
+  "text_length": 424,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "smccawley@bsfllp.com",
+    "ktownsend@rcfp.org",
+    "Imenninger@hmflaw.com",
+    "besternheim@mac.com",
+    "mcohen@cohengresser.com",
+    "lara.pomerantz@usdoj.gov",
+    "moe@usdoj.gov"
+  ]
+}

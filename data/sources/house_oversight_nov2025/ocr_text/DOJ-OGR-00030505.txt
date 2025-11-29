@@ -1,0 +1,53 @@
+. Case Activity Page | of |
+Case Activity x
+; ¢ Index
+
+Case Details
+
+ae,
+
+Incident No Initial Date [Officer Assigned (Division j|Asgn Area {Assign Date [Charge
+060006702 {01/23/2006 Pl 01/23/2006 (MIS JUV
+Class jCase Control {Solve [Status |Dispo
+
+27 «(27699 a c: CLOSED/CLEARED EXCEPTIONALLY ADULT
+
+Prosecute? Insurance’? Last Activity Follow Up Due Dt
+
+01/23/2006
+Made Date Property Act # Charges Status Date
+0 61/23/2006
+
+New Case Activity
+
+Case Activity
+
+ro
+
+| Officer |... .. | Asgn} Act |, Next | Next | Property| # - oe
+Details ‘Aesisaeed Division asea | Type ount| ne |Date| Act  |Hours Minutes} Edit
+
+rozeiay TCC ON, Sf) ff 0006702
+jo2sis CT CSCdPLSCEA fT CT CT tf. 0006702}
+Number of Activities: 2
+
+Total Recovered Property: $0
+
+Total Hours: 0:0
+
+Additional Information
+
+a
+
+2 Associated Persons: 2
+
+2 ARS Narrative: |
+
+Es] ARS Report Summary: |
+
+End of document
+
+http://cherbrow/PRD/Doc/IN/IN_Case_O.asp?DR=060006702 6/6/2006
+07/26/17 Page 38 of 131 Public Records Request No.: 17-295
+
+DOJ-OGR-00030505

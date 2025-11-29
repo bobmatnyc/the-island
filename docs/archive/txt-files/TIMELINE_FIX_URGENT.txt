@@ -1,0 +1,140 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  🚨 TIMELINE VISIBILITY - ROOT CAUSE FOUND 🚨                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📸 SCREENSHOT: screenshot_timeline.png shows EMPTY WHITE SPACE below filters
+📊 DIAGNOSTICS: timeline_diagnostics.json contains full browser state analysis
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                              THE PROBLEM                                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Timeline events are rendered 24 pixels BELOW the viewport!
+
+  Viewport Height: 1080px
+  Events Start At: 1104px  ← BELOW THE SCREEN!
+  Events Height:   19,739px (113 events rendered correctly)
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                            ROOT CAUSE                                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+The .page-content wrapper is MISSING from #timeline-view!
+
+SOURCE HTML (index.html):          RENDERED DOM (Browser):
+┌─────────────────────────┐        ┌─────────────────────────┐
+│ #timeline-view          │        │ #timeline-view          │
+│ ├─ .page-header    ✅  │        │ ├─ .page-header    ✅  │
+│ ├─ .timeline-filters ✅ │        │ └─ .timeline-filters ✅ │
+│ └─ .page-content   ✅  │        └─────────────────────────┘
+│    └─ #timeline-events  │                   ❌ MISSING!
+└─────────────────────────┘
+                                   #timeline-events (orphaned)
+                                   ↓ Rendered at wrong position!
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         PROOF FROM DIAGNOSTICS                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+{
+  "pageContent": {
+    "inTimelineView": false,     ← NOT in #timeline-view
+    "width": 0,
+    "height": 0,                 ← ZERO size
+    "visible": false             ← NOT visible
+  },
+  "timelineEvents": {
+    "top": 1104,                 ← 24px below viewport!
+    "height": 19738,             ← 113 events exist
+    "visible": true              ← Rendered correctly, wrong position
+  }
+}
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                           QUICK FIX                                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+FILE: server/web/app.js
+FUNCTION: renderTimeline() (line ~3656)
+
+ADD THIS SAFETY CHECK at the start of renderTimeline():
+
+function renderTimeline() {
+    console.log('🎨 renderTimeline() called');
+
+    // ✅ ENSURE PROPER DOM STRUCTURE
+    const container = document.getElementById('timeline-events');
+    const timelineView = document.getElementById('timeline-view');
+
+    // Check if page-content wrapper exists
+    if (!timelineView.querySelector('.page-content')) {
+        console.warn('⚠️ Creating missing .page-content wrapper');
+
+        // Create page-content wrapper
+        const pageContent = document.createElement('div');
+        pageContent.className = 'page-content';
+
+        // Move timeline-events into page-content
+        if (container) {
+            pageContent.appendChild(container);
+        } else {
+            // Create timeline-events if missing
+            const eventsDiv = document.createElement('div');
+            eventsDiv.id = 'timeline-events';
+            eventsDiv.className = 'timeline-container';
+            pageContent.appendChild(eventsDiv);
+        }
+
+        // Append page-content to timeline-view
+        timelineView.appendChild(pageContent);
+    }
+
+    // ... rest of existing renderTimeline() code
+}
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                           VERIFICATION                                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+After fix, run this in browser console:
+
+  const pc = document.querySelector('#timeline-view .page-content');
+  const events = document.getElementById('timeline-events');
+
+  console.log('✅ page-content exists:', !!pc);
+  console.log('✅ events inside page-content:', !!events.closest('.page-content'));
+  console.log('✅ page-content height:', pc.clientHeight, 'px');
+  console.log('✅ scrollable:', pc.scrollHeight > pc.clientHeight);
+
+Expected output:
+  ✅ page-content exists: true
+  ✅ events inside page-content: true
+  ✅ page-content height: ~668 px
+  ✅ scrollable: true
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         FURTHER INVESTIGATION                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Find the code that's REMOVING or SKIPPING .page-content during:
+  1. View initialization
+  2. View switching
+  3. Hot-reload updates
+  4. Timeline rendering
+
+Search for: "timeline-view" + "innerHTML" in app.js
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         FILES GENERATED                                       ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📄 TIMELINE_VISIBILITY_DIAGNOSIS.md - Full technical report
+📸 screenshot_timeline.png - Visual proof of issue
+📊 timeline_diagnostics.json - Complete browser diagnostics
+🔬 diagnose_timeline.py - Browser automation script
+
+════════════════════════════════════════════════════════════════════════════════
+🎯 PRIORITY: CRITICAL - Users cannot see any timeline events!
+⏱️  FIX TIME: 5-10 minutes (apply quick fix)
+🧪 TEST: Clear browser cache, reload, scroll timeline view
+════════════════════════════════════════════════════════════════════════════════

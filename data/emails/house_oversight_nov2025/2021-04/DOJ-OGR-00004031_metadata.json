@@ -1,0 +1,17 @@
+{
+  "document_id": "DOJ-OGR-00004031",
+  "email_index": 24,
+  "extracted_at": "2025-11-17T04:14:45.442357",
+  "from_address": "Sophia Papapetru spapapetru@bop.gov",
+  "to_address": "bcsternheim@mac.com",
+  "cc_address": null,
+  "subject": "Legal Visit 04.24.21",
+  "date": "April 24, 2021 at 4:07 PM",
+  "body": "Ce: Nicole McFarland nmcfarland@bop.gov\nGood afternoon Bobbi:\nIt had been brought to my attention by the staff of MDC Brooklyn that Ms. Maxwell received paperwork that was not in her possession\nupon entering the legal visiting area. As you are aware, the policies set forth for MDC Brooklyn legal visits do not allow for passing of\nany material during a legal visit. Due to our policy and procedures, the additional documents that were provided to Ms. Maxwell were\nconfiscated. Those materials were put in an envelope and will be returned to you tomorrow upon your arrival to the institution. Please\nnote, that you may put these documents in the legal mail box in the lobby of the east building.\nThank you for understanding.\nBest,\nSophia\nEXHIBIT A",
+  "confidence": 0.7,
+  "email_addresses": [
+    "bcsternheim@mac.com",
+    "spapapetru@bop.gov",
+    "nmcfarland@bop.gov"
+  ]
+}

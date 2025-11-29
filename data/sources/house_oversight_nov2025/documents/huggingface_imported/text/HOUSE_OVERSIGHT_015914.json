@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015914",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015914.txt",
+  "text": "224 Are the Androids Dreaming Yet?\n\n3D Printing Machine\n\nResearch Laboratory. The laptop I am writing on uses the von Neumann\narchitecture, and most modern computers evolved from it. By contrast,\nmobile phones are descended from the Harvard architecture developed\nby IBM and first supplied to Harvard University in 1944, hence its name.\nThe distinction in architectures has blurred over the years. The world\nsupports two main computer chip technologies, one built for desktop\nand laptop computers, designed by Intel in Santa Clara, California, and\nthe other, designed for mobile devices by ARM, in Cambridge, England.\nAll these computers can, in principle, run any piece of software.\n\nPrograms\n\nSoftware is just a series of numbers. When you click an icon on your\ndesktop, the computer reads the number and interprets it as a series\nof instructions. There is a decoder inside the computer that knows the\nnumber ‘1’ means add the next two digits and the number 5493 means\ndisplay them on screen and so on. On my computer the operating system,\nApple's OSX, takes the number, decodes it and passes it to the CPU for\n\nHOUSE_OVERSIGHT_015914",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015914.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1136,
+    "word_count": 187,
+    "line_count": 24,
+    "import_date": "2025-11-19T21:47:45.777259",
+    "prefix": "IMAGES-003"
+  }
+}

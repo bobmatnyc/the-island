@@ -1,0 +1,83 @@
+Unauthorized redistribution of this report is prohibited. This report is intended for kaasha.saini@baml.com
+
+Cause and Effect
+Fade the Trump risk premium — buy USD
+
+Concerns over stagflation return
+
+In our view, the most interesting and important development in the global financial
+market so far this year has been the divergence between rising US inflation breakevens
+and falling US real yields. Rightly or wrongly, investors appear to have become
+concerned about upside risk to inflation and downside risk to growth.
+
+The Trump risk premium
+
+Informal surveys of our clients suggest that stagflation concerns are being fed by
+growing pessimism about the new Trump administration. Investors seem to think that
+potential trade wars and a border adjustment tax (BAT) would boost inflation while
+repealing Obamacare and the controversy regarding the BAT could delay the highly
+anticipated tax reform.
+
+Perception versus reality
+
+In this report, we argue why the Trump risk premium may be too high. The
+administration’s dealing with both China and Mexico in recent weeks suggests to us that
+the near-term risk of open trade wars has abated. We are also less concerned that
+Obamacare will take precedence over tax reform.
+
+Most crucially, we think the overall tax reform is less dependent on the BAT than usually
+thought. Our scenario analysis shows that what has been getting priced into the market
+since January (higher inflation, lower USD) may be actually the least likely path for the
+BAT. In more plausible scenarios, the USD does quite well and inflation breakevens
+should be either unchanged or lower.
+
+How to trade it?
+
+We could get details on the tax reform as early as the new president’s speech to joint
+session of Congress on February 28, 2017. We think this could validate our view of a
+stronger USD.
+
+Taking advantage of clean positioning and the decline in implied FX vol lately, we
+recommend buying a 6w ATM EUR put/USD call (spot reference at 1.0615}, costing
+1.1% EUR. A 6-week option will cover also the March Fed meeting and the Dutch
+election (both on March 15) that could also work in favour of the trade. A risk to the
+trade is that is weak February data takes the possibility of a March Fed hike off the
+table completely.
+
+A list of open trades and those closed in the last 12 months can be found in our Global
+Liquid Markets Weekly.
+
+Trading ideas and investment strategies discussed herein may give rise to significant risk and are not
+suitable for all investors. Investors should have experience in FX markets and the financial resources to
+absorb any losses arising from applying these ideas or strategies.
+
+BofA Merrill Lynch does and seeks to do business with issuers covered in its research reports. As a
+result, investors should be aware that the firm may have a conflict of interest that could affect the
+objectivity of this report. Investors should consider this report as only a single factor in making
+their investment decision.
+
+Refer to important disclosures on page 9 to 10. Analyst Certification on page 8. 11710696
+
+Timestamp: 13 February 2017 06:00AM EST
+
+Bankof America
+Merrill Lynch
+
+13 February 2017
+
+FX and Rates
+
+Global
+e e
+The First
+Days
+David Woo
+FX, Rates & EM Strategist
+MLPF&S
+
++1 646 855 5442
+david.woo@baml.com
+
+Global Rates & Currencies Research
+
+HOUSE_OVERSIGHT_014721

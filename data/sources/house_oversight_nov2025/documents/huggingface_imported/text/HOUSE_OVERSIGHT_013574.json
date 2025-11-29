@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013574",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013574.txt",
+  "text": "molecular details associated with changes in entropy. These ideas are closer to\napplicability in problems of making measures on the behavior of biological systems.\nVery generally, in the statistical mechanical context, an increase in entropy means a\ndecrease in the order, which can be a quantitative observable reflecting a decrease\nin predictability and/or knowledge about the system. For example, we can locate the\nmolecules of the gas more accurately when they are all on one side of the\nmembrane-partitioned cylinder compared with the situation when the membrane is\nsuddenly removed. This accompanying increase in ambiguity and decrease in\nknowledge in locating a set of gas particles reflects a statistical mechanical view of\nincreases in entropy. Can anything general be said about the bounds on an\nincrease in entropy? The statistical developments of the Yale mathematical\nphysicist, Josiah Willard Gibbs (about 1875), consonant with the logical arguments\nof the Greek mathematician, Constantin Caratheodory (about 1910), conclude that\nthe entropy increase goes to the maximum allowed by the constraints imposed by\nor upon the system. A change in likelihood as a probability is a characteristic way to\nquantify the entropy change, reflecting an alteration in knowledge or its reciprocal\ncomplement, uncertainty. The system’s entropic uncertainty said more colloquially,\n\nand relevant to the Bell Syndrome’s women of my life, is its capacity for surprise.\n\nA statistical mechanical approach to the total entropy of a bounded set of\nmolecules in motion involves summing this property across all the participating\nmolecules. We let N be the number of particles involved. As a problem in Newtonian\nmechanics, each of the N particles is represented in 6N dimensional phase space.\nThat means that each point represents one of the N molecules in the three\ndimensions of location space plus three dimensions of motion space as its velocity,\nmore specifically, the product of mass times velocity called momentum. This adds\nup to 6 dimensions of measurement. This so called phase space reconstruction of\nthe molecules of a gas as individual particles are a daunting task, though fast\ncomputers and new algorithms are making computations from first principles more\ngenerally attainable. Those based on the first principles of short-range repulsion\nand long-range weak attraction among particles and the bumper-car collision\n\n74\n\nHOUSE_OVERSIGHT_013574",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013574.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2448,
+    "word_count": 373,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:48.294924",
+    "prefix": "IMAGES-002"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_022354",
+  "filename": "IMAGES-006-HOUSE_OVERSIGHT_022354.txt",
+  "text": "How a “Cascading GRAT” strategy works\n\nG) Grantor transfers asset(s) to an irrevocable\ntrust. Grantor may manage GRAT assets as\ntrustee.\n\n@) Grantor pays little or no gift tax, or uses\ngift tax exemption*, on present value of\ntrust remainder**\n\nAnnuity payments from existing GRATs\nfund a new GRAT\n\nGrantor pays tax on ordinary income and\nrealized gain earned by the trust (but not\non annuity amount transferred from trust\nto grantor)\n\n©; When trust term ends, remaining trust\nassets pass to beneficiaries free of gift tax\nif grantor does not survive the term,\ntrust assets are included\nin the estate and subject to\nestate tax\n\nIf necessary, grantor pays gift tax or\nuses gift tax exemption on transfer\n\nGrantor pays tax on ordinary income\nGrantor and realized gain earned by the trust\nGrantor\ntransfers G)\nasset(s)\nYear 0\n@) Annuity payments funds new GRAT\nYear 1\n\nAnguity 1a\n\nRemaining\nBeneficiaries’ Estas\n\n©\n\nTrust ends G) Annuity payment funds new GRAT\n\n*Gift tax exemption in 2012 shelters up to $5,120,000 per individual of value transferred from gift tax.\n**Calculation based on Treasury discount rate in effect at time of funding GRAT. A recent Tax Court decision (Walton v. Commissioner, 115 T.C. No. 41 (Dec. 22, 2000))\n\nallows GRAT to be “zeroed out,” eliminating the need to incur any gift tax.\n\nJ.P Morgan\n\n4\n\nHOUSE_OVERSIGHT_022354",
+  "metadata": {
+    "original_filename": "IMAGES-006-HOUSE_OVERSIGHT_022354.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1346,
+    "word_count": 224,
+    "line_count": 56,
+    "import_date": "2025-11-19T21:47:46.351207",
+    "prefix": "IMAGES-006"
+  }
+}

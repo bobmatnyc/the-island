@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027293",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027293.txt",
+  "text": "sender: i’\n\nTime: 06/15/18 08:56:18 AM (550770978)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 10319D99-6F02-4D3E-8A31-7660F30DC8B6\n\nTr,\n\nMessage: Jonathan Karl\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/15/18 08:57:25 AM (550771045)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 472647DF-09AD-4B8A-A6CA-220DEBSDOEFO\n\nMessage: Sorry- did yoh get to meet with zucker\n\nSender: iy\n\nTime: 06/15/18 08:57:54 AM (550771074)\nFlags: 1126401\nIs Read: Yes\n\nIs Invitation: No\n\nr\n\nGUID: OC52B4B0-17AF-429C-97EE-O1DBCO025A830\n\nMessage: Couldn't get sked to work -- trying for Tuesday\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/16/18 07:38:06 AM (550852686)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 23FF498F-99EC-42C8-B4D3-1F7D21345B82\n\nMessage: Need passport details for entourage\n\nsencer:\n\nTime: 06/16/18 07:39:31 AM (550852771)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 6D2150B3-90E6-4DE9-8129-2F37D7BOCC2C\n\nMessage: K\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/16/18 08:39:14 AM (550856354)\n\nHOUSE_OVERSIGHT_027293",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027293.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1042,
+    "word_count": 124,
+    "line_count": 72,
+    "import_date": "2025-11-19T21:47:45.450974",
+    "prefix": "IMAGES-009"
+  }
+}

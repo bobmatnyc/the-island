@@ -1,0 +1,53 @@
+URL,Title,Publication,Author,Published_Date,Category,Priority,Word_Count,Entity_Mentions,Credibility_Score,Batch,Archive_URL,Status,Notes
+https://example.com/article1,"Article Title Here","The New York Times","Jane Smith","2024-01-15","International","High","1500","Jeffrey Epstein, Ghislaine Maxwell","0.95","1","","Candidate","Strong investigative piece"
+https://example.com/article2,"Another Article Title","The Guardian","John Doe","2023-06-20","Legal","High","2000","Jeffrey Epstein, Prince Andrew","0.92","1","https://web.archive.org/...","Approved","Excellent court coverage"
+https://example.com/article3,"Third Article Example","NPR","Sarah Johnson","2022-11-10","Victims","Medium","1200","Virginia Roberts Giuffre, Jeffrey Epstein","0.95","9","","Candidate","Survivor testimony"
+https://example.com/article4,"Banking Settlement Article","Wall Street Journal","Michael Brown","2023-09-15","Financial","High","1800","Jeffrey Epstein, JPMorgan Chase, Jes Staley","0.95","8","","Approved","$290M settlement details"
+https://example.com/article5,"Academic Institution Coverage","The Boston Globe","Emily Chen","2020-01-20","Institutions","Medium","1400","Jeffrey Epstein, MIT Media Lab, Joi Ito","0.93","5","","Candidate","MIT donor scandal"
+
+# Instructions for Use:
+# 1. Copy this template to Excel/Google Sheets
+# 2. Add 600+ candidate articles (50-60 per batch)
+# 3. Use filters to organize by Batch, Category, Priority
+# 4. Update Status as articles move through workflow:
+#    - Candidate: Initial identification
+#    - Approved: Selected for import (35 per batch)
+#    - Imported: Successfully added to database
+#    - Rejected: Did not meet criteria
+# 5. Archive_URL: Add if original link is dead
+# 6. Notes: Special considerations, quality flags
+
+# Column Definitions:
+# - URL: Full article URL (primary key)
+# - Title: Article headline/title
+# - Publication: Source publication name (must be Tier 1)
+# - Author: Article byline
+# - Published_Date: YYYY-MM-DD format
+# - Category: International/Legal/Financial/Victims/Institutions/Properties
+# - Priority: High/Medium/Low (based on investigative depth)
+# - Word_Count: Estimated length (minimum 750)
+# - Entity_Mentions: Comma-separated canonical entity names
+# - Credibility_Score: 0.90-0.98 (Tier 1 only)
+# - Batch: 1-10 (which import batch)
+# - Archive_URL: Wayback Machine URL if primary is dead
+# - Status: Candidate/Approved/Imported/Rejected
+# - Notes: Special considerations, quality notes
+
+# Quality Gates:
+# - Credibility_Score must be ≥0.90
+# - Word_Count must be ≥750
+# - Published_Date must be 2006-2025
+# - Entity_Mentions must map to canonical names
+# - URL must be accessible (live or archived)
+
+# Batch Assignments:
+# Batch 1: International (France, UK, Australia, Caribbean)
+# Batch 2: Florida (Palm Beach case, 2005-2008)
+# Batch 3: New York (Manhattan, SDNY, MCC)
+# Batch 4: Properties (Zorro Ranch, USVI)
+# Batch 5: Academics (MIT, Harvard, others)
+# Batch 6: Legal I (2019 case, Maxwell trial)
+# Batch 7: Legal II (Compensation fund, civil suits)
+# Batch 8: Banking (JPMorgan, Deutsche Bank)
+# Batch 9: Victims/Finance (Testimonies, Wexner, Black)
+# Batch 10: Documents (2024 unsealing, analysis)

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011013",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011013.txt",
+  "text": "Global Financial Data reports annual rate of return, growth rate in market cap, and\n“imputed dividend rate” as the difference. Dividend rate itself is reported as\nsomething a little different. | made no attempt to get to the bottom of this distinction,\njust as | made none to allow for editorial bias in the Piketty-Zucman website. I chose\n\nthe imputed version for logical consistency.\n\nThis direct information obviates the chain of reasoning from (4.2) to (4.5), and\nallows me to jump to the latter. “Productivity gain” in (4.5) is simply annual change\nin reported rate of return. Acceleration is annual change in reported market cap\n\ngrowth rate. (4.6a) defines the free growth index as their ratio. @(SM), the green\n\nline, tracks it in the charts. It too fluctuates around the number one. Gains in\ndividend rate have coincided as often with gains in market cap growth rate as with\n\ndrops.\n\nThis seems only to expound what everyone knows. Of course firms are likelier to\nraise dividends in years of growth, and cut them in years of decline. I never claimed\nthat free growth theory does more than state the obvious. What is made obvious by\nthe data is that a change in total return is the prime mover enabling market cap and\ndividend rate to accelerate or decelerate as a pair. What is made obviously wrong\nwould be a thrift theory casting dividend restraint as the prime mover. Were that so,\nmarket cap acceleration would coincide with lower rather than higher dividend\n\nrates.\n\nThis pretty much completes my evidence for free growth theory. | have not found\nother promising data sources. One is tantalizingly close to hand. There is not much\nreason why corporate bond history is less transparent to the world than corporate\nstock history. A qualified expert might reconstruct market caps of both, side by side,\nto show a picture of the whole corporate sector. Surely I am not the only person who\nwould take interest. What is the history of leverage, and of total return, and its\n\ngrowth and yield components, to debt and equity claims cap-weighted together?\n\nChapter 4 Mill’s Idea 1/11/16 22\n\nHOUSE_OVERSIGHT_011013",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011013.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2118,
+    "word_count": 358,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:45.325715",
+    "prefix": "IMAGES-001"
+  }
+}

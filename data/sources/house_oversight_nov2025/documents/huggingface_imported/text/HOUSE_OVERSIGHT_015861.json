@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015861",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015861.txt",
+  "text": "Chaos\n\nin 1987 with the publication of James Gleick’s book Chaos. It’s\n\nCm is the twin of complexity. It burst into the public psyche\n\nnot a difficult concept to grasp. Complex systems can be formed\nusing simple rules, and very small changes in starting conditions can\nprofoundly affect future events. I experience this if I miss my train to\nwork in the morning: 30 seconds either way will change the whole\npattern of my day, the people I meet and the level of stress I experience.\n\nI’m sure you can think of similar experiences.\n\nHenri Poincaré, a French\nmathematician, first studied the\neffect back in 1880. Poincaré was\ntrying to solve an old mathematical\nproblem called the Three Body\nProblem originally set by Isaac\nNewton. Take the Earth, Mars and\nthe Sun. These three bodies orbit\neach other, or strictly speaking a\npoint in space somewhere between\nthem. Is there an equation that\nwill tell you where the bodies will\nbe in, say, 100 years’ time?\n\nThe answer is surprising,\nno. The three bodies will orbit in\na non-repeating way. There is no\nanalytical short cut, no equation\nthat will predict where they will be\n\nPoincaré\n\nHOUSE_OVERSIGHT_015861",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015861.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1152,
+    "word_count": 197,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:45.610174",
+    "prefix": "IMAGES-003"
+  }
+}

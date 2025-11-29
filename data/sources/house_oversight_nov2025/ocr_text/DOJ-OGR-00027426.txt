@@ -1,0 +1,55 @@
+Managed Query Page 1 of 3
+APIS - All Passengers : soe mes, Set Here isaac
+Results
+¥ Conf. Name DOB Gender Document Conveyance Departure Date Arrival Date PNR HitTypes Attributes Status Event IDs
+
+1 *#GA NgogJE (IST + XXX) 09/06/2012 08 15 + 09/06/2012 18 48 Crew
+#GA NgogJE (IST + XXX) 07/21/2012 08 30 )«=—-07/'21/2012 18 09 Crew
+
+1 #GA NgogJE (IST » XXX) 06/17/20120730 06/17/2012 16 53 Crew (Cockpit)
+
+1 #GA NgogJE (IST » XXX) 05/03/201210 00 05/03/2012 18 29 Crew (Cockpit)
+#GA NgogJE (IST » XXX) 04/11/2012 08 30 «=. 04/11/2012. 17 59 Crew (Cockpit)
+*GA NgogJE (IST » XXX) 02/02/201210 30 02/02/2012 19 00 Crew (Cockpit)
+
+1 #GA NgogJE (IST » XXX) 01/24/20120230 01/24/2012 11 08 Crew
+#GA NgogJE (XXX - IST) 01/18/2012 10 10 01/18/2012 06 40 Crew (Cockpit)
+#GANgo09JE(MHT*> XXX) 01/08/20122030 01/09/2012 08 37 Crew
+#GANgo9JE(MHT + XXX) 1/08/20122030 01/09/2012 08 00 Crew (Cockpit)
+
+1 #GA NgogJE (IST - XXX) 01/02/2012 08 60 «= ot /02/2012 17 36 Crew (Cockpit)
+
+1 #GA NgogJE (IST - XXX) 12/11/2011 08 oo 12/11/2021 17 32 Crew (Cockpit)
+*GA NgogJE (IST - XXX) 1s/o2/201108 30 = 11/02/2043 47 58 Crew (Cockpit)
+
+1 *GA NgogJE (IST » XXX) 10/19/203110430 10/19/2043 45 14 Crew (Cockpit)
+*GANgogJE (IST + XXX) 09/17/2011 08 30 09/17/2011 18 59 Crew (Cockpit)
+*GANgogJE (IST > XXX) — 09/09/20110430 09/09/2011 15 30 Crew (Cockpit)
+*GANgogJE(XXX-IST) — o9/04/20111730 09/04/2011 13 58 Crew
+
+1 #GA NgogJE (IST » XXX) 07/20/20111000 07/20/2011 20 43 Crew
+
+5 4 #GA NgogJE (IST - XXX) 06/26/2011 01 15 06/26/2014 11 53 Crew
+*GANgoJE(IST-XXX)  05/22/20110500 05/22/2012 15 35 Crew
+
+v4 *GANgogJE(XXX-+IST) 05/20/201106 00 05/20/2011 02 00 Crew (Cockpit)
+*GANgogJE(TEB+ XXX) 05/14/20112100 95/15/2011 09 50 Crew (Cockpit)
+
+4 #GANgogJE(IST+ XXX) 04/30/201108 00 04/30/2011 18 37 Crew
+
+1 #GA NgogJE (IST - XXX) 03/29/20111000 03/29/2011 20 47 Crew
+
+1 #GA NgogJE (XXX » IST) 03/28/201114 30 © 03/28/2011 08 38 Crew (Cockpit)
+
+1 #GA NoogJE (IST - XXX) 03/27/20131045 03/27/201118 30 Crew
+*GA NgoqJE (XXX + IST) 03/27/2013 11 00 03/27/2031 04 45 Crew
+
+1 *GA NgogJE (IST » XXX) 03/27/201102 00 03/27/2011 09 50 Crew
+*GA NgogJE (IST » XXX) 02/20/201110 30 02/20/2011 20 27 Crew
+
+1 *GA NgoJE (IST » XXX) o2/og9/201113 00 «=: 02/09/2011 22 40 Crew (Cockpit)
+
+1 *GA NgogJE (IST » XXX) 02/10/20110100 02/10/2011 10 40 Crew (Cockpit)
+
+9/4/2020
+DOJ-OGR-00027426

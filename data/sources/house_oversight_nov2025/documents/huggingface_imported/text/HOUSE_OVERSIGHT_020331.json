@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_020331",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_020331.txt",
+  "text": "179\n\nmessages which would allow it to trace the path of messages that passed through them. Through\nthis technology, it could tag and follow TOR users as their communications travelled across the\nInternet. It could even borrow their Internet identities. To be sure, the NSA also had such a\ncapability. The Silk Road founder Ross Ulbricht discovered to his distress that his TOR software\ndid not make his computer server in Iceland invisible. According to a former top official in the\nJustice Department, the NSA was able to locate it by cracking the TOR software, (Ulbricht is\ncurrently serving a life prison sentence for his Silk Road activities.). Unlike adversary services,\nhowever, the NSA needs a warrant to investigate US citizens who use TOR.\n\nEven the NSA is not immune from an attack of its own computers. CIA deputy director\nMorell, who served on the committee evaluating the NSA’s vulnerability in the Snowden affair\nafter retiring from the CIA in 2013, wrote in his 2015 book “The Great War of our Times,” that\nmany financial institutions have “better cyber security than the NSA.” If nothing else, the\nInternet helped make the activities of US intelligence workers visible to the SVR.\n\nEven if the SVR theoretically had opportunities, it still had to find at least one disgruntled\ncivilian contractor inside in the NSA who had access to the sealed-off computer networks. Did it\nfind its man? If so, was it before or after Snowden arrived in Hong Kong with the Level 3 NSA\nfiles?\n\nHOUSE_OVERSIGHT_020331",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_020331.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1514,
+    "word_count": 254,
+    "line_count": 23,
+    "import_date": "2025-11-19T21:47:46.521537",
+    "prefix": "IMAGES-005"
+  }
+}

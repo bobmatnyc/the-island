@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015713",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015713.txt",
+  "text": "All things considered there doesn’t appear to be a fundamental\nengineering problem that would prevent computer hardware reaching\nthe complexity of the human brain. But, even with all this hardware, it’s\nnot clear we would have something intelligent.\n\nHOUSE_OVERSIGHT_015713",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015713.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 273,
+    "word_count": 39,
+    "line_count": 6,
+    "import_date": "2025-11-19T21:47:46.895401",
+    "prefix": "IMAGES-003"
+  }
+}

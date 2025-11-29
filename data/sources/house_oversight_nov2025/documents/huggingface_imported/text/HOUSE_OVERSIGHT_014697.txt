@@ -1,0 +1,84 @@
+. Origins February 24 — 26, 2017
+PRO) E'¢ T An Origins Project Scientific Workshop
+
+ARIZONA STATE UNIVERSITY Challenges of Artificial Intelligence:
+
+Envisioning and Addressing Adverse Outcomes
+
+ARTIFICIAL INTELLIGENCE ADVERSE OUTCOMES & TEAMS
+
+1)
+
+2)
+
+3)
+
+4)
+
+5)
+
+6)
+
+FINANCIAL MARKETS
+
+Al, Trading Systems, and Market Manipulation
+
+Chair: Michael Wellman
+
+Red Team: Miles Brundage, Randy Bryant, Gary Marchant, Jaan Tallinn
+
+Blue Team: Michael Littman, Frank Wilczek, Greg Cooper, Yan Shoshitaishvili
+
+DEMOCRACY, INFORMATION, AND IDENTITY
+
+Al, Information, and Democracy
+
+Chair: Shahar Avin
+
+Red Team: Miles Brundage, Sean O hEigeartaigh, Andrew Maynard, Eric Horvitz
+
+Blue Team: Gary Marchant, Gireeja Ranade, Michael Littman, Subbarao Kambhampati
+
+WAR & PEACE
+
+Al, Military Systems, and Stability
+
+Chair: Bart Selman
+
+Red Team: Richard Mallah, Eric Horvitz, Michael Wellman, Frank Wilczek
+
+Blue Team: Vinh Nguyen, Kathleen Fisher, Lawrence Krauss, John Launchbury, Rachel Bronson
+
+Al, CYBERSECURITY, AND Al ATTACK SURFACES
+
+Al Attacks on Computing Systems, Devices, Infrastructure
+
+Manipulation & Disruption of Al Systems
+
+Chair: Kathleen Fisher
+
+Red Team: Jeffrey Coleman, John Launchbury, Vinh Nguyen, Mauno Pihelgas
+Blue Team: Ashish Kapoor, Randy Bryant, Yan Shoshitaishvili, Ben Zorn
+
+Al, GOALS, AND INADVERTENT SIDE EFFECTS
+
+Runaway Resource Monopoly
+
+Self-improvement, Shift of Objectives
+
+Chair: Sedn O hEigeartaigh
+
+Red Team: Jaan Tallinn, Nate Soares, Jeff Coleman, Bart Selman
+Blue Team: Dario Amodei, Greg Cooper, Shahar Avin, Ben Zorn
+
+DEEP LONG-TERM SOCIETAL INFLUENCES
+
+Al, Agency, and Disempowerment
+
+Chair: Gireeja Ranade
+
+Red Team: Richard Mallah, Andrew Maynard, Nate Soars, Mauno Pihelgas
+
+Blue Team: Subbarao Kambhampati, Frank Wilczek, Lawrence Krauss, Dario Amodei
+
+HOUSE_OVERSIGHT_014697

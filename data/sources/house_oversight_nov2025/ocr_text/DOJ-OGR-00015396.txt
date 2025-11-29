@@ -1,0 +1,54 @@
+Fed =< Invoice Number: 4-494-58432
+2 Invoice Date: Dec 02, 2002
+Account Number: 1144-2081-6
+Page: 4of6
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 19, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 4
+Package sent from: 10028 zip code
+Tracking D 837657306480 Sender Recipient
+Service Type FedEx Priority Overnight EVA ANDERSON LESLIE H WEXNER
+Package Type FedEx Envelope JEFFREY E EPSTEIN THE LIMITED INC
+Zone 4 457 MADISON AVE FY
+Packages 1 NEW YORK NY 10022-6843 US Po
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Nov 20, 2002 08 50 Transportation Charge 15 25
+SvcArea =A Discount “2.44,
+Signed by S DAVIDSON Fuel Surcharge 051
+FedEx Use  704526420/00208/_ _——_
+Total Transportation Charges USD $ 13.32
+Picked up: Nov 21, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 8
+Package sent from: 10021 zip code
+Release signature on file.
+Tracking D 837169384289 Sender Recipient
+Service Type FedEx Priority Overnight CHRISTINE MAXWELL CHRISTINE MAXWELL
+Package Type FedEx Box JEFFREY E EPSTEIN fs
+Zone 8 457 MADISON AVE FT
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 5.0 Ibs, 2.3 kgs
+Delivered Nov 22, 2002 11:44 Transportation Charge 38 25
+Sve Area Al Discount -3 83
+Signed by MAXWELL Fuel Surcharge 138
+FedEx Use 330180120/01618/02 Courier Pickup Charge 000
+Residential Delivery 135
+Total Transportation Charges USD $ 37.15
+Picked up: Nov 25, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 4
+Package sent from: 10021 zip code
+Tracking D 837169384267 Sender Recipient
+Service Type FedEx Priority Overnight EDW NA S MMONS MARC LUNDBERG
+Package Type FedEx Box JEFFREY E EPSTEIN NA PROPERTY NC
+Zone 487 MADISON AVE Po
+Packages 1 NEW YORK NY 10022-6843 US Po
+Weight 30.0 Ibs, 13.6 kgs
+Delivered Nov 26, 2002 10:13 Transportation Charge 7325
+SvcArea = A2 Discount -783
+Signed by D.OAKLEY Fuel Surcharge 282
+FedEx Use 333137240/01530/_ Courier Pickup Charge 000
+Total Transportation Charges USD $ 73.24
+SDNY_GM_00340752 87
+DOJ-OGR-00015396

@@ -1,0 +1,50 @@
+Fed=< Invoice Number: 4-495-86910
+2 Invoice Date: Dec 23, 2002
+Account Number: 1144-2081-6
+Page: 8 of 10
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Dec 16, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+FedEx has audited this airbill for correct pieces, weight, and service. Any changes made are reflected in the invoice amount.
+Discount applied is the greater of volume discount or dropoff discount. No additional discount applies.
+We calculated your charges based on a dimensional weight of 23.9 Ibs (24" x 15" x 11"). Chargeable weight based on IATA dimensional standards.
+Tracking ID 791255930209 Sender Recipient
+Service Type FedEx Intl Economy CECILIA STEEN PANDORA MAXWELL
+Package Type Customer Packaging JEFFREY E. EPSTEIN TELEMONDE NC.
+Zone D 457 MADISON AVENUE Po
+Orig Dest. JRBIKRE 4TH FLOOR a
+Packages 1 NEW YORK NY 10022 US PY
+Weight 4.0 Ibs, 1.8 kgs
+Delivered Dee 19, 2002 11:12 Transportation Charge 138.20
+Signed by M.AXWELL Fuel Surcharge 5.36
+FedEx Use _/US010/_ Discount 4.15
+Total Transportation Charges USD $ 139.41
+Picked up: Dec 16, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+FedEx has audited this airbill for correct pieces, weight, and service. Any changes made are reflected in the invoice amount.
+Tracking ID 791995788771 Sender Recipient
+Service Type FedEx Intl Economy CECILIA STEEN PAMELA MEISELMAN
+Package Type Customer Packaging JEFFREY E. EPSTEIN KARIN MODELS
+Zone D 457 MADISON AVENUE FY
+Orig /Dest. JRB/TNF 4TH FLOOR Ps
+Packages 1 NEW YORK NY 10022 US
+Weight 0.5 Ibs, 0.2 kgs
+Delivered Dec 19, 2002 08:55 Transportation Charge 38.45
+Signed by ‘CONCIERGE Fuel Surcharge 1.49
+FedEx Use _/US010/_ Discount 1.15
+Total Transportation Charges USD $ 38.79
+Picked up: Dec 16, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Tracking ID 792792241039 Sender Recipient
+Service Type FedEx Intl Economy CECILIA STEEN SOPHIE CRABBE
+Package Type Customer Packaging JEFFREY E. EPSTEIN SY
+Zone D 457 MADISON AVENUE FY
+Orig /Dest. JRB/LON 4TH FLOOR Po
+Packages 1 NEW YORK NY 10022 US
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Dec 19, 2002 08:48 Transportation Charge 38.45
+Signed by P.FIRMO Fuel Surcharge 1.49
+FedEx Use _/US010/_ Discount 115
+Total Transportation Charges USD $ 38.79
+SDNY_GM_00340832 150
+DOJ-OGR-00015459

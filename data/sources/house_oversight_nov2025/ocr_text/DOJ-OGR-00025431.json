@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00025431.pdf",
+  "ocr_date": "2025-11-16T21:56:42.443098",
+  "text_length": 646,
+  "is_email": true,
+  "email_confidence": 0.8999999999999999,
+  "email_addresses": [
+    "sdthompson@bop.gov"
+  ]
+}

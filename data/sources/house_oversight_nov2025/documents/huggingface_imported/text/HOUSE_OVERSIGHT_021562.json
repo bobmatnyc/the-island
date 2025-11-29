@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_021562",
+  "filename": "IMAGES-006-HOUSE_OVERSIGHT_021562.txt",
+  "text": "5. What information is available on\nthe VNS Internet Web site?\n\nThe information available will include:\nA. Case Activities Detail - information about\nevents in your case.\n\nB. Downloads/Links - supplemental\ninformation about your case.\n\nC. My Information - allows you to view\nand/or update your mailing address, phone\nnumber, and email address.\n\nStop Receiving Notifications - allows you\nto stop receiving further notifications. You\ncan later re-enroll using your VIN and VNS\nLogin ID.\n\n6. How often is information on the\nInternet updated?\n\nThe VNS Web site is updated daily, Monday through\nFriday.\n\n7. Does the Victim Notification\nSystem ensure my safety?\n\nNo. Do not depend on VNS to ensure your safety. If\nyou feel that you are being threatened, immediately\nnotify law enforcement.\n\n8. What should I do if my contact\ninformation changes?\n\nIf your address, email or phone number changes, you\nshould update your contact information using one of\nthe following methods: (1) VNS on the Internet*\n(attp://www.Notify.USDOJ.gov) (2) VNS Call\nCenter* (1-866-365-4968) (* You will need your\nYNS VIN & PIN/Web Login ID); (3) the person\nindicated on your initial notification letter, or; (4) the\nVictim-Witness Coordinator at your local U.S.\nAttorney’s Office.\n\nHOUSE_OVERSIGHT_02156",
+  "metadata": {
+    "original_filename": "IMAGES-006-HOUSE_OVERSIGHT_021562.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1273,
+    "word_count": 198,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:44.583164",
+    "prefix": "IMAGES-006"
+  }
+}

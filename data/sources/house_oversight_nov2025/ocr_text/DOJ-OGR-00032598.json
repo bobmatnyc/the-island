@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00032598.pdf",
+  "ocr_date": "2025-11-16T22:13:48.712600",
+  "text_length": 1452,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "jennifer@naproperty.com",
+    "michelle@naproperty.com"
+  ]
+}

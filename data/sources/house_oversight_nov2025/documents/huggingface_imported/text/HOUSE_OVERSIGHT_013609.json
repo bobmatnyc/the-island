@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013609",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013609.txt",
+  "text": "probabilities, so that the sum of the decimal fraction parts of all the boxes in each\nhorizontal row add up to 100%, or as a real number, 1.00. Recall that in the\n\nexample we’ve been using, the binary expansion of the natural number 729, the\n\n1 3\ntransition incidence matrix is M; = 44 and its Markov matrix is top row, 1/4, 3/4\n\n0.25 0.75\n\nand bottom row 3/5 , 2/5, i.e. Mrp = Ane Od\n\n. Matrix multiplication of Mz» by itself\n\nrepeatedly is equivalent to tracking the temporal evolution of the transition matrix’s\nprobabilities until the resulting matrices move toward, converge onto, a steady state;\neach self matrix multiplication step represents what results from the passage of one\nunit of time. The convergence to equilibrium values is continuous and gradual.\nWhen the steady state is reached, both rows become identical. For this example,\n\n0.5125 0.4875. 4 _ 0.4527 0.5472 g _ 0.4445 0.5554_\n\nMi x Mip or Min? = > Mip” = =\nte Sue\" 9.3900 0.6100” ~——«0.4377-0.5622\" 0.4443. 0.5556\n\nte _ 0.4444 0.5555\n\n= which for the first four decimal places remain the same for\n0.4444 0.5555\n\ntp\n\nadditional times of self multiplication. Note the convergence of the top and bottom\nrows to the same asymptotic values. Books discussing the multiplicative and other\nbehavior of these nonnegative matrices are numerous and frequently appear in\nmatrix algebra texts under the rubric of the Frobenius-Perron theorems.\n\nUsing the entropy formalism of Claude Shannon as developed previously, Hy\nis computed as the sum across either of the identical rows of each probability times\nits logarithm, px /og(p.p2x/og(p2)) remembering from above that we are working in\nbase 2 logarithms and to change the minus sign (resulting from taking the\nlogarithms of decimal fractions) to plus: Hy (Mip) = .4444 x log(.4444) + 5555 x\nlog(.5555) = .9911 The nonuniformity of the box occupancy probabilities is reflected\nin the difference between the topological (maximal estimate) and metric (minimal\nestimate) entropies and is therefore quantifiable and computable: H7 - Hy # 0 = 1.00\n- 0.9911 = 0. 0089. If the maximal and minimal estimates of the entropy were equal\n\nand all the probabilities boxes in each row asymptotically contained the same\n\n109\n\nHOUSE_OVERSIGHT_013609",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013609.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2242,
+    "word_count": 371,
+    "line_count": 52,
+    "import_date": "2025-11-19T21:47:44.356006",
+    "prefix": "IMAGES-002"
+  }
+}

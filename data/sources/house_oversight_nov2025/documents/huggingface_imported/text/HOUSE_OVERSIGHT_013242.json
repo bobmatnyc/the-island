@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013242",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013242.txt",
+  "text": "w\nNO\nfon\n\nA Glossary\n\nGB: Global Brain\n\nGEOP: Goal Evaluator Operating Procedure (in a GOLEM context)\nGIS: Geospatial Information System\n\nGOLEM: Goal-Oriented LEarning Meta-architecture\n\nGP: Genetic Programming\n\nHOI: Higher-Order Inference\n\nHOPLN: Higher-Order PLN\n\nHR: Historical Repository (in a GOLEM context)\n\nHTM: Hierarchical Temporal Memory\n\nIA: (Allen) Interval Algebra (an algebra of temporal intervals)\n\nIRC: Imitation / Reinforcement / Correction (Learning)\n\nLIFES: Learning-Integrated Feature Selection\n\nLTI: Long Term Importance\n\nMA: MindAgent\n\nMOSES: Meta-Optimizing Semantic Evolutionary Search\n\nMSH: Mirror System Hypothesis\n\nNARS: Non-Axiomatic Reasoning System\n\nNLGen: A specific software component within OpenCog, which provides one way of dealing\nwith Natural Language Generation\n\nOCP: OpenCogPrime\n\nOP: Operating Program (in a GOLEM context)\n\nPEPL: Probabilistic Evolutionary Procedure Learning (e.g. MOSES)\nPLN: Probabilistic Logic Networks\n\nRCC: Region Connection Calculus\n\nRelEx: A specific software component within OpenCog, which provides one way of dealing\nwith natural language Relationship Extraction\n\nSAT: Boolean SATisfaction, as a mathematical / computational problem\nSMEPH: Self-Modifying Evolving Probabilistic Hypergraph\nSRAM: Simple Realistic Agents Model\n\nSTI: Short Term Importance\n\nSTV: Simple Truth VAlue\n\nTV: Truth Value\n\nVLTI: Very Long Term Importances\n\nWSPS: Whole-Sentence Purely-Syntactic Parsing\n\nA.2 Glossary of Specialized Terms\n\nAbduction: A general form of inference that goes from data describing something to a\nhypothesis that accounts for the data. Often in an OpenCog context, this refers to the PLN\nabduction rule, a specific First-Order PLN rule (If A implies C, and B implies C, then\nmaybe A is B), which embodies a simple form of abductive inference. But OpenCog may\nalso carry out abduction, as a general process, in other ways.\n\nAction Selection: The process via which the OpenCog system chooses which Schema to\nenact, based on its current goals and context.\n\nActive Schema Pool: The set of Schema currently in the midst of Schema Execution.\n\nHOUSE_OVERSIGHT_013242",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013242.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2126,
+    "word_count": 295,
+    "line_count": 82,
+    "import_date": "2025-11-19T21:47:46.122127",
+    "prefix": "IMAGES-002"
+  }
+}

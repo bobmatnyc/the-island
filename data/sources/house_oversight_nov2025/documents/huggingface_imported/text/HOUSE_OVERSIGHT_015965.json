@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015965",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015965.txt",
+  "text": "f you believe humans outthink computers, be warned; you are in\n\ncontroversial territory. This would need a hyper-computer and many\n\nscientists speak of these in the same breath as perpetual motion\nmachines.\n\nI’m not sure it’s an entirely fair analogy. We understand machines,\nand the physical laws of our Universe forbid perpetual motion. We\ndon't understand brains, so we can't reasonably dismiss human hyper-\ncomputing. Humans commonly demonstrate one clear example of\nthinking which appears to break the Turing limit, namely finding\nsolutions to mathematical puzzles. We need an explanation for this.\nLet me take you on a whistle-stop tour of all the schemes people have\nimagined that might lead to a hyper-computer.\n\nA hyper-computer is a machine that can calculate a function which\na Turing machine can not. For example, when given a number denoting\na problem such as Fermat’s Last Theorem, it can give me in return a\nnumber representing a valid proof. We are not concerned here with\nspeed. We are talking about fundamental ‘do-ability’ Such machines are\noften dubbed ‘super-Turing’.\n\nEpic Fails\n\nLet us first look at some proposals that blatantly fail. My children call\nthese ‘epic fails, and they are the perpetual motion machines of the\nhyper-computing world.\n\nCould we run many Turing machines at the same time, perhaps\neven an infinite number? Then we would have a much more powerful\nmachine that must beat the Turing limit.\n\nThe answer is no.\n\nTuring machines are already infinitely powerful and we know from\nour chapter on infinity that all countable infinities are the same. Infinity\nplus infinity, infinity times infinity, infinity to any power; all are equal.\nOne single, fast, one-dimensional machine can simulate them all. We get\nno greater power with an infinite number of similar machines.\n\nThe next technique which might realize a hyper-computer is to\nhave a machine which simultaneously runs every possible branch in a\nprogram. Each time the machine gets to a point where there is a binary\ndecision, it can take the ‘yes’ branch, spawn a copy of itself, and run the\n‘no’ branch as well. Logically this machine should be able to calculate\nanything since it tries every conceivable option. The process is called\nnon-determinism. This doesn’t mean the computer has free will. It just\nmeans the computer never chooses one option over another. It just\n\nHOUSE_OVERSIGHT_015965",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015965.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2391,
+    "word_count": 388,
+    "line_count": 51,
+    "import_date": "2025-11-19T21:47:45.170456",
+    "prefix": "IMAGES-003"
+  }
+}

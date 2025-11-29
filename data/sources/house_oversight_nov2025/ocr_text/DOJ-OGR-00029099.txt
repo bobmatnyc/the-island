@@ -1,0 +1,20 @@
+02/28/07 08:25 AM 404 370 S8HG via VSI-FAX a Page 3 of 5 #10987 BE
+ee eee oe eee se ee eee ve er
+Call Detail/Toll Records: BST07025668 :
+NOTE: ° i
+On an incoming call search, if the calling number is a cellular number, this is ;
+normally not the actual cellular customer's nunaber; it is the cellular provider's .
+| trunk number. It is the trunk billing number BellSouth uses to identify calls
+originating from a particular cellular telephone carrier. Please contact the cellular
+| carrier to identify the actual originating cellular telephone number. The cellular
+| carrier will have to conduct a search for all calls terminating to the target number.
+| If you have questions on a carrier code, you can access the following web site for
+| information: http://davis-company.com/pic/dbsearch.btmt |
+. |
+|
+| |
+) |
+|
+|
+03956-1671
+DOJ-OGR-00029099

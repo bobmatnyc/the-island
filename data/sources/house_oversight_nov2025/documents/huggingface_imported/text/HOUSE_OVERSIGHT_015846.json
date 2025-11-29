@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015846",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015846.txt",
+  "text": "156 Are the Androids Dreaming Yet?\n\nIt is the barber paradox with the word ‘set’ substituted for ‘barber’\nand ‘contains’ rather than ‘shave. But it’s essentially the same logical\nproblem. You might find this rather contrived but mathematicians must\nhave a system totally free from paradox, otherwise there is no certainty.\nFrege's system was holed below the water line.\n\nEventually, after much further work, a theory of sets was worked out\nthat does not contain the Russell Paradox. It’s called Zermelo-Fraenkel\nset theory, or ZF for short. It solves the Frege problem by forbidding sets\nto refer to themselves. It’s a bit like Microsoft Excel’s solution to dividing\nsomething by zero. It is simply forbidden and generates an error message.\nSet theory was fixed and is now the basis of most mathematical thinking.\n\nWhat is Logic for?\nLogic is the foundation of mathematics. Applying it enables us to make\nirrefutable statements about things: numbers, lines, planes, equations\nand the so on — the things you learned at school - and to prove statements\nabout these things beyond any doubt. This is not the ‘reasonable doubt’\nhurdle of our law courts, but an absolute measure: No possible doubt\nwhatever.\n\nLet’s look at one of the earliest mathematical proofs: Euclid’s proof\nthere are an infinite number of prime numbers. Euclid created this proof\nin ancient Greece around 300sc — so far back that logic was in its infancy\n\nEuclid’s Elements 100AD\n\nHOUSE_OVERSIGHT_015846",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015846.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1469,
+    "word_count": 240,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:47.648077",
+    "prefix": "IMAGES-003"
+  }
+}

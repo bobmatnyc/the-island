@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012935",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012935.txt",
+  "text": "Chapter 2\nWhat Is Human-Like General Intelligence?\n\n2.1 Introduction\n\nCogPrime, the AGI architecture on which the bulk of this book focuses, is aimed at the creation\nof artificial general intelligence that is vaguely human-like in nature, and possesses capabilities\nat the human level and ultimately beyond.\n\nObviously this description begs some foundational questions, such as, for starters: What is\n\"general intelligence\"? What is \"human-like general intelligence\"? What is \"intelligence\" at all?\n\nPerhaps in the future there will exist a rigorous theory of general intelligence which applies\nusefully to real-world biological and digital intelligences. In later chapters we will give some\nideas in this direction. But such a theory is currently nascent at best. So, given the present\nstate of science, these two questions about intelligence must be handled via a combination of\nformal and informal methods. This brief, informal chapter attempts to explain our view on the\nnature of intelligence in sufficient detail to place the discussion of CogPrime in appropriate\ncontext, without trying to resolve all the subtleties.\n\nPsychologists sometimes define human general intelligence using IQ tests and related instru-\nments — so one might wonder: why not just go with that? But these sorts of intelligence testing\napproaches have difficulty even extending to humans from diverse cultures [HHPO12] [Fis01].\nSo it’s clear that to ground AGI approaches that are not based on precise modeling of human\ncognition, one requires a more fundamental understanding of the nature of general intelligence.\nOn the other hand, if one conceives intelligence too broadly and mathematically, there’s a risk\nof leaving the real human world too far behind. In this chapter (followed up in Chapters 9 and\n7 with more rigor), we present a highly abstract understanding of intelligence-in-general, and\nthen portray human-like general intelligence as a (particularly relevant) special case.\n\n2.1.1 What Is General Intelligence?\n\nMany attempts to characterize general intelligence have been made; Legg and Hutter [LI107a]\nreview over 70! Our preferred abstract characterization of intelligence is: the capability of a\nsystem to choose actions maximizing its goal-achievement, based on its perceptions\nand memories, and making reasonably efficient use of its computational resources\n\n19\n\nHOUSE_OVERSIGHT_012935",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012935.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2386,
+    "word_count": 354,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:45.084772",
+    "prefix": "IMAGES-002"
+  }
+}

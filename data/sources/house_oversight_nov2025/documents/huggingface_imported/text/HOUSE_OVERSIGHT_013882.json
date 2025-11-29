@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013882",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013882.txt",
+  "text": "The #1 Fear: ‘Sweetheart, Did You Buy\na Porsche in China?”\n\nL., sure you might have your fears. AJ certainly did:\n\nMy outsourcers now know an alarming amount about me—not just my schedule but my cholesterol, my\ninfertility problems, my Social Security number, my passwords (including the one that is a particularly\nadolescent curse word). Sometimes I worry that I can’t piss off my outsourcers or [ll end up with a\n$12,000 charge on my MasterCard bill from the Louis Vuitton in Anantapur.\n\nThe good news is that misuse of financial and confidential information is rare. In all of the interviews I\nconducted for this section, I could find only one case of information abuse, and I had to search long and\nhard. It involved an overworked U.S.-based VA who hired freelance help at the last moment.\n\nCommit to memory the following—never use the new hire. Prohibit small-operation VAs from\nsubcontracting work to untested freelancers without your written permission. The more established and\nhigher-end firms, Brickwork in the below example, have security measures that border on excessive and\nmake it simple to pinpoint abusers in the case of a breach:\n\ne» Employees undergo background checks and sign NDAs\n(nondisclosure agreements) in accordance with the company\npolicy of maintaining confidentiality of client information\n\ne » Electronic access card for entry and exit\n\ne » Credit card information keyed only by select supervisors\n\ne » Removal of paper from the offices is prohibited\n\ne » VLAN-based access restrictions between different teams; this\nensures that there is no unauthorized access of information\n\nbetween people of different teams in the organization\n\ne » Regular reporting on printer logs\n\nHOUSE_OVERSIGHT_013882",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013882.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1725,
+    "word_count": 275,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:47.310871",
+    "prefix": "IMAGES-002"
+  }
+}

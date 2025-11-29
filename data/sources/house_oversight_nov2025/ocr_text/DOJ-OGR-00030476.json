@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00030476.pdf",
+  "ocr_date": "2025-11-16T22:07:22.234460",
+  "text_length": 2176,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "lefcourt@lefcourtlaw.com"
+  ]
+}

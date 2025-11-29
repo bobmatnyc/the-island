@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_023863",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_023863.txt",
+  "text": "How to Teach the Twelve Cognitive Processes 1917\n\nHow do we teach prediction when there is no script and there are\nno seemingly relevant prior cases? In some sense we can’t. We can teach\npeople how to go about trying to make predictions. This is actually what\nscience is about. Scientists create theories that make predictions, which\nthey then try to verify with evidence. This process—hypotheses verified\nby evidence—can be taught in the sense that it is a way of thinking that\ncan be practiced in various venues. It is reasonable to start teaching chil-\ndren to think in this way about the world around them. As for adults,\nteaching scientific reasoning in the context of corporate training is\nprobably a less than optimal place to start. People in corporations need\nto be able to reason from evidence and to understand what data would\nconfirm or deny the value of actions they have taken for the benefit of\nthe company. This, of course, is scientific reasoning. But, unfortunately,\nthe people who go into the business world tend to have never practiced\nscientific reasoning in their educational careers because they weren’t\ninterested in science. But they must be interested in predicting well in\norder to succeed in business.\n\nHOW TO TEACH MODELING\n\nBuilding a model of a process is very difficult for a child to do and not\nso easy for an adult to do either. When you teach computer science,\nyou learn this quickly enough. Computer programs are models of pro-\ncesses. People try to write computer programs by creating diagrams\nthat model what happens first and then what happens next, and so\non. These models are almost never right the first time.\n\nProgrammers learn to debug their programs, which means they\ncontinue to try to get their model to be accurate. But most people\ncannot do this very easily, and it is a very important skill. Knowing\nhow to raise money is important if one wants to start a business, for\nexample. The money-raising process can be understood, but one has\nto examine it and go through it.\n\nThis is just as true of ordering in a restaurant. Children may seem\nto know about ordering in a restaurant, but they may not understand\nmoney or service or having a job exactly and thus may have an er-\nroneous model of the process. Why does the waitress bring food, is a\ncomplex question for a 5-year-old, but also an important one. Build-\ning models of how and why things work as they do, is significant for\nchildren to learn to do.\n\nHOUSE_OVERSIGHT_023863",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_023863.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2477,
+    "word_count": 432,
+    "line_count": 45,
+    "import_date": "2025-11-19T21:47:48.476894",
+    "prefix": "IMAGES-007"
+  }
+}

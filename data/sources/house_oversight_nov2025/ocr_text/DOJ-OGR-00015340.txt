@@ -1,0 +1,48 @@
+Fed =< Invoice Number: 4-447-52055
+2 Invoice Date: Nov 11, 2002
+Account Number: 1144-2081-6
+Page: 40f8
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Oct 25, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+FedEx has audited this airbill for correct pieces, weight, and service. Any changes made are reflected in the invoice amount.
+Tracking D 831051480401 Sender Recipient
+Service Type FedEx Intl Economy SHANNON JAMIE/JOANNE
+Package Type Customer Packaging JEFFREY E EPSTEIN FIANANCIAL TRUST
+Zone I 457 MADISON AVE 6100 RED HOOK QUARTERS
+Orig./Dest. ABQ/STT NEW YORK NY 10022-6843 US B-3
+Packages 1 ST THOMAS 453 VI
+Weight 0.5 Ibs, 0.2 kgs
+Delivered Oct 28, 2002 15:17 Transportation Charge 37 60
+Signed by D.WALLACE Fuel Surcharge 109
+FedEx Use _/US010/_ Disesiat “1.13
+Total Transportation Charges USD $ 37.56
+Picked up: Oct 29, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Recipient not in/business closed.
+Tracking D 791219320898 Sender Recipient
+Service Type FedEx Intl Priority CECILIA STEEN ALEXANDRA DIXON
+Package Type FedEx Envelope JEFFREY E. EPSTE N Po
+Zone D 457 MADISON AVENUE fT sisSY
+Orig/Dest. _IRB/LON 4TH FLOOR Es
+Packages 1 NEW YORK NY 10022 US
+Weight 0.5 Ibs, 0.2 kgs
+Delivered Nov 06, 2002 10 03 Transportation Charge 28 00
+Signed by A DIXON Fuel Surcharge 081
+FedEx Use _/US010/08 Discount -0 84
+Total Transportation Charges USD $ 27.97
+Picked up: Oct 30, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Tracking D 791969484689 Sender Recipient
+Service Type FedEx Intl Priority CECILIA STEEN MAR E JOSEPH EXPERTON
+Package Type FedEx Envelope JEFFREY E. EPSTE N BERLIOZ & CO.
+Zone D 457 MADISON AVENUE ee
+Orig./Dest. JRB/KNO 4TH FLOOR FP
+Packages 1 NEW YORK NY 10022 US
+Weight 0.5 Ibs, 0.2 kgs
+eelvered Nov 04, 2002 10 01 Transportation Charge 28 00
+Signed by M.GRUSELLE Fuel Surcharge 081
+FedEx Use _/US010/_ Discount -0 84
+Total Transportation Charges USD $ 27.97
+SDNY_GM_00340693 31
+DOJ-OGR-00015340

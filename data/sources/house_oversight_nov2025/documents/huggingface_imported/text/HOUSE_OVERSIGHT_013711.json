@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013711",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013711.txt",
+  "text": "Liebovitch, 1998).\n\nWe see that the Hurst exponent, Fano and Allen factors, Levy exponent and\npower spectral scaling exponent are kindred statistical descriptors. They are most\nusefully applicable to systems with distributions that fail to be Gaussian or\nasymmetrically Poisson, the latter from random data sequences with only positive x\nvalues, thus backed up toward zero by a minimum inter-event interval or amplitude.\nThese time series are sequentially dependent, not conventionally stationary, without\nfinite central moments and with self-correlations that don’t demonstrate Gaussian\nexponential decay with sample length or time. The following are some examples of\n\nthe use of these measures in studies of biological dynamics. .\n\nExamples of Biological Data with Divergent Distributions and Power Law\n\nScaling\n\nA paradigm challenging group of experiments involved models and measures\nof the distribution of characteristic open and closed times of membrane ion\nconductance channels. The usual approach to this problem assumed the existence\nof a small set of distinguishable channel types that were reflected in discrete\nconductance events with a small set of characteristic open and closed times. The\ndistributions of each of could be fitted with its own, Markov process derived,\nexponential. With technical advances and improved temporal resolution, more\ncharacteristic times and their associated a = 2 exponentials were reported with as\nmany as three not being unusual. Liebovitch (and Sullivan,1987; 1989) used\nanalogue to digital transformation of current recordings from the unselective corneal\nepithelial channels and voltage dependent potassium channels in cultured mouse\nhippocampal cells at temporal resolutions ranging from 170 to 5000 Hz and found\nsimilarly shaped, a < 2, nonconvergent distributions across temporal scales. This\nled these investigators to suggest that, related to the >16 recorded magnitudes of\ncharacteristic times, from picoseconds to months, in autonomous protein motion\n(Careri et al, 1975; Gurd and Rothgeb, 1979), that there was an “a stable” hierarchy\n\n211\n\nHOUSE_OVERSIGHT_013711",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013711.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2119,
+    "word_count": 308,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:47.630454",
+    "prefix": "IMAGES-002"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_022576",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_022576.txt",
+  "text": "RESOLUTIONS\n\nWhat Are the Different Types of\nResolutions with DOJ?\n\nCriminal Complaints, Informations, and Indictments\n\nCharges against individuals and companies are\nbrought in three different ways under the Federal Rules of\nCriminal Procedure: criminal complaints, criminal infor-\nmations, and indictments.\n\nDOJ may agree to resolve criminal FCPA mat-\nters against companies either through a declination or, in\nappropriate cases, a negotiated resolution resulting in a plea\nagreement, deferred prosecution agreement, or non-prose-\ncution agreement. For individuals, a negotiated resolution\nwill generally take the form of a plea agreement, which may\ninclude language regarding cooperation, or a non-prosecu-\ntion cooperation agreement. When negotiated resolutions\ncannot be reached with companies or individuals, the mat-\n\nter may proceed to trial.\n\nPlea Agreements\n\nPlea agreements—whether with companies or\nindividuals—are governed by Rule 11 of the Federal\nRules of Criminal Procedure. The defendant gener-\nally admits to the facts supporting the charges, admits\nguilt, and is convicted of the charged crimes when the\n\nplea agreement is presented to and accepted by a court.\n\nResolutions\n\nThe plea agreement may jointly recommend a sentence\nor fine, jointly recommend an analysis under the USS.\nSentencing Guidelines, or leave such items open for\n\nargument at the time of sentencing.\n\nDeferred Prosecution Agreements\n\nUnder a deferred prosecution agreement, or a DPA\nas it is commonly known, DOJ files a charging document\nwith the court,” but it simultaneously requests that the\nprosecution be deferred, that is, postponed for the pur-\npose of allowing the company to demonstrate its good\nconduct. DPAs generally require a defendant to agree to\npay a monetary penalty, waive the statute of limitations,\ncooperate with the government, admit the relevant facts,\nand enter into certain compliance and remediation com-\nmitments, potentially including a corporate compliance\nmonitor. DPAs describe the company’s conduct, coopera-\ntion, and remediation, if any, and provide a calculation of\nthe penalty pursuant to the US. Sentencing Guidelines.\nIn addition to being publicly filed, DOJ places all of its\nDPAs on its website. If the company successfully com-\npletes the term of the agreement (typically two or three\nyears), DOJ will then move to dismiss the filed charges. A\ncompany’s successful completion of a DPA is not treated\n\nas a criminal conviction.\n\nHOUSE_OVERSIGHT_022576",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_022576.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2479,
+    "word_count": 368,
+    "line_count": 66,
+    "import_date": "2025-11-19T21:47:48.874777",
+    "prefix": "IMAGES-007"
+  }
+}

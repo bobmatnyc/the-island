@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015906",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015906.txt",
+  "text": "216 Are the Androids Dreaming Yet?\n\nOne perfect way to encode a message is to use a one-time pad. On\na sheet of paper I write a completely random set of numbers or letters\n— since we are going to translate numbers to letters it does not matter\nwhich. I make a copy and give it to a person I later want to send a coded\nmessage. Because I will only use these two paired sheets once it helps to\nmake a few of them - a pad in fact. By convention, we refer to a single\nsheet or a whole book as a one-time pad code. Here is the one-time pad I\ncreated earlier. It is just a random sequence of letters and spaces.\n\nkaleygngaloiuebldlan dlkawoqyevbax gmlsosuebal\n\nTo code a message, I substitute numbers for letters as with the\nprogressive cypher earlier again using modulo arithmetic to wrap around\nif I reach the letter ‘z. I have applied my one-time pad to the hello reader\nmessage below to get ‘sfacngfvbpta.\n\nhello reader\n\nsfacngfvbpta\n\nThis code is unbreakable — almost! Notice there are very few clues\nfor anyone wanting to decode it without holding a copy of the pad. Spaces\ndo not necessarily indicate breaks between words, and letter patterns are\nabsent. It has only one flaw. The total number of characters and spaces\ncould have some meaning. This is a problem because if I routinely\ncommunicated bombing targets and my message was “Bomb Bath’. You\ncould figure out the sender was not going to bomb Bristol if the message\nwere shorter than 11 letters and spaces. To avoid this problem, messages\nare extended with nonsense at beginning and end to make sure no\ninformation can be gleaned from the length. The convention is to code\nmessages to the full length of the pad. You must never reuse a pad. Each\ntime you code a message, rip off that page rather like a calendar. Destroy\nit and use the next page for the next message. At the other end, the\nrecipient uses his copy of the pad to run the process in reverse. Decode\nthe message by swapping each letter according to the modulo method,\nrip the page from the pad, and burn it. Because each key is only used\nonce you can't use any sort of statistical method to work out the message,\nmaking the one-time pad perfectly secure. Claude Shannon proved this\nin 1945 while working for Bell Corporation but, due to wartime secrecy,\nhis proof was not published until 1948.\n\nHOUSE_OVERSIGHT_015906",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015906.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2338,
+    "word_count": 424,
+    "line_count": 44,
+    "import_date": "2025-11-19T21:47:46.475308",
+    "prefix": "IMAGES-003"
+  }
+}

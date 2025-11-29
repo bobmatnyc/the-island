@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_024263",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_024263.txt",
+  "text": "httos://coincenter.org/entry/what-are-smart-contracts-and-what-can-we-do-with-them\n\narchived at https://perma.cc/BH6T-J6S7.\n\n[OPTIONAL]\ne Arvind Narayanan; “What Happened to the Crypto Dream, Part 1,” Co-published by the\nIEEE Computer and Reliability Societies (March/April 2013)\nhttp://randomwalker.info/publications/crypto-dream-part1.pdf archived at\n\nhttps://perma.cc/DX8U-QJ5A.\ne Arvind Narayanan, “What Happened to the Crypto Dream?, Part 2,\" Co-published by the\n\nIEEE and Reliability Societies (May/June 2013)\nhttp://randomwalker.info/publications/crypto-dream-part2.pdf archived at\nhttps://perma.cc/F482-84AY.\n\ne Lawrence Lessig Code 2.0 lecture from COALA Blockchain Workshop:\nhttps://www.youtube.com/watch?v=pcYJTIDhYFO.\n\ne Chelsea Barabas and Ethan Zuckerman, “Can Bitcoin be used for Good?,” The Atlantic\n(April 7, 2016)\nhttp://www.theatlantic.com/technology/archive/2016/04/bitcoin-hype/477141/ archived at\nhttps://perma.cc/V94Q-CCP3.\n\nDay 4: Private Infrastructures for Government Surveillance\n\nDigital privacy has at times been understood as privacy against corporate intrusion (think ad\nnetworks); against government (think the various government intelligence-gathering\nestablishments around the world); and against one another (think drones as well as more\npedestrian technologies that empower people to document facts about, or even doxx, each\nother).\n\nThis session will look at the second form of surveillance, especially as effectuated through the\ncooperation or compulsion of private intermediaries. How successful is such surveillance, and\nwill it continue to be effective as the public reacts by potentially adopting privacy-enhancing\ntools? How successful do we want it to be, and how might frameworks agreeable within\njurisdictions that embrace the rule of law be used or abused within those that do not?\n\nReadings:\n\ne David O’Brien, Matt Olsen, Bruce Schneier, and Jonathan Zittrain, et al. “Don’t Panic.\nMaking Progress on the ‘Going Dark’ Debate,” The Berkman Center for Internet &\nSociety at Harvard University (Feb 1, 2016)\nhttps://cyber.law.harvard.edu/pubrelease/dont-panic/Dont_Panic_ Making Progress on\nGoing Dark_Debate.pdf archived at https://perma.cc/NT9M-ELAG.\n\ne John Cassidy, “Lessons from Apple vs. The F.B.I.,” The New Yorker (March 29, 2016)\nhttp://Awww.newyorker.com/news/john-cassidy/lessons-from-apple-versus-the-f-b-i\narchived at https://perma.cc/282P-A7MS.\n\nHOUSE_OVERSIGHT_024263",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_024263.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2427,
+    "word_count": 279,
+    "line_count": 51,
+    "import_date": "2025-11-19T21:47:48.235061",
+    "prefix": "IMAGES-007"
+  }
+}

@@ -1,0 +1,56 @@
+Page 602
+
+Page 4
+Log Assignment
+Date/Time User Action Alias Post Shiftdate Watch Type Modtry
+08/09/19 11:04 [P8)'P7'S)) OT By-passed DXB), (DKENC) SHU #1 08/09/19 EW _ Signup List oO
+08/09/19 11:04 OT By-passed SHU #1 08/09/19 E/W Signup List CO
+08/09/19 11:04 OT By-passed SHU #1 08/09/19 EA Signup List Ly
+08/09/19 11:04 OT By-passed SHU #1 08/09/19 E/W Signup List O
+08/09/19 11:04 OT By-passed SHU #1 08/09/19 EW Signup List Cc
+08/09/19 11:04 OT By-passed SHU #1 08/09/19 EW Signup List om
+08/09/19 11:03 OT Refused SHU #1 08/09/19 E/W _ Signup List Bi
+08/09/19 11:03 OT By-passed SHU #1 08/09/19 E/W Signup List oO
+08/09/19 11:02 OT By-passed SHU #1 08/09/19 EW Signup List C]
+08/09/19 10:59 OT Removed - Staff Cancelled SHU #1 08/09/19 EW Signup List C)
+08/09/19 10:22 OT Assigned INTERNAL #2 08/10/19 MAW Signup List O
+08/09/19 10:22 OT By-passed INTERNAL #2 08/10/19 M/W _ Signup List OC
+08/09/19 9:57 OT Assigned TREATY 2 08/09/19 P/M List Exempt El
+08/09/19 9:48 Last MNDTRY OT Date Set N/A N/A N/A iE]
+08/09/19 9:47 OT Assigned TREATY 1 08/09/19 P/M List Exempt oO
+08/09/19 9:47 OT Assigned TREATY LT 08/09/19 P/M List Exempt Cl
+08/09/19 9:18 Signed Up for OT N/A 08/15/19 N/A N/A )
+08/09/19 9:18 Signed Up for OT N/A 08/14/19 N/A N/A a
+08/09/19 9:18 Signed Up for OT N/A 08/13/19 N/A N/A C
+08/09/19 9:09 OT Assigned 7 NORTH 08/09/19 E/W List Exempt C]
+08/09/19 8:59 OT Assigned ACT LT 08/09/19 P/M List Exempt C]
+08/09/19 8:03 OT Assigned TNWDVR 08/09/19 P/M List Exempt CT
+08/09/19 8:03 OT Removed - Mgmt Cancelle TNWDVR 08/09/19 P/M List Exempt Cc]
+08/09/19 7:49 Last MNDTRY OT Date Set N/A N/A N/A O
+08/09/19 7:44 Last MNDTRY OT Date Set N/A N/A N/A C
+08/09/19 7:43 Last MNDTRY OT Date Set N/A N/A N/A oO
+08/09/19 6:55 OT Assigned 11 NORTH 08/09/19 DW List Exempt Oo
+08/09/19 6:53 OT Removed - Mgmt Cancelle SHU #2 08/09/19 D/W List Exempt Cc]
+08/09/19 6:49 Signed Up for OT N/A 08/30/19 N/A N/A oO
+08/09/19 6:49 Signed Up for OT N/A 08/29/19 N/A N/A Oo
+08/09/19 6:49 Signed Up for OT N/A 08/28/19 N/A N/A Cc}
+08/09/19 6:49 Signed Up for OT N/A 08/27/19 N/A N/A oO
+08/09/19 6:49 Signed Up for OT N/A 08/30/19 N/A N/A 3]
+08/09/19 6:49 Signed Up for OT N/A 08/27/19 N/A N/A C]
+08/09/19 6:49 Signed Up for OT N/A 08/29/19 N/A N/A CO
+08/09/19 6:49 Signed Up for OT N/A 08/28/19 N/A N/A CO
+08/09/19 6:49 Signed Up for OT N/A 08/24/19 N/A N/A C)
+08/09/19 6:49 Signed Up for OT NIA 08/23/19 N/A N/A LJ
+08/09/19 6:49 Signed Up for OT N/A 08/22/19 N/A N/A O
+08/09/19 6:49 Signed Up for OT N/A 08/21/19 N/A N/A C}
+08/09/19 6:49 Signed Up for OT N/A 08/23/19 N/A N/A Cl
+08/09/19 6:49 Signed Up for OT N/A 08/22/19 N/A N/A [2]
+08/09/19 6:49 Signed Up for OT N/A 08/21/19 N/A N/A C}
+08/09/19 6:49 Signed Up for OT N/A 08/20/19 N/A N/A [|
+08/09/19 1:10 Signed Up for OT N/A 08/13/19 N/A N/A Cl
+08/09/19 1:10 Signed Up for OT N/A 08/12/19 N/A N/A C]
+08/09/19 1:10 Signed Up for OT N/A 08/11/19 N/A N/A |
+08/09/19 1:10 Signed Up for OT N/A 08/10/19 N/A N/A O
+
+5/19/2020 10:37:13 AM
+DOJ-OGR-00025055

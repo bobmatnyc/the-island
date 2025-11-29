@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015795",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015795.txt",
+  "text": "The Brain 105\n\nDiffusion Tensor Image\n\nchanged to the one we use today: Magnetic Resonance Imaging, ‘MRI.\nThe system works by applying a strong magnetic field to your body to\nexcite the hydrogen atoms. Since we are mostly H2O there are plenty of\nthese.\n\nThree magnetic fields are used. First, an extremely strong field is\napplied to the whole body. This causes all the hydrogen atoms in the\nwater and fat to spin in line with the field of the machine. Next a gradient\nfield is applied to the top of your head so it is slightly more magnetized\nthan the bottom of your feet and, finally, a pulse of magnetism is applied\nto the top of your head. The spinning hydrogen atoms line up a little\nmore when this pulse is applied and then randomize again when it is\nswitched off. As they randomize, they give off energy. The clever part is\nthe gradient field which causes the atoms to give off energy at slightly\ndifferent times — the top of your head first, your neck a fraction of a\n\nHOUSE_OVERSIGHT_015795",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015795.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 998,
+    "word_count": 182,
+    "line_count": 21,
+    "import_date": "2025-11-19T21:47:45.164886",
+    "prefix": "IMAGES-003"
+  }
+}

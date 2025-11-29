@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013736",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013736.txt",
+  "text": "higher EEG Dz values were frontal in schizophrenic patients and more central in\ncontrols (Elbert et al, 1992). The Dz computed on the EEG during Stage IV (“delta”)\nsleep was sensitive to acute sleep deprivation and recovery, but demonstrated\ncompensation (Cerf et al, 1996). Non-alcholic children of alcoholic parents\nmanifested lower values for D; in their EEG attractors than the children of a normal\ncontrol group (Ehlers et al, 1995). Higher |.Q. correlated with EEG Dz in most leads\nin the resting state but not during a visual imagery task (Lutzenberger et al, 1992).\nThese differences also correlated with individual differences in task performance in\na perceptual pattern predictive task (Gregson et al, 1990) and with a working\nmemory task load with regional differences most marked in the right fronto-temporal\n\ncortex (Sammer, 1996).\n\nPeripheral nerve stimulation in the earlobe and trapezius muscle induced\nincrements in Dz in the EEG of specific brain regions (Heffernan, 1996). Memory for\nbut not induced pain increased EEG D2 in chronic pain patients but not in normal\ncontrols (Lutzenberger et al, 1997). Using contingent reinforcement of brain wave\nmodes by hypothalamic, but not cerebral hemispheric, stimulation reduced Dz in the\nEEG (Mogilevskii et al, 1998) resembling the changes accompanying defensive\nreflex conditioning in the rabbit between the early and late stages of the process\n(Efremova and Kulikov, 1997). Difficult to diagnose “periodic lateralized epileptiform\ndischarge” syndromes have apparently yielded to D2 computations (Stam et al,\n1998). In equally problematic “atypical seizure” syndromes in children, D2 computed\non the autocovariance functions of 200 Hz digitized EEG records from multiple\n\nchannels demonstrated characteristic changes (Yaylali et al, 1996).\n\nUnlike computing a reliable leading 4(+)on a point set of a time series\n\nreconstruction denoting the “sensitivity to initial conditions” requirement for the\n\ndiagnosis of chaos (and a potential for change such that a decrease in the positivity\nof A(+) > 4(0) may auger a nearby bifurcation), the presence of a fractional scaling\n\nexponent, D,, does not in and of itself implicate a chaotic dynamical state. A nice\n\nexample of a nonchaotic dynamic with 4 = 0 that has a fractional scaling exponent,\n\nD = 0.538, is the “Feigenbaum” point where the above noted “infinite” series of\n\n236\n\nHOUSE_OVERSIGHT_013736",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013736.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2411,
+    "word_count": 370,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:45.596052",
+    "prefix": "IMAGES-002"
+  }
+}

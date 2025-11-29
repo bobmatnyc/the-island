@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027476",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027476.txt",
+  "text": "Flags: 1085445\nIs Read: No\n\nIs Invitation: No\n\nGUID: 9526E758-1542-46A4-8C4E-BC6EBC7 7D9BF\n\nMessage: No problem ever!\n\nSender: e:jeeitunes@gmail.com\n\nTime: 11/16/18 02:53:27 AM (564058407)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\n-\n(ee)\n\nGUID: F4D32FA1-A158-4348-BCB9-66D44BE\n\nHAAB\n\nMessage: Flexible wins\n\nTime: 11/16/18 02:54:29 AM (564058469)\n\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: BD4048DB-C492-4E41-AC62-Al1ECDO7FEASA\n\nMessage: UK a hot mess\n\nSender: e:jeeitunes@gmail.com\n\nTime: 11/16/18 02:55:38 AM (564058538)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 29D4C445-EAB3-435F-9118-109211B5F820\n\nMessage: I canceled meeting\n\nTime: 11/16/18 02:55:50 AM (564058550)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 268348B4-2EFA-4395-ADAB-1D90CDEA6AAE\n\nMessage: Thanks\n\nSender: e:jeeitunes@gmail.com\nTime: 11/16/18 03:01:22 AM (564058882)\nFlags: 1085445\n\nTs Read: No\n\nHOUSE_OVERSIGHT_027476",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027476.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 930,
+    "word_count": 109,
+    "line_count": 68,
+    "import_date": "2025-11-19T21:47:46.576574",
+    "prefix": "IMAGES-009"
+  }
+}

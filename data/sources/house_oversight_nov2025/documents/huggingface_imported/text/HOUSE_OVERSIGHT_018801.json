@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_018801",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_018801.txt",
+  "text": "CompetitiveRetail Rent Survey\n\nNO.\n\nPROPERTY\n\nTown Square\nLas Vegas Blvd. & 215\nLas Vegas, NV\n\nMandalay Bay Place\nLas Vegas Blvd. & Tropicana\nLas Vegas, NV\n\nCrystals at CityCenter\nLas Vegas Blvd. S of Harmon\nLas Vegas, NV\n\nMiracle Mile Shops\nLas Vegas Blvd. & Harmon\nLas Vegas, NV\n\nForum Shops at Caesars\nLas Vegas Blvd. N of Flamingo\nLas Vegas, NV\n\nThe Grand Canal Shoppes\n3377 Las Vegas Blvd.\nS Las Vegas, NV\n\nThe Shoppes at the Palazzo\n3327 Las Vegas Blvd.\nS Las Vegas, NV\n\nFashion Show Mall\n3200 Las Vegas Boulevard\nS. Las Vegas, NV\n\nDESCRIPTION\n\nSub-Type: Lifestyle Center\nYear Built: 2008\nTotal GLA: 900,000\n\nSub-Type: Specialty Center\nYear Built: 2003\nTotal GLA: 90,000\n\nSub-Type: Specialty Center\nYear Built: 2009\nTotal GLA: 360,000\n\nYear Built: 2000\nExpansion: 2007\nRenovation: 2008\nTotal GLA: 490,000\n\nSub-Type: Specialty Center\nYear Built: 1992\nExpansion: 1997\nRennovation: 2004\n\nTotal GLA: 650,000\n\nSub-Type: Specialty Center\nYear Built: 1999\nTotal GLA: 500,000\n\nSub-Type: Specialty Center\nTotal GLA: 320,000\n\nAnchor GLA: 85,000\nAnchor Ratio: 27%\n\nSub-Type: Super Regional Center\nYear Built: 1981\n\nExpansion: 1993 and 2002\nRenovation: 2002\n\nTotal GLA: 1,868,219\n\nAnchor GLA: 1,259,154\n\nAnchor Ratio: 67%\n\nANCHOR TENANTS\n\nSaks, Whole Foods, Apple\n\nRetail bridge between Mandalay & Luxor\nwith shops, restaurants\n\nUpscale specialty retail project on Las\nVegas Blvd. in CityCenter\n\nSpecialty retail center at Planet Hollywood\n\nUpscale/themed retail project at Caesars\n\nUpscale/themed retail project at The\nVenetian\n\nBarney’s New York\n\nDillard’s, Nordstrom, Neiman Marcus, Saks\nFifth Avenue, Macy’s-North, Forever 21\n\nIN-LINE SHOP\nRENT/SF SALES/SF\n$40 - $80 $400 -$600\n$60 - $90 $500 -$600\n$90 - $120 $900 -$1,500\n$65 - $85 $800 -$900\n\n$100 - $125 $1,000 -$1,200\n$85 - $110 $900 -$950\n$80 - $100 $900 -$925\n$80 - $100 $800 -$1,000\n\nVACANCY\n\n10.0%\n\n5.0%\n\n12.0%\n\n7.0%\n\n1.0%\n\n6.0%\n\n11.0%\n\n4.0%\n\nHOUSE_OVERSIGHT_018801",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_018801.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1921,
+    "word_count": 301,
+    "line_count": 139,
+    "import_date": "2025-11-19T21:47:47.931545",
+    "prefix": "IMAGES-005"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013113",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013113.txt",
+  "text": "11.4 Piaget’s Stages in the Context of Uncertain Inference 197\n\nStage 2:Concrete Operational\n\n\\ Inference Rules\n\n1\n; Knowledge about\nWorld “\nInference Control Strategy |\nKnowledge about\nhow to control\ninference\n\nNew\nKnowledge\n\nFig. 11.5: Uncertain Inference in the Concrete Operational Stage\n\n1. Conservation tasks, such as conservation of number,\n\n2. Decomposition of complex tasks into easier subtasks, allowing increasingly complex tasks\nto be approached by association with more easily understood (and previously experienced)\nsmaller tasks,\n\n3. Classification and Serialization tasks, in which the mind can cognitively distinguish various\ndisambiguation criteria and group or order objects accordingly.\n\nIn terms of inference control this is the stage in which actual knowledge about how to control\ninference itself is first explored. This means an emerging understanding of inference itself as a\ncognitive task and methods for learning, which will be further developed in the following stages.\n\nAlso, in this stage a special cognitive task capability is gained: “Theory of Mind,\" which in\ncognitive science refers to the ability to understand the fact that not only oneself, but other\nsentient beings have memories, perceptions, and experiences. This is the ability to conceptually\n“put oneself in another’s shoes” (even if you happen to assume incorrectly about them by doing\nso).\n\n11.4.2.1 Conservation of Number\n\nConservation of number is an example of a learning problem classically categorized within\nPiaget’s concrete-operational phase, a “conservation laws” problem, discussed in [Shu03] in\nthe context of software that solves the problem using (logic-based and neural net) narrow-AI\ntechniques. Conservation laws are very important to cognitive development.\n\nConservation is the idea that a quantity remains the same despite changes in appearance. If\nyou show a child some objects and then spread them out, an infantile mind will focus on the\nspread, and believe that there are now more objects than before, whereas a concrete-operational\nmind will understand that the quantity of objects has not changed.\n\nConservation of number seems very simple, but from a developmental perspective it is ac-\ntually rather difficult. “Solutions” like those given in [Shu03] that use neural networks or cus-\n\nHOUSE_OVERSIGHT_013113",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013113.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2330,
+    "word_count": 346,
+    "line_count": 54,
+    "import_date": "2025-11-19T21:47:46.718446",
+    "prefix": "IMAGES-002"
+  }
+}

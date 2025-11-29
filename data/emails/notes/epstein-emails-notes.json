@@ -1,0 +1,54 @@
+{
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 531966,
+      "user": 11473,
+      "organization": 235,
+      "page_number": 70,
+      "access": "public",
+      "edit_access": false,
+      "title": "Goldberger calling Krischer",
+      "content": "",
+      "x1": 0.08142857142857143,
+      "x2": 1.0114285714285713,
+      "y1": 0.09935064935064936,
+      "y2": 0.7307792207792208,
+      "created_at": "2019-10-21T21:59:58.771061Z",
+      "updated_at": "2020-11-12T16:22:57.087157Z"
+    },
+    {
+      "id": 531969,
+      "user": 11473,
+      "organization": 235,
+      "page_number": 68,
+      "access": "public",
+      "edit_access": false,
+      "title": "Villafana on DNP",
+      "content": "",
+      "x1": 0.02,
+      "x2": 1.0114285714285713,
+      "y1": 0.014350649350649352,
+      "y2": 0.5817532467532468,
+      "created_at": "2019-10-21T22:05:34.507594Z",
+      "updated_at": "2020-11-12T16:22:57.086674Z"
+    },
+    {
+      "id": 2063282,
+      "user": 6100,
+      "organization": 235,
+      "page_number": 2,
+      "access": "public",
+      "edit_access": false,
+      "title": "Fortunate to get the 'deal of the century'",
+      "content": "",
+      "x1": 0.045714285714285714,
+      "x2": 0.9333333260672433,
+      "y1": 0.3370044052863436,
+      "y2": 0.45584388766519823,
+      "created_at": "2021-11-04T22:53:28.917081Z",
+      "updated_at": "2021-11-04T22:53:28.917512Z"
+    }
+  ]
+}

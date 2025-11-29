@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026411",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_026411.txt",
+  "text": "objects and processes look like and how they interact. Concepts are probably one of the top layers of the\nlearning hierarchy, i.e. they are acquired *after* we learn to simulate a mental world, not before. Classical\n\nlinguists ignored the simulation of a mental world entirely.\n\nIt seems miraculous that purely conceptual machine translation works at all, but that is because concepts are\nshared between speakers, so the structure of the conceptual space can be inferred from the statistics of\nlanguage use. But the statistics of language use have too little information to infer what objects look like\n\nand how they interact.\n\nMy own original ideas concern a few parts of the emerging understanding of what the brain does. The\n\"request-confirmation networks\" that I have introduced at a NIPS workshop in last the December are an\nattempt at modeling how the higher layers might self-organize into cognitive programs.\n\nCheers!\n\nplease note\nThe information contained in this communication is\nconfidential, may be attorney-client privileged, may\nconstitute inside information, and is intended only for\nthe use of the addressee. It is the property of\nJEE\nUnauthorized use, disclosure or copying of this\ncommunication or any part thereof is strictly prohibited\nand may be unlawful. If you have received this\ncommunication in error, please notify us immediately by\nreturn e-mail or by e-mail to jeevacation@gmail.com, and\ndestroy this communication and all copies thereof,\nincluding all attachments. copyright -all rights reserved\n\nplease note\nThe information contained in this communication is\nconfidential, may be attorney-client privileged, may\nconstitute inside information, and is intended only for\nthe use of the addressee. It is the property of\nJEE\nUnauthorized use, disclosure or copying of this\ncommunication or any part thereof is strictly prohibited\nand may be unlawful. If you have received this\ncommunication in error, please notify us immediately by\nreturn e-mail or by e-mail to jeevacation@gmail.com, and\n\nHOUSE_OVERSIGHT_026411",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_026411.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2038,
+    "word_count": 311,
+    "line_count": 44,
+    "import_date": "2025-11-19T21:47:44.040608",
+    "prefix": "IMAGES-008"
+  }
+}

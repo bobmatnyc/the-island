@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015872",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015872.txt",
+  "text": "182 Are the Androids Dreaming Yet?\n\nWe know from our childhood that infinity plus one is still infinity.\nIs there anything we can do to make infinity bigger? Perhaps multiplying\ninfinity by infinity will do the trick.\n\nInfinity times infinity can be visualized as a square with edges of\ninfinite length. We can show that this square is the same size as a one-\ndimensional infinity through a clever trick — the zigzag method. Mark\nthe infinity square into a grid. Start in the corner square, go across,\ndiagonally down, then across, diagonally up, and so on. I'll draw you\na picture. We visit every square in our grid using a single line. We can\nthen lay down our infinite zigzag line next to the infinite line of one\nof the edges. The lines are the same length as they are both infinitely\nlong! So infinity, times infinity, can be matched to infinity, they are the\nsame. Cantor thought this a very strange result and wrote to a fellow\nmathematician, Dedekind, “Je le vois, mais je ne le crois pas!”, “I see it,\nbut I don't believe it!”\n\nIf you are struggling with this, don’t worry. We just jumped forward\nto quite a complex concept. Let’s take it more slowly. One way to get a\nbetter grip on infinity is through the stories of David Hilbert and the\nInfinity Hotel.\n\nInfinity for Dummies\n\nHilbert’s Hotel is a mythical building with an infinite number of rooms.\nOther than this strange feature it is a regular hotel complete with\nminibar, dodgy TV, and slightly mad manager. The rooms are numbered\nsequential starting at one, then two, three, four, and so on. The hotel\nallows you to play a series of mathematical games to see how infinity\nbehaves.\n\nAre there the same number of minibars as there are rooms? That's\neasy. I said every room has a minibar. We can use the matching technique\nto match minibars with rooms. Go to the first room. There is a number\non the door and a minibar inside. The same goes for room 2 and 3 and\nthis goes on forever. I’ve just proven two infinite things are the same -\nrooms and bars, but I still have not shown you why the zigzag line is the\nsame length as the edge line.\n\nWhen you first explain infinity to a child they immediately ask\n“What's infinity plus one.” A particularly smart kid I met, Dermot, asked,\n“What's infinity plus three?” Hilbert’s Hotel allows us to answer this\nproblem in a way we can visualize.\n\nHOUSE_OVERSIGHT_015872",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015872.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2374,
+    "word_count": 429,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:46.381804",
+    "prefix": "IMAGES-003"
+  }
+}

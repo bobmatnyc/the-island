@@ -1,0 +1,47 @@
+it This is the switch! This is the This is the MO=Outbound {This Is /If the call was |This is the calling [This Is .
+' thatthe callis |date ofthe  |starttimeof  |eall your janoutgolng [party 4. the .
+i hitting off of. jcall. the cail, . target |call=then the . duration
+t ‘ #, oulgoing # ofthe |
+: . that your calt in ‘
+target dialed seconds ,
+| will be in this
+‘ . a . . i colum ‘ .
+MT=Incomlng call lfthe calt was |If the call was an
+aninsoming |outgelng call=then
+‘ #={hea your [your target # will
+: target wil) |be In this.column, - .
+; ; . appear this ‘
+, column
+: MF=Incoming call {f the call was an
+to volcamall-fn Incoming ‘
+\ fata cases, It call=than the
+‘ forwarding target will appear :
+i in this column
+|
+| as Ee
+_ Not cal a ee
+; LL, CN, TR.and
+: ME all pertain to
+: information and
+i will not ba
+; . relevant to your
+} investigation .
+' NOTES: .
+When the #s in the MDN column, CALLED # column and the CPN 4 column are all different, ‘
+: then you are looking ata routing #, The Routing # will appear in the CALLED # column. . ‘
+i (All three suimbers are different)
+; If you see your target # in the MDN column, the CALLED # cotuma and the CPN 4 column,
+. then you are looking at your-target checking his/her voicemail. (Ail three numbers are the same) . :
+i .
+Codes: :
+: *86 ts volcamail retrieval
+i #225 is checking account balance
+#646 Is checking minutes .
+i . #777 Ig datafweb services . “
+‘ #738 is prepald volcemail retrieval
+ne #729 Is adding minutes for prepaid
+i, *67 Ia used to black the moblie # . ,
+| . *82 Is used to unblock the mobile #
+a 03956-1682
+° ‘
+DOJ-OGR-00029110

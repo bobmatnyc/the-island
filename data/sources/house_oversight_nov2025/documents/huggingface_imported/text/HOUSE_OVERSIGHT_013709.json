@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013709",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013709.txt",
+  "text": "along the x axis and the logarithm of the ratio of the range to the standard deviation\non the y axis. An independent random system has a Hurst of 0.5. If a sequential\nincrease or decrease in an amplitude or inter-event time tends to be followed by a\nchange in the same direction, the Hurst > 0.5. If an increase in the measure tends\nto be followed by a decrease, then Hurst < 0.5. Computation of the Fano factor\n(power law exponent) exploits the same general strategy using the variance/mean\nin place of the range/variance and counting the number of events (such as single\nneuron discharges or heartbeats) in time windows of increasing length, generating a\nsimilar log-log graph. There is a relatively long history of the use of spike-number\nvariance-to mean ratio in studies of response variability in visual cortical neurons\n(see Teich et al, 1996 for a review). The Allen factor (power law exponent) tends to\nreduce the influence of local trends by a computation of the variance of the\ndifference between the number of events in two successive time windows divided\n\nby twice the mean number of events in the window.\n\nEach system’s invariant logarithmic slope across sample segment sizes\ntakes the place of its missing finite variance in characterizing experimental data in\nwhich the distributional tails do not converge (or do so very slowly) to the x axis.\nRecent approaches to these measures in the context of stochastic analysis of DNA\nsequences, but also applied to normal and pathological cardiac inter-beat intervals\nand gait interval sequences, have dealt with the influence of non-stationarity due to\napparent trends in the data on a-equivalent indices by local mean-normalization of\nthe fluctuations at each window size (Peng et al, 1993; Peng et al, 1995; Hausdorff\net al, 1995).\n\nThe rate of decay of the densities in the tails of the probability distribution as\nthey approach extreme values along the x axis, called the Levy exponent when\nrepresented in Fourier space (technically, as a “characteristic function” of the\nprobability distribution) (Shlesinger, 1988; Shlesinger et al, 1995), can also be\ncomputed directly on the distribution by fitting the tails with a two parameter curve\nquantifying their “fatness” and rates of decay (Mantegna, 1991). We can speak of a\n\nGaussian tail as having an exponential decay rate representable by a = 2 implying\n\n209\n\nHOUSE_OVERSIGHT_013709",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013709.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2397,
+    "word_count": 393,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:45.265311",
+    "prefix": "IMAGES-002"
+  }
+}

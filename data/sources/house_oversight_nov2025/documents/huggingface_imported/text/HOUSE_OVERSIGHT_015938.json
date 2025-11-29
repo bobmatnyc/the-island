@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015938",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015938.txt",
+  "text": "248 Are the Androids Dreaming Yet?\n\nThe story starts back in the 1940s at Berkeley University with a\nyoung Julia Robinson, one of the first women to succeed in the previously\nmale-dominated profession of mathematics. By all accounts, she had a\nwry sense of humor. When asked by her personnel department for a job\ndescription she replied: “Monday—tried to prove theorem, Tuesday—\ntried to prove theorem, Wednesday—tried to prove theorem, Thursday—\ntried to prove theorem, Friday—theorem false.’ Like Andrew Wiles, she\nfell in love with one of the great mathematical puzzles, and although she\nmade great strides, the problem passed from her to Martin Davis for the\nnext steps.\n\nThe final elements were put in place in the 1970s with the work of\nanother young mathematician, this time a Russian — Yuri Matiyasevich.\nRobinson wrote to him when she heard of his proof, “To think all I had\nto do was to wait for you to be born and grow up so I could fill in the\nmissing piece.” The complete result is the Robinson Davis Matiyasevich\ntheory which sets out the limits of logic and algebra. What, you may ask,\ndo we mean by logic and algebra?\n\nMathematicians like to turn everything into logical statements, even\nordering a round of drinks! The discipline of logic emerged from ancient\nGreece as the study of language. The starting point was the syllogism:\nStatements such as, “All cows eat grass.” or Lewis Carroll’s assertion,\n\n“There are no teachable gorillas.” Over time the study of logic became\never more precise with, for example, the introduction of variables and\nequations; a=all cows, b=some grass. The formula “a eats b” translates by\nsubstitution into, “The cows eat the grass.” This doesn’t look much like a\nstep forward but, trust me, it is.\n\nThe modern way to represent logic is using prenex normal form.\nThis mouthful simply means separating relationships between things\nfrom the things themselves. The following four statements say the same\nthing, each in a more formalized way.\n\nSpeech: Harry loves Sally\nLogical: x loves y (substitute Harry for x and Sally for y)\n\nFormal: There exists an x, there exists a y (x loves y)\n\nPrenex: xdy (x Ry), Where R, the relationship, is ‘loves’\n\nHOUSE_OVERSIGHT_015938",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015938.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2213,
+    "word_count": 373,
+    "line_count": 45,
+    "import_date": "2025-11-19T21:47:45.876414",
+    "prefix": "IMAGES-003"
+  }
+}

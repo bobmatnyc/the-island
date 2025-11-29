@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011138",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011138.txt",
+  "text": "F.=2-C_, (A5.1)\n\nwhere F, is human cash flow, z (pi) is pay, and C_ is invested consumption. The\n\nsubscript s, as usual, means saved or self-invested.\n\nPay z can be defined as the worker’s literal or imputed revenue. Self-invested\n\nconsumption C_ can be defined as any investment in human capital other than\n\nthrough self-invested work. This makes C, all investment from outside in a sense.\n\nBut that does not mean that it is limited to transfer in. There is also plowback from\n\nrevenue (pay 7 ), as when we spend pay on textbooks or tuition. I model “pay\nplowback” 7, as minor in the world we know, but definitions must account for it.\n\nThis I define\n\nC.=(H) +m, or t(H) =C,-7,, (A5.2)\n\nwhere t(H)_ is “human transfer in”. This and (A1.2a), showing F =T_, give\n\nF(H) =c(H) =C,-z, . (A5.3)\n\n(A3.1) and (A3.2), analyzing the firm, derived\n\nP-P. = Y gross = Y, +D, 5\n\nFor human capital, this can show as\n\n1-1. = W, gross = W, + D(H), , (A5.4)\n\nAPPENDIX A: The Argument in Notation 3/7/16 12\n\nHOUSE_OVERSIGHT_011138",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011138.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1012,
+    "word_count": 181,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:43.990615",
+    "prefix": "IMAGES-001"
+  }
+}

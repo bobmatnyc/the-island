@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013187",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013187.txt",
+  "text": "Chapter 14\nRepresenting Implicit Knowledge via Hypergraphs\n\n14.1 Introduction\n\nExplicit knowledge is easy to write about and talk about; implicit knowledge is equally impor-\ntant, but tends to get less attention in discussions of AI and psychology, simply because we don’t\nhave as good a vocabulary for describing it, nor as good a collection of methods for measuring\nit. One way to deal with this problem is to describe implicit knowledge using language and\nmethods typically reserved for explicit knowledge. This might seem intrinsically non-workable,\nbut we argue that it actually makes a lot of sense. The same sort of networks that a system like\nCogPrime uses to represent knowledge explicitly, can also be used to represent the emergent\nknowledge that implicitly exists in an intelligent system’s complex structures and dynamics.\n\nWe've noted that CogPrime uses an explicit representation of knowledge in terms of weighted\nlabeled hypergraphs; and also uses other more neural net like mechanisms (e.g. the economic\nattention allocation network subsystem) to represent knowledge globally and implicitly. Cog-\nPrime combines these two sorts of representation according to the principle we have called\nglocality. In this chapter we pursue glocality a bit further — describing a means by which even\nimplicitly represented knowledge can be modeled using weighted labeled hypergraphs similar to\nthe ones used explicitly in CogPrime. This is conceptually important, in terms of making clear\nthe fundamental similarities and differences between implicit and explicit knowledge represen-\ntation; and it is also pragmatically meaningful due to its relevance to the CogPrime methods\ndescribed in Chapter 42 of Part 2 that transform implicit into explicit knowledge.\n\nTo avoid confusion with CogPrime’s explicit knowledge representation, we will refer to the\nhypergraphs in this chapter as composed of Vertices and Edges rather than Nodes and Links. In\nprior publications we have referred to \"derived\" or \"emergent\" hypergraphs of the sort described\nhere using the acronym SMEPH, which stands for Self-Modifying, Evolving Probabilistic Hy-\npergraphs.\n\n14.2 Key Vertex and Edge Types\n\nWe begin by introducing a particular collection of Vertex and Edge types, to be used in modeling\nthe internal structures of intelligent systems.\nThe key SMEPH Vertex types are\n\n271\n\nHOUSE_OVERSIGHT_013187",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013187.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2382,
+    "word_count": 360,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:44.063979",
+    "prefix": "IMAGES-002"
+  }
+}

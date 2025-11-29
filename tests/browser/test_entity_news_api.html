@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Entity Detail News Test</title>
+</head>
+<body>
+    <h1>Testing Entity Detail News Display</h1>
+    
+    <h2>Backend API Test</h2>
+    <div id="backend-test"></div>
+    
+    <script>
+        // Test backend API
+        fetch('http://localhost:8081/api/news/articles?entity=jeffrey_epstein&limit=100')
+            .then(res => res.json())
+            .then(data => {
+                const div = document.getElementById('backend-test');
+                div.innerHTML = `
+                    <p><strong>API Response:</strong></p>
+                    <ul>
+                        <li>Total Articles: ${data.total}</li>
+                        <li>Returned Articles: ${data.articles.length}</li>
+                        <li>Limit: ${data.limit}</li>
+                        <li>Offset: ${data.offset}</li>
+                    </ul>
+                    <p><strong>Sample Article:</strong> ${data.articles[0]?.title || 'None'}</p>
+                `;
+            })
+            .catch(err => {
+                document.getElementById('backend-test').innerHTML = 
+                    `<p style="color: red;">Error: ${err.message}</p>`;
+            });
+    </script>
+</body>
+</html>

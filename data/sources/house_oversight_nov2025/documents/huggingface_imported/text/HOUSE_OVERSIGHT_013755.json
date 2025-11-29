@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013755",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013755.txt",
+  "text": "Briggs, K. (1990) An improved method for estimating Lyapounov exponents of\nchaotic time series. Phys. Lett. A151:27-32\n\nBrodskii,V.(1998) The nature of the circahoralian (ultradian) intracellular rhythms.\nSimilarity to fractals Izv Akad Nauk Ser Biol 3:316-29\n\nBroomhead, D.S., King, G.P. (1986) Extracting qualitative dynamics from\nexpeirmental data. Physica D20:217-236.\n\nBrown, R., Bryant, P., Abarbanel, H.D. (1991) Computing the Lyapounov spectrum\n\nof a dynamical system from an observed time series. Phys. Rev. A43:2787-2806\n\nBryant, P., Brown, R., Abarbanel, H.D. |. (1990) Lyapounov exponents from\nobserved time series. Phys. Rev. Lett. 65:1523-1526\n\nBullard, W.P., Guthrie, P.B., Russo, P.V., Mandell, A.J. (1978) Regional and\nsubcellular distribution and some factors in the regulation of reduced pterins in rat\nbrain. J. Pharmacol. Exp. Therap. 206:4-20\n\nBuzug, Th., Reimers, T., Pfister, G. (1990) Optimal reconstruction of strange-\n\nattractors from purely geometrical arguments. Europhys. Lett. 13:605-610\n\nCallahan, J., Sashin, J.|. (1987) Models of affect-response and anorexia nervosa.\nAnn. N.Y. Acad. Sci. 504:241-259\n\nCanavier, C.C., Clark, J.W., Byrne, J.H. (1990): Routes to chaos in a bursting\nneuron. Biophys J. 57:1245-1251\n\nCarpenter, G.A. (1979): Bursting phenomena in excitable membranes. SIAM J.\nAppl. Math. 36:334-352\n\n255\n\nHOUSE_OVERSIGHT_013755",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013755.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1374,
+    "word_count": 186,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:44.331898",
+    "prefix": "IMAGES-002"
+  }
+}

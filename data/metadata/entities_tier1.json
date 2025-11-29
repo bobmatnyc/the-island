@@ -1,0 +1,2637 @@
+{
+  "metadata": {
+    "generated": "2025-11-25T07:23:42.523704",
+    "tier": 1,
+    "tier_name": "High Priority (Immediate)",
+    "tier_description": "Document mentions \u2265 2 OR multiple sources",
+    "total_entities": 33
+  },
+  "entities": {
+    "michael": {
+      "id": "michael",
+      "name": "Michael",
+      "name_variations": [
+        "Michael",
+        "Michael"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 82,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015302.txt",
+          "type": "text",
+          "mentions": 26,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000783.txt",
+          "type": "text",
+          "mentions": 10,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000825.txt",
+          "type": "text",
+          "mentions": 10,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00009229.txt",
+          "type": "text",
+          "mentions": 10,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00009908.txt",
+          "type": "text",
+          "mentions": 10,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015303.txt",
+          "type": "text",
+          "mentions": 10,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00012726.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00018313.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022111.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022112.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022117.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022118.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022144.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022147.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000467.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000469.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00007836.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00009656.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010456.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015304.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021954.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021972.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022020.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022021.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022024.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022028.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022106.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022108.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022109.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022128.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022134.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00030293.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00030526.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032097.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000624.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000778.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000818.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000820.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00007588.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00007590.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00008212.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00008870.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00009462.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010141.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010486.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010658.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00012551.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015292.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015298.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015307.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00018138.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021908.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021917.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021918.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021951.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021952.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021978.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022001.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022005.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022022.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022023.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022037.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022046.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022063.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022097.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022131.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00024183.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00024188.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00024219.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00024226.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00024364.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00024816.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00024843.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00024938.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00025214.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00030281.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00030525.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00030528.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00030530.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00031408.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032066.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00033151.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "db7b6ea8-4d2b-5eba-8084-07a988ef40f1"
+    },
+    "eva_dubin": {
+      "id": "eva_dubin",
+      "name": "Dubin, Eva",
+      "name_variations": [
+        "Dubin, Eva",
+        "Eva Dubin"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 42,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011257.txt",
+          "type": "text",
+          "mentions": 14,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011368.txt",
+          "type": "text",
+          "mentions": 9,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013487.txt",
+          "type": "text",
+          "mentions": 7,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014196.txt",
+          "type": "text",
+          "mentions": 7,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014197.txt",
+          "type": "text",
+          "mentions": 7,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016819.txt",
+          "type": "text",
+          "mentions": 7,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016820.txt",
+          "type": "text",
+          "mentions": 7,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00019071.txt",
+          "type": "text",
+          "mentions": 7,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011256.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011258.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011367.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014201.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014209.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016824.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016832.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022674.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011366.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011373.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011907.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013505.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013507.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014218.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014433.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014536.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016841.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00017054.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00017157.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00017497.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00019089.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00019091.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014157.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014217.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014229.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014232.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014236.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016780.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016840.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016852.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016855.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016859.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022462.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022662.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        }
+      ],
+      "flight_count": 36,
+      "connection_count": 13,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "f34304b7-d553-5593-91ed-224d0a51080c"
+    },
+    "celina_dubin": {
+      "id": "celina_dubin",
+      "name": "Dubin, Celina",
+      "name_variations": [
+        "Dubin, Celina",
+        "Celina Dubin"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 31,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011257.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014197.txt",
+          "type": "text",
+          "mentions": 7,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016820.txt",
+          "type": "text",
+          "mentions": 7,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011368.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013487.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014196.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014201.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014209.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016819.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016824.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016832.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00019071.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011258.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014218.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016841.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011256.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011367.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011907.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013505.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014217.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014229.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014232.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014236.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016840.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016852.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016855.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016859.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00017497.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00019089.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022674.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032603.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        }
+      ],
+      "flight_count": 35,
+      "connection_count": 13,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "a9b1b5e1-d35d-5c6b-9daa-410ec4c51441"
+    },
+    "shelley_lewis": {
+      "id": "shelley_lewis",
+      "name": "Lewis, Shelley",
+      "name_variations": [
+        "Lewis, Shelley",
+        "Shelley Lewis"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 24,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00003224.txt",
+          "type": "text",
+          "mentions": 9,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00004346.txt",
+          "type": "text",
+          "mentions": 9,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021222.txt",
+          "type": "text",
+          "mentions": 9,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00023060.txt",
+          "type": "text",
+          "mentions": 9,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015296.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00003354.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00004476.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015300.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015307.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021352.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00023190.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00003225.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00003352.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00004347.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00004474.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010530.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015299.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015303.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015305.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021223.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00021350.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00023061.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00023188.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00033049.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        }
+      ],
+      "flight_count": 39,
+      "connection_count": 19,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "58486cdd-8c38-5e26-a03c-02a5c58aa818"
+    },
+    "sally": {
+      "id": "sally",
+      "name": "Sally",
+      "name_variations": [
+        "Sally",
+        "Sally"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 17,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015300.txt",
+          "type": "text",
+          "mentions": 14,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00025022.txt",
+          "type": "text",
+          "mentions": 12,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00025057.txt",
+          "type": "text",
+          "mentions": 12,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015682.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00025023.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00024714.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00024806.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00025034.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00025066.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00025073.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00025079.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00025085.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00025137.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00026910.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00027020.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00027022.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00027028.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "36216057-57e1-5731-80bc-915b47ec3770"
+    },
+    "cindy_lopez": {
+      "id": "cindy_lopez",
+      "name": "Lopez, Cindy",
+      "name_variations": [
+        "Lopez, Cindy",
+        "Cindy Lopez"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 10,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00006193.txt",
+          "type": "text",
+          "mentions": 9,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00006266.txt",
+          "type": "text",
+          "mentions": 9,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00007507.txt",
+          "type": "text",
+          "mentions": 9,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00008083.txt",
+          "type": "text",
+          "mentions": 9,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011263.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00008065.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015298.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00008066.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011264.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015297.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        }
+      ],
+      "flight_count": 33,
+      "connection_count": 15,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "e901d19c-a372-546b-84f1-25b020d83777"
+    },
+    "peter": {
+      "id": "peter",
+      "name": "Peter",
+      "name_variations": [
+        "Peter",
+        "Peter"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 13,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00003023.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00003540.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00004188.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00004140.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00004145.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00004195.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00009530.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010209.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015294.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015301.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00028910.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032097.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032099.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "ee684aa0-20e5-5a43-a0ad-3683a7d95715"
+    },
+    "lang": {
+      "id": "lang",
+      "name": "Lang",
+      "name_variations": [
+        "Lang",
+        "Lang"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 10,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015301.txt",
+          "type": "text",
+          "mentions": 14,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015305.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015299.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015309.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015261.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015297.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015298.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015306.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015307.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015308.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 16,
+      "connection_count": 12,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "4c8f987c-ce58-56c7-b018-efb7b643000d"
+    },
+    "edward_epstein": {
+      "id": "edward_epstein",
+      "name": "Edward Epstein",
+      "name_variations": [
+        "Edward Epstein",
+        "Edward Epstein"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 9,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00023785.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00023797.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00023802.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00023811.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00023819.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00027145.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00027151.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00027152.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00027153.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "ef57127e-54d8-5984-a6e6-06784ea5eb8c"
+    },
+    "andrea_mitrovich": {
+      "id": "andrea_mitrovich",
+      "name": "Mitrovich, Andrea",
+      "name_variations": [
+        "Mitrovich, Andrea",
+        "Andrea Mitrovich"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015294.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015296.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        }
+      ],
+      "flight_count": 58,
+      "connection_count": 15,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "2064526d-ac7a-57b0-819e-0cea07087f1f"
+    },
+    "celina_midelfart": {
+      "id": "celina_midelfart",
+      "name": "Midelfart, Celina",
+      "name_variations": [
+        "Midelfart, Celina",
+        "Celina Midelfart"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 5,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013937.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016561.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013936.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016560.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015341.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        }
+      ],
+      "flight_count": 18,
+      "connection_count": 12,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "437ffe71-a32b-5071-976f-a9814feff97a"
+    },
+    "teala_davies": {
+      "id": "teala_davies",
+      "name": "Davies, Teala",
+      "name_variations": [
+        "Davies, Teala",
+        "Teala Davies"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000681.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000712.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        }
+      ],
+      "flight_count": 48,
+      "connection_count": 20,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "84f7dad3-1f86-5b07-9738-6ee07101d1f1"
+    },
+    "david_mullen": {
+      "id": "david_mullen",
+      "name": "Mullen, David",
+      "name_variations": [
+        "Mullen, David",
+        "David Mullen"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 4,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032605.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032602.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032603.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032604.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 23,
+      "connection_count": 12,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "3c6454d6-0b3c-54d6-abfb-2bc1e7956078"
+    },
+    "dana_burns": {
+      "id": "dana_burns",
+      "name": "Dana Burns",
+      "name_variations": [
+        "Dana Burns",
+        "Dana Burns"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 5,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032606.txt",
+          "type": "text",
+          "mentions": 16,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032604.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032608.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032605.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00032607.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 8,
+      "connection_count": 5,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "bc294c29-c1ba-546f-bffe-532d62285c02"
+    },
+    "sophie_biddle": {
+      "id": "sophie_biddle",
+      "name": "Biddle, Sophie",
+      "name_variations": [
+        "Biddle, Sophie",
+        "Sophie Biddle"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 3,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013500.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00019084.txt",
+          "type": "text",
+          "mentions": 5,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015305.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        }
+      ],
+      "flight_count": 30,
+      "connection_count": 13,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "cd2c5d66-36ad-5a0a-b7c1-06e3043527c6"
+    },
+    "gwendolyn_beck": {
+      "id": "gwendolyn_beck",
+      "name": "Beck, Gwendolyn",
+      "name_variations": [
+        "Beck, Gwendolyn",
+        "Gwendolyn Beck"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 3,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00008277.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013490.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00019074.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        }
+      ],
+      "flight_count": 27,
+      "connection_count": 14,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "cc364588-7c11-51d3-a46a-bb49ccd7ebd7"
+    },
+    "didier": {
+      "id": "didier",
+      "name": "Didier",
+      "name_variations": [
+        "Didier",
+        "Didier"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015304.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015306.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 32,
+      "connection_count": 16,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "026d6cdf-67e3-5411-adbb-76e7251aec55"
+    },
+    "gramza": {
+      "id": "gramza",
+      "name": "Gramza",
+      "name_variations": [
+        "Gramza",
+        "Gramza"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 3,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015308.txt",
+          "type": "text",
+          "mentions": 10,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015307.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015306.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 20,
+      "connection_count": 12,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "80acbd6b-aa86-596e-826c-76a429da5a97"
+    },
+    "alberto_pinto": {
+      "id": "alberto_pinto",
+      "name": "Alberto Pinto",
+      "name_variations": [
+        "Alberto Pinto",
+        "Alberto Pinto"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015412.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015458.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 13,
+      "connection_count": 10,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "68d47ddb-0475-55b2-8da5-a840b06fe1ea"
+    },
+    "mark_epstein": {
+      "id": "mark_epstein",
+      "name": "Mark Epstein",
+      "name_variations": [
+        "Mark Epstein",
+        "Mark Epstein"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 3,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013493.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015261.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00019077.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 4,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "5774bbf9-cc03-542e-a1ad-b404657e6065"
+    },
+    "kelly_bovino": {
+      "id": "kelly_bovino",
+      "name": "Kelly Bovino",
+      "name_variations": [
+        "Kelly Bovino",
+        "Kelly Bovino"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 3,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011257.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011258.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011371.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "0e2317b5-4cea-5abb-8351-b2d77385e1b8"
+    },
+    "david_rodgers": {
+      "id": "david_rodgers",
+      "name": "David Rodgers",
+      "name_variations": [
+        "David Rodgers",
+        "David Rodgers"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 4,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00030720.txt",
+          "type": "text",
+          "mentions": 14,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00013378.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00018962.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010564.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "2f618565-0b1a-574b-b873-eebdf7259508"
+    },
+    "jason": {
+      "id": "jason",
+      "name": "Jason",
+      "name_variations": [
+        "Jason",
+        "Jason"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 4,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014160.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016783.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014665.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00017285.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "35281a54-8c18-57cc-aef9-c28109dbc9a5"
+    },
+    "richard_branson": {
+      "id": "richard_branson",
+      "name": "Richard Branson",
+      "name_variations": [
+        "Richard Branson",
+        "Richard Branson"
+      ],
+      "in_black_book": true,
+      "is_billionaire": true,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022819.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022931.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "b118fd66-e3f7-53a4-9c66-7c11f6fcd134"
+    },
+    "juliette_bryant": {
+      "id": "juliette_bryant",
+      "name": "Juliette Bryant",
+      "name_variations": [
+        "Juliette Bryant",
+        "Juliette Bryant"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 3,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010593.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010676.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010652.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 5,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "fde5736f-943b-576b-aa72-ff2742161ee3"
+    },
+    "isabel_maxwell": {
+      "id": "isabel_maxwell",
+      "name": "Isabel Maxwell",
+      "name_variations": [
+        "Isabel Maxwell",
+        "Isabel Maxwell"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 3,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00004971.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010497.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00010499.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "84906d97-35f2-5f4d-afd6-7f8c46e60960"
+    },
+    "elaine": {
+      "id": "elaine",
+      "name": "Elaine",
+      "name_variations": [
+        "Elaine",
+        "Elaine"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00030574.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00031967.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "6cf8991f-cf23-5ba0-b477-dd7028f4e607"
+    },
+    "eva_andersson": {
+      "id": "eva_andersson",
+      "name": "Eva Andersson",
+      "name_variations": [
+        "Eva Andersson",
+        "Eva Andersson"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00014196.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00016819.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "87f5290a-090c-5b54-8d24-a48edd55ae83"
+    },
+    "itzhak_perlman": {
+      "id": "itzhak_perlman",
+      "name": "Itzhak Perlman",
+      "name_variations": [
+        "Itzhak Perlman",
+        "Itzhak Perlman"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00011857.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00017447.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "3dddd6c2-d942-5dee-909b-737ea792812d"
+    },
+    "jimmy_cayne": {
+      "id": "jimmy_cayne",
+      "name": "Jimmy Cayne",
+      "name_variations": [
+        "Jimmy Cayne",
+        "Jimmy Cayne"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022407.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022660.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "52b8d168-4c46-56dc-8457-085f4bfcaee0"
+    },
+    "mark_zeff": {
+      "id": "mark_zeff",
+      "name": "Mark Zeff",
+      "name_variations": [
+        "Mark Zeff",
+        "Mark Zeff"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022435.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022667.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "82b01331-bef5-5dd3-8395-7b23a6abdc5f"
+    },
+    "murray_gellmann": {
+      "id": "murray_gellmann",
+      "name": "Murray Gell-Mann",
+      "name_variations": [
+        "Murray Gell-Mann",
+        "Murray Gell-Mann"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022823.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022932.txt",
+          "type": "text",
+          "mentions": 8,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "5dbe7282-e9ab-57f3-927f-a5289b486ea9"
+    },
+    "philip_levine": {
+      "id": "philip_levine",
+      "name": "Philip Levine",
+      "name_variations": [
+        "Philip Levine",
+        "Philip Levine"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 2,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022543.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        },
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022694.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "eab6f96e-571a-5487-bc85-d9db5391e6bb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00021794.pdf",
+  "ocr_date": "2025-11-16T21:47:34.185131",
+  "text_length": 1151,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "hagan.scotten@usdoj.gov"
+  ]
+}

@@ -1,0 +1,69 @@
+Source Entry: H\Macintosh HD\root\Users\jee\Library\Messages\Archive\2018-08-23\i
+
+Ps on 2018-08-17 at 11.53.05.ichat
+
+Service: iMessag
+
+Start Time: 08/17/18 08:53:05 AM (556213985)
+End Time: 08/23/18 03:07:01 PM (556754821)
+Last Message ID: 19138
+
+Chat Room:
+Participants: jee, [iy
+Presentity IDs: e:jeeitunes@gmail.com,
+
+Messages -
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 08/17/18 08:53:05 AM (556213985)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+r,
+
+GUID: 87838E9F-C372-4612-80EE-B8A4327BA691
+
+Message: How did it go?
+
+Time: 08/17/18 09:07:05 AM (556214825)
+Flags: 1126401
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 33591123-5B17-4DBD-863B-961513F2776A
+
+Message: 2 pm now
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 08/17/18 03:03:12 PM (556236192)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: C567F5BA-A18C-411C-943B-DA3277FE2C63
+
+Message: I took off early so I could land in time to watch. - all good?
+
+sender:
+
+Time: 08/17/18 03:05:43 PM (556236343)
+Flags: 1060865
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: B755787C-1E9A-4650-93C5-F8758A804BF2
+
+Message: On now
+
+HOUSE_OVERSIGHT_025707

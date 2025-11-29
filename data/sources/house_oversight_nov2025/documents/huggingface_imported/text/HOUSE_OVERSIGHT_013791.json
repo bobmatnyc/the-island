@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013791",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013791.txt",
+  "text": "Takens, F. (1981) Detecting strange attractors in time series. Lect. Notes. Math.\n898 :366-381\n\nTeich M.C. (1989) Fractal character of the auditory neural spike train. IEEE Trans\nBiomed Eng 36:150-60\n\nTeich, M.C., Heneghan, C., Lowen, S.B., Ozaki, T., Kaplan, E. (1997) Fractal\ncharacter of the neural spike train in the visual system of the cat. J Opt Soc Am A\n14:529-546\n\nTeich, M.C., Johnson, D.H., Kumar, A.R., Turcott, R.G.(1990) Rate fluctuations and\nfractional power-law noise recorded from cells in the lower auditory pathway of the\n\ncat. Hear Res 46:41-52\n\nTeich, M.C., Turcott, R.G., and Siegel, R.M. (1996) Temporal correlation in cat\nstriate cortex neural spike trains. IEEE Eng. Med. Biol. Sept/Oct pp 79-87\n\nTennekes, H., Lumley, J.L (1972) A First Course in Turbulence. MIT Press,\nCambridge pp 256-267\n\nTheiler, J. (1990) Estimating fractal dimension. J. Opt. Am. A7:1055-1073\nTheiler, J.,Rapp, P.E.(1996) Re-examination of the evidence for low-dimensional,\nnonlinear structure in the human electroencephalogram. Electroencephalogr Clin\nNeurophysiol 98:213-222\n\nThom, R. (1972) Structural Stability and Morphogenesis. Benjamin, Reading. MA\n\nThompson, D’Arcy (1942) On Growth and Form. Dover Mineola, N.Y.\n\n291\n\nHOUSE_OVERSIGHT_013791",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013791.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1248,
+    "word_count": 179,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:45.172033",
+    "prefix": "IMAGES-002"
+  }
+}

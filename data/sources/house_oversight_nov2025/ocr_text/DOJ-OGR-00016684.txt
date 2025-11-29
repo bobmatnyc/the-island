@@ -1,0 +1,48 @@
+Case 1:20-cr-00330-PAE Document 761 _ Filed 08/10/22 Page 201 of 246 2496
+LCGCmax6 Aznaran — direct
+
+1 Q. Is the text database searchable?
+
+2 A. Yes.
+
+3 Q. And what fields can you search with?
+
+4 A. You could search by name, last name, first name. You could
+5 search by a combination of last name, first name, and date of
+
+6 birth. You could search by a passport number. You could
+
+7 search by a visa number.
+
+8 Q. And those names you mentioned, those are the names of the
+
+9 travelers; right?
+
+10 A. Yes.
+
+11 Q. So can you search by a particular traveler?
+
+12 A. Yes.
+
+13 Q. Can you limit the search to a particular timeframe?
+
+14 A. Yes.
+
+15 Q. Now, if you search the TECS system for the border crossing
+16 records for a particular traveler, what does the database
+
+17 generate?
+
+18 A. It would generate basically any border crossings or
+
+19 encounters for that particular person within that timeframe.
+20 It would basically be like rows of information for each
+21 encounter or border crossing.
+22 Q. And it would be for whatever time period you put in for;
+23 right?
+24 A. Yes.
+25 Q. And then that report contains the information that you had
+
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00016684

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016054",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016054.txt",
+  "text": "Nobel Prize Medal\n\n“If I could explain it to the\naverage person, I wouldn't have\nbeen worth the Nobel Prize.”\n\nRichard P. Feynman\n\nHOUSE_OVERSIGHT_016054",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016054.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 153,
+    "word_count": 24,
+    "line_count": 9,
+    "import_date": "2025-11-19T21:47:49.389779",
+    "prefix": "IMAGES-003"
+  }
+}

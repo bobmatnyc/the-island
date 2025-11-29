@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013749",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013749.txt",
+  "text": "be simulated with a suitably constructed random process and all of our random\n\nnumber generators are deterministic.\n\nThis theoretical blind alley is reminiscent of the decades lost partialing out\ncausal attributes of nature versus nurture before knowledge of dynamical influences\non nucleotide dynamics was available. It is perhaps unfortunate that for finite length\nreal data, “house keeping requirements” (Ruelle, 1990; Rapp, 1993;1994) and\n“warnings on the label” with various random sequence, random phase controls\n(“surrogate data”) have become so intimidating to those of us in the early stages of\nexploring the use of these theories and methods in the brain sciences. Currently the\n“controls” are more relevant to abstract statistical processes and what can be said\nabout them rather than generating and addressing new claims and the controls for\n\nthem related to quantitatively oriented, experimental brain physiology.\n\nStatistical caveats have arisen to retard the emergence of potentially\nimportant and robust neurophysiologically-relevant phenomena. For example, a\nrecent well conducted and analyzed study of the influence of low doses of ethanol in\n32 normal male subjects, which honored almost all of the current analytic rituals\nincluding sequence and phase randomized surrogate data and searches for the\ncontinuity features of deterministic dynamical systems such as time asymmetry,\nconcluded that the drug “reduced the evidence for nonlinear dynamical structure” in\nthe brain (Ehlers et al, 1998). Though honoring the currently popular statistical\nrituals, what appears to be missing here are suggestions for new neurobiological or\n\nmathematical intuitions that will lead to the design of the next experiment.\n\nWe now see that it is now possible to use these new ideas and methods to\nask and at least partially answer more specific questions relevant to the clinically\noriented neurosciences such as: whether increases in lithium-induced\nexpansiveness and mixing in the dynamics of brain enzymes, neurons and behavior\nhelp explicate a mechanism of de-coherence in bipolar disease (Mandell et al,\n1985); do these approaches to membrane conductance fluctuations suggest a new\nway to think about ion channel dynamics (Liebovitch, 1990); can alcohol-induced\n\nchanges in statistical dynamics of the EEG predict genetic predilection in males to\n\n249\n\nHOUSE_OVERSIGHT_013749",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013749.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2383,
+    "word_count": 351,
+    "line_count": 41,
+    "import_date": "2025-11-19T21:47:48.605854",
+    "prefix": "IMAGES-002"
+  }
+}

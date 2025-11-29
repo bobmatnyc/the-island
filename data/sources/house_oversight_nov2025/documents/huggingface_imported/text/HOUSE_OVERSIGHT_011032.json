@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011032",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011032.txt",
+  "text": "I also modeled human capital as three fourths of total capital. My tag for the two\nideas together was the “three fourths rule.” The agreement of the two ratios as\nmodeled is a convenient coincidence. If they differed, this book would have to be a\n\nfew sentences longer. Each is first-order approximation only.\n\nThe Free Growth Index for Total Capital\n\nGiven the three fourths rule, the free growth index for total capital is derived by\nreading “pure” and “total” before the words consumption and capital in the\n\nequations of Chapter 4.\n\nNow back to the charts and tables. The free growth index for total capital is tracked\nin the red line and labeled (Kt). It too fluctuates around one in each country, but in\na much narrower range than does the blue line g(K). The reason is the three\nfourths rule. The thrift index, not shown in the charts and tables, is one minus the\nfree growth index. It is derived in Chapter 4 as thrift rate over acceleration, where\nthrift rate is change in consumption/capital ratio times minus one. By the three\nfourths rule, where pure consumption is three fourths of all consumption while total\ncapital is four times physical capital, the pure consumption/total capital ratio is only\n3/16 (3/4 divided by 4) the size of the consumption/physical capital ratio. The\nyearly changes in these ratios reflected in the numerator of the thrift index will hold\nto the same proportion. The denominator is acceleration, which is always the same\nfor physical as total capital by the assumption that they hold in 1:4 proportion\nthroughout. This explains why the unshown thrift index, or numerator over\ndenominator, is automatically 3/16 as large for total as for physical capital, and why\n\nthe shown free growth index runs nearer one in consequence.\n\nI have just given an idea why it can be worthwhile to brush up the algebra we all\nlearned in high school or before, and to suffer the nuisance of mathematical notation.\n\n| have made a very simple truth, obvious in hindsight, seem complicated by making\n\nChapter 5 Bringing Human Capital In 1/13/16 13\n\nHOUSE_OVERSIGHT_011032",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011032.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2089,
+    "word_count": 354,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:46.642886",
+    "prefix": "IMAGES-001"
+  }
+}

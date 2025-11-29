@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_018353",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_018353.txt",
+  "text": "system that could, in a very limited sense, converse. The computer would take typed\ninput from a user and then, based on what it understood, ask a question back to\ncontinue the conversation. The approach was borrowed from the psychological\ntheories of Carl Rogers, an American therapist who believed the best way to talk to\npatients was with open ended, careful questions. Weizenbaum developed two\nprograms. The first was called DOCTOR, a script that determined what the computer\nmight say. The natural language processor responsible for carrying on the human\nside of the conversation he called ELIZA, after the heroine from Pygmalion, a poor\ncockney girl who is trained by a phonetics professor to pass as a duchess.\n\nHere is a discussion between ELIZA and a user that Weizenbaum recorded in 1965:\nPatient: “Men are all alike.”\n\nELIZA: “IN WHAT WAY?”\n\nPatient: “They’re always bugging us about something or other.”\n\nELIZA: “CAN YOU THINK OF A SPECIFIC EXAMPLE?”\n\nPatient: “Well, my boyfriend made me come here.”\n\nELIZA: “YOUR BOYFRIEND MADE YOU COME HERE?”\n\nPatient: “He says | am depressed most of the time.”\n\nELIZA: “I AM SORRY TO HEAR YOU ARE DEPRESSED.”\n\nPatient: “It’s true, I’m depressed most of the time.”\n\nELIZA: “DO YOU THINK COMING HERE WILL HELP YOU TO NOT BE UNHAPPY?”\n\nPatient: “I need some help, that much seems certain.”\n\nWeizenbaum’s program quickly became famous around MIT. (The joke was that it\nwas a better conversationalist than most of the awkward shoegazers studying at the\nCambridge campus.) ELIZA gave users a chance to have a taste of a machine with\nsomething like a mind of its own. The program spread to other campuses, to\ndifferent research institutions, and with every step of its success, Weizenbaum\nfound himself more distressed. He summarized his worries in his 1972 masterpiece\nComputer Science and Human Reason. What troubled him was not ELIZA, but her\nusers, the humans. Even when they were professional psychologists, many of them\nquickly considered it reasonable to think that one day the work of diagnosis and\ncounseling might be turned over to machines. This felt like a natural next step in the\nceaseless progress they were used to in their lives. Better refrigerators, stronger\nseat belts, faster jet planes, more plastic - why nota computer doing therapy? It\n\n121\n\nHOUSE_OVERSIGHT_018353",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_018353.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2331,
+    "word_count": 383,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:46.993237",
+    "prefix": "IMAGES-004"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011133",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011133.txt",
+  "text": "q here equals some appropriate r by the same logic as before. Here again, we\nusually read interpretations of (A2.8) which treat the appropriate r as an integral\n\nof time preference or equivalently productivity rates over the interim (u,x).1\n\nhowever see dV(x) as determined by current rate r(x) whether derived by present\ncost or present value methods. If the original investor remains the current owner,\nand now finds her time preference rate different, she will have factored asset\nmodification costs into her original decision to bid or invest. If not, she will have\ntraded to someone whose time preference rate is better suited. My counterparts to\n\n(A2.1) and (A2.6) become\n\ndV(x)=dPC(x)=F (uje dx and F (ujdu=dV(xjeTO™ (A2.9)\nand\n\nV(x) =PC(x) = J Fewer du. (A2.10)\n\nThese equations seem the most straightforward reconciliation of the maximand rule,\nthe convergence axioms and the evidence supporting risk theory. They describe\nindividual assets over time, sometimes passing from one owner to another, rather\nthan a given owner’s total portfolio. We maximize return within current risk\ntolerance, recognize that it will change, and deduct present value of expected\n\ntrading or asset modification costs from future value of flows while adding them to\noriginal value. This seems true to life. It allows discounting all expected positive\nflows over (x, z), and compounding all past negative ones over (0, x), at a single rate\nr(x) because of those adjustments to value or cost of flows. Tradition treats the\n\nflows as fixed givens, and the discount rate as a function of interim time between x\n\nand z or between 0 and x.\n\nAPPENDIX A: The Argument in Notation 3/7/16 7\n\nHOUSE_OVERSIGHT_011133",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011133.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1692,
+    "word_count": 273,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:48.695166",
+    "prefix": "IMAGES-001"
+  }
+}

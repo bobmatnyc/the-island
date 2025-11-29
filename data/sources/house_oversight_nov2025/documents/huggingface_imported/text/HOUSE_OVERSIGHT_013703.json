@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013703",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013703.txt",
+  "text": "(Ehlers et al, 1995); indicating the presence or absence of septic encephalopathy\n(Straver et al, 1998); using time series from jejunal manometry to discriminate\nobjectifiable somatic from psychological conversion related irritable bowel syndrome\n(Wackerbauer et al, 1998); analyzing time-dependent patterns in plasma hormone\nlevels to discriminate between the presence or absence of a functioning tumor\n(Hartman et al, 1994, Mandell and Selz, 1997a); automated differentiation of ataxic\nfrom normal speech (Accardo and Menulo, 1998); and discrimination of\ntemporomandibular joint dysfunction from normal patterns of chewing motions\n(Morinushi et al, 1998).\n\nStyles of Orbital Motions in Chaotic Dynamical Systems\n\nIn chaotic dynamics, in various specific ways, an initial hypothetical handful\nof points lined up along the trajectory and acted on over time by the nonlinear\ndifferential equation (“operator”), get out of order in an unpredictable way. Here the\nhypothetical handful can come from a statistical aggregate of initial conditions or\nfrom a single recursive orbit studied over long times. As noted above, ergodic\ntheorists call this getting out of order “mixing” and how and to what degree this\nhappens consumes many mathematical theorems but for purposes of brain\nresearch, it can be best described using a variety of statistical measures. For\nexample, visualizing the Lorenz attractor (see above) as a butterfly in phase space,\nthe points get out of order because as they spiral out (“stretching”) to the edge of\none wing and return (“folding”) to the unstable fixed point on the butterfly’s body\nwhence they either jump to some place on the other wing to spiral to its edge or\nreturn to the same wing to spiral out again. Which one of these is chosen is\nexquisitely sensitive to very small changes in where the trajectory started and very\nsmall fluctuations in where it returned to the unstable fixed point on the butterfly’s\nbody. In fact, specification of these locations is beyond the precision of any real,\n\nthermodynamically vulnerable system.\nChaotic trajectories on the Réssler attractor (see above) wind out (“stretch”)\n\nto the edge along the inside of a conch shell in phase space and then are mapped\n\n203\n\nHOUSE_OVERSIGHT_013703",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013703.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2252,
+    "word_count": 350,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:46.896716",
+    "prefix": "IMAGES-002"
+  }
+}

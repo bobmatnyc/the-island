@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016089",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016089.txt",
+  "text": "Conway and Kochen\n\n“It doesnt matter how beautiful\nyour theory is, it doesn't matter\n\nhow smart you are. If it doesn't\nagree with experiment, its\nwrong.”\n\nRichard P. Feynman\n\nHOUSE_OVERSIGHT_016089",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016089.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 197,
+    "word_count": 30,
+    "line_count": 12,
+    "import_date": "2025-11-19T21:47:44.902597",
+    "prefix": "IMAGES-003"
+  }
+}

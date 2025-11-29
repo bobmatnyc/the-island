@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013780",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013780.txt",
+  "text": "Peng, C.-K., Havlin, S., Stanley, H.E., Goldberger, A.L. (1995) Quantification of\nscaling exponents and crossover phenomena in nonstationary heartbeat time\nseries. Chaos 6:82-87\n\nPerkel, D.H., Gerstein, G.L., Moore, G.P. (1967) Neuronal spike trains and\nstochastic point processes. Biophys. J. 7:419-440\n\nPezard, L., Martinerie, J., Varela, F.J., Bouchet, F., Guez, D., Derouesne, C.,\nRenault, B. (1998) Entropy maps characterize drug effects on brain dynamics in\n\nAlzheimer’s disease Neurosci Lett 253:5-8\n\nPezard, L., Nandrino, J.L., Renault, B., Massioui, F.E., Allilaire, F., Muller, J. (1996)\nDepression as a dynamic disease. Biol. Psychiat. 39:991-999\n\nPijn, J., Velis, D., van der Heyden, M., DeGoede, J., van Veelen, C.W., Lopes da\nSilva, F. (1997): Nonlinear dynamics of epileptic seizures on basis of intracranial\n\nEEG recordings. Brain Topogr. 9:249-70\n\nPincus, S.M. (1991) Approximate entropy as a measure of a system’s complexity.\nProc. Natl. Acad. Sci. 88:2297-2301\n\nPincus, S.M., Gladstone, |.M., Ehrenkranz, R.A. (1991) A regularity statistic for\nmedical data analysis. J Clin Monit 7:335-245\n\nPincus, S.M.,Minkin, M.J. (1998) Assessing sequential irregularity of both endocrine\nand heart rate rhythms. Curr Opin Obstet Gynecol 10:281-291\n\nPopivanov, D., Mineva, A., Dushanova, J. (1998) Tracking EEG signal dynamics\nduring mental tasks. A combined linear/nonlinear approach. IEEE Eng Med Biol\n17:89-95\n\n280\n\nHOUSE_OVERSIGHT_013780",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013780.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1447,
+    "word_count": 201,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:44.215612",
+    "prefix": "IMAGES-002"
+  }
+}

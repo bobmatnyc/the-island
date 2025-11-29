@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027670",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027670.txt",
+  "text": "Message: What's her contact info\n\nTime: 05/01/19 07:22:48 AM (578413368)\nFlags: 1126401\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: C92CO8DC-4A0D-441 9-AFCO-3 9DBFS5AB3A0A\n\nMessage: Can dan connect with Darren today ?\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/01/19 07:42:04 AM (578414524)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 5C97B9F5-8DB2-4DB6-9DEF-D4520A542345\n\nMessage: Yes. I emailed you Lesley s\n\nTime: 05/01/19 07:50:29 AM (578415029)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 98453DCA-BB24-48DF-9F45-DAE57B6337F6\n\nMessage: Got it\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/01/19 12:56:52 PM (578433412)\nFlags: 1150981\nIs Read: No\n\nIs Invitation: No\n\nGUID: 775FF2F0-E239-4FF3-A951-D153696E027F\n\nMessage: https://www.nytimes.com/2019/05/01/opinion/william-barr-\ntestimony.html?action=click&amp;module=Opinionéamp; pgtype=Homepage\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/01/19 01:18:23 PM (578434703)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 7333B550-A9C2-4841-AC8E-6638B17006BA\n\nMessage: Did your guys prefer beard or no beard\n\nHOUSE_OVERSIGHT_027670",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027670.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1092,
+    "word_count": 120,
+    "line_count": 63,
+    "import_date": "2025-11-19T21:47:47.905844",
+    "prefix": "IMAGES-009"
+  }
+}

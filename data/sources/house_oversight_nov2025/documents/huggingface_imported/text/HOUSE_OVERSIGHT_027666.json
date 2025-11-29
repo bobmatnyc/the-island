@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027666",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027666.txt",
+  "text": "GUID: AD8DB4F9-258C-4680-968F-9D49DB8B874A\n\nMessage: ms miller and I have been on hiatus for month or so\n\nSender: e:jeeitunes@gmail.com\n\nTime: 04/30/19 03:12:32 PM (578355152)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: SA3B84DB-D922-4D1A-A85C-D648CD2 60CDB\n\nMessage: Whoops\n\nSender: TT\n\nTime: 04/30/19 03:21:23 PM (578355683)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 1312A3FA-B055-48AE-BC5F-0C0438626BFD\n\nMessage: Not personal just business -- I'm obsessed with winning\n\nTime: 04/30/19 03:22:46 PM (578355766)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 176234AB-6268-4616-955F-82B45606541F\n\nMessage: Watch what we got u\n\nSender: e:jeeitunes@gmail.com\n\nTime: 04/30/19 03:27:19 PM (578356039)\nFlags: 1150981\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: F2EAQE4B-ECF2-465E-AC34-6C99C6792A75\n\nMessage: What days work for you Saturday-Monday? Sunday-Tuesday?\n\nTime: 04/30/19 03:40:30 PM (578356830)\nFlags: 1126401\nIs Read: Yes\n\nIs Invitation: No\n\nr\n\nGUID: 7CCA487F-074A-46EE-8B9D-C3EA71923B50\n\nMessage: If we can pull it off Saturday thru Monday\n\nHOUSE_OVERSIGHT_027666",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027666.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1095,
+    "word_count": 135,
+    "line_count": 67,
+    "import_date": "2025-11-19T21:47:47.211525",
+    "prefix": "IMAGES-009"
+  }
+}

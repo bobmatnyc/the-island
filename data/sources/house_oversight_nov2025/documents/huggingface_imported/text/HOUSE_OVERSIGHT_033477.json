@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_033477",
+  "filename": "IMAGES-012-HOUSE_OVERSIGHT_033477.txt",
+  "text": "ce Sans Pro\nLight\", \"style\": \"normal\", \"weight\":300, \"width\":\"normal\"}, \"fontName\":\"SourceSansPro-\n\nLight\", \"identifier\": \"ddcb278b-5375-4100-8f£71-9d224360f18c\", \"type\": \"font\"}, \"e6c89552-\n46£7-44d9-aad8-91e76067£263\":{\"URL\": \"asset: //e6c89552-46£7-44d9-aads\n91e76067£263\",\"classification\": \"font\", \"fileSize\":0,\"fontAttributes\": {\"familyName\": \"Sour\nce Sans Pro\", \"style\": \"normal\", \"weight\":400, \"width\": \"normal\"}, \"fontName\": \"SourceSansPro-\nRegular\", \"identifier\": \"e6c89552-46f7-44d9-aad8\n91e76067f263\",\"type\":\"font\"}},\"specVersion\"™:\"1.6\", \"subtitle\": \"\",\"textStyles\":{\" anf-ts-\ni\": {\"fontName\":\"SourceSansPro-Semibold\", \"identifier\":\" anf-ts-\n1\",\"textColor\":\"#FF8000\"}},\"title\":\"U.S. Justice Department to discuss consumer\nprotection at social media meeting\", \"version\":\"1.7\"}\n\nHOUSE_OVERSIGHT_033477",
+  "metadata": {
+    "original_filename": "IMAGES-012-HOUSE_OVERSIGHT_033477.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 811,
+    "word_count": 57,
+    "line_count": 14,
+    "import_date": "2025-11-19T21:47:47.840169",
+    "prefix": "IMAGES-012"
+  }
+}

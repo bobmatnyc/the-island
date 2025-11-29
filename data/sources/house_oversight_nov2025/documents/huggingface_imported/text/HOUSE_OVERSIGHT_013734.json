@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013734",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013734.txt",
+  "text": "discriminate normal subjects from those with early glaucoma, but the reconstructed\nattractor of the steady state visual cortical response to full field flicker demonstrated\na statistically significant decrease in D2 (Schmeisser et al, 1993). Marginal\nqualitative differences in optokinetic nystagmus were quantitatively significant when\nstudied as the Dz of the attractor’s points in patients with vertigo compared with\ncontrols (Aasen et al, 1997). Reconstructions of maximum velocity waves from\n\nDoppler studies of middle cerebral artery hemodynamics (using phase random\n“controls”) demonstrated an increase in D2 (and a decrease in 4(+) correlated with\n\nage in an adult population (Keuner et al, 1996; Vliegen et al, 1996). D2 served as a\nsensitive descriptor of functional changes in the EMG from the surface of the biceps\nmuscle, increasing with muscle load and rate of flexion and extension and\ndecreasing with muscle fatigue (Rapp et al, 1993; Nieminen and Takala, 1996;\nGupta et al, 1997), suggesting its use in suspected early myotonic dystrophies and\nmyasthenias. Reconstructed time series of stomatognathic motions in high school\nstudents with temporomandipular joint syndromes compared with those with\nmalocclusion revealed a specific decrease in Doin the plane of horizontal motion in\nthe former (Morinushi et al, 1998). Time series of plasma growth hormone levels in\nacromegalic patients with functioning pituitary adenomas manifested a statistically\nsignificant increase in Do when compared with age-matched controls (Mandell and\nSelz, 1997) which corresponded nicely to the reduction in “approximate entropy”\n(Pincus, 1991a) computed on this same data set (Hartman et al, 1994). On the\nother hand, comparative in vitro studies of growth hormone release patterns in\nnormal rat pituitary cells and their neoplastically transformed relatives, the GH3\nstrain, demonstrate a decrease in Do in the latter (Guillemin et al, 1983; Mandell,\n1986).\n\nThe number of examples of the use of D2 on orbital point geometries in\nexplorations of physiological and pharmacological regulation are increasing. The D2\nof respiratory rhythms is higher with intact vagal afferents than without (Sammon\nand Bruce, 1991). Histamine induced an increase in Dz in the attractor point\ndistribution of rabbit ear artery vasomotion, attributed to calcium-activated\n\nmembrane potassium channels in that TEA prevented and reversed the change\n\n234\n\nHOUSE_OVERSIGHT_013734",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013734.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2451,
+    "word_count": 360,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:45.459653",
+    "prefix": "IMAGES-002"
+  }
+}

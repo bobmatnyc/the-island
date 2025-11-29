@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025366",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025366.txt",
+  "text": "Flags: 1150981\nIs Read: No\n\nIs Invitation: No\n\nTr\nNe}\n\nGUID: 45E5FC4B-C855-48BD-ADD2-413D3 9E9E690\n\nMessage: cell 212 533 3739\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/22/18 06:59:37 AM (551368777)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 405433A0-0CD5-4369-BCB5-F418DABCB8F7\n\nMessage: Call now\n\nSender: i’\nTime: 06/22/18 07:00:55 AM (551368855)\n\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nr\n\nGUID: 6542B11E-5D3D-45B7-8D12-DB85BA7D0729\n\nMessage: Called\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/22/18 10:55:04 AM (551382904)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 8296CBO1-0181-42FB-9BA7-855A70E650E4\n\nMessage: Ken starr in ny for weekend- let me know if interested\n\nTime: 06/22/18 10:59:11 AM (551383151)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nT\n\nGUID: 97F7FE89-18BE-49D4-A87A-B66135BCF849\n\nMessage: Very\n\nSender: e:jeeitunes@gmail.com\nTime: 06/22/18 10:59:39 AM (551383179)\nFlags: 1085445\n\nTs Read: No\n\nHOUSE_OVERSIGHT_025366",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025366.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 968,
+    "word_count": 118,
+    "line_count": 71,
+    "import_date": "2025-11-19T21:47:47.155120",
+    "prefix": "IMAGES-008"
+  }
+}

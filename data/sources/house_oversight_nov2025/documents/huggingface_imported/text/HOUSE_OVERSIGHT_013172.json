@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013172",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013172.txt",
+  "text": "256 13 Local, Global and Glocal Knowledge Representation\n\n13.4 Knowledge Representation via Attractor Neural Networks\n\nNow we turn to global, implicit knowledge representation — beginning with formal neural net\nmodels, briefly discussing the brain, and then turning back to CogPrime. Firstly, this section\nreviews some relevant material from the literature regarding the representation of knowledge\nusing attractor neural nets. It is a mix of well-established fact with more speculative material.\n\n13.4.1 The Hopfield neural net model\n\nHopfield networks [Hop82] are attractor neural networks often used as associative memories. A\nHopfield network with N neurons can be trained to store a set of bipolar patterns P, where\neach pattern p has N bipolar (+1) values. A Hopfield net typically has symmetric weights with\nno selfconnections. The weight of the connection between neurons ¢ and j is denoted by wi;.\nIn order to apply a Hopfield network to a given input pattern p, its activation state is set to\nthe input pattern, and neurons are updated asynchronously, in random order, until the network\nconverges to the closest fixed point. An often-used activation function for a neuron is:\n\nyi = sign(p; S- wisys)\nJFi\nTraining a Hopfield network, therefore, involves finding a set of weights w,; that stores the\ntraining patterns as attractors of its network dynamics, allowing future recall of these patterns\nfrom possibly noisy inputs.\nOriginally, Hopfield used a Hebbian rule to determine weights:\n\nP\nWig = Spi;\np=l1\n\nTypically, Hopfield networks are fully connected. Experimental evidence, however, suggests\nthat the majority of the connections can be removed without significantly impacting the net-\nwork’s capacity or dynamics. Our experimental work uses sparse Hopfield networks.\n\n13.4.1.1 Palimpsest Hopfield nets with a modified learning rule\n\nIn [SV99] a new learning rule is presented, which both increases the Hopfield network capacity\nand turns it into a “palimpsest”, i-e., a network that can continuously learn new patterns, while\nforgetting old ones in an orderly fashion.\n\nUsing this new training rule, weights are initially set to zero, and updated for each new\npattern p to be learned according to:\n\nHOUSE_OVERSIGHT_013172",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013172.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2237,
+    "word_count": 344,
+    "line_count": 44,
+    "import_date": "2025-11-19T21:47:48.463082",
+    "prefix": "IMAGES-002"
+  }
+}

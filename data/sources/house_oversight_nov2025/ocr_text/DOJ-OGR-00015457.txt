@@ -1,0 +1,47 @@
+Fed =< Invoice Number: 4-495-86910
+2 Invoice Date: Dec 23, 2002
+Account Number: 1144-2081-6
+Page: 6 of 10
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Tracking D 792149287424 Sender Recipient
+Service Type FedEx Intl Economy CECILIA STEEN ALEXANDRA DIXON
+Package Type Customer Packaging JEFFREY E. EPSTE N Po
+Zone D 457 MADISON AVENUE fT
+Orig./Dest. JRB/LON 4TH FLOOR Po
+Packages 1 NEW YORK NY 10022 US
+Weight 2.0 Ibs, 0.9 kgs
+Delivered Dec 16, 2002 08 54 Transportation Charge 45 55
+Signed by M BEDFORD Fuel Surcharge 1.77
+FedExUse _/US010/_ Discount -137
+Total Transportation Charges USD $ 45.95
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Tracking D 792149300540 Sender Recipient
+Service Type FedEx Intl Economy CECILIA STEEN ANN LAWESSON
+Package Type Customer Packaging JEFFREY E. EPSTE N GEMINI ERNST & YOUNG
+Zone H 457 MADISON AVENUE
+Orig./Dest. JRB/STO 4TH FLOOR
+Packages 1 NEW YORK NY 10022 US
+Weight 2.0 Ibs, 0.9 kgs
+Delivered Dec 16, 2002 15:40 Transportation Charge 54.56
+Signed by C.ARLA Fuel Surcharge 2.12
+FedEx Use _/US010/_ Discount -1 64
+Total Transportation Charges USD $ 55.04
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Recipient not in/business closed.
+Tracking D 792790137854 Sender Recipient
+Service Type FedEx Intl Economy CECILIA STEEN MYLENE JAMPANOI
+Package Type Customer Packaging JEFFREY E. EPSTE N PY
+Zone D 457 MADISON AVENUE FY
+Orig./Dest. JRB/PAR 4TH FLOOR
+Packages 1 NEW YORK NY 10022 US
+Weight 2.0 Ibs, 0.9 kgs
+Delivered Dec 17, 2002 11:11 Transportation Charge 45 55
+Signed by MYLENE JAMPANOI Fuel Surcharge 177
+FedExUse _/US010/08 Discount -1 37
+Total Transportation Charges USD $ 45.95
+SDNY_GM_00340830 148
+DOJ-OGR-00015457

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015794",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015794.txt",
+  "text": "104 Are the Androids Dreaming Yet?\n\nThere are two problems with X-ray imaging. Even with clever\nmathematics, the dense bone in the skull blocks the rays so you don't get\nmuch contrast, making it hard to distinguish normal brain matter from\nsomething like a tumor. But the bigger concern is X-rays are a form of\nionizing radiation, and ionizing radiation causes cancer.\n\nWe are told to wear sun block to protect our skin from ultraviolet\nlight; X-rays are 100 times more potent and can doa great deal of damage.\nFortunately, the body repairs itself quite well in the presence of low levels\nof radiation. The double part of the double helix in our DNA allows a\nset of proteins in our cells to go around correcting errors when they\ndetect a mismatch between the two strands. But, now and again an X-ray\nmight make an irreparable fault in both copies. If enough of these faults\naccumulate, they can lead to cancer or, if the errors are in reproductive\norgans, birth defects. Doctors try to minimize the radiation we receive\nand give us as few CAT scans as possible during our lifetime, especially\nwhen we are young and have not yet had children.\n\nMRI\n\nX-rays dominated our ability to see into the human body until the\nmid-1970s when Raymond Damadian came up with the idea of using\nmagnetism. Magnetic fields are not absorbed by bone and present\nno danger as they do not damage DNA. Ironically, the technique was\noriginally known as Nuclear Magnetic Resonance, ‘NMR, which patients\nthought must be dangerous because of the word nuclear. The name was\n\nFunctional MRI: Working Memory\n\nHOUSE_OVERSIGHT_015794",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015794.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1600,
+    "word_count": 274,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:44.956010",
+    "prefix": "IMAGES-003"
+  }
+}

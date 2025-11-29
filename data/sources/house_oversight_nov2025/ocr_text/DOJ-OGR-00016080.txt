@@ -1,0 +1,54 @@
+Fed =< Invoice Number: 4-495-75031
+e Invoice Date: Dec 23, 2002
+Account Number: 1144-2081-6
+Page: 17 of 21
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 13, 2002 Payor: Recipient Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a [uel surcharge of 4.00% |o this shipment
+Distance Based Pricing, Zone 2
+Release signature on file.
+Tracking ID 828527257720 Sender Recipient
+Service Type FedEx Priority Overnight FRANK NODARSE LARRY ViSOSKI
+Package Type Customer Packaging 4
+Zone 2
+Packages 1
+Weight 3.0 bbs, 1.4 kgs
+Delivered Dec 14, 2002 11:40 Transportation Charge 18.00
+Sve Area AA Discount 180
+Signed by 14794574 Saturday Delivery 10.00
+FedEx Use  348047870/01486/02 Fuel Surcharge 0.65
+Courier Pickup Charge 0.00
+Residential Delivery 135
+Total Transportation Charges USD $ 28.20
+Dropped off: Dec 18, 2002 Payor: Recipient Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surchame of 4.00% to this shipment.
+Disiance Based Pricing, Zone 8
+Tracking ID 837700541252 Sender Reopen
+Service Type FedEx Standard Qvemight BANU KUCUKKOYLU EDWINA SIMMOND
+Package Type FedEx Envelope
+Zone 8 —
+Packages 1 =
+Weight 1.0 Ibs, 0.5 kgs Transportation Charge 525 =
+Delivered Dec 19, 2002 10:30 Discount 24 =
+Sve Area AY Fuel Surcharge oo =
+Signed by -MAXWELL —— hs
+FedEx Use — 352357210/00266/ Total Transportation Charges USD $ 13.32 =
+Ceaigumenet Dusted Sastiintah sss ee EDS 41.52
+Picked up: Dec 12, 2002 Payor: Third Party Reference: NO REFERENCE INFORMATION
+Fuel Surcharge FedEx has applied a uel surcharge of 400% |o this shipment
+Disiance Based Pricing, Zone 7
+Release signature on file.
+Powershp Sender Recipient
+Tracking ID 622794984940 MIKE AND PAT re
+Service Type FedEx Priorily Qvernight JEPPESEN SANDERSON RODGERS DAVID
+Package Type Customer Packaging MR. LARRY VISOSKI
+Zone 7 a
+Packages 1
+Weight 11.9 Ibs. 5.0kgs Transportation Charge 5450
+Delivered Dee 13, 2002 11:01 Discount 5A5
+Svc Area = AA Fuel Surcharge 1.96
+Signed by = 14794574 Residential Delivery 135
+FedEx Use 081352204/01596/02 —_—_—_—_—_—_—_—_—_—_—— SS ee .......---.-.!!!:!.:.snxk .___
+Total Transportation Charges USD$ 52.36
+Siniguniell Tahal Sn ere ec eee 52.36
+DOJ-OGR-00016080

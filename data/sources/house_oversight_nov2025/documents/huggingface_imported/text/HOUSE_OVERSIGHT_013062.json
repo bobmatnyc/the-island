@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013062",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013062.txt",
+  "text": "146 8 Cognitive Synergy\n\nwhere the Context involves sensory, episodic and/or declarative knowledge; and attentional\nknowledge is used to regulate how much resource is given to each such schematic implication in\nmemory. Synergy among the learning processes dealing with the context, the procedure and the\ngoal is critical to the adequate execution of the cognitive schematic using feasible computational\nresources.\n\nFinally, drilling a little deeper into Point 3 above, one arrives at a number of possible knowl-\nedge creation mechanisms (cognitive processes) corresponding to each of the key types of knowl-\nedge. Figure ?? below gives a high-level overview of the main types of cognitive process con-\nsidered in the current version of Cognitive Synergy Theory, categorized according to the type\nof knowledge with which each process deals.\n\n8.3 Cognitive Synergy in CogPrime\n\nDifferent cognitive systems will use different processes to fulfill the various roles identified in\nFigure ?? above. Here we briefly preview the basic cognitive processes that the CogPrime AGI\ndesign uses for these roles, and the synergies that exist between these.\n\n8.3.1 Cognitive Processes in CogPrime\n\n: a Cognitive Synergy Based Architecture...\" from ICCI 2009\n\nTable 8.1: default\n\n|Table will go here|\n\nTable 8.2: The OpenCogPrime data structures used to represent the key knowledge types in-\nvolved\n\nTable 8.3: default\n\n|Table will go here|\n\nTable 8.4: Key cognitive processes, and the algorithms that play their roles in CogPrime\n\nTables 8.1 and 8.3 present the key structures and processes involved in CogPrime, identifying\neach one with a certain memory/process type as considered in cognitive synergy theory. That\nis: each of these cognitive structures or processes deals with one or more types of memory —\ndeclarative, procedural, sensory, episodic or attentional. Table 8.5 describes the key CogPrime\n\nHOUSE_OVERSIGHT_013062",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013062.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1913,
+    "word_count": 289,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:47.852011",
+    "prefix": "IMAGES-002"
+  }
+}

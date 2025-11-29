@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028802",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028802.txt",
+  "text": "washingtonpost.com / David Nakamura, John Wagner, Ashley\nParker, Josh Dawsey Labor Secretary Alex Acosta’s resignation Friday\namid the mushrooming Jeffrey Epstein investigation made him the latest\nin a growing list of President...\n\nHOUSE_OVERSIGHT_028802",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028802.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 254,
+    "word_count": 33,
+    "line_count": 6,
+    "import_date": "2025-11-19T21:47:44.612038",
+    "prefix": "IMAGES-010"
+  }
+}

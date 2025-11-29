@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00031859.pdf",
+  "ocr_date": "2025-11-16T22:11:21.957997",
+  "text_length": 1160,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "jherman@hermanlaw.com"
+  ]
+}

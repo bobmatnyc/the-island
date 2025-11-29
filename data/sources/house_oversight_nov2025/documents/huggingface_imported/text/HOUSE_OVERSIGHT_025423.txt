@@ -1,0 +1,64 @@
+Source — H\Macintosh HD\ root \Users\jee\Library\Messages\Archive\2019-02-25
+
+6n 2019-02-12 at. 06.29.59. ichat
+
+Service: iMessag
+
+Start Time: 02/25/19 05:04:24 PM (572835864)
+End Time: 02/25/19 08:49:24 PM (572849364)
+Last Message ID: 25553
+
+Chat Room:
+Presentity IDs: e:jeeitunes@gmail.com, Po
+
+Messages -
+
+Sender: e:jeeitunes@gmail.com 1:
+Time: 02/25/19 05:04:24 PM (572835864)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+T,
+
+GUID: 8A1C2D1E-0644-46BO0-9096-AE428DE0F843
+
+Message: You around?
+
+Time: 02/25/19 06:10:23 PM (572839823)
+Flags: 1060865
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 71097128-520C-4914-93FE-7A8DF9877419
+
+Message: Hey I am Abu Dhabi and Dubai this week watching the hypocrisy from a distance!
+
+Time: 02/25/19 06:10:31 PM (572839831)
+Flags: 1126401
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: OCOE4AB5-4E06-4904-8D34-A445888A3834
+
+Message: I am back Monday
+
+Sender: Po
+
+Time: 02/25/19 06:10:49 PM (572839849)
+Flags: 1060865
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 503AF2CB-C265-4135-A076-6F4EF4B9A981
+
+Message: Are you in NYC next week?
+
+HOUSE_OVERSIGHT_025423

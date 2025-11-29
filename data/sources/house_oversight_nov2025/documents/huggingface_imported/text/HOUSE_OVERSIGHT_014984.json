@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014984",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014984.txt",
+  "text": "Chart 19: The SX7E 6m implied-realised correlation spread has been\nhigh throughout 2017 and remains in the 88 5-year percentile\n\nChart 20: The decline in SX7E 6M realised correlation appears to be\nmainly due to company-specific rather than region-specific divergence\n\n6m realised correlation\n\n6m implied correlation\nimplied-realised spread\n\n100%\n80%\n60%\n40%\n20%\n\n0%\n\n-20%\n\nJun-12\nDec-12\nJun-13\nDec-13\nJun-14\nDec-14\nJun-15\nDec-15\nJun-16\nDec-16\n\nSource: BofA Merrill Lynch Global Research. Data: 16-Jan-12 to 16-Jun-17. Implied and realised\ncorrelations are calculated using current weights.\n\nChart 21: ESTX50 3M put skew is near 5yr highs, in stark contrast to\nSXEP (European Oil & Gas equity) put skew which is close to 5yr lows\n\n6.5%\n55% 100th percentile __\n45%\n3.5%\n\n2.5% = a =\n2nd percentile\n\n1.5%\nJun12 Jun13 Jun14 Jun15 Jun16 Junt7\n\nSX5E 3M 90-100 put skew SXEP 3M 90-100 put skew\nSource: BofA Merrill Lynch Global Research. Data: 16-Jun-12 to 16-Jun-17.\n\n90% 50%\n40%\n10%\n30%\n20%\n50%\n10%\n30% 0%\n12 13 14 15 16 47\nSpread (rhs)\n\nAverage inter-regional SX7E 6M realised correlation**\nSX7E 6M realised correl*\n\nSource: BofA Merrill Lynch Global Research. Data: 16-Jan-12 to 16-Jun-17. *Calculated based on\ncurrent weights of French, German, Italian and Spanish banks with enough price history. **We\nconstruct theoretical portfolios consisting of SX7E names from a given country (France, Germany,\nItaly and Spain) and compute the average pairwise correlation of their daily returns\n\nESTX50 put 3M 90-100 (%fwd) put skew has re-steepened to\nnear 5 year highs following the flattening which ensued after\nthe first round of the French presidential elections (23-Apr). The\nrecent ESTX50 skew dynamics are in stark contrast to what has\nbeen witnessed in the SXEP (European Oil & Gas equity), where\nthe 3M 90-100 volatility spread has been trending lower and is\ncurrently near-flattest in 5 years.\n\nBankof America\nMerrill Lynch\n\nGlobal Equity Volatility Insights | 20 June 2017 13\n\nHOUSE_OVERSIGHT_014984",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014984.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1998,
+    "word_count": 315,
+    "line_count": 85,
+    "import_date": "2025-11-19T21:47:46.293359",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025684",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025684.txt",
+  "text": "The Cryptocurrency Infrastructure is Young and Investment OO\n\nManagement\n\nSusceptible to Hacking Division\n\n(1) http:/fortune.com/2016/08/29/risk-of-bitcoin-hacking-is-real/\nSource: Investment Strateav Group. public news sources. See appendix for list of articles.\n\nTimeline of Major Cryptocurrency Hacks and Amount Stolen\n\n_ . Inputs.io — 4,100 BTC\nBIPS* 1295 BTS - Picostocks — 6,000 BTC\nMt Gox — 75,000 BTC\nPoloniex — undisclosed BTC\nCanadian Bitcoins — undisclosed BTC\n\n- Flexcoin — 1,000 BTC\n- Bitcurex — undisclosed BTC\n\nCoinapult — 150 BTC\nBitfinex-1,500 BTC -\nScrypt.CC — undisclosed BTC\n\n- BitStamp — 18,866 BTC\n- BTER—7,170 BTC\n- Purse.io — 10,235 BTC\n\nBitfinex — $65mil\nGatecoin — $2mil -\n\n- Cryptsy — 13,000 BTC\n- Cointrader — undisclosed BTC\n- DAO — $55mil\n\n- CoinDash — $7mil\n\n- Swarm City — $32.6mil\n- Bithumb —'$1mil\n\n- Veritaseum — $8.4mil\n\nzeternity blockchain — undisclosed -\nEdgeless Casino — undisclosed -\nParity (Ethereum) — ~$350mil -\n\nAlthough cryptocurrencies cannot be spent without control of the corresponding private keys, care must be taken to\nprotect those private keys. Many bitcoin owners allow exchanges to custody their private keys, which leaves them\nvulnerable:\n\n— Ifhackers are able to access owners’ private keys, they can deplete owners’ digital wallets.\n— As of August 2016, Reuters reported that a third of bitcoin exchanges had been hacked.!\n— Ethereum’s recent Parity hack 1s the first time a coding error has resulted in a loss of funds.\n\nEstimates vary but suggest that hackers have stolen at least several hundred million dollars of cryptocurrencies.\n\n21\nHOUSE_OVERSIGHT_025684",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025684.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1623,
+    "word_count": 253,
+    "line_count": 58,
+    "import_date": "2025-11-19T21:47:44.954338",
+    "prefix": "IMAGES-008"
+  }
+}

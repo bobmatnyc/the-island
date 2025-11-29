@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00024684.pdf",
+  "ocr_date": "2025-11-16T21:54:51.243492",
+  "text_length": 1699,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "J@thedailybeast.com"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011127",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011127.txt",
+  "text": "APPENDIX A: The Argument in Notation\n\nOutput and Cash Flow\n\nMy focus will be on absolute rather than per capita values. The usual custom gives\ncapital letters for the former and lower-case ones for the latter. I will prefer the\nupper case for stocks and flows, and the lower one for rates. That need not hold true\n\nfor Greek letters.\n\nThe total return truism can be notated\n\nY=K,+F, (A1.1)\n\nwhere Y is output, K,, is total capital and F is cash flow. Also\n\nF=t+C, and t=T,-T_, (A1.2)\n\nwhere T (tau) is net transfer, tT, is transfer out, t_ is transfer in and C, is pure\n\nconsumption (exhaust in taste satisfaction). Cash flow is the net of positive less\n\nnegative components. I define them by\n\nF=t,+C, F=t and F=F -F. (A1.2a)\n\n+\n\nAt the collective scale, where transfers cancel internally, these equations combine\n\nfor\n\nY=K,+C, and F=F=C,. (A1.3)\n\np\n\nMath reminds us continually that “equals” does not necessarily mean “is”. (A1.1) and\n\n(A1.3), for example, do not mean that output is growth plus cash flow or growth plus\n\nAPPENDIX A: The Argument in Notation 3/7/16 1\n\nHOUSE_OVERSIGHT_011127",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011127.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1092,
+    "word_count": 186,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:48.693352",
+    "prefix": "IMAGES-001"
+  }
+}

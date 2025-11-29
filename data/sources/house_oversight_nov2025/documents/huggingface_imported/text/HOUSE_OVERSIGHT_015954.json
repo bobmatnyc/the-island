@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015954",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015954.txt",
+  "text": "264 Are the Androids Dreaming Yet?\n\nWELL... IT TURNED OUT WE SO BASICALLY ROSS |S\nDION'T HAVE ENCUGH BURGET || GOING TO HELP YOU TILL ITS\nTO HIRE ANOTHER DONE.\nPROGRAMMER ON THIG\n\nPROJECT.\n\nGeek Humor\n\nand examine the full scope of the problem space. Even if you say, “Oh\ndon't worry about that bit? they always will. They want to know about\neverything. Then, they write a high-level list of features, some simple\nblock diagrams, and occasionally a flow chart, only then do they begin to\ncode, ticking off the list as they go. Sometimes, they will check to see if\ntheir list is the same as your list but more often they will come back and\njust check the high-level purpose. “If I give you something that achieves\nthis, will that do it for you?” They test as they code so you end up with is\nsomething that meets your high-level purpose, and can prove it does so\nin its own right. At the end of the coding they write out the specification\nfor the project so that they can remember what they did, or a colleague\ncan pick it up in the future.\n\nThis is not how students are taught. Students are told to write a\ndetailed specification at the start and then simply implement it. If you’ve\nbeen following my argument, they are being taught to do something\nimpossible! There is no ‘just’ to programming. Sometimes teams are\neven split up so that one person writes the specification and another the\ncode — again an impossible task. If the specification was the answer to\nthe problem, it must have required creative thought to develop and so\nwould be as complex as the program itself. Since it is not yet a program\nyou cannot test it, so it becomes an untestable solution to a creative\nproblem. Since the specification is not the answer but rather a general\nlist of tasks, the great danger is to give it to a separate programmer and\n\nHOUSE_OVERSIGHT_015954",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015954.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1845,
+    "word_count": 336,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:48.005443",
+    "prefix": "IMAGES-003"
+  }
+}

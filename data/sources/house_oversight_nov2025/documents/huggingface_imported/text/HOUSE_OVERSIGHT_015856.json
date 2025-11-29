@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015856",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015856.txt",
+  "text": "166 Are the Androids Dreaming Yet?\n\nMaze\n\nclue which one will be better. Beware the confusing naming system, ‘N’\nstands for nondeterministic in this case, whereas in normal complexity\nclasses ‘n’ stands for number. Sorry. That’s just the way it is. Let me give\nyou an example of one of these NP problems.\n\nLet us assume we have one of those complicated recipes from the\nlatest celebrity chef cookbook. If all the ingredients can be bought from\none store, making the dish is straightforward, but if they come from\ndifferent stores, you will have your work cut out. What is the best order\nto visit them? With 2 shops, it’s trivial. Either order will do. With 3 it is a\nlittle harder and with 4 there is quite a bit of choice. This is known as the\n‘traveling salesman’ problem because the original formulation described\na salesman wishing to find the shortest route between all the cities in\nwhich he had customers. The complexity of this problem rises much\nfaster than the Rice and Chess Board problem. Try it for yourself. It\ndoesn’t matter if you imagine you are visiting customers or shops. I have\ngiven you a grid to count off distances. Try to solve a problem for 3 cities,\n5 and 10. What is the shortest path allowing you to visit each place?\n\nHOUSE_OVERSIGHT_015856",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015856.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1270,
+    "word_count": 226,
+    "line_count": 24,
+    "import_date": "2025-11-19T21:47:46.740812",
+    "prefix": "IMAGES-003"
+  }
+}

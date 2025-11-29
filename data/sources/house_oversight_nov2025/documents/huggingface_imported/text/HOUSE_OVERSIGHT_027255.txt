@@ -1,0 +1,86 @@
+Source Entry: H\Macintosh HD\root\Users\jee\Library\Messages\Archive\2018-01-25\Terje on 2018-01-25 at
+07.15.20.ichat
+
+Service: iMessage
+
+Start Time: 01/25/18 04:15:20 AM (538575320)
+
+End Time: 01/25/18 12:59:02 PM (538606742)
+
+Last Message ID: 12001
+
+Chat Room:
+
+Participants: jee, Terje
+
+Presentity IDs: e:jeeitunes@gmail.com, xa
+
+Messages -
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 01/25/18 04:15:20 AM (538575320)
+
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: E975E2F9-FEB0-4E08-B959-F3BC0702D544
+Message: Call when free
+
+Sender:
+
+Time: 01/25/18 05:11:34 AM (538578694)
+
+Flags: 1060865
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: A7052E08-125B-4737-9EAB-57B16D6542AE
+Message: Tried
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 01/25/18 05:21:13 AM (538579273)
+
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: 43CD5892-086A-4FF9-801B-B45BE1C0A589
+Message: Talk in 2 hrs ?
+
+Sender:
+
+Time: 01/25/18 06:40:41 AM (538584041)
+
+Flags: 1126401
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 8411A30E-73FC-415C-806B-FDF39FD76056
+
+Message: Bill Gates is here. Could you ask him if I could see him tomorrow or on Saturday morning? Trump is
+speaking at 2 pm tomorrow. Macron spoke yesterday. Very good! Borge wants to see you, but prefer Geneva.
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 01/25/18 06:45:47 AM (538584347)
+
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: 30FF25ED-290E-46D5-BF62-82B77DAF428D
+
+HOUSE_OVERSIGHT_027255

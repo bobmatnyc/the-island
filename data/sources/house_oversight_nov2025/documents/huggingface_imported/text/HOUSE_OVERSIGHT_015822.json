@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015822",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015822.txt",
+  "text": "132 Are the Androids Dreaming Yet?\n\npaper! Stephen Hawking and Jacob Bekenstein have shown space appears\nto have a limit to the quantity of information it can store. The quantity of\ninformation we are looking at here is greater than the storage capacity of\nthe Universe and would collapse space-time to a black hole before I got\neven a fraction of the way through. Let us try to be a bit cleverer about\nthe task of creating this information.\n\nThe simplest way to tie the computer down is to run a much\nstricter program. Ask it to count up from one until you get to a number\nrepresenting the novel War and Peace and then print it, stop and ring a\n\nbell.\nLoop i++ until i == “War and Peace...”; Print i; ring-bell;\n\nThis program succeeds!\n\nI am triumphant. I have calculated the War and Peace number, and\nthis time I did not miss the event. But, if you consider this a little more\ndeeply I gave the computer the answer! I told it the string “War and\nPeace...” and it was able to count up, stop, and tell me it reached it. In\nmathematical terminology, the program is said to have ‘halted’ when it\nreached the War and Peace number and in computer science speak it\nis a special purpose program designed to do only this one thing. This\nprogram is pointless. First, it would still take a ginormous amount of\ntime to get there and, second, it is trivially the same as running the\nprogram: Print War and Peace.\n\ni = “War and Peace...”; Print i;\n\nIt’s just the same as me taking my laptop, finding War and Peace and\npressing print. In no way is this equivalent to Leo Tolstoy’s creative effort\nof writing War and Peace in the first place.\n\nWhat went wrong?\n\nI wanted my computer to find an interesting string I did not already\nknow. War and Peace is trivially computable after Leo Tolstoy created it\nbut the question is whether my computer could come up with War and\nPeace or some similar creative work on its own. Can it create and, more\nimportantly, understand it has created something? We have linked the\nideas of creativity and understanding, and this will prove to be the key\nto the problem.\n\nHOUSE_OVERSIGHT_015822",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015822.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2110,
+    "word_count": 386,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:48.586249",
+    "prefix": "IMAGES-003"
+  }
+}

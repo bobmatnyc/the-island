@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011011",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011011.txt",
+  "text": "are factored into share prices because they are realities that would be valued as\nsuch by bidders for the assets themselves. It is a mistake, | think, to suppose that\nshares prices would be less volatile if more descriptive of real value underneath.\nThe existence of trends suggests the opposite. Trends would be expected from\nsystematic underreaction to the news, so that reaction catches up later, while\nsystematic overreaction ought to be followed by adjustment in the opposite\ndirection. This gradual rather than immediate digestion of the news would tend to\nsmooth out price response. Trends imply systematic underreaction, not\noverreaction. Market evidence shows something near that random walk as a usual\nrule, implying neither systematic overreaction nor systematic underreaction, but\nwith some episodes of the latter. What would the reason be? My first guess would be\nsomething delaying the mechanics of price reaction when news is particularly\nsurprising. Our sense of where prices should go right now seems not to get them\nthere until later. Prefect reaction to perfect news ought to mean more price\n\nvolatility, not less, from day to day.\n\nStocks are more volatile then most assets because most are “leveraged.” Firms may\nissue bonds, and may borrow shorter-term from banks. Fixed interest on those debt\nclaims is paid first. Shareholders get the rest of net output, which itself fluctuates\naround expected norms and is sometimes negative. If a firm’s net profit (net output)\nis one million dollars one year, and one dollar higher the next, net profit will have\nvaried only one ten thousandth of a percent. But if interest payments take up the\nsame million dollars per year, every year, profit left for shareholders will have\ngrown from nothing to one dollar. Its growth rate will have been effectively infinite.\nIf the firm earns two dollars less the year after, it will have to invade capital to pay\nthe interest, and owners take a one-dollar loss. Again the difference is trivial\npercentage-wise to net profit, but diametric to equity investors. The more fixed debt,\nthe more surprise and volatility in whatever is left for shareholders. The ratio of\ndebt to that remainder, called “equity,” is the leverage meant. Stock in this security\n\nsense means the same as shares or equity.\n\nChapter 4 Mill’s Idea 1/11/16 20\n\nHOUSE_OVERSIGHT_011011",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011011.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2353,
+    "word_count": 382,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:45.697632",
+    "prefix": "IMAGES-001"
+  }
+}

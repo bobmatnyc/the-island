@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011042",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011042.txt",
+  "text": "growth = transfer in + positive unrealized output + plowback\n— decapitalization. (6.14a)\n\n(6.14a) can also be expressed as\n\ngrowth = transfer in + unrealized output + plowback\n— recovered decapitalization. (6.14b)\n\nFor convenience, define\ngross transfer in = transfer in + plowback,\nSo that (6.14) through (6.14b) can be put more compactly as\n\ngrowth = gross transfer in + positive proprietary output — decapitalizaiton\n= transfer in + unrealized output - recovered decapitalization. (6.14c)\n\nAny of these versions of (6.14) can be called the growth truism. The new term gross\ntransfer in will help shorten equations for human capital.\n\nManagement as a Quasi-Owner\n\nOwners (shareholders) typically allow management wide latitude to cope with\nneeds. It stands in place of owners. Accounting tradition, and this book too, reasons\nout the steps from revenue to dividend yield as if management itself were the owner.\nOtherwise there would be little to say. From the shareholder viewpoint, revenue is\n\nsimply dividend yield.\n\nBut the bottom line is the same. The maximand is output, or growth plus cash flow.\nPositive cash flow, in the sense net of plowback, is dividend yield on both the firm’s\nbooks and the shareholder’s. Negative cash flow on the books of shareholders\nindividually is purchase of any shares in the same firm. On the books of\nshareholders collectively, where sales and purchases of existing shares offset, it\nsimplifies to purchase of new stock issues alone. This too is just as on the books of\n\nthe firm.\n\nChapter 6: Parallels with the Firm 2/4/16 8\n\nHOUSE_OVERSIGHT_011042",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011042.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1589,
+    "word_count": 256,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:48.895957",
+    "prefix": "IMAGES-001"
+  }
+}

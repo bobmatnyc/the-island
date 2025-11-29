@@ -1,0 +1,28 @@
+Page 1185
+Discussion with patient or patient's family regarding prognosis ——Yes ——No _¥_NA
+DNR order ___Yes ——S ae
+Date
+Advance Directive / Living Will ___Yes —__No _v¥_NA
+LOCAL COMMUNITY HOSPITALIZATIONS ONLY:
+Type of admission —__Routine ¥ Emergent — Other
+Method of transportation appropriate to patient condition it Nee ___No —— NA
+Severity of condition at time of admission to local hospital _v_ Critical — Stable —— Unknown
+Prognosis on admission to local hospital —“ Poor —— Good —— Unknown
+Were diagnostic procedures appropriate and timely _¥_Yes ——No
+Was treatment appropriate to diagnosis and instituted timely _v_Yes ——No
+Prognosis with treatment v¥_ Poor —— Good — — Unknown
+Any complications adversely affecting outcome: _v_Yes ——No
+(describe briefly) _Asphyxiation Secondary to Hanging. a
+Was treatment appropriate to complication _v¥_Yes ——No
+Surgical Procedures (list) Yes ¥_No
+Appropriate pre-operative evaluation completed, —___Yes _v¥_No
+including lab, physical exam, updated history
+Complications related to surgical procedures —_—-Yes wn te)
+Describe
+Prognosis following surgical procedure — Poor —— Good _¥_ Unknown
+Patient compliant with treatment / medications _Yes NG _¥_NA
+Discussion with patient or patient's family regarding Yes ——No _¥_NA
+patient prognosis
+4
+PDF Prescribed by P6013
+DOJ-OGR-00025390

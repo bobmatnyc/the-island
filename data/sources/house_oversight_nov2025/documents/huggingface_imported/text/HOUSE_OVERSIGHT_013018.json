@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013018",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013018.txt",
+  "text": "102 5 A Generic Architecture of Human-Like Cognition\n\ntouch and smell (the latter being better modeled as something like an asymmetric Hopfield net,\nprone to frequent chaotic dynamics [LLW~05]) — these may also cross-connect with each other\nand with the more hierarchical perceptual subnetworks. Of course the suggested architecture\ncould inclide any number of sensory modalities; the diagram is restricted to four just for\nsimplicity.\n\nThe self-organized patterns in the upper layers of perceptual hierarchies may become quite\ncomplex and may develop advanced cognitive capabilities like episodic memory, reasoning, lan-\nguage learning, etc. A pure deep learning approach to intelligence argues that all the aspects\nof intelligence emerge from this kind of dynamics (among perceptual, action and reinforcement\nhierarchies). Our own view is that the heterogeneity of human brain architecture argues against\nthis perspective, and that deep learning systems are probably better as models of perception\nand action than of general cognition. However, the integrative diagram is not committed to\nour perspective on this — a deep-learning theorist could accept the integrative diagram, but\nargue that all the other portions besides the perceptual, action and reinforcement hierarchies\nshould be viewed as descriptions of phenomena that emerge in these hierarchies due to their\ninteraction.\n\nACTION AND REINFORCEMENT SUBSYSTEM\n\nSENSORY-MOTOR MEMORY\n3\nT MOTIVATION,\nHIGHER LEVEL\n- ACTION SELECTION\n\nMOTOR\nPLANNING\n\n—— | ——1\n\n|} {| HIERARCHY \\ a HIERARCHY /\n\nREINFORCEM EN T\nHIERARCHY\n\nHIERARCHY\n\nFig. 5.6: Architecture for Action and Reinforcement\n\nFigure 5.6 shows an action subsystem and a reinforcement subsystem, parallel to the per-\nception subsystem. Two action hierarchies, one for an arm and one for a leg, are shown for\n\nHOUSE_OVERSIGHT_013018",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013018.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1844,
+    "word_count": 273,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:44.041426",
+    "prefix": "IMAGES-002"
+  }
+}

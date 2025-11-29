@@ -1,0 +1,356 @@
+{
+  "console_messages": [
+    {
+      "type": "log",
+      "text": "[App] Hot-reload handlers registered",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3917,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83e\uddea Timeline Debug Auto-Loader Initialized",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 5279,
+        "columnNumber": 8
+      }
+    },
+    {
+      "type": "log",
+      "text": "[Hot-Reload] Initializing...",
+      "location": {
+        "url": "http://localhost:8000/hot-reload.js?v=20251117b",
+        "lineNumber": 23,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83e\uddea DEBUG: DOMContentLoaded event fired",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 5282,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83e\uddea DEBUG: loadTimeline function exists: function",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 5283,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "[Hot-Reload] Connected: Hot-reload connected",
+      "location": {
+        "url": "http://localhost:8000/hot-reload.js?v=20251117b",
+        "lineNumber": 44,
+        "columnNumber": 24
+      }
+    },
+    {
+      "type": "log",
+      "text": "Loaded biographies for 21 entities",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 846,
+        "columnNumber": 20
+      }
+    },
+    {
+      "type": "log",
+      "text": "Loaded tags for 70 entities",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 861,
+        "columnNumber": 20
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83e\uddea DEBUG: Timeline container found: YES",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 5288,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83e\uddea DEBUG: Container HTML: \n                            <div class=\"timeline-empty\">\n                                <div class=\"timeline-empty-icon\">\u23f3</div>\n                                <div class=\"timeline-empty-text\">Load",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 5291,
+        "columnNumber": 20
+      }
+    },
+    {
+      "type": "error",
+      "text": "[Hot-Reload] Connection error: Event",
+      "location": {
+        "url": "http://localhost:8000/hot-reload.js?v=20251117b",
+        "lineNumber": 89,
+        "columnNumber": 24
+      }
+    },
+    {
+      "type": "log",
+      "text": "[Hot-Reload] Reconnecting in 5s...",
+      "location": {
+        "url": "http://localhost:8000/hot-reload.js?v=20251117b",
+        "lineNumber": 145,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_INCOMPLETE_CHUNKED_ENCODING",
+      "location": {
+        "url": "http://localhost:8000/api/sse/updates",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udd04 Tab switched to timeline - calling loadTimeline()",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 1179,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udd0d loadTimeline() called",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3587,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca Baseline events: 15",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3588,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udce1 Fetching from: http://localhost:8000/api/timeline",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3593,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca Response status: 200 OK",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3599,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\u2705 API data received: {total: 98, events: Array(98), date_range: Object}",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3603,
+        "columnNumber": 20
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca API events count: 98",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3604,
+        "columnNumber": 20
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udccb Total timeline data: 113 events",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3614,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83c\udfa8 About to render 113 events",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3624,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83c\udfa8 renderTimeline() called",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3656,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca filteredTimelineData.length: 113",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3657,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udce6 Container element: JSHandle@node",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3660,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\u2705 Rendering 113 events to container",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3682,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "[Hot-Reload] Connected: Hot-reload connected",
+      "location": {
+        "url": "http://localhost:8000/hot-reload.js?v=20251117b",
+        "lineNumber": 44,
+        "columnNumber": 24
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udd0d loadTimeline() called",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3587,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca Baseline events: 15",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3588,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udce1 Fetching from: http://localhost:8000/api/timeline",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3593,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca Response status: 200 OK",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3599,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\u2705 API data received: {total: 98, events: Array(98), date_range: Object}",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3603,
+        "columnNumber": 20
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca API events count: 98",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3604,
+        "columnNumber": 20
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udccb Total timeline data: 113 events",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3614,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83c\udfa8 About to render 113 events",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3624,
+        "columnNumber": 16
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83c\udfa8 renderTimeline() called",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3656,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca filteredTimelineData.length: 113",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3657,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udce6 Container element: JSHandle@node",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3660,
+        "columnNumber": 12
+      }
+    },
+    {
+      "type": "log",
+      "text": "\u2705 Rendering 113 events to container",
+      "location": {
+        "url": "http://localhost:8000/app.js?v=20251118_020500",
+        "lineNumber": 3682,
+        "columnNumber": 12
+      }
+    }
+  ],
+  "errors": []
+}

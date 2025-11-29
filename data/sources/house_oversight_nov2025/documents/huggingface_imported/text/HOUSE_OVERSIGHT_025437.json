@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025437",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025437.txt",
+  "text": "Sender: e:jeeitunes@gmail.com\n\nTime: 02/28/19 12:41:59 AM (573036119)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 7D7D/D5F-2E32-4E08-84BA-8F9A8FC7DBA7T\n\nMessage: sorry its been so busy\n\nSender:\n\nTime: 02/28/19 06:39:36 AM (573057576)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 0A137F29-5A90-4598-A27 9-CAE8D5 9DEAAE\n\nMessage: No worries I understand\n\nSender:\nTime: 03/01/19 01:51:44 PM (573169904)\n\nFlags: 1126401\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 2BE3AD60-04B4-43C1-AFB4-8AAB4D1CB4C3\n\nMessage: Do you want to come over for dinner tonight?\n\nSender: e:jeeitunes@gmail.com\n\nTime: 03/01/19 03:41:17 PM (573176477)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: D6A85C27-8C25-48 9A-9 9RFA-B222B5261A28\n\nMessage: No thx. Call if you are free\n\nTime: 03/01/19 04:25:37 PM (573179137)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 919ESF15-49D0-4747-98C6-FBDC1A2882A1\n\nMessage: <Unsupported Message Content>\n\nTime: 03/01/19 05:01:31 PM (573181291)\n\nHOUSE_OVERSIGHT_025437",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025437.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1005,
+    "word_count": 124,
+    "line_count": 64,
+    "import_date": "2025-11-19T21:47:45.243016",
+    "prefix": "IMAGES-008"
+  }
+}

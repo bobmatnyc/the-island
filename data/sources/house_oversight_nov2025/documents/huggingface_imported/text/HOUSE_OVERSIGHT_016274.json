@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016274",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016274.txt",
+  "text": "When the machine no longer simply computes a function but instead maintains a\nstate, it can start to make inferences about the human by the sequence of requests\npresented to it. And when different programs correlate across different request streams—\nsay, correlating Web-page searches with social-media posts, or the payment for services\non another platform, or the dwell time on a particular advertisement, or where the user\nhas walked or driven with their GPS-enabled smartphone—the total systems of many\nprograms communicating with one another and with databases leads to a whole new loss\nof privacy. The great exploitative leap made by so many West Coast companies has been\nto monetize those inferences without the knowing permission of the person generating the\ninteractions with the computing machine platforms.\n\nWiener, Turing, and von Neumann could not foresee the complexity of those\nplatforms, wherein the legal mumbo-jumbo of the terms-of-use contracts the humans\nwillingly enter into, without an inkling of what they entail, leads them to give up rights\nthey would never concede in a one-on-one interaction with another human being. The\ncomputation platforms have become a shield behind which some companies hide in order\nto inhumanly exploit others. In certain other countries, the governments carry out these\nmanipulations, and there the goal 1s not profits but the suppression of dissent.\n\nHumankind has gotten itself into a fine pickle: We are being exploited by\ncompanies that paradoxically deliver services we crave, and at the same time our lives\ndepend on many software-enabled systems that are open to attack. Getting ourselves out\nof this mess will be a long-term project. It will involve engineering, legislation, and most\nimportant, moral leadership. Moral leadership is the first and biggest challenge.\n\n54\n\nHOUSE_OVERSIGHT_016274",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016274.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1855,
+    "word_count": 286,
+    "line_count": 28,
+    "import_date": "2025-11-19T21:47:44.807474",
+    "prefix": "IMAGES-003"
+  }
+}

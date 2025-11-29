@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016022",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016022.txt",
+  "text": "332 Are the Androids Dreaming Yet?\n\nEffect of Polaroid Lenses\n\nWhen scientists examine the polarization of these photons, they\nget random results. Sometimes the photon is oscillating side to side,\nsometimes up and down and sometimes part way in between. This can\nbe determined simply by taking a lens out of a pair of Polaroid glasses,\nholding it up at an angle and seeing if the photon can pass through.\nObviously laboratory grade Polaroid material is available, so scientists\ndon't have to destroy an expensive pair of designer glasses, but the\nprinciple is identical.\n\nVery strange things happen when the measurements are made. The\npolarizations appear to have no discernible pattern, but once one of the\nphotons has gone through a polarizer in the first town, its sister photon\nwill always be found to have the opposite polarization (or the same if it\nwas a type [)..\n\nEinstein was uncomfortable with this for two reasons. The first related\nto his famous statement, “God does not play dice with the Universe.”\nHe was deeply uncomfortable with the idea that the polarizations\nwere random. Even more troubling to him was the idea that the sister\nphoton somehow instantaneously had the opposite polarization. How\nwould it know? For the sister photon to immediately have the opposite\npolarization, information would have to travel faster than the speed of\nlight from the first photon to tell its sister what to do. In 1935, Einstein\nwrote a paper with Jacob Podolsky and Samuel Rosen describing this\n‘EPR paradox. Since faster than light communication was impossible — it\nbreaks the law of special relativity — they concluded quantum mechanics\nmust be wrong, or at least incomplete. A deeper theory would be needed\nto explain the particles’ behavior. One very simple explanation is by\nanalogy to socks! (Clothing analogies are one of the ways physicists try\nto make quantum mechanics less intimidating.)\n\nConsider sister photons as if they were right and left socks. If we\nfound a left sock on the bedroom floor, we would be unsurprised to find\nthe matching sock was a right one. There is no need for messages to flow\n\nHOUSE_OVERSIGHT_016022",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016022.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2141,
+    "word_count": 357,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:47.589284",
+    "prefix": "IMAGES-003"
+  }
+}

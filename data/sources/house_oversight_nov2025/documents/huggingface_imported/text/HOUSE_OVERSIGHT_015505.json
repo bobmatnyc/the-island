@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015505",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015505.txt",
+  "text": "Morality Games 293\n\nFig. 2. The Hawk—Dove\ngame. The Nash equilibria of\n\nthe game are circled\n\nO\n©\n\ndoes not necessarily affect the payoffs, but does distinguish between the players,\nsuch as who arrived at the territory first or who built the object. If one conditions on\nthe event (say, plays Hawk when she arrives first), then it is optimal for the other to\ncondition on the event (to play Dove when the other arrives first).\n\nAs our reader is likely aware, this was the logic provided by Maynard Smith to\nexplain animal territoriality—why animals behave aggressively to defend territory\nthat they have arrived at first, even if incumbency does not provide a defensive\nadvantage and even when facing a more formidable intruder. Over the years, evi-\ndence has amassed to support Maynard Smith’s explanation, such as experimental\nmanipulation of which animal arrives first (Davies, 1978; Sigg & Falett, 1985).\n\nLike other animals, we condition how aggressively we defend a resource on\nwhether we arrive first. Because our behaviors are motivated by beliefs, we are also\nmore likely to believe that the resource is “‘ours” when we arrive first. Studies have\nshown these effects with children’s judgments of ownership, in ethnographies of\nprelegal societies, and in computer games. In one such illustration, DeScioli and\nWilson (2011) had research subjects play a computer game in which they contested\na berry patch. Subjects who ended up keeping control of the patch usually arrived\nfirst, and this determined the outcome more often than differences in fighting ability\nin the game.\n\nThis sense of ownership is codified in our legal systems, as illustrated by the quip\n“possession is 9/10ths of the law,’ and in a study involving famous legal property\ncases conducted by Descioli and Karpoff (2014). In a survey, these researchers\nasked participants to identify the rightful owner of a lost item, after reading vignettes\nbased on famous property rights legal cases. Participants consistently identified the\npossessor of the found item as its rightful owner (as the judges had at the time of the\ncase). This sense of ownership is also codified in our philosophical tradition, e.g., in\nLocke (1988), who found property rights in initial possession. Note that, as has also\nbeen found in animals, possession extends to objects on one’s land: In DeScioli and\n\nHOUSE_OVERSIGHT_015505",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015505.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2375,
+    "word_count": 384,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:46.853164",
+    "prefix": "IMAGES-003"
+  }
+}

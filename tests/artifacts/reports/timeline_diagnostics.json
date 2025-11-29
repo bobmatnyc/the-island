@@ -1,0 +1,335 @@
+{
+  "diagnostics": {
+    "timelineView": {
+      "exists": true,
+      "selector": "#timeline-view",
+      "visible": true,
+      "rect": {
+        "top": 123.296875,
+        "left": 380,
+        "width": 1540,
+        "height": 964.703125,
+        "bottom": 1088,
+        "right": 1920
+      },
+      "styles": {
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1",
+        "position": "static",
+        "zIndex": "auto",
+        "overflow": "hidden",
+        "overflowY": "hidden",
+        "height": "964.703px",
+        "maxHeight": "none",
+        "minHeight": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "innerHTML_length": 4453,
+      "childCount": 2,
+      "classList": [
+        "view",
+        "active"
+      ],
+      "scrollHeight": 965,
+      "clientHeight": 965
+    },
+    "timelineEvents": {
+      "exists": true,
+      "selector": "#timeline-events",
+      "visible": true,
+      "rect": {
+        "top": 1104,
+        "left": 550,
+        "width": 1200,
+        "height": 19738.625,
+        "bottom": 20842.625,
+        "right": 1750
+      },
+      "styles": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "position": "static",
+        "zIndex": "auto",
+        "overflow": "visible",
+        "overflowY": "visible",
+        "height": "19738.6px",
+        "maxHeight": "none",
+        "minHeight": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "20px",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "innerHTML_length": 279452,
+      "childCount": 113,
+      "classList": [
+        "timeline-container"
+      ],
+      "scrollHeight": 19739,
+      "clientHeight": 19739
+    },
+    "timelineContainer": {
+      "exists": true,
+      "selector": ".timeline-container",
+      "visible": true,
+      "rect": {
+        "top": 1104,
+        "left": 550,
+        "width": 1200,
+        "height": 19738.625,
+        "bottom": 20842.625,
+        "right": 1750
+      },
+      "styles": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "position": "static",
+        "zIndex": "auto",
+        "overflow": "visible",
+        "overflowY": "visible",
+        "height": "19738.6px",
+        "maxHeight": "none",
+        "minHeight": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "20px",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "innerHTML_length": 279452,
+      "childCount": 113,
+      "classList": [
+        "timeline-container"
+      ],
+      "scrollHeight": 19739,
+      "clientHeight": 19739
+    },
+    "pageContent": {
+      "exists": true,
+      "selector": ".page-content",
+      "visible": false,
+      "rect": {
+        "top": 0,
+        "left": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "styles": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "position": "static",
+        "zIndex": "auto",
+        "overflow": "auto",
+        "overflowY": "auto",
+        "height": "auto",
+        "maxHeight": "none",
+        "minHeight": "0px",
+        "paddingTop": "16px",
+        "paddingBottom": "32px",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "innerHTML_length": 25815,
+      "childCount": 3,
+      "classList": [
+        "page-content"
+      ],
+      "scrollHeight": 0,
+      "clientHeight": 0
+    },
+    "mainContent": {
+      "exists": false,
+      "selector": "#main-content"
+    },
+    "currentView": "timeline-view",
+    "allViews": [
+      {
+        "id": "overview-view",
+        "active": false,
+        "display": "none",
+        "height": "100%"
+      },
+      {
+        "id": "timeline-view",
+        "active": true,
+        "display": "flex",
+        "height": "964.703px"
+      },
+      {
+        "id": "entities-view",
+        "active": false,
+        "display": "none",
+        "height": "100%"
+      },
+      {
+        "id": "network-view",
+        "active": false,
+        "display": "none",
+        "height": "100%"
+      },
+      {
+        "id": "flights-view",
+        "active": false,
+        "display": "none",
+        "height": "1020px"
+      },
+      {
+        "id": "sources-view",
+        "active": false,
+        "display": "none",
+        "height": "100%"
+      },
+      {
+        "id": "roadmap-view",
+        "active": false,
+        "display": "none",
+        "height": "100%"
+      },
+      {
+        "id": "documents-view",
+        "active": false,
+        "display": "none",
+        "height": "100%"
+      },
+      {
+        "id": "ingestion-view",
+        "active": false,
+        "display": "none",
+        "height": "100%"
+      }
+    ],
+    "timelineEventCount": 113,
+    "timelineItemCount": 0,
+    "monthSliders": 0,
+    "bodyHeight": 1088,
+    "viewportHeight": 1080,
+    "scrollY": 0
+  },
+  "console_messages": [
+    {
+      "type": "log",
+      "text": "[App] Hot-reload handlers registered",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3917, 'columnNumber': 12}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83e\uddea Timeline Debug Auto-Loader Initialized",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 5299, 'columnNumber': 8}"
+    },
+    {
+      "type": "log",
+      "text": "[Hot-Reload] Initializing...",
+      "location": "{'url': 'http://localhost:8081/hot-reload.js?v=20251117b', 'lineNumber': 23, 'columnNumber': 16}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83e\uddea DEBUG: DOMContentLoaded event fired",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 5302, 'columnNumber': 12}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83e\uddea DEBUG: loadTimeline function exists: function",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 5303, 'columnNumber': 12}"
+    },
+    {
+      "type": "log",
+      "text": "[Hot-Reload] Connected: Hot-reload connected",
+      "location": "{'url': 'http://localhost:8081/hot-reload.js?v=20251117b', 'lineNumber': 44, 'columnNumber': 24}"
+    },
+    {
+      "type": "log",
+      "text": "Loaded biographies for 21 entities",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 846, 'columnNumber': 20}"
+    },
+    {
+      "type": "log",
+      "text": "Loaded tags for 70 entities",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 861, 'columnNumber': 20}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83e\uddea DEBUG: Timeline container found: YES",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 5308, 'columnNumber': 16}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83e\uddea DEBUG: Container HTML: \n                            <div class=\"timeline-empty\">\n                                <div class=\"timeline-empty-icon\">\u23f3</div>\n                                <div class=\"timeline-empty-text\">Load",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 5311, 'columnNumber': 20}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udd04 Tab switched to timeline - calling loadTimeline()",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 1179, 'columnNumber': 16}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udd0d loadTimeline() called",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3587, 'columnNumber': 12}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca Baseline events: 15",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3588, 'columnNumber': 12}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udce1 Fetching from: http://localhost:8081/api/timeline",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3593, 'columnNumber': 16}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca Response status: 200 OK",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3599, 'columnNumber': 16}"
+    },
+    {
+      "type": "log",
+      "text": "\u2705 API data received: {total: 98, events: Array(98), date_range: Object}",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3603, 'columnNumber': 20}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca API events count: 98",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3604, 'columnNumber': 20}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udccb Total timeline data: 113 events",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3614, 'columnNumber': 16}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83c\udfa8 About to render 113 events",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3624, 'columnNumber': 16}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83c\udfa8 renderTimeline() called",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3656, 'columnNumber': 12}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udcca filteredTimelineData.length: 113",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3657, 'columnNumber': 12}"
+    },
+    {
+      "type": "log",
+      "text": "\ud83d\udce6 Container element: JSHandle@node",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3660, 'columnNumber': 12}"
+    },
+    {
+      "type": "log",
+      "text": "\u2705 Rendering 113 events to container",
+      "location": "{'url': 'http://localhost:8081/app.js?v=20251118_020500', 'lineNumber': 3682, 'columnNumber': 12}"
+    }
+  ],
+  "errors": [],
+  "timeline_html": "<div id=\"timeline-view\" class=\"view active\" [1540x965] flex-dir:column>\n  <div class=\"page-header sticky-page-header\" [1540x202]>\n    <h2 class=\"page-title\" [1476x38]>\n    <p class=\"page-subtitle\" [1476x18]>\n    <div id=\"timeline-stats\" class=\"page-stats\" [1476x49] flex-dir:row>\n      <div class=\"stat-item\" [106x49] flex-dir:column>\n        <div id=\"timeline-total\" class=\"stat-value\" [39x28]>\n        <div class=\"stat-label\" [106x17]>\n      <div class=\"stat-item\" [99x49] flex-dir:column>\n        <div id=\"timeline-case\" class=\"stat-value\" [31x28]>\n        <div class=\"stat-label\" [99x17]>\n      <div class=\"stat-item\" [90x49] flex-dir:column>\n        <div id=\"timeline-life\" class=\"stat-value\" [29x28]>\n        <div class=\"stat-label\" [90x17]>\n      <div class=\"stat-item\" [93x49] flex-dir:column>\n        <div id=\"timeline-docs\" class=\"stat-value\" [26x28]>\n        <div class=\"stat-label\" [93x17]>\n  <div class=\"timeline-filters sticky-filter-bar\" [1540x94] flex-dir:row>\n    <div class=\"timeline-filter-group\" [243x47] flex-dir:column>\n      <div class=\"timeline-filter-label\" [243x15]>\n      <div class=\"timeline-filter-buttons\" [243x28] flex-dir:row>\n        <button class=\"timeline-filter-btn active\" [39x28]>\n        <button class=\"timeline-filter-btn\" [54x28]>\n        <button class=\"timeline-filter-btn\" [45x28]>\n        <button class=\"timeline-filter-btn\" [87x28]>\n    <div class=\"timeline-filter-group\" [293x50] flex-dir:column>\n      <div class=\"timeline-filter-label\" [293x15]>\n      <div class=\"timeline-date-filter\" [293x31] flex-dir:row>\n        <input id=\"timeline-start-date\" class=\"timeline-date-input filter-input-with-clear\" [131x31]>\n        <span [15x18]>\n        <input id=\"timeline-end-date\" class=\"timeline-date-input filter-input-with-clear\" [131x31]>\n    <div class=\"timeline-filter-group timeline-search\" [916x61] flex-dir:column flex:1 1 0%>\n      <div class=\"timeline-filter-label\" [916x15]>\n      <div class=\"filter-input-wrapper\" [916x42] flex:1 1 0%>\n        <input id=\"timeline-search-input\" [916x42]>\n        <button class=\"filter-clear-btn\" [0x0]>\n          <svg class=\"[object SVGAnimatedString]\" [0x0]>\n"
+}

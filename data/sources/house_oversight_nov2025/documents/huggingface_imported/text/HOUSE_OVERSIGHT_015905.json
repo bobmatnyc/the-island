@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015905",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015905.txt",
+  "text": "Turing’s Machine 215\n\nThe advantage of this cipher is that I can easily remember the name\nGeorge. I don’t need to write it down. And the circular application makes\nthe message sufficiently obscure you cantt easily work it out...\n\nIs this, therefore, a good code?\n\nNo.\n\nThis cipher is easy to break. Once you have guessed that I have\napplied a repeated short code word, you can write out ALL the possibilities\nand decrypt my message! This may be tedious, but if you are fighting a\nwar and your life depends on it, you can employ a thousand people to\nwrite them all out. The British government employed 10,000 people at\nBletchley Park, many of them doing exactly this. You might think that\napplying ALL the possibilities is too time consuming in practice but\nthere are many shortcuts. If I suspect the message contains the name\nof a German town all I need do is try keys until I find a German town\nsomewhere in the message then work my way outwards from there. Or\nperhaps I suspect the key is something easy to remember like the name\nof the Commandant’s dog. I can try ALL German dog names until I get\nlucky. If I’ve 10,000 people working for me this is easy.\n\nThe Enigma machine and the coding process set up to operate it\nwas designed to remove these loopholes. For a start, the keys were all\nrandom numbers taken from a code book — no dog names allowed — and\nthe machine took the idea of a simple progressive cipher and made it\nmuch more complex.\n\nImagine I took my GeorgeGeorgeGeorge pattern but then every\n3\" character added one, every 14\" character subtracted 15 and every\n40\" character added the 3™ letter of the First Mate’s mother’s maiden\nname. Now this would be a VERY hard code to break. I would need a\nmachine to code messages because if I tried to do it by hand I would\nmake so many mistakes that the messages I send would be unintelligible.\nThe Enigma machine made these coding schemes a practical possibility.\nBut, although Enigma is hard to break it is not impossible with enough\ncomputing power. Is there any code that is impossible to break?\n\nAn Unbreakable code\n\nIs there a way of coding a message so you can never break it?\n\nThe answer is there are two ways to code a message so it is\nPERFECTLY safe. The first is to use a one-time pad and the second is\nquantum cryptography.\n\nHOUSE_OVERSIGHT_015905",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015905.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2318,
+    "word_count": 424,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:46.097638",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013745",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013745.txt",
+  "text": "role of self-intersection on manifolds in this new source of irreversibility (with a\n\nresulting “arrow of time”) is developed in Mackey (1992).\n\nAs noted, the skeleton which configures attractors is composed of unstable,\n“saddle” fixed points, each of which attract (iron down) the trajectory along one\ndimension and repel or spread it out along another. Systems fulfilling the criteria for\na chaotic dynamical system have the property of a countably infinite number of\nunstable periodic orbits composed of these unstable fixed points. Depending upon\nparameters, the orbital points can pull up their tails to be discrete with respect to\neach other or spread along the unstable direction to connect smoothly with others\nalong a curve such as a saddle cycle. Parametric control of the strengths and\nstructures of the saddle point skeleton of typical attractors can be used to change\nboth the rate of generation of novel symbols as well as recurrances to old ones in\nthe symbolic dynamics generating a brain dynamical system’s lexagraphic products\n(Bowen, 1978; Alexeev and Jacobson, 1981)).\n\nUsing a variety of techniques to algorithmically register “return times,”\nexperimental condition-sensitive “saddle orbits” composing unstable periodic orbits\nhave been demonstrated in geometric reconstructions of real data series generated\nby a 40+ component chemical reaction (Lathrop and Kostelich, 1989), in response\nto natural stimuli in the time dependent behavior of the crayfish caudal\nphotoreceptor (Pei and Moss, 1996) and in the interburst interval sequences\nrecorded in hippocampal slices of the rat (So et al, 1997; So et al, 1998). If the\nreader uses the software listed above to simulate the time evolution of one of these\nattractors of abstract or real systems , she will learn that a remarkably small number\nof points, a very short time sample, will outline, “shadow” (Bowen, 1978), the\ncomplete array of unstable fixed points before filling in the attractor. It is tempting to\nspeculate about the potential nervous system relevance of this dynamical\nanticipation of the attractor’s recognizable geometry, as well as a precis of what the\nsymbolic dynamics are going to say occurs many time steps before filling in the\n\nattractor and its asymptotic message. Values of the measures made on the early\n\nunstable periodic orbit arrays such ht, hu and 4(+), resemble very closely those\n\n245\n\nHOUSE_OVERSIGHT_013745",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013745.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2414,
+    "word_count": 377,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:44.806782",
+    "prefix": "IMAGES-002"
+  }
+}

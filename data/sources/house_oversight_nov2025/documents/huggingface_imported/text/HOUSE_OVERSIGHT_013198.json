@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013198",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013198.txt",
+  "text": "282 15 Emergent Networks of Intelligence\n\nFig. 15.2: A typical, though small, subnetwork of WordNet’s hierarchical network.\n\nOnce elements of hierarchical structure exist via the hierarchical structure of language and\nphysical reality, then a richer and broader hierarchy can be expected to accumulate on top\nof it, because importance spreading and inference control will implicitly and automatically be\nguided by the existing hierarchy. That is, in the language of Chaotic Logic [Goe94| and patternist\ntheory, hierarchical structure is an \"autopoietic attractor\" — once it’s there it will tend to enrich\nitself and maintain itself. AsymmetricHebbianLinks arranged in a hierarchy will tend to cause\nimportance to spread up or down the hierarchy, which will lead other cognitive processes to look\nfor patterns between Atoms and their hierarchical parents or children, thus potentially building\nmore hierarchical links. Chains of InheritanceLinks pointing up and down the hierarchy will lead\nPLN to search for more hierarchical links — e.g. most simply, A > B — C where C is above\nB is above A in the hierarchy, will naturally lead inference to check the viability of A — C\nby deduction. There is also the possibility to introduce a special DefaultInheritanceLink, as\ndiscussed in Chapter 34 of Part 2, but this isn’t actually necessary to obtain the inferential\nmaintenance of a robust hierarchical network.\n\n15.3.2 Associative, Heterarchical Networks\n\nHeterarchy is in essence a simpler structure than hierarchy: it simply refers to a network in\nwhich nodes are linked to other nodes with which they share important relationships. That is,\nthere should be a tendency that if two nodes are often important in the same contexts or for\n\nHOUSE_OVERSIGHT_013198",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013198.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1756,
+    "word_count": 274,
+    "line_count": 26,
+    "import_date": "2025-11-19T21:47:48.595022",
+    "prefix": "IMAGES-002"
+  }
+}

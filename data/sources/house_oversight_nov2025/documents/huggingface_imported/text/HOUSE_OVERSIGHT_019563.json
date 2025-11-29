@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019563",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019563.txt",
+  "text": "Raider of the Inner Sanctum | 75\n\nTo guard against this, the NSA has developed a well-organized\nsystem for stratifying its data so that obtaining critical secrets\nrequired a rogue employee to burrow into its heavily protected inner\nsanctum. As part of this system, the NSA divides its data into differ-\nent tiers depending on the importance of the secrets to its operations.\nThe first tier, Level 1, is mainly administrative material. This data\nwould include FISA court orders and other directives its employees\nmight need to check on to carry out their tasks. Level 2 contains\ndata from which the secret sources have been removed. This tier,\navailable to other intelligence services and policy makers, includes\nreports and analysis that can be shared. Level 3 contains documents\nthat cannot be shared outside a small group of authorized individu-\nals, because they disclose the secret sources through which the NSA\nsurreptitiously obtained the information. This third tier includes,\nfor example, compiled lists of sources in China, Russia, Iran, and\nother adversary countries. It also discloses the exotic methods the\nNSA uses to get some of this data. Level 3 documents also include\nreports on specific NSA, CIA, and Pentagon operations unknown to\n\n© adversaries. These Level 3 documents are described by NSA execu- ®\ntives as “the Keys to the Kingdom,” because they could invalidate\nAmerica’s entire intelligence enterprise if they fell into the hands of\nan adversary. And, as far as is known, prior to 2013, there had been\nno successful theft of any Level 3 documents.\n\nBecause of their extreme sensitivity, Level 3 documents were not\nhandled by most of the private firms providing independent contrac-\ntors. At Dell, Snowden had access mainly to Level 1 and Level 2 data\n(which he could, and did, download from shared sites on NSANet).\nThese lower-level documents had whistle-blowing potential because\nthey concerned NSA operations in the United States. They did not\nreveal, however, sources that the NSA used in intercepting the mili-\ntary and civilian activities of foreign adversaries.\n\nSnowden quit his job at Dell as a system administrator on\nMarch 15, 2013, to take another job working for the NSA in Hawaii\nat Booz Allen Hamilton. Unlike other outside contractors that ser-\nviced the NSA, the firm he now chose specialized in handling the\nNSA’s Level 3 data.\n\n| | Epst_9780451494566_2p_all_r1.z.indd 75 ® 9/29/16 5:51 Pa | |\n\nHOUSE_OVERSIGHT_019563",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019563.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2460,
+    "word_count": 400,
+    "line_count": 45,
+    "import_date": "2025-11-19T21:47:47.902332",
+    "prefix": "IMAGES-005"
+  }
+}

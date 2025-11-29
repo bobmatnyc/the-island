@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Test</title>
+</head>
+<body>
+    <h2>Timeline Navigation Button Test</h2>
+    <p>Instructions: Open <a href="http://localhost:5000" target="_blank">http://localhost:5000</a>, switch to Flights tab, then run these tests in console:</p>
+
+    <pre>
+// Test 1: Check initialization
+console.log('Months:', window.flightMonths?.length);
+console.log('Current Index:', window.currentMonthIndex);
+console.log('Slider:', document.getElementById('flight-timeline-slider')?.noUiSlider ? 'Ready' : 'Not found');
+
+// Test 2: Click Previous
+console.log('Before Previous:', window.currentMonthIndex);
+previousMonth();
+console.log('After Previous:', window.currentMonthIndex);
+
+// Test 3: Click Next
+console.log('Before Next:', window.currentMonthIndex);
+nextMonth();
+console.log('After Next:', window.currentMonthIndex);
+
+// Test 4: Click Latest
+console.log('Before Latest:', window.currentMonthIndex);
+resetTimelineFilter();
+console.log('After Latest:', window.currentMonthIndex);
+    </pre>
+
+    <h3>Expected Behavior:</h3>
+    <ul>
+        <li>Previous: currentMonthIndex should decrease by 1</li>
+        <li>Next: currentMonthIndex should increase by 1</li>
+        <li>Latest: currentMonthIndex should jump to last month (highest index)</li>
+        <li>Map should update to show filtered flights</li>
+        <li>Month label should update</li>
+    </ul>
+</body>
+</html>

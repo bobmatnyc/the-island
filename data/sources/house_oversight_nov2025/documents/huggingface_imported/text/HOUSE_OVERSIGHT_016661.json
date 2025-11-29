@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016661",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016661.txt",
+  "text": "FLORIDAN AQUIFER PLANT COSTS\n\nCost Estimate for 10 mgd Floridan Plant\n\nRaw Water Wells & Piping 13,500,000\n\nPretreatment System 5,000,000\n\nMembrane Building w/LPRO system 19,000,000\n\nChemical Feed Systems 2,000,000\n\nYard Piping 1,500,000\n\nClearwell 1,200,000\n\nTransfer Pump Station 1,000,000\n\nHigh Service Pump Station 2,100,000\n\nGround Storage Tanks 3,900,000\n\nDedicated Water Transmission Piping 6,000,000\n64,200,000\n1,284,000\n1,926,000\n1,284,000\n\npwca CS Boed CO Eoee CO Been CF Deed OD\n\nConceptual Cost\nGeneral Requirements (2%)\nConstruction Mark-up (3%)\nMobilization (2%)\nContingency (10%) 6,420,000\nEngineering and Other Non-Construction Costs 5,136,000\nTOTAL CONCEPTUAL COST §$ 80,250,000\n\nAAA HA 6 aes\n\nAssumes no additional cost for land.\n\nHOUSE_OVERSIGHT_016661",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016661.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 771,
+    "word_count": 101,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:44.649761",
+    "prefix": "IMAGES-004"
+  }
+}

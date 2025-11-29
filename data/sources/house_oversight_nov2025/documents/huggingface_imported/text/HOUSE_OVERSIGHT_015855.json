@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015855",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015855.txt",
+  "text": "Complexity & Chaos 165\n\nfacebook.com/AlgoRythmics Intercultural Computer Science Education\n\nafO) all] af2) af3) a[4) af[S) af6) al7] af8) al9)\n\nCreated at Sapientia University (in cooperation with \"Maros Mivészegyittes\")\n\nBubble Sort Ballet\n\nThe Hardest Problems\n\nYou probably hope cracking the encryption used to secure the Internet\nis one of the hardest problems known to man but I’m sorry to tell you\nit is not. When you use your credit card to buy something from an\nonline shop, your web browser changes from http to https, the ‘s’ stands\nfor secure. The data you send to the Internet is coded using a system\ndeveloped in 1977 by Ron Rivest, Adi Shamir and Leonard Adleman\nof MIT, which is why it is called RSA encryption. Any information you\nsend is raised to the power of a very large number - usually around\none hundred digits long. Raising something to the power simply means\nmultiplying it by itself that many times.\n\nWhat makes decrypting a message hard is that division is a slow\nprocess; it is called ‘long divisiow for a reason. It turns out there is no\nway to speed it up on a conventional computer so, unless you know the\nright number to divide by you will have to try every number. It is this that\nmakes decrypting RSA messages hard.\n\nAlthough RSA messages are difficult to decipher, they are nowhere\nnear the hardest problems. That accolade is commonly believed to go\nto non-deterministic polynomial problems known as ‘NP’ problems.\nNP problems are easy to describe but fiendishly difficult to solve.\nNondeterministic means each time you come to a branch in the problem\nthere is no way to tell which branch is the best to pursue without exploring\nit all the way to the end. It’s the same as a maze; at each junction in the\nmaze you can decide which path to take, but the junction gives you no\n\nHOUSE_OVERSIGHT_015855",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015855.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1833,
+    "word_count": 319,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:47.077390",
+    "prefix": "IMAGES-003"
+  }
+}

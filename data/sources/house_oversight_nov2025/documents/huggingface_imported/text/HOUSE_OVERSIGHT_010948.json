@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010948",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010948.txt",
+  "text": "founded the national accounts in the 1920s and reorganized them along Keynesian\nlines when the General Theory was published, reconstructed them back to 1870 for\nthe U.S. economy. Piketty and Zucman incorporate this research and others. They\nhave acted as editors only. As a layman, I would hardly be qualified to find and\ninterpret original sources. Even most economists might lack that specialty. I simply\ntrust Picketty and Zucman. They will have compounded misreadings and editors’\nbias in those sources by adding their own, and I will have added mine. They and I\nhave plenty. Editing is bias by definition. But we can’t do without it. We manage as\n\nbest we can.\n\nTo make sure, I also test Mill’s idea on stock market data from the same nations and\nperiods. Here my source was the Global Financial Data website marketed by\nBloomberg. Market cap corresponds to capital, dividend yield to consumption and\ntotal return to output. Charts and tables show free growth as essentially all of\n\ngrowth in stock markets too.\n\nNow try a first look at the charts and tables. The lollipop-shaped Greek letter @\n(phi) is something | call the free growth index. It reads 1 in years when growth is\nexplained as Mill described, 0 in years when belt-tightening was the explanation,\nand something in between when there was both. The free growth index will be\nexplained in chapters 4 and 5. The charts can be messy, and the data jumps around.\nThere are spikes, both up and down, which tend to disappear in the charts which\nscreen out small absolute values of the denominator (capital acceleration). But the\nfree growth index clearly jumps around 1, not zero, both before or after the\nscreening. It is as often above 1 as below. That means that growth is as likely to\ncoincide with belt-loosening as belt-tightening. My free website\n\nFreeGrowth&OtherSurprises.org shows how everything was calculated.\n\nEconomists will not be as surprised as they might have been a century ago. Growth\n\ntheory since Solow’s revolutionary papers in 1956 and 1957 has marginalized\n\nChapter 2: Fast Forward 1/06/16 8\n\nHOUSE_OVERSIGHT_010948",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010948.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2100,
+    "word_count": 350,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:44.971093",
+    "prefix": "IMAGES-001"
+  }
+}

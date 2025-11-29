@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011156",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011156.txt",
+  "text": "2)\n\nFigure 1: The Indifference Diagram of Economics\nAn individual consumes a quantity KD of good 1, and K) of good 2. The dotted indifference curves\nconnect consumption bundles to which he is indifferent. By buying or selling, the consumer moves left or\nright along the solid budget line. Utility is maximized at the point where the two lines have equal slope, or\nin other words, at the point where MRS p = MRSz.\n\n2 Application to time preference\n\nSuppose that, in figure 1, good 1 refers to food that is consumed today, and good 2 to food that\nis consumed 7 time units later. With this interpretation, the figure describes preferences regarding\ndifferent paths of consumption over time, or in other words, time preference. In a recent paper\n[15], I developed an evolutionary theory of time preference using the methods outlined above.\nThat paper simplified the problem by assuming that changes in consumption affect fitness solely\nvia their effect on survival. Here, I extend that analysis to incorporate effects on fertility as well.\n\nThe analysis proceeds by deriving an expression for the MRS in fitness, and setting this equal\nto well-known expressions for the MRS in preferences and in exchange. I begin with a series of\ndefinitions.\n\n2.1 Definitions\n\nThe MRS in preferences between immediate and delayed consumption is defined by\n\ndi?)\n\nU constant\n\nwhere the derivative is taken along a line of constant utility U, i.e. an indifference curve. The MRS\nin preferences is often measured by 9, the marginal rate of time preference (MRTP), which defined\n\nHOUSE_OVERSIGHT_011156",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011156.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1579,
+    "word_count": 260,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:47.919307",
+    "prefix": "IMAGES-001"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014391",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_014391.txt",
+  "text": "US - Specialty Financial Services Coverage Cluster\nBofA Merrill Lynch\n\nInvestment rating Company ticker Bloomberg symbol Analyst\nBUY\nApollo Commercial Real Estate Finance ARI ARI US Kenneth Bruce\nAres Commercial Real Estate Corp. ACRE ACRE US Kenneth Bruce\nBlackstone Mortgage Trust Inc BXMT BXMT US Kenneth Bruce\nCompass Diversified Holdings CODI CODI US Derek Hewett\nLadder Capital Corp. LADR LADR US Kenneth Bruce\nMGIC Investment Corp. MTG MTG US Mihir Bhatia\nNew Residential Investment NRZ NRZ US Kenneth Bruce\nRadian Group Inc RDN RDN US Mihir Bhatia\nStarwood Property Trust, Inc. STWD STWD US Kenneth Bruce\nTCP Capital Corp. TCPC TCPC US Derek Hewett\nTPG Specialty Lending, Inc. TSLX TSLX US Derek Hewett\nNEUTRAL\nAGNC Investment Corp AGNC AGNC US Kenneth Bruce\nAlly Financial Inc. ALLY ALLY US Kenneth Bruce\nAmer Express AXP AXP US Kenneth Bruce\nAnnaly Capital NLY NLY US Kenneth Bruce\nCIT Group Inc. CIT CIT US Derek Hewett\nDiscover Financial Services DFS DFS US Kenneth Bruce\nGolub Capital BDC, Inc. GBDC GBDC US Derek Hewett\nMasterCard Inc MA MA US Kenneth Bruce\nPayPal PYPL PYPL US Kenneth Bruce\nPennyMac Financial Services, Inc. PFSI| PFSI US Kenneth Bruce\nSynchrony Financial SYF SYF US Kenneth Bruce\nVisa Inc. V VUS Kenneth Bruce\nUNDERPERFORM\nApollo Investment Corporation AINV AINV US Derek Hewett\nCapital One COF COF US Kenneth Bruce\nCredit Acceptance Corp. CACC CACC US Kenneth Bruce\nEssent Group ESNT ESNT US Mihir Bhatia\nGoldman Sachs BDC, Inc. GSBD GSBD US Derek Hewett\nOneMain Holdings, Inc. OMF OMF US Kenneth Bruce\nPennyMac Mortgage Investment Trust PMT PMT US Kenneth Bruce\nSantander Consumer USA Inc. Sc SC US Kenneth Bruce\nRSTR\nAmerican Capital, Ltd. ACAS ACAS US Derek Hewett\nAres Capital Corporation ARCC ARCC US Derek Hewett\nRVW\nAG Mortgage Investment Trust, Inc. MITT MITT US Kenneth Bruce\nARMOUR Residential REIT, Inc ARR ARR US Kenneth Bruce\nCYS Investments, Inc CYS CYS US Kenneth Bruce\nEllington Financial LLC EFC EFC US Kenneth Bruce\nHannon Armstrong HAS| HASI US Kenneth Bruce\nInvesco Mortgage Capital, Inc. IVR IVR US Kenneth Bruce\nTwo Harbors Investment Corp. TWO TWO US Kenneth Bruce\nWestern Asset Mortgage Corp WMC WMC US Kenneth Bruce\nBankofAmerica “> 2016 Future of Financials Conference | 17 November 2016 77\nMerrill Lynch\n\nHOUSE_OVERSIGHT_014391",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_014391.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2288,
+    "word_count": 372,
+    "line_count": 54,
+    "import_date": "2025-11-19T21:47:48.069659",
+    "prefix": "IMAGES-002"
+  }
+}

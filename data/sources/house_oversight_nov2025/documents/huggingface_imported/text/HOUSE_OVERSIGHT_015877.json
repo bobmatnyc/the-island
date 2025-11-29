@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015877",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015877.txt",
+  "text": "7\n.\n\nHolding a Real Number in your Hand\n\nFirst: 3.1233249837583462136421472374\nSecond: 3.1233249837583462 134421472374\n\nYou have 2 seconds to answer!\nTRY ANSWERING WITHOUT READING ON\n\nThe first is larger. I changed one digit. Can you see?\n\nNotice, you need time to read each digit and process the information.\nIf you were an obedient reader and attempted it in two seconds you either\nguessed or gave up. Two seconds is too short to take in all the digits.\n\nLet me give you another test. Again, I'll ask you the question, “Is the\nfirst number larger than the second?”\n\nFirst\n\n3.1233249837583462 1364214723751646464646464636...\nSecond\n3.12332498375834621364214723751646464646464636...\n\nHOUSE_OVERSIGHT_015877",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015877.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 706,
+    "word_count": 103,
+    "line_count": 27,
+    "import_date": "2025-11-19T21:47:45.440839",
+    "prefix": "IMAGES-003"
+  }
+}

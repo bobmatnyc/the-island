@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011004",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011004.txt",
+  "text": "growth rate = capital productivity + thrift rate. (4.4b)\n\nNotice that we must change the sign before “consumption rate” to find thrift. Change\n\ndownward in consumption rate is change upward in thrift rate, and conversely.\nFurther\n\nchange in growth rate = change in capital productivity\n— change in consumption rate, (4.5)\n\nby the same logic as with (4.3). Save space again by reexpressing (4.5) as\nacceleration = productivity gain + thrift gain. (4.5a)\nFinally divide by acceleration to reach\n\n1= productivity gain + thrift gain\n\n; — (4.6)\nacceleration acceleration\nif acceleration is nonzero. Reexpress as\n1 = free growth index + thrift index, (4.6a)\n\nwhere indexes are undefined if acceleration is zero.\n\nI think this gets at what Mill meant, and anyhow what I mean. We both describe\nacceleration as well as growth. One night think that his “whatever increases the\nproductive power of labor” is the opposite from my “change in capital productivity.”\nBut they are about the same. Better machines make their operators more productive\n\nwhether skills have changed or not.\n\nChapter 4 Mill’s Idea 1/11/16 13\n\nHOUSE_OVERSIGHT_011004",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011004.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1128,
+    "word_count": 181,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:45.635383",
+    "prefix": "IMAGES-001"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_030289",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_030289.txt",
+  "text": "22\n\nin the absence of a neural mechanism that generates unrealistic\noptimism, it is possible all humans would be mildly depressed.\n\nCan Optimism Change Reality?\n\nThe problem with pessimistic expectations, such as those of the\nclinically depressed, is that they have the power to alter the future;\nnegative expectations shape outcomes in a negative way. How do\nexpectations change reality?\n\nTo answer this question, my colleague, cognitive neuroscientist Sara\nBengtsson, devised an experiment in which she manipulated positive\nand negative expectations of students while their brains were scanned\nand tested their performance on cognitive tasks. To induce\nexpectations of success, she primed college students with words such\nas smart, intelligent and clever just before asking them to perform a\ntest. To induce expectations of failure, she primed them with words\nlike stupid and ignorant. The students performed better after being\nprimed with an affirmative message.\n\nExamining the brain-imaging data, Bengtsson found that the students\nbrains responded differently to the mistakes they made depending on\nwhether they were primed with the word clever or the word stupid.\nWhen the mistake followed positive words, she observed enhanced\nactivity in the anterior medial part of the prefrontal cortex (a region\nthat is involved in self-reflection and recollection). However, when\nthe participants were primed with the word stupid, there was no\nheightened activity after a wrong answer. It appears that after being\nprimed with the word stupid, the brain expected to do poorly and did\nnot show signs of surprise or conflict when it made an error. A brain\nthat doesn't expect good results lacks a signal telling it, \"Take notice —\nwrong answer!\" These brains will fail to learn from their mistakes and\nare less likely to improve over time. Expectations become self-\nfulfilling by altering our performance and actions, which ultimately\naffects what happens in the future. Often, however, expectations\n\nHOUSE_OVERSIGHT_030289",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_030289.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2014,
+    "word_count": 309,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:49.099360",
+    "prefix": "IMAGES-010"
+  }
+}

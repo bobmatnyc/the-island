@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027249",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027249.txt",
+  "text": "Time: 09/27/17 02:23:36 PM (528240216)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 80H2484B-746B-4 9A5-BB8A-104B90ABEB3C\n\nMessage: Mary erdoes says hi\n\nSender: e:jeeitunes@gmail.com\n\nTime: 09/27/17 02:24:19 PM (528240259)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nr,\n\nGUID: 3A04500E-EA89-44B7-A99A-8B23AEEB67 92\n\nMessage: Give her a hug\n\nsender: iy\n\nTime: 09/27/17 02:26:02 PM (528240362)\n\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 9DDDAOBA-0030-4164-B59F-EB7DA8672785\n\nMessage: She sends her love and says not to be a stranger\n\nTime: 09/27/17 02:26:41 PM (528240401)\n\nFlags: 1052673\nIs Read: No\n\nIs Invitation: No\n\nT,\n\nGUID: 064247F5-5FDE-4081-B056-1E2A148 9A48B\n\nMessage: I told her we met through trump - she didn't believe me!\n\nHOUSE_OVERSIGHT_027249",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027249.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 783,
+    "word_count": 105,
+    "line_count": 53,
+    "import_date": "2025-11-19T21:47:47.669903",
+    "prefix": "IMAGES-009"
+  }
+}

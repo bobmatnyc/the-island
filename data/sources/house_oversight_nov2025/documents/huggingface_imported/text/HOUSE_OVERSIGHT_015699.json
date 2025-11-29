@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015699",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015699.txt",
+  "text": "Mind over Computer 9\n\nIBM’s Watson Plays Jeopardy\n\nIgnoring the odd hiccup, Watson is much better at Jeopardy than a\nhuman. Should humans be worried? First chess, then music, now general\nknowledge, will all human endeavors succumb to a computer? What will\nbe our purpose on the planet if this happens?\n\nHOUSE_OVERSIGHT_015699",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015699.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 325,
+    "word_count": 52,
+    "line_count": 10,
+    "import_date": "2025-11-19T21:47:47.073280",
+    "prefix": "IMAGES-003"
+  }
+}

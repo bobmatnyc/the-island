@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015933",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015933.txt",
+  "text": "Software 243\n\ncombination, takes our problem and definitively says, “Yes, there is a\nsolution,” or, “No, there is not.’ There are plenty of man-made proofs of\nthis nature. Pythagoras’s proof there are an infinite number of primes\nis an example. Pythagoras did not have to try every prime number. He\nsimply understood the nature of prime numbers and gave us a logical\nreason why it is so.\n\nMathematicians love a general solution. One way to solve Hilbert’s\n10\" Problem would be to find a single mechanical way to solve every\nproblem. If you could solve every possible problem, you could certainly\nsolve Hilbert’s 10% Problem. It turns out there is a way to test whether\nevery problem has a mechanical solution — pose the Halting Question.\n\nThe Halting Question\n\nI should say for a little historical color that the Halting Problem was not\ncalled that by Turing. The name was coined much later, in the sixties, by\nMartin Davis. Turing knew the problem by the less catchy name of the\n“not crashing” problem, or as he preferred, “Being circle free’, meaning\nthe program did not get caught in an infinite loop.\n\nTo understand halting we should imagine a brute force program\nstepping through all the possible solutions to Fermat’s problem. If there\nis a solution this stepping program will eventually halt and answer ‘true.\nIf there is not, the program will run forever. Can we predict a program\nwill not run forever? At first pass this is hard. We can’t watch it forever\nand say, “It never halted” So is there a clever way to do this? An algorithm\nperhaps?\n\nThe Answer to the Ultimate Question\n\nThe answer is ‘No! In 1936, Alan Turing proved there is no general-\npurpose mechanical way to tell whether a program is going to find an\nanswer at all, much less what the answer is. This means Hilbert’s Decision\nProblem has no solution; there is no general purpose algorithm which\nwill discover all mathematical theorems.\n\nTuring succeeded in proving this by turning the problem on its\nhead. He proved that a crash detection program is unable to see whether\nit will crash itself. Since you cannot tell whether a program will crash\n— and by this I mean go into an infinite loop — you cannot tell if it will\nhalt. He used the simple argument that since you cart tell if the crashing\nprogram will halt, you have already proved you can’t predict if every\nprogram will halt.\n\nHOUSE_OVERSIGHT_015933",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015933.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2382,
+    "word_count": 416,
+    "line_count": 48,
+    "import_date": "2025-11-19T21:47:47.895704",
+    "prefix": "IMAGES-003"
+  }
+}

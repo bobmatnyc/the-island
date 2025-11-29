@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016191",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016191.txt",
+  "text": "Zain KSA (XOCTF)\n\nWe use a DCF valuation model to derive our price objective of SAR 12.2. Key\nassumptions are a discount rate of 11.0%, underpinned by a risk free rate of 5.5%, a\ncost of equity of 29% and a 6.5% cost of debt. We explicitly forecast free cash flows\nuntil 2022 and then assume perpetuity growth of 3%, as we do when valuing other Gulf\noperators. Our forecasts take in to account the repayment of the deferred royalty loan\nafforded to Zain in 2013 (repayments starting from 2021).\n\nDownside risks are greater pricing pressure from MVNOs, the loss of its appeal against\na SAR620mn tax claim, an unfavourable ruling against Zain KSA in its arbitration process\nwith Mobily and an inability to grow market share and margins, which in turn would\nthreaten capital requirements.\n\nAnalyst Certification\n\nWe, Abdelrali El Jattari, Ali Dhaloomal, Anton Fedotov, Benjamin Heelan, Celine Fornaro,\nFaisal AlAzmeh, CFA, Francisco Blanch, Hootan Yazhari, CFA, Jamie Clark, CFA and Jean-\nMichel Saliba, hereby certify that the views each of us has expressed in this research\nreport accurately reflect each of our respective personal views about the subject\nsecurities and issuers. We also certify that no part of our respective compensation was,\nis, or will be, directly or indirectly, related to the specific recommendations or view\nexpressed in this research report.\n\nSpecial Disclosures\n\nSome of the securities discussed herein should only be considered for inclusion in\naccounts qualified for high risk investment.\n\nOS Merrill Lynch GEMs Paper #26 | 30 June 2016 81\n\nHOUSE_OVERSIGHT_016191",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016191.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1591,
+    "word_count": 256,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:46.701467",
+    "prefix": "IMAGES-003"
+  }
+}

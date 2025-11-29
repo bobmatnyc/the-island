@@ -1,0 +1,736 @@
+{
+  "generated_at": "2025-11-17T00:23:49.931469",
+  "project_root": "/Users/masa/Projects/epstein",
+  "files": {
+    "scripts": [
+      {
+        "name": "check_ocr_status.py",
+        "category": "extraction",
+        "category_description": "Data extraction and OCR processing",
+        "path": "/Users/masa/Projects/epstein/scripts/extraction/check_ocr_status.py",
+        "relative_path": "scripts/extraction/check_ocr_status.py"
+      },
+      {
+        "name": "extract_emails.py",
+        "category": "extraction",
+        "category_description": "Data extraction and OCR processing",
+        "path": "/Users/masa/Projects/epstein/scripts/extraction/extract_emails.py",
+        "relative_path": "scripts/extraction/extract_emails.py"
+      },
+      {
+        "name": "extract_emails_documentcloud_BACKUP.py",
+        "category": "extraction",
+        "category_description": "Data extraction and OCR processing",
+        "path": "/Users/masa/Projects/epstein/scripts/extraction/extract_emails_documentcloud_BACKUP.py",
+        "relative_path": "scripts/extraction/extract_emails_documentcloud_BACKUP.py"
+      },
+      {
+        "name": "ocr_house_oversight.py",
+        "category": "extraction",
+        "category_description": "Data extraction and OCR processing",
+        "path": "/Users/masa/Projects/epstein/scripts/extraction/ocr_house_oversight.py",
+        "relative_path": "scripts/extraction/ocr_house_oversight.py"
+      },
+      {
+        "name": "check_courtlistener_progress.py",
+        "category": "download",
+        "category_description": "Downloading source documents",
+        "path": "/Users/masa/Projects/epstein/scripts/download/check_courtlistener_progress.py",
+        "relative_path": "scripts/download/check_courtlistener_progress.py"
+      },
+      {
+        "name": "download_all_sources.py",
+        "category": "download",
+        "category_description": "Downloading source documents",
+        "path": "/Users/masa/Projects/epstein/scripts/download/download_all_sources.py",
+        "relative_path": "scripts/download/download_all_sources.py"
+      },
+      {
+        "name": "download_courtlistener.py",
+        "category": "download",
+        "category_description": "Downloading source documents",
+        "path": "/Users/masa/Projects/epstein/scripts/download/download_courtlistener.py",
+        "relative_path": "scripts/download/download_courtlistener.py"
+      },
+      {
+        "name": "query_master_index.py",
+        "category": "download",
+        "category_description": "Downloading source documents",
+        "path": "/Users/masa/Projects/epstein/scripts/download/query_master_index.py",
+        "relative_path": "scripts/download/query_master_index.py"
+      },
+      {
+        "name": "summarize_courtlistener_download.py",
+        "category": "download",
+        "category_description": "Downloading source documents",
+        "path": "/Users/masa/Projects/epstein/scripts/download/summarize_courtlistener_download.py",
+        "relative_path": "scripts/download/summarize_courtlistener_download.py"
+      },
+      {
+        "name": "classify_all_documents.py",
+        "category": "classification",
+        "category_description": "Document classification and categorization",
+        "path": "/Users/masa/Projects/epstein/scripts/classification/classify_all_documents.py",
+        "relative_path": "scripts/classification/classify_all_documents.py"
+      },
+      {
+        "name": "classify_emails.py",
+        "category": "classification",
+        "category_description": "Document classification and categorization",
+        "path": "/Users/masa/Projects/epstein/scripts/classification/classify_emails.py",
+        "relative_path": "scripts/classification/classify_emails.py"
+      },
+      {
+        "name": "document_classifier.py",
+        "category": "classification",
+        "category_description": "Document classification and categorization",
+        "path": "/Users/masa/Projects/epstein/scripts/classification/document_classifier.py",
+        "relative_path": "scripts/classification/document_classifier.py"
+      },
+      {
+        "name": "analyze_giuffre_maxwell_pdfs.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/analyze_giuffre_maxwell_pdfs.py",
+        "relative_path": "scripts/analysis/analyze_giuffre_maxwell_pdfs.py"
+      },
+      {
+        "name": "build_knowledge_graph.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/build_knowledge_graph.py",
+        "relative_path": "scripts/analysis/build_knowledge_graph.py"
+      },
+      {
+        "name": "build_unified_index.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/build_unified_index.py",
+        "relative_path": "scripts/analysis/build_unified_index.py"
+      },
+      {
+        "name": "enrich_entity_relationships.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/enrich_entity_relationships.py",
+        "relative_path": "scripts/analysis/enrich_entity_relationships.py"
+      },
+      {
+        "name": "entity_disambiguator.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/entity_disambiguator.py",
+        "relative_path": "scripts/analysis/entity_disambiguator.py"
+      },
+      {
+        "name": "entity_network.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/entity_network.py",
+        "relative_path": "scripts/analysis/entity_network.py"
+      },
+      {
+        "name": "entity_statistics.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/entity_statistics.py",
+        "relative_path": "scripts/analysis/entity_statistics.py"
+      },
+      {
+        "name": "rebuild_document_stats.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/rebuild_document_stats.py",
+        "relative_path": "scripts/analysis/rebuild_document_stats.py"
+      },
+      {
+        "name": "rebuild_flight_network.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/rebuild_flight_network.py",
+        "relative_path": "scripts/analysis/rebuild_flight_network.py"
+      },
+      {
+        "name": "timeline_builder.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/timeline_builder.py",
+        "relative_path": "scripts/analysis/timeline_builder.py"
+      },
+      {
+        "name": "web_relationship_finder.py",
+        "category": "analysis",
+        "category_description": "Entity analysis, network building, and relationships",
+        "path": "/Users/masa/Projects/epstein/scripts/analysis/web_relationship_finder.py",
+        "relative_path": "scripts/analysis/web_relationship_finder.py"
+      },
+      {
+        "name": "entity_search.py",
+        "category": "search",
+        "category_description": "Entity search and querying",
+        "path": "/Users/masa/Projects/epstein/scripts/search/entity_search.py",
+        "relative_path": "scripts/search/entity_search.py"
+      },
+      {
+        "name": "canonicalize.py",
+        "category": "canonicalization",
+        "category_description": "Deduplication and canonical document creation",
+        "path": "/Users/masa/Projects/epstein/scripts/canonicalization/canonicalize.py",
+        "relative_path": "scripts/canonicalization/canonicalize.py"
+      },
+      {
+        "name": "canonicalize_emails.py",
+        "category": "canonicalization",
+        "category_description": "Deduplication and canonical document creation",
+        "path": "/Users/masa/Projects/epstein/scripts/canonicalization/canonicalize_emails.py",
+        "relative_path": "scripts/canonicalization/canonicalize_emails.py"
+      },
+      {
+        "name": "initialize_deduplication.py",
+        "category": "canonicalization",
+        "category_description": "Deduplication and canonical document creation",
+        "path": "/Users/masa/Projects/epstein/scripts/canonicalization/initialize_deduplication.py",
+        "relative_path": "scripts/canonicalization/initialize_deduplication.py"
+      },
+      {
+        "name": "process_bulk_emails.py",
+        "category": "canonicalization",
+        "category_description": "Deduplication and canonical document creation",
+        "path": "/Users/masa/Projects/epstein/scripts/canonicalization/process_bulk_emails.py",
+        "relative_path": "scripts/canonicalization/process_bulk_emails.py"
+      },
+      {
+        "name": "query_deduplication.py",
+        "category": "canonicalization",
+        "category_description": "Deduplication and canonical document creation",
+        "path": "/Users/masa/Projects/epstein/scripts/canonicalization/query_deduplication.py",
+        "relative_path": "scripts/canonicalization/query_deduplication.py"
+      },
+      {
+        "name": "convert_emails_to_markdown.py",
+        "category": "utilities",
+        "category_description": "Utility scripts and helpers",
+        "path": "/Users/masa/Projects/epstein/scripts/utilities/convert_emails_to_markdown.py",
+        "relative_path": "scripts/utilities/convert_emails_to_markdown.py"
+      },
+      {
+        "name": "database.py",
+        "category": "core",
+        "category_description": "Core libraries (hasher, deduplicator, database)",
+        "path": "/Users/masa/Projects/epstein/scripts/core/database.py",
+        "relative_path": "scripts/core/database.py"
+      },
+      {
+        "name": "deduplicator.py",
+        "category": "core",
+        "category_description": "Core libraries (hasher, deduplicator, database)",
+        "path": "/Users/masa/Projects/epstein/scripts/core/deduplicator.py",
+        "relative_path": "scripts/core/deduplicator.py"
+      },
+      {
+        "name": "hasher.py",
+        "category": "core",
+        "category_description": "Core libraries (hasher, deduplicator, database)",
+        "path": "/Users/masa/Projects/epstein/scripts/core/hasher.py",
+        "relative_path": "scripts/core/hasher.py"
+      },
+      {
+        "name": "ocr_quality.py",
+        "category": "core",
+        "category_description": "Core libraries (hasher, deduplicator, database)",
+        "path": "/Users/masa/Projects/epstein/scripts/core/ocr_quality.py",
+        "relative_path": "scripts/core/ocr_quality.py"
+      }
+    ],
+    "data_files": {
+      "metadata": [
+        {
+          "name": "all_documents_index.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/all_documents_index.json",
+          "size_bytes": 11969541,
+          "modified": "2025-11-17T00:22:46.511023"
+        },
+        {
+          "name": "chatbot_knowledge_index.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/chatbot_knowledge_index.json",
+          "size_bytes": 26571,
+          "modified": "2025-11-17T00:22:39.191014"
+        },
+        {
+          "name": "comprehensive_document_stats.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/comprehensive_document_stats.json",
+          "size_bytes": 2045,
+          "modified": "2025-11-17T00:15:56.488801"
+        },
+        {
+          "name": "document_classifications.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/document_classifications.json",
+          "size_bytes": 407528,
+          "modified": "2025-11-17T00:21:54.874192"
+        },
+        {
+          "name": "download_log.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/download_log.json",
+          "size_bytes": 9299,
+          "modified": "2025-11-16T23:36:48.811821"
+        },
+        {
+          "name": "email_classifications.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/email_classifications.json",
+          "size_bytes": 340719,
+          "modified": "2025-11-17T00:21:54.877305"
+        },
+        {
+          "name": "entity_network.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/entity_network.json",
+          "size_bytes": 453337,
+          "modified": "2025-11-16T21:30:14.973817"
+        },
+        {
+          "name": "entity_relationships_enhanced.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/entity_relationships_enhanced.json",
+          "size_bytes": 958409,
+          "modified": "2025-11-17T00:10:08.114917"
+        },
+        {
+          "name": "entity_statistics.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/entity_statistics.json",
+          "size_bytes": 1354621,
+          "modified": "2025-11-16T21:38:53.269227"
+        },
+        {
+          "name": "knowledge_graph.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/knowledge_graph.json",
+          "size_bytes": 569021,
+          "modified": "2025-11-16T21:57:52.417514"
+        },
+        {
+          "name": "master_document_index.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/master_document_index.json",
+          "size_bytes": 17094604,
+          "modified": "2025-11-16T23:36:48.795944"
+        },
+        {
+          "name": "semantic_index.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/semantic_index.json",
+          "size_bytes": 450276,
+          "modified": "2025-11-16T21:28:40.310773"
+        },
+        {
+          "name": "source_index.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/source_index.json",
+          "size_bytes": 1302,
+          "modified": "2025-11-16T21:27:01.253700"
+        },
+        {
+          "name": "timeline.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/timeline.json",
+          "size_bytes": 141,
+          "modified": "2025-11-16T21:39:31.648711"
+        },
+        {
+          "name": "unified_document_index.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/unified_document_index.json",
+          "size_bytes": 38023156,
+          "modified": "2025-11-17T00:17:48.421280"
+        },
+        {
+          "name": "unified_document_stats.json",
+          "path": "/Users/masa/Projects/epstein/data/metadata/unified_document_stats.json",
+          "size_bytes": 568,
+          "modified": "2025-11-17T00:17:48.421561"
+        }
+      ],
+      "entities": [
+        {
+          "name": "ENTITIES_INDEX.json",
+          "path": "/Users/masa/Projects/epstein/data/md/entities/ENTITIES_INDEX.json",
+          "size_bytes": 564827
+        },
+        {
+          "name": "ENTITIES_INDEX_MERGED.json",
+          "path": "/Users/masa/Projects/epstein/data/md/entities/ENTITIES_INDEX_MERGED.json",
+          "size_bytes": 676986
+        },
+        {
+          "name": "EXTRACTION_SUMMARY.md",
+          "path": "/Users/masa/Projects/epstein/data/md/entities/EXTRACTION_SUMMARY.md",
+          "size_bytes": 4485
+        },
+        {
+          "name": "README.md",
+          "path": "/Users/masa/Projects/epstein/data/md/entities/README.md",
+          "size_bytes": 8382
+        },
+        {
+          "name": "birthday_book.md",
+          "path": "/Users/masa/Projects/epstein/data/md/entities/birthday_book.md",
+          "size_bytes": 47038
+        },
+        {
+          "name": "black_book.md",
+          "path": "/Users/masa/Projects/epstein/data/md/entities/black_book.md",
+          "size_bytes": 94940
+        },
+        {
+          "name": "flight_logs.md",
+          "path": "/Users/masa/Projects/epstein/data/md/entities/flight_logs.md",
+          "size_bytes": 15976
+        },
+        {
+          "name": "flight_logs_by_flight.json",
+          "path": "/Users/masa/Projects/epstein/data/md/entities/flight_logs_by_flight.json",
+          "size_bytes": 356947
+        },
+        {
+          "name": "flight_logs_stats.json",
+          "path": "/Users/masa/Projects/epstein/data/md/entities/flight_logs_stats.json",
+          "size_bytes": 82588
+        },
+        {
+          "name": "little_black_book.md",
+          "path": "/Users/masa/Projects/epstein/data/md/entities/little_black_book.md",
+          "size_bytes": 1605
+        }
+      ],
+      "canonical_emails": [
+        {
+          "name": "CANONICALIZATION_REPORT.md",
+          "path": "/Users/masa/Projects/epstein/data/canonical/emails/CANONICALIZATION_REPORT.md"
+        },
+        {
+          "name": "EXAMPLE_CANONICAL_EMAIL.md",
+          "path": "/Users/masa/Projects/epstein/data/canonical/emails/EXAMPLE_CANONICAL_EMAIL.md"
+        },
+        {
+          "name": "epstein_email_2014-08-27_giuffre_fbi_eppinger.md",
+          "path": "/Users/masa/Projects/epstein/data/canonical/emails/epstein_email_2014-08-27_giuffre_fbi_eppinger.md"
+        },
+        {
+          "name": "epstein_email_2015-01-10_maxwell_legal_concerns.md",
+          "path": "/Users/masa/Projects/epstein/data/canonical/emails/epstein_email_2015-01-10_maxwell_legal_concerns.md"
+        },
+        {
+          "name": "epstein_email_2015-01-12_epstein_reward_offer.md",
+          "path": "/Users/masa/Projects/epstein/data/canonical/emails/epstein_email_2015-01-12_epstein_reward_offer.md"
+        }
+      ],
+      "source_pdfs": {
+        "raw_entities": {
+          "path": "/Users/masa/Projects/epstein/data/sources/raw_entities",
+          "pdf_count": 1
+        },
+        "doj_official": {
+          "path": "/Users/masa/Projects/epstein/data/sources/doj_official",
+          "pdf_count": 1
+        },
+        "giuffre_maxwell": {
+          "path": "/Users/masa/Projects/epstein/data/sources/giuffre_maxwell",
+          "pdf_count": 42
+        },
+        "documentcloud_extra": {
+          "path": "/Users/masa/Projects/epstein/data/sources/documentcloud_extra",
+          "pdf_count": 0
+        },
+        "house_oversight_sept2024": {
+          "path": "/Users/masa/Projects/epstein/data/sources/house_oversight_sept2024",
+          "pdf_count": 4
+        },
+        "house_oversight_sept2025": {
+          "path": "/Users/masa/Projects/epstein/data/sources/house_oversight_sept2025",
+          "pdf_count": 0
+        },
+        "courtlistener_giuffre_maxwell": {
+          "path": "/Users/masa/Projects/epstein/data/sources/courtlistener_giuffre_maxwell",
+          "pdf_count": 371
+        },
+        "404media": {
+          "path": "/Users/masa/Projects/epstein/data/sources/404media",
+          "pdf_count": 388
+        },
+        "house_oversight_nov2025": {
+          "path": "/Users/masa/Projects/epstein/data/sources/house_oversight_nov2025",
+          "pdf_count": 67144
+        },
+        "courtlistener": {
+          "path": "/Users/masa/Projects/epstein/data/sources/courtlistener",
+          "pdf_count": 0
+        },
+        "internet_archive": {
+          "path": "/Users/masa/Projects/epstein/data/sources/internet_archive",
+          "pdf_count": 0
+        },
+        "documentcloud_6250471": {
+          "path": "/Users/masa/Projects/epstein/data/sources/documentcloud_6250471",
+          "pdf_count": 1
+        },
+        "documentcloud": {
+          "path": "/Users/masa/Projects/epstein/data/sources/documentcloud",
+          "pdf_count": 3
+        },
+        "fbi_vault": {
+          "path": "/Users/masa/Projects/epstein/data/sources/fbi_vault",
+          "pdf_count": 21
+        }
+      },
+      "markdown_extractions": {}
+    }
+  },
+  "data_summary": {
+    "entities": {
+      "total": 1773,
+      "billionaires": 33,
+      "in_black_book": 1501,
+      "in_flight_logs": 273,
+      "source_file": "/Users/masa/Projects/epstein/data/md/entities/ENTITIES_INDEX.json",
+      "top_frequent_flyers": [
+        {
+          "name": "Ghislaine Ghislaine",
+          "trips": 520,
+          "in_black_book": false,
+          "is_billionaire": false
+        },
+        {
+          "name": "Nadia Nadia",
+          "trips": 125,
+          "in_black_book": false,
+          "is_billionaire": false
+        },
+        {
+          "name": "Female (1)",
+          "trips": 62,
+          "in_black_book": false,
+          "is_billionaire": false
+        },
+        {
+          "name": "Didier",
+          "trips": 32,
+          "in_black_book": false,
+          "is_billionaire": false
+        },
+        {
+          "name": "Female (2)",
+          "trips": 30,
+          "in_black_book": false,
+          "is_billionaire": false
+        }
+      ]
+    },
+    "documents": {
+      "total_files": 67963,
+      "unique_documents": 38177,
+      "duplicates": 29786,
+      "deduplication_rate": "43.8%",
+      "sources": {
+        "raw_entities": {
+          "path": "data/sources/raw_entities",
+          "document_count": 1
+        },
+        "doj_official": {
+          "path": "data/sources/doj_official",
+          "document_count": 1
+        },
+        "giuffre_maxwell": {
+          "path": "data/sources/giuffre_maxwell",
+          "document_count": 42
+        },
+        "documentcloud_extra": {
+          "path": "data/sources/documentcloud_extra",
+          "document_count": 0
+        },
+        "house_oversight_sept2024": {
+          "path": "data/sources/house_oversight_sept2024",
+          "document_count": 4
+        },
+        "house_oversight_sept2025": {
+          "path": "data/sources/house_oversight_sept2025",
+          "document_count": 0
+        },
+        "courtlistener_giuffre_maxwell": {
+          "path": "data/sources/courtlistener_giuffre_maxwell",
+          "document_count": 370
+        },
+        "404media": {
+          "path": "data/sources/404media",
+          "document_count": 388
+        },
+        "house_oversight_nov2025": {
+          "path": "data/sources/house_oversight_nov2025",
+          "document_count": 67144
+        },
+        "courtlistener": {
+          "path": "data/sources/courtlistener",
+          "document_count": 0
+        },
+        "internet_archive": {
+          "path": "data/sources/internet_archive",
+          "document_count": 0
+        },
+        "documentcloud_6250471": {
+          "path": "data/sources/documentcloud_6250471",
+          "document_count": 1
+        },
+        "documentcloud": {
+          "path": "data/sources/documentcloud",
+          "document_count": 3
+        },
+        "fbi_vault": {
+          "path": "data/sources/fbi_vault",
+          "document_count": 21
+        }
+      },
+      "index_file": "/Users/masa/Projects/epstein/data/metadata/master_document_index.json"
+    },
+    "emails": {
+      "canonical_count": 5,
+      "date_range": {
+        "earliest": "2007-09-20",
+        "latest": "2015-01-12",
+        "span_years": 8
+      },
+      "unique_participants": 21,
+      "participant_list": [
+        "Ann Marie C. Villafana",
+        "Ann Marie Villafana",
+        "Barbara Burns",
+        "Barry Krischer",
+        "Bill Clinton",
+        "Brad Edwards",
+        "Christina Pyror",
+        "Ghislaine Maxwell",
+        "Jack Goldberger",
+        "Jason R. Richards",
+        "Jason Richards",
+        "Jeffrey E. Epstein",
+        "Jeffrey Epstein",
+        "Lanna Belohlavek",
+        "Michael McAuliffe",
+        "Paul Cassell",
+        "Philip Barden",
+        "Ron Eppinger",
+        "Ross Gow",
+        "Stephen Hawking",
+        "Virginia Roberts Giuffre"
+      ],
+      "statistics_file": "/Users/masa/Projects/epstein/data/canonical/emails/email_statistics.json"
+    },
+    "network": {
+      "total_nodes": 387,
+      "total_edges": 2221,
+      "top_connections": [
+        {
+          "name": "Ghislaine Ghislaine",
+          "connection_count": 256
+        },
+        {
+          "name": "Je         Je Epstein",
+          "connection_count": 206
+        },
+        {
+          "name": "Je        Je Epstein",
+          "connection_count": 162
+        },
+        {
+          "name": "Sarah       Sarah Kellen",
+          "connection_count": 110
+        },
+        {
+          "name": "Sarah      Sarah Kellen",
+          "connection_count": 68
+        },
+        {
+          "name": "Nadia Nadia",
+          "connection_count": 62
+        },
+        {
+          "name": "Emmy       Emmy Tayler",
+          "connection_count": 58
+        },
+        {
+          "name": "Larry Visoski",
+          "connection_count": 57
+        },
+        {
+          "name": "Larry Morrison",
+          "connection_count": 57
+        },
+        {
+          "name": "Female (1)",
+          "connection_count": 54
+        }
+      ],
+      "network_file": "/Users/masa/Projects/epstein/data/metadata/entity_network.json"
+    }
+  },
+  "ongoing_work": {
+    "downloads_in_progress": [],
+    "pending_classifications": 38173,
+    "background_processes": [],
+    "recent_downloads": [
+      {
+        "source": "FBI Vault",
+        "filename": "jeffrey_epstein_part_21.pdf",
+        "downloaded_at": "2025-11-17T04:35:32.325230"
+      },
+      {
+        "source": "DocumentCloud",
+        "filename": "doj_feb2025_release.pdf",
+        "downloaded_at": "2025-11-17T04:35:40.933688"
+      },
+      {
+        "source": "DocumentCloud",
+        "filename": "unsealing_jan2024_943pages.pdf",
+        "downloaded_at": "2025-11-17T04:35:43.492235"
+      },
+      {
+        "source": "DocumentCloud",
+        "filename": "epstein_docs_6250471.pdf",
+        "downloaded_at": "2025-11-17T04:35:52.816636"
+      },
+      {
+        "source": "DOJ Official",
+        "filename": "doj_epstein_declassified.pdf",
+        "downloaded_at": "2025-11-17T04:35:54.991307"
+      }
+    ]
+  },
+  "quick_stats": {
+    "total_pdfs": 67975,
+    "total_emails": 5,
+    "unique_documents": 38177,
+    "deduplication_rate": "43.8%",
+    "unique_entities": 1773,
+    "network_nodes": 387,
+    "network_edges": 2221
+  },
+  "search_capabilities": {
+    "entity_search": {
+      "script": "scripts/search/entity_search.py",
+      "capabilities": [
+        "Search by entity name",
+        "Find entity connections",
+        "Multi-entity search",
+        "Search by document type"
+      ]
+    },
+    "classification_types": [
+      "email",
+      "court_filing",
+      "financial",
+      "flight_log",
+      "contact_book",
+      "investigative",
+      "legal_agreement",
+      "personal",
+      "media",
+      "administrative",
+      "unknown"
+    ]
+  },
+  "key_reports": {
+    "entity_network_stats": "/Users/masa/Projects/epstein/data/metadata/entity_network_stats.txt",
+    "classification_report": "/Users/masa/Projects/epstein/data/metadata/classification_report.txt",
+    "entity_statistics": "/Users/masa/Projects/epstein/data/metadata/entity_statistics_summary.txt",
+    "relationship_system": "/Users/masa/Projects/epstein/data/metadata/RELATIONSHIP_SYSTEM_SUMMARY.md"
+  }
+}

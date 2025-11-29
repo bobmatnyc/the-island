@@ -1,0 +1,70 @@
+Page 599
+MCC NEW YORK
+NEW YORK, NY
+Overtime Log - 5/19/2020
+
+Criteria: Log Date between 8/9/2019 and 8/10/2019
+
+Page 1
+Log Assignment
+Date/Time User Action ias__ Post Shiftdate Watch Type Mndtry
+08/10/19 22:33 | ast MNDTRY OT DateSet |” NIA N/A NIA Oo
+08/10/19 22:32 Last MNDTRY OT Date Set N/A N/A N/A oO
+08/10/19 22:31 OT Assigned UNIT 2 08/11/19 M/W List Exempt EB
+08/10/19 22:30 OT Removed - Mgmt Cancelle INTERNAL #2 08/11/19 MAW List Exempt Cc
+08/10/19 21:26 Signed Up for OT N/A 08/24/19 N/A N/A oO
+08/10/19 21:25 Signed Up for OT NIA 08/23/19 N/A N/A [
+08/10/19 21:25 Signed Up for OT N/A 08/21/19 N/A N/A CT)
+08/10/19 21:09 OT Assigned TREATY PICK 08/08/19 EW List Exempt O
+08/10/19 21:05 OT Assigned TREATY#4 08/09/19 M/W List Exempt Oo
+08/10/19 21:05 OT Assigned TREATY LT 08/09/19 M/W List Exempt Cc]
+08/10/19 21:04 OT Removed - Mgmt Cancelle TREATY LT 08/09/19 M/W List Exempt O
+08/10/19 21:02 OT Assigned TREATY LT 08/09/19 M/W _ List Exempt G
+08/10/19 21:01 OT Assigned ESCORT #3 08/10/19 DW List Exempt Oo
+08/10/19 20:57 OT Assigned TREATY LT#2 08/08/19 EW _ List Exempt Cy}
+08/10/19 20:54 OT Assigned SIS LT 08/10/19 EW List Exempt O
+08/10/19 20:53 OT Assigned SIS LT 08/10/19 DAW List Exernpt a
+08/10/19 20:52 Last MNDTRY OT Date Set N/A N/A NIA iS
+08/10/19 20:51 OT Assigned OSP #1 08/11/19 M/W — Mandtry List 2)
+08/10/19 20:50 OT By-passed OSP #1 08/11/19 MAW  Mandtry List
+08/10/19 20:50 OT By-passed OSP #1 08/11/19 M/W ~ Mandtry List lvl
+08/10/19 20:50 OT By-passed OSP #1 08/11/19 M/W Mandtry List |
+08/10/19 20:50 OT By-passed OSP #1 08/11/19 M/W Mandtry List
+08/10/19 20:50 OT By-passed OSP #1 08/11/19 M/W Mandtry List iv
+08/10/19 20:50 OT Removed - Mamt Cancelle OSP #1 08/11/19 M/W List Exempt Ci]
+08/10/19 20:37 OT Assigned CONTROL #1 08/11/19 EAW List Exempt ml
+08/10/19 20:35 OT Assigned 10 SOUTH #2 08/11/19 A/M List Exempt C]
+08/10/19 20:28 OT Assigned INTERNAL #2 08/11/19 M/W List Exempt Cl
+08/10/19 20:25 OT Assigned SHU #1 08/11/19 MW List Exempt il
+08/10/19 20:24 OT Assigned SHU #2 08/11/19 M/W List Exempt Oi
+08/10/19 20:23 OT Removed - Mgmt Cancelle SHU #1 08/11/19 M/W List Exempt CO
+08/10/19 20:21 OT Assigned SHU #1 08/11/19 MAN List Exempt Cc]
+08/10/19 20:20 OT Removed - Mgmt Cancelle INTERNAL #2 08/11/19 MMW List Exempt Lil
+08/10/19 20:16 OT Assigned INTERNAL #2 08/11/19 MMW List Exempt Cl
+08/10/19 20:15 OT Assigned OSP #1 08/11/19 M/W List Exempt Cl
+08/10/19 20:15 OT Removed - Staff Cancelled OSP #1 08/11/19 MMW List Exempt oO
+08/10/19 20:14 OT Removed - Staff Cancelled INTERNAL #2 08/11/19 M/W List Exempt Ee]
+08/10/19 19:25 OT Assigned 11 SOUTH 08/11/19 M/W List Exempt a
+08/10/19 18:18 OT Assigned INTERNAL #2 08/12/19 M/W List Exempt C
+08/10/19 18:15 OT Assigned CONTROL #1 08/12/19 MMW List Exempt C)
+08/10/19 18:14 OT Assigned 7 SOUTH 08/12/19 EW List Exempt fi)
+08/10/19 17:32 OT Assigned 10 SOUTH #1 08/11/19 M/W List Exempt {J
+08/10/19 17:26 Signed Up for OT N/A 08/16/19 N/A N/A Wa
+08/10/19 17:26 Signed Up for OT N/A 08/15/19 N/A N/A Ci]
+08/10/19 16:22 OT Removed - Mgmt Cancelle ORY CELL 08/10/19 EW List Exempt mi
+08/10/19 15:52 OT Assigned SHU #2 08/10/19 EW List Exempt C)
+08/10/19 14:24 OT Assigned EMERGENCY 08/10/19 P/M List Exempt CO
+08/10/19 14:16 OT Assigned CST 08/10/19 DW List Exempt Cl]
+08/10/19 14:06 OT Assigned SHU #3 08/10/19 A/M List Exempt i
+08/10/19 14:06 OT Assigned SHU #4 08/10/18 DW _ List Exempt Oo
+08/10/19 14:05 OT Removed - Mgmt Cancelle SHU #3 08/10/19 A/M List Exempt Gl
+08/10/19 14:05 OT Removed - Mgmt Cancelle SHU #4 08/10/19 DW List Exempt in
+08/10/19 13:39 OT Assigned UNIT 2 08/10/19 EW List Exempt Cc i
+08/10/19 13:36 OT Removed - Mgmt Cancelle ESCORT #2 08/10/19 DW List Exempt |
+08/10/19 13:07 OT Assigned ACT LT 08/10/19 P/M List Exempt C]
+08/10/19 13:07 Last MNDTRY OT Date Set N/A N/A N/A Cl
+08/10/19 13:06 OT Assigned 11 SOUTH #2 08/10/19 EW List Exempt oO
+08/10/19 13:06 Last MNDTRY OT Date Set N/A N/A NIA CO
+
+5/19/Z0Z0 10-37-12 AM
+DOJ-OGR-00025052

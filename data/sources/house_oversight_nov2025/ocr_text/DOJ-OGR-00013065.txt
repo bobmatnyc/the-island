@@ -1,0 +1,40 @@
+Case 1:20-cr-00330-PAE Document 753 Filed 08/10/22 Page 52 of 264 1478
+LC7Cmax2 Flatley - direct
+
+1 A. Sure. There is a possibility of three different tools that
+
+2 we can use. One is a physical piece of equipment called a TX1
+
+3 disc duplicator --
+
+4 Q. Mr. Flatley, sorry to interrupt. In this case, what did
+
+5 you use here?
+
+6 A. I used the TX1 disc duplicator.
+
+7 Q. Why not just examine the drive itself in this case,
+
+8 Government Exhibit 54?
+
+9 A. Hard drives are a little fragile, especially this one, it's
+10 pretty old. The fact that we spin it up, that may be the last
+11 time it ever spins. So we always make a copy and we work off
+12 the copy so that we have our data. We can make arguably
+13 infinite copies of that data and prove that it's the same data.
+14 So that's what we do.
+
+15 Q. What, if anything, do you do to determine that the image
+16 you made from Government Exhibit 54 matched the data on
+17 Government Exhibit 54?
+18 A. We run a hash algorithm, which is basically a math problem
+19 against the data that we copied and the data from the original,
+20 and if the hashes match, then the data is identical, and the
+21 data was in this case.
+22 Q. After you made an image of Government Exhibit 54, what do
+23 you do next?
+24 A. After the 54 was imaged, I then placed it through our
+25 software, AccessData's lab to categorize and organize the data.
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00013065

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_033296",
+  "filename": "TEXT-002-HOUSE_OVERSIGHT_033296.txt",
+  "text": "From: Michael Wolff \nSent: 6/1/2016 11:29:02 AM \nTo: Jeffrey Epstein [jeeyacation@gmail.com] \nSubject: Trump \nImportance: High \nhttp://www.hollywoodreporter.com/features/donald-trump-conversation-politics-dark-898465  \nHOUSE OVERSIGHT 033296",
+  "metadata": {
+    "original_filename": "TEXT-002-HOUSE_OVERSIGHT_033296.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 241,
+    "word_count": 19,
+    "line_count": 7,
+    "import_date": "2025-11-19T21:47:47.522363",
+    "prefix": "TEXT-002"
+  }
+}

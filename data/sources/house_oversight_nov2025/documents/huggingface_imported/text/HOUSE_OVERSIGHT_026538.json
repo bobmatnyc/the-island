@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026538",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026538.txt",
+  "text": "FIGURE 2: PAYOFFS FOR A RESTRICTED SET OF STRATEGIES IN THE ENVELOPE GAME\n\nPlayer 2\nContinue if Player 1 : : .\nPlayer 1 Cooperates Without Continue if Player | Always Exit\n. Cooperates\nLooking\n\nCooperate Without Looking = a a, 6\nCooperate With Looking a,b a,b\n\nLook and Cooperate Only | ap+ep(1—p),bp+d(1—p) apt enl—P) setae ap +en(1—p),bp+d(1—p)\nWhen Temptation is Low\nAlways Defect cep +en(1 — p),d ep + en(1 — p),d cep + en(1 — p),d\n\n18\n\nHOUSE_OVERSIGHT_026538",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026538.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 463,
+    "word_count": 80,
+    "line_count": 18,
+    "import_date": "2025-11-19T21:47:45.181054",
+    "prefix": "IMAGES-009"
+  }
+}

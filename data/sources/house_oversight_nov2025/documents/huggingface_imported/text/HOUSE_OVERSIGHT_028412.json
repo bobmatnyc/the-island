@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028412",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_028412.txt",
+  "text": "Narrow\",\"style\":\"normal\",\"weight\":500,\"width\":\"semi-\ncondensed\"},\"fontName\":\"RetinaNarrowMed\",\"identifier\":\"f508ed16-e307-4c99-87a2-\na2686ba99deb\",\"type\":\"font\"},\"fcc4e0a7-97a3-4f75-88d2-1672663528aa\":{\"URL\":\"asset://foc4e0a7-97a3-\n4f75-88d2-\n\n1e72663528aa\",\"classification\":\"font\" ,\"fileSize\":0,\"fontAttributes\":{\"familyName\":\"Retina\",\"style\":\"normal\",\n\"weight\":400,\"width\":\"normal\"},\"fontName\":\"RetinaBook\",\"identifier\":\"fec4e0a7-97a3-4f75-88d2-\n1¢€72663528aa\",\"type\":\"font\"}},\"specVersion\":\"1.6\",\"subtitle\":\"Friday’s talks to occur amid concerns on\nCapitol Hill about privacy, China business and allegations of bias against\nconservatives\",\"textStyles\":{\"_anf-ts-\n1\":{\"fontAttributes\":{\"weightLabel\":\"bolder\"},\"fontName\":\"ExchangeBold\",\"identifier\":\"_anf-ts-\n1\"}},\"title\":\"Google CEO Sundar Pichai to Meet With Top GOP Lawmakers\",\"version\":\"1.1.0\"}\n\nHOUSE_OVERSIGHT_028412",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_028412.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 874,
+    "word_count": 38,
+    "line_count": 14,
+    "import_date": "2025-11-19T21:47:45.338556",
+    "prefix": "IMAGES-009"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026537",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026537.txt",
+  "text": "Low\n\nHigh\n\nFIGURE 1: THE ENVELOPE GAME\n\nDL\n\n17\n\nHOUSE_OVERSIGHT_026537",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026537.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 70,
+    "word_count": 10,
+    "line_count": 11,
+    "import_date": "2025-11-19T21:47:48.633542",
+    "prefix": "IMAGES-009"
+  }
+}

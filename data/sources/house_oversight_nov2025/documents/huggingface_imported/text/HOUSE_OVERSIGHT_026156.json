@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026156",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_026156.txt",
+  "text": "Provisions for liabilities 24 33 17 26 29 33\nand other liabilities\nSubordinated debt 104 135 0 0 0 0\nTotal Liabilities 1,290 1,452) 2,027 1,710) 1,594 1,616\nEquity\nShare capital 175 178 478 487 213 217\nAcquired rights on 0 0 -18 -18 0 0\nshares\nResult of operations with 0 0 -38 -39 0 0\nshareholders\nEmission differences 28 29 0 0 0 0\nAdditional paid-in 0 0 5 5 105 107\ncapital\nOther provisions 0 0 11 21 43 44\nRetained profit/losses -53 -63 -263 -269 38 -13\nTotal Equity 150 144 174 186 398 354\nTotal Liabilities and 1,440 1,596; 2,201 1,897) 1,992 1,970\nEquity\n\n23\n\nHOUSE_OVERSIGHT_026156",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_026156.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 589,
+    "word_count": 111,
+    "line_count": 22,
+    "import_date": "2025-11-19T21:47:48.669370",
+    "prefix": "IMAGES-008"
+  }
+}

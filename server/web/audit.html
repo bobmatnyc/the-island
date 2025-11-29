@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit Logs - Epstein Document Archive</title>
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f6f8fa;
+            --bg-tertiary: #f0f3f5;
+            --border-color: #d0d7de;
+            --text-primary: #24292f;
+            --text-secondary: #57606a;
+            --text-tertiary: #6e7781;
+            --accent-blue: #0969da;
+            --accent-blue-hover: #0550ae;
+            --accent-green: #1a7f37;
+            --accent-red: #cf222e;
+            --accent-orange: #d15704;
+            --shadow-color: rgba(31, 35, 40, 0.12);
+            --input-bg: #ffffff;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-tertiary: #1c2128;
+            --border-color: #30363d;
+            --text-primary: #c9d1d9;
+            --text-secondary: #8b949e;
+            --text-tertiary: #6e7681;
+            --accent-blue: #58a6ff;
+            --accent-blue-hover: #1f6feb;
+            --accent-green: #3fb950;
+            --accent-red: #f85149;
+            --accent-orange: #db6d28;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+            --input-bg: #21262d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 1px 3px var(--shadow-color);
+        }
+
+        .header h1 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-primary {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-blue-hover);
+        }
+
+        .btn-secondary {
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .stat-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px var(--shadow-color);
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 32px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .stat-detail {
+            font-size: 12px;
+            color: var(--text-tertiary);
+            margin-top: 4px;
+        }
+
+        .section {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px var(--shadow-color);
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .filters {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .filter-label {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        input, select {
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 14px;
+            background: var(--input-bg);
+            color: var(--text-primary);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: var(--bg-tertiary);
+        }
+
+        th {
+            text-align: left;
+            padding: 12px;
+            font-weight: 600;
+            font-size: 13px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 14px;
+        }
+
+        tr:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .badge-success {
+            background: rgba(26, 127, 55, 0.15);
+            color: var(--accent-green);
+        }
+
+        .badge-danger {
+            background: rgba(207, 34, 46, 0.15);
+            color: var(--accent-red);
+        }
+
+        .badge-warning {
+            background: rgba(209, 87, 4, 0.15);
+            color: var(--accent-orange);
+        }
+
+        .chart-container {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .chart {
+            background: var(--bg-tertiary);
+            border-radius: 6px;
+            padding: 16px;
+        }
+
+        .chart-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .chart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .chart-item:last-child {
+            border-bottom: none;
+        }
+
+        .chart-bar {
+            height: 20px;
+            background: var(--accent-blue);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+
+        .pagination {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .page-btn {
+            padding: 6px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .page-btn:hover:not(:disabled) {
+            background: var(--bg-tertiary);
+        }
+
+        .page-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .page-btn.active {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-secondary);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔒 Audit Logs & Security Dashboard</h1>
+        <div class="header-actions">
+            <button class="btn btn-secondary" onclick="window.location.href='/static/index.html'">Back to App</button>
+            <button class="btn btn-secondary" id="theme-toggle">Toggle Theme</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Statistics Cards -->
+        <div class="dashboard-grid" id="statistics-cards">
+            <div class="stat-card">
+                <div class="stat-label">Total Logins</div>
+                <div class="stat-value" id="total-logins">-</div>
+                <div class="stat-detail">All time</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Successful Logins</div>
+                <div class="stat-value" id="successful-logins">-</div>
+                <div class="stat-detail">Success rate: <span id="success-rate">-</span>%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Failed Attempts</div>
+                <div class="stat-value" id="failed-logins">-</div>
+                <div class="stat-detail">Security concern if high</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Unique Users</div>
+                <div class="stat-value" id="unique-users">-</div>
+                <div class="stat-detail">Distinct accounts</div>
+            </div>
+        </div>
+
+        <!-- Browser & OS Distribution -->
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">Browser & Device Statistics (Last 30 Days)</h2>
+            </div>
+            <div class="chart-container">
+                <div class="chart">
+                    <div class="chart-title">Browser Distribution</div>
+                    <div id="browser-chart"></div>
+                </div>
+                <div class="chart">
+                    <div class="chart-title">Operating System</div>
+                    <div id="os-chart"></div>
+                </div>
+                <div class="chart">
+                    <div class="chart-title">Device Type</div>
+                    <div id="device-chart"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Security Events -->
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">Recent Security Events</h2>
+                <button class="btn btn-primary" onclick="loadSecurityEvents()">Refresh</button>
+            </div>
+            <div id="security-events-container">
+                <div class="loading">Loading security events...</div>
+            </div>
+        </div>
+
+        <!-- Login Audit Logs -->
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">Login Audit Logs</h2>
+                <button class="btn btn-primary" onclick="loadAuditLogs()">Refresh</button>
+            </div>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <label class="filter-label">Username</label>
+                    <input type="text" id="filter-username" placeholder="Filter by username">
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label">Limit</label>
+                    <select id="filter-limit">
+                        <option value="50">50</option>
+                        <option value="100" selected>100</option>
+                        <option value="250">250</option>
+                        <option value="500">500</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label">&nbsp;</label>
+                    <button class="btn btn-primary" onclick="applyFilters()">Apply Filters</button>
+                </div>
+            </div>
+
+            <div id="audit-logs-container">
+                <div class="loading">Loading audit logs...</div>
+            </div>
+
+            <div class="pagination" id="pagination"></div>
+        </div>
+
+        <!-- GDPR Anonymization -->
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">GDPR Compliance</h2>
+            </div>
+            <p style="color: var(--text-secondary); margin-bottom: 16px;">
+                Anonymize login records older than specified days to comply with privacy regulations.
+                This will replace usernames with "anonymized_user" and hash IP addresses.
+            </p>
+            <div class="filters">
+                <div class="filter-group">
+                    <label class="filter-label">Days Threshold</label>
+                    <input type="number" id="anonymize-days" value="90" min="30" max="365">
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label">&nbsp;</label>
+                    <button class="btn btn-primary" onclick="anonymizeLogs()">Anonymize Old Records</button>
+                </div>
+            </div>
+            <div id="anonymize-result" style="margin-top: 12px; color: var(--text-secondary);"></div>
+        </div>
+    </div>
+
+    <script>
+        // Authentication check
+        fetch('/api/verify-session', {
+            credentials: 'include'
+        })
+        .then(response => {
+            if (!response.ok) {
+                window.location.href = '/static/login.html';
+            }
+        })
+        .catch(() => {
+            window.location.href = '/static/login.html';
+        });
+
+        // Theme toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const theme = document.documentElement.getAttribute('data-theme');
+            const newTheme = theme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        // API Helper
+        async function apiCall(endpoint, options = {}) {
+            const response = await fetch(endpoint, {
+                ...options,
+                credentials: 'include', // Include session cookie
+                headers: {
+                    'Content-Type': 'application/json',
+                    ...options.headers
+                }
+            });
+
+            if (!response.ok) {
+                if (response.status === 401) {
+                    window.location.href = '/static/login.html';
+                }
+                throw new Error(`API Error: ${response.statusText}`);
+            }
+
+            return response.json();
+        }
+
+        // Load Statistics
+        async function loadStatistics() {
+            try {
+                const stats = await apiCall('/api/admin/login-statistics');
+
+                document.getElementById('total-logins').textContent = stats.total_logins.toLocaleString();
+                document.getElementById('successful-logins').textContent = stats.successful_logins.toLocaleString();
+                document.getElementById('failed-logins').textContent = stats.failed_logins.toLocaleString();
+                document.getElementById('unique-users').textContent = stats.unique_users.toLocaleString();
+
+                const successRate = stats.total_logins > 0
+                    ? ((stats.successful_logins / stats.total_logins) * 100).toFixed(1)
+                    : 0;
+                document.getElementById('success-rate').textContent = successRate;
+
+                // Render charts
+                renderChart('browser-chart', stats.browser_distribution);
+                renderChart('os-chart', stats.os_distribution);
+                renderChart('device-chart', stats.device_distribution);
+            } catch (error) {
+                console.error('Failed to load statistics:', error);
+            }
+        }
+
+        function renderChart(containerId, data) {
+            const container = document.getElementById(containerId);
+            if (!data || Object.keys(data).length === 0) {
+                container.innerHTML = '<div class="empty-state">No data available</div>';
+                return;
+            }
+
+            const total = Object.values(data).reduce((sum, val) => sum + val, 0);
+            const sorted = Object.entries(data).sort((a, b) => b[1] - a[1]);
+
+            container.innerHTML = sorted.map(([key, value]) => {
+                const percentage = ((value / total) * 100).toFixed(1);
+                return `
+                    <div class="chart-item">
+                        <div style="flex: 1;">
+                            <strong>${key}</strong>
+                            <div style="font-size: 12px; color: var(--text-tertiary);">
+                                ${value} (${percentage}%)
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Load Security Events
+        async function loadSecurityEvents() {
+            try {
+                const container = document.getElementById('security-events-container');
+                container.innerHTML = '<div class="loading">Loading security events...</div>';
+
+                const data = await apiCall('/api/admin/security-events?limit=50');
+
+                if (data.events.length === 0) {
+                    container.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-state-icon">🛡️</div>
+                            <div>No security events recorded</div>
+                        </div>
+                    `;
+                    return;
+                }
+
+                container.innerHTML = `
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Timestamp</th>
+                                <th>Event Type</th>
+                                <th>Username</th>
+                                <th>Severity</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${data.events.map(event => {
+                                const timestamp = new Date(event.timestamp).toLocaleString();
+                                const severityClass = {
+                                    low: 'badge-success',
+                                    medium: 'badge-warning',
+                                    high: 'badge-danger',
+                                    critical: 'badge-danger'
+                                }[event.severity] || 'badge-warning';
+
+                                return `
+                                    <tr>
+                                        <td>${timestamp}</td>
+                                        <td><code>${event.event_type}</code></td>
+                                        <td>${event.username || 'N/A'}</td>
+                                        <td><span class="badge ${severityClass}">${event.severity.toUpperCase()}</span></td>
+                                        <td style="font-size: 12px; color: var(--text-secondary);">
+                                            ${JSON.stringify(event.details).substring(0, 100)}...
+                                        </td>
+                                    </tr>
+                                `;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                `;
+            } catch (error) {
+                console.error('Failed to load security events:', error);
+                document.getElementById('security-events-container').innerHTML =
+                    '<div class="empty-state">Failed to load security events</div>';
+            }
+        }
+
+        // Load Audit Logs
+        let currentPage = 0;
+        let currentLimit = 100;
+        let currentUsername = null;
+
+        async function loadAuditLogs(page = 0) {
+            try {
+                const container = document.getElementById('audit-logs-container');
+                container.innerHTML = '<div class="loading">Loading audit logs...</div>';
+
+                currentPage = page;
+                const offset = page * currentLimit;
+
+                let url = `/api/admin/audit-logs?limit=${currentLimit}&offset=${offset}`;
+                if (currentUsername) {
+                    url += `&username=${encodeURIComponent(currentUsername)}`;
+                }
+
+                const data = await apiCall(url);
+
+                if (data.logs.length === 0) {
+                    container.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-state-icon">📋</div>
+                            <div>No audit logs found</div>
+                        </div>
+                    `;
+                    return;
+                }
+
+                container.innerHTML = `
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Timestamp</th>
+                                <th>Username</th>
+                                <th>Status</th>
+                                <th>IP Hash</th>
+                                <th>Browser</th>
+                                <th>OS</th>
+                                <th>Device</th>
+                                <th>TOS Accepted</th>
+                                <th>Remember Me</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${data.logs.map(log => {
+                                const timestamp = new Date(log.timestamp).toLocaleString();
+                                const statusBadge = log.success
+                                    ? '<span class="badge badge-success">SUCCESS</span>'
+                                    : '<span class="badge badge-danger">FAILED</span>';
+
+                                return `
+                                    <tr>
+                                        <td>${timestamp}</td>
+                                        <td><strong>${log.username}</strong></td>
+                                        <td>${statusBadge}</td>
+                                        <td style="font-size: 11px; color: var(--text-tertiary);">
+                                            ${log.ip_address_hash.substring(0, 12)}...
+                                        </td>
+                                        <td>${log.browser || 'Unknown'} ${log.browser_version || ''}</td>
+                                        <td>${log.os || 'Unknown'} ${log.os_version || ''}</td>
+                                        <td>${log.device_type || 'Unknown'}</td>
+                                        <td>${log.tos_accepted ? '✅' : '❌'}</td>
+                                        <td>${log.remember_me ? '✅' : '❌'}</td>
+                                    </tr>
+                                `;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                `;
+
+                // Update pagination
+                updatePagination(data.total, currentLimit, page);
+            } catch (error) {
+                console.error('Failed to load audit logs:', error);
+                document.getElementById('audit-logs-container').innerHTML =
+                    '<div class="empty-state">Failed to load audit logs</div>';
+            }
+        }
+
+        function updatePagination(total, limit, currentPage) {
+            const totalPages = Math.ceil(total / limit);
+            const pagination = document.getElementById('pagination');
+
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+
+            let html = '';
+
+            // Previous button
+            html += `<button class="page-btn" ${currentPage === 0 ? 'disabled' : ''} onclick="loadAuditLogs(${currentPage - 1})">Previous</button>`;
+
+            // Page numbers
+            for (let i = 0; i < Math.min(totalPages, 10); i++) {
+                html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="loadAuditLogs(${i})">${i + 1}</button>`;
+            }
+
+            if (totalPages > 10) {
+                html += '<span style="padding: 0 8px;">...</span>';
+            }
+
+            // Next button
+            html += `<button class="page-btn" ${currentPage >= totalPages - 1 ? 'disabled' : ''} onclick="loadAuditLogs(${currentPage + 1})">Next</button>`;
+
+            pagination.innerHTML = html;
+        }
+
+        function applyFilters() {
+            currentUsername = document.getElementById('filter-username').value || null;
+            currentLimit = parseInt(document.getElementById('filter-limit').value);
+            loadAuditLogs(0);
+        }
+
+        async function anonymizeLogs() {
+            const days = parseInt(document.getElementById('anonymize-days').value);
+            const resultDiv = document.getElementById('anonymize-result');
+
+            if (!confirm(`Are you sure you want to anonymize records older than ${days} days? This action cannot be undone.`)) {
+                return;
+            }
+
+            try {
+                resultDiv.textContent = 'Anonymizing records...';
+                const result = await apiCall(`/api/admin/anonymize-logs?days=${days}`, { method: 'POST' });
+
+                resultDiv.style.color = 'var(--accent-green)';
+                resultDiv.textContent = `✅ Successfully anonymized ${result.anonymized_records} records older than ${days} days`;
+
+                // Reload logs
+                loadAuditLogs(0);
+            } catch (error) {
+                resultDiv.style.color = 'var(--accent-red)';
+                resultDiv.textContent = `❌ Failed to anonymize records: ${error.message}`;
+            }
+        }
+
+        // Initialize
+        loadStatistics();
+        loadSecurityEvents();
+        loadAuditLogs(0);
+    </script>
+</body>
+</html>

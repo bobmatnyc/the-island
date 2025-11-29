@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025752",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025752.txt",
+  "text": "Is Read: No\nIs Invitation: No\n\nGUID: F2EB9D62-3931-405D-AAB8-180F5F595FFA\n\nMessage: Did you connect with miro\n\nSender: e:jeeitunes@gmail.com\n\nTime: 08/30/18 05:57:43 AM (557326663)\nFlags: 1085445\nIs Read: No\n\nIs Invitation: No\n\nGUID: 8D3E14D5-3771-4D40-9AA2-0045788F0F\n\nGl\nQO\n\nMessage: ?\n\nTime: 08/30/18 05:58:03 AM (557326683)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: OOD9ESA7-8E11-49CA-81A6-B6DEO1AFSEFE\n\nMessage: Haven't connected\n\nSender: e:jeeitunes@gmail.com\n\nTime: 08/30/18 05:58:12 AM (557326692)\nFlags: 1150981\nTs Read: No\n\nIs Invitation: No\n\nGUID: E7CA3E53-3556-4FB9-875C-00427B412B93\n\nMessage: Are you around Monday ?\n\nSender: e:jeeitunes@gmail.com\n\nTime: 08/30/18 05:58:16 AM (557326696)\nFlags: 1085445\nIs Read: No\n\nIs Invitation: No\n\nGUID: AC86EDFE-8903-4C4B-81EF-2B94EB2B5468\n\nMessage: ny\n\nSender: i’\n\nTime: 08/30/18 05:59:00 AM (557326740)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nHOUSE_OVERSIGHT_025752",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025752.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 938,
+    "word_count": 111,
+    "line_count": 65,
+    "import_date": "2025-11-19T21:47:46.042824",
+    "prefix": "IMAGES-008"
+  }
+}

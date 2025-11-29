@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017051",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_017051.txt",
+  "text": "Figure $12\n\nsenennaeeaenenenenenmenmnainmmenmassa mannan!\n@ Abraham Lincoln\n@ Edgar Allan Poe 4\n@ Charles Darwin /\n1809 top 50 7 x\nx John Brown\nx William Johnson fi x\nx James Smith\nRejected\n\n10° 10° 10° 107 10° 10°\nAverage Fame at Birth\n10° SS\n@ Robert Kennedy 4\n@ Margaret Thatcher /\n@ Paul Newman / x\n1925 top 50 7\n10° xX Santa Cruz\nx Joseph Smith / x\nx George Moore e / x\nRejected e /\n7 / .\n10 x\ne ry x\nf / x\n7\n8\n10 I\n|\nI\na\n10\" 10\"'° 10° 10° 107 10° 10°\n\nAverage Fame at Birth\n\nFrequency\n\nFrequency\n\nFrequency\n\nFrequency\n\niv\n\n0.6\n\n— John Brown\n— William Johnson\n—— James Smith\n\n2000\n\nrT\n— Abraham Lincoin\n— Edgar Allan Poe\n—— Charles Darwin\n\n1900 1950 2000\n\nYears\n\n1850\n\nRobert Kennedy\nMargaret Thatcher\nPaul Newman\n\n1900 1925 1950 2000\n\nYears\n\n1850\n\nSanta Cruz\nJoseph Smith\nGeorge Moore\n\nFig. $12. Filtering out names with trajectories that cannot be resolved. Illustrates the requirement for\nquery name filtration on the basis of premature fame. Fame a birth is the average fame in a 10 year\n\nwindow around birth, lifetime fame is the average fame from year of birth to 2000. The dashed line in\n(A), (D) indicates the separatrix used to excluded query names with premature fame signals. Points to\nthe right were rejected from further analysis. In (B), (C), (E), (F) the black line indicates the year of birth\n\nof the individuals whose fame trajectories are plotted.\n\nHOUSE_OVERSIGHT_017051",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_017051.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1394,
+    "word_count": 258,
+    "line_count": 90,
+    "import_date": "2025-11-19T21:47:45.991006",
+    "prefix": "IMAGES-004"
+  }
+}

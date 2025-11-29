@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline Positioning Fix Verification</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        .test-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0969da;
+            border-bottom: 2px solid #0969da;
+            padding-bottom: 10px;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f6f8fa;
+            border-left: 4px solid #0969da;
+            border-radius: 4px;
+        }
+        .test-section h3 {
+            margin-top: 0;
+            color: #24292f;
+        }
+        .result {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        .result.pass {
+            background: #d4edda;
+            border: 1px solid #28a745;
+            color: #155724;
+        }
+        .result.fail {
+            background: #f8d7da;
+            border: 1px solid #dc3545;
+            color: #721c24;
+        }
+        .result.info {
+            background: #d1ecf1;
+            border: 1px solid #0c5460;
+            color: #0c5460;
+        }
+        .test-button {
+            background: #0969da;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 10px 5px;
+        }
+        .test-button:hover {
+            background: #0550ae;
+        }
+        .test-button:active {
+            transform: scale(0.98);
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: 2px solid #d0d7de;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .measurements {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .measurement {
+            background: white;
+            padding: 15px;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+        }
+        .measurement-label {
+            font-weight: 600;
+            color: #57606a;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        .measurement-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #24292f;
+        }
+        .measurement-unit {
+            font-size: 14px;
+            color: #57606a;
+            margin-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🔍 Timeline Positioning Fix Verification</h1>
+
+        <div class="test-section">
+            <h3>Test Instructions</h3>
+            <p>This test verifies that the timeline events are visible immediately when clicking the Timeline tab, without requiring scrolling.</p>
+            <ol>
+                <li>Click "Open Application in Frame" below</li>
+                <li>Wait for the page to load completely</li>
+                <li>Click "Run Positioning Tests" to measure sticky header positions</li>
+                <li>Click "Navigate to Timeline" to switch to the Timeline tab</li>
+                <li>Verify that timeline events are visible immediately (green = pass)</li>
+            </ol>
+        </div>
+
+        <div class="test-section">
+            <h3>Test Controls</h3>
+            <button class="test-button" onclick="loadApp()">Open Application in Frame</button>
+            <button class="test-button" onclick="runPositioningTests()">Run Positioning Tests</button>
+            <button class="test-button" onclick="navigateToTimeline()">Navigate to Timeline</button>
+            <button class="test-button" onclick="checkVisibility()">Check Event Visibility</button>
+        </div>
+
+        <div id="measurements-container"></div>
+        <div id="results-container"></div>
+
+        <iframe id="app-frame" style="display: none;"></iframe>
+    </div>
+
+    <script>
+        let appFrame = null;
+        let appDocument = null;
+        let appWindow = null;
+
+        function loadApp() {
+            const iframe = document.getElementById('app-frame');
+            iframe.src = 'http://localhost:8000';
+            iframe.style.display = 'block';
+
+            iframe.onload = function() {
+                appFrame = iframe;
+                appDocument = iframe.contentDocument;
+                appWindow = iframe.contentWindow;
+
+                showResult('✅ Application loaded successfully', 'pass');
+
+                // Wait for timeline data to load
+                setTimeout(runPositioningTests, 2000);
+            };
+        }
+
+        function navigateToTimeline() {
+            if (!appDocument) {
+                showResult('❌ Application not loaded. Click "Open Application in Frame" first.', 'fail');
+                return;
+            }
+
+            // Click the Timeline tab
+            const timelineTab = appDocument.querySelector('[onclick*="timeline"]');
+            if (timelineTab) {
+                timelineTab.click();
+                showResult('✅ Navigated to Timeline view', 'pass');
+
+                // Wait for view to render then check visibility
+                setTimeout(checkVisibility, 500);
+            } else {
+                showResult('❌ Timeline tab not found', 'fail');
+            }
+        }
+
+        function runPositioningTests() {
+            if (!appDocument) {
+                showResult('❌ Application not loaded', 'fail');
+                return;
+            }
+
+            // First navigate to timeline to measure
+            navigateToTimeline();
+
+            setTimeout(() => {
+                const viewContainer = appDocument.querySelector('#timeline-view');
+                const pageHeader = appDocument.querySelector('#timeline-view .page-header.sticky-page-header');
+                const filterBar = appDocument.querySelector('#timeline-view .sticky-filter-bar');
+                const pageContent = appDocument.querySelector('#timeline-view .page-content');
+                const firstEvent = appDocument.querySelector('#timeline-view .timeline-event');
+
+                if (!viewContainer || !pageHeader || !filterBar || !pageContent) {
+                    showResult('❌ Timeline elements not found. Wait for page to load.', 'fail');
+                    return;
+                }
+
+                const viewRect = viewContainer.getBoundingClientRect();
+                const headerRect = pageHeader.getBoundingClientRect();
+                const filterRect = filterBar.getBoundingClientRect();
+                const contentRect = pageContent.getBoundingClientRect();
+                const firstEventRect = firstEvent ? firstEvent.getBoundingClientRect() : null;
+
+                // Display measurements
+                const measurements = {
+                    'View Top': Math.round(viewRect.top),
+                    'Page Header Height': Math.round(headerRect.height),
+                    'Page Header Top': Math.round(headerRect.top),
+                    'Filter Bar Height': Math.round(filterRect.height),
+                    'Filter Bar Top': Math.round(filterRect.top),
+                    'Filter Bar Bottom': Math.round(filterRect.bottom),
+                    'Page Content Top': Math.round(contentRect.top),
+                    'First Event Top': firstEventRect ? Math.round(firstEventRect.top) : 'N/A',
+                    'Viewport Height': appWindow.innerHeight
+                };
+
+                displayMeasurements(measurements);
+
+                // Run visibility checks
+                const visibleStart = Math.round(filterRect.bottom);
+                const contentStart = Math.round(contentRect.top);
+                const firstEventTop = firstEventRect ? Math.round(firstEventRect.top) : null;
+
+                // Check 1: View should start at top (no padding pushing it down)
+                if (viewRect.top === 0) {
+                    showResult('✅ Check 1 PASS: View container starts at viewport top (no padding offset)', 'pass');
+                } else {
+                    showResult(`❌ Check 1 FAIL: View container has ${viewRect.top}px offset from top`, 'fail');
+                }
+
+                // Check 2: Page header should be at top
+                if (headerRect.top <= 5) {
+                    showResult('✅ Check 2 PASS: Page header is at viewport top', 'pass');
+                } else {
+                    showResult(`❌ Check 2 FAIL: Page header is ${headerRect.top}px from top`, 'fail');
+                }
+
+                // Check 3: Filter bar should be positioned correctly
+                const expectedFilterTop = 185; // Desktop value
+                const filterTopDiff = Math.abs(filterRect.top - expectedFilterTop);
+                if (filterTopDiff <= 10) {
+                    showResult(`✅ Check 3 PASS: Filter bar positioned at ${filterRect.top}px (expected ~${expectedFilterTop}px)`, 'pass');
+                } else {
+                    showResult(`❌ Check 3 FAIL: Filter bar at ${filterRect.top}px, expected ~${expectedFilterTop}px (diff: ${filterTopDiff}px)`, 'fail');
+                }
+
+                // Check 4: First timeline event should be visible (below filter bar)
+                if (firstEventRect) {
+                    if (firstEventTop >= visibleStart && firstEventTop < appWindow.innerHeight) {
+                        showResult(`✅ Check 4 PASS: First event is visible at ${firstEventTop}px (below filter bar at ${visibleStart}px)`, 'pass');
+                    } else if (firstEventTop < visibleStart) {
+                        showResult(`❌ Check 4 FAIL: First event at ${firstEventTop}px is HIDDEN under filter bar (${visibleStart}px)`, 'fail');
+                    } else {
+                        showResult(`⚠️ Check 4 WARNING: First event at ${firstEventTop}px is below viewport (${appWindow.innerHeight}px)`, 'fail');
+                    }
+                } else {
+                    showResult('ℹ️ No timeline events found (empty timeline)', 'info');
+                }
+
+                // Check 5: Content should start right after filter bar
+                const contentGap = contentStart - filterRect.bottom;
+                if (contentGap >= -5 && contentGap <= 5) {
+                    showResult(`✅ Check 5 PASS: Content starts right after filter bar (gap: ${contentGap}px)`, 'pass');
+                } else {
+                    showResult(`⚠️ Check 5 WARNING: Content gap is ${contentGap}px (may have spacing issue)`, 'info');
+                }
+
+            }, 500);
+        }
+
+        function checkVisibility() {
+            if (!appDocument) {
+                showResult('❌ Application not loaded', 'fail');
+                return;
+            }
+
+            const timelineView = appDocument.querySelector('#timeline-view');
+            if (!timelineView || !timelineView.classList.contains('active')) {
+                showResult('❌ Timeline view is not active. Navigate to Timeline first.', 'fail');
+                return;
+            }
+
+            const firstEvent = appDocument.querySelector('#timeline-view .timeline-event');
+            if (!firstEvent) {
+                showResult('ℹ️ No timeline events found (timeline may be empty or still loading)', 'info');
+                return;
+            }
+
+            const rect = firstEvent.getBoundingClientRect();
+            const filterBar = appDocument.querySelector('#timeline-view .sticky-filter-bar');
+            const filterBottom = filterBar ? filterBar.getBoundingClientRect().bottom : 0;
+
+            if (rect.top >= filterBottom && rect.top < appWindow.innerHeight) {
+                showResult(`✅ VISIBILITY CHECK PASS: First timeline event is visible (top: ${Math.round(rect.top)}px, filter bottom: ${Math.round(filterBottom)}px)`, 'pass');
+            } else if (rect.top < filterBottom) {
+                showResult(`❌ VISIBILITY CHECK FAIL: First event is HIDDEN under sticky headers (event top: ${Math.round(rect.top)}px, should be >= ${Math.round(filterBottom)}px)`, 'fail');
+            } else {
+                showResult(`❌ VISIBILITY CHECK FAIL: First event is BELOW viewport (event top: ${Math.round(rect.top)}px, viewport height: ${appWindow.innerHeight}px)`, 'fail');
+            }
+        }
+
+        function displayMeasurements(measurements) {
+            const container = document.getElementById('measurements-container');
+            container.innerHTML = '<div class="test-section"><h3>📏 Layout Measurements</h3><div class="measurements" id="measurements-grid"></div></div>';
+
+            const grid = document.getElementById('measurements-grid');
+            for (const [label, value] of Object.entries(measurements)) {
+                const div = document.createElement('div');
+                div.className = 'measurement';
+                div.innerHTML = `
+                    <div class="measurement-label">${label}</div>
+                    <div class="measurement-value">${value}<span class="measurement-unit">px</span></div>
+                `;
+                grid.appendChild(div);
+            }
+        }
+
+        function showResult(message, type) {
+            const container = document.getElementById('results-container');
+            if (!container.querySelector('.test-section')) {
+                container.innerHTML = '<div class="test-section"><h3>📋 Test Results</h3><div id="results-list"></div></div>';
+            }
+
+            const resultsList = document.getElementById('results-list');
+            const result = document.createElement('div');
+            result.className = `result ${type}`;
+            result.textContent = message;
+            resultsList.appendChild(result);
+
+            // Auto-scroll to latest result
+            result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        // Auto-load app on page load
+        window.addEventListener('load', () => {
+            setTimeout(loadApp, 500);
+        });
+    </script>
+</body>
+</html>

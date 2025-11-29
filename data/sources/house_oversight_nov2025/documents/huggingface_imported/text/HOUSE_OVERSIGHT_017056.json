@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017056",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_017056.txt",
+  "text": "Figure $17\n\nT\n— 1938 Blacklist (1117)\n—— Art (Hermann list) (7)\n—— Lit. History (8)\n\nMean % of lifetime fame\n\n1 n n 4\n\n0\n1900 1920 1940 1960 1980 2000\n\nYear\n\nFig. $17. Suppression of authors on the Art and Literary History blacklists in German. We plot the\nmedian trajectory (as in the main text) of authors in the Herman lists for Art (green) and Literary History\n(red), and for authors found in the 1938 blacklist (blue). The Nazi regime (1933-1945) is highlighted, and\ncorresponds to strong drops in the trajectories of these authors.\n\nHOUSE_OVERSIGHT_017056",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_017056.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 561,
+    "word_count": 97,
+    "line_count": 22,
+    "import_date": "2025-11-19T21:47:45.342494",
+    "prefix": "IMAGES-004"
+  }
+}

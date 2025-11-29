@@ -1,0 +1,13 @@
+{
+  "ticket": "1M-87",
+  "feature": "Timeline & News Unification",
+  "timestamp": "2025-11-21T17:59:48.109Z",
+  "testUrl": "http://localhost:5173",
+  "screenshots": "/Users/masa/Projects/epstein/tests/artifacts/linear-1M-87",
+  "results": {
+    "singleNavigationEntry": "See test results above",
+    "newsRedirect": "See test results above",
+    "timelineFunctionality": "See test results above",
+    "articleDetailRoutes": "See test results above"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "document_id": "DOJ-OGR-00001972",
+  "email_index": 12,
+  "extracted_at": "2025-11-17T04:14:45.438685",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "All counsel of record (via email) DOJ-OGR-00001972",
+  "subject": null,
+  "date": "12/14/20",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "mcohen@cohengresser.com",
+    "ceverdell@cohengresser.com"
+  ]
+}

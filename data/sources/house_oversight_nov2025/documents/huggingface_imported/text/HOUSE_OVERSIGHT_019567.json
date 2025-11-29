@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019567",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019567.txt",
+  "text": "Raider of the Inner Sanctum | 79\n\nrequired a minimum of one month’s notice for foreign travel. By\nmaking the request, he lessened the likelihood that it would arouse\nundue suspicion when he departed for Hong Kong with stolen docu-\nments on May 18. This brief window left him some four weeks to\ntake the lists that he coveted.\n\nSnowden carried out the heist with precision reminiscent of a\nMission: Impossible movie caper. First, he needed to get passwords to\nup to twenty-four compartments at the National Threat Operations\nCenter that he had not been read into. Even in the “open culture”\nof the NSA, this was not an easy challenge. He would be asking\none or more intelligence professionals to break strict NSA rules\nthat not only prohibited them from disclosing their passwords to an\nunauthorized party such as himself but required them to report any\nunauthorized person who asked to use their passwords. Remarkably,\nhe accomplished this incredible feat. He gained access to twenty-four\ncompartments containing the NSA’s most closely guarded secrets in\na matter of a few weeks.\n\nNext, he had to find the lists he was seeking in a vast ocean of\n\n© data. For this task, he used software applications called spiders to ©\ncrawl through the data and find the files he was after. He deployed\nthese robotic spiders, which presumably had been programmed in\nadvance, soon after he began working at the center. According to the\nsubsequent NSA damage assessment, Snowden’s spiders indexed\nwell over one million documents. Many of those that he copied and\nmoved were from Level 3 sensitive compartmented information,\naccording to the NSA analysis. The spiders also made his penetra-\ntion relatively safe. As previously mentioned, the Hawaii base did\nnot have a real-time auditing system. So alarm bells did not go off in\nthe security office when he indexed documents.\n\nFinally, Snowden had to find a way to transfer this data to a com-\nputer with an opened USB port. This task was complicated by a secu-\nrity precaution. Most of the computers at the center had had their\nports sealed shut to prevent unauthorized downloads. Making the\ntransfer even more difficult, he was working as an analyst in train-\ning in an open-plan office with closed-circuit security cameras. But it\nwas not impossible. System administrators sometimes used service\ncomputers that had unsealed ports to back up data before they did\n\n| | Epst_9780451494566_2p_all_r1.z.indd 79 ® 9/29/16 5:51 Pa | |\n\nHOUSE_OVERSIGHT_019567",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019567.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2486,
+    "word_count": 414,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:46.537111",
+    "prefix": "IMAGES-005"
+  }
+}

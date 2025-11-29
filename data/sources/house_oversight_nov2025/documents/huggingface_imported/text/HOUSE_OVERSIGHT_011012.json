@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011012",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011012.txt",
+  "text": "Now I'll try to pull this together. Stock prices collectively, meaning all shares at\ncurrent prices, is called “market cap.” (Cap is capitalization.) Market cap does not\nmeasure the whole underlying value of the issuers, meaning firms that issued the\nstock, since there are debt claims that must be paid off first. It measures the equity\nresidue. It measures that imperfectly because some inefficiency and chicanery are\nhere to stay. Itis more volatile than the debt claims because it is leveraged, but\nprobably less volatile, given the observed reality of trends showing smoothed-out\nreaction of share prices to news over time, than what would be bid for the\nunderlying assets, including intangibles, subject to the same debt claims that must\n\nbe paid off first.\n\nNational accounts measure market-valued (physical) capital by beginning with\nmarket cap. They then add the market value of debt claims on the same issuers,\nalong with equity and debt claims on the rest of the business sector, and then the\nsame for the housing sector. The sum is “private wealth.” Consumer durables such\nas cars and refrigerators are excluded as impractical to price. Government wealth\n\nnet of national wealth is tracked separately, and tends to show as slight or negative.\n\nFinding the Free Growth Index for Stock Markets\n\nMy concern in this chapter is the stock market as a data source for testing free\ngrowth theory. Here (4.2) would read total return in place of (net) output, while\ngrowth would be in market cap. Consumption in (4.2) would become dividend yield\nin the sense net of capital concurrently raised in new stock issues. The Global\nFinancial Data website summarizes the history of world stock markets from\ninception in about 1700 for U.K., about 1800 in U.S., and later elsewhere. A nice\nfeature of this data source, and most other sources for stock and security\nperformance, is that market values are shown from the start. This left no need to\ncorrect for the inevitable lags in depreciation accounting, which gets the news only\n\nin purchases or sales.\n\nChapter 4 Mill’s Idea 1/11/16 21\n\nHOUSE_OVERSIGHT_011012",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011012.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2107,
+    "word_count": 347,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:45.402498",
+    "prefix": "IMAGES-001"
+  }
+}

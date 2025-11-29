@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027725",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027725.txt",
+  "text": "Flags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: F8D33EBA-1CB1-41F1-BC5E-E4B866D413A2\n\nMessage: LePen now controls situation\n\nsender:\n\nTime: 05/26/19 09:22:35 AM (580580555)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nr,\n\nGUID: 686DB92D-5ACE-4ED7-B82E-3BFFD225C071\n\nMessage: She picked up 2% since I got here and started hammering\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/26/19 09:24:24 AM (580580664)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nr\n\nGUID: 04F4064E-CB4D-4CC1-88F1-9AF105046991\n\nMessage: What time complete?\n\nsender:\n\nTime: 05/26/19 09:50:31 AM (580582231)\nFlags: 1126401\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: C29D5BB8-A8E3-4022-AB36-3FABO2EA6C30\n\nMessage: Late tonight\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/26/19 12:56:27 PM (580593387)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 59F812E8-5D4C-4C69-900D-D84DA52E918F\n\nMessage: Macron down? Boris up. Merkel down. You up GREAT\n\nsender:\n\nTime: 05/26/19 03:46:05 PM (580603565)\nFlags: 1060865\n\nIs Read: Yes\n\nHOUSE_OVERSIGHT_027725",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027725.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1020,
+    "word_count": 124,
+    "line_count": 71,
+    "import_date": "2025-11-19T21:47:46.311692",
+    "prefix": "IMAGES-009"
+  }
+}

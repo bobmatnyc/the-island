@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015940",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015940.txt",
+  "text": "250 Are the Androids Dreaming Yet?\n\nalgorithm, but a VAV, (for all, there exists, for all), is not. Each individual\ntype of problem within the class must be examined with insight and\nunderstanding.\n\nOur lives are full of problems — playing chess, finding a mate,\ndesigning space ships and simply getting to work in the morning.\nImagine we expressed everyday problems as logical problems. Where is\nthe logic limit for life? We have no answer for this yet, but we do know\nthe logic limit for computing; it is given by Rice’s Theorem.\n\nNamed after Henry Rice, and proven in 1951 as part of his doctoral\nthesis at Syracuse University, Rice’s Theorem states: “No nontrivial feature\nof a computer program can be automatically derived” You cannot tell if\na program will halt with a given input. You cannot tell if one program\nwill generate the same output as another. You cannot tell if a simpler\nprogram could be written to do the same task as a more complex one.\nIn fact, no nontrivial thing can be proven. This means the logic limit in\ncomputers is low, and computer programmers have job security.\n\nFor Programmers\nFor the programmers amongst you, here are some of the things that\ncannot be done automatically even given infinite time:\n\n« Self-halting Problem. Given a program that takes one input,\ndoes it terminate when given itself as input?\n\n* Totality Problem. Given a program that takes one input, does it\nhalt on all inputs?\n\n* Program Equivalence Problem. Given two programs that take\none input each, do they produce the same result on every input?\n\n* Dead Code Elimination. Will a particular piece of code ever be\nexecuted?\n\ne Variable Initialization. Is a variable initialized before it is first\nreferenced?\n\n* Memory Management. Will a variable ever be referenced again?\n\nHOUSE_OVERSIGHT_015940",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015940.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1801,
+    "word_count": 305,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:48.008668",
+    "prefix": "IMAGES-003"
+  }
+}

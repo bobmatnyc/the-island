@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00023728.pdf",
+  "ocr_date": "2025-11-16T21:52:50.632017",
+  "text_length": 1146,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "BGI@bop.gov"
+  ]
+}

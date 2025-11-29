@@ -1,0 +1,182 @@
+{
+  "timestamp": "2025-11-20T12:54:16.534840",
+  "success_criteria": {
+    "All endpoints return 200 OK": false,
+    "No 500 errors": true,
+    "p50 latency <300ms": true,
+    "p95 latency <500ms": true,
+    "Fuzzy matching accuracy >90%": false,
+    "Boolean operators work": false,
+    "Error handling is graceful": true,
+    "Concurrent requests succeed": false
+  },
+  "success_rate": 50.0,
+  "detailed_results": {
+    "performance": {
+      "Simple entity": {
+        "latency_ms": 4.66,
+        "status_code": 422,
+        "success": false,
+        "result_count": 0
+      },
+      "Multi-word": {
+        "latency_ms": 0.69,
+        "status_code": 422,
+        "success": false,
+        "result_count": 0
+      },
+      "Boolean AND": {
+        "latency_ms": 0.59,
+        "status_code": 422,
+        "success": false,
+        "result_count": 0
+      },
+      "Boolean OR": {
+        "latency_ms": 0.56,
+        "status_code": 422,
+        "success": false,
+        "result_count": 0
+      },
+      "Boolean NOT": {
+        "latency_ms": 0.53,
+        "status_code": 422,
+        "success": false,
+        "result_count": 0
+      },
+      "Fuzzy typo": {
+        "latency_ms": 0.65,
+        "status_code": 422,
+        "success": false,
+        "result_count": 0
+      },
+      "Date filtered": {
+        "latency_ms": 0.78,
+        "status_code": 422,
+        "success": false,
+        "result_count": 0
+      },
+      "Field filtered": {
+        "latency_ms": 0.64,
+        "status_code": 422,
+        "success": false,
+        "result_count": 0
+      },
+      "Empty results": {
+        "latency_ms": 0.61,
+        "status_code": 422,
+        "success": false,
+        "result_count": 0
+      },
+      "Large result set": {
+        "latency_ms": 0.55,
+        "status_code": 422,
+        "success": false,
+        "result_count": 0
+      }
+    },
+    "functionality": {
+      "unified_search": {
+        "success": false,
+        "status": 422,
+        "error": "{\"detail\":[{\"type\":\"missing\",\"loc\":[\"query\",\"query\"],\"msg\":\"Field required\",\"input\":null}]}"
+      },
+      "autocomplete": {
+        "success": true,
+        "avg_latency_ms": 0.52,
+        "target_met": true
+      },
+      "analytics": {
+        "success": true,
+        "status": 200,
+        "total_searches": 4
+      },
+      "search_history": {
+        "success": false,
+        "status": 404
+      }
+    },
+    "fuzzy_matching": {
+      "Ghisline": {
+        "target": "Ghislaine",
+        "found": false,
+        "result_count": 0
+      },
+      "Maxwel": {
+        "target": "Maxwell",
+        "found": false,
+        "result_count": 0
+      },
+      "Jeffry": {
+        "target": "Jeffrey",
+        "found": false,
+        "result_count": 0
+      },
+      "Epstien": {
+        "target": "Epstein",
+        "found": false,
+        "result_count": 0
+      },
+      "overall_accuracy": 0.0
+    },
+    "boolean_logic": {
+      "AND": {
+        "query": "Epstein AND Maxwell",
+        "success": false,
+        "result_count": 0
+      },
+      "OR": {
+        "query": "Epstein OR Clinton",
+        "success": false,
+        "result_count": 0
+      },
+      "NOT": {
+        "query": "Epstein NOT Maxwell",
+        "success": false,
+        "result_count": 0
+      },
+      "COMPLEX": {
+        "query": "(Epstein OR Clinton) AND NOT Maxwell",
+        "success": false,
+        "result_count": 0
+      }
+    },
+    "error_handling": {
+      "Empty query": {
+        "status_code": 422,
+        "graceful": true
+      },
+      "Special chars": {
+        "status_code": 422,
+        "graceful": true
+      },
+      "Very long query": {
+        "status_code": 422,
+        "graceful": true
+      },
+      "Invalid params": {
+        "status_code": 422,
+        "graceful": true
+      },
+      "Malformed boolean": {
+        "status_code": 422,
+        "graceful": true
+      }
+    },
+    "concurrent_load": {
+      "total_requests": 10,
+      "successful": 0,
+      "avg_latency_ms": 4.41,
+      "min_latency_ms": 1.61,
+      "max_latency_ms": 5.82,
+      "all_succeeded": false
+    },
+    "percentiles": {
+      "p50": 0.62,
+      "p95": 6.41,
+      "p99": 8.12,
+      "p50_target_met": true,
+      "p95_target_met": true,
+      "p99_target_met": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013710",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013710.txt",
+  "text": "finite variance. A tail with a nonconvergent decay rate of 1 < a < 2 indicates non-\nfinite variance in the data such that the usual “normal curve” derived, standard\ndeviation dependent tests of statistical significance are without meaning. a < 1\nindicates the data is without a consequential mean and will require the use of\ninterquartile measures to locate the center of the distribution (Adler et al, 1998).\nRecalling that the Hurst, Fano and Allan indices are invariant across sample\nsegment size, we remind ourselves that, as is the case in the finite mean and\nvariance, a = 2, Gaussian, any of the other “a tails” also retain their value (“shape”)\nacross all partitions that might be used to sort and sum the observable. This\nproperty is called convolutional, a, stability. In passing it should be noted that the\nlast outpost of convergence of a probability density distribution with a = 2 is called\n“log-normal,” in which the tails along the x axis are “pulled in” by the variable being\n\nplotted as its logarithm.\n\nA Hurst exponent of > 0.5 in the data is associated with a Levy exponent of <\n2.0, and both would be indicative of a process in which the characteristic style of\nchange, rather than decay with some finite correlation length, would persist across\nall time. Using a bursting neuron as a generic example, a short interspike interval\nwould, on the average, be followed by another short one and a long one by another\nlong one, and this behavior, unlike our fair coin flipping sequence of observables,\nwould not become uncorrelated with itself even over infinite time. Another way to\nrepresent this infinite, innumerably lengthed, correlation property is via its implicate\nfrequency (inverse wavelength) content by computing its best fit assortment (along\nwith their densities) of a range of short to long sine waves forming the Fourier\ntransformation of the correlation function. The condition of correlated fluctuations\nacross many measured temporal scales yields yet another power law slope when\ngraphed as the logarithm of its range of frequencies, f, plotted along the x axis,\nversus their corresponding amplitudes squared, powers, plotted along the y axis.\n\nNaming this spectral power law exponent B, the system’s characteristic scaling law\n\nis usually expressed as Gr (Fedor, 1988; Hughes, 1995; Shlesinger, 1996;\n\n210\n\nHOUSE_OVERSIGHT_013710",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013710.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2364,
+    "word_count": 385,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:47.879120",
+    "prefix": "IMAGES-002"
+  }
+}

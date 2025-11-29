@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00000726.pdf",
+  "ocr_date": "2025-11-16T20:50:39.564969",
+  "text_length": 2174,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "bgreen@law.fordham"
+  ]
+}

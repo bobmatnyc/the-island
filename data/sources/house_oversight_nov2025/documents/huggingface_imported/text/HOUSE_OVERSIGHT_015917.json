@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015917",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015917.txt",
+  "text": "Turing’s Machine 227\n\nand so on.\n\nYou can see that every program imaginable is generated in our\nlist. If you are wondering which version of Word or Excel, the answer\nis every version and every bug ridden unreleased version as well. We\nare enumerating every program that could ever be run in the known\nuniverse!\n\nPerhaps you can see a problem looming. Ican pose any mathematical\npuzzle in a clever way so that a program only stops if there is a solution.\nI am about to list every possible program that could ever be created. If\nhalt exists this will automatically prove every mathematical theorem\nimaginable.\n\nLet us see if this is so.\n\nFor our thought experiment, we will assume every program takes\nan input. Historical convention in computing means this is generally the\ncase. If you type a program into the command line of a computer with\nsome words listed afterwards, the computer will usually run the program\nwith the words as input. For example, if you type, “Print “Hello World”,\nmost computers will print “Hello World.\n\nWe now imagine there is a Halt program that can run on an infinity\nof inputs. Will it work for every input? We are looking for a paradox\ncaused by the existence of the Halt program. If Halt causes a paradox\nthen Halt cannot exist.\n\nHere goes...\n\nIf there is a Halt program, we can write a Crash program. That’s a\nprogram that goes into an infinite loop if it detects a program will halt.\nNow what happens when we feed Crash into itself? Does Crash halt if it\nruns with the input Crash?\n\nThis creates a paradox; there is no solution which makes sense. It’s\nsimilar to the Barber Paradox of earlier. Since a paradox is created there\nmust be a fault in our original theory. The error is the existence of Crash.\nSince Crash cannot exist and it was created as the logical opposite of\nHalt, Halt cannot exist either. QED. There is no general program that will\ntell if another program will halt because such a program could not run\nwith the negative of itself as input.\n\nThis places a limit on the power of computers to automatically\nsolve problems. There is certainly no general purpose algorithm which\nwill solve every problem. Slightly more subtly there is no general\npurpose program that is guaranteed to solve one arbitrary problem.\n\nHOUSE_OVERSIGHT_015917",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015917.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2281,
+    "word_count": 401,
+    "line_count": 51,
+    "import_date": "2025-11-19T21:47:45.476877",
+    "prefix": "IMAGES-003"
+  }
+}

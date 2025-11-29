@@ -1,0 +1,28 @@
+7/19/2021 Student Info
+
+©
+‘om - Grade 10
+
+Enrollment
+Year * School * Grade Level * Enrollment Date * Enrollment Code + Drop Date + Drop Code
+
+| 2001-2002 | ZWD - Survivors Charter School - 3390 10 10/12/2001 (RO2) Re-entry from another school same district 03/07/2002 | (W26)W/D
+| 2001-2002 Royal Palm Beach Community High - 2331 -H 10 09/20/2001 (RO2) Re-entry from another school same district 10/11/2001 | (W02) In Di
+| 2001-2002 | Wellington High Adult Education Center -2192-A 30 08/14/2001 (EA1) Original Entry of Adult 09/20/2001 | (W32) Adul
+| 2000-2001 | Wellington High Adult Education Center -2192-A 30 08/16/2000 (EA1) Original Entry of Adult 08/13/2001 | (W47) Adul
+| 1999-2000 Wellington High Adult Education Center -2192-A | 30 06/21/2000 (EA1) Original Entry of Adult 08/15/2000 | (W47) Adul
+| 1999-2000 Royal Palm Beach Community High - 2331-H 10 08/16/1999 (E01) In District Previous Year 08/16/1999 | (WO3) Inor
+| 1998-1999 Forest Hill High -0581-H 09 08/19/1998 (E01) In District Previous Year 06/09/1999 =| (W02) In Di
+| 1997-1998 | Wellington High -2191-H 09 08/20/1997 (E01) In District Previous Year 08/20/1997 | (W22) Whe
+| 1997-1998 | Royal Palm Beach Community High - 2331-H 09 08/20/1997 (E01) In District Previous Year 06/10/1998 | (W014) InSc
+| 1996-1997 Crestwood Middle - 1691-M 08 04/07/1997 (RO3) Re-entry Unexpected same Dist after wd 06/11/1997 | (W02) In Di
+| 1994-1995 ZWD- Royal Pines School - 1703 06 08/22/1994 (E01) In District Previous Year 08/22/1994
+| 1993-1994 Loxahatchee Groves Elementary - 1901-E 05 08/23/1993 (E01) In District Previous Year 06/10/1994 | (W002) In Di
+| 1992-1993 Loxahatchee Groves Elementary - 1901-E 04 08/25/1992 (E01) In District Previous Year 06/11/1993 | (W01) In Sc
+| 1991-1992 Loxahatchee Groves Elementary - 1901-E 03 08/26/1991 (E01) In District Previous Year 06/11/1992 | (W01)InSc
+| 1990-1991 Loxahatchee Groves Elementary - 1901-E 02 08/27/1990 (E01) In District Previous Year 06/13/1991 | (W01)InSc
+| 1989-1990 Loxahatchee Groves Elementary - 1901-E 02 08/28/1989 (E01) In District Previous Year 06/13/1990 | (W002) In Di
+
+https://sis.palmbeachschools.org/focus/Modules.php?modname=Students/Student php&search_modfunc=result&student_id=—Iaiaigmay &LO_index=1&school_id=549#lenrollment 1/1
+
+DOJ-OGR-00015204

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015949",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015949.txt",
+  "text": "Software 259\n\nLet us start by substituting the notes of the musical scale for the\nletters of the alphabet to create a piece of ‘music. Since it is a direct\nanalogue of the word problem, we have created a non-computable piece\nof music. It is definitely non-computable, but is it music? If it just looked\nlike a random jumble of notes it would be unconvincing, but luckily there\nare many forms of music that look exactly like a word substitution puzzle.\nBach's Art of Fugue, the canons of Tudor composers such as William Byrd\nand Thomas Tallis, and the works of Grieg all use sequences of chords\nthat move from one to the next using substitution rules. If you were to\nlisten to the steps in our word substitution music, they would definitely\nsound musical. I think they should pass the main artistic criticism — that\nthey should not sound formulaic.\n\nBut is any actual human composition non-computable?\nUnfortunately, we cannot prove whether a particular piece of Bach, Tallis\nor Grieg is non-computable because we don't know the specific rules\nused to compose it. All we know are the general musical principles of\nharmony and counterpoint that applied at the time. We don’t have these\ncomposers personal rule sets because they were held in their brain and\nthey are, of course, long since dead. It is statistically likely that most pieces\nare non-computable because there are an uncountably infinite number\nof them, whereas computable pieces are merely countably infinite. But\nthat’s just probability; it is no proof.\n\nI puzzled for some time whether there is a way to prove it but had to\nconclude it is impossible. However, and this is how creativity works, once\nI had given up on the problem, my brain continued to work on it. I was\nnot conscious of this, I was only aware that failing to solve the problem\nannoyed me. I then had a Eureka moment. Although I couldn't prove\na piece of music was non-computational, I could make one! - a piece\nthat could not have been created\nusing computation alone. This\nrequires me to inoculate your\nbrain.\n\nTake either Andrew\nWiles proof of Fermat's Last\nTheorem or Alan Turing’s proof\nof the Halting Problem; both\nproofs are non-computable.\nEach document is made up of\nsymbols, the Roman alphabet\nand some special Greek symbols\nsuch as a, B, ¢, and so on. Let us Creative Inoculation\n\nHOUSE_OVERSIGHT_015949",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015949.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2343,
+    "word_count": 405,
+    "line_count": 48,
+    "import_date": "2025-11-19T21:47:44.021347",
+    "prefix": "IMAGES-003"
+  }
+}

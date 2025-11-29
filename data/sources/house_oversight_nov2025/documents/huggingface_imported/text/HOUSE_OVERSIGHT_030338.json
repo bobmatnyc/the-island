@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_030338",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_030338.txt",
+  "text": "This e-mail and all attachments are confidential and may also be privileged. If you are not the named recipient, please\nnotify the sender and delete the e-mail and all attachments immediately. Do not disclose the contents to another person.\nYou may not use the information for any purpose, or store, or copy, it in any way. Guardian News & Media Limited is not\nliable for any computer viruses or other material transmitted with or as part of this e-mail. You should employ virus\nchecking software.\n\nGuardian News & Media Limited is a member of Guardian Media Group plc. Registered Office: PO Box 68164, Kings\nPlace, 90 York Way, London, N1P 2AP. Registered in England Number 908396\n\nHOUSE_OVERSIGHT_030338",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_030338.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 705,
+    "word_count": 117,
+    "line_count": 10,
+    "import_date": "2025-11-19T21:47:48.477870",
+    "prefix": "IMAGES-010"
+  }
+}

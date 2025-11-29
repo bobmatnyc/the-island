@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011003",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011003.txt",
+  "text": "Mill and Keynes and tradition hold (4.2) and (4.2a) as logical certitudes which hold\n\nconstant over time. I agree if we imagine the asterisks. Constancy over time would\n\nimply\n\nchange in growth = change in output - change in consumption. (4.3)\n\nI take the trouble to derive this as a road | haven't preferred to follow. | will reason\ninstead in rates rather than flows. Rates, or ratios of flows to capital, effectively\ncancel capital from numerator and denominator. That frees them to show\ncomparison between smaller and larger economies among the eight | test. Mill’s idea,\nor anyhow mine, is that the ratio of consumption to capital in all those countries can\n\nhold constant. That is what the charts and tables show.\n\nTo follow that lead, divide (4.2a) by capital. This finds\n\ngrowth — output consumption\n\nat canteal ; (4.4)\ncapital capital capital\nThat can be put more compactly as\ngrowth rate = capital productivity - consumption rate, (4.4a)\n\nwhere rate always means ratio to capital. That needs a caveat because consumption\nrate in macro means ratio to output. Capital productivity in this sense is also called\nrate of return.\n\nFor more compactness still, define\n\nthrift rate = - consumption rate,\n\nallowing (4.4a) to be restated as\n\nChapter 4 Mill’s Idea 1/11/16 12\n\nHOUSE_OVERSIGHT_011003",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011003.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1297,
+    "word_count": 215,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:46.325944",
+    "prefix": "IMAGES-001"
+  }
+}

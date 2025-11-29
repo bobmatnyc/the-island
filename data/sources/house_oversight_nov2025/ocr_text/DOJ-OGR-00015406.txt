@@ -1,0 +1,55 @@
+Fed =< Invoice Number: 4-486-92384
+2 Invoice Date: Dec 06, 2002
+Account Number: 2292-0750-4
+Page: 3 of 4
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Nov 25, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 8
+Tracking D 838319148617 Sender Recipient
+Service Type FedEx Standard Overnight DARREN INDYKE PIETRO MONDINI
+Package Type FedEx Envelope NYSG LLC PRELL JACOBSON NC
+Zone 8 457 MADISON AVE FP
+Packages 1 NEW YORK NY 10022-6843 US Po
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Nov 26, 2002 14 36 Transportation Charge T71
+Sve Area A2 Fuel Surcharge 031
+Signed by J PANINGSORO ——EE——— SSS
+FedEx Use 331208330/06967/_ Total Transportation Charges USD $ 8.02
+Dropped off: Dec 02, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 6
+Tracking D 838319148628 Sender Recipient
+Service Type FedEx Standard Overnight DARREN INDYKE GREGG HARTNERSS
+Package Type FedEx Envelope NYSG LLC TEAM WORLDWDE
+Zone 6 457 MADISON AVE es
+Packages 1 NEW YORK NY 10022-6843 US Po
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Dec 03, 2002 11 25 Transportation Charge 723 =
+Sve Area Al Fuel Surcharge 029° =—
+Signed by J BEER oa——_— OO
+FedEx Use  337119270/06965/_ Total Transportation Charges USD $ 762 =
+Dropped off: Dec 02, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION =
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 5
+Tracking D 838319148639 Sender Recipient
+Service Type FedEx Standard Overnight DARREN INDYKE JAMES II MOORE III
+Package Type FedEx Envelope NYSG LLC MOORE CLARKE DUVALL RODGER'S P
+Zone 457 MADISON AVE es
+Packages 1 NEW YORK NY 10022-6843 US PY
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Dec 03, 2002 12:14 Transportation Charge 694
+SVENTEa BA Fuel Surcharge 028
+Signed by C.BREEDEN So,
+FedEx Use 337119270/06964/_ Total Transportation Charges USD $ 7.22
+
+Shipment Detail Subtotal 00.0... cece ceseseeeeeeseeeeaeneeeeeeeecnesesaesetseeetaesetaetetetsetetseteneeeneeee OD § 22.76
+SDNY_GM_00340727 97
+DOJ-OGR-00015406

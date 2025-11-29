@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026690",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026690.txt",
+  "text": "Fig 6. Change in past year allocations by asset class (% citations) i Decrease\n@ Stay the same\nMi Increase\n\nGlobal equity\n2013\n\n2014\n\n2015\n\n2016\n\n2017\n\nHome market equity\n2013\n\n2014\n\n2015\n\n2016\n\n2017\n\nGlobal bond\n2013\n\n2014\n\n2015\n\n2016\n\n2017\n\nHome market bond\n2013\n\n2014\n\n2015\n\n2016\n\n2017\n\nSample is based on sovereign investors and excludes central banks.\nSample: 2013=22, 2014=36, 2015=33, 2016=44, 2017=60.\n\n10\n\nHOUSE_OVERSIGHT_026690",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026690.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 437,
+    "word_count": 68,
+    "line_count": 54,
+    "import_date": "2025-11-19T21:47:49.336359",
+    "prefix": "IMAGES-009"
+  }
+}

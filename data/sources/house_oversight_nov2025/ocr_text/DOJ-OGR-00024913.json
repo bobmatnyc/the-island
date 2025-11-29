@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00024913.pdf",
+  "ocr_date": "2025-11-16T21:55:24.901314",
+  "text_length": 1984,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "J@pbso.org"
+  ]
+}

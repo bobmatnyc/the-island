@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011144",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011144.txt",
+  "text": "At moment z, self-invested output ends and all change in value is explained by\ndepreciation alone. It equals the entire accumulated value of dPV at final moment z.\n\nThat is,\n\nD(z)dz=—dPV’(z)dz= dPV(z)=dPV(x)e™\"™, (A8.3)\n\nThe following table shows some illustrations:\n\nDepreciation Factor e’~™ if z—x is 50 Years\n\nInterim z—x (years): 0 10 20 30 40 50\nFactor if r(x) = .035: 174 247 350 A497 705 1\nFactor if r(x) = .065: 039 074 142 Zits 522 1\n\nThis exactly reverses the analysis applied in national accounts, which models the\n\nfactor as decreasing rather than rising exponentially.\n\nIt should be stressed that these equations and this table describe each successive\ndifferential increment of outside investment (transfer in), not assets overall or\ngroups of them. If transfer in were constant and continuous in an asset or group,\n\nother things equal, overall depreciation would show as linear.\n\nFree Growth Theory\n\nBy the total return truism (A1.6a), showing r = g + f, we derive\n\ng=r-f, dg=dr-—df, and Ag=Ar-Af. (A9.1)\n\ndg or Ag is “acceleration”, dr or Ar is “productivity gain” or “free growth rate”\n\nand —df or —Af is “thrift gain”. Divide by acceleration to reach\n\nAPPENDIX A: The Argument in Notation 3/7/16 18\n\nHOUSE_OVERSIGHT_011144",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011144.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1240,
+    "word_count": 203,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:47.175719",
+    "prefix": "IMAGES-001"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028800",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028800.txt",
+  "text": "Jeffrey Kogan\n\nKogan Realty Group\n155 E 55th St., Ste 6-D\nNew York, NY 10022\nTEL:\n\nFAX:\n\nHOUSE_OVERSIGHT_028800",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028800.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 111,
+    "word_count": 18,
+    "line_count": 10,
+    "import_date": "2025-11-19T21:47:45.151236",
+    "prefix": "IMAGES-010"
+  }
+}

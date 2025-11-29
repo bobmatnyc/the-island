@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_031991",
+  "filename": "IMAGES-011-HOUSE_OVERSIGHT_031991.txt",
+  "text": "4152 West Blue Heron Blvd., Ste. 1114\nRiviera Beach, FL 33404 USA\n\n1042908\nBSCC-1\n\nos\n=\n\nHOUSE_OVERSIGHT_031991",
+  "metadata": {
+    "original_filename": "IMAGES-011-HOUSE_OVERSIGHT_031991.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 111,
+    "word_count": 17,
+    "line_count": 10,
+    "import_date": "2025-11-19T21:47:46.198024",
+    "prefix": "IMAGES-011"
+  }
+}

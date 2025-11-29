@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015970",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015970.txt",
+  "text": "280 Are the Androids Dreaming Yet?\n\nDavid Malament and Mark Hogarth of the University of California,\nIrvine have proposed a form of space-time called the Kerr Metric. This\nallows a machine to break the Turing limit, but has the drawback that as\nit does so it falls through the event horizon and is sucked into the black\nhole. We might discover new information but are now trapped inside the\nevent horizon unable to communicate it — a form of cosmic censorship.\n\nCandidates for a hyper-computer that could fit inside a human\nbrain include mathematical curiosities which stretch the concept\nof infinity. The easiest to understand is the Zeno machine. In a Zeno\nmachine a computer runs each successive step of a calculation in half the\ntime of the previous step. The computer can pack an infinite quantity of\ncomputation into each finite time interval and can therefore outperform\na Turing machine. This theory fails at a practical level because we simply\ncant build such a machine.\n\nThere are numerous weird suggestions for mathematical super-\nTuring machines, and many are described on the Internet. They all fit\nbroadly within the two models above: modifications to space-time or\npeculiar mathematical paradoxes. The inspiration for the true solution\nto super-Turing thought may lay in there somewhere, but there are some\nmore plausible proposals to look at next.\n\nPlausible Ideas\n\nI have characterized the next set of ideas as plausible, but they may still\nbe highly controversial. My only criteria for plausibility are that the\nmechanism must outperform a machine limited to counting numbers,\nand it might fit inside our skulls. No black holes allowed.\n\nOne interesting proposal for a super-Turing machine that could\nfit inside our skulls is the Adaptive Recurrent Neural Network, ‘ARNN’\nproposed by Hava Siegelmann of the University of Massachusetts,\nAmherst. An ARNN is a neural network with real number weights. As\nyou recall, real numbers are equivalent to the continuum infinity, a larger\ninfinity than that of counting numbers.\n\nThis is the infinity that defeats a Turing machine, and Siegelmann\nharnesses it as the basis of her computing machine. She argues that,\nalthough the machine cannot be programmed as it is impossible to write\nreal numbers down, once it is running, the weights diverge and real\nnumbers will be used within the network. These real numbers allow the\nmachine to compute using numbers that are not, themselves, computable\n\nHOUSE_OVERSIGHT_015970",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015970.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2475,
+    "word_count": 400,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:44.949617",
+    "prefix": "IMAGES-003"
+  }
+}

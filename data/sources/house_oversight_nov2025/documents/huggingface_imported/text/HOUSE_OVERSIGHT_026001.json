@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026001",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_026001.txt",
+  "text": "Options Risk Statement\n\nPotential Risk at Expiry & Options Limited Duration Risk\n\nUnlike owning or shorting a stock, employing any listed options strategy is by definition\ngoverned by a finite duration. The most severe risks associated with general options\ntrading are total loss of capital invested and delivery/assignment risk, all of which can\noccur in a short period.\n\nInvestor suitability\n\nThe use of standardized options and other related derivatives instruments are\nconsidered unsuitable for many investors. Investors considering such strategies are\nencouraged to become familiar with the \"Characteristics and Risks of Standardized\nOptions\" (an OCC authored white paper on options risks). U.S. investors should consult\nwith a FINRA Registered Options Principal. For detailed information regarding the risks\ninvolved with investing in listed options:\nhttp://Awww.theocc.com/about/publications/character-risks.jsp\n\nBankofAmerica <2”\n\n24 Global Equity Volatility Insights | O09 August 2016 Merrill Lynch\n\nHOUSE_OVERSIGHT_026001",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_026001.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1031,
+    "word_count": 138,
+    "line_count": 24,
+    "import_date": "2025-11-19T21:47:44.111612",
+    "prefix": "IMAGES-008"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013514",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013514.txt",
+  "text": "that are called variational analysis. They involve the natural (or miraculous)\nselection of maxima or minima in quantifiable physical processes. Of all possible\ntwo-dimensional shapes with the same perimeter, the circle contains the greatest\narea; in three dimensions, it’s the sphere. In his Principia, Newton reports his work\ndetermining the optimal shape of round solids, with circles of revolution having the\nsame effective cross section, in order to minimize frictional resistance to gravity in a\nmedium.\n\nThe principle of least action says that imparting energy; say by a kick, to a\nphysical body on a rigid two-dimensional surface like the earth, results in it taking\nthe shortest route possible from its initial to final position. The related 1650 Fermat’s\n“principle of least time” is about light. As Feynman explains in his Lectures in\nPhysics, “...out of all possible paths that light might take from one point another,\nlight takes the path that requires the shortest time.” Feynman, using elementary\nrelations from high school geometry, proved that the /east time principle could lead\ndirectly to Snell’s law of the refraction of light at the interface of two different\nconducting media such as air and water. His analogy was the optimal choice of the\npath to take in order to rescue a pretty girl drowning in the ocean. Whereas the\nshortest distance to the girl leads directly into the water, faster running along the\nbeach to the point that minimizes the distance required for the intrinsically slower\nrate of swimming increases the distance traveled but reduces the time required to\nreach her.\n\nEuler attributed the optimization principle to an expression of the meaning\nand purpose of a loving God. Infused with this spirit, he developed mathematical\nmethods describing smooth variations in position of an object in motion, the Euler\ndifferential equation, in which differential coefficients are varied to prove the\nprinciple of least action for mechanical motion. He gave the law Maupertuis’s name.\nMach quoted Euler’s conclusion, “As the construction of the universe is the most\nperfect possible, being the handiwork of an all-wise Maker, nothing can be met with\nin the world in which some maximal or minimal property is not displayed.” Such faith\nbased mathematical formalisms were rejected by Joseph Lagrange, an early 19\"\n\nCentury mathematician, who, among many other things, proved that every natural\n\nHOUSE_OVERSIGHT_013514",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013514.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2446,
+    "word_count": 386,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:47.146755",
+    "prefix": "IMAGES-002"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013070",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013070.txt",
+  "text": "154 8 Cognitive Synergy\n\n'\n\nRepresentation-Building\n\n\\\n\n}\n\n| Random Sampling |\n; + I\n\\ |\n\n\\\n\n\\ |\nScorins\n\n; &\n\nOptimization\n\n!\n\nFig. 8.4: High-Level Control Flow of MOSES Algorithm\n\nFor example, suppose an CogPrime -controlled robot is trying to learn to play the game\nof “tag.\" (Le. a multi-agent game in which one agent is specially labeled \"it\", and runs after\nthe other player agents, trying to touch them. Once another agent is touched, it becomes the\nnew \"it\" and the previous \"it\" becomes just another player agent.) Then its context C is that\nothers are trying to play a game they call “tag” with it; and we may assume its goals are to\nplease them and itself, and that it has figured out that in order to achieve this goal it should\nlearn some procedure to follow when interacting with others who have said they are playing\n“tag.” In this case a potential tag-playing procedure might contain nodes for physical actions\nlike step forward(speed s), as well as control flow nodes containing operators like ifelse\n(for instance, there would probably be a conditional telling the robot to do something different\ndepending on whether someone seems to be chasing it). Each of these program tree nodes would\nhave an appropriate knob assigned to it. And the scoring function would evaluate a procedure\nP in terms of how successfully the robot played tag when controlling its behaviors according to\nP (noting that it may also be using other control procedures concurrently with P). It’s worth\nnoting here that evaluating the scoring function in this case involves some inference already,\nbecause in order to tell if it is playing tag successfully, in a real-world context, it must watch\nand understand the behavior of the other players.\n\nMOSES follows the high-level control flow depicted in Figure 8.4, which corresponds to the\nfollowing process for evolving a metapopulation of “demes“ of programs (each deme being a set\nof relatively similar programs, forming a sort of island in program space):\n\n1. Construct an initial set of knobs based on some prior (e.g., based on an empty program;\nor more interestingly, using prior knowledge supplied by PLN inference based on the\nsystem’s memory) and use it to generate an initial random sampling of programs. Add this\ndeme to the metapopulation.\n\n2. Select a deme from the metapopulation and update its sample, as follows:\n\nHOUSE_OVERSIGHT_013070",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013070.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2390,
+    "word_count": 402,
+    "line_count": 57,
+    "import_date": "2025-11-19T21:47:47.090012",
+    "prefix": "IMAGES-002"
+  }
+}

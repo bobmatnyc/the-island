@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015892",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015892.txt",
+  "text": "202 Are the Androids Dreaming Yet?\n\nni NUNGSEKGA\n\nKénigsberg Bridges\n\nGédel\n\nGédel studied mathematics at Konigsberg University, Hilbert’s\nhometown. Kénigsberg is famous for having a mathematical problem\nrelated to the seven bridges that link the city together. It’s quite fun to try\nto solve. Find a route across the city that crosses each bridge once and\nonce only. You can start anywhere, but no walking halfway over a bridge\nand no swimming!\n\nEuler discovered a rigorous mathematical proof that there can\nbe no solution in 1735 after five hundred years of failure by other\nmathematicians. The answer is you cannot.\n\nIn 1931 Kurt Gédel, then working at the University of Vienna, proved\nmathematics is like our sporting analogy. There are true statements in\nmathematics that cannot be proven by the rules of the system. Someone\noutside the system, with common sense, can see a statement is true, but\nit’s impossible to prove this if you constrain yourself inside the system. It\nis the equivalent of all the members of the London Marathon Committee\nwondering what to do about the race while all of us watching the TV are\nshouting, “It’s a draw!” Looking at the rulebook ‘really hard’ doesn't help.\n\nHOUSE_OVERSIGHT_015892",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015892.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1222,
+    "word_count": 201,
+    "line_count": 29,
+    "import_date": "2025-11-19T21:47:47.293193",
+    "prefix": "IMAGES-003"
+  }
+}

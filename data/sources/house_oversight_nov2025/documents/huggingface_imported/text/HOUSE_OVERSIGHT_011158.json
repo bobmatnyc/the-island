@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011158",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011158.txt",
+  "text": "e(l)\n\nFigure 3: Why the MRS in fitness equals that in preferences at evolutionary equilibrium\nFitness and utility each depend on consumption of commodities «‘!) and «?) If the MRS in fitness\ndid not equal that in preferences, then the isograms of the fitness function F would cross those of\nthe utility function U, as shown in the figure. There would then exist consumption bundles, X and\nY, such that X is preferred to Y although Y confers the higher fitness. This preference ordering\ncannot be evolutionarily stable because a mutation that reversed the preference between X and Y\nwould be favored by selection.\n\nHOUSE_OVERSIGHT_011158",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011158.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 636,
+    "word_count": 105,
+    "line_count": 11,
+    "import_date": "2025-11-19T21:47:45.537872",
+    "prefix": "IMAGES-001"
+  }
+}

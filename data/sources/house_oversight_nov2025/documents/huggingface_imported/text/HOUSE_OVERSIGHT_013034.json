@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013034",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013034.txt",
+  "text": "6 A Brief Overview of CogPrime\n\nMind Agents Mind Agents\n\n118\n\nA * 4\noI \"AtorTi nT\n= —_\ne\n\nMind Agents Mind Agents\n\nFig. 6.3: MindAgents and AtomSpace in OpenCog. This is a conceptual depiction of\none way cognitive processes may interact in OpenCog — they may be wrapped in MindAgent\nobjects, which interact via cooperatively acting on the AtomSpace.\n\nHOUSE_OVERSIGHT_013034",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013034.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 373,
+    "word_count": 62,
+    "line_count": 18,
+    "import_date": "2025-11-19T21:47:45.158621",
+    "prefix": "IMAGES-002"
+  }
+}

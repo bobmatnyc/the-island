@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00030308.pdf",
+  "ocr_date": "2025-11-16T22:06:57.024250",
+  "text_length": 1130,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "office@visualevidence.erg"
+  ]
+}

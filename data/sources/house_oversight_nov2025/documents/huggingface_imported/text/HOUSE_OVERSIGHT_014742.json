@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014742",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014742.txt",
+  "text": "The nuts and bolts of LILI\n\nWe used the OECD database of monthly economic indicators to look for non-financial\nvariables that could anticipate the CLI. We use small and simple forecasting regressions,\nas they sometimes adjust more quickly to structural changes than large regressions or\nregressions based on large data sets. And, we already have a big-data leading indicator,\npublished in our Year Ahead a year ago. We looked only at models with two independent\nvariables (and their lags) and with variables of the same “type” (production variables, or\nemployment variables, or confidence indicators). Further research can be done to use\nmodels that mix variables, although those models are more difficult to interpret.\n\nWe used two criteria to select between models. One was Granger-causality tests, which\namount to joint tests that the lags of the independent variables are statistically\ndifferent from zero in our dynamic regressions. The other was the Bayesian Information\nCriteria (BIC), a measure that looks at the fit of the regression (the r-squared) but that\npenalizes large models. We found that production measures and confidence indicators\nusually performed better in our training sample (1980 to 2014), although confidence\nmeasures usually had a larger lead. The model that used has a lead of four months and\nuses up to four lags of the standardized consumer confidence indicator (CCI) and of the\nstandardized business confidence indicator (BCI) calculated by the OECD. Many models\nshowed similar performance, which indicates that a combination strategy could be\nfruitful, although we did not take that route. No out-of-sample tests were performed.\n\nWe like LILI because it can anticipate the OECD’s leading indicator without the use of\nfinancial variables. But we also like it because it is easy to interpret as it is based on\nconfidence indicators and because those indicators are not subject to data revision,\nunlike variables such as GDP or payrolls.\n\n12 Global Rates, FX & EM 2017 Year Ahead | 16 November 2016 Bankof America\nMerrill Lynch\n\nHOUSE_OVERSIGHT_014742",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014742.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2081,
+    "word_count": 328,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:47.337161",
+    "prefix": "IMAGES-003"
+  }
+}

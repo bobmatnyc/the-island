@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017042",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_017042.txt",
+  "text": "Figure S3\n\nLanguage Selection\n\np rate et OCR Quality Detection, and Filtering\nDigitized Correction Filtering Correction, by Metadata\nBooks 1 iB and Filtering Fields 1D,\n\n16,24 2B,C\n\ni. Counting\nHistorical N-gram a Cleaned\nli Construction Gre a Source\n\nN-gram ;\nAggregation 3A\nCorpus by Date 3B 3A, Corpus\n\nFig. $3. Outline of n-gram corpus construction. The numbering corresponds to sections of the text.\n\nHOUSE_OVERSIGHT_017042",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_017042.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 428,
+    "word_count": 64,
+    "line_count": 21,
+    "import_date": "2025-11-19T21:47:45.343863",
+    "prefix": "IMAGES-004"
+  }
+}

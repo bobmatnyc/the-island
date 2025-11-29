@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_020957",
+  "filename": "IMAGES-006-HOUSE_OVERSIGHT_020957.txt",
+  "text": "Expense Drivers as Percent of Total Expenses:\n\nEntitlement + One-Time Items Are Crowding Out Other Federal Spending\n\n1965 — 2005 USA Real Federal Expenses Mix by Category\n\nShare of Total Expenses\n40-yr ‘05 vs. 40-yr\n\n1965 2005 Average Variance\nEntitlement Expenses 21% 51% 42% 9%\nDefense 43 20 24 -4\nNon-Defense Discretionary* 29 22 23 -1\nNet Interest Payments 7 7 11 4\nTotal Federal Expenses 100% 100% 100% 0%\nNormal\nNote: All data are inflation adjusted using GDP price index from BEA; ’05 vs. 40-yr variance is rounded. *Non-defense discretionary\nKP spending includes education, infrastructure, agriculture, housing, etc. Data source: White House Office of Management & Budget.\n(@)E) www.kpcb.com USA Inc. | What Might a Turnaround Expert Consider? 231\n\nCategory Expenses as Percent of Expenses:\n\nObservations from Previous Slide\n\nEntitlement spending has risen to 51% of total spending, higher than 40-\nyear average of 42% (and much higher than the 21% in 1965), defense\nspending has fallen to 20% from 24% average, non-defense discretionary\nspending (including education, infrastructure, energy, law enforcement\nand veteran services) has fallen to 22% from 23%, and net interest\npayments have fallen to 7% from 11%, despite higher debt (largely because\nof declining interest rates). These trends have become more pronounced\nin recent years.\n\nQuestions:\n\n1) Should entitlement spending account for 51% (and rising) share of total USA\nInc.’s spending, while other key areas (such as education, infrastructure, energy,\nlaw enforcement...) account for only 22% (and falling) of spending?\n\nNote: All data are inflation adjusted using GDP price index from BEA; ’05 vs. 40-yr variance is rounded.\nKP Data source: White House Office of Management & Budget.\n(@E) www.kpcb.com USA Inc. | What Might a Turnaround Expert Consider? 232\n\nHOUSE_OVERSIGHT_020957",
+  "metadata": {
+    "original_filename": "IMAGES-006-HOUSE_OVERSIGHT_020957.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1851,
+    "word_count": 285,
+    "line_count": 44,
+    "import_date": "2025-11-19T21:47:46.641453",
+    "prefix": "IMAGES-006"
+  }
+}

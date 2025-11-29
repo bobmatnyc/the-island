@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015911",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015911.txt",
+  "text": "The Machine\n\nr uring probably learned of the Entscheidungsproblem in a lecture\ngiven at Cambridge University by Max Newman. Newman\ndescribed a new proof by Gddel showing mathematics was\n\nincomplete. The proof solved the completeness and consistency problems\nby turning mathematical statements into numbers and showing you\ncould generate a logical paradox if you tried to argue for completeness\nand consistency at the same time. Thus, of the three original Hilbert\nproblems, completeness, consistency and decidability, only decidability\nremained unanswered.\n\nTuring spent all of 1935 and much of 1936 thinking about\nthis question: Is mathematics intuitive, or could a machine decide\nmathematical questions automatically? Eventually, cycling through\nthe Cambridge countryside one day, he stopped to rest in a field near\nGrantchester and in a flash of inspiration envisioned his mathematical\nmachine. The machine was entirely imaginary but made as if from\nmechanical parts common in the 1930s.\n\nThe idea was to reduce the process of computing with pen and paper\nto its most basic level. Turing hit upon the idea of using a long ribbon of\npaper tape similar to the ones used in telegraph machines. A paper tape\nis simpler than rectangular paper as it can be handled mathematically as\na single sequence of numbers — we don't have to worry about turning the\npage or working in two dimensions. If you are worried that a tape is less\npowerful than a sheet of paper remember Cantor’s theorem: an infinite\nplane is the same as an infinite line. The use of a tape massively simplified\nthe mathematics, and subsequently many early computers used tapes, as\nthey were easy to handle in practice as well as in theory.\n\nHOUSE_OVERSIGHT_015911",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015911.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1726,
+    "word_count": 279,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:46.093962",
+    "prefix": "IMAGES-003"
+  }
+}

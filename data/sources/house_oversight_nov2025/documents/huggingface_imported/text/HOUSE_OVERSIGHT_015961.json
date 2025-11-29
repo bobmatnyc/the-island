@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015961",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015961.txt",
+  "text": "Software 271\n\nA common and costly mistake is to put off thinking about a class of\nthings you are going to need in the next release because of time pressure.\n‘Time out, that’s for the next release’ and similar statements spell disaster\nfor the future of a project as when you come to the next release, you may\nhave to rewrite much of it from scratch. This is why good architects are\nso valuable. They anticipate the future even when they are told to ignore\nit and ship now!\n\nJust as there are artistic geniuses, there are programming geniuses.\nHold onto them if you get one. They are rare. We don’t know if they\ncan be made or they are lucky accidents, but statistics shows that some\npeople are 1000 times more productive at writing code than the average.\nIf you can find lots of them and make them work together you will build\nthe next Google or Facebook. If you have a tight deadline, a super-\nprogrammer may get you out of a hole, producing in a week what might\notherwise take a year. Remember your great programmers will most\nprolific if you can get process and distraction out of their way. Just make\nsure they have a clear idea of purpose.\n\nLaws\nA programmer interrupted eight times a day does no work.\nA creative person interrupted eight times a day does no work.\nProgramming is a creative endeavor.\nThere are creative geniuses. Hold onto them.\n\nBugs save us from collapsing space-time when we are lazy and try\nto use mechanical means rather than creative thought to write software.\n\nHOUSE_OVERSIGHT_015961",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015961.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1512,
+    "word_count": 271,
+    "line_count": 31,
+    "import_date": "2025-11-19T21:47:44.029883",
+    "prefix": "IMAGES-003"
+  }
+}

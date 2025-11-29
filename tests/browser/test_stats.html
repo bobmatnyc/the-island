@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stats Test</title>
+</head>
+<body>
+    <h1>Stats Test</h1>
+    <div id="stat-entities">Loading...</div>
+    <div id="stat-connections">Loading...</div>
+    <div id="stat-documents">Loading...</div>
+    
+    <script>
+        const API_BASE = 'http://localhost:8081/api';
+        
+        async function loadStats() {
+            console.log('Starting loadStats...');
+            try {
+                const response = await fetch(`${API_BASE}/stats`, {
+                    credentials: 'include'
+                });
+                console.log('Response:', response.status);
+                const data = await response.json();
+                console.log('Data:', data);
+                
+                document.getElementById('stat-entities').textContent = data.total_entities.toLocaleString();
+                document.getElementById('stat-connections').textContent = data.total_connections.toLocaleString();
+                document.getElementById('stat-documents').textContent = data.total_documents.toLocaleString();
+                
+                console.log('Stats loaded successfully!');
+            } catch (error) {
+                console.error('Failed to load stats:', error);
+            }
+        }
+        
+        loadStats();
+    </script>
+</body>
+</html>

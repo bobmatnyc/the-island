@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015796",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015796.txt",
+  "text": "106 Are the Androids Dreaming Yet?\n\nat\n\n. yy\nResponse ws Response ye\ntoFaces | toHouses sug\n\nsecond later, and so on down to your feet. What you see at any one time\nis a slice through a specific section of the body. You can then build up 3D\nimages from these slices and look at the soft watery tissue rather than the\nhard bone you can see with an X-ray.\n\nMRI scans give detailed images but today there are many more\nimaging tricks you can play. Give the patient gadolinium to eat — a type\nof paramagnetic material — and this contrast agent will highlight active\nparts of the brain. You can ‘see’ which parts are active: the location of\nemotions such as love, joy and even the effect of smells as the brain\nexperiences things. This is still coarse grained information; it shows only\nthe general area of excitation and it does not tell us what is going on at\nthe nerve level, but the images are fascinating.\n\nAnother recent development in imaging is the diffusion MRI. If you\nremember your school physics, molecules travel with a random walk:\nthey diffuse along pathways just as people wander along a corridor. If the\ncorridor is full of people, they are jostled around and make little progress.\nIf the corridor is empty, they move in straight lines. This difference in\njostling affects the reading in an MRI and allows you to color code the\nimage according to the rate of motion of water along the pathways. You\ncan therefore ‘see’ the rate at which signals flow in the brain and not only\nlocate thoughts, but also see the links between them.\n\nHOUSE_OVERSIGHT_015796",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015796.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1565,
+    "word_count": 282,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:44.813518",
+    "prefix": "IMAGES-003"
+  }
+}

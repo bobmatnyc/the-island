@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015943",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015943.txt",
+  "text": "Software 253\n\nmathematician, he managed to prove this conjecture and so, two years\nafter first announcing that he had solved Fermat's Last Theorem he could\nfinally lay it to rest.\n\nThe Special Purpose Objection\n\nBefore I declare mankind’s outright victory over computers, the Special\nPurpose Objection must be overcome. The objectors would argue that\nWiles is a Special Purpose computer. Special Purpose computers are at\nno risk of breaking the Turing limit when they solve problems they have\n\nTheorem (Undecidability of Hilbert’s tenth problem)\n\nThere is no algorithm which, for a given arbitrary Diophantine\nequation, would tell whether the equation has a solution or not.\n\nbeen programmed to answer. The objection misses the key point. I am\nnot arguing having a solution to a given mathematical puzzle presents a\ndifficulty to a computer; I am arguing a computer cannot discover one.\n\nTake, for example, the search engine Google. If I type “where can\nI find the proof of Fermat’s Last Theorem?” into the search box, it will\nretrieve a PDF of the proof as the third result. It appears this special\npurpose computer solved the problem. But you immediately see the\ndifficulty. Google search already knew the answer, or more precisely had\nindexed the answer. The computer was not tackling a random problem\nfrom scratch. It was tackling a problem for which it knew the answer, or\nat least where an answer could be found. There is no sense in which the\nsearch engine discovered the proof.\n\nTo really understand this objection we need to examine exactly\nwhat Turing and Matiyasevich proved.\n\nAn arbitrary problem is one you do not already know the solution\nto when you write the algorithm. You can think of it as a variable. Is\nthere an algorithm that can solve problem ‘X’? The alternative is a special\nprogram. It can solve problem Y. Y is a problem it knows. It must have\nthe solution coded somewhere within it in a computably expandable way.\nYou might think of this as a table of constants; problem Y has solution\n1, problem Z has solution 2, and so on. But it could be more subtle than\nthat. Problem Y might have a solution which is encrypted so you cannot\nrecognize it within the program, or it might even be the result of some\n\nHOUSE_OVERSIGHT_015943",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015943.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2253,
+    "word_count": 386,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:48.387422",
+    "prefix": "IMAGES-003"
+  }
+}

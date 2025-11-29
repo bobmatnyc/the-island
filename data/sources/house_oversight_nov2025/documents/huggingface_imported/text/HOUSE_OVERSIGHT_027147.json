@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027147",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027147.txt",
+  "text": "Is Invitation: No\n\nGUID: 3B66EC21-l1A0F-4985-8038-E66842A8C647\n\nMessage: Yes\n\nHOUSE_OVERSIGHT_027147",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027147.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 100,
+    "word_count": 8,
+    "line_count": 7,
+    "import_date": "2025-11-19T21:47:44.283035",
+    "prefix": "IMAGES-009"
+  }
+}

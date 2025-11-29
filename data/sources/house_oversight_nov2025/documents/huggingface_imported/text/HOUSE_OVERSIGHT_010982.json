@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010982",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010982.txt",
+  "text": "The expected future flow we discount to present value, allowing for transfers too, is\nexhaust plus transfer out less transfer in. This net difference is called cash flow. That\n\nis,\n\ncash flow = exhaust + transfer out - transfer in. (3.2)\n\nThat’s the logic behind the present value rule interpreting capital as discounted cash\n\nflow.\n\nHuman cash flow may not be defined in those words anywhere but in this book. But\nthe flow discounted to find human capital is understood everywhere, | think, as pay\nless what Schultz called pure investment and | call invested consumption. |\ndefended this idea in my analogy between human capital and the firm. Thus |\nendorse the tradition that human capital is pay less invested consumption\n\ndiscounted to present value. That is,\n\nhuman cash flow = pay - invested consumption.\nIt turns out that this is not logical certitude, or an inference from axioms already\ngiven, and so it is not strictly part of the foundations. | will defend it in later\nchapters.\nThe great convenience of the present value rule and its application to human capital\nis that it allows the factors to be added as a dollar sum. That helps in understanding\n\nthe total return rule.\n\nThat rule begins with the truism that growth of anything is internal creation plus\n\nflow passed in less flow passed out. That shows as\n\ngrowth = creation + flow passed out - flow passed in. (3.3)\n\nChapter 3: Foundations 1/11/16 11\n\nHOUSE_OVERSIGHT_010982",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010982.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1441,
+    "word_count": 246,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:49.111700",
+    "prefix": "IMAGES-001"
+  }
+}

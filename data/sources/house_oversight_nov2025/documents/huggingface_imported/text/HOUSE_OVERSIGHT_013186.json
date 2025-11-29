@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013186",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013186.txt",
+  "text": "270 13 Local, Global and Glocal Knowledge Representation\n\nThe activation of the key will generally cause the activation of the map, and the activation o\na significant percentage of the map will cause the activation of the rest of the map, including the\nkey. Furthermore, if the key were for some reason forgotten, then after a significant amount o\neffort, the system would likely to be able to reconstitute it (perhaps with various small changes)\nfrom the information in the map. We conjecture that this particular kind of glocal memory wil\nturn out to be very powerful for AGI, due to its ability to combine the strengths of forma\nlogical inference with those of self-organizing attractor neural networks.\n\nAs a simple example, consider the representation of a “tower”, in the context of an artificia\nagent that has built towers of blocks, and seen pictures of many other kinds of towers, and seen\nsome tall building that it knows are somewhat like towers but perhaps not exactly towers. I\nthis agent is reasonably conceptually advanced (say, at Piagetan the concrete operational level)\nthen its mind will contain some declarative relationships partially characterizing the concept o\n“tower,” as well as its sensory and episodic examples, and its procedural knowledge about how\nto build towers.\n\nThe key of the “tower” concept in the agent’s mind may consist of internal images and\nepisodes regarding the towers it knows best, the essential operations it knows are useful for\nbuilding towers (piling blocks atop blocks atop blocks...), and the core declarative relations\nsummarizing “towerness” — and the whole “tower” map then consists of a much larger number\nof images, episodes, procedures and declarative relationships connected to “tower” and other\nrelated entities. If any portion of the map is removed — even if the key is removed — then the\nrest of the map can be approximately reconstituted, after some work. Some cognitive operations\nare best done on the localized representation — e.g. logical reasoning. Other operations, such as\nattention allocation and guidance of inference control, are best done using the globalized map\nrepresentation.\n\nHOUSE_OVERSIGHT_013186",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013186.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2177,
+    "word_count": 348,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:44.184146",
+    "prefix": "IMAGES-002"
+  }
+}

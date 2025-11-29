@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_023716",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_023716.txt",
+  "text": "CNN\n\nQuest: Do you\nbelieve that\nthere’s a shift in\nperspective in this,\nthis dinner shifted\nthings?\n\nRLK: I believe\nthere has been a\nshift; I wouldn't\ntell you the dinner\ndid it, but over\ntime, there is\nrecognition that\nthis time is\ndifferent.\n\nQuest: Thank you,\nsir. Next time,\nwhen it’s different,\nyou'll come back\nand tell us.\n\nRLK: Absolutely.\nQuest: Okay, good.\n\nGood to see you;\nthank you.\n\n-\n\n.\nU.S. AND CHINA AGREE TO PAUSE TRADE WAR {aa\n\n@questCNN\n\n10\n\nHOUSE_OVERSIGHT_023716",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_023716.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 484,
+    "word_count": 84,
+    "line_count": 41,
+    "import_date": "2025-11-19T21:47:45.188575",
+    "prefix": "IMAGES-007"
+  }
+}

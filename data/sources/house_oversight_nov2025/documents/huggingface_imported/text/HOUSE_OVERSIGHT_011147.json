@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011147",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011147.txt",
+  "text": "considered in both ex ante and ex post versions. The subscripts xa and xp will show\n\nwhich.\n\nEx ante net investment can be notated I(K,)__ and defined as identical to thrift flow\n—df(K,) or —Af(K,,). Its rate is the same as thrift rate -df or —Af . Ex post net\n\ninvestment is actual growth K, or AK, /At asa flow, and g or AK, /(K,At) asa\n\nrate. Free growth theory, supported by data wherever tested, predicts that thrift or\nex ante net investment at the collective scale sacrifices cash flow (pure\nconsumption) with no growth to compensate. My interpretation is that the optimum\ncollective ex ante net investment rate is zero, or equivalently that optimum\ninvestment is current cost depreciation plowback from both factors. Then optimum\n\nex ante net investment becomes\n\nI(K,).,,optimum=0, at the collective scale. (A9.3)\n\n(Net) output Y at that scale is total capital growth (net investment of both factors)\nplus pure consumption. Here too we can distinguish ex ante output as pure\nconsumption plus ex ante investment, while ex post output is pure consumption plus\n\nex post net investment. (9.3) gives\n\nY optimum = C, , atthe collective scale, (A9.4)\n\nwhere Y_, is ex ante output.\n\nSince (gross) investment equals net investment plus makeup for decaptalization,\n\nwhile decapitalization equals pure consumption C, collectively by (A1.4a), we can\n\nshow [(K,,)_. optimum = C, as an alternate statement of (A9.4).\n\nAPPENDIX A: The Argument in Notation 3/7/16 21\n\nHOUSE_OVERSIGHT_011147",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011147.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1482,
+    "word_count": 240,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:46.836226",
+    "prefix": "IMAGES-001"
+  }
+}

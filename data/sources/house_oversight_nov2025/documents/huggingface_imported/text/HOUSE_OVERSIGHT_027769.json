@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027769",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027769.txt",
+  "text": "Is Read: No\n\nIs Invitation: No\n\nGUID: 498E1321-48B0-4C66-AC2D-9EC913D9F52A\n\nMessage: Call now\n\nTime: 06/13/19 01:57:08 PM (582152228)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: SBD/7C2D7-8413-4840-92CA-FBEBIAF92022\n\nMessage: Can I get name and cell phone\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/13/19 02:35:01 PM (582154501)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 05966503-5D13-4B16-846D-DEB6AB1A30BC\n\nMessage: He wanted to be careful as he doesn't want your contact known\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/13/19 02:35:15 PM (582154515)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 6BD87B81-1138-4AD7/-B642-B107FB065C54\n\nMessage: I'll figure it out\n\nTime: 06/13/19 02:35:17 PM (582154517)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: BBC14E60-0099-41BB-9D51-8BCA7C239697\n\nMessage: Smart\n\nTime: 06/13/19 02:35:20 PM (582154520)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nHOUSE_OVERSIGHT_027769",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027769.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 951,
+    "word_count": 117,
+    "line_count": 63,
+    "import_date": "2025-11-19T21:47:44.398802",
+    "prefix": "IMAGES-009"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012997",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012997.txt",
+  "text": "4.5 Globalist versus Localist Representations 81\n\ngorization of visual memory contents takes place by retrieving object and scene categories from\nDUAL’s semantic memory and mapping them onto current visual memory representations.\n\nDUAL coalihon\n\nDUAL Semantic Memory / f\n\ntworecHumin text\n\n== i,\n\ntitle ~~ feft column right cole —\n\n1 he .\n» *\n”\n\nFig. 4.10: The three main components of the DUAL model: the retinotopic visual array (RVA),\nthe visual working memory (VWM) and DUAL’s semantic memory. Attention is allocated to\nan area of the visual array by the object in VWM controlling attention, while scene and object\ncategories corresponding to the contents of VWM are retrieved from the semantic memory.\n\nIn principle the DUAL framework seems quite powerful; using the language of CogPrime,\nhowever, it seems to us that the learning mechanisms of DUAL have not been formulated in\nsuch a way as to give rise to powerful, scalable cognitive synergy. It would likely be possible\nto create very powerful AGI systems within DUAL, and perhaps some very CogPrime -like\nsystems as well. But the systems that have been created or designed for use within DUAL so\nfar seem not to be that powerful in their potential or scope.\n\n4.5.4 4D/RCS\n\nIn a rather different direction, James Albus, while at the National Bureau of Standards, de-\nveloped a very thorough and impressive architecture for intelligent robotics called 4D/RCS,\nwhich was implemented in a number of machines including unmanned automated vehicles. This\narchitecture lacks critical aspects of intelligence such as learning and creativity, but combines\nperception, action, planning and world-modeling in a highly effective and tightly-integrated\nfashion.\n\nThe architecture has three hierarchies of memory/processing units: one for perception, one\nfor action and one for modeling and guidance. Each unit has a certain spatiotemporal scope,\n\nHOUSE_OVERSIGHT_012997",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012997.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1915,
+    "word_count": 297,
+    "line_count": 44,
+    "import_date": "2025-11-19T21:47:45.966468",
+    "prefix": "IMAGES-002"
+  }
+}

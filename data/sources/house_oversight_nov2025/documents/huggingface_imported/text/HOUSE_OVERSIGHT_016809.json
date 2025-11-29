@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016809",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016809.txt",
+  "text": "Table of Contents\n\nAcknowledgments\n\nIntroduction: On the Promise and Peril of AI\nby John Brockman\n\nSeth Lloyd: Wrong, but More Relevant Than Ever\nIt is exactly in the extension of the cybernetic idea to human beings that Wiener’s\nconceptions missed their target.\n\nJudea Pearl: The Limitations of Opaque Learning Machines\n\nDeep learning has its own dynamics, it does its own repair and its own optimization, and\nit gives you the right results most of the time. But when it doesn’t, you don’t have a clue\nabout what went wrong and what should be fixed.\n\nStuart Russell: The Purpose Put Into the Machine\n\nWe may face the prospect of superintelligent machines—their actions by definition\nunpredictable by us and their imperfectly specified objectives conflicting with our own—\nwhose motivation to preserve their existence in order to achieve those objectives may be\ninsuperable.\n\nGeorge Dyson: The Third Law\n\nAny system simple enough to be understandable will not be complicated enough to\nbehave intelligently, while any system complicated enough to behave intelligently will be\ntoo complicated to understand.\n\nDaniel C. Dennett: What Can We Do?\nWe don’t need artificial conscious agents. We need intelligent tools.\n\nRodney Brooks: The Inhuman Mess Our Machines Have Gotten Us Into\nWe are ina much more complex situation today than Wiener foresaw, and I am worried\nthat it is much more pernicious than even his worst imagined fears.\n\nFrank Wilczek: The Unity of Intelligence\n\nThe advantages of artificial over natural intelligence appear permanent, while the\nadvantages of natural over artificial intelligence, though substantial at present, appear\ntransient.\n\nMax Tegmark: Let’s Aspire to More Than Making Ourselves Obsolete\nWe should analyze what could go wrong with AI to ensure that it goes right.\n\nJaan Tallinn: Dissident Messages\n\nContinued progress in AI can precipitate a change of cosmic proportions—a runaway\nprocess that will likely kill everyone.\n\nHOUSE_OVERSIGHT_016809",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016809.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1978,
+    "word_count": 306,
+    "line_count": 52,
+    "import_date": "2025-11-19T21:47:45.742939",
+    "prefix": "IMAGES-004"
+  }
+}

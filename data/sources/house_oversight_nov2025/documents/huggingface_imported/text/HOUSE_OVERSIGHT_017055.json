@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017055",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_017055.txt",
+  "text": "Figure S16\n\nA 100%\n\n75%\n\nMedian frequency\n(% of peak value)\n8\n\n25%\n\n— _ invented in 1800-1850\n— _ invented in 1850-1900\n1\n\no%\n\n0 25 50 75 100\nYears since invention\n\nGy 1800-1840 Hy: 1880-1920 (ass)\n\nNumber of inventions\n\n6\n5\n4\n3\n2\n1\n0\n1\n\ni)\n800 1850 1900 1950 2000 1800 1850 1900 1950 2000\nYear of peak\n\n800 1850 1900 1950 2000\n\nFig. $16. Controls. (A) We observe over the same timespan (100 years) two cohorts invented at different\ntimes. Again, the more recent cohort reaches 25% of its peak faster. (B) We verify that inventions have\nalready reached their peak. We calculate the peak of each invention, and plot the distribution of these\npeaks as a function of year, grouping them along the same cohorts as used in the text. In each case, the\ndistribution falls within the bounds of the period observed (1800-2000).\n\nHOUSE_OVERSIGHT_017055",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_017055.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 842,
+    "word_count": 152,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:45.654955",
+    "prefix": "IMAGES-004"
+  }
+}

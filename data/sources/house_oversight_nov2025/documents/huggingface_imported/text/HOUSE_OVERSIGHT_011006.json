@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011006",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011006.txt",
+  "text": "implying\n\noutput\nproductivity rate = “os = constant, (4.7a)\ncapital\n\nassuming again that acceleration is nonzero.\n\nThis shows how to find the position of capital in the sequence led by output, and\nhow to test between free growth and thrift theories. The market-valued capital\ndenominator in (4.7) and (4.7a), and the consumption numerator in (4.7), can be\ntaken directly from national accounts data collected at the Piketty-Zucman website.\nThe output numerator in (4.7a) can be constructed as consumption plus current\nchange in market-valued capital. By (4.7), free growth theory (Mill’s idea) predicts a\nroughly constant consumption/capital ratio, even in accelerations and decelerations\nand reversals. Then capital acceleration would lag alongside consumption\nacceleration while output led alone. Thrift theory makes the opposite prediction ofa\nroughly constant output/capital ratio, so that output and capital would lead\ntogether while consumption lagged alone. There is no need to measure and test both\nindexes, as either is defined as one less the other. My charts and tables track the free\n\ngrowth index. They confirm free growth theory in all countries and periods.\n\nDefining Free Growth and Thrift\n\n(4.2) through (4.7a) defined the free growth and thrift indexes, but not free growth\nor thrift themselves as flows. Since I will use those terms often, I’d better clear that\n\nup now. Define\n\nfree acceleration = productivity gain = gaininrateofreturn, and\n\nthrift acceleration = thrift gain = drop in cash flow rate,\n\nso that those sets of terms become interchangeable. Then (4.5a) can be put as\n\nChapter 4 Mill’s Idea 1/11/16 15\n\nHOUSE_OVERSIGHT_011006",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011006.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1659,
+    "word_count": 255,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:45.385853",
+    "prefix": "IMAGES-001"
+  }
+}

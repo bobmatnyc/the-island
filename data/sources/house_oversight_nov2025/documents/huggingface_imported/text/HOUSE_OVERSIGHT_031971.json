@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_031971",
+  "filename": "IMAGES-011-HOUSE_OVERSIGHT_031971.txt",
+  "text": "e708lefb6f6a/source/{w}x{h}{c}.{£}\", \"height\":2160, \"textColor3\":\"dceb86d\", \"textColor2\":\"f\nbbO7b\", \"textColor4\":\"d99c82\",\"hasAlpha\": false, \"textColori\":\"f£fd361\", \"bgColor\":\"524d9c\",\n\"hasP3\":false, \"supportsLayeredImage\": false}, \"contentLogo\"™: {\"width\":2400, \"url\":\"https://\nis3-ssl.mzstatic.com/image/thumb/Features118/v4/8d/91/3c/8d913cae-2576-e711-e0le\n5619da6f£2d99/source/{w}x{h}{c}.{£}\", \"height\":390, \"textColor3\":\"cbhcbcb\", \"textColor2\":\"c4\nc4c4\", \"textColor4\":\"9d9d9d\", \"hasAlpha\":true, \"textColorl\":\"fffffI\", \"bgColor\"™:\"000000\", \"h\nasP3\":false, \"supportsLayeredimage\":false}},\"kind\":\"tvSeason\", \"copyright\":\"A©2018 Warner\nBros. Entertainment Inc. All Rights\n\nReserved.\", \"artistId\":\"1236255052\", \"genres\": [{\"genreId\":\"4001\", \"name\": \"Drama\", \"url\": \"ht\ntps://itunes.apple.com/us/genre/id4001\", \"mediaType™:\"4\"}, {\"genreId™:\"32\", \"name\": \"TV\nShows\", \"url\":\"https://itunes.apple.com/us/genre/id32\", \"mediaType\"™:\"4\"}, {\"genreId™:\"4000\n\",\"name\":\"Comedy\", \"url\":\"https://itunes.apple.com/us/genre/id4000\", \"mediaType\": \"4\"}],\"o\nffers\": [{\"actionText\":{\"short\"™: \"Buy\", \"medium\": \"Buy\", \"long\": \"Buy\n\nSeason\", \"downloaded\": \"Downloaded\", \"downloading\": \"Downloading\"}, \"type\": \"buy\", \"priceForma\ntted™:\"S9.99\", \"price\":9.99, \"buyParams\": \"productType=P\\u0026price=9990\\u0026salableAdamI\nd=1380862406\\u0026pricingParameters=STDQ\\u0026pg=default\"}, {\"actionText\"™: {\"short\"™:\"Buy\"\n, \"medium\": \"Buy\", \"Long\": \"Buy\n\nSeason\", \"downloaded\": \"Downloaded\", \"downloading\": \"Downloading\"}, \"type\": \"buy\", \"priceForma\ntted™:\"S9.99\", \"price\":9.99, \"buyParams\": \"productType=P\\u0026price=9990\\u0026salableAdamI\nd=1380862406\\u0026pricingParameters=HDBUY \\u0026pg=default\", \"variant™:\"HD\"}]}},\"version\"\n:2,\"isAuthenticated\": false, \"meta\": {\"storefront™:{\"id\":\"143441\", \"ce\": \"US\"}, \"Language\": {\"\ntag\":\"en-us\"}}}\n\nHOUSE_OVERSIGHT_031971",
+  "metadata": {
+    "original_filename": "IMAGES-011-HOUSE_OVERSIGHT_031971.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1833,
+    "word_count": 108,
+    "line_count": 27,
+    "import_date": "2025-11-19T21:47:47.481881",
+    "prefix": "IMAGES-011"
+  }
+}

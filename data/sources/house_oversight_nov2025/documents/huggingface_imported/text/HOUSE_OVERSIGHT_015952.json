@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015952",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015952.txt",
+  "text": "262 Are the Androids Dreaming Yet?\n\nWatson and Our Future?\n\ncomputing power and therefore universal knowledge. This could herald\na Utopian future; global warming, cancer, all things of the past. But\ncomputers might just as easily become bored and determine we humans\nare the real problem. If we are lucky, they may treat us as amusing pets.\nIf we are unlucky...\n\nThese consequences might have come to pass if the answer to the\nHalting Problem were ‘yes’ but as the answer is ‘no! This is not the future\nwe face.\n\nMummy, where do Bugs Come From?\nOne consequence of the logic limit provides a theoretical basis for the\norigin of computer bugs. The mention of ‘bug’ conjures up stories of\ndead creepy crawlies stuck in early computer circuits, but the term had\nbeen in use for over 150 years before the computer was even invented.\nBugs are not simply annoying mistakes.If you misspell my name as Stagg\ninstead of Tagg that’s just carelessness. Real flaws creep into a computer\nprogram when you fail to understand Brooks’ essential complexity, or by\nmy terminology, you stray above the logic limit without realizing it.\nImagine we have created a piece of software. The software goes\ninto test and is subjected to a range of use cases. Some of these will fail\nbecause we did not take into account all the real world possibilities.\nThen a strange thing happens. We get trapped in a loop of patching the\nerrors in the program in a rather mechanical way. Find an error, patch\n\nHOUSE_OVERSIGHT_015952",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015952.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1491,
+    "word_count": 258,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:48.737474",
+    "prefix": "IMAGES-003"
+  }
+}

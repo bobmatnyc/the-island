@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016244",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016244.txt",
+  "text": "In the 1980s, Judea Pearl introduced a new approach to artificial intelligence called\nBayesian networks. This probability-based model of machine reasoning enabled\nmachines to function—in a complex and uncertain world—as “evidence engines,’\ncontinuously revising their beliefs in light of new evidence.\n\nWithin a few years, Judea’s Bayesian networks had completely overshadowed the\nprevious rule-based approaches to artificial intelligence. The advent of deep learning—\nin which computers, in effect, teach themselves to be smarter by observing tons of data,\nhas given him pause, because this method lacks transparency.\n\nWhile recognizing the impressive achievements in deep learning by colleagues\nsuch as Michael Jordan and Geoffrey Hinton, he feels uncomfortable with this kind of\nopacity. He set out to understand the theoretical limitations of deep-learning systems\nand points out that basic barriers exist that will prevent them from achieving a human\nkind of intelligence, no matter what we do. Leveraging the computational benefits of\nBayesian networks, Judea realized that the combination of simple graphical models and\ndata could also be used to represent and infer cause-effect relationships. The\nsignificance of this discovery far transcends its roots in artificial intelligence. His latest\nbook explains causal thinking to the general public; you might say it is a primer on how\nto think even though human.\n\nJudea’s principled, mathematical approach to causality is a profound\ncontribution to the realm of ideas. It has already benefited virtually every field of\ninquiry, especially the data-intensive health and social sciences.\n\n3\n\n24\n\nHOUSE_OVERSIGHT_016244",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016244.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1671,
+    "word_count": 244,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:48.600098",
+    "prefix": "IMAGES-003"
+  }
+}

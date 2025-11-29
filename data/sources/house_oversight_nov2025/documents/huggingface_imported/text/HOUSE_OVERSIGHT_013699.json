@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013699",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013699.txt",
+  "text": "affinity). They are called renormalization group equations, and, with respect to\nprediction, they replace any or all of the original specific predictive equations for the\nparticular system under study (Cvitanovic’, 1989). Whereas the U sequence and\ncritical point behaviors are manifestations of qualitative universality, these scaling\nnumbers are manifestations of quantitative universality. We discuss them here\nbecause their omnipresence in computationally realized differential equations as\nwell as physical and chemical experiments along with their quantitative specificity\n(with values in all systems as “constant” as x) constitute a most persuasive\nargument for the substantiality of modern dynamical systems approaches to brain\n\nand other biological research.\n\nThe physical and physiological requirements for manifestations of these\nuniversal bifurcation scenarios can appear to be remarkably minimal. In physics, for\nexample a full panoply can be observed in a “dripping faucet” (Shaw,1984).\nSimilarly, a small piece of extirpated and perfused myenteric or femoral artery will\ndemonstrate these transitions in vasomotion spontaneously and almost\n\nindependent of flow rate (Stergiopulos et al, 1998).\n\nFeigenbaum discovered that in dynamical systems manifesting a series of\n\nperiod doubling bifurcations, the ratio of the parameter value at which the next\n\nperiod doubling bifurcation occurred relative to the last one ~ ... and the ratio\n\nof the magnitude of the spawning point to the one spawned ~ 2.5. (Feigenbaum,\n1979). By “rescaling” distances along a parameter value (see below) using what is\ncalled a “universal renormalization operator” the geometric situation around each\nbifurcation point (though of different absolute “size) remains relatively the same. In\nintermittent systems, burst length varies as the inverse square root of the distance\nof the value of the parameter from that value that elicited the fixed point (Manneville\nand Pomeau, 1980). The universal characteristic of the third common parametric\n\nroute to chaos, quasiperiodicity, is that the ratio of independent frequencies found\n\nmost resistant to mode locking and breakdown into chaos is, “i = 1618... the\n\nOst\n\nnumber to which the ratio of adjacent Fibonocci numbers converge (1, 2, 3, 5, 8, 13,\n\n199\n\nHOUSE_OVERSIGHT_013699",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013699.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2312,
+    "word_count": 336,
+    "line_count": 45,
+    "import_date": "2025-11-19T21:47:47.281822",
+    "prefix": "IMAGES-002"
+  }
+}

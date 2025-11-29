@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015978",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015978.txt",
+  "text": "288 Are the Androids Dreaming Yet?\n\nMost scientists believe communication between humans is classical:\nwords spoken in proximity have no more power than had we carefully\nwritten out what we wanted to say. Body language and tone of voice are\nsimply useful tools to aid the transmission of this information. I’m going\nto explore the ways in which human face-to-face communication might\nexceed this traditional classical model. Let us look first at the bandwidth\nof communication between people.\n\nBandwidth\n\nLet me give you a mental picture for what I mean by bandwidth. Imagine\nIam sitting in a darkened theatre enjoying one of my favorite comedians\nat the Edinburgh Festival — the biggest arts festival in the world. I phone\na friend who is also a fan and let them listen in. Perhaps I even use the\ncamera and surreptitiously point the phone at the comedian. My live\nexperience is digitized, compressed and transmitted over the mobile\nnetwork to my friend. He gets the same experience but at much-reduced\nbandwidth.\n\nMy friend has a similar but qualitatively different experience to\nmine. He cannot hear the degrees of loud and soft I hear, nor the full\nrange of high and low frequencies forming the timbre of the comedian’s\nvoice; no sense of the smell of old armchairs or the heat of the audience\naround me. He is spared the strange stickiness my shoes meet on the\nfloor of the auditorium and the occasional slosh of beer that hits me\nfroma slightly inebriated neighbor. For the person at the other end of the\nphone, their view is of a tiny two-dimensional screen about 4 by 3 inches\nsquare. Of course, they can enlarge the picture, but then the pixilation\ndominates and it looks like an impressionist picture viewed close up. He\nhas nothing like the same intensity of experience. Loss of bandwidth is\nsomething we can study mathematically and the reduction is enormous.\n\nVideo and Audio\n\nThe image of the comedy show is digitized by the camera and\nmicrophone; the video at 384,000 bits per second and the audio at 64,000\nbps. Mathematical compression will be applied and the video will shrink\nto 30,000 while the audio drops down to 4,700. After compression, the\nwhole experience amounts to around 40,000 bits per second. To put it in\nsome perspective, a DVD would be 11.5 million bits per second, nearly\n300 times the bandwidth.\n\nHOUSE_OVERSIGHT_015978",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015978.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2355,
+    "word_count": 401,
+    "line_count": 45,
+    "import_date": "2025-11-19T21:47:49.365330",
+    "prefix": "IMAGES-003"
+  }
+}

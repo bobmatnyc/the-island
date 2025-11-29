@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013691",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013691.txt",
+  "text": "as importantly, far apart initial values could be found close together in the limit set.\nThis behavior was called “sensitivity to initial conditions” by David Ruelle (1978;\nRuelle and Takens, 19771). It is noteworthy, however, that over a range of values of\nthe parameters, the overall pattern of the orbits of the Lorenz attractor results in\ncharacteristic geometric pictures as well as invariant statistical descriptors.\nQualitative and quantitative global similarities were gained while specific solutions\nwere lost in these “strange attractors” of nonlinear systems. Analog computer\nsimulation of a simpler set of equations inspired by nonlinear chemical reaction\nkinetics led to the discovery by Rdéssler (1976) of another early and generic strange\nattractor combining sensitivity to initial conditions and characteristic geometries and\n\nmeasures.\n\nIt was the Russian mathematicians, A.N. Kolmogorov (1957), Sinai (1959)\nand V.I. Arnold (Arnold and Avez, 1968), the French mathematicians, Rene Thom\n(1972) and David Ruelle (1978) and the U.C. Berkeley mathematicians, Steve\nSmale (1967) and his student, Rufus Bowen (1975), and their associates who\ngathered together these and other related computational discoveries and embedded\nthem in a qualitative theory of nonlinear differential equations, using a variety of\nformalisms, including point set and differential topology, geometry, analysis and\nergodic (having an invariant statistical description) measure theory that formally\nestablished the fundamentals for research in nonlinear dynamical systems. Here a\ndynamical system refers generally and simply to the components and nonlinear\nprocesses (transformations) that move points (values) in discrete (“map”) or\ncontinuous (“differential equation”) time around in an appropriately defined space.\nThe phrase, “nonlinear transformation” in this context does not imply easily solvable\ncurved functions, such as those representing the sigmoid kinetic or threshold\nfunctions of enzymes and neuronal networks or those that smoothly log transform\nthe amplitudes of auditory or other sensory modalities in man, but rather allude to\n\nexpressions containing products, powers and functions of the computational and/or\n\nexperimental variables x,, such as x,x,, (x,)° Orsin(x) .\n\n191\n\nHOUSE_OVERSIGHT_013691",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013691.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2302,
+    "word_count": 323,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:46.060914",
+    "prefix": "IMAGES-002"
+  }
+}

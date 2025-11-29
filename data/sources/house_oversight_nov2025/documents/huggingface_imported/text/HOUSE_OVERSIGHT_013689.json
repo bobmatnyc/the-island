@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013689",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013689.txt",
+  "text": "unanticipated results of analog and digital computer experiments were responsible\nfor most if not all of the discoveries underlying the current era’s revolution in applied\n\nnonlinear mathematics\n\nModern Applied Dynamical Systems Emerged from Accidental\nComputational Discoveries\n\nA medical student named Herr, in his thesis research with the “radio\nengineer’, Van der Pol (1926), was simulating cardiac electrophysiology with an\nanalog device which permitted real time, exploration of a full range of parameter\nvalues long before there were fast enough digital processors to do so. Studying the\nbehavior of equations of a periodically, pace maker, driven, nonlinear triode\noscillator, Herr found orbital points that appeared to belong to two different periods\nsimultaneously thus violating the uniqueness of solutions of differential equation\ntheory. The Van der Pol relaxation oscillator equations, with their slow buildup and\nsudden discharge of membrane potential are good models for the slow-fast\nprocesses of repolarization and depolarization of Hodgkin-Huxley type equations\n(Rinzel, 1985). Periodically driven, nonlinear differential equations of the Van der\nPol type are generally applicable to the multiplicity of dynamical regimes of neuronal\ndynamics (Carpenter, 1979; Aihara et al, 1984; Chay and Rinzel, 1985) and, with\nperiodic and aperiodic driving and noise, can be made relevant to particular\nmammalian neuronal subsystems in the context of clinically relevant global\nelectrophysiological phenomena such as Magoun’s (1954) brain stem evoked EEG\nand behavioral arousal (Nicolis, 1986; Selz and Mandell, 1992; Mandell and Selz,\n1993).\n\nIn the early 1940’s, using the pre-publication results of similar analog\ncomputer studies (Levinson, 1949), the Cambridge mathematicians, Mary\nCartwright and Joe Littlewood (1945; McMurran, S., Tattersal, J.,1999) used\ngeometric methods to prove that the highly nonlinear, periodically driven Van der\nPol equations, depending upon one or two changing parameters, generated fixed\npoint (“homeostatic”), periodic (“cyclic”), subharmonic (“period doubling”),\n\nquasiperiodic (“multiply periodic”), intermittent (“bursting”) and “deterministically\n\n189\n\nHOUSE_OVERSIGHT_013689",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013689.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2222,
+    "word_count": 303,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:47.084322",
+    "prefix": "IMAGES-002"
+  }
+}

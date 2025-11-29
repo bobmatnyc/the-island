@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013690",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013690.txt",
+  "text": "random” patterns. We now know such phenomena to be universal characteristics of\nbifurcation scenarios in nonlinear dynamical systems where bifurcation means\ndiscontinuous changes in patterns of behavior (dependent variables) resulting from\nsmooth changes in parameters (independent variables). Alerted to their presence in\ncomputer experiments with biologically relevant nonlinear differential equations,\nthese phenomena have since been found in time series from patch clamped\nmembrane channels, single neurons, neuronal networks, neuroendocrine systems,\nbrain waves and patterns of behavior in animals and man (see below). Cartwright-\nLittlewood found that the inner and outer edges of the domains of attraction (all the\ninitial values that eventually wind up in the attractor—the limit set of all bounded\nsolutions) of two different sets of subharmonic periods for the same parameter\nsettings were interlaced at many scales in what is today called a fractal basin\nboundary. It was in this way that the specific values of the end state are understood\nto be indeterminate since the starting values in the fractal basin boundary are\n\nimpossible to isolate and specify with adequate experimental precision.\n\nSimilar biologically-relevant analog computer discoveries about the Van der\nPol and comparable periodically forced, dissipative (energy utilizing) Duffing\nequations (Zeeman, 1976) were made in the early 1960’s by electrical engineer,\nYoshi Ueda (1992), but his thesis director, Chihiro Hayashi of Japan’s Kyoto\nUniversity, was sufficiently disturbed by this evidence for the existence of bounded\nsolutions (attractors) that were neither fixed points (equilibria) nor periodic orbits\n(cycles), the only ones known at the time and therefore “strange,” that he refused to\nlet Ueda publish his findings until he did so as an independent investigator in the\n1970's.\n\nIn the early 1960’s, Edward Lorenz (1963), a meteorologist and student of\nthe Harvard mathematician and dynamical systems pioneer, George Birkoff (1922),\nwas computing the output of a very reduced subset of Saltzman’s differential\nequations for predicting the weather (1962). Lorenz found that numerically\nintegrated trajectories manifested unpredictable times and directions of motion\nbetween the two spiral orbits of what has come to be known as the Lorenz attractor.\n\nVery small differences in starting values led to widely diverse final values, and, just\n\n190\n\nHOUSE_OVERSIGHT_013690",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013690.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2455,
+    "word_count": 357,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:45.904148",
+    "prefix": "IMAGES-002"
+  }
+}

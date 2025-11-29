@@ -1,0 +1,16 @@
+Invoice Number: 7-153-78512
+es , Invoice Date: Dec 12, 2002
+> 4 & Account Number: 1144-2081-6
+Page: 3 0f5
+FedEx Express Shipment Summary by Payment Type
+Original
+Shipper
+Number of Shipments 1
+Duties, Tax, Customs, Other Fees 64.41
+TOTAL usD$ 64.41
+Number of Shipments 1
+Total Charges USD $ 64.41
+TOTAL SHIPMENTS 1
+TOTAL CHARGES USD $ 64.41
+SDNY_GM_00342910 107
+DOJ-OGR-00015416

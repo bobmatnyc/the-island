@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-11-21T04:46:49.791Z",
+  "environment": {
+    "frontendUrl": "http://localhost:5173",
+    "backendUrl": "http://localhost:8081"
+  },
+  "tests": {
+    "entities-pagination": "See 01-* screenshots and logs",
+    "flights-map": "See 02-* screenshots and logs",
+    "document-viewer": "See 03-* screenshots and logs",
+    "heatmap-colors": "See 04-* screenshots and logs",
+    "activity-calendar": "See 05-* screenshots and logs"
+  },
+  "artifacts": {
+    "screenshots": "/Users/masa/Projects/epstein/tests/artifacts/ui-bug-fixes",
+    "logs": "/Users/masa/Projects/epstein/tests/artifacts/ui-bug-fixes"
+  }
+}

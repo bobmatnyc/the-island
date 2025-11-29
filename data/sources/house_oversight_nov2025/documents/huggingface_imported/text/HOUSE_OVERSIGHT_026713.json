@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026713",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026713.txt",
+  "text": "Fig 22. Sovereign adoption of ESG factors (% citations)\n\nWest (ex-US) Rest of world\n\nSample is based on sovereign investors and excludes central banks.\nSample: West (ex-US)=11, Rest of world=44.\n\nFig 23. ESG screen usage (% citations, ESG users)\n\nSecurity negative screen Manager negative screen Manager positive screen Security positive screen\n\nSample is based on sovereign investors and excludes central banks. Multiple responses.\nSample=22.\n\nFig 24. ESG issue importance (ESG users) B® Environmental factor\nHS Social factor\nMi Governance factor\n\nYee) Climate change\n7.8 Sustainability\n\nEnergy resources\n\nN\nI 5\nN\n\noO\n\nHuman rights\n\nExecutive remuneration\n\nDiversity\n\nuw\n00\n\nWater scarcity\n\nSample is based on sovereign investors and excludes central banks. Rating ona scale from 1 to 10 where 10 is the most important. Rating scored as of Q1 of the given year.\nSample=22.\n\n33\n\nHOUSE_OVERSIGHT_026713",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026713.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 901,
+    "word_count": 136,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:44.966862",
+    "prefix": "IMAGES-009"
+  }
+}

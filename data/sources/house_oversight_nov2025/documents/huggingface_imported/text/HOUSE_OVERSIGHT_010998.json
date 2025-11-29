@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010998",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010998.txt",
+  "text": "some consumption is investment in human capital. I said what | think this overlooks\n\n(self-invested work) and what it forgets to exclude (recovered human depreciation).\n\nMy own way of putting things mightn’t strictly need the terms investment or saving\nexcept to translate my ideas into the language we all know. That translation is\nessential if | hope to be understood. It will first take account of the fact that Keynes\nmeant investment and saving as to physical capital only, with labor or human capital\nto arrive exogenously as an outcome somehow of consumption. That led to the\n\nY=1+C equation\n\noutput = investment + consumption. (4.1)\nGross and net versions of (4.1) meant gross and net of depreciation. Thus\n\ngross output = gross investment + consumption (4.1a)\nand\n\nnet output = net investment + consumption. (4.1b)\nIn the General Theory, where (4.1) appears in his Chapter 6, (4.1) it means the gross\nversion unless otherwise specified. I prefer the opposite, and mean the net version\n(4.1b) unless otherwise specified.\nMy ex ante investment corresponds to Keynes’ “intended saving” through\nconsumption restraint. My “depreciation investment”, or “depreciation plowback”,\nmeans just enough ex ante investment to offset actual depreciation, not book\ndepreciation, of physical capital. 1 assume that we intuit roughly how much this is\n\nwhen I say that optimum ex ante investment is depreciation plowback. Now let’s\n\nconsider how that could be true.\n\nChapter 4 Mill’s Idea 1/11/16 7\n\nHOUSE_OVERSIGHT_010998",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010998.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1512,
+    "word_count": 238,
+    "line_count": 34,
+    "import_date": "2025-11-19T21:47:44.496495",
+    "prefix": "IMAGES-001"
+  }
+}

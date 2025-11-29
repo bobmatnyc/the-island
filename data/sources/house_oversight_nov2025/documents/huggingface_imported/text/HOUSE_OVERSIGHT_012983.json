@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012983",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012983.txt",
+  "text": "4.3 Emergentist Cognitive Architectures 67\n\nInferred state\n\nAction/\nCorrection | J\n-—— Critic “< :\n~ h A Deep\ny Learning\nSystem\nActor Pa Ee. (state\ninference)\n—\nA\nActions\n\nObservations\nRewards\n\nEnvironment ]\n\nFig. 4.4: High-level architecture of DeSTIN\n\nbrain is a massively parallel fabric, in which computation processes and memory storage are\nhighly distributed. But massive parallelism is not in itself a solution — one also needs the right\narchitecture; which DeSTIN provides, building on prior work in the area of deep learning.\n\nHumanlike intelligence is heavily adapted to the physical environments in which humans\nevolved; and one key aspect of sensory data coming from our physical environments is its\nhierarchical structure. However, most machine learning and pattern recognition systems are\n“shallow” in structure, not explicitly incorporating the hierarchical structure of the world in\ntheir architecture. In the context of perceptual data processing, the practical result of this is\nthe need to couple each shallow learner with a pre-processing stage, wherein high-dimensional\nsensory signals are reduced to a lower-dimension feature space that can be understood by the\nshallow learner. The hierarchical structure of the world is thus crudely captured in the hierarchy\nof “preprocessor plus shallow learner.” In this sort of approach, much of the intelligence of the\nsystem shifts to the feature extraction process, which is often imperfect and always application-\ndomain specific.\n\nDeep machine learning has emerged as a more promising framework for dealing with complex,\nhigh-dimensional real-world data. Deep learning systems possess a hierarchical structure that\nintrinsically biases them to recognize the hierarchical patterns present in real-world data. Thus,\nthey hierarchically form a feature space that is driven by regularities in the observations, rather\nthan by hand-crafted techniques. They also offer robustness to many of the distortions and\ntransformations that characterize real-world signals, such as noise, displacement, scaling, etc.\n\nDeep belief networks [HOTO06] and Convolutional Neural Networks [LBDE90] have been\ndemonstrated to successfully address pattern inference in high dimensional data (e.g. images).\nThey owe their success to their underlying paradigm of partitioning large data structures into\nsmaller, more manageable units, and discovering the dependencies that may or may not exist\n\nHOUSE_OVERSIGHT_012983",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012983.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2456,
+    "word_count": 356,
+    "line_count": 52,
+    "import_date": "2025-11-19T21:47:45.975501",
+    "prefix": "IMAGES-002"
+  }
+}

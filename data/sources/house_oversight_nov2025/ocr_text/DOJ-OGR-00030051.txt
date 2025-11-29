@@ -1,0 +1,34 @@
+i
+" FD-340 (Rev, 4-11-03)
+!
+File Number S\S -UM-- LO 06 2.-/A US |
+. " 4! nl
+Field Office Acquiring Evidence LA YPOoce. |
+Serial # of Originating Document a |
+i
+Date Received —NACS6SS |
+From | .
+7 (Name of-Contributor/Interviewee) ‘
+‘ (Address} ~
+b6 -2
+b7c -2
+By
+ToBeRetumed [1 Yes - No
+Receipt Given (0 Yes’ L-No
+Grand Jury Material - Disseminate Only Pursuant to Rule 6 (e) i
+Federal Rules of Criminal Procedure
+. im) Yes ErNo , 4
+Federal Taxpayer Information (FTD
+LCI Yes : CTNo :
+| Title: .
+3
+;
+| mn Reference: pn (
+(Comniunication Enclosing Material) i
+Description: Original notes re interview of i |
+ibe -3 |
+j DIC -3
+nal ao |
+I
+03956-9373 -
+me DO F=OGR-00030051

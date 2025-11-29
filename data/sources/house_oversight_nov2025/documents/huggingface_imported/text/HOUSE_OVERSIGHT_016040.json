@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016040",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016040.txt",
+  "text": "Russian Dolls\n“Great fleas have little fleas upon\ntheir backs to bite em.\n\nAnd little fleas have lesser fleas,\nand so ad infinitum.\n\nAnd the great fleas themselves, in\nturn, have greater fleas to go on.\n\nWhile these again have greater\nstill, and greater still, and so on.”\n\nAugustus De Morgan\n\nHOUSE_OVERSIGHT_016040",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016040.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 316,
+    "word_count": 52,
+    "line_count": 16,
+    "import_date": "2025-11-19T21:47:49.413451",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,328 @@
+# Epstein Document Collection - Git Ignore
+
+# ============================================
+# DATA FILES (Too large for git)
+# ============================================
+
+# Raw source downloads (PDFs, archives)
+data/sources/**/*.pdf
+data/sources/**/*.zip
+data/sources/**/*.tar.gz
+data/sources/**/*.rar
+
+# Large processed files
+data/emails/*.pdf
+data/canonical/**/*.pdf
+
+# Temporary processing files
+data/temp/
+*.tmp
+*.cache
+
+# ============================================
+# PYTHON
+# ============================================
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# ============================================
+# DATABASES
+# ============================================
+
+# Database backups
+*.db.backup
+*.db.bak
+*.sqlite.backup
+
+# Vector store databases (ChromaDB - too large for git)
+data/vector_store/
+data/vector_store/**/*
+
+# Keep the main deduplication database
+# (it's critical and relatively small)
+# Uncomment below to ignore it if it gets too large
+# data/metadata/deduplication.db
+
+# ============================================
+# LOGS
+# ============================================
+
+*.log
+*.out
+*.err
+logs/
+*.log.*
+
+# ============================================
+# OPERATING SYSTEM
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================
+# EDITORS & IDEs
+# ============================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# PROJECT SPECIFIC
+# ============================================
+
+# Downloaded archives (keep source PDFs tracked by collection)
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Large analysis outputs
+analysis_output/
+reports/*.pdf
+
+# Temporary extraction directories
+extract_temp/
+processing/
+
+# API keys and credentials (if any)
+.env
+.env.local
+.env.*.local
+credentials.json
+secrets.yaml
+
+# Exception: Allow .env.example template (safe to commit)
+!.env.example
+
+# Claude MPM (if not needed in git)
+.claude-mpm/logs/
+.claude-mpm/responses/
+
+# ============================================
+# KEEP THESE FILES
+# ============================================
+
+# Force include certain files even if ignored above
+!data/emails/README.md
+!data/canonical/README.md
+!data/sources/README.md
+!docs/README.md
+!scripts/README.md
+
+# Force include small metadata files
+!data/emails/*.json
+!data/emails/*.txt
+!data/emails/MANIFEST.md
+
+# Force include all markdown documentation
+!**/*.md
+
+# Force include all YAML configs
+!config/*.yaml
+!config/*.yml
+
+# Force include environment template (safe to commit)
+!.env.example
+
+# Added by Claude MPM /mpm-init
+*.backup
+*.bak
+*.cab
+*.cert
+*.crt
+*.db
+*.key
+*.lnk
+*.mpm.tmp
+*.msi
+*.msm
+*.msp
+*.old
+*.pem
+*.pytest_cache
+*.sql
+*.sqlite
+*.sqlite3
+*.temp
+.claude-mpm/*.log
+.claude-mpm/cache/
+.claude-mpm/sessions/
+.claude-mpm/tmp/
+.claude/cache/
+.claude/sessions/
+.conda/
+.env.local
+.env.*.local
+.kuzu-memory/
+.mcp-vector-search/
+.nox/
+.npm
+.project
+.pydevproject
+.pytype/
+.secrets/
+.settings/
+.venv
+.yarn/
+_build/
+backup/
+backups/
+conda-env/
+credentials/
+docs/_build/
+env.bak/
+kuzu-memories/
+node_modules/
+npm-debug.log*
+pip-wheel-metadata/
+site/
+temp/
+tmp/
+venv.bak/
+virtualenv/
+yarn-debug.log*
+yarn-error.log*
+.mcp-vector-search/*.sqlite3
+
+# MCP Ticketer
+.mcp-ticketer/
+.frontend-dev.pid
+
+# Test artifacts and temporary files
+*.png
+*.jpg
+*.jpeg
+screenshot*.png
+timeline*.png
+test-results/
+playwright-report/
+*.spec.js.snap
+phase1_verification_results.json
+*_test_report_*.json
+linting_report.txt
+debug-output.txt
+news_error_handling_verification_*.json
+
+# Backup files (data)
+data/**/*.backup
+data/**/*.backup_*
+data/**/*.bak
+data/migration/
+
+# Shell scripts (test/verification - keep in docs if needed)
+test-*.sh
+verify-*.sh
+check-*.sh
+debug-*.sh
+*.scpt
+
+# Test HTML/JS files (keep in tests/ directory)
+test-*.html
+test-*.js
+verify-*.js
+debug-*.js
+check-*.js
+*.cjs
+
+# Documentation overflow (consolidate into docs/)
+*_FIX_SUMMARY.md
+*_COMPLETE.md
+*_STATUS.md
+*_REPORT.md
+*_GUIDE.md
+*_IMPLEMENTATION.md
+*_VERIFICATION.md
+*QUICK_*.md
+*SUMMARY.txt
+*.backup.md
+
+# Added by Claude MPM /mpm-init
+.env.*

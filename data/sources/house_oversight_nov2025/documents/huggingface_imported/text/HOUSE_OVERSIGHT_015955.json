@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015955",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015955.txt",
+  "text": "Software 265\n\n|WHATIPE ROSS DOESN'T KNOW || HAHA, ART? COME ON! LIKE\nANYTHING ABOUT IT WOULD BE THAT DIFFICULT\nPROGRAMMING! HE WOULD BE TO TYPE ON A KEYBOARD ALL\nUSELESS AND NOTHING BUT A || DAY! MY SON |S TEN AND HE\nBURDEN! MY PROJECT IS DOES IT TOO!\nSTATE OF THE ART AND I'M\nGONNA LET NO VIGUAL BASIC\nPROGRAMMERS NEAR |[T!\n\nthey implement it mechanically. You see, of course, the problem. It\nwill be riddled with bugs because they have missed the creative step of\nimagining the whole problem and solving it in the round.\n\nThis fundamental misconception of software is common in many\norganizations. “Ah,” says the finance director, “I'll write a very detailed\nspec and then we can get someone cheap to just program it.” This does\nnot work. If the finance director has done the creative work of taking a\nproblem and turning it into a detailed specification for the programmer\nto ‘just program’ — removing any ambiguity and therefore the creative\noverhead - he will have all but written software himself, albeit in\na computer language of his own making. On the other hand, if the\nspecification is a linear list of issues with no creative thought, he will not\nhave reduced the time needed to program. He may have improved the\nquality by effectively getting a second pair of eyes onto the requirements\ngathering stage, but this does not help the programming effort itself.\n\nIdeally, you should never split up specification and coding. It is a\ncreative process best handled by very small numbers of people working\nintensively on it. Of course, there is one big problem with this: some\nsoftware tasks are huge. Before we look at the science of splitting up a\nsoftware project, it is worth pointing out that many of the most famous\nprojects were written by one man. I have met many of these people and\nthey are all exceptional - Linus Torvalds, Linux; Anthony Minessale,\nFreeSWITCH; Daniel-Constantin Mierla, Kamailio; Eric Allman,\nssendMail. Before splitting a project between many people, it is worth\nconsidering whether you can give it to just one individual. To do this you\n\nHOUSE_OVERSIGHT_015955",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015955.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2095,
+    "word_count": 360,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:48.274539",
+    "prefix": "IMAGES-003"
+  }
+}

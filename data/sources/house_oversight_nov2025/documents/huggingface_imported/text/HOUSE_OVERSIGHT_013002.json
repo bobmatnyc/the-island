@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013002",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013002.txt",
+  "text": "86 4 Brief Survey of Cognitive Architectures\n\nThe LIDA cognitive cycle itself is a theoretical construct that can be implemented in many\nways, and indeed other BICAs like CogPrime and Psi also manifest the LIDA cognitive cycle\nin their dynamics, though utilizing different particular structures to do so.\n\nFigure 4.13 shows the cycle pictorially, starting in the upper left corner and proceeding\nclockwise. At the start of a cycle, the LIDA agent perceives its current situation and allocates\nattention differentially to various parts of it. It then broadcasts information about the most\nimportant parts (which constitute the agent’s consciousness), and this information gets features\nextracted from it, when then get passed along to episodic and semantic memory, that interact\nin the “global workspace” to create a model for the agent’s current situation. This model then,\nin interaction with procedural memory, enables the agent to choose an appropriate action and\nexecute it - the critical “action-selection” phase!\n\n(Slip Net)\n1,\n\nFig. 4.13: The LIDA Cognitive Cycle\n\nThe LIDA Cognitive Cycle in More Depth\n\n2\n\nWe now run through the cognitive cycle in more detail. It begins with sensory stimuli from\nthe agent’s external internal environment. Low-level feature detectors in sensory memory begin\nthe process of making sense of the incoming stimuli. These low-level features are passed to\nperceptual memory where higher-level features, objects, categories, relations, actions, situations,\n\n? This section paraphrases heavily from [Fra06]\n\nHOUSE_OVERSIGHT_013002",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013002.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1565,
+    "word_count": 234,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:48.984924",
+    "prefix": "IMAGES-002"
+  }
+}

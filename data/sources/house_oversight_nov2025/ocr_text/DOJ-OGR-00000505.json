@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00000505.pdf",
+  "ocr_date": "2025-11-16T20:50:03.871944",
+  "text_length": 1597,
+  "is_email": true,
+  "email_confidence": 0.8999999999999999,
+  "email_addresses": [
+    "JLefkowitz@kirkland.com",
+    "JLefkowitz@kirkiand.com"
+  ]
+}

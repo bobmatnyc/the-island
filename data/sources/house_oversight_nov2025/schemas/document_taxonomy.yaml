@@ -1,0 +1,732 @@
+# Document Classification Taxonomy for Epstein Collections
+# Version: 1.0
+# Last Updated: 2025-11-16
+
+document_types:
+
+  # COMMUNICATIONS - Direct correspondence between individuals
+  communications:
+    email:
+      description: "Electronic mail correspondence"
+      indicators:
+        - "From:"
+        - "To:"
+        - "Subject:"
+        - "Cc:"
+        - "Bcc:"
+        - "@" # email addresses
+      subtypes:
+        - internal
+        - external
+        - automated
+        - forwarded
+
+    letter:
+      description: "Formal written correspondence"
+      indicators:
+        - "Dear"
+        - "Sincerely"
+        - "Yours truly"
+        - letterhead
+        - salutation
+      subtypes:
+        - business
+        - personal
+        - legal
+
+    memo:
+      description: "Internal memorandum"
+      indicators:
+        - "MEMORANDUM"
+        - "MEMO"
+        - "To:"
+        - "From:"
+        - "Re:"
+        - "Date:"
+      subtypes:
+        - legal_memo
+        - business_memo
+        - investigative_memo
+
+    text_message:
+      description: "SMS or instant messaging"
+      indicators:
+        - phone_numbers
+        - timestamp_format
+        - short_format
+      subtypes:
+        - sms
+        - whatsapp
+        - imessage
+
+    fax:
+      description: "Facsimile transmission"
+      indicators:
+        - "FAX"
+        - "FACSIMILE"
+        - fax_header
+        - transmission_info
+      subtypes:
+        - cover_sheet
+        - transmission
+
+  # LEGAL - Court and legal proceedings documents
+  legal:
+    court_filing:
+      description: "Documents filed with court"
+      indicators:
+        - "UNITED STATES DISTRICT COURT"
+        - "Case No."
+        - "Civil Action"
+        - "FILED"
+        - "CLERK"
+      subtypes:
+        - complaint
+        - answer
+        - reply
+        - sur_reply
+
+    motion:
+      description: "Motions filed in legal proceedings"
+      indicators:
+        - "MOTION"
+        - "MEMORANDUM IN SUPPORT"
+        - "RESPECTFULLY MOVES"
+      subtypes:
+        - motion_to_dismiss
+        - motion_for_summary_judgment
+        - motion_in_limine
+        - motion_to_compel
+        - motion_to_seal
+        - motion_for_extension
+
+    order:
+      description: "Court orders and rulings"
+      indicators:
+        - "ORDER"
+        - "IT IS HEREBY ORDERED"
+        - "SO ORDERED"
+        - judge_signature
+      subtypes:
+        - preliminary_order
+        - final_order
+        - temporary_restraining_order
+        - protective_order
+
+    deposition:
+      description: "Sworn testimony transcripts"
+      indicators:
+        - "DEPOSITION OF"
+        - "Q."
+        - "A."
+        - "sworn"
+        - "oath"
+        - court_reporter
+      subtypes:
+        - witness_deposition
+        - expert_deposition
+        - party_deposition
+
+    transcript:
+      description: "Court proceeding transcripts"
+      indicators:
+        - "TRANSCRIPT"
+        - "PROCEEDINGS"
+        - "THE COURT:"
+        - "MR."
+        - "MS."
+        - court_reporter_certification
+      subtypes:
+        - trial_transcript
+        - hearing_transcript
+        - oral_argument
+
+    subpoena:
+      description: "Legal summons for testimony or documents"
+      indicators:
+        - "SUBPOENA"
+        - "YOU ARE COMMANDED"
+        - "DUCES TECUM"
+      subtypes:
+        - subpoena_duces_tecum
+        - subpoena_ad_testificandum
+
+    affidavit:
+      description: "Sworn written statement"
+      indicators:
+        - "AFFIDAVIT"
+        - "sworn"
+        - "declares under penalty of perjury"
+        - notary
+      subtypes:
+        - declaration
+        - sworn_statement
+
+    settlement_agreement:
+      description: "Legal settlement documents"
+      indicators:
+        - "SETTLEMENT AGREEMENT"
+        - "AGREEMENT AND RELEASE"
+        - "parties agree"
+      subtypes:
+        - confidential_settlement
+        - structured_settlement
+
+    non_prosecution_agreement:
+      description: "Prosecution immunity agreements"
+      indicators:
+        - "NON-PROSECUTION AGREEMENT"
+        - "NPA"
+        - "United States Attorney"
+        - "will not prosecute"
+      subtypes:
+        - federal_npa
+        - state_npa
+
+    plea_agreement:
+      description: "Criminal plea agreements"
+      indicators:
+        - "PLEA AGREEMENT"
+        - "defendant agrees to plead"
+        - "GUILTY PLEA"
+      subtypes:
+        - cooperation_agreement
+        - standard_plea
+
+    brief:
+      description: "Legal briefs and arguments"
+      indicators:
+        - "BRIEF"
+        - "MEMORANDUM OF LAW"
+        - "TABLE OF CONTENTS"
+        - "TABLE OF AUTHORITIES"
+      subtypes:
+        - appellate_brief
+        - trial_brief
+        - amicus_brief
+
+    exhibit:
+      description: "Court exhibits"
+      indicators:
+        - "EXHIBIT"
+        - "Exhibit A"
+        - "Plaintiff's Exhibit"
+        - "Defendant's Exhibit"
+      subtypes:
+        - trial_exhibit
+        - deposition_exhibit
+
+  # FINANCIAL - Money and transaction records
+  financial:
+    invoice:
+      description: "Billing documents"
+      indicators:
+        - "INVOICE"
+        - "Bill To"
+        - "Amount Due"
+        - "Payment Terms"
+        - line_items
+      subtypes:
+        - legal_invoice
+        - services_invoice
+        - product_invoice
+
+    receipt:
+      description: "Payment confirmations"
+      indicators:
+        - "RECEIPT"
+        - "PAID"
+        - "Transaction"
+        - payment_confirmation
+      subtypes:
+        - purchase_receipt
+        - payment_receipt
+
+    bank_statement:
+      description: "Bank account statements"
+      indicators:
+        - "STATEMENT"
+        - "Account Number"
+        - "Beginning Balance"
+        - "Ending Balance"
+        - transaction_list
+      subtypes:
+        - checking_statement
+        - savings_statement
+        - credit_card_statement
+
+    wire_transfer:
+      description: "Wire transfer documentation"
+      indicators:
+        - "WIRE TRANSFER"
+        - "SWIFT"
+        - "Beneficiary"
+        - "Originator"
+        - routing_number
+      subtypes:
+        - domestic_wire
+        - international_wire
+
+    suspicious_activity_report:
+      description: "SAR filings to FinCEN"
+      indicators:
+        - "SUSPICIOUS ACTIVITY REPORT"
+        - "FinCEN"
+        - "SAR"
+        - "BSA"
+      subtypes:
+        - bank_sar
+        - fintech_sar
+
+    account_statement:
+      description: "Financial account statements"
+      indicators:
+        - account_number
+        - balance_information
+        - transaction_history
+      subtypes:
+        - brokerage_statement
+        - investment_statement
+
+    tax_document:
+      description: "Tax-related documents"
+      indicators:
+        - "1099"
+        - "W-2"
+        - "IRS"
+        - "Tax Return"
+      subtypes:
+        - tax_return
+        - tax_form
+        - irs_notice
+
+  # PERSONAL - Personal records and schedules
+  personal:
+    flight_log:
+      description: "Aircraft flight records"
+      indicators:
+        - tail_number
+        - "N-number"
+        - departure_arrival
+        - passenger_manifest
+        - flight_route
+      subtypes:
+        - passenger_manifest
+        - pilot_log
+        - flight_plan
+
+    calendar_entry:
+      description: "Calendar and scheduling entries"
+      indicators:
+        - date_time
+        - appointment
+        - meeting
+        - schedule
+      subtypes:
+        - meeting_invite
+        - appointment
+        - event
+
+    address_book_entry:
+      description: "Contact information records"
+      indicators:
+        - contact_name
+        - phone_number
+        - email_address
+        - physical_address
+      subtypes:
+        - contact_card
+        - directory_entry
+
+    photo:
+      description: "Photographic images"
+      indicators:
+        - image_file
+        - photograph
+        - metadata
+      subtypes:
+        - personal_photo
+        - evidence_photo
+        - surveillance_photo
+
+    schedule:
+      description: "Detailed schedules and itineraries"
+      indicators:
+        - timeline
+        - itinerary
+        - agenda
+        - sequence_of_events
+      subtypes:
+        - travel_itinerary
+        - daily_schedule
+        - event_schedule
+
+    diary_journal:
+      description: "Personal diary or journal entries"
+      indicators:
+        - first_person
+        - dated_entries
+        - personal_narrative
+      subtypes:
+        - diary
+        - journal
+        - notes
+
+  # INVESTIGATIVE - Law enforcement and investigation
+  investigative:
+    fbi_report:
+      description: "FBI investigation reports"
+      indicators:
+        - "FBI"
+        - "Federal Bureau of Investigation"
+        - "FD-302"
+        - "Special Agent"
+      subtypes:
+        - interview_report
+        - surveillance_report
+        - investigative_summary
+
+    police_report:
+      description: "Police department reports"
+      indicators:
+        - "POLICE REPORT"
+        - "INCIDENT REPORT"
+        - case_number
+        - officer_name
+      subtypes:
+        - incident_report
+        - arrest_report
+        - investigation_report
+
+    witness_statement:
+      description: "Witness statements and interviews"
+      indicators:
+        - "STATEMENT"
+        - witness_name
+        - "witnessed"
+        - account_of_events
+      subtypes:
+        - sworn_statement
+        - interview_notes
+        - victim_statement
+
+    evidence_log:
+      description: "Evidence tracking and chain of custody"
+      indicators:
+        - "EVIDENCE"
+        - chain_of_custody
+        - evidence_number
+        - collected_by
+      subtypes:
+        - chain_of_custody
+        - evidence_inventory
+        - property_receipt
+
+    search_warrant:
+      description: "Judicial search warrants"
+      indicators:
+        - "SEARCH WARRANT"
+        - "WARRANT"
+        - probable_cause
+        - judge_signature
+      subtypes:
+        - search_warrant
+        - arrest_warrant
+        - seizure_warrant
+
+    investigative_memo:
+      description: "Internal investigation memoranda"
+      indicators:
+        - "MEMORANDUM"
+        - investigation_subject
+        - findings
+        - recommendations
+      subtypes:
+        - case_memo
+        - investigative_summary
+        - status_report
+
+    forensic_report:
+      description: "Forensic analysis reports"
+      indicators:
+        - "FORENSIC"
+        - analysis_results
+        - examiner_name
+        - methodology
+      subtypes:
+        - digital_forensics
+        - physical_forensics
+        - laboratory_report
+
+  # MEDIA - News and public communications
+  media:
+    news_article:
+      description: "Published news articles"
+      indicators:
+        - byline
+        - publication_name
+        - article_format
+        - headline
+      subtypes:
+        - newspaper_article
+        - magazine_article
+        - online_news
+
+    press_release:
+      description: "Official press releases"
+      indicators:
+        - "PRESS RELEASE"
+        - "FOR IMMEDIATE RELEASE"
+        - contact_information
+        - organization_name
+      subtypes:
+        - corporate_release
+        - government_release
+        - legal_announcement
+
+    social_media_post:
+      description: "Social media content"
+      indicators:
+        - platform_indicators
+        - username
+        - timestamp
+        - engagement_metrics
+      subtypes:
+        - twitter_post
+        - facebook_post
+        - instagram_post
+        - reddit_post
+
+    screenshot:
+      description: "Screen captures"
+      indicators:
+        - browser_chrome
+        - ui_elements
+        - captured_content
+      subtypes:
+        - web_screenshot
+        - app_screenshot
+        - email_screenshot
+
+    interview:
+      description: "Media interviews"
+      indicators:
+        - "Q:"
+        - "A:"
+        - interviewer_interviewee
+        - publication
+      subtypes:
+        - print_interview
+        - broadcast_transcript
+        - podcast_transcript
+
+  # GOVERNMENT - Official government documents
+  government:
+    congressional_document:
+      description: "Congressional records and documents"
+      indicators:
+        - "Congress"
+        - "House of Representatives"
+        - "Senate"
+        - bill_number
+      subtypes:
+        - hearing_transcript
+        - committee_report
+        - congressional_letter
+
+    executive_document:
+      description: "Executive branch documents"
+      indicators:
+        - executive_agency
+        - official_seal
+        - agency_letterhead
+      subtypes:
+        - executive_order
+        - agency_memo
+        - policy_document
+
+    foia_response:
+      description: "Freedom of Information Act responses"
+      indicators:
+        - "FOIA"
+        - "Freedom of Information Act"
+        - request_number
+        - exemptions
+      subtypes:
+        - foia_release
+        - foia_denial
+        - partial_release
+
+  # ADMINISTRATIVE - Business and organizational
+  administrative:
+    contract:
+      description: "Legal contracts and agreements"
+      indicators:
+        - "AGREEMENT"
+        - "CONTRACT"
+        - parties
+        - terms_and_conditions
+        - signatures
+      subtypes:
+        - service_agreement
+        - employment_contract
+        - nda
+
+    policy_document:
+      description: "Organizational policies"
+      indicators:
+        - "POLICY"
+        - "PROCEDURE"
+        - guidelines
+        - effective_date
+      subtypes:
+        - hr_policy
+        - operational_policy
+        - compliance_policy
+
+    organizational_chart:
+      description: "Organization structure diagrams"
+      indicators:
+        - hierarchy
+        - positions
+        - reporting_structure
+      subtypes:
+        - corporate_org_chart
+        - department_structure
+
+    meeting_minutes:
+      description: "Official meeting records"
+      indicators:
+        - "MINUTES"
+        - attendees
+        - agenda_items
+        - action_items
+      subtypes:
+        - board_minutes
+        - committee_minutes
+        - staff_meeting_notes
+
+  # OTHER - Uncategorized or special cases
+  other:
+    unclassified:
+      description: "Documents not yet classified or unclear type"
+      indicators: []
+      subtypes:
+        - needs_review
+        - insufficient_information
+
+    redacted:
+      description: "Heavily redacted documents where type is unclear"
+      indicators:
+        - extensive_redaction
+        - minimal_visible_content
+      subtypes:
+        - partially_redacted
+        - heavily_redacted
+
+    blank_page:
+      description: "Blank or nearly blank pages"
+      indicators:
+        - minimal_content
+        - empty_page
+      subtypes:
+        - separator_page
+        - filler_page
+
+    duplicate:
+      description: "Duplicate copies of other documents"
+      indicators:
+        - identical_content
+        - copy_indicator
+      subtypes:
+        - exact_duplicate
+        - version_variant
+
+    cover_page:
+      description: "Cover sheets and title pages"
+      indicators:
+        - "COVER SHEET"
+        - title_only
+        - minimal_content
+      subtypes:
+        - fax_cover
+        - document_cover
+        - bates_cover
+
+# Classification confidence levels
+confidence_levels:
+  high: 0.9-1.0    # Strong indicators, unambiguous
+  medium: 0.7-0.89  # Multiple indicators, some ambiguity
+  low: 0.5-0.69     # Few indicators, significant ambiguity
+  uncertain: 0.0-0.49  # Insufficient information
+
+# Entity types for extraction
+entity_types:
+  person:
+    description: "Individual people"
+    attributes:
+      - full_name
+      - email
+      - phone
+      - organization
+      - title
+      - role
+
+  organization:
+    description: "Companies, agencies, institutions"
+    attributes:
+      - name
+      - type
+      - location
+      - parent_organization
+
+  location:
+    description: "Places and addresses"
+    attributes:
+      - address
+      - city
+      - state
+      - country
+      - coordinates
+
+  date:
+    description: "Temporal references"
+    attributes:
+      - date
+      - date_range
+      - time
+      - timezone
+
+  case:
+    description: "Legal cases"
+    attributes:
+      - case_number
+      - court
+      - case_name
+      - filing_date
+
+  financial:
+    description: "Financial entities"
+    attributes:
+      - amount
+      - currency
+      - account_number
+      - transaction_id
+
+# Document quality indicators
+quality_metrics:
+  ocr_quality:
+    high: "Clean text, no significant errors"
+    medium: "Some OCR errors, mostly readable"
+    low: "Significant OCR errors, difficult to read"
+
+  completeness:
+    complete: "Full document, no missing pages"
+    partial: "Missing pages or sections"
+    fragment: "Only fragment of document"
+
+  redaction:
+    none: "No redactions"
+    light: "<25% redacted"
+    moderate: "25-50% redacted"
+    heavy: ">50% redacted"

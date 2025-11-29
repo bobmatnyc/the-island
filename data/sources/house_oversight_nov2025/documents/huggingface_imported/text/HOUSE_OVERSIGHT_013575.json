@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013575",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013575.txt",
+  "text": "dynamics between them can now be implemented if the system of particles being\nsimulated is sufficiently small and the computer simulation is for very short times.\n\nTo transform the entropy into something more statistical and global, we\nreturn to the theoretical work of Ludwig Boltzmann whose formalism was used\npreviously to quantitate pathological developmental simplification. He assumed that\ngiven a set of constraints, say the closed volume, V, of a box, B, of a fixed size, V\n(B), the orbit of each particle would eventually explore all the space in the box that\nwas available to it. Boltzmann’s entropy became a constraint dependent, n-\ndimensional volume measure, with the assumption that the entropy, S, equals the\nlogarithm of this volume measure, S = /n V (B). To calculate a value for the entropy,\ncompute the volume of the molecular motion as determined by the invariant\nconstraints of the system, such as the volume, temperature, pressure and/or its total\nnumber of molecules. We may partition, discretize, the volume up to some limit of\nresolution such that it is divided into © small boxes, each containing the\nrepresentation of a particular state.\n\nMaking the same assumptions of closed system, equilibrium\nthermodynamics, such a system is completely isolated from outside sources of\nmatter and energy, it spends equal time in each of its © available states. In such a\ncase, the characteristic occupancy time of any state is inverse to the number of\nStates available, e.g. 1/0, and the system’s entropy is maximal for that set of states.\nUnder these conditions, S = k In(Q), where the k term is the Boltzmann constant\nthat contributes to the numeric units of entropy, as above, in Joules of heat /degrees\nKelvin of the temperature. If the system is in contact with a heat bath, but cannot\nexchange matter with its environment, it is called diathermally isolated. The\ndistribution of times spent in the available states of a classical diathermally isolated\nsystem of gas molecules can be represented by what is called a Boltzmann\ndistribution of probabilities of state occupancies, p (as a function of their energy\nlevel, more measurably, their responsiveness, susceptibility, to heat). Here the\ncharacteristic time of the system spent in each state varies as the particular state’s\n\nprobability.\n\n75\n\nHOUSE_OVERSIGHT_013575",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013575.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2340,
+    "word_count": 378,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:47.966784",
+    "prefix": "IMAGES-002"
+  }
+}

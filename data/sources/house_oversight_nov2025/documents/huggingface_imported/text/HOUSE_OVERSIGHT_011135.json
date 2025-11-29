@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011135",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011135.txt",
+  "text": "p, from now on, and refer to gross realized output Y, gross alone.\n\nPositive cash flow is that less plowback from revenue. This can be notated\n\nFo= Y gross— p.,, = Y, + D, — Poy? (A3.3)\nwhere p.,, is plowback. Negative cash flow is transfer in, notated t_. Thus\nF =t_ and F=F -F =¥,+D,—p,y,—T_ (A3.4)\nCash flow F is the difference\nF=F -F =Y,+D,-p,-T_. (A3.5)\n\nGross output is gross realized output plus unrealized (or proprietary or self-\n\ninvested) output. This can show as\n\n=Y gross+ Y, =Y,+D,+Y, . (A3.6)\n\ngross\n\nThink of the subscript s as meaning saved or self-invested. As all output is either\n\nrealized or unrealized, we have\nY=Y+Y..\nsp\n\nThe terms saved, self-invested, unrealized and proprietary will be taken as\n\ninterchangeable.\n\nAPPENDIX A: The Argument in Notation 3/7/16 9\n\nHOUSE_OVERSIGHT_011135",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011135.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 809,
+    "word_count": 135,
+    "line_count": 31,
+    "import_date": "2025-11-19T21:47:49.423147",
+    "prefix": "IMAGES-001"
+  }
+}

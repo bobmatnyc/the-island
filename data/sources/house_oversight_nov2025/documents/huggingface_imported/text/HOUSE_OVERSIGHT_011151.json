@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011151",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011151.txt",
+  "text": "Retirement can be defined in principle as the period when our pay, literal or\nimputed, no longer covers our maintenance consumption needs. Human capital\n\ncontinues, even so, as long as we earn any imputed pay for helping take care of\n\nourselves and others. Maintenance is not investment C., and is not deducted in\n\nfinding our cash flow and its present value.\n\n(A4.4) showed the growth truism for total capital of any individual as\nK,=y_+Y, +p,-D,,\n\nrecalling that y_is gift received, Y. is self-invested (unrealized) output of both\nfactors, P is plowback from realized output, and D, is recovered decapitalization.\nFor the young under age A, I model K,, as H alone, y_ as invested consumption\nprovided by adults, Y gross as self-invested work, which I model as all work, and D,\n\nas zero. Thus (A4.4) is interpreted as\nK,=H=C,+W,=C,+W=C +rH, ifage <=A, (A10.5)\nleading directly to (A10.1)\n\nFor adults I model gift received y_as zero. As physical capital acquisition is modeled\nas beginning at independence (age A), Y, now becomes self-invested output for both\nfactors. Let this show as P. for physical capital. p,, Means pay plowback t, plus\nplowback from revenue of physical capital, as with the firm. That can show as p(k), .\n\nBut I model 7, aS Zero because | see so little of it. Rather I allow reinvestment of pay\n\nAPPENDIX A: The Argument in Notation 3/7/16 25\n\nHOUSE_OVERSIGHT_011151",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011151.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1389,
+    "word_count": 233,
+    "line_count": 31,
+    "import_date": "2025-11-19T21:47:46.838837",
+    "prefix": "IMAGES-001"
+  }
+}

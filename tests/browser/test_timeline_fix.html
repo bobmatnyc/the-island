@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline Fix Verification Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+        h1 { color: #58a6ff; }
+        .test-section {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .test-result {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-family: 'Monaco', monospace;
+            font-size: 14px;
+        }
+        .success { background: #1a4520; border-left: 4px solid #2ea043; }
+        .error { background: #4a1e1e; border-left: 4px solid #da3633; }
+        .info { background: #1c2d41; border-left: 4px solid #58a6ff; }
+        button {
+            background: #238636;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 5px;
+        }
+        button:hover { background: #2ea043; }
+        pre {
+            background: #0d1117;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Timeline Fix Verification Test</h1>
+
+    <div class="test-section">
+        <h2>Test Instructions</h2>
+        <ol>
+            <li>Ensure server is running on <code>http://localhost:8081</code></li>
+            <li>Click "Run API Test" to verify backend is working</li>
+            <li>Click "Open Main App" to test the actual timeline page</li>
+            <li>In the main app, click the "Timeline" tab</li>
+            <li>You should see 98 events displayed</li>
+        </ol>
+    </div>
+
+    <div class="test-section">
+        <h2>Quick Tests</h2>
+        <button onclick="testAPI()">Run API Test</button>
+        <button onclick="window.open('http://localhost:8081/', '_blank')">Open Main App</button>
+        <button onclick="clearResults()">Clear Results</button>
+        <div id="results"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>Expected Behavior</h2>
+        <div class="test-result info">
+            ✓ API returns 98 timeline events<br>
+            ✓ Timeline tab loads events when clicked<br>
+            ✓ Events are sorted by date (most recent first)<br>
+            ✓ Statistics show correct counts<br>
+            ✓ No JavaScript console errors
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Browser Console Check</h2>
+        <p>After opening the main app and clicking Timeline tab, paste this in browser console:</p>
+        <pre>console.log('Timeline data loaded:', timelineData?.length || 0, 'events');
+console.log('Filtered data:', filteredTimelineData?.length || 0, 'events');
+console.log('Container HTML length:', document.getElementById('timeline-events')?.innerHTML?.length || 0);</pre>
+    </div>
+
+    <script>
+        function addResult(message, type = 'info') {
+            const resultsDiv = document.getElementById('results');
+            const resultDiv = document.createElement('div');
+            resultDiv.className = `test-result ${type}`;
+            resultDiv.innerHTML = message;
+            resultsDiv.appendChild(resultDiv);
+        }
+
+        function clearResults() {
+            document.getElementById('results').innerHTML = '';
+        }
+
+        async function testAPI() {
+            clearResults();
+            addResult('Testing API endpoint /api/timeline...', 'info');
+
+            try {
+                const response = await fetch('http://localhost:8081/api/timeline');
+
+                if (!response.ok) {
+                    addResult(`❌ API returned status ${response.status}`, 'error');
+                    return;
+                }
+
+                const data = await response.json();
+
+                if (!data.events) {
+                    addResult('❌ API response missing "events" field', 'error');
+                    addResult(`Response: <pre>${JSON.stringify(data, null, 2)}</pre>`, 'error');
+                    return;
+                }
+
+                const eventCount = data.events.length;
+
+                if (eventCount === 98) {
+                    addResult(`✅ API test PASSED: ${eventCount} events returned`, 'success');
+                } else {
+                    addResult(`⚠️ API returned ${eventCount} events (expected 98)`, 'error');
+                }
+
+                // Check first event structure
+                if (data.events.length > 0) {
+                    const firstEvent = data.events[0];
+                    const hasRequiredFields = firstEvent.date && firstEvent.title && firstEvent.category;
+
+                    if (hasRequiredFields) {
+                        addResult('✅ Event structure is valid', 'success');
+                        addResult(`Sample event: ${firstEvent.title} (${firstEvent.date})`, 'info');
+                    } else {
+                        addResult('❌ Event structure is invalid', 'error');
+                        addResult(`<pre>${JSON.stringify(firstEvent, null, 2)}</pre>`, 'error');
+                    }
+                }
+
+                // Category breakdown
+                const categories = data.events.reduce((acc, event) => {
+                    acc[event.category] = (acc[event.category] || 0) + 1;
+                    return acc;
+                }, {});
+
+                addResult(`Event categories: ${JSON.stringify(categories, null, 2)}`, 'info');
+
+            } catch (error) {
+                addResult(`❌ API test FAILED: ${error.message}`, 'error');
+                console.error('API test error:', error);
+            }
+        }
+    </script>
+</body>
+</html>

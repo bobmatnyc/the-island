@@ -1,0 +1,271 @@
+{
+  "generated_at": "2025-11-17T04:36:47.399896",
+  "analysis_timestamp": "2025-11-26 13:33:20.744141",
+  "total_documents": 38177,
+  "indexed_documents": 1,
+  "missing_documents": 38177,
+  "missing_percentage": 100.0,
+  "source_breakdown": {
+    "house_oversight_nov2025": 37469,
+    "fbi_vault": 21,
+    "404media": 319,
+    "courtlistener_giuffre_maxwell": 358,
+    "doj_official": 1,
+    "house_oversight_sept2024": 4,
+    "documentcloud": 3,
+    "raw_entities": 1,
+    "giuffre_maxwell": 1
+  },
+  "sample_missing_documents": [
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00003657.pdf",
+      "size": 358418,
+      "hash": "0af96fe7072ac0214f3b577b6052ce75538e3808bf5b79b883edad9d5b2da98c"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00028114.pdf",
+      "size": 12142,
+      "hash": "86c0842c03dbc54b3b6482e811ec01b861ecdf4fc5fd0e630135c5fd83b9ed1c"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00023544.pdf",
+      "size": 340392,
+      "hash": "4a9b75ce6c44d8aaade19c25be3fb0e64efde74007bce7e70aacf81a833ef870"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00019451.pdf",
+      "size": 733710,
+      "hash": "b687a05ccd21b976f4f247f7ea9bc5f33aad9359b16c646db6310818ea5ec7e8"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00020588.pdf",
+      "size": 392858,
+      "hash": "5a96dacfa33bdc963e7d5e67a707e685f85d7d1677d4b47fd844f2646b3d7df6"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/__MACOSX/epstein-pdf/._DOJ-OGR-00030443.pdf",
+      "size": 282,
+      "hash": "961792ef84c01b8a2729044f5eb83fcedce2d5670e90673a4e344372f3554903"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00020007.pdf",
+      "size": 657514,
+      "hash": "9b201832312e7122883196a95fda86173673f075c9831b9e0295bd0b27576c7c"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00023813.pdf",
+      "size": 6876,
+      "hash": "401eb2be86d003ee420096b8c99cd91357b88fd2384ab8dd84ff6d47a003a5da"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00015217.pdf",
+      "size": 49612,
+      "hash": "cee14c29e515d06056f0d28a9af6fc36ded06d5bfcc138d4bce28b02acef89bb"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00017796.pdf",
+      "size": 562588,
+      "hash": "359df8854918e50338b61c1c7d1736d94e4b9a007802328c16da053546757391"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00025024.pdf",
+      "size": 695471,
+      "hash": "615a75f5eb1cebdd929208d92c97aa7f103094058dcd337e283986b2b6ad9876"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032755.pdf",
+      "size": 444585,
+      "hash": "bcb0eb0ca34f8cea78170e0a8eff02d9e6d69c6d89204a032f7d871d4af4e2c6"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00000578.pdf",
+      "size": 601130,
+      "hash": "b9f2eabe05e645ec2018d6b6cff0f2d1c81b54cf3c03f5099504e6ca6d766e48"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00025583.pdf",
+      "size": 420174,
+      "hash": "f2338e31c9feee8057b4a65cfa5207f680abd154caeecbd3f8e77452bb5ce9d2"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00021140.pdf",
+      "size": 667479,
+      "hash": "8263f3507a2a764cd0466606d03a55d3893246083b5c18216514e707c2c0fe02"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00025258.pdf",
+      "size": 518164,
+      "hash": "10b46207ec6d0dd24bcc92f90b9d932939010d70c2aaa3f329313130bd2a6a57"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00002525.pdf",
+      "size": 763140,
+      "hash": "3f88b3c100a4350c07313c3ecf40abe104d1db8e40802ccf9eb323cc7c56b45c"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00027631.pdf",
+      "size": 696199,
+      "hash": "dd1115c2228138c52a7fdeb6aa8581456a5a1c9f5afb70c4d1a35288c4d49491"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00003892.pdf",
+      "size": 755845,
+      "hash": "98873d3bff002eaef0e3a3fd8eac54cbca963bbb6e7a95b4bf05cf564c8112e2"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032786.pdf",
+      "size": 268217,
+      "hash": "cd0b87d725970d3cc625ee5f1dd005a37af5a073c21aaa8127d147ac797adf28"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00010932.pdf",
+      "size": 303091,
+      "hash": "af9c939c020e75148519529a927bbeac83eeb75d32bd20bd7012cca6f2232a71"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/__MACOSX/epstein-pdf/._DOJ-OGR-00030573.pdf",
+      "size": 282,
+      "hash": "6d0aed302d54ffa3cc63f3a4ac6be9bcbde11cb9daeec70d02bb9130961b5c31"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/__MACOSX/epstein-pdf/._DOJ-OGR-00020727.pdf",
+      "size": 282,
+      "hash": "a0628774c97c94a4a154181f932bcc26d7235c1d185eb52ee2ab64b0640de23a"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00020545.pdf",
+      "size": 1415395,
+      "hash": "263d712a672c2ed2f0389ee87f050458fbce4fa28d5df3bc468a1ae5a476ac6d"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00000368.pdf",
+      "size": 647164,
+      "hash": "f24fad02e2dacf7de18508594702a710f77e2e37574712899005d3efba099680"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00006716.pdf",
+      "size": 696684,
+      "hash": "9348dda9eeb6eded80331f2acef1ec62ce75e5ee1364a2d2598e09860e8771d5"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00014083.pdf",
+      "size": 595442,
+      "hash": "2f8d191f08b1b547c393ad18e89a707e02f5ad71a69a7391738d111a41cb0a7c"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/__MACOSX/epstein-pdf/._DOJ-OGR-00023359.pdf",
+      "size": 282,
+      "hash": "94e632e4277eab49e1dad8a98929a90cea220332bff87e30194a11b590b3e8ad"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00026358.pdf",
+      "size": 346114,
+      "hash": "f3ca3930b711dc1bd371f187e47890c699a46b48cbadbe8d1e14ecc4f5a82e8c"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00009108.pdf",
+      "size": 380087,
+      "hash": "c69fdeea002f8af53a17b474f83600ee5f401fc226a762fb9731d968fc3242d3"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/__MACOSX/epstein-pdf/._DOJ-OGR-00015073.pdf",
+      "size": 282,
+      "hash": "ddf3ad70e3b973368616620834e825b2487f3ffd9f08b938540b1fde6c3379ca"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00022201.pdf",
+      "size": 24953,
+      "hash": "72d7c4339fa7ae727d5ee360a22a002bf99194f83a24af2edf97d698d959676a"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00007216.pdf",
+      "size": 627340,
+      "hash": "e87e5e05753e9ad998187816a710d218d7be8eaecf48719fdfce2b5740010abf"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00004612.pdf",
+      "size": 1003918,
+      "hash": "a8d62c7b3081fa98da023b0e977cb96e17ac6704f39dc7f85305b5ef16ffed46"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00006805.pdf",
+      "size": 814827,
+      "hash": "c94e0c2786c5d8382bf1ab27e19a39fd8532b993bd000d03720bc4c76eacca1f"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00021350.pdf",
+      "size": 996529,
+      "hash": "dfa6a336160179022514f2e7c8a55a8f28fc1334639dc38c5e34af2b05b76e72"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00020074.pdf",
+      "size": 449015,
+      "hash": "43d3f82cd20ed5d2495b119cd45e40aca0ed18da8c3b3fc24381151e7e2bbf81"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00004489.pdf",
+      "size": 1318635,
+      "hash": "43daeb3629800f83cee7d0fc53f207f5c7c4f27397c74c2cc504224d005ed047"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00022051.pdf",
+      "size": 181794,
+      "hash": "d8d9063dbb8f67b3884123dce61c6427a1027672c794fdcc333eb40746115284"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00005624.pdf",
+      "size": 408363,
+      "hash": "3f9bcd408c4b3a155dca3ea6057b7a33c1ab28c3c5e8652e02cd3cf6c38e7e9f"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00009434.pdf",
+      "size": 474795,
+      "hash": "e70820564f76ff191f0b506f7138a591c598984873fe9c098a1a21e534b26023"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/__MACOSX/epstein-pdf/._DOJ-OGR-00014282.pdf",
+      "size": 282,
+      "hash": "9edbd3188cdcad527fa130a32b783755d1bd8f351daff48b93976970f5ee2169"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/__MACOSX/epstein-pdf/._DOJ-OGR-00011837.pdf",
+      "size": 282,
+      "hash": "2b2e6193a3405dfd2ccece785aefce6b6f7e9e4350d45f214d7ed1b81ae49732"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00014840.pdf",
+      "size": 663540,
+      "hash": "3b108f2fa101efb2e22e8e17223f0800379b69bc8797e4f68e9a3d150a3378e6"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00000018.pdf",
+      "size": 652463,
+      "hash": "1557ae83be2525bd388e274779b14ac2272a8464a2a30363c4c15b22eca93e53"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00018120.pdf",
+      "size": 557837,
+      "hash": "f38801b88bf1ee8b0a54bdd92fbbce804a47e79a9f5eeb9143d7fb3e9a7d3c19"
+    },
+    {
+      "path": "data/sources/fbi_vault/jeffrey_epstein_part_07.pdf",
+      "size": 343768,
+      "hash": "4616e5a507f8eff4ae279fb180d67cc21d33d18bcf29b56990577b6f9d6d50da"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/__MACOSX/epstein-pdf/._DOJ-OGR-00014075.pdf",
+      "size": 282,
+      "hash": "90a774c2dceb22dad8a19cfdce80e0c8f8e3ce3c4a3aa16e5bd013e1d70540ee"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00018834.pdf",
+      "size": 450571,
+      "hash": "cabcfe7dde3e5ca2dce3ab45284d33a14666c4f6da7dc0e5614595c3aafad40e"
+    },
+    {
+      "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00010014.pdf",
+      "size": 443636,
+      "hash": "2d58d05a395f54284aa96b7ff272e28d2a52f9d188fc74395a0b7d412df02bd6"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015857",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015857.txt",
+  "text": "Complexity & Chaos 167\n\nTRY THE PUZZLE ON THE WEB\nWarning: Don’t spend too long on these problems.\n\nThe reason I warned you not to spend too long is that solving the\n50-city problem would take longer than the age of the known universe.\nNP problems get harder very fast as the number of elements goes up. A\n50-city problem is hugely larger than a five-city problem, not just ten\ntimes harder.\n\nThe Clay Mathematics Institute has offered a $1 million prize for\nanyone who can say whether NP problems are really as hard as they\nappear. It may be there is a general trick or a series of tricks that allow\nyou to solve any NP problem in a shorter time. If you could do this, the\nproblem would be demoted to P, allowing fast computers to tackle it. No\none has yet found a proof of the P=NP problem. At the time of writing\nseveral proofs are sitting with the Clay Prize judges but don’t hold your\nbreath. Most people assume there is no solution. If you want to have a\ncrack at the problem let me state it in simple terms.\n\nMarplent\n\nbo\n\nrr\n\nH\n\nH\no\n\nTraveling Salesman\n\nLS lac\noo\n\nHOUSE_OVERSIGHT_015857",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015857.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1095,
+    "word_count": 206,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:46.604078",
+    "prefix": "IMAGES-003"
+  }
+}

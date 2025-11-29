@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_032263",
+  "filename": "TEXT-002-HOUSE_OVERSIGHT_032263.txt",
+  "text": "From: Michael Wolff \nSent: 5/25/2016 11:05:51 AM \nTo: Jeffrey Epstein [jeeyacation@gmail.com] \nSubject: Trump \nImportance: High \nI'm interviewing him this afternoon. Anything you think I should ask? \nHOUSE OVERSIGHT 032263",
+  "metadata": {
+    "original_filename": "TEXT-002-HOUSE_OVERSIGHT_032263.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 222,
+    "word_count": 29,
+    "line_count": 7,
+    "import_date": "2025-11-19T21:47:48.780099",
+    "prefix": "TEXT-002"
+  }
+}

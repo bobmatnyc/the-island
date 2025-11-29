@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_024296",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_024296.txt",
+  "text": "F Se\n\nIf x42 + 16 = 0, then what is x?\n\n===) Dave Clark, studied Mathematics at Queens’ College, Cambridge\n\n[math]x*2 + 16 = o[/math]\n[math]\\therefore x*2 = -16[/math]\n[math]\\therefore x = \\pm \\sqrt{-16}[/math]\n\nNegative numbers have no square roots in the real numbers, so if you are looking for real values\nonly then there are no solutions. If we are looking for complex values too ...\n\nRead More »\n\nAs a flight attendant, what is the most disrespectful thing a passenger has ever\nrequested from you?\n\nSusan Brown, Flight Attendant\n\nNn 6\nUpdated Jan 2\nUpdated Ja\n\nI once had a strange passenger that asked me to go and check the “toilet” for her, before she\nwent in.\n\nI asked her why she wanted me to check the lavatory FOR HER. She tol...\n\nRead More »\n\nHOUSE_OVERSIGHT_024296",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_024296.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 778,
+    "word_count": 139,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:44.502958",
+    "prefix": "IMAGES-007"
+  }
+}

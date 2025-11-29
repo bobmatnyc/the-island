@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_024227",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_024227.txt",
+  "text": "Global Utility White Paper CONFIDENTIAL\n\ne §=Utility Value Chain\n\nThe electricity value chain for a modern day fully integrated utility consists of Generation + Transmission\n+ Distribution + Customers (see diagram below). Each segment of the value chain is a different business,\nwith distinct risks and economic drivers. Competition has surfaced in each part of the value chain other\nthan transmission and distribution (which are fully-regulated assets as they are deemed to be natural\nmonopolies). Still, regulators have learned to bring indirect competition even to monopoly-regulated\nbusinesses by encouraging returns based on efficiency improvements or benchmarking to comparable\ncompanies.\n\nBasic Structure of the Electric System\n\nSubtransmission\nCustomer\n26kV and 69kV\n\nTransmission Lines\n500, 345, 230, and 138 kV\n\nSubstation\nStep-Down\nTransformer\n\nPrimary Customer\nT3KV and 4 kV\n\nGenerator Step Transmission\nUp Transformer Customer\n\nGenerating Station\n\n138kV or 230kV\nSecondary Customer\n120V and 240V\nSource: US Department of Energy\n26 Electron Capital Partners, LLC\n\nHOUSE_OVERSIGHT_024227",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_024227.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1098,
+    "word_count": 154,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:46.072461",
+    "prefix": "IMAGES-007"
+  }
+}

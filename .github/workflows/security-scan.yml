@@ -1,0 +1,146 @@
+# Security Vulnerability Scanning Workflow
+# Runs automated security checks on dependencies for Python and Node.js
+# Fails build on high/critical vulnerabilities
+
+name: Security Scan
+
+on:
+  # Run on pull requests
+  pull_request:
+    branches: [ main, develop ]
+  # Run on pushes to main
+  push:
+    branches: [ main ]
+  # Weekly scheduled scan (Monday 2am UTC)
+  schedule:
+    - cron: '0 2 * * 1'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  # Python Security Scan (Backend)
+  python-security:
+    name: Python Dependencies Security Scan
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        directory: ['server', 'scripts/ingestion']
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install pip-audit
+        run: |
+          python -m pip install --upgrade pip
+          pip install pip-audit
+
+      - name: Run pip-audit security scan
+        working-directory: ./${{ matrix.directory }}
+        run: |
+          echo "🔍 Scanning Python dependencies in ${{ matrix.directory }}..."
+          pip-audit --requirement requirements.txt --desc --format json > security-report.json || true
+          pip-audit --requirement requirements.txt --desc
+
+      - name: Check for critical vulnerabilities
+        working-directory: ./${{ matrix.directory }}
+        run: |
+          # Fail if high or critical vulnerabilities found
+          if pip-audit --requirement requirements.txt --vulnerability-service osv --strict; then
+            echo "✅ No critical vulnerabilities found"
+          else
+            echo "❌ Critical or high severity vulnerabilities detected!"
+            exit 1
+          fi
+
+      - name: Upload security report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-security-report-${{ matrix.directory }}
+          path: ${{ matrix.directory }}/security-report.json
+          retention-days: 30
+
+  # Node.js Security Scan (Frontend)
+  nodejs-security:
+    name: Node.js Dependencies Security Scan
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: ./frontend
+        run: npm ci
+
+      - name: Run npm audit
+        working-directory: ./frontend
+        run: |
+          echo "🔍 Scanning Node.js dependencies..."
+          npm audit --json > security-report.json || true
+          npm audit
+
+      - name: Check for critical vulnerabilities
+        working-directory: ./frontend
+        run: |
+          # Fail if high or critical vulnerabilities found
+          # npm audit --audit-level=high will exit 1 if high/critical found
+          if npm audit --audit-level=high; then
+            echo "✅ No critical vulnerabilities found"
+          else
+            echo "❌ Critical or high severity vulnerabilities detected!"
+            exit 1
+          fi
+
+      - name: Upload security report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nodejs-security-report
+          path: frontend/security-report.json
+          retention-days: 30
+
+  # Combined Security Summary
+  security-summary:
+    name: Security Scan Summary
+    needs: [python-security, nodejs-security]
+    runs-on: ubuntu-latest
+    if: always()
+
+    steps:
+      - name: Check scan results
+        run: |
+          echo "## Security Scan Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ needs.python-security.result }}" == "success" ]; then
+            echo "✅ Python dependencies: No critical vulnerabilities" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Python dependencies: Critical vulnerabilities found" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ "${{ needs.nodejs-security.result }}" == "success" ]; then
+            echo "✅ Node.js dependencies: No critical vulnerabilities" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Node.js dependencies: Critical vulnerabilities found" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "📊 Full security reports available in workflow artifacts" >> $GITHUB_STEP_SUMMARY
+
+      - name: Fail if any scan failed
+        if: needs.python-security.result != 'success' || needs.nodejs-security.result != 'success'
+        run: |
+          echo "Security scan failed - please review vulnerability reports"
+          exit 1

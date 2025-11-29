@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015700",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015700.txt",
+  "text": "Steve Wozniak\n\n“Machines will run the world,\nhumans will become idle pets.”\n\nSteve Wozniak\n\nHOUSE_OVERSIGHT_015700",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015700.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 114,
+    "word_count": 15,
+    "line_count": 8,
+    "import_date": "2025-11-19T21:47:47.840333",
+    "prefix": "IMAGES-003"
+  }
+}

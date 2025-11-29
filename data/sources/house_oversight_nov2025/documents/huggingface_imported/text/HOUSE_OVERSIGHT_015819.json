@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015819",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015819.txt",
+  "text": "ouldan army of monkeys write Hamlet by bashing away randomly\n\non typewriters? Of course, we don't mean this literally. We are\n\nasking whether knowledge can be created without understanding.\nCan a monkey, or perhaps some form of computerized random number\ngenerator, accidentally type out the script for Shakespeare's Hamlet\nor write Tolstoy’s War and Peace? Is knowledge generation simply a\nnumbers game?\n\nLeo Tolstoy’s War and Peace is generally assumed to be the longest\nnovel ever written. This is not quite true. Wikipedia reckons the longest\nnovel is a French book, Artamene, with over 2.1 million words. Tolstoy\ncomes in sixteenth, with a mere half million!\n\nWritten in 1869, War and Peace tells the story of five Russian families\nduring the Napoleonic wars. Originally written in a mixture of Russian\nand French, and numbering over 500,000 words, it was quickly translated\nto other languages. The mistress of composer Franz Liszt translated it\nfully into French, where it expands to 550,000 words. Contrary to popular\nmyth the length of the book drops slightly in German. If you really want\nto save paper Chinese is best. Because\nit uses a single symbol per word, the\nChinese translation needs only 750,000\ncharacters compared with the 3 million\nfor English. It is wrong to assume this\nis necessarily more efficient than a\nphonetic language. Although it might\nsave on paper, it is considerably more\nlaborious to write. Three strokes are\nrequired to write ‘war in English\nwhereas the Chinese pictogram\nrequires ten.\n\nComputers work with numbers. It is a simple process to translate\na book into numbers because books are composed of discrete symbols.\nAll we need do is give each symbol a unique number and record those\nnumbers in digital format. Artistic works involving pictures and sound\nare more difficult to represent because they are continuous in nature. We\nhave to digitize them first. With music or painting this inevitably means\nsome loss of information as we can’t cut a sound or image into an infinite\nnumber of pieces.\n\nThe modern standard for translating text to numbers is Unicode.\nEach character is represented by a five-digit number ranging from 1\nto 64,000 — two bytes for those of you who know computing. This is\n\nWar in Chinese\n\nHOUSE_OVERSIGHT_015819",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015819.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2275,
+    "word_count": 375,
+    "line_count": 50,
+    "import_date": "2025-11-19T21:47:49.145440",
+    "prefix": "IMAGES-003"
+  }
+}

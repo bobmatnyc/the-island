@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025670",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025670.txt",
+  "text": "Investment oldman\nSoc\nManagement\n\nHow Do Miners Process Individual Transactions? Division\n\nIllustrative Schematic of a Bitcoin Transaction\n\nStep 2: Miners Verify the Transfer Request and add Step 3: Block Containing Bob and Alice’s\n\nStemi Beb wants teipay Alice 05 Bie it to the next block Transaction is Added to the Blockchain\n\nVv\nBob Alice\ne Bob owns 1BTC Vv\nBob wants to pay\nSavio baron transaction ee transaction Alice 0.5BTC | vy\nin which Bob was\nDoes Bob have\npaid 1 BTC 0.5BTC??\n\nBob has 1BTC\n\nRecord Bob’s\nSipe eee | Eee tee\n\nto Alice\n\n1) Before sending any bitcoins, Bob must hold bitcoins\noa . : Bob wants to pay\nin his wallet from a previous transaction (or by Alice 0.65BTC\nsolving a block to earn the mining reward).\n\nBob wants to pay\nslice S.SE0C 1) Miner B happens to be the first to solve this block\nDoes Bob have ii and adds it to the blockchain. Miner B collects 12.5-\n\n0.5BTC?? os\ny bitcoin reward.\n\nDoes Bob have\n0.5BTC??\n\n2) Bob creates a new transaction in which he pays 0.5\n\nBUG fori BTC be.sAlices Record Bob’s 2) If Bob’s transaction is included the block, Alice\n\nOB aueter becomes the owner of 0.5 BTC, which will register\nin her wallet.\n\nRecord Bob’s\n0.5BTC Transfer\n\n3) Bob broadcasts this transaction to the network for to Alice\nvalidation and inclusion in the blockchain.\n\n= Consensus transaction validation creates a book of record for all transactions that have ever occurred.\n— Transactions may only occur if they are supported by evidence from previous transactions.\n\n— To send bitcoins, an owner’s wallet uses its private key to prove ownership of the referenced bitcoins.\n\n« Transaction processing typically take 10-20 minutes, but can take up to 18 hours if the network is congested.\n\nSource: Investment Strategy Group. 7\n\nHOUSE_OVERSIGHT_025670",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025670.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1783,
+    "word_count": 305,
+    "line_count": 66,
+    "import_date": "2025-11-19T21:47:48.979310",
+    "prefix": "IMAGES-008"
+  }
+}

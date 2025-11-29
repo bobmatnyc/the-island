@@ -1,0 +1,117 @@
+{
+  "timestamp": "2025-11-18T09:56:21.419916",
+  "original_file": "/Users/masa/Projects/epstein/data/metadata/entity_biographies.json",
+  "backup_file": "/Users/masa/Projects/epstein/data/metadata/entity_biographies.backup_20251118_095621.json",
+  "conversions": [
+    {
+      "from": "Jeffrey Epstein",
+      "to": "Epstein, Jeffrey",
+      "changed": true
+    },
+    {
+      "from": "Ghislaine Maxwell",
+      "to": "Maxwell, Ghislaine",
+      "changed": true
+    },
+    {
+      "from": "Sarah Kellen",
+      "to": "Kellen, Sarah",
+      "changed": true
+    },
+    {
+      "from": "Emmy Tayler",
+      "to": "Tayler, Emmy",
+      "changed": true
+    },
+    {
+      "from": "Nadia Marcinkova",
+      "to": "Marcinkova, Nadia",
+      "changed": true
+    },
+    {
+      "from": "Larry Visoski",
+      "to": "Visoski, Larry",
+      "changed": true
+    },
+    {
+      "from": "William Clinton",
+      "to": "Clinton, William",
+      "changed": true
+    },
+    {
+      "from": "Les Wexner",
+      "to": "Wexner, Les",
+      "changed": true
+    },
+    {
+      "from": "Prince Andrew",
+      "to": "Andrew, Prince",
+      "changed": true
+    },
+    {
+      "from": "Virginia Giuffre",
+      "to": "Giuffre, Virginia",
+      "changed": true
+    },
+    {
+      "from": "Doug Band",
+      "to": "Band, Doug",
+      "changed": true
+    },
+    {
+      "from": "Alan Dershowitz",
+      "to": "Dershowitz, Alan",
+      "changed": true
+    },
+    {
+      "from": "Bill Richardson",
+      "to": "Richardson, Bill",
+      "changed": true
+    },
+    {
+      "from": "Glenn Dubin",
+      "to": "Dubin, Glenn",
+      "changed": true
+    },
+    {
+      "from": "Jean-Luc Brunel",
+      "to": "Brunel, Jean-Luc",
+      "changed": true
+    },
+    {
+      "from": "Chris Tucker",
+      "to": "Tucker, Chris",
+      "changed": true
+    },
+    {
+      "from": "Kevin Spacey",
+      "to": "Spacey, Kevin",
+      "changed": true
+    },
+    {
+      "from": "Marvin Minsky",
+      "to": "Minsky, Marvin",
+      "changed": true
+    },
+    {
+      "from": "George Mitchell",
+      "to": "Mitchell, George",
+      "changed": true
+    },
+    {
+      "from": "Adriana Ross",
+      "to": "Ross, Adriana",
+      "changed": true
+    },
+    {
+      "from": "Lesley Groff",
+      "to": "Groff, Lesley",
+      "changed": true
+    }
+  ],
+  "summary": {
+    "total_biographies": 21,
+    "names_converted": 21,
+    "names_unchanged": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015948",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015948.txt",
+  "text": "258 Are the Androids Dreaming Yet?\n\nthis argument, but music is much easier to analyze. It is linear, highly\nmathematical and largely uniform by culture and language. Yet it is\nuniversally appreciated. Is music a computational or a creative endeavor?\n\nIs Music Computable\n\nTo prove a piece of music is non-computable requires two tests. First to\nshow we can ‘reduce’ it to a problem that is already non-computable and,\nsecond, to demonstrate it ‘looks like’ or ‘sounds like’ a piece of music. An\naccountant would say it needs to pass ‘the smell test’.\n\nThe first non-computable problem to be studied in depth was\nEmil Post’s Word Problem. Post was a contemporary of Alan Turing\nand studied at the Institute of Advanced Mathematics in Princeton. He\nsolved the Halting Problem six months before Turing, but his proof used\na complex recursive method called the lambda calculus. Turing’s method\nwas far more practical, which is why we now refer to Turing machines\nrather than Post machines. Later in his career, Post came up with a\nbranch of non-computable mathematics called ‘Post Problems. They\nlook like a puzzle you might find in a newspaper. Imagine starting with\nthe word ‘camel’ and being asked to turn it into ‘aardvark, using only a\nfew simple rules. We'll make the problem very easy to start with: cam\n© aard and el ovark. This solution is obvious; just do the substitutions\nand you are there. But what if the rules were a little more complex?\nGennadii Makanin, a Russian mathematician based at the University of\nMoscow, found a set of extremely simple puzzles that are nevertheless\nnon-computable. Here is one:\n\n{“CCBB” <> “BBCC”, “BCCCBB” <>\n“CBBBCC”, “ACCBB” <> “BBA? “ABCCCBB”\n© “CBBA’, “BBCCBBBBCC” <>\n“BBCCBBBBCCA’}\n\nWord Problem\n\nCan a computer tell us which word problems have a solution and\nwhich do not? The answer is ‘no. Word substitution puzzles are a class\nof non-computable problem. Martin Davis proved this in 1948. Using\na reduction argument we can use these word problems to prove some\nmusic is also non-computable.\n\nHOUSE_OVERSIGHT_015948",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015948.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2063,
+    "word_count": 342,
+    "line_count": 44,
+    "import_date": "2025-11-19T21:47:44.230160",
+    "prefix": "IMAGES-003"
+  }
+}

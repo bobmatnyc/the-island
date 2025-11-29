@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027231",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027231.txt",
+  "text": "Time: 04/09/17 08:12:43 AM (513443563)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 1F6C2A9C-46D7-4FC5-9CFF-6969F8FBBOF3\n\nMessage: Thank u soo much.\n\nHOUSE_OVERSIGHT_027231",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027231.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 181,
+    "word_count": 21,
+    "line_count": 11,
+    "import_date": "2025-11-19T21:47:44.353886",
+    "prefix": "IMAGES-009"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015703",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015703.txt",
+  "text": "Mind over Computer 13\n\nBrain Image of Fish Hunting Prey\n\nwidely distributed in the brain than was first thought. Conscious seeing\nis based in the visual cortex, but there are older pathways still active in\nthe brain that facilitate this unconscious seeing.\n\nThe brain is very plastic. Lose your sight through damage to the eye\nor optic nerve, and the brain can repurpose the visual cortex to other\nuses such as processing sound or touch. Daniel Kish has developed this\nto such a high level that he can ride a bicycle despite being blind. He\nclicks his tongue against the roof of his mouth and uses echolocation\nto form an auditory model of the world around him. Using a similar\napproach, Amir Amedi from the Hebrew University of Jerusalem has\nbuilt an audio imager that turns pictures of the world into musical sound\npatterns. CAT scans of people using this system show they use the visual\ncortex to convert these sound images into models of the world in similar\nparts of the brain to a sighted person.\n\nWe now know roughly what each part of the brain does, but we\nhave no idea how it does it. The scale of an individual thought is too\nsmall to see in a brain scan. All we can do is observe large-scale electrical\nactivity associated with those thoughts. A video, from a group at Tokyo\nUniversity, shows an example of electrical activity filmed in real time\nas a fish hunts for its prey. Fish have transparent bodies and thin skulls\nfacilitating this sort of imaging. Humans are much harder subjects to\nwork with!\n\nThe most popular theory to explain how brains work is as some form\nof computer. Computers are easy to study because we manufacture them.\nThey tend to crash quite frequently — usually at the most inconvenient\n\nHOUSE_OVERSIGHT_015703",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015703.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1746,
+    "word_count": 307,
+    "line_count": 34,
+    "import_date": "2025-11-19T21:47:47.485479",
+    "prefix": "IMAGES-003"
+  }
+}

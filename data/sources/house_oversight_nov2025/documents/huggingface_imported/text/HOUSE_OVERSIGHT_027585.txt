@@ -1,0 +1,70 @@
+Source — H\Macintosh HD\ root \Users\jee\Library\Messages\Archive\2019-03-07\ fil
+
+6n 2019-03-05 at. 07.24.58. ichat
+
+Service: iMessag
+
+Start Time: 03/05/19 04:24:58 AM (573481498)
+End Time: 03/07/19 04:42:39 AM (573655359)
+Last Message ID: 25878
+
+Chat Room:
+
+Participants: jcc,
+
+Presentity IDs: e:jeeitunes@gmail.com, po
+
+Messages -
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 03/05/19 04:24:58 AM (573481498)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: O089B50E6-73A3-4211-B69D-FDCE1B862F00
+
+Message: Miro here. Ws suprised that the European parliament seemed to fall off
+your radar
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 03/05/19 12:27:34 PM (573510454)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: 387B6311-2Al1F-493D-A495-E838B53220D9
+
+Message: Day breakfast with miro if you like
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 03/05/19 12:27:43 PM (573510463)
+Flags: 1150981
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: D10AC903-3B73-4A24-9995-FBA486518F9C
+
+Message: Saturday
+
+Time: 03/05/19 12:28:51 PM (573510531)
+Flags: 1060865
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 612BAF66-CCB7-4AE9-902C-700BB87CE48D
+
+Message: Japan
+
+HOUSE_OVERSIGHT_027585

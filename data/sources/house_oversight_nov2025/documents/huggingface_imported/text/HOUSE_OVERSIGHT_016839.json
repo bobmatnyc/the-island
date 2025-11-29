@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016839",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016839.txt",
+  "text": "In 2005, George Dyson, a historian of science and technology, visited Google at the\ninvitation of some Google engineers. The occasion was the sixtieth anniversary of John\nvon Neumann's proposal for a digital computer. After the visit, George wrote an essay,\n“Turing’s Cathedral,” which, for the first time, alerted the public about what Google 's\nfounders had in store for the world. “We are not scanning all those books to be read by\npeople,” explained one of his hosts after his talk. “We are scanning them to be read by\nan Al.”\n\nGeorge offers a counternarrative to the digital age. His interests have included\nthe development of the Aleut kayak, the evolution of digital computing and\ntelecommunications, the origins of the digital universe, and a path not taken into space.\nHis career (he never finished high school, yet has been awarded an honorary doctorate\njrom the University of Victoria) has proved as impossible to classify as his books.\n\nHe likes to point out that analog computing, once believed to be as extinct as the\ndifferential analyzer, has returned. He argues that while we may use digital components,\nat a certain point the analog computing being performed by the system far exceeds the\ncomplexity of the digital code with which it is built. He believes that true artificial\nintelligence—with analog control systems emerging from a digital substrate the way\ndigital computers emerged out of analog components in the aftermath of World War II—\nmay not be as far off as we think.\n\nIn this essay, George contemplates the distinction between analog and digital\ncomputation and finds analog to be alive and well. Nature’s response to an attempt to\nprogram machines to control everything may be machines without programming over\nwhich no one has control.\n\n36\n\nHOUSE_OVERSIGHT_016839",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016839.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1796,
+    "word_count": 295,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:47.473631",
+    "prefix": "IMAGES-004"
+  }
+}

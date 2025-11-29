@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011007",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011007.txt",
+  "text": "acceleration = free acceleration + thrift acceleration. (4.5b)\n\nRates are flows divided by capital expressing them. Then define the two flows as\n\nfree growth = capital * freeacceleration, and (4.8)\nthrift = capital * thriftacceleration, giving (4.9)\ngrowth = free growth + thrift. (4.10)\n\nThese equations apply equally in continuous or discrete-period time. In the latter,\nthey leave the periods of acceleration and growth unspecified. Marginal or current\nfree growth, as with the speed ofa car, is the sum of free accelerations since some\npast origin when growth was zero. So it is with current thrift. That need not place\nthe origin with Ancestral Eve. Surprising as it might seem in the growth age, zero\npoints appear to recur every few minutes at the longest. Online stock index numbers\nreverse direction at least that often. They pass through zero each time. Debt claims\non the corporate sector figure to be less volatile, but equity (stock) ones outweigh\nthem. Then marginal free growth means accumulated free acceleration, or rise in\nrate of return, since the last zero growth point no more than a few minutes ago\nwhen return and cash flow were equal. Growth is free whenever cash flow rate rises\n\nor holds steady.\n\nThe Charts and Tables\n\nMill lacked data to test whether growth tends to lead with output when it changes,\nor to lag with consumption, or something else. So did all economists until national\naccounts began reporting market-valued capital in 1990 or so, and reconstructing it\nbackward over a few decades before. The equations through (4.7) show how to test\n\nfrom data in the Piketty-Zucman and Global Financial Data websites.\n\nFirst | downloaded the Piketty-Zucman data for market-valued capital and\n\nconsumption for all countries and periods. | chose their “private wealth” data for the\n\nChapter 4 Mill’s Idea 1/11/16 16\n\nHOUSE_OVERSIGHT_011007",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011007.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1866,
+    "word_count": 303,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:45.326242",
+    "prefix": "IMAGES-001"
+  }
+}

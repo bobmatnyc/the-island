@@ -1,0 +1,52 @@
+Fed =< Invoice Number: 4-447-80862
+2 Invoice Date: Nov 18, 2002
+Account Number: 1144-2081-6
+Page: 5 of 14
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 06, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 8
+Tracking D 837657308265 Sender Recipient
+Service Type FedEx Priority Overnight GHISLAINE MAXWELL L NDA STONE
+Package Type FedEx Pak JEFFREY E EPSTEIN Po
+Zone 8 457 MADISON AVE «SY
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Nov 07, 2002 09:41 Transportation Charge 25.75
+SvcRrea = Discount -258
+Signed by JK RCHNER Fuel Surcharge 093
+FedEx Use  312167510/01618/_ ———————— EE SSOSSXmXs——SXNmvmXnsSSXmvmvXvnw—nl_l_—l—l_l——————————s
+Total Transportation Charges USD $ 24.10
+Picked up: Nov 06, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 3
+Release signature on file.
+Tracking D 837657308276 Sender Recipient
+Service Type FedEx Priority Overnight GHISAINE MAXWELL HENRY ROSOVSKY
+Package Type FedEx Pak JEFFREY E EPSTEIN HARVARD UNIVERSITY
+Zone 3 457 MADISON AVE
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 1.0 Ibs, 0.5 kgs =
+Delivered Nov 07, 2002 10 00 Transportation Charge 17.75 =
+Sve Area Al Discount 178 =
+Signed by M.MAXWEL Fuel Surcharge 04 =
+FedEx Use 312164050/01508/02 Residential Delivery 135 =
+Total Transportation Charges USD $ 17.96 ==
+Dropped off: Nov 07, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 7
+Package sent from: 87505 zip code
+Release signature on file.
+Tracking D 827487048451 Sender Recipient
+Service Type FedEx Standard Overnight KATE G MAXWELL
+Package Type Customer Packaging JEFFREY E EPSTEIN ZORRO
+Zone da 457 MADISON AVE 358 EL BRLLO
+Packages 1 NEW YORK NY 10022-6843 US PALM BEACH FL 33480 US
+Weight 3.0 Ibs, 1.4 kgs
+Delivered Nov 08, 2002 10 54 Transportation Charge 28 00
+SvcAtea = AA Discount -2.80
+Signed by M.AXWELL1 Fuel Surcharge 101
+FedEx Use 313016020/01393/02 Residential Delivery 135
+Total Transportation Charges USD $ 27.56
+SDNY_GM_00340702 40
+DOJ-OGR-00015349

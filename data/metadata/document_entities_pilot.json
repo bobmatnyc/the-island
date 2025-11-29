@@ -1,0 +1,2061 @@
+{
+  "extraction_metadata": {
+    "total_documents": 33561,
+    "documents_processed": 99,
+    "documents_failed": 1,
+    "total_entities_found": 438,
+    "unique_entities": 133,
+    "extraction_date": "2025-11-28T21:34:42.170130+00:00",
+    "model": "mistralai/ministral-8b",
+    "total_cost": "$0.01",
+    "total_tokens_used": 72796,
+    "total_api_calls": 99,
+    "entity_type_counts": {
+      "person": 50,
+      "organization": 58,
+      "location": 25
+    },
+    "start_time": "2025-11-28T21:31:30.937322+00:00",
+    "end_time": "2025-11-28T21:34:42.170137+00:00"
+  },
+  "entities": {
+    "david oscar markus": {
+      "name": "David Oscar Markus",
+      "type": "person",
+      "normalized_name": "david oscar markus",
+      "mention_count": 4,
+      "document_sources": [
+        "DOJ-OGR-00000001",
+        "DOJ-OGR-00000031",
+        "DOJ-OGR-00000034",
+        "DOJ-OGR-00000061"
+      ],
+      "first_seen": "DOJ-OGR-00000001",
+      "name_variations": [
+        "David Oscar Markus"
+      ]
+    },
+    "united states of america": {
+      "name": "United States of America",
+      "type": "organization",
+      "normalized_name": "united states of america",
+      "mention_count": 6,
+      "document_sources": [
+        "DOJ-OGR-00000001",
+        "DOJ-OGR-00000028",
+        "DOJ-OGR-00000029",
+        "DOJ-OGR-00000032",
+        "DOJ-OGR-00000034",
+        "DOJ-OGR-00000064"
+      ],
+      "first_seen": "DOJ-OGR-00000001",
+      "name_variations": [
+        "United States of America"
+      ]
+    },
+    "washington dc": {
+      "name": "Washington, D.C.",
+      "type": "location",
+      "normalized_name": "washington dc",
+      "mention_count": 3,
+      "document_sources": [
+        "DOJ-OGR-00000001",
+        "DOJ-OGR-00000032",
+        "DOJ-OGR-00000034"
+      ],
+      "first_seen": "DOJ-OGR-00000001",
+      "name_variations": [
+        "Washington, D.C."
+      ]
+    },
+    "miami florida": {
+      "name": "Miami, Florida",
+      "type": "location",
+      "normalized_name": "miami florida",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000001"
+      ],
+      "first_seen": "DOJ-OGR-00000001",
+      "name_variations": [
+        "Miami, Florida"
+      ]
+    },
+    "ghislaine maxwell": {
+      "name": "Ghislaine Maxwell",
+      "type": "person",
+      "normalized_name": "ghislaine maxwell",
+      "mention_count": 11,
+      "document_sources": [
+        "DOJ-OGR-00000002",
+        "DOJ-OGR-00000004",
+        "DOJ-OGR-00000006",
+        "DOJ-OGR-00000028",
+        "DOJ-OGR-00000029",
+        "DOJ-OGR-00000036",
+        "DOJ-OGR-00000043",
+        "DOJ-OGR-00000045",
+        "DOJ-OGR-00000064",
+        "DOJ-OGR-00000066",
+        "DOJ-OGR-00000067"
+      ],
+      "first_seen": "DOJ-OGR-00000002",
+      "name_variations": [
+        "Ghislaine Maxwell"
+      ]
+    },
+    "united states": {
+      "name": "United States",
+      "type": "organization",
+      "normalized_name": "united states",
+      "mention_count": 23,
+      "document_sources": [
+        "DOJ-OGR-00000002",
+        "DOJ-OGR-00000007",
+        "DOJ-OGR-00000015",
+        "DOJ-OGR-00000022",
+        "DOJ-OGR-00000036",
+        "DOJ-OGR-00000040",
+        "DOJ-OGR-00000041",
+        "DOJ-OGR-00000043",
+        "DOJ-OGR-00000044",
+        "DOJ-OGR-00000045",
+        "DOJ-OGR-00000048",
+        "DOJ-OGR-00000049",
+        "DOJ-OGR-00000053",
+        "DOJ-OGR-00000054",
+        "DOJ-OGR-00000056",
+        "DOJ-OGR-00000058",
+        "DOJ-OGR-00000079",
+        "DOJ-OGR-00000080",
+        "DOJ-OGR-00000094",
+        "DOJ-OGR-00000096",
+        "DOJ-OGR-00000097",
+        "DOJ-OGR-00000099",
+        "DOJ-OGR-00000100"
+      ],
+      "first_seen": "DOJ-OGR-00000002",
+      "name_variations": [
+        "United States",
+        "United States Attorney"
+      ]
+    },
+    "new york": {
+      "name": "New York",
+      "type": "location",
+      "normalized_name": "new york",
+      "mention_count": 6,
+      "document_sources": [
+        "DOJ-OGR-00000002",
+        "DOJ-OGR-00000023",
+        "DOJ-OGR-00000028",
+        "DOJ-OGR-00000043",
+        "DOJ-OGR-00000049",
+        "DOJ-OGR-00000082"
+      ],
+      "first_seen": "DOJ-OGR-00000002",
+      "name_variations": [
+        "New York"
+      ]
+    },
+    "jeffrey epstein": {
+      "name": "Jeffrey Epstein",
+      "type": "person",
+      "normalized_name": "jeffrey epstein",
+      "mention_count": 53,
+      "document_sources": [
+        "DOJ-OGR-00000003",
+        "DOJ-OGR-00000005",
+        "DOJ-OGR-00000006",
+        "DOJ-OGR-00000007",
+        "DOJ-OGR-00000010",
+        "DOJ-OGR-00000011",
+        "DOJ-OGR-00000012",
+        "DOJ-OGR-00000013",
+        "DOJ-OGR-00000024",
+        "DOJ-OGR-00000025",
+        "DOJ-OGR-00000027",
+        "DOJ-OGR-00000030",
+        "DOJ-OGR-00000032",
+        "DOJ-OGR-00000033",
+        "DOJ-OGR-00000035",
+        "DOJ-OGR-00000037",
+        "DOJ-OGR-00000043",
+        "DOJ-OGR-00000044",
+        "DOJ-OGR-00000045",
+        "DOJ-OGR-00000046",
+        "DOJ-OGR-00000047",
+        "DOJ-OGR-00000050",
+        "DOJ-OGR-00000052",
+        "DOJ-OGR-00000055",
+        "DOJ-OGR-00000059",
+        "DOJ-OGR-00000060",
+        "DOJ-OGR-00000063",
+        "DOJ-OGR-00000065",
+        "DOJ-OGR-00000066",
+        "DOJ-OGR-00000067",
+        "DOJ-OGR-00000068",
+        "DOJ-OGR-00000069",
+        "DOJ-OGR-00000071",
+        "DOJ-OGR-00000072",
+        "DOJ-OGR-00000073",
+        "DOJ-OGR-00000077",
+        "DOJ-OGR-00000084",
+        "DOJ-OGR-00000085",
+        "DOJ-OGR-00000086",
+        "DOJ-OGR-00000087",
+        "DOJ-OGR-00000088",
+        "DOJ-OGR-00000089",
+        "DOJ-OGR-00000090",
+        "DOJ-OGR-00000091",
+        "DOJ-OGR-00000092",
+        "DOJ-OGR-00000093",
+        "DOJ-OGR-00000094",
+        "DOJ-OGR-00000095",
+        "DOJ-OGR-00000096",
+        "DOJ-OGR-00000097",
+        "DOJ-OGR-00000098",
+        "DOJ-OGR-00000099",
+        "DOJ-OGR-00000100"
+      ],
+      "first_seen": "DOJ-OGR-00000003",
+      "name_variations": [
+        "Jeffrey Epstein"
+      ]
+    },
+    "fbi": {
+      "name": "FBI",
+      "type": "organization",
+      "normalized_name": "fbi",
+      "mention_count": 39,
+      "document_sources": [
+        "DOJ-OGR-00000003",
+        "DOJ-OGR-00000007",
+        "DOJ-OGR-00000009",
+        "DOJ-OGR-00000011",
+        "DOJ-OGR-00000013",
+        "DOJ-OGR-00000016",
+        "DOJ-OGR-00000023",
+        "DOJ-OGR-00000024",
+        "DOJ-OGR-00000030",
+        "DOJ-OGR-00000033",
+        "DOJ-OGR-00000035",
+        "DOJ-OGR-00000037",
+        "DOJ-OGR-00000040",
+        "DOJ-OGR-00000046",
+        "DOJ-OGR-00000047",
+        "DOJ-OGR-00000050",
+        "DOJ-OGR-00000052",
+        "DOJ-OGR-00000054",
+        "DOJ-OGR-00000055",
+        "DOJ-OGR-00000059",
+        "DOJ-OGR-00000063",
+        "DOJ-OGR-00000065",
+        "DOJ-OGR-00000069",
+        "DOJ-OGR-00000070",
+        "DOJ-OGR-00000077",
+        "DOJ-OGR-00000078",
+        "DOJ-OGR-00000081",
+        "DOJ-OGR-00000082",
+        "DOJ-OGR-00000085",
+        "DOJ-OGR-00000087",
+        "DOJ-OGR-00000088",
+        "DOJ-OGR-00000089",
+        "DOJ-OGR-00000090",
+        "DOJ-OGR-00000091",
+        "DOJ-OGR-00000092",
+        "DOJ-OGR-00000093",
+        "DOJ-OGR-00000094",
+        "DOJ-OGR-00000097",
+        "DOJ-OGR-00000098"
+      ],
+      "first_seen": "DOJ-OGR-00000003",
+      "name_variations": [
+        "FBI"
+      ]
+    },
+    "little st james": {
+      "name": "Little St James",
+      "type": "location",
+      "normalized_name": "little st james",
+      "mention_count": 21,
+      "document_sources": [
+        "DOJ-OGR-00000003",
+        "DOJ-OGR-00000013",
+        "DOJ-OGR-00000016",
+        "DOJ-OGR-00000030",
+        "DOJ-OGR-00000032",
+        "DOJ-OGR-00000033",
+        "DOJ-OGR-00000035",
+        "DOJ-OGR-00000037",
+        "DOJ-OGR-00000040",
+        "DOJ-OGR-00000050",
+        "DOJ-OGR-00000052",
+        "DOJ-OGR-00000063",
+        "DOJ-OGR-00000065",
+        "DOJ-OGR-00000069",
+        "DOJ-OGR-00000077",
+        "DOJ-OGR-00000078",
+        "DOJ-OGR-00000088",
+        "DOJ-OGR-00000091",
+        "DOJ-OGR-00000093",
+        "DOJ-OGR-00000097",
+        "DOJ-OGR-00000098"
+      ],
+      "first_seen": "DOJ-OGR-00000003",
+      "name_variations": [
+        "Little St James",
+        "Little St. James"
+      ]
+    },
+    "andrew rohrbach": {
+      "name": "Andrew Rohrbach",
+      "type": "person",
+      "normalized_name": "andrew rohrbach",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Andrew Rohrbach"
+      ]
+    },
+    "maurene comey": {
+      "name": "Maurene Comey",
+      "type": "person",
+      "normalized_name": "maurene comey",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Maurene Comey"
+      ]
+    },
+    "alison moe": {
+      "name": "Alison Moe",
+      "type": "person",
+      "normalized_name": "alison moe",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Alison Moe"
+      ]
+    },
+    "lara pomerantz": {
+      "name": "Lara Pomerantz",
+      "type": "person",
+      "normalized_name": "lara pomerantz",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Lara Pomerantz"
+      ]
+    },
+    "won s shin": {
+      "name": "Won S. Shin",
+      "type": "person",
+      "normalized_name": "won s shin",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Won S. Shin"
+      ]
+    },
+    "damian williams": {
+      "name": "Damian Williams",
+      "type": "person",
+      "normalized_name": "damian williams",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Damian Williams"
+      ]
+    },
+    "diana fabi samson": {
+      "name": "Diana Fabi Samson",
+      "type": "person",
+      "normalized_name": "diana fabi samson",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Diana Fabi Samson"
+      ]
+    },
+    "arthur l aidala": {
+      "name": "Arthur L. Aidala",
+      "type": "person",
+      "normalized_name": "arthur l aidala",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Arthur L. Aidala"
+      ]
+    },
+    "john m leventhal": {
+      "name": "John M. Leventhal",
+      "type": "person",
+      "normalized_name": "john m leventhal",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "John M. Leventhal"
+      ]
+    },
+    "aidala bertuna kamins pc": {
+      "name": "Aidala Bertuna & Kamins PC",
+      "type": "organization",
+      "normalized_name": "aidala bertuna kamins pc",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Aidala Bertuna & Kamins PC"
+      ]
+    },
+    "alison j nathan": {
+      "name": "Alison J. Nathan",
+      "type": "person",
+      "normalized_name": "alison j nathan",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000004",
+        "DOJ-OGR-00000066"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Alison J. Nathan"
+      ]
+    },
+    "southern district of new york": {
+      "name": "Southern District of New York",
+      "type": "location",
+      "normalized_name": "southern district of new york",
+      "mention_count": 7,
+      "document_sources": [
+        "DOJ-OGR-00000004",
+        "DOJ-OGR-00000005",
+        "DOJ-OGR-00000045",
+        "DOJ-OGR-00000047",
+        "DOJ-OGR-00000048",
+        "DOJ-OGR-00000054",
+        "DOJ-OGR-00000058"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "Southern District of New York"
+      ]
+    },
+    "new york ny": {
+      "name": "New York, NY",
+      "type": "location",
+      "normalized_name": "new york ny",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000004"
+      ],
+      "first_seen": "DOJ-OGR-00000004",
+      "name_variations": [
+        "New York, NY"
+      ]
+    },
+    "usao-sdfl": {
+      "name": "USAO-SDFL",
+      "type": "organization",
+      "normalized_name": "usao-sdfl",
+      "mention_count": 7,
+      "document_sources": [
+        "DOJ-OGR-00000005",
+        "DOJ-OGR-00000010",
+        "DOJ-OGR-00000027",
+        "DOJ-OGR-00000068",
+        "DOJ-OGR-00000071",
+        "DOJ-OGR-00000073",
+        "DOJ-OGR-00000086"
+      ],
+      "first_seen": "DOJ-OGR-00000005",
+      "name_variations": [
+        "USAO-SDFL"
+      ]
+    },
+    "usao-sdny": {
+      "name": "USAO-SDNY",
+      "type": "organization",
+      "normalized_name": "usao-sdny",
+      "mention_count": 8,
+      "document_sources": [
+        "DOJ-OGR-00000005",
+        "DOJ-OGR-00000010",
+        "DOJ-OGR-00000014",
+        "DOJ-OGR-00000027",
+        "DOJ-OGR-00000067",
+        "DOJ-OGR-00000071",
+        "DOJ-OGR-00000073",
+        "DOJ-OGR-00000075"
+      ],
+      "first_seen": "DOJ-OGR-00000005",
+      "name_variations": [
+        "USAO-SDNY"
+      ]
+    },
+    "maxwell": {
+      "name": "Maxwell",
+      "type": "person",
+      "normalized_name": "maxwell",
+      "mention_count": 27,
+      "document_sources": [
+        "DOJ-OGR-00000005",
+        "DOJ-OGR-00000007",
+        "DOJ-OGR-00000008",
+        "DOJ-OGR-00000009",
+        "DOJ-OGR-00000010",
+        "DOJ-OGR-00000015",
+        "DOJ-OGR-00000017",
+        "DOJ-OGR-00000018",
+        "DOJ-OGR-00000019",
+        "DOJ-OGR-00000020",
+        "DOJ-OGR-00000021",
+        "DOJ-OGR-00000023",
+        "DOJ-OGR-00000025",
+        "DOJ-OGR-00000026",
+        "DOJ-OGR-00000027",
+        "DOJ-OGR-00000038",
+        "DOJ-OGR-00000041",
+        "DOJ-OGR-00000048",
+        "DOJ-OGR-00000049",
+        "DOJ-OGR-00000068",
+        "DOJ-OGR-00000070",
+        "DOJ-OGR-00000071",
+        "DOJ-OGR-00000075",
+        "DOJ-OGR-00000078",
+        "DOJ-OGR-00000081",
+        "DOJ-OGR-00000083",
+        "DOJ-OGR-00000085"
+      ],
+      "first_seen": "DOJ-OGR-00000005",
+      "name_variations": [
+        "Maxwell"
+      ]
+    },
+    "district court": {
+      "name": "District Court",
+      "type": "organization",
+      "normalized_name": "district court",
+      "mention_count": 13,
+      "document_sources": [
+        "DOJ-OGR-00000005",
+        "DOJ-OGR-00000008",
+        "DOJ-OGR-00000009",
+        "DOJ-OGR-00000015",
+        "DOJ-OGR-00000018",
+        "DOJ-OGR-00000020",
+        "DOJ-OGR-00000021",
+        "DOJ-OGR-00000026",
+        "DOJ-OGR-00000027",
+        "DOJ-OGR-00000070",
+        "DOJ-OGR-00000080",
+        "DOJ-OGR-00000085",
+        "DOJ-OGR-00000086"
+      ],
+      "first_seen": "DOJ-OGR-00000005",
+      "name_variations": [
+        "District Court"
+      ]
+    },
+    "southern district of florida": {
+      "name": "Southern District of Florida",
+      "type": "location",
+      "normalized_name": "southern district of florida",
+      "mention_count": 7,
+      "document_sources": [
+        "DOJ-OGR-00000005",
+        "DOJ-OGR-00000012",
+        "DOJ-OGR-00000044",
+        "DOJ-OGR-00000046",
+        "DOJ-OGR-00000058",
+        "DOJ-OGR-00000059",
+        "DOJ-OGR-00000072"
+      ],
+      "first_seen": "DOJ-OGR-00000005",
+      "name_variations": [
+        "Southern District of Florida"
+      ]
+    },
+    "usao-sdel": {
+      "name": "USAO-SDEL",
+      "type": "organization",
+      "normalized_name": "usao-sdel",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000006"
+      ],
+      "first_seen": "DOJ-OGR-00000006",
+      "name_variations": [
+        "USAO-SDEL"
+      ]
+    },
+    "sarah kellen": {
+      "name": "Sarah Kellen",
+      "type": "person",
+      "normalized_name": "sarah kellen",
+      "mention_count": 4,
+      "document_sources": [
+        "DOJ-OGR-00000007",
+        "DOJ-OGR-00000025",
+        "DOJ-OGR-00000068",
+        "DOJ-OGR-00000085"
+      ],
+      "first_seen": "DOJ-OGR-00000007",
+      "name_variations": [
+        "Sarah Kellen"
+      ]
+    },
+    "adriana ross": {
+      "name": "Adriana Ross",
+      "type": "person",
+      "normalized_name": "adriana ross",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000007",
+        "DOJ-OGR-00000068"
+      ],
+      "first_seen": "DOJ-OGR-00000007",
+      "name_variations": [
+        "Adriana Ross"
+      ]
+    },
+    "lesley groff": {
+      "name": "Lesley Groff",
+      "type": "person",
+      "normalized_name": "lesley groff",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000007",
+        "DOJ-OGR-00000068"
+      ],
+      "first_seen": "DOJ-OGR-00000007",
+      "name_variations": [
+        "Lesley Groff"
+      ]
+    },
+    "nadia marcinkova": {
+      "name": "Nadia Marcinkova",
+      "type": "person",
+      "normalized_name": "nadia marcinkova",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000007",
+        "DOJ-OGR-00000068"
+      ],
+      "first_seen": "DOJ-OGR-00000007",
+      "name_variations": [
+        "Nadia Marcinkova"
+      ]
+    },
+    "florida statutes": {
+      "name": "Florida Statutes",
+      "type": "organization",
+      "normalized_name": "florida statutes",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000007"
+      ],
+      "first_seen": "DOJ-OGR-00000007",
+      "name_variations": [
+        "Florida Statutes"
+      ]
+    },
+    "doj-ogr-00000007": {
+      "name": "DOJ-OGR-00000007",
+      "type": "organization",
+      "normalized_name": "doj-ogr-00000007",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000007"
+      ],
+      "first_seen": "DOJ-OGR-00000007",
+      "name_variations": [
+        "DOJ-OGR-00000007"
+      ]
+    },
+    "juror 50": {
+      "name": "Juror 50",
+      "type": "person",
+      "normalized_name": "juror 50",
+      "mention_count": 6,
+      "document_sources": [
+        "DOJ-OGR-00000008",
+        "DOJ-OGR-00000009",
+        "DOJ-OGR-00000018",
+        "DOJ-OGR-00000020",
+        "DOJ-OGR-00000070",
+        "DOJ-OGR-00000080"
+      ],
+      "first_seen": "DOJ-OGR-00000008",
+      "name_variations": [
+        "Juror 50"
+      ]
+    },
+    "government": {
+      "name": "Government",
+      "type": "organization",
+      "normalized_name": "government",
+      "mention_count": 5,
+      "document_sources": [
+        "DOJ-OGR-00000008",
+        "DOJ-OGR-00000038",
+        "DOJ-OGR-00000051",
+        "DOJ-OGR-00000053",
+        "DOJ-OGR-00000075"
+      ],
+      "first_seen": "DOJ-OGR-00000008",
+      "name_variations": [
+        "Government"
+      ]
+    },
+    "doj": {
+      "name": "DOJ",
+      "type": "organization",
+      "normalized_name": "doj",
+      "mention_count": 12,
+      "document_sources": [
+        "DOJ-OGR-00000008",
+        "DOJ-OGR-00000017",
+        "DOJ-OGR-00000026",
+        "DOJ-OGR-00000045",
+        "DOJ-OGR-00000055",
+        "DOJ-OGR-00000056",
+        "DOJ-OGR-00000060",
+        "DOJ-OGR-00000076",
+        "DOJ-OGR-00000083",
+        "DOJ-OGR-00000094",
+        "DOJ-OGR-00000096",
+        "DOJ-OGR-00000097"
+      ],
+      "first_seen": "DOJ-OGR-00000008",
+      "name_variations": [
+        "DOJ"
+      ]
+    },
+    "united states 's office": {
+      "name": "United States Attorney's Office",
+      "type": "organization",
+      "normalized_name": "united states 's office",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000011"
+      ],
+      "first_seen": "DOJ-OGR-00000011",
+      "name_variations": [
+        "United States Attorney's Office"
+      ]
+    },
+    "united states s manual": {
+      "name": "United States Attorney\u2019s Manual",
+      "type": "organization",
+      "normalized_name": "united states s manual",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000012"
+      ],
+      "first_seen": "DOJ-OGR-00000012",
+      "name_variations": [
+        "United States Attorney\u2019s Manual"
+      ]
+    },
+    "annabi": {
+      "name": "Annabi",
+      "type": "person",
+      "normalized_name": "annabi",
+      "mention_count": 3,
+      "document_sources": [
+        "DOJ-OGR-00000014",
+        "DOJ-OGR-00000038",
+        "DOJ-OGR-00000075"
+      ],
+      "first_seen": "DOJ-OGR-00000014",
+      "name_variations": [
+        "Annabi"
+      ]
+    },
+    "department of justice": {
+      "name": "Department of Justice",
+      "type": "organization",
+      "normalized_name": "department of justice",
+      "mention_count": 3,
+      "document_sources": [
+        "DOJ-OGR-00000014",
+        "DOJ-OGR-00000047",
+        "DOJ-OGR-00000075"
+      ],
+      "first_seen": "DOJ-OGR-00000014",
+      "name_variations": [
+        "Department of Justice"
+      ]
+    },
+    "jane": {
+      "name": "Jane",
+      "type": "person",
+      "normalized_name": "jane",
+      "mention_count": 6,
+      "document_sources": [
+        "DOJ-OGR-00000016",
+        "DOJ-OGR-00000022",
+        "DOJ-OGR-00000076",
+        "DOJ-OGR-00000080",
+        "DOJ-OGR-00000082",
+        "DOJ-OGR-00000083"
+      ],
+      "first_seen": "DOJ-OGR-00000016",
+      "name_variations": [
+        "Jane"
+      ]
+    },
+    "2003": {
+      "name": "2003",
+      "type": "location",
+      "normalized_name": "2003",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000017"
+      ],
+      "first_seen": "DOJ-OGR-00000017",
+      "name_variations": [
+        "2003"
+      ]
+    },
+    "fed r crim p": {
+      "name": "Fed. R. Crim. P.",
+      "type": "organization",
+      "normalized_name": "fed r crim p",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000018"
+      ],
+      "first_seen": "DOJ-OGR-00000018",
+      "name_variations": [
+        "Fed. R. Crim. P."
+      ]
+    },
+    "2d cir": {
+      "name": "2d Cir.",
+      "type": "organization",
+      "normalized_name": "2d cir",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000018",
+        "DOJ-OGR-00000079"
+      ],
+      "first_seen": "DOJ-OGR-00000018",
+      "name_variations": [
+        "2d Cir."
+      ]
+    },
+    "mcdonough power equipment inc": {
+      "name": "McDonough Power Equipment, Inc.",
+      "type": "organization",
+      "normalized_name": "mcdonough power equipment inc",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000019",
+        "DOJ-OGR-00000079"
+      ],
+      "first_seen": "DOJ-OGR-00000019",
+      "name_variations": [
+        "McDonough Power Equipment, Inc."
+      ]
+    },
+    "greenwood": {
+      "name": "Greenwood",
+      "type": "person",
+      "normalized_name": "greenwood",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000019"
+      ],
+      "first_seen": "DOJ-OGR-00000019",
+      "name_variations": [
+        "Greenwood"
+      ]
+    },
+    "supreme court": {
+      "name": "Supreme Court",
+      "type": "organization",
+      "normalized_name": "supreme court",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000019",
+        "DOJ-OGR-00000079"
+      ],
+      "first_seen": "DOJ-OGR-00000019",
+      "name_variations": [
+        "Supreme Court"
+      ]
+    },
+    "federal rule of evidence 606b": {
+      "name": "Federal Rule of Evidence 606(b)",
+      "type": "organization",
+      "normalized_name": "federal rule of evidence 606b",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000020"
+      ],
+      "first_seen": "DOJ-OGR-00000020",
+      "name_variations": [
+        "Federal Rule of Evidence 606(b)"
+      ]
+    },
+    "grand jury clause": {
+      "name": "Grand Jury Clause",
+      "type": "organization",
+      "normalized_name": "grand jury clause",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000021"
+      ],
+      "first_seen": "DOJ-OGR-00000021",
+      "name_variations": [
+        "Grand Jury Clause"
+      ]
+    },
+    "new mexico": {
+      "name": "New Mexico",
+      "type": "location",
+      "normalized_name": "new mexico",
+      "mention_count": 5,
+      "document_sources": [
+        "DOJ-OGR-00000021",
+        "DOJ-OGR-00000024",
+        "DOJ-OGR-00000080",
+        "DOJ-OGR-00000081",
+        "DOJ-OGR-00000084"
+      ],
+      "first_seen": "DOJ-OGR-00000021",
+      "name_variations": [
+        "New Mexico"
+      ]
+    },
+    "second circuit": {
+      "name": "Second Circuit",
+      "type": "location",
+      "normalized_name": "second circuit",
+      "mention_count": 8,
+      "document_sources": [
+        "DOJ-OGR-00000022",
+        "DOJ-OGR-00000038",
+        "DOJ-OGR-00000043",
+        "DOJ-OGR-00000048",
+        "DOJ-OGR-00000049",
+        "DOJ-OGR-00000053",
+        "DOJ-OGR-00000054",
+        "DOJ-OGR-00000058"
+      ],
+      "first_seen": "DOJ-OGR-00000022",
+      "name_variations": [
+        "Second Circuit"
+      ]
+    },
+    "palm beach": {
+      "name": "Palm Beach",
+      "type": "location",
+      "normalized_name": "palm beach",
+      "mention_count": 3,
+      "document_sources": [
+        "DOJ-OGR-00000025",
+        "DOJ-OGR-00000085",
+        "DOJ-OGR-00000087"
+      ],
+      "first_seen": "DOJ-OGR-00000025",
+      "name_variations": [
+        "Palm Beach"
+      ]
+    },
+    "kellen": {
+      "name": "Kellen",
+      "type": "person",
+      "normalized_name": "kellen",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000026"
+      ],
+      "first_seen": "DOJ-OGR-00000026",
+      "name_variations": [
+        "Kellen"
+      ]
+    },
+    "doj-ogr-00000027": {
+      "name": "DOJ-OGR-00000027",
+      "type": "organization",
+      "normalized_name": "doj-ogr-00000027",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000027"
+      ],
+      "first_seen": "DOJ-OGR-00000027",
+      "name_variations": [
+        "DOJ-OGR-00000027"
+      ]
+    },
+    "supreme court of the united states": {
+      "name": "Supreme Court of the United States",
+      "type": "organization",
+      "normalized_name": "supreme court of the united states",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000029"
+      ],
+      "first_seen": "DOJ-OGR-00000029",
+      "name_variations": [
+        "Supreme Court of the United States"
+      ]
+    },
+    "sonia sotomayor": {
+      "name": "Sonia Sotomayor",
+      "type": "person",
+      "normalized_name": "sonia sotomayor",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000029"
+      ],
+      "first_seen": "DOJ-OGR-00000029",
+      "name_variations": [
+        "Sonia Sotomayor"
+      ]
+    },
+    "united states court of appeals for the second circuit": {
+      "name": "United States Court of Appeals for the Second Circuit",
+      "type": "organization",
+      "normalized_name": "united states court of appeals for the second circuit",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000029"
+      ],
+      "first_seen": "DOJ-OGR-00000029",
+      "name_variations": [
+        "United States Court of Appeals for the Second Circuit"
+      ]
+    },
+    "markusmoss pllc": {
+      "name": "MARKUS/MOSS PLLc",
+      "type": "organization",
+      "normalized_name": "markusmoss pllc",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000031"
+      ],
+      "first_seen": "DOJ-OGR-00000031",
+      "name_variations": [
+        "MARKUS/MOSS PLLc"
+      ]
+    },
+    "miami": {
+      "name": "Miami",
+      "type": "location",
+      "normalized_name": "miami",
+      "mention_count": 3,
+      "document_sources": [
+        "DOJ-OGR-00000031",
+        "DOJ-OGR-00000034",
+        "DOJ-OGR-00000061"
+      ],
+      "first_seen": "DOJ-OGR-00000031",
+      "name_variations": [
+        "Miami"
+      ]
+    },
+    "d john sauer": {
+      "name": "D. John Sauer",
+      "type": "person",
+      "normalized_name": "d john sauer",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000032"
+      ],
+      "first_seen": "DOJ-OGR-00000032",
+      "name_variations": [
+        "D. John Sauer"
+      ]
+    },
+    "us department of justice": {
+      "name": "U.S. DEPARTMENT OF JUSTICE",
+      "type": "organization",
+      "normalized_name": "us department of justice",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000032",
+        "DOJ-OGR-00000042"
+      ],
+      "first_seen": "DOJ-OGR-00000032",
+      "name_variations": [
+        "U.S. Department of Justice",
+        "U.S. DEPARTMENT OF JUSTICE"
+      ]
+    },
+    "robyn dorsey": {
+      "name": "Robyn Dorsey",
+      "type": "person",
+      "normalized_name": "robyn dorsey",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000032"
+      ],
+      "first_seen": "DOJ-OGR-00000032",
+      "name_variations": [
+        "Robyn Dorsey"
+      ]
+    },
+    "wilson-epes printing co inc": {
+      "name": "Wilson-Epes Printing Co., Inc.",
+      "type": "organization",
+      "normalized_name": "wilson-epes printing co inc",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000032"
+      ],
+      "first_seen": "DOJ-OGR-00000032",
+      "name_variations": [
+        "Wilson-Epes Printing Co., Inc."
+      ]
+    },
+    "united states s office": {
+      "name": "United States Attorney\u2019s office",
+      "type": "organization",
+      "normalized_name": "united states s office",
+      "mention_count": 3,
+      "document_sources": [
+        "DOJ-OGR-00000038",
+        "DOJ-OGR-00000072",
+        "DOJ-OGR-00000089"
+      ],
+      "first_seen": "DOJ-OGR-00000038",
+      "name_variations": [
+        "United States Attorney\u2019s office",
+        "United States Attorney\u2019s Office"
+      ]
+    },
+    "seventh circuit": {
+      "name": "Seventh Circuit",
+      "type": "organization",
+      "normalized_name": "seventh circuit",
+      "mention_count": 5,
+      "document_sources": [
+        "DOJ-OGR-00000038",
+        "DOJ-OGR-00000049",
+        "DOJ-OGR-00000053",
+        "DOJ-OGR-00000054",
+        "DOJ-OGR-00000058"
+      ],
+      "first_seen": "DOJ-OGR-00000038",
+      "name_variations": [
+        "Seventh Circuit"
+      ]
+    },
+    "immigration and naturalization service": {
+      "name": "Immigration and Naturalization Service",
+      "type": "organization",
+      "normalized_name": "immigration and naturalization service",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000040",
+        "DOJ-OGR-00000053"
+      ],
+      "first_seen": "DOJ-OGR-00000040",
+      "name_variations": [
+        "Immigration and Naturalization Service"
+      ]
+    },
+    "mcdowell": {
+      "name": "McDowell",
+      "type": "person",
+      "normalized_name": "mcdowell",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000041"
+      ],
+      "first_seen": "DOJ-OGR-00000041",
+      "name_variations": [
+        "McDowell"
+      ]
+    },
+    "o'doherty": {
+      "name": "O'Doherty",
+      "type": "person",
+      "normalized_name": "o'doherty",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000041"
+      ],
+      "first_seen": "DOJ-OGR-00000041",
+      "name_variations": [
+        "O'Doherty"
+      ]
+    },
+    "rubbo": {
+      "name": "Rubbo",
+      "type": "person",
+      "normalized_name": "rubbo",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000041"
+      ],
+      "first_seen": "DOJ-OGR-00000041",
+      "name_variations": [
+        "Rubbo"
+      ]
+    },
+    "transfiguracion": {
+      "name": "Transfiguracion",
+      "type": "person",
+      "normalized_name": "transfiguracion",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000041"
+      ],
+      "first_seen": "DOJ-OGR-00000041",
+      "name_variations": [
+        "Transfiguracion"
+      ]
+    },
+    "van thournout": {
+      "name": "Van Thournout",
+      "type": "person",
+      "normalized_name": "van thournout",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000041",
+        "DOJ-OGR-00000056"
+      ],
+      "first_seen": "DOJ-OGR-00000041",
+      "name_variations": [
+        "Van Thournout"
+      ]
+    },
+    "warner": {
+      "name": "Warner",
+      "type": "person",
+      "normalized_name": "warner",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000041",
+        "DOJ-OGR-00000056"
+      ],
+      "first_seen": "DOJ-OGR-00000041",
+      "name_variations": [
+        "Warner"
+      ]
+    },
+    "williams": {
+      "name": "Williams",
+      "type": "person",
+      "normalized_name": "williams",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000041",
+        "DOJ-OGR-00000056"
+      ],
+      "first_seen": "DOJ-OGR-00000041",
+      "name_variations": [
+        "Williams"
+      ]
+    },
+    "doj-ogr-o00000041": {
+      "name": "DOJ-OGR-O00000041",
+      "type": "organization",
+      "normalized_name": "doj-ogr-o00000041",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000041"
+      ],
+      "first_seen": "DOJ-OGR-00000041",
+      "name_variations": [
+        "DOJ-OGR-O00000041"
+      ]
+    },
+    "antonin scalia": {
+      "name": "Antonin Scalia",
+      "type": "person",
+      "normalized_name": "antonin scalia",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000042",
+        "DOJ-OGR-00000057"
+      ],
+      "first_seen": "DOJ-OGR-00000042",
+      "name_variations": [
+        "Antonin Scalia"
+      ]
+    },
+    "bryan a garner": {
+      "name": "Bryan A. Garner",
+      "type": "person",
+      "normalized_name": "bryan a garner",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000042",
+        "DOJ-OGR-00000057"
+      ],
+      "first_seen": "DOJ-OGR-00000042",
+      "name_variations": [
+        "Bryan A. Garner"
+      ]
+    },
+    "justice manual": {
+      "name": "Justice Manual",
+      "type": "organization",
+      "normalized_name": "justice manual",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000042"
+      ],
+      "first_seen": "DOJ-OGR-00000042",
+      "name_variations": [
+        "Justice Manual"
+      ]
+    },
+    "doj-ogr-00000042": {
+      "name": "DOJ-OGR-00000042",
+      "type": "organization",
+      "normalized_name": "doj-ogr-00000042",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000042"
+      ],
+      "first_seen": "DOJ-OGR-00000042",
+      "name_variations": [
+        "DOJ-OGR-00000042"
+      ]
+    },
+    "florida": {
+      "name": "Florida",
+      "type": "location",
+      "normalized_name": "florida",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000045",
+        "DOJ-OGR-00000073"
+      ],
+      "first_seen": "DOJ-OGR-00000045",
+      "name_variations": [
+        "Florida"
+      ]
+    },
+    "office of professional responsibility": {
+      "name": "Office of Professional Responsibility",
+      "type": "organization",
+      "normalized_name": "office of professional responsibility",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000047"
+      ],
+      "first_seen": "DOJ-OGR-00000047",
+      "name_variations": [
+        "Office of Professional Responsibility"
+      ]
+    },
+    "eleventh circuit": {
+      "name": "Eleventh Circuit",
+      "type": "organization",
+      "normalized_name": "eleventh circuit",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000048"
+      ],
+      "first_seen": "DOJ-OGR-00000048",
+      "name_variations": [
+        "Eleventh Circuit"
+      ]
+    },
+    "new jersey": {
+      "name": "New Jersey",
+      "type": "location",
+      "normalized_name": "new jersey",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000049"
+      ],
+      "first_seen": "DOJ-OGR-00000049",
+      "name_variations": [
+        "New Jersey"
+      ]
+    },
+    "united states attorneys": {
+      "name": "United States Attorneys",
+      "type": "person",
+      "normalized_name": "united states attorneys",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000051"
+      ],
+      "first_seen": "DOJ-OGR-00000051",
+      "name_variations": [
+        "United States Attorneys"
+      ]
+    },
+    "third circuit": {
+      "name": "Third Circuit",
+      "type": "organization",
+      "normalized_name": "third circuit",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000051"
+      ],
+      "first_seen": "DOJ-OGR-00000051",
+      "name_variations": [
+        "Third Circuit"
+      ]
+    },
+    "fourth circuit": {
+      "name": "Fourth Circuit",
+      "type": "organization",
+      "normalized_name": "fourth circuit",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000051"
+      ],
+      "first_seen": "DOJ-OGR-00000051",
+      "name_variations": [
+        "Fourth Circuit"
+      ]
+    },
+    "us": {
+      "name": "U.S. Attorney",
+      "type": "organization",
+      "normalized_name": "us",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000053",
+        "DOJ-OGR-00000075"
+      ],
+      "first_seen": "DOJ-OGR-00000053",
+      "name_variations": [
+        "U.S. Attorney"
+      ]
+    },
+    "ins": {
+      "name": "INS",
+      "type": "organization",
+      "normalized_name": "ins",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000054"
+      ],
+      "first_seen": "DOJ-OGR-00000054",
+      "name_variations": [
+        "INS"
+      ]
+    },
+    "district of florida": {
+      "name": "District of Florida",
+      "type": "location",
+      "normalized_name": "district of florida",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000054"
+      ],
+      "first_seen": "DOJ-OGR-00000054",
+      "name_variations": [
+        "District of Florida"
+      ]
+    },
+    "illinois": {
+      "name": "Illinois",
+      "type": "location",
+      "normalized_name": "illinois",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000054"
+      ],
+      "first_seen": "DOJ-OGR-00000054",
+      "name_variations": [
+        "Illinois"
+      ]
+    },
+    "nd ill": {
+      "name": "N.D. Ill.",
+      "type": "location",
+      "normalized_name": "nd ill",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000054"
+      ],
+      "first_seen": "DOJ-OGR-00000054",
+      "name_variations": [
+        "N.D. Ill."
+      ]
+    },
+    "giglio": {
+      "name": "Giglio",
+      "type": "person",
+      "normalized_name": "giglio",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000056"
+      ],
+      "first_seen": "DOJ-OGR-00000056",
+      "name_variations": [
+        "Giglio"
+      ]
+    },
+    "cosby": {
+      "name": "Cosby",
+      "type": "person",
+      "normalized_name": "cosby",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000056"
+      ],
+      "first_seen": "DOJ-OGR-00000056",
+      "name_variations": [
+        "Cosby"
+      ]
+    },
+    "pennsylvania supreme court": {
+      "name": "Pennsylvania Supreme Court",
+      "type": "organization",
+      "normalized_name": "pennsylvania supreme court",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000056"
+      ],
+      "first_seen": "DOJ-OGR-00000056",
+      "name_variations": [
+        "Pennsylvania Supreme Court"
+      ]
+    },
+    "jordan": {
+      "name": "Jordan",
+      "type": "person",
+      "normalized_name": "jordan",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000056"
+      ],
+      "first_seen": "DOJ-OGR-00000056",
+      "name_variations": [
+        "Jordan"
+      ]
+    },
+    "doj-ogr-00000057": {
+      "name": "DOJ-OGR-00000057",
+      "type": "organization",
+      "normalized_name": "doj-ogr-00000057",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000057"
+      ],
+      "first_seen": "DOJ-OGR-00000057",
+      "name_variations": [
+        "DOJ-OGR-00000057"
+      ]
+    },
+    "ninth circuit": {
+      "name": "Ninth Circuit",
+      "type": "organization",
+      "normalized_name": "ninth circuit",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000058"
+      ],
+      "first_seen": "DOJ-OGR-00000058",
+      "name_variations": [
+        "Ninth Circuit"
+      ]
+    },
+    "moss pllc": {
+      "name": "Moss PLLC",
+      "type": "organization",
+      "normalized_name": "moss pllc",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000061"
+      ],
+      "first_seen": "DOJ-OGR-00000061",
+      "name_variations": [
+        "Moss PLLC"
+      ]
+    },
+    "united states district court for the southern district of new york": {
+      "name": "United States District Court for the Southern District of New York",
+      "type": "location",
+      "normalized_name": "united states district court for the southern district of new york",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000064",
+        "DOJ-OGR-00000066"
+      ],
+      "first_seen": "DOJ-OGR-00000064",
+      "name_variations": [
+        "United States District Court for the Southern District of New York"
+      ]
+    },
+    "jose a cabranes": {
+      "name": "Jose A. Cabranes",
+      "type": "person",
+      "normalized_name": "jose a cabranes",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000066"
+      ],
+      "first_seen": "DOJ-OGR-00000066",
+      "name_variations": [
+        "Jose A. Cabranes"
+      ]
+    },
+    "united states s office for the southern district of new york": {
+      "name": "United States Attorney\u2019s Office for the Southern District of New York",
+      "type": "organization",
+      "normalized_name": "united states s office for the southern district of new york",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000066"
+      ],
+      "first_seen": "DOJ-OGR-00000066",
+      "name_variations": [
+        "United States Attorney\u2019s Office for the Southern District of New York"
+      ]
+    },
+    "united states s office for the southern district of florida": {
+      "name": "United States Attorney\u2019s Office for the Southern District of Florida",
+      "type": "organization",
+      "normalized_name": "united states s office for the southern district of florida",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000066"
+      ],
+      "first_seen": "DOJ-OGR-00000066",
+      "name_variations": [
+        "United States Attorney\u2019s Office for the Southern District of Florida"
+      ]
+    },
+    "doj-ogr-00000066": {
+      "name": "DOJ-OGR-00000066",
+      "type": "organization",
+      "normalized_name": "doj-ogr-00000066",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000066"
+      ],
+      "first_seen": "DOJ-OGR-00000066",
+      "name_variations": [
+        "DOJ-OGR-00000066"
+      ]
+    },
+    "doj-ogr-00000067": {
+      "name": "DOJ-OGR-00000067",
+      "type": "organization",
+      "normalized_name": "doj-ogr-00000067",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000067"
+      ],
+      "first_seen": "DOJ-OGR-00000067",
+      "name_variations": [
+        "DOJ-OGR-00000067"
+      ]
+    },
+    "doj-ogr-00000068": {
+      "name": "DOJ-OGR-00000068",
+      "type": "organization",
+      "normalized_name": "doj-ogr-00000068",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000068"
+      ],
+      "first_seen": "DOJ-OGR-00000068",
+      "name_variations": [
+        "DOJ-OGR-00000068"
+      ]
+    },
+    "federal bureau of investigation": {
+      "name": "Federal Bureau of Investigation",
+      "type": "organization",
+      "normalized_name": "federal bureau of investigation",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000072"
+      ],
+      "first_seen": "DOJ-OGR-00000072",
+      "name_variations": [
+        "Federal Bureau of Investigation"
+      ]
+    },
+    "district of new jersey": {
+      "name": "District of New Jersey",
+      "type": "location",
+      "normalized_name": "district of new jersey",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000072"
+      ],
+      "first_seen": "DOJ-OGR-00000072",
+      "name_variations": [
+        "District of New Jersey"
+      ]
+    },
+    "district of new mexico": {
+      "name": "District of New Mexico",
+      "type": "location",
+      "normalized_name": "district of new mexico",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000072"
+      ],
+      "first_seen": "DOJ-OGR-00000072",
+      "name_variations": [
+        "District of New Mexico"
+      ]
+    },
+    "assistant general for the criminal division": {
+      "name": "Assistant Attorney General for the Criminal Division",
+      "type": "person",
+      "normalized_name": "assistant general for the criminal division",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000073"
+      ],
+      "first_seen": "DOJ-OGR-00000073",
+      "name_variations": [
+        "Assistant Attorney General for the Criminal Division"
+      ]
+    },
+    "general": {
+      "name": "Attorney General",
+      "type": "person",
+      "normalized_name": "general",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000075"
+      ],
+      "first_seen": "DOJ-OGR-00000075",
+      "name_variations": [
+        "Attorney General"
+      ]
+    },
+    "doj-ogr-00000075": {
+      "name": "DOJ-OGR-00000075",
+      "type": "organization",
+      "normalized_name": "doj-ogr-00000075",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000075"
+      ],
+      "first_seen": "DOJ-OGR-00000075",
+      "name_variations": [
+        "DOJ-OGR-00000075"
+      ]
+    },
+    "ferguson": {
+      "name": "Ferguson",
+      "type": "person",
+      "normalized_name": "ferguson",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000079"
+      ],
+      "first_seen": "DOJ-OGR-00000079",
+      "name_variations": [
+        "Ferguson"
+      ]
+    },
+    "moon": {
+      "name": "Moon",
+      "type": "person",
+      "normalized_name": "moon",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000079"
+      ],
+      "first_seen": "DOJ-OGR-00000079",
+      "name_variations": [
+        "Moon"
+      ]
+    },
+    "gambino": {
+      "name": "Gambino",
+      "type": "person",
+      "normalized_name": "gambino",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000079"
+      ],
+      "first_seen": "DOJ-OGR-00000079",
+      "name_variations": [
+        "Gambino"
+      ]
+    },
+    "doj-ogr-00000079": {
+      "name": "DOJ-OGR-00000079",
+      "type": "organization",
+      "normalized_name": "doj-ogr-00000079",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000079"
+      ],
+      "first_seen": "DOJ-OGR-00000079",
+      "name_variations": [
+        "DOJ-OGR-00000079"
+      ]
+    },
+    "usaosdny": {
+      "name": "USAOSDNY",
+      "type": "organization",
+      "normalized_name": "usaosdny",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000086"
+      ],
+      "first_seen": "DOJ-OGR-00000086",
+      "name_variations": [
+        "USAOSDNY"
+      ]
+    },
+    "r alexander acosta": {
+      "name": "R. Alexander Acosta",
+      "type": "person",
+      "normalized_name": "r alexander acosta",
+      "mention_count": 5,
+      "document_sources": [
+        "DOJ-OGR-00000089",
+        "DOJ-OGR-00000096",
+        "DOJ-OGR-00000097",
+        "DOJ-OGR-00000099",
+        "DOJ-OGR-00000100"
+      ],
+      "first_seen": "DOJ-OGR-00000089",
+      "name_variations": [
+        "R. Alexander Acosta"
+      ]
+    },
+    "united states for the southern district of florida": {
+      "name": "United States Attorney for the Southern District of Florida",
+      "type": "organization",
+      "normalized_name": "united states for the southern district of florida",
+      "mention_count": 2,
+      "document_sources": [
+        "DOJ-OGR-00000089",
+        "DOJ-OGR-00000095"
+      ],
+      "first_seen": "DOJ-OGR-00000089",
+      "name_variations": [
+        "United States Attorney for the Southern District of Florida"
+      ]
+    },
+    "state of florida": {
+      "name": "State of Florida",
+      "type": "organization",
+      "normalized_name": "state of florida",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000089"
+      ],
+      "first_seen": "DOJ-OGR-00000089",
+      "name_variations": [
+        "State of Florida"
+      ]
+    },
+    "doj-ogr-00000089": {
+      "name": "DOJ-OGR-00000089",
+      "type": "location",
+      "normalized_name": "doj-ogr-00000089",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000089"
+      ],
+      "first_seen": "DOJ-OGR-00000089",
+      "name_variations": [
+        "DOJ-OGR-00000089"
+      ]
+    },
+    "palm beach county": {
+      "name": "Palm Beach County",
+      "type": "location",
+      "normalized_name": "palm beach county",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000090"
+      ],
+      "first_seen": "DOJ-OGR-00000090",
+      "name_variations": [
+        "Palm Beach County"
+      ]
+    },
+    "doj-ogr-00000092": {
+      "name": "DOJ-OGR-00000092",
+      "type": "location",
+      "normalized_name": "doj-ogr-00000092",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000092"
+      ],
+      "first_seen": "DOJ-OGR-00000092",
+      "name_variations": [
+        "DOJ-OGR-00000092"
+      ]
+    },
+    "state s office": {
+      "name": "State Attorney\u2019s Office",
+      "type": "organization",
+      "normalized_name": "state s office",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000094"
+      ],
+      "first_seen": "DOJ-OGR-00000094",
+      "name_variations": [
+        "State Attorney\u2019s Office"
+      ]
+    },
+    "federal grand jury": {
+      "name": "Federal Grand Jury",
+      "type": "organization",
+      "normalized_name": "federal grand jury",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000094"
+      ],
+      "first_seen": "DOJ-OGR-00000094",
+      "name_variations": [
+        "Federal Grand Jury"
+      ]
+    },
+    "doj-ogr-00000095": {
+      "name": "DOJ-OGR-00000095",
+      "type": "location",
+      "normalized_name": "doj-ogr-00000095",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000095"
+      ],
+      "first_seen": "DOJ-OGR-00000095",
+      "name_variations": [
+        "DOJ-OGR-00000095"
+      ]
+    },
+    "a marie villafania": {
+      "name": "A. Marie Villafania",
+      "type": "person",
+      "normalized_name": "a marie villafania",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000096"
+      ],
+      "first_seen": "DOJ-OGR-00000096",
+      "name_variations": [
+        "A. Marie Villafania"
+      ]
+    },
+    "gerald lefcourt": {
+      "name": "Gerald Lefcourt",
+      "type": "person",
+      "normalized_name": "gerald lefcourt",
+      "mention_count": 4,
+      "document_sources": [
+        "DOJ-OGR-00000096",
+        "DOJ-OGR-00000097",
+        "DOJ-OGR-00000099",
+        "DOJ-OGR-00000100"
+      ],
+      "first_seen": "DOJ-OGR-00000096",
+      "name_variations": [
+        "Gerald Lefcourt"
+      ]
+    },
+    "lilly ann sanchez": {
+      "name": "Lilly Ann Sanchez",
+      "type": "person",
+      "normalized_name": "lilly ann sanchez",
+      "mention_count": 4,
+      "document_sources": [
+        "DOJ-OGR-00000096",
+        "DOJ-OGR-00000097",
+        "DOJ-OGR-00000099",
+        "DOJ-OGR-00000100"
+      ],
+      "first_seen": "DOJ-OGR-00000096",
+      "name_variations": [
+        "Lilly Ann Sanchez"
+      ]
+    },
+    "assistant us": {
+      "name": "Assistant U.S. Attorney",
+      "type": "organization",
+      "normalized_name": "assistant us",
+      "mention_count": 3,
+      "document_sources": [
+        "DOJ-OGR-00000096",
+        "DOJ-OGR-00000099",
+        "DOJ-OGR-00000100"
+      ],
+      "first_seen": "DOJ-OGR-00000096",
+      "name_variations": [
+        "Assistant U.S. Attorney"
+      ]
+    },
+    "a marie villafana": {
+      "name": "A. Marie Villafana",
+      "type": "person",
+      "normalized_name": "a marie villafana",
+      "mention_count": 3,
+      "document_sources": [
+        "DOJ-OGR-00000097",
+        "DOJ-OGR-00000099",
+        "DOJ-OGR-00000100"
+      ],
+      "first_seen": "DOJ-OGR-00000097",
+      "name_variations": [
+        "A. Marie Villafana"
+      ]
+    },
+    "doj-ogr-00000099": {
+      "name": "DOJ-OGR-00000099",
+      "type": "location",
+      "normalized_name": "doj-ogr-00000099",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000099"
+      ],
+      "first_seen": "DOJ-OGR-00000099",
+      "name_variations": [
+        "DOJ-OGR-00000099"
+      ]
+    },
+    "doj-ogr-o00000100": {
+      "name": "DOJ-OGR-O00000100",
+      "type": "organization",
+      "normalized_name": "doj-ogr-o00000100",
+      "mention_count": 1,
+      "document_sources": [
+        "DOJ-OGR-00000100"
+      ],
+      "first_seen": "DOJ-OGR-00000100",
+      "name_variations": [
+        "DOJ-OGR-O00000100"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013718",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013718.txt",
+  "text": "Orbital Divergence Characterizes Expansive Dynamics on_ Biological\n\nAttractors\n\nIn the dynamical world of equilibria (fixed points in phase space) and\nperiodic cycles (fixed points of a return map), a common concern involves their\nstability. What happens if an adventitious jiggle moves the orbit a little distance\naway from the fixed point? Would the wind wiggled suspension bridge start to flap\nwith increasing amplitude or would it damp back down quickly to its stable state. A\n“Lyapounov functional,” L, is constructed which can be visualized like a smooth\npotential bowl around the fixed point such that any L stable solution that starts at its\nbottom tends to stay there or is asymptotically L stable if the solution converges to\nthe fixed point at the bowl’s bottom as +». If the point is not L stable, it is L\n\nunstable.\n\nThe modern study of nonlinear systems have produced another kind of\n\nstability issue with a similar appellation yielding other direction specific indices, the\n\nLyapounov characteristic exponents, 42 (Oseledec, 1968; Eckmann and\nRuelle, 1985; Ruelle, 1990; Ott et al, 1994). In this context, the instability is not one\nof perturbative escape from a fixed point, but of the average rate with which the\n(theoretically infinitesimal) distances among a handful of points representing a set of\ninitial conditions (each a precision limited, hypothetical repetition of the same\nexperiment), are being stretched apart by the expansive action of a strange attractor\nsystem. In three dimensions, one can envision a ball of initial conditions being\nelongated along the unstable direction and ironed down from both sides along the\nstable direction over time, transforming the ball into an ellipsoid and then into a\n(recurrent) curve. In simplest terms and thinking about a one dimensional scalar\ntime series, the Lyapounov exponent reflects the multiplicative average (logarithmic\naddition) of the sequence of slopes of the series of straight lines connecting the\npoints. An average slope of > 45 is expansive such that a linear distance on the x-\naxis is increased when mapped onto the y axis. A slope of < 45 is a contraction\n\nmapping reducing the linear distance of the x-axis when mapped to the y axis.\n\n218\n\nHOUSE_OVERSIGHT_013718",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013718.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2252,
+    "word_count": 362,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:46.217937",
+    "prefix": "IMAGES-002"
+  }
+}

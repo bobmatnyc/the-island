@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline Navigation Test</title>
+    <script>
+        window.onload = function() {
+            // Navigate to flights page
+            window.location.href = 'http://localhost:5000/#flights';
+
+            // Wait for page to load and timeline to initialize
+            setTimeout(function() {
+                console.log('=== TIMELINE NAVIGATION TEST ===');
+
+                // Check if timeline is initialized
+                console.log('window.flightMonths:', window.flightMonths);
+                console.log('window.currentMonthIndex:', window.currentMonthIndex);
+
+                const sliderElement = document.getElementById('flight-timeline-slider');
+                console.log('Slider element:', sliderElement);
+                console.log('Slider has noUiSlider:', sliderElement ? !!sliderElement.noUiSlider : 'N/A');
+
+                // Try clicking Previous button
+                console.log('\n--- Testing Previous Button ---');
+                try {
+                    previousMonth();
+                    console.log('✓ previousMonth() executed without error');
+                } catch (error) {
+                    console.error('✗ previousMonth() error:', error);
+                }
+
+                // Try clicking Next button
+                console.log('\n--- Testing Next Button ---');
+                try {
+                    nextMonth();
+                    console.log('✓ nextMonth() executed without error');
+                } catch (error) {
+                    console.error('✗ nextMonth() error:', error);
+                }
+
+                // Try clicking Latest button
+                console.log('\n--- Testing Latest Button ---');
+                try {
+                    resetTimelineFilter();
+                    console.log('✓ resetTimelineFilter() executed without error');
+                } catch (error) {
+                    console.error('✗ resetTimelineFilter() error:', error);
+                }
+
+                console.log('\n=== TEST COMPLETE ===');
+            }, 3000);
+        };
+    </script>
+</head>
+<body>
+    <h1>Opening flights page and testing timeline navigation...</h1>
+    <p>Check browser console for results.</p>
+</body>
+</html>

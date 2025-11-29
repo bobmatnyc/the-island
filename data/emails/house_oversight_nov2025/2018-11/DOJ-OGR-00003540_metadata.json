@@ -1,0 +1,21 @@
+{
+  "document_id": "DOJ-OGR-00003540",
+  "email_index": 19,
+  "extracted_at": "2025-11-17T04:14:45.440813",
+  "from_address": "Kramer, Amanda (USANYS)",
+  "to_address": "Diskant, Edward (USANYS); Capone, Russell (USANYS); Kurland, Abigail (USANYS)",
+  "cc_address": "StanPottinger@aol.com; brad@pathtojustice.com; Sigrid McCawley",
+  "subject": "FW: Virginia Guiffre",
+  "date": "Friday, November 30, 2018 4:01:53 PM",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "Smccawley@BSFLLP.com",
+    "brad@pathtojustice.com",
+    "AKramer@usa.doj.gov",
+    "amanda.kramer@usdoj.gov",
+    "pskinner@bsfllp.com",
+    "PSkinner@BSFLLP.com",
+    "StanPottinger@aol.com"
+  ]
+}

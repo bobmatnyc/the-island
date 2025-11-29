@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014891",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014891.txt",
+  "text": "Stock price performance above estimate revisions\n\nInternet sector stocks are up 6% YTD, on average, while EPS estimates for profitable\ncompanies in our coverage cluster are down 5% YTD. For large-caps over S5bn in\nmarket cap., street 2017 EPS estimates are down 8% YTD while the average stock price\nis up 9% YTD; suggesting macro expectations and stock rotation are having a larger\nimpact on stock movement than earnings estimates. eCommerce leads the group, up\n8% YTD with Travel up 6% and Media behind at 5%. Small Caps are lagging Large caps\nYTD at 4% vs. 9%.\n\nChart 1: YTD Stock Price Performance vs. YTD 2017 Estimate Revisions By Sector\n\n10%\n8%\n6%\n4%\n2%\n0%\n\n-2%\n\n-4%\n-6%\n-8%\n-10%\n\nInternet Media eCommerce Travel Large-Cap Small-Cap SP. 500\nGroup\n\nm 2017 % Change in Stock Price m YTD % Change in Street 2017 Est\nSource: Excludes companies with negative earnings, Bloomberg, as of 4/4/2017\n\nNine of the twelve large caps in our group are up YTD and four of these companies have\nhad positive stock returns despite negative EPS estimate revision (AMZN, EXPE, EBAY &\nIAC). TRIP is the worst performing large cap YTD, down 12%. Only FB and NFLX have\nhad positive 2017 EPS estimate revisions, with GOOGL, YHOO and PCLN holding flat.\n\nChart 2: YTD Stock Price Performance vs. YTD 2017 EPS Revisions For Larger-Cap Internet Stocks ($5bn+)\n\n30%\n\n20%\n\n10%\n\n0%\n\n-10%\n\n-20%\n\n-30%\n\n-40%\n\nAMZN EBAY EXPE FB GOOGL ~—-NFLX PCLN TRIP TWTR YHOO IAC ZG SPX Avg\n\nmw 2017 % Change in Stock Price m YTD % Change in Street 2017 Est\n\nSource: Bloomberg consensus estimates, as of 4/4/2017\n\nBankofAmerica <2 ; ;\nMerrill Lynch Internet/e-Commerce | 06 April 2017 5\n\nHOUSE_OVERSIGHT_014891",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014891.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1668,
+    "word_count": 288,
+    "line_count": 65,
+    "import_date": "2025-11-19T21:47:44.827411",
+    "prefix": "IMAGES-003"
+  }
+}

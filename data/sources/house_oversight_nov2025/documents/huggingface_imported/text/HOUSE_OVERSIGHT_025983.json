@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025983",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025983.txt",
+  "text": "have episodes of more benign model-driven deleveraging. In each quadrant exists\nexamples of simultaneously increasing equity and bond volatility (that is, high absolute\nequity and bond daily returns). However, in the first and third quadrant, equity and bond\nmoves are in the same direction, which would likely be an example of increasing\ncorrelation. On the other hand, in the second and fourth quadrant equity and bond\nmoves are in opposite directions and hence correlation is subject to a decrease. The\nmain takeaway here is the most risk of model driven deleveraging from vol controlled\nrisk parity funds comes when Both volatility and correlation of the underlying\ncomponents rise together.\n\neg ios Bankof America\n6 Global Equity Volatility Insights | O09 August 2016 Merrill Lynch\n\nHOUSE_OVERSIGHT_025983",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025983.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 810,
+    "word_count": 125,
+    "line_count": 14,
+    "import_date": "2025-11-19T21:47:47.418845",
+    "prefix": "IMAGES-008"
+  }
+}

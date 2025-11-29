@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015709",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015709.txt",
+  "text": "Mind over Computer 19\n\nTo give you some idea of how Moore's Law works, the graph shows\ngrowth in computing power over time; the y-axis is a logarithmic plot\nusing engineering notation. Because the growth is exponential we rapidly\nend up with very large numbers. Scientists use a special notation to cope\nwith these large and small numbers. In scientific notation a number\nis written out in a compact form. For example, three hundred can be\nwritten as 3.0 x 10’. To expand it back to a regular number you move the\ndecimal point in 3.0 two spots to the right, making the number 300.0. A\nsimilar technique is used for small numbers. To expand 3.0 x 10? move\nthe decimal point 2 points to the left, giving 0.03. Why use scientific\nnotation? Well, once the numbers get large they would no longer fit on\na page! We can shorten the representation of numbers even further by\ndropping the ‘3.0 x’ part and just looking at the order of magnitude.\nThe number 10°, one with eighty zeroes after it, is the number of atoms\nin the Earth, and 10’ the number of particles in the known Universe.\n10° meters is the ‘plank number’ believed to be the smallest dimension\nyou can have, and 10!” is called a googol, named by Milton Sirotta, the\n\nMoore’s Law is only one example\n\n*\nExponential Growth of Computing for 110 Years\nMoore's Law was the fifth, not the first,\nparadigm to bring exponential growth in computing\n\no\nfe)\n°\nd\neo\na\n©\nse\nao)\n<\n°\n1)\n©\nep)\n—\n©\no.\nw\n<\n2\nra\npo\n>\nae\noO\nW\n\nMoore’s Law Extended by Ray Kurzweil\n\nHOUSE_OVERSIGHT_015709",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015709.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1523,
+    "word_count": 285,
+    "line_count": 57,
+    "import_date": "2025-11-19T21:47:46.466638",
+    "prefix": "IMAGES-003"
+  }
+}

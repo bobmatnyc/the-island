@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019533",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019533.txt",
+  "text": "Crossing the Rubicon | 45\n\nwhich was done at NSA headquarters in Fort Meade and most of the\nNSA’s regional facilities, had not yet been installed at the Hawaii\nbase, because a lack of bandwidth prevented the safe upgrading of\nthe software. This auditing software was scheduled to be installed\nafter the backup system was completed in 2013. The Kunia base was\none of the last NSA bases that did not monitor suspicious transfers\nof files on a real-time basis. Snowden was aware of this deficiency;\nhe later pointed out in his interview in Wired that the NSA base\nwhere he worked did not have an “audit” mechanism. This security\ngap allowed Snowden, using his system administrator’s credentials,\nto copy classified data to a thumb drive without anyone's being able\nto trace the copied data back to him. According to the NSA’s subse-\nquent damage assessment, he stole many thousands of pages while\nworking for Dell in 2012 before he contacted journalists. Ledgett\nsubsequently reported that the NSA analysis of the fifty-eight thou-\nsand documents that were given by Snowden to journalists in June\n2013 showed that most of them were taken while he was still work-\ning at Dell.\n© This theft was made even more serious by the interconnection ©\nof NSA computers with those of other intelligence agencies. Prior\nto the 9/11 attacks in 2001, “stovepiping” had protected NSA data\non its computers from networks used by other intelligence services.\nAfter the 9/11 Commission concluded that part of the reason U.S.\nintelligence agencies were unable to “connect the dots” in advance of\nthe attack was related to this practice, the NSA stripped away a large\npart of its stovepiping. As a result, the NSANet, which Snowden\nhad access to at Dell in 2012, became a shared network with “com-\nmon access points,” as the former NSA director Michael Hayden\ndescribed them to me, which made them the equivalent of “reading\nrooms” in a library. They served as a means for NSA workers to\nexchange ideas about the problems they were encountering on vari-\nous projects for the intelligence community. In maintaining them,\nsystem administrators, or “system admins,” like Snowden, acted as\nthe “librarians.” If a system administrator copied data from this net-\nwork, no one knew.\nFor Snowden, the NSANet, which included CIA and Defense\nDepartment documents, provided a rich hunting ground in the fall\n\n| | Epst_9780451494566_2p_all_r1.z.indd 45 ® 9/29/16 5:51 Pa | |\n\nHOUSE_OVERSIGHT_019533",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019533.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2462,
+    "word_count": 409,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:44.523308",
+    "prefix": "IMAGES-005"
+  }
+}

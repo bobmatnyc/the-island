@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015793",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015793.txt",
+  "text": "The Brain 103\n\nX-ray of Roentgen’s Wife’s Hand\n\nsimplify things we shine the X-rays onto the head as a narrow slit of light\nso we only have to do the back calculation in two dimensions. Then we\nstitch successive slices together in the computer to form a 3D virtual\nimage. Thus, doctors can ‘fly’ through the brain looking at structures\nsuch as tumors from all angles.\n\nHOUSE_OVERSIGHT_015793",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015793.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 391,
+    "word_count": 67,
+    "line_count": 11,
+    "import_date": "2025-11-19T21:47:44.502817",
+    "prefix": "IMAGES-003"
+  }
+}

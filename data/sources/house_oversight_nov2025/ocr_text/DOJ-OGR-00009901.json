@@ -1,0 +1,13 @@
+{
+  "source_pdf": "DOJ-OGR-00009901.pdf",
+  "ocr_date": "2025-11-16T21:16:01.410117",
+  "text_length": 548,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "Andrew.Rohrbach@usdoj.gov",
+    "Maurene.comey@usdoj.gov",
+    "Alison.moe@usdoj.gov",
+    "Lara.Pomerantz@usdoj.gov"
+  ]
+}

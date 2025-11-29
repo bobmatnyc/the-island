@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015870",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015870.txt",
+  "text": "180 Are the Androids Dreaming Yet?\n\nthe number zero behaves just like any other counting number. It also\nworks with multiplication. If I have zero lots of 4 cakes, I have no cakes.\nZero times four is zero, so multiplication with zero works. There is one\nembarrassing exception, if I divide by zero I seem to get infinity. When I\nwas a child this was a definition for infinity, but nowadays mathematicians\nsimply forbid the operation. Division by zero is not allowed and if you\ntry it on your computer, you will get the not terribly useful, #DIV/0!\nError. That’s progress I guess!\n\nZero had been tamed. What about infinity?\n\nCantor showed that while you could think of infinity as a number,\nit might not be just one number. He proposed there are many infinities.\nIn fact, there are a greater than infinite number of them! He did this\nthrough a rigorous analysis of a new branch of mathematics called set\ntheory.\n\nSet theory is now the cornerstone of modern mathematics, but it\nwas treated with suspicion in Cantor's time. Rather than embrace the new\nthinking, many mathematicians ridiculed it; Poincaré wrote that Cantor’s\nideas were a grave disease infecting the discipline of mathematics! This\nseems odd given our modern propensity to embrace innovation, but the\ntone of science back then was different: innovation was not necessarily\nconsidered a good thing.\n\nAt the turn of the 20\" century, scientists were on a mission to tidy\nthings up. Lord Kelvin announced in 1890 that mankind had discovered\neverything there was to know and the role of future scientists was simply\nto catalogue and observe the consequences of these laws, and to improve\nthe accuracy of measurement. The last thing scientists wanted was a\ncompletely new set of numbers that behaved in strange ways. Cantor was\nupsetting the apple cart, but he was in good company. Just a few miles\naway in Berlin, a young Albert Einstein was beginning to study physics\nin his spare time. Those studies would culminate in his four papers of\n1905, two on Quantum Mechanics and two on Relativity, ushering in the\nmodern age of physics.\n\nHow to Count\n\nTo understand infinity you need to count in a particular way. You’re\nprobably used to counting with numbers. You count apples: one, two,\nthree, and say, “I have three apples.” You can do the same with oranges.\nIf you have three apples and three oranges, the totals are the same and\nyou can declare you have the same number of fruits. This is the first way\nto count.\n\nHOUSE_OVERSIGHT_015870",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015870.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2495,
+    "word_count": 431,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:45.904639",
+    "prefix": "IMAGES-003"
+  }
+}

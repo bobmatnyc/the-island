@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027006",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027006.txt",
+  "text": "open-ended autonomous learning and language\nacquisition.\n\nIntegration of perception and action. Environmental\ninteraction is (at least partially) a control process that\nrequires a modeling of the relationship between sensory\ndata and operations performed by the system.\n\n(Semi-) Universal problem solving, enabling paradigms\nof learning, planning, reasoning, analogies, language\nacquisition and reflection.\n\nA structured memory, including provisions for a\nworld /situation model, a protocol of environmental\ninteractions, procedural memory, declarative and\ntypological abstractions, a model of self, and a ‘mental\nstage’, to facilitate anticipation and planning.\n\nDecision making and motivational mechanisms, to\naddress both autonomous, goal-directed cognition in\ncomplex, open domains, and the genesis of goals and\nintentions.\n\nThe direction and modulation of attention, and the\nemergence of emotion and affect, which are\nconfigurational aspects of cognition that either reflect the\nallocation of cognitive resources, or structure social\ninteraction.\n\nConstraints for Mental Representations\n\nBased on the emergent paradigm of a new generation of\n\ncognitive architectures, we can think about mental\n\nrepresentations in a new and productive way. More specifically,\n\nwe know that mental representations include perceptual and\n\npropositional/conceptual content and we are aware of many\n\nconstraints. Mental representations must\n\nOffer support for both connectionist and symbolic\nprocessing (including compositionality and grammatical\nstructures), with the latter one being a special case of the\nformer\n\nPossess a hierarchical structure, bottoming out in\nsensory perception\n\nCover prototypes, individuals and abstractions\n\nInclude perceptual and relational features, objects,\nsituations, and episodic knowledge\n\nAllow simulation of dynamic processes\n\nSolve the bridge problem between fuzzy associative\nhierarchies and the discrete symbol strings of natural\nlanguage\n\nHOUSE_OVERSIGHT_027006",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027006.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1985,
+    "word_count": 258,
+    "line_count": 63,
+    "import_date": "2025-11-19T21:47:48.498047",
+    "prefix": "IMAGES-009"
+  }
+}

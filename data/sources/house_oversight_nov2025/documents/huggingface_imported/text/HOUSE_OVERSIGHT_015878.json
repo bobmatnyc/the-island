@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015878",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015878.txt",
+  "text": "188 Are the Androids Dreaming Yet?\n\nI know you're looking for the difference but you wont find one, as\nI did not have time to write the numbers out in full. The 107°\" digit is\ndifferent, but even if I took the whole age of the universe and counted\nas fast as possible I would not reach this digit. Any number greater\nthan, 10'”°/10 digits cannot be distinguished from another in the age\nof the observable universe. Real numbers are in practice subject to an\nuncertainty principle. Some mathematicians even wonder whether they\nreally exist. But, they do exist in our minds and our thought experiments.\nIn my view, any model of the Universe that ignores them is likely to be\nwrong.\n\nRandom Numbers\nWhich of the following numbers is random?\n\nLILLIA\n34289460370124001\n49293741762343083\n\nTHINK ABOUT YOUR ANSWER THEN READ ON\n\nEach of the numbers could be random. There is no reason any set\nof 10 digits is more likely than another, but it feels very unlikely that if\nI tried to generate a random number I would get 15 consecutive digits.\nWhat a human means by random is a jumbled up number: one with\nvarying digits that have no real pattern. An American mathematician,\nGeorge Chaitin has been able to explain this by saying that a random\nnumber is uncompressible. This means there is no way to describe the\nnumber more efficiently than writing it out in full. A string of ones\ncan be compressed. “Write a million 1s” takes only 18 characters, yet\naccurately describes a number that is a million digits long. By contrast\n8988376132 can't be compressed very much at all, its information\nis just a jumble. There are many interesting numbers around. Some\nnumbers are Hamlet; some numbers are pi. One interesting number is\nthe following: 17733173332032037377. It is the genetic sequence for the\nvirus smallpox, or at least the first 20 digits. Copies of the full sequence\nsit under lock and key in the Pasteur Institute in France and the CDC in\nAtlanta. This number is a candidate for an ‘evil’ number. You might think\nthere are many numbers that could represent smallpox because there are\n\nHOUSE_OVERSIGHT_015878",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015878.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2103,
+    "word_count": 363,
+    "line_count": 42,
+    "import_date": "2025-11-19T21:47:47.461482",
+    "prefix": "IMAGES-003"
+  }
+}

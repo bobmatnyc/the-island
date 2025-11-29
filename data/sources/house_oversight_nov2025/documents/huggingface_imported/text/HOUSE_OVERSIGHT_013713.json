@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013713",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013713.txt",
+  "text": "(Mandell and Russo, 1981; Knapp and Mandell, 1983; Russo and Mandell, 1984a;\nRusso and Mandell, 1986). Similar bifurcating and power law kinetics were found in\nreceptor-ligand binding systems (Mandell, 1984) which were confirmed by more\nrecent studies of diffusion-limited binding kinetics with receptors immobilized on a\nbiosensor surface (Sadana, 1998). Hierarchical kinetics have also been reported in\ntime courses of drug and metabolite levels (Koch and Zajcek, 1991), tissue tracer\nwashout studies (Beard and Bassingthwaighte, 1998), carrier mediated transport\nprocesses (Ogihara et al, 1998), general pharmacokinetic functions (Macheras et al,\n1996) and biochemical networks (Yates, 1992). It is likely that bifurcating and\nhierarchical, power law kinetic functions will be studied more commonly in the\nchemical literature in general (Shlesinger and Zaslavsky, 1996; Berlin et al, 1996)\nas well as applied to a variety of protein-mediated biological functions (Dewey,\n1997).\n\nThe first demonstration of and stochastic model for nonconvergent\ndistributions of interspike intervals of a single neuron was by Gerstein and\nMandelbrot (1964). Though rich with possibilities, it has been only very recently that\nadditional work from this point of view has been published. This is likely due to the\nfact that most neuroscience oriented statistical packages, with rare exceptions, are\nwithout techniques for computing descriptive parameters for these divergent\nprobability density distributions. This has not been the case for economic time\nseries, download STABLE from http:///www.cas.american.edu/~jpnolan. Recently,\napplications of the Fano and Allan factor as well as power spectral scaling\nexponents to observed and shuffled series of spike counts and interspike intervals\nin the auditory and visual systems (including spatial and/or time resolved single unit\nrecordings in retinal ganglion, lateral geniculate and lateral superior olivary cells as\nwell a auditory nerve fibers) demonstrate the characteristic behavior of\nnonconvergent, hierarchical stochastic systems (Teich, 1989; Teich et al, 1990;\nLowen and Teich, 1992; Kumar and Johnson, 1993; Kelly et al, 1996; Teich et al,\n1997). These statistical techniques are well suited to the characterization of the\n\nirregularly intermittent bursting patterns generic for activity in single neurons as well\n\n213\n\nHOUSE_OVERSIGHT_013713",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013713.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2387,
+    "word_count": 338,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:47.486639",
+    "prefix": "IMAGES-002"
+  }
+}

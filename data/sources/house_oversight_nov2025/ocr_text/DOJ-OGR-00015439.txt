@@ -1,0 +1,40 @@
+Fed =< Invoice Number: 4-495-33932
+2 Invoice Date: Dec 16, 2002
+Account Number: 1144-2081-6
+Page: 12 of 15
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 3
+Package sent from: 02155 zip code
+Tracking D 836663864956 Sender Recipient
+Service Type FedEx Standard Overnight ALAN DERSHOWITZ EDWINA SIMMONDS
+Package Type FedEx Envelope JEFFREY E EPSTEIN PY
+Zone 3 457 MADISON AVE Po
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Dec 12, 2002 12:10 Transportation Charge 1250
+SvcArea =A Discount -2.00
+Signed by MAXWELL Fuel Surcharge 0.42
+FedEx Use 345268500/00211/_ Residential Delivery 135
+Total Transportation Charges USD $ 12.27
+Shipment Detail Subtotal .............cccsscsescseseeseseeseeeseeeeeeseeceeeeseeeeeseeeeasseeatseeseeseeseeee OD $ 357.55
+Picked up: Dec 04, 2002 Payor: Third Party Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 5
+1st attempt Dec 05, 2002 at 12 01 AM.
+Weather delay - Snow.
+Tracking D 809045736255 Sender Recipient
+Service Type FedEx Priority Overnight B BONNETT NICK SIMMONS.
+Package Type Customer Packaging LONDON FOG COMPANY EPSHEIN NTEREST
+Zone 5 Ee 457 MADISON AVE
+Packages 1 Po NEW YORK NY 10022 US
+Weight 25.0 Ibs, 11.4 kgs
+Delivered Dec 05, 2002 13 05 Transportation Charge 75 25
+Svc Area me Discount -753
+Signed by W.WALTER BOU N Fuel Surcharge 271
+FedEx Use 341178410/01552/SN Courier Pickup Charge 000
+Total Transportation Charges USD $ 70.43,
+Shipment Detail Subtotal ssscisisscissscicsccvesscvesvsvesvcesvevervevervesevcescccscscsevscsevccescnscscccccW SD S$ 70.43
+SDNY_GM_00340791 130
+DOJ-OGR-00015439

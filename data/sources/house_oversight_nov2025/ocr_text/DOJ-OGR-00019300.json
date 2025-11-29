@@ -1,0 +1,12 @@
+{
+  "source_pdf": "DOJ-OGR-00019300.pdf",
+  "ocr_date": "2025-11-16T21:40:06.498834",
+  "text_length": 540,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "tgee@hmflaw.com",
+    "Imenninger@hmflaw.com",
+    "amueller@hmflaw.com"
+  ]
+}

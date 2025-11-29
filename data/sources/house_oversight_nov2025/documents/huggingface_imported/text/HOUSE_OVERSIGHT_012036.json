@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012036",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_012036.txt",
+  "text": "Houston, TX 77027\n\nP: 713 807.8222\n\nF: 713 807 0055\n\nEXHIBIT $\n\nHOUSE_OVERSIGHT_012036",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_012036.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 86,
+    "word_count": 13,
+    "line_count": 9,
+    "import_date": "2025-11-19T21:47:44.344226",
+    "prefix": "IMAGES-001"
+  }
+}

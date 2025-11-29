@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027730",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027730.txt",
+  "text": "Is Invitation: No\n\nGUID: 7083C225-5472-4DE4-A68 6-AFDE16954CD1\n\nMessage: Immunity\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/30/19 04:42:39 AM (580909359)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: D9BBF897-0449-4EF8-AD12-97E29ERFE6BDA\n\nMessage:\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/30/19 04:42:40 AM (580909360)\nFlags: 1150981\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: OCOD6EAS-D4C0-40A5-B997-68DB459D480F\n\nMessage: https://www.rawstory.com/2019/05/new-book-paints-sordid-picture-of-trump-real\nestate-deal-involving-russian-oligarch-and-jeffrey-epstein/\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/30/19 05:39:51 AM (580912791)\nFlags: 1150981\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: IDDFOF24-36AA-4818-93F2-4699B467FI\n\n8B\n\n|\n\nMessage: https://www.washingtonpost.com/outlook/a-trip-inside-trumpworld-and-inside-\nthe-presidents-head-with-bannon-as-guide/2019/05/29/7560ec12-8236-11e9-95a9\ne2c830afe24f story.html?utm_term=.d96a6ffb5b72\n\nsender:\n\nTime: 05/30/19 05:50:22 AM (580913422)\n\nFlags: 1060865\nIs Read: Yes\nIs Invitation: No\n\nGUID: 3B698F36-C44B-4812-8CFA-72ACFBB5E448\n\nMessage: Ugh\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/30/19 05:54:53 AM (580913693)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nHOUSE_OVERSIGHT_027730",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027730.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1236,
+    "word_count": 104,
+    "line_count": 74,
+    "import_date": "2025-11-19T21:47:46.300621",
+    "prefix": "IMAGES-009"
+  }
+}

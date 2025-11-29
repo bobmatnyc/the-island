@@ -1,0 +1,74 @@
+Source Entry: H\Macintosh HD\ root \Users\jee\Library\Messages\Archive\2017-03-23\ J
+
+| CS 2017-03-19 at 12.10.08.ichat
+
+Service: iMessag
+
+Start Time: 03/19/17 09:10:08 AM (511632608)
+
+End Time: 03/23/17 11:49:06 AM (511987746)
+
+Last Message ID: 2592
+
+Chat Room:
+
+Participants: jcc,
+
+Presentity IDs: e:jeeitunes@gmail.com,
+
+Messages -
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 03/19/17 09:10:08 AM (511632608)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: 6611333B-76AC-44DA-BDB8-676D851C522A
+
+Message: im glad it worked out.
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 03/20/17 07:20:19 AM (511712419)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: BE610F7/75-150B-4BDE-88DF-F683AC7FAF12
+
+Message: did you have a nice flight. will you see barry out there. sometime soon
+we should drive to bard, and choose a dorm
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 03/20/17 01:54:19 PM (511736059)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: DD82AE42-3678-44CE-9B22-A42E78138EE1
+
+Message: will woody take a helicopter with us to bard?
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 03/20/17 01:54:41 PM (511736081)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: C9BAODEB-052B-4A7D-8921-81BO07FO8CC54
+
+Message: i dropped out of cooper union
+
+HOUSE_OVERSIGHT_027217

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016642",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016642.txt",
+  "text": "SUPPLY SOURCES\n\nSURFACE WATER\n\nSOURCES\n\nClear Lake\nExisting\nInfrastructure\nVariable\nQuality\nWatering\nRestrictions\n\nPermitted\n\nAtlantic Ocean\n\nUnlimited\nSupply\nComplex\nTreatment\nConsistent WQ\nGreenhouse\nGases\n\nHighest Cost\n\nabelle\n\nLake\nOkeechobee\n\n> Ne\n\nTr\n\nUpper Floridan Aquifer\n\nMiddle: Confining Unit\nLower Floridan Aquifer\n\nLower Confining Unit\n\nBoulder Zone\n\nALR\n\ntall\n\nWest Palm\n\nBeach\n\nGirpeiea]\nve\n\nfurtolal\nWall\n\nwa fits\n\nEAST\n\nGROUNDWATER\nSOURCES\n\nSurficial Aquifer\n100 - 150 feet deep\nConsistent WQ\nWatering Restrictions\nSaline Intrusion\nLimited Allocation\nAvailability Unknown\n30 - 50 Sites Needed\n\nFloridan Aquifer\n1,000-1,200 ft deep\nConsistent WQ\nLong-Term Degradation\nVery Costly\n\nNo Watering Restrictions\nLimited Allocation\n\n12 - 20 Sites Needed\n\nHOUSE_OVERSIGHT_016642",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016642.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 787,
+    "word_count": 104,
+    "line_count": 88,
+    "import_date": "2025-11-19T21:47:49.318967",
+    "prefix": "IMAGES-004"
+  }
+}

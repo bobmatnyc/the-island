@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_020239",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_020239.txt",
+  "text": "87\n\nCHAPTER TEN\n\nRaider of the Inner Sanctum\n“They think there’s a smoking gun in there that would be the death of them all politically.”\n\n—Edward Snowden in Moscow\n\nThe nightmare of the NSA is a penetration. As the CIA, FBI and NSA found out in the 1990s,\nNo intelligence service is invulnerable to it. Any employee of a large intelligence organization can\nturn, or be turned, against it. Among the more than 10,000 intelligence workers employed by the\nNSA, it is a near certainty that over time one or more of them will become dissatisfied with their\nwork. He or she may have a personal grievance about their pay, lack of promotion or their\ntreatment by their superiors. Disenchantment with the NSA may also proceed from idealistic\nobjections. After all, the NSA is in the business of secretly intercepting messages, and an insider\ncould find its spying activities at odds with his or her own beliefs about the violation of privacy.\nFor any of these reasons, a disgruntled insider could go rogue. He or she then might attempt to\nright a perceived wrong by disclosing the NSA secrets to another party. That party might then\ninduce or blackmail the rogue employee into disclosing further secrets. To guard against it, the\nNSA has developed a well-organized system for stratifying its data so that obtaining critical\nsecrets would require a rogue employee to burrow into its heavily protected inner sanctum. As\npart of this system, the NSA divides its data into different tiers depending on the importance of\nthe secrets to its operations. The first tier, Level 1, is mainly administrative material. This data\nwould include FISA court orders and other directives it employees might need to check on to\ncarry out their tasks. Level 2 contains data from which the secret sources have been removed.\nThis tier, available to other intelligence services and policy-makers, includes reports and analysis\nthat can be shared. The third tier, Levels 3, contains documents that cannot be shared outside of\na small group of authorized individuals because they disclose the secret sources through which the\nNSA surreptitiously obtained the information. This third tier includes, for example, compiled list\nof the sources in China, Russia, Iran and other adversary countries. It also disclosed the exotic\nmethods the NSA uses to get some of this data. Level 3 documents also include reports on\n\nHOUSE_OVERSIGHT_020239",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_020239.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2402,
+    "word_count": 397,
+    "line_count": 34,
+    "import_date": "2025-11-19T21:47:44.426003",
+    "prefix": "IMAGES-005"
+  }
+}

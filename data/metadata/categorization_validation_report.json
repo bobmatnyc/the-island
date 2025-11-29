@@ -1,0 +1,65 @@
+{
+  "total_documents": 38177,
+  "total_issues": 6,
+  "issues_by_type": {
+    "low_confidence": 2,
+    "house_oversight_misclassification": 4
+  },
+  "unknown_count": 0,
+  "unknown_percentage": 0.0,
+  "sample_issues": {
+    "low_confidence": [
+      {
+        "doc_id": "doc_0",
+        "description": "Low confidence (0.30) on classification",
+        "path": "data/sources/documentcloud/epstein_docs_6250471.pdf",
+        "classification": "administrative",
+        "confidence": 0.3
+      },
+      {
+        "doc_id": "doc_4",
+        "description": "Low confidence (0.30) on classification",
+        "path": "data/sources/documentcloud/unsealing_jan2024_943pages.pdf",
+        "classification": "administrative",
+        "confidence": 0.3
+      }
+    ],
+    "house_oversight_misclassification": [
+      {
+        "doc_id": "doc_2810",
+        "description": "House Oversight document not classified as government_document",
+        "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00021320.pdf",
+        "classification": "court_filing",
+        "confidence": 0.95
+      },
+      {
+        "doc_id": "doc_5154",
+        "description": "House Oversight document not classified as government_document",
+        "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00001320.pdf",
+        "classification": "court_filing",
+        "confidence": 0.95
+      },
+      {
+        "doc_id": "doc_15875",
+        "description": "House Oversight document not classified as government_document",
+        "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00011320.pdf",
+        "classification": "court_filing",
+        "confidence": 0.95
+      },
+      {
+        "doc_id": "doc_19223",
+        "description": "House Oversight document not classified as government_document",
+        "path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00031320.pdf",
+        "classification": "court_filing",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "classification_distribution": {
+    "administrative": 2,
+    "contact_directory": 1,
+    "government_document": 37492,
+    "court_filing": 637,
+    "media_article": 45
+  }
+}

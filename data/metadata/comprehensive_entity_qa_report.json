@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-11-18T01:59:50.572844",
+  "model": "mistral-small3.2:latest",
+  "total_analyzed": 1,
+  "issues_found": {
+    "punctuation": 0,
+    "disambiguation": 0,
+    "classification": 0,
+    "duplicates": 0
+  },
+  "summary": {
+    "punctuation_errors": 0,
+    "disambiguation_needed": 0,
+    "classification_suggestions": 0,
+    "possible_duplicates": 0
+  },
+  "results": [
+    {
+      "name": "Abby",
+      "original_entity": {
+        "name": "Abby",
+        "normalized_name": "Abby",
+        "sources": [
+          "black_book"
+        ],
+        "contact_info": {},
+        "flights": 0,
+        "is_billionaire": false,
+        "organizations": [],
+        "categories": [],
+        "merged_from": [],
+        "black_book_page": "1"
+      },
+      "punctuation_ok": true,
+      "punctuation_fix": null,
+      "disambiguation_ok": true,
+      "disambiguation_suggestion": null,
+      "disambiguation_reason": null,
+      "classification": "UNKNOWN",
+      "duplicate_of": null,
+      "raw_response": ""
+    }
+  ]
+}

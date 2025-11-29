@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027027",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027027.txt",
+  "text": "The embryonic stem cell lines faithfully reproduced the nuclear DNA of the person who\ncontributed the skin cell. The expectation is that when cells or tissues made from these stem cells\nare transplanted into that person, they will slip past his or her immune system unnoticed.\n\nThe stem cells showed \"no gross chromosomal abnormalities,\" the authors wrote, and appeared\nevery bit as capable of differentiating into a variety of cell types as embryonic stem cells made the\nold-fashioned way, from excess embryos obtained from fertility clinics.\n\n\"This is extremely important,\" Dr. Irving Weissman, a stem cell researcher at Stanford University,\nsaid of the new results.\n\nStem cell researcher Dr. Robert Lanza echoed that praise, calling the OHSU team's work \"a major\nscientific achievement.\"\n\nLanza, the chief scientific officer of Advanced Cell Technology Inc., said it remained to be seen\nwhether embryonic stem cells generated this way were more useful for studying and treating\ndiseases than stem cells created by reprogramming adult cells to an embryonic state.\n\nThe method for creating such induced pluripotent stem cells, or iPS cells, was recognized with a\nNobel Prize last year.\n\nBut there are lingering questions about whether iPS cells are safe for patients. Scientists use a\ncancer-causing virus to reprogram the cells, raising concerns that they could cause tumors in\npatients. And in 2011, when scientists at UC San Diego created iPS cells and reintroduced them\ninto donor mice, the animals' immune systems rejected them.\n\n\"Some experts are now saying that somatic cell nuclear transfer may be the only way to truly\nreprogram cells,\" Lanza said.\n\nmelissa.healy@latimes.com\n\nCopyright © 2013, Los Angeles Times\n\nHOUSE_OVERSIGHT_027027",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027027.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1746,
+    "word_count": 270,
+    "line_count": 34,
+    "import_date": "2025-11-19T21:47:44.392684",
+    "prefix": "IMAGES-009"
+  }
+}

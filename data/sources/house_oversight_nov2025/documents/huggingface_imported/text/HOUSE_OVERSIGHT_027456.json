@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027456",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027456.txt",
+  "text": "Time: 09/29/18 12:23:46 PM (559941826)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 99AB0507-DB16-43FD-8693-CED5FEB32229\n\nMessage: Awesom\n\nTime: 09/29/18 12:23:50 PM (559941830)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: ESDIBIDA-E687-40CO-BCC2-AF11A367CB80\n\nMessage: Whatever works!\n\nSender: a. SY\n\nTime: 09/29/18 12:23:52 PM (559941832)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 996333AB-F5E5-424C-9A7C-52E1D9202594\n\nMessage: Your call\n\nTime: 09/29/18 12:27:03 PM (559942023)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\ncal\n\nGUID: A8145CDA-9D6E-4744-88FC-O0E373EB1E7F8\n\nMessage: Just convince him to be in Paris during fashion week\n\nSender: e:jeeitunes@gmail.com\n\nTime: 09/29/18 12:27:26 PM (559942046)\nFlags: 1150981\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 83C65491-9D9B-40DC-A879-A4E0577B6061\n\nMessage: i leave tomorrow\n\nTime: 10/24/18 05:55:38 AM (562078538)\n\nHOUSE_OVERSIGHT_027456",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027456.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 923,
+    "word_count": 110,
+    "line_count": 61,
+    "import_date": "2025-11-19T21:47:45.470986",
+    "prefix": "IMAGES-009"
+  }
+}

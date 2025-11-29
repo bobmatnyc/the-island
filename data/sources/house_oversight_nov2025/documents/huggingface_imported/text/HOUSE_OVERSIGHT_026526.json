@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026526",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026526.txt",
+  "text": "attending to looking. In the appendix, we formalize this intuition by showing that this\nequilibrium is subgame perfect, a solution concept used to rule out these kinds of concerns\nin settings where there is a high degree of rationality [15].\n\nWe might wonder whether CWOL will emerge in a population of players who are not\nrational, but are evolving or learning their strategies. There are two reasons to suspect\nit will not emerge. First, CWOL may be susceptible to the invasion of mutants. In\nparticular, the concern is that a player 2 mutant might arise that does not attend to\nwhether player 1 looks, rendering looking irrelevant. This mutant’s fitness is no higher or\nlower than the incumbent strategy, so may grow by drift. Subsequently, a player 1 mutant\nwhich looks and defects when the temptation is high would have a fitness advantage and\nproliferate. While the player 2 mutant would then start dying off since it would now have\nlower fitness than the incumbent, it is not clear that it would do so fast enough for the\nplayer 1 mutant to also die off, returning to the CWOL equilibrium. Second, CWOL may\nbe stable but have such a small basin of attraction that it will never emerge. In particular,\nthere are three other equilibria to consider, which can be seen in figure 2. The first is\ncomprised of the strategy pair where player 1 always defects, and player 2 always exits\n(which we refer to as the ALLD equilibrium). It is a Nash Equilibrium for all parameter\nvalues. The second is the strategy pair where player 2 exits if player 1 defects, and player\n\n1 cooperates with or without looking (we refer to this as the CWL equilibrium). It is a\n\nNash equilibrium when —— > cp. In fact, there are many more Nash Equilibria, where\n\n1—w —\nthe population mixes between different strategies.\n\nConsequently, we employ computer simulations of the replicator dynamic to explore\nthe evolutionary dynamics of the envelope game. The replicator dynamic is the standard\n\nmodel for evolutionary dynamics [16, 17, 18, 19], and also models learning dynamics such\n\nas reinforcement learning or prestige-biased imitation [20]. It describes strategies evolving\n\nHOUSE_OVERSIGHT_026526",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026526.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2176,
+    "word_count": 365,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:49.015945",
+    "prefix": "IMAGES-009"
+  }
+}

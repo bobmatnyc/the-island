@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014643",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014643.txt",
+  "text": "US - Multi-Industrials/Engineering and Construction Coverage Cluster\nBofA Merrill Lynch\n\nInvestment rating Company ticker Bloomberg symbol Analyst\nBUY\n3M Company MMM MMM US Andrew Obin\nAECOM ACM ACM US Anna Kaminskaya, CFA\nAllegion ALLE ALLE US Andrew Obin\nAMETEK Inc AME AME US Andrew Obin\nColfax Corporation CFX CFX US Andrew Obin\nDover Corp DOV DOV US Andrew Obin\nFortive Corporation FIV FTV US Andrew Obin\nGeneral Electric Company GE GEUS Andrew Obin\nHD Supply Holdings Inc HDS HDS US Andrew Obin\nHoneywell International Inc. HON HON US Andrew Obin\nIngersoll-Rand IR IRUS Andrew Obin\nKBR KBR KBR US Anna Kaminskaya, CFA\nMilacron MCRN MCRN US Andrew Obin\nMistras Group MG MG US Andrew Obin\nRush RUSHA RUSHA US Andrew Obin\nNEUTRAL\nEaton Corp PLC ETN ETN US Andrew Obin\nFlowserve FLS FLS US Andrew Obin\nITT Inc. IT ITTUS Andrew Obin\nJacobs Eng. JEC JEC US Anna Kaminskaya, CFA\nParker Hannifin Corporation PH PH US Andrew Obin\nUNDERPERFORM\nChicago Bridge & Iron Company CBI CBI US Anna Kaminskaya, CFA\nDonaldson Co DC| DCI US Andrew Obin\nEmerson Electric Co EMR EMR US Andrew Obin\nFluor Corp FLR FLR US Anna Kaminskaya, CFA\nPentair plc PNR PNR US Andrew Obin\nRexnord Corporation RXN RXN US Andrew Obin\nRockwell ROK ROK US Andrew Obin\nSPX Flow Inc. FLOW FLOW US Andrew Obin\n\nUS - Semiconductors Coverage Cluster\nBofA Merrill Lynch\n\nInvestment rating Company ticker Bloomberg symbol Analyst\nBUY\nAdvanced Micro Devices, Inc AMD AMD US Vivek Arya\nAnalog Devices Inc. ADI ADI US Vivek Arya\nBroadcom Limited AVGO AVGO US Vivek Arya\nCypress CY CY US Vivek Arya\nInphi Corporation IPHI IPHI US Vivek Arya\nIntegrated Device Technology, Inc. IDTI IDTI US Vivek Arya\nIntel INTC INTC US Vivek Arya\nMicrochip MCHP MCHP US Vivek Arya\nNVIDIA Corporation NVDA NVDA US Vivek Arya\nON Semiconductor ON ON US Vivek Arya\nSkyworks Solutions, Inc. SWKS SWKS US Vivek Arya\nTexas Instruments Inc. TXN TXN US Vivek Arya\nNEUTRAL\nCavium CAVM CAVM US Vivek Arya\nM/A-Com MTSI MTSI US Vivek Arya\nMaxim Integrated Products Inc. MXIM MXIM US Vivek Arya\nUNDERPERFORM\nMarvell Technology Group Ltd. MRVL MRVL US Vivek Arya\nQorvo Inc. QRVO QRVO US Vivek Arya\nXilinx Inc. XLNX XLNX US Vivek Arya\n22 Top 10 US Ideas Quarterly | 03 January 2017 Bankof America <>\n\nMerrill Lynch\n\nHOUSE_OVERSIGHT_014643",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014643.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2260,
+    "word_count": 387,
+    "line_count": 66,
+    "import_date": "2025-11-19T21:47:49.388968",
+    "prefix": "IMAGES-003"
+  }
+}

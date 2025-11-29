@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010983",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010983.txt",
+  "text": "Algebra now allows\n\ncreation = growth + flow passed out - flow passed in, (3.3a)\n\nsince terms can change sides if they reverse signs.\n\nEconomics is interested in creation and growth of value. Value in the stock sense\nmeans capital in general. Most economists most of the time use the word to mean\nonly the “physical capital” we buy and sell. But the truism works for anything. |\nsometimes prefer the generality of “value”, meaning any amount of any mix of\nhuman and physical capital. This again can be called either “total capital” or value\n\ninterchangeably.\n\nFlow of value passed out is exhaust plus transfer out, and flow passed in is transfer\nin. Creation of value is output in the net sense. Then (3.2) and (3.3a) give the total\n\nreturn rule\n\noutput = growth + cash flow. (3.3b)\n\n“Income” means rights to output, and is implicitly equal to output. Like most writers\n\nin economics, I will use these words more or less interchangeably too.\n\nNow comes the centerpiece. A good starting point is the present value rule. We\nassemble value or total capital to satisfy foreseen tastes. But we also satisfy current\ntastes by spending current cash flow. At the scale of the total capital (value) of the\nindividual, were reinvestment cancels internally, cash flow simplifies to exhaust in\n\ntaste satisfaction plus gift given less gift received. Then\n\nindividual cash flow = net gift + exhaust, (3.4)\n\nwhere net gift means gift given less gift received.\n\nChapter 3: Foundations 1/11/16 12\n\nHOUSE_OVERSIGHT_010983",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010983.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1504,
+    "word_count": 252,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:49.369019",
+    "prefix": "IMAGES-001"
+  }
+}

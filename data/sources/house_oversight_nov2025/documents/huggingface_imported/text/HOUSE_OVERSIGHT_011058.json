@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011058",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011058.txt",
+  "text": "taste satisfaction. These are all ex post descriptions of realized outcomes rather than\n\nintentions. Together they give\n\noutput = investment + invested consumption + positive self-invested work\n— human depreciation + net transfer + exhaust\n= investment + invested consumption + self-invested work\n— recovered human depreciation + net transfer + exhaust. (6.24)\n\nThis much is certitude. I now apply (5.9), which includes\n\nconsumption = invested consumption + pure consumption,\n\nto reach the Y rule in its general form:\n\noutput = investment + consumption + self-invested work\n— human depreciation + net transfer. (6.25)\n\nThe net transfer term disappears at the collective scale.\n\nAlthough (6.24) is logical certitude infered from definitions, (5.9) and consequently\n(6.25) are not. I cannot rule out the possibility of a third kind of consumption\nrecovered in work products as per Quesnay. | hope that my interpretation of age-\nwage profiles in the light of the boss-secretary parable has revealed that as\nimprobable. The same holds for my derivation of the pay rule through Ben-Porath’s\nequation and (6.18). (6.18), my inference that human cash flow equals less invested\nconsumption, also trusts that all maintenance consumption is exhausted in\n\nsatisfying tastes.\n\nSummary\n\nAccounting for human capital is much like accounting in a firm. Expected recovery of\nhuman depreciation in pay is logical certitude illustrated in age-wage profiles and in\nthe boss-secretary parable. The pay rule is not entirely logical certitude, however, as\n\nit also asserts that maintenance consumption is not recovered. Age-wage profiles\n\nChapter 6: Parallels with the Firm 2/4/16 24\n\nHOUSE_OVERSIGHT_011058",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011058.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1685,
+    "word_count": 255,
+    "line_count": 41,
+    "import_date": "2025-11-19T21:47:44.101505",
+    "prefix": "IMAGES-001"
+  }
+}

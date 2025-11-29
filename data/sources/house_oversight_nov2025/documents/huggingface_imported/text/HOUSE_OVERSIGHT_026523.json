@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026523",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026523.txt",
+  "text": "models of reciprocity, which only attend to cooperative actions and not the deliberation\nprocess leading up to the action.\n\nWe develop a simple model to explain why “looking” at the costs of cooperation is\nviewed with suspicion. The explanation we suggest is quite intuitive: those who cooper-\nate without looking (CWOL) can be trusted to cooperate even in times when there are\ntemptations to defect. While this insight can be captured without the need for a formal\nmodel, it is less clear that cooperators will choose to not look, since they pay a price by\ncooperating blindly in tempting circumstances. Moreover, the formal model, as will be\nseen, helps explicate when CWOL will occur as well as what difference the ability to not\nlook and to observe others not looking will make.\n\nWe formalize this idea using what we call the envelope game (see figure 1). The\nenvelope game distills an interaction between two individuals, or players, in an uncertain\nenvironment. Thus, we start by assuming there is a distribution of payoffs with two\npossibilities: one in which defection is relatively tempting, and another in which it is\nnot. The temptation to defect is randomly determined. Defection is not tempting with\nprobability p and tempting with probability 1—p. Both players know how likely it is that\ndefection is tempting. However, at this point, neither player knows size of the temptation.\nThat is, the temptation is placed inside an envelope and the envelope is sealed without\nthe players knowing its content. Next, we assume that one of the players, player 1,\nchooses whether to learn the size of the temptation, either via mental deliberation or by\ngathering information. We model this in a simplified way by assuming that player 1 has a\ndichotomous choice: she can choose to open the envelope and look inside it, or not. If she\nopens the envelope and looks, she learns the size of the temptation. If she does not open\nthe envelope and look, she only knows the distribution of payoffs. Player 1 then chooses\n\nwhether to cooperate or defect. We model cooperation as costly to player 1, regardless\n\nHOUSE_OVERSIGHT_026523",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026523.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2126,
+    "word_count": 355,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:48.641870",
+    "prefix": "IMAGES-009"
+  }
+}

@@ -1,0 +1,47 @@
+Case 1:20-cr-00330-PAE Document 761 Filed 08/10/22 Page 214 of 246 2509
+LCGCmax6 Aznaran — direct
+
+1 Q. And the one below that says APIS?
+
+2 A. Yes.
+
+3 Q. Can you explain the difference between the two.
+
+4 A. So the first one, airline, not API. An airline employee at
+5 some point manually entered that person's information into
+
+6 their manifest system as opposed to APIS, which is Advanced
+
+7 Passenger Information System. That means that that airline
+
+8 submitted their manifest electronically to the APIS system and
+9 it was electronically and automatically uploaded into TECS.
+
+10 Q. Okay. And what's next?
+
+11 A. The next column is status.
+
+12 Q. What does that indicate. Actually, if I can have you look
+13 maybe at page 3 of the document, and you look at top of the
+
+14 page, the third entry down in the column status, it says the
+
+15 word passenger; is that right?
+
+16 A. Yes.
+
+17 Q. So what does that indicate?
+
+18 A. That indicates that that person was, at one point or
+
+19 another, added to that manifest of that airline for that
+20 particular flight.
+21 Q. Going to the next column, updated status.
+22 A. Updated status, I have, in all of my experience querying
+23 travel records, I have never seen anything in that column, and
+24 I honestly don't know what it means or what it's supposed to.
+25 Q. Understood. What about the columns to the right of that?
+
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00014073

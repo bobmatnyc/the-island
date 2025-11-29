@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027345",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027345.txt",
+  "text": "Time: 07/26/18 08:41:08 AM (554312468)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: CD843484-93B4-46F6-866C-686BC71082D1\n\nMessage: Ok\n\nTime: 07/26/18 12:01:09 PM (554324469)\nFlags: 1126401\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: SBF8E7CD-D917-4C07-A97E-C7A208E02328\n\n5\n\nMessage: https://www.dailywire.com/news/33568/polls-republicans-trailing-badly-\ncongressional-ben-shapiro\n\nSender: e:jeeitunes@gmail.com\n\nTime: 07/26/18 12:02:23 PM (554324543)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: EFDA7866-65A9-437D-8198-DC552200CF4F\n\nMessage: Yup\n\nHOUSE_OVERSIGHT_027345",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027345.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 584,
+    "word_count": 56,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:44.317724",
+    "prefix": "IMAGES-009"
+  }
+}

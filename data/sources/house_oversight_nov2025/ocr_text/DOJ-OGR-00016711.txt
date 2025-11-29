@@ -1,0 +1,47 @@
+Case 1:20-cr-00330-PAE Document 761 Filed 08/10/22 Page 228 of 246 2523
+LCGVMAX7 Aznaran — redirect
+
+1 report comes from the airlines, isn't that right?
+
+2 A. Correct.
+
+3 Q. You mentioned certain columns that came from the kiosks and
+4 the people who actually swiped the passports in at the
+
+5 immigration sites; is that right?
+
+6 A. Yes.
+
+7 Q. And so, in fact, the site that you discussed was the site
+
+8 where people passed through?
+
+9 A. Yes.
+
+10 Q. And that would get populated when that traveler went
+
+11 through that site, right?
+
+12 A. Yes.
+
+13 Q. And the date and time you said should get updated with that
+14 information of when that passenger goes through the site in the
+15 TECS report if they go through that immigration site, right?
+
+16 MS. POMERANTZ: Objection, your Honor.
+
+17 If we can just place this in time.
+
+18 Q. I'm talking about prior to 9/11.
+
+19 A. I'm sorry, say the question again.
+20 Q. We're talking about records prior to 9/11. You said that
+21 for any of these records, before 9/11 or not, the date and time
+22 reflects the date and time -- first it reflects the date and
+23 time of the flight. But if the person goes through an
+24 immigration site, it then gets updated to reflect the time that
+25 they went through the kiosk and got their passport stamped;
+
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00016711

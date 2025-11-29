@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015890",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015890.txt",
+  "text": "200 Are the Androids Dreaming Yet?\n\nThe Game of Mathematics\n\nWhen I was a child, our living room carpet had a square pattern. You\ncould use boiled sweets to play checkers on it. Even though there was\nno board and no pieces, it was clearly a game of checkers because we\nfollowed the right rules (with the one exception that if you jumped over\na sweet you got to eat it). Mathematics is like a game with a set of rules.\nIf you follow the rules, you are doing mathematics.\n\nConsider the simple mathematical theory that if A equals B, then B\nequals A. This seems clear-cut, but you can get into trouble if you're not\ncareful when defining the word ‘equals. ‘My dog equals naughty’ does\nnot imply ‘naughty equals my dog. Here I have used ‘equals’ to mean\n‘has the property of? My dog has the property of being naughty. This is\nan attribute, not equivalence. You must be careful with mathematics. A\nequals B implying B equals A is a property of numbers when the equals\nsign is used to mean equivalence.\n\nHere are the rules of the game that provide a proof for this theory.\n\nLet us start with the position in which we don’t know whether A\nequals B implies B equals A. We have these three axioms, call them rules\nfor now since we are using the game analogy.\n\nRule 1: If] have no minus sign in front of a letter I can assume there\nis an invisible + sign there.\n\nRule 2: If I have a positive letter (or a letter with no symbol in front\nof it) I can put a minus in front of it and put it on the other\nside of the equals sign.\n\nRule 3: I can swap the plus and minus signs of all the letters in my\nequation if I do it to all of them.\n\nNow I am ready to prove my theorem.\n\nA = Bis the same as +A = + B. (rule 1)\n+A = + Bis the same as -B = - A (rule 2 done twice)\n-B = -A is the same as B = A (rule 3)\n\nSuccess.\nSo A= Bis the same as B= A.\n\nI have my proof. It might be glaringly obvious, but that’s not the\npoint. The point is you can apply rules to symbols and derive new rules.\nIt does not matter what the symbols are or how obvious it is. Here’s the\nsame proof with dingbats.\n\nHOUSE_OVERSIGHT_015890",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015890.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2089,
+    "word_count": 423,
+    "line_count": 51,
+    "import_date": "2025-11-19T21:47:47.809666",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Rendering Test - Epstein Archive</title>
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f6f8fa;
+            --bg-tertiary: #f0f3f5;
+            --border-color: #d0d7de;
+            --text-primary: #24292f;
+            --text-secondary: #57606a;
+            --accent-blue: #0969da;
+            --accent-blue-hover: #0550ae;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            border-bottom: 2px solid var(--accent-blue);
+            padding-bottom: 10px;
+        }
+
+        .test-section {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .test-section h3 {
+            color: var(--accent-blue);
+            margin-top: 0;
+        }
+
+        .chat-message {
+            padding: 12px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .chat-message.assistant {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+        }
+
+        /* Markdown styles - same as main app */
+        .chat-message.assistant h1,
+        .chat-message.assistant h2,
+        .chat-message.assistant h3,
+        .chat-message.assistant h4 {
+            margin: 12px 0 8px 0;
+            color: var(--text-primary);
+            line-height: 1.4;
+        }
+
+        .chat-message.assistant h1 {
+            font-size: 18px;
+            font-weight: 700;
+            border-bottom: 2px solid var(--accent-blue);
+            padding-bottom: 6px;
+        }
+
+        .chat-message.assistant h2 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .chat-message.assistant h3 {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .chat-message.assistant h4 {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent-blue);
+        }
+
+        .chat-message.assistant p {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+
+        .chat-message.assistant code {
+            background: var(--bg-tertiary);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 12px;
+            color: var(--text-primary);
+        }
+
+        .chat-message.assistant pre {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+
+        .chat-message.assistant pre code {
+            background: none;
+            padding: 0;
+            border: none;
+        }
+
+        .chat-message.assistant ul,
+        .chat-message.assistant ol {
+            margin: 8px 0;
+            padding-left: 24px;
+        }
+
+        .chat-message.assistant li {
+            margin: 4px 0;
+            line-height: 1.5;
+        }
+
+        .chat-message.assistant a {
+            color: var(--accent-blue);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--accent-blue);
+            transition: all 0.2s;
+        }
+
+        .chat-message.assistant a:hover {
+            border-bottom-style: solid;
+            color: var(--accent-blue-hover);
+        }
+
+        .chat-message.assistant .feature-link {
+            font-weight: 600;
+            color: var(--accent-blue);
+            cursor: pointer;
+            border-bottom: 1px solid var(--accent-blue);
+        }
+
+        .chat-message.assistant .feature-link:hover {
+            color: var(--accent-blue-hover);
+            border-bottom-color: var(--accent-blue-hover);
+        }
+
+        .chat-message.assistant blockquote {
+            border-left: 3px solid var(--accent-blue);
+            padding-left: 12px;
+            margin: 10px 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        .chat-message.assistant table {
+            border-collapse: collapse;
+            margin: 10px 0;
+            width: 100%;
+            font-size: 12px;
+        }
+
+        .chat-message.assistant th,
+        .chat-message.assistant td {
+            border: 1px solid var(--border-color);
+            padding: 6px 10px;
+            text-align: left;
+        }
+
+        .chat-message.assistant th {
+            background: var(--bg-tertiary);
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .chat-message.assistant hr {
+            border: none;
+            border-top: 1px solid var(--border-color);
+            margin: 12px 0;
+        }
+
+        .chat-message.assistant strong {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .chat-message.assistant em {
+            font-style: italic;
+        }
+
+        .chat-message.assistant > *:first-child {
+            margin-top: 0;
+        }
+
+        .chat-message.assistant > *:last-child {
+            margin-bottom: 0;
+        }
+
+        .raw-markdown {
+            background: var(--bg-tertiary);
+            padding: 12px;
+            border-radius: 6px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 11px;
+            white-space: pre-wrap;
+            margin: 10px 0;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <h1>Markdown Rendering Test Suite</h1>
+    <p>This page demonstrates all markdown features supported in the chatbot.</p>
+
+    <div class="test-section">
+        <h3>Test 1: Basic Formatting</h3>
+        <div class="raw-markdown">This is **bold text**, this is *italic text*, and this is `inline code`.
+
+You can also use __bold__ and _italic_ with underscores.</div>
+        <div class="chat-message assistant" id="test1"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>Test 2: Headers</h3>
+        <div class="raw-markdown"># Header 1
+## Header 2
+### Header 3
+#### Header 4
+
+This is regular paragraph text.</div>
+        <div class="chat-message assistant" id="test2"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>Test 3: Lists</h3>
+        <div class="raw-markdown">**Unordered List:**
+- First item
+- Second item
+- Third item
+
+**Ordered List:**
+1. Step one
+2. Step two
+3. Step three</div>
+        <div class="chat-message assistant" id="test3"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>Test 4: Code Blocks</h3>
+        <div class="raw-markdown">Here's some inline code: `console.log('Hello')`.
+
+And here's a code block:
+```javascript
+function searchEntities(query) {
+    return entities.filter(e =>
+        e.name.toLowerCase().includes(query.toLowerCase())
+    );
+}
+```</div>
+        <div class="chat-message assistant" id="test4"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>Test 5: Links and Blockquotes</h3>
+        <div class="raw-markdown">> This is a blockquote. It can contain important information or citations.
+
+Here's a [link to Google](https://google.com) for testing.
+
+And here's an [internal link](#test-anchor).</div>
+        <div class="chat-message assistant" id="test5"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>Test 6: Feature Link Detection</h3>
+        <div class="raw-markdown">You can explore the **network graph** to see entity connections. Check the **entities list** for all indexed entities, or view the **roadmap** for project status.
+
+If you'd like to contribute, you can **suggest a source** for new documents. The **ingestion status** shows OCR progress.</div>
+        <div class="chat-message assistant" id="test6"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>Test 7: Tables</h3>
+        <div class="raw-markdown">| Entity | Connections | Documents |
+|--------|-------------|-----------|
+| Jeffrey Epstein | 256 | 4,523 |
+| Ghislaine Maxwell | 228 | 3,891 |
+| Bill Clinton | 26 | 234 |</div>
+        <div class="chat-message assistant" id="test7"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>Test 8: Mixed Content</h3>
+        <div class="raw-markdown">## Search Results
+
+I found **3 entities** matching your query:
+
+1. **Jeffrey Epstein** - 256 connections, 4,523 documents
+2. **Ghislaine Maxwell** - 228 connections, 3,891 documents
+3. **Les Wexner** - 42 connections, 567 documents
+
+You can view these in the **network graph** or check the **entities list** for more details.
+
+---
+
+**Next Steps:**
+- Explore the connections in the network graph
+- View document classifications
+- Check the roadmap for upcoming features</div>
+        <div class="chat-message assistant" id="test8"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked@11.0.0/marked.min.js"></script>
+    <script>
+        // Configure marked
+        marked.setOptions({
+            breaks: true,
+            gfm: true,
+            headerIds: false,
+            mangle: false
+        });
+
+        // Feature link patterns
+        const featureLinks = {
+            'network graph': { text: 'Network Graph', action: "alert('Switch to Network tab')" },
+            'entity network': { text: 'Entity Network', action: "alert('Switch to Network tab')" },
+            'entities list': { text: 'Entities', action: "alert('Switch to Entities tab')" },
+            'roadmap': { text: 'Roadmap', action: "alert('Switch to Roadmap tab')" },
+            'suggest a source': { text: 'Suggest a Source', action: "alert('Open source form')" },
+            'ingestion status': { text: 'Ingestion Status', action: "alert('Switch to Ingestion tab')" }
+        };
+
+        // Enhance with feature links
+        function enhanceWithFeatureLinks(text) {
+            let enhanced = text;
+            const patterns = Object.keys(featureLinks).sort((a, b) => b.length - a.length);
+
+            patterns.forEach(pattern => {
+                const link = featureLinks[pattern];
+                const regex = new RegExp(`\\b(${pattern})\\b`, 'gi');
+                enhanced = enhanced.replace(regex, (match) => {
+                    return `<a href="javascript:void(0)" onclick="${link.action}" class="feature-link">${match}</a>`;
+                });
+            });
+
+            return enhanced;
+        }
+
+        // Render markdown
+        function renderMarkdown(text) {
+            let enhanced = enhanceWithFeatureLinks(text);
+            let html = marked.parse(enhanced);
+            html = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+            return html;
+        }
+
+        // Render all tests
+        const tests = [
+            `This is **bold text**, this is *italic text*, and this is \`inline code\`.
+
+You can also use __bold__ and _italic_ with underscores.`,
+
+            `# Header 1
+## Header 2
+### Header 3
+#### Header 4
+
+This is regular paragraph text.`,
+
+            `**Unordered List:**
+- First item
+- Second item
+- Third item
+
+**Ordered List:**
+1. Step one
+2. Step two
+3. Step three`,
+
+            `Here's some inline code: \`console.log('Hello')\`.
+
+And here's a code block:
+\`\`\`javascript
+function searchEntities(query) {
+    return entities.filter(e =>
+        e.name.toLowerCase().includes(query.toLowerCase())
+    );
+}
+\`\`\``,
+
+            `> This is a blockquote. It can contain important information or citations.
+
+Here's a [link to Google](https://google.com) for testing.
+
+And here's an [internal link](#test-anchor).`,
+
+            `You can explore the **network graph** to see entity connections. Check the **entities list** for all indexed entities, or view the **roadmap** for project status.
+
+If you'd like to contribute, you can **suggest a source** for new documents. The **ingestion status** shows OCR progress.`,
+
+            `| Entity | Connections | Documents |
+|--------|-------------|-----------|
+| Jeffrey Epstein | 256 | 4,523 |
+| Ghislaine Maxwell | 228 | 3,891 |
+| Bill Clinton | 26 | 234 |`,
+
+            `## Search Results
+
+I found **3 entities** matching your query:
+
+1. **Jeffrey Epstein** - 256 connections, 4,523 documents
+2. **Ghislaine Maxwell** - 228 connections, 3,891 documents
+3. **Les Wexner** - 42 connections, 567 documents
+
+You can view these in the **network graph** or check the **entities list** for more details.
+
+---
+
+**Next Steps:**
+- Explore the connections in the network graph
+- View document classifications
+- Check the roadmap for upcoming features`
+        ];
+
+        tests.forEach((test, i) => {
+            document.getElementById(`test${i + 1}`).innerHTML = renderMarkdown(test);
+        });
+
+        console.log('All tests rendered successfully!');
+    </script>
+</body>
+</html>

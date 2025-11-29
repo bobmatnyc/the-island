@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028994",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028994.txt",
+  "text": "Live Feeds — US Presidential Election, 2016\n\nWeekly Report: Donald Trump Weekly Report: Hillary Clinton\n\n5.73% 2.33%\n\n= Negative @ Negative\n@ Neutral @ Neutral\n®@ Positive ®@ Positive\n\nBased on data collected from 10\" - 17 August 2016\n\nHOUSE_OVERSIGHT_028994",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028994.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 258,
+    "word_count": 40,
+    "line_count": 13,
+    "import_date": "2025-11-19T21:47:48.766366",
+    "prefix": "IMAGES-010"
+  }
+}

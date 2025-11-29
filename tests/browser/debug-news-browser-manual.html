@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News API Browser Debugging Tool</title>
+  <style>
+    body {
+      font-family: 'Monaco', 'Menlo', monospace;
+      background: #1e1e1e;
+      color: #d4d4d4;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: #4ec9b0;
+      border-bottom: 2px solid #4ec9b0;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #569cd6;
+      margin-top: 30px;
+      border-bottom: 1px solid #569cd6;
+      padding-bottom: 5px;
+    }
+    .section {
+      background: #252526;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 5px;
+      border-left: 4px solid #569cd6;
+    }
+    .error {
+      background: #5a1d1d;
+      border-left-color: #f48771;
+    }
+    .success {
+      background: #1e3a1e;
+      border-left-color: #4ec9b0;
+    }
+    .warning {
+      background: #5a4d1d;
+      border-left-color: #dcdcaa;
+    }
+    pre {
+      background: #1e1e1e;
+      padding: 10px;
+      border-radius: 3px;
+      overflow-x: auto;
+      font-size: 12px;
+    }
+    .status {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 3px;
+      margin-right: 10px;
+      font-weight: bold;
+    }
+    .status.yes { background: #4ec9b0; color: #1e1e1e; }
+    .status.no { background: #f48771; color: #1e1e1e; }
+    .status.unknown { background: #dcdcaa; color: #1e1e1e; }
+    button {
+      background: #007acc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      margin: 10px 5px 10px 0;
+    }
+    button:hover {
+      background: #005a9e;
+    }
+    .code {
+      color: #ce9178;
+    }
+    .key {
+      color: #9cdcfe;
+    }
+    .value {
+      color: #b5cea8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔍 News API Browser Debugging Tool</h1>
+
+    <div class="section">
+      <h2>Instructions</h2>
+      <ol>
+        <li>Make sure the backend server is running on <code>http://localhost:8081</code></li>
+        <li>Make sure the frontend is running on <code>http://localhost:5173</code></li>
+        <li>Open your browser's DevTools (F12) and go to the <strong>Network</strong> tab</li>
+        <li>Click the button below to run all diagnostic tests</li>
+        <li>Review the results below and in the Network tab</li>
+      </ol>
+      <button onclick="runAllTests()">🚀 Run All Diagnostic Tests</button>
+      <button onclick="clearResults()">🗑️ Clear Results</button>
+    </div>
+
+    <div id="results"></div>
+  </div>
+
+  <script>
+    const resultsDiv = document.getElementById('results');
+    const ENTITY_ID = 'jeffrey_epstein';
+    const API_BASE = 'http://localhost:8081';
+    const FRONTEND_BASE = 'http://localhost:5173';
+
+    function clearResults() {
+      resultsDiv.innerHTML = '';
+    }
+
+    function addSection(title, content, type = '') {
+      const section = document.createElement('div');
+      section.className = `section ${type}`;
+      section.innerHTML = `<h2>${title}</h2>${content}`;
+      resultsDiv.appendChild(section);
+      return section;
+    }
+
+    function formatJson(obj, indent = 2) {
+      return JSON.stringify(obj, null, indent)
+        .replace(/"([^"]+)":/g, '<span class="key">"$1":</span>')
+        .replace(/: "([^"]+)"/g, ': <span class="code">"$1"</span>')
+        .replace(/: (\d+)/g, ': <span class="value">$1</span>')
+        .replace(/: (true|false|null)/g, ': <span class="value">$1</span>');
+    }
+
+    async function testApiDirect() {
+      const startTime = performance.now();
+      const url = `${API_BASE}/api/news/articles?entity=${ENTITY_ID}`;
+
+      try {
+        const response = await fetch(url, {
+          method: 'GET',
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        const endTime = performance.now();
+        const duration = (endTime - startTime).toFixed(2);
+
+        const data = await response.json();
+
+        let content = `
+          <p><span class="status ${response.ok ? 'yes' : 'no'}">${response.status}</span> ${response.statusText}</p>
+          <p>⏱️ Duration: ${duration}ms</p>
+          <p>🔗 URL: <code>${url}</code></p>
+          <p>📋 Response Type: <span class="code">${typeof data}</span></p>
+          <p>📦 Is Array: <span class="status ${Array.isArray(data) ? 'yes' : 'no'}">${Array.isArray(data)}</span></p>
+        `;
+
+        if (Array.isArray(data)) {
+          content += `
+            <p><strong>✅ CORRECT FORMAT: Direct Array</strong></p>
+            <p>📊 Articles Count: <span class="value">${data.length}</span></p>
+          `;
+
+          if (data.length > 0) {
+            content += `
+              <p><strong>First Article Sample:</strong></p>
+              <pre>${formatJson({
+                title: data[0].title?.substring(0, 100) + '...',
+                date: data[0].date,
+                source: data[0].source,
+                url: data[0].url?.substring(0, 100) + '...'
+              })}</pre>
+            `;
+          }
+        } else if (data && typeof data === 'object') {
+          content += `
+            <p><strong>⚠️ Response is Object, not Array</strong></p>
+            <p>🔑 Object Keys: <span class="code">${Object.keys(data).join(', ')}</span></p>
+          `;
+
+          if (data.articles && Array.isArray(data.articles)) {
+            content += `
+              <p class="error"><strong>❌ FOUND THE BUG!</strong></p>
+              <p>Backend returns: <code>{ articles: Array }</code></p>
+              <p>Frontend expects: <code>Array</code> directly</p>
+              <p>Wrapped articles count: <span class="value">${data.articles.length}</span></p>
+            `;
+            addSection('🔴 Test 1: Direct API Call', content, 'error');
+            return { bug: 'wrapped', count: data.articles.length };
+          }
+
+          content += `<pre>${formatJson(data)}</pre>`;
+        }
+
+        const type = response.ok && Array.isArray(data) ? 'success' : 'warning';
+        addSection('✅ Test 1: Direct API Call', content, type);
+
+        return {
+          success: response.ok,
+          isArray: Array.isArray(data),
+          count: Array.isArray(data) ? data.length : (data?.articles?.length || 0)
+        };
+
+      } catch (error) {
+        const content = `
+          <p class="error"><strong>❌ Request Failed</strong></p>
+          <p>Error: <code>${error.message}</code></p>
+          <pre>${error.stack}</pre>
+        `;
+        addSection('🔴 Test 1: Direct API Call', content, 'error');
+        return { error: error.message };
+      }
+    }
+
+    async function testCors() {
+      const url = `${API_BASE}/api/news/articles?entity=${ENTITY_ID}`;
+
+      try {
+        const response = await fetch(url, {
+          method: 'OPTIONS',
+        });
+
+        const headers = {};
+        response.headers.forEach((value, key) => {
+          headers[key] = value;
+        });
+
+        const corsHeaders = {
+          'Access-Control-Allow-Origin': headers['access-control-allow-origin'],
+          'Access-Control-Allow-Methods': headers['access-control-allow-methods'],
+          'Access-Control-Allow-Headers': headers['access-control-allow-headers'],
+        };
+
+        const content = `
+          <p><span class="status ${response.ok ? 'yes' : 'no'}">${response.status}</span> ${response.statusText}</p>
+          <p><strong>CORS Headers:</strong></p>
+          <pre>${formatJson(corsHeaders)}</pre>
+          <p>Origin Check: <span class="status ${corsHeaders['Access-Control-Allow-Origin'] === '*' || corsHeaders['Access-Control-Allow-Origin'] === window.location.origin ? 'yes' : 'no'}">
+            ${corsHeaders['Access-Control-Allow-Origin'] === '*' ? 'Allow All (*)' : corsHeaders['Access-Control-Allow-Origin'] || 'MISSING'}
+          </span></p>
+        `;
+
+        const type = response.ok ? 'success' : 'error';
+        addSection('✅ Test 2: CORS Configuration', content, type);
+
+        return { success: response.ok, corsHeaders };
+
+      } catch (error) {
+        const content = `
+          <p class="error"><strong>❌ CORS Test Failed</strong></p>
+          <p>Error: <code>${error.message}</code></p>
+        `;
+        addSection('🔴 Test 2: CORS Configuration', content, 'error');
+        return { error: error.message };
+      }
+    }
+
+    async function testResponseFormat() {
+      const url = `${API_BASE}/api/news/articles?entity=${ENTITY_ID}`;
+
+      try {
+        const response = await fetch(url);
+        const contentType = response.headers.get('content-type');
+        const data = await response.json();
+
+        const analysis = {
+          contentType,
+          responseType: typeof data,
+          isArray: Array.isArray(data),
+          isObject: data && typeof data === 'object',
+          hasArticlesKey: data && 'articles' in data,
+          directCount: Array.isArray(data) ? data.length : null,
+          wrappedCount: data?.articles ? data.articles.length : null
+        };
+
+        let diagnosis = '';
+        let type = 'success';
+
+        if (analysis.isArray) {
+          diagnosis = '✅ <strong>Correct Format:</strong> Response is a direct array';
+        } else if (analysis.hasArticlesKey) {
+          diagnosis = '❌ <strong>Bug Found:</strong> Response is wrapped in { articles: [...] }';
+          type = 'error';
+        } else {
+          diagnosis = '⚠️ <strong>Unexpected Format:</strong> Response is neither array nor { articles: array }';
+          type = 'warning';
+        }
+
+        const content = `
+          <p>${diagnosis}</p>
+          <p><strong>Format Analysis:</strong></p>
+          <pre>${formatJson(analysis)}</pre>
+        `;
+
+        addSection('📋 Test 3: Response Format Analysis', content, type);
+
+        return analysis;
+
+      } catch (error) {
+        const content = `<p class="error">❌ Error: ${error.message}</p>`;
+        addSection('🔴 Test 3: Response Format Analysis', content, 'error');
+        return { error: error.message };
+      }
+    }
+
+    async function testFrontendSimulation() {
+      const url = `${API_BASE}/api/news/articles?entity=${ENTITY_ID}`;
+
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+
+        // Simulate what the frontend code does
+        const newsArticles = data; // This is what EntityDetail.tsx does
+        const isArray = Array.isArray(newsArticles);
+        const count = isArray ? newsArticles.length : 0;
+
+        let content = `
+          <p><strong>Frontend Code Simulation:</strong></p>
+          <pre>const newsArticles = data;
+const isArray = Array.isArray(newsArticles);
+const count = isArray ? newsArticles.length : 0;</pre>
+
+          <p><strong>Results:</strong></p>
+          <p>newsArticles is Array: <span class="status ${isArray ? 'yes' : 'no'}">${isArray}</span></p>
+          <p>Count: <span class="value">${count}</span></p>
+        `;
+
+        if (!isArray && data?.articles) {
+          content += `
+            <p class="error"><strong>❌ This is why UI shows "0 articles"!</strong></p>
+            <p>Frontend receives: <code>{ articles: [198 items] }</code></p>
+            <p>Frontend checks: <code>Array.isArray(data)</code> → <strong>false</strong></p>
+            <p>Frontend displays: <strong>0 articles</strong></p>
+            <br>
+            <p><strong>Fix Required:</strong></p>
+            <p>Option 1: Backend should return array directly: <code>[...]</code></p>
+            <p>Option 2: Frontend should check: <code>data.articles || data</code></p>
+          `;
+          addSection('🐛 Test 4: Frontend Code Simulation', content, 'error');
+        } else {
+          content += `<p>✅ Frontend would display: <strong>${count} articles</strong></p>`;
+          addSection('✅ Test 4: Frontend Code Simulation', content, 'success');
+        }
+
+        return { isArray, count };
+
+      } catch (error) {
+        const content = `<p class="error">❌ Error: ${error.message}</p>`;
+        addSection('🔴 Test 4: Frontend Code Simulation', content, 'error');
+        return { error: error.message };
+      }
+    }
+
+    async function testNetworkTiming() {
+      const url = `${API_BASE}/api/news/articles?entity=${ENTITY_ID}`;
+      const iterations = 5;
+      const timings = [];
+
+      for (let i = 0; i < iterations; i++) {
+        const start = performance.now();
+        await fetch(url);
+        const end = performance.now();
+        timings.push(end - start);
+      }
+
+      const avg = (timings.reduce((a, b) => a + b, 0) / timings.length).toFixed(2);
+      const min = Math.min(...timings).toFixed(2);
+      const max = Math.max(...timings).toFixed(2);
+
+      const content = `
+        <p>Iterations: ${iterations}</p>
+        <p>Average: ${avg}ms</p>
+        <p>Min: ${min}ms</p>
+        <p>Max: ${max}ms</p>
+        <p><strong>Individual timings:</strong> ${timings.map(t => t.toFixed(2) + 'ms').join(', ')}</p>
+      `;
+
+      addSection('⏱️ Test 5: Network Performance', content, 'success');
+
+      return { avg, min, max, timings };
+    }
+
+    async function runAllTests() {
+      clearResults();
+
+      addSection('🚀 Running Diagnostic Tests...', '<p>Please wait...</p>', '');
+
+      const results = {
+        test1: await testApiDirect(),
+        test2: await testCors(),
+        test3: await testResponseFormat(),
+        test4: await testFrontendSimulation(),
+        test5: await testNetworkTiming()
+      };
+
+      // Summary
+      let summary = '<h2>📊 Summary</h2>';
+
+      if (results.test1.bug === 'wrapped') {
+        summary += `
+          <div class="error">
+            <h3>🐛 ROOT CAUSE IDENTIFIED</h3>
+            <p><strong>The backend is returning the wrong format!</strong></p>
+            <p>Backend returns: <code>{ "articles": [...] }</code></p>
+            <p>Frontend expects: <code>[...]</code> (direct array)</p>
+            <br>
+            <p><strong>Impact:</strong></p>
+            <ul>
+              <li>API returns ${results.test1.count} articles ✅</li>
+              <li>But frontend shows "0 articles" ❌</li>
+              <li>Because <code>Array.isArray({ articles: [...] })</code> returns <strong>false</strong></li>
+            </ul>
+            <br>
+            <p><strong>Fix Required:</strong></p>
+            <p>In <code>server/routes/news.py</code>, change:</p>
+            <pre>return { "articles": articles }  # ❌ Wrong</pre>
+            <p>To:</p>
+            <pre>return articles  # ✅ Correct</pre>
+          </div>
+        `;
+      } else if (results.test1.isArray) {
+        summary += `
+          <div class="success">
+            <h3>✅ API Format is Correct!</h3>
+            <p>Backend returns array directly with ${results.test1.count} articles</p>
+            <p>The issue must be elsewhere (check browser console, React state, etc.)</p>
+          </div>
+        `;
+      }
+
+      addSection('Final Summary', summary, '');
+
+      // Instructions for next steps
+      const nextSteps = `
+        <h3>Next Steps:</h3>
+        <ol>
+          <li><strong>Check Network Tab:</strong> Look for the /api/news/articles request and verify the actual response</li>
+          <li><strong>Check Browser Console:</strong> Look for any JavaScript errors or warnings</li>
+          <li><strong>Open React DevTools:</strong> Inspect the EntityDetail component state</li>
+          <li><strong>Compare Results:</strong> Does the Network tab match these test results?</li>
+        </ol>
+      `;
+
+      addSection('📝 Next Steps', nextSteps, '');
+    }
+
+    // Auto-run on load
+    window.addEventListener('load', () => {
+      console.log('Debug tool loaded. Click the button to run tests.');
+    });
+  </script>
+</body>
+</html>

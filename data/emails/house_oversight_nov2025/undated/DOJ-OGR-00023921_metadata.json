@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00023921",
+  "email_index": 128,
+  "extracted_at": "2025-11-17T04:14:45.474935",
+  "from_address": null,
+  "to_address": "Lee Plourdd\u00ae@@MO@ia@bop.gov>",
+  "cc_address": null,
+  "subject": "Fwd: hi and a question",
+  "date": "7/24/19 10:47 PM (GMT-05:00)",
+  "body": ">>PRRGO 07/24/2019 22:47 >>>\nhi Lee,\nhope you are well. We saw an article tonight on someting called Radaronline -\nreporting that Jeffrey Epstein attempted to commit suicide at the MCC\n(unsuccessfully. )\nAre you in a position to help me on that with some sort of confirmation or\ninformation. (Or to dispel its veracity?) thanks |\nReporter, The New York Times\nOffice: 212-556aiaaal\nMobile: 914-672-1595\nEmail: nytimes.com\nPage 9472",
+  "confidence": 0.8999999999999999,
+  "email_addresses": [
+    "a@bop.gov"
+  ]
+}

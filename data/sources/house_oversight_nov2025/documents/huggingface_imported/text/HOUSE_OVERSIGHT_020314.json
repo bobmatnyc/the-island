@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_020314",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_020314.txt",
+  "text": "162\n\nCHAPTER TWENTY\n\nThe NSA’s Back Door\n\n“You have private for-profit companies doing inherently governmental work like targeted espionage, surveillance,\ncompromising foreign systems. And there’s very little oversight, there’s very little review.”\n\n- Edward Snowden, explaining his access to the NSA in Moscow, 2014\n\nPrior to Snowden’s theft of NSA documents, the single most shattering blow to the confidence\nof the US intelligence community was the exposure of Aldrich Ames as a long-serving Russian\nmole in the CIA in 1994. Ames, it will be recalled, had been a high-ranking CIA officer. He had\neven worked at the CIA’s Counterintelligence Center Analysis Group before he was arrested by\nthe FBI. He had also worked as a mole for Russian intelligence. (His recruitment by the KGB will\nbe further discussed in Chapter twenty-seven.)\n\nIn a plea bargain to avoid the death sentence, he admitted that he had successfully burrowed\ninto the CIA for over nine years on behalf of the KGB. His description of his sub rosa activities as\na mole was part of the plea bargain. He was sentenced to life imprisonment. This stunning\nrevelation shook the CIA leadership to its core. Up until then, as mentioned earlier, CIA\nexecutives steadfastly denied that it was possible that the KGB could sustain a mole in American\nintelligence. The Ames arrest also led the NSA to reassess its own vulnerability to penetration.\nCould there be an Ames inside the NSA?\n\nThe question was considered by the NSA’s National Threats Operations Center, the same unit\nfrom which Edward Snowden later stole a huge trove of secret documents. According to a report\nin 1996 entitled “Out of Control” (later released by the NSA), the danger of an Ames-type\npenetration could not be excluded. Even though the “threat officer” who wrote this report was\nnot identified by name, his analysis proved incredibly prescient. He said that the NSA’s drive to\nenhance its performance by networking its computers would result in the intelligence services,\nputting “all their classified information ‘eggs’ into one very precarious basket.” The basket was\nthe computer networks run by technicians called: system administrators.” He pointed out that the\nNSA was becoming increasingly dependent on such networked computer systems, and he\npredicted that the NSA’s “Aldrich Ames.” As he put it, would be a “system\nadministrator’ —which was the position that Edward Snowden held nearly two decades later at\nDell when he began stealing secrets.\n\nHOUSE_OVERSIGHT_020314",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_020314.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2511,
+    "word_count": 402,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:46.507600",
+    "prefix": "IMAGES-005"
+  }
+}

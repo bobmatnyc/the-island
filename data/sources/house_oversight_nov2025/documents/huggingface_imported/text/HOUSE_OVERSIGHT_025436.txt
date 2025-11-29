@@ -1,0 +1,70 @@
+Source Entry: H\Macintosh HD\root \Users\jee\Library\Messages\Archive\2019-03-31 QE
+
+on 2019-03-31 at 13.01.19.ichat
+
+Service: SMS
+
+Start Time: 02/24/19 12:18:52 PM (572732332)
+End Time: 03/31/19 10:01:19 AM (575744479)
+Last Message ID: 26840
+
+Chat Room:
+
+Participants: jec, Ei
+
+Presentity Ips: «:, ay
+
+Messages -
+
+Sender: ay
+
+Time: 02/24/19 12:18:52 PM (572732332)
+Flags: 1060865
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: E8FC437F-030C-41DA-80FD-A4EC27724A03
+
+Message: Did you land?
+
+Time: 02/24/19 01:00:25 PM (572734825)
+Flags: 1060865
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 4D09D093-23B5-4A69-AB74-6ACBFOFBF645
+
+Message: Want to come over for the Oscars and dinner?
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 02/24/19 01:39:59 PM (572737199)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: SSFF1598-F158-4751-8COE-84A1482E2405
+
+a3
+
+Message: No thx
+
+Sender: SY
+
+Time: 02/26/19 09:19:04 AM (572894344)
+Flags: 1060865
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 676F9617-D794-47B2-9987-8769F88AD4 64
+
+Message: Catherine Shimonys mom died... just FYI
+
+HOUSE_OVERSIGHT_025436

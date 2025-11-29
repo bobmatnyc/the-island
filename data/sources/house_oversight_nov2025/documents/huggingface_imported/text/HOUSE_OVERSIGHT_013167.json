@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013167",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013167.txt",
+  "text": "13.3 Atoms: Their Types and Weights\n\n13.3.3 Logical Links\n\n251\n\nThere is a host of link types embodying logical relationships as defined in the PLN logic system,\n\ne.g.\n\ne InheritanceLink\ne SubsetLink (aka ExtensionalInheritanceLink)\ne Intensional InheritanceLink\n\nwhich embody different sorts of inheritance, e.g.\n\nSubsetLink salmon fish\nIntensionalInheritanceLink whale fish\nInheritanceLink fish animal\n\nand then\n\ne SimilarityLink\ne ExtensionalSimilarityLink\ne IntensionalSimilarityLink\n\nwhich are symmetrical versions, e.g.\n\nSimilaritytLink shark barracuda\nIntensionalSimilarityLink shark dolphin\nExtensionalSimiliarityLink American obese\\_person\n\nThere are also higher-order versions of these links, both asymmetric\n\ne ImplicationLink\ne ExtensionallmplicationLink\ne IntensionallmplicationLink\n\nand symmetric\n\ne EquivalenceLink\ne ExtensionalEquivalenceLink\ne IntensionalEquivalenceLink\n\nThese are used between predicates and links, e.g.\n\nImplicationLink\nEvaluationLink\neat\nListLink\n$X\naan,\nEvaluationLink\nfeel\nListLink\n$X\nsick\n\nor\n\nHOUSE_OVERSIGHT_013167",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013167.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1056,
+    "word_count": 120,
+    "line_count": 61,
+    "import_date": "2025-11-19T21:47:48.569728",
+    "prefix": "IMAGES-002"
+  }
+}

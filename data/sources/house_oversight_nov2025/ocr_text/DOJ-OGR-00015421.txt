@@ -1,0 +1,30 @@
+Fed =< Invoice Number: 4-487-30791
+2 Invoice Date: Dec 13, 2002
+Account Number: 2292-0750-4
+Page: 3 of 4
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 05, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 4
+
+1st attempt Dec 05, 2002 at 12 01 AM.
+
+Delivery delayed by situations beyond our control.
+Tracking D 838319148650 Sender Recipient
+Service Type FedEx Standard Overnight LAUREN KW NTNER CHRIS PACK
+Package Type FedEx Envelope NYSG LLC JESSE PH LIPS FOUNDATION
+Zone 4 457 MADISON AVE SY
+Packages 1 NEW YORK NY 10022-6843 US PY
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Dec 06, 2002 13 01 Transportation Charge 6.45
+Sve Area Al Fuel Surcharge 026
+Signed by = 15800727 Residential Delivery 135
+FedEx Use 345167410/06963/SN —_—sSssss ss
+
+Total Transportation Charges USD $ 8.06
+Shipment Detail Subtotal .............cccsssessseseeeeseseeseeeceeeesaeseeeseeseesaeeesaesesaesesasssseesseeesseeseeeeeee DOD 8.06
+SDNY_GM_00340731 112
+DOJ-OGR-00015421

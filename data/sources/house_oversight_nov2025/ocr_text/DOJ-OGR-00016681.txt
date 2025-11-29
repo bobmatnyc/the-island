@@ -1,0 +1,44 @@
+Case 1:20-cr-00330-PAE Document 761 Filed 08/10/22 Page 198 of 246 2493
+LCGCmax6 Aznaran — direct
+
+1 BY MR. EVERDELL:
+
+2 Q. And just to be clear, when I refer to border crossing, what
+3 does that mean to you?
+
+4 A. That, it could mean either any international traveler
+
+5 coming into the United States at any international airport,
+
+6 seaport, or land border along the Mexican or northern border of
+7 Canada.
+
+8 Q. And the information you just listed is stored in the TECS
+
+9 system for those passengers that are entering through ports of
+10 entry; is that right?
+
+11 A. Yes.
+
+12 Q. How far back do the border crossing records go in the TECS
+13 system?
+
+14 A. It's hard to say. In my experience, I have not seen any
+
+15 border crossings any earlier than roughly the early '90s, mid
+16 "90s.
+
+17 Q. And how does the border crossing information that is stored
+18 in the TECS system get input into that database?
+
+19 A. So, there is another system, it's called APIS, Advanced
+20 Passenger Information System, and essentially what happens is
+21 international airlines or any airline that has international
+22 flights coming into or departing the United States, they're
+23 required to submit their manifest to us. The manifest gets
+24 loaded into APIS, which is then linked to text, and that's how
+25 we're able to see that information.
+
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00016681

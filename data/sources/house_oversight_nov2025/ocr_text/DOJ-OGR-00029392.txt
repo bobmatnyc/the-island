@@ -1,0 +1,108 @@
+Page 184 ~ b6 - 5; b?vc - 5; BYE - 1;
+
+Page 185 ~ bo - 5; bic —- 5; b?E —- 1;
+
+Page 186 ~ bo - 5; bic —- 5; bvE —- 1;
+
+Page 187 ~ b7E - 1;
+
+Page 188 ~ b3 - 1; b6 - 2,-3; b?C - 2,-3; bBTVE - 1;
+
+Page 189 ~ b3 - 1; b6 - 2,-3; b?C - 2,-3; bDVE - 1;
+
+Page 193 ~ b3 - 1; b6& - 3; b?c —- 3; bl?E —- 1;
+
+Page 194 ~ b3 - 1; b6 - 3,-5; b?Cc — 3,-5; blE —- 1;
+
+Page 195 ~ b3 - 1; b6 - 3,-5; bYC - 3,-5; bDVE - 1;
+
+Page 196 ~ b3 - 1; b6 - 5; b?cC - 5; bBTVE - 1;
+
+Page 197 ~ b3 - 1; b6é - 3,-5; b?c -— 3,-5; blE —- 1;
+
+Page 198 ~ bo - 5; bic —- 5; b?vE - 1;
+
+Page 199 ~ b6 - 5; b?vC - 5; BYE - 1;
+
+Page 200 ~ b6 - 5; b?vC - 5; bBVE - 1;
+
+Page 201 ~ b6 - 5; b?7C - 5; bBTE - 1;
+
+Page 202 ~ bo - 5; bic —- 5; b?E - 1;
+
+Page 203 ~ bo - 5; bic — 5; b?E - 1;
+
+Page 204 ~ b6 - 5; b?7C - 5; bBVE - 1;
+
+Page 205 ~ b6 - 5; b7vC - 5; bBTE - 1;
+
+Page 206 ~ bo - 5; bic — 5; b?E - 1;
+
+Page 207 ~ bo - 5; bic — 5; b?E - 1;
+
+Page 208 ~ bo - 5; bic - 5; b?E - 1;
+
+Page 209 ~ b6 - 5; b7vC - 5; bB7E - 1;
+
+Page 210 ~ b6 - 5; b7vC - 5; bB7E - 1;
+
+Page 211 ~ b?E - 1;
+
+Page 214 ~ b3 - 1; be - 1; bic - 2,-3; b?E - 2,-3;
+
+Page 215 ~ b3 - 1; b6 - 3; bYC - 3; bYE - 1;
+
+Page 216 ~ b3 - 1; b6 - 3; bYC - 3; bYE - 1;
+
+Page 217 ~ b3 - 1; bo - 3; b?c - 3; b?E - 1;
+
+Page 218 ~ b3 - 1; b6 - 3,-5; b?c - 3,-5; b?E - 1;
+
+Page 219 ~ b6 - 5; bic - 5; bvE - 1;
+
+Page 220 ~ b6 - 5; b7C - 5; B7E - 1;
+
+Page 221 ~ b6 - 5; b7vC - 5; B7E - 1;
+
+Page 222 ~ b6 - 5; blic - 5; bvE - 1;
+
+Page 223 ~ bo - 5; bic - 5; bvE - 1;
+
+Page 224 ~ b6 - 5; b?vC - 5; bBVE - 1;
+
+Page 225 ~ b3 - 1; b6 - 3; b?C - 3; BVE - 1;
+
+Page 234 ~ b3 - 1; b6 - 3; b?c —- 3; b?E - 1;
+
+Page 235 ~ b3 - 1; bo - 1,-2,-3,-5; b?c - 1,-2,-3,-5; b?7B - 1;
+
+Page 236 ~ b3 - 1; be - 1,-3; b?c - 1,-3; b?D - 1;
+
+Page 237 ~ b3 - 1; b6 - 3; b?C - 3;
+
+Page 238 ~ b3 - 1; b6 - 2,-3; b?C - 2,-3; BYE - 1;
+
+Page 239 ~ b3 - 1; b6 - 2,-3; b?C - 2,-3; blE - 1;
+
+Page 240 ~ b3 - 1; b6 - 2,-3; b?C - 2,-3; blTE - 1;
+
+Page 241 ~ b3 - 1; b6 - 3; b?C - 3; BYE - 1;
+
+Page 242 ~ b3 - 1; b6 - 3; b?C - 3; BYE - 1;
+
+Page 243 ~ b3 - 1; b6 - 3,-5; b?7C - 3,-5; bBVE - 1;
+
+Page 244 ~ bo - 5; bic - 5; bvE - 1;
+
+Page 245 ~ bo - 5; bic - 5; b?E - 1;
+
+Page 246 ~ b6 - 5; b?vC - 5; BYE - 1;
+
+Page 247 ~ b6 - 5; b?C - 5; BYE - 1;
+
+Page 248 ~ bo - 5; bic - 5; b?E —- 1;
+
+Page 249 ~ b3 - 1; b6 - 3,-5; b?Cc - 3,-5; blE —- 1;
+
+Page 250 ~ b3 - 1; b6 - 3; b?C - 3; BYE - 1;
+DOJ-OGR-00029392

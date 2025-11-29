@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_018802",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_018802.txt",
+  "text": "Retail Construction on Las Vegas Boulevard\n\nThe following table summarizes the retail construction on the Las Vegas Strip since 2000.\n\nPROPERTY ADDRESS / LOCATION RENTABLE STATUS\nSate a Shops (Desert Passage - 3667 Las Vegas Boulevard 490,000 Complete\n\nShowcase Mall Phase II 3785 Las Vegas Boulevard 40,000 Complete\n\nFashion Show Mall Expansion Phase |\n\n3200 Las Vegas Boulevard Complete\n\nBoulevard Collection Las Vegas Boulevard @ Sahara 50,000 Complete\nMandalay Place 3950 Las Vegas Boulevard 90,000 Complete\n\nall Expansion Phase II 3200 Las Vegas Boulevard 609,500 Complete\nHawaiian Marketplace 3742 Las Vegas Boulevard 80,000 Complete\nForum Shops at Caesars Palace Phase Ill 3500 Las Vegas Boulevard 167,000 Complete\n\n3325 Las Vegas Boulevard\nLas Vegas Blvd @ I-215\n\n364,000\n925,000\n\nComplete\nComplete\n\nE Harmon Ave @ Las Vegas Blvd 425,000 Complete\nShowcase Mall IIl Las Vegas Blvd @ Tropicana Ave 97,320 Complete\n\nHOUSE_OVERSIGHT_018802",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_018802.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 943,
+    "word_count": 141,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:48.349610",
+    "prefix": "IMAGES-005"
+  }
+}

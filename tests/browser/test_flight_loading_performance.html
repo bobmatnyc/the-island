@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Loading Performance Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+        h1 { color: #58a6ff; }
+        .test-section {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #30363d;
+        }
+        .metric:last-child { border-bottom: none; }
+        .metric-value {
+            font-weight: bold;
+            color: #58a6ff;
+        }
+        .success { color: #3fb950; }
+        .warning { color: #d29922; }
+        .error { color: #f85149; }
+        button {
+            background: #238636;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover { background: #2ea043; }
+        button:disabled {
+            background: #30363d;
+            cursor: not-allowed;
+        }
+        #log {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 20px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .log-entry {
+            padding: 4px 0;
+            border-bottom: 1px solid #21262d;
+        }
+        .log-time {
+            color: #8b949e;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flight Loading Performance Test</h1>
+
+    <div class="test-section">
+        <h2>Progressive Loading Configuration</h2>
+        <div class="metric">
+            <span>Batch Size:</span>
+            <span class="metric-value">10 flights/batch</span>
+        </div>
+        <div class="metric">
+            <span>Batch Delay:</span>
+            <span class="metric-value">50ms between batches</span>
+        </div>
+        <div class="metric">
+            <span>Total Flights:</span>
+            <span class="metric-value">1,167 flights</span>
+        </div>
+        <div class="metric">
+            <span>Expected Batches:</span>
+            <span class="metric-value">~117 batches</span>
+        </div>
+        <div class="metric">
+            <span>Estimated Total Time:</span>
+            <span class="metric-value">~6-8 seconds</span>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Performance Metrics</h2>
+        <div id="metrics">
+            <div class="metric">
+                <span>Status:</span>
+                <span id="status" class="metric-value">Ready</span>
+            </div>
+            <div class="metric">
+                <span>API Response Time:</span>
+                <span id="apiTime" class="metric-value">-</span>
+            </div>
+            <div class="metric">
+                <span>First Batch Rendered:</span>
+                <span id="firstBatch" class="metric-value">-</span>
+            </div>
+            <div class="metric">
+                <span>Total Load Time:</span>
+                <span id="totalTime" class="metric-value">-</span>
+            </div>
+            <div class="metric">
+                <span>UI Responsive:</span>
+                <span id="responsive" class="metric-value">-</span>
+            </div>
+            <div class="metric">
+                <span>Memory Usage:</span>
+                <span id="memory" class="metric-value">-</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Actions</h2>
+        <button id="testBtn" onclick="runPerformanceTest()">Run Performance Test</button>
+        <button onclick="clearLog()">Clear Log</button>
+        <button onclick="checkMemory()">Check Memory</button>
+    </div>
+
+    <div class="test-section">
+        <h2>Test Log</h2>
+        <div id="log"></div>
+    </div>
+
+    <script>
+        let startTime, apiEndTime, firstBatchTime, endTime;
+        let isResponsive = true;
+
+        function log(message, type = 'info') {
+            const logEl = document.getElementById('log');
+            const time = new Date().toLocaleTimeString();
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            entry.innerHTML = `<span class="log-time">[${time}]</span><span class="${type}">${message}</span>`;
+            logEl.appendChild(entry);
+            logEl.scrollTop = logEl.scrollHeight;
+        }
+
+        function clearLog() {
+            document.getElementById('log').innerHTML = '';
+        }
+
+        function updateMetric(id, value, className = '') {
+            const el = document.getElementById(id);
+            el.textContent = value;
+            if (className) {
+                el.className = `metric-value ${className}`;
+            }
+        }
+
+        function checkMemory() {
+            if (performance.memory) {
+                const used = (performance.memory.usedJSHeapSize / 1048576).toFixed(2);
+                const total = (performance.memory.totalJSHeapSize / 1048576).toFixed(2);
+                const limit = (performance.memory.jsHeapSizeLimit / 1048576).toFixed(2);
+                updateMetric('memory', `${used}MB / ${total}MB (limit: ${limit}MB)`);
+                log(`Memory: ${used}MB used, ${total}MB allocated`);
+            } else {
+                updateMetric('memory', 'Not available');
+                log('Memory API not available in this browser', 'warning');
+            }
+        }
+
+        function testUIResponsiveness() {
+            // Test if UI is still responsive during loading
+            let clicks = 0;
+            const testInterval = setInterval(() => {
+                const now = Date.now();
+                setTimeout(() => {
+                    const delay = Date.now() - now;
+                    if (delay > 200) {
+                        isResponsive = false;
+                        log(`UI lag detected: ${delay}ms delay`, 'warning');
+                    }
+                    clicks++;
+                }, 0);
+            }, 500);
+
+            return () => clearInterval(testInterval);
+        }
+
+        async function runPerformanceTest() {
+            const btn = document.getElementById('testBtn');
+            btn.disabled = true;
+            clearLog();
+
+            log('Starting performance test...', 'success');
+            updateMetric('status', 'Running...', 'warning');
+
+            startTime = performance.now();
+            isResponsive = true;
+
+            // Start UI responsiveness monitoring
+            const stopMonitoring = testUIResponsiveness();
+
+            try {
+                // Fetch flight data
+                log('Fetching flight data from API...');
+                const apiStart = performance.now();
+
+                const response = await fetch('http://localhost:8081/api/flights/all');
+                const data = await response.json();
+
+                apiEndTime = performance.now();
+                const apiDuration = (apiEndTime - apiStart).toFixed(2);
+                updateMetric('apiTime', `${apiDuration}ms`,
+                    apiDuration < 1000 ? 'success' : apiDuration < 3000 ? 'warning' : 'error');
+                log(`API response received in ${apiDuration}ms`, 'success');
+                log(`Total flights: ${data.total_flights}`, 'info');
+                log(`Unique routes: ${data.unique_routes}`, 'info');
+
+                // Simulate progressive rendering
+                const BATCH_SIZE = 10;
+                const BATCH_DELAY = 50;
+                let processed = 0;
+
+                log('Starting progressive rendering simulation...');
+
+                for (let i = 0; i < data.routes.length; i += BATCH_SIZE) {
+                    const batch = data.routes.slice(i, Math.min(i + BATCH_SIZE, data.routes.length));
+
+                    // Simulate rendering work
+                    batch.forEach(route => {
+                        // Minimal DOM manipulation to test responsiveness
+                        const dummy = document.createElement('div');
+                        dummy.style.display = 'none';
+                        document.body.appendChild(dummy);
+                        document.body.removeChild(dummy);
+                    });
+
+                    processed += batch.length;
+
+                    if (i === 0) {
+                        firstBatchTime = performance.now();
+                        const firstBatchDuration = (firstBatchTime - apiEndTime).toFixed(2);
+                        updateMetric('firstBatch', `${firstBatchDuration}ms`, 'success');
+                        log(`First batch (${BATCH_SIZE} flights) rendered in ${firstBatchDuration}ms`, 'success');
+                    }
+
+                    if (processed % 50 === 0) {
+                        log(`Progress: ${processed} / ${data.routes.length} routes processed`);
+                    }
+
+                    // Wait before next batch
+                    await new Promise(resolve => setTimeout(resolve, BATCH_DELAY));
+                }
+
+                endTime = performance.now();
+                const totalDuration = ((endTime - startTime) / 1000).toFixed(2);
+                updateMetric('totalTime', `${totalDuration}s`,
+                    totalDuration < 10 ? 'success' : totalDuration < 15 ? 'warning' : 'error');
+
+                log(`All ${data.routes.length} routes processed in ${totalDuration}s`, 'success');
+
+                // Stop monitoring and check responsiveness
+                stopMonitoring();
+                updateMetric('responsive', isResponsive ? 'Yes' : 'No',
+                    isResponsive ? 'success' : 'error');
+                log(`UI Responsiveness: ${isResponsive ? 'PASS' : 'FAIL'}`,
+                    isResponsive ? 'success' : 'error');
+
+                // Check memory
+                checkMemory();
+
+                // Summary
+                updateMetric('status', 'Complete', 'success');
+                log('=== Test Summary ===', 'success');
+                log(`✓ API Response: ${apiDuration}ms`);
+                log(`✓ First Batch: ${(firstBatchTime - apiEndTime).toFixed(2)}ms`);
+                log(`✓ Total Time: ${totalDuration}s`);
+                log(`✓ UI Responsive: ${isResponsive ? 'YES' : 'NO'}`);
+                log(`✓ Batch Size: ${BATCH_SIZE} flights`);
+                log(`✓ Batch Delay: ${BATCH_DELAY}ms`);
+
+                // Performance evaluation
+                if (totalDuration < 10 && isResponsive) {
+                    log('PERFORMANCE: EXCELLENT', 'success');
+                } else if (totalDuration < 15 && isResponsive) {
+                    log('PERFORMANCE: GOOD', 'success');
+                } else {
+                    log('PERFORMANCE: NEEDS OPTIMIZATION', 'warning');
+                }
+
+            } catch (error) {
+                log(`Error: ${error.message}`, 'error');
+                updateMetric('status', 'Failed', 'error');
+            } finally {
+                btn.disabled = false;
+            }
+        }
+
+        // Initial memory check
+        checkMemory();
+        log('Performance test ready. Click "Run Performance Test" to start.', 'success');
+    </script>
+</body>
+</html>

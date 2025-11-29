@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011057",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011057.txt",
+  "text": "Where Keynes and Kuznets and macroeconomic tradition have been right is in\nreasoning that pay and gross profit, meaning gross of depreciation, sum to the\n“expenditure” spent on consumption and gross investment. This fact of arithmetic is\nthe logic behind Say’s law: pay plus profit are always enough to buy what is\nproduced. We saw that this truism gives cold comfort when calamity or\nmisjudgment make profit negative, as with the subprime houses of 2008. What it\n\ncertifies, anyhow, is\n\nexpenditure = pay + gross profit = consumption + gross investment. (6.21)\n\nWe can subtract depreciation to reach\n\npay + profit = consumption + investment. (6.22)\n\nNow (6.19) can be corrected as a whole to show\n\nincome = pay + profit + self-invested work - human depreciation\n= output\n= consumption - investment + self-invested work\n— human depreciation. (6.23)\n\nMy main goal in this book has been to further the work of Solow in exogenizing\ngrowth, and also the work of Ben-Porath in endogenizing human capital as\nsomething produced within the economy. It was in that spirit that I derived the Y\n\nrule in Chapters 2 and 5 by putting human capital inside. I reached\n\noutput = investment + human capital growth + cash flow.\n\nHere “ex post net” is understood before output and investment, so that investment\n\nmeans physical capital growth. (6.16) applies the growth truism to human capital.\n\nThe cash flow truism shows that cash flow is net transfer plus exhaust realized in\n\nChapter 6: Parallels with the Firm 2/4/16 23\n\nHOUSE_OVERSIGHT_011057",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011057.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1529,
+    "word_count": 255,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:48.848048",
+    "prefix": "IMAGES-001"
+  }
+}

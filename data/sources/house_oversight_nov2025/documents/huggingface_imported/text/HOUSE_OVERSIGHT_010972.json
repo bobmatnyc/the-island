@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010972",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010972.txt",
+  "text": "CHAPTER 3: FOUNDATIONS\n\nHistorically, foundations and science itself emerge at the end of centuries of\npractical application. A logical place for foundations in textbooks is the beginning. So\nit was with Halliday and Resnick on physics, which began with Newton’s kinetics\n(motion in time and space) and then this three laws. Only in the last chapter did the\nauthors remind us that Einstein later put two of these three into question, and even\nthe kinetics. Halliday and Resnick reasoned, correctly | think, that we sometimes\nlearn more efficiently by learning something slightly wrong first and fixing it later. |\nwill do that, in a sense, by reasoning first through free growth theory as if the Y=C +\n] equation were true, and then again with the two corrections. The sometimes\n\ncounterintuitive logic of teaching and learning, including that, is “heuristics”.\n\nBuilding on explicit axioms was common in economics throughout the classical\nperiod running from Petty in the 17\" century through Mill in the 19th. Then came\nthe major shift in focus, beginning in 1871, called the marginalist revolution. What\nmattered was less our goals, and more the market mechanisms that aligned supply,\ndemand and price. The meeting point was the margin. Axioms about goals\ndisappeared, including the usual one of prioritizing survival and reproduction, and\naxioms kept were usually left implicit. The implicit ones, essential to marginalism in\nmy view, included convergent tastes and predictions. I will make those two and\n\nothers explicit, and eventually add back the goals.\n\nThis book on the whole is about second-guessing what is taught. This chapter is\ndifferent. The nearest thing to a surprise in itis the idea that economics needs\nexplicit foundations in the sense of axioms and basic definitions and equations. All\nthe ones | choose are well accepted. Why | pick which should seem obvious in\nhindsight. But some mini-surprises will accumulate. Why do I take such pains to\nprove every feature of what everyone accepts already? Why all the boilerplate and\nbulletproofing? I need them because I will later try to shoot down other beliefs\n\neveryone accepts. We must know what is sound to find what is not.\n\nChapter 3: Foundations 1/11/16 1\n\nHOUSE_OVERSIGHT_010972",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010972.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2252,
+    "word_count": 364,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:44.316223",
+    "prefix": "IMAGES-001"
+  }
+}

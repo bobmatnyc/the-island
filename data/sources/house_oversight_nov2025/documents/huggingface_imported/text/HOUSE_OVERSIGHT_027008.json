@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027008",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027008.txt",
+  "text": "Composition of a pilot\nteam\n\n- Build an initial software infrastructure for testing\nbenchmark problems, and to create a common\nmethodological ground\n\nThe pilot team should consist of a scientific board, including a\nmutually compatible sub-set of contemporary thinkers in the\nfield. Its core should consist of a new generation of researchers\nthat have the resources and impetus to work full-time on the\ndesign, implementation and publication of the project’s\ninfrastructure. The initial team size should not be large, but\nagile and effective (I would suggest about five permanent\nresearchers, about the same number of dedicated software\ndevelopers, and 2-3 slots for visiting scientists at a time).\n\nThe initial duration should be about 2.5 years, followed be an\nevaluation, and a possible continuation of similar length.\n\nPossible candidates for the scientific board include (in no\nparticular order) Paul Rosenbloom (who worked with Alan\nNewell on the cognitive architecture Soar, and now started a\nnew architecture), John Sowa (well-known for his\ngroundbreaking work in semantic networks), Ben Goertzel\n(designer of the cognitive architecture OpenCog), Luc Steels (an\nAl researcher studying the emergence of natural language in\ncommunities of software agents), Jerome Feldman (who\ndevised building blocks for a Neural Theory of Language),\nStephen Pinker (who thought much about the relationship\nbetween language and mental representation), Stephen\nKosslyn (an expert on the psychology of mental\nrepresentation), Daniel Dennet, Cristiano Castelfranchi (an Al\nresearcher specializing on mental representations of intentions\nand social context), and many others.\n\nThe project should start out with a number of kickoff\nmeetings to invite the interaction between suitable candidates,\nand the formation of a core group. The eventual pilot team\ncould be located in many possible places, however, the project\nshould be able to draw on the vicinity of academic and other\ninfrastructure, and the influence of a creative environment.\n\nAbout me VJoscha Bach):\n\nDriven by an interest to learn hot the mind works, I studied philosophy\nand psychology, graduated in computer science/artificial intelligence, lead\nseveral small academic research groups, built the cognitive architecture\nMicroPsi and obtained a PhD in cognitive science. I co-founded a couple of\nstartup companies in Berlin, but turned back towards academia to\ncontribute to the question of how to build a mind.\n\nHOUSE_OVERSIGHT_027008",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027008.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2485,
+    "word_count": 370,
+    "line_count": 53,
+    "import_date": "2025-11-19T21:47:45.067946",
+    "prefix": "IMAGES-009"
+  }
+}

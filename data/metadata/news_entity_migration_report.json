@@ -1,0 +1,494 @@
+{
+  "migration_date": "2025-11-24T16:04:03.586453",
+  "schema_version": "2.1",
+  "statistics": {
+    "total_entity_mentions": 483,
+    "resolved_to_existing": 415,
+    "new_entities_created": 68,
+    "articles_updated": 219
+  },
+  "new_entities": [
+    {
+      "id": "ghislaine_maxwell_2",
+      "name": "Ghislaine Maxwell",
+      "first_seen_in_article": "f66af2c7-20a9-432b-a495-cad453568738",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586001"
+    },
+    {
+      "id": "bill_clinton",
+      "name": "Bill Clinton",
+      "first_seen_in_article": "1eaae233-71df-4fde-ad29-a530a35749c7",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586173"
+    },
+    {
+      "id": "andrew",
+      "name": "Prince Andrew, Duke of York",
+      "first_seen_in_article": "1eaae233-71df-4fde-ad29-a530a35749c7",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586182"
+    },
+    {
+      "id": "virginia_roberts_giuffre",
+      "name": "Virginia Roberts Giuffre",
+      "first_seen_in_article": "e235b032-fd43-4a1e-bb31-8ef5a75e34c2",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586186"
+    },
+    {
+      "id": "jean_luc_brunel",
+      "name": "Jean-Luc Brunel",
+      "first_seen_in_article": "524669ee-0a7a-4069-9d07-e80c5014a1c9",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586197"
+    },
+    {
+      "id": "leslie_wexner",
+      "name": "Leslie Wexner",
+      "first_seen_in_article": "c6c46a56-55ed-4415-b6bf-dc294504df11",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586205"
+    },
+    {
+      "id": "robert_maxwell",
+      "name": "Robert Maxwell",
+      "first_seen_in_article": "4ef957f9-989b-47cc-86ea-3ab4a989ca8a",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586215"
+    },
+    {
+      "id": "alexander_acosta",
+      "name": "Alexander Acosta",
+      "first_seen_in_article": "0520428c-342c-4491-9515-3ad188774754",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586222"
+    },
+    {
+      "id": "andrew_2",
+      "name": "Prince Andrew",
+      "first_seen_in_article": "91c2ed14-6827-4191-837d-c64bcce02b9a",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586229"
+    },
+    {
+      "id": "wafic_said",
+      "name": "Wafic Said",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586233"
+    },
+    {
+      "id": "aboff_shelly",
+      "name": "Aboff Shelly",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586235"
+    },
+    {
+      "id": "alfred_taubman",
+      "name": "Alfred Taubman",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586237"
+    },
+    {
+      "id": "deb_roberts",
+      "name": "Deb Roberts",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586240"
+    },
+    {
+      "id": "adam_nagel",
+      "name": "Adam Nagel",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586242"
+    },
+    {
+      "id": "george_case",
+      "name": "George Case",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586244"
+    },
+    {
+      "id": "nessa_oneil",
+      "name": "Nessa O'Neil",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586248"
+    },
+    {
+      "id": "selma_ouertani",
+      "name": "Selma Ouertani",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586250"
+    },
+    {
+      "id": "toby_young",
+      "name": "Toby Young",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586252"
+    },
+    {
+      "id": "heather_day",
+      "name": "Heather Day",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586254"
+    },
+    {
+      "id": "andrew_edwards",
+      "name": "Andrew Edwards",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586256"
+    },
+    {
+      "id": "anouska_weinberg",
+      "name": "Lady Anouska Weinberg",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586259"
+    },
+    {
+      "id": "epstein_jeffrey",
+      "name": "Epstein, Jeffrey",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586262"
+    },
+    {
+      "id": "mai_yamani",
+      "name": "Mai Yamani",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586264"
+    },
+    {
+      "id": "alistair_mcalpine",
+      "name": "Alistair McAlpine, Baron of West",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586267"
+    },
+    {
+      "id": "kellen_sarah",
+      "name": "Kellen, Sarah",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586270"
+    },
+    {
+      "id": "isabel_fraysse",
+      "name": "Isabel Fraysse",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586273"
+    },
+    {
+      "id": "marina_rust",
+      "name": "Marina Rust",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586276"
+    },
+    {
+      "id": "roberts_virginia",
+      "name": "Roberts, Virginia",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586279"
+    },
+    {
+      "id": "sebastian_taylor",
+      "name": "Sebastian Taylor",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586281"
+    },
+    {
+      "id": "minnie_driver",
+      "name": "Minnie Driver",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586283"
+    },
+    {
+      "id": "julie",
+      "name": "Julie",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586285"
+    },
+    {
+      "id": "alison_brown",
+      "name": "Alison Brown",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586288"
+    },
+    {
+      "id": "vicki_gray",
+      "name": "Vicki Gray",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586290"
+    },
+    {
+      "id": "mucinska_adriana",
+      "name": "Mucinska, Adriana",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586293"
+    },
+    {
+      "id": "michel_of_yugoslavia",
+      "name": "Prince Michel of Yugoslavia",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586295"
+    },
+    {
+      "id": "taylor_foster",
+      "name": "Taylor Foster",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586297"
+    },
+    {
+      "id": "jill_robert",
+      "name": "Jill Robert",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586299"
+    },
+    {
+      "id": "tracy_younger",
+      "name": "Tracy Younger",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586302"
+    },
+    {
+      "id": "lucy_ewen_sykes",
+      "name": "Lucy Ewen Sykes",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586304"
+    },
+    {
+      "id": "hamilton_south",
+      "name": "Hamilton South",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586307"
+    },
+    {
+      "id": "husband",
+      "name": "Husband",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586309"
+    },
+    {
+      "id": "cornelia_guest",
+      "name": "Cornelia Guest",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586311"
+    },
+    {
+      "id": "mullen_david",
+      "name": "Mullen, David",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586314"
+    },
+    {
+      "id": "randy_james",
+      "name": "Randy James",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586316"
+    },
+    {
+      "id": "kathy_francey",
+      "name": "Kathy Francey",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586318"
+    },
+    {
+      "id": "sarah_ferguson_duchess_of_york",
+      "name": "Sarah Ferguson, Duchess of York",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586322"
+    },
+    {
+      "id": "george_hamilton",
+      "name": "George Hamilton",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586324"
+    },
+    {
+      "id": "alan_mruvka",
+      "name": "Alan Mruvka",
+      "first_seen_in_article": "news_miamiherald_20181128_99d6de",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586326"
+    },
+    {
+      "id": "annie_farmer",
+      "name": "Annie Farmer",
+      "first_seen_in_article": "c1ce53d8-ff6a-4eff-a6a0-2fd0f5ddafb9",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586332"
+    },
+    {
+      "id": "william_barr",
+      "name": "William Barr",
+      "first_seen_in_article": "ca2dd188-45d5-4db0-b5f9-c010eeefa22b",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586347"
+    },
+    {
+      "id": "jamie_dimon",
+      "name": "Jamie Dimon",
+      "first_seen_in_article": "7b3b68f4-4358-4139-b716-d38e509586fd",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586354"
+    },
+    {
+      "id": "sarah_ransome",
+      "name": "Sarah Ransome",
+      "first_seen_in_article": "396731b6-4e1f-4fc0-ace4-2075abee469a",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586360"
+    },
+    {
+      "id": "courtney_wild",
+      "name": "Courtney Wild",
+      "first_seen_in_article": "0dca021a-4e01-48c8-af3d-50cef4f43d4c",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586364"
+    },
+    {
+      "id": "leon_black",
+      "name": "Leon Black",
+      "first_seen_in_article": "ad0ab837-1552-4cad-93fa-28b5917ba619",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586368"
+    },
+    {
+      "id": "stephen_hawking",
+      "name": "Stephen Hawking",
+      "first_seen_in_article": "c2bbd9cb-6497-4836-a2fb-3bf152e29b4c",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586375"
+    },
+    {
+      "id": "lawrence_visoski",
+      "name": "Lawrence Visoski",
+      "first_seen_in_article": "0fa81bc7-0aae-4831-80cd-de22e0046d31",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586379"
+    },
+    {
+      "id": "denise_george",
+      "name": "Denise George",
+      "first_seen_in_article": "4bd4ed15-07da-48f4-b20f-85519f76aa54",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586392"
+    },
+    {
+      "id": "barry_krischer",
+      "name": "Barry Krischer",
+      "first_seen_in_article": "19dd1e4f-5dae-4053-807a-5558c1fba4b3",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586397"
+    },
+    {
+      "id": "michael_reiter",
+      "name": "Michael Reiter",
+      "first_seen_in_article": "e72f2a59-3b25-4b84-b5da-dc3491c70ddd",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586399"
+    },
+    {
+      "id": "kenneth_marra",
+      "name": "Kenneth Marra",
+      "first_seen_in_article": "a1bf1bdf-2289-4096-bdb9-caccd91a47da",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586405"
+    },
+    {
+      "id": "brad_edwards",
+      "name": "Brad Edwards",
+      "first_seen_in_article": "22256acb-c4c7-4eb4-a7d4-1e80e1515cd0",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586408"
+    },
+    {
+      "id": "julie_k_brown",
+      "name": "Julie K. Brown",
+      "first_seen_in_article": "ae8b5b24-df92-4ae2-805a-a9292168ac23",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586411"
+    },
+    {
+      "id": "ron_desantis",
+      "name": "Ron DeSantis",
+      "first_seen_in_article": "0b90de8f-c08c-48c8-8bf7-18281b448593",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586416"
+    },
+    {
+      "id": "paul_cassell",
+      "name": "Paul Cassell",
+      "first_seen_in_article": "ba506d65-746c-42cf-b709-8947e5ba699a",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586421"
+    },
+    {
+      "id": "jeffrey_edward_epstein",
+      "name": "Jeffrey Edward Epstein",
+      "first_seen_in_article": "05b0d267-7e82-4173-859e-5996b1eb9283",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586429"
+    },
+    {
+      "id": "ghislaine_noelle_marion_maxwell",
+      "name": "Ghislaine Noelle Marion Maxwell",
+      "first_seen_in_article": "88c3f7e2-12ae-44ee-8d12-5a27421a2c8d",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586433"
+    },
+    {
+      "id": "leslie_herbert_wexner",
+      "name": "Leslie Herbert Wexner",
+      "first_seen_in_article": "ebe02233-546e-47cb-a392-8ced44d8eee4",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586436"
+    },
+    {
+      "id": "virginia_louise_giuffre",
+      "name": "Virginia Louise Giuffre",
+      "first_seen_in_article": "dbaf4bbf-8244-4d78-8a0a-a05b363e73b5",
+      "source": "news_migration",
+      "created_at": "2025-11-24T16:04:03.586438"
+    }
+  ],
+  "new_entity_count": 68,
+  "resolution_rate": {
+    "existing": "85.9%",
+    "new": "14.1%",
+    "total": "100.0%"
+  }
+}

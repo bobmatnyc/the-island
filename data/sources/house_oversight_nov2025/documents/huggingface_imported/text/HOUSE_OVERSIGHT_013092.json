@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013092",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013092.txt",
+  "text": "176 9 General Intelligence in the Everyday Human World\n\n9.7 The Extended Mind and Body\n\nFinally, Hutchins [Hut95], Logan [Log07| and others have promoted a view of human intelli-\ngence that views the human mind as extended beyond the individual body, incorporating social\ninteractions and also interactions with inanimate objects, such as tools, plants and animals.\nThis leads to a number of requirements for a humanlike AGI’s environment:\n\n1. The ability to create a variety of different tools for interacting with various aspects of the\nworld in various different ways, including tools for making tools and ultimately machinery\n\n2. The existence of other mobile, virtual life-forms in the world, including simpler and less\nintelligent ones, and ones that interact with each other and with the AGI\n\n3. The existence of organic growing structures in the world, with which the AGI can interact\nin various ways, including halting their growth or modifying their growth pattern\n\nHow necessary these requirements are is hard to say — but it is clear that these things have\nplayed a major role in the evolution of human intelligence.\n\n9.8 Conclusion\n\nHappily, this diverse chapter supports a simple, albeit tentative conclusion. Our suggestion is\nthat, if an AGI is\n\ne placed in an environment capable of roughly supporting multimodal communication and\nvaguely (but not necessarily precisely) real-world-ish naive physics\n\ne surrounded with other intelligent agents of varying levels of complexity, and other complex,\ndynamic structures to interface with\n\ne given a body that can perceive this environment through some forms of sight, sound and\ntouch; and perceive itself via some form of kinesthesia\n\ne given a motivational system that encourages it to make rich use of these aspects of its\nenvironment\n\nthen the AGI is likely to have an experience-base reinforcing the key inductive biases provided\nby the everyday world for the guidance of humanlike intelligence.\n\nHOUSE_OVERSIGHT_013092",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013092.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1985,
+    "word_count": 310,
+    "line_count": 42,
+    "import_date": "2025-11-19T21:47:45.775832",
+    "prefix": "IMAGES-002"
+  }
+}

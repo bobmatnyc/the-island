@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011043",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011043.txt",
+  "text": "My purpose in this analysis of the firm has been to derive equations valid for any\ncapital of either factor. The firm is a good model for several reasons. Its accounting\ntraditions are centuries old, and have been well thought through. It is rich in\npossibilities because it has to be. It must describe firms of many kinds. It must allow\nfor contingencies whether or not they apply. For many simple assets, say the firm’s\nshares as opposed to itself, revenue and positive cash flow can be the same. But the\ncomplexity and versatility of the firm itself, and the person-likeness added by its\n\ninternal management, make it a useful model for any and all capital of either factor.\nNot that I claim to follow accounting tradition closely, or even to understand it\nclosely. | am even less an accountant than an economist. My terms and concepts\n\ntend to be idiosyncratic. The main thing is for the logic to hold together.\n\nHuman Capital by Analogy to the Firm\n\nIt is reasonable to define pay as the revenue of human capital. Earned revenue for\nthe firm is typically less than revenue. There are prior claims to offset contribution\nby worker and suppliers. The counterpart in human capital, I said in Chapter 2, is\nmaintenance consumption. | believed for years that this cost counted as a prior\n\nclaim on pay, just as with the firm. ] may have been the only person to think so since\nQuesnay and the physiocrats, although Mill and Sraffa might be interpreted that way.\nBut who has thought what doesn’t matter. Quesnay’s idea is a mathematical\n\npossibility that must be addressed. I’ll get there soon.\n\nHuman capital is inalienable. That means that its decapitalization simplifies to\nhuman depreciation. The firm’s added possibilities of depletion and liquidation\ndon’t apply. The output of human capital is called work. Then (6.1) through (6.8),\n\napplied to human capital, give\n\nearned revenue = pay - prior claims\n= gross realized work\n= realized work + recovered human depreciation. (6.15)\n\nChapter 6: Parallels with the Firm 2/4/16 9\n\nHOUSE_OVERSIGHT_011043",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011043.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2052,
+    "word_count": 346,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:48.845993",
+    "prefix": "IMAGES-001"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015753",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015753.txt",
+  "text": "Understanding 63\n\nthan interactively understanding it and agreed on the recommendation\nthat it was safe to return. Clearly they did not understand the ambiguity\notherwise they would have realized they did not have enough information\nto form a conclusion. This is the tragedy of lack of understanding. If they\nhad known how little they knew, they could have deployed a spy satellite\nto take pictures of the damage - one was available nearby and would\nhave taken a few hours to re-task — but they did not.\n\nEd Tufte served on the second shuttle disaster commission and\nprovided an analysis of the disaster. He views slides as a poor medium for\ncommunicating complex problems and thinks documents are far better.\nThe danger with slides is they force you to simplify information in a way\nthat destroys the essence of the information. His analysis of the failure of\ncommunication at NASA formed a major part of the final report on the\ndisaster. Later he coined the paraphrase “All Power corrupts; PowerPoint\ncorrupts absolutely” Good communication benefits from stories and\nnarrative, not bullet points and graphic fluff. Instead of using bullet\npoints, speak! After all, we have evolved for 250,000 years to understand\nlanguage, but only 25 to read PowerPoints. ’\n\nIf you write presentations, Ed Tufte’s book The Cognitive Style\nof PowerPoint is compulsory reading. He argues that much of the\ninformation you want to communicate is complex and interconnected.\nPowerPoint or any similar presentation software encourages you to\nsimplify it into hierarchical bullets. The format implies simple causal\nrelationships where none exists. This is dangerous. Communication\nshould convey understanding — which is very important — and not just\ninformation. What, you ask, is the difference?\n\nHOUSE_OVERSIGHT_015753",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015753.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1799,
+    "word_count": 286,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:44.212266",
+    "prefix": "IMAGES-003"
+  }
+}

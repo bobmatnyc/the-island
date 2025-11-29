@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016035",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016035.txt",
+  "text": "Free Will 345\n\nto think the Moon is there when I am not looking at it.” But, how can we\ntest his statement? How can we know something is there without taking\na look? There is a way...\n\nLet us suppose the particle had a definite spin before we measured\nit. Perhaps its spin points at the top left hand corner of the room. Imagine\ntaking many measurements and seeing what happens. We can point our\nhand in any direction: top of the room, bottom left corner, bottom right\ncorner and so on. Each time we point our hand in a direction we must\nget 1,0 and 1 in some combination (110, 011, 101). The particles are 101\nparticles and this is an absolute rule.\n\nLet’s imagine doing the experiment. We fix the spin of a particle\n\nand begin to take measurements, noting the answers as we go. If we get\na borderline condition we obey the 101 rule and give ourselves a 1, 0, 1\nreading. As we move our hand to take measurements, a problem begins\nto emerge. Every now and again we obtain a measurement that conflicts.\nWe chose a 1, 0, | when we were pointing our index finger towards the\nfloor, but if we point the finger toward the door, we need that original\nmiddle number to have been a 1 for consistency. (The middle finger is\nnow pointing in the direction the index finger pointed to for the first\nreading.) To fix the inconsistency we can change our original borderline\ndecision to a 1,1,0. All is well and we continue. But, as we get over 30\nmeasurements, we can't seem to find any way to make all the 1,0,1s fit\ntogether. After scratching our\nhead for a while, we realize there\nmight be no solution. And indeed\nthere is not. This is the Kochen-\nSpecker Paradox. The odd shaped\ncubes on the building in the\nEscher print are an example of\none of these impossible figures.\n\nAn analogy to this problem\nis trying to solve a_ broken\nRubik’s Cube. There is a really\nmischievous trick you can play on\nsomeone: reverse two colors on a\nRubik’s Cube. You can easily do\nthis by snapping one of the edge\nblocks out, turning it around and\nsnapping it back in. When the\ncolors are already muddled up 101 puzzle piece\nthis is not obvious. Now give your\n\nHOUSE_OVERSIGHT_016035",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016035.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2152,
+    "word_count": 402,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:47.201525",
+    "prefix": "IMAGES-003"
+  }
+}

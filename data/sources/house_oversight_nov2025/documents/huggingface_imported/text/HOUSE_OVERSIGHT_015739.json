@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015739",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015739.txt",
+  "text": "Creative Theories\n\nnce I have exercised my free will by getting out of bed in the\n\nmorning, I often decide to do something creative. Humans seem\n\ndriven to create. We compose music, draw, paint, and solve\nmathematical puzzles. Computers are not naturally creative; they spend\nmost of their time doing exactly the opposite — following preset rules. Is\nthis a fundamental limitation distinguishing the computational world\nfrom the real world?\n\nThe Conventional View\n\nMost scientists believe pattern-matching algorithms in the brain allow\nus to be creative. To see how this might work, imagine our brains are\nchaotic — not hard to do — and process many competing ideas at the same\ntime. The neurons in our brains build millions of useful, and useless,\nconnections based on the patterns in the data we see and hear. Then a\nselection process goes to work — something akin to natural selection — to\nsift and prune the connections until something bubbles to the surface\nand we get that, ‘aha’ feeling.\n\nDouglas Hofstadter, Professor of Cognitive Science at Indiana\nUniversity, famous for the book Gédel Escher Bach, has written a computer\nprogram using pattern matching to discover number theorems; things\nlike any number ending in a zero is divisible by 5. The program produces\ninteresting results, even perhaps generating some new theorems. He\nargues the human brain is essentially a scaled up version of his program.\nBy the way, if you like trivia, his book Fluid Concepts & Creative Analogies\nwas the first book ever sold on Amazon.com.\n\nHOUSE_OVERSIGHT_015739",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015739.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1557,
+    "word_count": 255,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:46.754697",
+    "prefix": "IMAGES-003"
+  }
+}

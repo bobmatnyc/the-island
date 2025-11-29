@@ -1,0 +1,221 @@
+═══════════════════════════════════════════════════════════════════
+TIMELINE BLANK PAGE - BROWSER TESTING COMMANDS
+═══════════════════════════════════════════════════════════════════
+
+📍 SERVER: http://localhost:8000 (should already be running)
+🔧 BROWSER: Any modern browser (Chrome, Firefox, Safari)
+
+═══════════════════════════════════════════════════════════════════
+STEP 1: OPEN APPLICATION
+═══════════════════════════════════════════════════════════════════
+
+1. Open browser
+2. Navigate to: http://localhost:8000
+3. Open Developer Console (F12 or Cmd+Opt+I on Mac)
+4. Keep console visible
+
+═══════════════════════════════════════════════════════════════════
+STEP 2: CLICK TIMELINE TAB
+═══════════════════════════════════════════════════════════════════
+
+1. Click the "Timeline" tab in the navigation
+2. Watch console for output
+
+EXPECTED CONSOLE OUTPUT:
+┌─────────────────────────────────────────────────────────────────┐
+│ 🔄 Tab switched to timeline - calling loadTimeline()            │
+│ 🔍 loadTimeline() called                                         │
+│ 📊 Baseline events: 35                                           │
+│ 🎨 renderTimeline() called                                       │
+│ 📊 filteredTimelineData.length: 98                               │
+│ 📦 Container element: [div#timeline-events]                      │
+└─────────────────────────────────────────────────────────────────┘
+
+IF NO CONSOLE OUTPUT:
+→ JavaScript not executing (major issue)
+
+IF PARTIAL CONSOLE OUTPUT:
+→ JavaScript failing partway through (check for errors)
+
+═══════════════════════════════════════════════════════════════════
+STEP 3: CHECK DOM STATE
+═══════════════════════════════════════════════════════════════════
+
+Paste these commands into browser console ONE AT A TIME:
+
+──────────────────────────────────────────────────────────────────
+A) Check if timeline view is active:
+──────────────────────────────────────────────────────────────────
+document.getElementById('timeline-view').classList.contains('active')
+
+EXPECTED: true
+IF FALSE: Tab switching broken
+
+──────────────────────────────────────────────────────────────────
+B) Check display style:
+──────────────────────────────────────────────────────────────────
+window.getComputedStyle(document.getElementById('timeline-view')).display
+
+EXPECTED: "flex"
+IF "none": CSS not applying (very unlikely)
+
+──────────────────────────────────────────────────────────────────
+C) Check events in DOM:
+──────────────────────────────────────────────────────────────────
+document.querySelectorAll('.timeline-event').length
+
+EXPECTED: 98 (or some number > 0)
+IF 0: Events not being rendered
+
+──────────────────────────────────────────────────────────────────
+D) Check container content:
+──────────────────────────────────────────────────────────────────
+document.getElementById('timeline-events').innerHTML.length
+
+EXPECTED: Large number (e.g., 50000+)
+IF < 500: Container mostly empty (loading state)
+
+──────────────────────────────────────────────────────────────────
+E) Check container HTML preview:
+──────────────────────────────────────────────────────────────────
+document.getElementById('timeline-events').innerHTML.substring(0, 200)
+
+EXPECTED: HTML with <div class="timeline-event">
+IF shows "Loading...": Still in initial state
+
+═══════════════════════════════════════════════════════════════════
+STEP 4: TRY MANUAL TIMELINE LOAD
+═══════════════════════════════════════════════════════════════════
+
+Paste this command:
+
+loadTimeline()
+
+EXPECTED: Promise resolves, events appear on page
+IF ERROR: Copy the error message
+IF NO CHANGE: Data loading or rendering issue
+
+──────────────────────────────────────────────────────────────────
+After manual load, re-check event count:
+──────────────────────────────────────────────────────────────────
+document.querySelectorAll('.timeline-event').length
+
+IF NOW > 0: Timing issue (fix needed)
+IF STILL 0: Data or rendering issue (deeper fix needed)
+
+═══════════════════════════════════════════════════════════════════
+STEP 5: CHECK FOR JAVASCRIPT ERRORS
+═══════════════════════════════════════════════════════════════════
+
+Look in Console tab for red error messages:
+
+COMMON ERRORS:
+❌ "loadTimeline is not defined"
+   → Function not loaded (app.js not executing)
+
+❌ "Cannot read property 'classList' of null"
+   → DOM element not found (timing issue)
+
+❌ "Failed to fetch"
+   → API endpoint not responding
+
+❌ "CORS policy error"
+   → Cross-origin issue (unlikely on localhost)
+
+═══════════════════════════════════════════════════════════════════
+STEP 6: CHECK NETWORK TAB
+═══════════════════════════════════════════════════════════════════
+
+1. Click "Network" tab in DevTools
+2. Click Timeline tab in app
+3. Look for request to: /api/timeline
+
+CHECK:
+✓ Status: 200 OK
+✓ Response: JSON with "total": 98
+✓ No CORS errors
+✓ Response time < 1 second
+
+═══════════════════════════════════════════════════════════════════
+DIAGNOSTIC SCRIPT (COMPREHENSIVE)
+═══════════════════════════════════════════════════════════════════
+
+Copy and paste this ENTIRE block into console:
+
+console.log('🔍 Timeline Diagnostic Check');
+console.log('═'.repeat(60));
+
+const view = document.getElementById('timeline-view');
+console.log('1. Timeline view exists:', !!view);
+if (view) {
+    console.log('   - Classes:', view.className);
+    console.log('   - Has active:', view.classList.contains('active'));
+    console.log('   - Display:', window.getComputedStyle(view).display);
+}
+
+const container = document.getElementById('timeline-events');
+console.log('2. Container exists:', !!container);
+if (container) {
+    console.log('   - Classes:', container.className);
+    console.log('   - Display:', window.getComputedStyle(container).display);
+    console.log('   - Children:', container.children.length);
+    console.log('   - HTML length:', container.innerHTML.length);
+    console.log('   - Preview:', container.innerHTML.substring(0, 150));
+}
+
+const events = document.querySelectorAll('.timeline-event');
+console.log('3. Events in DOM:', events.length);
+
+console.log('4. Functions exist:');
+console.log('   - loadTimeline:', typeof loadTimeline === 'function');
+console.log('   - renderTimeline:', typeof renderTimeline === 'function');
+
+console.log('5. Data state:');
+console.log('   - filteredTimelineData:', typeof filteredTimelineData, filteredTimelineData?.length);
+console.log('   - baselineEvents:', typeof baselineEvents, baselineEvents?.length);
+
+console.log('═'.repeat(60));
+console.log('✅ Diagnostic complete - review output above');
+
+──────────────────────────────────────────────────────────────────
+
+═══════════════════════════════════════════════════════════════════
+WHAT TO REPORT BACK
+═══════════════════════════════════════════════════════════════════
+
+Please share:
+1. ✓ Complete console output (copy all text)
+2. ✓ Result of diagnostic script
+3. ✓ Screenshot of blank Timeline tab
+4. ✓ Any red error messages
+5. ✓ Network tab showing /api/timeline request
+6. ✓ Result of manual loadTimeline() call
+
+═══════════════════════════════════════════════════════════════════
+QUICK FIXES TO TRY
+═══════════════════════════════════════════════════════════════════
+
+FIX 1: Manual Load (if automatic load fails)
+───────────────────────────────────────────
+loadTimeline()
+→ If this works, it's a timing issue
+
+FIX 2: Force View Activation
+───────────────────────────────────────────
+document.getElementById('timeline-view').classList.add('active')
+→ Then try: loadTimeline()
+
+FIX 3: Clear and Reload
+───────────────────────────────────────────
+document.getElementById('timeline-events').innerHTML = '';
+loadTimeline();
+→ Clears container and reloads
+
+═══════════════════════════════════════════════════════════════════
+
+🎯 MOST LIKELY ISSUE: Timing - loadTimeline() called before DOM ready
+🛠️ MOST LIKELY FIX: Increase timeout or add DOM ready check
+
+See TIMELINE_BLANK_PAGE_ROOT_CAUSE_ANALYSIS.md for detailed fixes.
+
+═══════════════════════════════════════════════════════════════════

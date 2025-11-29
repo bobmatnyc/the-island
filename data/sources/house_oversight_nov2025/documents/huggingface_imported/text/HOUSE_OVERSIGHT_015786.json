@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015786",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015786.txt",
+  "text": "“The brain is a wonderful organ;\nit starts working the moment\nyou get up in the morning and\ndoes not stop until you get into\n\nthe office.”\nRobert Frost\n\n“The brain looks like nothing\nmore than a bowl of cold\nporridge.”\n\nAlan Turing\n\nHOUSE_OVERSIGHT_015786",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015786.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 255,
+    "word_count": 44,
+    "line_count": 15,
+    "import_date": "2025-11-19T21:47:44.302247",
+    "prefix": "IMAGES-003"
+  }
+}

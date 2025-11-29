@@ -1,0 +1,452 @@
+{
+  "total_documents": 41,
+  "documents": [
+    {
+      "filename": "1320-1.pdf",
+      "file_size": 267321,
+      "page_count": 2,
+      "type": "email",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 1
+    },
+    {
+      "filename": "1320-10.pdf",
+      "file_size": 247119,
+      "page_count": 28,
+      "type": "court_filing",
+      "has_redactions": true,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-11.pdf",
+      "file_size": 86851,
+      "page_count": 4,
+      "type": "court_filing",
+      "has_redactions": true,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-12.pdf",
+      "file_size": 3194036,
+      "page_count": 179,
+      "type": "deposition",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-13.pdf",
+      "file_size": 5566104,
+      "page_count": 45,
+      "type": "other",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-14.pdf",
+      "file_size": 434265,
+      "page_count": 3,
+      "type": "email",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 1
+    },
+    {
+      "filename": "1320-15.pdf",
+      "file_size": 208778,
+      "page_count": 27,
+      "type": "other",
+      "has_redactions": true,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-16.pdf",
+      "file_size": 159167,
+      "page_count": 3,
+      "type": "other",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-17.pdf",
+      "file_size": 315209,
+      "page_count": 25,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-18.pdf",
+      "file_size": 481765,
+      "page_count": 40,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-19.pdf",
+      "file_size": 180924,
+      "page_count": 22,
+      "type": "exhibit",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-2.pdf",
+      "file_size": 3324659,
+      "page_count": 10,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-20.pdf",
+      "file_size": 206939,
+      "page_count": 11,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-21.pdf",
+      "file_size": 222609,
+      "page_count": 15,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-22.pdf",
+      "file_size": 117388,
+      "page_count": 3,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-23.pdf",
+      "file_size": 234385,
+      "page_count": 10,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-24.pdf",
+      "file_size": 317588,
+      "page_count": 16,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-25.pdf",
+      "file_size": 163488,
+      "page_count": 4,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-26.pdf",
+      "file_size": 216739,
+      "page_count": 10,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-27.pdf",
+      "file_size": 295977,
+      "page_count": 15,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-28.pdf",
+      "file_size": 489571,
+      "page_count": 32,
+      "type": "court_filing",
+      "has_redactions": true,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-29.pdf",
+      "file_size": 207195,
+      "page_count": 6,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-3.pdf",
+      "file_size": 1243716,
+      "page_count": 6,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-30.pdf",
+      "file_size": 8143446,
+      "page_count": 27,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-31.pdf",
+      "file_size": 3603726,
+      "page_count": 24,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-32.pdf",
+      "file_size": 7349411,
+      "page_count": 27,
+      "type": "court_filing",
+      "has_redactions": true,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-33.pdf",
+      "file_size": 291808,
+      "page_count": 24,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-34.pdf",
+      "file_size": 208769,
+      "page_count": 4,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-35.pdf",
+      "file_size": 173850,
+      "page_count": 12,
+      "type": "other",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-36.pdf",
+      "file_size": 974041,
+      "page_count": 3,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-37.pdf",
+      "file_size": 173117,
+      "page_count": 48,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-38.pdf",
+      "file_size": 702268,
+      "page_count": 89,
+      "type": "other",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-39.pdf",
+      "file_size": 479988,
+      "page_count": 35,
+      "type": "email",
+      "has_redactions": true,
+      "ocr_quality": "good",
+      "emails_found": 3
+    },
+    {
+      "filename": "1320-4.pdf",
+      "file_size": 3908822,
+      "page_count": 17,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-40.pdf",
+      "file_size": 235429,
+      "page_count": 19,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-5.pdf",
+      "file_size": 760679,
+      "page_count": 56,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-6.pdf",
+      "file_size": 155878,
+      "page_count": 10,
+      "type": "court_filing",
+      "has_redactions": true,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-7.pdf",
+      "file_size": 4581089,
+      "page_count": 9,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-8.pdf",
+      "file_size": 155447,
+      "page_count": 12,
+      "type": "court_filing",
+      "has_redactions": true,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320-9.pdf",
+      "file_size": 118665,
+      "page_count": 10,
+      "type": "other",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    },
+    {
+      "filename": "1320.pdf",
+      "file_size": 236201,
+      "page_count": 1,
+      "type": "court_filing",
+      "has_redactions": false,
+      "ocr_quality": "good",
+      "emails_found": 0
+    }
+  ],
+  "statistics": {
+    "email": 3,
+    "court_filing": 30,
+    "deposition": 1,
+    "other": 6,
+    "exhibit": 1,
+    "total_emails": 5,
+    "total_pages": 943,
+    "documents_with_emails": 3,
+    "poor_ocr_quality": 0,
+    "redacted_documents": 8
+  },
+  "emails": [
+    {
+      "filename": "1320-1.pdf_email_1",
+      "from": "gmaxl@ellmax.com",
+      "to": "Philip Barden; Ross Gow",
+      "cc": null,
+      "date": "Saturday, January 10, 2015 9:00 AM",
+      "subject": null,
+      "has_attachments": false,
+      "page_count": 2,
+      "section_index": 0,
+      "is_thread": false
+    },
+    {
+      "filename": "1320-14.pdf_email_1",
+      "from": "jeffrey E. <jeevacation@gmail.com>",
+      "to": "Gmax",
+      "cc": null,
+      "date": "Monday, January 12, 2015 10:03 AM",
+      "subject": "VR cried rape - prior case dismissed as prosecutors found her 'not credible'",
+      "has_attachments": true,
+      "page_count": 3,
+      "section_index": 0,
+      "is_thread": false
+    },
+    {
+      "filename": "1320-39.pdf_email_1",
+      "from": "Richards, Jason R.",
+      "to": "Robert Giuffre",
+      "cc": null,
+      "date": "Wednesday, August 27, 2014 10:44:32 AM",
+      "subject": "RE: Hi There",
+      "has_attachments": false,
+      "page_count": 35,
+      "section_index": 0,
+      "is_thread": true
+    },
+    {
+      "filename": "1320-39.pdf_email_2",
+      "from": "Robert Giuffre [mailto:robiejennag@icloud.com]",
+      "to": "Richards, Jason R.",
+      "cc": null,
+      "date": "Wednesday, August 27, 2014 9:49 AM",
+      "subject": "Hi There",
+      "has_attachments": false,
+      "page_count": 35,
+      "section_index": 1,
+      "is_thread": true
+    },
+    {
+      "filename": "1320-39.pdf_email_3",
+      "from": "Robert Giuffre <robiejennag@icloud.com>",
+      "to": "Richards, Jason R.",
+      "cc": null,
+      "date": "Wed Aug 27 10:46:50 2014",
+      "subject": "Re: Hi There",
+      "has_attachments": false,
+      "page_count": 35,
+      "section_index": 2,
+      "is_thread": true
+    }
+  ],
+  "date_range": {
+    "earliest": null,
+    "latest": null
+  }
+}

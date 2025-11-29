@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015843",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015843.txt",
+  "text": "Kittens & Gorillas 153\n\nNotice I not only prove I am not guilty I also prove the opposite:\nI am innocent. When a mathematician uses this trick, it is called an\nindirect proof and works the same way as the alibi. Assume the opposite\nis true of some theory you want to prove (I am guilty). If it generates a\ncontradiction or paradox (can't be in two places at once) you can deduce\nthe opposite must be true (innocence). Mathematicians use this all the\ntime. It assumes, of course, mathematics is consistent and that true and\nfalse are opposites.\n\nSome mathematicians argue this is too strong an assumption. Why\nshould we assume consistency and recognize only two logical states, true\nand false? These mathematicians believe the only way to prove a theorem\nis with positive argument rather than using the opposite of a negative\nargument. They don't allow indirect proofs in their mathematical\nmodels. This type of mathematics is unsurprisingly called positivism. It’s\na pure theory but, unfortunately, if you try to follow it you lose much of\nour current mathematical knowledge and understanding. Most modern\nmathematicians think it a historical curiosity, but it does pop up from\ntime to time. Modern mathematics is founded on the axioms that\ntrue and false are the opposite of each other and that inconsistency is\nforbidden within the system. Mathematical proofs submitted to journals\nare not permitted to contain inconsistencies or result in paradoxes.\n\nParadoxes - When Logic Fails\n\n“T would not be a member of\nany club that would admit\n\nme.\nGroucho Marx\n\nParadoxes occur when a state-\nment makes no sense, or results\nin an internal contradiction as\nwith Groucho Marx’s famous\nquote. They are widely used in\nmathematics to implement indi-\nrect proofs. To do this, we sup-\npose something is true, and if\nit results in a paradox then the\n\nGroucho Marx\n\nHOUSE_OVERSIGHT_015843",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015843.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1874,
+    "word_count": 314,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:46.600443",
+    "prefix": "IMAGES-003"
+  }
+}

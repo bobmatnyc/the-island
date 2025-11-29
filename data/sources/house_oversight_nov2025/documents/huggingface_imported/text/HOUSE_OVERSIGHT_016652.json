@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016652",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016652.txt",
+  "text": "DESALINATION PLANT COSTS\n\nCost Estimate for 10 mgd Desalination Plant\n\nSite Work 3,000,000\n\nRaw Water Intake, Pumping, Piping, and Fine Screens 12,000,000\n\nCoagulation, Flocculation, Clarification 3,900,000\n\nPretreatment Transfer Pumping 700,000\n\nMicrofiltration : 22,000,000\n\nUltraviolet Light $ 4,100,000\n\nChemical Treatment $ 1,600,000\n\nReverse Osmosis Membrane System $ 48,600,000\n\nPost Treatment Chemical Systems 2,300,000\n\nGround Storage Tanks 3,900,000\n\nHigh Service Pumping 2,100,000\n\nResiduals Handling 10,300,000\n\nBrine Disposal Injection Well 6, 000, 000\nConceptual Cost $ 128,400,000\n\nGeneral Requirements (2%) $ 2,568,000\nConstruction Mark-up (3%) $ 3,852,000\nMobilization (2%) $ 2,568,000\nContingency (10%) $ 12,840,000\nEngineering and Other Non-Construction Costs (8%) $ 10,272,000\nTOTAL CONCEPTUAL COST §$ 160,500,000\n\nAssumes plant on City property & no additional cost for land.\n\nHOUSE_OVERSIGHT_016652",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016652.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 920,
+    "word_count": 117,
+    "line_count": 41,
+    "import_date": "2025-11-19T21:47:48.056272",
+    "prefix": "IMAGES-004"
+  }
+}

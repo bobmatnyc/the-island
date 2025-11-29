@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028842",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028842.txt",
+  "text": "InsightsPod\n\nCash\n\nAccounts Receivable\nInventory\n\nOther Current Assets\n\nTotal Current Assets\n\nLong-Term Assets\nAccumulated Depreciation\n\nTotal Long-Term Assets\nTotal Assets\n\nAccounts Payable\n\nIncome Taxes Payable\n\nSales Taxes Payable\nShort-Term Debt\n\nPrepaid Revenue\n\nTotal Current Liabilities\n\nLong-Term Debt\nTotal Liabilities\n\nPaid-in Capital\nRetained Earnings\nEarnings\n\nTotal Owner's Equity\n\nTotal Liabilities & Equity\n\nFY2017\n$652,517\n\n$0\n\n$652,517\n\n$652,517\n\n$0\n$0\n\n$o\n\n$o\n\n$800,000\n\n($147,483)\n\n$652,517\n\n$652,517\n\nFY2018\n$1,698,897\n\n$0\n\n$1,698,897\n\n$1,698,897\n\n$0\n\n$19,779\n\n$19,779\n\n$19,779\n\n$1,600,000\n($147,483)\n$226,601\n\n$1,679,118\n\n$1,698,897\n\nFY2019\n$3,164,162\n\n$0\n\n$3,164,162\n\n$3,164,162\n\n$0\n\n$137,009\n\n$137,009\n\n$137,009\n\n$2,400,000\n$79,118\n$548,035\n\n$3,027,153\n\n$3,164,162\n\n| Page 25 |\n\nCONFIDENTIAL - DO NOT DISSEMINATE. This business plan contains confidential, trade-secret information and is shared only with the\nunderstanding that you will not share its contents or ideas with third parties without the express written consent of the plan author.\n\nHOUSE_OVERSIGHT_028842",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028842.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1090,
+    "word_count": 137,
+    "line_count": 119,
+    "import_date": "2025-11-19T21:47:47.851713",
+    "prefix": "IMAGES-010"
+  }
+}

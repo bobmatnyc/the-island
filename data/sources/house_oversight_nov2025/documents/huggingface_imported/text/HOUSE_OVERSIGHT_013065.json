@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013065",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013065.txt",
+  "text": "8.4 Some Critical Synergies 149\n\nFor instance, deduction might defer to the “attentional knowledge” subsystem, and make\na judgment as to which of the many possible next deductive steps are most associated with\nthe goal of inference and the inference steps taken so far, according to the HebbianLinks con-\nstructed by the attention allocation subsystem, based on observed associations. Or, if this fails,\ndeduction might ask MOSES (running in supervised categorization mode) to learn predicates\ncharacterizing some of the terms involving the possible next inference steps. Once MOSES pro-\nvides these new predicates, deduction can then attempt to incorporate these into its inference\nprocess, hopefully (though not necessarily) arriving at a higher-confidence next step.\n\n8.4 Some Critical Synergies\n\nReferring back to Figure ??, and summarizing many of the ideas in the previous section, Table\n?? enumerates a number of specific ways in which the cognitive processes mentioned in the\nFigure may synergize with one another, potentially achieving dramatically greater efficiency\nthan would be possible on their own.\n\nOf course, realizing these synergies on the practical algorithmic level requires significant\ninventiveness and may be approached in many different ways. The specifics of how CogPrime\nmanifests these synergies are discussed in many following chapters.\n\nver —= Secncrimator\n| pattern recognition\nWw\n; = 5 as | Cron tn\nful a\n\nLinceriain inferewd « ci ope\n\nSupearciaed\nprocedure inarning\n\ncmndidats procedures\n\nMisntan allacalian\n\nerating AUK. bs fined\nallenthoral atari\niveniving theme nokew\n\nea airs ee eg\n\nwe aaledd\n\nFig. 8.3: This table, and the following ones, show some of the synergies between the primary\ncognitive processes explicitly used in CogPrime.\n\nHOUSE_OVERSIGHT_013065",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013065.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1796,
+    "word_count": 268,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:46.899583",
+    "prefix": "IMAGES-002"
+  }
+}

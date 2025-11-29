@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011142",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011142.txt",
+  "text": "profit when reporting income of proprietorships. I would rather trust an expert in\nnational accounts to tease them apart, and to judge whatever pay should be imputed\n\nto people in the household sector not literally employed.\n\nThe Level Payment Mortgage\n(A2.5) gives\n\nV(x)=F [F@eror dz . (A7.1)\n\nConsider the level payment mortgage. F(z) is the constant level payment while r(x)\n\nis the constant interest rate Here (A2.5) simplifies to\n\nV(x)= Ff-et™ dz=Fe™ im e\"dz= “[1 —e@ ex) | (A7.2)\n\nAs there is no self-invested output, and no negative cash flow after initial investment\n\nat time 0, decapitilization (amortization) simplifies to -V(x). Thus\n\n, _ dF —r@ 1x _F -ro YX 1X\nD@)=-V'x)=-_-[1-e e |r ax =— e’, (A7.3)\n\nconfirming that amortization increases exponentially over the term of the mortgage.\n\nDepreciation Theory\n\nDepreciation can be defined as decapitalization which is a function of time since\ncapitalization alone. When assets change hands, depreciation continues unchanged.\nDepletion and liquidation in sale, by contrast, are options available at any asset age.\n\nAmortization can be given the same definition as depreciation, but is customarily\n\nAPPENDIX A: The Argument in Notation 3/7/16 16\n\nHOUSE_OVERSIGHT_011142",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011142.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1226,
+    "word_count": 188,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:47.921107",
+    "prefix": "IMAGES-001"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00028906.pdf",
+  "ocr_date": "2025-11-16T22:04:02.692296",
+  "text_length": 4645,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "elisa_cramer@pbpost.com"
+  ]
+}

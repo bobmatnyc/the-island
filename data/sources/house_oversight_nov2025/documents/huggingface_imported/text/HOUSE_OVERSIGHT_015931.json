@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015931",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015931.txt",
+  "text": "Software 241\n\nPurists may protest that Fermat’s Last Theorem isn't strictly\nDiophantine because it refers to a variable exponent — the x to the n\npart. This is hair splitting. But, of course, the splitting of hairs is bread\nand butter to a mathematician. We will see later that Fermat’s Theorem\ncan be made Diophantine, but we are jumping ahead of ourselves a little.\n\nA question that taxed mathematicians for many centuries was\nwhether there are triples for higher powers, such as cubes. In other words,\nwould the cube of the hypotenuse be equal to the sum of the cubes of the\nother two sides for some set of numbers? After much work, it was proven\nno triple exists which can solve the cubic equation. But what happens if\nwe substitute higher indices?\n\nThe next shape to consider is the hypercube — a four-dimensional\ncube. That may stretch your visual imagination but the equation is simple,\n34444454, Again the challenge is to find a whole number solution for:\n\nHypercube\n\nHOUSE_OVERSIGHT_015931",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015931.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 998,
+    "word_count": 170,
+    "line_count": 22,
+    "import_date": "2025-11-19T21:47:47.223144",
+    "prefix": "IMAGES-003"
+  }
+}

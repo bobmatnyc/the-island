@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015908",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015908.txt",
+  "text": "218 Are the Androids Dreaming Yet?\n\nby anyone but the intended recipient. However, wouldn't it be equally\nvaluable to know if someone other than the recipient had intercepted\nand read the message? This is the trick quantum cryptography gives us.\n\nTaking a measurement with a quantum device disturbs the system\nso measurements can be taken only once with the same results. By the\nsame logic, I could send you a message and if someone else has read it in\nthe meantime, you will know. I could arrange to meet with you in Berlin\nand if you detect the message has been intercepted, you could simply not\nshow up.\n\nI could use this same technique to send you a one-time pad. If you\nreceive it without it being overheard, I could then safely send you an\nencrypted message. In 2007, this technique was used to transmit the\nresults of a Swiss election from the polling booths to the central counting\ncenter.\n\nEnigma\n\nWorld War II accelerated the evolution of encryption from simple\nsubstitutions a human could perform to complex ciphers only a machine\ncould calculate. You might wonder why everyone does not use a one-\ntime-pad since it is a perfect code. The problem is distributing and\nmaintaining the pads while keeping them secret. My daughter cracked\nmy earlier code because she knows my laptop password, broke in, and\nread the answer. That’s the problem with codes — security. The pads\ncould be sent out in sealed envelopes but it would be easy to intercept an\nenvelope, copy the pad and reseal it. You would then have a perfect and\nundetectable way to break the code. Also, if I were an Admiral wanting\nto communicate with my fleet of submarines I would need a huge pad\n— one page for every message I want to send — and either a pad for each\nsubmarine or one pad for all submarines. If I use only one pad, then I\ncannot talk to a submarine privately, and if any pad were lost all security\nwould be breached. One-time-pads were used by both sides during\nWorld War Two, and often printed on nitrocellulose — a chemical similar\nto the explosive nitroglycerine. This allowed users to burn the codebooks\nquickly if an enemy threatened to capture them.\n\nBoth the Americans and British captured Enigma machines and\ncodebooks during the war. A Navy Enigma machine was a sought-after\nprize, as it was more complex than the Army version, with extra dials\nand plug settings. To crack the more sophisticated codes Bletchley Park\n\nHOUSE_OVERSIGHT_015908",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015908.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2437,
+    "word_count": 427,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:46.871632",
+    "prefix": "IMAGES-003"
+  }
+}

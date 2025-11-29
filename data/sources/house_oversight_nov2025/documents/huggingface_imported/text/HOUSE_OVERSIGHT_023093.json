@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_023093",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_023093.txt",
+  "text": "year from the median calculation. For companies with normalized tax rates of more than\n75%, we assume 35%.\n\nThe impact of a lower corporate tax rate on company earnings is directly proportional to\nthe difference between the current domestic tax rate and the proposed tax rate. The\nimpact is calculated by taking the difference between the current tax rate and the\nproposed tax rate, and dividing it by (1-current tax rate).\n\nTo calculate the impact of a lower corporate tax rate on the S&P 500 earnings, we can\ndivide the change in the effective tax rate by (1 — the current effective tax rate).\n\nInterest deductibility impact\nWe estimate the cost associated with the removal of the net interest expense deduction\nfrom taxable income by multiplying the net interest expense by the tax rate.\n\nBankof America <>\nMerrill Lynch Equity Strategy Focus Point | 29 January 2017. 25\n\nHOUSE_OVERSIGHT_023093",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_023093.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 897,
+    "word_count": 149,
+    "line_count": 19,
+    "import_date": "2025-11-19T21:47:49.071478",
+    "prefix": "IMAGES-007"
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "analysis_date": "2025-11-16T20:52:26.554135",
+  "source": "DocumentCloud 6250471 (epstein-docs-6250471.pdf)",
+  "summary": {
+    "total_pages": 2024,
+    "document_contains": "Court filings, depositions, and legal documents - NOT email messages",
+    "total_email_addresses_found": 13,
+    "email_addresses_are": "Attorney contact info and court reporter contact info in legal filings",
+    "actual_email_messages": 0,
+    "email_threads": 0
+  },
+  "document_type_breakdown": {
+    "court_order": 4,
+    "docket": 3,
+    "legal_filing": 76,
+    "other": 1890,
+    "certificate": 5,
+    "deposition": 43,
+    "exhibit": 3
+  },
+  "case_numbers": {
+    "15-cv-07433-RWS": 12,
+    "15-CV-07433-RWS": 9
+  },
+  "email_addresses": {
+    "lmenninger@hmflaw.com": {
+      "occurrences": 14,
+      "pages": [
+        48,
+        209,
+        261,
+        298,
+        318,
+        818,
+        893,
+        959,
+        967,
+        1888,
+        1895,
+        1897,
+        1906,
+        1940
+      ],
+      "page_range": "48-1940"
+    },
+    "smccawley@bsfllp.com": {
+      "occurrences": 12,
+      "pages": [
+        49,
+        133,
+        260,
+        317,
+        774,
+        819,
+        1889,
+        1893,
+        1896,
+        1897,
+        1905,
+        1939
+      ],
+      "page_range": "49-1939"
+    },
+    "brad@pathtojustice.com": {
+      "occurrences": 10,
+      "pages": [
+        49,
+        133,
+        260,
+        298,
+        774,
+        819,
+        1889,
+        1893,
+        1896,
+        1939
+      ],
+      "page_range": "49-1939"
+    },
+    "owenassocs@aol.com": {
+      "occurrences": 10,
+      "pages": [
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363
+      ],
+      "page_range": "354-363"
+    },
+    "jpagliuca@hmflaw.com": {
+      "occurrences": 8,
+      "pages": [
+        261,
+        318,
+        774,
+        893,
+        959,
+        967,
+        1906,
+        1940
+      ],
+      "page_range": "261-1940"
+    },
+    "cassellp@law.utah.edu": {
+      "occurrences": 5,
+      "pages": [
+        49,
+        133,
+        819,
+        1889,
+        1893
+      ],
+      "page_range": "49-1893"
+    },
+    "mschultz@bsfllp.com": {
+      "occurrences": 5,
+      "pages": [
+        49,
+        133,
+        819,
+        1889,
+        1893
+      ],
+      "page_range": "49-1893"
+    },
+    "stanpottinger@aol.com": {
+      "occurrences": 5,
+      "pages": [
+        49,
+        133,
+        819,
+        1889,
+        1893
+      ],
+      "page_range": "49-1893"
+    },
+    "ross@acuityreputation.com": {
+      "occurrences": 3,
+      "pages": [
+        34,
+        896,
+        1855
+      ],
+      "page_range": "34-1855"
+    },
+    "nsimmons@hmflaw.com": {
+      "occurrences": 1,
+      "pages": [
+        298
+      ],
+      "page_range": "298-298"
+    },
+    "jjansen@acm.orq": {
+      "occurrences": 1,
+      "pages": [
+        1403
+      ],
+      "page_range": "1403-1403"
+    },
+    "philip.barden@devonshires.co.uk": {
+      "occurrences": 1,
+      "pages": [
+        1896
+      ],
+      "page_range": "1896-1896"
+    },
+    "paul.cassell@law.utah.edu": {
+      "occurrences": 1,
+      "pages": [
+        1896
+      ],
+      "page_range": "1896-1896"
+    }
+  },
+  "pages_with_email_addresses": [
+    {
+      "page": 34,
+      "type": "other",
+      "emails_found": [
+        "ross@acuityreputation.com"
+      ],
+      "case_info": {
+        "document_number": "275",
+        "doc_page": "3",
+        "doc_total_pages": "18"
+      }
+    },
+    {
+      "page": 48,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com"
+      ],
+      "case_info": {
+        "document_number": "275",
+        "doc_page": "17",
+        "doc_total_pages": "18"
+      }
+    },
+    {
+      "page": 49,
+      "type": "certificate",
+      "emails_found": [
+        "stanpottinger@aol.com",
+        "mschultz@bsfllp.com",
+        "brad@pathtojustice.com",
+        "cassellp@law.utah.edu",
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "document_number": "275",
+        "doc_page": "18",
+        "doc_total_pages": "18"
+      }
+    },
+    {
+      "page": 133,
+      "type": "certificate",
+      "emails_found": [
+        "stanpottinger@aol.com",
+        "mschultz@bsfllp.com",
+        "brad@pathtojustice.com",
+        "cassellp@law.utah.edu",
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "document_number": "277",
+        "doc_page": "7",
+        "doc_total_pages": "7"
+      }
+    },
+    {
+      "page": 209,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "76",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 260,
+      "type": "legal_filing",
+      "emails_found": [
+        "brad@pathtojustice.com",
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "case_number": "15-cv-07433-RWS"
+      }
+    },
+    {
+      "page": 261,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com",
+        "jpagliuca@hmflaw.com"
+      ],
+      "case_info": {}
+    },
+    {
+      "page": 298,
+      "type": "legal_filing",
+      "emails_found": [
+        "brad@pathtojustice.com",
+        "lmenninger@hmflaw.com",
+        "nsimmons@hmflaw.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "165",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 317,
+      "type": "legal_filing",
+      "emails_found": [
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "case_number": "15-cv-07433-RWS"
+      }
+    },
+    {
+      "page": 318,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com",
+        "jpagliuca@hmflaw.com"
+      ],
+      "case_info": {}
+    },
+    {
+      "page": 354,
+      "type": "deposition",
+      "emails_found": [
+        "owenassocs@aol.com"
+      ],
+      "case_info": {
+        "case_number": "15-cv-07433-RWS",
+        "document_number": "278",
+        "doc_page": "221",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 355,
+      "type": "deposition",
+      "emails_found": [
+        "owenassocs@aol.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "222",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 356,
+      "type": "other",
+      "emails_found": [
+        "owenassocs@aol.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "223",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 357,
+      "type": "other",
+      "emails_found": [
+        "owenassocs@aol.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "224",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 358,
+      "type": "other",
+      "emails_found": [
+        "owenassocs@aol.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "225",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 359,
+      "type": "other",
+      "emails_found": [
+        "owenassocs@aol.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "226",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 360,
+      "type": "other",
+      "emails_found": [
+        "owenassocs@aol.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "227",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 361,
+      "type": "other",
+      "emails_found": [
+        "owenassocs@aol.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "228",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 362,
+      "type": "deposition",
+      "emails_found": [
+        "owenassocs@aol.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "229",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 363,
+      "type": "deposition",
+      "emails_found": [
+        "owenassocs@aol.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "230",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 774,
+      "type": "legal_filing",
+      "emails_found": [
+        "brad@pathtojustice.com",
+        "jpagliuca@hmflaw.com",
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "document_number": "278",
+        "doc_page": "641",
+        "doc_total_pages": "648"
+      }
+    },
+    {
+      "page": 818,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com"
+      ],
+      "case_info": {
+        "document_number": "279",
+        "doc_page": "36",
+        "doc_total_pages": "37"
+      }
+    },
+    {
+      "page": 819,
+      "type": "certificate",
+      "emails_found": [
+        "stanpottinger@aol.com",
+        "mschultz@bsfllp.com",
+        "brad@pathtojustice.com",
+        "cassellp@law.utah.edu",
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "document_number": "279",
+        "doc_page": "37",
+        "doc_total_pages": "37"
+      }
+    },
+    {
+      "page": 893,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com",
+        "jpagliuca@hmflaw.com"
+      ],
+      "case_info": {
+        "document_number": "280",
+        "doc_page": "74",
+        "doc_total_pages": "74"
+      }
+    },
+    {
+      "page": 896,
+      "type": "other",
+      "emails_found": [
+        "ross@acuityreputation.com"
+      ],
+      "case_info": {
+        "document_number": "281",
+        "doc_page": "3",
+        "doc_total_pages": "66"
+      }
+    },
+    {
+      "page": 959,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com",
+        "jpagliuca@hmflaw.com"
+      ],
+      "case_info": {
+        "document_number": "281",
+        "doc_page": "66",
+        "doc_total_pages": "66"
+      }
+    },
+    {
+      "page": 967,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com",
+        "jpagliuca@hmflaw.com"
+      ],
+      "case_info": {
+        "document_number": "282",
+        "doc_page": "8",
+        "doc_total_pages": "8"
+      }
+    },
+    {
+      "page": 1403,
+      "type": "other",
+      "emails_found": [
+        "jjansen@acm.orq"
+      ],
+      "case_info": {
+        "document_number": "283",
+        "doc_page": "436",
+        "doc_total_pages": "883"
+      }
+    },
+    {
+      "page": 1855,
+      "type": "other",
+      "emails_found": [
+        "ross@acuityreputation.com"
+      ],
+      "case_info": {
+        "document_number": "284",
+        "doc_page": "4",
+        "doc_total_pages": "38"
+      }
+    },
+    {
+      "page": 1888,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com"
+      ],
+      "case_info": {
+        "document_number": "284",
+        "doc_page": "37",
+        "doc_total_pages": "38"
+      }
+    },
+    {
+      "page": 1889,
+      "type": "legal_filing",
+      "emails_found": [
+        "stanpottinger@aol.com",
+        "mschultz@bsfllp.com",
+        "brad@pathtojustice.com",
+        "cassellp@law.utah.edu",
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "document_number": "284",
+        "doc_page": "38",
+        "doc_total_pages": "38"
+      }
+    },
+    {
+      "page": 1893,
+      "type": "certificate",
+      "emails_found": [
+        "stanpottinger@aol.com",
+        "mschultz@bsfllp.com",
+        "brad@pathtojustice.com",
+        "cassellp@law.utah.edu",
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "document_number": "285",
+        "doc_page": "4",
+        "doc_total_pages": "4"
+      }
+    },
+    {
+      "page": 1895,
+      "type": "legal_filing",
+      "emails_found": [
+        "lmenninger@hmflaw.com"
+      ],
+      "case_info": {
+        "document_number": "286",
+        "doc_page": "2",
+        "doc_total_pages": "55"
+      }
+    },
+    {
+      "page": 1896,
+      "type": "legal_filing",
+      "emails_found": [
+        "paul.cassell@law.utah.edu",
+        "philip.barden@devonshires.co.uk",
+        "brad@pathtojustice.com",
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "document_number": "286",
+        "doc_page": "3",
+        "doc_total_pages": "55"
+      }
+    },
+    {
+      "page": 1897,
+      "type": "certificate",
+      "emails_found": [
+        "lmenninger@hmflaw.com",
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "document_number": "286",
+        "doc_page": "4",
+        "doc_total_pages": "55"
+      }
+    },
+    {
+      "page": 1905,
+      "type": "legal_filing",
+      "emails_found": [
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "case_number": "15-cv-07433-RWS",
+        "document_number": "286",
+        "doc_page": "12",
+        "doc_total_pages": "55"
+      }
+    },
+    {
+      "page": 1906,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com",
+        "jpagliuca@hmflaw.com"
+      ],
+      "case_info": {
+        "document_number": "286",
+        "doc_page": "13",
+        "doc_total_pages": "55"
+      }
+    },
+    {
+      "page": 1939,
+      "type": "legal_filing",
+      "emails_found": [
+        "brad@pathtojustice.com",
+        "smccawley@bsfllp.com"
+      ],
+      "case_info": {
+        "case_number": "15-cv-07433-RWS"
+      }
+    },
+    {
+      "page": 1940,
+      "type": "other",
+      "emails_found": [
+        "lmenninger@hmflaw.com",
+        "jpagliuca@hmflaw.com"
+      ],
+      "case_info": {}
+    }
+  ]
+}

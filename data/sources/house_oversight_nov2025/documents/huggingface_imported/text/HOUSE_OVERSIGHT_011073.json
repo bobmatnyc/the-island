@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011073",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011073.txt",
+  "text": "Ireland as chief medical officer to Cromwell’s ironsides, stayed on to survey the Irish\nland with which Cromwell would pay his troops, and then got Parliament's approval\nto invest in that high-risk land to make a fortune. It is rare for a man of practical gifts\nto be a deep thinker too. Petty, like my father, was both. His Verbum Sapienti of 1664\nwas first to apply the ancient capitalization formula to both factors, meaning\nworkers as well as tradeable things, and so originated the concept of human capital\nas present value. He applied this insight there and his Political Arithmetick in 1676,\nand again in The Total Wealth of England in 1683, to measure the total wealth of\nEngland including human capital. That makes him the father of national accounts.\n\nBut his greatest achievements, I think came in A Treatise of Taxes.\n\nChapter 4, paragraph 9 of that book begins with\n\n19. Having found the Rent or value of the usus fructus per annum, the\nquestion is, how many years purchase (as we usually say) is the Fee simple\nnaturally worth? If we say an infinite number, then an Acre of Land would be\nequal in value to a thousand Acres of the same Land; which is absurd, an\ninfinity of unites being equal to an infinity of thousands.\n\nPetty clearly recognizes that time preference, meaning our taste for impatience,\nexplains productivity, or ratio of output to capital, rather than the other way around.\nThis powerful and counterintuitive insight is usually credited to Boehm Bawerk in\n1889, who showed that it is true for man-made things as well as land. The utility or\nusus fructus being a given, we bid less for the land or other capital producing it if we\nare less patient, and more if more. Bidding less for this denominator of rate of return\nbids that rate itself up if the numerator is a given, and conversely. That’s why riskier\nassets offer higher return. Petty’s reductio ad absurdam of a hypothesis of infinite\npatience is obvious in hindsight, but may not have been written down before. Petty\n\ncontinues:\n\nChapter 7 Petty’s Idea 2/3/16 14\n\nHOUSE_OVERSIGHT_011073",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011073.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2075,
+    "word_count": 359,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:44.377439",
+    "prefix": "IMAGES-001"
+  }
+}

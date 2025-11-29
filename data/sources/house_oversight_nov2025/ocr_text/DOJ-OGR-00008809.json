@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00008809.pdf",
+  "ocr_date": "2025-11-16T21:13:05.176004",
+  "text_length": 757,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "ts@spodeklawgroup.com"
+  ]
+}

@@ -1,0 +1,19 @@
+ViewAliTransCombined Page | of |
+a . r ; 1
+Alb Transactions ‘ EE PRINT |
+Inmate Ree FOS ESUAT Current Jastituena: Soe ak RET
+Jruatye Nanies EPSTE CS. IPE ERE Y Plinastie baie: TO et
+Report Thite: UN TUE NID Pistia Quarters: rc
+Report Lime: Tr SU PNA
+Date/Time ‘Transaction Type Amount Reti Payment# Balance
+8/8/2019 7:58:28 AM Sales - No EP Noo-1 | tsi ($73.85) 33 $366.27
+8/7/2019 12:04:45 PM Western Union $200.00 33310219 So4c12
+8/1/2019 T4827 AM SiHes = No PR Nariel? diisuitiiion ($58.30) 42 S44 12
+V31/2019 9:04:12 AM Westem Union S31H1.00 33319212 S-198,42
+V2A4N2019 12:14:38 PM Sales + No EP Cson-1 2 insti un) $33.05 222 S198. 42
+VWALS/2019 8:13:22 AM Sahes - No PP ON RE bast luliot ($33.03) Gl $165.37
+FALL/2019 7:52:26 AM Sales - No VPC Nan- EP bestitulons ($1.58) 62 S198 12
+8/2019 10:04:21) AM Western Union $200.00 33319189 S200,00
+|
+hitps://10.33.56.1 06/truweb/ViewAlITransCombined.aspx 8/10/2019
+DOJ-OGR-00027141

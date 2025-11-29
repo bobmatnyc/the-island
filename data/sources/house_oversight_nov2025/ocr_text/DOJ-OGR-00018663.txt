@@ -1,0 +1,47 @@
+Case 1:20-cr-00330-PAE Document 753 Filed 08/10/22 Page 65 of 264 1491
+LC7Cmax2 Flatley - direct
+
+1 A. So there are two ways you can do it. If the document is
+
+2 open in Word and you go up to File and go down to Properties,
+
+5 it will tell you that. Or, if the document is closed, you can
+4 just right-click on the document and select Properties and it
+
+5 will tell you the same information.
+
+6 Q. When a Word document is created, is there metadata that is
+7 generated that reflects the creation date of that file?
+
+8 A. Yes, there is.
+
+9 Q. Do Word documents have metadata regarding dates of
+
+10 modification?
+
+11 A. Yes, they do.
+
+12 Q. And what is that referred to as?
+
+13 A. The date modified.
+
+14 Q. What does that metadata reflect?
+
+15 A. The last time somebody saved it.
+
+16 MS. POMERANTZ: Ms. Drescher, could you please publish
+17 Government Exhibit 420 and 420B, which are now in evidence,
+
+18 side by side.
+
+19 Q. Let's just take a look at 420B, Mr. Flatley. What is
+20 listed as authors?
+21 A. The author is listed as gmax.
+22 Q. What is listed as last saved by?
+23 A. That is also gmax.
+24 Q. And what is listed as the content created date for this
+25 document?
+
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00018663

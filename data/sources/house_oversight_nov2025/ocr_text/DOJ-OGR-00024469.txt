@@ -1,0 +1,23 @@
+SALES INVOICE --5.B,U.--
+NEW YORK MCC
+MAIN
+ACCOUNT No. 76318054 (EXTANT)
+EPSTEIN, JEFFREY EDWARD
+07/11/2019 Time 07:52:26 [ES
+Receipt# 62
+BEGINNING BALANCES:
+Available Balance is N/A
+Spending Limit Balance is N/A
+Account Balance is $200.00
+QTY DESCRIPTION PRICE
+-L HALLS 40IC $0.95
+_4 SINGLE ENVELOPE $6.63
+# ITEMS SOLD: 2
+CHARGE 76318054 61.58
+ENDING BALANCES:
+Available Balance 5 N/A
+Spending Limit Balance is N/A
+Acemunt Balance \s $198.42
+——— ee
+Signature
+DOJ-OGR-00024469

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025671",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025671.txt",
+  "text": "Investment\n\n. . Managemen\nWhat is Mining? a\n\nDivision\n\nASIC Mining Computer and a Mining Rig\n\ny\n\nf\ny\n\n= Miners use highly specialized computers designed to run an algorithm that attempts to solve a cryptographic puzzle in order\nto add a new block on the blockchain. By design, a bitcoin block is created once every ten minutes.\n\n= The computing power required to solve the cryptographic puzzle is high and expensive; bitcoin mining consumes an\nestimated $1.3bn worth of electricity annually!—equivalent to Ireland’s annual electricity consumption.\n\n\" In order to incentivize mining, the first miner to complete a block is rewarded 12.5 bitcoins. The global supply of bitcoins is\ncapped at 21mil (currently ~16.5m) and follows a predetermined growth rate—the miners’ rewards halve every four years.\n\n\" Given ~1-1.5m mining units globally, the likelihood of any one miner solving a block is low. Many miners join “mining\npools,” which are cooperatives which share block rewards proportionate to contributed mining power.\n\n— Mining pools are highly concentrated; the top four pools represent over 50% of total mining power.\n\n(1) Bitcoin Energy Consumption Index: https://digiconomist.net/bitcoin-energy-consumption\n\n8\nSource: Investment Strategy Group, http://cryptocurrencyfacts.com/how-does-cryptocurrency-work-2/.\n\nHOUSE_OVERSIGHT_025671",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025671.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1337,
+    "word_count": 191,
+    "line_count": 34,
+    "import_date": "2025-11-19T21:47:48.749755",
+    "prefix": "IMAGES-008"
+  }
+}

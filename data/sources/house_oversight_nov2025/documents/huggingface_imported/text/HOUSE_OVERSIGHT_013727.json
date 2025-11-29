@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013727",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013727.txt",
+  "text": "topological dimension as that of a line equal to one. If each time step had the\nlargest up or down amplitude as possible, its fractal dimension would approach (but\n\nnot reach) that of the embedding plane, Euclidean d = 2.\n\nThe Do of the one dimensional Richardson technique (Mandelbrot, 1967) can\nbe computed by covering the one dimensional surface of a time series with a\nnumber, #, of line segments of several orders of magnitude range of lengths, /\n-Graphing log(l) along the x-axis and log #(I) along the y-axis yields a negative linear\nslope, -s. As defined, 1- s = Do noting that (-(-s)+s) such that 1 < Do = 1+s < 2.\nStrain differences and peptide and psychotropic drug-induced changes in Do\ncomputed in this way were found in time series of fluctuations in rat brainstem\ntyrosine and tryptophan hydroxylase activities under far-from-equilibrium co-\nreactant concentrations (Mandell and Russo, 1981; Knapp et al, 1981; Knapp and\nMandell, 1983; 1984). Systematic influences of stimulant drug dose on Do were\nfound as well in these systems (Mandell et al, 1982). This simple measure, made\ndirectly on the “roughness” of the graph of a one dimensional time series rather than\non its orbital reconstruction, has been used to discriminate the pattern of\nfluctuations in daily mood scales in normal subjects and mood disordered patients\n(Woyshville et al, 1999). These findings confirmed dimensional scaling exponents\non higher dimensional embeddings of similar time series in mood disordered\npatients (Gottschalk et al, 1995; Pezard et al, 1996). Due to the ease and rapidity of\nits computation, techniques involving Do on one dimensional time series are\ncurrently in development as possible real time epilepsy predictors when analyzing\n\nthe output of a large number of EEG leads simultaneously.\n\nIf M(e) is the minimum number of d-dimensional cubes of side ¢ required to\ncover the d-dimensionally embedded attractor, plotting a logarithmic range of rulers\nof length ¢ (as e—0) along the x axis and a logarithmic range of number of cubes,\nM(e), each of corresponding «-edge size, along the y axis, results in a negative\n(more smaller M(e) ‘s and fewer bigger M(e) ‘s) power law slope Do. Here the\nnumbered covering cubes, M(e), are those in which the probability of containing at\n\nleast one point (its “probability density measure,” often called uw) is not zero. We\n\n227\n\nHOUSE_OVERSIGHT_013727",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013727.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2396,
+    "word_count": 392,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:45.885186",
+    "prefix": "IMAGES-002"
+  }
+}

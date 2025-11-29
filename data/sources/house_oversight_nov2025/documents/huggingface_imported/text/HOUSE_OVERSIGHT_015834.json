@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015834",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015834.txt",
+  "text": "144 Are the Androids Dreaming Yet?\n\nThe best analogy I can find to illustrate iterative knowledge discovery\nis the 1970s family game ‘Battleship. The game consists of two 10 by 10\ngrids that you plug your ships into. All the ships are linear shapes of a\nfew squares in length. The players cannot see each other's ships and must\nguess where they are. A very simple way to do this would be to ask your\nopponent whether they have a ship on the top left square and continue\nsystematically across the board, square by square, until you reach the\nbottom right hand corner. This would eventually find every ship. If every\nship were a piece of knowledge we could discover all the knowledge in\nthe world by simply stepping through the board one cell at a time, but it\nwould take a long time.\n\nA better way to play Battleship is to pick a square at random. If you\nget a hit, explore linearly around the hit. This will efficiently find the\nrest of the ship. The same might be true for knowledge. We could take\nrandom shots, get lucky and move linearly to flesh out our knowledge.\nOnce we had exhausted an area we could take a step away at random and\nagain hope for another hit. This process is exactly the way some people\nimagine the frontier of knowledge expands.\n\nBut, it is wrong.\n\nThe monkey moon shot story explains...\n\n‘I believe that this nation should commit itself to achieving the goal,\nbefore this decade is out, of landing a monkey on the moon and\nreturning him safely to Earth.”\n\nPresident Monkey\n\nThe monkey nation is asked to mount a moon shot. After a little\ntime a monkey is asked to report on progress.\n\n“I can report, says the monkey, “I have climbed a particularly tall\ntree on the tallest hill on my island and have made over seven hundred\nmeters progress towards the moon, although this is only 0.0001% of the\nway there, this has been quick so I believe we are well on the way”\n\nYou see of course the problem. Progress in many problems is\nnonlinear. Moving a bit of the way towards the goal does not provide any\nactual progress: That is the problem with knowledge. It is not linear in\nstructure. You need to take leaps to discover new knowledge. You can not\nsimply look around in the general area. Such leaps are mathematically\nhuge. The chance of making a successful one by pure chance is virtually\nzero.\n\nHOUSE_OVERSIGHT_015834",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015834.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2340,
+    "word_count": 426,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:48.042985",
+    "prefix": "IMAGES-003"
+  }
+}

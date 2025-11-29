@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_030292",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_030292.txt",
+  "text": "2D\n\nwould be in each place. We then asked them to select one destination\nfrom two choices that they had rated exactly the same. Would you\nchoose Paris over Brazil? Finally, we asked them to imagine and rate\nall the destinations again. Seconds after picking between two\ndestinations, people rated their selected destination higher than\nbefore and rated the discarded choice lower than before.\n\nThe brain-imaging data revealed that these changes were happening\nin the caudate nucleus, a cluster of nerve cells that is part of the\nstriatum. The caudate has been shown to process rewards and signal\ntheir expectation. If we believe we are about to be given a paycheck\nor eat a scrumptious chocolate cake, the caudate acts as an announcer\nbroadcasting to other parts of the brain, \"Be ready for something\ngood.\" After we receive the reward, the value is quickly updated. If\nthere is a bonus in the paycheck, this higher value will be reflected in\nstriatal activity. If the cake is disappointing, the decreased value will\nbe tracked so that next time our expectations will be lower.\n\nIn our experiment, after a decision was made between two\ndestinations, the caudate nucleus rapidly updated its signal. Before\nchoosing, it might signal \"thinking of something great\" while\nimagining both Greece and Thailand. But after choosing Greece, it\nnow broadcast \"thinking of something remarkable!\" for Greece and\nmerely \"thinking of something good\" for Thailand. True, sometimes\nwe regret our decisions; our choices can turn out to be disappointing.\nBut on balance, when you make a decision — even if it is a\nhypothetical choice — you will value it more and expect it to bring\nyou pleasure.\n\nThis affirmation of our decisions helps us derive heightened pleasure\nfrom choices that might actually be neutral. Without this, our lives\nmight well be filled with second-guessing. Have we done the right\nthing? Should we change our mind? We would find ourselves stuck,\novercome by indecision and unable to move forward.\n\nHOUSE_OVERSIGHT_030292",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_030292.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2020,
+    "word_count": 331,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:44.292167",
+    "prefix": "IMAGES-010"
+  }
+}

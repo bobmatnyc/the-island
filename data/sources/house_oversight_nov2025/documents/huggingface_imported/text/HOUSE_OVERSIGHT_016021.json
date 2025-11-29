@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016021",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016021.txt",
+  "text": "Twins\n\nhere are several ways to make twin particles. The ‘easy way is with\n\na laser and a nonlinear crystal. A beam of ultraviolet photons\n\nenters the crystal and about one in a billion times they interact\nwith quantum fluctuations in the crystal lattice to create two red photons.\nThis is known as ‘spontaneous down conversion.\n\nThere are two types of down conversion. In a type I interaction the\ntwins have the same polarization, and in a type II they are at 90 degrees\nto each other. You can set up the experiment with either type, but it\nis important to remember which you used, or you will easily become\nconfused. When we talk about photon experiments, we are usually\nreferring to type I interactions because they are easier to understand.\nOften the actual experiment uses oppositely polarized photons because\nthey are easier to generate.\n\nPolarization is a wavelike property of photons. You can visualize\nthem wiggling up and down, side-to-side or something in between. We\nuse polarization to our advantage when we go on holiday to the beach;\nlight from the sun is randomly polarized, but when it glances off the ocean\nit becomes predominantly horizontally polarized. If we wear vertically\npolarized sunglasses the glare off the ocean is blocked and we can see the\nocean more clearly. The following two pictures show this effect.\n\nThe two photons we make with the crystal can be separated and\nsent to different places. The record so far is two towns near Geneva, 50\nkilometers apart. For this experiment scientists ‘borrowed’ the unused\nfibers of Swisscom in the middle of the night - when phone traffic was\nlight. A detector was placed at the end of each fiber to measure the\nparticles.\n\nHOUSE_OVERSIGHT_016021",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016021.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1717,
+    "word_count": 291,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:47.207865",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011076",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011076.txt",
+  "text": "I arrived at the same idea independently, anyhow, and published it in Social Science\nInformation in 1989. To date it is my only publication in a refereed journal, and\nremains uncited as far as I know. Alan Rogers, a biologist at University of Utah,\npublished almost the same idea in 1994! and 19972. Neither of us knew of Petty or\nCassel or each other. Both of Rogers’ two papers are included in my appendix.\n\nPetty’s great idea has otherwise remained unnoticed as far as | know.\n\nHis idea in modern terms comes from the same ancient capitalization formula.\nSumerian temples knew how to evaluate land as well as mortgages and annuities by\ndiscounting to present value. In the simplest case, where cash flow is expected to\n\nhold constant forever, the logic begins with the definition\n\ncash flow\ncash flow rate = —————\ncapital\nAlgebra allows\nh fl\ncapital = |, (7.1)\ncash flowrate\n\nYears purchase, given those simplifying assumptions, meant\n\n1\nyears purchase =———_———_ , (7.2)\ncash flow rate\n1 The Evolution of Time Preference.\n2 Evolution and Human Choice over Time.\nChapter 7 Petty’s Idea 2/3/16 17\n\nHOUSE_OVERSIGHT_011076",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011076.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1121,
+    "word_count": 189,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:44.685102",
+    "prefix": "IMAGES-001"
+  }
+}

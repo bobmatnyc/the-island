@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015695",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015695.txt",
+  "text": "Deep Blue\n\nYork, watching a chess match. It’s no ordinary match. Two men sit\n\nopposite each other. One, a neatly suited figure, stares intently at the\nboard. You can almost see the heat rising from his head as he processes\nthe possibilities before him. The other, sits implacably calm and, before\neach turn, looks to a screen at the side of the board, reads the instruction,\nand makes his move.\n\nThis is the famous match between Garry Kasparov and IBM’s Deep\nBlue. Kasparov, a child prodigy, became world chess champion at the age\nof fifteen and, to this day, holds the record for the highest chess ranking\never achieved. Some consider him one of the most intelligent people on\nthe planet. His opponent, Deep Blue, is a massively parallel chess-playing\ncomputer built by IBM’s Watson Research Laboratory. The machine itself\nsits a few blocks north of the tournament in an air-conditioned room,\nand relays the moves over a phone line to Joe Hoane, the IBM researcher\nwho moves the pieces.\n\nSix months earlier, in Philadelphia, Kasparov won against Deep Blue.\nThis is the rematch and has generated a worldwide media frenzy. Tickets\nto the event are sold out and most news organizations give a blow-by-\nblow report each day. On the eighth day of the tournament Kasparov and\nDeep Blue are level pegging. Kasparov is playing an opening he knows\nwell. It’s one designed to be hard for computers to play and has been\ntested extensively against Fritz, a chess computer Grand Masters use for\npractice. But Deep Blue doesn’t seem fazed. Kasparov is visibly tired. On\nthe 16 move he makes a dreadful blunder and sinks into despair. An\nhour later, after some moments of quiet contemplation, he tips over his\n\n] t is 1997 and we are on the 39\" story of the Equitable Center in New\n\nHOUSE_OVERSIGHT_015695",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015695.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1791,
+    "word_count": 310,
+    "line_count": 34,
+    "import_date": "2025-11-19T21:47:46.054715",
+    "prefix": "IMAGES-003"
+  }
+}

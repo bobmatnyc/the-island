@@ -1,0 +1,41 @@
+Page 3392
+Date: 08/19/2019 ;
+Time: 10:15 AM Federal Bureau of Prisons
+TRUINTEL
+Log Entries By Event Date
+' Sensitive But Unclassified
+Entered Date Alpha Code Level 1 Location Level 2 Location Level 3 Location Event Date Shift User Event Base Count
+8/9/2019 5:40 PM NYM Housing Units Housing Units, General ES B2019540PM Evening |p. > 0) Daily Activity - Feeding
+Population Started
+- Summary Text: Unit feeding begins
+8/9/2019 5:40 PM NYM Housing Units Housing Units, General ES 8/9/2019 5:40PM Evening Daily Activity - Mail Call
+Population
+- Summary Text: Mail is being given out
+8/9/2019 5:42 PM NYM Housing Units Housing Units, General ES 81972019 5:41 PM Evening Daily Activity
+Population
+~ Summary Text Inmates: 2. 2 inmates was released earlier
+8/9/2019 5:43 PM NYM Housing Units Housing Units, General = ES 8/9/2019 5:42 PM —- Evening Change to Base Count Out Contry
+Population
+- Summary Text inmaref MER @KTCY | 2 inmate was released.
+8/9/2019 5:43 PM NYM Housing Units Housing Units, General ES 89/2019 5:42 PMs Evening Change to Base Count Gut
+Population
+- Summary Text InmarefPNORKC) 2 inmate was released.
+8/9/2019 5:43 PM NYM Housing Units Housing Units, General ES S/8/20195:43 PM Evening Daily Activity - Mail Cail
+Population
+- Summary Text: mail call comoleted an the unit.
+8/9/2079 5:44 PM NYM Housing Units Hausing Units, General ES 8/9/2019 5:43 PM = Evening Daily Activity - Feeding
+Population Completed
+- Summary Text: feeding completed food cart off the unit.
+8/9/2019 5:44 PM NYM Housing Units Housing Units, General ES 8/9/2019 5:44PM = Evening Bed Book Check
+Population
+- Summary Text Completed. Bed baak check conducted with discrepancies.
+8/9/2019 5:45 PM NYM Housing Units Housing Units, General ES 89/20195:44PM Evening Daily Activity
+Population
+- Summary Text: Duty PA on the unit with Medication cart. Pill line in progress.
+DT MF;
+8/9/2019 5:48 PM NYM Housing Units Housing Units, General ES 8/9/2019 5:47 PM Evening Change to Base Count In inal
+Population
+- Summary Text: Inmate: ee | new inmate to the unit from earlier
+89/2019 5:48 PM NYM Housing Units Housing Units, General ES 8/9/2019 5:48PM Evening Base Count Verified
+User ID: Page 920 of 1155
+DOJ-OGR-00026981

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_029956",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_029956.txt",
+  "text": "2D\n\nable to track down the mutation in the obese mice and found that it\nblocked production of a particular protein hormone, which they\nnamed leptin. The leptin protein is only secreted by fat cells. When\nsimilar analysis was performed on the db mice, it was found that the\ndisrupted db gene was responsible for encoding a protein that\nfunctions as a leptin receptor: When it binds circulating leptin at the\ncell surface, it sets in motion a biochemical cascade inside the cell.\nMost provocatively, the leptin receptor is expressed strongly on\nneurons in those areas of the hypothalamus that cause obesity or\nleanness when destroyed.\n\nSo with Friedman's key findings we now have a reasonable\nhypothesis for how the hypothalamus can sense body weight and use\nthat information to maintain it within a narrow range. When weight is\ngained, the amount of body fat increases, and since fat cells secrete\nleptin in proportion to their mass, leptin levels will consequently rise.\nLeptin circulates in the blood and crosses into the brain, where it is\nsensed by leptin receptors expressed on neurons in the hypothalamus.\nActivation of those neurons by leptin suppresses appetite and\nincreases energy expenditure. When weight is lost, the system works\nin the opposite direction: Less fat means reduced levels of circulating\nleptin, increased appetite, and reduced energy expenditure.\n\nSo far, the evidence that supports this hypothesis is quite promising.\nLeptin levels in the blood do indeed increase with weight gain and\ndecrease with weight loss. Injections of leptin in obese mutant mice\ncause them to reduce food intake and lose weight (and these\ninjections work even if tiny doses are delivered directly to the\nhypothalamus). Injections of leptin in db mutant mice have no effect,\nbecause there are no leptin receptors in the hypothalamus for the\nexogenous leptin to activate.\n\nOf those people who are morbidly obese, less than 1 percent harbor\nDNA mutations that disrupt the function of the leptin gene—a low\n\nHOUSE_OVERSIGHT_029956",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_029956.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2028,
+    "word_count": 328,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:46.183834",
+    "prefix": "IMAGES-010"
+  }
+}

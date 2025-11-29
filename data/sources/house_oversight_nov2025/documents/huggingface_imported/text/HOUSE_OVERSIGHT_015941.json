@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015941",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015941.txt",
+  "text": "Software 251\n\nCan humans solve ‘unsolvable’ problems?\n\nThe question of whether Fermat’s Last Theorem could be solved\nmechanically remained unanswered until 1970 when Yuri Matiyasevich\nfilled in the missing piece in Julia Robinson's proof. Matiyasevich used\nan ingenious reduction method to match up sequences in Robinson's\ntheorem with a set of Turing machines. This showed that if Robinson's\ntheorem was false you could solve the halting problem and since you\ncan't solve the halting problem, then Robinson's theorem must be true.\nAll this effort proved Diophantine equations have no general algorithmic\nsolution. This was a hugely important result but, as we noted earlier,\nFermat’s Last Theorem is not, strictly speaking, a Diophantine. It is an\nexponential Diophantine equation. We still had no definitive answer to\nFermat.\n\nIn 1972 Keijo Ruohonen and again in 1993, Christoph Baxa\ndemonstrated that Diophantine equations with exponential terms could\nbe rewritten as regular Diophantine equations with one additional\ncomplication — the necessity of adding an infinite set of terms to the end\nof the equation. In 1993, J.P. Jones of the University of Calgary showed the\nlogic limit for regular Diophantine equations lies at thirteen unknowns.\nMatiyasevich had already pointed this out but never completed his proof.\nSince infinity is greater than thirteen, all exponential Diophantine\nequations are above the logic limit and, therefore, undecidable. Finally,\nwe have a proof that Fermat’s Last Theorem is unsolvable by a computer\n\n— or at least by a general purpose algorithm running on a computer.\nMatiyasevich went on to show many mathematical problems can be\nrewritten as exponential Diophantine equations and that much of\nmathematics is undecidable. For example, the Four Color Conjecture:\n\n“Given an arbitrary map on a Euclidean plane, show the map can\nbe colored in a maximum of four colors such that no adjacent area\nshares the same color.”\n\nMeanwhile, Andrew Wiles, an English mathematics Professor at\nPrinceton had been secretly working on Fermat’s Last Theorem. When\nI say secretly, he had not told anyone in his department, and only told\nhis wife late in 1993 when he suspected he might have a solution. He\nhad been working on the problem a long time, having fallen in love with\nit at the age of 8! In 1995, after nearly 30 years work, he announced he\n\nHOUSE_OVERSIGHT_015941",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015941.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2389,
+    "word_count": 381,
+    "line_count": 45,
+    "import_date": "2025-11-19T21:47:48.241022",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_018785",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_018785.txt",
+  "text": "Gaming Supply and Demand Analysis\n\nLas Vegas is recognized worldwide as a premier gaming destination.\nFrom traditional card and dice games, to slot machines and race and\nsports book betting, the casino industry has flourished and evolved\ninto an international phenomenon. A significant portion of the visitor\nrevenue generated in the city is attributed to the gaming industry,\nwhich posted $9.6 billion in revenue in 2014.\n\nThe initial step in analyzing supply and demand trends within a given\ngaming market is to quantify the existing level of gaming inventory.\nTo quantify gaming supply levels, a review of all competitive gaming\nfacilities is performed. Once the market’s supply level is known, an\nanalysis of the demand for gaming facilities is performed.\n\nUnlike traditional economic models of supply and demand, the price variable associated with gaming is largely determined by the consumer.\nGaming is an intangible product: the consumer is purchasing the “experience” and “excitement” casino gaming offers. The price that the\nconsumer is willing to pay for this experience is known as the “win,” and is quantified on a per-unit basis known as the “win per unit per\nday” (WPUPD). Research indicates that the WPUPD, or the price a market can bear for gaming activity, is highly correlated to the level\nof available gaming inventory. The actual WPUPD attained by a market, say $100 per gaming position, and provides an indication of the\nmarketwide demand for gaming. As will be further discussed, these demand levels within a market can be estimated through an analysis of\nthe actual WPUPD attained by the market. Historical fluctuations in the marketwide WPUPD at various levels of supply can provide insight\ninto the future demand for gaming. Further impacting the demand for gaming facilities in the market are current and projected trends in\neconomic and demographic factors such as population base, employment, disposable income levels, and visitation statistics. In addition,\nseasonal fluctuations must be taken into consideration when analyzing demand trends.\n\nOnce the various demand trends have been identified, a variety of analytical methodologies may be employed to forecast gaming revenue\nfor an overall market or an individual property.\n\nHOUSE_OVERSIGHT_018785",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_018785.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2279,
+    "word_count": 354,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:48.092265",
+    "prefix": "IMAGES-005"
+  }
+}

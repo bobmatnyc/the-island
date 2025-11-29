@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015802",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015802.txt",
+  "text": "112 Are the Androids Dreaming Yet?\n\nThe resolution of the eye is not the same across the image. High\nresolution is concentrated in the center, while lower resolution black\nand white vision dominates the edge. This peripheral vision helps us\ndetect predators or play football but it is not the focus of our attention.\nWhen we focus our attention on something, we turn our eyes to look at\nit directly. The central part of our eye is called the fovea centralis and is\ncomposed of cones. About half our cones are concentrated in this very\nsmall section and this gives us immense visual acuity. For a computer\ndisplay to outperform this section of the eye it would need one billion by\n\nScintillating Dots Optical Hlusion\n\none billion pixels. The fovea centralis is tiny, only two degrees across, so\nour eyes must dart around the image to take in all the detail. Once the\nbasic information is encoded in our retina and sent down the optic nerve,\nit goes into a production line process in the visual cortex where all the\nelements are analyzed. Our brains extract information from the image\nsuch as texture, edges and depth perception in specialized portions of\nthe brain. Because of this specialization it is possible to play tricks on the\nbrain with images that are not easy to process. Some we find pleasurable,\nwhile others can be a little disturbing.\n\nHOUSE_OVERSIGHT_015802",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015802.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1371,
+    "word_count": 236,
+    "line_count": 25,
+    "import_date": "2025-11-19T21:47:44.347510",
+    "prefix": "IMAGES-003"
+  }
+}

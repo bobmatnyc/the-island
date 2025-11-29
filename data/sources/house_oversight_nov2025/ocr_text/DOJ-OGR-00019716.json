@@ -1,0 +1,26 @@
+{
+  "source_pdf": "DOJ-OGR-00019716.pdf",
+  "ocr_date": "2025-11-16T21:41:10.682115",
+  "text_length": 2065,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "Imenninger@hmflaw.com",
+    "bc@sternheimlaw.com",
+    "alundberg@hmflaw.com",
+    "mcohen@cohengresser.com",
+    "jpagliuca@hmflaw.com",
+    "USANYS.ECF@USDOJ.GOV",
+    "Mark-Cohen-1234@ecf.pacerpro.com",
+    "hrogers@hmflaw.com",
+    "bcsternheim@mac.com",
+    "nsimmons@hmflaw.com",
+    "ecf@sternheimlaw.com",
+    "autodocket@cohengresser.com",
+    "CaseView.ECF@usdoj.gov",
+    "NYSD_ECF_Pool@nysd.uscourts.gov",
+    "ceverdell@cohengresser.com",
+    "Lara.Pomerantz@usdoj.gov",
+    "managingclerksoffice@cohengresser.com"
+  ]
+}

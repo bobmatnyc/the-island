@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013705",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013705.txt",
+  "text": "Although counter-intuitive when expressed in words, the trajectories that one\nsees in the graphics of chaotic attractors result from the actions along the “unstable”\ndirections of the stretching distortion; the actions in the otherwise invisible stable\ndirections “iron down” the points onto this unstable manifold (n dimensional abstract\nsurface).\n\nAs might be expected from this set of characteristic motions, the diagnostic\ntriad of chaotic dynamical systems are: (1) Sensitivity to initial conditions—tiny\ndistances between starting points are magnified and large distances between\nstarting points are reduced under the stretching and folding actions of the system;\n(2) The presence of a theoretically infinite but countable number of unstable\nperiodic orbits of theoretically all period lengths—points in phase space can be\nviewed an attractive-repellers, visited and left by the orbits recursively as the\ndynamics proceed; and (3) Indecomposability—the attractor is not separable into\nisolated regions and no points escape (see Devaney, 1989, for one of the clearest\ndefinitions). Of particular relevance to information encoding and transport by brain\nmechanisms, it is important to visualize that new information in the form of unstable\nperiodic orbits is being created as well as destroyed by the dynamics. The\nlogarithmic rate of formation of these new orbits is computed as the system’s\n\ntopological entropy (see below).\n\nAssuming the real neurobiological system under study is behaving in these\nways (and often much has to be done to help justify such a claim), the observables\ntake the form of an irregular and/or episodic time series of amplitudes, as in\nrepeated sample, neuroendocrine studies of plasma hormone levels (Veldhuis and\nJohnson, 1992) or a sequence of times between events as in neuronal interspike\nintervals (Katz, 1966; Perkel et al, 1967). These time or time-sequence series are\ngenerally studied from three relatively distinct yet complementary quantitative\nperspectives: (1) As stochastic (“random”) processes with various amounts of\nsequential dependency (autocorrelations) and scale (sample length) dependencies;\n(2) As “deterministic” smooth or discrete, vectorial geometries in phase space\nfollowing reconstruction and/or embedding of the series as phase portraits or return\n\nmaps; (3) As information generating and transporting, topological (about relative\n\n205\n\nHOUSE_OVERSIGHT_013705",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013705.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2422,
+    "word_count": 349,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:47.631247",
+    "prefix": "IMAGES-002"
+  }
+}

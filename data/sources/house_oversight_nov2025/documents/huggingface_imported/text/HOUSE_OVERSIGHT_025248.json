@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025248",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025248.txt",
+  "text": "Table of Contents\n\nSection 1 Base slides 2\nSection 2 Asset class views 11\n2.A Equities 12\n2.B Fixed income 22\n2.C Foreign exchange 29\n2.D NTAC: Commodities, Listed real estate, Hedge funds\nand Private equity 33\n3 UBS ,\n\nHOUSE_OVERSIGHT_025248",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025248.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 242,
+    "word_count": 41,
+    "line_count": 12,
+    "import_date": "2025-11-19T21:47:48.879804",
+    "prefix": "IMAGES-008"
+  }
+}

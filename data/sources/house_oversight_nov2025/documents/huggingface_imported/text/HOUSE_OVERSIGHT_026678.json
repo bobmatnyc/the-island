@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026678",
+  "filename": "TEXT-001-HOUSE_OVERSIGHT_026678.txt",
+  "text": "﻿Creation Date: \t2017/06/29 16:44:18Z\t\nModification Date: \t2017/06/29 16:44:20Z\t\nLength: \t00:00:19\t\nFrame Height: \t352\t\nFrame Width: \t640",
+  "metadata": {
+    "original_filename": "TEXT-001-HOUSE_OVERSIGHT_026678.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 137,
+    "word_count": 16,
+    "line_count": 5,
+    "import_date": "2025-11-19T21:47:48.237961",
+    "prefix": "TEXT-001"
+  }
+}

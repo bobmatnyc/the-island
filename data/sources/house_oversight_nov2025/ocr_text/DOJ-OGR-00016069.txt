@@ -1,0 +1,42 @@
+Fed =< Invoice Number: 4-495-75031
+. invoice Date: Dee 23, 2002
+Account Number: 1144-20816
+Page: 6of 21
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+FuelSurchamge FedEx has applied a lve! surchame of 4.00% |o this shipment.
+Distance Based Pricing, Zone 8
+The delivery commilment for Express Saver Packages to hames orprivate residences (Including home offices) is 7PM the third business day for all regions.
+Release signature on file.
+Tracking ID 828694900970 Sender Recipient
+Service Type FedEx Express Saver JEPSTEIN a BOMOD
+Package Type Customer Packaging JEFFREY E EPSTEIN
+Zone 8 457 MADISON AVE
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 2.01bs, 0.9 kgs
+Delivered Dec 13, 2002 13:25 Transporation Charge 1055
+Sve Area nde Discount 1.06
+Signed by 17355007 Fud Surcharge 0.38
+FedEx Use  3471504100717902 Residential Delivery 135
+Total Transportation Charges uSsD $ 11.22
+Picked up: Dec 11, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+FuelSurchame FedEx has applied a fue! surcharge of 4.00% |o this shipment
+Distance Based Pricing, Zone 8
+The delivery commitment for Express Saver Packages \o homes or privaie residences (Inc! uding home offices) is 7PM (he third business day for all regions.
+1st allempi Dec 13, 2002 al 12:01 PM.
+Incorrect recipient address.
+Otiginal address 22860 PACIFIC EAST HWY/MALIBU.CA 90265
+FedEx has audited this shipmen| lor comedi packages, we ight, and service. Any changes made are rellecied in the invoice amount
+Tracking ID 828694900981 Sender Recipient
+Service Type FedEx Express Saver J EPSTEIN KELLY SPANN
+Package Type FedEx Pak JEFFREY E EPSTEIN
+Zone 8 457 MADISON AVE
+Packages 1 NEW YORK NY 10022-6843 US
+Weight 2.0 Ibs, 0.9 kgs
+Delivered Dec 17, 200212:58 Transportation Charge 10.55
+ore Area 3R Di A, 1.06
+ay ee ee Address Correction 10.00
+FedEx Use 347141680/071 79/03 Fud Surcharge 0.38
+Residential Delivery 1.35
+Total Transportation Charges USD $ 21.22
+DOJ-OGR-00016069

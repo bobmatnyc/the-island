@@ -1,0 +1,106 @@
+{
+  "migration_timestamp": "2025-11-24T14:19:11.226781",
+  "total_entities_processed": 1637,
+  "guid_generation_method": "uuid.uuid5(NAMESPACE_DNS, entity_id)",
+  "namespace": "NAMESPACE_DNS",
+  "deterministic": true,
+  "sample_entities": [
+    {
+      "id": "jeffrey_epstein",
+      "guid": "43886eef-f28a-549d-8ae0-8409c2be68c4",
+      "name": "Epstein, Jeffrey",
+      "document_count": 0,
+      "connection_count": 191
+    },
+    {
+      "id": "ghislaine_maxwell",
+      "guid": "2b3bdb1f-adb2-5050-b437-e16a1fb476e8",
+      "name": "Maxwell, Ghislaine",
+      "document_count": 0,
+      "connection_count": 102
+    },
+    {
+      "id": "donald_trump",
+      "guid": "6467fdc0-0874-575d-b28e-96b06d131063",
+      "name": "Donald Trump",
+      "document_count": 0,
+      "connection_count": 1
+    },
+    {
+      "id": "abby",
+      "guid": "8889edfa-d770-54e4-8192-dc900cdd2257",
+      "name": "Abby",
+      "document_count": 0,
+      "connection_count": 0
+    },
+    {
+      "id": "abby_king",
+      "guid": "8e0f7e1f-3a6a-5e26-a922-0ceb12cb346a",
+      "name": "Abby King",
+      "document_count": 0,
+      "connection_count": 0
+    },
+    {
+      "id": "aboff_shelly",
+      "guid": "8201befc-1528-5946-abfe-8271c77dcd50",
+      "name": "Aboff Shelly",
+      "document_count": 0,
+      "connection_count": 0
+    },
+    {
+      "id": "adam_dell",
+      "guid": "6a08be92-0877-59ba-940f-0a8a4e879833",
+      "name": "Adam Dell",
+      "document_count": 0,
+      "connection_count": 0
+    },
+    {
+      "id": "adam_gardner",
+      "guid": "13d3f0eb-d41d-5102-9e67-303bee55633b",
+      "name": "Adam Gardner",
+      "document_count": 0,
+      "connection_count": 0
+    },
+    {
+      "id": "adam_horne",
+      "guid": "5da33a4d-efcf-5c0d-99ce-4ce7c7748430",
+      "name": "Adam Horne",
+      "document_count": 0,
+      "connection_count": 0
+    },
+    {
+      "id": "adam_lindemann",
+      "guid": "eabb87a4-e1cc-5c17-9c69-b2a1236d1850",
+      "name": "Adam Lindemann",
+      "document_count": 0,
+      "connection_count": 0
+    },
+    {
+      "id": "adam_nagel",
+      "guid": "453a78d7-9b89-5f83-9623-b3e39ef96003",
+      "name": "Adam Nagel",
+      "document_count": 0,
+      "connection_count": 0
+    },
+    {
+      "id": "adam_perry_lang",
+      "guid": "16fba758-5292-5faf-8fa4-12ebe6a4de14",
+      "name": "Adam Perry Lang",
+      "document_count": 0,
+      "connection_count": 0
+    },
+    {
+      "id": "adrian_zecher",
+      "guid": "3a152f79-b391-5d12-9976-79e0172690af",
+      "name": "Adrian Zecher",
+      "document_count": 0,
+      "connection_count": 0
+    }
+  ],
+  "statistics": {
+    "entities_with_guids": 1637,
+    "entities_in_black_book": 1422,
+    "entities_with_documents": 0,
+    "entities_with_connections": 259
+  }
+}

@@ -1,0 +1,24 @@
+Page 11 of 11
+
+Call Codes:
+
+066 Cellular Mobile Carrier (CMC) Terminating Type 2A © BELLSOUTH
+
+110 LnterLATA Station Paid
+
+119 Terminating Access Record
+
+198 Outward Busy Line Verify Service
+
+Service Features:
+
+023 Cellular Mobile Carrier - Type 2A
+
+Carmiers:
+
+0377 BSL BellSouth Long Distance
+
+0444 ALN Global Crossing Telecommunications, Inc.
+
+07/26/17 Page 43 of 104 Public Records Request No.: 17-295
+DOJ-OGR-00031660

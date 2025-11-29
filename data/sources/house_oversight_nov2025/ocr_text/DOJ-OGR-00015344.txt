@@ -1,0 +1,38 @@
+Fed =< Invoice Number: 4-447-52055 .
+® Invoice Date: Nov 11, 2002
+Account Number: 1144-2081-6
+Page: 8 of 8
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 01, 2002 Payor: Recipient Reference: AARON
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+FedEx has audited this airbill for correct pieces, weight, and service. Any changes made are reflected in the invoice amount.
+Tracking ID 791222969825 Sender Recipient
+Service Type FedEx Intl Economy PARTS AARON
+Package Type Customer Packaging CESCO LSJ. LLC.
+Zone I Po C/O AMERICAN YACHT HARBOR
+Orig /Dest. CHL/STT Po 6100 RED HOOK QUARTERS #2
+Packages 3 ST. THOMAS VI 00802-453 VI
+Weight 133.0 Ibs, 60.5 kgs
+Belivered Nov 04, 2002 15:56 Transportation Charge 529.34
+Signed by J.DUGAN Fuel Surcharge 15.40
+Dec. Value USD 830.00 DISeauTE 15,96
+FedEx Use _/US010/_ —————
+Total Transportation Charges USD $ 528.78
+Picked up: Nov 07, 2002 Payor: Recipient Reference: AARON
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+FedEx has audited this airbill for correct pieces, weight, and service. Any changes made are reflected in the invoice amount.
+Tracking ID 792770714365 Sender Recipient
+Service Type FedEx Intl Priority PARTS AARON
+Package Type Customer Packaging CESCO LSJ. LLC.
+Zone I C/O AMERICAN YACHT HARBOR
+Orig /Dest. CHL/STT 6100 RED HOOK QUARTERS #2
+Packages 1 ST. THOMAS VI 00802-453 VI
+Weight 40 Ibs, 1.8 kgs
+Deleted Nov 08, 2002 17:23 Transportation Charge 65.03
+Signed by J.RUAN Fuel Surcharge 2.52
+Dec. Value USD 1700 Discount -1.95
+FedEx Use _/USO10/_ a
+Total Transportation Charges USD $ 65.60
+Shipment Detail Subtotal 20.0.0... eeesesesesesseesseececeeeeeeeseseaeseeeeeeeetetaeaeaeeeteeetetetstatesstesateeeseeeeee LSD $ 594.38
+SDNY_GM_00340697 35
+DOJ-OGR-00015344

@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-11-18T09:58:42.101472",
+  "original_file": "/Users/masa/Projects/epstein/data/metadata/entity_biographies.json",
+  "backup_file": "/Users/masa/Projects/epstein/data/metadata/entity_biographies.backup_20251118_095842.json",
+  "entity_index_file": "/Users/masa/Projects/epstein/data/md/entities/ENTITIES_INDEX.json",
+  "conversions": [
+    {
+      "from": "Epstein, Jeffrey",
+      "to": "Epstein, Jeffrey",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Maxwell, Ghislaine",
+      "to": "Maxwell, Ghislaine",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Kellen, Sarah",
+      "to": "Kellen, Sarah",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Tayler, Emmy",
+      "to": "Tayler, Emmy",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Marcinkova, Nadia",
+      "to": "Nadia",
+      "matched_entity": true,
+      "match_method": "manual_mapping",
+      "changed": true
+    },
+    {
+      "from": "Larry Visoski",
+      "to": "Larry Visoski",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "William Clinton",
+      "to": "William Clinton",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Wexner, Les",
+      "to": "Leslie Wexner",
+      "matched_entity": true,
+      "match_method": "manual_mapping",
+      "changed": true
+    },
+    {
+      "from": "Prince Andrew",
+      "to": "Prince Andrew",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Giuffre, Virginia",
+      "to": "Roberts, Virginia",
+      "matched_entity": true,
+      "match_method": "manual_mapping",
+      "changed": true
+    },
+    {
+      "from": "Band, Doug",
+      "to": "Band, Doug",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Alan Dershowitz",
+      "to": "Alan Dershowitz",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Richardson, Bill",
+      "to": "William Richardson",
+      "matched_entity": true,
+      "match_method": "manual_mapping",
+      "changed": true
+    },
+    {
+      "from": "Dubin, Glenn",
+      "to": "Dubin, Glenn",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Jean-Luc Brunel",
+      "to": "Jean-Luc Brunel",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Tucker, Chris",
+      "to": "Tucker, Chris",
+      "matched_entity": false,
+      "match_method": "not_in_system",
+      "changed": false
+    },
+    {
+      "from": "Spacey, Kevin",
+      "to": "Spacey, Kevin",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Marvin Minsky",
+      "to": "Marvin Minsky",
+      "matched_entity": true,
+      "match_method": "exact_match",
+      "changed": false
+    },
+    {
+      "from": "Mitchell, George",
+      "to": "Mitchell, George",
+      "matched_entity": false,
+      "match_method": "not_in_system",
+      "changed": false
+    },
+    {
+      "from": "Ross, Adriana",
+      "to": "Mucinska, Adriana",
+      "matched_entity": true,
+      "match_method": "manual_mapping",
+      "changed": true
+    },
+    {
+      "from": "Groff, Lesley",
+      "to": "Groff, Lesley",
+      "matched_entity": false,
+      "match_method": "not_in_system",
+      "changed": false
+    }
+  ],
+  "summary": {
+    "total_biographies": 21,
+    "matched_to_entities": 18,
+    "not_in_system": 3,
+    "names_changed": 5
+  }
+}

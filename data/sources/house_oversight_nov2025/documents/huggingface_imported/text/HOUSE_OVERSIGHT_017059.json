@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017059",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_017059.txt",
+  "text": "and ‘Burkina Faso’ (green). (I) ‘radio’ in the US (blue) and in the UK (red) have distinct trajectories. (J)\n‘football’ (blue), ‘golf’ (green), ‘baseball’ (red), ‘basketball’ (cyan) and ‘hockey’ (purple) (K) Sportsmen: In\nthe 1980s, the fame of ‘Michael Jordan’ (cyan) leaped over other that of other great athletes, including\n‘Jesse Owens’ (green), ‘Joe Namath’ (red), ‘Mike Tyson’ (purple), and ‘Wayne Gretsky’ (yellow).\nPresently, only ‘Babe Ruth’ (blue) can compete. One can only speculate as to whether Jordan’s hang\ntime will match that of the Bambino. (L) ‘humorless’ is a word that rose to popularity during the first half\nof the century. This indicates how these data can serve to identify words that are a marker of a specific\n\nperiod in time.\n\nHOUSE_OVERSIGHT_017059",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_017059.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 777,
+    "word_count": 123,
+    "line_count": 11,
+    "import_date": "2025-11-19T21:47:47.330329",
+    "prefix": "IMAGES-004"
+  }
+}

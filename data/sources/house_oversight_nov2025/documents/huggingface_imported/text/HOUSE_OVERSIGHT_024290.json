@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_024290",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_024290.txt",
+  "text": "INDUSTRY GROWTH: 2014 to 2015\n\nKey Bitcoin Adoption Metrics\n\nQuai Year Ago\nJune-15 March-15 Q2/Q1A Q1/Q4A June-14 A\n\nCommerce\n\nWallets 9,345,510 8,457 207 11% 14% 5,467,263\n\nMerchants 100,000 88,000 14% 7% 65,640\n\nMerchants’ annual revenue ($bn) 187 187 0% 4% 30\n\nATMs 426 374 14% 9% 126\n\nUnique bitcoin addresses 261,770 203,189 29% 29% 136,152\nIndustry\n\nAll-time VC investment ($m) $832 $687 21% 50% $252\n\nNumber of VC-backed startups 113 105 8% 15% 58\nMedia\n\nMainstream media mentions 371 458 -19% -10% 1035 -64%\nTt\n\nNetwork hash rate (billion/second) 351,177,610 346,028,956 1% 11% 104,506,281 3x\nValuation\n\nBitcoin market capitalization ($bn) $3.8 $3.4 11%  -22% $8.0 -53%\nData sources and notes: CoinDesk, Blockchain. info, BilcoinPulse, Gahub, Coin ATM Radar. Figures are cumulative from start of records, except unique\n\nbitcoin addresses and media mentions, which are figures for the quarter ending that month. Number of VC-backed startups and VC investment\nunadjusted for closed companies: Melotic, Buttercoin, Bitinstant, and TradeHill\n\nState of Bitcoin Q2 2015 CoinDesk\n\n~?) BLOCKCHAIN\n\nanal CAPITAL ONE FERRY BUILDING, SUITE 255 SAN FRANCISCO, CA 94111 investor@blockchain.capital\n\nHOUSE_OVERSIGHT_024290",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_024290.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1216,
+    "word_count": 178,
+    "line_count": 44,
+    "import_date": "2025-11-19T21:47:45.166219",
+    "prefix": "IMAGES-007"
+  }
+}

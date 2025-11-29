@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_032305",
+  "filename": "IMAGES-011-HOUSE_OVERSIGHT_032305.txt",
+  "text": "1211 Avenue of the Americas\nNew York, NY 10036\n\nHOUSE_OVERSIGHT_032305",
+  "metadata": {
+    "original_filename": "IMAGES-011-HOUSE_OVERSIGHT_032305.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 70,
+    "word_count": 10,
+    "line_count": 4,
+    "import_date": "2025-11-19T21:47:46.744906",
+    "prefix": "IMAGES-011"
+  }
+}

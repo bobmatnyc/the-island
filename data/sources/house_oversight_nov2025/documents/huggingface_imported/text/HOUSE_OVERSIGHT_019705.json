@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019705",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019705.txt",
+  "text": "The NSA‘s Back Door | 217\n\nthrough the back door of outside contractors were not fully vetted.\n(On August 20, 2015, USIS agreed to forfeit $30 million in fees to\nsettle the lawsuit.)\n\nUSIS was also open to sophisticated hacking attacks by outsid-\ners. In August 2014, the Department of Homeland Security’s coun-\nterintelligence unit discovered such a massive and persistent breach\nin USIS that it shut down its entire exchange of data with it. The\nintrusion into USIS records in this case was attributed to hackers in\nChina most likely linked to the Chinese intelligence service. Such\nmassive intrusions dated back to 2011. USIS’s lack of security in its\nwebsite left a gaping hole through which outside parties, including\nChinese and Russian hackers, could learn both the identity and the\nbackground information of specialists applying for jobs at the NSA.\n\nThese private companies also did not sufficiently protect the per-\nsonal data of their independent contractors working at the NSA.\nThe hackers’ group Anonymous took credit for the successful 2011\nattack on the Booz Allen Hamilton servers. It also cracked the algo-\nrithms used to protect employees. It next injected so-called Trojan\n\n© horse viruses and other malicious codes into Booz Allen servers ©\nthat allowed it future entry. If amateur hackers such as Anonymous\ncould break into the computers of the NSA’s largest contractor, so\ncould adversaries’ state espionage services with far more advanced\nhacking tools. From these sites, China or Russia could obtain all the\njob applications and personal résumés submitted to contractors such\nas Booz Allen. It could then compile a list of the best candidates to\ndo its bidding.\n\nThese deficiencies in the private sector were compounded by\nthe failure of security in the government’s own Office of Person-\nnel Management. It used a computer system called e-QIP in which\nintelligence employees, including outside contractors, updated their\ncomputerized records to maintain or upgrade their security clear-\nances. For example, Snowden updated his clearance in 2011. To do\nso, these employees constantly updated their financial and personal\ninformation. As it turned out, there was a major hole in the e-QIP\nsystem. It has repeatedly been hacked by unknown parties since\n2010. In 2015, the U.S. government told Congress that China was\nmost likely responsible, but Russia and other nations with sophis-\n\n| | Epst_9780451494566_2p_all_r.indd 217 ® 9/30/16 8:13AM | |\n\nHOUSE_OVERSIGHT_019705",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019705.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2492,
+    "word_count": 395,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:48.417340",
+    "prefix": "IMAGES-005"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011037",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011037.txt",
+  "text": "Outflow to owners can also include decapitalization from capital already in place, as\nin withdrawals from a bank account. | say decapitization, rather than depreciation,\nbecause the appropriate term might rather be amortization or depletion or\nliquidation in sale, depending on circumstances and the nature of the asset. The sum\nof the realized output and decapitalization can be called “gross cash flow”, meaning\n\ngross before deducting plowback and negative cash flow (transfer in). Then\n\ngross cash flow = cash flow + plowback + transfer in\n= realized output + recovered decapitalization. (6.1)\n\nHere | specify recovered decaptalization because | treat deadweight loss as\ndecapitalization too. Cash flow as accountants and businessmen use the term\nusually means gross of plowback, although net of transfer in. My meaning, net of\n\nboth, is the one always applied in finding total return and present value.\nAlthough cash flow might be in kind as well, I will follow convention by treating it as\nif realized from sale in cash. The owner can then spend the revenue on exhaust\n(pure consumption) or reinvestment or gift as she likes, but might also plow some\nor all back into the originating asset. The general principle is\n\npositive cash flow = gross cash flow - plowback. (6.2)\nIn simple cases, revenue measures and equals gross cash flow for each asset. But\nrevenue as the term is actually used is likelier to sum contributions from many\nassets and owners. To keep that usual meaning separate, define this asset’s share as\n“earned revenue”. Then\n\ngross cash flow = earned revenue. (6.3)\n\nAnother way to put the same idea is\n\nChapter 6: Parallels with the Firm 2/4/16 3\n\nHOUSE_OVERSIGHT_011037",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011037.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1693,
+    "word_count": 277,
+    "line_count": 34,
+    "import_date": "2025-11-19T21:47:47.714435",
+    "prefix": "IMAGES-001"
+  }
+}

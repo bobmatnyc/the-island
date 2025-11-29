@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013599",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013599.txt",
+  "text": "activation locked together in time are assumed to be functionally integrated. Another\ntime-dependent neuronal characteristic of current interest involve neurons or\nneuronal clusters that beat with almost strict periodicity, the oscillatory pacemakers.\nFor example, the program of research by Professor Al Selverson at University of\nCalifornia at San Diego, among others, has elucidated the role of these rhythmic\npattern generators, both autonomous and those emerging from particular patterns\nof network connections. A wide variety of functional links involving neuronal\npacemakers has been demonstrated. They range from the oscillatory transport of\ncalcium through membrane channels in neurons and heart muscle, smooth muscle\noscillations of the pylorus muscle of the stomach, the neuronal ganglion driven\nchewing motions of the jaws of invertebrates and the retina-to-brain hypothalamic\ncells gating human circadian rhythms coupling our body’s hormonal clocks to light\n\ncycles.\n\nThough regular rhythmicity in neuronal discharges is an intuitively attractive\nidea and relatively easy to quantitate using simple sine wave trigonometric\ntransformations, in the real brain it is statistically rare. The commonest neuronal\ndischarge pattern observed is that of intermittent bursting, clusters of neuronal\ndischarges in time in which the inter-discharge intervals irregularly stretch and\ncontract like the bellow pleats of a syncopated accordion. Bursts of repeated firing\nof some unpredictable length followed by silences of equally mysterious durations.\nTheir behavior can be represented as statistical measures using non-normal, /ong\ntailed distributions and in-between entropies described previously. For a whole\nhuman example, although the rhythm of manic depression is commonly thought to\ninvolve periodic cycles, careful study using motility patterns of the timing through life\nof these episodes of extreme mood states by Professor Allan Gottschalk at the\nUniversity of Pennsylvania and others have demonstrated an irregularly intermittent\nbursting pattern in manic-depressive episodes, getting more frequent with age.\nNeuronal inter-discharge intervals seldom demonstrate what is called a regression\nto the mean like the normal distribution of heights, as one increases the number of\npeople measured, the tighter the distribution around the mean. Neurons, much like\n\nour own irregular pattern of doing things (in spite of our plans), the statistical\n\n99\n\nHOUSE_OVERSIGHT_013599",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013599.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2481,
+    "word_count": 348,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:49.026053",
+    "prefix": "IMAGES-002"
+  }
+}

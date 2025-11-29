@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_033175",
+  "filename": "IMAGES-012-HOUSE_OVERSIGHT_033175.txt",
+  "text": "From: Zubair Khan\n\nSent: 10/13/2016 1:39:13 PM\nTo: jeffrey E. [jeevacation@gmail.com]\nSubject: US Election Update\n\nImportance: — High\n\nHi Jeffrey,\n\nSince the start of 2nd US Presidential Election debate till now, we have processed 3.1 million tweets.\n\nHere is the performance of candidates:\n\n1. Donald Trump 11.80% (Positive), 15.66% (Neutral), 72.54% (Negative)\n2. Hillary Clinton 40.70% (Positive), 19.09% (Neutral), 40.21% (Negative)\n\nWinning Chances:\n\n1. Clinton 72%\n2. Trump 28%\n\nWinning chances in US States:\n\n1. Clinton: New York (84%), California (75%), North Carolina (64%), Florida (75%), Washington (52%), Ohio\n\n(96%), New Jersey (70%)\n2. Trump: Texas (66%)\n\nRegards,\nZubair Khan\n\nHOUSE_OVERSIGHT_033175",
+  "metadata": {
+    "original_filename": "IMAGES-012-HOUSE_OVERSIGHT_033175.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 714,
+    "word_count": 101,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:48.299303",
+    "prefix": "IMAGES-012"
+  }
+}

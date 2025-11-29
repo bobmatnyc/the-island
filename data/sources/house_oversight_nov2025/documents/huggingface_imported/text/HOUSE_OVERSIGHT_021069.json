@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_021069",
+  "filename": "IMAGES-006-HOUSE_OVERSIGHT_021069.txt",
+  "text": "Federal Debt Held by the Public vs. Gross Debt\n\ne Federal Debt Held by the Public ($9 Trillion Outstanding, 62% of GDP in 2010)\n- Value of all federal securities sold to the public that are still outstanding.\n\n- Represents the cumulative effect of past federal borrowing on today’s economy and on the\ncurrent federal budget.\n\n- Net interest payments represent a burden on current taxpayers.\n\ne Gross Debt ($14 Trillion Outstanding, 94% of GDP in 2010)\n\n- Public debt + intragovernmental debt (related to entities including the Social Security Trust\nFund and federal employee / veterans’ pension fund) + net liability of GSEs (related to likes\nof Fannie Mae and Freddie Mac).\n\n- Represents a claim on both current and future resources.\n\ne We Focus on Public Debt Levels\n- Public debt is the base for calculating net interest payments.\n\n- Gross debt level could be misleading (to take an extreme example, simply eliminating all\ntrust funds without changing promised benefits for the associated programs would\ndramatically reduce gross debt from 94% of GDP to 62% of GDP without improving long-\nterm fiscal outlook at all*).\n\n- In the future, when intragovernmental debt + net liability of GSEs begin demanding\nrepayments, it is likely financed via material increases in public debt levels.\n\nNote: *for more details, see James R. Horney, “Recommendation That President’s Fiscal Commission Focus on Gross Debt is\nisquided, . Data source: White House , .\nMisguided,” 5/27/10. Dat: White He OMB, CBO.\nwww.kpcb.com ne. | Appendix\nB kpeb USA Inc. | Al dix 455\n\nPublic Debt = Gross Debt — Intra-Governmental Holdings —\n\nNet Liabilities of Government-Sponsored Enterprises (GSEs)\n\n1960 2010\nReal Gross Debt Real Gross Debt\nOutstanding = Outstanding =\n$2.0 Trillion $13.5 Trillion\n\nNet Liabilities\nof GSEs*\n\nPublic Debt\n$9.0T\n\nPublic Debt\n$1.7T\n\nOther\nIntragovernmental Other ™~\nHoldings Intragovernmental\n\nHoldings\nSocial Security 9%\nTrust Fund 6%\nDebt Held By\nthe Public\n\nF P 5\nDebt Held By oad oe 62%\nthe Public even FUR\n\n85%\n\nNote: Data are inflation adjusted.* Net liabilities of GSEs assumes 50% loss ratio on $250B delinquent loans held by Fannie\nKP Mae / Freddie Mac. Data source: Dept. of Treasury, White House Office of Management and Budget.\n(@E) www.kpcb.com USA Inc. | Appendix 456\n\nHOUSE_OVERSIGHT_021069",
+  "metadata": {
+    "original_filename": "IMAGES-006-HOUSE_OVERSIGHT_021069.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2307,
+    "word_count": 376,
+    "line_count": 74,
+    "import_date": "2025-11-19T21:47:46.897275",
+    "prefix": "IMAGES-006"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "deployment_hash": "0ed3f18f52eb7a6fd5da1ce707e7c456ad1f95bdfc59b4b1fa89bb825f185322",
+  "last_check_time": 1764430178.502132,
+  "last_check_results": {
+    "agents": {},
+    "summary": {
+      "total_agents": 39,
+      "agents_with_deps": 0,
+      "missing_python": [],
+      "missing_system": [],
+      "satisfied_python": [],
+      "satisfied_system": []
+    }
+  },
+  "agent_count": 39
+}

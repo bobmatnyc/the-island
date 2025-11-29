@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017787",
+  "filename": "TEXT-001-HOUSE_OVERSIGHT_017787.txt",
+  "text": "﻿Case 1:19-cv-03377 Document 1-6 Filed 04/16/19 Page 1 of 2\nEXHIBIT 6\nCase 1:19-cv-03377 Document 1-6 Filed 04/16/19 Page 2 of 2\nhttps://twitter.com/AlanDersh",
+  "metadata": {
+    "original_filename": "TEXT-001-HOUSE_OVERSIGHT_017787.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 158,
+    "word_count": 23,
+    "line_count": 4,
+    "import_date": "2025-11-19T21:47:45.648588",
+    "prefix": "TEXT-001"
+  }
+}

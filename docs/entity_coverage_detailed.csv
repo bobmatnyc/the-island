@@ -1,0 +1,1638 @@
+Entity ID,Display Name,In Database,In Black Book,Flight Count,Document Count,Connection Count,Sources,Priority Score,Has Biography
+abby,Abby,YES,YES,0,0,0,black_book,0,NO
+abby_king,Abby King,YES,YES,0,0,0,black_book,0,NO
+aboff_shelly,Aboff Shelly,YES,YES,0,0,0,black_book,0,NO
+adam_dell,Adam Dell,YES,YES,0,0,0,black_book,0,NO
+adam_gardner,Adam Gardner,YES,YES,0,0,0,black_book,0,NO
+adam_horne,Adam Horne,YES,YES,0,0,0,black_book,0,NO
+adam_lindemann,Adam Lindemann,YES,YES,0,0,0,black_book,0,NO
+adam_nagel,Adam Nagel,YES,YES,0,0,0,black_book,0,NO
+adam_perry_lang,Adam Perry Lang,YES,YES,0,1,0,black_book,5,NO
+adrian_zecher,Adrian Zecher,YES,YES,0,0,0,black_book,0,NO
+adriana_mucinska,"Mucinska, Adriana",YES,NO,12,3,7,flight_logs,149,NO
+alain_de_cadenet,Alain de Cadenet,YES,YES,0,0,0,black_book,0,NO
+alaistar_cudro,Alaistar Cudro,YES,YES,0,0,0,black_book,0,NO
+alan_dershowitz,Alan Dershowitz,YES,YES,11,1,9,"black_book, flight_logs",133,NO
+alan_greenberg,Alan Greenberg,YES,NO,1,0,1,flight_logs,12,NO
+alan_mruvka,Alan Mruvka,YES,YES,0,0,0,black_book,0,NO
+alan_patricof,Alan Patricof,YES,YES,0,0,0,black_book,0,NO
+alan_quartucci,Alan Quartucci,YES,YES,0,0,0,black_book,0,NO
+alan_stopek,Alan Stopek,YES,YES,0,1,0,black_book,5,NO
+alan_whitworth,Alan Whitworth,YES,YES,0,0,0,black_book,0,NO
+albert_benamou,Albert Benamou,YES,YES,0,0,0,black_book,0,NO
+alberto_pinto,Alberto Pinto,YES,YES,13,2,10,"black_book, flight_logs",160,NO
+alby_cator,Alby Cator,YES,YES,0,0,0,black_book,0,NO
+alec_baldwin,Alec Baldwin,YES,YES,0,0,0,black_book,0,NO
+alegra_donne,Alegra Donne,YES,YES,0,0,0,black_book,0,NO
+alejandra_cicognani,Alejandra Cicognani,YES,YES,0,0,0,black_book,0,NO
+alejandra_manzano,Alejandra Manzano,YES,YES,0,0,0,black_book,0,NO
+alejandro_agag,Alejandro Agag,YES,YES,0,0,0,black_book,0,NO
+alessandro_guerini_maraldi,Alessandro Guerini Maraldi,YES,YES,0,0,0,black_book,0,NO
+alessandro_manfredini,Alessandro Manfredini,YES,YES,0,0,0,black_book,0,NO
+alexa_woodward,Alexa Woodward,YES,YES,0,0,0,black_book,0,NO
+alexander_appleby,Alexander Appleby,YES,YES,0,0,0,black_book,0,NO
+alexander_dolbey,Alexander Dolbey,YES,YES,0,0,0,black_book,0,NO
+alexander_fekkai,Alexander Fekkai,YES,NO,3,0,3,flight_logs,36,NO
+alexander_furstenberg,Alexander Furstenberg,YES,YES,0,0,0,black_book,0,NO
+alexander_lindsay,Alexander Lindsay,YES,YES,0,0,0,black_book,0,NO
+alexander_nastasse,Alexander Nastasse,YES,YES,0,0,0,black_book,0,NO
+alexander_resnick,Alexander Resnick,YES,NO,2,0,2,flight_logs,24,NO
+alexander_wilmotsitwell,Alexander Wilmot-Sitwell,YES,YES,0,0,0,black_book,0,NO
+alexandra_dixon,Alexandra Dixon,YES,YES,0,0,0,black_book,0,NO
+alexandra_williams,Alexandra Williams,YES,YES,0,0,0,black_book,0,NO
+alexandria_dixon,Alexandria Dixon,YES,NO,1,0,1,flight_logs,12,NO
+alexi_zales,Alexi Zales,YES,YES,0,0,0,black_book,0,NO
+alexia_wallaert,Alexia Wallaert,YES,YES,0,0,0,black_book,0,NO
+alexia_wallert,Alexia Wallert,YES,NO,12,0,10,flight_logs,140,NO
+alfred_taubman,Alfred Taubman,YES,YES,0,0,0,black_book,0,NO
+ali,Ali,NO,YES,0,0,0,black_book,0,NO
+ali_reza,Ali Reza,NO,YES,0,0,0,black_book,0,NO
+aliai_forte,Aliai Forte,NO,YES,0,0,0,black_book,0,NO
+alice_bamford,Alice Bamford,NO,YES,0,0,0,black_book,0,NO
+alice_picasso,Alice Picasso,NO,YES,0,0,0,black_book,0,NO
+aline_weber,Aline Weber,YES,NO,5,0,5,flight_logs,60,NO
+alisa_marks,Alisa Marks,NO,YES,0,0,0,black_book,0,NO
+alison_brown,Alison Brown,NO,YES,0,0,0,black_book,0,NO
+alison_cayne,Alison Cayne,YES,NO,2,0,2,flight_logs,24,NO
+alistair_mcalpine_baron_of_west,"Alistair McAlpine, Baron of West",NO,YES,0,0,0,black_book,0,NO
+alistar_cambell,Alistar Cambell,NO,YES,0,0,0,black_book,0,NO
+alix_noel,Alix Noel,NO,YES,0,0,0,black_book,0,NO
+allison_stern,Allison Stern,NO,YES,0,0,0,black_book,0,NO
+alvarez_de_toledo_ignacio,Alvarez de Toledo Ignacio,NO,YES,0,0,0,black_book,0,NO
+alyce_faye_cleese,Alyce Faye Cleese,NO,YES,0,0,0,black_book,0,NO
+amadeo_claverino,Amadeo Claverino,NO,YES,0,0,0,black_book,0,NO
+amanda_burden,Amanda Burden,NO,YES,0,0,0,black_book,0,NO
+amanda_cutter_brooks,Amanda Cutter Brooks,NO,YES,0,0,0,black_book,0,NO
+amanda_eliasch,Amanda Eliasch,NO,YES,0,0,0,black_book,0,NO
+amanda_elingworth,Amanda Elingworth,NO,YES,0,0,0,black_book,0,NO
+amanda_fry,Amanda Fry,NO,YES,0,0,0,black_book,0,NO
+amanda_keidan,Amanda Keidan,NO,YES,0,0,0,black_book,0,NO
+amanda_sunley,Amanda Sunley,NO,YES,0,0,0,black_book,0,NO
+ambassador_patrick_fairweather,Ambassador Patrick Fairweather,NO,YES,0,0,0,black_book,0,NO
+ami_atkin,Ami Atkin,NO,YES,0,0,0,black_book,0,NO
+amr_a_dabbagh,Amr A. Dabbagh,NO,YES,0,0,0,black_book,0,NO
+amy_sacco,Amy Sacco,NO,YES,0,0,0,black_book,0,NO
+anabel_elwes,Anabel Elwes,NO,YES,0,0,0,black_book,0,NO
+anabelle_bond,Anabelle Bond,NO,YES,0,0,0,black_book,0,NO
+andre_balazs,André Balazs,NO,YES,0,0,0,black_book,0,NO
+andre_shearer,Andre Shearer,NO,YES,0,0,0,black_book,0,NO
+andrea_bonomi,Andrea Bonomi,NO,YES,0,0,0,black_book,0,NO
+andrea_hissom,Andrea Hissom,NO,YES,0,0,0,black_book,0,NO
+andrea_mitrovich,"Mitrovich, Andrea",YES,YES,58,2,15,"black_book, flight_logs",620,NO
+andres_pastrana,Andres Pastrana,YES,NO,2,0,2,flight_logs,24,NO
+andres_pastrana_arango,Andrés Pastrana Arango,NO,YES,0,0,0,black_book,0,NO
+andrew_de_candole,Andrew de Candole,NO,YES,0,0,0,black_book,0,NO
+andrew_edwards,Andrew Edwards,NO,YES,0,0,0,black_book,0,NO
+andrew_farkas,Andrew Farkas,NO,YES,0,0,0,black_book,0,NO
+andrew_feldman,Andrew Feldman,NO,YES,0,0,0,black_book,0,NO
+andrew_fox,Andrew Fox,NO,YES,0,0,0,black_book,0,NO
+andrew_gilifilan,Andrew Gilifilan,NO,YES,0,0,0,black_book,0,NO
+andrew_gillmour,Andrew Gillmour,NO,YES,0,0,0,black_book,0,NO
+andrew_huntley,Andrew Huntley,NO,YES,0,0,0,black_book,0,NO
+andrew_jarecki,Andrew Jarecki,NO,YES,0,0,0,black_book,0,NO
+andrew_mitchell,Andrew Mitchell,YES,NO,1,0,1,flight_logs,12,NO
+andrew_neil,Andrew Neil,NO,YES,0,0,0,black_book,0,NO
+andrew_piggy_yates,Andrew (piggy) Yates,NO,YES,0,0,0,black_book,0,NO
+andrew_rosen,Andrew Rosen,NO,YES,0,0,0,black_book,0,NO
+andrew_solomon,Andrew Solomon,NO,YES,0,0,0,black_book,0,NO
+andrew_stengel,Andrew Stengel,NO,YES,0,0,0,black_book,0,NO
+andrew_stewart,Andrew Stewart,YES,NO,2,0,2,flight_logs,24,NO
+andrew_tish,Andrew Tish,NO,YES,0,0,0,black_book,0,NO
+andrew_wong,Andrew Wong,NO,YES,0,0,0,black_book,0,NO
+angie_evehart,Angie Evehart,NO,YES,0,0,0,black_book,0,NO
+anh_duong,Anh Duong,NO,YES,0,0,0,black_book,0,NO
+ann_jones,Ann Jones,NO,YES,0,0,0,black_book,0,NO
+ann_stock,Ann Stock,NO,YES,0,0,0,black_book,0,NO
+anna_hanks,Anna Hanks,YES,NO,1,0,1,flight_logs,12,NO
+anna_molova,Anna Molova,YES,NO,1,0,1,flight_logs,12,NO
+annabel_heseltine,Annabel Heseltine,NO,YES,0,0,0,black_book,0,NO
+anne_fell,Anne Fell,NO,YES,0,0,0,black_book,0,NO
+anne_hurst,Anne Hurst,NO,YES,0,0,0,black_book,0,NO
+anne_maxwell,Anne Maxwell,NO,YES,0,0,0,black_book,0,NO
+anne_tish,Anne Tish,NO,YES,0,0,0,black_book,0,NO
+anne_verdin_mulot,Anne Verdin Mulot,NO,YES,0,0,0,black_book,0,NO
+anouk_lavalee,Anouk Lavalee,YES,NO,1,0,1,flight_logs,12,NO
+anouska_de_georgiou,Anouska De Georgiou,NO,YES,0,0,0,black_book,0,NO
+anthony_barrett,Anthony Barrett,YES,YES,2,0,2,"black_book, flight_logs",24,NO
+anthony_blair,Anthony Blair,NO,YES,0,0,0,black_book,0,NO
+anthony_brand,Anthony Brand,NO,YES,0,0,0,black_book,0,NO
+anthony_busby,Anthony Busby,NO,YES,0,0,0,black_book,0,NO
+anthony_guccioni,Anthony Guccioni,NO,YES,0,0,0,black_book,0,NO
+anthony_hill,Anthony Hill,NO,YES,0,0,0,black_book,0,NO
+anthony_malkin,Anthony Malkin,NO,YES,0,0,0,black_book,0,NO
+anthony_mcfarland,Anthony Mcfarland,NO,YES,0,0,0,black_book,0,NO
+anthony_meyer,Anthony Meyer,NO,YES,0,0,0,black_book,0,NO
+anthony_outred,Anthony Outred,NO,YES,0,0,0,black_book,0,NO
+anthony_v_dubb,Anthony V. Dubb,NO,YES,0,0,0,black_book,0,NO
+anthony_valukas,Anthony Valukas,NO,YES,0,0,0,black_book,0,NO
+antoine_khayat,Antoine Khayat,NO,YES,0,0,0,black_book,0,NO
+anton_katz,Anton Katz,NO,YES,0,0,0,black_book,0,NO
+arabella_oswald,Arabella Oswald,NO,YES,0,0,0,black_book,0,NO
+ari_ashley,Ari Ashley,NO,YES,0,0,0,black_book,0,NO
+ariadne_calvoplatero,Ariadne Calvo-Platero,NO,YES,0,0,0,black_book,0,NO
+ariane,Ariane,YES,NO,1,0,1,flight_logs,12,NO
+arik_gutman,Arik Gutman,NO,YES,0,0,0,black_book,0,NO
+armado_fakhre,Armado Fakhre,NO,YES,0,0,0,black_book,0,NO
+arpad_arki_busson,"Arpad ""Arki"" Busson",NO,YES,0,0,0,black_book,0,NO
+arriette_livanos,Arriette Livanos,NO,YES,0,0,0,black_book,0,NO
+arthur_armstrong,Arthur Armstrong,NO,YES,0,0,0,black_book,0,NO
+astrid_forbes,Astrid Forbes,NO,YES,0,0,0,black_book,0,NO
+astrid_kohl,Astrid Kohl,NO,YES,0,0,0,black_book,0,NO
+astrid_marterier,Astrid Marterier,NO,YES,0,0,0,black_book,0,NO
+audrey_blaise,Audrey Blaise,YES,NO,1,0,1,flight_logs,12,NO
+audrey_raimbault,Audrey Raimbault,YES,NO,4,0,4,flight_logs,48,NO
+aurelia_cecil_stephenson,Aurelia Cecil Stephenson,NO,YES,0,0,0,black_book,0,NO
+averell_mortimer,Averell Mortimer,NO,YES,0,0,0,black_book,0,NO
+avi_gil,Avi Gil,NO,YES,0,0,0,black_book,0,NO
+ayla_hussain,Ayla Hussain,NO,YES,0,0,0,black_book,0,NO
+azzedine_alaia,Azzedine Alaia,NO,YES,0,0,0,black_book,0,NO
+babis_liogos,Babis Liogos,NO,YES,0,0,0,black_book,0,NO
+barbara_black,Barbara Black,NO,YES,0,0,0,black_book,0,NO
+barbara_carrera,Barbara Carrera,NO,YES,0,0,0,black_book,0,NO
+barbara_guggenheim,Barbara Guggenheim,NO,YES,0,0,0,black_book,0,NO
+barbara_mavroleon,Barbara Mavroleon,NO,YES,0,0,0,black_book,0,NO
+barbara_walters,Barbara Walters,NO,YES,0,0,0,black_book,0,NO
+barnaby_thompson,Barnaby Thompson,NO,YES,0,0,0,black_book,0,NO
+baron_bentinck,Baron Bentinck,NO,YES,0,0,0,black_book,0,NO
+baroness_francesca_theilmann,Baroness Francesca Theilmann,NO,YES,0,0,0,black_book,0,NO
+barry_hearn,Barry Hearn,NO,YES,0,0,0,black_book,0,NO
+barry_josephson,Barry Josephson,NO,YES,0,0,0,black_book,0,NO
+bartle_bull,Bartle Bull,NO,YES,0,0,0,black_book,0,NO
+basil_mavroleon,Basil Mavroleon,NO,YES,0,0,0,black_book,0,NO
+bea_hollond,Bea Hollond,NO,YES,0,0,0,black_book,0,NO
+bea_tollman,Bea Tollman,NO,YES,0,0,0,black_book,0,NO
+beatrice_ferragamo,Beatrice Ferragamo,NO,YES,0,0,0,black_book,0,NO
+bella_macmilan,Bella Macmilan,NO,YES,0,0,0,black_book,0,NO
+beng_seng_ong,Beng Seng Ong,NO,YES,0,0,0,black_book,0,NO
+benjamin_bram,Benjamin Bram,NO,YES,0,0,0,black_book,0,NO
+benjamin_elliot,Benjamin Elliot,NO,YES,0,0,0,black_book,0,NO
+benjamin_forester,Benjamin Forester,YES,NO,1,0,1,flight_logs,12,NO
+benjamin_hollandmartin,Benjamin Holland-Martin,NO,YES,0,0,0,black_book,0,NO
+benjamin_sangster,Benjamin Sangster,NO,YES,0,0,0,black_book,0,NO
+benny_shabtai,Benny Shabtai,NO,YES,0,0,0,black_book,0,NO
+beo_otto,Beo Otto,NO,YES,0,0,0,black_book,0,NO
+bernard_dreesmann,Bernard Dreesmann,NO,YES,0,0,0,black_book,0,NO
+bernie_ecclestone,Bernie Ecclestone,NO,YES,0,0,0,black_book,0,NO
+bert_fields,Bert Fields,NO,YES,0,0,0,black_book,0,NO
+bettina_von_hase,Bettina Von Hase,NO,YES,0,0,0,black_book,0,NO
+bettina_zilkha,Bettina Zilkha,NO,YES,0,0,0,black_book,0,NO
+betty_lagardere,Betty Lagardere,NO,YES,0,0,0,black_book,0,NO
+bibi_zecher,Bibi Zecher,NO,YES,0,0,0,black_book,0,NO
+billy_tavoulareas,Billy Tavoulareas,NO,YES,0,0,0,black_book,0,NO
+blaine_trump,Blaine Trump,NO,YES,0,0,0,black_book,0,NO
+blake_lindsley,Blake Lindsley,NO,YES,0,0,0,black_book,0,NO
+blogs_blacker,Blogs Blacker,NO,YES,0,0,0,black_book,0,NO
+bluey_mavroleon,Bluey Mavroleon,NO,YES,0,0,0,black_book,0,NO
+bobby_foman,Bobby Foman,NO,YES,0,0,0,black_book,0,NO
+bobby_kennedy_jr,Bobby Kennedy Jr.,NO,YES,0,0,0,black_book,0,NO
+bobby_shriver,Bobby Shriver,NO,YES,0,0,0,black_book,0,NO
+bobby_slayton,Bobby Slayton,NO,YES,0,0,0,black_book,0,NO
+bobby_taubman,Bobby Taubman,NO,YES,0,0,0,black_book,0,NO
+bren_simon,Bren Simon,NO,YES,0,0,0,black_book,0,NO
+brenda_schad,Brenda Schad,NO,YES,0,0,0,black_book,0,NO
+brent_tindall,Brent Tindall,YES,YES,60,0,16,"black_book, flight_logs",632,NO
+brian_elias,Brian Elias,NO,YES,0,0,0,black_book,0,NO
+brian_kelly,Brian Kelly,NO,YES,0,0,0,black_book,0,NO
+brian_mathis,Brian Mathis,YES,NO,1,0,1,flight_logs,12,NO
+brian_moseley,Brian Moseley,NO,YES,0,0,0,black_book,0,NO
+brian_moss,Brian Moss,NO,YES,0,0,0,black_book,0,NO
+brian_zipp,Brian Zipp,NO,YES,0,0,0,black_book,0,NO
+brigitte_panahizadi,Brigitte Panah-Izadi,NO,YES,0,0,0,black_book,0,NO
+brook_hanson,Brook Hanson,NO,YES,0,0,0,black_book,0,NO
+brooke_del_campo,Brooke del Campo,NO,YES,0,0,0,black_book,0,NO
+bruce_cope,Bruce Cope,NO,YES,0,0,0,black_book,0,NO
+bruce_merivaleausten,Bruce Merivale-Austen,NO,YES,0,0,0,black_book,0,NO
+bruce_moskowitz,Bruce Moskowitz,NO,YES,0,0,0,black_book,0,NO
+bryan_ferry,Bryan Ferry,NO,YES,0,0,0,black_book,0,NO
+camila_carlbom,Camila Carlbom,NO,YES,0,0,0,black_book,0,NO
+camilia_cordle,Camilia Cordle,NO,YES,0,0,0,black_book,0,NO
+camilla_woodward,Camilla Woodward,NO,YES,0,0,0,black_book,0,NO
+camille_olsen,Camille Olsen,NO,YES,0,0,0,black_book,0,NO
+cammy,Cammy,NO,YES,0,1,0,black_book,5,NO
+candice_bushnell,Candice Bushnell,NO,YES,0,0,0,black_book,0,NO
+caprice,Caprice,NO,YES,0,0,0,black_book,0,NO
+carella_alunjones,Carella Alun-Jones,NO,YES,0,0,0,black_book,0,NO
+carina_carey,Carina Carey,NO,YES,0,0,0,black_book,0,NO
+carina_mavroleon,Carina Mavroleon,NO,YES,0,0,0,black_book,0,NO
+carletto_odonnell,Carletto O'Donnell,NO,YES,0,0,0,black_book,0,NO
+carlo_mack,Carlo Mack,NO,YES,0,0,0,black_book,0,NO
+carlos_sanchez,Carlos Sanchez,NO,YES,0,0,0,black_book,0,NO
+carlos_souza,Carlos Souza,NO,YES,0,0,0,black_book,0,NO
+carlyn_hunter,Carlyn Hunter,NO,YES,0,0,0,black_book,0,NO
+carman_dalessie,Carman D'Alessie,NO,YES,0,0,0,black_book,0,NO
+carmine,Carmine,NO,YES,0,0,0,black_book,0,NO
+carmine_s_villani,Carmine S. Villani,NO,YES,0,0,0,black_book,0,NO
+carol_wolper,Carol Wolper,NO,YES,0,0,0,black_book,0,NO
+carole_radziwill,Carole Radziwill,NO,YES,0,0,0,black_book,0,NO
+carolin_coleman,Carolin Coleman,NO,YES,0,0,0,black_book,0,NO
+carolina_mattsson,Carolina Mattsson,NO,YES,0,0,0,black_book,0,NO
+carolina_parsons,Carolina Parsons,NO,YES,0,0,0,black_book,0,NO
+carolina_stanburry,Carolina Stanburry,NO,YES,0,0,0,black_book,0,NO
+caroline_braine,Caroline Braine,NO,YES,0,0,0,black_book,0,NO
+caroline_gibson,Caroline Gibson,NO,YES,0,0,0,black_book,0,NO
+caroline_kellett_fraysse,Caroline Kellett Fraysse,NO,YES,0,0,0,black_book,0,NO
+caroline_lang,Caroline Lang,NO,YES,0,0,0,black_book,0,NO
+caroline_roumugere,Caroline Roumugere,NO,YES,0,0,0,black_book,0,NO
+caroline_stark,Caroline Stark,NO,YES,0,0,0,black_book,0,NO
+carolyn_miller,Carolyn Miller,YES,NO,1,0,1,flight_logs,12,NO
+carrie_minot_bell,Carrie Minot Bell,NO,YES,0,0,0,black_book,0,NO
+carrie_woods,Carrie Woods,NO,YES,0,0,0,black_book,0,NO
+carter_wilson,Carter Wilson,NO,YES,0,0,0,black_book,0,NO
+carthy,Carthy,YES,NO,1,0,1,flight_logs,12,NO
+caryn_krooth,Caryn Krooth,NO,YES,0,0,0,black_book,0,NO
+cas_mclancy,Cas Mclancy,NO,YES,0,0,0,black_book,0,NO
+casey,Casey,YES,NO,9,7,2,flight_logs,129,NO
+casey_wasserman,Casey Wasserman,NO,YES,0,0,0,black_book,0,NO
+cate_wyatt,Cate Wyatt,NO,YES,0,0,0,black_book,0,NO
+cath_adler,Cath Adler,NO,YES,0,0,0,black_book,0,NO
+cath_dietrich,Cath Dietrich,NO,YES,0,0,0,black_book,0,NO
+catherine_derby,Catherine Derby,YES,YES,1,0,1,"black_book, flight_logs",12,NO
+catherine_fairweather,Catherine Fairweather,NO,YES,0,0,0,black_book,0,NO
+catherine_finglas,Catherine Finglas,YES,NO,1,0,1,flight_logs,12,NO
+catherine_prevost,Catherine Prevost,NO,YES,0,0,0,black_book,0,NO
+catherine_theodoli,Catherine Theodoli,NO,YES,0,0,0,black_book,0,NO
+catriona_germanribon,Catriona German-Ribon,NO,YES,0,0,0,black_book,0,NO
+cecilia_noha,Cecilia Noha,NO,YES,0,0,0,black_book,0,NO
+cecilia_szajman,Cecilia Szajman,NO,YES,0,0,0,black_book,0,NO
+celina_dubin,"Dubin, Celina",YES,NO,35,31,13,flight_logs,531,NO
+celina_midelfart,"Midelfart, Celina",YES,NO,18,5,12,flight_logs,229,NO
+cesar_montemayor,Cesar Montemayor,NO,YES,0,0,0,black_book,0,NO
+chantal_hanover,Chantal Hanover,NO,YES,0,0,0,black_book,0,NO
+charlene_carvalho,Charlene Carvalho,NO,YES,0,0,0,black_book,0,NO
+charles_finch,Charles Finch,NO,YES,0,0,0,black_book,0,NO
+charles_h_price_ii,Charles H. Price II,NO,YES,0,0,0,black_book,0,NO
+charles_miller,Charles Miller,NO,YES,0,0,0,black_book,0,NO
+charles_vivian_smith,Charles Vivian Smith,NO,YES,0,0,0,black_book,0,NO
+charlie,Charlie,NO,YES,0,0,0,black_book,0,NO
+charlie_althorp,Charlie Althorp,NO,YES,0,0,0,black_book,0,NO
+charlie_butter,Charlie Butter,NO,YES,0,0,0,black_book,0,NO
+charlie_elingworth,Charlie Elingworth,NO,YES,0,0,0,black_book,0,NO
+charlie_glass,Charlie Glass,NO,YES,0,0,0,black_book,0,NO
+charlie_ind,Charlie Ind,NO,YES,0,0,0,black_book,0,NO
+charlie_kirwantaylor,Charlie Kirwan-Taylor,NO,YES,0,0,0,black_book,0,NO
+charlie_money_kyrle,Charlie Money Kyrle,NO,YES,0,0,0,black_book,0,NO
+charlie_rose,Charlie Rose,NO,YES,0,0,0,black_book,0,NO
+charlie_stopfordsackville,Charlie Stopford-Sackville,NO,YES,0,0,0,black_book,0,NO
+charlotte_assaf,Charlotte Assaf,NO,YES,0,0,0,black_book,0,NO
+charlotte_de_klee,Charlotte de Klee,NO,YES,0,0,0,black_book,0,NO
+charlotte_di_vita,Charlotte Di Vita,NO,YES,0,0,0,black_book,0,NO
+charlotte_duthie,Charlotte Duthie,NO,YES,0,0,0,black_book,0,NO
+charlotte_faibairn,Charlotte Faibairn,NO,YES,0,0,0,black_book,0,NO
+charlotte_figg,Charlotte Figg,NO,YES,0,0,0,black_book,0,NO
+chauntae_davies,"Davies, Chauntae",YES,NO,12,1,7,flight_logs,139,NO
+cheri_krape,Cheri Krape,YES,NO,2,0,2,flight_logs,24,NO
+cheri_lynch,Cheri Lynch,YES,NO,1,0,1,flight_logs,12,NO
+cheryl_mills,Cheryl Mills,NO,YES,0,0,0,black_book,0,NO
+chori_krove,Chori Krove,YES,NO,2,0,2,flight_logs,24,NO
+christian_gudefin,Christian Gudefin,NO,YES,0,0,0,black_book,0,NO
+christina_a_boothe,Christina A. Boothe,NO,YES,0,0,0,black_book,0,NO
+christina_estrada,Christina Estrada,YES,NO,1,0,1,flight_logs,12,NO
+christina_estrada_juffali,Christina Estrada Juffali,NO,YES,0,0,0,black_book,0,NO
+christina_fallah,Christina Fallah,NO,YES,0,0,0,black_book,0,NO
+christina_ong,Christina Ong,NO,YES,0,0,0,black_book,0,NO
+christina_tabet,Christina Tabet,NO,YES,0,0,0,black_book,0,NO
+christine_fakhre,Christine Fakhre,NO,YES,0,0,0,black_book,0,NO
+christine_maxwell_malina,Christine Maxwell Malina,NO,YES,0,0,0,black_book,0,NO
+christine_seilern,Christine Seilern,NO,YES,0,0,0,black_book,0,NO
+christophe_lazar,Christophe Lazar,NO,YES,0,0,0,black_book,0,NO
+christopher_brown,Christopher Brown,NO,YES,0,0,0,black_book,0,NO
+christopher_camaros,Christopher Camaros,YES,NO,1,0,1,flight_logs,12,NO
+christopher_evans,Christopher Evans,NO,YES,0,0,0,black_book,0,NO
+christopher_figg,Christopher Figg,NO,YES,0,0,0,black_book,0,NO
+christopher_getty,Christopher Getty,NO,YES,0,0,0,black_book,0,NO
+christopher_isham,Christopher Isham,NO,YES,0,0,0,black_book,0,NO
+christopher_kip_forbes,"Christopher ""Kip"" Forbes",NO,YES,0,0,0,black_book,0,NO
+christopher_lambert,Christopher Lambert,NO,YES,0,0,0,black_book,0,NO
+christopher_lawford,Christopher Lawford,NO,YES,0,0,0,black_book,0,NO
+christopher_moore,Christopher Moore,NO,YES,0,0,0,black_book,0,NO
+christopher_pymont,Christopher Pymont,NO,YES,0,0,0,black_book,0,NO
+christopher_steenkamp,Christopher Steenkamp,NO,YES,0,0,0,black_book,0,NO
+christopher_tucker,Christopher Tucker,YES,YES,9,0,2,"black_book, flight_logs",94,NO
+christy_prunier,Christy Prunier,NO,YES,0,0,0,black_book,0,NO
+christy_turlington,Christy Turlington,NO,YES,0,0,0,black_book,0,NO
+chuck_fifer,Chuck Fifer,NO,YES,0,0,0,black_book,0,NO
+chuck_schumi,Chuck Schumi,YES,NO,1,0,1,flight_logs,12,NO
+cico_moncada,Cico Moncada,NO,YES,0,0,0,black_book,0,NO
+cindy_buklarewicz_lopez,Cindy Buklarewicz Lopez,NO,YES,0,0,0,black_book,0,NO
+cindy_lopez,"Lopez, Cindy",YES,NO,33,10,15,flight_logs,410,NO
+claire_milford_haven,Claire Milford Haven,NO,YES,0,0,0,black_book,0,NO
+claire_murray_threipland,Claire Murray Threipland,NO,YES,0,0,0,black_book,0,NO
+clare_hazelliveagh,Clare Hazell-Iveagh,NO,YES,0,0,0,black_book,0,NO
+clary_polu,Clary Polu,NO,YES,0,0,0,black_book,0,NO
+claude_ott,Claude Ott,NO,YES,0,0,0,black_book,0,NO
+claudia_rosencrantz,Claudia Rosencrantz,NO,YES,0,0,0,black_book,0,NO
+clem_pease,Clem Pease,NO,YES,0,0,0,black_book,0,NO
+clementine_hambro,Clementine Hambro,NO,YES,0,0,0,black_book,0,NO
+clive_bannister,Clive Bannister,NO,YES,0,0,0,black_book,0,NO
+clive_cooke,Clive Cooke,NO,YES,0,0,0,black_book,0,NO
+clive_ng,Clive Ng,NO,YES,0,0,0,black_book,0,NO
+coco_brown,Coco Brown,NO,YES,0,0,0,black_book,0,NO
+cocoa_brown,Cocoa Brown,YES,NO,1,0,1,flight_logs,12,NO
+coles_alan,"Coles, Alan",NO,YES,0,0,0,black_book,0,NO
+colin_cowie,Colin Cowie,NO,YES,0,0,0,black_book,0,NO
+colin_lucas,Colin Lucas,NO,YES,0,0,0,black_book,0,NO
+conrad_black,Conrad Black,NO,YES,0,0,0,black_book,0,NO
+constantine_niarchos,Constantine Niarchos,NO,YES,0,0,0,black_book,0,NO
+cornelia_faulkner,Cornelia Faulkner,NO,YES,0,0,0,black_book,0,NO
+cornelia_guest,Cornelia Guest,NO,YES,0,0,0,black_book,0,NO
+corrie_sandelmar,Corrie Sandelmar,NO,YES,0,0,0,black_book,0,NO
+cosima_von_bulow_pavoncelli,Cosima von Bülow Pavoncelli,NO,YES,0,0,0,black_book,0,NO
+cosmo_fry,Cosmo Fry,NO,YES,0,0,0,black_book,0,NO
+countess_caroline_stanley,Countess Caroline Stanley,NO,YES,0,0,0,black_book,0,NO
+countess_debonnaire_von_bismarck,Countess Debonnaire Von Bismarck,NO,YES,0,0,0,black_book,0,NO
+courtney_love,Courtney Love,NO,YES,0,0,0,black_book,0,NO
+cousin,Cousin,YES,NO,1,0,1,flight_logs,12,NO
+craig_adams,Craig Adams,YES,NO,1,0,1,flight_logs,12,NO
+craig_barnett,Craig Barnett,NO,YES,0,0,0,black_book,0,NO
+craig_hatkoff,Craig Hatkoff,NO,YES,0,0,0,black_book,0,NO
+craig_tafoya,Craig Tafoya,NO,YES,0,0,0,black_book,0,NO
+cresencia_valdez,Cresencia Valdez,YES,NO,1,0,1,flight_logs,12,NO
+cristalle_wasche,Cristalle Wasche,YES,YES,3,0,3,"black_book, flight_logs",36,NO
+cynthia_ott,Cynthia Ott,NO,YES,0,0,0,black_book,0,NO
+dale_djerassi,Dale Djerassi,NO,YES,0,0,0,black_book,0,NO
+dalit_cohen,Dalit Cohen,NO,YES,0,0,0,black_book,0,NO
+dana_burns,Dana Burns,YES,NO,8,5,5,flight_logs,115,NO
+dana_hammond,Dana Hammond,NO,YES,0,0,0,black_book,0,NO
+daniel_bodini,Daniel Bodini,NO,YES,0,0,0,black_book,0,NO
+daniel_dennet,Daniel Dennet,YES,NO,1,0,1,flight_logs,12,NO
+daniel_fisher,Daniel Fisher,NO,YES,0,0,0,black_book,0,NO
+daniel_heller,Daniel Heller,YES,NO,1,0,1,flight_logs,12,NO
+daniel_maran,Daniel Maran,YES,NO,1,0,1,flight_logs,12,NO
+daniela_modafferi,Daniela Modafferi,NO,YES,0,0,0,black_book,0,NO
+danny_baker,Danny Baker,NO,YES,0,0,0,black_book,0,NO
+danny_fakhre,Danny Fakhre,NO,YES,0,0,0,black_book,0,NO
+dara_preece,Dara Preece,NO,YES,0,0,0,black_book,0,NO
+darren_indyke,Darren Indyke,NO,YES,0,1,0,black_book,5,NO
+david_anton,David Anton,YES,NO,1,0,1,flight_logs,12,NO
+david_blaine,David Blaine,NO,YES,0,0,0,black_book,0,NO
+david_bolivaras,David Bolivaras,YES,NO,1,0,1,flight_logs,12,NO
+david_borden,David Borden,NO,YES,0,0,0,black_book,0,NO
+david_davies,David Davies,NO,YES,0,0,0,black_book,0,NO
+david_faber,David Faber,NO,YES,0,0,0,black_book,0,NO
+david_fell,David Fell,NO,YES,0,0,0,black_book,0,NO
+david_granby,David Granby,NO,YES,0,0,0,black_book,0,NO
+david_killary,David Killary,YES,NO,2,0,2,flight_logs,24,NO
+david_koch,David Koch,NO,YES,0,0,0,black_book,0,NO
+david_macmilan,David Macmilan,NO,YES,0,0,0,black_book,0,NO
+david_mitchell,David Mitchell,NO,YES,0,0,0,black_book,0,NO
+david_mullen,"Mullen, David",YES,NO,23,4,12,flight_logs,274,NO
+david_puttnam,David Puttnam,NO,YES,0,0,0,black_book,0,NO
+david_rockefeller,David Rockefeller,NO,YES,0,0,0,black_book,0,NO
+david_rocksavage,David Rocksavage,NO,YES,0,0,0,black_book,0,NO
+david_rockwell,David Rockwell,YES,NO,1,0,1,flight_logs,12,NO
+david_rodgers,David Rodgers,NO,YES,0,4,0,black_book,20,NO
+david_ross,David Ross,NO,YES,0,0,0,black_book,0,NO
+david_rothman,David Rothman,YES,NO,2,0,2,flight_logs,24,NO
+david_shaeffer,David Shaeffer,NO,YES,0,0,0,black_book,0,NO
+david_slang,"Slang, David",YES,NO,9,0,2,flight_logs,94,NO
+david_tisch,David Tisch,NO,YES,0,0,0,black_book,0,NO
+david_wagner,David Wagner,NO,YES,0,0,0,black_book,0,NO
+david_wassong,David Wassong,NO,YES,0,0,0,black_book,0,NO
+david_williamsellis,David Williams-Ellis,NO,YES,0,0,0,black_book,0,NO
+dawn_devito,Dawn DeVito,NO,YES,0,0,0,black_book,0,NO
+dayle_davison,Dayle Davison,NO,YES,0,0,0,black_book,0,NO
+dean_calakos,Dean Calakos,NO,YES,0,0,0,black_book,0,NO
+dean_ramon,Dean Ramon,YES,NO,1,0,1,flight_logs,12,NO
+deb_roberts,Deb Roberts,NO,YES,0,0,0,black_book,0,NO
+debbie_castaneda,Debbie Castaneda,NO,YES,0,0,0,black_book,0,NO
+debbie_dickenson,Debbie Dickenson,NO,YES,0,0,0,black_book,0,NO
+debbie_maxwell,Debbie Maxwell,NO,YES,0,0,0,black_book,0,NO
+debbie_stewart,Debbie Stewart,NO,YES,0,0,0,black_book,0,NO
+deborah_alunjones,Deborah Alun-Jones,NO,YES,0,0,0,black_book,0,NO
+deborah_amselen,Deborah Amselen,YES,NO,3,0,3,flight_logs,36,NO
+deborah_green,Deborah Green,NO,YES,0,0,0,black_book,0,NO
+deborah_moore,Deborah Moore,NO,YES,0,0,0,black_book,0,NO
+della_rudnick,Della Rudnick,NO,YES,0,0,0,black_book,0,NO
+demetra_lalaunis,Demetra Lalaunis,NO,YES,0,0,0,black_book,0,NO
+denis_plouvier,Denis Plouvier,NO,YES,0,0,0,black_book,0,NO
+denis_rosen,Denis Rosen,NO,YES,0,0,0,black_book,0,NO
+derek_shaw,Derek Shaw,NO,YES,0,0,0,black_book,0,NO
+diandra_douglas,Diandra Douglas,NO,YES,0,0,0,black_book,0,NO
+diane_fleetwood,Diane Fleetwood,YES,NO,3,0,3,flight_logs,36,NO
+diane_plouvier,Diane Plouvier,NO,YES,0,0,0,black_book,0,NO
+dick_cowley,Dick Cowley,NO,YES,0,0,0,black_book,0,NO
+didi_malek,Didi Malek,NO,YES,0,0,0,black_book,0,NO
+didier,Didier,YES,NO,32,2,16,flight_logs,362,NO
+diedri_neal,Diedri Neal,YES,NO,1,0,1,flight_logs,12,NO
+dieter_lange,Dieter Lange,NO,YES,0,0,0,black_book,0,NO
+dimitry_goulandris,Dimitry Goulandris,NO,YES,0,0,0,black_book,0,NO
+dina_de_luca,Dina De Luca,NO,YES,0,0,0,black_book,0,NO
+dino_zevi,Dino Zevi,NO,YES,0,0,0,black_book,0,NO
+dominice_dunne,Dominice Dunne,NO,YES,0,0,0,black_book,0,NO
+dominick_lester,Dominick Lester,NO,YES,0,0,0,black_book,0,NO
+don_engle,Don Engle,NO,YES,0,0,0,black_book,0,NO
+don_rappaport,Don Rappaport,NO,YES,0,0,0,black_book,0,NO
+donald_munro,Donald Munro,NO,YES,0,0,0,black_book,0,NO
+donald_rosenfeld,Donald Rosenfeld,NO,YES,0,0,0,black_book,0,NO
+donald_trump,Donald Trump,YES,YES,1,3,1,"black_book, flight_logs",27,NO
+dori,Dori,NO,YES,0,0,0,black_book,0,NO
+dorrit,Dorrit,NO,YES,0,0,0,black_book,0,NO
+dott_m_jacope_nardi,Dott. M Jacope Nardi,NO,YES,0,0,0,black_book,0,NO
+dott_marco_vittorelli,Dott. Marco Vittorelli,NO,YES,0,0,0,black_book,0,NO
+dottie_sowell,Dottie Sowell,NO,YES,0,0,0,black_book,0,NO
+doug_band,"Band, Doug",YES,YES,22,0,4,"black_book, flight_logs",228,NO
+doug_liman,Doug Liman,NO,YES,0,0,0,black_book,0,NO
+douglas_a_schoettle,Douglas A. Schoettle,NO,YES,0,0,0,black_book,0,NO
+dougle_shouetle,Dougle Shouetle,YES,NO,1,0,1,flight_logs,12,NO
+dr_birnbaum,Dr. Birnbaum,NO,YES,0,0,0,black_book,0,NO
+dr_bruno,Dr. Bruno,NO,YES,0,0,0,black_book,0,NO
+dr_burman,Dr. Burman,NO,YES,0,0,0,black_book,0,NO
+dr_farkus,Dr. Farkus,NO,YES,0,0,0,black_book,0,NO
+dr_gerald_edelman,Dr. Gerald Edelman,NO,YES,0,0,0,black_book,0,NO
+dr_hahn,Dr. Hahn,NO,YES,0,0,0,black_book,0,NO
+dr_henry_a_kissinger,Dr. Henry A. Kissinger,NO,YES,0,0,0,black_book,0,NO
+dr_henry_jarecki,Dr. Henry Jarecki,NO,YES,0,0,0,black_book,0,NO
+dr_hirshfield,Dr. Hirshfield,NO,YES,0,0,0,black_book,0,NO
+dr_jr_gaynor,Dr. JR Gaynor,NO,YES,0,0,0,black_book,0,NO
+dr_kashel,Dr. Kashel,NO,YES,0,0,0,black_book,0,NO
+dr_lee,Dr. Lee,NO,YES,0,0,0,black_book,0,NO
+dr_magnani,Dr. Magnani,NO,YES,0,0,0,black_book,0,NO
+dr_mark_cecil,Dr. Mark Cecil,NO,YES,0,0,0,black_book,0,NO
+dr_michael_krumholtz,Dr. Michael Krumholtz,NO,YES,0,0,0,black_book,0,NO
+dr_oliver_sacks,Dr. Oliver Sacks,NO,YES,0,0,0,black_book,0,NO
+dr_perry_bard,Dr. Perry Bard,NO,YES,0,0,0,black_book,0,NO
+dr_ray,Dr. Ray,NO,YES,0,0,0,black_book,0,NO
+dr_schimoni,Dr. Schimoni,NO,YES,0,0,0,black_book,0,NO
+dr_singleton,Dr. Singleton,NO,YES,0,0,0,black_book,0,NO
+dr_steinburg,Dr. Steinburg,NO,YES,0,0,0,black_book,0,NO
+dr_steve_victor,Dr. Steve Victor,NO,YES,0,0,0,black_book,0,NO
+drake_darrin,Drake Darrin,NO,YES,0,0,0,black_book,0,NO
+duchess_rutland,Duchess Rutland,NO,YES,0,0,0,black_book,0,NO
+duff_lambos,Duff Lambos,NO,YES,0,0,0,black_book,0,NO
+early_mack,Early Mack,NO,YES,0,0,0,black_book,0,NO
+eddie_irvine,Eddie Irvine,NO,YES,0,0,0,black_book,0,NO
+eddie_mangope,Eddie Mangope,NO,YES,0,0,0,black_book,0,NO
+eddie_manners,Eddie Manners,NO,YES,0,0,0,black_book,0,NO
+edgar_bronfman_bronfman_jr,Edgar Bronfman Bronfman Jr.,NO,YES,0,0,0,black_book,0,NO
+edmondo_di_maya_robilant,Edmondo di Maya Robilant,NO,YES,0,0,0,black_book,0,NO
+edmund_glentworth,Edmund Glentworth,NO,YES,0,0,0,black_book,0,NO
+edmund_saffra,Edmund Saffra,NO,YES,0,0,0,black_book,0,NO
+edoardo_polli,Edoardo Polli,NO,YES,0,0,0,black_book,0,NO
+edouard_de_rothschild,Edouard de Rothschild,NO,YES,0,0,0,black_book,0,NO
+eduardo_teodoranifabbri,Eduardo Teodorani-Fabbri,NO,YES,0,0,0,black_book,0,NO
+edvige_otto,Edvige Otto,NO,YES,0,0,0,black_book,0,NO
+edward_de_boisgelin,Edward de Boisgelin,NO,YES,0,0,0,black_book,0,NO
+edward_epstein,Edward Epstein,NO,YES,0,9,0,black_book,45,NO
+edward_hutley,Edward Hutley,NO,YES,0,0,0,black_book,0,NO
+edward_lambert,Edward Lambert,NO,YES,0,0,0,black_book,0,NO
+edward_razek,Edward Razek,NO,YES,0,0,0,black_book,0,NO
+edward_st_bris,Edward St. Bris,NO,YES,0,0,0,black_book,0,NO
+edward_stanley_earl_of_derby,"Edward Stanley, Earl of Derby",NO,YES,0,0,0,black_book,0,NO
+edward_tuttle,Edward Tuttle,YES,NO,8,0,5,flight_logs,90,NO
+edwina,Edwina,YES,NO,1,1,1,flight_logs,17,NO
+edwina_fyson,Edwina Fyson,NO,YES,0,0,0,black_book,0,NO
+ehud_barak,Ehud Barak,NO,YES,0,0,0,black_book,0,NO
+ehud_olmert,Ehud Olmert,NO,YES,0,0,0,black_book,0,NO
+eileen_guggenheim,Eileen Guggenheim,NO,YES,0,0,0,black_book,0,NO
+eileen_hickery,Eileen Hickery,NO,YES,0,0,0,black_book,0,NO
+elaine,Elaine,NO,YES,0,2,0,black_book,10,NO
+electra_prestin,Electra Prestin,NO,YES,0,0,0,black_book,0,NO
+elie_wiesel,Elie Wiesel,NO,YES,0,0,0,black_book,0,NO
+eliot_taymor,Eliot Taymor,NO,YES,0,0,0,black_book,0,NO
+elisa_eshed,Elisa Eshed,NO,YES,0,0,0,black_book,0,NO
+elise_paschen,Elise Paschen,NO,YES,0,0,0,black_book,0,NO
+elizabeth,Elizabeth,YES,YES,3,26,2,"black_book, flight_logs",164,NO
+elizabeth_libet_johnson,"Elizabeth ""Libet"" Johnson",NO,YES,0,0,0,black_book,0,NO
+elizabeth_lindemann,Elizabeth Lindemann,NO,YES,0,0,0,black_book,0,NO
+elizabeth_saltzman,Elizabeth Saltzman,NO,YES,0,0,0,black_book,0,NO
+elizabeth_winston,Elizabeth Winston,NO,YES,0,0,0,black_book,0,NO
+ellen_goldberg,Ellen Goldberg,NO,YES,0,0,0,black_book,0,NO
+ellen_spencer,Ellen Spencer,YES,NO,3,0,3,flight_logs,36,NO
+emanuel_nadler,Emanuel Nadler,NO,YES,0,0,0,black_book,0,NO
+emanuele_a_a_vittadini,Emanuele A. A Vittadini,NO,YES,0,0,0,black_book,0,NO
+emilio_del_campo,Emilio del Campo,NO,YES,0,0,0,black_book,0,NO
+emily_glentworth,Emily Glentworth,NO,YES,0,0,0,black_book,0,NO
+emily_todhunter_olympitis,Emily Todhunter Olympitis,NO,YES,0,0,0,black_book,0,NO
+emily_woods,Emily Woods,NO,YES,0,0,0,black_book,0,NO
+emma_bullough,Emma Bullough,NO,YES,0,0,0,black_book,0,NO
+emma_clempson,Emma Clempson,NO,YES,0,0,0,black_book,0,NO
+emma_gibbs,Emma Gibbs,NO,YES,0,0,0,black_book,0,NO
+emma_gillmour,Emma Gillmour,NO,YES,0,0,0,black_book,0,NO
+emma_gomme,Emma Gomme,NO,YES,0,0,0,black_book,0,NO
+emmanuele_porthault,Emmanuele Porthault,NO,YES,0,0,0,black_book,0,NO
+emmanuelle_polu,Emmanuelle Polu,NO,YES,0,0,0,black_book,0,NO
+emmy_tayler,"Tayler, Emmy",YES,YES,200,9,63,"black_book, flight_logs",2171,NO
+eric_ellenbogen,Eric Ellenbogen,NO,YES,0,0,0,black_book,0,NO
+eric_gany,Eric Gany,NO,YES,0,0,0,black_book,0,NO
+eric_gertler,Eric Gertler,NO,YES,0,0,0,black_book,0,NO
+eric_margolis,Eric Margolis,NO,YES,0,0,0,black_book,0,NO
+eric_nonacs,"Nonacs, Eric",YES,NO,9,0,2,flight_logs,94,NO
+eric_ruttenberg,Eric Ruttenberg,NO,YES,0,0,0,black_book,0,NO
+eric_salama,Eric Salama,NO,YES,0,0,0,black_book,0,NO
+eric_wachtmeister,Eric Wachtmeister,NO,YES,0,0,0,black_book,0,NO
+ernst_hanover,Ernst Hanover,NO,YES,0,0,0,black_book,0,NO
+esperanza_sobrino,Esperanza Sobrino,NO,YES,0,0,0,black_book,0,NO
+esteban_ganoza,Esteban Ganoza,NO,YES,0,0,0,black_book,0,NO
+esther_d_sternberg,Esther D. Sternberg,NO,YES,0,0,0,black_book,0,NO
+ethel_kennedy,Ethel Kennedy,NO,YES,0,0,0,black_book,0,NO
+eva_andersson,Eva Andersson,NO,YES,0,2,0,black_book,10,NO
+eva_dubin,"Dubin, Eva",YES,NO,36,42,13,flight_logs,596,NO
+eva_lorenzoti,Eva Lorenzoti,NO,YES,0,0,0,black_book,0,NO
+evani_duud_efrat,Evani Duud Efrat,NO,YES,0,0,0,black_book,0,NO
+evelyn_boulet,Evelyn Boulet,YES,NO,3,0,2,flight_logs,34,NO
+evelyn_de_rothschild,Evelyn de Rothschild,NO,YES,0,0,0,black_book,0,NO
+fabriame_palheo,Fabriame Palheo,YES,NO,2,0,2,flight_logs,24,NO
+fabrice_orlando,Fabrice Orlando,NO,YES,0,0,0,black_book,0,NO
+fabrizio_cerina,Fabrizio Cerina,NO,YES,0,0,0,black_book,0,NO
+felicia_taylor,Felicia Taylor,YES,YES,3,0,3,"black_book, flight_logs",36,NO
+felicity_waterman,Felicity Waterman,NO,YES,0,0,0,black_book,0,NO
+felix_posen,Felix Posen,NO,YES,0,0,0,black_book,0,NO
+female_1,Female (1),YES,NO,120,0,20,flight_logs,1240,NO
+ferdinando_brachetti_peretti,Ferdinando Brachetti Peretti,NO,YES,0,0,0,black_book,0,NO
+fernando_arion,Fernando Arion,NO,YES,0,0,0,black_book,0,NO
+fernando_de_corodva_hohenlohe,Fernando de Corodva Hohenlohe,NO,YES,0,0,0,black_book,0,NO
+fernando_de_soto,Fernando De Soto,NO,YES,0,0,0,black_book,0,NO
+fev_micklethwait,Fev Micklethwait,NO,YES,0,0,0,black_book,0,NO
+fi_sangster,Fi Sangster,NO,YES,0,0,0,black_book,0,NO
+fi_wilmotsitwell,Fi Wilmot-Sitwell,NO,YES,0,0,0,black_book,0,NO
+fiona_feeley,Fiona Feeley,NO,YES,0,0,0,black_book,0,NO
+flavio_briatore,Flavio Briatore,NO,YES,0,0,0,black_book,0,NO
+florina_rueda,Florina Rueda,NO,YES,0,0,0,black_book,0,NO
+forest_sawyer,Forest Sawyer,YES,NO,1,0,1,flight_logs,12,NO
+fouad_chartouni,Fouad Chartouni,NO,YES,0,0,0,black_book,0,NO
+francesca_chessy_tyssen,Francesca (Chessy) Tyssen,NO,YES,0,0,0,black_book,0,NO
+francesca_von_habsburg,Francesca Von Habsburg,NO,YES,0,0,0,black_book,0,NO
+francesco_de_la_de_la_garda,Francesco de la de la Garda,NO,YES,0,0,0,black_book,0,NO
+francesco_ducreygiordano,Francesco Ducrey-Giordano,NO,YES,0,0,0,black_book,0,NO
+francis_goldman,Francis Goldman,NO,YES,0,0,0,black_book,0,NO
+francis_peadon,Francis Peadon,NO,YES,0,0,0,black_book,0,NO
+francis_wahl,Francis Wahl,NO,YES,0,0,0,black_book,0,NO
+francois_graff,Francois Graff,NO,YES,0,0,0,black_book,0,NO
+francois_verenia,Francois Verenia,YES,NO,9,0,7,flight_logs,104,NO
+frederic_fekkai,Frederic Fekkai,YES,YES,3,0,3,"black_book, flight_logs",36,NO
+frederick_fred_adler,Frederick (Fred) Adler,NO,YES,0,0,0,black_book,0,NO
+frederico_pignatelli,Frederico Pignatelli,NO,YES,0,0,0,black_book,0,NO
+frederique_todd,Frederique Todd,YES,NO,1,0,1,flight_logs,12,NO
+fredie_heineken,Fredie Heineken,NO,YES,0,0,0,black_book,0,NO
+freedman_ellis,Freedman Ellis,NO,YES,0,0,0,black_book,0,NO
+freida_lindemann,Freida Lindemann,NO,YES,0,0,0,black_book,0,NO
+freya_wissing,Freya Wissing,YES,NO,1,0,1,flight_logs,12,NO
+gabriame,Gabriame,YES,NO,1,0,1,flight_logs,12,NO
+gail_elliot,Gail Elliot,NO,YES,0,0,0,black_book,0,NO
+gall_rolfe,Gall Rolfe,NO,YES,0,0,0,black_book,0,NO
+gary_baura,Gary Baura,NO,YES,0,0,0,black_book,0,NO
+gary_ginsberg,Gary Ginsberg,NO,YES,0,0,0,black_book,0,NO
+gary_kervey,Gary Kerney,YES,YES,2,0,2,"black_book, flight_logs",24,NO
+gary_rathgeb,Gary Rathgeb,YES,NO,2,0,2,flight_logs,24,NO
+gary_roxbury,Gary Roxbury,YES,NO,1,0,1,flight_logs,12,NO
+gavin_rankin,Gavin Rankin,NO,YES,0,0,0,black_book,0,NO
+gavin_tollman,Gavin Tollman,NO,YES,0,0,0,black_book,0,NO
+gayl_kelmenson,Gayl Kelmenson,NO,YES,0,0,0,black_book,0,NO
+gayle_smith,Gayle Smith,YES,NO,7,0,2,flight_logs,74,NO
+gelasio_gaetani,Gelasio Gaetani,NO,YES,0,0,0,black_book,0,NO
+geoconda_cicogna,Geoconda Cicogna,NO,YES,0,0,0,black_book,0,NO
+geoffrey_kent,Geoffrey Kent,NO,YES,0,0,0,black_book,0,NO
+geoffrey_moore,Geoffrey Moore,NO,YES,0,0,0,black_book,0,NO
+geordie_gregg,Geordie Gregg,NO,YES,0,0,0,black_book,0,NO
+george_bamford,George Bamford,NO,YES,0,0,0,black_book,0,NO
+george_case,George Case,NO,YES,0,0,0,black_book,0,NO
+george_delson,George Delson,NO,YES,0,0,0,black_book,0,NO
+george_goyer,George Goyer,YES,NO,1,0,1,flight_logs,12,NO
+george_hamilton,George Hamilton,NO,YES,0,0,0,black_book,0,NO
+george_ireland,George Ireland,NO,YES,0,0,0,black_book,0,NO
+george_khayat,George Khayat,NO,YES,0,0,0,black_book,0,NO
+george_lindemann_sr,George Lindemann Sr.,NO,YES,0,0,0,black_book,0,NO
+george_milford_haven,George Milford Haven,NO,YES,0,0,0,black_book,0,NO
+george_minot,George Minot,NO,YES,0,0,0,black_book,0,NO
+george_polk,George Polk,NO,YES,0,0,0,black_book,0,NO
+george_whipple,George Whipple,NO,YES,0,0,0,black_book,0,NO
+georgette_klinger,Georgette Klinger,NO,YES,0,0,0,black_book,0,NO
+georgia_coleridge,Georgia Coleridge,NO,YES,0,0,0,black_book,0,NO
+georgie_keller,Georgie Keller,NO,YES,0,0,0,black_book,0,NO
+georgina_hunter_gordon,Georgina Hunter Gordon,NO,YES,0,0,0,black_book,0,NO
+gerald_goldsmith,Gerald Goldsmith,NO,YES,0,0,0,black_book,0,NO
+gerald_ronson,Gerald Ronson,NO,YES,0,0,0,black_book,0,NO
+geraldine,Geraldine,YES,NO,1,0,1,flight_logs,12,NO
+gerard,Gerard,NO,YES,0,0,0,black_book,0,NO
+gerard_inzerillo,Gerard Inzerillo,NO,YES,0,0,0,black_book,0,NO
+ghislaine_maxwell,"Maxwell, Ghislaine",YES,YES,502,4421,102,"black_book, flight_logs",27329,NO
+giacomo_algranti,Giacomo Algranti,NO,YES,0,0,0,black_book,0,NO
+gian_carlo_cerutti,Gian Carlo Cerutti,NO,YES,0,0,0,black_book,0,NO
+giancarlo_camerana,Giancarlo Camerana,NO,YES,0,0,0,black_book,0,NO
+gianfranco_cicogna,Gianfranco Cicogna,NO,YES,0,0,0,black_book,0,NO
+gianluca_cicogna,Gianluca Cicogna,NO,YES,0,0,0,black_book,0,NO
+gianluca_milani,Gianluca Milani,NO,YES,0,0,0,black_book,0,NO
+gianmarco_schiatti,Gianmarco Schiatti,NO,YES,0,0,0,black_book,0,NO
+gibby_cohen,Gibby Cohen,NO,YES,0,0,0,black_book,0,NO
+gigi_mortimer,Gigi Mortimer,NO,YES,0,0,0,black_book,0,NO
+ginger_southgate,Ginger Southgate,YES,NO,1,0,1,flight_logs,12,NO
+giola_bonomi,Giola Bonomi,NO,YES,0,0,0,black_book,0,NO
+giovanni_mahler,Giovanni Mahler,NO,YES,0,0,0,black_book,0,NO
+giuseppi_cipriani,Giuseppi Cipriani,NO,YES,0,0,0,black_book,0,NO
+glen_dixon,Glen Dixon,YES,NO,1,0,1,flight_logs,12,NO
+glenn_dubin,"Dubin, Glenn",YES,YES,21,32,9,"black_book, flight_logs",388,NO
+gloria_jarecki,Gloria Jarecki,NO,YES,0,0,0,black_book,0,NO
+gordon_zacks,Gordon Zacks,NO,YES,0,0,0,black_book,0,NO
+gov_bruce_king,Gov. Bruce King,NO,YES,0,0,0,black_book,0,NO
+governor_andrew_cuomo,Governor Andrew Cuomo,NO,YES,0,0,0,black_book,0,NO
+governor_charles_turnbull,Governor Charles Turnbull,NO,YES,0,0,0,black_book,0,NO
+graham_clempson,Graham Clempson,NO,YES,0,0,0,black_book,0,NO
+gramza,Gramza,YES,NO,20,3,12,flight_logs,239,NO
+greg_carpenter,Greg Carpenter,YES,NO,1,0,1,flight_logs,12,NO
+greg_holburt,Greg Holburt,YES,NO,1,0,1,flight_logs,12,NO
+greg_lee,Greg Lee,NO,YES,0,0,0,black_book,0,NO
+gregory_hedberg,Gregory Hedberg,NO,YES,0,0,0,black_book,0,NO
+gretal_barham,Gretal Barham,NO,YES,0,0,0,black_book,0,NO
+griffin_dunne,Griffin Dunne,NO,YES,0,0,0,black_book,0,NO
+guido_casagrande,Guido Casagrande,NO,YES,0,0,0,black_book,0,NO
+gustavo_cisneros,Gustavo Cisneros,NO,YES,0,0,0,black_book,0,NO
+guy_j_louthan,Guy J. Louthan,NO,YES,0,0,0,black_book,0,NO
+guy_merison,Guy Merison,NO,YES,0,0,0,black_book,0,NO
+guy_sangster,Guy Sangster,NO,YES,0,0,0,black_book,0,NO
+gwendolyn_beck,"Beck, Gwendolyn",YES,NO,27,3,14,flight_logs,313,NO
+hamilton_south,Hamilton South,NO,YES,0,0,0,black_book,0,NO
+hamish_bowles,Hamish Bowles,NO,YES,0,0,0,black_book,0,NO
+hamish_bullough,Hamish Bullough,NO,YES,0,0,0,black_book,0,NO
+hamish_fraser,Hamish Fraser,NO,YES,0,0,0,black_book,0,NO
+hannah_rothchild,Hannah Rothchild,NO,YES,0,0,0,black_book,0,NO
+harlan_peitz,Harlan Peitz,NO,YES,0,0,0,black_book,0,NO
+harold_mollin,Harold Mollin,NO,YES,0,0,0,black_book,0,NO
+harriet_weintraub,Harriet Weintraub,NO,YES,0,0,0,black_book,0,NO
+harriett_gaul,Harriett Gaul,NO,YES,0,0,0,black_book,0,NO
+harry_cotterell,Harry Cotterell,NO,YES,0,0,0,black_book,0,NO
+harry_malek,Harry Malek,NO,YES,0,0,0,black_book,0,NO
+harry_nuttall,Harry Nuttall,NO,YES,0,0,0,black_book,0,NO
+harry_sutherland,Harry Sutherland,NO,YES,0,0,0,black_book,0,NO
+harry_tennenbaum,Harry Tennenbaum,NO,YES,0,0,0,black_book,0,NO
+hatti_jagger,Hatti Jagger,NO,YES,0,0,0,black_book,0,NO
+heather_day,Heather Day,NO,YES,0,0,0,black_book,0,NO
+heather_mann,Heather Mann,YES,NO,11,0,10,flight_logs,130,NO
+heather_mitchell,Heather Mitchell,YES,NO,1,0,1,flight_logs,12,NO
+heinrich_furstenberg,Heinrich Furstenberg,NO,YES,0,0,0,black_book,0,NO
+helen_herrero,Helen Herrero,NO,YES,0,0,0,black_book,0,NO
+helen_schifter,Helen Schifter,NO,YES,0,0,0,black_book,0,NO
+helen_windsortaylor,Helen Windsor-Taylor,NO,YES,0,0,0,black_book,0,NO
+helena_felix,Helena Felix,NO,YES,0,0,0,black_book,0,NO
+helene_atkin,Helene Atkin,NO,YES,0,0,0,black_book,0,NO
+helsius_petangi,Helsius Petangi,NO,YES,0,0,0,black_book,0,NO
+henri_dabo,Henri d'abo,NO,YES,0,0,0,black_book,0,NO
+henrietta_conrad,Henrietta Conrad,NO,YES,0,0,0,black_book,0,NO
+henry_hay,Henry Hay,NO,YES,0,0,0,black_book,0,NO
+henry_hutley,Henry Hutley,NO,YES,0,0,0,black_book,0,NO
+henry_jarecki,Henry Jarecki,YES,NO,3,0,3,flight_logs,36,NO
+henry_kravis,Henry Kravis,NO,YES,0,0,0,black_book,0,NO
+henry_meer,Henry Meer,NO,YES,0,0,0,black_book,0,NO
+henry_rosovsky,Henry Rosovsky,YES,YES,1,0,1,"black_book, flight_logs",12,NO
+henry_silverman,Henry Silverman,NO,YES,0,0,0,black_book,0,NO
+herb_wolman,Herb Wolman,NO,YES,0,0,0,black_book,0,NO
+herve_aron,Herve Aron,NO,YES,0,0,0,black_book,0,NO
+hetty_hoffman,Hetty Hoffman,NO,YES,0,0,0,black_book,0,NO
+hetty_newman,Hetty Newman,NO,YES,0,0,0,black_book,0,NO
+hillary_batstone,Hillary Batstone,NO,YES,0,0,0,black_book,0,NO
+holly_peterson,Holly Peterson,NO,YES,0,0,0,black_book,0,NO
+hon_bruce_bossom,Hon. Bruce Bossom,NO,YES,0,0,0,black_book,0,NO
+hon_charles_pearson,Hon. Charles Pearson,NO,YES,0,0,0,black_book,0,NO
+hon_lucinda_royle,Hon. Lucinda Royle,NO,YES,0,0,0,black_book,0,NO
+hon_robert_hanson,Hon. Robert Hanson,NO,YES,0,0,0,black_book,0,NO
+hon_rupert_fairfax,Hon. Rupert Fairfax,NO,YES,0,0,0,black_book,0,NO
+hon_thomas_noel,Hon. Thomas Noel,NO,YES,0,0,0,black_book,0,NO
+howard_finklestein,Howard Finklestein,NO,YES,0,0,0,black_book,0,NO
+howard_gittis,Howard Gittis,NO,YES,0,0,0,black_book,0,NO
+howard_glick,Howard Glick,NO,YES,0,0,0,black_book,0,NO
+howard_himmelstein,Howard Himmelstein,NO,YES,0,0,0,black_book,0,NO
+howard_j_kaplan,Howard J. Kaplan,NO,YES,0,0,0,black_book,0,NO
+hugo_brachetti,Hugo Brachetti,NO,YES,0,0,0,black_book,0,NO
+hugo_ferranti,Hugo Ferranti,NO,YES,0,0,0,black_book,0,NO
+hugo_guinness,Hugo Guinness,NO,YES,0,0,0,black_book,0,NO
+hugo_squire,Hugo Squire,NO,YES,0,0,0,black_book,0,NO
+husband,Husband,YES,NO,1,50,1,flight_logs,262,NO
+ian_rust,Ian Rust,NO,YES,0,0,0,black_book,0,NO
+igor_zinoviev,Igor Zinoviev,YES,NO,4,0,3,flight_logs,46,NO
+inca,Inca,NO,YES,0,0,0,black_book,0,NO
+inca_doerrig,Inca Doerrig,YES,NO,6,0,6,flight_logs,72,NO
+india_hicks,India Hicks,NO,YES,0,0,0,black_book,0,NO
+ira_c_magaziner,Ira C. Magaziner,NO,YES,0,0,0,black_book,0,NO
+ira_gumberg,Ira Gumberg,NO,YES,0,0,0,black_book,0,NO
+ira_magaziner,Ira Magaziner,YES,NO,5,0,2,flight_logs,54,NO
+ira_zicherman,Ira Zicherman,YES,NO,2,0,1,flight_logs,22,NO
+iraj_vahabzadeh,Iraj Vahabzadeh,NO,YES,0,0,0,black_book,0,NO
+isabel_claverino,Isabel Claverino,NO,YES,0,0,0,black_book,0,NO
+isabel_de_de_sejournet,Isabel de de Sejournet,NO,YES,0,0,0,black_book,0,NO
+isabel_fraysse,Isabel Fraysse,NO,YES,0,0,0,black_book,0,NO
+isabel_goldsmith,Isabel Goldsmith,NO,YES,0,0,0,black_book,0,NO
+isabel_maxwell,Isabel Maxwell,NO,YES,0,3,0,black_book,15,NO
+isabel_porthault,Isabel Porthault,NO,YES,0,0,0,black_book,0,NO
+isabel_rattazzi,Isabel Rattazzi,NO,YES,0,0,0,black_book,0,NO
+isabelle_harviewatt,Isabelle Harvie-Watt,NO,YES,0,0,0,black_book,0,NO
+isabelle_polu,Isabelle Polu,NO,YES,0,0,0,black_book,0,NO
+isamel_abdullah,Isamel Abdullah,NO,YES,0,0,0,black_book,0,NO
+isering_yangkey,Isering Yangkey,YES,NO,2,0,2,flight_logs,24,NO
+ishmail,Ishmail,NO,YES,0,0,0,black_book,0,NO
+itzhak_perlman,Itzhak Perlman,NO,YES,0,2,0,black_book,10,NO
+ivan_hymes,Ivan Hymes,NO,YES,0,0,0,black_book,0,NO
+ivana_lowell,Ivana Lowell,NO,YES,0,0,0,black_book,0,NO
+ivanisevic_porrin,Ivanisevic Porrin,NO,YES,0,0,0,black_book,0,NO
+ivanka_trump,Ivanka Trump,NO,YES,0,0,0,black_book,0,NO
+j_meltzer,J Meltzer,NO,YES,0,0,0,black_book,0,NO
+jack_gelardin,Jack Gelardin,NO,YES,0,0,0,black_book,0,NO
+jack_kessler,Jack Kessler,NO,YES,0,0,0,black_book,0,NO
+jack_liggett,Jack Liggett,NO,YES,0,0,0,black_book,0,NO
+jack_robertson,Jack Robertson,YES,NO,3,0,3,flight_logs,36,NO
+jackie_josephson,Jackie Josephson,NO,YES,0,0,0,black_book,0,NO
+jackie_parker,Jackie Parker,NO,YES,0,0,0,black_book,0,NO
+jaclyn_lindsay,Jaclyn Lindsay,NO,YES,0,0,0,black_book,0,NO
+jacobo_gordon,Jacobo Gordon,NO,YES,0,0,0,black_book,0,NO
+jacques_de_crussol_duzes,Jacques de crussol d'Uzes,NO,YES,0,0,0,black_book,0,NO
+jacques_grange,Jacques Grange,NO,YES,0,0,0,black_book,0,NO
+jacques_villeneuve,Jacques Villeneuve,NO,YES,0,0,0,black_book,0,NO
+jaime_de_soto,Jaime de Soto,NO,YES,0,0,0,black_book,0,NO
+jake,Jake,NO,YES,0,0,0,black_book,0,NO
+jalila_hashemi,Jalila Hashemi,NO,YES,0,0,0,black_book,0,NO
+james_bruce,James Bruce,NO,YES,0,0,0,black_book,0,NO
+james_cayne,James Cayne,YES,NO,6,0,4,flight_logs,68,NO
+james_dowd,James Dowd,YES,NO,3,0,3,flight_logs,36,NO
+james_hollond,James Hollond,NO,YES,0,0,0,black_book,0,NO
+james_kennez,James Kennez,YES,NO,9,0,2,flight_logs,94,NO
+james_palumbo,James Palumbo,NO,YES,0,0,0,black_book,0,NO
+james_smith,James Smith,NO,YES,0,0,0,black_book,0,NO
+james_staley,James Staley,NO,YES,0,0,0,black_book,0,NO
+james_tutle,James Tutle,NO,YES,0,0,0,black_book,0,NO
+james_whitehead,James Whitehead,NO,YES,0,0,0,black_book,0,NO
+james_wial,James Wial,NO,YES,0,0,0,black_book,0,NO
+james_wyatt,James Wyatt,NO,YES,0,0,0,black_book,0,NO
+jamie_grant,Jamie Grant,NO,YES,0,0,0,black_book,0,NO
+jamie_sainsbury,Jamie Sainsbury,NO,YES,0,0,0,black_book,0,NO
+jana_khayat,Jana Khayat,NO,YES,0,0,0,black_book,0,NO
+jane_buffet,Jane Buffet,NO,YES,0,0,0,black_book,0,NO
+jane_hatkoff,Jane Hatkoff,NO,YES,0,0,0,black_book,0,NO
+jane_pickering,Jane Pickering,NO,YES,0,0,0,black_book,0,NO
+jane_rosenthal,Jane Rosenthal,NO,YES,0,0,0,black_book,0,NO
+jane_veronis,Jane Veronis,NO,YES,0,0,0,black_book,0,NO
+janet_larsen,Janet Larsen,NO,YES,0,0,0,black_book,0,NO
+janice_dickinson,Janice Dickinson,NO,YES,0,1,0,black_book,5,NO
+jantelle_torie,Jantelle Torie,YES,NO,1,0,1,flight_logs,12,NO
+jasmine_fakhre,Jasmine Fakhre,NO,YES,0,0,0,black_book,0,NO
+jasmine_le_bon,Jasmine Le Bon,NO,YES,0,0,0,black_book,0,NO
+jason,Jason,NO,YES,0,4,0,black_book,20,NO
+jason_calacanis,Jason Calacanis,NO,YES,0,0,0,black_book,0,NO
+jason_herbert,Jason Herbert,NO,YES,0,0,0,black_book,0,NO
+jason_weinberg,Jason Weinberg,NO,YES,0,0,0,black_book,0,NO
+javier,Javier,NO,YES,0,0,0,black_book,0,NO
+javier_banon,Javier Banon,NO,YES,0,0,0,black_book,0,NO
+jayne_nickerson,Jayne Nickerson,NO,YES,0,0,0,black_book,0,NO
+jean_baddeley,Jean Baddeley,NO,YES,0,0,0,black_book,0,NO
+jean_dedieu,Jean Dedieu,NO,YES,0,0,0,black_book,0,NO
+jean_gathy,Jean Gathy,YES,NO,2,0,2,flight_logs,24,NO
+jean_lawford,Jean Lawford,NO,YES,0,0,0,black_book,0,NO
+jean_marc_bisson,Jean Marc Bisson,NO,YES,0,0,0,black_book,0,NO
+jean_paul_bjorlin,Jean Paul Bjorlin,NO,YES,0,0,0,black_book,0,NO
+jean_paul_mulot,Jean Paul Mulot,NO,YES,0,0,0,black_book,0,NO
+jean_pierre_pierre_murray,Jean Pierre Pierre Murray,NO,YES,0,0,0,black_book,0,NO
+jean_pigozzi,Jean Pigozzi,NO,YES,0,0,0,black_book,0,NO
+jeanette_foman,Jeanette Foman,NO,YES,0,0,0,black_book,0,NO
+jeanjacques_moinet,Jean-Jacques Moinet,NO,YES,0,0,0,black_book,0,NO
+jeanluc_brunel,Jean-Luc Brunel,YES,YES,0,0,0,black_book,0,NO
+jeanmarc_estlin,Jean-Marc Estlin,NO,YES,0,0,0,black_book,0,NO
+jeanyves_le_fur,Jean-Yves Le Fur,NO,YES,0,0,0,black_book,0,NO
+jeffrey_colle,Jeffrey Colle,NO,YES,0,0,0,black_book,0,NO
+jeffrey_davies,Jeffrey Davies,NO,YES,0,0,0,black_book,0,NO
+jeffrey_epstein,"Epstein, Jeffrey",YES,YES,1018,6998,191,"black_book, flight_logs",45552,NO
+jeffrey_hirsch,Jeffrey Hirsch,NO,YES,0,0,0,black_book,0,NO
+jeffrey_leeds,Jeffrey Leeds,NO,YES,0,0,0,black_book,0,NO
+jeffrey_podolsky,Jeffrey Podolsky,NO,YES,0,0,0,black_book,0,NO
+jeffrey_schantz,Jeffrey Schantz,YES,YES,4,0,3,"black_book, flight_logs",46,NO
+jelitza_negrete,Jelitza Negrete,NO,YES,0,0,0,black_book,0,NO
+jemma_kidd,Jemma Kidd,NO,YES,0,0,0,black_book,0,NO
+jen_halpern,Jen Halpern,NO,YES,0,0,0,black_book,0,NO
+jennifer_dabo,Jennifer d'abo,NO,YES,0,0,0,black_book,0,NO
+jennifer_kalin,Jennifer Kalin,YES,NO,8,0,7,flight_logs,94,NO
+jennifer_maguire,Jennifer Maguire,NO,YES,0,0,0,black_book,0,NO
+jenny_swire,Jenny Swire,NO,YES,0,0,0,black_book,0,NO
+jenny_turner,Jenny Turner,NO,YES,0,0,0,black_book,0,NO
+jeremy_alunjones,Jeremy Alun-Jones,NO,YES,0,0,0,black_book,0,NO
+jeremy_drax,Jeremy Drax,NO,YES,0,0,0,black_book,0,NO
+jeremy_garson,Jeremy Garson,NO,YES,0,0,0,black_book,0,NO
+jeremy_green,Jeremy Green,NO,YES,0,0,0,black_book,0,NO
+jeremy_marsh,Jeremy Marsh,NO,YES,0,0,0,black_book,0,NO
+jerome_pierre,Jerome Pierre,NO,YES,0,0,0,black_book,0,NO
+jerry_beck,Jerry Beck,NO,YES,0,0,0,black_book,0,NO
+jerry_goldsmith,Jerry Goldsmith,YES,NO,1,0,1,flight_logs,12,NO
+jerry_lefcourt,Jerry Lefcourt,NO,YES,0,0,0,black_book,0,NO
+jerry_merrit,Jerry Merrit,NO,YES,0,0,0,black_book,0,NO
+jessica_bauer,Jessica Bauer,YES,NO,6,0,4,flight_logs,68,NO
+jessica_hoffman,Jessica Hoffman,NO,YES,0,0,0,black_book,0,NO
+jessica_rothchild,Jessica Rothchild,NO,YES,0,0,0,black_book,0,NO
+jill_blacker,Jill Blacker,NO,YES,0,0,0,black_book,0,NO
+jill_robert,Jill Robert,NO,YES,0,0,0,black_book,0,NO
+jimmy_buffet,Jimmy Buffet,NO,YES,0,0,0,black_book,0,NO
+jimmy_cayne,Jimmy Cayne,NO,YES,0,2,0,black_book,10,NO
+jimmy_finkelstein,Jimmy Finkelstein,NO,YES,0,0,0,black_book,0,NO
+jimmy_tisch,Jimmy Tisch,NO,YES,0,0,0,black_book,0,NO
+jo_coleman,Jo Coleman,NO,YES,0,0,0,black_book,0,NO
+jo_fontanella,Jo Fontanella,YES,NO,1,0,1,flight_logs,12,NO
+jo_kennedy,Jo Kennedy,NO,YES,0,0,0,black_book,0,NO
+jo_robinson,Jo Robinson,NO,YES,0,0,0,black_book,0,NO
+jo_rose,Jo Rose,NO,YES,0,0,0,black_book,0,NO
+joan_juliet_buck,Joan Juliet Buck,NO,YES,0,0,0,black_book,0,NO
+joan_rivers,Joan Rivers,NO,YES,0,0,0,black_book,0,NO
+joane_metcalfe,Joane Metcalfe,NO,YES,0,0,0,black_book,0,NO
+joanna_abousleiman,Joanna Abousleiman,NO,YES,0,0,0,black_book,0,NO
+joaquin_fernandez_de_arion,Joaquin Fernandez de Arion,NO,YES,0,0,0,black_book,0,NO
+jock_mcleod,Jock Mcleod,NO,YES,0,0,0,black_book,0,NO
+joel_pashcow,Joel Pashcow,YES,YES,12,0,4,"black_book, flight_logs",128,NO
+joey_hunter,Joey Hunter,NO,YES,0,0,0,black_book,0,NO
+johan_eliasch,Johan Eliasch,NO,YES,0,0,0,black_book,0,NO
+john_agnew,John Agnew,NO,YES,0,0,0,black_book,0,NO
+john_bodie,John Bodie,NO,YES,0,0,0,black_book,0,NO
+john_brockman,John Brockman,YES,NO,1,0,1,flight_logs,12,NO
+john_chenevixtrench,John Chenevix-Trench,NO,YES,0,0,0,black_book,0,NO
+john_cleese,John Cleese,NO,YES,0,0,0,black_book,0,NO
+john_duthie,John Duthie,NO,YES,0,0,0,black_book,0,NO
+john_forman,John Forman,NO,YES,0,0,0,black_book,0,NO
+john_glenn,John Glenn,YES,NO,1,0,1,flight_logs,12,NO
+john_guttfreund,John Guttfreund,NO,YES,0,0,0,black_book,0,NO
+john_kelly,John Kelly,NO,YES,0,0,0,black_book,0,NO
+john_lambos,John Lambos,NO,YES,0,0,0,black_book,0,NO
+john_lorimer,John Lorimer,NO,YES,0,0,0,black_book,0,NO
+john_manconi,John Manconi,NO,YES,0,0,0,black_book,0,NO
+john_mappin,John Mappin,NO,YES,0,0,0,black_book,0,NO
+john_mayhew,John Mayhew,NO,YES,0,0,0,black_book,0,NO
+john_mcdonald,John Mcdonald,NO,YES,0,0,0,black_book,0,NO
+john_micklethwait,John Micklethwait,NO,YES,0,0,0,black_book,0,NO
+john_newman,John Newman,NO,YES,0,0,0,black_book,0,NO
+john_paulson,John Paulson,NO,YES,0,0,0,black_book,0,NO
+john_peters,John Peters,NO,YES,0,0,0,black_book,0,NO
+john_zeiler,John Zeiler,NO,YES,0,0,0,black_book,0,NO
+johnathan_dimbelby,Johnathan Dimbelby,NO,YES,0,0,0,black_book,0,NO
+johnathan_elian,Johnathan Elian,NO,YES,0,0,0,black_book,0,NO
+johnathan_klesch,Johnathan Klesch,NO,YES,0,0,0,black_book,0,NO
+jon_bannenberg,Jon Bannenberg,NO,YES,0,0,0,black_book,0,NO
+jon_huntsman,Jon Huntsman,NO,YES,0,0,0,black_book,0,NO
+jon_keidan,Jon Keidan,NO,YES,0,0,0,black_book,0,NO
+jon_robe,Jon Robe,NO,YES,0,0,0,black_book,0,NO
+jon_sandelmar,Jon Sandelmar,NO,YES,0,0,0,black_book,0,NO
+jonathan_barrett,Jonathan Barrett,NO,YES,0,0,0,black_book,0,NO
+jonathan_d_farkas,Jonathan D. Farkas,NO,YES,0,0,0,black_book,0,NO
+jonathan_laurie,Jonathan Laurie,NO,YES,0,0,0,black_book,0,NO
+jonathan_mermagon,Jonathan Mermagon,NO,YES,0,0,0,black_book,0,NO
+jordan_dubin,Jordan Dubin,YES,NO,21,0,8,flight_logs,226,NO
+jorge_urbiola,Jorge Urbiola,NO,YES,0,0,0,black_book,0,NO
+jose_aznar,Jose Aznar,NO,YES,0,0,0,black_book,0,NO
+jose_luis_manzano,Jose Luis Manzano,NO,YES,0,0,0,black_book,0,NO
+joseph_coffey,Joseph Coffey,NO,YES,0,0,0,black_book,0,NO
+joseph_novich,Joseph Novich,YES,NO,1,0,1,flight_logs,12,NO
+joseph_pacano,Joseph Pagano,YES,YES,5,0,5,"black_book, flight_logs",60,NO
+joseph_robert,Joseph Robert,NO,YES,0,0,0,black_book,0,NO
+joseph_rueda,Joseph Rueda,NO,YES,0,0,0,black_book,0,NO
+josh_mailman,Josh Mailman,NO,YES,0,0,0,black_book,0,NO
+juan_herrero,Juan Herrero,NO,YES,0,0,0,black_book,0,NO
+juan_molyneux,Juan Molyneux,YES,NO,1,0,1,flight_logs,12,NO
+judy_green,Judy Green,NO,YES,0,0,0,black_book,0,NO
+judy_price,Judy Price,NO,YES,0,0,0,black_book,0,NO
+judy_tuckerman,Judy Tuckerman,YES,NO,2,0,2,flight_logs,24,NO
+jules_burney,Jules Burney,NO,YES,0,0,0,black_book,0,NO
+julia_broadhurst,Julia Broadhurst,NO,YES,0,0,0,black_book,0,NO
+julian_borees,Julian Borees,YES,NO,1,0,1,flight_logs,12,NO
+julian_jacobson,Julian Jacobson,NO,YES,0,0,0,black_book,0,NO
+julie,Julie,YES,NO,1,17,1,flight_logs,97,NO
+julie_fierson,Julie Fierson,YES,NO,1,0,1,flight_logs,12,NO
+julie_shay,Julie Shay,YES,NO,5,0,5,flight_logs,60,NO
+julie_taymor,Julie Taymor,NO,YES,0,0,0,black_book,0,NO
+juliet_gore,Juliet Gore,NO,YES,0,0,0,black_book,0,NO
+juliette_bryant,Juliette Bryant,YES,NO,5,3,4,flight_logs,73,NO
+julio_mario_santo_domingo,Julio Mario Santo Domingo,NO,YES,0,0,0,black_book,0,NO
+julla_verdin,Julla Verdin,NO,YES,0,0,0,black_book,0,NO
+justin_metcalf,Justin Metcalf,NO,YES,0,0,0,black_book,0,NO
+kalliope_karella,Kalliope Karella,NO,YES,0,0,0,black_book,0,NO
+karen_casey,Karen Casey,YES,NO,2,0,1,flight_logs,22,NO
+karen_epstein,Karen Epstein,YES,NO,2,0,2,flight_logs,24,NO
+karim_tabet,Karim Tabet,NO,YES,0,0,0,black_book,0,NO
+karina_matson,Karina Matson,YES,NO,1,0,1,flight_logs,12,NO
+karv_deweidy,Karv Deweidy,YES,NO,1,0,1,flight_logs,12,NO
+kasia_robinski,Kasia Robinski,NO,YES,0,0,0,black_book,0,NO
+kate_menzies,Kate Menzies,NO,YES,0,0,0,black_book,0,NO
+kate_murray_philipson,Kate Murray Philipson,NO,YES,0,0,0,black_book,0,NO
+kate_owenedmunds,Kate Owen-Edmunds,NO,YES,0,0,0,black_book,0,NO
+kate_reardan,Kate Reardan,NO,YES,0,0,0,black_book,0,NO
+kate_stracher,Kate Stracher,NO,YES,0,0,0,black_book,0,NO
+katherina_kotzig,Katherina Kotzig,YES,NO,3,0,3,flight_logs,36,NO
+katherine_gregg,Katherine Gregg,NO,YES,0,0,0,black_book,0,NO
+kathy_francey,Kathy Francey,NO,YES,0,0,0,black_book,0,NO
+kathy_greenberg,Kathy Greenberg,YES,NO,1,0,1,flight_logs,12,NO
+katie_braine,Katie Braine,NO,YES,0,0,0,black_book,0,NO
+katie_ford,Katie Ford,NO,YES,0,0,0,black_book,0,NO
+katie_vaughnedward_orchard,Katie Vaughn-Edward Orchard,NO,YES,0,0,0,black_book,0,NO
+keith_oliver,Keith Oliver,NO,YES,0,0,0,black_book,0,NO
+kelly_bovino,Kelly Bovino,YES,YES,3,3,3,"black_book, flight_logs",51,NO
+kelly_spamm,Kelly Spamm,YES,NO,9,0,6,flight_logs,102,NO
+kenneth_gilman,Kenneth Gilman,NO,YES,0,0,0,black_book,0,NO
+kerry_kennedy_cuomo,Kerry Kennedy Cuomo,NO,YES,0,0,0,black_book,0,NO
+kevin_maxwell,Kevin Maxwell,NO,YES,0,0,0,black_book,0,NO
+kevin_mischer,Kevin Mischer,NO,YES,0,0,0,black_book,0,NO
+kevin_spacey,"Spacey, Kevin",YES,YES,9,4,2,"black_book, flight_logs",114,NO
+kevin_ward,Kevin Ward,NO,YES,0,0,0,black_book,0,NO
+kim_hersov,Kim Hersov,NO,YES,0,0,0,black_book,0,NO
+kim_hurd,Kim Hurd,NO,YES,0,0,0,black_book,0,NO
+kim_steel,Kim Steel,NO,YES,0,0,0,black_book,0,NO
+kim_taipale,Kim Taipale,NO,YES,0,0,0,black_book,0,NO
+kimberly_burns,Kimberly Burns,YES,NO,1,0,1,flight_logs,12,NO
+kit_hunter_gordon,Kit Hunter Gordon,NO,YES,0,0,0,black_book,0,NO
+kit_layborne,Kit Layborne,YES,NO,2,0,2,flight_logs,24,NO
+kit_money_kyrle,Kit Money Kyrle,NO,YES,0,0,0,black_book,0,NO
+koo_stark,Koo Stark,NO,YES,0,0,0,black_book,0,NO
+kristina_kincaid,Kristina Kincaid,NO,YES,0,0,0,black_book,0,NO
+kuki_gallmann,Kuki Gallmann,NO,YES,0,0,0,black_book,0,NO
+kyle_tayler,Kyle Tayler,YES,NO,2,0,2,flight_logs,24,NO
+lady_anouska_weinberg,Lady Anouska Weinberg,NO,YES,0,0,0,black_book,0,NO
+lady_beaumont,Lady Beaumont,NO,YES,0,0,0,black_book,0,NO
+lady_carina_frost,Lady Carina Frost,NO,YES,0,0,0,black_book,0,NO
+lady_carole_bamford,Lady Carole Bamford,NO,YES,0,0,0,black_book,0,NO
+lady_gillford,Lady Gillford,NO,YES,0,0,0,black_book,0,NO
+lady_hanson,Lady Hanson,NO,YES,0,0,0,black_book,0,NO
+lady_maria_fairweather,Lady Maria Fairweather,NO,YES,0,0,0,black_book,0,NO
+lady_marina_cowdray,Lady Marina Cowdray,NO,YES,0,0,0,black_book,0,NO
+lady_victoria_white_ogara,Lady Victoria White O'Gara,NO,YES,0,0,0,black_book,0,NO
+lal_dalamal,Lal Dalamal,NO,YES,0,0,0,black_book,0,NO
+lally_weymouth,Lally Weymouth,NO,YES,0,0,0,black_book,0,NO
+lang,Lang,YES,NO,16,10,12,flight_logs,234,NO
+larry_coben,Larry Coben,NO,YES,0,0,0,black_book,0,NO
+larry_mogens,Larry Mogens,NO,YES,0,0,0,black_book,0,NO
+larry_morrison,Larry Morrison,YES,YES,95,0,33,"black_book, flight_logs",1016,NO
+larry_newman_esq,"Larry Newman, Esq.",NO,YES,0,0,0,black_book,0,NO
+larry_summers,Larry Summers,YES,NO,4,0,4,flight_logs,48,NO
+larry_tobiason,Larry Tobiason,NO,YES,0,0,0,black_book,0,NO
+larry_visoski,Larry Visoski,YES,YES,150,9,48,"black_book, flight_logs",1641,NO
+laudomia_pucci,Laudomia Pucci,NO,YES,0,0,0,black_book,0,NO
+laura_andrew,Laura Andrew,YES,NO,2,0,2,flight_logs,24,NO
+laura_dietrich,Laura Dietrich,NO,YES,0,0,0,black_book,0,NO
+laura_diez_barroso_de_laviada,Laura Diez Barroso de Laviada,NO,YES,0,0,0,black_book,0,NO
+laura_hames,Laura Hames,YES,NO,2,0,2,flight_logs,24,NO
+laura_hunt,Laura Hunt,NO,YES,0,0,0,black_book,0,NO
+laura_wasserman,Laura Wasserman,YES,YES,9,0,2,"black_book, flight_logs",94,NO
+laura_yorke,Laura Yorke,NO,YES,0,0,0,black_book,0,NO
+lauren_booth,Lauren Booth,NO,YES,0,0,0,black_book,0,NO
+lauren_hutton,Lauren Hutton,NO,YES,0,0,0,black_book,0,NO
+lauren_pashcow,Lauren Pashcow,YES,NO,1,0,1,flight_logs,12,NO
+laurens_holve,Laurens Holve,NO,YES,0,0,0,black_book,0,NO
+laurie_hunter,Laurie Hunter,NO,YES,0,0,0,black_book,0,NO
+laurie_oppenheim,Laurie Oppenheim,NO,YES,0,0,0,black_book,0,NO
+lawrence_s_stroll,Lawrence S. Stroll,NO,YES,0,0,0,black_book,0,NO
+leoarthur_kelmenson,Leo-Arthur Kelmenson,NO,YES,0,0,0,black_book,0,NO
+leon_black,Leon Black,NO,YES,0,1,0,black_book,5,NO
+leonard_stern,Leonard Stern,NO,YES,0,0,0,black_book,0,NO
+leonardo_ferragamo,Leonardo Ferragamo,NO,YES,0,0,0,black_book,0,NO
+leslie_gelb,Leslie Gelb,YES,NO,2,0,2,flight_logs,24,NO
+leslie_wexner,Leslie Wexner,YES,YES,0,3,0,black_book,15,NO
+lester_pollack,Lester Pollack,YES,NO,1,0,1,flight_logs,12,NO
+leticia_birkholder,Leticia Birkholder,YES,NO,1,0,1,flight_logs,12,NO
+lewis_ranieri,Lewis Ranieri,NO,YES,0,0,0,black_book,0,NO
+lile_nastasse,Lile Nastasse,NO,YES,0,0,0,black_book,0,NO
+lily_johnson,Lily Johnson,NO,YES,0,0,0,black_book,0,NO
+linda_aslanian,Linda Aslanian,NO,YES,0,0,0,black_book,0,NO
+linda_davies,Linda Davies,NO,YES,0,0,0,black_book,0,NO
+linda_janklow,Linda Janklow,NO,YES,0,0,0,black_book,0,NO
+linda_pinto,Linda Pinto,YES,NO,7,0,6,flight_logs,82,NO
+linda_stone,Linda Stone,NO,YES,0,0,0,black_book,0,NO
+linda_wachner,Linda Wachner,NO,YES,0,0,0,black_book,0,NO
+linh_dan_pham,Linh Dan Pham,NO,YES,0,0,0,black_book,0,NO
+linska_cierach,Linska Cierach,NO,YES,0,0,0,black_book,0,NO
+lionel_wigram,Lionel Wigram,NO,YES,0,0,0,black_book,0,NO
+lisa_anastos,Lisa Anastos,NO,YES,0,0,0,black_book,0,NO
+lisa_andrew,Lisa Andrew,YES,NO,2,0,2,flight_logs,24,NO
+lisa_beizberg,Lisa Beizberg,NO,YES,0,0,0,black_book,0,NO
+lisa_heiden,Lisa Heiden,NO,YES,0,0,0,black_book,0,NO
+lisa_phillips,Lisa Phillips,NO,YES,0,0,0,black_book,0,NO
+lisa_ronson,Lisa Ronson,NO,YES,0,0,0,black_book,0,NO
+lisa_shields,Lisa Shields,NO,YES,0,0,0,black_book,0,NO
+lisa_summers,Lisa Summers,YES,NO,1,0,1,flight_logs,12,NO
+liz_hurley,Liz Hurley,NO,YES,0,0,0,black_book,0,NO
+lloyd_grossman,Lloyd Grossman,NO,YES,0,0,0,black_book,0,NO
+lord_george_weidenfeld,Lord George Weidenfeld,NO,YES,0,0,0,black_book,0,NO
+lorenzo_baumer,Lorenzo Baumer,NO,YES,0,0,0,black_book,0,NO
+lorenzo_grabau,Lorenzo Grabau,NO,YES,0,0,0,black_book,0,NO
+lorenzo_pedrini,Lorenzo Pedrini,NO,YES,0,0,0,black_book,0,NO
+lorinda_ash,Lorinda Ash,NO,YES,0,0,0,black_book,0,NO
+lottie_lorimer,Lottie Lorimer,NO,YES,0,0,0,black_book,0,NO
+louis_albert_de_broglie,Louis Albert de Broglie,NO,YES,0,0,0,black_book,0,NO
+louis_dubin,Louis Dubin,NO,YES,0,0,0,black_book,0,NO
+louis_oneill,Louis O'Neill,NO,YES,0,0,0,black_book,0,NO
+luc_brunel,Luc Brunel,YES,NO,30,0,12,flight_logs,324,NO
+luca_del_del_bono,Luca Del Del Bono,NO,YES,0,0,0,black_book,0,NO
+luca_giussani,Luca Giussani,NO,YES,0,0,0,black_book,0,NO
+luciano_jojo_fontanilla,"Luciano ""Jojo"" Fontanilla",NO,YES,0,0,0,black_book,0,NO
+lucinda_bruce,Lucinda Bruce,NO,YES,0,0,0,black_book,0,NO
+lucinda_edsel,Lucinda Edsel,NO,YES,0,0,0,black_book,0,NO
+lucinda_fox,Lucinda Fox,NO,YES,0,0,0,black_book,0,NO
+lucy_chenevixtrench,Lucy Chenevix-Trench,NO,YES,0,0,0,black_book,0,NO
+lucy_clive,Lucy Clive,NO,YES,0,0,0,black_book,0,NO
+lucy_ewen_sykes,Lucy Ewen Sykes,NO,YES,0,0,0,black_book,0,NO
+lucy_johnson_howgego,Lucy Johnson Howgego,NO,YES,0,0,0,black_book,0,NO
+lucy_manners,Lucy Manners,NO,YES,0,0,0,black_book,0,NO
+lucy_morris,Lucy Morris,NO,YES,0,0,0,black_book,0,NO
+lucy_wastnage,Lucy Wastnage,NO,YES,0,0,0,black_book,0,NO
+ludmila_garcia,Ludmila Garcia,NO,YES,0,0,0,black_book,0,NO
+ludovic_lindsey,Ludovic Lindsey,NO,YES,0,0,0,black_book,0,NO
+luigi_durso,Luigi d'Urso,NO,YES,0,0,0,black_book,0,NO
+lulu_anderson,Lulu Anderson,NO,YES,0,0,0,black_book,0,NO
+lulu_hutley,Lulu Hutley,NO,YES,0,0,0,black_book,0,NO
+lydia_wigram,Lydia Wigram,NO,YES,0,0,0,black_book,0,NO
+lynn_fontanella,Lynn Fontanella,YES,NO,3,0,3,flight_logs,36,NO
+lynn_forester,Lynn Forester,YES,NO,5,0,5,flight_logs,60,NO
+madison_cox,Madison Cox,NO,YES,0,0,0,black_book,0,NO
+magale_blachou,"Blachou, Magale",YES,NO,19,0,9,flight_logs,208,NO
+magali_blachon,Magali Blachon,NO,YES,0,0,0,black_book,0,NO
+maggie_tom,Maggie Tom,NO,YES,0,0,0,black_book,0,NO
+mai_yamani,Mai Yamani,NO,YES,0,0,0,black_book,0,NO
+maite_arango,Maite Arango,NO,YES,0,0,0,black_book,0,NO
+malcolm_grumbridge,Malcolm Grumbridge,NO,YES,0,0,0,black_book,0,NO
+male_3,Male (3),YES,NO,4,0,1,flight_logs,42,NO
+malenga_machel,Malenga Machel,NO,YES,0,0,0,black_book,0,NO
+mandy_cochrane,Mandy Cochrane,NO,YES,0,0,0,black_book,0,NO
+mandy_ellison,Mandy Ellison,YES,YES,10,0,4,"black_book, flight_logs",108,NO
+mandy_lang,Mandy Lang,YES,NO,2,0,2,flight_logs,24,NO
+mandy_warnforddavis,Mandy Warnford-Davis,NO,YES,0,0,0,black_book,0,NO
+manfred_windischgraetz,Manfred Windisch-Graetz,NO,YES,0,0,0,black_book,0,NO
+manilo_marocco,Manilo Marocco,NO,YES,0,0,0,black_book,0,NO
+manny_duban,Manny Duban,YES,NO,1,0,1,flight_logs,12,NO
+manoli_mavroleon,Manoli Mavroleon,NO,YES,0,0,0,black_book,0,NO
+manuel_espirito_santo,Manuel Espirito Santo,NO,YES,0,0,0,black_book,0,NO
+manuela_stoetter,Manuela Stoetter,YES,NO,1,0,1,flight_logs,12,NO
+marc_antoine_dietrich,Marc Antoine Dietrich,NO,YES,0,0,0,black_book,0,NO
+marc_de_hauteville,Marc de Hauteville,NO,YES,0,0,0,black_book,0,NO
+marc_lundberg,Marc Lundberg,NO,YES,0,0,0,black_book,0,NO
+marc_puig,Marc Puig,NO,YES,0,0,0,black_book,0,NO
+marc_yaggi,Marc Yaggi,NO,YES,0,0,0,black_book,0,NO
+marcella_maxwell,Marcella Maxwell,NO,YES,0,0,0,black_book,0,NO
+marcelo_de_andrade,Marcelo de Andrade,NO,YES,0,0,0,black_book,0,NO
+marchioness_tracy_worcester,Marchioness Tracy Worcester,NO,YES,0,0,0,black_book,0,NO
+marcia_palau,Marcia Palau,NO,YES,0,0,0,black_book,0,NO
+marcus_pekeler,Marcus Pekeler,NO,YES,0,0,0,black_book,0,NO
+marella_oppenheim,Marella Oppenheim,NO,YES,0,0,0,black_book,0,NO
+margaret_hedberg,Margaret Hedberg,NO,YES,0,0,0,black_book,0,NO
+margaret_whippet,Margaret Whippet,YES,NO,3,0,2,flight_logs,34,NO
+maria_shriver,Maria Shriver,NO,YES,0,0,0,black_book,0,NO
+maria_snyder,Maria Snyder,NO,YES,0,0,0,black_book,0,NO
+marie_claire_agnew,Marie Claire Agnew,NO,YES,0,0,0,black_book,0,NO
+marie_hapsburg,Marie Hapsburg,NO,YES,0,0,0,black_book,0,NO
+marie_helvin,Marie Helvin,NO,YES,0,0,0,black_book,0,NO
+marie_joseph_experton,Marie Joseph Experton,NO,YES,0,0,0,black_book,0,NO
+marie_lazar,Marie Lazar,NO,YES,0,0,0,black_book,0,NO
+mariella_frostrup,Mariella Frostrup,NO,YES,0,0,0,black_book,0,NO
+marina_cicogna,Marina Cicogna,NO,YES,0,0,0,black_book,0,NO
+marina_de_soto,Marina de Soto,NO,YES,0,0,0,black_book,0,NO
+marina_rust,Marina Rust,NO,YES,0,0,0,black_book,0,NO
+marine_aron,Marine Aron,NO,YES,0,0,0,black_book,0,NO
+mario_b_garnero_jr,Mario B. Garnero Jr.,NO,YES,0,0,0,black_book,0,NO
+marjorie_gubelmann,Marjorie Gubelmann,NO,YES,0,0,0,black_book,0,NO
+marjorie_malina,Marjorie Malina,NO,YES,0,0,0,black_book,0,NO
+mark_booth,Mark Booth,NO,YES,0,0,0,black_book,0,NO
+mark_epstein,Mark Epstein,YES,YES,4,3,4,"black_book, flight_logs",63,NO
+mark_getty,Mark Getty,NO,YES,0,0,0,black_book,0,NO
+mark_katzenellenbogen,Mark Katzenellenbogen,NO,YES,0,0,0,black_book,0,NO
+mark_llyod,Mark Llyod,YES,NO,1,0,1,flight_logs,12,NO
+mark_loyd,Mark Loyd,NO,YES,0,0,0,black_book,0,NO
+mark_middleton,Mark Middleton,NO,YES,0,0,0,black_book,0,NO
+mark_packer,Mark Packer,NO,YES,0,0,0,black_book,0,NO
+mark_pennell,Mark Pennell,NO,YES,0,0,0,black_book,0,NO
+mark_swire,Mark Swire,NO,YES,0,0,0,black_book,0,NO
+mark_tagoya,Mark Tagoya,YES,NO,2,0,2,flight_logs,24,NO
+mark_zeff,Mark Zeff,NO,YES,0,2,0,black_book,10,NO
+marquis_bunter_worcester,Marquis Bunter Worcester,NO,YES,0,0,0,black_book,0,NO
+martin_burtril,Martin Burtril,NO,YES,0,0,0,black_book,0,NO
+martin_fiennes,Martin Fiennes,NO,YES,0,0,0,black_book,0,NO
+martin_nowak,Martin Nowak,NO,YES,0,0,0,black_book,0,NO
+martin_varsavsky,Martín Varsavsky,NO,YES,0,0,0,black_book,0,NO
+martine,Martine,NO,YES,0,0,0,black_book,0,NO
+martine_de_courcel,Martine De Courcel,NO,YES,0,0,0,black_book,0,NO
+martine_vittoz,Martine Vittoz,NO,YES,0,0,0,black_book,0,NO
+marty_trust,Marty Trust,NO,YES,0,0,0,black_book,0,NO
+martyn_birchall,Martyn Birchall,NO,YES,0,0,0,black_book,0,NO
+marvin_minsky,Marvin Minsky,YES,YES,2,2,2,"black_book, flight_logs",34,NO
+marx_mcafee,Marx Mcafee,YES,NO,1,0,1,flight_logs,12,NO
+mary_glanville,Mary Glanville,NO,YES,0,0,0,black_book,0,NO
+mary_kaye_huntsman,Mary Kaye Huntsman,NO,YES,0,0,0,black_book,0,NO
+mary_kennedy,Mary Kennedy,NO,YES,0,0,0,black_book,0,NO
+mary_stengel,Mary Stengel,NO,YES,0,0,0,black_book,0,NO
+massimo_carello,Massimo Carello,NO,YES,0,0,0,black_book,0,NO
+mateo_mazzoti,Mateo Mazzoti,NO,YES,0,0,0,black_book,0,NO
+mathew_freud,Mathew Freud,NO,YES,0,0,0,black_book,0,NO
+mats_alexander,Mats Alexander,YES,NO,1,0,1,flight_logs,12,NO
+matteo_marzotto,Matteo Marzotto,NO,YES,0,0,0,black_book,0,NO
+matthew_grippi,Matthew Grippi,YES,NO,2,0,1,flight_logs,22,NO
+maura_shore,Maura Shore,NO,YES,0,0,0,black_book,0,NO
+mauri_nesson,Mauri Nesson,NO,YES,0,0,0,black_book,0,NO
+maurice_amon,Maurice Amon,NO,YES,0,0,0,black_book,0,NO
+maxine_tobias,Maxine Tobias,NO,YES,0,0,0,black_book,0,NO
+maya_dubin,Maya Dubin,YES,NO,9,0,6,flight_logs,102,NO
+melanie_metcalfe,Melanie Metcalfe,NO,YES,0,0,0,black_book,0,NO
+melanie_starves,Melanie Starves,YES,NO,3,0,3,flight_logs,36,NO
+melinda_luntz,Melinda Luntz,YES,YES,6,0,4,"black_book, flight_logs",68,NO
+melissa_solomon,Melissa Solomon,NO,YES,0,0,0,black_book,0,NO
+melissa_stahl,Melissa Stahl,YES,NO,1,0,1,flight_logs,12,NO
+meredith_fall,Meredith Fall,NO,YES,0,0,0,black_book,0,NO
+merryl_tisch,Merryl Tisch,NO,YES,0,0,0,black_book,0,NO
+meryl_poster,Meryl Poster,NO,YES,0,0,0,black_book,0,NO
+mia_samuels,Mia Samuels,NO,YES,0,0,0,black_book,0,NO
+michael,Michael,NO,YES,0,82,0,black_book,410,NO
+michael_atkin,Michael Atkin,NO,YES,0,0,0,black_book,0,NO
+michael_bloomberg,Michael Bloomberg,NO,YES,0,0,0,black_book,0,NO
+michael_borrico,Michael Borrico,NO,YES,0,0,0,black_book,0,NO
+michael_davis,Michael Davis,NO,YES,0,0,0,black_book,0,NO
+michael_donovan,Michael Donovan,YES,NO,2,0,2,flight_logs,24,NO
+michael_garland,Michael Garland,NO,YES,0,0,0,black_book,0,NO
+michael_jackson,Michael Jackson,NO,YES,0,0,0,black_book,0,NO
+michael_mailer,Michael Mailer,NO,YES,0,0,0,black_book,0,NO
+michael_ovitz,Michael Ovitz,NO,YES,0,0,0,black_book,0,NO
+michael_pezulo,Michael Pezulo,NO,YES,0,0,0,black_book,0,NO
+michael_picciotto,Michael Picciotto,NO,YES,0,0,0,black_book,0,NO
+michael_rena,Michael Rena,NO,YES,0,0,0,black_book,0,NO
+michael_stevens,Michael Stevens,NO,YES,0,0,0,black_book,0,NO
+michael_wallace,Michael Wallace,NO,YES,0,0,0,black_book,0,NO
+michael_white,Michael White,NO,YES,0,0,0,black_book,0,NO
+michael_wolf,Michael Wolf,YES,NO,1,0,1,flight_logs,12,NO
+michel_carvalho,Michel Carvalho,NO,YES,0,0,0,black_book,0,NO
+michelle,Michelle,YES,NO,1,38,1,flight_logs,202,NO
+michelle_campos,Michelle Campos,NO,YES,0,0,0,black_book,0,NO
+michelle_russel,Michelle Russel,NO,YES,0,0,0,black_book,0,NO
+mick_jagger,Mick Jagger,NO,YES,0,0,0,black_book,0,NO
+mick_jones,Mick Jones,NO,YES,0,0,0,black_book,0,NO
+milana_furstenberg,Milana Furstenberg,NO,YES,0,0,0,black_book,0,NO
+miles_creswell_turner,Miles Creswell Turner,NO,YES,0,0,0,black_book,0,NO
+milly_de_cabrol,Milly de Cabrol,NO,YES,0,0,0,black_book,0,NO
+milly_soames,Milly Soames,NO,YES,0,0,0,black_book,0,NO
+mini_cecil,Mini Cecil,NO,YES,0,0,0,black_book,0,NO
+minnie_driver,Minnie Driver,NO,YES,0,0,0,black_book,0,NO
+miquel_reynal,Miquel Reynal,NO,YES,0,0,0,black_book,0,NO
+miranda_brooks,Miranda Brooks,NO,YES,0,0,0,black_book,0,NO
+miranda_dunbarjohnson,Miranda Dunbar-Johnson,NO,YES,0,0,0,black_book,0,NO
+moegens_tholstrup,Moegens Tholstrup,NO,YES,0,0,0,black_book,0,NO
+mohammed_jameel,Mohammed Jameel,NO,YES,0,0,0,black_book,0,NO
+monty_shadow,Monty Shadow,NO,YES,0,0,0,black_book,0,NO
+mook_flick,Mook Flick,NO,YES,0,0,0,black_book,0,NO
+mortimer_zuckerman,Mortimer Zuckerman,NO,YES,0,0,0,black_book,0,NO
+mr_heseltine,Mr. Heseltine,NO,YES,0,0,0,black_book,0,NO
+mr_miele,Mr. Miele,NO,YES,0,0,0,black_book,0,NO
+mr_porthault,Mr. Porthault,NO,YES,0,0,0,black_book,0,NO
+mrs_fallah,Mrs Fallah,NO,YES,0,0,0,black_book,0,NO
+mrs_maxwell,Mrs. Maxwell,NO,YES,0,0,0,black_book,0,NO
+mrs_philipson,Mrs. Philipson,NO,YES,0,0,0,black_book,0,NO
+mucinska,Mucinska,YES,NO,1,5,1,flight_logs,37,NO
+muffie_potter,Muffie Potter,NO,YES,0,0,0,black_book,0,NO
+muriel_brandolini,Muriel Brandolini,NO,YES,0,0,0,black_book,0,NO
+murray_gellmann,Murray Gell-Mann,NO,YES,0,2,0,black_book,10,NO
+mylene_arm,Mylene Arm,YES,NO,1,0,1,flight_logs,12,NO
+mylene_jampanoi,Mylene Jampanoi,NO,YES,0,1,0,black_book,5,NO
+nacho_gaspar,Nacho Gaspar,NO,YES,0,0,0,black_book,0,NO
+nader_panahizadi,Nader Panah-Izadi,NO,YES,0,0,0,black_book,0,NO
+nadia,Nadia,YES,NO,121,18,34,flight_logs,1368,NO
+nadia_bjorlin,Nadia Bjorlin,YES,YES,2,0,2,"black_book, flight_logs",24,NO
+nadine_johnson,Nadine Johnson,NO,YES,0,0,0,black_book,0,NO
+nancy_jarecki,Nancy Jarecki,NO,YES,0,0,0,black_book,0,NO
+nancy_silverman,Nancy Silverman,NO,YES,0,0,0,black_book,0,NO
+nanny_1,Nanny (1),YES,NO,18,0,5,flight_logs,190,NO
+naomi_campbell,Naomi Campbell,YES,YES,5,1,3,"black_book, flight_logs",61,NO
+natalie_rucellai,Natalie Rucellai,NO,YES,0,0,0,black_book,0,NO
+natalie_simanova,Natalie Simanova,YES,NO,1,0,1,flight_logs,12,NO
+natalya_malyshov,Natalya Malyshov,YES,NO,4,0,3,flight_logs,46,NO
+natasha_batstone,Natasha Batstone,NO,YES,0,0,0,black_book,0,NO
+natasha_fairweather,Natasha Fairweather,NO,YES,0,0,0,black_book,0,NO
+natasha_grenfell,Natasha Grenfell,NO,YES,0,0,0,black_book,0,NO
+nathan_myarold,Nathan Myarold,YES,NO,1,0,1,flight_logs,12,NO
+nathan_myhrvold,Nathan Myhrvold,NO,YES,0,0,0,black_book,0,NO
+neil_biggen,Neil Biggen,YES,NO,1,0,1,flight_logs,12,NO
+neil_mendoza,Neil Mendoza,NO,YES,0,0,0,black_book,0,NO
+nessa_oneil,Nessa O'Neil,NO,YES,0,0,0,black_book,0,NO
+nicholas_a_c_candy,Nicholas A C Candy,NO,YES,0,0,0,black_book,0,NO
+nicholas_barham,Nicholas Barham,NO,YES,0,0,0,black_book,0,NO
+nicholas_bookis,Nicholas Bookis,NO,YES,0,0,0,black_book,0,NO
+nicholas_coleridge,Nicholas Coleridge,NO,YES,0,0,0,black_book,0,NO
+nicholas_mavroleon,Nicholas Mavroleon,NO,YES,0,0,0,black_book,0,NO
+nicholas_rachline,Nicholas Rachline,NO,YES,0,0,0,black_book,0,NO
+nicholas_ryder,Nicholas Ryder,NO,YES,0,0,0,black_book,0,NO
+nick_adam,Nick Adam,NO,YES,0,0,0,black_book,0,NO
+nick_allan,Nick Allan,NO,YES,0,0,0,black_book,0,NO
+nick_ashley,Nick Ashley,NO,YES,0,0,0,black_book,0,NO
+nick_haslam,Nick Haslam,NO,YES,0,0,0,black_book,0,NO
+nick_hurd,Nick Hurd,NO,YES,0,0,0,black_book,0,NO
+nick_jarecki,Nick Jarecki,NO,YES,0,0,0,black_book,0,NO
+nick_leese,Nick Leese,NO,YES,0,0,0,black_book,0,NO
+nick_morris,Nick Morris,NO,YES,0,0,0,black_book,0,NO
+nick_pritzker,Nick Pritzker,NO,YES,0,0,0,black_book,0,NO
+nick_ritblat,Nick Ritblat,NO,YES,0,0,0,black_book,0,NO
+nick_simmonds,Nick Simmonds,YES,NO,3,1,3,flight_logs,41,NO
+nick_williams,Nick Williams,NO,YES,0,0,0,black_book,0,NO
+nicket_tavoulareas,Nicket Tavoulareas,NO,YES,0,0,0,black_book,0,NO
+nicola_formby,Nicola Formby,NO,YES,0,0,0,black_book,0,NO
+nicolas,Nicolas,NO,YES,0,1,0,black_book,5,NO
+nicolas_berggruen,Nicolas Berggruen,NO,YES,0,0,0,black_book,0,NO
+nicolas_guedroitz,Nicolas Guedroitz,NO,YES,0,0,0,black_book,0,NO
+nicole,Nicole,YES,NO,3,9,2,flight_logs,79,NO
+nicole_miller,Nicole Miller,NO,YES,0,0,0,black_book,0,NO
+nicole_paini,Nicole Paini,NO,YES,0,0,0,black_book,0,NO
+nikolai_bola_von_bismarck,"Nikolai ""Bola"" Von Bismarck",NO,YES,0,0,0,black_book,0,NO
+nina_furstenburg_buravelli,Nina Furstenburg Buravelli,NO,YES,0,0,0,black_book,0,NO
+nina_griscom,Nina Griscom,NO,YES,0,0,0,black_book,0,NO
+nina_hovenian,Nina Hovenian,NO,YES,0,0,0,black_book,0,NO
+nina_keita,Nina Keita,YES,NO,1,0,1,flight_logs,12,NO
+nina_steinkampf,Nina Steinkampf,NO,YES,0,0,0,black_book,0,NO
+nina_zagat,Nina Zagat,YES,NO,2,0,2,flight_logs,24,NO
+noona_erba,Noona Erba,NO,YES,0,0,0,black_book,0,NO
+noona_smith_peterson,Noona Smith Peterson,NO,YES,0,0,0,black_book,0,NO
+noreen_roth,Noreen Roth,NO,YES,0,0,0,black_book,0,NO
+nuno_brandolini,Nuno Brandolini,NO,YES,0,0,0,black_book,0,NO
+olaf_hermes,Olaf Hermes,NO,YES,0,0,0,black_book,0,NO
+oliver_sachs,Oliver Sachs,YES,NO,2,0,2,flight_logs,24,NO
+olivier_de_falletans,Olivier de Falletans,NO,YES,0,0,0,black_book,0,NO
+olivier_picasso,Olivier Picasso,NO,YES,0,0,0,black_book,0,NO
+omar,Omar,NO,YES,0,0,0,black_book,0,NO
+orianne_collins,Orianne Collins,NO,YES,0,0,0,black_book,0,NO
+ozzie_warner,Ozzie Warner,NO,YES,0,0,0,black_book,0,NO
+paige_zangrillo,Paige Zangrillo,NO,YES,0,0,0,black_book,0,NO
+pam_alexander,Pam Alexander,NO,YES,0,0,0,black_book,0,NO
+pamela_gross,Pamela Gross,NO,YES,0,0,0,black_book,0,NO
+pamela_johananoff,Pamela Johananoff,NO,YES,0,0,0,black_book,0,NO
+pamela_johanao,Pamela Johanao,YES,NO,3,0,2,flight_logs,34,NO
+pamela_stevens,Pamela Stevens,YES,NO,1,0,1,flight_logs,12,NO
+pamela_taylor,Pamela Taylor,NO,YES,0,0,0,black_book,0,NO
+pandora_maxwell,Pandora Maxwell,NO,YES,0,0,0,black_book,0,NO
+paola_tholstrup,Paola Tholstrup,NO,YES,0,0,0,black_book,0,NO
+parisi_massimo,Parisi Massimo,NO,YES,0,0,0,black_book,0,NO
+patricia_cayne,Patricia Cayne,YES,NO,6,0,4,flight_logs,68,NO
+patricia_hay,Patricia Hay,NO,YES,0,0,0,black_book,0,NO
+patricia_sawyers,Patricia Sawyers,NO,YES,0,0,0,black_book,0,NO
+patricia_velasquez,Patricia Velasquez,NO,YES,0,0,0,black_book,0,NO
+patrick_de_baecque,Patrick de Baecque,NO,YES,0,0,0,black_book,0,NO
+patrick_mcmullan,Patrick McMullan,NO,YES,0,0,0,black_book,0,NO
+patrick_ochin,Patrick Ochin,YES,NO,4,0,2,flight_logs,44,NO
+patrick_vittoz,Patrick Vittoz,NO,YES,0,0,0,black_book,0,NO
+patsy_rodgers,Patsy Rodgers,YES,NO,10,0,9,flight_logs,118,NO
+patty_cisneros,Patty Cisneros,NO,YES,0,0,0,black_book,0,NO
+patty_raynes,Patty Raynes,NO,YES,0,0,0,black_book,0,NO
+paul_allan,Paul Allan,NO,YES,0,0,0,black_book,0,NO
+paul_cox,Paul Cox,NO,YES,0,0,0,black_book,0,NO
+paul_duesing,Paul Duesing,NO,YES,0,0,0,black_book,0,NO
+paul_eckon,Paul Eckon,NO,YES,0,0,0,black_book,0,NO
+paul_hoffman,Paul Hoffman,NO,YES,0,0,0,black_book,0,NO
+paul_lawton,Paul Lawton,NO,YES,0,0,0,black_book,0,NO
+paul_lister,Paul Lister,NO,YES,0,0,0,black_book,0,NO
+paul_mellon,Paul Mellon,YES,NO,1,0,1,flight_logs,12,NO
+paul_taaffe,Paul Taaffe,NO,YES,0,0,0,black_book,0,NO
+paul_travis,Paul Travis,NO,YES,0,0,0,black_book,0,NO
+paula_epstein,Paula Epstein,YES,YES,11,1,6,"black_book, flight_logs",127,NO
+paula_halada,Paula Halada,YES,NO,1,0,1,flight_logs,12,NO
+paula_heil,Paula Heil,NO,YES,0,0,0,black_book,0,NO
+paulette_dedieu,Paulette Dedieu,NO,YES,0,0,0,black_book,0,NO
+pauline_case,Pauline Case,NO,YES,0,0,0,black_book,0,NO
+paulo_borgese,Paulo Borgese,NO,YES,0,0,0,black_book,0,NO
+pedro_diniz,Pedro Diniz,NO,YES,0,0,0,black_book,0,NO
+peg_ugland,Peg Ugland,NO,YES,0,0,0,black_book,0,NO
+peggy_siegal,Peggy Siegal,NO,YES,0,0,0,black_book,0,NO
+penelope_bossom,Penelope Bossom,NO,YES,0,0,0,black_book,0,NO
+pepe_fanjul,Pepe Fanjul,NO,YES,0,0,0,black_book,0,NO
+peter,Peter,NO,YES,0,13,0,black_book,65,NO
+peter_bahrke,Peter Bahrke,NO,YES,0,0,0,black_book,0,NO
+peter_brandt,Peter Brandt,NO,YES,0,0,0,black_book,0,NO
+peter_cohen,Peter Cohen,NO,YES,0,0,0,black_book,0,NO
+peter_dubbens,Peter Dubbens,NO,YES,0,0,0,black_book,0,NO
+peter_hsu,Peter Hsu,NO,YES,0,0,0,black_book,0,NO
+peter_kirwantaylor,Peter Kirwan-Taylor,NO,YES,0,0,0,black_book,0,NO
+peter_mandelson,Peter Mandelson,NO,YES,0,0,0,black_book,0,NO
+peter_marino,Peter Marino,YES,NO,3,0,2,flight_logs,34,NO
+peter_martins,Peter Martins,NO,YES,0,0,0,black_book,0,NO
+peter_morton,Peter Morton,NO,YES,0,0,0,black_book,0,NO
+peter_palumbo,Peter Palumbo,NO,YES,0,0,0,black_book,0,NO
+peter_rathgeb,Peter Rathgeb,YES,NO,19,0,8,flight_logs,206,NO
+peter_rotholg,Peter Rotholg,YES,NO,1,0,1,flight_logs,12,NO
+peter_soros,Peter Soros,NO,YES,0,0,0,black_book,0,NO
+peter_svenlinson,Peter Svenlinson,NO,YES,0,0,0,black_book,0,NO
+peter_tavoulareas,Peter Tavoulareas,NO,YES,0,0,0,black_book,0,NO
+peter_thomas_roth,Peter Thomas Roth,NO,YES,0,0,0,black_book,0,NO
+phil_collins,Phil Collins,NO,YES,0,0,0,black_book,0,NO
+philip_dunne,Philip Dunne,NO,YES,0,0,0,black_book,0,NO
+philip_levine,Philip Levine,NO,YES,0,2,0,black_book,10,NO
+philip_mallinckrodt,Philip Mallinckrodt,NO,YES,0,0,0,black_book,0,NO
+philip_maxwell,Philip Maxwell,NO,YES,0,0,0,black_book,0,NO
+philip_treacy,Philip Treacy,NO,YES,0,0,0,black_book,0,NO
+philippe_amon,Philippe Amon,NO,YES,0,0,0,black_book,0,NO
+philippe_junot,Philippe Junot,NO,YES,0,0,0,black_book,0,NO
+phillipe_mugnier,Phillipe Mugnier,YES,NO,3,0,3,flight_logs,36,NO
+pia_getty,Pia Getty,NO,YES,0,0,0,black_book,0,NO
+pia_marocco,Pia Marocco,NO,YES,0,0,0,black_book,0,NO
+pierre_lemaine,Pierre Lemaine,NO,YES,0,0,0,black_book,0,NO
+piers_lea,Piers Lea,NO,YES,0,0,0,black_book,0,NO
+pietro_cicognani,Pietro Cicognani,NO,YES,0,0,0,black_book,0,NO
+pilar_goess,Pilar Goess,NO,YES,0,0,0,black_book,0,NO
+pippa_hall,Pippa Hall,NO,YES,0,0,0,black_book,0,NO
+pliny_porter,Pliny Porter,NO,YES,0,0,0,black_book,0,NO
+prince_andrew_duke_of_york,"Prince Andrew, Duke of York",YES,YES,1,5,1,"black_book, flight_logs",37,NO
+prince_bandar_bin_sultan,Prince Bandar bin Sultan,NO,YES,0,0,0,black_book,0,NO
+prince_michel_of_yugoslavia,Prince Michel of Yugoslavia,NO,YES,0,0,0,black_book,0,NO
+prince_pavlos,Prince Pavlos,NO,YES,0,0,0,black_book,0,NO
+prince_pierre_darenberg,Prince Pierre d'Arenberg,NO,YES,0,0,0,black_book,0,NO
+prince_salman,Prince Salman,NO,YES,0,0,0,black_book,0,NO
+princess_firyal,Princess Firyal,NO,YES,0,0,0,black_book,0,NO
+princess_georgina_brandolini_dadda,Princess Georgina Brandolini d'Adda,NO,YES,0,0,0,black_book,0,NO
+princess_hermine_de_clermonttonnerre,Princess Hermine de Clermont-Tonnerre,NO,YES,0,0,0,black_book,0,NO
+princess_marieclaire,Princess Marie-Claire,NO,YES,0,0,0,black_book,0,NO
+princess_olga,Princess Olga,NO,YES,0,0,0,black_book,0,NO
+pru_mcleod,Pru Mcleod,NO,YES,0,0,0,black_book,0,NO
+r_boykin_curry,R. Boykin Curry,NO,YES,0,0,0,black_book,0,NO
+rachel_cordle,Rachel Cordle,NO,YES,0,0,0,black_book,0,NO
+rachel_osbourne,Rachel Osbourne,NO,YES,0,0,0,black_book,0,NO
+ralph_ellison,Ralph Ellison,YES,YES,1,0,1,"black_book, flight_logs",12,NO
+ralph_fiennes,Ralph Fiennes,NO,YES,0,0,0,black_book,0,NO
+ralph_omar,Ralph Omar,NO,YES,0,0,0,black_book,0,NO
+randall_scerbo,Randall Scerbo,NO,YES,0,0,0,black_book,0,NO
+randy_james,Randy James,NO,YES,0,0,0,black_book,0,NO
+ray_john,Ray John,NO,YES,0,0,0,black_book,0,NO
+raymond_mckenzie,Raymond McKenzie,NO,YES,0,0,0,black_book,0,NO
+rebecca_white,Rebecca White,YES,NO,1,0,1,flight_logs,12,NO
+rebecca_willis,Rebecca Willis,NO,YES,0,0,0,black_book,0,NO
+reggie_hayworth,Reggie Hayworth,NO,YES,0,0,0,black_book,0,NO
+rena_kirdar_sindi,Rena Kirdar Sindi,NO,YES,0,0,0,black_book,0,NO
+rhonda_king,Rhonda King,NO,YES,0,0,0,black_book,0,NO
+rhonda_sherer,Rhonda Sherer,YES,NO,3,0,2,flight_logs,34,NO
+ricardo_legoretta,Ricardo Legoretta,YES,NO,3,0,3,flight_logs,36,NO
+riccardo,Riccardo,NO,YES,0,0,0,black_book,0,NO
+riccardo_monti,Riccardo Monti,NO,YES,0,0,0,black_book,0,NO
+riccardo_pavoncelli,Riccardo Pavoncelli,NO,YES,0,0,0,black_book,0,NO
+rich_rothenburg,Rich Rothenburg,NO,YES,0,0,0,black_book,0,NO
+richard_barnett,Richard Barnett,NO,YES,0,1,0,black_book,5,NO
+richard_branson,Richard Branson,NO,YES,0,2,0,black_book,10,NO
+richard_buckley,Richard Buckley,NO,YES,0,0,0,black_book,0,NO
+richard_cook,Richard Cook,YES,NO,3,0,3,flight_logs,36,NO
+richard_johnson,Richard Johnson,NO,YES,0,0,0,black_book,0,NO
+richard_lonsdale,Richard Lonsdale,NO,YES,0,0,0,black_book,0,NO
+richard_plepler,Richard Plepler,NO,YES,0,0,0,black_book,0,NO
+richard_snyder,Richard Snyder,NO,YES,0,0,0,black_book,0,NO
+richard_stengel,Richard Stengel,NO,YES,0,0,0,black_book,0,NO
+riki_peterson,Riki Peterson,NO,YES,0,0,0,black_book,0,NO
+rob_rosenstein,Rob Rosenstein,NO,YES,0,0,0,black_book,0,NO
+robert_appleby,Robert Appleby,NO,YES,0,0,0,black_book,0,NO
+robert_boby_a_kotick,Robert (Boby) A. Kotick,NO,YES,0,0,0,black_book,0,NO
+robert_byng,Robert Byng,NO,YES,0,0,0,black_book,0,NO
+robert_gold,Robert Gold,NO,YES,0,0,0,black_book,0,NO
+robert_hefner_iii,Robert Hefner III,NO,YES,0,0,0,black_book,0,NO
+robert_hersov,Robert Hersov,NO,YES,0,0,0,black_book,0,NO
+robert_hissom,Robert Hissom,NO,YES,0,0,0,black_book,0,NO
+robert_j_hurst,Robert J. Hurst,NO,YES,0,0,0,black_book,0,NO
+robert_locascio,Robert LoCascio,NO,YES,0,0,0,black_book,0,NO
+robert_meister,Robert Meister,NO,YES,0,0,0,black_book,0,NO
+robert_miranda,Robert Miranda,NO,YES,0,0,0,black_book,0,NO
+robert_morton,Robert Morton,NO,YES,0,0,0,black_book,0,NO
+robert_oatman,Robert Oatman,NO,YES,0,0,0,black_book,0,NO
+robert_trossle,Robert Trossle,NO,YES,0,0,0,black_book,0,NO
+robert_trump,Robert Trump,NO,YES,0,0,0,black_book,0,NO
+robert_weinstein,Robert Weinstein,NO,YES,0,0,0,black_book,0,NO
+robert_zangrillo,Robert Zangrillo,NO,YES,0,0,0,black_book,0,NO
+roberta_amon,Roberta Amon,NO,YES,0,0,0,black_book,0,NO
+robin_birley,Robin Birley,NO,YES,0,0,0,black_book,0,NO
+robin_leach,Robin Leach,NO,YES,0,0,0,black_book,0,NO
+robin_metz,Robin Metz,NO,YES,0,0,0,black_book,0,NO
+robin_plant,Robin Plant,YES,YES,6,0,5,"black_book, flight_logs",70,NO
+robin_rotherwick,Robin Rotherwick,NO,YES,0,0,0,black_book,0,NO
+rocco_forte,Rocco Forte,NO,YES,0,0,0,black_book,0,NO
+roddy_campbell,Roddy Campbell,NO,YES,0,0,0,black_book,0,NO
+rodey_swater,"Swater, Rodey",YES,NO,9,0,2,flight_logs,94,NO
+rodney_propp,Rodney Propp,NO,YES,0,0,0,black_book,0,NO
+rodolph_onakewe,Rodolph Onakewe,NO,YES,0,0,0,black_book,0,NO
+roger_lindemanbarnet,Roger Lindeman-Barnet,NO,YES,0,0,0,black_book,0,NO
+romilly_mcalpine,Romilly McAlpine,NO,YES,0,0,0,black_book,0,NO
+ronald_burckle,Ronald Burckle,NO,YES,0,0,0,black_book,0,NO
+ronald_durkle,Ronald Durkle,YES,NO,4,0,2,flight_logs,44,NO
+ronald_kastner,Ronald Kastner,NO,YES,0,0,0,black_book,0,NO
+ronald_perelman,Ronald Perelman,NO,YES,0,0,0,black_book,0,NO
+ronald_silver,Ronald Silver,NO,YES,0,0,0,black_book,0,NO
+rory_kegan,Rory Kegan,NO,YES,0,0,0,black_book,0,NO
+ros_derby,Ros Derby,NO,YES,0,0,0,black_book,0,NO
+ros_espirito_santo,Ros Espirito Santo,NO,YES,0,0,0,black_book,0,NO
+rosa_monckton,Rosa Monckton,NO,YES,0,0,0,black_book,0,NO
+rosalyn_lynn_fontanilla,Rosalyn (Lynn) Fontanilla,NO,YES,0,0,0,black_book,0,NO
+rosi_zevi,Rosi Zevi,NO,YES,0,0,0,black_book,0,NO
+rufreido_gaetani,Rufreido Gaetani,NO,YES,0,0,0,black_book,0,NO
+rufus_albermarle,Rufus Albermarle,NO,YES,0,0,0,black_book,0,NO
+rupert_cordle,Rupert Cordle,NO,YES,0,0,0,black_book,0,NO
+rupert_de_klee,Rupert de Klee,NO,YES,0,0,0,black_book,0,NO
+rupert_heseltine,Rupert Heseltine,NO,YES,0,0,0,black_book,0,NO
+rupert_murdoch,Rupert Murdoch,NO,YES,0,0,0,black_book,0,NO
+rupert_rittsonthomas,Rupert Rittson-Thomas,NO,YES,0,0,0,black_book,0,NO
+rupert_soames,Rupert Soames,NO,YES,0,0,0,black_book,0,NO
+rupert_tate,Rupert Tate,NO,YES,0,0,0,black_book,0,NO
+rupert_wainright,Rupert Wainright,NO,YES,0,0,0,black_book,0,NO
+ruth_westheimer,Ruth Westheimer,NO,YES,0,0,0,black_book,0,NO
+ryan_dionne,Ryan Dionne,YES,YES,16,0,7,black_book,174,NO
+sabine_forbes,Sabine Forbes,NO,YES,0,0,0,black_book,0,NO
+sabrina_guiness,Sabrina Guiness,NO,YES,0,0,0,black_book,0,NO
+saffron_aldridge,Saffron Aldridge,NO,YES,0,0,0,black_book,0,NO
+sally,Sally,NO,YES,0,17,0,black_book,85,NO
+sally_albermarle,Sally Albermarle,NO,YES,0,0,0,black_book,0,NO
+sally_faber,Sally Faber,NO,YES,0,0,0,black_book,0,NO
+samantha_boardman,Samantha Boardman,NO,YES,0,0,0,black_book,0,NO
+sami_sindi,Sami Sindi,NO,YES,0,0,0,black_book,0,NO
+sami_waksal,Sami Waksal,NO,YES,0,0,0,black_book,0,NO
+samuel_domb,Samuel Domb,NO,YES,0,0,0,black_book,0,NO
+samuel_pisar,Samuel Pisar,NO,YES,0,0,0,black_book,0,NO
+sandy_berger,Sandy Berger,YES,NO,1,0,1,flight_logs,12,NO
+sandy_golinkin,Sandy Golinkin,NO,YES,0,0,0,black_book,0,NO
+sandy_pittman,Sandy Pittman,NO,YES,0,0,0,black_book,0,NO
+santa_montefiroe,Santa Montefiroe,NO,YES,0,0,0,black_book,0,NO
+sara_carello,Sara Carello,NO,YES,0,0,0,black_book,0,NO
+sarah_allan,Sarah Allan,NO,YES,0,0,0,black_book,0,NO
+sarah_ferguson_duchess_of_york,"Sarah Ferguson, Duchess of York",YES,YES,1,0,1,"black_book, flight_logs",12,NO
+sarah_keeling,Sarah Keeling,NO,YES,0,0,0,black_book,0,NO
+sarah_kellen,"Kellen, Sarah",YES,YES,293,173,63,"black_book, flight_logs",3921,NO
+sarah_marden,Sarah Marden,NO,YES,0,0,0,black_book,0,NO
+scott_geffert,Scott Geffert,NO,YES,0,0,0,black_book,0,NO
+scott_marden,Scott Marden,NO,YES,0,0,0,black_book,0,NO
+scott_rueber,Scott Rueber,YES,NO,1,0,1,flight_logs,12,NO
+sean_mahoney,Sean Mahoney,NO,YES,0,0,0,black_book,0,NO
+sebastian_taylor,Sebastian Taylor,NO,YES,0,0,0,black_book,0,NO
+selma_ouertani,Selma Ouertani,NO,YES,0,0,0,black_book,0,NO
+senator_george_mitchell,Senator George Mitchell,NO,YES,0,0,0,black_book,0,NO
+senator_john_kerry,Senator John Kerry,NO,YES,0,0,0,black_book,0,NO
+senator_ted_kennedy,Senator Ted Kennedy,NO,YES,0,0,0,black_book,0,NO
+serena_boardman,Serena Boardman,NO,YES,0,0,0,black_book,0,NO
+serena_williamsellis,Serena Williams-Ellis,NO,YES,0,0,0,black_book,0,NO
+serge_braine,Serge Braine,NO,YES,0,0,0,black_book,0,NO
+shannon_healy,Shannon Healy,YES,YES,4,0,4,"black_book, flight_logs",48,NO
+shannon_mclane,Shannon Mclane,NO,YES,0,0,0,black_book,0,NO
+shariar_bakhtiar,Shariar Bakhtiar,NO,YES,0,0,0,black_book,0,NO
+sharon_handler,Sharon Handler,NO,YES,0,0,0,black_book,0,NO
+sharon_reynolds,Sharon Reynolds,YES,NO,2,0,2,flight_logs,24,NO
+shaun_woodward,Shaun Woodward,NO,YES,0,0,0,black_book,0,NO
+shaunt_hovanian,Shaunt Hovanian,NO,YES,0,0,0,black_book,0,NO
+shelley_lewis,"Lewis, Shelley",YES,NO,39,24,19,flight_logs,548,NO
+shelly_harrison,Shelly Harrison,YES,NO,3,0,2,flight_logs,34,NO
+shelly_malkin,Shelly Malkin,NO,YES,0,0,0,black_book,0,NO
+sheridan_gibson,Sheridan Gibson,YES,NO,4,0,3,flight_logs,46,NO
+sherrie_crape,Sherrie Crape,YES,NO,4,0,3,flight_logs,46,NO
+shona_mckinney,Shona McKinney,NO,YES,0,0,0,black_book,0,NO
+silas_chou,Silas Chou,NO,YES,0,0,0,black_book,0,NO
+simon_astaire,Simon Astaire,NO,YES,0,0,0,black_book,0,NO
+simon_case,Simon Case,NO,YES,0,0,0,black_book,0,NO
+simon_hussey,Simon Hussey,NO,YES,0,0,0,black_book,0,NO
+simon_le_bon,Simon Le Bon,NO,YES,0,0,0,black_book,0,NO
+simon_oates,Simon Oates,NO,YES,0,0,0,black_book,0,NO
+simon_sebag_montefiroe,Simon Sebag Montefiroe,NO,YES,0,0,0,black_book,0,NO
+simon_talbot_williams,Simon Talbot Williams,NO,YES,0,0,0,black_book,0,NO
+sir_anthony_bamford,Sir Anthony Bamford,NO,YES,0,0,0,black_book,0,NO
+sir_david_frost,Sir David Frost,NO,YES,0,0,0,black_book,0,NO
+sir_david_tang,Sir David Tang,NO,YES,0,0,0,black_book,0,NO
+sir_mark_weinberg,Sir Mark Weinberg,NO,YES,0,0,0,black_book,0,NO
+sloane_barnette,Sloane Barnette,YES,NO,1,0,1,flight_logs,12,NO
+smith_osborne,Smith Osborne,NO,YES,0,0,0,black_book,0,NO
+sol_kersner,Sol Kersner,NO,YES,0,0,0,black_book,0,NO
+solina_guedroitz,Solina Guedroitz,NO,YES,0,0,0,black_book,0,NO
+somers_white,Somers White,NO,YES,0,0,0,black_book,0,NO
+sonia_puopolo,Sonia Puopolo,NO,YES,0,0,0,black_book,0,NO
+sophie_biddle,"Biddle, Sophie",YES,NO,30,3,13,flight_logs,341,NO
+sophie_biddle_hakim,Sophie Biddle Hakim,NO,YES,0,0,0,black_book,0,NO
+sophie_boden,Sophie Boden,NO,YES,0,0,0,black_book,0,NO
+sophie_caruth,Sophie Caruth,NO,YES,0,0,0,black_book,0,NO
+sophie_crabbe,Sophie Crabbe,NO,YES,0,0,0,black_book,0,NO
+sophie_dahl,Sophie Dahl,NO,YES,0,0,0,black_book,0,NO
+sophie_swire,Sophie Swire,NO,YES,0,0,0,black_book,0,NO
+sophie_van_van_hauen,Sophie Van Van Hauen,NO,YES,0,0,0,black_book,0,NO
+spencer_barnette,Spencer Barnette,YES,NO,1,0,1,flight_logs,12,NO
+stacey_pashcow_gardi,Stacey Pashcow Gardi,NO,YES,0,0,0,black_book,0,NO
+stacy,Stacy,YES,NO,1,0,1,flight_logs,12,NO
+stan_schaeffer,Stan Schaeffer,NO,YES,0,0,0,black_book,0,NO
+sten_bertelsen,Sten Bertelsen,NO,YES,0,0,0,black_book,0,NO
+stephen_dunbarjohnson,Stephen Dunbar-Johnson,NO,YES,0,0,0,black_book,0,NO
+stephen_morris,Stephen Morris,NO,YES,0,0,0,black_book,0,NO
+steven_benson,Steven Benson,NO,YES,0,0,0,black_book,0,NO
+steven_forbes,Steven Forbes,NO,YES,0,0,0,black_book,0,NO
+steven_gaston,Steven Gaston,NO,YES,0,0,0,black_book,0,NO
+steven_gottlieb,Steven Gottlieb,NO,YES,0,0,0,black_book,0,NO
+steven_kosslyn,Steven Kosslyn,NO,YES,0,0,0,black_book,0,NO
+steven_lester,Steven Lester,YES,NO,2,0,1,flight_logs,22,NO
+steven_miller,Steven Miller,YES,NO,2,0,2,flight_logs,24,NO
+steven_pinker,Steven Pinker,YES,NO,1,0,1,flight_logs,12,NO
+steven_sherman,Steven Sherman,YES,NO,1,0,1,flight_logs,12,NO
+steven_tuckerman,Steven Tuckerman,YES,YES,2,0,2,"black_book, flight_logs",24,NO
+steven_wyatt,Steven Wyatt,NO,YES,0,0,0,black_book,0,NO
+steven_wynn,Steven Wynn,NO,YES,0,0,0,black_book,0,NO
+stuart_pivar,Stuart Pivar,NO,YES,0,0,0,black_book,0,NO
+stuart_sundlun,Stuart Sundlun,NO,YES,0,0,0,black_book,0,NO
+sue_hamblin,Sue Hamblin,NO,YES,0,0,0,black_book,0,NO
+suetlana,Suetlana,YES,NO,2,0,2,flight_logs,24,NO
+susan_guttfreund,Susan Guttfreund,NO,YES,0,0,0,black_book,0,NO
+susan_hamblin,Susan Hamblin,YES,NO,11,0,6,flight_logs,122,NO
+susan_hearn,Susan Hearn,NO,YES,0,0,0,black_book,0,NO
+susan_kent_dvm,"Susan Kent, DVM",NO,YES,0,0,0,black_book,0,NO
+susan_minot,Susan Minot,NO,YES,0,0,0,black_book,0,NO
+susannah_constantine,Susannah Constantine,NO,YES,0,0,0,black_book,0,NO
+susie_james,Susie James,NO,YES,0,0,0,black_book,0,NO
+susie_shuster,Susie Shuster,NO,YES,0,0,0,black_book,0,NO
+suzie_dolbey,Suzie Dolbey,NO,YES,0,0,0,black_book,0,NO
+suzzana_fiennes,Suzzana Fiennes,NO,YES,0,0,0,black_book,0,NO
+svetlana_griaznove,Svetlana Griaznove,NO,YES,0,0,0,black_book,0,NO
+sylvia_rosen,Sylvia Rosen,NO,YES,0,0,0,black_book,0,NO
+sylvianne_boucherie,Sylvianne Boucherie,NO,YES,0,0,0,black_book,0,NO
+syrie_tollman,Syrie Tollman,NO,YES,0,0,0,black_book,0,NO
+tamara_beckwith,Tamara Beckwith,NO,YES,0,0,0,black_book,0,NO
+tania_bryer,Tania Bryer,NO,YES,0,0,0,black_book,0,NO
+tania_rotherwick,Tania Rotherwick,NO,YES,0,0,0,black_book,0,NO
+tara_bernard,Tara Bernard,NO,YES,0,0,0,black_book,0,NO
+tara_palmertomkinson,Tara Palmer-Tomkinson,NO,YES,0,0,0,black_book,0,NO
+taria_puig,Taria Puig,NO,YES,0,0,0,black_book,0,NO
+tatiana_dabo,Tatiana d'abo,NO,YES,0,0,0,black_book,0,NO
+tatiana_espinosa,Tatiana Espinosa,YES,NO,2,0,2,flight_logs,24,NO
+tatiana_kovylina,"Kovylina, Tatiana",YES,NO,10,0,9,flight_logs,118,NO
+taylor_foster,Taylor Foster,NO,YES,0,0,0,black_book,0,NO
+teal,Teal,YES,NO,2,0,2,flight_logs,24,NO
+teala_davies,"Davies, Teala",YES,NO,48,2,20,flight_logs,530,NO
+ted_griffen,Ted Griffen,NO,YES,0,0,0,black_book,0,NO
+ted_kennedy_jr,Ted Kennedy Jr.,NO,YES,0,0,0,black_book,0,NO
+terence_faulkner,Terence Faulkner,NO,YES,0,0,0,black_book,0,NO
+teresa_fulhurst,Teresa Fulhurst,NO,YES,0,0,0,black_book,0,NO
+terri_button,Terri Button,NO,YES,0,0,0,black_book,0,NO
+terssa_manners,Terssa Manners,NO,YES,0,0,0,black_book,0,NO
+tertious_murray_threipland,Tertious Murray Threipland,NO,YES,0,0,0,black_book,0,NO
+theodore_wong,Theodore Wong,NO,YES,0,0,0,black_book,0,NO
+theresa_roberts,Theresa Roberts,NO,YES,0,0,0,black_book,0,NO
+thomas_barrack,Thomas Barrack,NO,YES,0,0,0,black_book,0,NO
+thomas_c_mcmillen,Thomas C. McMillen,NO,YES,0,0,0,black_book,0,NO
+thomas_ford,Thomas Ford,NO,YES,0,0,0,black_book,0,NO
+thomas_gomez,Thomas Gomez,NO,YES,0,0,0,black_book,0,NO
+thomas_h_quinn,Thomas H. Quinn,NO,YES,0,0,0,black_book,0,NO
+thomas_oates,Thomas Oates,NO,YES,0,0,0,black_book,0,NO
+thomas_owenedmunds,Thomas Owen-Edmunds,NO,YES,0,0,0,black_book,0,NO
+thomas_payette,Thomas Payette,YES,NO,1,0,1,flight_logs,12,NO
+thomas_pritzker,Thomas Pritzker,YES,YES,1,0,1,"black_book, flight_logs",12,NO
+thomas_sawyers,Thomas Sawyers,NO,YES,0,0,0,black_book,0,NO
+thomas_starzewski,Thomas Starzewski,NO,YES,0,0,0,black_book,0,NO
+tiberto_brandolini_dadda,Tiberto Brandolini d'Adda,NO,YES,0,0,0,black_book,0,NO
+tierney_horne,Tierney Horne,NO,YES,0,0,0,black_book,0,NO
+tiffany_dubin,Tiffany Dubin,NO,YES,0,0,0,black_book,0,NO
+timothy_batstone,Timothy Batstone,NO,YES,0,0,0,black_book,0,NO
+timothy_geary,Timothy Geary,NO,YES,0,0,0,black_book,0,NO
+timothy_jeffries,Timothy Jeffries,NO,YES,0,0,0,black_book,0,NO
+timothy_martin,Timothy Martin,NO,YES,0,0,0,black_book,0,NO
+timothy_noonan,Timothy Noonan,NO,YES,0,0,0,black_book,0,NO
+timothy_rustow,Timothy Rustow,NO,YES,0,0,0,black_book,0,NO
+timothy_schifter,Timothy Schifter,NO,YES,0,0,0,black_book,0,NO
+timothy_w_newcombe,Timothy W. Newcombe,NO,YES,0,0,0,black_book,0,NO
+timothy_windsortaylor,Timothy Windsor-Taylor,NO,YES,0,0,0,black_book,0,NO
+timothy_zagat,Timothy Zagat,YES,NO,1,0,1,flight_logs,12,NO
+tito_pedrini,Tito Pedrini,NO,YES,0,0,0,black_book,0,NO
+toby_young,Toby Young,NO,YES,0,0,0,black_book,0,NO
+todd_lucky,Todd Lucky,YES,NO,1,0,1,flight_logs,12,NO
+todd_meister,Todd Meister,NO,YES,0,0,0,black_book,0,NO
+todd_meistor,Todd Meistor,YES,NO,5,0,3,flight_logs,56,NO
+topper_quinn,Topper Quinn,NO,YES,0,0,0,black_book,0,NO
+torne_di_pisa,Torne di Pisa,NO,YES,0,0,0,black_book,0,NO
+tracy_edwards,Tracy Edwards,NO,YES,0,0,0,black_book,0,NO
+tracy_younger,Tracy Younger,NO,YES,0,0,0,black_book,0,NO
+trinny_woodall,Trinny Woodall,NO,YES,0,0,0,black_book,0,NO
+umar_dzhabrailou,Umar Dzhabrailou,NO,YES,0,0,0,black_book,0,NO
+valdson_cotrin,Valdson Cotrin,YES,NO,13,0,9,flight_logs,148,NO
+valdson_vieira_circled,Valdson Vieira circled,NO,YES,0,0,0,black_book,0,NO
+valesca_guerrandhermes,Valesca Guerrand-Hermès,NO,YES,0,0,0,black_book,0,NO
+vanessa_noel,Vanessa Noel,NO,YES,0,0,0,black_book,0,NO
+vanessa_von_bismark,Vanessa Von Bismark,NO,YES,0,0,0,black_book,0,NO
+vera_wang,Vera Wang,NO,YES,0,0,0,black_book,0,NO
+veronica_toub,Veronica Toub,NO,YES,0,0,0,black_book,0,NO
+veronica_webb,Veronica Webb,NO,YES,0,0,0,black_book,0,NO
+veronique_pittman,Veronique Pittman,NO,YES,0,0,0,black_book,0,NO
+vicente_alvarez,Vicente Alvarez,NO,YES,0,0,0,black_book,0,NO
+vick_lambro,Vick Lambro,YES,NO,1,0,1,flight_logs,12,NO
+vicki_gray,Vicki Gray,NO,YES,0,0,0,black_book,0,NO
+victor_arellano,Victor Arellano,NO,YES,0,0,0,black_book,0,NO
+victoria_cator,Victoria Cator,NO,YES,0,0,0,black_book,0,NO
+victoria_harvey,Victoria Harvey,NO,YES,0,0,0,black_book,0,NO
+victoria_hazell,Victoria Hazell,YES,NO,3,0,3,flight_logs,36,NO
+victoria_white,Victoria White,NO,YES,0,0,0,black_book,0,NO
+vikram_chatwal,Vikram Chatwal,NO,YES,0,0,0,black_book,0,NO
+violet_fraiser,Violet Fraiser,NO,YES,0,0,0,black_book,0,NO
+virginia_roberts,"Roberts, Virginia",YES,NO,27,125,11,flight_logs,917,NO
+viscount_william_astor,Viscount William Astor,NO,YES,0,0,0,black_book,0,NO
+vittorio_assaf,Vittorio Assaf,NO,YES,0,0,0,black_book,0,NO
+vonnic_vittoz,Vonnic Vittoz,NO,YES,0,0,0,black_book,0,NO
+vor_holding,Vor Holding,YES,NO,1,0,1,flight_logs,12,NO
+wafic_said,Wafic Said,NO,YES,0,0,0,black_book,0,NO
+waleed_zawauri,Waleed Zawauri,NO,YES,0,0,0,black_book,0,NO
+walter_isaacson,Walter Isaacson,NO,YES,0,0,0,black_book,0,NO
+warren_spector,Warren Spector,YES,YES,2,0,2,"black_book, flight_logs",24,NO
+warren_whippet,Warren Whippet,YES,NO,3,0,2,flight_logs,34,NO
+wayne_safro,Wayne Safro,NO,YES,0,0,0,black_book,0,NO
+wayne_wyntik,Wayne Wyntik,NO,YES,0,0,0,black_book,0,NO
+wendy_rose,Wendy Rose,NO,YES,0,0,0,black_book,0,NO
+wendy_whitworth,Wendy Whitworth,NO,YES,0,0,0,black_book,0,NO
+william_archer,William Archer,NO,YES,0,0,0,black_book,0,NO
+william_berkman,William Berkman,NO,YES,0,0,0,black_book,0,NO
+william_bill_siegel,William (Bill) Siegel,NO,YES,0,0,0,black_book,0,NO
+william_clinton,William Clinton,YES,NO,11,0,2,flight_logs,114,NO
+william_dartmouth,William Dartmouth,NO,YES,0,0,0,black_book,0,NO
+william_fox,William Fox,NO,YES,0,0,0,black_book,0,NO
+william_gomme,William Gomme,NO,YES,0,0,0,black_book,0,NO
+william_maronet,William Maronet,NO,YES,0,0,0,black_book,0,NO
+william_nagel,William Nagel,NO,YES,0,0,0,black_book,0,NO
+william_nickerson,William Nickerson,NO,YES,0,0,0,black_book,0,NO
+william_oswald,William Oswald,NO,YES,0,0,0,black_book,0,NO
+william_richardson,William Richardson,YES,YES,0,0,0,black_book,0,NO
+william_roedy,William Roedy,NO,YES,0,0,0,black_book,0,NO
+william_sieghart,William Sieghart,NO,YES,0,0,0,black_book,0,NO
+willie_le_marq,Willie Le Marq,NO,YES,0,0,0,black_book,0,NO
+wyne_tollman,Wyne Tollman,NO,YES,0,0,0,black_book,0,NO
+yakhof_neima,Yakhof Neima,NO,YES,0,0,0,black_book,0,NO
+yara,Yara,NO,YES,0,0,0,black_book,0,NO
+yariv_zghoul,Yariv Zghoul,NO,YES,0,0,0,black_book,0,NO
+yassi_mazandi,Yassi Mazandi,NO,YES,0,0,0,black_book,0,NO
+yehura_koppel,Yehura Koppel,YES,NO,1,0,1,flight_logs,12,NO
+yinka_ojora,Yinka Ojora,NO,YES,0,0,0,black_book,0,NO
+yoshi_nishio,Yoshi Nishio,NO,YES,0,0,0,black_book,0,NO
+yves_pickardt,Yves Pickardt,YES,NO,1,0,1,flight_logs,12,NO
+zandy_forbes,Zandy Forbes,NO,YES,0,0,0,black_book,0,NO
+zina_broukis,Zina Broukis,YES,NO,2,0,2,flight_logs,24,NO
+zipora_koppel,Zipora Koppel,YES,NO,1,0,1,flight_logs,12,NO

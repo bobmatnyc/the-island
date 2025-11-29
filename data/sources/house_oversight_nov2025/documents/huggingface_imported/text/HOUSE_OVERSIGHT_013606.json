@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013606",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013606.txt",
+  "text": "2? +0 x 2'+0 x 2°(in which the last term, arbitrarily, is 2° = 1, since anything to\nthe power O = 1). This can be written even more simply as a series of 0’s or 1’s,\ntheir presence indicating whether the power represented by each place in the left to\nright descending sequence of powers of two participates in the sum of the partition.\nIt is in this way that in binary numbers, 100 = 110010. As another example, if we\nsimilarly partition the decimal number 729 = 512 (2°) + 128 (2”) + 64 (2°) + 16 (2°) +\n8 (2°) + 1(2°), we find that its binary transformation results in 729 = 1011011001,\nthe 0’s representing the descending powers of two that are absent in the powers of\ntwo partition. One can compute the binary representations of lower valued numbers\nimmediately; for example, 4 = 1 x 27 +0 x 2'+0 x 2°s0 that there is a 1 in the\nmultiply-the-power-of- two column and 0 the power 1 and power O columns so in\nbinary representation, 4 = 100. Similarly, 6 = 1 x 22+ 1 x 2'+0 x 2° making the\nbinary transformation of 6 = 110.\n\nIt was the co-inventor (with Isaac Newton) of the calculus, Gottfried Wilhelm\nLeibniz, in about 1665, who fully developed the binary representation of all decimal\nnumbers. |n a state of wonderment about the simplicity, power and completeness of\nthis 1 and 0 encoding, he is said to have the beliefs that 0 symbolized the\nemptiness of the universe’s beginnings, 1 represented the complete fullness of God\nand that this transformation served as metaphoric evidence consistent with God’s\ncreation of the universe out of nothing.\n\nThe simplicity of binary expressions as in the dynamics of hard spheres or\nrotations on the circle as well as the transformations such as 729 = 1011011001\nmake them propitious for exemplifying the methods for computing the entropies of\nthe growth rate of the possible, called the topological entropy, Hr, and the probable,\nthe metric entropy, Hy, which was introduced in a previous chapter called “Sensual\nIn-Between Entropies.” The following exemplify the computations of measures of\ntopological and metric entropies, Hr and Hy, another computable idea called\nalgorithmic complexity, AC and finally, the well known (to statisticians) standard run\nscore, src. Their descriptions have as their purpose a demonstration for the reader\nthat these apparently abstract, perhaps nebulous sounding, words can be\n\ntransformed into well-defined, concrete, quantitative and computable form of reality.\n\n106\n\nHOUSE_OVERSIGHT_013606",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013606.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2472,
+    "word_count": 419,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:49.176751",
+    "prefix": "IMAGES-002"
+  }
+}

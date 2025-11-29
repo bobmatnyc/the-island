@@ -1,0 +1,201 @@
+# API Endpoints for Entity Similarity Search
+# Insert these after the get_entity_connections endpoint (around line 1536)
+
+@app.get("/api/entities/{entity_id}/similar")
+async def get_similar_entities(
+    entity_id: str,
+    limit: int = Query(10, ge=1, le=20),
+    min_similarity: float = Query(0.0, ge=0.0, le=1.0),
+    username: str = Depends(get_current_user)
+):
+    """Get entities similar to the specified entity based on biography text.
+
+    Uses semantic similarity search on entity biography embeddings in ChromaDB.
+    Finds entities with similar roles, activities, and connections based on
+    biographical text content.
+
+    Args:
+        entity_id: Entity ID (e.g., "jeffrey_epstein")
+        limit: Maximum number of similar entities to return (default: 10, max: 20)
+        min_similarity: Minimum similarity threshold 0.0-1.0 (default: 0.0)
+
+    Returns:
+        List of similar entities with:
+        - entity_id: Entity identifier
+        - display_name: Display name
+        - similarity_score: Similarity score (0-1, higher = more similar)
+        - primary_category: Main relationship category
+        - quality_score: Biography quality score
+        - biography_excerpt: First 200 chars of biography
+
+    Example Response:
+        {
+          "entity_id": "jeffrey_epstein",
+          "display_name": "Jeffrey Epstein",
+          "similar_entities": [
+            {
+              "entity_id": "ghislaine_maxwell",
+              "display_name": "Ghislaine Maxwell",
+              "similarity_score": 0.6003,
+              "primary_category": "associates",
+              "quality_score": 0.95,
+              "biography_excerpt": "British socialite and convicted..."
+            }
+          ],
+          "count": 1
+        }
+
+    Error Handling:
+        - 404: Entity not found in vector store
+        - 500: ChromaDB or embedding model error
+    """
+    try:
+        # Get entity similarity service
+        similarity_service = get_entity_similarity_service()
+
+        # Find similar entities
+        similar_entities = similarity_service.find_similar_entities(
+            entity_name=entity_id,
+            limit=limit,
+            min_similarity=min_similarity
+        )
+
+        return {
+            "entity_id": entity_id,
+            "similar_entities": similar_entities,
+            "count": len(similar_entities)
+        }
+
+    except ValueError as e:
+        # Entity not found
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        logger.error(f"Error finding similar entities for '{entity_id}': {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to find similar entities: {str(e)}")
+
+
+@app.get("/api/entities/{entity_id}/similar/by-category")
+async def get_similar_entities_by_category(
+    entity_id: str,
+    limit: int = Query(20, ge=1, le=50),
+    username: str = Depends(get_current_user)
+):
+    """Get similar entities grouped by relationship category.
+
+    Finds entities similar to the specified entity and groups them by their
+    primary relationship category. Useful for discovering entity clusters.
+
+    Args:
+        entity_id: Entity ID (e.g., "jeffrey_epstein")
+        limit: Maximum total similar entities to retrieve (default: 20, max: 50)
+
+    Returns:
+        Dictionary mapping category names to lists of similar entities.
+        Each category contains entities sorted by similarity score (descending).
+
+    Example Response:
+        {
+          "entity_id": "jeffrey_epstein",
+          "categories": {
+            "associates": [
+              {
+                "entity_id": "ghislaine_maxwell",
+                "display_name": "Ghislaine Maxwell",
+                "similarity_score": 0.6003
+              }
+            ],
+            "public_figures": [...]
+          },
+          "total_entities": 10
+        }
+
+    Error Handling:
+        - 404: Entity not found in vector store
+        - 500: ChromaDB or embedding model error
+    """
+    try:
+        # Get entity similarity service
+        similarity_service = get_entity_similarity_service()
+
+        # Find similar entities grouped by category
+        by_category = similarity_service.cluster_by_category(
+            entity_name=entity_id,
+            limit=limit
+        )
+
+        # Count total entities
+        total_entities = sum(len(entities) for entities in by_category.values())
+
+        return {
+            "entity_id": entity_id,
+            "categories": by_category,
+            "total_entities": total_entities
+        }
+
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        logger.error(f"Error clustering similar entities for '{entity_id}': {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to cluster similar entities: {str(e)}")
+
+
+@app.get("/api/entities/search/by-text")
+async def search_entities_by_text(
+    query: str = Query(..., min_length=3),
+    limit: int = Query(10, ge=1, le=20),
+    category: Optional[str] = Query(None),
+    username: str = Depends(get_current_user)
+):
+    """Search entities by free text query using semantic similarity.
+
+    Searches entity biographies for semantic matches to the query text.
+    Useful for finding entities by role, activity, or characteristics.
+
+    Args:
+        query: Free text search query (min 3 chars)
+        limit: Maximum results to return (default: 10, max: 20)
+        category: Optional category filter (e.g., "associates", "public_figures")
+
+    Returns:
+        List of matching entities with similarity scores
+
+    Example Response:
+        {
+          "query": "British socialite convicted",
+          "entities": [
+            {
+              "entity_id": "ghislaine_maxwell",
+              "display_name": "Ghislaine Maxwell",
+              "similarity_score": 0.8234,
+              "primary_category": "associates",
+              "biography_excerpt": "British socialite and convicted..."
+            }
+          ],
+          "count": 1
+        }
+
+    Error Handling:
+        - 400: Query too short (< 3 chars)
+        - 500: ChromaDB or embedding model error
+    """
+    try:
+        # Get entity similarity service
+        similarity_service = get_entity_similarity_service()
+
+        # Search by text
+        matching_entities = similarity_service.search_by_text(
+            query_text=query,
+            limit=limit,
+            category_filter=category
+        )
+
+        return {
+            "query": query,
+            "category_filter": category,
+            "entities": matching_entities,
+            "count": len(matching_entities)
+        }
+
+    except Exception as e:
+        logger.error(f"Error searching entities by text '{query}': {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to search entities: {str(e)}")

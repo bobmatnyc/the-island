@@ -1,0 +1,72 @@
+Source _— H\Macintosh HD\ root \Users\jee\Library\Messages\Archive\2018-06-1 7
+
+6n 2018-06-09 at. 18.17.04.ichat
+
+Service: iMessag
+
+Start Time: 06/09/18 03:17:04 PM (550275424)
+
+End Time: 06/17/18 06:24:16 PM (550977856)
+
+Last Message ID: 16484
+
+Chat Room:
+
+Participants: jee, PO
+
+Presentity IDs: e:jeeitunes@gmail.con, i!
+
+Messages -
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 06/09/18 03:17:04 PM (550275424)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: 7536CO7E-8E09-4615-9R03-E2679BB3AFA5
+
+Message: ??
+
+Time: 06/09/18 04:07:04 PM (550278424)
+Flags: 1060865
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: E9F31DA9-6874-4A69-8C4A-7D44696138F2
+
+Message: Will call shortly
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 06/09/18 04:07:27 PM (550278447)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: F74C9FAD-8FOB-45A9-A6B6-B6B427B675C
+
+Gl
+
+Message: K
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 06/09/18 05:09:02 PM (550282142)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: 9H062235-C8C7-4A8C-8FB3-C60497AA2 961
+
+Message: Didn't mean to cut you off , sorry
+
+HOUSE_OVERSIGHT_027281

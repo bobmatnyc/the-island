@@ -1,0 +1,64 @@
+Case 1:20-cr-00330-PAE Document 452-2 Filed 11/12/21 Page 38 of 45
+
+lva A. E. Bicanic et al.
+In addition, adolescents who disclose their rape experience interventions that increase victims’ opportunities to
+at least | month after the incident took place are found receive timely post-rape services.
+to be at higher risk for major depressive disorder and
+delinquency (Broman-Fulks et al., 2007) compared to those Methods
+who disclosed within | month.
+
+Victim—assailant relationship is crucial in disclosure Subjects and data collection
+latency, with victims being at higher risk for delayed dis- Rape was defined as “an event that occurred without the
+closure if there is a close relation with the assailant (Kogan, victim’s consent that involved the use or threat of force in
+2004; Koss, 1988; Rickert, Wiemann, & Vaughan, 2005). vaginal, anal, or oral intercourse” (Tjaden & Thoennes,
+In contrast, delayed disclosure is less common in victims 2006). The definition includes both attempted and com-
+of a stereotypical rape, i.e., rape by a stranger including a pleted rape; the term “completed” referring to vaginal,
+weapon and injury (Smith et al., 2000). Victims of prior oral, anal, or multiple penetrations. Victims who disclosed
+sexual trauma are more likely to postpone disclosure of a within 1 week were defined as “early disclosers,’’ whereas
+subsequent assault than those without prior victimization those who disclosed at least after 1 week were defined as
+(Smith et al., 2000; Ullman, 1996). This is in contrast with “delayed disclosers.” This dichotomization of the variable
+the findings of Ahrens et al. (2010), who report no dif- “disclosure latency” was based on the study of Ahrens
+ference in rates of prior sexual trauma between early and et al. (2010) and the national standard criteria for admis-
+delayed disclosers. In addition, the victim’s age appears sion to a Rape Centre in the Netherlands, i.e., a maximum
+to be an important variable in predicting disclosure. of 7 days post-rape.
+Evidence suggests that young children are at higher risk The study was conducted in the Dutch National
+for delayed disclosure than adolescents (Kogan, 2004; Psychotrauma Centre, which provides psychological ser-
+Schénbucher, Maier, Mohler-Kuo, Schnyder, & Landolt, vices for rape victims aged 12—25 years and their parents.
+2012). Thus, various rape and victim-related character- Between May 2005 and December 2011, the centre re-
+istics have been found to be associated with timing of ceived 621 phone calls concerning alleged rape victims
+disclosure. from police authorities, mental health services, and self-
+
+The majority of the aforementioned studies included referrals. In 178 cases, the phone call did not result in
+college and adult female rape victims. It is important to admission at the centre because of age limitations, or
+examine rape disclosure latency in an age and sex group motivational reasons. In 108 cases, referrals were made to
+that is most at risk for rape victimization. There is only other institutions because the index trauma was chronic
+one prior quantitative study in adolescents (those aged childhood sexual abuse rather than rape in adolescence/
+12-17 years) that identified factors that might influence young adulthood. Of the 335 cases admitted to the centre,
+disclosure latency (Kogan, 2004). He found that identity 12 were not included in this study because of male gender,
+of the assailant, a familial relationship with the assailant, resulting in a final sample of 323 females with the index
+and a history of drug abuse in the household were related trauma being single rape. Referral sources for this final
+to the timing of disclosure. The results suggested that sample included the police (33.7%), mental health services
+a familial relationship with the assailant will postpone (40.7%), and self-referrals, i.c., victims or parents (25.6%).
+disclosure, whereas a history of drug abuse in the house-
+hold, albeit this seems counterintuitive, makes prompt Procedure
+disclosure more likely. This study had some limitations, During admission, all patients underwent a psychological
+including the fact that the interviews were conducted by assessment, consisting of 1) a structured interview for
+telephone and that the description of the relationship with obtaining demographic and post-rape characteristics and
+the assailant was limited. Therefore, in the present study, 2) self-report questionnaires to obtain information about
+we investigated a sample of female adolescent and young mental health functioning. Information from the inter-
+adult victims of rape who were admitted to a specialized view was transcribed onto a form designed for this
+mental health centre for victims of sexual assault. The first purpose. The following variables were obtained and
+aim of this study was to compare demographics, post-rape dichotomized or categorized for the purpose of the study:
+characteristics, and psychological functioning between
+early and delayed disclosers in this group. The second aim, Demographic and victim characteristics
+based on the exploratory findings of Kogan (2004), was to We asked patients about their current age, educational
+determine the predictors for delayed disclosure in adoles- level (lower, middle, or higher), and whether they were of
+cents and young adults, including age, prior trauma, and Dutch origin (1.e., in case of having parents born in the
+victim—assailant relationship using logistic regression Netherlands). Those between 12 and 17 years of age were
+analyses. Insight into the predictors for delayed disclosure defined as adolescents and those between 18 and 25 years
+for adolescents and young adults may reveal not only of age as young adults. We also asked whether the patient
+potential causal mechanisms but also possible targets for was living with their parent(s) (yes/no), and whether the
+
+2. number not for citation purpose) Citation: European Journal of Psychotraumatology 2015, 6: 25883 _ http://dx.doi.org/10.3402/ejpt.v6.25883
+
+DOJ-OGR-00006873

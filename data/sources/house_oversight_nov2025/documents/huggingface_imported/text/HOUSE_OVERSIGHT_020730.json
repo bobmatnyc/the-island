@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_020730",
+  "filename": "IMAGES-006-HOUSE_OVERSIGHT_020730.txt",
+  "text": "#10\n\nHOUSE_OVERSIGHT_020730",
+  "metadata": {
+    "original_filename": "IMAGES-006-HOUSE_OVERSIGHT_020730.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 27,
+    "word_count": 2,
+    "line_count": 3,
+    "import_date": "2025-11-19T21:47:44.404370",
+    "prefix": "IMAGES-006"
+  }
+}

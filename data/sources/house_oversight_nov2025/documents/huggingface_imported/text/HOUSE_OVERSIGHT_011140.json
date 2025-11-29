@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011140",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011140.txt",
+  "text": "as the application of (A3.5) to human capital. This confirms the traditional view\n\n(A5.1) if (A5.5) is right in interpreting prior claims on pay as zero.\n\nIf 1 was wrong there, and Quesnay and the physiocrats were right, some\n\nmaintenance consumption would be recovered in revenue of its suppliers. Then I\nshould have written something like C=C_+C_ +C, , where “transfer consumption”\nC,_ was the value recovered by suppliers. This mathematical possibility, which I do\n\nnot claim to have disproved, explains why I do not claim that the pay rule is logical\ncertainty as a whole. | claim certitude only for its most surprising feature: human\ndepreciation is expected to be recovered in pay. The rest follows only if (A5.5) is\n\nright as I think it is. Meanwhile (A5.5) also gives\n\nC=C,+C,, (A5.8)\nwhere C is consumption.\nSaved work W. means the self-invested output of human capital. It includes the\nsubliminal and effortless work of job experience as well as the effort and\n\nopportunity cost of literal schooling, and also includes any free growth of human\n\ncapital. Then\n\nW=W,+W.. (A5.9)\n\nThe growth truism (A4.3) for human capital becomes\n\nH=C,.+W_(> 0)—D(H)=C, +W, — D(H), . (A5.10)\nHuman Capital as Present Value\nNote\nAPPENDIX A: The Argument in Notation 3/7/16 14.\n\nHOUSE_OVERSIGHT_011140",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011140.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1290,
+    "word_count": 210,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:47.197950",
+    "prefix": "IMAGES-001"
+  }
+}

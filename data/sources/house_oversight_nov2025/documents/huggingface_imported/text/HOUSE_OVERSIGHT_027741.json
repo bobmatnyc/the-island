@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027741",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027741.txt",
+  "text": "Time: 05/25/19 04:38:22 AM (580477102)\n\nFlags: 1085445\nTs Read: No\nIs Invitation: No\n\nGUID:\n\nMessage:\n\n05/25/19 06:28:43 AM\n\nwhen do you arrive paris\n\nTime: (580483723)\n\nFlags: 1126401\nIs Read: Yes\nIs Invitation: No\n\nOLABF8 9E\n\nT,\n\nGUID:\n\nMessage:\n\nsender:\n\n05/25/19 06:29:16 AM\n\nHeading to meeting @ Cannes\n\nTime: (580483756)\n\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nDFS8CEA1-3922-4504-A58C-22AFCO4FDC11\n\nFB8C-4CD7-8797-5D3F4A3DCFE2\n\ntonight Paris tomorrow night\n\nGUID:\n\nMessage: Just in from Kazakhstan\n\nTime: 05/25/19 06:29:16 AM (580483756)\n\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 5891E83B\n\nMessage: Landing now from Kazakhstan\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/25/19 06:42:43 AM (580484563)\n\nFlags: 1085445\n\nITs Read: No\n\n496CDFOD-OF62-4B2F-B8D5-95BE2B5E3FC5\n\nESBF-4D7D-8C09-CE926DD36D74\n\nIs Invitation: No\n\nGUID: 704D50D1-65E5-4992-BAFB-D6D2EE5D016C\nMessage: Was it interesting\n\nSenders PF\n\nTime: 05/25/19 06:43:54 AM (580484634)\nFlags: 1060865\n\nHOUSE_OVERSIGHT_027741",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027741.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1004,
+    "word_count": 122,
+    "line_count": 85,
+    "import_date": "2025-11-19T21:47:44.391607",
+    "prefix": "IMAGES-009"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00021993.pdf",
+  "ocr_date": "2025-11-16T21:48:03.817747",
+  "text_length": 755,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "jessica.lonergan@usdoj.gov"
+  ]
+}

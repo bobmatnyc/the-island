@@ -1,0 +1,71 @@
+
+COMPLETE ENTITY CLEANUP REPORT (TWO-PASS)
+==========================================
+Timestamp: 2025-11-17 15:46:55
+Backup Location: /Users/masa/Projects/epstein/data/backups/cleanup_20251117_154655
+
+STATISTICS
+----------
+Pass 1 - Entity Keys Cleaned: 1
+Pass 2 - Nested References Fixed: 0
+OCR Artifacts Removed: 0
+Entity Data Merged: 0
+Entities Deleted: 0
+
+KNOWN FIXES APPLIED
+-------------------
+  ✗ 'Baby Baby' → REMOVED
+  ✓ 'Epstein Je' → 'Epstein, Jeffrey'
+  ✓ 'Epstein, Je Je' → 'Epstein, Jeffrey'
+  ✓ 'Ghislaine Ghislaine' → 'Maxwell, Ghislaine'
+  ✓ 'Illegible Illegible' → 'Illegible'
+  ✓ 'Je Epstein' → 'Epstein, Jeffrey'
+  ✓ 'Je Je' → 'Epstein, Jeffrey'
+  ✓ 'Nadia Nadia' → 'Marcinkova, Nadia'
+  ✗ 'No No' → REMOVED
+  ✗ 'Passengers, No No' → REMOVED
+  ✓ 'Reposition Reposition' → 'Reposition'
+  ✓ 'Virginia Virginia' → 'Roberts, Virginia'
+  ✓ 'Virginia Virginia Roberts' → 'Roberts, Virginia'
+
+
+OCR ARTIFACTS DETECTED (0)
+--------------------------------------------------
+
+
+WHAT WAS CLEANED
+----------------
+Pass 1: Entity keys in entity_statistics.json
+- Removed whitespace-padded duplicates
+- Merged duplicate entity data
+- Applied known fixes (Epstein, Maxwell, Nadia, etc.)
+
+Pass 2: Nested entity references
+- Updated top_connections[].name fields
+- Cleaned name_variations[] arrays
+- Ensured all entity references use canonical names
+
+SUMMARY
+-------
+All OCR artifacts and duplicate entity patterns have been eliminated.
+Entity references throughout the dataset now use canonical names.
+
+Original file backed up to: /Users/masa/Projects/epstein/data/backups/cleanup_20251117_154655
+
+To restore from backup if needed:
+  cp /Users/masa/Projects/epstein/data/backups/cleanup_20251117_154655/entity_statistics.json /Users/masa/Projects/epstein/data/metadata/
+
+NEXT STEPS
+----------
+1. Restart server on port 8081 to reload clean data:
+   kill -9 $(lsof -ti:8081)
+   cd server && python3 app.py 8081 > /tmp/epstein_8081.log 2>&1 &
+
+2. Verify in UI:
+   - No "Je Je" or "Je        Je Epstein" variants
+   - No whitespace-padded names anywhere
+   - Entity connections use clean names
+   - Search works correctly
+
+3. Delete backup after verification (optional):
+   rm -rf /Users/masa/Projects/epstein/data/backups/cleanup_20251117_154655

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028405",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_028405.txt",
+  "text": "ebe9c9b144d9\", \"“imageIdentifier\":\"f589f0963b351d47bf2abea96a46d9d2\", \"type\": \"image\"™},\"d3b\nca6d7-ba9a-4e70-afe6-aab62d0ecalcfi\": {\"URL\":\"asset://d3bca6d7-ba9a-4e70-afe6\naa6é2d0ecalcf\", \"classification\": \"font\",\"fileSize\":0, \"fontAttributes\": {\"familyName\":\"NYTI\n\nmperial\nRegular\", \"style\":\"italic\", \"weig\n\nnc\n\n1\n\n2400, \"width\": \"normal\"}, \"fontName\": \"NYTImperial-\n\nItalic\", \"identifier\": \"d3bca6d/-ba%a-4e70-afeb-aab2d0ecalci\", \"type\": \"font \"}, \"f27ac487-\n\n930-47d2-9786-73c838c14932\":{\"\n\nURL\": \"asset://f£27ac487-e930-47d2-9786\n\n730838¢c14932\",\"classification\": \"font\", \"fileSize\":0,\"fontAttributes\": {\"familyName\":\"NYTI\n\nmperial\n\nRegular\", \"style\": \"normal\", \"weig\nRegular\", \"identifier\": \"f£27ac487\nOe0f-422b-ab24-12513a64cec3e\":{\"\n\nheltenham\nMedium\", \"style\": \"italic\", \"weigh\n\nBoldItalic\", \"identifier\": \"£d989419-Oe0f-422b-ab24\n\nht\"\n\n:400,\"width\":\"normal\"}, \"fontName\": \"NYTImperial-\n\nIt,\n\n930-47d2-9786-73c838c14932\", \"type\": \"font\"}, \"£d989419-\nURL\": \"asset://£d989419-Oe0f-422b-ab24\n12513a64cc3c\", \"classification\": \"font\", \"fileSize\":0,\"fontAttributes\": {\"familyName\":\"NYTC\n\n700, \"width\": \"normal\"}, \"fontName”™: \"NYTCheltenham-—\n\n12513a64cc3c\", \"type\": \"font\"}},\"specVersion\"™:\"1.6\",\"subtitle™:\"\",\"textStyles\":{\" anf-ts-\ni\": {\"fontName\":\"NYTImperial-Regular\", \"identifier\":\" anf-ts-1\"},\"_anf-ts-\n\n36\": {\"fontAttributes\":{\"style\":\"italic\"}, \"fontName\": \"NYTImperial-\n\nItalic\", \"identifier\":\" anf-ts-36\"},\"_ anf-ts-69\":{\"fontName\":\"NYTFranklin-\n\nMedium\", \"identifier\":\" anf-ts-69\"},\" anf-ts-\n\n71\":{\"fontAttributes\": {\"weightLabel\":\"bolder\"}, \"fontName\": \"NYTFranklin-\n\nBold\", \"identifier\":\" anf-ts-71\"}, \"photo-credit\"™: {\"fontName\"™:\"NYTCheltenhamSH-\nRegular\", \"fontSize\":12, \"identifier\": \"photo-credit\", \"textColor™:\"#999999\"}, \"pub-\ndt\": {\"fontName\": \"NYTCheltenhamSH-Regular\", \"fontSize\":12,\"identifier\":\"pub-\ndt\"}},\"title\":\"Brett Kavanaugh Vows Not to Withdraw After Facing New\n\nAllegations\", \"version\":\"1.0\"}\n\nHOUSE_OVERSIGHT_028405",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_028405.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1952,
+    "word_count": 125,
+    "line_count": 63,
+    "import_date": "2025-11-19T21:47:45.650320",
+    "prefix": "IMAGES-009"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013738",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013738.txt",
+  "text": "multiply periodic and aperiodic oscillations of thalamic and cortical cells and their\nrecursive, feedback coupling, the brain stem manifests more than two orders of\nmagnitude of “independent” neuronal driving frequencies ranging from serotonin\ndischarges at 1 Hz, cortically direct dopamine and norepinephrine neurons in the\n10-50Hz range and mesencephalic reticular neurons discharging as fast as 100 to\n200 Hz. The “thalamocortical brain wave oscillator” as their target has been a fixture\nin global state neurophysiology since the 1940’s and 1950’s and is of great current\ninterest (Fessard et al, 1961; Bazhenov et al, 1998). We have explored the\nrelationships between strange nonchaotic dynamics and brain-stem neuronal and\nthalamocortical physiology from the standpoint of neuronal coding and the\nproperties of the EEG attractor. (Mandell et al, 1991; Mandell and Kelso, 1991;\nMandell and Selz, 1992; 1993;1994:1997a). We found that the EEG attractor could\nbe characterized by the diagnostic triad identifying strange nonchaotic attractors:\nA=0, Do and D, # Integer, and a signatory power spectral distribution in which the\nnumber of peaks, N, with amplitudes greater than ow, N(w ), went as wo\", 1<a <2\n(Romeiras et al, 1987; Mandell et al, 1991). In addition to being consistent with\nknown multifrequency, brain stem driving of thalamocortical oscillations, the EEG as\na strange, nonchaotic attractor is intuitively appealing in that it has the necessary\nmechanisms for the power law scaling of a wide range of characteristic times (Do\nand D, =~ Integer) from picosecond fluctuations of neural membrane proteins to the\ndecades of bipolar phenomena and since 2=0, the orbital points don’t tend to\n\n“mix’(get out of order) on the attractor, thus protecting the fidelity of sequence\n\ndependent brain information transport (Berns and Sejnowski, 1998).\n\nEntropies, Unstable Periodic Orbits and Shadowing; Short Time Series\n\nCan Discriminate Experimental Conditions in Studies of Biological Dynamics\n\nWe avoid the temptation to deal with the deep analogy between\nthermodynamic entropy (Clausius, 1897) and information theoretic entropy\n(Shannon and Weaver, 1949), constraining our discussion to the context of an\n\noperational equivalence (in healthy systems) between gain of information and\n\n238\n\nHOUSE_OVERSIGHT_013738",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013738.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2321,
+    "word_count": 343,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:47.839224",
+    "prefix": "IMAGES-002"
+  }
+}

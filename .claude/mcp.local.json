@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "mcp-ticketer": {
+      "type": "stdio",
+      "command": "/Users/masa/Projects/epstein/.venv/bin/python",
+      "args": [
+        "-m",
+        "mcp_ticketer.mcp.server",
+        "/Users/masa/Projects/epstein"
+      ],
+      "env": {
+        "PYTHONPATH": "/Users/masa/Projects/epstein",
+        "MCP_TICKETER_ADAPTER": "linear",
+        "LINEAR_API_KEY": "lin_api_0YvfATQ0829C44fl71vFOw75SuAinGVzrOGFja48"
+      }
+    }
+  }
+}

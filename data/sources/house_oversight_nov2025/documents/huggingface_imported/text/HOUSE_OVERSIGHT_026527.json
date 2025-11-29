@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026527",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026527.txt",
+  "text": "over time under the assumption that the rate of reproduction within each population\nis proportional to the fitness relative to that type’s other strategies. Since replicator\ndynamics cannot be solved in closed form, they must analyzed using computer simulations\nseeded with randomly chosen strategy frequencies. This method also requires restricting\nthe analysis to a few strategies. Therefore, we run our replicator analysis only on the\nrestricted set of strategies represented in figure 2. While this set of strategies is restricted,\nit includes the potentially destabilizing mutants discussed above.\n\nTo investigate the frequencies in which different equilibria emerge, we randomly seed\nthe strategy frequencies many times and record the frequency of each strategy after the\npopulation has stabilized. Many mixtures of strategies are behaviorally consistent with\nCWOL, for example, if a large enough fraction of player 2s exit when player 1s look then\nno player 1s will look, even if this fraction is less than 1. Thus, we classify population\nfrequencies as being behaviorally equivalent to ALLD, CWL, and CWOL (see appendix\nfor details). We plot the frequencies of each of these for different values of a in figure 3 (see\nappendix for analogous figures for other parameters). As can be seen, CWOL emerges\noften when it is a Nash Equilibrium.\n\nNext, we identify the conditions under which people will be most likely to avoid looking\nand detect looking amongst others. For this, we interpret the conditions under which\nCWOL is the only cooperative equilibrium, because, as we show in the appendix, when one\nallows for mutations, the CWOL equilibrium no longer emerges in dynamic simulations\nwhen both CWOL and CWL are equilibria. Recall that CWL is a Nash equilibrium if\nand only if -+, > cy. This equilibrium condition has a natural interpretation: in order to\nsustain CWL, the long term gains to player 1 from the ongoing relationship must suffice\nfor player 1 to cooperate even when player 1 knows the temptation is high in the current\n\nperiod. Contrast this with the condition that determines if CWOL is an equilibrium:\n\nHOUSE_OVERSIGHT_026527",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026527.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2149,
+    "word_count": 342,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:48.713871",
+    "prefix": "IMAGES-009"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00005131.pdf",
+  "ocr_date": "2025-11-16T21:03:35.456642",
+  "text_length": 3184,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "ClaimantServices@EpsteinVCP.com"
+  ]
+}

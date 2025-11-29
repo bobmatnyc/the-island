@@ -1,0 +1,82 @@
+{"advertisingSettings":{"enabled": true, "frequency":5},"autoplacement": {"advertisement"™:
+{"enabled": true, "frequency":5}},"componentLayouts": {" defaultComponentLayout"™: {"columnR
+ange": {"length":10,"start":0},"identifier":" defaultComponentLayout"}, "articleHeaderCon
+tentLayout": {"columnRange":{"length":10,"start":0},"identifier":"articleHeaderContentLa
+yout", "margin": {"bottom":"20.0pt", "top™:"10.0pt"}}, "articleRubricContentLayout": {"colum
+nRange":{"length":10, "start":0},"identifier":"articleRubricContentLayout", "margin": {"bo
+ttom":"10.0pt", "top"™:"10.0pt"}}, "blockquoteContentLayout"™: {"columnRange"™:{"length":10,"
+start":0},"identifier":"blockquoteContentLayout", "margin": {"bottom"™:"30.0pt", "top™:"0.0
+pt"}}, "blockquoteDividerContentLayout":{"columnRange":{"length":1,"start":0},"identifie
+r":"blockquoteDividerContentLayout", "margin": {"bottom":"10.0pt", "top"™:"0.0pt"}},"bodyCo
+ntentLayout":{"columnRange":{"length":10,"start":0}, "identifier": "bodyContentLayout", "m
+argin":{"bottom"™:"20.0pt", "top":"0.0pt"}}, "bylineContentLayout":{"columnRange":{"length
+":10,"start":0},"identifier":"bylineContentLayout", "margin": {"bottom"™:"0.0pt", "top"™:"0.
+Opt"}},"dividerShortContentLayout"™: {"columnRange": {"length":1,"start":0},"identifier":"
+dividerShortContentLayout", "margin": {"bottom":"20.0pt", "top":"0.0pt"}},"dividerwithTitl
+eContentLayout": {"columnRange":{"length":10,"start":0}, "identifier": "dividerWithTitleCo
+ntentLayout", "margin": {"bottom":"7.0pt", "top": "0.0pt"}},"featureArticleHeaderContentLay
+out": {"columnRange":{"length":10,"start":0}, "identifier": "featureArticleHeaderContentLa
+yout", "ignoreDocumentMargin": "both", "margin": {"bottom":"0.0pt", "top": "0.0pt"}}, "feature
+LedeBylineContentLayout": {"columnRange": {"length":10,"start":0},"identifier":"featureL
+deBylineContentLayout", "margin": {"bottom":"10.0pt", "top": "0.0pt"}}, "featureLedePhotoCon
+tentLayout": {"columnRange":{"length":10,"start":0}, "identifier": "featureLedePhotoConten
+tLayout", "ignoreDocumentMargin":"both", "margin": {"bottom":"20.0pt", "top™:"0.0pt"}}, "ima
+geGalleryImageContentLayout":{"columnRange":{"length":10,"start":0},"identifier":"image
+GalleryImageContentLayout", "ignoreDocumentMargin": "both", "margin": {"bottom":"40.0pt"™, "t
+op":"0.0pt"}}, "photoContainerContentLayout": {"columnRange"™: {"length":10,"start":0}, "ide
+ntifier":"photoContainerContentLayout", "ignoreDocumentMargin":"both"}, "photoContentLayo
+ut": {"columnRange":{"length":10,"start":0}, "identifier": "photoContentLayout", "ignoreDoc
+umentMargin": "both", "margin": {"bottom":"10.0pt", "top": "0.0pt"}}, "pullquoteAttributionCo
+ntentLayout":{"columnRange": {"length":10,"start":0},"identifier":"pullquoteAttributionc
+ontentLayout", "margin": {"bottom":"25.0pt", "top ™:"10.0pt"}}, "pullquoteBodyContentLayout"
+:{"columnRange": {"length":10,"start":0},"identifier": "pullquoteBodyContentLayout", "marg
+in": {"bottom":"25.0pt", "top": "0.0pt"}}, "singleRelatedStoryHeadingContentLayout": {"colum
+nRange":{"length":10, "start":0}, "identifier": "singleRelatedStoryHeadingContentLayout","
+margin": {"bottom"™:"5.0pt", "top"™:"0.0pt"}}, "sponsoredLogoContentLayout": {"columnRange": {
+"length":1,"start":0},"identifier":"sponsoredLogoContentLayout", "margin": {"bottom"™:"5.0
+pt", "top": "0.0pt"}}},"componentStyles":{"dividerStrokeStyle": {"border":{"top":{"color"™:
+"#tddd", "width"™:"1.0pt"}}, "identifier": "dividerStrokeStyle"}, "productButtonStyle"™: {"back
+groundColor™: "#111", "identifier": "productButtonStyle"}}, "componentTextStyles":{"article
+RubricTextstyle": {"fontName":"Chap-
+Semibold","fontSize":11, "identifier": "articleRubricTextStyle", "textColor™:"#222","textT
+ransform": "uppercase", "tracking":0.2},"default": {"fontName": "Georgia", "identifier": "def
+ault","linkStyle™: {"textColor™:"#1782a9"},"textColor"™:"#111"}, "default-
+
+body": {"fontSize":17, "identifier": "default-body", "lineHeight":27},"default-
+
+byline": {"fontName":"Chap-Regular", "fontSize":12, "identifier": "default
+
+byline", "lineHeight"™:14, "textColor™: "#000", "tracking"™:0.1},"default-
+
+caption": {"fontName": "Chap-Regular", "fontSize":12,"identifier":"default
+
+caption"}, "default-intro": {"fontName":"Canela-
+
+hight", "fLontS1zé6":33, "identitier”™ :"defauLe
+
+intro", "lineHeight":35, "textColor"™:"#9b9b9b"}, "default-pullquote™: {"fontName"™: "Canela-
+Medium", "fontSize":36, "identifier": "default
+
+pullquote", "textAlignment"™:"center"}, "default-
+
+quote": {"fontName":"ArialMT", "fontSize":16, "identifier": "default
+
+quote", “lineHeight":25,"textColor"™:"#5a5a5a"}, "default-title™: {"fontName"™: "Canela-
+Light", "fontSize":52,"identifier": "default
+
+title", "lineHeight":54},"disclaimerTextStyle": {"fontName": "Chap-
+Regular", "fontSize":12, "identifier": "disclaimerTextStyle", "lineHeight":14, "textColor"™:"
+111"},"dividerTitleTextstyle": {"fontName"™: "Canela-
+Light", "fontsize":42,"identifier":"dividerTitleTextsStyle", "lineHeight":44}, "featureLede
+BylineTextStyle": {"fontName":"Chap-
+Regular", "identifier": "featureLedeBylineTextStyle", "lineHeight":18, "tracking":0.1},"fea
+tureLedeSecondaryBylineTextStyle": {"fontName": "Chap-
+
+Regular", "identifier": "featureLedeSecondaryBylineTextStyle", "lineHeight":18,"textColor"
+:"#999","tracking":0.1},"productCtaTextStyle"™: {"fontName™: "Chap-
+
+Semibold", "fontSize":16, "identifier": "productCtaTextstyle", "linkStyle":{"textColor":"#f
+f£"},"textAlignment"™: "center", "textColor":"#fff","textTransform": "uppercase", "tracking"
+20.2}, "productDetailTextstyle": {"fontName":"Chap-
+
+HOUSE_OVERSIGHT_028440

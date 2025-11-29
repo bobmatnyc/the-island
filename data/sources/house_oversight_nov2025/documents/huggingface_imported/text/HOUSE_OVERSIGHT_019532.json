@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019532",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019532.txt",
+  "text": "CHAPTER 5\nCrossing the Rubicon\n\nWhat I came to feel is that a regime that is described as a national\nsecurity agency has stopped representing the public interest and\nhas instead begun to protect and promote state security interests.\n\n—EDWARD SNOWDEN, Moscow, 2014\n\nS OON AFTER Snowden failed to get an SES job at the NSA in Sep-\ntember 2012, he intensified his rogue activities. As we've seen,\npart of Snowden’s job as a system administrator under contract to\nDell was transferring files held at Fort Meade to backup computers\nin Hawaii. He “was moving copies of that data there for them,” said\nDeputy Director Ledgett, “which was perfect cover for stealing the\n[NSA] data” through the fall and winter of 2012. The security mea-\nsures at the Hawaii base presented no obstacles to him because, as\na system administrator, he had privileges that allowed him to copy\ndocuments that had not been encrypted. Indeed, it was part of the\nprocess of building the backup system. The flaw he had pointed to\nin Japan, in which system administrators working solo could safely\nsteal files, also existed in Hawaii, as we know. This time, however,\ninstead of bringing it to the attention of the NSA, he used it to steal\nfiles.\n\nSnowden could be confident that his thefts of documents would\ngo undetected. Real-time auditing of the movement of documents,\n\n| | Epst_9780451494566_2p_all_r1.z.indd 44 ® 9/29/16 5:51 Pa | |\n\nHOUSE_OVERSIGHT_019532",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019532.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1426,
+    "word_count": 240,
+    "line_count": 31,
+    "import_date": "2025-11-19T21:47:44.281350",
+    "prefix": "IMAGES-005"
+  }
+}

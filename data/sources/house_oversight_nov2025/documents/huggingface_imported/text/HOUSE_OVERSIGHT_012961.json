@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012961",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012961.txt",
+  "text": "3.4 The General Structure of Cognitive Dynamics: Analysis and Synthesis 45\n\ninitial focus\n(concepts, procedures,\ninference rules, etc.)\n\nFig. 3.1: The General Process of Synthesis\n\n3. Use the newly found constructions of the components in the current pool, to update the\nquantitative properties of the components in the current pool, and also (via the current\npool) the quantitative properties of the components in the initial pool\n\n4, Out of the components found in Step 2, select the ones that seem most promising according\nto the goal function, and add these to the current pool (or else simply define these as the\ncurrent pool)\n\n5. Return to Step 2\n\nMore formally, synthesis may be specified as follows. Let X denote the set of combinators,\nand let Yp denote the initial pool of components (the initial focus of the cognitive process).\nGiven Y;, let Z; denote the set\n\nReduce(Join(C;(1), ..., Ci(r)))\n\nwhere the C; are drawn from Y; or from X. We may then say\n\nYi41 = Filter(Z;)\n\nwhere Filter is a function that selects a subset of its arguments.\n\nAnalysis, on the other hand, begins with a set W of components, and a set X of combinators,\nand tries to find a series Y; so that according to the process of synthesis, Y,=W.\n\nIn practice, of course, the implementation of a synthesis process need not involve the explicit\nconstruction of the full set Z;. Rather, the filtering operation takes place implicitly during the\nconstruction of Y;;1. The result, however, is that one gets some subset of the compounds pro-\nducible via joining and reduction from the set of components present in Y; plus the combinators\nXxX,\n\nHOUSE_OVERSIGHT_012961",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012961.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1641,
+    "word_count": 276,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:47.321384",
+    "prefix": "IMAGES-002"
+  }
+}

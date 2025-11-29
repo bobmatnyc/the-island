@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015707",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015707.txt",
+  "text": "Mind over Computer 17\n\nIn 1935, Turing was made a Fellow\nof King’s College, Cambridge, and became\ninterested in whether mathematical\nproofs could be found automatically.\nHe wanted to know whether solving a\nmathematical puzzle was simply a matter\nof working through all the possibilities in a\nmethodical manner, or whether something\nmore subtle was required. Although chess\nis a fantastically complex game, it is finite,\na big enough, fast enough computer can\nplay the perfect game. Is this the case\nwith discovering knowledge? Could a big\nenough, fast enough computer calculate all\nthe knowledge in the Universe? Is Douglas\nAdams’ fabled computer Deep Thought a\npossibility, able to calculate the answer to\nthe ultimate question of ‘life, the Universe\nand everything, albeit with a more\nenlightening answer than 42?\n\nTuring boiled down the process\nof pencil and paper computation to a = Model of the Antikythera\nsystematic program — a computer program. Mechanism\nHe proposed a thought experiment where he would run every possible\nprogram and see if such a procedure would yield the solution to every\nimaginable mathematical problem. He was able to show this would lead\n\nto a paradox and concluded the universal problem solver could not exist.\nHis discovery is one of the most important of the 20\" century — in the\nsame league as relativity and quantum mechanics - and I will use it as\nmy main tool in trying to explain the difference between brains and\ncomputers.\n\nAlthough Turing’s original paper was not intended as a blueprint\nfor a practical device, he was one of those rare mathematicians who also\nliked to tinker with real world machines. The outbreak of the Second\nWorld War made the practical application of his work very important,\nand in Chapter 8 I will relate some of the code breaking stories that were\nto make him famous and caused Churchill to credit him with shortening\nthe war by two years.\n\nCalling Turing’s work an ‘invention’ is probably the wrong term;\n‘discovery might be more appropriate. Whatever you call it, people\nimmediately equated human brains with computers. This is not new.\n\nHOUSE_OVERSIGHT_015707",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015707.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2130,
+    "word_count": 352,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:46.885131",
+    "prefix": "IMAGES-003"
+  }
+}

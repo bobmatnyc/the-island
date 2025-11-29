@@ -1,0 +1,1712 @@
+{
+  "metadata": {
+    "generated": "2025-11-25T06:55:50.220566",
+    "tier": 2,
+    "tier_name": "Medium-High Priority (Short Term)",
+    "tier_description": "Flight logs OR network connections OR 1 document mention",
+    "total_entities": 70
+  },
+  "entities": {
+    "larry_morrison": {
+      "id": "larry_morrison",
+      "name": "Larry Morrison",
+      "name_variations": [
+        "Larry Morrison",
+        "Larry Morrison"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 95,
+      "connection_count": 33,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "b55f8428-e4eb-5d50-9f98-5f5ac226e7e0"
+    },
+    "female_1": {
+      "id": "female_1",
+      "name": "Female (1)",
+      "name_variations": [
+        "Female (1)",
+        "Female (1)"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 120,
+      "connection_count": 20,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "c6d12d08-459f-51e8-9ce0-498efa7290e3"
+    },
+    "brent_tindall": {
+      "id": "brent_tindall",
+      "name": "Brent Tindall",
+      "name_variations": [
+        "Brent Tindall",
+        "Brent Tindall"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 60,
+      "connection_count": 16,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "25b15aef-b126-5d32-bc21-85d812961d9a"
+    },
+    "paula_epstein": {
+      "id": "paula_epstein",
+      "name": "Paula Epstein",
+      "name_variations": [
+        "Paula Epstein",
+        "Paula Epstein"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00002517.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 11,
+      "connection_count": 6,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "a3a3701d-7810-5f04-99d5-1b96d95d811e"
+    },
+    "naomi_campbell": {
+      "id": "naomi_campbell",
+      "name": "Naomi Campbell",
+      "name_variations": [
+        "Naomi Campbell",
+        "Naomi Campbell"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022930.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 5,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "522f85f0-3f11-5eae-806b-711f823ea064"
+    },
+    "leon_black": {
+      "id": "leon_black",
+      "name": "Leon Black",
+      "name_variations": [
+        "Leon Black",
+        "Leon Black"
+      ],
+      "in_black_book": true,
+      "is_billionaire": true,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022672.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "c0471859-5bbb-577c-ac8b-b85ca9388706"
+    },
+    "luc_brunel": {
+      "id": "luc_brunel",
+      "name": "Luc Brunel",
+      "name_variations": [
+        "Luc Brunel",
+        "Luc Brunel"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 30,
+      "connection_count": 12,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "ee17e9ef-9a76-53b9-9091-5a2e0db27ef5"
+    },
+    "joel_pashcow": {
+      "id": "joel_pashcow",
+      "name": "Joel Pashcow",
+      "name_variations": [
+        "Joel Pashcow",
+        "Joel Pashcow"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 12,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "3efd3ac5-d2d1-512d-975d-bdd7b8fa4f42"
+    },
+    "mandy_ellison": {
+      "id": "mandy_ellison",
+      "name": "Mandy Ellison",
+      "name_variations": [
+        "Mandy Ellison",
+        "Mandy Ellison"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 10,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "02fd73a4-a0b3-5ba7-b736-ed50af08721f"
+    },
+    "chauntae_davies": {
+      "id": "chauntae_davies",
+      "name": "Davies, Chauntae",
+      "name_variations": [
+        "Davies, Chauntae",
+        "Chauntae Davies"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00000681.txt",
+          "type": "text",
+          "mentions": 3,
+          "context": null
+        }
+      ],
+      "flight_count": 12,
+      "connection_count": 7,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "b6f43954-3dfc-5e55-b7b0-d2dabf7d47ba"
+    },
+    "robin_plant": {
+      "id": "robin_plant",
+      "name": "Robin Plant",
+      "name_variations": [
+        "Robin Plant",
+        "Robin Plant"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 6,
+      "connection_count": 5,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "89101bf8-bf3a-52b7-b495-5c5d454747c0"
+    },
+    "joseph_pacano": {
+      "id": "joseph_pacano",
+      "name": "Joseph Pagano",
+      "name_variations": [
+        "Joseph Pagano",
+        "Joseph Pacano"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 5,
+      "connection_count": 5,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "a0de223b-826f-562b-89f2-f0ba00c3258e"
+    },
+    "melinda_luntz": {
+      "id": "melinda_luntz",
+      "name": "Melinda Luntz",
+      "name_variations": [
+        "Melinda Luntz",
+        "Melinda Luntz"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 6,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "baaed2be-196d-5e4f-b95f-57a80edd23b7"
+    },
+    "shannon_healy": {
+      "id": "shannon_healy",
+      "name": "Shannon Healy",
+      "name_variations": [
+        "Shannon Healy",
+        "Shannon Healy"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 4,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "685bf7f3-d95a-5059-ad6a-b05aaee3cf29"
+    },
+    "jeffrey_schantz": {
+      "id": "jeffrey_schantz",
+      "name": "Jeffrey Schantz",
+      "name_variations": [
+        "Jeffrey Schantz",
+        "Jeffrey Schantz"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 4,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "981dde79-ab3c-55da-840e-567a4ae9ec97"
+    },
+    "cristalle_wasche": {
+      "id": "cristalle_wasche",
+      "name": "Cristalle Wasche",
+      "name_variations": [
+        "Cristalle Wasche",
+        "Cristalle Wasche"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "5c157a30-23bb-540c-9e4d-2c97bf4a865f"
+    },
+    "felicia_taylor": {
+      "id": "felicia_taylor",
+      "name": "Felicia Taylor",
+      "name_variations": [
+        "Felicia Taylor",
+        "Felicia Taylor"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "022a8075-7004-5fce-8a56-b5fbba15b486"
+    },
+    "frederic_fekkai": {
+      "id": "frederic_fekkai",
+      "name": "Frederic Fekkai",
+      "name_variations": [
+        "Frederic Fekkai",
+        "Frederic Fekkai"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book",
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": true,
+      "guid": "f095402f-3a00-5f15-b2b7-648d4ece82eb"
+    },
+    "jordan_dubin": {
+      "id": "jordan_dubin",
+      "name": "Jordan Dubin",
+      "name_variations": [
+        "Jordan Dubin",
+        "Jordan Dubin"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 21,
+      "connection_count": 8,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "0ae5ee62-7556-57c7-824b-086173326aab"
+    },
+    "magale_blachou": {
+      "id": "magale_blachou",
+      "name": "Blachou, Magale",
+      "name_variations": [
+        "Blachou, Magale",
+        "Magale Blachou"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 19,
+      "connection_count": 9,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "867092d3-9007-576d-b18b-97ae3b17c4dd"
+    },
+    "peter_rathgeb": {
+      "id": "peter_rathgeb",
+      "name": "Peter Rathgeb",
+      "name_variations": [
+        "Peter Rathgeb",
+        "Peter Rathgeb"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 19,
+      "connection_count": 8,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "903796c9-9c67-5e6b-aca7-2c244842a72f"
+    },
+    "alexia_wallert": {
+      "id": "alexia_wallert",
+      "name": "Alexia Wallert",
+      "name_variations": [
+        "Alexia Wallert",
+        "Alexia Wallert"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 12,
+      "connection_count": 10,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "37cc6197-3204-5ad0-9d12-87ec5d9a6272"
+    },
+    "heather_mann": {
+      "id": "heather_mann",
+      "name": "Heather Mann",
+      "name_variations": [
+        "Heather Mann",
+        "Heather Mann"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 11,
+      "connection_count": 10,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "52266a37-7c58-5f62-92dc-0e90bbbb68b5"
+    },
+    "valdson_cotrin": {
+      "id": "valdson_cotrin",
+      "name": "Valdson Cotrin",
+      "name_variations": [
+        "Valdson Cotrin",
+        "Valdson Cotrin"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 13,
+      "connection_count": 9,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "86f1264d-84d5-5aca-a613-0601a1faa1e9"
+    },
+    "ryan_dionne": {
+      "id": "ryan_dionne",
+      "name": "Ryan Dionne",
+      "name_variations": [
+        "Ryan Dionne",
+        "Ryan Dionne"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 16,
+      "connection_count": 7,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "5d26e3cd-8880-582e-8590-07dbc351069e"
+    },
+    "nick_simmonds": {
+      "id": "nick_simmonds",
+      "name": "Nick Simmonds",
+      "name_variations": [
+        "Nick Simmonds",
+        "Nick Simmonds"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015354.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "3c8584f9-f066-5146-bdf7-5b1601b53fa0"
+    },
+    "nanny_1": {
+      "id": "nanny_1",
+      "name": "Nanny (1)",
+      "name_variations": [
+        "Nanny (1)",
+        "Nanny (1)"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 18,
+      "connection_count": 5,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "b29f996c-eb7f-5d35-a4e6-b0da5e52a4dc"
+    },
+    "patsy_rodgers": {
+      "id": "patsy_rodgers",
+      "name": "Patsy Rodgers",
+      "name_variations": [
+        "Patsy Rodgers",
+        "Patsy Rodgers"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 10,
+      "connection_count": 9,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "1c73050f-2e7b-5652-a74f-479c5ec0f99b"
+    },
+    "tatiana_kovylina": {
+      "id": "tatiana_kovylina",
+      "name": "Kovylina, Tatiana",
+      "name_variations": [
+        "Kovylina, Tatiana",
+        "Tatiana Kovylina"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 10,
+      "connection_count": 9,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "b1f7f102-9beb-5441-963e-10836f167b49"
+    },
+    "francois_verenia": {
+      "id": "francois_verenia",
+      "name": "Francois Verenia",
+      "name_variations": [
+        "Francois Verenia",
+        "Francois Verenia"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 9,
+      "connection_count": 7,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "e580aa59-bf1e-53ce-b078-aaf3d398ced9"
+    },
+    "susan_hamblin": {
+      "id": "susan_hamblin",
+      "name": "Susan Hamblin",
+      "name_variations": [
+        "Susan Hamblin",
+        "Susan Hamblin"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 11,
+      "connection_count": 6,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "6aa797a9-99c7-530c-ada4-a8d72329eed8"
+    },
+    "jennifer_kalin": {
+      "id": "jennifer_kalin",
+      "name": "Jennifer Kalin",
+      "name_variations": [
+        "Jennifer Kalin",
+        "Jennifer Kalin"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 8,
+      "connection_count": 7,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "59add719-f2c5-5c46-a9b1-a9b1b4c953e3"
+    },
+    "kelly_spamm": {
+      "id": "kelly_spamm",
+      "name": "Kelly Spamm",
+      "name_variations": [
+        "Kelly Spamm",
+        "Kelly Spamm"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 9,
+      "connection_count": 6,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "5b0ec53d-56e5-5230-80ce-fc1dc8ade3b5"
+    },
+    "maya_dubin": {
+      "id": "maya_dubin",
+      "name": "Maya Dubin",
+      "name_variations": [
+        "Maya Dubin",
+        "Maya Dubin"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 9,
+      "connection_count": 6,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "e5f61676-4d0d-5add-9700-d0eb5fcdd37e"
+    },
+    "cammy": {
+      "id": "cammy",
+      "name": "Cammy",
+      "name_variations": [
+        "Cammy",
+        "Cammy"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015301.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "55d83a34-d082-5bf4-b7bb-273c3d236697"
+    },
+    "darren_indyke": {
+      "id": "darren_indyke",
+      "name": "Darren Indyke",
+      "name_variations": [
+        "Darren Indyke",
+        "Darren Indyke"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015406.txt",
+          "type": "text",
+          "mentions": 6,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "ac7cb9e4-82e6-5b26-9ff3-8e739c183f52"
+    },
+    "janice_dickinson": {
+      "id": "janice_dickinson",
+      "name": "Janice Dickinson",
+      "name_variations": [
+        "Janice Dickinson",
+        "Janice Dickinson"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00004845.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "2e460238-a1fa-5741-8ec6-984d78dcf63a"
+    },
+    "mylene_jampanoi": {
+      "id": "mylene_jampanoi",
+      "name": "Mylene Jampanoi",
+      "name_variations": [
+        "Mylene Jampanoi",
+        "Mylene Jampanoi"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015457.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "a9f87c1d-fb8c-5ad1-9bb6-1f9635f20586"
+    },
+    "nicolas": {
+      "id": "nicolas",
+      "name": "Nicolas",
+      "name_variations": [
+        "Nicolas",
+        "Nicolas"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00022044.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "8667a206-971c-5a13-89fc-9142acaf1e47"
+    },
+    "richard_barnett": {
+      "id": "richard_barnett",
+      "name": "Richard Barnett",
+      "name_variations": [
+        "Richard Barnett",
+        "Richard Barnett"
+      ],
+      "in_black_book": true,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "black_book"
+      ],
+      "total_documents": 1,
+      "document_types": {},
+      "documents": [
+        {
+          "path": "data/sources/house_oversight_nov2025/ocr_text/DOJ-OGR-00015379.txt",
+          "type": "text",
+          "mentions": 4,
+          "context": null
+        }
+      ],
+      "flight_count": 0,
+      "connection_count": 0,
+      "top_connections": [],
+      "has_connections": false,
+      "appears_in_multiple_sources": false,
+      "guid": "cae37ea8-c10f-5ad4-a5d3-8ccd694186d2"
+    },
+    "linda_pinto": {
+      "id": "linda_pinto",
+      "name": "Linda Pinto",
+      "name_variations": [
+        "Linda Pinto",
+        "Linda Pinto"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 7,
+      "connection_count": 6,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "d055a518-c8b6-5849-8c98-6e7e1db60e00"
+    },
+    "edward_tuttle": {
+      "id": "edward_tuttle",
+      "name": "Edward Tuttle",
+      "name_variations": [
+        "Edward Tuttle",
+        "Edward Tuttle"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 8,
+      "connection_count": 5,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "ce1ada27-5387-569b-a874-5712036141af"
+    },
+    "inca_doerrig": {
+      "id": "inca_doerrig",
+      "name": "Inca Doerrig",
+      "name_variations": [
+        "Inca Doerrig",
+        "Inca Doerrig"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 6,
+      "connection_count": 6,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "d7277e32-3eaf-5bb6-856d-2c840b07229f"
+    },
+    "aline_weber": {
+      "id": "aline_weber",
+      "name": "Aline Weber",
+      "name_variations": [
+        "Aline Weber",
+        "Aline Weber"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 5,
+      "connection_count": 5,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "1513cedc-bb25-524c-9117-8c0a2a8c6dd1"
+    },
+    "julie_shay": {
+      "id": "julie_shay",
+      "name": "Julie Shay",
+      "name_variations": [
+        "Julie Shay",
+        "Julie Shay"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 5,
+      "connection_count": 5,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "c4447a91-5e3f-5c6d-b18e-5ec822c1ff90"
+    },
+    "lynn_forester": {
+      "id": "lynn_forester",
+      "name": "Lynn Forester",
+      "name_variations": [
+        "Lynn Forester",
+        "Lynn Forester"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 5,
+      "connection_count": 5,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "d7ecc9d5-8238-567e-8934-609bbc38bc32"
+    },
+    "james_cayne": {
+      "id": "james_cayne",
+      "name": "James Cayne",
+      "name_variations": [
+        "James Cayne",
+        "James Cayne"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 6,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "82211e83-0d85-5455-8aab-a8d6f14b4dc2"
+    },
+    "jessica_bauer": {
+      "id": "jessica_bauer",
+      "name": "Jessica Bauer",
+      "name_variations": [
+        "Jessica Bauer",
+        "Jessica Bauer"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 6,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "9f90fda0-e16d-5efc-95c3-c91cddb66220"
+    },
+    "patricia_cayne": {
+      "id": "patricia_cayne",
+      "name": "Patricia Cayne",
+      "name_variations": [
+        "Patricia Cayne",
+        "Patricia Cayne"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 6,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "3d94e968-4078-5bf6-b9c0-79c41a0e6f4b"
+    },
+    "audrey_raimbault": {
+      "id": "audrey_raimbault",
+      "name": "Audrey Raimbault",
+      "name_variations": [
+        "Audrey Raimbault",
+        "Audrey Raimbault"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 4,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "c4d8f7fe-db93-5d84-afb6-e9a57810332d"
+    },
+    "larry_summers": {
+      "id": "larry_summers",
+      "name": "Larry Summers",
+      "name_variations": [
+        "Larry Summers",
+        "Larry Summers"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 4,
+      "connection_count": 4,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "527990d4-07d9-54ee-bbc3-e4eddfd324cc"
+    },
+    "todd_meistor": {
+      "id": "todd_meistor",
+      "name": "Todd Meistor",
+      "name_variations": [
+        "Todd Meistor",
+        "Todd Meistor"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 5,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "d500f45c-53c9-5def-9ba8-2f75ece9bb50"
+    },
+    "igor_zinoviev": {
+      "id": "igor_zinoviev",
+      "name": "Igor Zinoviev",
+      "name_variations": [
+        "Igor Zinoviev",
+        "Igor Zinoviev"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 4,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "4cb4364b-3491-58a5-af56-35bcb32f339e"
+    },
+    "natalya_malyshov": {
+      "id": "natalya_malyshov",
+      "name": "Natalya Malyshov",
+      "name_variations": [
+        "Natalya Malyshov",
+        "Natalya Malyshov"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 4,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "f673a98f-7e3f-5336-aee3-f688812ebe5f"
+    },
+    "sheridan_gibson": {
+      "id": "sheridan_gibson",
+      "name": "Sheridan Gibson",
+      "name_variations": [
+        "Sheridan Gibson",
+        "Sheridan Gibson"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 4,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "4526177a-9f46-5023-b7e9-7768c60a4b6d"
+    },
+    "sherrie_crape": {
+      "id": "sherrie_crape",
+      "name": "Sherrie Crape",
+      "name_variations": [
+        "Sherrie Crape",
+        "Sherrie Crape"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 4,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "555a4aa9-e6aa-59c5-9900-ee23cc6ef8d4"
+    },
+    "alexander_fekkai": {
+      "id": "alexander_fekkai",
+      "name": "Alexander Fekkai",
+      "name_variations": [
+        "Alexander Fekkai",
+        "Alexander Fekkai"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "35cba23c-b27c-5084-a8f9-bf653d97228c"
+    },
+    "deborah_amselen": {
+      "id": "deborah_amselen",
+      "name": "Deborah Amselen",
+      "name_variations": [
+        "Deborah Amselen",
+        "Deborah Amselen"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "68a8b45c-fbb9-5bae-9537-d3948c23c974"
+    },
+    "diane_fleetwood": {
+      "id": "diane_fleetwood",
+      "name": "Diane Fleetwood",
+      "name_variations": [
+        "Diane Fleetwood",
+        "Diane Fleetwood"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "37d5c74e-7eea-5649-a7c6-532e25f141b5"
+    },
+    "ellen_spencer": {
+      "id": "ellen_spencer",
+      "name": "Ellen Spencer",
+      "name_variations": [
+        "Ellen Spencer",
+        "Ellen Spencer"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "5ca3cc87-6eff-5ab9-b704-fd986fa2d058"
+    },
+    "henry_jarecki": {
+      "id": "henry_jarecki",
+      "name": "Henry Jarecki",
+      "name_variations": [
+        "Henry Jarecki",
+        "Henry Jarecki"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "6e27ff6d-1bd3-5597-8f59-f9722a495dcd"
+    },
+    "jack_robertson": {
+      "id": "jack_robertson",
+      "name": "Jack Robertson",
+      "name_variations": [
+        "Jack Robertson",
+        "Jack Robertson"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "d02155c6-6b60-58eb-af17-56a634b0540f"
+    },
+    "james_dowd": {
+      "id": "james_dowd",
+      "name": "James Dowd",
+      "name_variations": [
+        "James Dowd",
+        "James Dowd"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "bccb987c-5378-5ba1-ad96-8f6980d514ad"
+    },
+    "katherina_kotzig": {
+      "id": "katherina_kotzig",
+      "name": "Katherina Kotzig",
+      "name_variations": [
+        "Katherina Kotzig",
+        "Katherina Kotzig"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "4effe121-4b03-5317-a634-8960b79e2b96"
+    },
+    "lynn_fontanella": {
+      "id": "lynn_fontanella",
+      "name": "Lynn Fontanella",
+      "name_variations": [
+        "Lynn Fontanella",
+        "Lynn Fontanella"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "cafdbf12-1f4f-503d-a0b7-f69fe9527c53"
+    },
+    "melanie_starves": {
+      "id": "melanie_starves",
+      "name": "Melanie Starves",
+      "name_variations": [
+        "Melanie Starves",
+        "Melanie Starves"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "8b490d42-69a6-58dc-ba38-72121005e64c"
+    },
+    "phillipe_mugnier": {
+      "id": "phillipe_mugnier",
+      "name": "Phillipe Mugnier",
+      "name_variations": [
+        "Phillipe Mugnier",
+        "Phillipe Mugnier"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "9cb26320-f15b-5416-85b4-c96eadc34e59"
+    },
+    "ricardo_legoretta": {
+      "id": "ricardo_legoretta",
+      "name": "Ricardo Legoretta",
+      "name_variations": [
+        "Ricardo Legoretta",
+        "Ricardo Legoretta"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "ace7d5fd-da94-5cd4-9045-f4a286f34b23"
+    },
+    "richard_cook": {
+      "id": "richard_cook",
+      "name": "Richard Cook",
+      "name_variations": [
+        "Richard Cook",
+        "Richard Cook"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "a1ddb0e4-3f85-57b8-84f9-1d2cab388e86"
+    },
+    "victoria_hazell": {
+      "id": "victoria_hazell",
+      "name": "Victoria Hazell",
+      "name_variations": [
+        "Victoria Hazell",
+        "Victoria Hazell"
+      ],
+      "in_black_book": false,
+      "is_billionaire": false,
+      "categories": [],
+      "sources": [
+        "flight_logs"
+      ],
+      "total_documents": 0,
+      "document_types": {},
+      "documents": [],
+      "flight_count": 3,
+      "connection_count": 3,
+      "top_connections": [],
+      "has_connections": true,
+      "appears_in_multiple_sources": false,
+      "guid": "0e503e7f-34a2-5da5-9589-16b9a81011a2"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "source_pdf": "DOJ-OGR-00023941.pdf",
+  "ocr_date": "2025-11-16T21:53:20.965253",
+  "text_length": 1529,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "ExecAssistant@bop.gov",
+    "PublicAffairs@bop.gov",
+    "NEWS12BKLN@news12.com"
+  ]
+}

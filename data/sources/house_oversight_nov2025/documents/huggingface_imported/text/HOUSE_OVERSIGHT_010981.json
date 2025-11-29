@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010981",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010981.txt",
+  "text": "The vocabulary can also include the standard distinction among stocks, flows and\nrates. These are only definitions, not assumptions. Stocks means value measured in\nmoney units, say dollars. This is not the same as stock in the sense of equity\nsecurities, although those can be examples. Flows means processes such as output\nfor consumption measured in dollars per unit time. Flows are to stocks as verbs to\nnouns. Percent rates are flows divided by stocks, as rate of return or growth rate,\n\nand are measured in pure numbers over time such as 5% per year.\n\nNow for the fundamental theorems. Take the present value rule first. It starts from\nthe axiom that we satisfy convergent tastes in the light of convergent predictions. In\na simple case, we foresee that an asset (stock) is likely to yield a certain amount of\ntaste satisfaction flow at a certain future time. We discount that expected amount at\na time preference or time discount rate given by our taste for impatience, tempered\nby our taste for risk avoidance, to find its present value. Present value of the whole\n\nasset is the sum of present values of all the expected future satisfactions together.\n\nA more general case allows for transfers. The future events we foresee and discount\nare not always exhaust in taste satisfaction by ourselves at the time. Some might be\nforeseen liquidations to reinvest in other assets or to give away so that we or the\ndonee can realize the taste satisfaction later. Either reinvestment or gift is called\n\ntransfer. I call it “transfer out”, meaning out from the generating asset. Then\n\ntransfer out = reinvestment + gift. (3.1)\n\nThere can also be transfer in. Sometimes future realizations, in taste satisfaction or\ntransfer out, are not explained as production by the asset as it is now. The asset\nmight grow later by new investment from outside, and the investment in between\nmight help explain the later yield. If an eighth-grader is destined to become a doctor,\nfor example, her foreseen earnings as a doctor will presuppose investment in high\n\nschool and college and med school in between.\n\nChapter 3: Foundations 1/11/16 10\n\nHOUSE_OVERSIGHT_010981",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010981.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2148,
+    "word_count": 360,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:48.742922",
+    "prefix": "IMAGES-001"
+  }
+}

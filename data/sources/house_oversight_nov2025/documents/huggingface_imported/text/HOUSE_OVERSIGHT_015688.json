@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015688",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015688.txt",
+  "text": "CONTENTS\n\nPreface ix\nIntroduction - Experiments, Multimedia and Puzzles 1\nChapter 1 - Mind Over Computer 3\nDeep Blue\nMan v Machine 11\nIntelligence 25\nThe Learning Brain 35\nDeterminism Al\nCreative Theories 49\nChapter 2 - Understanding 53\nBad Understanding Can Kill 59\nThe Imitation Game 65\nChapter 3 - Body Language & Banter 77\nChapter 4 - The Brain 95\nThinking 117\nChapter 5 - Knowledge 127\nChapter 6 - Kittens & Gorillas 147\nChapter 7 - Complexity & Chaos 161\nChaos 171\nChapter 8 - 00 177\nChapter 9 - Known Unknowns 191\nThe Game of Math 199\n\nHOUSE_OVERSIGHT_015688",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015688.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 565,
+    "word_count": 102,
+    "line_count": 26,
+    "import_date": "2025-11-19T21:47:47.477203",
+    "prefix": "IMAGES-003"
+  }
+}

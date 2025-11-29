@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026719",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026719.txt",
+  "text": "Fig 28. Factors used to calculate reserve adequacy (% citations) Rank 1\n\nRank 2\nRank 3\nRank 4\n\nImport coverage\n\n6 6 Short-term debt coverage\n\n6 GDP coverage\n\ney 3 Money supply\n\n6 3} Capital flight\noy 3 Current account deficit\n\nExchange rate regime\n\nSample comprises of central banks only. Key denotes each factors' level of importance according to central banks. Rankings split into four categories in descending order\nwith rank 1=most important. Rating scored as of Q1 of the given year.\nSample=31.\n\nFig 29. Net increase in foreign currency reserves (% AUM)\n\nDM High FME DM Low FME EM Sovereigns\n\nSample size shown in grey. DM High FME=High financial market dependency. DM Low FME=Low financial market dependency.\n\nFig 30. Level of reserves adequacy (% citations) Ample\nSufficient\nInsufficient\nDM High FME DM Low FME EM\n14\n\nSample comprises of central banks only. Sample size shown in grey.\n\n39\n\nHOUSE_OVERSIGHT_026719",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026719.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 919,
+    "word_count": 150,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:48.755664",
+    "prefix": "IMAGES-009"
+  }
+}

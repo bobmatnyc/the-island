@@ -1,0 +1,469 @@
+{"componentLayouts"
+identifier™s" »
+:1},"identifier":"bodyLayout",
+ast": {"columnRange": {"length":
+ttom":"65.0pt", "top"
+identifier":"bylineLayout",
+:{"columnRange": {"length":12,
+:"10.0pt", "top”™
+"identifier"™:"
+setLayout"™:
+"3 {"bottom™ :"25.0pt",
+ee th length" s12, "start"s0}, “idé
+oreDocumentMargin": "both",
+:{"columnRange": {"length":12,"st
+t":true, "top":true}, "identifier"
+Opt"}},"dekLayout"™:
+gin": {"bottom":"0.0pt
+
+Wot
+
+{"columnRange": {"leng
+
+W top"
+
+1
+
+,top™:"5.
+
+W
+
+{"columnRange"
+
+:{" defaultComponentLayout":
+defaultComponentLayout"}, "bodyLayout"™:
+"margin": {"bottom"™:
+10,
+:"13.0pt"}},"bylineLayout"™:
+"margin": {"bottom":
+
+"start™:1}
+
+art™:0},"id
+
+:"0.0pt"}}, "ctaDescriptionLayout"™:
+ctaDescriptionLayout",
+
+"margi
+
+th" :12,"sta
+
+2:"25.0pt"}, "minimumHeight"™:
+
+ntifier™:"4
+
+"margin": {"bottom":
+
+art"™:0},"co
+"ctaTitleL
+
+Opt"}}, "emb
+
+start":1},"identifier
+"figureLayout": {"columnRange"
+in": {"bottom":"10.0pt", "top"
+,"start":0}, "identifi nM
+ottom":"20.0pt", "top™:"5.0pt"},"
+nge":{"length":12,"start":0},
+oth", "ignoreDocumentMargin": "bot
+giLayout"™: {"columnRange"™: {"lengt
+:{"bottom":"5.0pt", "top ™:"30.0pt
+tart ":0},"identifier":"ignoreMar
+cetLayout"™: {"columnRange"™: {"lengt
+argin":{"bottom"™:"15.0pt", "top"
+Length" 12, "start™:0},"1dent.i re
+t"™, "top":"5.0pt"}}, "mapCardServi
+ane UE” taem ss pocmy oman
+
+m':"8.0pt", "top™:"5.0pt™}},"
+
+"contentInset"™:{"bottom"™:true,"™
+"bottom":"5.0pt", "top™:"0.0p
+h™:12,"start":0},”"identifier
+bb", “top™:"0.0pt"}},™
+"identifier": "packageCoverEntryB
+:"30.0vh"}, "packageCoverHeaderha
+r":"packageCoverHeaderLayout","
+packageCoverLayout"™: {"columnRang
+yout", "ignoreDocumentMargin": "bo
+eCoverLedeEntryBoxLayout": {"colu
+overLedeEntryBoxLayout"
+eCoverPullQuoteLayout"™:
+rPullQuoteLayout", "margin": {"bot
+yout": {"columnRange":{"length":1
+"right":true, "top":true}, "identi
+
+ott
+
+sf
+
++ 1
+
+wei
+
+mbedvideoLayout",
+
+ctw} RL
+packageCoverDescriptionLayout",
+packageCover
+
+length":12,
+
+2:"20.0pt"}},"headerImageLayout":
+"headerImageLayout","
+minimumHeigh
+
+:{"length":
+
+"margin": {"bottom":
+
+{"columnRange" 12
+{"columnRange"
+"10.0pt", "top": "10.0pt"}},
+, "identifier ‘"haivtagertiast™, *
+{"columnRange": {"length":10
+"30.0pt", "top™:"10.0pt"}},"ca
+entifier":"captionLayout", "margi
+{"columnRange"™: {"length":1
+¥30 -Opt"", “top” «0.0
+QO}, “idéntitien":"
+#129 ,06E"} ,"e
+
+if" Length," ¢
+
+1
+
+W
+
+n"“ <¢ "“bottem"
+iege hier:
+
+taLayout",
+"20.0pt",
+ntentInset"™:
+ayout", "margin": {"bottom":
+10,"start":1},"identifier"
+edvideoLayout"™: {"columnRange"™:{"
+"20.0pt", "top™
+2:0}, "identifier":"figure
+{"columnRange"
+
+t"}},"cta
+:true, "left
+"O.0pt
+2d
+
+"top™:"20.0p
+{"bottom"
+
+"start"
+
+ignoreDocumentMargin"
+CNS
+
+ntifier":
+h", "margin"
+h":10,"start
+"}},"ignore
+ginLayout",
+
+h":12,"start
+
+2°0,0pt"}},"
+
+r":"mapCard
+ceLayout": {
+
+Layout", "ignoreDocume
+* bottom": "10. 0pt", "top"
+:1},"identifier":"headinglLayo
+MarginLayout": {"columnRange": {"1
+Vdqnere Dee uleni Marg in" :"both"}, "m
+t":0},"identifier":"mapCardConta
+"apCardRelatedTitleLayout":{"col
+RelatedTitleLayout", "margin": {"b
+"columnRange": {"length":12, "star
+
++
+
+Lv v
+
+ue}, "identi
+
+mapCardTitleLayout":
+
+fier": "mapCardServiceLayout", "ma
+{"columnRange" ef Lemp: 1
+
+top"
+packageCo
+
+EntryBoxLay
+oxLayout",
+yout": {"col
+
+ignoreDocumentMargin"
+
+e":{"Llength
+th" , W
+mnRange"
+
+:{"
+
+,"ignoreDocumentMargin"™:
+{"columnRange"
+
+:{"len
+tom":"30.0p
+2, "start™:0
+
+Layout": {"columnRange"
+margin": {"bottom":"5.0pt",
+12,"start":0}, "identifier"
+"}},"pac
+ackageTocAllStoriesLayout", "marg
+ut": {"columnRange":{"length":12,
+entMargin":"both", "margin": {"bot
+inkLayoutSmallTop"
+onFirstLinkLayoutSmallTop", "marg
+onLayout"™: {"columnRange"™: {"lengt
+, "ignoreDocumentMargin":"both","
+itleLayout": {"columnRange": {"len
+," "margin": {"bottom":"0.0pt",
+"start":0},"identifier":"photoLa
+n":"both", "margin": {"bottom"™:"1
+lumnRange":{"length":10,"start":
+e, "top":true},"identifier":"
+:"15.0pt"}}, "pullquoteLayout"
+
+W top"
+
+W
+
+:{"length":
+:"10.0pt"™}
+"packageCtaLayout","
+cap eTseR Star lemtergent
+
+:{"columnRange"”
+
+W top"
+
+Tier":"pack
+LZ, “Stawe™ é
+
+},
+
+{"columnRa
+in™:{"bot
+"start™:0
+tom":"30.0p
+:{"leng
+in » {bet
+h":12,"star
+margin": {"b
+gth" 212, "st
+i"20. Opt")
+"igno
+
+yout",
+0.0pt",
+1}, "content
+
+W
+
+pullquoteContainer
+:{"columnRange"”
+
+left":true, "right":true}, "identi
+
+fier":"pull
+
+:true},”™
+
+"ignoreDocumen
+
+margin"
+
+7 om"
+
+} W
+,
+
+be? aL a
+tom"
+
+top"
+
+identifier": "mapCardTitleLayout
+verDescriptionLayout": {"columnRa
+"margin": {"bo
+Range": {"length":12
+tMargin":"both", "mi
+12, “start” :0
+
+out": {"column
+
+umnRange": {"length":
+i"bOoth”™, @
+"start":0},"identifier":"pa
+"30.0pt", "top"™:"0.0p
+start":0},"identifie
+minimumHei ght" :"20.0
+20},
+
+W
+
+212,
+:{"bottom":
+th":12,
+"both",
+gth":12, "start
+t"™, "top™:"30.0pt"}}, "packageCtaD
+}, "contentIinset"™:{"bottom"™:true,
+ageCtaDescriptionLayout"}, "packa
+O}, "identifier": "packageCtaEyeb
+"packageCtaLayout
+margin": {"bottom":"20.0pt
+nge":{"length":12, "start":
+2"10.0pt » bop” 2"30.0pt"}},"pa
+identifier": "packageTocLayout",
+t™, "top"™:"30. Opt" hte peckage ace
+start":0},"identifier":"pac
+2:"20.0pt", "top"™:"0.0pt"}}, "pac
+£":0}, "identifier" "packageTocSe
+ottom™:"20.0pt", "top"™:"0.0pt™}},
+art":0},"identifier":"packageToc
+}, "photoLayout": {"columnRange": {
+reDocumentGutter": "both", "ignore
+2:"20.0pt"}},"pullquoteContainer
+t™:{"bottom"™:true, "left":tru
+Layout", "margin": {"bottom":"
+:{"length":12,"start":0},"cont
+quoteLayout", "margin": {"bottom"™:
+
+leng
+
+"Mm
+
+1
+
+W
+
+1 " Ww
+
++ VF
+
+1
+
+1 0
+
+Inse
+
+HOUSE_OVERSIGHT_028326
+
+, Start
+:{"length":
+
+, "start
+
+ctaInsetLayout",
+taLayout"™:
+"ignoreDocumentGutter":
+
+KLayout", "
+
+Layout","
+:{"length":
+s"boeth™,
+"50.0vh"}, "headerMediaLayout"
+"headerMedia
+:"10.0pt"}},
+
+minimumHeight":
+
+"identifier™:"
+
+:{"columnRange"”
+
+0}, "identifier":"
+
++ 0
+
+:0},"
+10,"start”™
+"bodyLayoutL
+margin": {"bo
+t™:1},"
+ptionLayout"
+n":{"bottom"
+2, "start"™:0}
+pt"}},"ctaIn
+"margin
+{"columnRan
+"beth", “Lg
+TitleLayout"
+"strue, "righ
+, "top ™:"20.
+mar
+length":10,
+2:"20.0pt"}},
+marg
+12
+margin": {"b
+:{"columnRa
+tGutter":"b
+"headin
+ut ie sal
+ength":12,"
+mablarcillierrina
+cetLayout", "m
+umnRange"™: {"
+ottom":"5.0p
+t™:0}, "conte
+rgin": {"bott
+2, "start"™:0}
+","margin": {
+nge":{"lengt
+ttom":"25.0p
+,"start™:0},
+nimumHeight"
+, "Laent Lire
+W270. OV" fy."
+ckageCoverhLa
+t"}},"packag
+r":"packagec
+vh"}, "packag
+packageCove
+escriptionha
+"left":true,
+geCtaEyebrow
+rowLayout","
+:{"length":
+top™:"20.0pt
+Pp
+ckageTocLayo
+"ignoreDocum
+ectionFirstL
+kageTocSecti
+kageTocSecti
+ctionLayout"
+"packageTocT
+TitleLayout"
+"length":12,
+DocumentMarg
+Layout": {"co
+e, "right":tr
+10.0pt", "top
+entInset":("
+"O.0pt", "top
+
+W
+
+n
+
+E's
+
+1
+
+1

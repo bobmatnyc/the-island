@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013702",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013702.txt",
+  "text": "Of course, most real biological dynamics are not uniformly mixing and so are\nnon-ergodic, but we shall see that the ways they fail to be ergodic (and thus remain\nin the conceptual context of ergodic measures) are descriptively useful (Mandell\nand Selz, 1997a). The emergence of many statistical approaches to characterizing\nthese motions have been accompanied by the expected controversies about which\nis best or correct (see below) and have been applied to the problem of diagnosis\nand clinical discrimination in a variety of neuroscience settings. In ideal abstract\nchaotic dynamical systems called Axiom A (Russians called them “C systems’),\nwhere most mathematical theorems are proven (Smale, 1967), all these measures,\nif properly computed, are equivalent. In real life, as in the related case of ergodicity,\nthey are not, and since no single one is complete, the more (incomplete) measures\nwe use in our studies along with interest in the way that they differ, supplies more\nuseful information about the system. Though researching and elucidating the most\nreliable and valid ways of computing these measures are a valuable goal, the\ncurrent debates focused on the superiority of a single particular measure,\nconstructed in a particular way in relationship to issues of insoluble absolutes like\n“randomness” versus “deterministic chaos may not be particularly valuable for\nuncovering new characteristics and potential mechanisms underlying a specific set\n\nof real neurobiological observables.\n\nEmphasizing diversity and relevance to the clinical biological sciences, we\nnote that quantifying patterns in ergodic (non-ergodic) measures have aided: the\ndiscrimination between normal and abnormal opticokinetic nystagmus in neurology\npatients (Aeson et al, 1997); localizing a two year old subcortical stroke in an EEG\nof a patient with no other signs or neurological findings (Molnar et al, 1997); the\ndiagnosis of early (not late) multiple sclerosis, as a nonspecific long tract disorder,\nin patients with mild optical neuritis using cardiac rate dynamics (Ganz and\nFaustman, 1996); seizure prediction from minutes to hours before the event in\nwhich subthreshold, pre-phase transition spatial diffusion and oscillations in\ncharacteristic changes in these measures can be found (Martinerie et al, 1998;\nElger and Lehnertz, 1998; Pign et al, 1997; lasemidis et al, 1990); using these\n\nmeasures on the EEG to differentially predict hereditary predisposition to alcoholism\n\n202\n\nHOUSE_OVERSIGHT_013702",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013702.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2501,
+    "word_count": 373,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:47.093831",
+    "prefix": "IMAGES-002"
+  }
+}

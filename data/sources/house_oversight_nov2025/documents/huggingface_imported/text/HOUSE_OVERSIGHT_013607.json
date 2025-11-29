@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013607",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013607.txt",
+  "text": "lf acceptance of this idea does not constitute a problem for the reader (and you do\nnot find it fun to follow along with a computer math program and/or a pencil), then\nthe following several paragraphs can be quickly scanned or skipped entirely.\n\nThe computations of H; and Hy begins with keeping track of how many 0 >\n1 and 1 > 0 transitions are found going from left to right in the binary series. For\nexample, in the binary expression of 729, 1011011001, one starts counting with a\n1— 0 transition followed by a 0 + 1 transition and then a 1 — 1 transition and so\non. A useful way to record the count is via entries into a 2 x 2 matrix for score\nkeeping in which the horizontal rows are labeled 0 on top and 1 below and the\nvertical columns are labeled O on the left and 1 on the right. The number of each\nkind of transitions (from the vertical label to the horizontal label) are counted and\nsummed in the appropriate box of the two box by two box matrix; for examples: for a\n0 > O transition, a tally mark is entered in the upper left corner of the matrix; for a 0\n—>1 transition, a tally mark is entered in the upper right corner; a 1— 0 tally goes in\nthe left lower corner and a 1-> 1 Is tallied in the right lower corner. The resulting\n\ntransition incidence counting matrix, M; for the 729 binary transformation series\n\n1 3\nlooks like M; = 32 indicating one 0 — O, three 0 > 1, three 1 > 0, and two 1 > 1\n\ntransitions have been tallied. Although this series alone is too short for computing\nreliable statistical measures, if we assume that the pattern of transitions observed in\nthis short series is stationary, that is its transition behavior will remain the same if\nthe binary series continued on to be infinite in length, the assumption being that the\ndynamics of now will be the same as always, 729 will stay 729, then we can use two\nforms of this transition matrix in the computation of the topological entropy reflecting\nthe growth rate of the possible, H;, and the metric entropy from the statistical\nweights of allowed choices among them, the probable, Hy.\n\nTo obtain the entropy representing the growth rate over time of the new\npossibles, the computation of H7, the topological entropy, involves first transforming\nM; into an transition incidence matrix, Mz; a 0 or 1 matrix indicating whether each\n\nbox has been entered at all (or not). Since in the binary representation of 729, all\n\n107\n\nHOUSE_OVERSIGHT_013607",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013607.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2429,
+    "word_count": 449,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:49.325133",
+    "prefix": "IMAGES-002"
+  }
+}

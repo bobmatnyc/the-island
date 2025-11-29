@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015763",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015763.txt",
+  "text": "Understanding 73\n\n“On the Internet, nobody knows you're a dog.”\n\nNew Yorker Cartoon\n\nWith the anonymity the Internet provides we can imagine all sorts\nof strange scenarios if the Turing test could be passed. You would have\nno way of knowing what you were talking to. The New Yorker ran a\ncartoon back in 2000. “On the Internet no one knows you are a dog?” We\ncome across a similar problem the other way around when we encounter\nbad customer support. A few years ago, while trying to get an answer\nto a computer problem, I became convinced the thing responding to\nmy emails was a machine. The company did use machine responder\ntechnology so it could well have been. I asked it to prove it was human\nby putting the word marmalade into an English sentence and fixing my\n\nHOUSE_OVERSIGHT_015763",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015763.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 790,
+    "word_count": 141,
+    "line_count": 18,
+    "import_date": "2025-11-19T21:47:49.344703",
+    "prefix": "IMAGES-003"
+  }
+}

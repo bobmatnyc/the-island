@@ -1,0 +1,68 @@
+Fed =< Invoice Number: 4-447-80862
+2 Invoice Date: Nov 18, 2002
+Account Number: 1144-2081-6
+Page: 6 of 14
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 07, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 8
+Tracking D 837657308195 Sender Recipient
+Service Type FedEx Priority Overnight G AMXWELL REAN FERREN
+Package Type FedEx Pak JEFFREY E EPSTEIN APPL ED MONDE INC
+Zone 8 457 MADISON AVE es
+Packages 1 NEW YORK NY 10022-6843 US Po
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Nov 08, 2002 09:18 Transportation Charge 25.75
+SvciRrea = BZ Discount -258
+Signed by R.DANISE Fuel Surcharge 093
+FedEx Use  313161850/01618/_ —————SSSSOSOOOSOS—X—ns——SXNXnXmnmXmXvXmKvm—Xn——SSS—————————s
+
+Total Transportation Charges USD $ 24.10
+
+Dropped off: Nov 08, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 3
+
+1st attempt Nov 11, 2002 at 10 07 AM.
+
+Incorrect recipient address.
+
+FedEx has audited this shipment for correct packages, weight, and service. Any changes made are reflected in the invoice amount.
+InternetShip Sender Recipient
+Tracking D 790627892996 CECILIA STEEN SENATOR GEORGE MITCHELL
+Service Type FedEx Priority Overnight JEFFREY E EPSTEIN VERNER, LIIPFERT, BERNHARD, MC
+Package Type FedEx Envelope 457 MADISON AVE FY
+Zone 3 NEW YORK NY 10022-6843 US Po
+Packages 1
+Weight 1.0 Ibs, 0.5 kgs Transportation Charge 14 50
+Delivered Nov 13, 2002 09:44 Discount -2 32
+Sve rea iis Address Correction 10 00
+Signed by C.CHEVALIER Fuel Surcharge 0.49
+FedEx Use = 523769363/00197/03 _——
+
+Total Transportation Charges USD $ 22.67
+
+Dropped off: Nov 08, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 3
+InternetShip Sender Recipient
+Tracking D 792771166936 CECILIA STEEN GENERAL WESLEY CLARK
+Service Type FedEx Priority Overnight JEFFREY E EPSTEIN ee
+Package Type FedEx Envelope 457 MADISON AVE Po
+Zone 3 NEW YORK NY 10022-6843 US
+Packages 1
+Welatit 1.0 Ibs, 0.5 kgs Transportation Charge 14 50
+Delivered Nov 11, 2002 09 50 DIscoiiit -2 32
+SuCiATea Al Fuel Surcharge 0.49
+Signed by C.MATA ————
+FedEx Use  523846842/00197/_ Total Transportation Charges USD $ 12.67
+
+SDNY_GM_00340703 41
+DOJ-OGR-00015350

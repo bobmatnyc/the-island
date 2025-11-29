@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015929",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015929.txt",
+  "text": "Software 239\n\nAlgorithms\n\nBack in the 1930s no mechanical system could perform a calculation\nwith any speed. People still used pencil and paper for most things; the\nnewly-invented mechanical cash registers were slow and could perform\nonly one calculation for each crank of the handle. If you wanted to\ncalculate something complex, you had to employ a computer: a person\nwho could do mental arithmetic enormously fast. Richard Feynman’s\nfirst job was computing for the Manhattan Project. The question was:\nCould a computer, either mechanical or human, blindly follow known\nrules to decide all mathematical questions? Hilbert’s 10\" Problem asked\nthis question of a particular type of mathematical expression — called a\nDiophantine equation.\n\nHilbert’s 10\" Problem\n\n“Given a Diophantine equation with any number of unknown\nquantities, devise a finite process to determine whether the\nequation is solvable in rational integers.”\n\nDavid Hilbert\n\nDiophantus lived in ancient Persia — now Iran. His son died young\nand Diophantus was so consumed by grief he retreated into mathematics.\nHe left us seven books of mathematical puzzles — some he devised himself\nand some of them taken from antiquity. The puzzles look deceptively\nsimple and are all based on equations using whole numbers. His most\nfamous puzzle is set in a poem which tells how old Diophantus was when\nhe died. Can you solve it?\n\n“Here lies Diophantus,; the wonder behold. Through art algebraic,\nthe stone tells how old: ‘God gave him his boyhood one-sixth of\nhis life, One twelfth more as youth while whiskers grew rife; And\nthen yet one-seventh ere marriage begun; In five years there came\na bouncing new son. Alas, the dear child of master and sage, after\nattaining half the measure of his father’s age, life chill fate took him.\nAfter consoling his fate by the science of numbers for four years, he\nended his life.”\n\nDiophantine puzzles look straightforward. Hilbert asked if these\n\nproblems could be solved by a mechanical procedure, in modern terms,\nby an algorithm. To show you what is meant by this, allow me to take you\n\nHOUSE_OVERSIGHT_015929",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015929.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2108,
+    "word_count": 344,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:45.571737",
+    "prefix": "IMAGES-003"
+  }
+}

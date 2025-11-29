@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-28T02:23:39.962506",
+  "1M-305_related_entities": {
+    "api_tests": [],
+    "ui_tests": [
+      {
+        "test": "Related Entities Component",
+        "status": "PASS",
+        "related_heading_found": true,
+        "error_message_found": false,
+        "has_entity_links": true,
+        "screenshot": "/Users/masa/Projects/epstein/tests/qa/screenshots/related_entities_20251128_022355.png"
+      }
+    ]
+  },
+  "1M-306_category_badges": {
+    "grid_view_tests": [
+      {
+        "test": "Entity Grid Badges Present",
+        "status": "PASS",
+        "badge_count": 0,
+        "entity_cards": 0,
+        "categories_found": [
+          "Victims",
+          "Associates",
+          "Legal",
+          "Financial",
+          "Academic"
+        ],
+        "screenshot": "/Users/masa/Projects/epstein/tests/qa/screenshots/grid_badges_20251128_022345.png"
+      }
+    ],
+    "bio_view_tests": []
+  },
+  "screenshots": [
+    "/Users/masa/Projects/epstein/tests/qa/screenshots/grid_badges_20251128_022345.png",
+    "/Users/masa/Projects/epstein/tests/qa/screenshots/related_entities_20251128_022355.png",
+    "/Users/masa/Projects/epstein/tests/qa/screenshots/mobile_view_20251128_022358.png"
+  ],
+  "console_errors": []
+}

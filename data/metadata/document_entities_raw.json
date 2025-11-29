@@ -1,0 +1,67 @@
+{
+  "extraction_metadata": {
+    "total_documents": 33561,
+    "documents_processed": 10,
+    "documents_failed": 0,
+    "total_entities_found": 20,
+    "unique_entities": 2,
+    "extraction_date": "2025-11-28T21:23:54.799287+00:00",
+    "model": "mistralai/ministral-8b",
+    "total_cost": "$0.00",
+    "total_tokens_used": 0,
+    "total_api_calls": 0,
+    "entity_type_counts": {
+      "person": 1,
+      "organization": 1,
+      "location": 0
+    },
+    "start_time": "2025-11-28T21:23:54.611679+00:00",
+    "end_time": "2025-11-28T21:23:54.799293+00:00"
+  },
+  "entities": {
+    "jeffrey epstein": {
+      "name": "Jeffrey Epstein",
+      "type": "person",
+      "normalized_name": "jeffrey epstein",
+      "mention_count": 10,
+      "document_sources": [
+        "DOJ-OGR-00000001",
+        "DOJ-OGR-00000002",
+        "DOJ-OGR-00000003",
+        "DOJ-OGR-00000004",
+        "DOJ-OGR-00000005",
+        "DOJ-OGR-00000006",
+        "DOJ-OGR-00000007",
+        "DOJ-OGR-00000008",
+        "DOJ-OGR-00000009",
+        "DOJ-OGR-00000010"
+      ],
+      "first_seen": "DOJ-OGR-00000001",
+      "name_variations": [
+        "Jeffrey Epstein"
+      ]
+    },
+    "doj": {
+      "name": "DOJ",
+      "type": "organization",
+      "normalized_name": "doj",
+      "mention_count": 10,
+      "document_sources": [
+        "DOJ-OGR-00000001",
+        "DOJ-OGR-00000002",
+        "DOJ-OGR-00000003",
+        "DOJ-OGR-00000004",
+        "DOJ-OGR-00000005",
+        "DOJ-OGR-00000006",
+        "DOJ-OGR-00000007",
+        "DOJ-OGR-00000008",
+        "DOJ-OGR-00000009",
+        "DOJ-OGR-00000010"
+      ],
+      "first_seen": "DOJ-OGR-00000001",
+      "name_variations": [
+        "DOJ"
+      ]
+    }
+  }
+}

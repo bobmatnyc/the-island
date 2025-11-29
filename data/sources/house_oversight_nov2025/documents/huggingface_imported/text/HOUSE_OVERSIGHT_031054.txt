@@ -1,0 +1,73 @@
+Source Entry: H\Macintosh HD\root\Users\jee\Library\Messages\Arch
+(917) 439-3646 on 2018-08-24 at 10.10.15.ichat
+
+Service: iMessag
+
+Start Time: 08/24/18 07:10:15 AM (556812615)
+
+End Time: 08/24/18 07:15:13 PM (556856113)
+
+Last Message ID: 19240
+
+Chat Room:
+
+Participants: jee, Pe
+
+Presentity IDs: e:jeeitunes@gmail.com, fF
+
+Messages -
+
+Sender:
+
+Time: 08/24/18 07:10:15 AM (556812615)
+
+Flags: 1060865
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: AAEREBAB6-DFOC-47BD-A2F9-22B0712434C2
+
+Message: Jeffrey I am up at my sons college trying to move him in
+
+sender:
+
+Time: 08/24/18 07:10:32 AM (556812632)
+Flags: 1126401
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: ECIELAFA-A2A9-4C40-9096-B960D19B7289
+
+Message: Any chance we could move dinner to Tuesday
+
+Sender: Po
+
+Time: 08/24/18 07:10:51 AM (556812651)
+Flags: 1060865
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 7CAIDO01-CE20-44D4-B25A-37F2F6228B32
+
+Message: Don't mind missing Woody want to hang with you
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 08/24/18 07:10:51 AM (556812651)
+Flags: 1150981
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: 52464CB4-773A-4FEC-AC50-8ECESC2E1C54
+
+Message: I leave tomorrow
+
+ive\2018-08-24\+1
+
+HOUSE_OVERSIGHT_031054

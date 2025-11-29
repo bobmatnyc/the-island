@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013076",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013076.txt",
+  "text": "160 8 Cognitive Synergy\n\nHopefully it’s clear that the motivation behind the line of thinking presented here is a desire\nto understand the nature of general intelligence and its pursuit — not a desire to avoid testing our\nAGI software! Really, as AGI engineers, we would love to have a sensible rigorous way to test our\nintermediary progress toward AGI, so as to be able to pose convincing arguments to skeptics,\nfunding sources, potential collaborators and so forth. Our motivation here is not a desire to\navoid having the intermediate progress of our efforts measured, but rather a desire to explain\nthe frustrating (but by now rather well-established) difficulty of creating such intermediate\ngoals for human-level AGI in a meaningful way.\n\nIf we or someone else figures out a compelling way to measure partial progress toward AGI,\nwe will celebrate the occasion. But it seems worth seriously considering the possibility that the\ndifficulty in finding such a measure reflects fundamental properties of general intelligence.\n\nFrom a practical CogPrime perspective, we are interested in a variety of evaluation and\ntesting methods, including the \"virtual preschool\" approach mentioned briefly above and more\nextensively in later chapters. However, our focus will be on evaluation methods that give us\nmeaningful information about CogPrime’s progress, given our knowledge of how CogPrime\nworks and our understanding of the underlying theory. We are unlikely to focus on the achieve-\nment of intermediate test results capable of convincing skeptics of the reality of our partial\nprogress, because we have not yet seen any credible tests of this nature, and because we suspect\nthe reasons for this lack may be rooted in deep properties of feasible general intelligence, such\nas tricky cognitive synergy.\n\nHOUSE_OVERSIGHT_013076",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013076.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1825,
+    "word_count": 285,
+    "line_count": 26,
+    "import_date": "2025-11-19T21:47:47.878952",
+    "prefix": "IMAGES-002"
+  }
+}

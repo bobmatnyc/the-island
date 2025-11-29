@@ -1,0 +1,1338 @@
+Priority Rank,Entity ID,Display Name,Sources,Flight Count,Document Count,Connection Count,Priority Score,In Black Book
+1,michael,Michael,black_book,0,82,0,410,YES
+2,sally,Sally,black_book,0,17,0,85,YES
+3,peter,Peter,black_book,0,13,0,65,YES
+4,edward_epstein,Edward Epstein,black_book,0,9,0,45,YES
+5,david_rodgers,David Rodgers,black_book,0,4,0,20,YES
+6,jason,Jason,black_book,0,4,0,20,YES
+7,isabel_maxwell,Isabel Maxwell,black_book,0,3,0,15,YES
+8,elaine,Elaine,black_book,0,2,0,10,YES
+9,eva_andersson,Eva Andersson,black_book,0,2,0,10,YES
+10,itzhak_perlman,Itzhak Perlman,black_book,0,2,0,10,YES
+11,jimmy_cayne,Jimmy Cayne,black_book,0,2,0,10,YES
+12,mark_zeff,Mark Zeff,black_book,0,2,0,10,YES
+13,murray_gellmann,Murray Gell-Mann,black_book,0,2,0,10,YES
+14,philip_levine,Philip Levine,black_book,0,2,0,10,YES
+15,richard_branson,Richard Branson,black_book,0,2,0,10,YES
+16,cammy,Cammy,black_book,0,1,0,5,YES
+17,darren_indyke,Darren Indyke,black_book,0,1,0,5,YES
+18,janice_dickinson,Janice Dickinson,black_book,0,1,0,5,YES
+19,leon_black,Leon Black,black_book,0,1,0,5,YES
+20,mylene_jampanoi,Mylene Jampanoi,black_book,0,1,0,5,YES
+21,nicolas,Nicolas,black_book,0,1,0,5,YES
+22,richard_barnett,Richard Barnett,black_book,0,1,0,5,YES
+23,ali,Ali,black_book,0,0,0,0,YES
+24,ali_reza,Ali Reza,black_book,0,0,0,0,YES
+25,aliai_forte,Aliai Forte,black_book,0,0,0,0,YES
+26,alice_bamford,Alice Bamford,black_book,0,0,0,0,YES
+27,alice_picasso,Alice Picasso,black_book,0,0,0,0,YES
+28,alisa_marks,Alisa Marks,black_book,0,0,0,0,YES
+29,alison_brown,Alison Brown,black_book,0,0,0,0,YES
+30,alistair_mcalpine_baron_of_west,"Alistair McAlpine, Baron of West",black_book,0,0,0,0,YES
+31,alistar_cambell,Alistar Cambell,black_book,0,0,0,0,YES
+32,alix_noel,Alix Noel,black_book,0,0,0,0,YES
+33,allison_stern,Allison Stern,black_book,0,0,0,0,YES
+34,alvarez_de_toledo_ignacio,Alvarez de Toledo Ignacio,black_book,0,0,0,0,YES
+35,alyce_faye_cleese,Alyce Faye Cleese,black_book,0,0,0,0,YES
+36,amadeo_claverino,Amadeo Claverino,black_book,0,0,0,0,YES
+37,amanda_burden,Amanda Burden,black_book,0,0,0,0,YES
+38,amanda_cutter_brooks,Amanda Cutter Brooks,black_book,0,0,0,0,YES
+39,amanda_eliasch,Amanda Eliasch,black_book,0,0,0,0,YES
+40,amanda_elingworth,Amanda Elingworth,black_book,0,0,0,0,YES
+41,amanda_fry,Amanda Fry,black_book,0,0,0,0,YES
+42,amanda_keidan,Amanda Keidan,black_book,0,0,0,0,YES
+43,amanda_sunley,Amanda Sunley,black_book,0,0,0,0,YES
+44,ambassador_patrick_fairweather,Ambassador Patrick Fairweather,black_book,0,0,0,0,YES
+45,ami_atkin,Ami Atkin,black_book,0,0,0,0,YES
+46,amr_a_dabbagh,Amr A. Dabbagh,black_book,0,0,0,0,YES
+47,amy_sacco,Amy Sacco,black_book,0,0,0,0,YES
+48,anabel_elwes,Anabel Elwes,black_book,0,0,0,0,YES
+49,anabelle_bond,Anabelle Bond,black_book,0,0,0,0,YES
+50,andre_shearer,Andre Shearer,black_book,0,0,0,0,YES
+51,andrea_bonomi,Andrea Bonomi,black_book,0,0,0,0,YES
+52,andrea_hissom,Andrea Hissom,black_book,0,0,0,0,YES
+53,andrew_piggy_yates,Andrew (piggy) Yates,black_book,0,0,0,0,YES
+54,andrew_de_candole,Andrew de Candole,black_book,0,0,0,0,YES
+55,andrew_edwards,Andrew Edwards,black_book,0,0,0,0,YES
+56,andrew_farkas,Andrew Farkas,black_book,0,0,0,0,YES
+57,andrew_feldman,Andrew Feldman,black_book,0,0,0,0,YES
+58,andrew_fox,Andrew Fox,black_book,0,0,0,0,YES
+59,andrew_gilifilan,Andrew Gilifilan,black_book,0,0,0,0,YES
+60,andrew_gillmour,Andrew Gillmour,black_book,0,0,0,0,YES
+61,andrew_huntley,Andrew Huntley,black_book,0,0,0,0,YES
+62,andrew_jarecki,Andrew Jarecki,black_book,0,0,0,0,YES
+63,andrew_neil,Andrew Neil,black_book,0,0,0,0,YES
+64,andrew_rosen,Andrew Rosen,black_book,0,0,0,0,YES
+65,andrew_solomon,Andrew Solomon,black_book,0,0,0,0,YES
+66,andrew_stengel,Andrew Stengel,black_book,0,0,0,0,YES
+67,andrew_tish,Andrew Tish,black_book,0,0,0,0,YES
+68,andrew_wong,Andrew Wong,black_book,0,0,0,0,YES
+69,andre_balazs,André Balazs,black_book,0,0,0,0,YES
+70,andres_pastrana_arango,Andrés Pastrana Arango,black_book,0,0,0,0,YES
+71,angie_evehart,Angie Evehart,black_book,0,0,0,0,YES
+72,anh_duong,Anh Duong,black_book,0,0,0,0,YES
+73,ann_jones,Ann Jones,black_book,0,0,0,0,YES
+74,ann_stock,Ann Stock,black_book,0,0,0,0,YES
+75,annabel_heseltine,Annabel Heseltine,black_book,0,0,0,0,YES
+76,anne_fell,Anne Fell,black_book,0,0,0,0,YES
+77,anne_hurst,Anne Hurst,black_book,0,0,0,0,YES
+78,anne_maxwell,Anne Maxwell,black_book,0,0,0,0,YES
+79,anne_tish,Anne Tish,black_book,0,0,0,0,YES
+80,anne_verdin_mulot,Anne Verdin Mulot,black_book,0,0,0,0,YES
+81,anouska_de_georgiou,Anouska De Georgiou,black_book,0,0,0,0,YES
+82,anthony_blair,Anthony Blair,black_book,0,0,0,0,YES
+83,anthony_brand,Anthony Brand,black_book,0,0,0,0,YES
+84,anthony_busby,Anthony Busby,black_book,0,0,0,0,YES
+85,anthony_guccioni,Anthony Guccioni,black_book,0,0,0,0,YES
+86,anthony_hill,Anthony Hill,black_book,0,0,0,0,YES
+87,anthony_malkin,Anthony Malkin,black_book,0,0,0,0,YES
+88,anthony_mcfarland,Anthony Mcfarland,black_book,0,0,0,0,YES
+89,anthony_meyer,Anthony Meyer,black_book,0,0,0,0,YES
+90,anthony_outred,Anthony Outred,black_book,0,0,0,0,YES
+91,anthony_v_dubb,Anthony V. Dubb,black_book,0,0,0,0,YES
+92,anthony_valukas,Anthony Valukas,black_book,0,0,0,0,YES
+93,antoine_khayat,Antoine Khayat,black_book,0,0,0,0,YES
+94,anton_katz,Anton Katz,black_book,0,0,0,0,YES
+95,arabella_oswald,Arabella Oswald,black_book,0,0,0,0,YES
+96,ari_ashley,Ari Ashley,black_book,0,0,0,0,YES
+97,ariadne_calvoplatero,Ariadne Calvo-Platero,black_book,0,0,0,0,YES
+98,arik_gutman,Arik Gutman,black_book,0,0,0,0,YES
+99,armado_fakhre,Armado Fakhre,black_book,0,0,0,0,YES
+100,arpad_arki_busson,"Arpad ""Arki"" Busson",black_book,0,0,0,0,YES
+101,arriette_livanos,Arriette Livanos,black_book,0,0,0,0,YES
+102,arthur_armstrong,Arthur Armstrong,black_book,0,0,0,0,YES
+103,astrid_forbes,Astrid Forbes,black_book,0,0,0,0,YES
+104,astrid_kohl,Astrid Kohl,black_book,0,0,0,0,YES
+105,astrid_marterier,Astrid Marterier,black_book,0,0,0,0,YES
+106,aurelia_cecil_stephenson,Aurelia Cecil Stephenson,black_book,0,0,0,0,YES
+107,averell_mortimer,Averell Mortimer,black_book,0,0,0,0,YES
+108,avi_gil,Avi Gil,black_book,0,0,0,0,YES
+109,ayla_hussain,Ayla Hussain,black_book,0,0,0,0,YES
+110,azzedine_alaia,Azzedine Alaia,black_book,0,0,0,0,YES
+111,babis_liogos,Babis Liogos,black_book,0,0,0,0,YES
+112,barbara_black,Barbara Black,black_book,0,0,0,0,YES
+113,barbara_carrera,Barbara Carrera,black_book,0,0,0,0,YES
+114,barbara_guggenheim,Barbara Guggenheim,black_book,0,0,0,0,YES
+115,barbara_mavroleon,Barbara Mavroleon,black_book,0,0,0,0,YES
+116,barbara_walters,Barbara Walters,black_book,0,0,0,0,YES
+117,barnaby_thompson,Barnaby Thompson,black_book,0,0,0,0,YES
+118,baron_bentinck,Baron Bentinck,black_book,0,0,0,0,YES
+119,baroness_francesca_theilmann,Baroness Francesca Theilmann,black_book,0,0,0,0,YES
+120,barry_hearn,Barry Hearn,black_book,0,0,0,0,YES
+121,barry_josephson,Barry Josephson,black_book,0,0,0,0,YES
+122,bartle_bull,Bartle Bull,black_book,0,0,0,0,YES
+123,basil_mavroleon,Basil Mavroleon,black_book,0,0,0,0,YES
+124,bea_hollond,Bea Hollond,black_book,0,0,0,0,YES
+125,bea_tollman,Bea Tollman,black_book,0,0,0,0,YES
+126,beatrice_ferragamo,Beatrice Ferragamo,black_book,0,0,0,0,YES
+127,bella_macmilan,Bella Macmilan,black_book,0,0,0,0,YES
+128,beng_seng_ong,Beng Seng Ong,black_book,0,0,0,0,YES
+129,benjamin_bram,Benjamin Bram,black_book,0,0,0,0,YES
+130,benjamin_elliot,Benjamin Elliot,black_book,0,0,0,0,YES
+131,benjamin_hollandmartin,Benjamin Holland-Martin,black_book,0,0,0,0,YES
+132,benjamin_sangster,Benjamin Sangster,black_book,0,0,0,0,YES
+133,benny_shabtai,Benny Shabtai,black_book,0,0,0,0,YES
+134,beo_otto,Beo Otto,black_book,0,0,0,0,YES
+135,bernard_dreesmann,Bernard Dreesmann,black_book,0,0,0,0,YES
+136,bernie_ecclestone,Bernie Ecclestone,black_book,0,0,0,0,YES
+137,bert_fields,Bert Fields,black_book,0,0,0,0,YES
+138,bettina_von_hase,Bettina Von Hase,black_book,0,0,0,0,YES
+139,bettina_zilkha,Bettina Zilkha,black_book,0,0,0,0,YES
+140,betty_lagardere,Betty Lagardere,black_book,0,0,0,0,YES
+141,bibi_zecher,Bibi Zecher,black_book,0,0,0,0,YES
+142,billy_tavoulareas,Billy Tavoulareas,black_book,0,0,0,0,YES
+143,blaine_trump,Blaine Trump,black_book,0,0,0,0,YES
+144,blake_lindsley,Blake Lindsley,black_book,0,0,0,0,YES
+145,blogs_blacker,Blogs Blacker,black_book,0,0,0,0,YES
+146,bluey_mavroleon,Bluey Mavroleon,black_book,0,0,0,0,YES
+147,bobby_foman,Bobby Foman,black_book,0,0,0,0,YES
+148,bobby_kennedy_jr,Bobby Kennedy Jr.,black_book,0,0,0,0,YES
+149,bobby_shriver,Bobby Shriver,black_book,0,0,0,0,YES
+150,bobby_slayton,Bobby Slayton,black_book,0,0,0,0,YES
+151,bobby_taubman,Bobby Taubman,black_book,0,0,0,0,YES
+152,bren_simon,Bren Simon,black_book,0,0,0,0,YES
+153,brenda_schad,Brenda Schad,black_book,0,0,0,0,YES
+154,brian_elias,Brian Elias,black_book,0,0,0,0,YES
+155,brian_kelly,Brian Kelly,black_book,0,0,0,0,YES
+156,brian_moseley,Brian Moseley,black_book,0,0,0,0,YES
+157,brian_moss,Brian Moss,black_book,0,0,0,0,YES
+158,brian_zipp,Brian Zipp,black_book,0,0,0,0,YES
+159,brigitte_panahizadi,Brigitte Panah-Izadi,black_book,0,0,0,0,YES
+160,brook_hanson,Brook Hanson,black_book,0,0,0,0,YES
+161,brooke_del_campo,Brooke del Campo,black_book,0,0,0,0,YES
+162,bruce_cope,Bruce Cope,black_book,0,0,0,0,YES
+163,bruce_merivaleausten,Bruce Merivale-Austen,black_book,0,0,0,0,YES
+164,bruce_moskowitz,Bruce Moskowitz,black_book,0,0,0,0,YES
+165,bryan_ferry,Bryan Ferry,black_book,0,0,0,0,YES
+166,camila_carlbom,Camila Carlbom,black_book,0,0,0,0,YES
+167,camilia_cordle,Camilia Cordle,black_book,0,0,0,0,YES
+168,camilla_woodward,Camilla Woodward,black_book,0,0,0,0,YES
+169,camille_olsen,Camille Olsen,black_book,0,0,0,0,YES
+170,candice_bushnell,Candice Bushnell,black_book,0,0,0,0,YES
+171,caprice,Caprice,black_book,0,0,0,0,YES
+172,carella_alunjones,Carella Alun-Jones,black_book,0,0,0,0,YES
+173,carina_carey,Carina Carey,black_book,0,0,0,0,YES
+174,carina_mavroleon,Carina Mavroleon,black_book,0,0,0,0,YES
+175,carletto_odonnell,Carletto O'Donnell,black_book,0,0,0,0,YES
+176,carlo_mack,Carlo Mack,black_book,0,0,0,0,YES
+177,carlos_sanchez,Carlos Sanchez,black_book,0,0,0,0,YES
+178,carlos_souza,Carlos Souza,black_book,0,0,0,0,YES
+179,carlyn_hunter,Carlyn Hunter,black_book,0,0,0,0,YES
+180,carman_dalessie,Carman D'Alessie,black_book,0,0,0,0,YES
+181,carmine,Carmine,black_book,0,0,0,0,YES
+182,carmine_s_villani,Carmine S. Villani,black_book,0,0,0,0,YES
+183,carol_wolper,Carol Wolper,black_book,0,0,0,0,YES
+184,carole_radziwill,Carole Radziwill,black_book,0,0,0,0,YES
+185,carolin_coleman,Carolin Coleman,black_book,0,0,0,0,YES
+186,carolina_mattsson,Carolina Mattsson,black_book,0,0,0,0,YES
+187,carolina_parsons,Carolina Parsons,black_book,0,0,0,0,YES
+188,carolina_stanburry,Carolina Stanburry,black_book,0,0,0,0,YES
+189,caroline_braine,Caroline Braine,black_book,0,0,0,0,YES
+190,caroline_gibson,Caroline Gibson,black_book,0,0,0,0,YES
+191,caroline_kellett_fraysse,Caroline Kellett Fraysse,black_book,0,0,0,0,YES
+192,caroline_lang,Caroline Lang,black_book,0,0,0,0,YES
+193,caroline_roumugere,Caroline Roumugere,black_book,0,0,0,0,YES
+194,caroline_stark,Caroline Stark,black_book,0,0,0,0,YES
+195,carrie_minot_bell,Carrie Minot Bell,black_book,0,0,0,0,YES
+196,carrie_woods,Carrie Woods,black_book,0,0,0,0,YES
+197,carter_wilson,Carter Wilson,black_book,0,0,0,0,YES
+198,caryn_krooth,Caryn Krooth,black_book,0,0,0,0,YES
+199,cas_mclancy,Cas Mclancy,black_book,0,0,0,0,YES
+200,casey_wasserman,Casey Wasserman,black_book,0,0,0,0,YES
+201,cate_wyatt,Cate Wyatt,black_book,0,0,0,0,YES
+202,cath_adler,Cath Adler,black_book,0,0,0,0,YES
+203,cath_dietrich,Cath Dietrich,black_book,0,0,0,0,YES
+204,catherine_fairweather,Catherine Fairweather,black_book,0,0,0,0,YES
+205,catherine_prevost,Catherine Prevost,black_book,0,0,0,0,YES
+206,catherine_theodoli,Catherine Theodoli,black_book,0,0,0,0,YES
+207,catriona_germanribon,Catriona German-Ribon,black_book,0,0,0,0,YES
+208,cecilia_noha,Cecilia Noha,black_book,0,0,0,0,YES
+209,cecilia_szajman,Cecilia Szajman,black_book,0,0,0,0,YES
+210,cesar_montemayor,Cesar Montemayor,black_book,0,0,0,0,YES
+211,chantal_hanover,Chantal Hanover,black_book,0,0,0,0,YES
+212,charlene_carvalho,Charlene Carvalho,black_book,0,0,0,0,YES
+213,charles_finch,Charles Finch,black_book,0,0,0,0,YES
+214,charles_h_price_ii,Charles H. Price II,black_book,0,0,0,0,YES
+215,charles_miller,Charles Miller,black_book,0,0,0,0,YES
+216,charles_vivian_smith,Charles Vivian Smith,black_book,0,0,0,0,YES
+217,charlie,Charlie,black_book,0,0,0,0,YES
+218,charlie_althorp,Charlie Althorp,black_book,0,0,0,0,YES
+219,charlie_butter,Charlie Butter,black_book,0,0,0,0,YES
+220,charlie_elingworth,Charlie Elingworth,black_book,0,0,0,0,YES
+221,charlie_glass,Charlie Glass,black_book,0,0,0,0,YES
+222,charlie_ind,Charlie Ind,black_book,0,0,0,0,YES
+223,charlie_kirwantaylor,Charlie Kirwan-Taylor,black_book,0,0,0,0,YES
+224,charlie_money_kyrle,Charlie Money Kyrle,black_book,0,0,0,0,YES
+225,charlie_rose,Charlie Rose,black_book,0,0,0,0,YES
+226,charlie_stopfordsackville,Charlie Stopford-Sackville,black_book,0,0,0,0,YES
+227,charlotte_assaf,Charlotte Assaf,black_book,0,0,0,0,YES
+228,charlotte_de_klee,Charlotte de Klee,black_book,0,0,0,0,YES
+229,charlotte_di_vita,Charlotte Di Vita,black_book,0,0,0,0,YES
+230,charlotte_duthie,Charlotte Duthie,black_book,0,0,0,0,YES
+231,charlotte_faibairn,Charlotte Faibairn,black_book,0,0,0,0,YES
+232,charlotte_figg,Charlotte Figg,black_book,0,0,0,0,YES
+233,cheryl_mills,Cheryl Mills,black_book,0,0,0,0,YES
+234,christian_gudefin,Christian Gudefin,black_book,0,0,0,0,YES
+235,christina_a_boothe,Christina A. Boothe,black_book,0,0,0,0,YES
+236,christina_estrada_juffali,Christina Estrada Juffali,black_book,0,0,0,0,YES
+237,christina_fallah,Christina Fallah,black_book,0,0,0,0,YES
+238,christina_ong,Christina Ong,black_book,0,0,0,0,YES
+239,christina_tabet,Christina Tabet,black_book,0,0,0,0,YES
+240,christine_fakhre,Christine Fakhre,black_book,0,0,0,0,YES
+241,christine_maxwell_malina,Christine Maxwell Malina,black_book,0,0,0,0,YES
+242,christine_seilern,Christine Seilern,black_book,0,0,0,0,YES
+243,christophe_lazar,Christophe Lazar,black_book,0,0,0,0,YES
+244,christopher_kip_forbes,"Christopher ""Kip"" Forbes",black_book,0,0,0,0,YES
+245,christopher_brown,Christopher Brown,black_book,0,0,0,0,YES
+246,christopher_evans,Christopher Evans,black_book,0,0,0,0,YES
+247,christopher_figg,Christopher Figg,black_book,0,0,0,0,YES
+248,christopher_getty,Christopher Getty,black_book,0,0,0,0,YES
+249,christopher_isham,Christopher Isham,black_book,0,0,0,0,YES
+250,christopher_lambert,Christopher Lambert,black_book,0,0,0,0,YES
+251,christopher_lawford,Christopher Lawford,black_book,0,0,0,0,YES
+252,christopher_moore,Christopher Moore,black_book,0,0,0,0,YES
+253,christopher_pymont,Christopher Pymont,black_book,0,0,0,0,YES
+254,christopher_steenkamp,Christopher Steenkamp,black_book,0,0,0,0,YES
+255,christy_prunier,Christy Prunier,black_book,0,0,0,0,YES
+256,christy_turlington,Christy Turlington,black_book,0,0,0,0,YES
+257,chuck_fifer,Chuck Fifer,black_book,0,0,0,0,YES
+258,cico_moncada,Cico Moncada,black_book,0,0,0,0,YES
+259,cindy_buklarewicz_lopez,Cindy Buklarewicz Lopez,black_book,0,0,0,0,YES
+260,claire_milford_haven,Claire Milford Haven,black_book,0,0,0,0,YES
+261,claire_murray_threipland,Claire Murray Threipland,black_book,0,0,0,0,YES
+262,clare_hazelliveagh,Clare Hazell-Iveagh,black_book,0,0,0,0,YES
+263,clary_polu,Clary Polu,black_book,0,0,0,0,YES
+264,claude_ott,Claude Ott,black_book,0,0,0,0,YES
+265,claudia_rosencrantz,Claudia Rosencrantz,black_book,0,0,0,0,YES
+266,clem_pease,Clem Pease,black_book,0,0,0,0,YES
+267,clementine_hambro,Clementine Hambro,black_book,0,0,0,0,YES
+268,clive_bannister,Clive Bannister,black_book,0,0,0,0,YES
+269,clive_cooke,Clive Cooke,black_book,0,0,0,0,YES
+270,clive_ng,Clive Ng,black_book,0,0,0,0,YES
+271,coco_brown,Coco Brown,black_book,0,0,0,0,YES
+272,coles_alan,"Coles, Alan",black_book,0,0,0,0,YES
+273,colin_cowie,Colin Cowie,black_book,0,0,0,0,YES
+274,colin_lucas,Colin Lucas,black_book,0,0,0,0,YES
+275,conrad_black,Conrad Black,black_book,0,0,0,0,YES
+276,constantine_niarchos,Constantine Niarchos,black_book,0,0,0,0,YES
+277,cornelia_faulkner,Cornelia Faulkner,black_book,0,0,0,0,YES
+278,cornelia_guest,Cornelia Guest,black_book,0,0,0,0,YES
+279,corrie_sandelmar,Corrie Sandelmar,black_book,0,0,0,0,YES
+280,cosima_von_bulow_pavoncelli,Cosima von Bülow Pavoncelli,black_book,0,0,0,0,YES
+281,cosmo_fry,Cosmo Fry,black_book,0,0,0,0,YES
+282,countess_caroline_stanley,Countess Caroline Stanley,black_book,0,0,0,0,YES
+283,countess_debonnaire_von_bismarck,Countess Debonnaire Von Bismarck,black_book,0,0,0,0,YES
+284,courtney_love,Courtney Love,black_book,0,0,0,0,YES
+285,craig_barnett,Craig Barnett,black_book,0,0,0,0,YES
+286,craig_hatkoff,Craig Hatkoff,black_book,0,0,0,0,YES
+287,craig_tafoya,Craig Tafoya,black_book,0,0,0,0,YES
+288,cynthia_ott,Cynthia Ott,black_book,0,0,0,0,YES
+289,dale_djerassi,Dale Djerassi,black_book,0,0,0,0,YES
+290,dalit_cohen,Dalit Cohen,black_book,0,0,0,0,YES
+291,dana_hammond,Dana Hammond,black_book,0,0,0,0,YES
+292,daniel_bodini,Daniel Bodini,black_book,0,0,0,0,YES
+293,daniel_fisher,Daniel Fisher,black_book,0,0,0,0,YES
+294,daniela_modafferi,Daniela Modafferi,black_book,0,0,0,0,YES
+295,danny_baker,Danny Baker,black_book,0,0,0,0,YES
+296,danny_fakhre,Danny Fakhre,black_book,0,0,0,0,YES
+297,dara_preece,Dara Preece,black_book,0,0,0,0,YES
+298,david_blaine,David Blaine,black_book,0,0,0,0,YES
+299,david_borden,David Borden,black_book,0,0,0,0,YES
+300,david_davies,David Davies,black_book,0,0,0,0,YES
+301,david_faber,David Faber,black_book,0,0,0,0,YES
+302,david_fell,David Fell,black_book,0,0,0,0,YES
+303,david_granby,David Granby,black_book,0,0,0,0,YES
+304,david_koch,David Koch,black_book,0,0,0,0,YES
+305,david_macmilan,David Macmilan,black_book,0,0,0,0,YES
+306,david_mitchell,David Mitchell,black_book,0,0,0,0,YES
+307,david_puttnam,David Puttnam,black_book,0,0,0,0,YES
+308,david_rockefeller,David Rockefeller,black_book,0,0,0,0,YES
+309,david_rocksavage,David Rocksavage,black_book,0,0,0,0,YES
+310,david_ross,David Ross,black_book,0,0,0,0,YES
+311,david_shaeffer,David Shaeffer,black_book,0,0,0,0,YES
+312,david_tisch,David Tisch,black_book,0,0,0,0,YES
+313,david_wagner,David Wagner,black_book,0,0,0,0,YES
+314,david_wassong,David Wassong,black_book,0,0,0,0,YES
+315,david_williamsellis,David Williams-Ellis,black_book,0,0,0,0,YES
+316,dawn_devito,Dawn DeVito,black_book,0,0,0,0,YES
+317,dayle_davison,Dayle Davison,black_book,0,0,0,0,YES
+318,dean_calakos,Dean Calakos,black_book,0,0,0,0,YES
+319,deb_roberts,Deb Roberts,black_book,0,0,0,0,YES
+320,debbie_castaneda,Debbie Castaneda,black_book,0,0,0,0,YES
+321,debbie_dickenson,Debbie Dickenson,black_book,0,0,0,0,YES
+322,debbie_maxwell,Debbie Maxwell,black_book,0,0,0,0,YES
+323,debbie_stewart,Debbie Stewart,black_book,0,0,0,0,YES
+324,deborah_alunjones,Deborah Alun-Jones,black_book,0,0,0,0,YES
+325,deborah_green,Deborah Green,black_book,0,0,0,0,YES
+326,deborah_moore,Deborah Moore,black_book,0,0,0,0,YES
+327,della_rudnick,Della Rudnick,black_book,0,0,0,0,YES
+328,demetra_lalaunis,Demetra Lalaunis,black_book,0,0,0,0,YES
+329,denis_plouvier,Denis Plouvier,black_book,0,0,0,0,YES
+330,denis_rosen,Denis Rosen,black_book,0,0,0,0,YES
+331,derek_shaw,Derek Shaw,black_book,0,0,0,0,YES
+332,diandra_douglas,Diandra Douglas,black_book,0,0,0,0,YES
+333,diane_plouvier,Diane Plouvier,black_book,0,0,0,0,YES
+334,dick_cowley,Dick Cowley,black_book,0,0,0,0,YES
+335,didi_malek,Didi Malek,black_book,0,0,0,0,YES
+336,dieter_lange,Dieter Lange,black_book,0,0,0,0,YES
+337,dimitry_goulandris,Dimitry Goulandris,black_book,0,0,0,0,YES
+338,dina_de_luca,Dina De Luca,black_book,0,0,0,0,YES
+339,dino_zevi,Dino Zevi,black_book,0,0,0,0,YES
+340,dominice_dunne,Dominice Dunne,black_book,0,0,0,0,YES
+341,dominick_lester,Dominick Lester,black_book,0,0,0,0,YES
+342,don_engle,Don Engle,black_book,0,0,0,0,YES
+343,don_rappaport,Don Rappaport,black_book,0,0,0,0,YES
+344,donald_munro,Donald Munro,black_book,0,0,0,0,YES
+345,donald_rosenfeld,Donald Rosenfeld,black_book,0,0,0,0,YES
+346,dori,Dori,black_book,0,0,0,0,YES
+347,dorrit,Dorrit,black_book,0,0,0,0,YES
+348,dott_m_jacope_nardi,Dott. M Jacope Nardi,black_book,0,0,0,0,YES
+349,dott_marco_vittorelli,Dott. Marco Vittorelli,black_book,0,0,0,0,YES
+350,dottie_sowell,Dottie Sowell,black_book,0,0,0,0,YES
+351,doug_liman,Doug Liman,black_book,0,0,0,0,YES
+352,douglas_a_schoettle,Douglas A. Schoettle,black_book,0,0,0,0,YES
+353,dr_birnbaum,Dr. Birnbaum,black_book,0,0,0,0,YES
+354,dr_bruno,Dr. Bruno,black_book,0,0,0,0,YES
+355,dr_burman,Dr. Burman,black_book,0,0,0,0,YES
+356,dr_farkus,Dr. Farkus,black_book,0,0,0,0,YES
+357,dr_gerald_edelman,Dr. Gerald Edelman,black_book,0,0,0,0,YES
+358,dr_hahn,Dr. Hahn,black_book,0,0,0,0,YES
+359,dr_henry_a_kissinger,Dr. Henry A. Kissinger,black_book,0,0,0,0,YES
+360,dr_henry_jarecki,Dr. Henry Jarecki,black_book,0,0,0,0,YES
+361,dr_hirshfield,Dr. Hirshfield,black_book,0,0,0,0,YES
+362,dr_jr_gaynor,Dr. JR Gaynor,black_book,0,0,0,0,YES
+363,dr_kashel,Dr. Kashel,black_book,0,0,0,0,YES
+364,dr_lee,Dr. Lee,black_book,0,0,0,0,YES
+365,dr_magnani,Dr. Magnani,black_book,0,0,0,0,YES
+366,dr_mark_cecil,Dr. Mark Cecil,black_book,0,0,0,0,YES
+367,dr_michael_krumholtz,Dr. Michael Krumholtz,black_book,0,0,0,0,YES
+368,dr_oliver_sacks,Dr. Oliver Sacks,black_book,0,0,0,0,YES
+369,dr_perry_bard,Dr. Perry Bard,black_book,0,0,0,0,YES
+370,dr_ray,Dr. Ray,black_book,0,0,0,0,YES
+371,dr_schimoni,Dr. Schimoni,black_book,0,0,0,0,YES
+372,dr_singleton,Dr. Singleton,black_book,0,0,0,0,YES
+373,dr_steinburg,Dr. Steinburg,black_book,0,0,0,0,YES
+374,dr_steve_victor,Dr. Steve Victor,black_book,0,0,0,0,YES
+375,drake_darrin,Drake Darrin,black_book,0,0,0,0,YES
+376,duchess_rutland,Duchess Rutland,black_book,0,0,0,0,YES
+377,duff_lambos,Duff Lambos,black_book,0,0,0,0,YES
+378,early_mack,Early Mack,black_book,0,0,0,0,YES
+379,eddie_irvine,Eddie Irvine,black_book,0,0,0,0,YES
+380,eddie_mangope,Eddie Mangope,black_book,0,0,0,0,YES
+381,eddie_manners,Eddie Manners,black_book,0,0,0,0,YES
+382,edgar_bronfman_bronfman_jr,Edgar Bronfman Bronfman Jr.,black_book,0,0,0,0,YES
+383,edmondo_di_maya_robilant,Edmondo di Maya Robilant,black_book,0,0,0,0,YES
+384,edmund_glentworth,Edmund Glentworth,black_book,0,0,0,0,YES
+385,edmund_saffra,Edmund Saffra,black_book,0,0,0,0,YES
+386,edoardo_polli,Edoardo Polli,black_book,0,0,0,0,YES
+387,edouard_de_rothschild,Edouard de Rothschild,black_book,0,0,0,0,YES
+388,eduardo_teodoranifabbri,Eduardo Teodorani-Fabbri,black_book,0,0,0,0,YES
+389,edvige_otto,Edvige Otto,black_book,0,0,0,0,YES
+390,edward_de_boisgelin,Edward de Boisgelin,black_book,0,0,0,0,YES
+391,edward_hutley,Edward Hutley,black_book,0,0,0,0,YES
+392,edward_lambert,Edward Lambert,black_book,0,0,0,0,YES
+393,edward_razek,Edward Razek,black_book,0,0,0,0,YES
+394,edward_st_bris,Edward St. Bris,black_book,0,0,0,0,YES
+395,edward_stanley_earl_of_derby,"Edward Stanley, Earl of Derby",black_book,0,0,0,0,YES
+396,edwina_fyson,Edwina Fyson,black_book,0,0,0,0,YES
+397,ehud_barak,Ehud Barak,black_book,0,0,0,0,YES
+398,ehud_olmert,Ehud Olmert,black_book,0,0,0,0,YES
+399,eileen_guggenheim,Eileen Guggenheim,black_book,0,0,0,0,YES
+400,eileen_hickery,Eileen Hickery,black_book,0,0,0,0,YES
+401,electra_prestin,Electra Prestin,black_book,0,0,0,0,YES
+402,elie_wiesel,Elie Wiesel,black_book,0,0,0,0,YES
+403,eliot_taymor,Eliot Taymor,black_book,0,0,0,0,YES
+404,elisa_eshed,Elisa Eshed,black_book,0,0,0,0,YES
+405,elise_paschen,Elise Paschen,black_book,0,0,0,0,YES
+406,elizabeth_libet_johnson,"Elizabeth ""Libet"" Johnson",black_book,0,0,0,0,YES
+407,elizabeth_lindemann,Elizabeth Lindemann,black_book,0,0,0,0,YES
+408,elizabeth_saltzman,Elizabeth Saltzman,black_book,0,0,0,0,YES
+409,elizabeth_winston,Elizabeth Winston,black_book,0,0,0,0,YES
+410,ellen_goldberg,Ellen Goldberg,black_book,0,0,0,0,YES
+411,emanuel_nadler,Emanuel Nadler,black_book,0,0,0,0,YES
+412,emanuele_a_a_vittadini,Emanuele A. A Vittadini,black_book,0,0,0,0,YES
+413,emilio_del_campo,Emilio del Campo,black_book,0,0,0,0,YES
+414,emily_glentworth,Emily Glentworth,black_book,0,0,0,0,YES
+415,emily_todhunter_olympitis,Emily Todhunter Olympitis,black_book,0,0,0,0,YES
+416,emily_woods,Emily Woods,black_book,0,0,0,0,YES
+417,emma_bullough,Emma Bullough,black_book,0,0,0,0,YES
+418,emma_clempson,Emma Clempson,black_book,0,0,0,0,YES
+419,emma_gibbs,Emma Gibbs,black_book,0,0,0,0,YES
+420,emma_gillmour,Emma Gillmour,black_book,0,0,0,0,YES
+421,emma_gomme,Emma Gomme,black_book,0,0,0,0,YES
+422,emmanuele_porthault,Emmanuele Porthault,black_book,0,0,0,0,YES
+423,emmanuelle_polu,Emmanuelle Polu,black_book,0,0,0,0,YES
+424,eric_ellenbogen,Eric Ellenbogen,black_book,0,0,0,0,YES
+425,eric_gany,Eric Gany,black_book,0,0,0,0,YES
+426,eric_gertler,Eric Gertler,black_book,0,0,0,0,YES
+427,eric_margolis,Eric Margolis,black_book,0,0,0,0,YES
+428,eric_ruttenberg,Eric Ruttenberg,black_book,0,0,0,0,YES
+429,eric_salama,Eric Salama,black_book,0,0,0,0,YES
+430,eric_wachtmeister,Eric Wachtmeister,black_book,0,0,0,0,YES
+431,ernst_hanover,Ernst Hanover,black_book,0,0,0,0,YES
+432,esperanza_sobrino,Esperanza Sobrino,black_book,0,0,0,0,YES
+433,esteban_ganoza,Esteban Ganoza,black_book,0,0,0,0,YES
+434,esther_d_sternberg,Esther D. Sternberg,black_book,0,0,0,0,YES
+435,ethel_kennedy,Ethel Kennedy,black_book,0,0,0,0,YES
+436,eva_lorenzoti,Eva Lorenzoti,black_book,0,0,0,0,YES
+437,evani_duud_efrat,Evani Duud Efrat,black_book,0,0,0,0,YES
+438,evelyn_de_rothschild,Evelyn de Rothschild,black_book,0,0,0,0,YES
+439,fabrice_orlando,Fabrice Orlando,black_book,0,0,0,0,YES
+440,fabrizio_cerina,Fabrizio Cerina,black_book,0,0,0,0,YES
+441,felicity_waterman,Felicity Waterman,black_book,0,0,0,0,YES
+442,felix_posen,Felix Posen,black_book,0,0,0,0,YES
+443,ferdinando_brachetti_peretti,Ferdinando Brachetti Peretti,black_book,0,0,0,0,YES
+444,fernando_arion,Fernando Arion,black_book,0,0,0,0,YES
+445,fernando_de_corodva_hohenlohe,Fernando de Corodva Hohenlohe,black_book,0,0,0,0,YES
+446,fernando_de_soto,Fernando De Soto,black_book,0,0,0,0,YES
+447,fev_micklethwait,Fev Micklethwait,black_book,0,0,0,0,YES
+448,fi_sangster,Fi Sangster,black_book,0,0,0,0,YES
+449,fi_wilmotsitwell,Fi Wilmot-Sitwell,black_book,0,0,0,0,YES
+450,fiona_feeley,Fiona Feeley,black_book,0,0,0,0,YES
+451,flavio_briatore,Flavio Briatore,black_book,0,0,0,0,YES
+452,florina_rueda,Florina Rueda,black_book,0,0,0,0,YES
+453,fouad_chartouni,Fouad Chartouni,black_book,0,0,0,0,YES
+454,francesca_chessy_tyssen,Francesca (Chessy) Tyssen,black_book,0,0,0,0,YES
+455,francesca_von_habsburg,Francesca Von Habsburg,black_book,0,0,0,0,YES
+456,francesco_de_la_de_la_garda,Francesco de la de la Garda,black_book,0,0,0,0,YES
+457,francesco_ducreygiordano,Francesco Ducrey-Giordano,black_book,0,0,0,0,YES
+458,francis_goldman,Francis Goldman,black_book,0,0,0,0,YES
+459,francis_peadon,Francis Peadon,black_book,0,0,0,0,YES
+460,francis_wahl,Francis Wahl,black_book,0,0,0,0,YES
+461,francois_graff,Francois Graff,black_book,0,0,0,0,YES
+462,frederick_fred_adler,Frederick (Fred) Adler,black_book,0,0,0,0,YES
+463,frederico_pignatelli,Frederico Pignatelli,black_book,0,0,0,0,YES
+464,fredie_heineken,Fredie Heineken,black_book,0,0,0,0,YES
+465,freedman_ellis,Freedman Ellis,black_book,0,0,0,0,YES
+466,freida_lindemann,Freida Lindemann,black_book,0,0,0,0,YES
+467,gail_elliot,Gail Elliot,black_book,0,0,0,0,YES
+468,gall_rolfe,Gall Rolfe,black_book,0,0,0,0,YES
+469,gary_baura,Gary Baura,black_book,0,0,0,0,YES
+470,gary_ginsberg,Gary Ginsberg,black_book,0,0,0,0,YES
+471,gavin_rankin,Gavin Rankin,black_book,0,0,0,0,YES
+472,gavin_tollman,Gavin Tollman,black_book,0,0,0,0,YES
+473,gayl_kelmenson,Gayl Kelmenson,black_book,0,0,0,0,YES
+474,gelasio_gaetani,Gelasio Gaetani,black_book,0,0,0,0,YES
+475,geoconda_cicogna,Geoconda Cicogna,black_book,0,0,0,0,YES
+476,geoffrey_kent,Geoffrey Kent,black_book,0,0,0,0,YES
+477,geoffrey_moore,Geoffrey Moore,black_book,0,0,0,0,YES
+478,geordie_gregg,Geordie Gregg,black_book,0,0,0,0,YES
+479,george_bamford,George Bamford,black_book,0,0,0,0,YES
+480,george_case,George Case,black_book,0,0,0,0,YES
+481,george_delson,George Delson,black_book,0,0,0,0,YES
+482,george_hamilton,George Hamilton,black_book,0,0,0,0,YES
+483,george_ireland,George Ireland,black_book,0,0,0,0,YES
+484,george_khayat,George Khayat,black_book,0,0,0,0,YES
+485,george_lindemann_sr,George Lindemann Sr.,black_book,0,0,0,0,YES
+486,george_milford_haven,George Milford Haven,black_book,0,0,0,0,YES
+487,george_minot,George Minot,black_book,0,0,0,0,YES
+488,george_polk,George Polk,black_book,0,0,0,0,YES
+489,george_whipple,George Whipple,black_book,0,0,0,0,YES
+490,georgette_klinger,Georgette Klinger,black_book,0,0,0,0,YES
+491,georgia_coleridge,Georgia Coleridge,black_book,0,0,0,0,YES
+492,georgie_keller,Georgie Keller,black_book,0,0,0,0,YES
+493,georgina_hunter_gordon,Georgina Hunter Gordon,black_book,0,0,0,0,YES
+494,gerald_goldsmith,Gerald Goldsmith,black_book,0,0,0,0,YES
+495,gerald_ronson,Gerald Ronson,black_book,0,0,0,0,YES
+496,gerard,Gerard,black_book,0,0,0,0,YES
+497,gerard_inzerillo,Gerard Inzerillo,black_book,0,0,0,0,YES
+498,giacomo_algranti,Giacomo Algranti,black_book,0,0,0,0,YES
+499,gian_carlo_cerutti,Gian Carlo Cerutti,black_book,0,0,0,0,YES
+500,giancarlo_camerana,Giancarlo Camerana,black_book,0,0,0,0,YES
+501,gianfranco_cicogna,Gianfranco Cicogna,black_book,0,0,0,0,YES
+502,gianluca_cicogna,Gianluca Cicogna,black_book,0,0,0,0,YES
+503,gianluca_milani,Gianluca Milani,black_book,0,0,0,0,YES
+504,gianmarco_schiatti,Gianmarco Schiatti,black_book,0,0,0,0,YES
+505,gibby_cohen,Gibby Cohen,black_book,0,0,0,0,YES
+506,gigi_mortimer,Gigi Mortimer,black_book,0,0,0,0,YES
+507,giola_bonomi,Giola Bonomi,black_book,0,0,0,0,YES
+508,giovanni_mahler,Giovanni Mahler,black_book,0,0,0,0,YES
+509,giuseppi_cipriani,Giuseppi Cipriani,black_book,0,0,0,0,YES
+510,gloria_jarecki,Gloria Jarecki,black_book,0,0,0,0,YES
+511,gordon_zacks,Gordon Zacks,black_book,0,0,0,0,YES
+512,gov_bruce_king,Gov. Bruce King,black_book,0,0,0,0,YES
+513,governor_andrew_cuomo,Governor Andrew Cuomo,black_book,0,0,0,0,YES
+514,governor_charles_turnbull,Governor Charles Turnbull,black_book,0,0,0,0,YES
+515,graham_clempson,Graham Clempson,black_book,0,0,0,0,YES
+516,greg_lee,Greg Lee,black_book,0,0,0,0,YES
+517,gregory_hedberg,Gregory Hedberg,black_book,0,0,0,0,YES
+518,gretal_barham,Gretal Barham,black_book,0,0,0,0,YES
+519,griffin_dunne,Griffin Dunne,black_book,0,0,0,0,YES
+520,guido_casagrande,Guido Casagrande,black_book,0,0,0,0,YES
+521,gustavo_cisneros,Gustavo Cisneros,black_book,0,0,0,0,YES
+522,guy_j_louthan,Guy J. Louthan,black_book,0,0,0,0,YES
+523,guy_merison,Guy Merison,black_book,0,0,0,0,YES
+524,guy_sangster,Guy Sangster,black_book,0,0,0,0,YES
+525,hamilton_south,Hamilton South,black_book,0,0,0,0,YES
+526,hamish_bowles,Hamish Bowles,black_book,0,0,0,0,YES
+527,hamish_bullough,Hamish Bullough,black_book,0,0,0,0,YES
+528,hamish_fraser,Hamish Fraser,black_book,0,0,0,0,YES
+529,hannah_rothchild,Hannah Rothchild,black_book,0,0,0,0,YES
+530,harlan_peitz,Harlan Peitz,black_book,0,0,0,0,YES
+531,harold_mollin,Harold Mollin,black_book,0,0,0,0,YES
+532,harriet_weintraub,Harriet Weintraub,black_book,0,0,0,0,YES
+533,harriett_gaul,Harriett Gaul,black_book,0,0,0,0,YES
+534,harry_cotterell,Harry Cotterell,black_book,0,0,0,0,YES
+535,harry_malek,Harry Malek,black_book,0,0,0,0,YES
+536,harry_nuttall,Harry Nuttall,black_book,0,0,0,0,YES
+537,harry_sutherland,Harry Sutherland,black_book,0,0,0,0,YES
+538,harry_tennenbaum,Harry Tennenbaum,black_book,0,0,0,0,YES
+539,hatti_jagger,Hatti Jagger,black_book,0,0,0,0,YES
+540,heather_day,Heather Day,black_book,0,0,0,0,YES
+541,heinrich_furstenberg,Heinrich Furstenberg,black_book,0,0,0,0,YES
+542,helen_herrero,Helen Herrero,black_book,0,0,0,0,YES
+543,helen_schifter,Helen Schifter,black_book,0,0,0,0,YES
+544,helen_windsortaylor,Helen Windsor-Taylor,black_book,0,0,0,0,YES
+545,helena_felix,Helena Felix,black_book,0,0,0,0,YES
+546,helene_atkin,Helene Atkin,black_book,0,0,0,0,YES
+547,helsius_petangi,Helsius Petangi,black_book,0,0,0,0,YES
+548,henri_dabo,Henri d'abo,black_book,0,0,0,0,YES
+549,henrietta_conrad,Henrietta Conrad,black_book,0,0,0,0,YES
+550,henry_hay,Henry Hay,black_book,0,0,0,0,YES
+551,henry_hutley,Henry Hutley,black_book,0,0,0,0,YES
+552,henry_kravis,Henry Kravis,black_book,0,0,0,0,YES
+553,henry_meer,Henry Meer,black_book,0,0,0,0,YES
+554,henry_silverman,Henry Silverman,black_book,0,0,0,0,YES
+555,herb_wolman,Herb Wolman,black_book,0,0,0,0,YES
+556,herve_aron,Herve Aron,black_book,0,0,0,0,YES
+557,hetty_hoffman,Hetty Hoffman,black_book,0,0,0,0,YES
+558,hetty_newman,Hetty Newman,black_book,0,0,0,0,YES
+559,hillary_batstone,Hillary Batstone,black_book,0,0,0,0,YES
+560,holly_peterson,Holly Peterson,black_book,0,0,0,0,YES
+561,hon_bruce_bossom,Hon. Bruce Bossom,black_book,0,0,0,0,YES
+562,hon_charles_pearson,Hon. Charles Pearson,black_book,0,0,0,0,YES
+563,hon_lucinda_royle,Hon. Lucinda Royle,black_book,0,0,0,0,YES
+564,hon_robert_hanson,Hon. Robert Hanson,black_book,0,0,0,0,YES
+565,hon_rupert_fairfax,Hon. Rupert Fairfax,black_book,0,0,0,0,YES
+566,hon_thomas_noel,Hon. Thomas Noel,black_book,0,0,0,0,YES
+567,howard_finklestein,Howard Finklestein,black_book,0,0,0,0,YES
+568,howard_gittis,Howard Gittis,black_book,0,0,0,0,YES
+569,howard_glick,Howard Glick,black_book,0,0,0,0,YES
+570,howard_himmelstein,Howard Himmelstein,black_book,0,0,0,0,YES
+571,howard_j_kaplan,Howard J. Kaplan,black_book,0,0,0,0,YES
+572,hugo_brachetti,Hugo Brachetti,black_book,0,0,0,0,YES
+573,hugo_ferranti,Hugo Ferranti,black_book,0,0,0,0,YES
+574,hugo_guinness,Hugo Guinness,black_book,0,0,0,0,YES
+575,hugo_squire,Hugo Squire,black_book,0,0,0,0,YES
+576,ian_rust,Ian Rust,black_book,0,0,0,0,YES
+577,inca,Inca,black_book,0,0,0,0,YES
+578,india_hicks,India Hicks,black_book,0,0,0,0,YES
+579,ira_c_magaziner,Ira C. Magaziner,black_book,0,0,0,0,YES
+580,ira_gumberg,Ira Gumberg,black_book,0,0,0,0,YES
+581,iraj_vahabzadeh,Iraj Vahabzadeh,black_book,0,0,0,0,YES
+582,isabel_claverino,Isabel Claverino,black_book,0,0,0,0,YES
+583,isabel_de_de_sejournet,Isabel de de Sejournet,black_book,0,0,0,0,YES
+584,isabel_fraysse,Isabel Fraysse,black_book,0,0,0,0,YES
+585,isabel_goldsmith,Isabel Goldsmith,black_book,0,0,0,0,YES
+586,isabel_porthault,Isabel Porthault,black_book,0,0,0,0,YES
+587,isabel_rattazzi,Isabel Rattazzi,black_book,0,0,0,0,YES
+588,isabelle_harviewatt,Isabelle Harvie-Watt,black_book,0,0,0,0,YES
+589,isabelle_polu,Isabelle Polu,black_book,0,0,0,0,YES
+590,isamel_abdullah,Isamel Abdullah,black_book,0,0,0,0,YES
+591,ishmail,Ishmail,black_book,0,0,0,0,YES
+592,ivan_hymes,Ivan Hymes,black_book,0,0,0,0,YES
+593,ivana_lowell,Ivana Lowell,black_book,0,0,0,0,YES
+594,ivanisevic_porrin,Ivanisevic Porrin,black_book,0,0,0,0,YES
+595,ivanka_trump,Ivanka Trump,black_book,0,0,0,0,YES
+596,j_meltzer,J Meltzer,black_book,0,0,0,0,YES
+597,jack_gelardin,Jack Gelardin,black_book,0,0,0,0,YES
+598,jack_kessler,Jack Kessler,black_book,0,0,0,0,YES
+599,jack_liggett,Jack Liggett,black_book,0,0,0,0,YES
+600,jackie_josephson,Jackie Josephson,black_book,0,0,0,0,YES
+601,jackie_parker,Jackie Parker,black_book,0,0,0,0,YES
+602,jaclyn_lindsay,Jaclyn Lindsay,black_book,0,0,0,0,YES
+603,jacobo_gordon,Jacobo Gordon,black_book,0,0,0,0,YES
+604,jacques_de_crussol_duzes,Jacques de crussol d'Uzes,black_book,0,0,0,0,YES
+605,jacques_grange,Jacques Grange,black_book,0,0,0,0,YES
+606,jacques_villeneuve,Jacques Villeneuve,black_book,0,0,0,0,YES
+607,jaime_de_soto,Jaime de Soto,black_book,0,0,0,0,YES
+608,jake,Jake,black_book,0,0,0,0,YES
+609,jalila_hashemi,Jalila Hashemi,black_book,0,0,0,0,YES
+610,james_bruce,James Bruce,black_book,0,0,0,0,YES
+611,james_hollond,James Hollond,black_book,0,0,0,0,YES
+612,james_palumbo,James Palumbo,black_book,0,0,0,0,YES
+613,james_smith,James Smith,black_book,0,0,0,0,YES
+614,james_staley,James Staley,black_book,0,0,0,0,YES
+615,james_tutle,James Tutle,black_book,0,0,0,0,YES
+616,james_whitehead,James Whitehead,black_book,0,0,0,0,YES
+617,james_wial,James Wial,black_book,0,0,0,0,YES
+618,james_wyatt,James Wyatt,black_book,0,0,0,0,YES
+619,jamie_grant,Jamie Grant,black_book,0,0,0,0,YES
+620,jamie_sainsbury,Jamie Sainsbury,black_book,0,0,0,0,YES
+621,jana_khayat,Jana Khayat,black_book,0,0,0,0,YES
+622,jane_buffet,Jane Buffet,black_book,0,0,0,0,YES
+623,jane_hatkoff,Jane Hatkoff,black_book,0,0,0,0,YES
+624,jane_pickering,Jane Pickering,black_book,0,0,0,0,YES
+625,jane_rosenthal,Jane Rosenthal,black_book,0,0,0,0,YES
+626,jane_veronis,Jane Veronis,black_book,0,0,0,0,YES
+627,janet_larsen,Janet Larsen,black_book,0,0,0,0,YES
+628,jasmine_fakhre,Jasmine Fakhre,black_book,0,0,0,0,YES
+629,jasmine_le_bon,Jasmine Le Bon,black_book,0,0,0,0,YES
+630,jason_calacanis,Jason Calacanis,black_book,0,0,0,0,YES
+631,jason_herbert,Jason Herbert,black_book,0,0,0,0,YES
+632,jason_weinberg,Jason Weinberg,black_book,0,0,0,0,YES
+633,javier,Javier,black_book,0,0,0,0,YES
+634,javier_banon,Javier Banon,black_book,0,0,0,0,YES
+635,jayne_nickerson,Jayne Nickerson,black_book,0,0,0,0,YES
+636,jean_baddeley,Jean Baddeley,black_book,0,0,0,0,YES
+637,jean_dedieu,Jean Dedieu,black_book,0,0,0,0,YES
+638,jean_lawford,Jean Lawford,black_book,0,0,0,0,YES
+639,jean_marc_bisson,Jean Marc Bisson,black_book,0,0,0,0,YES
+640,jean_paul_bjorlin,Jean Paul Bjorlin,black_book,0,0,0,0,YES
+641,jean_paul_mulot,Jean Paul Mulot,black_book,0,0,0,0,YES
+642,jean_pierre_pierre_murray,Jean Pierre Pierre Murray,black_book,0,0,0,0,YES
+643,jean_pigozzi,Jean Pigozzi,black_book,0,0,0,0,YES
+644,jeanjacques_moinet,Jean-Jacques Moinet,black_book,0,0,0,0,YES
+645,jeanmarc_estlin,Jean-Marc Estlin,black_book,0,0,0,0,YES
+646,jeanyves_le_fur,Jean-Yves Le Fur,black_book,0,0,0,0,YES
+647,jeanette_foman,Jeanette Foman,black_book,0,0,0,0,YES
+648,jeffrey_colle,Jeffrey Colle,black_book,0,0,0,0,YES
+649,jeffrey_davies,Jeffrey Davies,black_book,0,0,0,0,YES
+650,jeffrey_hirsch,Jeffrey Hirsch,black_book,0,0,0,0,YES
+651,jeffrey_leeds,Jeffrey Leeds,black_book,0,0,0,0,YES
+652,jeffrey_podolsky,Jeffrey Podolsky,black_book,0,0,0,0,YES
+653,jelitza_negrete,Jelitza Negrete,black_book,0,0,0,0,YES
+654,jemma_kidd,Jemma Kidd,black_book,0,0,0,0,YES
+655,jen_halpern,Jen Halpern,black_book,0,0,0,0,YES
+656,jennifer_dabo,Jennifer d'abo,black_book,0,0,0,0,YES
+657,jennifer_maguire,Jennifer Maguire,black_book,0,0,0,0,YES
+658,jenny_swire,Jenny Swire,black_book,0,0,0,0,YES
+659,jenny_turner,Jenny Turner,black_book,0,0,0,0,YES
+660,jeremy_alunjones,Jeremy Alun-Jones,black_book,0,0,0,0,YES
+661,jeremy_drax,Jeremy Drax,black_book,0,0,0,0,YES
+662,jeremy_garson,Jeremy Garson,black_book,0,0,0,0,YES
+663,jeremy_green,Jeremy Green,black_book,0,0,0,0,YES
+664,jeremy_marsh,Jeremy Marsh,black_book,0,0,0,0,YES
+665,jerome_pierre,Jerome Pierre,black_book,0,0,0,0,YES
+666,jerry_beck,Jerry Beck,black_book,0,0,0,0,YES
+667,jerry_lefcourt,Jerry Lefcourt,black_book,0,0,0,0,YES
+668,jerry_merrit,Jerry Merrit,black_book,0,0,0,0,YES
+669,jessica_hoffman,Jessica Hoffman,black_book,0,0,0,0,YES
+670,jessica_rothchild,Jessica Rothchild,black_book,0,0,0,0,YES
+671,jill_blacker,Jill Blacker,black_book,0,0,0,0,YES
+672,jill_robert,Jill Robert,black_book,0,0,0,0,YES
+673,jimmy_buffet,Jimmy Buffet,black_book,0,0,0,0,YES
+674,jimmy_finkelstein,Jimmy Finkelstein,black_book,0,0,0,0,YES
+675,jimmy_tisch,Jimmy Tisch,black_book,0,0,0,0,YES
+676,jo_coleman,Jo Coleman,black_book,0,0,0,0,YES
+677,jo_kennedy,Jo Kennedy,black_book,0,0,0,0,YES
+678,jo_robinson,Jo Robinson,black_book,0,0,0,0,YES
+679,jo_rose,Jo Rose,black_book,0,0,0,0,YES
+680,joan_juliet_buck,Joan Juliet Buck,black_book,0,0,0,0,YES
+681,joan_rivers,Joan Rivers,black_book,0,0,0,0,YES
+682,joane_metcalfe,Joane Metcalfe,black_book,0,0,0,0,YES
+683,joanna_abousleiman,Joanna Abousleiman,black_book,0,0,0,0,YES
+684,joaquin_fernandez_de_arion,Joaquin Fernandez de Arion,black_book,0,0,0,0,YES
+685,jock_mcleod,Jock Mcleod,black_book,0,0,0,0,YES
+686,joey_hunter,Joey Hunter,black_book,0,0,0,0,YES
+687,johan_eliasch,Johan Eliasch,black_book,0,0,0,0,YES
+688,john_agnew,John Agnew,black_book,0,0,0,0,YES
+689,john_bodie,John Bodie,black_book,0,0,0,0,YES
+690,john_chenevixtrench,John Chenevix-Trench,black_book,0,0,0,0,YES
+691,john_cleese,John Cleese,black_book,0,0,0,0,YES
+692,john_duthie,John Duthie,black_book,0,0,0,0,YES
+693,john_forman,John Forman,black_book,0,0,0,0,YES
+694,john_guttfreund,John Guttfreund,black_book,0,0,0,0,YES
+695,john_kelly,John Kelly,black_book,0,0,0,0,YES
+696,john_lambos,John Lambos,black_book,0,0,0,0,YES
+697,john_lorimer,John Lorimer,black_book,0,0,0,0,YES
+698,john_manconi,John Manconi,black_book,0,0,0,0,YES
+699,john_mappin,John Mappin,black_book,0,0,0,0,YES
+700,john_mayhew,John Mayhew,black_book,0,0,0,0,YES
+701,john_mcdonald,John Mcdonald,black_book,0,0,0,0,YES
+702,john_micklethwait,John Micklethwait,black_book,0,0,0,0,YES
+703,john_newman,John Newman,black_book,0,0,0,0,YES
+704,john_paulson,John Paulson,black_book,0,0,0,0,YES
+705,john_peters,John Peters,black_book,0,0,0,0,YES
+706,john_zeiler,John Zeiler,black_book,0,0,0,0,YES
+707,johnathan_dimbelby,Johnathan Dimbelby,black_book,0,0,0,0,YES
+708,johnathan_elian,Johnathan Elian,black_book,0,0,0,0,YES
+709,johnathan_klesch,Johnathan Klesch,black_book,0,0,0,0,YES
+710,jon_bannenberg,Jon Bannenberg,black_book,0,0,0,0,YES
+711,jon_huntsman,Jon Huntsman,black_book,0,0,0,0,YES
+712,jon_keidan,Jon Keidan,black_book,0,0,0,0,YES
+713,jon_robe,Jon Robe,black_book,0,0,0,0,YES
+714,jon_sandelmar,Jon Sandelmar,black_book,0,0,0,0,YES
+715,jonathan_barrett,Jonathan Barrett,black_book,0,0,0,0,YES
+716,jonathan_d_farkas,Jonathan D. Farkas,black_book,0,0,0,0,YES
+717,jonathan_laurie,Jonathan Laurie,black_book,0,0,0,0,YES
+718,jonathan_mermagon,Jonathan Mermagon,black_book,0,0,0,0,YES
+719,jorge_urbiola,Jorge Urbiola,black_book,0,0,0,0,YES
+720,jose_aznar,Jose Aznar,black_book,0,0,0,0,YES
+721,jose_luis_manzano,Jose Luis Manzano,black_book,0,0,0,0,YES
+722,joseph_coffey,Joseph Coffey,black_book,0,0,0,0,YES
+723,joseph_robert,Joseph Robert,black_book,0,0,0,0,YES
+724,joseph_rueda,Joseph Rueda,black_book,0,0,0,0,YES
+725,josh_mailman,Josh Mailman,black_book,0,0,0,0,YES
+726,juan_herrero,Juan Herrero,black_book,0,0,0,0,YES
+727,judy_green,Judy Green,black_book,0,0,0,0,YES
+728,judy_price,Judy Price,black_book,0,0,0,0,YES
+729,jules_burney,Jules Burney,black_book,0,0,0,0,YES
+730,julia_broadhurst,Julia Broadhurst,black_book,0,0,0,0,YES
+731,julian_jacobson,Julian Jacobson,black_book,0,0,0,0,YES
+732,julie_taymor,Julie Taymor,black_book,0,0,0,0,YES
+733,juliet_gore,Juliet Gore,black_book,0,0,0,0,YES
+734,julio_mario_santo_domingo,Julio Mario Santo Domingo,black_book,0,0,0,0,YES
+735,julla_verdin,Julla Verdin,black_book,0,0,0,0,YES
+736,justin_metcalf,Justin Metcalf,black_book,0,0,0,0,YES
+737,kalliope_karella,Kalliope Karella,black_book,0,0,0,0,YES
+738,karim_tabet,Karim Tabet,black_book,0,0,0,0,YES
+739,kasia_robinski,Kasia Robinski,black_book,0,0,0,0,YES
+740,kate_menzies,Kate Menzies,black_book,0,0,0,0,YES
+741,kate_murray_philipson,Kate Murray Philipson,black_book,0,0,0,0,YES
+742,kate_owenedmunds,Kate Owen-Edmunds,black_book,0,0,0,0,YES
+743,kate_reardan,Kate Reardan,black_book,0,0,0,0,YES
+744,kate_stracher,Kate Stracher,black_book,0,0,0,0,YES
+745,katherine_gregg,Katherine Gregg,black_book,0,0,0,0,YES
+746,kathy_francey,Kathy Francey,black_book,0,0,0,0,YES
+747,katie_braine,Katie Braine,black_book,0,0,0,0,YES
+748,katie_ford,Katie Ford,black_book,0,0,0,0,YES
+749,katie_vaughnedward_orchard,Katie Vaughn-Edward Orchard,black_book,0,0,0,0,YES
+750,keith_oliver,Keith Oliver,black_book,0,0,0,0,YES
+751,kenneth_gilman,Kenneth Gilman,black_book,0,0,0,0,YES
+752,kerry_kennedy_cuomo,Kerry Kennedy Cuomo,black_book,0,0,0,0,YES
+753,kevin_maxwell,Kevin Maxwell,black_book,0,0,0,0,YES
+754,kevin_mischer,Kevin Mischer,black_book,0,0,0,0,YES
+755,kevin_ward,Kevin Ward,black_book,0,0,0,0,YES
+756,kim_hersov,Kim Hersov,black_book,0,0,0,0,YES
+757,kim_hurd,Kim Hurd,black_book,0,0,0,0,YES
+758,kim_steel,Kim Steel,black_book,0,0,0,0,YES
+759,kim_taipale,Kim Taipale,black_book,0,0,0,0,YES
+760,kit_hunter_gordon,Kit Hunter Gordon,black_book,0,0,0,0,YES
+761,kit_money_kyrle,Kit Money Kyrle,black_book,0,0,0,0,YES
+762,koo_stark,Koo Stark,black_book,0,0,0,0,YES
+763,kristina_kincaid,Kristina Kincaid,black_book,0,0,0,0,YES
+764,kuki_gallmann,Kuki Gallmann,black_book,0,0,0,0,YES
+765,lady_anouska_weinberg,Lady Anouska Weinberg,black_book,0,0,0,0,YES
+766,lady_beaumont,Lady Beaumont,black_book,0,0,0,0,YES
+767,lady_carina_frost,Lady Carina Frost,black_book,0,0,0,0,YES
+768,lady_carole_bamford,Lady Carole Bamford,black_book,0,0,0,0,YES
+769,lady_gillford,Lady Gillford,black_book,0,0,0,0,YES
+770,lady_hanson,Lady Hanson,black_book,0,0,0,0,YES
+771,lady_maria_fairweather,Lady Maria Fairweather,black_book,0,0,0,0,YES
+772,lady_marina_cowdray,Lady Marina Cowdray,black_book,0,0,0,0,YES
+773,lady_victoria_white_ogara,Lady Victoria White O'Gara,black_book,0,0,0,0,YES
+774,lal_dalamal,Lal Dalamal,black_book,0,0,0,0,YES
+775,lally_weymouth,Lally Weymouth,black_book,0,0,0,0,YES
+776,larry_coben,Larry Coben,black_book,0,0,0,0,YES
+777,larry_mogens,Larry Mogens,black_book,0,0,0,0,YES
+778,larry_newman_esq,"Larry Newman, Esq.",black_book,0,0,0,0,YES
+779,larry_tobiason,Larry Tobiason,black_book,0,0,0,0,YES
+780,laudomia_pucci,Laudomia Pucci,black_book,0,0,0,0,YES
+781,laura_dietrich,Laura Dietrich,black_book,0,0,0,0,YES
+782,laura_diez_barroso_de_laviada,Laura Diez Barroso de Laviada,black_book,0,0,0,0,YES
+783,laura_hunt,Laura Hunt,black_book,0,0,0,0,YES
+784,laura_yorke,Laura Yorke,black_book,0,0,0,0,YES
+785,lauren_booth,Lauren Booth,black_book,0,0,0,0,YES
+786,lauren_hutton,Lauren Hutton,black_book,0,0,0,0,YES
+787,laurens_holve,Laurens Holve,black_book,0,0,0,0,YES
+788,laurie_hunter,Laurie Hunter,black_book,0,0,0,0,YES
+789,laurie_oppenheim,Laurie Oppenheim,black_book,0,0,0,0,YES
+790,lawrence_s_stroll,Lawrence S. Stroll,black_book,0,0,0,0,YES
+791,leoarthur_kelmenson,Leo-Arthur Kelmenson,black_book,0,0,0,0,YES
+792,leonard_stern,Leonard Stern,black_book,0,0,0,0,YES
+793,leonardo_ferragamo,Leonardo Ferragamo,black_book,0,0,0,0,YES
+794,lewis_ranieri,Lewis Ranieri,black_book,0,0,0,0,YES
+795,lile_nastasse,Lile Nastasse,black_book,0,0,0,0,YES
+796,lily_johnson,Lily Johnson,black_book,0,0,0,0,YES
+797,linda_aslanian,Linda Aslanian,black_book,0,0,0,0,YES
+798,linda_davies,Linda Davies,black_book,0,0,0,0,YES
+799,linda_janklow,Linda Janklow,black_book,0,0,0,0,YES
+800,linda_stone,Linda Stone,black_book,0,0,0,0,YES
+801,linda_wachner,Linda Wachner,black_book,0,0,0,0,YES
+802,linh_dan_pham,Linh Dan Pham,black_book,0,0,0,0,YES
+803,linska_cierach,Linska Cierach,black_book,0,0,0,0,YES
+804,lionel_wigram,Lionel Wigram,black_book,0,0,0,0,YES
+805,lisa_anastos,Lisa Anastos,black_book,0,0,0,0,YES
+806,lisa_beizberg,Lisa Beizberg,black_book,0,0,0,0,YES
+807,lisa_heiden,Lisa Heiden,black_book,0,0,0,0,YES
+808,lisa_phillips,Lisa Phillips,black_book,0,0,0,0,YES
+809,lisa_ronson,Lisa Ronson,black_book,0,0,0,0,YES
+810,lisa_shields,Lisa Shields,black_book,0,0,0,0,YES
+811,liz_hurley,Liz Hurley,black_book,0,0,0,0,YES
+812,lloyd_grossman,Lloyd Grossman,black_book,0,0,0,0,YES
+813,lord_george_weidenfeld,Lord George Weidenfeld,black_book,0,0,0,0,YES
+814,lorenzo_baumer,Lorenzo Baumer,black_book,0,0,0,0,YES
+815,lorenzo_grabau,Lorenzo Grabau,black_book,0,0,0,0,YES
+816,lorenzo_pedrini,Lorenzo Pedrini,black_book,0,0,0,0,YES
+817,lorinda_ash,Lorinda Ash,black_book,0,0,0,0,YES
+818,lottie_lorimer,Lottie Lorimer,black_book,0,0,0,0,YES
+819,louis_albert_de_broglie,Louis Albert de Broglie,black_book,0,0,0,0,YES
+820,louis_dubin,Louis Dubin,black_book,0,0,0,0,YES
+821,louis_oneill,Louis O'Neill,black_book,0,0,0,0,YES
+822,luca_del_del_bono,Luca Del Del Bono,black_book,0,0,0,0,YES
+823,luca_giussani,Luca Giussani,black_book,0,0,0,0,YES
+824,luciano_jojo_fontanilla,"Luciano ""Jojo"" Fontanilla",black_book,0,0,0,0,YES
+825,lucinda_bruce,Lucinda Bruce,black_book,0,0,0,0,YES
+826,lucinda_edsel,Lucinda Edsel,black_book,0,0,0,0,YES
+827,lucinda_fox,Lucinda Fox,black_book,0,0,0,0,YES
+828,lucy_chenevixtrench,Lucy Chenevix-Trench,black_book,0,0,0,0,YES
+829,lucy_clive,Lucy Clive,black_book,0,0,0,0,YES
+830,lucy_ewen_sykes,Lucy Ewen Sykes,black_book,0,0,0,0,YES
+831,lucy_johnson_howgego,Lucy Johnson Howgego,black_book,0,0,0,0,YES
+832,lucy_manners,Lucy Manners,black_book,0,0,0,0,YES
+833,lucy_morris,Lucy Morris,black_book,0,0,0,0,YES
+834,lucy_wastnage,Lucy Wastnage,black_book,0,0,0,0,YES
+835,ludmila_garcia,Ludmila Garcia,black_book,0,0,0,0,YES
+836,ludovic_lindsey,Ludovic Lindsey,black_book,0,0,0,0,YES
+837,luigi_durso,Luigi d'Urso,black_book,0,0,0,0,YES
+838,lulu_anderson,Lulu Anderson,black_book,0,0,0,0,YES
+839,lulu_hutley,Lulu Hutley,black_book,0,0,0,0,YES
+840,lydia_wigram,Lydia Wigram,black_book,0,0,0,0,YES
+841,madison_cox,Madison Cox,black_book,0,0,0,0,YES
+842,magali_blachon,Magali Blachon,black_book,0,0,0,0,YES
+843,maggie_tom,Maggie Tom,black_book,0,0,0,0,YES
+844,mai_yamani,Mai Yamani,black_book,0,0,0,0,YES
+845,maite_arango,Maite Arango,black_book,0,0,0,0,YES
+846,malcolm_grumbridge,Malcolm Grumbridge,black_book,0,0,0,0,YES
+847,malenga_machel,Malenga Machel,black_book,0,0,0,0,YES
+848,mandy_cochrane,Mandy Cochrane,black_book,0,0,0,0,YES
+849,mandy_warnforddavis,Mandy Warnford-Davis,black_book,0,0,0,0,YES
+850,manfred_windischgraetz,Manfred Windisch-Graetz,black_book,0,0,0,0,YES
+851,manilo_marocco,Manilo Marocco,black_book,0,0,0,0,YES
+852,manoli_mavroleon,Manoli Mavroleon,black_book,0,0,0,0,YES
+853,manuel_espirito_santo,Manuel Espirito Santo,black_book,0,0,0,0,YES
+854,marc_antoine_dietrich,Marc Antoine Dietrich,black_book,0,0,0,0,YES
+855,marc_de_hauteville,Marc de Hauteville,black_book,0,0,0,0,YES
+856,marc_lundberg,Marc Lundberg,black_book,0,0,0,0,YES
+857,marc_puig,Marc Puig,black_book,0,0,0,0,YES
+858,marc_yaggi,Marc Yaggi,black_book,0,0,0,0,YES
+859,marcella_maxwell,Marcella Maxwell,black_book,0,0,0,0,YES
+860,marcelo_de_andrade,Marcelo de Andrade,black_book,0,0,0,0,YES
+861,marchioness_tracy_worcester,Marchioness Tracy Worcester,black_book,0,0,0,0,YES
+862,marcia_palau,Marcia Palau,black_book,0,0,0,0,YES
+863,marcus_pekeler,Marcus Pekeler,black_book,0,0,0,0,YES
+864,marella_oppenheim,Marella Oppenheim,black_book,0,0,0,0,YES
+865,margaret_hedberg,Margaret Hedberg,black_book,0,0,0,0,YES
+866,maria_shriver,Maria Shriver,black_book,0,0,0,0,YES
+867,maria_snyder,Maria Snyder,black_book,0,0,0,0,YES
+868,marie_claire_agnew,Marie Claire Agnew,black_book,0,0,0,0,YES
+869,marie_hapsburg,Marie Hapsburg,black_book,0,0,0,0,YES
+870,marie_helvin,Marie Helvin,black_book,0,0,0,0,YES
+871,marie_joseph_experton,Marie Joseph Experton,black_book,0,0,0,0,YES
+872,marie_lazar,Marie Lazar,black_book,0,0,0,0,YES
+873,mariella_frostrup,Mariella Frostrup,black_book,0,0,0,0,YES
+874,marina_cicogna,Marina Cicogna,black_book,0,0,0,0,YES
+875,marina_de_soto,Marina de Soto,black_book,0,0,0,0,YES
+876,marina_rust,Marina Rust,black_book,0,0,0,0,YES
+877,marine_aron,Marine Aron,black_book,0,0,0,0,YES
+878,mario_b_garnero_jr,Mario B. Garnero Jr.,black_book,0,0,0,0,YES
+879,marjorie_gubelmann,Marjorie Gubelmann,black_book,0,0,0,0,YES
+880,marjorie_malina,Marjorie Malina,black_book,0,0,0,0,YES
+881,mark_booth,Mark Booth,black_book,0,0,0,0,YES
+882,mark_getty,Mark Getty,black_book,0,0,0,0,YES
+883,mark_katzenellenbogen,Mark Katzenellenbogen,black_book,0,0,0,0,YES
+884,mark_loyd,Mark Loyd,black_book,0,0,0,0,YES
+885,mark_middleton,Mark Middleton,black_book,0,0,0,0,YES
+886,mark_packer,Mark Packer,black_book,0,0,0,0,YES
+887,mark_pennell,Mark Pennell,black_book,0,0,0,0,YES
+888,mark_swire,Mark Swire,black_book,0,0,0,0,YES
+889,marquis_bunter_worcester,Marquis Bunter Worcester,black_book,0,0,0,0,YES
+890,martin_burtril,Martin Burtril,black_book,0,0,0,0,YES
+891,martin_fiennes,Martin Fiennes,black_book,0,0,0,0,YES
+892,martin_nowak,Martin Nowak,black_book,0,0,0,0,YES
+893,martine,Martine,black_book,0,0,0,0,YES
+894,martine_de_courcel,Martine De Courcel,black_book,0,0,0,0,YES
+895,martine_vittoz,Martine Vittoz,black_book,0,0,0,0,YES
+896,marty_trust,Marty Trust,black_book,0,0,0,0,YES
+897,martyn_birchall,Martyn Birchall,black_book,0,0,0,0,YES
+898,martin_varsavsky,Martín Varsavsky,black_book,0,0,0,0,YES
+899,mary_glanville,Mary Glanville,black_book,0,0,0,0,YES
+900,mary_kaye_huntsman,Mary Kaye Huntsman,black_book,0,0,0,0,YES
+901,mary_kennedy,Mary Kennedy,black_book,0,0,0,0,YES
+902,mary_stengel,Mary Stengel,black_book,0,0,0,0,YES
+903,massimo_carello,Massimo Carello,black_book,0,0,0,0,YES
+904,mateo_mazzoti,Mateo Mazzoti,black_book,0,0,0,0,YES
+905,mathew_freud,Mathew Freud,black_book,0,0,0,0,YES
+906,matteo_marzotto,Matteo Marzotto,black_book,0,0,0,0,YES
+907,maura_shore,Maura Shore,black_book,0,0,0,0,YES
+908,mauri_nesson,Mauri Nesson,black_book,0,0,0,0,YES
+909,maurice_amon,Maurice Amon,black_book,0,0,0,0,YES
+910,maxine_tobias,Maxine Tobias,black_book,0,0,0,0,YES
+911,melanie_metcalfe,Melanie Metcalfe,black_book,0,0,0,0,YES
+912,melissa_solomon,Melissa Solomon,black_book,0,0,0,0,YES
+913,meredith_fall,Meredith Fall,black_book,0,0,0,0,YES
+914,merryl_tisch,Merryl Tisch,black_book,0,0,0,0,YES
+915,meryl_poster,Meryl Poster,black_book,0,0,0,0,YES
+916,mia_samuels,Mia Samuels,black_book,0,0,0,0,YES
+917,michael_atkin,Michael Atkin,black_book,0,0,0,0,YES
+918,michael_bloomberg,Michael Bloomberg,black_book,0,0,0,0,YES
+919,michael_borrico,Michael Borrico,black_book,0,0,0,0,YES
+920,michael_davis,Michael Davis,black_book,0,0,0,0,YES
+921,michael_garland,Michael Garland,black_book,0,0,0,0,YES
+922,michael_jackson,Michael Jackson,black_book,0,0,0,0,YES
+923,michael_mailer,Michael Mailer,black_book,0,0,0,0,YES
+924,michael_ovitz,Michael Ovitz,black_book,0,0,0,0,YES
+925,michael_pezulo,Michael Pezulo,black_book,0,0,0,0,YES
+926,michael_picciotto,Michael Picciotto,black_book,0,0,0,0,YES
+927,michael_rena,Michael Rena,black_book,0,0,0,0,YES
+928,michael_stevens,Michael Stevens,black_book,0,0,0,0,YES
+929,michael_wallace,Michael Wallace,black_book,0,0,0,0,YES
+930,michael_white,Michael White,black_book,0,0,0,0,YES
+931,michel_carvalho,Michel Carvalho,black_book,0,0,0,0,YES
+932,michelle_campos,Michelle Campos,black_book,0,0,0,0,YES
+933,michelle_russel,Michelle Russel,black_book,0,0,0,0,YES
+934,mick_jagger,Mick Jagger,black_book,0,0,0,0,YES
+935,mick_jones,Mick Jones,black_book,0,0,0,0,YES
+936,milana_furstenberg,Milana Furstenberg,black_book,0,0,0,0,YES
+937,miles_creswell_turner,Miles Creswell Turner,black_book,0,0,0,0,YES
+938,milly_de_cabrol,Milly de Cabrol,black_book,0,0,0,0,YES
+939,milly_soames,Milly Soames,black_book,0,0,0,0,YES
+940,mini_cecil,Mini Cecil,black_book,0,0,0,0,YES
+941,minnie_driver,Minnie Driver,black_book,0,0,0,0,YES
+942,miquel_reynal,Miquel Reynal,black_book,0,0,0,0,YES
+943,miranda_brooks,Miranda Brooks,black_book,0,0,0,0,YES
+944,miranda_dunbarjohnson,Miranda Dunbar-Johnson,black_book,0,0,0,0,YES
+945,moegens_tholstrup,Moegens Tholstrup,black_book,0,0,0,0,YES
+946,mohammed_jameel,Mohammed Jameel,black_book,0,0,0,0,YES
+947,monty_shadow,Monty Shadow,black_book,0,0,0,0,YES
+948,mook_flick,Mook Flick,black_book,0,0,0,0,YES
+949,mortimer_zuckerman,Mortimer Zuckerman,black_book,0,0,0,0,YES
+950,mr_heseltine,Mr. Heseltine,black_book,0,0,0,0,YES
+951,mr_miele,Mr. Miele,black_book,0,0,0,0,YES
+952,mr_porthault,Mr. Porthault,black_book,0,0,0,0,YES
+953,mrs_fallah,Mrs Fallah,black_book,0,0,0,0,YES
+954,mrs_maxwell,Mrs. Maxwell,black_book,0,0,0,0,YES
+955,mrs_philipson,Mrs. Philipson,black_book,0,0,0,0,YES
+956,muffie_potter,Muffie Potter,black_book,0,0,0,0,YES
+957,muriel_brandolini,Muriel Brandolini,black_book,0,0,0,0,YES
+958,nacho_gaspar,Nacho Gaspar,black_book,0,0,0,0,YES
+959,nader_panahizadi,Nader Panah-Izadi,black_book,0,0,0,0,YES
+960,nadine_johnson,Nadine Johnson,black_book,0,0,0,0,YES
+961,nancy_jarecki,Nancy Jarecki,black_book,0,0,0,0,YES
+962,nancy_silverman,Nancy Silverman,black_book,0,0,0,0,YES
+963,natalie_rucellai,Natalie Rucellai,black_book,0,0,0,0,YES
+964,natasha_batstone,Natasha Batstone,black_book,0,0,0,0,YES
+965,natasha_fairweather,Natasha Fairweather,black_book,0,0,0,0,YES
+966,natasha_grenfell,Natasha Grenfell,black_book,0,0,0,0,YES
+967,nathan_myhrvold,Nathan Myhrvold,black_book,0,0,0,0,YES
+968,neil_mendoza,Neil Mendoza,black_book,0,0,0,0,YES
+969,nessa_oneil,Nessa O'Neil,black_book,0,0,0,0,YES
+970,nicholas_a_c_candy,Nicholas A C Candy,black_book,0,0,0,0,YES
+971,nicholas_barham,Nicholas Barham,black_book,0,0,0,0,YES
+972,nicholas_bookis,Nicholas Bookis,black_book,0,0,0,0,YES
+973,nicholas_coleridge,Nicholas Coleridge,black_book,0,0,0,0,YES
+974,nicholas_mavroleon,Nicholas Mavroleon,black_book,0,0,0,0,YES
+975,nicholas_rachline,Nicholas Rachline,black_book,0,0,0,0,YES
+976,nicholas_ryder,Nicholas Ryder,black_book,0,0,0,0,YES
+977,nick_adam,Nick Adam,black_book,0,0,0,0,YES
+978,nick_allan,Nick Allan,black_book,0,0,0,0,YES
+979,nick_ashley,Nick Ashley,black_book,0,0,0,0,YES
+980,nick_haslam,Nick Haslam,black_book,0,0,0,0,YES
+981,nick_hurd,Nick Hurd,black_book,0,0,0,0,YES
+982,nick_jarecki,Nick Jarecki,black_book,0,0,0,0,YES
+983,nick_leese,Nick Leese,black_book,0,0,0,0,YES
+984,nick_morris,Nick Morris,black_book,0,0,0,0,YES
+985,nick_pritzker,Nick Pritzker,black_book,0,0,0,0,YES
+986,nick_ritblat,Nick Ritblat,black_book,0,0,0,0,YES
+987,nick_williams,Nick Williams,black_book,0,0,0,0,YES
+988,nicket_tavoulareas,Nicket Tavoulareas,black_book,0,0,0,0,YES
+989,nicola_formby,Nicola Formby,black_book,0,0,0,0,YES
+990,nicolas_berggruen,Nicolas Berggruen,black_book,0,0,0,0,YES
+991,nicolas_guedroitz,Nicolas Guedroitz,black_book,0,0,0,0,YES
+992,nicole_miller,Nicole Miller,black_book,0,0,0,0,YES
+993,nicole_paini,Nicole Paini,black_book,0,0,0,0,YES
+994,nikolai_bola_von_bismarck,"Nikolai ""Bola"" Von Bismarck",black_book,0,0,0,0,YES
+995,nina_furstenburg_buravelli,Nina Furstenburg Buravelli,black_book,0,0,0,0,YES
+996,nina_griscom,Nina Griscom,black_book,0,0,0,0,YES
+997,nina_hovenian,Nina Hovenian,black_book,0,0,0,0,YES
+998,nina_steinkampf,Nina Steinkampf,black_book,0,0,0,0,YES
+999,noona_erba,Noona Erba,black_book,0,0,0,0,YES
+1000,noona_smith_peterson,Noona Smith Peterson,black_book,0,0,0,0,YES
+1001,noreen_roth,Noreen Roth,black_book,0,0,0,0,YES
+1002,nuno_brandolini,Nuno Brandolini,black_book,0,0,0,0,YES
+1003,olaf_hermes,Olaf Hermes,black_book,0,0,0,0,YES
+1004,olivier_de_falletans,Olivier de Falletans,black_book,0,0,0,0,YES
+1005,olivier_picasso,Olivier Picasso,black_book,0,0,0,0,YES
+1006,omar,Omar,black_book,0,0,0,0,YES
+1007,orianne_collins,Orianne Collins,black_book,0,0,0,0,YES
+1008,ozzie_warner,Ozzie Warner,black_book,0,0,0,0,YES
+1009,paige_zangrillo,Paige Zangrillo,black_book,0,0,0,0,YES
+1010,pam_alexander,Pam Alexander,black_book,0,0,0,0,YES
+1011,pamela_gross,Pamela Gross,black_book,0,0,0,0,YES
+1012,pamela_johananoff,Pamela Johananoff,black_book,0,0,0,0,YES
+1013,pamela_taylor,Pamela Taylor,black_book,0,0,0,0,YES
+1014,pandora_maxwell,Pandora Maxwell,black_book,0,0,0,0,YES
+1015,paola_tholstrup,Paola Tholstrup,black_book,0,0,0,0,YES
+1016,parisi_massimo,Parisi Massimo,black_book,0,0,0,0,YES
+1017,patricia_hay,Patricia Hay,black_book,0,0,0,0,YES
+1018,patricia_sawyers,Patricia Sawyers,black_book,0,0,0,0,YES
+1019,patricia_velasquez,Patricia Velasquez,black_book,0,0,0,0,YES
+1020,patrick_de_baecque,Patrick de Baecque,black_book,0,0,0,0,YES
+1021,patrick_mcmullan,Patrick McMullan,black_book,0,0,0,0,YES
+1022,patrick_vittoz,Patrick Vittoz,black_book,0,0,0,0,YES
+1023,patty_cisneros,Patty Cisneros,black_book,0,0,0,0,YES
+1024,patty_raynes,Patty Raynes,black_book,0,0,0,0,YES
+1025,paul_allan,Paul Allan,black_book,0,0,0,0,YES
+1026,paul_cox,Paul Cox,black_book,0,0,0,0,YES
+1027,paul_duesing,Paul Duesing,black_book,0,0,0,0,YES
+1028,paul_eckon,Paul Eckon,black_book,0,0,0,0,YES
+1029,paul_hoffman,Paul Hoffman,black_book,0,0,0,0,YES
+1030,paul_lawton,Paul Lawton,black_book,0,0,0,0,YES
+1031,paul_lister,Paul Lister,black_book,0,0,0,0,YES
+1032,paul_taaffe,Paul Taaffe,black_book,0,0,0,0,YES
+1033,paul_travis,Paul Travis,black_book,0,0,0,0,YES
+1034,paula_heil,Paula Heil,black_book,0,0,0,0,YES
+1035,paulette_dedieu,Paulette Dedieu,black_book,0,0,0,0,YES
+1036,pauline_case,Pauline Case,black_book,0,0,0,0,YES
+1037,paulo_borgese,Paulo Borgese,black_book,0,0,0,0,YES
+1038,pedro_diniz,Pedro Diniz,black_book,0,0,0,0,YES
+1039,peg_ugland,Peg Ugland,black_book,0,0,0,0,YES
+1040,peggy_siegal,Peggy Siegal,black_book,0,0,0,0,YES
+1041,penelope_bossom,Penelope Bossom,black_book,0,0,0,0,YES
+1042,pepe_fanjul,Pepe Fanjul,black_book,0,0,0,0,YES
+1043,peter_bahrke,Peter Bahrke,black_book,0,0,0,0,YES
+1044,peter_brandt,Peter Brandt,black_book,0,0,0,0,YES
+1045,peter_cohen,Peter Cohen,black_book,0,0,0,0,YES
+1046,peter_dubbens,Peter Dubbens,black_book,0,0,0,0,YES
+1047,peter_hsu,Peter Hsu,black_book,0,0,0,0,YES
+1048,peter_kirwantaylor,Peter Kirwan-Taylor,black_book,0,0,0,0,YES
+1049,peter_mandelson,Peter Mandelson,black_book,0,0,0,0,YES
+1050,peter_martins,Peter Martins,black_book,0,0,0,0,YES
+1051,peter_morton,Peter Morton,black_book,0,0,0,0,YES
+1052,peter_palumbo,Peter Palumbo,black_book,0,0,0,0,YES
+1053,peter_soros,Peter Soros,black_book,0,0,0,0,YES
+1054,peter_svenlinson,Peter Svenlinson,black_book,0,0,0,0,YES
+1055,peter_tavoulareas,Peter Tavoulareas,black_book,0,0,0,0,YES
+1056,peter_thomas_roth,Peter Thomas Roth,black_book,0,0,0,0,YES
+1057,phil_collins,Phil Collins,black_book,0,0,0,0,YES
+1058,philip_dunne,Philip Dunne,black_book,0,0,0,0,YES
+1059,philip_mallinckrodt,Philip Mallinckrodt,black_book,0,0,0,0,YES
+1060,philip_maxwell,Philip Maxwell,black_book,0,0,0,0,YES
+1061,philip_treacy,Philip Treacy,black_book,0,0,0,0,YES
+1062,philippe_amon,Philippe Amon,black_book,0,0,0,0,YES
+1063,philippe_junot,Philippe Junot,black_book,0,0,0,0,YES
+1064,pia_getty,Pia Getty,black_book,0,0,0,0,YES
+1065,pia_marocco,Pia Marocco,black_book,0,0,0,0,YES
+1066,pierre_lemaine,Pierre Lemaine,black_book,0,0,0,0,YES
+1067,piers_lea,Piers Lea,black_book,0,0,0,0,YES
+1068,pietro_cicognani,Pietro Cicognani,black_book,0,0,0,0,YES
+1069,pilar_goess,Pilar Goess,black_book,0,0,0,0,YES
+1070,pippa_hall,Pippa Hall,black_book,0,0,0,0,YES
+1071,pliny_porter,Pliny Porter,black_book,0,0,0,0,YES
+1072,prince_bandar_bin_sultan,Prince Bandar bin Sultan,black_book,0,0,0,0,YES
+1073,prince_michel_of_yugoslavia,Prince Michel of Yugoslavia,black_book,0,0,0,0,YES
+1074,prince_pavlos,Prince Pavlos,black_book,0,0,0,0,YES
+1075,prince_pierre_darenberg,Prince Pierre d'Arenberg,black_book,0,0,0,0,YES
+1076,prince_salman,Prince Salman,black_book,0,0,0,0,YES
+1077,princess_firyal,Princess Firyal,black_book,0,0,0,0,YES
+1078,princess_georgina_brandolini_dadda,Princess Georgina Brandolini d'Adda,black_book,0,0,0,0,YES
+1079,princess_hermine_de_clermonttonnerre,Princess Hermine de Clermont-Tonnerre,black_book,0,0,0,0,YES
+1080,princess_marieclaire,Princess Marie-Claire,black_book,0,0,0,0,YES
+1081,princess_olga,Princess Olga,black_book,0,0,0,0,YES
+1082,pru_mcleod,Pru Mcleod,black_book,0,0,0,0,YES
+1083,r_boykin_curry,R. Boykin Curry,black_book,0,0,0,0,YES
+1084,rachel_cordle,Rachel Cordle,black_book,0,0,0,0,YES
+1085,rachel_osbourne,Rachel Osbourne,black_book,0,0,0,0,YES
+1086,ralph_fiennes,Ralph Fiennes,black_book,0,0,0,0,YES
+1087,ralph_omar,Ralph Omar,black_book,0,0,0,0,YES
+1088,randall_scerbo,Randall Scerbo,black_book,0,0,0,0,YES
+1089,randy_james,Randy James,black_book,0,0,0,0,YES
+1090,ray_john,Ray John,black_book,0,0,0,0,YES
+1091,raymond_mckenzie,Raymond McKenzie,black_book,0,0,0,0,YES
+1092,rebecca_willis,Rebecca Willis,black_book,0,0,0,0,YES
+1093,reggie_hayworth,Reggie Hayworth,black_book,0,0,0,0,YES
+1094,rena_kirdar_sindi,Rena Kirdar Sindi,black_book,0,0,0,0,YES
+1095,rhonda_king,Rhonda King,black_book,0,0,0,0,YES
+1096,riccardo,Riccardo,black_book,0,0,0,0,YES
+1097,riccardo_monti,Riccardo Monti,black_book,0,0,0,0,YES
+1098,riccardo_pavoncelli,Riccardo Pavoncelli,black_book,0,0,0,0,YES
+1099,rich_rothenburg,Rich Rothenburg,black_book,0,0,0,0,YES
+1100,richard_buckley,Richard Buckley,black_book,0,0,0,0,YES
+1101,richard_johnson,Richard Johnson,black_book,0,0,0,0,YES
+1102,richard_lonsdale,Richard Lonsdale,black_book,0,0,0,0,YES
+1103,richard_plepler,Richard Plepler,black_book,0,0,0,0,YES
+1104,richard_snyder,Richard Snyder,black_book,0,0,0,0,YES
+1105,richard_stengel,Richard Stengel,black_book,0,0,0,0,YES
+1106,riki_peterson,Riki Peterson,black_book,0,0,0,0,YES
+1107,rob_rosenstein,Rob Rosenstein,black_book,0,0,0,0,YES
+1108,robert_boby_a_kotick,Robert (Boby) A. Kotick,black_book,0,0,0,0,YES
+1109,robert_appleby,Robert Appleby,black_book,0,0,0,0,YES
+1110,robert_byng,Robert Byng,black_book,0,0,0,0,YES
+1111,robert_gold,Robert Gold,black_book,0,0,0,0,YES
+1112,robert_hefner_iii,Robert Hefner III,black_book,0,0,0,0,YES
+1113,robert_hersov,Robert Hersov,black_book,0,0,0,0,YES
+1114,robert_hissom,Robert Hissom,black_book,0,0,0,0,YES
+1115,robert_j_hurst,Robert J. Hurst,black_book,0,0,0,0,YES
+1116,robert_locascio,Robert LoCascio,black_book,0,0,0,0,YES
+1117,robert_meister,Robert Meister,black_book,0,0,0,0,YES
+1118,robert_miranda,Robert Miranda,black_book,0,0,0,0,YES
+1119,robert_morton,Robert Morton,black_book,0,0,0,0,YES
+1120,robert_oatman,Robert Oatman,black_book,0,0,0,0,YES
+1121,robert_trossle,Robert Trossle,black_book,0,0,0,0,YES
+1122,robert_trump,Robert Trump,black_book,0,0,0,0,YES
+1123,robert_weinstein,Robert Weinstein,black_book,0,0,0,0,YES
+1124,robert_zangrillo,Robert Zangrillo,black_book,0,0,0,0,YES
+1125,roberta_amon,Roberta Amon,black_book,0,0,0,0,YES
+1126,robin_birley,Robin Birley,black_book,0,0,0,0,YES
+1127,robin_leach,Robin Leach,black_book,0,0,0,0,YES
+1128,robin_metz,Robin Metz,black_book,0,0,0,0,YES
+1129,robin_rotherwick,Robin Rotherwick,black_book,0,0,0,0,YES
+1130,rocco_forte,Rocco Forte,black_book,0,0,0,0,YES
+1131,roddy_campbell,Roddy Campbell,black_book,0,0,0,0,YES
+1132,rodney_propp,Rodney Propp,black_book,0,0,0,0,YES
+1133,rodolph_onakewe,Rodolph Onakewe,black_book,0,0,0,0,YES
+1134,roger_lindemanbarnet,Roger Lindeman-Barnet,black_book,0,0,0,0,YES
+1135,romilly_mcalpine,Romilly McAlpine,black_book,0,0,0,0,YES
+1136,ronald_burckle,Ronald Burckle,black_book,0,0,0,0,YES
+1137,ronald_kastner,Ronald Kastner,black_book,0,0,0,0,YES
+1138,ronald_perelman,Ronald Perelman,black_book,0,0,0,0,YES
+1139,ronald_silver,Ronald Silver,black_book,0,0,0,0,YES
+1140,rory_kegan,Rory Kegan,black_book,0,0,0,0,YES
+1141,ros_derby,Ros Derby,black_book,0,0,0,0,YES
+1142,ros_espirito_santo,Ros Espirito Santo,black_book,0,0,0,0,YES
+1143,rosa_monckton,Rosa Monckton,black_book,0,0,0,0,YES
+1144,rosalyn_lynn_fontanilla,Rosalyn (Lynn) Fontanilla,black_book,0,0,0,0,YES
+1145,rosi_zevi,Rosi Zevi,black_book,0,0,0,0,YES
+1146,rufreido_gaetani,Rufreido Gaetani,black_book,0,0,0,0,YES
+1147,rufus_albermarle,Rufus Albermarle,black_book,0,0,0,0,YES
+1148,rupert_cordle,Rupert Cordle,black_book,0,0,0,0,YES
+1149,rupert_de_klee,Rupert de Klee,black_book,0,0,0,0,YES
+1150,rupert_heseltine,Rupert Heseltine,black_book,0,0,0,0,YES
+1151,rupert_murdoch,Rupert Murdoch,black_book,0,0,0,0,YES
+1152,rupert_rittsonthomas,Rupert Rittson-Thomas,black_book,0,0,0,0,YES
+1153,rupert_soames,Rupert Soames,black_book,0,0,0,0,YES
+1154,rupert_tate,Rupert Tate,black_book,0,0,0,0,YES
+1155,rupert_wainright,Rupert Wainright,black_book,0,0,0,0,YES
+1156,ruth_westheimer,Ruth Westheimer,black_book,0,0,0,0,YES
+1157,sabine_forbes,Sabine Forbes,black_book,0,0,0,0,YES
+1158,sabrina_guiness,Sabrina Guiness,black_book,0,0,0,0,YES
+1159,saffron_aldridge,Saffron Aldridge,black_book,0,0,0,0,YES
+1160,sally_albermarle,Sally Albermarle,black_book,0,0,0,0,YES
+1161,sally_faber,Sally Faber,black_book,0,0,0,0,YES
+1162,samantha_boardman,Samantha Boardman,black_book,0,0,0,0,YES
+1163,sami_sindi,Sami Sindi,black_book,0,0,0,0,YES
+1164,sami_waksal,Sami Waksal,black_book,0,0,0,0,YES
+1165,samuel_domb,Samuel Domb,black_book,0,0,0,0,YES
+1166,samuel_pisar,Samuel Pisar,black_book,0,0,0,0,YES
+1167,sandy_golinkin,Sandy Golinkin,black_book,0,0,0,0,YES
+1168,sandy_pittman,Sandy Pittman,black_book,0,0,0,0,YES
+1169,santa_montefiroe,Santa Montefiroe,black_book,0,0,0,0,YES
+1170,sara_carello,Sara Carello,black_book,0,0,0,0,YES
+1171,sarah_allan,Sarah Allan,black_book,0,0,0,0,YES
+1172,sarah_keeling,Sarah Keeling,black_book,0,0,0,0,YES
+1173,sarah_marden,Sarah Marden,black_book,0,0,0,0,YES
+1174,scott_geffert,Scott Geffert,black_book,0,0,0,0,YES
+1175,scott_marden,Scott Marden,black_book,0,0,0,0,YES
+1176,sean_mahoney,Sean Mahoney,black_book,0,0,0,0,YES
+1177,sebastian_taylor,Sebastian Taylor,black_book,0,0,0,0,YES
+1178,selma_ouertani,Selma Ouertani,black_book,0,0,0,0,YES
+1179,senator_george_mitchell,Senator George Mitchell,black_book,0,0,0,0,YES
+1180,senator_john_kerry,Senator John Kerry,black_book,0,0,0,0,YES
+1181,senator_ted_kennedy,Senator Ted Kennedy,black_book,0,0,0,0,YES
+1182,serena_boardman,Serena Boardman,black_book,0,0,0,0,YES
+1183,serena_williamsellis,Serena Williams-Ellis,black_book,0,0,0,0,YES
+1184,serge_braine,Serge Braine,black_book,0,0,0,0,YES
+1185,shannon_mclane,Shannon Mclane,black_book,0,0,0,0,YES
+1186,shariar_bakhtiar,Shariar Bakhtiar,black_book,0,0,0,0,YES
+1187,sharon_handler,Sharon Handler,black_book,0,0,0,0,YES
+1188,shaun_woodward,Shaun Woodward,black_book,0,0,0,0,YES
+1189,shaunt_hovanian,Shaunt Hovanian,black_book,0,0,0,0,YES
+1190,shelly_malkin,Shelly Malkin,black_book,0,0,0,0,YES
+1191,shona_mckinney,Shona McKinney,black_book,0,0,0,0,YES
+1192,silas_chou,Silas Chou,black_book,0,0,0,0,YES
+1193,simon_astaire,Simon Astaire,black_book,0,0,0,0,YES
+1194,simon_case,Simon Case,black_book,0,0,0,0,YES
+1195,simon_hussey,Simon Hussey,black_book,0,0,0,0,YES
+1196,simon_le_bon,Simon Le Bon,black_book,0,0,0,0,YES
+1197,simon_oates,Simon Oates,black_book,0,0,0,0,YES
+1198,simon_sebag_montefiroe,Simon Sebag Montefiroe,black_book,0,0,0,0,YES
+1199,simon_talbot_williams,Simon Talbot Williams,black_book,0,0,0,0,YES
+1200,sir_anthony_bamford,Sir Anthony Bamford,black_book,0,0,0,0,YES
+1201,sir_david_frost,Sir David Frost,black_book,0,0,0,0,YES
+1202,sir_david_tang,Sir David Tang,black_book,0,0,0,0,YES
+1203,sir_mark_weinberg,Sir Mark Weinberg,black_book,0,0,0,0,YES
+1204,smith_osborne,Smith Osborne,black_book,0,0,0,0,YES
+1205,sol_kersner,Sol Kersner,black_book,0,0,0,0,YES
+1206,solina_guedroitz,Solina Guedroitz,black_book,0,0,0,0,YES
+1207,somers_white,Somers White,black_book,0,0,0,0,YES
+1208,sonia_puopolo,Sonia Puopolo,black_book,0,0,0,0,YES
+1209,sophie_biddle_hakim,Sophie Biddle Hakim,black_book,0,0,0,0,YES
+1210,sophie_boden,Sophie Boden,black_book,0,0,0,0,YES
+1211,sophie_caruth,Sophie Caruth,black_book,0,0,0,0,YES
+1212,sophie_crabbe,Sophie Crabbe,black_book,0,0,0,0,YES
+1213,sophie_dahl,Sophie Dahl,black_book,0,0,0,0,YES
+1214,sophie_swire,Sophie Swire,black_book,0,0,0,0,YES
+1215,sophie_van_van_hauen,Sophie Van Van Hauen,black_book,0,0,0,0,YES
+1216,stacey_pashcow_gardi,Stacey Pashcow Gardi,black_book,0,0,0,0,YES
+1217,stan_schaeffer,Stan Schaeffer,black_book,0,0,0,0,YES
+1218,sten_bertelsen,Sten Bertelsen,black_book,0,0,0,0,YES
+1219,stephen_dunbarjohnson,Stephen Dunbar-Johnson,black_book,0,0,0,0,YES
+1220,stephen_morris,Stephen Morris,black_book,0,0,0,0,YES
+1221,steven_benson,Steven Benson,black_book,0,0,0,0,YES
+1222,steven_forbes,Steven Forbes,black_book,0,0,0,0,YES
+1223,steven_gaston,Steven Gaston,black_book,0,0,0,0,YES
+1224,steven_gottlieb,Steven Gottlieb,black_book,0,0,0,0,YES
+1225,steven_kosslyn,Steven Kosslyn,black_book,0,0,0,0,YES
+1226,steven_wyatt,Steven Wyatt,black_book,0,0,0,0,YES
+1227,steven_wynn,Steven Wynn,black_book,0,0,0,0,YES
+1228,stuart_pivar,Stuart Pivar,black_book,0,0,0,0,YES
+1229,stuart_sundlun,Stuart Sundlun,black_book,0,0,0,0,YES
+1230,sue_hamblin,Sue Hamblin,black_book,0,0,0,0,YES
+1231,susan_guttfreund,Susan Guttfreund,black_book,0,0,0,0,YES
+1232,susan_hearn,Susan Hearn,black_book,0,0,0,0,YES
+1233,susan_kent_dvm,"Susan Kent, DVM",black_book,0,0,0,0,YES
+1234,susan_minot,Susan Minot,black_book,0,0,0,0,YES
+1235,susannah_constantine,Susannah Constantine,black_book,0,0,0,0,YES
+1236,susie_james,Susie James,black_book,0,0,0,0,YES
+1237,susie_shuster,Susie Shuster,black_book,0,0,0,0,YES
+1238,suzie_dolbey,Suzie Dolbey,black_book,0,0,0,0,YES
+1239,suzzana_fiennes,Suzzana Fiennes,black_book,0,0,0,0,YES
+1240,svetlana_griaznove,Svetlana Griaznove,black_book,0,0,0,0,YES
+1241,sylvia_rosen,Sylvia Rosen,black_book,0,0,0,0,YES
+1242,sylvianne_boucherie,Sylvianne Boucherie,black_book,0,0,0,0,YES
+1243,syrie_tollman,Syrie Tollman,black_book,0,0,0,0,YES
+1244,tamara_beckwith,Tamara Beckwith,black_book,0,0,0,0,YES
+1245,tania_bryer,Tania Bryer,black_book,0,0,0,0,YES
+1246,tania_rotherwick,Tania Rotherwick,black_book,0,0,0,0,YES
+1247,tara_bernard,Tara Bernard,black_book,0,0,0,0,YES
+1248,tara_palmertomkinson,Tara Palmer-Tomkinson,black_book,0,0,0,0,YES
+1249,taria_puig,Taria Puig,black_book,0,0,0,0,YES
+1250,tatiana_dabo,Tatiana d'abo,black_book,0,0,0,0,YES
+1251,taylor_foster,Taylor Foster,black_book,0,0,0,0,YES
+1252,ted_griffen,Ted Griffen,black_book,0,0,0,0,YES
+1253,ted_kennedy_jr,Ted Kennedy Jr.,black_book,0,0,0,0,YES
+1254,terence_faulkner,Terence Faulkner,black_book,0,0,0,0,YES
+1255,teresa_fulhurst,Teresa Fulhurst,black_book,0,0,0,0,YES
+1256,terri_button,Terri Button,black_book,0,0,0,0,YES
+1257,terssa_manners,Terssa Manners,black_book,0,0,0,0,YES
+1258,tertious_murray_threipland,Tertious Murray Threipland,black_book,0,0,0,0,YES
+1259,theodore_wong,Theodore Wong,black_book,0,0,0,0,YES
+1260,theresa_roberts,Theresa Roberts,black_book,0,0,0,0,YES
+1261,thomas_barrack,Thomas Barrack,black_book,0,0,0,0,YES
+1262,thomas_c_mcmillen,Thomas C. McMillen,black_book,0,0,0,0,YES
+1263,thomas_ford,Thomas Ford,black_book,0,0,0,0,YES
+1264,thomas_gomez,Thomas Gomez,black_book,0,0,0,0,YES
+1265,thomas_h_quinn,Thomas H. Quinn,black_book,0,0,0,0,YES
+1266,thomas_oates,Thomas Oates,black_book,0,0,0,0,YES
+1267,thomas_owenedmunds,Thomas Owen-Edmunds,black_book,0,0,0,0,YES
+1268,thomas_sawyers,Thomas Sawyers,black_book,0,0,0,0,YES
+1269,thomas_starzewski,Thomas Starzewski,black_book,0,0,0,0,YES
+1270,tiberto_brandolini_dadda,Tiberto Brandolini d'Adda,black_book,0,0,0,0,YES
+1271,tierney_horne,Tierney Horne,black_book,0,0,0,0,YES
+1272,tiffany_dubin,Tiffany Dubin,black_book,0,0,0,0,YES
+1273,timothy_batstone,Timothy Batstone,black_book,0,0,0,0,YES
+1274,timothy_geary,Timothy Geary,black_book,0,0,0,0,YES
+1275,timothy_jeffries,Timothy Jeffries,black_book,0,0,0,0,YES
+1276,timothy_martin,Timothy Martin,black_book,0,0,0,0,YES
+1277,timothy_noonan,Timothy Noonan,black_book,0,0,0,0,YES
+1278,timothy_rustow,Timothy Rustow,black_book,0,0,0,0,YES
+1279,timothy_schifter,Timothy Schifter,black_book,0,0,0,0,YES
+1280,timothy_w_newcombe,Timothy W. Newcombe,black_book,0,0,0,0,YES
+1281,timothy_windsortaylor,Timothy Windsor-Taylor,black_book,0,0,0,0,YES
+1282,tito_pedrini,Tito Pedrini,black_book,0,0,0,0,YES
+1283,toby_young,Toby Young,black_book,0,0,0,0,YES
+1284,todd_meister,Todd Meister,black_book,0,0,0,0,YES
+1285,topper_quinn,Topper Quinn,black_book,0,0,0,0,YES
+1286,torne_di_pisa,Torne di Pisa,black_book,0,0,0,0,YES
+1287,tracy_edwards,Tracy Edwards,black_book,0,0,0,0,YES
+1288,tracy_younger,Tracy Younger,black_book,0,0,0,0,YES
+1289,trinny_woodall,Trinny Woodall,black_book,0,0,0,0,YES
+1290,umar_dzhabrailou,Umar Dzhabrailou,black_book,0,0,0,0,YES
+1291,valdson_vieira_circled,Valdson Vieira circled,black_book,0,0,0,0,YES
+1292,valesca_guerrandhermes,Valesca Guerrand-Hermès,black_book,0,0,0,0,YES
+1293,vanessa_noel,Vanessa Noel,black_book,0,0,0,0,YES
+1294,vanessa_von_bismark,Vanessa Von Bismark,black_book,0,0,0,0,YES
+1295,vera_wang,Vera Wang,black_book,0,0,0,0,YES
+1296,veronica_toub,Veronica Toub,black_book,0,0,0,0,YES
+1297,veronica_webb,Veronica Webb,black_book,0,0,0,0,YES
+1298,veronique_pittman,Veronique Pittman,black_book,0,0,0,0,YES
+1299,vicente_alvarez,Vicente Alvarez,black_book,0,0,0,0,YES
+1300,vicki_gray,Vicki Gray,black_book,0,0,0,0,YES
+1301,victor_arellano,Victor Arellano,black_book,0,0,0,0,YES
+1302,victoria_cator,Victoria Cator,black_book,0,0,0,0,YES
+1303,victoria_harvey,Victoria Harvey,black_book,0,0,0,0,YES
+1304,victoria_white,Victoria White,black_book,0,0,0,0,YES
+1305,vikram_chatwal,Vikram Chatwal,black_book,0,0,0,0,YES
+1306,violet_fraiser,Violet Fraiser,black_book,0,0,0,0,YES
+1307,viscount_william_astor,Viscount William Astor,black_book,0,0,0,0,YES
+1308,vittorio_assaf,Vittorio Assaf,black_book,0,0,0,0,YES
+1309,vonnic_vittoz,Vonnic Vittoz,black_book,0,0,0,0,YES
+1310,wafic_said,Wafic Said,black_book,0,0,0,0,YES
+1311,waleed_zawauri,Waleed Zawauri,black_book,0,0,0,0,YES
+1312,walter_isaacson,Walter Isaacson,black_book,0,0,0,0,YES
+1313,wayne_safro,Wayne Safro,black_book,0,0,0,0,YES
+1314,wayne_wyntik,Wayne Wyntik,black_book,0,0,0,0,YES
+1315,wendy_rose,Wendy Rose,black_book,0,0,0,0,YES
+1316,wendy_whitworth,Wendy Whitworth,black_book,0,0,0,0,YES
+1317,william_bill_siegel,William (Bill) Siegel,black_book,0,0,0,0,YES
+1318,william_archer,William Archer,black_book,0,0,0,0,YES
+1319,william_berkman,William Berkman,black_book,0,0,0,0,YES
+1320,william_dartmouth,William Dartmouth,black_book,0,0,0,0,YES
+1321,william_fox,William Fox,black_book,0,0,0,0,YES
+1322,william_gomme,William Gomme,black_book,0,0,0,0,YES
+1323,william_maronet,William Maronet,black_book,0,0,0,0,YES
+1324,william_nagel,William Nagel,black_book,0,0,0,0,YES
+1325,william_nickerson,William Nickerson,black_book,0,0,0,0,YES
+1326,william_oswald,William Oswald,black_book,0,0,0,0,YES
+1327,william_roedy,William Roedy,black_book,0,0,0,0,YES
+1328,william_sieghart,William Sieghart,black_book,0,0,0,0,YES
+1329,willie_le_marq,Willie Le Marq,black_book,0,0,0,0,YES
+1330,wyne_tollman,Wyne Tollman,black_book,0,0,0,0,YES
+1331,yakhof_neima,Yakhof Neima,black_book,0,0,0,0,YES
+1332,yara,Yara,black_book,0,0,0,0,YES
+1333,yariv_zghoul,Yariv Zghoul,black_book,0,0,0,0,YES
+1334,yassi_mazandi,Yassi Mazandi,black_book,0,0,0,0,YES
+1335,yinka_ojora,Yinka Ojora,black_book,0,0,0,0,YES
+1336,yoshi_nishio,Yoshi Nishio,black_book,0,0,0,0,YES
+1337,zandy_forbes,Zandy Forbes,black_book,0,0,0,0,YES

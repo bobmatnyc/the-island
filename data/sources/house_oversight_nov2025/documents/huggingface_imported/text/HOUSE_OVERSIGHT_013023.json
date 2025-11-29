@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013023",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013023.txt",
+  "text": "Chapter 6\nA Brief Overview of CogPrime\n\n6.1 Introduction\n\nJust as there are many different approaches to human flight — airplanes, helicopters, balloons,\nspacecraft, and doubtless many methods no person has thought of yet — similarly, there are likely\nmany different approaches to advanced artificial general intelligence. All the different approaches\nto flight exploit the same core principles of aerodynamics in different ways; and similarly, the\nvarious different approaches to AGI will exploit the same core principles of general intelligence\nin different ways.\n\nIn the chapters leading up to this one, we have taken a fairly broad view of the project\nof engineering AGI. We have presented a conception and formal model of intelligence, and\ndescribed environments, teaching methodologies and cognitive and developmental pathways\nthat we believe are collectively appropriate for the creation of AGI at the human level and\nultimately beyond, and with a roughly human-like bias to its intelligence. These ideas stand\nalone and may be compatible with a variety of approaches to engineering AGI systems. However,\nthey also set the stage for the presentation of CogPrime, the particular AGI design on which\nwe are currently working.\n\nThe thorough presentation of the CogPrime design is the job of Part 2 of this book — where,\nnot only are the algorithms and structures involved in CogPrime reviewed in more detailed,\nbut their relationship to the theoretical ideas underlying CogPrime is pursued more deeply.\nThe job of this chapter is a smaller one: to give a high-level overview of some key aspects the\nCogPrime architecture at a mostly nontechnical level, so as to enable you to approach Part\n2 with a little more idea of what to expect. The remainder of Part 1, following this chapter,\nwill present various theoretical notions enabling the particulars, intent and consequences of the\nCogPrime design to be more thoroughly understood.\n\n6.2 High-Level Architecture of CogPrime\n\nFigures 6.1, 6.2 , 6.4 and 6.5 depict the high-level architecture of CogPrime, which involves\nthe use of multiple cognitive processes associated with multiple types of memory to enable\nan intelligent agent to execute the procedures that it believes have the best probability of\nworking toward its goals in its current context. In a robot preschool context, for example, the\n\n107\n\nHOUSE_OVERSIGHT_013023",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013023.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2380,
+    "word_count": 373,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:44.808496",
+    "prefix": "IMAGES-002"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015956",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015956.txt",
+  "text": "266 Are the Androids Dreaming Yet?\n\nwill need to unload this person of ALL interruptions and administrative\nburdens. This is the most effective way to solve a creative programming\ntask. Practically, once your task is over the limit for a single human, a\nsoftware project must be split up. This requires great care. Dividing a\nproblem efficiently means specifying the interfaces between them and\ndecoupling the components. This is the art of an architect or a producer\nin the creative arts. The creative process operates similarly in other walks\nof life. There are many examples of successful creative duos — Rogers\nand Hammerstein (The Sound of Music), Ben Elton and Richard Curtis\n(Blackadder).\n\nGood managers, therefore, find ways to break projects into\nmanageable sub-projects that can be worked by pairs or rely on single\nsuper-programmers with support around them. If you are lucky enough\nto gather together a group of super-programmers and can divide a\nproblem efficiently amongst them, you can achieve great things. You\nsee this pipeline in movie production. A script writer generates a script\ncreatively. The casting director finds the actors, a director is in charge of\nfilming, and an editor puts it together. In very great movies you will often\nfind a great director or producer who had a hand in almost everything\nholding it all together. They are often accused of micro-managing but\nyou can see that’s what they must do. They are the super-programmer\nwith the whole creative work in their head, and an eye on the audience\nand financial backers.\n\nIf you talk with great programmers you will be amazed by their\nbreadth of technical, commercial and product knowledge. Why do they\nneed all this commercial information to do their job in the round?\n\nRules and Tips\n\nI began writing some rules on how to split up a project, and almost\nimmediately ran into exceptions and special cases. The job of dividing\nthings into sub-tasks is, itself, a creative problem and must not be done\nmechanically. Any ‘one size fits all’ rule will fail and you must apply\ndomain knowledge and careful thought to the process.\n\nIt is the job of architects or a senior engineer to split projects into\nsmaller chunks. To do this they must accurately ‘guess’ boundaries\nbetween subtasks to create self-contained, creatively solvable problems.\nThis can be done by either vertical or horizontal abstraction. Both have\ntheir problems.\n\nHOUSE_OVERSIGHT_015956",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015956.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2437,
+    "word_count": 400,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:48.618464",
+    "prefix": "IMAGES-003"
+  }
+}

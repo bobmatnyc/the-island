@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011143",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011143.txt",
+  "text": "applied to paper rights such as the mortgage rather than to physical or human\n\ncapital itself.\n\nDepreciation of those assets is not as simple as with the mortgage. Cash flow F and\ndiscount rate r are typically variables rather than constants. Depreciation theory\navoids that complexity, much as accountants do, by treating each successive\n\ninvestment in an asset as if it were a separate asset depreciating in itself.\n\n(A2.5) through (A2.10) gave present value at time x of a differential foreseen\n\npositive cash flow at future time z as\ndPV(x)= F (zje dz , (A8.1)\n\nwhere the differential present value arose from a earlier or concurrent negative\ncash flow invested at time u<=x .It was shown that all of asset value PV(x) at any\ntime x can be explained as a sum or integral of such differential increments\n\nevolving with time alone from investment to eventual realization.\nMeanwhile all output within the differential increment of dPV is self invested.\nGrowth dPV can be understood either as this self-invested output or equivalently\n\nthe shortening discount period, as each means growth at rate r. At interim moment\nt itis\ndPV’(t)=r(x)dPV(t)=F(z)je dt = EHO RG: , X<=t<z.  (A8.2)\n\ner la\n\nThus present value rises exponentially as long as the moment of cash flow is\n\ndeferred.\n\nAPPENDIX A: The Argument in Notation 3/7/16 17\n\nHOUSE_OVERSIGHT_011143",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011143.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1349,
+    "word_count": 221,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:47.579988",
+    "prefix": "IMAGES-001"
+  }
+}

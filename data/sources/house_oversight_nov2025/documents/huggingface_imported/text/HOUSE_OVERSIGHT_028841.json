@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028841",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028841.txt",
+  "text": "InsightsPod\n\nLong-Term Debt\n\nTotal\n\nLiabilities 30 $0 $0 $0 so $0 $0 $0 $0 $0 $0 $0\nPaid-in Capital $66,666 $133,332 $199,998 $266,664 $333,331 $399,998 $466,665 $533,332 $599,999 $666,666 $733,333 $800,000\nRetained Earnings\n\nEarnings ($22,389) ($68,444) ($114,499) ($146,804) ($169,113) ($186,423) ($196,933) ($202,443) ($200,953) ($191,463) ($174,973) ($147,483)\nwe $44,277 $64,888 $85,499 $119,860 $164,218 $213,575 $269,732 $330,889 $399,046 $475,203 $558,360 $652,517\nTotal\n\nLiabilities & $44,277 $64,888 $85,499 $119,860 $164,218 $213,575 $269,732 $330,889 $399,046 $475,203 $558,360 $652,517\nEquity\n\n| Page 24 |\n\nCONFIDENTIAL - DO NOT DISSEMINATE. This business plan contains confidential, trade-secret information and is shared only with the\nunderstanding that you will not share its contents or ideas with third parties without the express written consent of the plan author.\n\nHOUSE_OVERSIGHT_028841",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028841.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 908,
+    "word_count": 120,
+    "line_count": 23,
+    "import_date": "2025-11-19T21:47:47.491240",
+    "prefix": "IMAGES-010"
+  }
+}

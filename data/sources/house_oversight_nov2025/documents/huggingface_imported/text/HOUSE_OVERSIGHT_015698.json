@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015698",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015698.txt",
+  "text": "8 Are the Androids Dreaming Yet?\n\nPhilip Glass. The compositions would get a reasonable technical score in\nan exam, better than many of my attempts, but are these compositions\ntruly art?\n\nThere's no question computers are gaining ground on us in certain\nmathematically oriented tasks — playing chess, musical composition, and\nvarious modeling tasks. But attempts to have them work with words and\nideas have generally produced dismal results. Until now.\n\nIn 2008, IBM unveiled Watson: a computer capable of answering\ngeneral knowledge questions. Watson has an enormous database of\nhuman knowledge: the Encyclopedia Britannica, a billion web pages,\nthe entire text of Wikipedia and millions of books. It uses artificial\nintelligence to trawl through this vast reservoir of knowledge and answer\nquestions using a statistical approach. In 2011, Watson featured as a\ncontestant on Jeopardy, the American quiz show, where it beat the two\nrecord-holding contestants — the one with the highest number of wins\nand the one with most consecutive wins. Let me give you a few sample\nquestions and see how you fare.\n\nQuestion 1. _ It can mean to develop\ngradually in the mind or to\ncarry during pregnancy.\n\nQuestion 2. William Wilkinson's “An\nAccount of the Principalities\nof Wallachia and Moldavia”\ninspired this author's most\nfamous Novel.\n\nQuestion 3. _ Its largest airport is named\nfor a World War II hero; its\nsecond largest, for a World\nWar II battle.\n\nWatson answered questions one and two correctly but failed on\nquestion three. You can probably see the final question is posed in poorly\nstructured English and this threw off Watson’s comprehension algorithm.\n\nHOUSE_OVERSIGHT_015698",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015698.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1677,
+    "word_count": 268,
+    "line_count": 42,
+    "import_date": "2025-11-19T21:47:46.922457",
+    "prefix": "IMAGES-003"
+  }
+}

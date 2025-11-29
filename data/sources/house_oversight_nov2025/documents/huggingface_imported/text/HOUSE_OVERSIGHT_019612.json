@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019612",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019612.txt",
+  "text": "124 | HOW AMERICA LOST ITS SECRETS\n\nfuture use. Soon afterward, Congress replaced the Patriot Act with\nthe USA Freedom Act, which effectively transferred bulk storage of\nbilling records from the NSA to the phone companies themselves.\nDespite the change in venue, the records of individuals were still not\ncompletely private. Under the new law, the FBI via a FISA warrant\ncould still search the phone company’s databases.\n\nThe core of Snowden’s charge in the media was that the FISA\ncourt overreached its authority by issuing sweeping warrants that\nallowed the NSA to obtain data collected by private phone and Inter-\nnet companies. In the initial story published in The Guardian on\nJune 6, Snowden disclosed one such FISA warrant to support his\ncharge. It was issued by Judge Roger Vinson of the FISA court on\nApril 25, 2013, and ordered Verizon to turn over to the FBI all its\nbilling records of landline customers for the next ninety days. The\nFBI presented this FISA authorization to the NSA, which acts as\na service organization for the FBI and the CIA in collecting com-\nmunications data. The NSA, with the FISA warrant in hand, then\nobtained the Verizon billing records.\n\n© Snowden also provided the Post and The Guardian with another ©\nsecret document: a PowerPoint presentation on twenty slides, sent\nby the NSA to other intelligence agencies. It described a program\nit was using for monitoring the Internet. Its code name was the\naforementioned PRISM. It was authorized under Section 702 of the\nForeign Intelligence Surveillance Act and was designed to collect\nmessages sent over the Internet from foreigners. Such information\nwas in fact obtained with the knowledge of the service providers. It\nalso required a written directive from both the attorney general and\nthe director of national intelligence and a review by the Department\nof Justice every three months for each and every case. After obtain-\ning this data, the NSA ran programs, as required by law, to filter out\nall domestic Internet communications, but, as Snowden pointed out,\ndomestic information was also accidently picked up. Whenever the\nJustice Department actually opened an investigation against Ameri-\ncans in contact with foreign suspects, as it did in 170 cases in 2013,\nit could obtain warrants from the FISA court to search these Ameri-\ncans’ Internet activities.\n\nThese two documents raised legitimate questions for many\n\n| | Epst_9780451494566_2p_all_r1.z.indd 124 ® 9/29/16 5:51 Pa | |\n\nHOUSE_OVERSIGHT_019612",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019612.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2496,
+    "word_count": 406,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:46.930597",
+    "prefix": "IMAGES-005"
+  }
+}

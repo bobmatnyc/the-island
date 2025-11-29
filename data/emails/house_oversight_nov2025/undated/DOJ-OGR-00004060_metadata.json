@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00004060",
+  "email_index": 27,
+  "extracted_at": "2025-11-17T04:14:45.443501",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "All counsel of record MDC Legal DOJ-OGR-00004060",
+  "subject": null,
+  "date": "04/29/21",
+  "body": "MDC Legal",
+  "confidence": 0.7,
+  "email_addresses": [
+    "bc@sternheimlaw.com"
+  ]
+}

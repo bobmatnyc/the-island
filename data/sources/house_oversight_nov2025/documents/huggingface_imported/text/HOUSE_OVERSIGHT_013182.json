@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013182",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013182.txt",
+  "text": "266 13 Local, Global and Glocal Knowledge Representation\n\na Distributed-only vrw Gating arr hitechue\n\nshape Robsu cepreseniaikn\n\nComrresrgert ancheecture\n\nWs a\nTask a\neniggencn €>\n\nPSS ea Ont l\n\nAiaturd Review Meurcicience\n\nFig. 13.1: A Simplified Look at Feedback-Control in Uncertain Inference\n\nWhat is missing in [PNRO7] and [Dam00] perspective is a vision of distributed memories\nas attractors. The idea of localized memories serving as indices into distributed knowledge\nstores is important, but is only half the picture of glocal memory: the creative, constructive,\ndynamical-attractor aspect of the distributed representation is the other half. The closest thing\nto a clear depiction of this aspect of glocal memory that seems to exist in the neuroscience\nliterature is a portion of William Calvin’s theory of the “cerebral code” [Cal96]. Calvin pro-\nposes a set of quite specific mechanisms by which knowledge may be represented in the brain\nusing complexly-structured strange attractors, and by which these strange attractors may be\npropagated throughout the brain. Figure 13.2 shows one aspect of his theory: how a distributed\nattractor may propagate from one part of the brain to another in pieces, with one portion of\nthe attractor getting propagated first, and then seeding the formation in the destination brain\nregion of a close approximation of the whole attractor.\n\nCalvin’s theory may be considered a genuinely glocal theory of memory. However, it also\nmakes a large number of other specific commitments that are not part of the notion of glo-\ncality, such as his proposal of hexagonal meta-columns in the cortex, and his commitment to\nevolutionary learning as the primary driver of neural knowledge creation. We find these other\n\nHOUSE_OVERSIGHT_013182",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013182.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1771,
+    "word_count": 273,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:44.988570",
+    "prefix": "IMAGES-002"
+  }
+}

@@ -1,0 +1,11 @@
+Fed=< Invoice Number: 4-495-33932
+e Invoice Date: Dec 16, 2002
+Account Number: 1144-2081-6
+Page: 14 of 15
+FedEx Ground Prepaid Detail
+Purchase Order Customer Tracking Sve Dest Zone Weight Base Other Total
+Number Reference D Code Zip Charge Charge Charge
+Pickup Date: 12/05
+068 275710000358 019 94538 008 3.0 5.15 0.0635) 5.21
+SDNY_GM_00340793 132
+DOJ-OGR-00015441

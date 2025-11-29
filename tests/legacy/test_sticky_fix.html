@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Header Fix - Visual Test</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f6f8fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h1 {
+            color: #1f2937;
+            margin-bottom: 1rem;
+        }
+        .test-section {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .test-section h2 {
+            color: #4A90E2;
+            margin-top: 0;
+            font-size: 1.25rem;
+        }
+        .status {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin-left: 0.5rem;
+        }
+        .status.success {
+            background: #D1FAE5;
+            color: #065F46;
+        }
+        .status.pending {
+            background: #FEF3C7;
+            color: #92400E;
+        }
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+        .checklist li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .checklist li:last-child {
+            border-bottom: none;
+        }
+        .checklist input[type="checkbox"] {
+            margin-right: 0.5rem;
+        }
+        .code-block {
+            background: #1f2937;
+            color: #e5e7eb;
+            padding: 1rem;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 0.875rem;
+            margin: 1rem 0;
+        }
+        .button {
+            background: #4A90E2;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.2s;
+        }
+        .button:hover {
+            background: #357ABD;
+        }
+        .button.secondary {
+            background: #6B7280;
+        }
+        .button.secondary:hover {
+            background: #4B5563;
+        }
+        .metric {
+            display: inline-block;
+            margin-right: 2rem;
+            margin-bottom: 1rem;
+        }
+        .metric-label {
+            color: #6B7280;
+            font-size: 0.875rem;
+            display: block;
+        }
+        .metric-value {
+            color: #1f2937;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .alert {
+            background: #FEF3C7;
+            border-left: 4px solid #F59E0B;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+        .alert strong {
+            color: #92400E;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 Sticky Header Fix - Visual Test Page</h1>
+
+        <div class="test-section">
+            <h2>📊 Fix Status <span class="status success">✅ COMPLETE</span></h2>
+            <p><strong>Problem:</strong> Timeline events positioned below visible screen due to overlapping sticky headers.</p>
+            <p><strong>Solution:</strong> Applied proper top positioning and padding to all affected views (Timeline, Entities, Documents).</p>
+        </div>
+
+        <div class="test-section">
+            <h2>📋 Testing Checklist</h2>
+            <ul class="checklist">
+                <li><input type="checkbox" id="test1"> Open http://localhost:5002 in browser</li>
+                <li><input type="checkbox" id="test2"> Click <strong>Timeline</strong> tab</li>
+                <li><input type="checkbox" id="test3"> Verify timeline events are visible immediately (no scrolling needed)</li>
+                <li><input type="checkbox" id="test4"> Scroll down - both headers should stay sticky</li>
+                <li><input type="checkbox" id="test5"> Click <strong>Entities</strong> tab - verify entity cards visible</li>
+                <li><input type="checkbox" id="test6"> Click <strong>Documents</strong> tab - verify document grid visible</li>
+                <li><input type="checkbox" id="test7"> Open DevTools (F12) and switch to mobile view (390px width)</li>
+                <li><input type="checkbox" id="test8"> Test all tabs in mobile view - content should be visible</li>
+                <li><input type="checkbox" id="test9"> Test filters - search and filter controls should work</li>
+                <li><input type="checkbox" id="test10"> Run console validation script (see below)</li>
+            </ul>
+        </div>
+
+        <div class="test-section">
+            <h2>🧪 Browser Console Test</h2>
+            <p>Copy and paste this into your browser console while viewing the dashboard:</p>
+            <div class="code-block">
+fetch('/test_sticky_headers.js')
+  .then(r => r.text())
+  .then(eval)
+  .catch(() => console.error('Could not load test script'));
+            </div>
+
+            <div class="alert">
+                <strong>Alternative:</strong> Manually copy the contents of <code>test_sticky_headers.js</code> into the console
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>📐 Expected Metrics</h2>
+
+            <div style="margin-bottom: 1.5rem;">
+                <strong>Desktop (>768px width):</strong>
+                <div style="margin-left: 1rem; margin-top: 0.5rem;">
+                    <div class="metric">
+                        <span class="metric-label">Sticky Header Height</span>
+                        <span class="metric-value">~185px</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Filter Bar Top</span>
+                        <span class="metric-value">185px</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Content Padding</span>
+                        <span class="metric-value">2rem</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <strong>Mobile (≤768px width):</strong>
+                <div style="margin-left: 1rem; margin-top: 0.5rem;">
+                    <div class="metric">
+                        <span class="metric-label">Sticky Header Height</span>
+                        <span class="metric-value">~280px</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Filter Bar Top</span>
+                        <span class="metric-value">280px</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Content Padding</span>
+                        <span class="metric-value">1rem</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>🚀 Quick Actions</h2>
+            <button class="button" onclick="window.open('http://localhost:5002', '_blank')">
+                Open Dashboard
+            </button>
+            <button class="button secondary" onclick="window.location.href='STICKY_HEADER_FIX_COMPLETE.md'">
+                View Full Documentation
+            </button>
+        </div>
+
+        <div class="test-section">
+            <h2>✅ Success Criteria</h2>
+            <ul>
+                <li>✅ Timeline events visible immediately when tab opens</li>
+                <li>✅ No content hidden below viewport</li>
+                <li>✅ Filter bar positioned below header (not overlapping)</li>
+                <li>✅ Sticky headers stay fixed during scroll</li>
+                <li>✅ Works on desktop, tablet, and mobile</li>
+                <li>✅ All filter interactions work correctly</li>
+                <li>✅ Applied to Timeline, Entities, and Documents views</li>
+            </ul>
+        </div>
+
+        <div class="test-section">
+            <h2>🐛 If Issues Found</h2>
+            <ol>
+                <li>Check browser console for JavaScript errors</li>
+                <li>Verify viewport width using DevTools</li>
+                <li>Measure actual header heights using browser inspector</li>
+                <li>Compare expected vs actual metrics using validation script</li>
+                <li>Test in different browsers (Chrome, Firefox, Safari, Edge)</li>
+            </ol>
+        </div>
+
+        <div class="test-section" style="background: #F3F4F6; border: 2px solid #D1D5DB;">
+            <h2>📝 Files Modified</h2>
+            <ul>
+                <li><code>server/web/index.html</code> (Lines 2893-2905, 4602-4613)</li>
+            </ul>
+            <p style="margin-top: 1rem; color: #6B7280;">
+                <strong>Changes:</strong> Added view-specific CSS rules to position sticky filter bars below sticky page headers, with responsive adjustments for mobile devices.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Auto-save checklist state
+        document.querySelectorAll('.checklist input[type="checkbox"]').forEach(checkbox => {
+            const key = checkbox.id;
+            checkbox.checked = localStorage.getItem(key) === 'true';
+            checkbox.addEventListener('change', () => {
+                localStorage.setItem(key, checkbox.checked);
+            });
+        });
+
+        // Show completion percentage
+        function updateProgress() {
+            const checkboxes = document.querySelectorAll('.checklist input[type="checkbox"]');
+            const checked = Array.from(checkboxes).filter(cb => cb.checked).length;
+            const total = checkboxes.length;
+            const percentage = Math.round((checked / total) * 100);
+
+            console.log(`Testing Progress: ${checked}/${total} (${percentage}%)`);
+        }
+
+        document.querySelectorAll('.checklist input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('change', updateProgress);
+        });
+    </script>
+</body>
+</html>

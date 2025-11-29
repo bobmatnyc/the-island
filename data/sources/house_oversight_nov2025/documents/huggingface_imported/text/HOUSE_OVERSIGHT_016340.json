@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016340",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016340.txt",
+  "text": "While Danny Hillis was an undergraduate at MIT, he built a computer out of Tinkertoys.\nIt has around 10,000 wooden parts, plays tic-tac-toe, and never loses; it’s now in the\nComputer History Museum, in Mountain View, California.\n\nAs a graduate student at the MIT Computer Science and Artificial Intelligence\nLaboratory in the early 1980s, Danny designed a massively parallel computer with\n64,000 processors. He named it the Connection Machine and founded what may have\nbeen the first Al company—Thinking Machines Corporation—to produce and market it.\nThis was despite a lunch he had with Richard Feynman, at which the celebrated physicist\nremarked, “That is positively the dopiest idea I ever heard.” Maybe “despite” is the\nwrong word, since Feynman had a well-known predilection for playing with dopey ideas.\nIn the event, he showed up on the day the company was incorporated and stayed on, for\nsummer jobs and special assignments, to make invaluable contributions to its work.\n\nDanny has since established a number of technology companies, of which the\nlatest is Applied Invention, which partners with commercial enterprises to develop\ntechnological solutions to their most intractable problems. He holds hundreds of U.S.\npatents, covering parallel computers, touch interfaces, disk arrays, forgery prevention\nmethods, and a slew of electronic and mechanical devices. His imagination is apparently\nboundless, and here he sketches some possible scenarios that will result from our pursuit\nof a better and better Al.\n\n“Our thinking machines are more than metaphors,” he says. “The question is not,\n‘Will they be powerful enough to hurt us?’ (they will), or whether they will always act in\nour best interests (they won't), but whether over the long term they can help us find our\nway—where we come out on the Panacea/Apocalypse continuum. ”\n\n120\n\nHOUSE_OVERSIGHT_016340",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016340.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1868,
+    "word_count": 292,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:47.668510",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011096",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011096.txt",
+  "text": "Payment Mediation\n\nBanks effect payments from depositors’ accounts. An omnibus fund can do the same.\nPayments out are directed “redemptions” in the language of brokerage accounts, or\nwithdrawals in the language of bank accounts. Payments in are “subscriptions” to\n\nbrokers and their clients, or deposits to bankers.\n\nAll these payments can be electronic. A payer, typically a customer, might swipe a\ncard or click a screen. A payee, typically a vendor, typically must verify first that the\naccount is authentic and covers the payment offered. An omnibus fund could be well\n\nsuited to give this quick transparency.\n\nFirst, it is essentially an index fund. It is composed of a published ratio of index ETFs\nand index mutual funds and index-equitized cash. Individual accounts are then\nhedged or exposed to index swaps or future overlays administered by the omnibus\nfund itself. The fund can track all these indexes online, and knows from tick to tick\nwhat each account is worth. This holds true even for volatile accounts where risk-\ntolerant clients have opted for long legs in swaps and futures. So long as\nmanagement effects all payments in an out, and constructs each account of index\nexposures itself, and tracks those exposures and payments in real time, it knows\n\naccount values exactly.\n\nRisk-tolerant clients will expect daily ups and downs in account size. That means\nthat they will have to carry larger accounts in order to be sure of covering payments\nin the downswings. That would be a problem if accounts yielded zero return, as\ncheckable bank deposits do. The gist of my answer to Milton Friedman was that no\namount of money is too much if it yields as much return as other assets of equal risk.\nAccounts are hedged or leveraged to do so. Omnibus fund accounts burn no holes in\npockets. We do not own one to spend, like a checking account, and treat it as a drag\non earnings until spent. We own it as a fully competitive investment, and spend it\n\nreluctantly when bills are presented.\n\nChapter 8 Banks, Money and Macroeconomics 2/8/16 7\n\nHOUSE_OVERSIGHT_011096",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011096.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2073,
+    "word_count": 349,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:49.259061",
+    "prefix": "IMAGES-001"
+  }
+}

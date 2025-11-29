@@ -1,0 +1,444 @@
+# Extended YAML Frontmatter Schema for Canonical Documents
+# Version: 1.0
+# Last Updated: 2025-11-16
+#
+# This schema supports ALL document types in the Epstein collections,
+# not just emails. Fields marked REQUIRED must be present.
+# Fields marked CONDITIONAL are required for specific document types.
+
+---
+# CORE IDENTIFICATION (REQUIRED)
+canonical_id: "epstein_doc_[sha256_hash]"  # Unique identifier
+document_type: "email|letter|court_filing|..."  # From taxonomy
+document_subtype: "motion_to_dismiss|..."  # Specific subtype (optional)
+classification_confidence: 0.95  # 0.0-1.0 confidence score
+
+# UNIVERSAL METADATA
+title: "Document title or subject"  # REQUIRED
+date: "2007-09-13"  # REQUIRED - Primary date (YYYY-MM-DD)
+date_created: "2007-09-13"  # When document was created
+date_modified: "2007-09-14"  # When last modified
+date_sent: "2007-09-13"  # When sent (communications)
+date_received: "2007-09-14"  # When received (communications)
+date_filed: "2007-09-15"  # When filed (legal docs)
+
+# Date ranges for documents covering periods
+date_range:
+  start: "2007-09-01"
+  end: "2007-09-30"
+  description: "Coverage period"
+
+# PARTICIPANTS (Universal - applies to all docs)
+# Flexible role system allows any document type
+participants:
+  - name: "Jay Lefkowitz"
+    role: "author"  # author, recipient, sender, mentioned, witness, attorney, etc.
+    email: "JLefkowitz@kirkland.com"
+    organization: "Kirkland & Ellis LLP"
+    title: "Attorney"
+
+  - name: "Ann Marie Villafana"
+    role: "recipient"
+    email: "villafana@usdoj.gov"
+    organization: "U.S. Attorney's Office"
+    title: "Assistant U.S. Attorney"
+
+# COMMUNICATION-SPECIFIC METADATA (CONDITIONAL)
+# Only for: email, letter, memo, fax, text_message
+communication:
+  from: "Jay Lefkowitz <JLefkowitz@kirkland.com>"
+  to:
+    - "Ann Marie Villafana <villafana@usdoj.gov>"
+  cc: []
+  bcc: []
+  subject: "RE: Meeting regarding plea agreement"
+
+  # Email headers
+  message_id: "<abc123@mail.example.com>"
+  in_reply_to: "<xyz789@mail.example.com>"
+  references:
+    - "<xyz789@mail.example.com>"
+
+  # Letter specific
+  letterhead: "Kirkland & Ellis LLP"
+  salutation: "Dear Marie"
+  closing: "Best, Jay"
+
+  # Fax specific
+  fax_number: "+1-555-0100"
+  pages_sent: 3
+  transmission_time: "2007-09-13T19:35:00"
+
+# LEGAL DOCUMENT METADATA (CONDITIONAL)
+# Only for: court_filing, motion, order, deposition, etc.
+legal:
+  case_number: "1:19-cr-00490"
+  case_name: "United States v. Jeffrey Epstein"
+  court: "United States District Court for the Southern District of New York"
+  court_abbreviation: "SDNY"
+
+  judge: "Hon. Richard M. Berman"
+  magistrate: "Hon. Katharine H. Parker"
+
+  # Parties
+  plaintiff: "United States of America"
+  defendant: "Jeffrey Epstein"
+
+  # Attorneys
+  attorneys:
+    - name: "Maurene Comey"
+      role: "prosecutor"
+      organization: "U.S. Attorney's Office SDNY"
+
+    - name: "Martin Weinberg"
+      role: "defense"
+      organization: "Weinberg & Shea"
+
+  # Filing information
+  docket_number: "32"
+  filing_date: "2019-07-18"
+  filed_by: "United States"
+
+  # Document specific
+  motion_type: "motion_to_dismiss"
+  order_type: "preliminary_order"
+  deposition_date: "2009-05-15"
+  deponent: "Witness Name"
+
+  # Case metadata
+  case_type: "criminal|civil"
+  jurisdiction: "federal|state"
+  status: "active|closed|sealed"
+
+# FINANCIAL DOCUMENT METADATA (CONDITIONAL)
+# Only for: invoice, receipt, bank_statement, wire_transfer, etc.
+financial:
+  account_number: "****1234"
+  routing_number: "****5678"
+
+  # Amounts
+  total_amount: 150000.00
+  currency: "USD"
+
+  # Parties
+  payer: "Entity Name"
+  payee: "Recipient Name"
+  beneficiary: "Beneficiary Name"
+
+  # Transaction details
+  transaction_id: "TXN-ABC-123"
+  transaction_date: "2007-09-13"
+  transaction_type: "wire_transfer|check|ach"
+
+  # Invoice specific
+  invoice_number: "INV-2007-0913"
+  invoice_date: "2007-09-13"
+  due_date: "2007-10-13"
+
+  line_items:
+    - description: "Legal services"
+      quantity: 40
+      rate: 750.00
+      amount: 30000.00
+
+  # Bank statement
+  statement_period:
+    start: "2007-09-01"
+    end: "2007-09-30"
+  beginning_balance: 1000000.00
+  ending_balance: 850000.00
+
+  # SAR specific
+  sar_number: "SAR-2007-12345"
+  filing_institution: "Bank Name"
+  suspicious_activity_type: "structuring|money_laundering|..."
+
+# FLIGHT LOG METADATA (CONDITIONAL)
+# Only for: flight_log documents
+flight:
+  aircraft:
+    tail_number: "N212JE"
+    type: "Boeing 727"
+    owner: "JEGE Inc."
+
+  flight_number: "FL-2007-0913"
+
+  route:
+    origin: "Teterboro Airport (TEB)"
+    destination: "Palm Beach International (PBI)"
+    stops:
+      - "Atlanta (ATL)"
+
+  schedule:
+    departure_date: "2007-09-13"
+    departure_time: "10:00:00"
+    arrival_date: "2007-09-13"
+    arrival_time: "14:30:00"
+
+  passengers:
+    - name: "Passenger Name"
+      age: 45
+      notes: "VIP"
+
+  crew:
+    - name: "Pilot Name"
+      role: "captain"
+
+  flight_hours: 4.5
+  fuel_consumed: 2500
+
+# INVESTIGATIVE DOCUMENT METADATA (CONDITIONAL)
+# Only for: fbi_report, police_report, witness_statement, etc.
+investigative:
+  agency: "Federal Bureau of Investigation"
+  case_number: "FBI-2007-12345"
+  report_number: "FD-302-67890"
+
+  investigator:
+    name: "Special Agent John Smith"
+    badge_number: "SA-12345"
+    agency: "FBI"
+
+  subject:
+    name: "Subject Name"
+    dob: "1953-01-20"
+    ssn_last4: "1234"
+
+  incident_date: "2007-09-13"
+  report_date: "2007-09-15"
+
+  # Witness statement
+  witness_name: "Witness Name"
+  statement_date: "2007-09-14"
+  sworn: true
+
+  # Evidence
+  evidence_numbers:
+    - "EVD-001"
+    - "EVD-002"
+
+  chain_of_custody:
+    - collected_by: "Officer Name"
+      collected_date: "2007-09-13"
+      transferred_to: "Evidence Room"
+      transfer_date: "2007-09-13"
+
+# SOURCE TRACKING (REQUIRED)
+# Where did this document come from?
+sources:
+  - source_name: "House Oversight Committee - November 2025 Release"
+    collection: "DOJ-OGR"
+    url: "https://oversight.house.gov/..."
+    access_date: "2025-11-16"
+    bates_number: "DOJ-OGR-00000505"
+    pages: "1"
+    page_range: "1-1"
+    pdf_file: "DOJ-OGR-00000505.pdf"
+
+  # Can have multiple sources if document appears in multiple collections
+  - source_name: "Giuffre v. Maxwell - Court Exhibits"
+    collection: "Case 9:08-cv-80736"
+    url: "https://..."
+    exhibit_number: "361-11"
+    pages: "2-3"
+
+# AUTOMATED CLASSIFICATION (REQUIRED)
+automated_classification:
+  method: "rule_based"  # rule_based, ml_model, manual, hybrid
+  model_version: "1.0"
+  confidence: 0.95
+
+  # Features that led to classification
+  features_detected:
+    - "email_headers"
+    - "email_addresses"
+    - "communication_format"
+    - "from_to_structure"
+
+  # Alternative classifications considered
+  alternatives:
+    - type: "letter"
+      confidence: 0.15
+    - type: "memo"
+      confidence: 0.05
+
+  classified_at: "2025-11-16T21:30:00Z"
+  classifier_version: "1.0"
+
+# ENTITY EXTRACTION (REQUIRED)
+entities:
+  people:
+    - name: "Jay Lefkowitz"
+      mentions: 5
+      roles: ["attorney", "author"]
+      confidence: 0.99
+
+    - name: "Ann Marie Villafana"
+      mentions: 3
+      roles: ["prosecutor", "recipient"]
+      confidence: 0.99
+
+    - name: "Jeffrey Epstein"
+      mentions: 1
+      roles: ["subject"]
+      confidence: 0.95
+
+  organizations:
+    - name: "Kirkland & Ellis LLP"
+      type: "law_firm"
+      mentions: 2
+      confidence: 0.99
+
+    - name: "U.S. Attorney's Office"
+      type: "government_agency"
+      mentions: 1
+      confidence: 0.99
+
+  locations:
+    - name: "West Palm Beach, FL"
+      type: "city"
+      mentions: 1
+      confidence: 0.95
+
+  dates:
+    - date: "2007-09-13"
+      context: "email sent date"
+      confidence: 0.99
+
+    - date: "2007-09-14"
+      context: "scheduled call"
+      confidence: 0.90
+
+  cases:
+    - case_number: "08-cv-80736"
+      court: "SDFL"
+      name: "Giuffre v. Maxwell"
+      confidence: 0.85
+
+  financial:
+    - amount: 150000
+      currency: "USD"
+      context: "settlement amount"
+      confidence: 0.80
+
+# CONTENT ANALYSIS
+content:
+  # Topic classification
+  topics:
+    - "plea_negotiations"
+    - "federal_charges"
+    - "legal_strategy"
+
+  # Sentiment/tone
+  tone: "formal"  # formal, informal, legal, business, personal, urgent
+
+  # Language
+  language: "en"  # ISO 639-1 code
+
+  # Document length
+  word_count: 250
+  page_count: 1
+
+  # Key phrases
+  key_phrases:
+    - "quality time with Title 18"
+    - "looking for misdemeanors"
+    - "factual basis for the plea"
+
+  # Summary (optional, can be AI-generated)
+  summary: "Email exchange between defense attorney Jay Lefkowitz and AUSA Ann Marie Villafana discussing potential misdemeanor charges and plea agreement terms for Jeffrey Epstein case."
+
+# DOCUMENT QUALITY (REQUIRED)
+quality:
+  ocr_quality: "medium"  # high, medium, low
+  ocr_confidence: 0.85
+  ocr_errors: 5
+
+  completeness: "complete"  # complete, partial, fragment
+  missing_pages: false
+
+  redactions: true
+  redaction_level: "light"  # none, light, moderate, heavy
+  redaction_percentage: 10
+
+  legibility: "good"  # excellent, good, fair, poor
+
+  # Technical quality
+  scan_quality: "medium"  # high, medium, low
+  file_size: 245678
+  format: "pdf"
+  pages: 1
+
+# RELATIONSHIPS (OPTIONAL)
+# Links to other documents
+relationships:
+  - type: "reply_to"
+    canonical_id: "epstein_doc_abc123..."
+    description: "Reply to previous email"
+
+  - type: "attachment_of"
+    canonical_id: "epstein_doc_xyz789..."
+    description: "Was attached to court filing"
+
+  - type: "version_of"
+    canonical_id: "epstein_doc_def456..."
+    description: "Earlier draft"
+
+  - type: "cited_in"
+    canonical_id: "epstein_doc_ghi789..."
+    description: "Cited in deposition"
+
+# TAGS (OPTIONAL)
+# Flexible tagging system
+tags:
+  - "plea_negotiation"
+  - "epstein_case"
+  - "federal_prosecution"
+  - "email_correspondence"
+  - "privileged_communication"
+
+# SECURITY/SENSITIVITY (OPTIONAL)
+security:
+  classification: "unclassified|confidential|privileged|sealed"
+  handling_instructions: "Attorney-client privileged"
+  redaction_reason: "Privacy|Grand Jury|Ongoing Investigation"
+  sealed: false
+
+# VERIFICATION (OPTIONAL)
+verification:
+  manually_reviewed: false
+  reviewed_by: "Reviewer Name"
+  reviewed_date: "2025-11-16"
+  review_notes: "Classification confirmed"
+
+  corrections_made: false
+  correction_notes: "Fixed OCR errors in names"
+
+# PROCESSING METADATA
+processing:
+  ingested_at: "2025-11-16T20:48:00Z"
+  processed_at: "2025-11-16T21:30:00Z"
+  last_updated: "2025-11-16T21:30:00Z"
+
+  pipeline_version: "1.0"
+  processing_steps:
+    - "ocr_extraction"
+    - "email_detection"
+    - "entity_extraction"
+    - "classification"
+    - "canonicalization"
+
+  errors: []
+  warnings:
+    - "Low OCR confidence on line 20"
+
+# NOTES (OPTIONAL)
+# Free-form notes for researchers
+notes: |
+  This email is part of the September 2007 plea negotiation process
+  between Epstein's legal team and federal prosecutors. Note discussion
+  of "looking for misdemeanors" which ultimately led to the controversial
+  non-prosecution agreement.
+
+---
+# Document content follows below

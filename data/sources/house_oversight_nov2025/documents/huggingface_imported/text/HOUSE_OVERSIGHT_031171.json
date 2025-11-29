@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_031171",
+  "filename": "TEXT-001-HOUSE_OVERSIGHT_031171.txt",
+  "text": "﻿8 The Virgin Islands Daily News \nJustice Department \nopens Epstein probe \nThe Associated Press \nFORT LAUDERDALE, Fla. — \nThe Justice Department has opened \nan investigation into federal prosecu-\ntors' handling of a plea deal in which a \nwealthy, politically connected Virgin \nIslands financier avoided potentially \nsevere penalties for sexually abusing \nteenage girls in favor of a relatively \nlight state conviction in Florida. \nThe depart-\nment's Office \nof Professional \nResponsibility \nwrote in a letter \nWednesday to \nUS. Sen. Ben \nSasse, R-Nebras-\nka, that it would \nexamine whether \nprofessional mis- Jeffrey Epstein \nconduct occurred in the highly publi-\ncized case of Jeffrey Epstein. The let-\nter cited a series of recent articles by \nthe Miami Herald that focused new \nattention on how the deal came about. \nSasse, a member of the Senate \nJudiciary Committee who has twice \nasked the Justice Department to in-\nvestigate the case, welcomed the \nnews. \n\"Jeffrey Epstein is a child rapist \nand there's not a single mom or dad in \nAmerica who shouldn't be horrified \nby the fact that he received a patheti-\ncally soft sentence,\" Sasse said in an \nemail. \"The victims of Epstein 's child \nsex trafficking ring deserve this inves-\ntigation — and so do the American \npeople and members of law enforce-\nment who work to put these kinds of \nmonsters behind bars.\" \nEpstein, who also has homes in \nPalm Beach, Fla., and New York, \nlives on Little St. James Island off St. \nThomas. \nEpstein, now 66, reached a non-\nprosecution deal in 2008 with then-\nMiami US. Attorney Alexander \nAcosta's office to secretly end a fed-\neral sex abuse investigation involving \nat least 40 teenage girls that could \nhave landed him behind bars for life. \nHe instead pleaded guilty to state \ncharges, spent 13 months in jail, paid \nsettlements to victims and is a regis-\ntered sex offender. \nAcosta, now President Donald \nTrump's labor secretary, has defend-\ned the deal as appropriate but has not \ncommented since the recent round of \nstories. He was asked about the case \nduring his Senate confirmation hear-\nings for the Cabinet post. \nSome of his accusers are pursuing \na separate legal effort to nullify the \nplea agreement.",
+  "metadata": {
+    "original_filename": "TEXT-001-HOUSE_OVERSIGHT_031171.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2211,
+    "word_count": 360,
+    "line_count": 70,
+    "import_date": "2025-11-19T21:47:46.813771",
+    "prefix": "TEXT-001"
+  }
+}

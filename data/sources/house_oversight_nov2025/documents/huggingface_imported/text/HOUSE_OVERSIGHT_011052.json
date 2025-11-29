@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011052",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011052.txt",
+  "text": "All studies of human capital, as far as I know, effectively treat human depreciation as\ndeadweight loss. Ben-Porath’s model seems no exception. How does he model pay?\nHe multiplies human capital by a productivity factor, and then again by the fraction\nmarketed for pay rather than self-invested. That gives what I call realized work. Pay,\nif] am right, measures gross realized work. That is the main amendment I would\n\npropose for his model.\n\nBen-Porath’s first three equations summarize what I call the growth truism (6.14).\n\nIn my terms, not his, he models\n\nhuman growth = invested consumption + self-invested work\n— human depreciation.\n\nHe means positive self-invested work in the form of learning. Meanwhile the\ninalienability of human capital leaves its depreciation as its only avenue of\ndecapitalization. Invested consumption corresponds to gross transfer in as meant in\nthe growth truism (6.14c) while self-invested work is the same as proprietary\n\noutput. Then (6.4c) applied to human capital could show as\n\nhuman growth = invested consumption + positive self-invested work\n— human depreciation,\n= invested consumption + self-invested work\n— recovered human depreciation,\n\nconfirming (5.2) and (5.3a).\n\nLogic also seems to agree with Ben-Porath’s interpretation that self- invested work\ncontinues late into careers, and that it must stop when time for recovery runs out.\nBut I would specify that invested consumption stops, for modeling purposes, at full-\n\ntime job entry or a little later to allow for initial job training.\n\nThis needn’t follow from my adjusted axioms. It’s just an impression from what | see.\nI don’t agree with Schultz that outlays on medicine or worker relocation are\n\ninvestment. I see them as maintenance consumption preserving skills, not\n\nChapter 6: Parallels with the Firm 2/4/16 18\n\nHOUSE_OVERSIGHT_011052",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011052.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1841,
+    "word_count": 286,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:48.481274",
+    "prefix": "IMAGES-001"
+  }
+}

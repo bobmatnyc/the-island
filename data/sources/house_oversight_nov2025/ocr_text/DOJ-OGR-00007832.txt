@@ -1,0 +1,42 @@
+Case 1:20-cr-00330-PAE Document 499-1 Filed 11/23/21 Page 339 of 375
+CURRICULUM VITAE Ce FORenSic
+Robert P. Kelso KS = —_—_—_
+
+Se The Pursuit of Electronic Evidence
+FORENSIC PURSUIT
+2000 ARAPAHOE STREET, SUITE 1 | DENVER, COLORADO 80205
+OrFice (303) 495-2082 | EMAIL ROBERT.KELSO@FORENSICPURSUIT.COM
+SPECIALIZED Certified Computer Hacking Forensic Investigator (CHFI) ID: ECC918204 — January 2007
+TRAINING - EnCase Certified Examiner (EnCE) 1D: 15-0809-3218 - August 2009
+CERTIFICATIONS -
+LICENSES AccessData Certified Examiner (ACE) ID: 109179 - May 2012
+Computer Forensics — Specialized Training
+e Windows 8 forensics e Smart device app analysis
+e Android malware detection e Link file analysis
+e Decrypting protected user data in browsers | ¢ USB history analysis
+e Legal, privacy, and ethical considerations in | ¢ Creating and verifying bit-stream
+computer forensics forensic images
+e Acquisition, collection and seizure of e Determining creation/modification date
+magnetic media files
+e Documenting Chain of Custody e Creating and using forensic boot disks
+e Forensic Tool Kit (FTK) and EnCase e Linux and Macintosh computer
+forensics
+e Recovery of Windows file metadata e Recovery of internet usage data
+e Recovering data from slack space e Forensics on FAT and NTFS file systems
+¢ Court findings presentation process e Hidden file recovery techniques
+e Windows registry forensics e Recovery on swap/ temporary files
+¢ Data carving from unused space
+@ Mobile device forensics (smart phones, e Recovering files, directories, and
+PDA, digital camera, iPhone, flash media) metadata from formatted disks
+e Determining skin tone percentages in e Stenography, alternative data
+images streams and other types of file hiding
+Licensed Private Investigator in Colorado and Texas
+Colorado Department of Regulatory Agencies, License No. PI2.0000213
+Texas Department of Public Safety, License No: A17132
+E-Discovery and Evidence Best Practices
+Colorado Bar Association, Continuing Legal Education
+EDUCATION Graduate Degree
+Graduated in May 1993 with a Master of Science in Aerospace Engineering specializing
+in Astrodynamics from the University of Colorado in Boulder, Colorado.
+EXHIBIT H
+DOJ-OGR-00007832

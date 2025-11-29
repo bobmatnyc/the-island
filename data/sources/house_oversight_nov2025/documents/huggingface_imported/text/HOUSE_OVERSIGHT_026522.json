@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026522",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026522.txt",
+  "text": "whether or not to continue interacting with player 1. We find con-\nditions in which there is an equilibrium where player 2 chooses to\ninteract with player 1 only if player 1 cooperates without looking\n(CWOL) and player 1 chooses to CWOL. We show that this equi-\nlibrium is robust to both high degrees of rationality, as modeled by\nsubgame perfection and learning or evolutionary dynamics, as mod-\neled by the replicator dynamic. Using computer simulations, we\nalso show that it emerges with high frequency, even in the presence\nof other equilibria. Additionally, we show that the ability for player\n1 to avoid looking, and the ability for player 2 to detect looking\nincreases cooperation. We propose this model as a possible expla-\nnation for a number of interesting phenomena, and thereby derive\nnovel predictions about these phenomena, including why we dislike\n“flip-flopping” politicians and respect principled people more gen-\nerally, why people cooperate intuitively, and why people feel disgust\n\nwhen considering taboo trade-offs, and why people fall in love.\n\nCooperation occurs when we take on costs to help others. A key mechanism by which\ncooperation is sustained is reciprocity: individuals condition their behavior on others’\npast actions [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]. In reality, we not only condition\non others’ past actions, but also on the decision-making process that lead to cooperation:\nwe place more trust in cooperators who do not take time to carefully weigh the costs of\ncooperation and who do not try to collect data on such costs before deciding whether to\ncooperate. For example, we are impressed by colleagues who agree to proofread a paper\nwithout thinking twice, and view with suspicion those who ask, “how long will it take?”\n\nbefore agreeing to attend a practice talk. Such considerations are left out of standard\n\n2\n\nHOUSE_OVERSIGHT_026522",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026522.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1890,
+    "word_count": 310,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:48.370629",
+    "prefix": "IMAGES-009"
+  }
+}

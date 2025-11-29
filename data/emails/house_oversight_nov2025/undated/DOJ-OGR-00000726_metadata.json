@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00000726",
+  "email_index": 3,
+  "extracted_at": "2025-11-17T04:14:45.435595",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "AUSA Maurene Comey; Martin G. Weinberg, Esq.; Reid Weingarten, Esq.; David Boies, Esq. DOJ-OGR-00000726",
+  "subject": null,
+  "date": "09/04/19",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "bgreen@law.fordham"
+  ]
+}

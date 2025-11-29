@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00022003.pdf",
+  "ocr_date": "2025-11-16T21:48:05.083813",
+  "text_length": 714,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "esarraga@foyseplowitz.com"
+  ]
+}

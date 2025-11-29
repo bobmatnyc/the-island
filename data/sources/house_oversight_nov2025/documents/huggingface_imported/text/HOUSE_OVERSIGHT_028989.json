@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028989",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028989.txt",
+  "text": "f Yougitt\nVv\n\nInsightsPod analyzes opinions,\nsentiments, emotions and\nattitudes of people from social\nmedia. Currently our platform\nsupports Twitter, Facebook and\nYouTube. We are in the process\nof integrating Instagram and\nPinterest.\n\nHOUSE_OVERSIGHT_028989",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028989.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 257,
+    "word_count": 34,
+    "line_count": 13,
+    "import_date": "2025-11-19T21:47:44.638575",
+    "prefix": "IMAGES-010"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015844",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015844.txt",
+  "text": "154 Are the Androids Dreaming Yet?\n\nthing we thought true must be false and the opposite is true. This is a\nsomewhat circuitous route to prove things, but it is often the only prac-\ntical way.\n\nTwo paradoxes we are taught as children are the liar’s paradox and\nZenos paradox — also known as the story of the tortoise and hare. The\nfirst is a real paradox but the second is a false paradox. The liar’s paradox\nis just the simple statement:\n\n“This sentence is false.”\n\nIt is a paradox because of the internal inconsistency: We cannot\ndetermine if it is a true or false.\n\nFirst assume it is true, but it says it is false, so it is not true. Then\ntry it the other way around. Assume it is false but the sentence states\nit is false, so it must be true. If that were so it must be false by the first\nargument and so on ad infinitum.\n\nEither way around, the sentence contradicts itself. A paradox.\n\nZenos Paradox, on the other hand, is a false paradox. Here is the\nstory.\n\nOnce upon a time there was a hare. He was a very arrogant hare\nand believed he could outrun any animal. A tortoise was walking along\nthe way and the hare jumped out in front of him. “You are so slow,’\nsaid the hare. The tortoise replied, “You may be the fastest hare in the\nkingdom but I am the most persuasive tortoise. I bet I can persuade you\nof anything, including that I am faster than you.”\n\n“T don't believe you,” said the hare.\n\n“OK; said the tortoise, “let me show you. Give me 100 meters head\nstart since you are so fast. Then, we'll both start to run. After 10 seconds\nyou will have run 100 meters and arrived where I used to be, but I will\nnow be ten meters ahead. After another second you will be where I am\nnow, but I will be 1 meter ahead again. So you can never catch me.”\n\nThe hare pondered for a while but, being a hare of little brain, could\nnot make out the true answer.\n\nIt is a false paradox. The time intervals are getting shorter. The\nquestion for a mathematician is, does the problem converge to a solution.\nThe answer is yes, and I can reframe the problem to see how it is solved.\nLet’s simply look at who would be ahead after 20 seconds: the hare!\n\nHOUSE_OVERSIGHT_015844",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015844.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2164,
+    "word_count": 416,
+    "line_count": 50,
+    "import_date": "2025-11-19T21:47:47.471083",
+    "prefix": "IMAGES-003"
+  }
+}

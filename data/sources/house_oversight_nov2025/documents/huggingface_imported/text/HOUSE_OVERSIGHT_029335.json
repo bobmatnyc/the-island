@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_029335",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_029335.txt",
+  "text": "RAFANELLI\n\nPartial Client List\n\nAmerican Heart Association\nAmerican Cancer Society\nAmerican Red Cross\nAnti-Defamation League\n\nBain Capital Partners LLC\nBaupost Group LLC\n\nThe Benjamin School\n\nBeth Israel Medical Deaconess Center\nBoston Ballet\n\nBoston College\n\nBoston Magazine\n\nBoston Red Sox Foundation\nBoston Symphony Orchestra\n\nBoys and Girls Clubs of Boston\nBrigham and Women’s Hospital\nCam Neely Foundation\n\nCHANEL\n\nChildren's Hospital Trust\n\nCreative Coalition\n\nDana Farber Cancer Institute\nDeCordova Museum\n\nDemocratic National Committee\nEmerson College\n\nErmenegildo Zegna\n\nFaulkner Hospital\n\nFlorence Fuller Child Development Centers\nGiorgio Armani\n\nGreater Boston Food Bank\nHarvard University Art Museums\nHarvard University Business School\nHarvard University Medical School\n\nHuntington Theatre\n\nInstitute of Contemporary Art\n\nJewish Community Centers\n\nJewish Family and Children’s Services\nJ.P. Morgan Chase\n\nKessler Group\n\nLouis Vuitton North America\n\nKravis Center for the Performing Arts\nMandarin Oriental\n\nMassachusetts General Hospital\nMillennium Pharmaceuticals\nMuseum of Fine Arts, Boston\n\nNew England Patriots\n\nNewton Wellesley Hospital\n\nPeabody Essex Museum\n\nRalph Lauren\n\nRitz Carlton\n\nSusan G. Komen Breast Cancer\nFoundation\n\nS.R. Weiner & Associates\nThe Connors Family Office\nThe Swan Group\n\nTrinity Church of Boston\nTsoi/Kobus & Associates\nTudor Investments\n\nUrban Land Institute\n\nU.S. Holocaust Memorial Museum\nU.S. State Department\nValentino\n\nWestin Hotels\n\nWoodmark Group\n\nYMCA\n\nHOUSE_OVERSIGHT_029335",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_029335.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1525,
+    "word_count": 197,
+    "line_count": 106,
+    "import_date": "2025-11-19T21:47:48.965116",
+    "prefix": "IMAGES-010"
+  }
+}

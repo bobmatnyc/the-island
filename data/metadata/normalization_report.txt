@@ -1,0 +1,364 @@
+================================================================================
+ENTITY NAME NORMALIZATION REPORT
+================================================================================
+Generated: 2025-11-17T11:06:46.842257
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total entities processed: 1642
+Duplicated first names fixed: 1652
+Abbreviations expanded: 372
+Entities merged: 94
+
+NAME NORMALIZATIONS APPLIED
+--------------------------------------------------------------------------------
+  Adriana Adriana Mucinska → Adriana Mucinska
+  Alan    Alan Dershowitz → Alan Dershowitz
+  Alan    Alan Greenberg → Alan Greenberg
+  Alberto     Alberto Pinto → Alberto Pinto
+  Alex Appleby → Alexander Appleby
+  Alex Dolbey → Alexander Dolbey
+  Alexander   Alexander Fekkai → Alexander Fekkai
+  Alex Furstenberg → Alexander Furstenberg
+  Alex Lindsay → Alexander Lindsay
+  Alex Loeb → Alexander Loeb
+  Alex Nastasse → Alexander Nastasse
+  Alex       Alex Resnick → Alexander Resnick
+  Alex Wilmot-Sitwell → Alexander Wilmot-Sitwell
+  Alexandria   Alexandria Dixon → Alexandria Dixon
+  Alexia    Alexia Wallert → Alexia Wallert
+  Aline       Aline Weber → Aline Weber
+  Alison      Alison Cayne → Alison Cayne
+  Andrea   Andrea Mitrovich → Andrea Mitrovich
+  Andres   Andres Pastrana → Andres Pastrana
+  Andrew    Andrew Mitchell → Andrew Mitchell
+  Andy      Andy Stewart → Andrew Stewart
+  Andy Wong → Andrew Wong
+  Anna         Anna Hanks → Anna Hanks
+  Anna        Anna Molova → Anna Molova
+  Anouk      Anouk Lavalee → Anouk Lavalee
+  Anthony    Anthony Barrett → Anthony Barrett
+  Tony Blair → Anthony Blair
+  Tony Brand → Anthony Brand
+  Tony Busby → Anthony Busby
+  Tony Guccioni → Anthony Guccioni
+  Tony Malkin → Anthony Malkin
+  Tony Meyer → Anthony Meyer
+  Tony Valukas → Anthony Valukas
+  Audrey      Audrey Blaise → Audrey Blaise
+  Audrey Audrey Raimbault → Audrey Raimbault
+  Baby Baby Baby → Baby Baby
+  Ben Bram → Benjamin Bram
+  Ben Elliot → Benjamin Elliot
+  Ben       Ben Forester → Benjamin Forester
+  Ben Holland-Martin → Benjamin Holland-Martin
+  Ben Sangster → Benjamin Sangster
+  Brent      Brent Tindall → Brent Tindall
+  Brian      Brian Mathis → Brian Mathis
+  Carolyn     Carolyn Miller → Carolyn Miller
+  Catherine    Catherine Derby → Catherine Derby
+  Catherine   Catherine Finglas → Catherine Finglas
+  Celina      Celina Dubin → Celina Dubin
+  Celina   Celina Midelfart → Celina Midelfart
+  Chauntae    Chauntae Davies → Chauntae Davies
+  Cheri       Cheri Krape → Cheri Krape
+  Cheri       Cheri Lynch → Cheri Lynch
+  Chori       Chori Krove → Chori Krove
+  Christina    Christina Estrada → Christina Estrada
+  Chris "Kip" Forbes → Christopher "Kip" Forbes
+  Chris Brown → Christopher Brown
+  Chris      Chris Camaros → Christopher Camaros
+  Chris Evans → Christopher Evans
+  Chris Gamble → Christopher Gamble
+  Chris Getty → Christopher Getty
+  Chris Isham → Christopher Isham
+  Chris Moore → Christopher Moore
+  Chris Pymont → Christopher Pymont
+  Chris Shore → Christopher Shore
+  Chris Steenkamp → Christopher Steenkamp
+  Chris Steinkampf → Christopher Steinkampf
+  Chris       Chris Tucker → Christopher Tucker
+  Chris Wagner → Christopher Wagner
+  Chuck      Chuck Schumi → Chuck Schumi
+  Cindy        Cindy Lopez → Cindy Lopez
+  Cocoa       Cocoa Brown → Cocoa Brown
+  Craig       Craig Adams → Craig Adams
+  Cresencia   Cresencia Valdez → Cresencia Valdez
+  Cristalle   Cristalle Wasche → Cristalle Wasche
+  Dana        Dana Burns → Dana Burns
+  Daniel      Daniel Dennet → Daniel Dennet
+  Dan Fisher → Daniel Fisher
+  Daniel     Daniel Heller → Daniel Heller
+  Dan          Dan Maran → Daniel Maran
+  David       David Anton → David Anton
+  David    David Bolivaras → David Bolivaras
+  Dave      Dave Killary → David Killary
+  Dave Macmilan → David Macmilan
+  David       David Mullen → David Mullen
+  David     David Rockwell → David Rockwell
+  Dave Rodgers → David Rodgers
+  David        David Roth → David Roth
+  David      David Rothman → David Rothman
+  David        David Slang → David Slang
+  Dean        Dean Ramon → Dean Ramon
+  Deborah Deborah Amselen → Deborah Amselen
+  Diane    Diane Fleetwood → Diane Fleetwood
+  Diedri       Diedri Neal → Diedri Neal
+  Donald      Donald Trump → Donald Trump
+  Doug           Doug Band → Doug Band
+  Doug    Doug Schoettle → Doug Schoettle
+  Dougle   Dougle Shouetle → Dougle Shouetle
+  Ed Epstein → Edward Epstein
+  Ed Razek → Edward Razek
+  Ed         Ed Tuttle → Edward Tuttle
+  Ellen     Ellen Spencer → Ellen Spencer
+  Emmy       Emmy Tayler → Emmy Tayler
+  Eric        Eric Nonacs → Eric Nonacs
+  Eva         Eva Dubin → Eva Dubin
+  Evelyn     Evelyn Boulet → Evelyn Boulet
+  Fabriame    Fabriame Palheo → Fabriame Palheo
+  Felicia     Felicia Taylor → Felicia Taylor
+  Forest     Forest Sawyer → Forest Sawyer
+  Francois   Francois Verenia → Francois Verenia
+  Frederic    Frederic Fekkai → Frederic Fekkai
+  Frederique    Frederique Todd → Frederique Todd
+  Freya     Freya Wissing → Freya Wissing
+  Gary        Gary Kerney → Gary Kerney
+  Gary        Gary Kervey → Gary Kervey
+  Gary      Gary Rathgeb → Gary Rathgeb
+  Gary       Gary Roxbury → Gary Roxbury
+  Gayle        Gayle Smith → Gayle Smith
+  George       George Goyer → George Goyer
+  Ghislaine Ghislaine → Ghislaine
+  Ginger   Ginger Southgate → Ginger Southgate
+  Glen        Glen Dixon → Glen Dixon
+  Glenn       Glenn Dubin → Glenn Dubin
+  Greg    Greg Carpenter → Greg Carpenter
+  Greg        Greg Holburt → Greg Holburt
+  Gwendolyn    Gwendolyn Beck → Gwendolyn Beck
+  Heather       Heather Mann → Heather Mann
+  Heather   Heather Mitchell → Heather Mitchell
+  Henry      Henry Jarecki → Henry Jarecki
+  Henry    Henry Rosovsky → Henry Rosovsky
+  Igor      Igor Zinoviev → Igor Zinoviev
+  Illegible Illegible Illegible → Illegible Illegible
+  Inca      Inca Doerrig → Inca Doerrig
+  Inspection Inspection Inspection → Inspection Inspection
+  Ira      Ira Magaziner → Ira Magaziner
+  Ira      Ira Zicherman → Ira Zicherman
+  Isering    Isering Yangkey → Isering Yangkey
+  Jack     Jack Robertson → Jack Robertson
+  Jim         Jim Cayne → James Cayne
+  Jim           Jim Dowd → James Dowd
+  Jim         Jim Kennez → James Kennez
+  Jes Staley → James Staley
+  Jim Tutle → James Tutle
+  Jim Whitehead → James Whitehead
+  Jim Wial → James Wial
+  Jim Wyatt → James Wyatt
+  Jantelle      Jantelle Torie → Jantelle Torie
+  Jean        Jean Gathy → Jean Gathy
+  Jeff Davies → Jeffrey Davies
+  Je        Je Epstein → Jeffrey Epstein
+  Jeff Hirsch → Jeffrey Hirsch
+  Je        Je Schantz → Jeffrey Schantz
+  Je         Je Shantz → Jeffrey Shantz
+  Jennifer    Jennifer Kalin → Jennifer Kalin
+  Jerry     Jerry Goldsmith → Jerry Goldsmith
+  Jessica     Jessica Bauer → Jessica Bauer
+  Joel      Joel Pashcow → Joel Pashcow
+  John      John Brockman → John Brockman
+  John         John Glenn → John Glenn
+  Jordan        Jordan Dubin → Jordan Dubin
+  Joe Coffey → Joseph Coffey
+  Joe          Joe Novich → Joseph Novich
+  Joe         Joe Pacano → Joseph Pacano
+  Joe        Joe Pagano → Joseph Pagano
+  Juan      Juan Molyneux → Juan Molyneux
+  Judy     Judy Tuckerman → Judy Tuckerman
+  Julian      Julian Borees → Julian Borees
+  Julie      Julie Fierson → Julie Fierson
+  Julie         Julie Shay → Julie Shay
+  Juliette    Juliette Bryant → Juliette Bryant
+  Karen       Karen Casey → Karen Casey
+  Karen     Karen Epstein → Karen Epstein
+  Karina      Karina Matson → Karina Matson
+  Karv      Karv Deweidy → Karv Deweidy
+  Katherina   Katherina Kotzig → Katherina Kotzig
+  Kathy   Kathy Alexander → Kathy Alexander
+  Kathy   Kathy Greenberg → Kathy Greenberg
+  Kelly       Kelly Bovino → Kelly Bovino
+  Kelly       Kelly Spamm → Kelly Spamm
+  Kevin       Kevin Spacey → Kevin Spacey
+  Kimberly     Kimberly Burns → Kimberly Burns
+  Kit       Kit Layborne → Kit Layborne
+  Kyle        Kyle Tayler → Kyle Tayler
+  Larry     Larry Morrison → Larry Morrison
+  Larry     Larry Summers → Larry Summers
+  Larry      Larry Visoski → Larry Visoski
+  Laura      Laura Andrew → Laura Andrew
+  Laura       Laura Hames → Laura Hames
+  Laura Laura Wasserman → Laura Wasserman
+  Lauren    Lauren Pashcow → Lauren Pashcow
+  Leslie       Leslie Gelb → Leslie Gelb
+  Lester    Lester Pollack → Lester Pollack
+  Leticia   Leticia Birkholder → Leticia Birkholder
+  Linda       Linda Pinto → Linda Pinto
+  Lisa       Lisa Andrew → Lisa Andrew
+  Lisa       Lisa Summers → Lisa Summers
+  Lynn   Lynn Fontanella → Lynn Fontanella
+  Lynn      Lynn Forester → Lynn Forester
+  Magale    Magale Blachou → Magale Blachou
+  Mandy     Mandy Ellison → Mandy Ellison
+  Mandy        Mandy Lang → Mandy Lang
+  Manny       Manny Duban → Manny Duban
+  Manuela   Manuela Stoetter → Manuela Stoetter
+  Margaret Margaret Whippet → Margaret Whippet
+  Mark      Mark Epstein → Mark Epstein
+  Mark          Mark Llyod → Mark Llyod
+  Mark        Mark Tagoya → Mark Tagoya
+  Marvin      Marvin Minsky → Marvin Minsky
+  Marx          Marx Mcafee → Marx Mcafee
+  Mary        Mary Kerney → Mary Kerney
+  Mats    Mats Alexander → Mats Alexander
+  Matt       Matt Grippi → Matthew Grippi
+  Maya        Maya Dubin → Maya Dubin
+  Melanie   Melanie Starves → Melanie Starves
+  Melinda      Melinda Luntz → Melinda Luntz
+  Melissa      Melissa Stahl → Melissa Stahl
+  Mike Atkin → Michael Atkin
+  Mike       Mike Donovan → Michael Donovan
+  Mike Pezulo → Michael Pezulo
+  Mike Wallace → Michael Wallace
+  Michael       Michael Wolf → Michael Wolf
+  Mylene         Mylene Arm → Mylene Arm
+  Nadia Nadia → Nadia
+  Nadia     Nadia Bjorlin → Nadia Bjorlin
+  Nadia Nadia Nadia → Nadia Nadia
+  Naomi     Naomi Campbell → Naomi Campbell
+  Natalie   Natalie Simanova → Natalie Simanova
+  Natalya   Natalya Malyshov → Natalya Malyshov
+  Nathan    Nathan Myarold → Nathan Myarold
+  Nathan    Nathan Myhrbold → Nathan Myhrbold
+  Neil        Neil Biggen → Neil Biggen
+  Nick      Nick Simmonds → Nick Simmonds
+  Nina        Nina Keita → Nina Keita
+  Nina         Nina Zagat → Nina Zagat
+  No      No Passengers → No Passengers
+  Oliver      Oliver Sachs → Oliver Sachs
+  Pamela Pamela Johanao → Pamela Johanao
+  Pamela     Pamela Stevens → Pamela Stevens
+  Patricia    Patricia Cayne → Patricia Cayne
+  Pat Sawyers → Patricia Sawyers
+  Patrick     Patrick Ochin → Patrick Ochin
+  Patsy     Patsy Rodgers → Patsy Rodgers
+  Paul       Paul Mellon → Paul Mellon
+  Paula      Paula Epstein → Paula Epstein
+  Paula       Paula Halada → Paula Halada
+  Pete → Peter
+  Peter       Peter Marino → Peter Marino
+  Pete      Pete Rathgeb → Peter Rathgeb
+  Pete      Pete Rotholg → Peter Rotholg
+  Phillipe   Phillipe Mugnier → Phillipe Mugnier
+  Prince        Prince Andrew → Prince Andrew
+  Ralph     Ralph Ellison → Ralph Ellison
+  Rebecca      Rebecca White → Rebecca White
+  Reposition Reposition Reposition → Reposition Reposition
+  Rhonda     Rhonda Sherer → Rhonda Sherer
+  Ricardo Ricardo Legoretta → Ricardo Legoretta
+  Rick Bourke → Richard Bourke
+  Richard        Richard Cook → Richard Cook
+  Rick Stengel → Richard Stengel
+  Bob Breslen → Robert Breslen
+  Bob Gold → Robert Gold
+  Bob Goodman → Robert Goodman
+  Bob Hefner III → Robert Hefner III
+  Bob Hefner Iii → Robert Hefner Iii
+  Bob Miranda → Robert Miranda
+  Bob Oatman → Robert Oatman
+  Bob Trossle → Robert Trossle
+  Bob Weinstein → Robert Weinstein
+  Bob Zangrillo → Robert Zangrillo
+  Robin        Robin Plant → Robin Plant
+  Rodey       Rodey Swater → Rodey Swater
+  Ron Burckle → Ronald Burckle
+  Ron         Ron Durkle → Ronald Durkle
+  Ron Kastner → Ronald Kastner
+  Ron Silver → Ronald Silver
+  Sam Domb → Samuel Domb
+  Sandy       Sandy Berger → Sandy Berger
+  Sarah    Sarah Ferguson → Sarah Ferguson
+  Sarah       Sarah Kellen → Sarah Kellen
+  Scott        Scott Rueber → Scott Rueber
+  Secret Secret Service Secret Service → Secret Service Secret Service
+  Shannon     Shannon Healy → Shannon Healy
+  Sharon   Sharon Reynolds → Sharon Reynolds
+  Shelley      Shelley Lewis → Shelley Lewis
+  Shelly   Shelly Harrison → Shelly Harrison
+  Sheridan    Sheridan Gibson → Sheridan Gibson
+  Sherrie     Sherrie Crape → Sherrie Crape
+  Sloane    Sloane Barnette → Sloane Barnette
+  Sophie     Sophie Biddle → Sophie Biddle
+  Spencer   Spencer Barnette → Spencer Barnette
+  Steve Forbes → Steven Forbes
+  Steve Gaston → Steven Gaston
+  Steve Gottlieb → Steven Gottlieb
+  Steve Kosslyn → Steven Kosslyn
+  Steve      Steve Lester → Steven Lester
+  Steve Lister → Steven Lister
+  Steve       Steve Miller → Steven Miller
+  Steven      Steven Pinker → Steven Pinker
+  Steve     Steve Sherman → Steven Sherman
+  Steve    Steve Tuckerman → Steven Tuckerman
+  Steve Wyatt → Steven Wyatt
+  Steve Wynn → Steven Wynn
+  Susan      Susan Hamblin → Susan Hamblin
+  Tatiana   Tatiana Espinosa → Tatiana Espinosa
+  Tatiana   Tatiana Kovylina → Tatiana Kovylina
+  Teala       Teala Davies → Teala Davies
+  Tom Barrack → Thomas Barrack
+  Tom Ford → Thomas Ford
+  Tom Oates → Thomas Oates
+  Tom Owen-Edmunds → Thomas Owen-Edmunds
+  Tom        Tom Payette → Thomas Payette
+  Tom       Tom Pritzker → Thomas Pritzker
+  Tom Sawyers → Thomas Sawyers
+  Tim Batstone → Timothy Batstone
+  Tim Geary → Timothy Geary
+  Tim Jeffries → Timothy Jeffries
+  Tim Martin → Timothy Martin
+  Tim Noonan → Timothy Noonan
+  Tim Rustow → Timothy Rustow
+  Tim Schifter → Timothy Schifter
+  Tim Shifter → Timothy Shifter
+  Tim Windsor-Taylor → Timothy Windsor-Taylor
+  Tim          Tim Zagat → Timothy Zagat
+  Todd         Todd Lucky → Todd Lucky
+  Todd        Todd Meistor → Todd Meistor
+  Valdson     Valdson Cotrin → Valdson Cotrin
+  Vick        Vick Lambro → Vick Lambro
+  Victoria   Victoria Hazell → Victoria Hazell
+  Virginia   Virginia Roberts → Virginia Roberts
+  Vor       Vor Holding → Vor Holding
+  Warren    Warren Spector → Warren Spector
+  Warren    Warren Whippet → Warren Whippet
+  Bill Archer → William Archer
+  Bill Berkman → William Berkman
+  Bill        Bill Clinton → William Clinton
+  Bill Hammond → William Hammond
+  Bill Maronet → William Maronet
+  Bill Murphy → William Murphy
+  Bill Richardson → William Richardson
+  Bill Roedy → William Roedy
+  Yehura      Yehura Koppel → Yehura Koppel
+  Yves     Yves Pickardt → Yves Pickardt
+  Zina      Zina Broukis → Zina Broukis
+  Zipora      Zipora Koppel → Zipora Koppel
+
+VERIFICATION
+--------------------------------------------------------------------------------
+✓ All backups created (.backup files)
+✓ Atomic writes completed successfully
+✓ JSON structure validated
+
+================================================================================

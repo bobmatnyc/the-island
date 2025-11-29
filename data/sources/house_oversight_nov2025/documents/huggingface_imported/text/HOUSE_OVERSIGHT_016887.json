@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016887",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016887.txt",
+  "text": "The most significant developments in the sciences today (i.e., those that affect the lives of\neverybody on the planet) are about, informed by, or implemented through advances in\nsoftware and computation. Central to the future of these developments is physicist David\nDeutsch, the founder of the field of quantum computation, whose 1985 paper on\nuniversal quantum computers was the first full treatment of the subject; the Deutsch-\nJozsa algorithm was the first quantum algorithm to demonstrate the enormous potential\npower of quantum computation.\n\nWhen he initially proposed it, quantum computation seemed practically\nimpossible. But the explosion in the construction of simple quantum computers and\nquantum communication systems never would have taken place without his work. He has\nmade many other important contributions in areas such as quantum cryptography and\nthe many-worlds interpretation of quantum theory. In a philosophic paper (with Artur\nEkert), he appealed to the existence of a distinctive quantum theory of computation to\nargue that our knowledge of mathematics is derived from, and subordinate to, our\nknowledge of physics (even though mathematical truth is independent of physics).\n\nBecause he has spent a good part of his working life changing people's\nworldviews, his recognition among his peers as an intellectual goes well beyond his\nscientific achievement. He argues (following Karl Popper) that scientific theories are\n“bold conjectures, ” not derived from evidence but only tested by it. His two main lines of\nresearch at the moment—qubit-field theory and constructor theory—may well yield\nimportant extensions of the computational idea.\n\nIn the following essay, he more or less aligns himself with those who see human-\nlevel artificial intelligence as promising us a better world rather than the Apocalypse. In\nfact, he pleads for AGI to be, in effect, given its head, free to conjecture—a proposition\nthat several other contributors to this book would consider dangerous.\n\n84\n\nHOUSE_OVERSIGHT_016887",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016887.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2026,
+    "word_count": 306,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:45.091707",
+    "prefix": "IMAGES-004"
+  }
+}

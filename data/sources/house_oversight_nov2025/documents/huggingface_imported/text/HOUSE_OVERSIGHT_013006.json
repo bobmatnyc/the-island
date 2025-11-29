@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013006",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013006.txt",
+  "text": "90 4 Brief Survey of Cognitive Architectures\n\nProtocol and Situation Memory\n\n>\n\n: Action\nA\n\n—_\n\n(aust\n+ active\n\nUrges (Drives)\n\nFig. 4.14: High-Level Architecture of the Psi Model\n\nvolved. These are very low level processes whose analogues in human experience are largely\nbelow the conscious level.\n\nA Goal is considered as a statement that the system may strive to make true at some future\ntime. A Motive is an (urge, goal) pair, consisting of a goal whose satisfaction is predicted to\nimply the satisfaction of some urge. In fact one may consider Urges as top-level goals, and the\nagent’s other goals as their subgoals.\n\nIn Psi an agent has one “ruling motive” at any point in time, but this seems an oversimpli-\nfication more applicable to simple animals than to human-like or other advanced AI systems.\nIn general one may think of different motives having different weights indicating the amount of\nresources that will be spent on pursuing them.\n\nEmotions in Psi are considered as complex systemic response-patterns rather than explicitly\nconstructed entities. An emotion is the set of mental entities activated in response to a certain\nset of urges. Dorner conceived theories about how various common emotions emerge from the\ndynamics of urges and motives as described in the Psi model. “Intentions” are also considered as\ncomposite entities: an intention at a given point in time consists of the active motives, together\nwith their related goals, behavior programs and so forth.\n\nHOUSE_OVERSIGHT_013006",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013006.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1508,
+    "word_count": 244,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:48.427985",
+    "prefix": "IMAGES-002"
+  }
+}

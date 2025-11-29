@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026714",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026714.txt",
+  "text": "Fig 25. Current approach to investment management by size of assets (% citations, ESG users) mi Attend AGMs\n\n@ Board representation for\nmajority of investments\n\nBS Actively engage with board\n\ni Don't actively engage\n\n26 AUM < USS 25bn\n19\n\n|\nhk\n\nAUM > USS 25bn\n\n35\n23\n23\nSample is based on sovereign investors and excludes central banks. Sample sizes shown in grey.\nFig 26. Effect of ESG on investment costs/long-term returns (% citations, ESG users) WS Increase in returns\nHS Decrease in returns\nNo difference\n\nEffect of ESG on long-term returns Effect of ESG on investment costs\n\nN\n\n‘x\n\nSample is based on sovereign investors and excludes central banks.\nSample=25.\n\n34\n\nHOUSE_OVERSIGHT_026714",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026714.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 693,
+    "word_count": 114,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:44.475072",
+    "prefix": "IMAGES-009"
+  }
+}

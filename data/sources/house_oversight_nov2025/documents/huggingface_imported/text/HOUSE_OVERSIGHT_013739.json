@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013739",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013739.txt",
+  "text": "decrease in entropy in brain-relevant dynamical systems. As we shall see, certain\npathophysiological processes appear to manifest themselves as reductions in\nbackground or “resting” state entropy which then limits its supply with respect to\ninformation gain and/or transport. Relationships between “physical” thermodynamic\nobservables, such as changes in heat capacity or temperature dependence of\nkinetic constants, and information-transport driven, neurotransmitter evoked\nconformational changes in neural membrane proteins may someday come together\nin an experimentally productive way (Hitzemann et al, 1985; Zeman et al, 1987;\n\nBorea et al, 1988), but they are beyond the scope of this paper.\n\nThe idea of taming the orbit of an expanding flow (with at least one 2(+) ) by\n\npartitioning the geometric space supporting its actions, its “manifold,” and then\nlabeling each box so that its trajectory is representable by a symbol string of box\nindices is the way “symbolic dynamics” are applied to dynamical systems. Symbolic\ndynamics arose in pure mathematics in the context of obtaining a one-to-one,\ntopological (sequence not distance preserving ) representation of a difficult to\ncharacterize system of “geodesics on surfaces of negative curvature” (Hadamard,\n1898; Morse, 1917; Morse and Hedlund, 1938). Geodesics here are the shortest\nlines in this curved, non-Euclidean space in which nearby lines spread apart and far\n\naway ones came together with (in Euclidian space) parallel lines meeting at infinity.\n\nRemarkably, symbolic dynamic encoding of the motions on this abstract\nmanifold of negative curvature also capture how uniformly divergent (and\nconvergent), “hyperbolic” chaotic systems, such as brain systems, behave in\nEuclidean space, an intuitive similarity about which Poincare experienced his\nfamous vacation bus trip epiphany (Stillwell, 1985). It should also be noted that\nencoding neural spike trains in one dimension for symbolic dynamical comparisons\nof sequence structure and recurrances, “favored patterns” has been developed\nindependently of orbital dynamics on manifolds (Dayhoff, 1984; Dayhoff and\nGerstein, 1983a; 1983b). A similar approach has been used to characterize firing\npatterns and their response to acupuncture in dopamine neurons in the substantia\n\nnigra and hypothalamic neurons (Chen and Ku, 1992).\n\n239\n\nHOUSE_OVERSIGHT_013739",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013739.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2369,
+    "word_count": 341,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:47.641672",
+    "prefix": "IMAGES-002"
+  }
+}

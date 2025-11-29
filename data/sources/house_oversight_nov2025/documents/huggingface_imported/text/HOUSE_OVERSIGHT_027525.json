@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027525",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027525.txt",
+  "text": "Is Invitation: No\n\nr,\n\nGUID: 893C975E-429A-4214-A5E0-76F7B703EFC1\n\nMessage: Massage\n\nSender: iii!\n\nTime: 11/18/18 09:36:43 AM (564255403)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 1197C459-O0DF8-4D1B-B386-EF9192D8F505\n\nMessage: And my wife was happy to see me more than usually\n\nTime: 11/18/18 09:37:15 AM (564255435)\nFlags: 1126401\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 7H612164-6F95-4E06-AD1C-4EF760045FBD\n\nMessage: Just landed in Brussels, we have EU Foreign ministers meeting here tomorrow\n\nSender: e:jeeitunes@gmail.com\n\nTime: 11/18/18 10:00:53 AM (564256853)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nPe\na\n\nGUID: BA6F2229-ACFE-4649-819E-344731BD6D76\n\nMessage: Understood\n\nTime: 11/19/18 02:13:19 AM (564315199)\nFlags: 1126401\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 573C9866-22E8-47A1-BE38-29902BC8CC36\n\nMessage: As of today...\n\nTime: 11/19/18 02:38:30 AM (564316710)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: E1F/76C72-B10A-42B9-93C9-BDCDB8522F9\n\nGl\n\nHOUSE_OVERSIGHT_027525",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027525.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1013,
+    "word_count": 122,
+    "line_count": 70,
+    "import_date": "2025-11-19T21:47:45.936757",
+    "prefix": "IMAGES-009"
+  }
+}

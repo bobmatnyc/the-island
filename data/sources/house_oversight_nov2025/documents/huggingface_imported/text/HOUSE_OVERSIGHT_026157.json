@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026157",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_026157.txt",
+  "text": "Appendix 1 -1Q17 P&L € mn\n\nHOUSE_OVERSIGHT_026157\n\nUkrsibbank Ukrgasbank Raiffeisen Bank Aval\nQ1 2017 | Q1 2016 | Q1 2017  Q1 2016 | Q1 2017 | Q1 2016 |\nInterest income 29 38 51 43 57 55\nInterest expense -6 -14 -36 -37 -10 -17\nNet interest 23 24 15 5 46 39\nincome\n| Net commission 12 10 4 2 17 13\nincome\nTrading & other 3 7 4 -17 7 10\nincome\n| Employee costs -10 9 -6 -4 -14 -12\nDepreciation -1 -1 -1 -1 -4 3\n24",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_026157.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 411,
+    "word_count": 91,
+    "line_count": 17,
+    "import_date": "2025-11-19T21:47:48.361620",
+    "prefix": "IMAGES-008"
+  }
+}

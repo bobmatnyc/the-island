@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017044",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_017044.txt",
+  "text": "Figure SS\n\nT T T T T T T\n\n257 __ Treaties (n=124)\n\n2.0 4\n\n1.0 + 1\n\n0.5 + 4\n\nMean % of overall frequency >\n\n0.0\n~200 -150 -100 -50 0 50 100 150 200\n\nYear (relative to treaty signature)\n\n> 35F \"+g.\n8 Heads of state\n© 3.0}; (n=43) 4\na\nao\n£& 257 |\n® 20} |\noO\n>\noO 15+ 4\na\nfe)\nse 1.0} 4\na\n& 05+ 4\n=\n0.0 4 4. 4 4 eI\n-150 -100 -50 0 50 100 150 200\n\nYear (relative to accession to power)\n\na as |\nS 40+ — = Newname (n=28) 4\nS 35 | — Old name (n=28) 4\n3\nE 30\n@ 25\nS 20\n5 2\nPa\nOo 1.5\n32\no\nc 1.0\n© 05\n=\n0.0\n-200 -150 -100 -50 0 50\n\nYear (relative to country name change)\n\nFig. SS. Known events exhibit sharp peaks at date of occurrence. We select groups of events that occur\nat known dates, and produce the corresponding timeseries. We normalize each timeserie relative to its\ntotal frequency, center the timeseries around the relevant event, and plot the mean. (A) A list of 124\ntreaties. (B) A list of 43 head of state (US presidents, UK monarchs), centered around the year when they\nwere elected president or became king/queen. (C) A list of 28 country name changes, centered around\nthe year of name change. Together, these form positive controls about timeseries in the corpus.\n\nHOUSE_OVERSIGHT_017044",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_017044.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1193,
+    "word_count": 248,
+    "line_count": 68,
+    "import_date": "2025-11-19T21:47:45.976781",
+    "prefix": "IMAGES-004"
+  }
+}

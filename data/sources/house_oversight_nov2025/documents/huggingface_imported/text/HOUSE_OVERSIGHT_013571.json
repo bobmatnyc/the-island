@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013571",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013571.txt",
+  "text": "enormously rich and logically consistent intellectual framework from within which to\ncharacterize macroscopic behavior composed of unknown molecular mechanisms.\nIdeas about entropy grew out of William Thomson's (a.k.a Lord Kelvin)\nthermodynamic laws about energy conservation and its allowable transformations.\nLater Clausius decomposed the energy into that which was available for mechanical\nwork, called work-content, and that which was not, called transformation content.\nHe referred to the transformation content, a reflection of what changes in the\ninternal order properties of the system that occurred as a concomitant of changes in\nenergy and heat, as the entropy.\n\nRudolph Clausius added the word entropy as a thermodynamic property to\nthe conceptual armamentarium of theoretical physics in about 1865. This followed\nthe earlier work of the French engineer, Nicolas Leonard Sadi Carnot, who was\ntrying to develop a theoretical framework within which efficiencies in heat-\n\ngenerating engines might be understood. It implicated positive, > 0, changes, d, in\nentropy, S, with changes in time, ¢, .e. “ > 0, entropy is increasing in time, as a\n\nconcomitant of the inevitable mechanical inefficiencies in an energy driven system.\nThe resulting losses in the form of wasted energy show up as increases in\nmolecular motion, which could be estimated from the increases in heat. Wasted\nenergy dissipated as heat increases the amount of random motion and volume\noccupied by the surrounding molecules in physical processes involving heat,\npressure, vaporization, condensation and work; all elements of that era’s dominant\n\nphysical metaphor, the steam engine.\n\nThe highly developed, multifaceted, often quite abstract formal\ncharacteristics of the inferred property, entropy, prevent glib definitions and\ngeneralizations. In the context of Kelvin-Clausius theory, the entropy of a closed\nsystem will remain the same if it is isolated from any matter or energy exchanges\nwith the environment. If heating a system such that the change, d, in heat, Q, is\npositive, i.e. dQ > 0, it experiences a rearrangement in its microstructural motions,\nbut the temperature is left unchanged. The (inferred) entropy, S, increases (i.e., dS\n\n> Q) as the ratio of change in added heat, dQ, over the unchanging, absolute\n\n71\n\nHOUSE_OVERSIGHT_013571",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013571.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2327,
+    "word_count": 351,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:49.415177",
+    "prefix": "IMAGES-002"
+  }
+}

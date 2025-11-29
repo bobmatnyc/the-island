@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_023715",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_023715.txt",
+  "text": "CNN\n\nQuest: The U.S.\npresident talked\nabout selling\nlarge amounts of\nagriculture to the\nChinese, and\ntariffs on\nautomobiles\ndown from 40%\nmaybe to 0%.\nThis is\nmercantilist stuff.\nThis isn’t “trade\ndeal.”\n\nRLK: Totally\nagree with that.\nAnd those are\nsuperficial things,\nthey make\nheadlines, they're\neasy to\nunderstand, but\nthey’re not the\nsubstance of\nwhat's happening\nhere.\n\nQUEST MEANS\nBUSINESS\n\nHOUSE_OVERSIGHT_023715",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_023715.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 419,
+    "word_count": 63,
+    "line_count": 34,
+    "import_date": "2025-11-19T21:47:44.841924",
+    "prefix": "IMAGES-007"
+  }
+}

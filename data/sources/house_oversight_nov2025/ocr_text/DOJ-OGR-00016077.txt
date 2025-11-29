@@ -1,0 +1,55 @@
+Fed =< Invoice Number: 4-495-75031
+e Invoice Date: Dee 23, 2002
+Account Number: 1144-2081-6
+Page: 14 0f21
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Dec 17, 2002 Payor: Shipper Reference: CMP GIIB 151
+
+Fuel Surcharge FedEx has applied a uel surchame of 4.00% 10 [his shipment.
+
+Distance Based Pricing, Zone 4
+
+Package seni from : 33461 zip code
+
+1s\ allemp| Dec 18, 2002 ai 09:03 AM.
+
+Recipient nol in/business closed.
+
+FedEx has audited this shipment for cored packages. weight, and service. Any changes made are reflected in the invoice amount
+Tracking ID 82869490058) Sender Recipient
+Service Type FedEx 2Day L MORRISON GREG VINCENT
+Package Type FedEx Pak JEFFREY E EPSTEIN GULPSTREAM AEROS PACE
+Zone 4 457 MADISON AVE
+Packages 1 NEW YORK NY 10022 6843 US
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Dec 18, 2002 09:36 Transportation Charge B50
+Sve Area AA Discount -0.85
+Sinedby = DAVIS Fuel Surcharge 0.31
+FedExUse 362034240/06024/08 Se — ava
+
+Total Transportation Charges USD$ 7.96
+
+Picked up: Dec 18, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+The delivery commitment for FedEx 2day to homes or private residences (including home olfices} is 7 P.M the second business day for A1, A2, AA, A3, AM, PM, 01 and RM service areas.
+
+Cistance Based Pricing, Zone 6
+
+Release signature on file.
+Inte meiShip Sender Recipient
+Tracking ID 792794360956 CECILIA STEEN EN A & | ARRY MORRISON
+Service Type FedEx 2Day JEFFREY E EPSTEIN
+Package Type Customer Packaging 457 MADISON AVE
+Zone 6 NEW YORK NY 10022 6843 US
+Packages 1
+Weight 2.0 Ibs, 0.9 kgs Tranaportation Chaspe 10.50
+Delivered Dec 20, 2002 16:11 Discount 1.05
+Sve Area aR Fuel Surcharge 0.38
+Signed by = L.NA51083 Residential Delivery 1.35
+FedEx Use  523209408/06068/02 ———
+
+Total Transportation Charges USD $ 11.18
+DOJ-OGR-00016077

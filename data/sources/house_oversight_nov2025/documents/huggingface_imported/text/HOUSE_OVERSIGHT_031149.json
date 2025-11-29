@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_031149",
+  "filename": "IMAGES-011-HOUSE_OVERSIGHT_031149.txt",
+  "text": "5. Now let’s get to the interesting part. The press release implies that natural gas and renewable energy can reduce American\ndependence on foreign oil (“end” is the word used). This is an appealing proposition, particularly with Brent oil prices now 5 times\nhigher than natural gas prices on a BTU basis. So, let’s assume that the US wanted to cease all oil imports from Venezuela, Russia and\nthe Persian Gulf. This would reduce oil imports by ~30%. If Americans still wanted to drive around just as much, absent an increase\nof 2.8 million bpd in US domestic crude production, electricity would have to replace the foregone gasoline. Ergo: how much wind\npower or natural gas would be needed, assuming electric cars at 200 watt hours per km? And what policies would be needed on\nfracking, eminent domain, and subsidies for high voltage direct current power lines to transmit electricity at acceptable loss rates?\n\nNote: the charts below only account for the foregone gasoline component of the imported crude oil. Gasoline is only around 45%-\n50% of total refined products. The US would also have to come up with suitable domestic or foreign replacements for the rest of the\nbarrel: jet fuel, heating oil, fuel oil, lube oils, asphalt, etc. This is a topic that is often neglected in discussions about reducing reliance\non foreign oil: we do a lot more with it than just drive cars.\n\nHOUSE_OVERSIGHT_031149",
+  "metadata": {
+    "original_filename": "IMAGES-011-HOUSE_OVERSIGHT_031149.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1405,
+    "word_count": 238,
+    "line_count": 14,
+    "import_date": "2025-11-19T21:47:45.597267",
+    "prefix": "IMAGES-011"
+  }
+}

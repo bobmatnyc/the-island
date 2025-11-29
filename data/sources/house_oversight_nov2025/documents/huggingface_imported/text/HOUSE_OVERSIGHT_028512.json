@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028512",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028512.txt",
+  "text": "could allow a constellation of satellites to remain in the correct position relative to one another, move satellites to polar\norbit from less-expensive launch insertions or increase an orbit.\n\nSurrey Satellite Technology's STRaND-1 also contained a couple of experimental propulsion systems. One is a re-entry\ndevice that ejects a mixture of water and alcohol to tip the nanosat out of orbit at the end of its useful life. The other is\nan array of pulsed-plasma thrusters which heat and evaporate a material to produce a charged gas to push the satellite\nalong.\n\nNASA has plans to offer a $5m prize using a six-unit CubeSat for groups to demonstrate ways both to communicate\nacross large distances and display the effective use of unconventional propellants. Jennifer Gustetic, in charge of\nNASA's prizes, says the winner will have to show that their systems are survivable and can be operated far out into\nspace. The programme is still at an early stage, but it could involve transporting the CubeSats for release into orbit\naround the Moon. But NASA has competition. Dr Longmier believes his technology can beat NASA to the Moon without\nthe use of an additional spacecraft to carry the CubeSats there. And James Cutler, a satellite-propulsion expert now\nalso at the University of Michigan, thinks he can propel small birds even deeper into space. Let the nanosat wars begin.\n\nT\n\nBack to top\n-thirds.\n\nBack to top\n\nHOUSE_OVERSIGHT_028512",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028512.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1438,
+    "word_count": 236,
+    "line_count": 24,
+    "import_date": "2025-11-19T21:47:47.725609",
+    "prefix": "IMAGES-010"
+  }
+}

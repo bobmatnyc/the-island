@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013236",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013236.txt",
+  "text": "320 18 Advanced Self-Modification: A Possible Path to Superhuman AGI\n\nFido implication — Dog implication Nice\n\nPLN Deduction Rule\n(hard-coded in C++\nor Python)\n\n; (8)\nFido. : —— > Nice\nimplication\n\n- implication i icati\nN PLN is a set Fido P = Dog Dog bal ee Nice\nof Schema Nodes\nthat can modify the\nAtomspace, including\nmodifying PLN rules\nvia their declarative AND\nversions\n\nDeclarative\nrepresentation of\nPLN deduction rule\nin atomspace\n\nExecution Output Link\n\n%,\n‘.\n\nSchema Node\nPLN deduction\nRule\n\nList\nMOSES can learn\nnew versions of\nthe PLN deduction rule\n2\nAne, Fido 2 Nice\n\n* (8)\n\nPLN deduction rule\nRepresented as a program\n\nTree in the Procedure Repository ()\n\nFig. 18.1: Representation of PLN Deduction Rule as Cognitive Content. Top: the\ncurrent, hard-coded representation of the deduction rule. Bottom: representation of the same\nrule in the Atomspace as cognitive content, susceptible to analysis and improvement by the\nsystem’s own cognitive processes.\n\nFurthermore, we suspect that the internal representation of programs used for supercompila-\ntion is highly relevant for other kinds of self-modification as well. Supercompilation requires one\nkind of reasoning on complex programs, and goal-directed program creation requires another,\nbut both, we conjecture, can benefit from the same way of looking at programs.\n\nHOUSE_OVERSIGHT_013236",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013236.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1355,
+    "word_count": 210,
+    "line_count": 60,
+    "import_date": "2025-11-19T21:47:45.190437",
+    "prefix": "IMAGES-002"
+  }
+}

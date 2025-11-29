@@ -1,0 +1,29 @@
+{
+  "import_date": "2025-11-19T21:47:49.437905",
+  "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+  "description": "OCR-extracted text from House Oversight Committee documents",
+  "statistics": {
+    "total_records": 25800,
+    "successful_imports": 25793,
+    "parsing_errors": 0,
+    "skipped_records": 7,
+    "total_characters": 103557290,
+    "avg_document_length": 4014,
+    "documents_by_prefix": {
+      "IMAGES-005": 1999,
+      "IMAGES-001": 2000,
+      "TEXT-001": 2000,
+      "IMAGES-009": 1996,
+      "IMAGES-003": 2000,
+      "IMAGES-004": 1987,
+      "IMAGES-011": 1961,
+      "IMAGES-012": 1124,
+      "IMAGES-007": 1934,
+      "IMAGES-006": 1989,
+      "TEXT-002": 897,
+      "IMAGES-008": 1972,
+      "IMAGES-010": 1946,
+      "IMAGES-002": 1988
+    }
+  }
+}

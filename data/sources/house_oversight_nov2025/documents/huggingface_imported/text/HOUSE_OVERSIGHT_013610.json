@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013610",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013610.txt",
+  "text": "probabilities as in M; = as es\" it would retain these values across an infinite\n\nnumber of self multiplications such that Hy = .5 x log(.5) + .5 x log(.5) = 1 and Hr -\nHy = 1.00 - 1.00 = 0.0.\n\nComplexity is a more general and variously defined descriptive expression\nthan that of the topological and metric entropies and as such brings with it many\nkinds of definitions and computational approaches. One choice that’s intuitively\nappealing assumes that the relative complexity of an expression representing, say\nan outcome of an observation or experiment, is reflected in the minimum length of\nthe most compressed program (algorithm) from which, given a suitable dictionary of\nsymbolic equivalencies, one can reconstitute the original expression. Increases in\nwhat some have called algorithmic complexity, AC, are reflected in the growth of\nthis minimally descriptive symbol series length. Karen Selz’s approach to\ncompression and AC, similar to one proposed by Paul Rapp, involves the\nidentification and symbolic representation of repeated blocks of symbols called\nwords. For example, given an_ arbitrary, exemplifying binary — series:\n011011101010001010101001001010011, we first find the longest repeated word\n[1010100] and represent it with the symbol, a, yielding a shortening in the original\nseries, 011011a010a1010011. The next longest repeated word is [011] is replaced\nwith b, yielding a further compression, 66a010a1010b. The next remaining binary\nword is of length equal to the previous one, [010], which, when replaced by c results\nin the series bbacat1cb. This can be further compressed to the final representation\nwith four symbols and for the sequentially repeated b, one exponent of degree two,\nb*aca1cb. From this representation and a dictionary of letter equivalent words, the\noriginal binary expression can be recovered. For a quantitative index of the\nalgorithmic complexity, AC, of the compression, Selz computes the sum of the\nnumber of distinct symbols plus the sum of the natural logarithms of the exponents:\n4 + log (2) = 4.6931. The binary representation of 729, 1011011001, discussed\nabove, is compressed by making two [101]’s = a and two 0’s = b resulting in a71b*1.\nHaving three distinct symbols, a,o, and 1, and two exponents of two, its algorithmic\n\ncomplexity is equal to, AC = 3 + 2 x log(2) = 4.38.\n\n110\n\nHOUSE_OVERSIGHT_013610",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013610.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2360,
+    "word_count": 375,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:48.948341",
+    "prefix": "IMAGES-002"
+  }
+}

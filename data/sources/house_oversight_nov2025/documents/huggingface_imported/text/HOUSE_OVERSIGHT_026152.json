@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026152",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_026152.txt",
+  "text": "Appendix 1 -2016 Balance Sheet\n\n€ mn\n\nUkrsibbank Ukrgasbank Raiffeisen Bank Aval\nAssets 31/ 31/ 31/ 31/ 31/ 31/\n\n12/16 12/15 12/16 12/15 12/16 12/15\nCash and cash 68 475 88 152 362 480\nequivalents, banking\nmetals\nAccounts in NBU and 561 9 229 353 358 244\nother banks\nDerivatives 0 0 0 1 0 0\nLoans and advances to 728 799 716 535 985 964\ncustomers\nTrading securities 0 0 14 0 28 9\nInvestment securities 136 252 704 318 0 0\navailable-for-sale\nInvestment securities 0 0 35 115 0 0\nheld-to-maturity\nSecurities at fair value 0 0 0 0 74 77\nthrough profit or loss\nFixed and intangible 45 45 53 44 83 98\nassets\nInvestment property 1 0 2 2 4 6\nInvestments in 0 13 0 0 2 8\nsubsidiaries\nAssets held-for-sale 0 0 40 37 2 0\nDeferred income tax 38 43 3 3 39 50\nassets and current\nincome tax prepayment\nOther financial and 20 19 13 11 33 20\nnon-financial assets\nTotal assets 1,596 1,656 1,897 1,585 1,970 1,954\nLiabilities\nDue to NBU and other 1 0 59 354 22 88\nbanks\nDerivatives 2 0 1 1 0 0\nCustomer accounts 1,282 1,270 1,625 1,049 1,561 1,523\nProvisions for liabilities 33 26 26 17 33 24\nand other liabilities\nSubordinated debt 135 291 0 0 0 80\nTotal liabilities 1,452 1,587 1,710 1,421 1,616 1,715\n19\n\nHOUSE_OVERSIGHT_026152",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_026152.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1212,
+    "word_count": 234,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:48.722578",
+    "prefix": "IMAGES-008"
+  }
+}

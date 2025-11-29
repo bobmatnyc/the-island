@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011160",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011160.txt",
+  "text": "Table 1: How Changes in Fertility and Mortality Affect Fitness\nEffect Additive Reproductive Discount Relationship\n\non change value factor to donor\nDonor\n\nA. fert. Am) 1 ene) 1\nB.mort. AP yh Ala) +-der) i\nRecipient\n\nC. fert. Am) 1 e—P(2\\) +7) r\nD.mort. AP() y) eo Ale +7-+de) r\n\nNotes: The altruist allele will increase (decrease) in frequency if the sum of\nrow products is positive (negative). The notation is defined in the text. For\nsimplicity, I assume that the sex ratio at birth is unity, that effects on fertility\nare brief, that these effects are small enough that second-order terms in Am and\nAP can be ignored, and that a single recipient is affected by each altruistic act.\nSource: Rogers [14, Table 1]\n\nthe recipient, and v denotes the reproductive value (R. A. Fisher, 1958). It is defined by\n\n_ ae e PY g(y)Mmg (y)\n7 e~ Pl (x)\n\n(4)\n\nwhere p is the rate of population growth, [,(y) the probability of living to age y, m,(y) the ex-\npected number of offspring produced at that age, and the subscript g indicates the individual’s sex.\nThe reproductive value can be interpreted as the expected present value of an individual’s future\ncontributions to the gene pool.\n\nA gene that encourages the donor to undertake this action will be favored by natural selection\nif the sum of the row-products in table 1 is positive, or disfavored if that sum is negative.\n\n2.2.2 The MRS in fitness\n\nAn interaction is selectively neutral—having no effect on fitness—if the sum of row-products in\ntable 1 is zero, Le. if\n\n+ Am eRe Ot p 4 A PA) yA POM +) 9 (5)\nHere, I have assumed that effects on mortality are brief so that dr ~ 0. When this equation\nholds, the interaction (or investment) described above moves us along a fitness isogram. Thus, the\nequation holds the key to the slope of this isogram, the MRS in fitness. But before proceeding, it\nwill be useful to recast the equation in terms of changes in consumption.\n\nI now assume that fertility and mortality are both differentiable functions of consumption.\nP = P(z,k)\n\nm\n\nm(a, K)\n\nHOUSE_OVERSIGHT_011160",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011160.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2054,
+    "word_count": 362,
+    "line_count": 54,
+    "import_date": "2025-11-19T21:47:46.127130",
+    "prefix": "IMAGES-001"
+  }
+}

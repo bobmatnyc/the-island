@@ -1,0 +1,252 @@
+[
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2001/at_download/file",
+    "filename": "jeffrey_epstein_part_01.pdf",
+    "size": 2662507,
+    "hash": "7c292dfa6ecb24c2755b73382189aa9841d2819ec6d67e3fe437ef2b0459758e",
+    "downloaded_at": "2025-11-17T04:34:47.259536",
+    "part": 1,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2002/at_download/file",
+    "filename": "jeffrey_epstein_part_02.pdf",
+    "size": 1322161,
+    "hash": "6b9c217dda070389bc4d4de85b1b5b143d7df919f9aeaa63ebceff2e9a7a7e1d",
+    "downloaded_at": "2025-11-17T04:34:49.458718",
+    "part": 2,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2003/at_download/file",
+    "filename": "jeffrey_epstein_part_03.pdf",
+    "size": 6083682,
+    "hash": "1deeaeacea9a800a479fdd1207bbca38dd83edfd8f15050d1704c9fc190960fd",
+    "downloaded_at": "2025-11-17T04:34:51.798446",
+    "part": 3,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2004/at_download/file",
+    "filename": "jeffrey_epstein_part_04.pdf",
+    "size": 1514522,
+    "hash": "6b0cdd08940862d16346671387ce2a616cf84ce25561b6e286e7350ece7c2ac1",
+    "downloaded_at": "2025-11-17T04:34:53.950845",
+    "part": 4,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2005/at_download/file",
+    "filename": "jeffrey_epstein_part_05.pdf",
+    "size": 443150,
+    "hash": "64a67c411cabfa71ee011c3c08d20e374c52629b2618bdbcff2fde72f0b52fe6",
+    "downloaded_at": "2025-11-17T04:34:56.106463",
+    "part": 5,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2006/at_download/file",
+    "filename": "jeffrey_epstein_part_06.pdf",
+    "size": 890318,
+    "hash": "1300a2498d1631b83863f07d081b0d31b6663d159b64a6f9e65da7473bd65bd9",
+    "downloaded_at": "2025-11-17T04:34:58.246290",
+    "part": 6,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2007/at_download/file",
+    "filename": "jeffrey_epstein_part_07.pdf",
+    "size": 343768,
+    "hash": "4616e5a507f8eff4ae279fb180d67cc21d33d18bcf29b56990577b6f9d6d50da",
+    "downloaded_at": "2025-11-17T04:35:00.870668",
+    "part": 7,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2008/at_download/file",
+    "filename": "jeffrey_epstein_part_08.pdf",
+    "size": 515795,
+    "hash": "fd781f6758059d741959fa8a0fb72e94f4e1ed41716f22a3a95ea6f3b9ef21e2",
+    "downloaded_at": "2025-11-17T04:35:03.022847",
+    "part": 8,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2009/at_download/file",
+    "filename": "jeffrey_epstein_part_09.pdf",
+    "size": 494067,
+    "hash": "538546ccc924f4f9bed9092adaac82b0e153d00f29795bd598f13d37a6fea9b1",
+    "downloaded_at": "2025-11-17T04:35:05.179824",
+    "part": 9,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2010/at_download/file",
+    "filename": "jeffrey_epstein_part_10.pdf",
+    "size": 460382,
+    "hash": "78bd367ebd6b8d8397d3a31a217731cfc0d238e29c0e7cba01f511877498cf49",
+    "downloaded_at": "2025-11-17T04:35:07.367305",
+    "part": 10,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2011/at_download/file",
+    "filename": "jeffrey_epstein_part_11.pdf",
+    "size": 469692,
+    "hash": "ac17b569e488e60b3a83fa96851591447c4232796bb961e291fb7ddd0db3f5d8",
+    "downloaded_at": "2025-11-17T04:35:09.495797",
+    "part": 11,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2012/at_download/file",
+    "filename": "jeffrey_epstein_part_12.pdf",
+    "size": 3612452,
+    "hash": "0ea9fd65590f1e6840c8623f6c212b50ad1124a12f793e08c180c7e3b08c5e42",
+    "downloaded_at": "2025-11-17T04:35:11.780445",
+    "part": 12,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2013/at_download/file",
+    "filename": "jeffrey_epstein_part_13.pdf",
+    "size": 500348,
+    "hash": "c02eb0dc41c4397791de96af7656664561a6318b3f5d27c7ae4c74bc88a01f58",
+    "downloaded_at": "2025-11-17T04:35:14.057954",
+    "part": 13,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2014/at_download/file",
+    "filename": "jeffrey_epstein_part_14.pdf",
+    "size": 3584076,
+    "hash": "b8d3ed37b0a1baab90759ba2e3692106b503e3a14763e52ce8638a8455992e93",
+    "downloaded_at": "2025-11-17T04:35:16.360232",
+    "part": 14,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2015/at_download/file",
+    "filename": "jeffrey_epstein_part_15.pdf",
+    "size": 784465,
+    "hash": "92087c28be1b3a5254aaaae75cb75516bc983e45dcdb8c6105b0460877aa053a",
+    "downloaded_at": "2025-11-17T04:35:18.609594",
+    "part": 15,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2016/at_download/file",
+    "filename": "jeffrey_epstein_part_16.pdf",
+    "size": 569800,
+    "hash": "ade2a320b2d098cc99580807e219910ec4935f1d93408c17194dde12e5df30c1",
+    "downloaded_at": "2025-11-17T04:35:20.752272",
+    "part": 16,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2017/at_download/file",
+    "filename": "jeffrey_epstein_part_17.pdf",
+    "size": 5017483,
+    "hash": "9846272ae8efcd78fe52161862fa9f468cbc4479acf404b7a868461f8cd71c08",
+    "downloaded_at": "2025-11-17T04:35:23.142971",
+    "part": 17,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2018/at_download/file",
+    "filename": "jeffrey_epstein_part_18.pdf",
+    "size": 5521476,
+    "hash": "b00b5e94214e3f9278a839cd8cbaf42860d732f2d1f580dda13de78845268d39",
+    "downloaded_at": "2025-11-17T04:35:25.523666",
+    "part": 18,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2019/at_download/file",
+    "filename": "jeffrey_epstein_part_19.pdf",
+    "size": 1875044,
+    "hash": "f76650f09892be3ec39f8e1ea63e13305f3e6f1ffc07c07a69fc34cf2a55364f",
+    "downloaded_at": "2025-11-17T04:35:27.909016",
+    "part": 19,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2020/at_download/file",
+    "filename": "jeffrey_epstein_part_20.pdf",
+    "size": 1014145,
+    "hash": "ffde35942f1bf0e827e415dce195a810ad9a83a2e5ad4317fbc6e9035eac547b",
+    "downloaded_at": "2025-11-17T04:35:30.121577",
+    "part": 20,
+    "duplicate": false
+  },
+  {
+    "source": "FBI Vault",
+    "url": "https://vault.fbi.gov/jeffrey-epstein/Jeffrey%20Epstein%20Part%2021/at_download/file",
+    "filename": "jeffrey_epstein_part_21.pdf",
+    "size": 2920278,
+    "hash": "49b210694fe9f26f07251344f1c522077330eaef4adde29c64b515fe689bb1d2",
+    "downloaded_at": "2025-11-17T04:35:32.325230",
+    "part": 21,
+    "duplicate": false
+  },
+  {
+    "source": "DocumentCloud",
+    "url": "https://assets.documentcloud.org/documents/25547032/doj-jeffrey-epstein-files-released-2025-02-27.pdf",
+    "filename": "doj_feb2025_release.pdf",
+    "size": 36352499,
+    "hash": "4ec559f48550e1effe7dc78898527c438197cb706ac36d6c62eb5cda66e82d6c",
+    "downloaded_at": "2025-11-17T04:35:40.933688",
+    "part": null,
+    "duplicate": false
+  },
+  {
+    "source": "DocumentCloud",
+    "url": "https://s3.documentcloud.org/documents/24253240/1324-epstein-documents-943-pages.pdf",
+    "filename": "unsealing_jan2024_943pages.pdf",
+    "size": 23944032,
+    "hash": "16e8291cd6dab68678b11fb708eb4aa9e776443ab558fec186aaa5c2039f19bc",
+    "downloaded_at": "2025-11-17T04:35:43.492235",
+    "part": null,
+    "duplicate": false
+  },
+  {
+    "source": "DocumentCloud",
+    "url": "https://assets.documentcloud.org/documents/6250471/Epstein-Docs.pdf",
+    "filename": "epstein_docs_6250471.pdf",
+    "size": 387743485,
+    "hash": "674c8534bc4b8b4cd05baa9fba50c16b050489f774605553550e65d83d129c01",
+    "downloaded_at": "2025-11-17T04:35:52.816636",
+    "part": null,
+    "duplicate": false
+  },
+  {
+    "source": "DOJ Official",
+    "url": "https://www.justice.gov/opa/media/1407001/dl?inline=",
+    "filename": "doj_epstein_declassified.pdf",
+    "size": 141171,
+    "hash": "ec70cb11a7f246d79aa23b7fb15cf38e9cb0cb96411ef9a7c3ec569073ffb724",
+    "downloaded_at": "2025-11-17T04:35:54.991307",
+    "part": null,
+    "duplicate": false
+  }
+]

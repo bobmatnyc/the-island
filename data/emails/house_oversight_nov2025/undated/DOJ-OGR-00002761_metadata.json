@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00002761",
+  "email_index": 15,
+  "extracted_at": "2025-11-17T04:14:45.439736",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "Counsel for all parties DOJ-OGR-00002761",
+  "subject": null,
+  "date": "03/16/21",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "bc@sternheimlaw.com"
+  ]
+}

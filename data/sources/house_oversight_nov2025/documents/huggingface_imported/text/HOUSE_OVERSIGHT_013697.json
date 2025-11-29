@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013697",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013697.txt",
+  "text": "parameter, the R15 cell of the abdominal ganglion of the Aplysia demonstrates\ntransitions between bursting and periodic modes as well as period doubling, a\nsignatory period 3 and the Lyapounov characteristic exponent evidence (see below)\nfor the discontinuous onset of chaos (Canavier et al, 1990). Manipulating feed back\ndelay, the human pupillary light reflex will bifurcate into regular oscillations (Milton\nand Longtin, 1990). A transition between a regime of irregular discharging to\noscillatory bursting behavior was induced in basal forebrain cholinergic neurons by\nneurotensin (Alonso et al, 1994). Sympathetic nerve discharge in decerebrate,\nventilated cats demonstrated transitions between periodic, multiple periodic\n(quasiperiodic with changing ratios to the ventilation frequency) and subharmonic\nbehavior in response to inferior vena cava occlusion, vagotomy, aortic constriction\nand spinalization (Porta et al, 1996). Period adding bifurcations were induced by\nchanging calcium concentrations or the addition of a potassium channel blocker in\nthe “pacemaker” formed when (rat) sciatic nerve is chronically injured (Ren et al,\n1997). Changing levels of the L-type calcium channel antagonist, verapramil, alter\nthe pattern of vasomotion of rabbit ear arteries among sets of multiple independent\nperiods, “quasi-periodicity,” mode locking and chaos (De Brower, 1998). At critical\nintensity and frequency, flicker visual stimulation of the salamander generates a\npharmacologically modifiable period doubling bifurcation in their ganglion cells (one\nspike for every two flickers) which is also seen subjectively and in occipital lobe\nevoked potentials at critical frequencies in bright, full-field flickered humans (Crevier\nand Meister, 1998).\n\nQualitative and Quantitative Universality in Nonlinear Dynamical Systems\n\n“Universality” (see above) entered the parlance of physics in the context of\nthe statistical mechanics of phase transitions near their critical points (Stanley,\n1971; Stauffer, 1985; Yeomans, 1993) and has come to refer to the finite set of\ntransitions and quantities common to nonlinear systems arising in_ their\nneighborhoods. A common physical example is the triple point of water-ice-steam\n\non the temperature-pressure phase plane where a small change in temperature or\n\n197\n\nHOUSE_OVERSIGHT_013697",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013697.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2331,
+    "word_count": 324,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:45.443950",
+    "prefix": "IMAGES-002"
+  }
+}

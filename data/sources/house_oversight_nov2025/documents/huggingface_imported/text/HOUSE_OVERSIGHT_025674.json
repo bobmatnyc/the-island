@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025674",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025674.txt",
+  "text": "Investment Saal\n\nManagement\n\nAs Bitcoin Ownership is Not Anonymous, Illicit Use has Fallen _ Division\n\nLarry Fink on Bitcoin’s Illicit Use\n\n\"Bitcoin just shows you how much demand for money\nlaundering there is in the world. That’: all it is. It's an\n\nindex of money laundering.”\n\n— BlackRock CEO Larry Fink, October 13, 2017\n\n= Because bitcoin is pseudonymous, not anonymous, users’ real-world identities are ascertainable once the individual\nconverts bitcoin to fiat currency.\n\n= Digital intelligence companies continually scan the blockchain to identify suspicious transaction activity.\n\n\" The Blockchain Intelligence Group estimates that illegal transactions in bitcoin fell from ~50% of total volume in 2015\nto ~20% in 2016, and represent “significantly less than that” today.\n\n= As law enforcement has become better able to track bitcoin ransom, cybercriminals have begun to favor currencies that\nallow anonymity, such as Monero and Zcash, and even Ether.\n\nSource: Investment Strategy Group, Blockchain Intelligence Group, https://www.cnbc.com/201 7/08/29/dark-web-finds-bitcoin-increasingly-more-of-a-problem-than-a-help-tries-other- rl\ndigital-currencies.html.\n\nHOUSE_OVERSIGHT_025674",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025674.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1191,
+    "word_count": 158,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:48.436572",
+    "prefix": "IMAGES-008"
+  }
+}

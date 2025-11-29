@@ -1,0 +1,44 @@
+Page 2588
+Inmate Name: EPSTEIN, JEFFREY EDWARD Reg #: 76318-054
+Date of Birth: 01/20/1953 Sex: M Race: WHITE Facility: NYM
+Encounter Date: 07/09/2019 12:35 Provider: MLP Unit: HO1
+Immunization Date:
+Provider: aa
+Location:
+Drug Mfg:
+Lot Number:
+Dosage:
+Route:
+Exp Dt:
+Comments:
+Varicella Series Administration: History Unknown, Not Administered
+Documented Date: 07/09/2019 12:51 EST
+Immunization Date:
+Provider! |MLP
+Location:
+Drug Mfg:
+Lot Number:
+Dosage:
+Route:
+Exp Dt:
+Comments:
+Temperature:
+Date Time Fahrenheit Celsius Location Provider
+07/09/2019 12:49 NYM 97.3 36.3 Oral peer MUP
+Pulse:
+Date Time Rate Per Minute Location Rhythm Provider
+07/09/2019 12:49 82 Via Machine Regular ‘meiaalll MLP
+Respirations:
+Date Time Rate Per Minute Provider
+07/09/2019 12:49 NYM 16] MLP
+Blood Pressure:
+Date Time Value Location Position Cuff Size Provider
+07/09/2019 12:49NYM 117/66 — Right Arm Sitting Adult-regular powoe |. MLP
+Sa02:
+Date Time Value(%) Air Provider
+07/09/2019 12:49 NYM 97 Room Air ene BALP
+Height:
+Date Time Inches Cm __—swPrrovider
+07/09/2019 12:49 NYM 70.0 177.8 PPM IMLP
+Generated 07/09/2019 13:03 bypRERREET hulp Bureau of Prisons - NYM Page 6 of 13
+DOJ-OGR-00026248

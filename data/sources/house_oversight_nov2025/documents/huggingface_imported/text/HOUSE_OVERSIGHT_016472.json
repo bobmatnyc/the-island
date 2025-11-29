@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016472",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016472.txt",
+  "text": "Can you send me the DA's appellate brief in the sex-offender registry case?\n| understand you may have to redact the names of any victims.\n\nPlease let me know as soon as possible.\nThank you,\n\nSue\n\nSusan Edelman\nReporter\n1211 Avenue of the Americas, New York, NY, 10036\n\n917-584-7675\n\nsedelman@nypost.com\n\nThis email communication and any files transmitted with it contain privileged and confidential\ninformation from the New York County District Attorney's Office and are intended solely for the use of\nthe individuals or entity to whom it has been addressed. If you are not the intended recipient, you are\nhereby notified that any dissemination or copying of this email is strictly prohibited. If you have received\nthis email in error, please delete it and notify the sender by return email.\n\nHOUSE_OVERSIGHT_016472",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016472.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 815,
+    "word_count": 131,
+    "line_count": 23,
+    "import_date": "2025-11-19T21:47:44.768574",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015859",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015859.txt",
+  "text": "Complexity & Chaos\n\nrunning any algorithm can solve, and then\nthere are the free will problems: how do\nwe pick a problem in the first place? How\ndo inventors come up with problems no\none had ever thought to solve in the first\nplace, such as the invention of the Rubik’s\nCube?\n\n169\n\nProblem\n\nFlat\n\nnlogn\n\nLinear\n\nLogarithmic\nExponential\n\nP\n\nNear NP\nNP-non-complete\nNP-Complete, tractable\nChaotic\n\nNP-Complete, Quantum\n\nNP-Complete, intractable\nPSPACE\n\nNon-computable\n\nNon-deterministic,\nNon-time divisible, Non-\ncomputable\n\nImpossible\n\nKnown Unknowns\n\nUnknown Unknowns\n\nErné Rubik's Cube\n\nExample\n\nPrint File (for Human)\nSearching a list\n\nFinding the lowest number in a list\nLong Multiplication\n\nLong Division\n\nMost Algorithms\n\nFactor Prime Number\n\nPerfect Game of Chess\nTravelling Salesman, SAT\nWeather\n\nModeling a Quantum Process\nBusy Beaver, Towers of Hanoi\nGraph Problems, Places Game\n\nCreativity, Finding Fermat Theorem for a\nTuring machine, Tiling the plane with Penrose\nTriangles\n\nFree will\n\nHalting problem for a Turing Machine, some\nmathematical theorems such as the Continuum\nHypothesis in ZF+AC (Hilberts Ist). Travelling\nfaster than the speed of light. Understanding\nthe American tax code.\n\nI know that I don’t know either way.\n\nI have not thought to ask that question yet.\nInventing the Rubik's Cube\n\nHOUSE_OVERSIGHT_015859",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015859.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1335,
+    "word_count": 198,
+    "line_count": 89,
+    "import_date": "2025-11-19T21:47:46.047477",
+    "prefix": "IMAGES-003"
+  }
+}

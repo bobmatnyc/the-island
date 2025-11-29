@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00019343.pdf",
+  "ocr_date": "2025-11-16T21:40:13.164076",
+  "text_length": 2063,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "amueller@hmflaw.com",
+    "maurene.comey@usdoj.gov"
+  ]
+}

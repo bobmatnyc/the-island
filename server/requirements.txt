@@ -1,0 +1,41 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# Authentication and Security
+python-multipart==0.0.6
+secrets-management>=1.0.0
+
+# LLM Integration
+openai==1.3.0
+requests>=2.31.0
+
+# NLP and Entity Classification
+spacy>=3.7.0
+
+# CORS Middleware
+python-cors>=1.0.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Hot-reload capabilities
+watchdog==3.0.0
+sse-starlette==1.8.2
+
+# Additional utilities
+aiofiles==23.2.1
+
+# Vector search and embeddings
+# IMPORTANT: ChromaDB version must match across all environments
+# Database schema incompatible between 0.4.x and 1.3.x
+chromadb==1.3.5
+sentence-transformers>=2.2.2
+
+# CLI shell completions
+argcomplete>=3.1.0
+
+# PDF text extraction
+pypdf>=4.0.0

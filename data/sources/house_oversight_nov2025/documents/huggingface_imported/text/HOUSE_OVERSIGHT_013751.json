@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013751",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013751.txt",
+  "text": "References\n\nAasen,T.,Kugiumtzis,D.,Nordahl,G. (1997) Procedure for estimating the correlation\n\ndimension of optokinetic nystagmus signals. Comput Biomed Res. 30:95-116\nAccardo, A., Mumolo, E.(1998): An algorithm for the automatic differentiation\nbetween the speech of normals and patients with Friedreich's ataxia based on the\n\nshort-time fractal dimension. Comput Biol. Med. 28:75-89\n\nAdler, R.J., Feldman, R.E., Taqqu, M. (1998) A Practical Guide to Heavy Tails;\n\nStatistical Techniques and Applications. Birkhauser. Boston\n\nAdler, R.L., Goodwyn, L.W., Weiss, B. (1977) Equivalence of topological Markov\nshifts. Isreal J. Math. 27:49-63\n\nAdler, R.L., Konheim, A.G., McAndrew, M.H. (1964) Topological entropy. Trans.\nAmer. Math. Soc. 114:309-319\n\nAdler, R.L., Marcus, B. (1979) Topological entropy and equivalence of dynamical\n\nsystems. Mem. Amer. Math. Soc. 219:\n\nAdler, R.L., Weiss, B. (1967) Entropy, a complete metric invariant for\nauthomorphisms of the torus. Proc. Natl. Acad. Sci. 57:1573-1576\n\nAftanas, L.|.,Lotova, N.V., Koshkarov, V.I., Pokrosvskaja, V.L., Popov, S.A.,\nMakhnev, V.P (1997) Non-linear analysis of emotion EEG: calculation of\n\nKolmogorov entropy and the principal Lyapunov exponent. Neurosci Lett 226:13-16\n\n251\n\nHOUSE_OVERSIGHT_013751",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013751.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1261,
+    "word_count": 164,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:44.803098",
+    "prefix": "IMAGES-002"
+  }
+}

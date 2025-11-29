@@ -1,0 +1,62 @@
+[
+  {
+    "filename": "1320-1.pdf_email_1",
+    "from": "gmaxl@ellmax.com",
+    "to": "Philip Barden; Ross Gow",
+    "cc": null,
+    "date": "Saturday, January 10, 2015 9:00 AM",
+    "subject": null,
+    "has_attachments": false,
+    "page_count": 2,
+    "section_index": 0,
+    "is_thread": false
+  },
+  {
+    "filename": "1320-14.pdf_email_1",
+    "from": "jeffrey E. <jeevacation@gmail.com>",
+    "to": "Gmax",
+    "cc": null,
+    "date": "Monday, January 12, 2015 10:03 AM",
+    "subject": "VR cried rape - prior case dismissed as prosecutors found her 'not credible'",
+    "has_attachments": true,
+    "page_count": 3,
+    "section_index": 0,
+    "is_thread": false
+  },
+  {
+    "filename": "1320-39.pdf_email_1",
+    "from": "Richards, Jason R.",
+    "to": "Robert Giuffre",
+    "cc": null,
+    "date": "Wednesday, August 27, 2014 10:44:32 AM",
+    "subject": "RE: Hi There",
+    "has_attachments": false,
+    "page_count": 35,
+    "section_index": 0,
+    "is_thread": true
+  },
+  {
+    "filename": "1320-39.pdf_email_2",
+    "from": "Robert Giuffre [mailto:robiejennag@icloud.com]",
+    "to": "Richards, Jason R.",
+    "cc": null,
+    "date": "Wednesday, August 27, 2014 9:49 AM",
+    "subject": "Hi There",
+    "has_attachments": false,
+    "page_count": 35,
+    "section_index": 1,
+    "is_thread": true
+  },
+  {
+    "filename": "1320-39.pdf_email_3",
+    "from": "Robert Giuffre <robiejennag@icloud.com>",
+    "to": "Richards, Jason R.",
+    "cc": null,
+    "date": "Wed Aug 27 10:46:50 2014",
+    "subject": "Re: Hi There",
+    "has_attachments": false,
+    "page_count": 35,
+    "section_index": 2,
+    "is_thread": true
+  }
+]

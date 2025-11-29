@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027433",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027433.txt",
+  "text": "Flags: 1085445\nIs Read: No\n\nIs Invitation: No\n\nGUID: 93BDAE25-AA7B-42AD-A925-7E26F11B9EDB\n\nF\n\nMessage: Agreed\n\nTime: 09/28/18 12:48:56 PM (559856936)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: F3BA6B2D-C2F2-47E2-AB7/3-353DBFE65B4C\n\nMessage: Was the dollar weak under obama ???\n\nSender: e:jeeitunes@gmail.com\n\nTime: 09/28/18 12:49:42 PM (559856982)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\ncal\n\nGUID: O2DEAEIC-052E-4482-AAF1-C175DF131729\n\nMessage: Yes, euro 135\n\nTime: 09/28/18 12:56:03 PM (559857363)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: C4D4C15E-51C6-4780-94D8-D72D27B3B7D5\n\nMessage: Stronger under trump\n\nHOUSE_OVERSIGHT_027433",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027433.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 664,
+    "word_count": 78,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:44.789674",
+    "prefix": "IMAGES-009"
+  }
+}

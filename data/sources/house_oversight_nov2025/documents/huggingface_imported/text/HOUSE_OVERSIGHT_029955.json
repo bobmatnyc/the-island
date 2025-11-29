@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_029955",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_029955.txt",
+  "text": "24\n\nmaintain an individual's weight within a fairly narrow range. The\nsignals are received in a structure at the base of the brain called the\nhypothalamus. The hypothalamus is involved in the control of many\nbasic, subconscious drives and reflexes including sex, feeding,\nageression, drinking, and regulation of body temperature. When rats\nreceived lesions in a particular subregion of the hypothalamus called\nthe ventromedial area, they became obese. They behaved as if they\nwere starving and compensated with an increase in food intake and a\ndecrease in energy expenditure. Conversely, when a different part of\nthe hypothalamus, called the lateral area, was destroyed, the rats\nbehaved as if they had been overfed. They reduced food intake and\nincreased energy use and thereby became dangerously lean. This is\nnot just a rat trick: These experiments have been replicated in a wide\nvariety of mammals, and humans who sustain damage to the\nventromedial hypothalamus (usually from a tumor of the adjacent\npituitary gland) will also increase their food intake and become\nobese.\n\nThis model raises one obvious question: How does your\nhypothalamus know how much you weigh? Let's step back and play\nGod for a moment. If you wanted to build this system, how would\nyou do it? By measuring blood glucose? Fat deposits? Core body\ntemperature? Pressure on the soles of the feet?\n\nThis all remained a mystery until 1994, when Jeffrey Friedman and\nhis colleagues at Rockefeller University reported their observations\nof two strains of mutant mouse, one called obese and the other called\ndb. (These mutations were not created by scientists using genetic\ntricks but arose spontaneously in a breeding colony.) Both strains of\nmice were extremely fat, a trait that was passed on to their offspring\nin a simple, dominant pattern of inheritance, like eye color. This\nsuggested that obesity in both obese and db mouse strains resulted\nfrom a mutation in a single gene in each case. Friedman's group was\n\nHOUSE_OVERSIGHT_029955",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_029955.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2007,
+    "word_count": 324,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:45.863321",
+    "prefix": "IMAGES-010"
+  }
+}

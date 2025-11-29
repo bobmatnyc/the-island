@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027181",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027181.txt",
+  "text": "GUID: O7CA245F-F924-4684-A707-CABOCFB28874\n\nMessage: Now I understand wow Wow\n\nSender: e:jeeitunes@gmail.com\n\nTime: 02/23/17 08:43:16 PM (509604196)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nee\n\nGUID: 9D88533F-AB5E-41C2-B86C-FSDECSFA6454\n\nMessage: How long were you there\n\nTime: 02/23/17 08:43:20 PM (509604200)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: DC2DFF6D-635B-4356-AECE-6107564C5611\n\nMessage: I can always quit but that seems gross\n\nTime: 02/23/17 08:43:23 PM (509604203)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: FB28D46B-7A2F-41BC-B9A2-A5A41948654D\n\nMessage: 11 years\n\nSender: e:jeeitunes@gmail.com\n\nTime: 02/23/17 08:43:48 PM (509604228)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 437DECED-C50F-4565-8378-405CDD86DB93\n\nMessage: Salary??\n\nTime: 02/23/17 08:43:52 PM (509604232)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\n7\n\nGUID: 31FB5F01-66E3-45DB-B093-D70F05945E05\n\nMessage: She says a year severance and 18 months health benefits and then talk to HR\n\nHOUSE_OVERSIGHT_027181",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027181.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1033,
+    "word_count": 126,
+    "line_count": 66,
+    "import_date": "2025-11-19T21:47:44.553551",
+    "prefix": "IMAGES-009"
+  }
+}

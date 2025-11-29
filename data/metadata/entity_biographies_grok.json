@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated": "2025-11-26T02:30:32.291737+00:00",
+    "generator": "grok-4.1-fast",
+    "total_entities": 5,
+    "successful": 5,
+    "failed": 0,
+    "statistics": {
+      "total_processed": 5,
+      "successful": 5,
+      "failed": 0,
+      "total_tokens_used": 0,
+      "total_api_calls": 0,
+      "start_time": "2025-11-25T21:30:32.291306"
+    },
+    "average_quality_score": 0.0,
+    "average_word_count": 10.0
+  },
+  "entities": {
+    "juliette_bryant": {
+      "id": "juliette_bryant",
+      "display_name": "Juliette Bryant",
+      "biography": "[DRY RUN] Biography would be generated for Juliette Bryant",
+      "generated_by": "grok-4.1-fast",
+      "generation_date": "2025-11-26T02:30:32.291357+00:00",
+      "source_material": [],
+      "word_count": 10,
+      "quality_score": 0.0,
+      "validation": null
+    },
+    "audrey_raimbault": {
+      "id": "audrey_raimbault",
+      "display_name": "Audrey Raimbault",
+      "biography": "[DRY RUN] Biography would be generated for Audrey Raimbault",
+      "generated_by": "grok-4.1-fast",
+      "generation_date": "2025-11-26T02:30:32.291709+00:00",
+      "source_material": [],
+      "word_count": 10,
+      "quality_score": 0.0,
+      "validation": null
+    },
+    "larry_summers": {
+      "id": "larry_summers",
+      "display_name": "Larry Summers",
+      "biography": "[DRY RUN] Biography would be generated for Larry Summers",
+      "generated_by": "grok-4.1-fast",
+      "generation_date": "2025-11-26T02:30:32.291719+00:00",
+      "source_material": [],
+      "word_count": 10,
+      "quality_score": 0.0,
+      "validation": null
+    },
+    "mark_epstein": {
+      "id": "mark_epstein",
+      "display_name": "Mark Epstein",
+      "biography": "[DRY RUN] Biography would be generated for Mark Epstein",
+      "generated_by": "grok-4.1-fast",
+      "generation_date": "2025-11-26T02:30:32.291725+00:00",
+      "source_material": [],
+      "word_count": 10,
+      "quality_score": 0.0,
+      "validation": null
+    },
+    "shannon_healy": {
+      "id": "shannon_healy",
+      "display_name": "Shannon Healy",
+      "biography": "[DRY RUN] Biography would be generated for Shannon Healy",
+      "generated_by": "grok-4.1-fast",
+      "generation_date": "2025-11-26T02:30:32.291730+00:00",
+      "source_material": [],
+      "word_count": 10,
+      "quality_score": 0.0,
+      "validation": null
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011092",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011092.txt",
+  "text": "who knows that husbands and wives will still be married in fifteen years? Who\n\nknows that if they are, their careers will not have taken them to another city?\n\nIt seems to me that reducing the dangers of debt means reducing both term and\namount, and that the solution had better find ways that still accommodate the short-\nterm and long-term needs of firms and people.\n\nNow let’s look at how deposit banks might invest.\n\nThe Omnibus Fund Idea\n\nIf 1 were a couple of decades younger, | would try to create something | call an\nomnibus fund. It starts by seeming to contradict what I just said. I said that firms\nissue both stocks and bonds to reach different constituencies. The omnibus fund\nwould first erase that separation. In principle it would reconstruct the firm asa\nwhole, or put the pieces back together again, by assembling proportionate shares of\n\nthe debt and equity claims on it in a single portfolio.\n\nSuppose for example that the market cap (number of shares times current market\nquotation) for a firm’s equity shares is one billion dollars, while the market cap of all\ndebt claims together in half that. Then the omnibus fund, in principle, would buy\neach firm’s equities and debt instruments in that proportion at current market\n\nvaluation. In practice it could realize the same effect in a simpler way.\n\nThe omnibus fund would be a balanced index fund. Index funds are representative\nof all the funds in an index, such as the S&P 500, weighted again to market cap. The\nomnibus fund would pick a still more inclusive index, say the Russell 3000 or even\nthe Wilshire 5000. It would add in a corporate bond index, since balanced means\nmixing stocks and bonds, and cap weight the two. The object would be to model the\npublicly-traded corporate sector as a whole. The simplest way to get there would be\nto buy index ETFs (exchange traded funds) directly, rather than duplicating their\n\nwork of assembling portfolios of the underlying individual issues.\n\nChapter 8 Banks, Money and Macroeconomics 2/8/16 3\n\nHOUSE_OVERSIGHT_011092",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011092.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2039,
+    "word_count": 349,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:48.092559",
+    "prefix": "IMAGES-001"
+  }
+}

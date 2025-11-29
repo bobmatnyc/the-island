@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028424",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_028424.txt",
+  "text": "e\":0,\"identifier\":\"c6931c0l1-efdb-447c-81b5\n\na31lb08bf46d2\", \"imageldentifier\"™:\" 32d2f6bcTb8bdbJabaSdé6cab07a43\", \"type™:\"image™},\"c99\n08544-092d-4fae-ala4-ebe9c9b144d9\":{\"URL\": \"asset: //c9908544-092d-4fae-alad\nebe9c9b144d9\", \"classification\": \"image\", \"dimensions\": {\"height\":110, \"width\":750},\"filesiz\ne\":0,\"identifier\":\"c9908544-092d-4fae-ala4\n\nebe9c9b144d9\", \"imagelIdentifier\":\"f£589f0963b351d47bf2abea96a46d9d2\", \"type\": \"image\"}, \"dbc\n8£68d-20d9-4171-aa61-13580c4a96c3\":{\"URL\": \"asset: //dbc8f£68d-20d9-4171-aaél\n13580c4a96c3\",\"classification\":\"image\", \"dimensions\": {\"height\":1365, \"width\":2048}, \"files\nize\":0,\"identifier\":\"dbc8f£68d-20d9-4171-aa6él1\n\n13580c4a96c3\", \"imageldentifier\":\"c275d4ffab4cd5696e6a2645c43f84a0\", \"type\": \"image\"}, \"£27\nac487-e930-47d2-9786-73c838c14932\":{\"URL\":\"asset://f£27ac487-e930-47d2-9786\n730838¢c14932\",\"classification\": \"font\", \"fileSize\":0,\"fontAttributes\": {\"familyName\": \"NYTI\nmperial\n\nRegular\", \"style\": \"normal\", \"weight\":400, \"width\":\"normal\"}, \"fontName\":\"NYTImperial-\nRegular\", \"identifier\": \"f£27ac487-e930-47d2-9786-73c838c14932\", \"type\": \"font\"}, \"fd989419-\nOe0£-422b-ab24-12513a64ec3c\":{\"URL\": \"asset: //£d989419-Oe0f-422b-ab24\n12513a64cc3c\",\"classification\": \"font\", \"fileSize\":0,\"fontAttributes\": {\"familyName\": \"NYTC\nheltenham\n\nMedium\", \"style\": \"italic\", \"weight\":700,\"width\":\"normal\"},\"fontName\": \"NYTCheltenham-\nBoldItalic\", \"identifier\": \"£d989419-Oe0f-422b-ab24\n\n12513a64cc3c\", \"type\": \"font\"}},\"specVersion\"™:\"1.6\", \"subtitle™:\"\",\"textStyles\":{\" anf-ts-\ni\": {\"fontName\":\"NYTImperial-Regular\", “identifier\":\" anf-ts-1\"},\"_anf-ts-\n101\":{\"fontAttributes\": {\"weightLabel\":\"bolder\"}, \"fontName\"™: \"NYTFranklin-\n\nBold\", \"identifier\"™:\" anf-ts-101\"},\"photo-credit\": {\"fontName\"™:\"NYTCheltenhamSH-\nRegular\", \"fontSize\":12, \"identifier\": \"photo-credit\"™, \"textColor™:\"#999999\"}, \"pub-\n\ndt\": {\"fontName\": \"NYTCheltenhamSH-Regular\", \"fontSize\":12, \"identifier\": \"pub-\n\ndt\"}, \"related-pub-dt\":{\"fontName\": \"NYTFranklin-\n\nMedium\", \"fontSize\":13, \"identifier\":\"related-pub-dt\", \"textColor™:\"#909090\"}},\"title™:\"A\nG.O.P. Senate Candidate Highlights His Drug Industry Career. Should\n\nHe?\", \"version™:\"1.0\"}\n\nHOUSE_OVERSIGHT_028424",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_028424.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2179,
+    "word_count": 118,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:46.989326",
+    "prefix": "IMAGES-009"
+  }
+}

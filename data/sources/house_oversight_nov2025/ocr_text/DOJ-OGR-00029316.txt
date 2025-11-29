@@ -1,0 +1,33 @@
+i
+. .
+i
+| Recon! Request .
+| FN-125 (Rev. 4-1-93} . ;
+| Date b O om OO 7
+| O Birth O Credit AY Criminal Cl Deth © INS O Maniage* © Motor Vehicle “Of Other ,
+| To . Buded
+| Retum to File Number
+' 'Name and aliases OF subject, ap ; ; b3 - 1
+b6 - 2, 3
+b7c - 2, 3
+Address
+Residence
+Business “4
+Former . -.
+I (OM
+* Date and place of marriage .
+(ifapplicable} .
+. a
+Race Sex Age Height Weight Hair Eyes
+x Female : &
+iJ -O Male ,
+Birth date Birthplace .
+Arrest Number Fingerprint classification Criminal specialty b7c - 3
+. ¢
+Social Security Number Divers License Number .
+| O D/L Photo Other
+Specific information desired
+NCLe me
+Results of check -
+03956-5903.
+DOJ-OGR-00029316

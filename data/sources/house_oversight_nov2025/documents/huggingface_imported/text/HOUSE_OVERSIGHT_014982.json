@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014982",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014982.txt",
+  "text": "Notable trends and dislocations (Europe)\n\nEuropean equities ended the week lower mainly due to a tech-driven sell-off on 12-Jun\nduring which the SX8P (European tech sector) witnessed its largest 1-day decline since\nthe UK’s EU referendum. Nevertheless, implied vols across European indices remained\nmostly unchanged near 2 year lows.\n\n¢ European intra-sector correlation continues to decline while inter-sector\ncorrel has hit a floor: The average EU intra-sector 3m correlation is near a 10-\nyear low currently. In contrast, the average 3m inter-sector correlation reached a\n10-year low in Mar-17 driven by post US election reflation trades but is now\nrising off its lows likely driven by an unwind of reflation trades.\n\n- §SX7E implied-realised correlation near 5-year highs: SX7E 6m implied\ncorrelation fell since Mar-17 but the implied-realised correlation spread remains\nin the 88\" 5-year percentile driven by even lower realised correlation.\n\n* _ESTX50 3M put skew is near 5 year highs, in stark contrast to SXEP\n(European Oil & Gas equity) put skew which is close to 5 year lows.\n\n* The overall seasonality in ESTX50 realised volatility since 1987 has been one of\nrelatively lower vol during the summer months vs. autumn. In particular, May\nstands out as the lowest vol month across most 10 year horizons, and this\nalso appears to be the case so far this year.\n\nEU Intra-sector correl continues to decline while inter-sector correl is supported\nThe average European intra-sector 3m correlation is near a 10-year low, partly driven by\ndivergence within the personal & household goods, utilities, real-estate, autos and\ninsurance sectors (Chart 18 and Table 3). Interestingly, the average 3m inter-sector\ncorrelation reached a 10-year low on 14-Mar-17 (as the 8-Nov-16 US election led to the\noutperformance of sectors sensitive to inflation) but inter-sector correlation now seems\nsupported likely driven by the unwind of reflation trades (Chart 18).\n\nBankof America <> ariective\nMerrill Lynch Global Equity Volatility Insights | 20 June 2017 11\n\nHOUSE_OVERSIGHT_014982",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014982.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2073,
+    "word_count": 322,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:45.654809",
+    "prefix": "IMAGES-003"
+  }
+}

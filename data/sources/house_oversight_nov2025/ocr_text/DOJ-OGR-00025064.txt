@@ -1,0 +1,70 @@
+Page 611
+
+Page 9
+Log Assignment
+Date/Time User Action Alias Post Shiftdate Watch Type Mndtry
+07/22/19 8:45 = [PE FNC) OT By-passed KONG): (DMT MC) 11 NORTH 07/23/19 M/W _ Signup List Oo
+07/22/19 8:45 OT By-passed 11 NORTH 07/23/19 M/W Signup List Tj
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 M/W _ Signup List CL]
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 M/W Signup List Oo
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 M/W _ Signup List []
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 M/W Signup List |
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 M/W Signup List Cc]
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 MW Signup List Co
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 M/W _ Signup List Cc)
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 MMW _ Signup List i)
+07/22/19 8:44 OT By-passed 11 NORTH 07/2319 M/W Signup List [J
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 M/W _ Signup List OC
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 M/W _ _ Signup List CT]
+07/22/19 8:44 OT By-passed 11 NORTH 07/23/19 MW _ Signup List CO
+07/22/19 8:37 OT Assigned 7 NORTH 07/26/19 M/W List Exempt
+07/22/19 8:36 OT Assigned 7 NORTH 07/25/19 MMW — Signup List C]
+07/22/19 8:35 OT By-passed 7 NORTH 07/25/19 M/W _ Signup List [-]
+07/22/19 8:35 OT By-passed 7 NORTH 07/25/19 MMW _ Signup List CO
+07/22/19 8:35 OT By-passed 7 NORTH O7/25/19 M/W Signup List LJ
+07/22/19 8:35 OT By-passed 7 NORTH 07/25/19 MAW _— Signup List i
+07/22/19 8:35 OT By-passed 7 NORTH 07/25/19 M/W _ Signup List E]
+07/22/19 8:35 OT By-passed 7 NORTH 07/25/19 MW _ Signup List CO]
+07/22/19 8:35 OT By-passed 7 NORTH 07/2519 MW _ Signup List C]
+07/22/19 8:35 OT By-passed 7 NORTH 07/25/19 M/W _ Signup List i
+07/22/19 8:35 OT By-passed 7 NORTH 07/25/19 M/W _— Signup List O
+07/22/19 8:35 OT By-passed 7 NORTH 07/25/19 MMW _ Signup List
+07/22/19 8:35 OT By-passed 7 NORTH o7/25/19 MW Signup List 1]
+07/22/19 8:35 OT By-passed 7 NORTH 07/25/19 M/W _ Signup List [J
+07/22/19 8:34 OT Assigned 7 NORTH 07/23/19 M/W Signup List {
+07/22/19 8:34 OT By-passed 7 NORTH 07/23/19 M/W _ Signup List [.)
+07/22/19 8:34 OT By-passed 7 NORTH 07/23/19 M/W _ Signup List
+07/22/19 8:34 OT By-passed 7 NORTH 07/23/19 M/W — Signup List C]
+07/22/19 8:31 Signed Up for OT N/A 07/28/19 N/A N/A i
+07/22/19 8:31 Signed Up for OT NIA 07/2719 «NIA N/A OC)
+07/22/19 8:31 OT Removed - Mgmt Cancelle 11 NORTH 07/22/19 EW List Exempt Ci
+07/22/19 8:30 OT Assigned SHU #4 07/22/19 EW Signup List |
+07/22/19 8:30 OT By-passed SHU #4 07/22/19 EW Signup List ‘ii
+07/22/19 8:29 OT By-passed SHU #4 07/22/19 EW Signup List C]
+07/22/19 8:29 OT By-passed SHU #4 07/22/19 EM — Signup List C]
+07/22/19 8:28 OT Assigned VISIT #2 07/22/19 P/M Signup List i |
+07/22/19 8:28 OT By-passed VISIT #2 07/22/19 P/M Signup List CJ
+07/22/19 8:27 OT By-passed VISIT #2 07/22/19 P/M Signup List C)
+07/22/19 8:27 OT Removed - Mgmt Cancelle VISIT #2 07/23/19 P/M Signup List Ct
+07/22/19 8:26 OT Assigned VISIT #2 07/23/19 P/M Signup List C)
+07/22/19 8:26 OT By-passed VISIT #2 07/23/19 P/M Signup List C]
+07/22/19 8:26 OT By-passed VISIT #2 07/23/19 P/M Signup List C]
+07/22/19 8:26 OT By-passed VISIT #2 07/23/19 P/M Signup List C]
+07/22/19 8:22 OT Assigned 5 SOUTH 07/26/19 DAW List Exempt CO
+07/22/19 8:21 OT Assigned § SOUTH 07/2419 DW Signup List |
+07/22/19 8:21 OT By-passed § SOUTH 07/24/19 DW Signup List [a
+07/22/19 8:21 OT By-passed 5 SOUTH 07/24/19 DAW _ Signup List |
+07/22/19 8:21 OT Assigned SHU #2 07/23/19 MW _ Signup List C)
+07/22/19 8:20 OT By-passed SHU #2 07/23/19 M/W — Signup List C]
+07/22/19 8:20 OT By-passed SHU #2 07/23/19 MW _ Signup List C]
+07/22/19 7:54 Quarterly Shift Preference N/A N/A N/A i
+07/22/19 7:50 Signed Up for OT N/A 07/23/19 NIA N/A i
+07/22/19 7:50 Deleted OT Sign Up - Watch N/A 07/23/19 E/W N/A 2]
+07/22/19 7:50 Deleted OT Sign Up - Day N/A 07/22/19 NIA N/A EJ
+07/22/19 7:50 Deleted OT Sign Up - Watch N/A 07/2219 EW N/A C]
+07/22/19 7:05 Quarterly Shift Preference N/A N/A N/A Cc]
+07/22/19 6:36 Quarterly Shift Preference N/A N/A N/A C]
+07/22/19 6:33 Quarterly Shift Preference N/A N/A N/A 3
+
+5/19/2020 10:36:43 AM
+DOJ-OGR-00025064

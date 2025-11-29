@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011157",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011157.txt",
+  "text": "(D\n\nFigure 2: Constrained Optimization in Evolution\nDarwinian fitness increases with increasing values of characters «) and «(2), and the dotted fitness isograms\nconnect points of equal fitness. The two solid constraint lines illustrate two different hypotheses about\nwhich combinations of «“) and «) are feasible. For any assumed constraint, the evolutionary problem is\nto choose the point on the constraint line that maximizes fitness. This constrained optimum occurs where\nthe constraint line and fitness isogram have equal slope, i.e. where MRSc = MRS.\n\nHOUSE_OVERSIGHT_011157",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011157.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 580,
+    "word_count": 85,
+    "line_count": 10,
+    "import_date": "2025-11-19T21:47:47.587684",
+    "prefix": "IMAGES-001"
+  }
+}

@@ -1,0 +1,49 @@
+Fed =< Invoice Number: 4-494-31285
+2 Invoice Date: Nov 25, 2002
+Account Number: 1144-2081-6
+Page: 5 of 6
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Nov 16, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Discount applied is the greater of volume discount or dropoff discount. No additional discount applies.
+Tracking D 826585033485 Sender Recipient
+Service Type FedEx Intl Priority DAVE RODGEES JEANNE BRENNAN
+Package Type FedEx Envelope JEFFREY E EPSTEIN FINANCIAL TRUST CO
+Zone I 457 MADISON AVE 6100 RED HOOK QUARTERS
+Orig./Dest. LNA/STT NEW YORK NY 10022-6843 US STE B-3
+Packages 1 ST THOMAS 00802 VI
+Weight 0.5 Ibs, 0.2 kgs
+Delivered Nov 18, 2002 17 36 Transportation Charge 27 50
+Signed by M.STEWART Fuel Surcharge 107
+FedEx Use  _/US010/_ Disesunt 083
+Total Transportation Charges USD $ 27.74
+Picked up: Nov 18, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Tracking D 791234332961 Sender Recipient
+Service Type FedEx Intl Priority CECILIA STEEN JEANNE BRENNAN
+Package Type FedEx Pak JEFFREY E. EPSTE N FINANCIAL TRUST COMPANY
+Zone I 457 MADISON AVENUE 6100 RED HOOK QUARTER
+Orig./Dest. JRB/STT 4TH FLOOR SUITE B-3
+Packages 1 NEW YORK NY 10022 US ST. THOMAS 00802 VI
+Weight 2.0 Ibs, 0.9 kgs
+Delivered Nov 19, 2002 16 57 Transportation Charge 38 00 =
+Signed by L.CASEY Fuel Surcharge 147 =
+FedEx Use  _/US010/_ Discount 1.14 =
+Total Transportation Charges USD $ 38.33 =
+Shipment Detail Subtotal 0.0... esses esseseeeeeeeeeeseeeeseeeeaeseeseesateneateteeeneateneneneteeeeeeeeeeeee SD $ 400.77 =
+Picked up: Nov 15, 2002 Payor: Recipient Reference: AARON
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Tracking D 791232953882 Sender Recipient
+Service Type FedEx Intl Economy PARTS AARON
+Package Type Customer Packaging CESCO LSJ. LLC.
+Zone | Ee C/O AMERICAN YACHT HARBOR
+Orig./Dest. CHL/STT Po 6100 RED HOOK QUARTERS #2
+Packages 1 ST. THOMAS VI 00802-453 VI
+Weight 12 0 Ibs, 5.5 kgs
+Delivered Nov 18, 2002 17 36 Transportation Charge 90 37
+Signed, by M.STEWART Fuel Surcharge 351
+Dec. Malue UsD 160.00 Declared Value Charge 0.40
+FedEx Use _/US010/_ Discount 271
+Total Transportation Charges USD $ 91.57
+SDNY_GM_00340747 78
+DOJ-OGR-00015387

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013063",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013063.txt",
+  "text": "8.3 Cognitive Synergy in CogPrime\n\nBeclirallve Memory\n\n147\n\nCognitive Processes Senserimoter Memory\nAssociated with Types ;\naf Memory Body map tor haptics & hinesthetics,\nhierarchical memory for vision, mic.\nChand Gams lig\nA Syatom Cantral | ay\n\nProcedural Memory\n\n(Laarang Of a pagers pees a\nTareas Function”\n\nlaren\n\nEpisodic Memory\n\nintemal Simulation\nof historical and hypothetical\nextamal eeents\n\nFig. 8.2: High-level overview of the key cognitive dynamics considered here in the context of\ncognitive synergy. The cognitive synergy principle describes the behavior of a system as it\npursues a set of goals (which in most cases may be assumed to be supplied to the system\n“a priori’, but then refined by inference and other processes). The assumed intelligent agent\nmodel is roughly as follows: At each time the system chooses a set of procedures to execute,\nbased on its judgments regarding which procedures will best help it achieve its goals in the\ncurrent context. These procedures may involve external actions (e.g. involving conversation,\nor controlling an agent in a simulated world) and/or internal cognitive actions. In order to\nmake these judgments it must effectively manage declarative, procedural, episodic, sensory\nand attentional memory, each of which is associated with specific algorithms and structures\nas depicted in the diagram. There are also global processes spanning all the forms of memory,\nincluding the allocation of attention to different memory items and cognitive processes, and the\nidentification and reification of system-wide activity patterns (the latter referred to as “map\n\nformation”)\n\nTable 8.5: default\n\n|Table will go here|\n\nTable 8.6: Key OpenCogPrime cognitive processes categorized according to knowledge type and\n\nprocess type\n\nHOUSE_OVERSIGHT_013063",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013063.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1796,
+    "word_count": 268,
+    "line_count": 51,
+    "import_date": "2025-11-19T21:47:47.633578",
+    "prefix": "IMAGES-002"
+  }
+}

@@ -1,0 +1,54 @@
+Fed =< Invoice Number: 4-447-40902
+2 Invoice Date: Nov 11, 2002
+Account Number: 1144-2081-6
+Page: 5 of 11
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 01, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Distance Based Pricing, Zone 6
+Release signature on file.
+Powership Sender Recipient
+Tracking D 790623160540 CECILIA STEEN JEFFREY E. EPSTE N
+Service Type FedEx Priority Overnight JEFFREY E EPSTEIN 358 EL BR LLO WAY
+Package Type Customer Packaging 457 MADISON AVE PALM BEACH FL 33480 US
+Zone 6 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 15 0 Ibs, 6.8 kgs Transportation Charge 62 25
+Delivered Nov 02, 2002 09 36 Discount 6 23
+Sve Area AA Saturday Delivery 1000
+Signed by E PSTIEN1 Fuel Surcharge 168
+FedEx Use  001758425/01574/02 Residential Delivery 135
+Total Transportation Charges USD $ 69.05
+Picked up: Nov 01, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Distance Based Pricing, Zone 6
+Release signature on file.
+Powership Sender Recipient
+Tracking D 791222660072 CECILIA STEEN JEFFREY E. EPSTE N
+Service Type FedEx Priority Overnight JEFFREY E EPSTEIN 358 EL BR LLO WAY
+Package Type Customer Packaging 457 MADISON AVE PALM BEACH FL 33480 US =
+Zone 6 NEW YORK NY 10022-6843 US =
+Packages 1 =
+Weight 10.0 Ibs, 4.5 kgs Transportation Charge 50 00 =
+Delivered Nov 02, 200209 36 Discount 500 =
+sye Area AA Saturday Delivery 1000 =
+Signed by E PSTIEN1 Fuel Surcharge i ———
+FedEx Use 001758425/01574/02 Residential Delivery 135 =
+Total Transportation Charges USD $ 57.70
+Picked up: Nov 01, 2002 Payor: Shipper Reference: FUEL QTY WD CORE
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Distance Based Pricing, Zone 2
+Package sent from: 33461 zip code
+Tracking D 828694901668 Sender Recipient
+Service Type FedEx 2Day LARRY MORRISON CAROLA
+Package Type Customer Packaging JEFFREY E EPSTEIN TRADE AR
+Zone 2 457 MADISON AVE es
+Packages 1 NEW YORK NY 10022-6843 US Po
+Weight 3.0 Ibs, 1.4 kgs
+Delivered Nov 04, 2002 11 09 Transportation Charge 850
+SvcArea = A2 Discount -0 85
+Signed by L.NOVA Fuel Surcharge 023
+FedEx Use 306008320/05980/_ ——_—
+Total Transportation Charges USD $ 7.88
+SDNY_GM_00340683 1
+DOJ-OGR- 00015330

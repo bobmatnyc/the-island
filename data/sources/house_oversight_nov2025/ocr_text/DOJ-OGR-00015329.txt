@@ -1,0 +1,52 @@
+Fed=< Invoice Number: 4-447-40902
+2 Invoice Date: Nov 11, 2002
+Account Number: 1144-2081-6
+Page: 4of 11
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Oct 30, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Distance Based Pricing, Zone 7
+Package sent from: 87505 zip code
+Tracking ID 827487052741 Sender Recipient
+Service Type FedEx Priority Overnight SHANNON HELEN
+Package Type FedEx Pak JEFFREY E EPSTE N EPSTON NTERESTS
+Zone 7 457 MADISON AVE 457 MADISON AVE 14TH FLOOR
+Packages 1 NEW YORK NY 10022-6843 US NEW YORK NY 10022 US
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Oct 31, 2002 09:21 Transportation Charge 25.25
+SicAsa =A Discount -2.53
+Signed by W.DOULIN Fuel Surcharge 0.68
+FedEx Use 305067740/01596/_ ———
+Total Transportation Charges USD $ 23.40
+Picked up: Oct 31, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Distance Based Pricing, Zone 6
+Powership Sender Recipient
+Tracking ID 791222343612 CECILIA STEEN JEFFREY E. EPSTEIN
+Service Type FedEx Priority Overnight JEFFREY E EPSTE N 358 EL BRILLO WAY
+Package Type Customer Packaging 457 MADISON AVE PALM BEACH FL 33480 US
+Zone 6 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 16.0 Ibs, 7 3 kgs Transportation Charge 64.25
+Delivered Nov 01, 2002 09:26 Discount 6.43
+NG Area AA Fuel Surcharge 1.73
+Signed by = E.,BOULET Residential Delivery 1.35
+FedEx Use  001744493/01574/_ eeEEeEeEeEeEeEeEeEeEEEE————————E—E——— ss
+Total Transportation Charges USD $ 60.90
+Picked up: Oct 31, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+Distance Based Pricing, Zone 6
+Powership Sender Recipient
+Tracking ID 791222353017 CECILIA STEEN JEFFREY E. EPSTEIN
+Service Type FedEx Priority Overnight JEFFREY E EPSTEN 358 EL BRILLO WAY
+Package Type Customer Packaging 457 MADISON AVE PALM BEACH FL 33480 US
+Zone 6 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 40.0 Ibs, 18.2 kgs Transportation Charge 108.75
+Delivered Nov 01, 2002 09:26 Discount 10.88
+Sic Area AA Fuel Surcharge 2.94
+signediby, = E-BOULEL Residential Delivery 1.35
+FedEx Use  001744493/01574/_ SSSOOOOO0O0000Oo7 ™
+Total Transportation Charges USD $ 102.16
+SDNY_GM_00340682 20
+DOJ-OGR-00015329

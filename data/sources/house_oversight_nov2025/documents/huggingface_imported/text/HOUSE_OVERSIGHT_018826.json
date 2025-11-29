@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_018826",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_018826.txt",
+  "text": "Area Analysis 16\n\nStay-Over Arrivals and GDP Per Capita\n800,000 Ane RNee MIO\n780,000 + er\n: . $55,000\n760,000\n740,000 $50,000\n720,000 + aie nee\n700,000 -\n680,000 $40,000\n660,000, + og 9gg\n640,000 ;\n_ $30,000\n620,000 +— , : a eee\n600,000 - $25,000\n2008 | 2009 | 2010 | 2011 | 2012 | 2013 2014\n——Stay-Over Arrivals | 683,294 | 666,051 | 691,194 | 678,962 | 737,651 | 702,963 | 730,367\nGDP Per Capita | $41,864 | $42,712 | $43,656 | $40,557 | $35,123 | $33,375\n\nSource: Virgin Islands Bureau of Economic Research, WorldBank, Integra Realty Resources\n\nHotel Performance\n\nData from Smith Travel Research indicates 2014 occupancy for reporting hotels of 67.8%, up 3.29%\nover the prior year. The reported average daily rate (ADR) was $308.98 (up 0.51%), leading to\nRevenue Per Available Room Night (RevPar) of $209.53 (up 5.63%).\n\nHotel Performance by Country - USVI\n\n2013 2014 Growth\nSample Size (Rooms) 1,504\nRoom Nights Available (Supply) $1,775,819 $1,750,284 -1.44%\nRoom Nights Sold (Demand) $1,145,860 $1,186,924 3.58%\nOccupancy 64.5% 67.8% 3.29%\nRoom Revenues $352,268,119 $366,739,620 4.11%\nADR $307.43 $308.98 0.51%\nRevPar $198.37 $209.53 5.63%\nRooms in Active Pipeline 12/31 0 453\n\nNote: Values in United States Dollars\nSource: Smith Travel Research: Note: Sample Size reflects the number of rooms within the STR participating hotels\n\nIGY American Yacht Harbor Marina\n\nHOUSE_OVERSIGHT_018826",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_018826.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1394,
+    "word_count": 224,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:44.555821",
+    "prefix": "IMAGES-005"
+  }
+}

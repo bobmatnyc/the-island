@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_020880",
+  "filename": "IMAGES-006-HOUSE_OVERSIGHT_020880.txt",
+  "text": "Entitlement Spending: Non-Partisan CBO Advises Excluding Social Security /\n\nMedicare Trust Funds’ Balances + Interest Income in Fiscal Analysis\n\nTrust funds can be useful mechanisms for monitoring the balance between\nearmarked receipts and a program's spending, but they are basically an\naccounting device, and their balances, even if \"invested\" in Treasury securities,\nprovide no resources to the government for meeting future funding commitments.\nWhen those payments come due, the government must finance them in the\nsame way that it finances other commitments -- through taxes or borrowing from\nthe public. Thus, assessing the state of the federal government's future finances\nrequires measuring such commitments independently of their trust fund status or\nthe balance recorded in the funds.\n\n-- Congressional Budget Office (CBO)\n\n“Measures of the U.S. Government’s Fiscal Position Under Current Law,” 8/04\n\nKP\ni USA Inc. | Income Statement Drilldown 77\n\nEntitlement Spending: Funding Patterns of Some\n\nEntitlement Programs Work Better than Others\n\nHave Worked Relatively Well Financially:\nSocial Security — Has operated at close to break-even - so far - thanks to sufficient payroll\ntax income from a relatively large working-age population. In fact, Social Security has\nworked so well, that its surplus net income has been used to finance other government\nactivities such as Medicaid.\nUnemployment Insurance — Has operated at close to break-even thanks to accumulated\nnet incomes during ‘good years’ (though expenses spiked to $123 billion / $160 billion in\n2009 / 2010 from $45 billion in 2008 owing to recession).\n\nHave Worked Relatively Poorly Financially:\nMedicaid — Has operated at an average annual loss of $160 billion with, in effect, an\naverage net margin of -100% over past 15 years; the annual dollar loss has risen from $108\nbillion to $273 billion because of rising healthcare costs and expanded enrollment.\n\nMedicare — Has operated at an average annual loss of $123 billion with, in effect, an\naverage net margin of -83% over past 15 years; the margin has fallen from -66% to -154%\n(or -$64 billion in annual loss to -$272 billion) because of rising healthcare costs +\nexpanding coverage (added Part D prescription drug benefits through legislation in 2003,\nrolled out in 2006).\n\nP Source: White House Office of Management and Budget.\na USA Inc. | Income Statement Drilldown 78\n\nHOUSE_OVERSIGHT_020880",
+  "metadata": {
+    "original_filename": "IMAGES-006-HOUSE_OVERSIGHT_020880.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2420,
+    "word_count": 378,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:48.363898",
+    "prefix": "IMAGES-006"
+  }
+}

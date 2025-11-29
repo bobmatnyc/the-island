@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016660",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016660.txt",
+  "text": "FLORIDAN AQUIFER PLANT ISSUES\n\né Floridan Aquifers can be used for both Aquifer Storage\nand Recovery and source water\n\né Potential increased energy costs associated with lifting\nwater and impacts to adjacent users\n\né Potential for decline in water quality over time\n\n~ Some pumping wells become saltier (up-coning of\n\nmore saline water from below or laterally along coast)\n~~ Membrane design and periodic replacement\n~ Blending with Surficial Aquifer water\n\né Estimated 125% of raw water to meet treated water\ndemands\n\n@ Concentrate disposal via deep injection well\n\nHOUSE_OVERSIGHT_016660",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016660.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 589,
+    "word_count": 90,
+    "line_count": 22,
+    "import_date": "2025-11-19T21:47:44.774399",
+    "prefix": "IMAGES-004"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015903",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015903.txt",
+  "text": "Turing’s Machine 213\n\nThanks to Turing’s insight into coding schemes and the machines\nhe designed, the British were soon able to read almost every coded\nmessage the Germans sent during the war, giving the Allies an enormous\nadvantage. The D-Day invasion involved convincing Hitler that the Allies\nhad a huge army of nearly 400,000 men, massed around Dover preparing\nan attack on Calais head on, with a second army in Scotland poised to\nattack Norway. In truth, they had only 150,000 men planning an assault\non the Normandy Beaches in the South. Just before the landings messages\nwere decoded showing Hitler had fallen for the Allied subterfuge. Even\nas the Normandy landings began, Hitler still thought this a bluff and\nkept his 28 divisions at Calais waiting for the imagined attack. Without\nthis intelligence advantage, the Allies would have needed a much larger\ninvasion force, and Churchill believed Turing’s work shortened the war\nby as much as two years.\n\nThe cracking of Enigma remained a secret after the war and\nTuring’s story remained untold for many years. When Churchill wrote\nhis history, The Second World War, a massive work in six volumes, all\nsorts of sensitive information featured, but Turing’s work was omitted.\nOne sentence hints that Churchill might write something about it in the\nfuture, but he never did. Churchill considered the work at Bletchley Park\nso sensitive he had it put in the highest classification — extending the\n30-year secrecy rule. We must presume the decoding schemes were still\nbeing deployed during the Cold War. The papers were finally released in\n2010.\n\nIn one of those sad turns in history Turing was found guilty of gross\nindecency for homosexuality in 1954, a criminal act at the time, and was\nprescribed hormone treatment. This affected his mental state and he took\nhis life by eating an apple laced with cyanide. He was eventually honored\nposthumously as a war hero and one of the most significant thinkers of\nthe 20\" Century. A Turing Award is the equivalent of the Nobel Prize for\nComputing. He was given a royal pardon in 2013.\n\nTo see how Turing came up with the idea for the Turing machine\nand solved the decision problem, we need to get a feel for theoretical\nmathematics. That might sound a little heavy going but don’t worry, I will\nuse a simple piece of mathematics to explain, one we have all played with\nas children, secret codes.\n\nHOUSE_OVERSIGHT_015903",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015903.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2415,
+    "word_count": 409,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:45.475315",
+    "prefix": "IMAGES-003"
+  }
+}

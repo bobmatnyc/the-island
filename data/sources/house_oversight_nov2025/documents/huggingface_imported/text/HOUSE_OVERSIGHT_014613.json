@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014613",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014613.txt",
+  "text": "Abbreviations Glossary\n\nACA: Affordable Care Act\n\nBEA: Bureau of Economic Analysis\nBIS: Bank for International Settlements\nBLS: Bureau of Labor Statistics\n\nBOE: Bank of England\n\nBOJ: Bank of Japan\n\nCAGR: compound annual growth rate\nCDS: credit default swap\n\nCFO: chief financial officer\nCFTC: Commodity Futures Trading Commission\nCPI: consumer price index\n\nEAFE: Europe, Australasia and the Far East\nECB: European Central Bank\n\nEM: emerging market\n\nEMD: emerging market dollar debt\n\nEMLD: emerging market local debt\nEMEA: Europe, the Middle East and Africa\nEMU: European Monetary Union\n\nEPS: earnings per share\n\nETF: exchange-traded fund\n\nFTSE: Financial Times Stock Exchange\nFX: Foreign Exchange\n\nGBP: British pound\n\nGDP: gross domestic product\n\nGFC: global financial crisis\n\nGIR: [Goldman Sachs] Global Investment Research\nGPIF: Government Pension Investment Fund\nGSCI: Goldman Sachs Commodity Index\n\nIGFI: Investment grade fixed income\nIMF: International Monetary Fund\n\nISIL: Islamic State of Irag and the Levant\nISM: Institute of Supply Management\nJGB: Japanese government bond\n\nLBO: leveraged buyou\nLIBOR: London Interbank Offered Rate\nLSI: Liquidity Stress Index\n\nM&A: merger and acquisition\n\nMLP: master limited partnership\n\nmmbd: million barrels per day\n\nMSCI: Morgan Stanley Capital International\n\nNAHB: National Association of Home Builders\nNATO: North Atlantic Treaty Organization\nNBER: National Bureau of Economic Research\nNIPA: national income and product accounts\nNIRP: negative interest rate policy\n\nOECD: Organisation for Economic Co-operation and Development\nOPEC: Organization of the Petroleum Exporting Countries\n\nPBOC: People’s Bank of China\n\nPCE: personal consumption expenditures\nPE: price to earnings\n\nPPI: Producer Price Index\n\nPPP: purchasing power parity\n\nQE: quantitative easing\n\nS&P: Standard and Poor’s\n\nTIPS: Treasury Inflation-Protected Securities\nTOPIX: Tokyo Price Index\n\nUK: United Kingdom\nUS: United States\n\nVAT: value-added tax\n\nYoY: year-over-year\n\nHOUSE_OVERSIGHT_014613",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014613.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2008,
+    "word_count": 274,
+    "line_count": 99,
+    "import_date": "2025-11-19T21:47:45.789765",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014690",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014690.txt",
+  "text": "Case 1:15-cv-07433-RWS Document 539-8 Filed 01/06/17 Page 1 of 4\n\nEXHIBIT LL\n\nHOUSE_OVERSIGHT_014690",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014690.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 100,
+    "word_count": 13,
+    "line_count": 5,
+    "import_date": "2025-11-19T21:47:47.946130",
+    "prefix": "IMAGES-003"
+  }
+}

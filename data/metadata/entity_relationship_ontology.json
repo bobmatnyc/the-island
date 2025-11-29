@@ -1,0 +1,124 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-11-27T00:00:00Z",
+  "description": "Ontology for categorizing entities by their relationship to Jeffrey Epstein",
+  "primary_relationships": {
+    "victims": {
+      "label": "Victims",
+      "description": "Confirmed or alleged victims of Epstein",
+      "sources": ["court_documents", "unsealed_documents", "depositions"],
+      "color": "#DC2626",
+      "bg_color": "#FEE2E2",
+      "priority": 1
+    },
+    "co-conspirators": {
+      "label": "Co-Conspirators",
+      "description": "Individuals implicated in facilitating crimes",
+      "sources": ["court_documents", "unsealed_documents", "indictments"],
+      "color": "#EA580C",
+      "bg_color": "#FFEDD5",
+      "priority": 2
+    },
+    "frequent_travelers": {
+      "label": "Frequent Travelers",
+      "description": "Individuals who flew on Epstein's aircraft multiple times",
+      "sources": ["flight_logs"],
+      "flights_threshold": 5,
+      "color": "#EAB308",
+      "bg_color": "#FEF9C3",
+      "priority": 3
+    },
+    "social_contacts": {
+      "label": "Social Contacts",
+      "description": "Listed in address book but limited other connections",
+      "sources": ["black_book"],
+      "max_connections": 2,
+      "color": "#84CC16",
+      "bg_color": "#ECFCCB",
+      "priority": 4
+    },
+    "associates": {
+      "label": "Associates",
+      "description": "Close personal or business associates appearing in multiple sources",
+      "sources": ["black_book", "flight_logs"],
+      "source_logic": "AND",
+      "min_connections": 3,
+      "color": "#F59E0B",
+      "bg_color": "#FEF3C7",
+      "priority": 5
+    },
+    "legal_professionals": {
+      "label": "Legal Professionals",
+      "description": "Attorneys, prosecutors, law enforcement",
+      "sources": ["court_documents", "unsealed_documents"],
+      "keywords": ["attorney", "lawyer", "prosecutor", "detective", "agent"],
+      "color": "#06B6D4",
+      "bg_color": "#CFFAFE",
+      "priority": 6
+    },
+    "investigators": {
+      "label": "Investigators",
+      "description": "Journalists, investigators, researchers",
+      "sources": ["news_articles"],
+      "keywords": ["journalist", "reporter", "investigator", "researcher", "author"],
+      "color": "#3B82F6",
+      "bg_color": "#DBEAFE",
+      "priority": 7
+    },
+    "public_figures": {
+      "label": "Public Figures",
+      "description": "Politicians, celebrities, business leaders",
+      "sources": ["news_articles", "black_book"],
+      "keywords": ["president", "prince", "senator", "ceo", "actor", "model"],
+      "color": "#8B5CF6",
+      "bg_color": "#EDE9FE",
+      "priority": 8
+    },
+    "peripheral": {
+      "label": "Peripheral",
+      "description": "Minimal documented connections",
+      "sources": [],
+      "max_connections": 1,
+      "color": "#6B7280",
+      "bg_color": "#F3F4F6",
+      "priority": 9
+    }
+  },
+  "secondary_attributes": {
+    "document_appearance": {
+      "flight_logs_only": {
+        "label": "Flight Logs Only",
+        "description": "Only appears in flight logs"
+      },
+      "black_book_only": {
+        "label": "Address Book Only",
+        "description": "Only appears in address book"
+      },
+      "court_docs_only": {
+        "label": "Court Documents Only",
+        "description": "Only appears in court documents"
+      },
+      "multiple_sources": {
+        "label": "Multiple Sources",
+        "description": "Appears in 2+ source types"
+      }
+    },
+    "connection_strength": {
+      "high": {
+        "label": "High",
+        "description": "10+ connections",
+        "threshold": 10
+      },
+      "medium": {
+        "label": "Medium",
+        "description": "3-9 connections",
+        "threshold": 3
+      },
+      "low": {
+        "label": "Low",
+        "description": "1-2 connections",
+        "threshold": 1
+      }
+    }
+  }
+}

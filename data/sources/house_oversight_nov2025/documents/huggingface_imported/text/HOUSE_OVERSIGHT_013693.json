@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013693",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013693.txt",
+  "text": "coherent activity. This temporal and phase coherence plays an important role in\ncurrent theory of sensory-associative-motor integrative function, how distributed\nattributions come together in the brain representation of a single object or process,\nin the context of the so-called “binding problem” (Singer, 1993; Bressler, 1995;\nNicolelis, 1995; Schiff et al, 1997). Diffusely distributed neurochemical variables\nhave been invoked. For example, the role of metabotropic glutamate receptors in\ndriving the synchronization of interneuronal networks has been suggested as a\nmechanistic model (Whittington et al, 1995). The objects of relevance to the\ndiscovery of Fermi-Pasta-Ulam are studied as the nonlinear physics of\nnondissapative wave processes and are called solitons (Zabusky and Kruskal,\n1965). They have been invoked to model nerve conduction and information\ntransport in brain (Scott, 1990).\n\nA third counter-intuitive set of accidental computational findings is in an area\nof research called symbolic dynamics which involves the universal parameter-\ndependent coding language and capacity of nonlinear systems. In the early 1960’s,\na group around Stan Ulam at Los Alamos (Cooper, 1987) used one of the early\n“high powered” computers, MANIAC Il, to iterate (letting the output of the action of a\ndiscrete time function serve as its input the next time around) simple equations they\ncalled “maps.” These reduced dimensional objects shaped like tents, sine functions\nand parabolas can be extracted from and represent the behavior of higher\ndimensional, nonlinear differential equations (see Devaney, 1989; Schuster, 1989 or\nMoon, 1992 for intuitive descriptions). They varied a parameter, such as the height\nof the tent or parabola, to systematically change the period and/or phase (order) of\nthe symbol sequence (Metropolis et al, 1973). Normalizing the range of values of\nthe output to [0,1] and transforming the series of values into a binary code, L < 0.5\nand R > 0.5, they found an invariant, one parameter dependent, progression of\nordered periods, R, RLR, RLRR...RLLRL..., in all such single maximum maps. This\n“U (universal)sequence” has also been found as singly or multiply present in a\nvariety of real systems, including complicated chemical reactions (Simoyi et al,\n1982; Coffman et al, 1986). This means one can “dial” the parameter to generate\n\n“words” of sufficient computational complexity to serve as a language. These\n\n193\n\nHOUSE_OVERSIGHT_013693",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013693.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2470,
+    "word_count": 370,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:46.232315",
+    "prefix": "IMAGES-002"
+  }
+}

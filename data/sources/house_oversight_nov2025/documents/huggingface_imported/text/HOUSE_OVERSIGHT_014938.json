@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014938",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014938.txt",
+  "text": "Company referenced Ticker Price\nAlphabet A GOOGL 848.91\nAlphabet C GOOG 831.41\nAmazon.com AMZN 909.28\nBankrate RATE 975\nCare.com CRCM 11.68\neBay EBAY 33.81\nExpedia EXPE 124.97\nFacebook FB 141.85\nFitbit FIT 571\nGrubHub GRUB 33.27\nLendingTree TREE 117.8\nMatch Group MTCH 16.45\nNetflix nflx 143.62\nONDK ONDK 462\nPandora P 11.82\npriceline.com PCLN 1761.77\nQuotient QUOT 94\nSnap SNAP 20.7\nTripAdvisor TRIP 41.76\nTrivago TRVG 12.81\nTwitter TWTR 14.53\nWayfair W 40.21\nYahoo! YHOO 46.38\nYelp YELP 33.22\nZillow A ZG 33.49\nZillow C Z 33.47\nZYNGA ZNGA 2.18\n\nSource: BofA Merrill Lynch Global Research, Prices as of 5 April 2017\n\n52 __Internet/e-Commerce | 06 April 2017 Bankof America <2\nMerrill Lynch\n\nHOUSE_OVERSIGHT_014938",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014938.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 714,
+    "word_count": 114,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:49.307145",
+    "prefix": "IMAGES-003"
+  }
+}

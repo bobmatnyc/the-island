@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011152",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011152.txt",
+  "text": "into physical capital holdings. That can be notated z, . I don’t allow transfer from\nphysical to human capital in adults, which would mean invested consumption C,\nafforded from property cash flow, because I see so little adult C, (adult education)\non which to spend it. That’s why I model 7, aS Zero. Meanwhile realized\ndecapitalizaiton is decomposed into its human and physical components D(H), and\n\nD(K), . This adapts (A4.4) to\n\nK,=H+K=W.+P. + p({K),,+2,-D(H),-D(K),, ifage >=A, (A10.6)\n\nand specifically\n\nH=W,-D(H), and K=z,+P+p(K),—D(K),, ifage >=A.\n\n(A10.7)\n\nNext Generation Theory\n\nThe period of production, as defined by Jevons and Boehm Bawerk, gave the\nreciprocal of rate of production (rate of return Y/K,, ) if growth were zero. Output Y\n\nequals growth plus cash flow. Then Jevons and Boehm Bawerk really meant the\n\nperiod needed for output to make up for losses to cash flow. I call this the “cash flow\n\nperiod” T, , equal to the reciprocal of cash flow rate f. That is,\n\n(A11.1)\n\nBoth modeled at the collective scale, where cash flow under the Y=I+C equation\nboth would have accepted simplifies to consumption C. Adjustment to the Y rule\n\ncorrects this to pure consumption C, . That would specify (A11.1) as\n\nAPPENDIX A: The Argument in Notation 3/7/16 26\n\nHOUSE_OVERSIGHT_011152",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011152.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1293,
+    "word_count": 211,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:46.521375",
+    "prefix": "IMAGES-001"
+  }
+}

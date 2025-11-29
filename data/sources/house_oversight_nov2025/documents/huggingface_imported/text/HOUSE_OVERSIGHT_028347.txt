@@ -1,0 +1,60 @@
+{"componentLayouts":{"ComponentLayout-
+1":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-
+1","ignoreDocumentMargin":"both"},"ComponentLayout-
+11":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-
+11","minimumHeight":"0.0pt"},"ComponentLayout-
+12":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-
+12","ignoreDocumentMargin":"none"},"ComponentLayout-
+14":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-14"},"ComponentLayout-
+16":{"columnRange":{"length":20,"start":0},"contentInset":{},"identifier":"ComponentLayout-
+16"},"ComponentLayout-17":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-
+17","minimumHeight":"100.0cw"},"ComponentLayout-
+18":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-
+18","minimumHeight":"1.0pt"},"ComponentLayout-
+2":{"columnRange":{"length":12,"start":0},"identifier":"ComponentLayout-
+2","maximumContentWidth":"1.0pt"},"ComponentLayout-
+24":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-
+24","minimumHeight":"24.0pt"},"ComponentLayout-
+28":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-
+28","minimumHeight":"75.0cw"},"ComponentLayout-
+33":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-
+33","minimumHeight":"5.0pt"},"ComponentLayout-
+34":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-
+34","minimumHeight":"8.0pt"},"ComponentLayout-
+48":{"columnRange":{"length":20,"start":0},"identifier":"ComponentLayout-
+
+48", "minimumHeight":"16.0pt"},"add-to-calendar-kicker-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"add-to-calendar-kicker-
+
+layout" ,"minimumHeight":"40.0pt"},"apple-promotion-spacer-when-no-body-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"apple-promotion-spacer-when-no-body-
+layout","minimumHeight":"3.0vmin"},"apple-tv-button-
+layout":{"columnRange":{"length":20,"start":0},"horizontalContentAlignment":"left","identifier":"apple-tv-
+button-layout","maximumContentWidth":"140.Opt"}, "between-chin-and-cta-spacer-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"between-chin-and-cta-spacer-
+layout","minimumHeight":"2.0vmax"},"color-bar-entry-layout-end-of-article-
+divider":{"columnRange":{"length":20,"start":0},"identifier":"color-bar-entry-layout-end-of-article-
+divider" ,"ignoreDocumentGutter":"both","ignoreDocumentMargin":"both","minimumHeight":"0.0pt"},"color-
+bar-entry-layout-masthead":{"columnRange":{"length":20,"start":0},"identifier":"color-bar-entry-layout-
+masthead","ignoreDocumentGutter":"both","ignoreDocumentMargin":"both","minimumHeight":"15.0pt"},"c
+over-image-layout":{"columnRange":{"length":20,"start":0},"identifier":"cover-image-
+layout","ignoreDocumentMargin":"both","minimumHeight":"75.0cw"},"dark-module-bottom-
+spacer":{"columnRange":{"length":20,"start":0},"identifier":"dark-module-bottom-
+spacer","minimumHeight":"3.0vmax"},"embed-divider-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"embed-divider-
+layout","minimumHeight":"6.0vmax"},"embed-footer-spacer-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"embed-footer-spacer-
+layout","minimumHeight":"35.0pt"},"embed-heading-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"embed-heading-
+layout","margin":{"bottom":"2.0vmax","top":"0.0pt"}},"embed-info-spacer-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"embed-info-spacer-
+layout","minimumHeight":"30.0pt"},"end-of-article-divider-space-above-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"end-of-article-divider-space-above-
+layout","ignoreDocumentMargin":"none","minimumHeight":"6.5cw"},"infographic-caption-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"infographic-caption-
+layout","margin":{"bottom":"0.0pt","top":"10.0pt"}},"large-section-divider-fill-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"large-section-divider-fill-
+layout","ignoreDocumentMargin":"both","minimumHeight":"52. Opt"},"link-bar-top-spacer-
+layout":{"columnRange":{"length":20,"start":0},"identifier":"link-bar-top-spacer-
+
+HOUSE_OVERSIGHT_028347

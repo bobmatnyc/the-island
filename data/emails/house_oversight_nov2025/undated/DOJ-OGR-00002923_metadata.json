@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00002923",
+  "email_index": 17,
+  "extracted_at": "2025-11-17T04:14:45.440234",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "All counsel DOJ-OGR-00002923",
+  "subject": null,
+  "date": "4/14/21",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "bc@sternheimlaw.com"
+  ]
+}

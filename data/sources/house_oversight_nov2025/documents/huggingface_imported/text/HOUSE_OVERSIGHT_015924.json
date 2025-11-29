@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015924",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015924.txt",
+  "text": "234 Are the Androids Dreaming Yet?\n\nTLL NEED TO KNOW FIRST OF ALL,\n\nYOUR REQUIREMENTS WHAT ARE YOU\nBEFORE I START TO | TRYING TO\n\n\\ DESIGN THE SOFTWARE. ] ACCOMPLISH?\n\n=\noO\nJo\n3\n=\n=i]\nuw\n=\n=\n2\nE\n°o\noO\nw\na\nE\nui\n\na\n\nT WON'T KNOW WHAT\nT CAN ACCOMPLISH\nUNTIL YOU TELL ME\n\nWHAT THE SOFTWARE\n\nTRY TO GET THIS\nCONCEPT THROUGH YOUR\nTHICK SKULL: THE\nSOFTWARE CAN DO\nWHATEVER I DESIGN\n\nIT TO DO!\n\nat Oe\n\nAlice, Ted and Software Specification\n\nIt would have been much more helpful if the computer had said,\n“You do not have enough balance in your account.” And, it would have\nbeen more helpful still if it had asked whether I needed a temporary\noverdraft. However, such a feature needs many more lines of software\nand this is time-consuming to write.\n\nSoftware takes time and is expensive, because it has to be written\nin a general-purpose way. Any name could substitute for James Tagg,\nand any amount could be used. After all, it would be useless if an ATM\nmachine could only give out $20 to one person. The generalization of\nsoftware makes use of variables instead of fixed values and this renders\nit hard to understand. Wherever we meet an idea that needs to be\ngeneralized, a letter must be used instead of a fixed value. Computer\nprograms tend to look like this: if @ wants to do ‘b’ with ‘c then allow\nit only if ‘@ is greater than ‘c. The software programmer has to keep\ntrack of all the possible values that could be inserted into each of the\nvariables and make sure each and every combination would make sense.\nMy ATM scenario gets complex quickly. It needs to be able to answer a\nrange of questions for all the bank’s customers, deal with any amount of\n\nHOUSE_OVERSIGHT_015924",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015924.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1675,
+    "word_count": 314,
+    "line_count": 68,
+    "import_date": "2025-11-19T21:47:47.507925",
+    "prefix": "IMAGES-003"
+  }
+}

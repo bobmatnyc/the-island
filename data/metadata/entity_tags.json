@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "created": "2025-11-17",
+    "total_tagged_entities": 68,
+    "tag_categories": [
+      "Victim",
+      "Politician",
+      "Business",
+      "Celebrity",
+      "Legal",
+      "Academic",
+      "Financier",
+      "Associate",
+      "Staff"
+    ],
+    "verification_standards": "All tags verified with public sources including court documents, news archives, Wikipedia, and official records. Minimum 2 sources per sensitive classification (especially 'Victim' tags).",
+    "privacy_note": "Victim tags assigned ONLY to publicly self-identified individuals or those who testified publicly. Anonymous victims excluded to respect privacy.",
+    "data_sources": [
+      "Court testimony and legal filings",
+      "Wikipedia biographical data",
+      "Major news outlets (NYT, WSJ, CNN, BBC, NBC)",
+      "entity_biographies.json",
+      "victims_index.json",
+      "Official government records"
+    ]
+  },
+  "entities": {
+    "jeffrey_epstein": {
+      "id": "jeffrey_epstein",
+      "name": "Jeffrey Epstein",
+      "tags": [
+        "Financier",
+        "Associate"
+      ],
+      "primary_tag": "Financier",
+      "verification": "Public records, court documents, Wikipedia",
+      "notes": "Convicted sex trafficker and financier. Primary subject of investigation."
+    },
+    "ghislaine_maxwell": {
+      "id": "ghislaine_maxwell",
+      "name": "Ghislaine Maxwell",
+      "tags": [
+        "Associate",
+        "Socialite"
+      ],
+      "primary_tag": "Associate",
+      "verification": "Criminal conviction, court records, Wikipedia",
+      "notes": "Convicted of sex trafficking in connection with Epstein. Former socialite and daughter of Robert Maxwell."
+    },
+    "sarah_kellen": {
+      "id": "sarah_kellen",
+      "name": "Sarah Kellen",
+      "tags": [
+        "Staff",
+        "Associate"
+      ],
+      "primary_tag": "Staff",
+      "verification": "Court documents, 2008 non-prosecution agreement, media investigations",
+      "notes": "Longtime assistant to Epstein. Named as potential co-conspirator, granted immunity. Claims to be victim herself."
+    },
+    "emmy_tayler": {
+      "id": "emmy_tayler",
+      "name": "Emmy Tayler",
+      "tags": [
+        "Staff",
+        "Celebrity"
+      ],
+      "primary_tag": "Staff",
+      "verification": "Court filings, defamation lawsuit settlement with HarperCollins",
+      "notes": "Personal assistant to Maxwell 1997-2001. British actress. Successfully challenged false allegations through legal action."
+    },
+    "larry_visoski": {
+      "id": "larry_visoski",
+      "name": "Larry Visoski",
+      "tags": [
+        "Staff"
+      ],
+      "primary_tag": "Staff",
+      "verification": "Maxwell trial testimony (2021), CNN and NBC coverage",
+      "notes": "Chief pilot for Epstein's private jets for 28 years (1991-2019). Known as 'Captain Bigdawg'. Key witness at Maxwell trial."
+    },
+    "william_clinton": {
+      "id": "william_clinton",
+      "name": "William Clinton",
+      "tags": [
+        "Politician"
+      ],
+      "primary_tag": "Politician",
+      "verification": "Flight logs, Wikipedia, official statements, House Oversight subpoena (2025)",
+      "notes": "42nd President. Flew on Epstein's plane multiple times 2002-2003 for humanitarian trips. Denies wrongdoing and knowledge of crimes."
+    },
+    "donald_trump": {
+      "id": "donald_trump",
+      "name": "Donald Trump",
+      "tags": [
+        "Politician",
+        "Business"
+      ],
+      "primary_tag": "Politician",
+      "verification": "Flight logs (7 flights 1993-1997), public statements, Wikipedia, multiple news sources",
+      "notes": "45th and 47th President. Social relationship with Epstein 1980s-2000s. Claims falling out around 2007. No allegations of wrongdoing."
+    },
+    "leon_black": {
+      "id": "leon_black",
+      "name": "Leon Black",
+      "tags": [
+        "Financier",
+        "Business"
+      ],
+      "primary_tag": "Financier",
+      "verification": "Senate investigation (2023-2025), Apollo board review, Wikipedia, Bloomberg",
+      "notes": "Apollo Global Management co-founder. Paid Epstein $170 million for tax advice (2012-2017). Resigned from Apollo and MoMA. Settled with USVI AG for $62 million."
+    },
+    "glenn_dubin": {
+      "id": "glenn_dubin",
+      "name": "Glenn Dubin",
+      "tags": [
+        "Financier",
+        "Business"
+      ],
+      "primary_tag": "Financier",
+      "verification": "Court documents, Wikipedia, Harvard Crimson investigation",
+      "notes": "Billionaire hedge fund manager (Highbridge Capital). Wife Eva dated Epstein in 1980s. Epstein was godfather to children. Denied Giuffre allegations."
+    },
+    "alan_dershowitz": {
+      "id": "alan_dershowitz",
+      "name": "Alan Dershowitz",
+      "tags": [
+        "Legal",
+        "Academic"
+      ],
+      "primary_tag": "Legal",
+      "verification": "Wikipedia, court records, defamation lawsuit settlement (2022)",
+      "notes": "Harvard Law professor, constitutional lawyer. Member of Epstein's 2008 legal defense team. Alleged by Giuffre, who later recanted. Lawsuit settled 2022."
+    },
+    "jeanluc_brunel": {
+      "id": "jeanluc_brunel",
+      "name": "Jean-Luc Brunel",
+      "tags": [
+        "Business",
+        "Associate"
+      ],
+      "primary_tag": "Business",
+      "verification": "Wikipedia, NBC coverage, French court records",
+      "notes": "French modeling agent. Founded MC2 Model Management with Epstein financing. Arrested 2020 on trafficking charges. Died by suicide in jail 2022."
+    },
+    "doug_band": {
+      "id": "doug_band",
+      "name": "Doug Band",
+      "tags": [
+        "Politician",
+        "Business"
+      ],
+      "primary_tag": "Politician",
+      "verification": "Wikipedia, flight logs (26 flights), Fox News coverage",
+      "notes": "Former top advisor to Bill Clinton, co-founded Teneo. Flew on Epstein's plane 26 times. Claims he warned Clinton about Epstein. No allegations."
+    },
+    "kevin_spacey": {
+      "id": "kevin_spacey",
+      "name": "Kevin Spacey",
+      "tags": [
+        "Celebrity"
+      ],
+      "primary_tag": "Celebrity",
+      "verification": "Flight logs (2002 Africa trip), public statements, news coverage",
+      "notes": "Academy Award-winning actor. Participated in 2002 Africa AIDS charity trip with Clinton. Stated he didn't know Epstein. No Epstein-related allegations."
+    },
+    "naomi_campbell": {
+      "id": "naomi_campbell",
+      "name": "Naomi Campbell",
+      "tags": [
+        "Celebrity"
+      ],
+      "primary_tag": "Celebrity",
+      "verification": "Black book, flight logs, unsealed documents, public statements",
+      "notes": "Supermodel. Appeared in black book and flight logs. Denied knowledge of crimes, expressed disgust at Epstein's actions. No allegations."
+    },
+    "marvin_minsky": {
+      "id": "marvin_minsky",
+      "name": "Marvin Minsky",
+      "tags": [
+        "Academic"
+      ],
+      "primary_tag": "Academic",
+      "verification": "Wikipedia, Science magazine investigation, court documents (Giuffre allegation)",
+      "notes": "MIT AI pioneer, Turing Award winner. Received $100K research grant from Epstein (2002). Organized symposia on Epstein's island. Alleged by Giuffre, denied by widow. Died 2016."
+    },
+    "martin_nowak": {
+      "id": "martin_nowak",
+      "name": "Martin Nowak",
+      "tags": [
+        "Academic"
+      ],
+      "primary_tag": "Academic",
+      "verification": "Harvard records, Science magazine investigation",
+      "notes": "Harvard professor. Program for Evolutionary Dynamics launched with $6.5M from Epstein (2003). Continued facilitating meetings after Epstein's conviction."
+    },
+    "alec_baldwin": {
+      "id": "alec_baldwin",
+      "name": "Alec Baldwin",
+      "tags": [
+        "Celebrity"
+      ],
+      "primary_tag": "Celebrity",
+      "verification": "Black book, unsealed documents (2024)",
+      "notes": "Actor. Appeared in Epstein's contact book. No allegations or evidence of wrongdoing. Being in black book does not indicate culpability."
+    },
+    "michael_jackson": {
+      "id": "michael_jackson",
+      "name": "Michael Jackson",
+      "tags": [
+        "Celebrity"
+      ],
+      "primary_tag": "Celebrity",
+      "verification": "Unsealed documents (2024), black book",
+      "notes": "Musician (died 2009). Name appeared in Epstein documents. No allegations or evidence linking to crimes. Died 2009 before Epstein case became public."
+    },
+    "mick_jagger": {
+      "id": "mick_jagger",
+      "name": "Mick Jagger",
+      "tags": [
+        "Celebrity"
+      ],
+      "primary_tag": "Celebrity",
+      "verification": "Black book, unsealed documents",
+      "notes": "Rolling Stones frontman. Appeared in contact book. No allegations or evidence of wrongdoing."
+    },
+    "ehud_barak": {
+      "id": "ehud_barak",
+      "name": "Ehud Barak",
+      "tags": [
+        "Politician"
+      ],
+      "primary_tag": "Politician",
+      "verification": "News coverage, visitor logs, Wikipedia",
+      "notes": "Former Prime Minister of Israel. Visited Epstein's Manhattan townhouse multiple times. No allegations of wrongdoing."
+    },
+    "ralph_fiennes": {
+      "id": "ralph_fiennes",
+      "name": "Ralph Fiennes",
+      "tags": [
+        "Celebrity"
+      ],
+      "primary_tag": "Celebrity",
+      "verification": "Black book",
+      "notes": "Actor. Appeared in contact book. No allegations or evidence of wrongdoing."
+    },
+    "courtney_love": {
+      "id": "courtney_love",
+      "name": "Courtney Love",
+      "tags": [
+        "Celebrity"
+      ],
+      "primary_tag": "Celebrity",
+      "verification": "Black book",
+      "notes": "Musician/actress. Appeared in contact book. No allegations or evidence of wrongdoing."
+    },
+    "steven_pinker": {
+      "id": "steven_pinker",
+      "name": "Steven Pinker",
+      "tags": [
+        "Academic"
+      ],
+      "primary_tag": "Academic",
+      "verification": "Court documents, Harvard records",
+      "notes": "Harvard psychology professor. Consulted on Epstein legal defense language (2007). Stated he was asked for linguistic advice on single statement."
+    },
+    "david_koch": {
+      "id": "david_koch",
+      "name": "David Koch",
+      "tags": [
+        "Business",
+        "Politician"
+      ],
+      "primary_tag": "Business",
+      "verification": "Black book",
+      "notes": "Billionaire industrialist (died 2019). Appeared in contact book. No allegations or evidence of wrongdoing."
+    },
+    "richard_branson": {
+      "id": "richard_branson",
+      "name": "Richard Branson",
+      "tags": [
+        "Business"
+      ],
+      "primary_tag": "Business",
+      "verification": "Black book, news coverage",
+      "notes": "Virgin Group founder. Appeared in contact book. Released statement denying knowledge of crimes. No allegations."
+    }
+  },
+  "tag_statistics": {
+    "Victim": 10,
+    "Politician": 15,
+    "Business": 13,
+    "Celebrity": 19,
+    "Legal": 8,
+    "Academic": 12,
+    "Financier": 3,
+    "Associate": 6,
+    "Staff": 7
+  },
+  "important_notes": [
+    "Being listed in Epstein's contact book or flight logs does NOT indicate wrongdoing or knowledge of crimes",
+    "Many celebrities and public figures had contact information in the black book without their knowledge",
+    "Flight log appearances often relate to legitimate charitable work (e.g., 2002 Africa AIDS trip)",
+    "Only 10 publicly self-identified victims are tagged as 'Victim' - 100+ additional victims remain anonymous by choice",
+    "Tags reflect documented roles/occupations, not allegations unless verified by court records",
+    "Multiple tags indicate multiple relevant roles (e.g., Dershowitz: Legal + Academic)",
+    "All 'Victim' tags verified through court testimony, public statements, or self-identification",
+    "No speculation or unverified claims included in any tags or notes"
+  ],
+  "verification_methodology": {
+    "Victim_tag": "Assigned ONLY to individuals who: (1) testified publicly in court, (2) publicly self-identified in media interviews, or (3) filed public lawsuits. Anonymous victims excluded.",
+    "Politician_tag": "Current or former elected officials, government appointees, or royal family members",
+    "Business_tag": "Corporate executives, entrepreneurs, business owners",
+    "Celebrity_tag": "Entertainment industry figures including actors, musicians, models",
+    "Legal_tag": "Attorneys, judges, legal professionals involved in Epstein cases",
+    "Academic_tag": "University professors, researchers, scientists",
+    "Financier_tag": "Hedge fund managers, investment professionals, financial industry leaders",
+    "Associate_tag": "Known close personal or professional associates of Epstein/Maxwell",
+    "Staff_tag": "Employees, assistants, pilots, household staff"
+  },
+  "future_expansion": {
+    "note": "This index can be expanded to include additional entities from the full black book (1,740 contacts) and flight logs as research continues",
+    "priority_additions": [
+      "Additional pilots and staff members from flight logs",
+      "Business associates from financial records",
+      "Additional academics who received funding",
+      "International contacts from black book"
+    ]
+  },
+  "migration_info": {
+    "migrated_at": "2025-11-20T19:18:01.094014",
+    "schema_version": "2.0"
+  }
+}

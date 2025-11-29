@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "generated": "2025-11-16T19:59:45.909715",
+    "total_emails": 8,
+    "date_range": {
+      "earliest": "2007-09-20",
+      "latest": "2015-01-12"
+    }
+  },
+  "emails": [
+    {
+      "canonical_id": "epstein_email_fc43d26cccbd96ec",
+      "title": "RE: Epstein - Community control completion",
+      "date": "2010-04-01",
+      "from": "Barbara Burns",
+      "from_email": "BBurns@sa15.state.fl.us",
+      "to": [
+        "Jack Goldberger"
+      ],
+      "subject": "RE: Epstein",
+      "source": "DocumentCloud 6506732 - Public Records Request 19-372",
+      "bates": "N/A",
+      "participants": [
+        "Barbara Burns",
+        "Jack Goldberger",
+        "Michael McAuliffe",
+        "Jeffrey Epstein"
+      ],
+      "file_path": "/Users/masa/Projects/Epstein/data/canonical/emails/epstein_email_fc43d26cccbd96ec.md"
+    },
+    {
+      "canonical_id": "epstein_email_38c0d2d5cb7353b3",
+      "title": "FW: Confidential - Early termination discussion",
+      "date": "2010-03-26",
+      "from": "Barbara Burns",
+      "from_email": "BBurns@sa15.state.fl.us",
+      "to": [
+        "Michael McAuliffe"
+      ],
+      "subject": "FW: Confidential",
+      "source": "DocumentCloud 6506732 - Public Records Request 19-372",
+      "bates": "N/A",
+      "participants": [
+        "Barbara Burns",
+        "Michael McAuliffe",
+        "Ann Marie Villafana",
+        "Jeffrey Epstein"
+      ],
+      "file_path": "/Users/masa/Projects/Epstein/data/canonical/emails/epstein_email_38c0d2d5cb7353b3.md"
+    },
+    {
+      "canonical_id": "epstein_email_2c1404ea5783e2f1",
+      "title": "RE: Meeting with Epstein's attorneys - Plea negotiations",
+      "date": "2007-09-20",
+      "from": "Ann Marie C. Villafana",
+      "from_email": "AnnMarie.Villafana@usdoj.gov",
+      "to": [
+        "Barry Krischer"
+      ],
+      "subject": "RE: Meeting with Epstein's attorneys",
+      "source": "DocumentCloud 6506732 - Public Records Request 19-372",
+      "bates": "N/A",
+      "participants": [
+        "Ann Marie C. Villafana",
+        "Barry Krischer",
+        "Lanna Belohlavek",
+        "Jeffrey Epstein"
+      ],
+      "file_path": "/Users/masa/Projects/Epstein/data/canonical/emails/epstein_email_2c1404ea5783e2f1.md"
+    },
+    {
+      "canonical_id": "epstein_email_e68309ecce27d04e",
+      "title": "Legal risks and defamation concerns",
+      "date": "2015-01-10",
+      "from": "Ghislaine Maxwell",
+      "from_email": "gmaxwell@ellmax.com",
+      "to": [
+        "Philip Barden",
+        "Ross Gow"
+      ],
+      "subject": "Legal risks and defamation concerns",
+      "source": "Giuffre v Maxwell 2024",
+      "bates": "GM_001044",
+      "participants": [
+        "Ghislaine Maxwell",
+        "Philip Barden",
+        "Ross Gow",
+        "Virginia Roberts Giuffre"
+      ],
+      "file_path": "/Users/masa/Projects/Epstein/data/canonical/emails/epstein_email_e68309ecce27d04e.md"
+    },
+    {
+      "canonical_id": "epstein_email_7a8d7ce3f071d695",
+      "title": "Reward offer for disproving allegations",
+      "date": "2015-01-12",
+      "from": "Jeffrey E. Epstein",
+      "from_email": "jeevacation@gmail.com",
+      "to": [
+        "Gmax"
+      ],
+      "subject": "Reward offer",
+      "source": "Giuffre v Maxwell 2024",
+      "bates": "GM_001065",
+      "participants": [
+        "Jeffrey E. Epstein",
+        "Ghislaine Maxwell",
+        "Virginia Roberts Giuffre",
+        "Bill Clinton",
+        "Stephen Hawking"
+      ],
+      "file_path": "/Users/masa/Projects/Epstein/data/canonical/emails/epstein_email_7a8d7ce3f071d695.md"
+    },
+    {
+      "canonical_id": "epstein_email_931acfef6cd36232",
+      "title": "FBI records request - Ron Eppinger case",
+      "date": "2014-08-27",
+      "from": "Virginia Roberts Giuffre",
+      "from_email": "robiejennag@icloud.com",
+      "to": [
+        "Jason R. Richards"
+      ],
+      "subject": "Hi There",
+      "source": "Giuffre v Maxwell 2024",
+      "bates": "GIUFFRE005607-005609",
+      "participants": [
+        "Virginia Roberts Giuffre",
+        "Jason R. Richards",
+        "Ron Eppinger"
+      ],
+      "file_path": "/Users/masa/Projects/Epstein/data/canonical/emails/epstein_email_931acfef6cd36232.md"
+    },
+    {
+      "canonical_id": "epstein_email_2f5a3d1fa5675a95",
+      "title": "Request for FBI evidence - Jeffrey Epstein case",
+      "date": "2014-04-15",
+      "from": "Virginia Roberts",
+      "from_email": "robiejennag@icloud.com",
+      "to": [
+        "Jason Richards"
+      ],
+      "subject": "Virginia Roberts (Jane doe 102)",
+      "source": "Giuffre v Maxwell 2024",
+      "bates": "GIUFFRE005610",
+      "participants": [
+        "Virginia Roberts Giuffre",
+        "Jason Richards",
+        "Jeffrey Epstein",
+        "Brad Edwards",
+        "Paul Cassell"
+      ],
+      "file_path": "/Users/masa/Projects/Epstein/data/canonical/emails/epstein_email_2f5a3d1fa5675a95.md"
+    },
+    {
+      "canonical_id": "epstein_email_4e5163b7ee4a4f6b",
+      "title": "Request for FBI evidence - Christina Pyror",
+      "date": "2014-04-16",
+      "from": "Virginia Roberts",
+      "from_email": "robiejennag@icloud.com",
+      "to": [
+        "Christina Pyror"
+      ],
+      "subject": "Virginia Roberts re: Jeffrey Epstein Case",
+      "source": "Giuffre v Maxwell 2024",
+      "bates": "GIUFFRE005611",
+      "participants": [
+        "Virginia Roberts Giuffre",
+        "Christina Pyror",
+        "Jeffrey Epstein"
+      ],
+      "file_path": "/Users/masa/Projects/Epstein/data/canonical/emails/epstein_email_4e5163b7ee4a4f6b.md"
+    }
+  ]
+}

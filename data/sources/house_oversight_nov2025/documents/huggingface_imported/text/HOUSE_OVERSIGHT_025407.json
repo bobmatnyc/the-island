@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025407",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025407.txt",
+  "text": "Message: pb tonight\n\nTime: 02/03/19 08:05:30 AM (570902730)\nFlags: 1126401\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 7AA24347-FD8E-4E2A-A3D7-CAEB1011ACA2\n\nMessage: Ok We are coming back to NY this afternoon.. If you stay come over for a Super\nBowl party\n\nSender: e:jeeitunes@gmail.com\n\nTime: 02/03/19 08:08:44 AM (570902924)\nFlags: 1085445\nIs Read: No\n\nIs Invitation: No\n\nGUID: 4162285A-339C-478B-988D-l1AEBBEOF916E\n\nMessage: thx, but pb warm\n\nSender: Ey\n\nTime: 02/03/19 08:20:29 AM (570903629)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: FBB54499-31D0-4F9F-BDOE-9AB988428681\n\nMessage:\n\nHOUSE_OVERSIGHT_025407",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025407.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 617,
+    "word_count": 79,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:47.599101",
+    "prefix": "IMAGES-008"
+  }
+}

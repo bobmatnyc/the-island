@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013731",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013731.txt",
+  "text": "“generalized dimensions,” Dg, emphasize different aspects of the relative point\n\ndensity that are assumed to be uniform in the computation of Do. We recall from\n\nabove that the power law slope constituting D, = lim a 7\né>0 sal é\n\n. If we emphasize the\n\ncomponent of the probability (measure, uw) or, equivalently, time spent by the orbit in\n\ncube i, “(C,) instead of simply the number of cubes occupied by any points, M(e),\n\nalong with the different length scales of the cube as e—0 we have a generalized\ndimension. A common expression for the generalized dimension includes the\n\nfractional pre-factor in q written so as to make things come out right:\n\n: M(e)\nD, = ,__finn sel where /(qg,¢) = SLAC I. The higher the q, the greater\nq-le—>0 In(e) =\n\nthe dominance of the higher probability cubes, ~(C,). To see how this q-induced\n\nseparation in emphasis might work, if the ratio for q = 2 between the probability\ncontaining cubes 0.25 and 0.05 is 25, their ratio for q = 3 is 125. For q = 0, the\nscaling exponent is the capacity dimension. This result of the actions of a changing\nq has been analogized to the way changing temperature in a thermodynamic\n\nsystem evokes different aspects of its behavior.\n\nThe “multifractal formalism” generally begins by determining the statistical\ndensities over a range of scale lengths by one means or another including wavelet\ntransformations across wavelength scale (Arneodo et al, 1988). These densities by\nscale are then systematically raised to a range of q exponents. Since q, and\ntherefore Dg, can vary continuously, functions are created that shows how D, varies\nwith q. These are then further transformed, resulting in a single maximum parabolic\ncurve whose shape and size is sensitive to the conditions of the experiment (Halsey\net al, 1986). Generalized dimensions decrease as q increases. A unique\nneuropsychopharmacological application of the multifractal technique to a study of\nthe behavioral influence of increasing amounts of cocaine on the time-dependent\npatterns of spatial exploration, temporal-spatial fluctuations, in rats, demonstrated a\nglobal splitting in the parabolic distribution suggestive of a cocaine-induced global\n\nphase transition, not unlike the well-known, dose-dependent, amphetamine-induced\n\n231\n\nHOUSE_OVERSIGHT_013731",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013731.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2291,
+    "word_count": 364,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:46.467591",
+    "prefix": "IMAGES-002"
+  }
+}

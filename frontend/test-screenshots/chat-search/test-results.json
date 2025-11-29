@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-11-19T23:21:52.677Z",
+  "url": "http://localhost:5173/chat",
+  "tests": [
+    {
+      "name": "Page Load",
+      "status": "PASS",
+      "notes": "Page loaded successfully without timeout"
+    },
+    {
+      "name": "Document Search Header",
+      "status": "PASS",
+      "notes": "Header displays correctly"
+    },
+    {
+      "name": "RAG Description",
+      "status": "PASS",
+      "notes": "Description displays correctly"
+    },
+    {
+      "name": "Empty State Display",
+      "status": "PASS",
+      "notes": "Empty state with search icon and example queries"
+    },
+    {
+      "name": "Search Input Elements",
+      "status": "PASS",
+      "notes": "Input: true, Button: true"
+    },
+    {
+      "name": "Navigation Header",
+      "status": "PASS",
+      "notes": "Search link found: true, Correct order: true"
+    },
+    {
+      "name": "Loading Indicator",
+      "status": "WARN",
+      "notes": "No loading indicator detected"
+    },
+    {
+      "name": "Search Results Display",
+      "status": "FAIL",
+      "notes": "Cards: 0, Scores: 10, Excerpts: 151, Metadata: 43, Badges: 0"
+    },
+    {
+      "name": "Color Coding",
+      "status": "PASS",
+      "notes": "10 color-coded elements found"
+    },
+    {
+      "name": "Auto-Scrolling",
+      "status": "PASS",
+      "notes": "Page scrolled 41px"
+    },
+    {
+      "name": "Console Errors Check",
+      "status": "PASS",
+      "notes": "0 console errors, 0 network errors"
+    }
+  ],
+  "consoleLogs": [
+    "[debug] [vite] connecting...",
+    "[debug] [vite] connected.",
+    "[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+  ],
+  "consoleErrors": [],
+  "networkErrors": [],
+  "screenshots": [
+    "01-initial-state.png",
+    "02-empty-state.png",
+    "03-query-entered.png",
+    "04-loading-state.png",
+    "05-search-results.png"
+  ]
+}

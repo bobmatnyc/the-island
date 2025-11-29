@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015823",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015823.txt",
+  "text": "Knowledge 133\n\nThe Problem\n\nOne suggestion put forward by Daniel Dennett is the creative process\nis a two-part task — generate ideas, then critically assess them. I can, in\nprinciple, make a program write out every possible book less than 500,000\nwords long. Provided I don't store the results this will not collapse the\nUniverse. This just leaves the problem of writing another program to\nread all the output and ring a bell each time it finds some interesting\ntruth. This second program might be called an appreciation program.\nLet’s examine this approach. I can write out a very simple program to do\nthis — provided I cheat and ignore the complexity of the term ‘something\ninteresting. In plain English: Count up from one until I get an interesting\nfact, write it down and stop.\n\nLoop i++ until i == (Something Interesting), Print i\n\nThis generates two problems. We need to make a program that\ncan tell if something is interesting and it will need to be fast because it\nis going to be handed a huge amount of junk. Clearly I have a process\nrunning in my brain that can determine if something is interesting, but it\nis quite slow. It takes me an appreciable time to open a book, leaf through\nthe pages and declare it either junk or interesting. Leo Tolstoy had a\nprocess in his brain that allowed him to create something interesting but\nI want to prove he did not do this by generating random junk and sifting\nthrough it. Let’s look at the mathematics.\n\nWe know simply counting sequentially through every number\nwould take too much time, but why not generate random numbers and\nrun our critical eye over them? Surely this would give a faster result. Let\nus try with a short poem. How hard would it be to come across something\nas simple as a four-line poem using this technique?\n\nThis poem, by the late Spike Milligan, is only 23 words long,\nincluding the title, and I have a powerful computer. Wouldn't it be\npossible to generate it using a computer? Unfortunately, no. We humans\ndon't have a good head for large numbers and this problem is much\nharder than it appears. Let’s use playing cards to get a feeling for large\nnumbers.\n\nHOUSE_OVERSIGHT_015823",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015823.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2155,
+    "word_count": 382,
+    "line_count": 42,
+    "import_date": "2025-11-19T21:47:48.449943",
+    "prefix": "IMAGES-003"
+  }
+}

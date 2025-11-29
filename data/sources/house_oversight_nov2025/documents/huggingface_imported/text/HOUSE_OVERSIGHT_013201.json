@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013201",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013201.txt",
+  "text": "15.3 Dual Network Structure 285\n\nFig. 15.5: Portions of a conceptual heterarchy centered on specific concepts.\n\na ae\n\nSPRING\nCLOCK\n\n“\\ a“ ae\n\nFig. 15.6: A portion of a conceptual heterarchy, showing the \"dangling links\" leading this portion\nto the rest of the heterarchy.\n\nA rigorous mathematical analysis of the formation of hierarchical, heterarchical and dual\nnetworks in CogPrime systems has not yet been undertaken, and would certainly be an inter-\nesting enterprise. Similar to the theory of small world networks, there is ample ground here\nfor both theorem-proving and heuristic experimentation. However, the qualitative points made\nhere are sufficiently well-grounded in intuition and experience to be of some use guiding our\n\nHOUSE_OVERSIGHT_013201",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013201.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 757,
+    "word_count": 113,
+    "line_count": 21,
+    "import_date": "2025-11-19T21:47:48.715641",
+    "prefix": "IMAGES-002"
+  }
+}

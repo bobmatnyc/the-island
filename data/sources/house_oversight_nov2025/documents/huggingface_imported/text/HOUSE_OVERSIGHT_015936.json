@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015936",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015936.txt",
+  "text": "246 Are the Androids Dreaming Yet?\n\nBoth analyses lead to a paradox! There is only one way out. There\ncan be no halting procedure. I’m sorry if this is quite convoluted.\n\nPhilosophical Proof\n\nIf you find these technical proofs difficult to follow, it may be easier to\nexamine the problem philosophically. Consider the consequence of\nthe existence of a Halting procedure. A Universal Turing Machine is a\nrelatively small program. Roger Penrose gives a three-page example in\nThe Emperors New Mind, and Stephen Wolfram has implemented one\nusing a cellular automaton with as few as five component parts.\n\nA Halting Program running on such a machine should be able\nto compute all the knowledge in the Universe. Every structure, every\nwork of literature, every galaxy could be the output of this single, simple\nprogram. My pocket calculator could, theoretically, paint like Picasso\nand compose like Mozart. All art, knowledge and science would be\nentirely determined in our Universe and we would have no free will. If\nyou philosophically rebel against this then the Halting Problem must\nhave no solution.\n\nGédel’s Insight\n\nAnother way to understand this conundrum is through the earlier work\nof Gédel. Solutions to mathematical puzzles are neat, orderly sequences\nof statements where the problem is solved step by step. Computers are\ngood at step by step processes. Surely a computer could simply proceed\nin a painstaking fashion to check all the possible combinations of words\nand symbols to discover a proof.\n\nAn analogy might be trying to find your hotel room if you have\nforgotten the number. You could simply find it by trying every room.\nAs you progressed through each floor, you would try every corridor\nand retrace your steps to the main hallway before attempting the next.\nEventually you would succeed.\n\nFinding proofs of theorems is often understood to be the same sort\nof task: search systematically through all the numbers and you will find\nthe solution. But this is not so: There is a hidden problem.\n\nAlthough it is true to say problems and proofs can be described by\nnumbers, they are not simply related like a lock and key. We need the\nfirst number to translate into a set of symbols meaning something about\nmathematics: for example, that x squared plus y squared equals z squared\nbut for higher powers there is no equality, and the second number to\n\nHOUSE_OVERSIGHT_015936",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015936.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2383,
+    "word_count": 397,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:46.772521",
+    "prefix": "IMAGES-003"
+  }
+}

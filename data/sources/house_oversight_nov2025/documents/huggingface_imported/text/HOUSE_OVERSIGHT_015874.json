@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015874",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015874.txt",
+  "text": "184 Are the Androids Dreaming Yet?\n\nHunter with Spears\n\nProvided there are an infinite number of hunters there is always someone\nto hand the spear to and the person at the front of the line now has space\nfor another spear.\n\nYou can probably see how to answer Dermot’s question. The hotel\nmanager calls the guest in the first room and asks him to move 3 rooms\nup rather than one. He then calls the remaining guests and tells them\nthe same thing. Thus, he has managed to fit three more people into\nthe infinite hotel. Infinity plus 3 is infinity. You may worry that it takes\nthe manager an infinite time to call all the rooms, but it’s OK; he lives\ninfinitely long so it all works out.\n\nWhat about fitting an infinite number of new guests into the already\nfull hotel? Surely then we will get stuck.\n\nNo, Hilbert’s Hotel can fit an infinite number of extra guests. Here’s\nthe trick: ask all the people currently in the hotel to move to the room\nwith double the number they are currently in — 1 goes to 2, 2 goes to 4,\n3 goes to 6, and so on. Now all the odd numbers are empty and you can\nfit an infinite number of people into the empty odd rooms. Infinity plus\ninfinity is infinity. Voila.\n\nHOUSE_OVERSIGHT_015874",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015874.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1210,
+    "word_count": 228,
+    "line_count": 27,
+    "import_date": "2025-11-19T21:47:45.747143",
+    "prefix": "IMAGES-003"
+  }
+}

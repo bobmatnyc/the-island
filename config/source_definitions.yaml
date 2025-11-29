@@ -1,0 +1,231 @@
+# Source Definitions for Epstein Document Collections
+# Used by download and canonicalization scripts
+
+sources:
+  # Already processed
+  documentcloud_6506732:
+    name: "DocumentCloud 6506732"
+    type: "documentcloud"
+    url: "https://www.documentcloud.org/documents/6506732-Epstein-Emails-Doc-Dump/"
+    collection: "Florida Public Records 2019"
+    authority: "government_foia"
+    expected_count: 87
+    time_period: "2006-2010"
+    status: "completed"
+    notes: "Original 87-page collection - already processed"
+
+  # Top priority collections
+  house_oversight_nov2025:
+    name: "House Oversight Nov 2025"
+    type: "congressional"
+    url: "https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/"
+    searchable_url: "https://couriernewsroom.com/news/we-created-a-searchable-database-with-all-20000-files-from-epsteins-estate/"
+    collection: "Epstein Estate Document Release"
+    authority: "official_release"
+    expected_count: 20000
+    time_period: "2011-2019"
+    priority: 5
+    status: "pending"
+    notes: "Largest recent release - searchable database available"
+
+  house_oversight_sep2024:
+    name: "House Oversight Sep 2024"
+    type: "congressional"
+    url: "https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/"
+    collection: "DOJ Epstein Records"
+    authority: "official_release"
+    expected_count: 33000
+    time_period: "2002-2019"
+    priority: 5
+    status: "pending"
+    notes: "Includes birthday book and DOJ investigation records"
+
+  giuffre_maxwell_complete:
+    name: "Giuffre v. Maxwell Complete"
+    type: "court_record"
+    url: "https://archive.org/details/final-epstein-documents"
+    case_number: "1:15-cv-07433-LAP"
+    court: "U.S. District Court, Southern District of New York"
+    collection: "Court-Ordered Unsealing (January 2024)"
+    authority: "court_record"
+    expected_count: 4553
+    time_period: "2015"
+    priority: 5
+    status: "pending"
+    batches:
+      - number: 1
+        pages: 943
+        size_mb: 43.8
+        date: "2024-01-03"
+      - number: 2
+        pages: unknown
+        date: "2024-01-04"
+      - number: 3
+        pages: 412
+        size_mb: 28.2
+        date: "2024-01-05"
+      - number: 4
+        pages: 650
+        size_mb: 55.3
+        date: "2024-01-05"
+      - number: 5
+        pages: 329
+        size_mb: 13.7
+        date: "2024-01-05"
+      - number: 6
+        pages: 381
+        size_mb: 15.7
+        date: "2024-01-05"
+      - number: 7
+        pages: 328
+        size_mb: 11.9
+        date: "2024-01-08"
+      - number: 8
+        pages: 1483
+        size_mb: 6.4
+        date: "2024-01-09"
+
+  documentcloud_6250471:
+    name: "DocumentCloud 6250471"
+    type: "documentcloud"
+    url: "https://www.documentcloud.org/documents/6250471-Epstein-Docs/"
+    collection: "Epstein Documents Collection"
+    authority: "archive"
+    expected_count: 2024
+    priority: 5
+    status: "pending"
+    notes: "Large DocumentCloud collection - similar format to 6506732"
+
+  fbi_vault:
+    name: "FBI Vault"
+    type: "fbi_foia"
+    url: "https://vault.fbi.gov/jeffrey-epstein"
+    collection: "FBI Investigation Files"
+    authority: "government_foia"
+    expected_count: 10000
+    time_period: "2006-2019"
+    priority: 4
+    status: "pending"
+    parts: 22
+    notes: "Ongoing releases - 22+ parts, some redacted"
+
+  internet_archive_comprehensive:
+    name: "Internet Archive - Comprehensive Collection"
+    type: "archive"
+    url: "https://archive.org/details/jeffrey-epstein-documents-collection_202502"
+    collection: "Comprehensive Epstein Documents"
+    authority: "archive"
+    expected_size_gb: 1.5
+    priority: 5
+    status: "pending"
+    notes: "Well-organized compilation from multiple sources"
+
+  internet_archive_epsteindocs:
+    name: "Internet Archive - epsteindocs"
+    type: "archive"
+    url: "https://archive.org/details/epsteindocs"
+    collection: "Case 18-2868 Documents"
+    authority: "archive"
+    priority: 5
+    status: "pending"
+    contents:
+      - "Little Black Book (unredacted)"
+      - "Les Wexner documents"
+      - "FBI reports"
+      - "Flight logs (unredacted)"
+      - "Asset records"
+      - "Multiple lawsuits"
+
+  jpmorgan_virgin_islands:
+    name: "JPMorgan/Virgin Islands Lawsuit"
+    type: "court_record"
+    case_number: "SX-2022-CV-00804"
+    court: "District Court of the Virgin Islands"
+    collection: "JPMorgan Chase Litigation"
+    authority: "court_record"
+    expected_count: 500
+    time_period: "2003-2019"
+    priority: 4
+    status: "pending"
+    notes: "Financial records, emails between Epstein and Jes Staley"
+
+  bureau_of_prisons:
+    name: "Bureau of Prisons Files"
+    type: "government_foia"
+    url: "https://archive.org/details/here-are-all-the-newly-released-epstein-files-from-the-bureau-of-prisons"
+    collection: "Death Investigation Records"
+    authority: "government_foia"
+    priority: 3
+    status: "pending"
+    notes: "MCC records, death investigation"
+
+  epsteindocs_info:
+    name: "epsteindocs.info Archive"
+    type: "archive"
+    url: "https://epsteindocs.info/"
+    collection: "Organized Public Archive"
+    authority: "archive"
+    priority: 5
+    status: "pending"
+    notes: "Well-organized, searchable interface - comprehensive"
+
+# Source authority levels (for version selection)
+authority_scores:
+  court_record: 10
+  government_foia: 8
+  official_release: 6
+  archive: 4
+  media: 2
+
+# Document type mappings
+document_types:
+  email:
+    indicators:
+      - "From:"
+      - "Subject:"
+      - "To:"
+      - "Date:"
+    directories:
+      - "emails"
+
+  court_filing:
+    indicators:
+      - "UNITED STATES DISTRICT COURT"
+      - "CASE NO."
+      - "PLAINTIFF"
+      - "DEFENDANT"
+    directories:
+      - "court_filings"
+
+  financial:
+    indicators:
+      - "INVOICE"
+      - "TRANSACTION"
+      - "ACCOUNT"
+      - "$"
+    directories:
+      - "financial"
+
+  flight_log:
+    indicators:
+      - "FLIGHT LOG"
+      - "PASSENGER"
+      - "TAIL NUMBER"
+    directories:
+      - "flight_logs"
+
+  address_book:
+    indicators:
+      - "CONTACT"
+      - "PHONE"
+      - "ADDRESS"
+    directories:
+      - "address_books"
+
+  fbi_report:
+    indicators:
+      - "FEDERAL BUREAU OF INVESTIGATION"
+      - "FBI"
+      - "INVESTIGATION"
+    directories:
+      - "fbi_reports"

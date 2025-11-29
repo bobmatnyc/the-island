@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_024106",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_024106.txt",
+  "text": "Methodology Used to Calculate Net Returns Numbers for Sprout Healthcare Technology\nPortfolios\n\nEstimated net returns numbers for the managed healthcare portfolio of the Sprout funds are\nbased on New Leaf’s calculations of synthetic net returns. The synthetic net returns for the\nhealthcare technology investments in each Sprout Fund are an estimate of what the net returns\nwould have been for these investments, if they had been managed in a standalone healthcare\ntechnology venture capital fund structure rather than one set of investments as part of a larger,\ndiversified venture capital fund. The synthetic net returns were computed assuming a fund\nsize required to fund 100% of the total cost of the healthcare investments in each of the Sprout\nfunds using both called and recycled capital, a management fee of 2% payable quarterly and a\ncarried interest. The net return reflects reinvestment of certain proceeds, gains and other\nproceeds by the Sprout healthcare portfolio synthetic funds to the extent permitted under the\npartnership governing documents. A detailed example of the calculation is below.\n\nSprout IX: Total actual HCT investments of $740M; 2% management fees,\nresulting in $120M of management fees and expenses from inception-to-date;\n25% carried interest; Standalone fund size of $690M ($735M investments with\ncash recycling of 6%); Total realizations have been $1,375M and total remaining\nvalue is $50M. Assumes $130M in total carried interest to GPs already paid out;\nYields Total Distributed to LPs of $1,075M ($1,375M - $120M fees - $130M carry -\n$50M recycling) / $690M = 1.56x; Yields Total Remaining to LPs of $50M /\n$690M = 0.07x\n\n95 CONTROL NUMBER 257 - CONFIDENTIAL\n\nHOUSE_OVERSIGHT_024106",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_024106.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1720,
+    "word_count": 269,
+    "line_count": 27,
+    "import_date": "2025-11-19T21:47:48.867854",
+    "prefix": "IMAGES-007"
+  }
+}

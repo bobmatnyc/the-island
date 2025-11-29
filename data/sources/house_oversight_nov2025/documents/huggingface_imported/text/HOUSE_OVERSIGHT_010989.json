@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010989",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010989.txt",
+  "text": "Basic Glossary\n\nI use standard terms when I can find them, and coin new ones like “aims” and “ends”\n\nwhen I can’t. But even standard ones are ambiguous. The vocabulary of economics is\n\nnot settled. Look up “capital” or “output” or “cash flow”, for example, in any\n\neconomic dictionary. It will show ranges of meanings, and appreciably different\n\nones from one dictionary to the next. I coped by defining as | went along, and would\n\nhave had to do the same even if this book were meant for economists only.\n\nOtherwise the ambiguities would have left loopholes.\n\nDefinitions include:\n\nAims:\n\nCapital:\n\nCash flow:\n\nEnds:\nExhaust:\nFlow:\n\nHuman capital:\n\nIncome:\n\nInvested consumption:\n\nMaximand rule:\n\nNet transfer:\n\nChapter 3: Foundations\n\nIntention to maximize the sum of current taste\nsatisfactions plus gift, plus growth in means of future\nsatisfactions and gift.\n\nMeans of aims; human plus physical capital; present\nvalue of expected cash flows.\n\nCapital passed out, in transfer or exhaust, less capital\ninserted from outside.\n\nRationale of aims; biological imperative.\n\nTermination of capital in taste satisfaction.\n\nAny process measured in capital per unit time.\n\nPresent value of skill sets; capital whose outside\noperating cost is exhausted in taste satisfaction; present\nvalue of pay less invested consumption; present cost of\npast invested consumption less pay.\n\nRights to output; equal to output.\n\nTransfer into value of human capital.\n\nAll behavior is maximization of perceived risk-adjusted\noutput and return as a flow and a rate respectively.\n\nTransfer out less transfer in.\n\n1/11/16 18\n\nHOUSE_OVERSIGHT_010989",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010989.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1621,
+    "word_count": 249,
+    "line_count": 73,
+    "import_date": "2025-11-19T21:47:44.825574",
+    "prefix": "IMAGES-001"
+  }
+}

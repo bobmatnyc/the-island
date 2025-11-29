@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015797",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015797.txt",
+  "text": "The Brain 107\n\nFunctional PET\n\nPET\n\nThe last scan we will look at is functional positron emission tomography,\nor f-PET. In this machine the scanner detects positrons given off by\nexcited oxygen atoms.\n\nAs you think, you burn glucose by combining it with oxygen.\nThe parts of the brain that are thinking hard use a great deal of oxygen\nand this shows up in scans. Again the consecutive slice trick is used to\ngenerate a 3D image that allows you to fly through the brain as it works\nona problem.\n\nThere is one problem common to all these methods. X-rays, MRI\nand PET scans only show us the location of thoughts with an accuracy\nof a few millimeters. Each pixel in the image contains around 10 million\nneurons, so we can't see the details of thought. For a scale comparison it\n\nHOUSE_OVERSIGHT_015797",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015797.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 797,
+    "word_count": 142,
+    "line_count": 22,
+    "import_date": "2025-11-19T21:47:44.596209",
+    "prefix": "IMAGES-003"
+  }
+}

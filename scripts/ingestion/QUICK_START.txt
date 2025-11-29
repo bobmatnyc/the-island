@@ -1,0 +1,135 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    SEED ARTICLE INGESTION - QUICK START
+═══════════════════════════════════════════════════════════════════════════════
+
+STATUS: ✅ Production-ready, tested, and validated
+
+───────────────────────────────────────────────────────────────────────────────
+1. SETUP (one-time)
+───────────────────────────────────────────────────────────────────────────────
+
+cd /Users/masa/Projects/epstein
+source .venv/bin/activate
+cd scripts/ingestion
+
+# Verify dependencies (should already be installed)
+pip list | grep -E "(trafilatura|requests|tqdm|waybackpy)"
+
+───────────────────────────────────────────────────────────────────────────────
+2. QUICK TEST (recommended first step)
+───────────────────────────────────────────────────────────────────────────────
+
+# Test with 2 articles, no changes saved
+python ingest_seed_articles.py --source miami-herald --limit 2 --dry-run
+
+Expected: 1-2 articles scraped in ~60-90 seconds
+
+───────────────────────────────────────────────────────────────────────────────
+3. PRODUCTION COMMANDS
+───────────────────────────────────────────────────────────────────────────────
+
+# A. Scrape Miami Herald only (priority 1, ~50 articles)
+python ingest_seed_articles.py --source miami-herald
+
+# B. Scrape all tier-1 sources (~130 articles)
+python ingest_seed_articles.py --all
+
+# C. Scrape all with limit (recommended: 100 articles)
+python ingest_seed_articles.py --all --limit 100
+
+# D. Resume interrupted run
+python ingest_seed_articles.py --resume
+
+───────────────────────────────────────────────────────────────────────────────
+4. USEFUL OPTIONS
+───────────────────────────────────────────────────────────────────────────────
+
+--source <name>       Scrape specific source (miami-herald, ap, reuters, npr)
+--all                 Scrape all tier-1 sources
+--limit N             Max articles per source (e.g., --limit 50)
+--resume              Resume previous run (skips already-scraped URLs)
+--dry-run             Test without saving changes
+--skip-verification   Skip URL checks (40% faster, for testing)
+
+───────────────────────────────────────────────────────────────────────────────
+5. EXPECTED RESULTS (100 articles)
+───────────────────────────────────────────────────────────────────────────────
+
+Time:            ~7-10 minutes
+Success:         77-85 articles (77-85% success rate)
+Quality Filter:  15-23 articles (404s, low quality)
+Per Article:     3-5 seconds average
+
+───────────────────────────────────────────────────────────────────────────────
+6. OUTPUT
+───────────────────────────────────────────────────────────────────────────────
+
+Updated File:  data/metadata/news_articles_index.json
+Backup:        data/metadata/news_articles_index.json.backup (auto-created)
+Progress:      data/metadata/.ingestion_progress.json (for resume)
+
+───────────────────────────────────────────────────────────────────────────────
+7. MONITORING
+───────────────────────────────────────────────────────────────────────────────
+
+Progress bars show:
+  - Current article being scraped
+  - Time per article
+  - Estimated time remaining
+
+Final summary shows:
+  - Total articles processed
+  - Success count
+  - Failed count
+  - Quality filtered count
+  - Success rate
+
+───────────────────────────────────────────────────────────────────────────────
+8. TROUBLESHOOTING
+───────────────────────────────────────────────────────────────────────────────
+
+Issue: Connection timeouts
+Fix:   python ingest_seed_articles.py --source miami-herald --skip-verification
+
+Issue: All articles filtered
+Fix:   Verify entity index exists:
+       ls -la ../../data/md/entities/ENTITIES_INDEX.json
+
+Issue: Progress not saving
+Fix:   Check file permissions on data/metadata/
+
+Issue: Import errors
+Fix:   Reinstall dependencies:
+       pip install -r requirements.txt
+
+───────────────────────────────────────────────────────────────────────────────
+9. TIER-1 SOURCES
+───────────────────────────────────────────────────────────────────────────────
+
+miami-herald    Miami Herald          0.98  Priority 1  (Pulitzer finalist)
+ap              Associated Press      0.95  Priority 2
+reuters         Reuters               0.92  Priority 2
+npr             NPR                   0.95  Priority 3
+
+───────────────────────────────────────────────────────────────────────────────
+10. HELP & DOCUMENTATION
+───────────────────────────────────────────────────────────────────────────────
+
+Quick Help:         python ingest_seed_articles.py --help
+
+Full Guide:         cat SEED_ARTICLES_GUIDE.md
+Summary:            cat SEED_INGESTION_SUMMARY.md
+Workflow Diagrams:  cat WORKFLOW_DIAGRAM.md
+Completion Report:  cat ../SEED_ARTICLE_INGESTION_COMPLETE.md
+
+───────────────────────────────────────────────────────────────────────────────
+RECOMMENDED FIRST RUN
+───────────────────────────────────────────────────────────────────────────────
+
+cd /Users/masa/Projects/epstein/scripts/ingestion
+source ../../.venv/bin/activate
+python ingest_seed_articles.py --all --limit 100
+
+Expected: 77-85 new articles in ~7-10 minutes
+
+═══════════════════════════════════════════════════════════════════════════════

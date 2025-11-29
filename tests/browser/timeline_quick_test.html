@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline Quick Test</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #fff;
+        }
+        #status { padding: 20px; background: #2a2a2a; border-radius: 8px; margin-bottom: 20px; }
+        #timeline-events { background: #2a2a2a; border-radius: 8px; padding: 20px; }
+        .event { padding: 15px; margin: 10px 0; background: #333; border-radius: 4px; border-left: 3px solid #4CAF50; }
+        .event-date { color: #888; font-size: 14px; }
+        .event-title { font-weight: bold; margin: 5px 0; }
+        .event-desc { color: #ccc; }
+        .error { color: #ff4444; }
+        .success { color: #4CAF50; }
+    </style>
+</head>
+<body>
+    <h1>Timeline Quick Test</h1>
+
+    <div id="status">
+        <div>Status: <span id="status-text">Initializing...</span></div>
+        <div>Container Found: <span id="container-status">Checking...</span></div>
+        <div>API Response: <span id="api-status">Waiting...</span></div>
+        <div>Events Loaded: <span id="events-count">0</span></div>
+    </div>
+
+    <button onclick="testLoadTimeline()" style="padding: 10px 20px; font-size: 16px; margin-bottom: 20px;">
+        🔄 Test Load Timeline
+    </button>
+
+    <div id="timeline-events">
+        <p style="text-align: center; color: #888;">Click the button above to load timeline</p>
+    </div>
+
+    <script>
+        console.log('🧪 Timeline Quick Test Page Loaded');
+
+        // Check if container exists on load
+        window.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('timeline-events');
+            const containerStatus = document.getElementById('container-status');
+
+            if (container) {
+                containerStatus.textContent = '✅ YES';
+                containerStatus.className = 'success';
+                console.log('✅ Container found:', container);
+            } else {
+                containerStatus.textContent = '❌ NO';
+                containerStatus.className = 'error';
+                console.error('❌ Container not found!');
+            }
+
+            document.getElementById('status-text').textContent = 'Ready';
+        });
+
+        async function testLoadTimeline() {
+            console.log('🔍 testLoadTimeline() called');
+
+            const statusText = document.getElementById('status-text');
+            const apiStatus = document.getElementById('api-status');
+            const eventsCount = document.getElementById('events-count');
+            const container = document.getElementById('timeline-events');
+
+            try {
+                // Step 1: Check container
+                statusText.textContent = 'Checking container...';
+                console.log('📦 Container check:', container);
+
+                if (!container) {
+                    throw new Error('Container #timeline-events not found!');
+                }
+
+                // Step 2: Show loading
+                statusText.textContent = 'Loading from API...';
+                container.innerHTML = '<p style="text-align: center; color: #888;">⏳ Loading timeline events...</p>';
+
+                // Step 3: Fetch from API
+                console.log('📡 Fetching /api/timeline');
+                const response = await fetch('/api/timeline');
+                console.log('📊 Response:', response.status, response.statusText);
+
+                if (!response.ok) {
+                    throw new Error(`API returned ${response.status}: ${response.statusText}`);
+                }
+
+                apiStatus.textContent = `✅ ${response.status} OK`;
+                apiStatus.className = 'success';
+
+                // Step 4: Parse JSON
+                statusText.textContent = 'Parsing response...';
+                const data = await response.json();
+                console.log('✅ Data received:', data);
+                console.log('📊 Events count:', data.events?.length || 0);
+
+                eventsCount.textContent = data.events?.length || 0;
+
+                if (!data.events || data.events.length === 0) {
+                    container.innerHTML = '<p style="text-align: center; color: #ff4444;">No events found in API response</p>';
+                    statusText.textContent = 'No events found';
+                    return;
+                }
+
+                // Step 5: Render events
+                statusText.textContent = 'Rendering events...';
+                console.log('🎨 Rendering', data.events.length, 'events');
+
+                const html = data.events.map(event => `
+                    <div class="event">
+                        <div class="event-date">${event.date || 'No date'}</div>
+                        <div class="event-title">${event.title || 'No title'}</div>
+                        <div class="event-desc">${event.description || 'No description'}</div>
+                    </div>
+                `).join('');
+
+                container.innerHTML = html;
+                statusText.textContent = `✅ Loaded ${data.events.length} events successfully!`;
+                statusText.className = 'success';
+
+                console.log('✅ Timeline rendered successfully');
+
+            } catch (error) {
+                console.error('❌ Error:', error);
+                statusText.textContent = `❌ Error: ${error.message}`;
+                statusText.className = 'error';
+                apiStatus.textContent = `❌ ${error.message}`;
+                apiStatus.className = 'error';
+
+                if (container) {
+                    container.innerHTML = `<p class="error">Error: ${error.message}</p>`;
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019877",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019877.txt",
+  "text": "LITTLE, BROWN\n\nFirst published in the United States in 2018 by Henry Holt and Company\nFirst published in Great Britain in 2018 by Little, Brown\n\nCopyright © 2018 by Michael Wolff\nThe moral right of the author has been asserted.\nDesigned by Meryl Sussman Levavi\nAll rights reserved.\n\nNo part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means,\nwithout the prior permission in writing of the publisher, nor be otherwise circulated in any form of binding or cover\nother than that in which it is published and without a similar condition including this condition being imposed on the\n\nsubsequent purchaser.\n\nA CIP catalogue record for this book\nis available from the British Library.\n\nISBN 978-1-4087-1138-5\nLittle, Brown\nAn imprint of\nLittle, Brown Book Group\nCarmelite House\n50 Victoria Embankment\nLondon EC4Y 0DZ\nAn Hachette UK Company\nwww.hachette.co.uk\n\nwww.littlebrown.co.uk\n\nHOUSE_OVERSIGHT_019877",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019877.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 962,
+    "word_count": 151,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:44.346894",
+    "prefix": "IMAGES-005"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025498",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025498.txt",
+  "text": "Is Read: No\nIs Invitation: No\n\nGUID: 09741C62-DAD0-40A8-81D5-C5BC9F690A11\n\nMessage: Breakfast tues?\n\nTime: 06/07/19 03:24:47 AM (581595887)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 47055D51-354D-477D-9C62-735FC2D476BC\n\nMessage: Yes and if we can figure everything out let's film as much as we can\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/07/19 04:07:50 PM (581641670)\nFlags: 1085445\nIs Read: No\n\nIs Invitation: No\n\nGUID: 53907020-F9A8-4AEB-8FE3-9A9E04A35644\n\nMessage: Im watching the gold market. I think china is playing\n\nSender: i’\nTime: 06/07/19 04:51:19 PM (581644279)\n\nFlags: 1126401\nIs Read: Yes\nIs Invitation: No\n\nGUID: 96F49A76-9113-490D-B37F-E26A28615B5C\n\nMessage: 9 June Hong Kong\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/07/19 05:58:35 PM (581648315)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 86724EBB-DCA5-4BC9- 9328-7 9A4D4F07328\n\nMessage: ?\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/07/19 06:00:13 PM (581648413)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nHOUSE_OVERSIGHT_025498",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025498.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1022,
+    "word_count": 129,
+    "line_count": 64,
+    "import_date": "2025-11-19T21:47:48.704870",
+    "prefix": "IMAGES-008"
+  }
+}

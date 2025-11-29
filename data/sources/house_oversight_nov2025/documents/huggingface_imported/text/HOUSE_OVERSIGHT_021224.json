@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_021224",
+  "filename": "IMAGES-006-HOUSE_OVERSIGHT_021224.txt",
+  "text": "Sidney Hillman Foundation Names Winners of 2019 Prizes\nfor Journalism in Service of the Common Good\nReuters, NBC News and MSNBC, ProPublica Receive Honors; Adam Serwer to\n\nreceive Opinion & Analysis Prize\n\nNEW YORK -— The Sidney Hillman Foundation announced Tuesday winners of the 69th annual\nHillman Prizes, recognizing a Reuters exposé of slum-like living conditions on U.S military\nbases, the Miami Herald’s investigation into Labor Secretary Alex Acosta’s sweetheart deal with\nserial sex abuser, Jeffrey Epstein, and NBC News and MSNBC’s reporting on the Trump\nAdministration’s family separation policy, among other standout reporting in service of the\n\ncommon good.\n\nHOUSE_OVERSIGHT_021224",
+  "metadata": {
+    "original_filename": "IMAGES-006-HOUSE_OVERSIGHT_021224.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 694,
+    "word_count": 101,
+    "line_count": 15,
+    "import_date": "2025-11-19T21:47:48.998367",
+    "prefix": "IMAGES-006"
+  }
+}

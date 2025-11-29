@@ -1,0 +1,69 @@
+Source 8 H\Macintosh HD\root\Users\jee\Library\Messages\Archive\2018-08-06\
+
+on 2018-08-01 at 09.52.44.ichat
+
+Service: iMessag
+
+Start Time: 08/01/18 06:52:44 AM (554824364)
+End Time: 08/06/18 06:52:57 PM (555299577)
+Last Message ID: 18493
+
+Chat Room:
+
+Messages -
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 08/01/18 06:52:44 AM (554824364)
+Flags: 1085445
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: 39B77186-B7F8-4890-B9FB-987B7D66A580
+
+Message: Tommy Robinson. !! good work
+
+Time: 08/01/18 06:56:46 AM (554824606)
+Flags: 1060865
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: C8533ED3-DBED-4C76-A3B2-3F04CDB62086
+
+Message: Thanks
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 08/01/18 02:18:53 PM (554851133)
+Flags: 1150981
+
+Is Read: No
+
+Is Invitation: No
+
+GUID: 92EF7FEA-8354-460D-B046-011C0CC03984
+
+Message: Want to visit Florida for weekend?
+to catch up on
+
+sender:
+
+Time: 08/01/18 02:19:44 PM (554851184)
+Flags: 1060865
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 6A2D0FE6-1C4F-4AA2-94BA-AFODO956A61F
+
+Message: Cool
+
+Presentity IDs: e:jeeitunes@gmail.con, i!
+
+lets talk today or tomorrow . Lots
+
+HOUSE_OVERSIGHT_027374

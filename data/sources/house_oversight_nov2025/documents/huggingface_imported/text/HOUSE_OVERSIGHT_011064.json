@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011064",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011064.txt",
+  "text": "parameter typically fluctuates around zero and group fitness holds about where it\n\nstarted.\n\nHamilton’s rule, applied to diploids like us where closest relatedness r absent\ninbreeding is %, forbids investment where fitness gained (benefit) is less than twice\nfitness given up (cost). I see no escape from the inference that fitness would double\nwith each generation, or more to account for cases where relatedness fell below ¥%. |\nsee no relief in an interpretation, say, that each successive generation cures this\nimbalance by investing only half or less of its fitness and letting the rest lapse.\nFitness is likelihood of leaving descendants of equal fitness. It is not strictly\nconserved, because likelihood is generally not identical to outcome. There is ex ante\nand ex post fitness. But the ex ante kind is meaningless unless potency, in Aristotle’s\nterms, is expected to converge to act. Hamilton’s rule should not have escaped this\n\ncritique for half a century. It clearly has merit, but needs some different expression.\n\nSuch a reformulation might treat rb/c as a maximand within practical constraints.\nWe can see how it might be by looking at the context. Darwin’s idea is a competition\nfor breeding success. This biological imperative is a powerful predictor in nature. It\npredicts that traits are selected for successful reproduction to the exclusion of all\nelse. Evidence is impressive. “Semelparous” creatures who breed only once and do\nnot invest postpartum care, like salmon and soybeans, die within hours. An octopus\nmother breeds only once, cares for her young a few weeks, and dies as they disperse.\nNature is on a tight budget. Resources wasted soon become resources lost to\n\nthriftier lineages.\n\nHamilton saw this. He was right in stressing the role of competition among\nindividuals and individual heritable traits. Darwin did the same. One thing\nHamilton’s rule leaves out, which is not to claim that he overlooked it, is that traits\nand their genes best at prioritizing self-replication might for that reason hurt\nchances of achieving it. We know this happens. Human tradition everywhere resists\n\nand punishes nepotism when it crosses a line. Jane Goodall reported the same for\n\nChapter 7 Petty’s Idea 2/3/16 5\n\nHOUSE_OVERSIGHT_011064",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011064.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2256,
+    "word_count": 361,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:44.095013",
+    "prefix": "IMAGES-001"
+  }
+}

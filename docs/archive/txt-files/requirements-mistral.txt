@@ -1,0 +1,28 @@
+# Mistral Entity Disambiguation Requirements
+# Install with: pip install -r requirements-mistral.txt
+
+# Core dependencies
+transformers>=4.36.0
+torch>=2.1.0
+accelerate>=0.25.0
+
+# Optional: For better performance
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# System requirements:
+# - Python 3.9+
+# - 16GB+ RAM recommended
+# - GPU highly recommended (10x speedup)
+#   - CUDA 11.8+ for NVIDIA GPUs
+#   - Apple Silicon Macs use MPS automatically
+
+# Installation notes:
+# 1. For Apple Silicon (M1/M2/M3):
+#    pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
+#
+# 2. For NVIDIA GPUs:
+#    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# 3. For CPU-only (slower):
+#    pip install torch torchvision torchaudio

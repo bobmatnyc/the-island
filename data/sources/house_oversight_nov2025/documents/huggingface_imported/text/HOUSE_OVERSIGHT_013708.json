@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013708",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013708.txt",
+  "text": "state for very long, spontaneously and irregularly jumping from one unstable\ndynamical state to another (1997). This suggests that meaningful tension between\nexperimental sample lengths long enough to minimize statistical error and short\nenough to be stationary may be, for the biological sciences, more apparent than\n\nrelevant.\n\nThe studies reviewed below exploit measures arising from the view that the\nnoisy statistics of nonstationarity in biological processes are not a sign of\nmeasurement error, but rather evidence consonant with the statistical physics of\nnonequilibrium states and phase transitions (Stanley, 1971; Stauffer, 1985;\nYeomans, 1993). Very high amplitude fluctuations and multiple, up to infinite,\ncorrelation lengths are characteristic of the normal, on-going biological dynamical\nbehaviors, which are apparently without characteristic amplitude and time scales.\nFrom this point of view, if most or all information is widely distributed in the brain\n(e.g., serial order of visual tasks involving motor cortical neurons, Carpenter et al,\n1999) ) then the “binding problem” (see above) could also be solved by multiple, up\nto infinite spatial and temporal correlation lengths in place of the current theories of\nmonofrequency resonances (Singer, 1993). Hierarchical neurodynamical\nmechanisms communicating across many mechanistic temporal and spatial scales,\nbrain information transport analogous to the energy cascade of hydrodynamic\nturbulent velocities (Tennekes and Lumley, 1972), would be likely in the parametric\n\nvicinity of incipient bifurcations and phase transitions.\n\nThree closely related techniques for quantifying the systematic changes in\naverage fluctuation amplitudes with n (scale, sample length) involve a “power law,”\nlinear slope relationship between the logarithm of an index of variability and the\nlogarithm of sample segment sizes. These easy, yet powerful methods were\nbrought to experimentalists’ attention by Benoit Mandelbrot (Montroll and Badger,\n1974; Mandelbrot, 1983; Fedor, 1988; Bassingthwaighte et al, 1994; Liebovitch,\n1998). To estimate the exponent in Hurst rescaled range analysis, we compute the\nstandard deviation and the range of the deviation of the running sum from the mean\non sequential subsamples of increasing size. The Hurst power law exponent is the\n\nslope of the straight line formed by graphing the logarithm of the subsample length\n\n208\n\nHOUSE_OVERSIGHT_013708",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013708.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2433,
+    "word_count": 347,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:45.467755",
+    "prefix": "IMAGES-002"
+  }
+}

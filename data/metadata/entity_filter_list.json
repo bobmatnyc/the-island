@@ -1,0 +1,55 @@
+{
+  "filtered_entities": {
+    "gender_descriptors": [
+      "Male (1)",
+      "Male (2)",
+      "Male (3)",
+      "Female (1)",
+      "Female (2)",
+      "Female (3)",
+      "Female (4)",
+      "Man",
+      "Woman"
+    ],
+    "generic_roles": [
+      "Nanny (1)",
+      "Nanny (2)",
+      "Driver",
+      "Pilot",
+      "Steward",
+      "Stewardess",
+      "Assistant",
+      "Secretary"
+    ],
+    "ambiguous_terms": [
+      "Unknown",
+      "Unnamed",
+      "Redacted",
+      "Unidentified",
+      "N/A",
+      "TBD"
+    ],
+    "generic_titles": [
+      "Mr",
+      "Mrs",
+      "Ms",
+      "Dr",
+      "Prof",
+      "Sir",
+      "Lady"
+    ]
+  },
+  "filtering_rationale": "These terms cannot be disambiguated to specific individuals. They represent generic descriptors, roles, or placeholders used in source documents when full names were unavailable. Including them in the entity network creates misleading nodes and connections that don't represent actual people.",
+  "metadata": {
+    "created": "2025-11-17",
+    "last_updated": "2025-11-17",
+    "total_filtered": 17,
+    "filter_version": "1.0"
+  },
+  "notes": {
+    "gender_descriptors": "Used in flight logs when passenger names were not recorded, only gender noted",
+    "generic_roles": "Occupational descriptors used without names (e.g., 'Nanny (1)' from flight logs)",
+    "ambiguous_terms": "Placeholder values that cannot identify specific individuals",
+    "generic_titles": "Honorifics without accompanying names (should only be filtered if standalone)"
+  }
+}

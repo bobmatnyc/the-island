@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015694",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015694.txt",
+  "text": "Kasparov versus Deep Blue\n\n“The Three Laws of Robotics:\n\n1. A robot may not injure a\nhuman being or, through\ninaction, allow a human\nbeing to come to harm;\n\n2. A robot must obey the orders\ngiven it by humanbeings\nexcept where such orders\nwould conflict with the First\nLaw;\n\n3. A robot must protect its own\nexistence as long as such\nprotection does not conflict\nwith the First or Second Law.\nThe Zeroth Law: A robot may\nnot harm humanity, or, by\ninaction, allow humanity to\ncome to harm.”\n\nIsaac Asimov, I, Robot\n\nHOUSE_OVERSIGHT_015694",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015694.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 535,
+    "word_count": 95,
+    "line_count": 27,
+    "import_date": "2025-11-19T21:47:45.910379",
+    "prefix": "IMAGES-003"
+  }
+}

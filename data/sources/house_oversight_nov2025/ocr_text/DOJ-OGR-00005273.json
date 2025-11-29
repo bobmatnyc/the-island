@@ -1,0 +1,17 @@
+{
+  "source_pdf": "DOJ-OGR-00005273.pdf",
+  "ocr_date": "2025-11-16T21:03:56.636527",
+  "text_length": 1580,
+  "is_email": true,
+  "email_confidence": 0.8999999999999999,
+  "email_addresses": [
+    "NathanNYSDChambers@nysd.uscourts.gov",
+    "matthew.lee@innercitypress.com",
+    "ShaynaJacobs@washpost.com",
+    "pete.brush@law360.com",
+    "thays@ap.org",
+    "NathanNYSDChambers@nysd.uscourts",
+    "adamklasfeld@lawandcrime.com",
+    "newyork@courthousenews.com"
+  ]
+}

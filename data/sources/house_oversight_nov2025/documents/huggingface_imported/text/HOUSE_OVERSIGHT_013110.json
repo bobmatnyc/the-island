@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013110",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013110.txt",
+  "text": "194 11 Stages of Cognitive Development\n\nPiaget Meets Uncertain Inference\n\nFull self modification\n\nCapable of self-modification of internal structures\nAble to carry out arbitary complex inferences (constrained\nFormal only by computational resources) via including inference control\nas an explicit subject of abstract learning\n\nAble to carry out more complex chains of reasoning via using\nConcrete inference control schemata that adapt behavior based on experience\n\n(reasoning about a given case in a manner similar to prior cases)\n\nAble to recognise patterns in and make inferences about the\nInfantile world, but only using simplistic hard-wired (not experientially learned)\n\ninference control schema.\n\nFig. 11.2: Piagetan Stages of Development, as Manifested in the Context of Uncertain Inference\n\nAn uncertain inference system, as we consider it here, consists of four components, which\nwork together in a feedback-control loop 11.3\n\na content representation scheme\n\nan uncertainty representation scheme\na set of inference rules\n\na set of inference control schemata\n\nmw N\n\nU7 4 y .\n™ Inference\nRule 1\nwan\nPrior\n\n| . Experience\ni\n\n\\ Weighted Best }\n\nChoice Control\n\nSchema\n\nInference Control\nSchemata 1\n\nCognitive Action Is\nTaken\n\n‘Inference Control (=~\nSchemata 2\n\nInference Control\nSchemata N\n\nFig. 11.3: A Simplified Look at Feedback-Control in Uncertain Inference\n\nHOUSE_OVERSIGHT_013110",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013110.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1391,
+    "word_count": 204,
+    "line_count": 65,
+    "import_date": "2025-11-19T21:47:47.058371",
+    "prefix": "IMAGES-002"
+  }
+}

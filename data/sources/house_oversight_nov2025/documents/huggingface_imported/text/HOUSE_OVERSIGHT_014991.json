@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014991",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014991.txt",
+  "text": "Chart 29: The ratio of AS51 3M ATM IV over HSCEL is at its 4-yr high Table 8: Index pairs‘ with the highest implied vol ratio vs their histories\n\n(Daily data from 1-Oct-12 through 16-Jun-17) (data as of 16-Jun-17)\nm= AS51 BMATM Vol «= == HSCEIATMvol = Vol ratio Index A Index B AIB Implied Ratio 4-yr\nA5Y% 0.90 (Implied vol} — (Implied Vol} Vol ratio —_ percentile\n° ‘ 3M ATM AS5 8% HSCEI (15.0% 0.79 100%\n40% 6M ATM KOSPI2 (13.2%) HSCEI (17.1% 0.77 98%\n359% 2M ATM KOSPI2 (14.6%) NIFTY (14.0%) 1.04 98%\n‘0\nSB 30% 3M 25d-Put AS51 (13.8% HSCEI (16.3% 0.85 99%\n2 2 6M 25d-Put KOSPI2 (14.4%) HSCEI (18.7% 077 98%\n2 25% & 2M 25d-Put = KOSPI2 (16.0%) HSCEI (20.5% 0.78 99%\nE 20%\n3M 25d-Call AS51 (10.9% HSCEI (15.0% 0.73 99%\n15% 6M 25d-Call KOSPI2 (12.8%) NKY (14.4%) 0.89 98%\n40% 2M 25d-Call KOSPI2 (14.2%) NIFTY (12.2%) 1.16 98%\n° Source: BofA Merrill Lynch Global Research\n5% * Index universe includes the ASX200, HSCEI, HSI, KOSPI2, NIFTY, NKY, TWSE, SPX and SX5E\na a oo a a a ee mid level implied vol\nise] iss} o oO D o ise] D o ise] D o ise] oO\n> Sao 7 SYN FT EH FEY FOS\nSource: BofA Merrill Lynch Global Research\n20 Global Equity Volatility Insights | 20 June 2017 Bankof America\n\nMerrill Lynch\n\nHOUSE_OVERSIGHT_014991",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014991.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1220,
+    "word_count": 233,
+    "line_count": 27,
+    "import_date": "2025-11-19T21:47:46.307697",
+    "prefix": "IMAGES-003"
+  }
+}

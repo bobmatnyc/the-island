@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-11-20T22:39:53.026Z",
+  "baseUrl": "http://localhost:5173",
+  "results": [
+    {
+      "test": "Entities Page - Grid View",
+      "status": "FAIL",
+      "error": "No entity names found on page - check selectors",
+      "issues": []
+    },
+    {
+      "test": "Entity Detail Page",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.entity-card, [class*=\"entity-card\"]').first()\u001b[22m\n",
+      "issues": []
+    },
+    {
+      "test": "Timeline Page",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "test": "Network Graph Page",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "test": "Flights Page",
+      "status": "PASS",
+      "issues": []
+    }
+  ],
+  "issues": [],
+  "summary": {
+    "totalTests": 5,
+    "passed": 3,
+    "failed": 2,
+    "issuesFound": 0
+  }
+}

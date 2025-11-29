@@ -1,0 +1,40 @@
+Fed =< Invoice Number: 4-443-36929
+2 Invoice Date: Nov 08, 2002
+Account Number: 2292-0750-4
+Page: 3 of 4
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Oct 30, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+
+Distance Based Pricing, Zone 5
+Tracking D 838319149440 Sender Recipient
+Service Type FedEx Standard Overnight DARREN INDYKE JIM MOORE
+Package Type FedEx Envelope NYSG LLC MOORE CLARKE DUVALL & RODGERS
+Zone 5 457 MADISON AVE Fo
+Packages 1 NEW YORK NY 10022-6843 US Po
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Oct 31, 2002 10:18 Transportation Charge 694
+Sve Area AA Fuel Surcharge 021
+Signed by C.BREEDEN ——EE——— SSS
+FedEx Use  306075130/06964/_ Total Transportation Charges USD $ 7.15
+Picked up: Oct 31, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 3.00% to this shipment.
+
+Distance Based Pricing, Zone 4
+Tracking D 838319149418 Sender Recipient
+Service Type FedEx Standard Overnight LAUREN KW NTNER PEG UGLAND
+Package Type FedEx Envelope NYSG LLC N A PROPERTY INC
+Zone 457 MADISON AVE a
+Packages 1 NEW YORK NY 10022-6843 US Po
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Nov 01, 2002 10:12 Transportation Charge 6.45 =
+Sve Area A2 Fuel Surcharge 019 ==
+Signed by D.OAKLEY oa——_— OO
+FedEx Use  306075230/06963/_ Total Transportation Charges USD $ 6.64 =
+
+Shipment Detail Subtotal ............cscsessessessessessssessessessessesseeseesesseeseeseneesssssessesseeseeaeeaeeaeeeeeeeeee OD § 13.79 =
+SDNY_GM_00340630 11
+DOJ-OGR-00015320

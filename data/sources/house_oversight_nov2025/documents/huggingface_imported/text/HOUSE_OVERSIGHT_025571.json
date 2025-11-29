@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025571",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025571.txt",
+  "text": "Morgan Stanley | RESEARCH\n\nNORTH AMERICA INSIGHT ~~\n\nAppendix A: Company Scenario Analysis\n\nIn the following tables, we flex the inputs in our SOTP\nvaluation methodology to take a look at the potential\nimpact at varying fee related earnings multiples and\nmultiples on future carry. We use the same assumptions\nthat we used in our upside scenario above, including a fully\ntaxed (@24%) net carry receivable value as well as using a\nmultiple on after tax net carry per share for future perform-\nance fees.\n\nFor fee-related earnings, we use constant multiples for all com-\npanies. We begin with 12.5x, a slight discount to where the traditional\nasset managers trade today, and end at 30x, or closer to our bond\n\nyield cap rate multiple approach.\n\nOn performance fees, we set the mid point at our estimate for the\ncurrent market implied multiple on performance fees (using a 15x\nFRE as our starting point), as explained in our valuation methodology\n\nabove.\n\nHOUSE_OVERSIGHT_025571",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025571.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 975,
+    "word_count": 161,
+    "line_count": 28,
+    "import_date": "2025-11-19T21:47:47.374868",
+    "prefix": "IMAGES-008"
+  }
+}

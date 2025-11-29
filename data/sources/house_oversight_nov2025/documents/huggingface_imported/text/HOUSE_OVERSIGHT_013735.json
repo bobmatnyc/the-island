@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013735",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013735.txt",
+  "text": "(Edwards and Griffith, 1997). The role of central and autonomic innervation in\ncardiac interval dynamics has been explored using D2 in various ways. For\nexamples, the transplanted heart rhythm in man has a lower Dz than that of the\nnormal heart (Guzzetti et al, 1996) and general anesthesia and cholinergic (but not\nB-adrenergic) blockade decreased multisystem Dz in a series of multiparameter\n(respiration, mean blood pressure and heart rate) studies in piglets (Zwiener et al,\n1996; Hoyer et al, 1998).\n\nThe activities of single and aggregates of neurons are being described and\ndifferentiated by the D2 of their interevent interval attractors. Early and important\nstudies related to both neuronal and field electrical activity indicated their promise\n(Rapp et al, 1985; Zimmerman and Rapp, 1991). The olefactory bulb demonstrated\nspatially uniform scaling dimensions that changed with event-related perturbation\n(Skinner et al, 1990). An iron-induced spiking focus in the rat hippocampus in vivo\nmanifested the same decrease in D2 as it did in the kindled in vitro hippocampal\nslice (Koch et al, 1992). D2 also differentiated among characteristic single unit time\nseries in norepinephrine, dopamine and serotonin neurons (Selz and Mandell,\n1991) and among A8, A9 and A10 dopamine neurons (Selz and Mandell, 1992).\nAttractors reconstructed from single unit interspike intervals in the substantia nigra\npars compacta and the auditory thalamus manifested discriminatable values for D2\nin neurons recorded by the same electrode (Celletti and Villa, 1996) and changes in\nstate manifested in patterns of subthreshold oscillations in single neurons in the\ninferioir olivary nucleus could be characterized using this index (Makarenko and\nLlinas, 1998).\n\nDz reliably discriminated between states of arousal and between the\nmultiparameter (eye movements, neck muscle tone, EEG stage) defined EEG\nstages of sleep (Bablyoyantz, 1986; Rapp et al, 1989; Ehlers et al, 1991) with non-\nREM having a lower Dz than REM. Dz of the EEG record was selectively reduced in\nStage Il and REM in schizophrenic patients compared with controls (Roschke and\nAldenhoff, 1993), this difference was made more prominent by treatment with the\n\naminodiazopoxide, lorazepam (Roschke and Aldenhoff, 1992). In the waking state,\n\n235\n\nHOUSE_OVERSIGHT_013735",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013735.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2321,
+    "word_count": 350,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:45.275709",
+    "prefix": "IMAGES-002"
+  }
+}

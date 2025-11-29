@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00001729",
+  "email_index": 11,
+  "extracted_at": "2025-11-17T04:14:45.438253",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "Counsel of Record (via ECF) DOJ-OGR-00001729",
+  "subject": null,
+  "date": "08/17/20",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "jpagliuca@hmfilaw.com"
+  ]
+}

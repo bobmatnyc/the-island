@@ -1,0 +1,12 @@
+{
+  "source_pdf": "DOJ-OGR-00010743.pdf",
+  "ocr_date": "2025-11-16T21:18:18.468383",
+  "text_length": 338,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "brittany@epllc.com",
+    "brad@epllc.com",
+    "ecf@epllc.com"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026158",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_026158.txt",
+  "text": "Administrative and -6 -6 -6 -4 -12 -11\n\nother operating\n\ncosts\n\nOther provisions 0 0 -4 -0 1 -0\n\nGeneral & Admin. -18 -16 -17 -9 -31 -27\n\nExpenses\n\nPre Provision 20 25 6 -19 39 35\n\nIncome\n\nProvision for loan -9 -56 -5 20 22 -10\n\nimpairment\n\nProfit before tax 11 -31 1 1 61 25\n\nIncome tax expense -2 -0 -1 -0 -11 -2\n\nNet profit 8 -31 1 1 50 23\n25\n\nHOUSE_OVERSIGHT_026158",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_026158.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 369,
+    "word_count": 76,
+    "line_count": 28,
+    "import_date": "2025-11-19T21:47:44.931415",
+    "prefix": "IMAGES-008"
+  }
+}

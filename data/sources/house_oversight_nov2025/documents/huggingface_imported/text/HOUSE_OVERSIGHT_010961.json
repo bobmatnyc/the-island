@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010961",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010961.txt",
+  "text": "period approaches zero. Depreciation increases absolutely each year, and increases\n\neven faster in ratio to capital.\n\nWhat | have just modeled is depreciation rising exponentially from zero at the start\nto a maximum at the end. National accounts show the exact opposite. They show it\ndecreasing exponentially from a maximum at the start. The reason for the difference\nis instructive. I would rather trust the present value formula to show what assets\nare worth subjectively to their owners. The national accounts prefer to trust\nevidence as to what they are worth to others if sold. That’s a solid method too if the\nevidence is likely to prove representative. It isn’t in cases where transactions are\nmore likely to have been driven by pressure to sell than pressure to buy. Plant is\ngenerally tailored to purposes of its first owner, and not meant to be resold. Plant\nsales tend to follow disappointing results. These are likelier to come early as\nbusiness plans are first tested. That could explain why evidence without logic has\n\nsuggested that depreciation tends to start fast and slow down with time.\n\n] would recommend that national accounts continue tracking actual sales as an\nindicator of true depreciation curves, but limit the study to rental buildings\nexpected from the start to be resold several times. | mean apartment buildings,\noffice buildings and warehouses designed along standard lines. Many investors\nspecialize in buying and selling these tradable assets for portfolio purposes.\n\nPressure to buy and pressure to sell tend to balance.\n\nI can testify that prices bid for them are found either by discounted cash flow or\ninternal rate of return (IRR) methods. IRR is a variant of the same thing. A bid price\nis modeled as the original negative cash flow in evaluating the proposed purchase.\nThen the positive cash flows at each year’s end are modeled, and the discount rate\nfound which nets present value of all flows together to zero. If this rate is judged\ncompetitive, the purchase goes ahead. This method was originated by Keynes in the\n\nGeneral Theory as his “marginal product of capital”.\n\nChapter 2: Fast Forward 1/06/16 21\n\nHOUSE_OVERSIGHT_010961",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010961.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2173,
+    "word_count": 357,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:45.147899",
+    "prefix": "IMAGES-001"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013611",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013611.txt",
+  "text": "In addition to H7, Hy and AC, if computable in a meaningful way, the\ndeviation of the binary series under study from the idealized random behavior of a\nfair coin could serve as another index of complexity. Common descriptions of the\namount of randomness in a series are indices of run length If a run length is defined\nby number of elements in a series of the same symbol before it stops, counting the\nnumber of run boundaries by reading along the binary series and counting the\nnumber of switches from 0 —+1 or 1 — 0, then the binary expression of 729,\n1011011001, has six runs. The great analytic probabilist, William Feller, among\nmany others, including the distinguished 18 Century Swiss family of\nmathematicians, the Bernoulli's, proved that computing a standard run score, srs,\ninvolves three terms, the theoretical expectation, E, of the number of runs, r, that is\nE(r), the number of runs actually observed, Obs(r) and the variance of the\nexpectation of the number of runs, Var( E(r). If the srs is less than zero, then the\nbinary series is more random than that resulting from the flipping of a fair coin.\nInterestingly, when a normal group of subjects are instructed to simulate what they\nthink of as a random coin flip determined series of 0’s and 1’s, their srs tends to be\nlower than zero, over-estimating the degree of irregularity that randomness\nrepresents. Long runs occur by chance far more often than intuition would dictate. If\nsrs is more than zero, than the binary, coin-flip series is more ordered than random.\nIf srs equal to zero, the binary series is not discriminable from fair coin flipping\nrandomness.\n\nThe expected number of runs, E(r), can be estimated by a fraction formed by\ntwice the product of the number of heads times tails divided by the sum of the\n\n2x6x4\n\nheads and tails to which is added one. That is, E(r) = ZA\n+\n\n+1=5.8. The average\n\nvariation around this expectation called the variance, Var, of the expectation,\nVar(E(r)), is estimated by a fraction formed by (take a breath) twice the product of\nthe number of heads times tails x twice the product of the number of heads times\ntails minus the number of heads and minus the number of tails, all over the product\n\nof the sum of the heads and tails squared, times the sum of the number of heads\n\n111\n\nHOUSE_OVERSIGHT_013611",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013611.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2316,
+    "word_count": 406,
+    "line_count": 42,
+    "import_date": "2025-11-19T21:47:48.802507",
+    "prefix": "IMAGES-002"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_020243",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_020243.txt",
+  "text": "91\n\ndownloads. Making the transfer even more difficult, he was working as an analyst-in-training in an\nopen-plan office with security CCTV camera.\n\nTo be sure, there were also service computers with open ports used by the system\nadministrators. They, after all, had to perform maintenance and back-up work. Even though\nSnowden was no longer a system administrator, he might still have been able to steal or borrow a\nservice computer. Yet, despite all the NSA’s and Booz Allen’s security measures, he managed\nto download hundreds of thousands of level 3 documents to an unsealed computer.\n\nHe also took some less-sensitive documents from the administrative file (which contained\nmainly Level 1 documents) at the end of April. These late acquisitions included the now famous\nwarrant from the FISA court issued on April 25 2013.\n\nHe completed the operation on Friday May 17, 2013, the last day he would ever enter the NSA\nfacility. He transferred the data he had amassed on the service computer, including the lists of the\ncomputers in Russia and China that the NSA had succeeded in penetrating, onto thumb drives.\nFinally, he coolly walked past the security guards at the exit, who only seldom performed random\nchecks on NSA employees.\n\nHe had carried out the entire operation with such brilliant stealth he left few, if any clues behind\nto how obtained 24 of his colleagues’ passwords, moved the data from many different\nsupposedly-sealed computers to an opened service machine or how he downloaded these\ndocuments to multiple thumb drives without arousing suspicion. In fact, the theft would not be\ndiscovered by the NSA for fifteen days.\n\nHis escape was also well-prepared. Lindsay Mills had departed that morning for a planned two\nweek visit to the outer islands. This trip allowed him to pack his belongings without saying\nanything to her that might be difficult to explain to the authorities. He simply left a note she would\nsee on her return, and could show to authorities saying that he was away on a “business trip.” He\nalso called to say good-bye to his mother and sister, who had been planning to visit him in Hawaii\nthat month.\n\nHOUSE_OVERSIGHT_020243",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_020243.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2161,
+    "word_count": 360,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:47.323370",
+    "prefix": "IMAGES-005"
+  }
+}

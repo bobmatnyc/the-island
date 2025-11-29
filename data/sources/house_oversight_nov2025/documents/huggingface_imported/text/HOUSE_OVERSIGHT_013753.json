@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013753",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013753.txt",
+  "text": "Babloyantz, A., Destexhe, A. (1986) Low dimensional chaos in an instance of\nepilepsy. Proc. Natl. Acad. Sci. 83:3513-3517.\n\nBaker, G.L., Gollub, J.P. (1991) Chaotic Dynamics; An Introduction. Cambridge\n\nUniversity Press. Cambridge\n\nBassingthwaighte, J., Liebovitch, L., West, B. (1994) Fractal Physiology. Oxford\nUniversity Press. Oxford.\n\nBayne,W.F., Hwang, S.S. (1985) Effect of nonlinear protein binding on equilibration\ntimes for different initial conditions. J Pharm Sci 74:120-123\n\nBazhenov, M., Timofeev, |., Steriade, M., Sejnowski, T.J. (1998) Computational\n\nmodels of thalamocortical augmenting responses. J. Neurosci. 18:6444-6465\n\nBennett, C.H. (1982) Thermodynamics of computation; A review. Intl. J. Theor.\nPhys. 21:905-946\n\nBennett, C.H. (1986) On the nature and origin of complexity in discrete,\n\nhomogeneous, locally-interacting systems. Found. Phys. 16:585-604\n\nBeard, D.A., Bassingthwaighte, J.B. (1998) Power-law kinetics of tracer washout\n\nfrom physiological systems. Ann Biomed Eng 26:775-779\n\nBerge’,P., Pomeau, Y., Vidal, C. (1984) Order Within Chaos. Wiley-Interscience.\nN.Y.\n\nBerlin, Yu. A., Miller, J.R., Plonka, A. (1996) Rate Processes with Kinetic\n\nParameters Distributed over Time and Space. Chem. Physics 212: Special Issue\n\n253\n\nHOUSE_OVERSIGHT_013753",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013753.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1284,
+    "word_count": 166,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:44.965684",
+    "prefix": "IMAGES-002"
+  }
+}

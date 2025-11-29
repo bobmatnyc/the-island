@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011010",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011010.txt",
+  "text": "which doesn’t actually happen. The means of growth Mill describes in the paragraph\nquoted is the only kind that appears in the record.\n\nEvidence from Stock Markets\n\nMarket-valued capital, reported in national accounts since 1990 or so and\nassembled at the convenient Piketty-Zucman website, is measured by a common\nstandard in principle. Measurement begins with stock markets. It should. The stock\nmarket is the most exact source of economic information that I know. With due\nreservations about connivance and “stale prices,” meaning outdated prices from\nearlier days because the stock has not traded since, or anyhow not enough for\nconfidence, we know pretty well what markets think stocks are worth from tick to\n\ntick.\n\nWe would know better if markets were perfectly efficient. Proof that they aren’t\nshows in medium-term autocorrelation or trend. Autocorrelation (in price) is\ntendency for markets to be up tomorrow if up today, and down if down. Trend is a\nshorter word for the same. Perfect efficiency ought to show a “random walk” where\nprices change captures all current news, news captures reality without optimistic or\npessimistic bias, and tomorrow’s price direction is as unpredictable as tomorrow's\nnews. The only exception should be long-term uptrend with productivity gain\nthrough innovation. In this case it is not surprise in the news that brings growth, but\ngradual gain in present value as a foreseen better future is less discounted as it\n\ndraws nearer.\n\nThere is chicanery as well as inefficiency. Insiders, braving the legal risks, may take\nadvantage of outsiders. But it is not clear to me that insiders are likelier to be sellers\nthan buyers. National accounts follow prices of publicly traded shares collectively,\n\nwhere some chicaneries should offset others.\n\nAllowing for all this, I think national accounts are wise to accept stock prices as the\n\nbest measure of underlying assets. Intangibles such as patents or market advantages\n\nChapter 4 Mill’s Idea 1/11/16 19\n\nHOUSE_OVERSIGHT_011010",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011010.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2015,
+    "word_count": 318,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:45.637653",
+    "prefix": "IMAGES-001"
+  }
+}

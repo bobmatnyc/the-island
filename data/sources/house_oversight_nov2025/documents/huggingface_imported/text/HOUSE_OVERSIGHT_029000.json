@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_029000",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_029000.txt",
+  "text": "Sales Forecast\n\n¢ InsightsPod is pre-revenue\n¢ Estimated break-even point is between 18 to 24 months\n¢ Sales Target is $4m in 2020\n\nHOUSE_OVERSIGHT_029000",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_029000.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 154,
+    "word_count": 24,
+    "line_count": 7,
+    "import_date": "2025-11-19T21:47:45.829192",
+    "prefix": "IMAGES-010"
+  }
+}

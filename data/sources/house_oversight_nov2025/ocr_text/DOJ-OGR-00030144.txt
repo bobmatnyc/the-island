@@ -1,0 +1,27 @@
+t FD-340 (Rev. 7-29-92)
+. . =—— 1 ~
+Universal Case File Number 3 \B-NM-10%0 G2
+| Field Office Acquiring Evidence ° CEC-CA } nN
+| , , Serial # of Originating Document
+_ Date Received //// 80
+From_{”\ aio |
+: (Name of Contriautor)
+- (Address of Contributor) ~ “—
+b6 -2 ;
+By b7C -2:
+, To Be Returned [J Yes [1 No |
+Receipt Given OO Yes LJ No
+Grand Jury Material - Disseminate Only Pursuant to Rule 6 (e}
+so Federal Rules of Criminal Procedure ;
+FS 1 Yes ONo
+' Title:
+Reference:
+; : (Communication Enclosing Material)
+. a Description: EP Original notes Te interview-of
+bE -3
+. b7c -3
+b3 -1
+a
+erence TATED rere
+os . 03956-10077
+7 | ---: DOJ-OGR-00030144

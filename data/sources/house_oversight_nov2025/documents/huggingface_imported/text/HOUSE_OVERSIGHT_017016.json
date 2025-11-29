@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017016",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_017016.txt",
+  "text": "II.3. Construction of historical n-grams corpora\n\nIJ.3A. Creation of a digital sequence of 1-grams and extraction of n-gram\ncounts\n\nAll input source texts were first converted into UTF-8 encoding before tokenization. Next, the text of each\nbook was tokenized into a sequence of 1-grams using Google’s internal tokenization libraries (more\ndetails on this approach can be found in Ref. $4). Tokenization is affected by two processes: (i) the\nreliability of the underlying OCR, especially vis-a-vis the position of blank spaces; (ii) the specific\ntokenizer rules used to convert the post-OCR text into a sequence of 1-grams.\n\nOrdinarily, the tokenizer separates the character stream into words at the white space characters (\\n\n[newline]; \\t [tab]; \\r [carriage return]; ““ [space]). There are, however, several exceptional cases:\n\n(1) Column-formatting in books often forces the hyphenation of words across lines. Thus the word\n“digitized”, may appear on two lines in a book as \"digi-<newline>ized\". Prior to tokenization, we look for 1-\ngrams that end with a hyphen ('-') followed by a newline whitespace character. We then concatenate the\nhyphen-ending 1-gram to the next 1-gram. In this manner, digi-<newline>tized became “digitized”. This\nstep takes place prior to any other steps in the tokenization process.\n\n(2) Each of the following characters are always treated as separate words:\n! (exclamation-mark)\n\n@ (at)\n\n% (percent)\n\n4 (caret)\n\n* (star)\n\n( (open-round-bracket)\n) (close-round-bracket)\n[ (open-square-bracket)\n] (close-square-bracket)\n\n(\n- (hyphen)\n= (equals)\n(open-curly-bracket)\n(close-curly-bracket)\n\n{\n}\n| (pipe)\n\n\\ (backslash)\n: (colon)\n\n: (semi-colon)\n\n< (less-than)\n\nHOUSE_OVERSIGHT_017016",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_017016.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1710,
+    "word_count": 250,
+    "line_count": 54,
+    "import_date": "2025-11-19T21:47:48.522983",
+    "prefix": "IMAGES-004"
+  }
+}

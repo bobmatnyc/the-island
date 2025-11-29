@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013041",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013041.txt",
+  "text": "6.7 Conclusion 125\n\nBundle of:\n\nchicken @—_p\n\nfood links\n\nFig. 6.9: Example of Implicit Knowledge in the Atomspace. A simple example of implicit\nknowledge in the Atomspace. The \"chicken\" and \"food\" concepts are represented by \"maps\"\nof ConceptNodes interconnected by HebbianLinks, where the latter tend to form between Con-\nceptNodes that are often simultaneously important. The bundle of links between nodes in the\nchicken map and nodes in the food map, represents an “implicit, emergent link\" between the\ntwo concept maps. This diagram also illustrates \"glocal\" knowledge representation, in that the\nchicken and food concepts are each represented by individual nodes, but also by distributed\nmaps. The \"chicken\" ConceptNode, when important, will tend to make the rest of the map\nimportant — and vice versa. Part of the overall chicken concept possessed by the system is ex-\npressed by the explicit links coming out of the chicken ConceptNode, and part is represented\nonly by the distributed chicken map as a whole.\n\nHOUSE_OVERSIGHT_013041",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013041.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1040,
+    "word_count": 162,
+    "line_count": 21,
+    "import_date": "2025-11-19T21:47:45.881622",
+    "prefix": "IMAGES-002"
+  }
+}

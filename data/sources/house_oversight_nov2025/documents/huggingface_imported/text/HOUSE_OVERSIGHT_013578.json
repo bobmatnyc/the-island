@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013578",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013578.txt",
+  "text": "information required to gain knowledge of an event is dependent upon the\nprobability of its occurrence. log2(0.5) = 1 is the maximal entropy when modeling the\nequilibrium entropy of an independent random 0,1, (heads or tails) series of\ninformational states as might result from flipping a fair coin a large number of times.\nThis value would be maximal when the coin was fair, p(heads, tails) = 0.5, and the\nentropy would be 2(number of allowed states)x0.5(probability of occupying each\nstate)x/ogio (0.5) = 0.693147...or in bits, log2(0.5) = 1.\n\nMore generally, if system’s behavior is distributed equally among its possible\nstates, the Shannon entropy is maximal and equal to the logarithm of the number of\ndefined states, for example, log2 (2) = 1. Shannon’s classical equation about\ninformation content says the amount of information, / = -p /og2 p, measured in bits.\nThe minus sign in this reciprocal relation indicates that the information content of\ndata, /, goes up as the probability of occurrence of the observed data, p, goes\ndown. Since soon we will be talking about brains and their various styles of\ninformation encoded content as well as its transmission, we note the other famous\nShannon theorem dealing with limits on the channel capacity, C, for information\ntransport is C = Wlog2(1+S/N) where W is bandwidth, the range of frequencies\navailable for information transport, S is the strength of the signal and WN is the\nstrength of the noise. Recall that the /og2(7) = 0 so only the signal-to-noise ratio,\nS/N contributes to the value of the product of the multiplication by bandwidth, W.\nTransparent clinical examples come from studies of the perceptual and cognitive\ndecline in normal geriatric patients in which the range of aural frequencies (W)\nheard without augmentation decreases with age as does the frequency range (W)\nobserved in their resting brain waves. The inattentiveness of the obsessively\nworried ruminator can be used as an example of brain channel capacity being\nreduced by the amount of on going head noise, an increase N, which, of course,\nreduces the value of S/N and therefore C.\n\nMeasures of the informational complexity of systems in motion, in contrast\nwith the information content of a static equilibrium state, are of dynamical entropy.\nDynamical entropy is often called H, in contrast with thermodynamic and/or\n\ninformational entropy, S. One can begin with a representational image of the\n\n78\n\nHOUSE_OVERSIGHT_013578",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013578.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2460,
+    "word_count": 397,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:45.177887",
+    "prefix": "IMAGES-002"
+  }
+}

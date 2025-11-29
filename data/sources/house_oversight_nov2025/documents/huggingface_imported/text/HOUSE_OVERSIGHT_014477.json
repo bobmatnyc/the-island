@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014477",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014477.txt",
+  "text": "+1.0% after 3 months and +3.7% after 6 months. Subsequent returns were positive in\nsix of the eleven episodes and negative in the other five. Those stats are a little worse\nthan the comparable numbers for the full sample but don’t indicate that a bond yield\nspike is definitively negative for equities.\n\nChart 40: Rolling 3-month change in bond yields and equities Table 3: Track record mixed for stocks following bond yield spike\nSubsequent equity market returns following spike in bond yields (3m change >2.5SD}\n100 ;\n3m change in bund\nyields hits peaks\n>2.5SD Next 3m % Next 6m % Prior 3m %\n90 10/06/1983 4.4 9.2 79\n08/03/1985 5.3 10.2 11.1\n02/03/1990 5.9 -6.9 -0.4\n0 25/03/1994 -7.5 -4.7 -3.4\n15/03/1996 4.7 7.0 49\n09/07/1999 -3.6 9.8 3.7\n22/08/2003 1.0 10.4 12.1\n90 15/06/2007 -7.1 -6.1 11.1\n13/06/2008 -8.1 -32.1 1.6\n26/11/2010 6.0 3.7 7.2\n-100 08/05/2015 -1.2 -5.6 5.9\nMedian return 1.0 3.7 5.9\n% positive 55% 55% 82%\n“150 Source: BofA Merrill Lynch Global Research, Bloomberg\n01/10 01/12 01/14 01/16\n———= German 10Y 3m chg (LHS, bp) ———MSClI Europe 3m chg %\nSource: BofA Merrill Lynch Global Research, Bloomberg\nIt matters why yields are rising — higher inflation breakevens key for stocks.\nDigging a little deeper shows that the underlying dynamics in the bond market matter.\nEssentially rising inflation breakevens is the key driver for equities. Even when real\nyields are rising it is the change in implied inflation that has correlated most strongly\nwith equity returns in recent years. Looking at 4-week rolling returns since 2009, in the\nperiods that real yields rose Stoxx 600 returns were a median +1.7% if breakevens were\nalso higher at the same time. In contrast a combination of higher real yields and lower\ninflation breakevens led to a median -0.7% return.\nChart 41: Inflation breakevens on the rise in recent bond market move Chart 42: Rising inflation breakevens the key for equities\n\n25 Stoxx 600 4-week returns vs 4-week change in real\nyields / inflation breakevens (since 2009)\n2.0 2.0\n1.5 15\n1.0 10\n0.5\n0.5\n0.0\n0.0\n-0.5\n40 | ——German inflation linked 10y -0.5\n1g = German 10y breakeven 410\nO1M0 $0111 «O12 «0118. O14 O11 O16 Bund real >+0, b/even +ve Bund real >+0, b/even -ve\nSource: BofA Merrill Lynch Global Research, Bloomberg Source: BofA Merrill Lynch Global Research, Bloomberg\n18 European Equity Strategy | 01 December 2016 Bankof America 2\n\nMerrill Lynch\n\nHOUSE_OVERSIGHT_014477",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014477.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2414,
+    "word_count": 408,
+    "line_count": 57,
+    "import_date": "2025-11-19T21:47:44.804357",
+    "prefix": "IMAGES-003"
+  }
+}

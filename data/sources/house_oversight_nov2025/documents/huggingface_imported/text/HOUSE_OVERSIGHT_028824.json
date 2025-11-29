@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028824",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028824.txt",
+  "text": "InsightsPod\n\nedge in providing sentiment analysis which is based on geographical location and can\nsupport 70+ languages.\n\nOur Advantages\nInsightsPod is different from our competitors based on a number of reasons;\n\n¢ Highly accurate and intelligent sentiment analysis system\n\n¢ Data is gathered and analyzed on a broader level unlike some of our competitors.\nFor instance, our competitors do not process data from Facebook and YouTube.\nOur custom crawler can extract data from other sources.\n\n¢ InsightsPod can give results based on specific geographical locations. This could\nbe significant to both retail brands and political parties, or individuals too.\n\n¢ Our platform also has the potential to process data in a multitude of languages,\nhence, the outcome tends to be more precise and effective.\n\ne Highly customizable service - we assist our customers in engaging their target\naudience\n\n| Page 7 |\n\nCONFIDENTIAL - DO NOT DISSEMINATE. This business plan contains confidential, trade-secret\ninformation and is shared only with the understanding that you will not share its contents or ideas with\nthird parties without the express written consent of the plan author.\n\nHOUSE_OVERSIGHT_028824",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028824.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1191,
+    "word_count": 183,
+    "line_count": 30,
+    "import_date": "2025-11-19T21:47:48.224532",
+    "prefix": "IMAGES-010"
+  }
+}

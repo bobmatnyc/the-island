@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015971",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015971.txt",
+  "text": "Hyper-Computing 281\n\nand this is where the machine's greater power comes from. Of course\nsuch a thing might easily fit inside our skulls, and the physics within our\nbrains are certainly capable of using real analogue values.\n\nThe biggest stumbling block for Siegelmann’s idea is the information\nthat gives her machines their power is fine-grained and easily destroyed by\nnoise in the environment. This is not just from the sort of electrical noise\nwe hear when our cell phones interfere with the radio, but the precision\nrequired by her machines is so exacting that anything might interfere\nwith them. For example, gravitational waves caused by the motions of\nnearby stars would disturb calculations at only the fiftieth decimal place.\nSince it is these digits that constitute the difference between an ARNN\nand a regular Turing machine, most people conclude ARNNs can’t work.\nThere is one effect stemming from the quantum world which might\ncome to the rescue. The potential to do something in the quantum world\nis sufficient to modify the behavior of a system even if the system does\nnot actually do that specific thing. This is called a counterfactual process.\nThe possibility an ARNN might perform infinite precision calculations\nmay be enough to give the machine the edge, even though in practice it is\ndisturbed by noise. This is speculation upon speculation, but interesting\nnevertheless.\n\n\\) Dendrites\n\n(S) Microtubule\n\nNeurofibrils = SET Synaptic vesicles ,\nNeurotransmitter a) Synapse (Axoaxonic at\n- Synaptic cleft\nAxonal terminal ~\n\nRough ER\n(Nissl body}\n\nPalyribosomes Node of Ranvier\n\nRibosomes\n\nGolgi apparatus\n\nMyelin Sheath\n(Schwann cell)\nNucleus\nNucleolus\nMembrane\n\nMicrofilament\n_ ~Microtubule\n™ Axon\n\nDendrites\n\nNeurons and Microtubules\n\nHOUSE_OVERSIGHT_015971",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015971.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1779,
+    "word_count": 276,
+    "line_count": 57,
+    "import_date": "2025-11-19T21:47:45.170804",
+    "prefix": "IMAGES-003"
+  }
+}

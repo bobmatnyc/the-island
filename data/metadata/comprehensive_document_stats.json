@@ -1,0 +1,82 @@
+{
+  "generated": "2025-11-17T00:15:56.488618",
+  "summary": {
+    "total_documents": 68287,
+    "total_pdfs": 67976,
+    "total_emails": 305,
+    "total_entity_documents": 6,
+    "total_ocr_markdown": 0,
+    "total_classified": 6
+  },
+  "by_source": {
+    "pdfs": {
+      "raw_entities": 1,
+      "doj_official": 1,
+      "giuffre_maxwell": 42,
+      "house_oversight_sept2024": 4,
+      "courtlistener_giuffre_maxwell": 371,
+      "404media": 388,
+      "house_oversight_nov2025": 67144,
+      "documentcloud_6250471": 1,
+      "documentcloud": 3,
+      "fbi_vault": 21
+    },
+    "emails": {
+      "house_oversight_nov2025": {
+        "count": 305,
+        "metadata_files": 305,
+        "full_text_files": 305,
+        "body_files": 265
+      }
+    }
+  },
+  "entity_documents": {
+    "markdown_files": 6,
+    "documents": [
+      {
+        "filename": "EXTRACTION_SUMMARY.md",
+        "path": "/Users/masa/Projects/Epstein/data/md/entities/EXTRACTION_SUMMARY.md",
+        "size": 4485
+      },
+      {
+        "filename": "little_black_book.md",
+        "path": "/Users/masa/Projects/Epstein/data/md/entities/little_black_book.md",
+        "size": 1605
+      },
+      {
+        "filename": "README.md",
+        "path": "/Users/masa/Projects/Epstein/data/md/entities/README.md",
+        "size": 8382
+      },
+      {
+        "filename": "flight_logs.md",
+        "path": "/Users/masa/Projects/Epstein/data/md/entities/flight_logs.md",
+        "size": 15976
+      },
+      {
+        "filename": "birthday_book.md",
+        "path": "/Users/masa/Projects/Epstein/data/md/entities/birthday_book.md",
+        "size": 47038
+      },
+      {
+        "filename": "black_book.md",
+        "path": "/Users/masa/Projects/Epstein/data/md/entities/black_book.md",
+        "size": 94940
+      }
+    ],
+    "json_files": 4
+  },
+  "other_documents": {
+    "ocr_markdown": 0
+  },
+  "classifications": {
+    "total": 6,
+    "by_type": {
+      "administrative": 1,
+      "contact_book": 1,
+      "flight_log": 2,
+      "personal": 1,
+      "media": 1
+    }
+  }
+}

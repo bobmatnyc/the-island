@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017047",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_017047.txt",
+  "text": "Figure S8\n\nfound\n\n|\n10° dwelt\n\ne dwelled\n10\n107\n10°\n\nthrove/thriven\nthrived\n\nFrequency\n3\n\ngo\n=\ni=]\n\nspilt\n\n4.10 spilled\n\n210° ff)\nit} 1\n\n410° EFS SPilled\n\n1800 1850 1900 1950 2000\nYear\nFig. S8. Example of grammatical change. Irregular verbs are used as a model of grammatical evolution.\nFor each verb, we plot the usage frequency of its irregular form in red (for instance, ‘found’), and the\nusage frequency of its regular past-tense form in blue (for instance, ‘finded’). Virtually all irregular verbs\nare found from time to time used in a regular form, but those used more often tend to be used in a\nregular way more rarely. This is illustrated in the top two rows with the frequently-used verb “find” and\nthe less often encountered “dwell”. In the third row, the trajectory of “thrive” is one of many ways by\n\n|”\n\nwhich regularization occurs. The bottom two panels shows that the regularization of “spill” happened\n\nearlier in the US than in the UK.\n\nHOUSE_OVERSIGHT_017047",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_017047.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 976,
+    "word_count": 168,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:46.301740",
+    "prefix": "IMAGES-004"
+  }
+}

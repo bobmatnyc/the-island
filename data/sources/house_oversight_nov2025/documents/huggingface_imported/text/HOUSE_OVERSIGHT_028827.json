@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028827",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028827.txt",
+  "text": "InsightsPod\n\nOperations\nLocations & Facilities\n\nThe locations we have shortlisted to host our office space are San Francisco and\nOakland. We have yet to decide on the two locations, however, we are leaning towards\nOakland due to lower running costs and the accessibility of tech resources. We will also\nhave one office set up in London where we will appoint one salesperson. We currently\nhave an operating office space in Islamabad and our back-end developers will be\nworking from this location.\n\nTechnology\n\nOur platform acquires data from different social media sites and discussion forums.\nCurrently, we are supporting Twitter, YouTube, and Facebook. We can acquire\nunlimited Twitter data which includes historical data for $60,000 per year. For Facebook\nand YouTube, we have developed our own crawler that collects data from both\nwebsites. Our platform can also collect data from any discussion forum and news\nwebsite.\n\nMilestones & Metrics\n\nStart up Investment October 15, 2016\n\n| Page 10 |\n\nCONFIDENTIAL - DO NOT DISSEMINATE. This business plan contains confidential, trade-secret\ninformation and is shared only with the understanding that you will not share its contents or ideas with\nthird parties without the express written consent of the plan author.\n\nHOUSE_OVERSIGHT_028827",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028827.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1285,
+    "word_count": 199,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:48.603131",
+    "prefix": "IMAGES-010"
+  }
+}

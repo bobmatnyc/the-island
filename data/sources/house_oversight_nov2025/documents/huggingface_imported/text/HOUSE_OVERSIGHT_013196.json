@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013196",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013196.txt",
+  "text": "280 15 Emergent Networks of Intelligence\n\n15.2 Small World Networks\n\nOne simple but potentially useful observation about CogPrime Atomspaces is that they are\ngenerally going to be small world networks [Buc03], rather than random graphs. A small world\nnetwork is a graph in which the connectivities of the various nodes display a power law behavior\n— so that, loosely speaking, there are a few nodes with very many links, then more nodes with a\nmodest number of links ... and finally, a huge number of nodes with very few links. This kind of\nnetwork occurs in many natural and human systems, including citations among papers, financial\narrangements among banks, links between Web pages and the spread of diseases among people\nor animals. In a weighted network like an Atomspace, \"small-world-ness\" must be defined in a\nmanner taking the weights into account, and there are several obvious ways to do this. Figure\n15.1 depicts a small but prototypical small-worlds network, with a few \"hub\" nodes possessing\nfar more neighbors than the others, and then some secondary hubs, etc.\n\nAn excellent reference on network theory in general, including but not limited to small world\nnetworks, is Peter Csermely’s Weak Links [Cse06]. Many of the ideas in that work have apparent\nOpenCog applications, which are not elaborated here.\n\nFig. 15.1: A typical, though small-sized, small-worlds network.\n\nOne process via which small world networks commonly form is \"preferential attachment\"\n[Bar02]. This occurs in essence when \"the rich get richer\" — i.e. when nodes in the network\ngrow new links, in a manner that causes them to preferentially grow links to nodes that already\nhave more links. It is not hard to see that CogPrime’s ECAN dynamics will naturally lead to\n\nHOUSE_OVERSIGHT_013196",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013196.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1775,
+    "word_count": 287,
+    "line_count": 28,
+    "import_date": "2025-11-19T21:47:44.989332",
+    "prefix": "IMAGES-002"
+  }
+}

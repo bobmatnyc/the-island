@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028991",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028991.txt",
+  "text": "Potential Customers\n\n¢ Retail/Brands: We help businesses/retailers identify which customer is not\nhappy in seconds. We help them determine a customer’s intent and buying\nhabits. Also, we aid retailers and businesses with product development\nideas and go-to market strategies.\n\n° Politics: Through the vast amount of data available across social media, we\ncan not only help politicians to understand what their constituents are\ntalking about but also to influence people, track voters and get them to\nvote.\n\n¢ Stocks: Investors who predict stock behavior by interpreting news and\npublic sentiment make better trades and informed decisions. InsightsPod\ncan give an insight into public sentiment quickly and can aid financial\ninstitutions as well as individuals to make sound investment decisions.\n\nHOUSE_OVERSIGHT_028991",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028991.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 818,
+    "word_count": 120,
+    "line_count": 18,
+    "import_date": "2025-11-19T21:47:48.446519",
+    "prefix": "IMAGES-010"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_023592",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_023592.txt",
+  "text": "Volatility in Asia\n\nUse best-of puts to cheaply hedge a reversal in the rally\nBofAML global strategists note that the massive central bank liquidity supernova has\nallowed the Wall Street bull to flare higher, led by uber \"growth\" (EM internet stock\nreturns annualizing 125%). In light of this, we feel that it is prudent that investors\nprotect gains as we think today’s low volatility environment remains highly fragile,\ncharacterized by the below stats:\n\n« The MSCI Asia Pac index is up for the 5 consecutive month and is trading at multi-\nyear highs, while equity foreign inflows year-to-date are at the highest since 2004.\n\n¢ Option delta-adjusted open interest for KOSPI2 and HSI are near a 4-year highs.\n* The BofAML global Risk-Love investor sentiment measure is in euphoria, and\n\nChina’s nominal GDP is likely peaking. The Asian/EM EPS upgrade cycle is likely\nrolling over.\n\nVolatility of equity indices remains at post-GFC lows while markets continue to trend\nhigher. If the market were to realize a correction, we believe that indices would be\nhighly correlated, and hence we recommend buying a 14-Sep-2017 95% strike best-of\nput on NKY/KOSPI2/HSI that costs 0.8%, a 45% discount to average vanilla puts.\n\nIndicative pricing (As of 5-Jun-17, ref: NKY: 20170, KOSPI2: 307.33, HSI: 25874)\nBuy a 14-Sep-2017 best-of 95% put on NKY/KOSPI2/HSI: 0.80%\n\nChart 36: Option positioning on KOSPI2 and HSI is near a 4-year high Chart 37: The 3-month 95% best of put on HSI/NKY/KOSPI2 has\nsignificantly paid off during market corrections when correlation rose\n120 35%\n96 30%\n100 in|\n2 25%\na0 20%\n60 15%\n4g 10%\n29 50%\n20 8 0%\nCTO DW DOT TT NN YOY TFT TOO WO OO O\n0 soSeSSBRBSeESBESSEVSREST\nro) = 3 38 ro)\nKOSPI2 HSI NKY ee eee ea Se . =\" Se\n@ Option Delta Adjusted Ol (US$Bn) ‘4-year Percentile (%) — Historical Payoff of 3M 95% best of put on HSI/NKY/KOSPI2\nSource: BofA Merrill Lynch Global Research Data as of 2-Jun-17 Source: BofA Merrill Lynch Global Research\n18 Global Equity Volatility Insights | 06 June 2017 ate 2\n\nHOUSE_OVERSIGHT_023592",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_023592.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2041,
+    "word_count": 347,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:46.879901",
+    "prefix": "IMAGES-007"
+  }
+}

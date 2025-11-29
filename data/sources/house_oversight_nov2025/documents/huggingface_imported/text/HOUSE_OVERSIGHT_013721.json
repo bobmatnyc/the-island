@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013721",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013721.txt",
+  "text": "brain enzyme kinetics (Mandell, 1984) and single neuron firing patterns (Selz and\nMandell, 1991) to human psychomotor and cognitive behavior (Selz, 1992; Selz and\nMandell, 1993).\n\nThe Leading 4(+) of Some Biologically Relevant Time Series\n\nAn early application of a simplified form of leading Lyapounov exponent to\nbrain data involved the computation of the one dimensional averaged slope of in\nvitro studies of psychopharmacological drug and peptide effects on time series of\ncatecholamine and indoleamine biosynthetic enzyme _ activities studied at\nphysiological, far-from-equilibrium reactant concentrations (Russo and Mandell,\n1984b; Knapp and Mandell, 1984). A contemporaneous study also suggested the\ninfluence of differences in initial conditions for pharmacokinetic equilibrium times in\n\ndrug binding kinetics by proteins (Bayne and Hwang, 1985).\n\nThe most extensive applications to the clincial neurosciences of the\nLyapounov measure of the exponential divergence of orbital points has involved\nreconstructed brain wave attractors from the intracranial or scalp recordings of the\nEEG (Duke and Pritchard, 1991; Dvorak and Holden, 1991; Jansen and Brandt,\n1993). Space prevents us from surveying more than a small representative set of\nthe studies (Jansen, 1996). It should be noted, however, that this is an area in\nwhich “state of the art” research has grown quite complicated and somewhat\ncontroversial with respect to technical issues. The choices of the digitizing\n\nfrequency of the smooth record, the dimension of the embedding space and time\n\ndelays continue to be debated in the context of numerical computations of 2 and\n\ndimension measures (Mayer-Kress, 1986; Ott et al, 1994).\n\nControls for the implicitly required statistical discrimination between\n“randomness” and “deterministic chaos” consist of sequence and (Fourier) phase\nrandomization generating “surrogate data” which conserve the probability\ndistributions and destroy the correlation properties and attractor geometries (Sauer\n\net al, 1991; Ott et al, 1994). Since neither bring with them any connections with\n\n221\n\nHOUSE_OVERSIGHT_013721",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013721.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2117,
+    "word_count": 303,
+    "line_count": 41,
+    "import_date": "2025-11-19T21:47:45.282173",
+    "prefix": "IMAGES-002"
+  }
+}

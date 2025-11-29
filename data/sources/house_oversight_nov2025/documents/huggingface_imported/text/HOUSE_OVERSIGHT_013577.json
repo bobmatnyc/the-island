@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013577",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013577.txt",
+  "text": "uncertainty in the receiver that pre-existed the receipt of the message. |n the binary\ncoding scheme of digital electronic operations, the unit of information is the bit, a\nchoice made between 0 or 1 in the resolution of a two state ambiguity at each place\nof some power of two number of places. Our relatively common computers these\ndays have 32 or 64 bit processors. If these 0,1 choices are made in a random\nsequence in which each step is independent of the previous one, the sequential\nprobabilities, _, are multiplicative: e.g. the probability of getting two 1’s (heads\nin a fair coin) in a row are the product of each 0.5 probability: p,;=0.5 x p2=0.5 =\nP1 P2 = 0.25. Using the common base ten system of logarithms to demonstrate the\nalgebraic fact that multiplicative probabilities are logarithmically additive (and\nignoring the minus sign that comes with making logarithms of the decimal fractions\nof probability), we notice that /og70(0.5) = 0.693147 and /og70(0.25) = 1.386294 and\nthat 0.693147 + 0.693147 = 1.386294.\n\nThe dot-dash choices of Morse code machines, the go, no-go gates of\ntransistors, the open versus closed ion channel-mediated neuronal membrane\ndischarge and the left, right spins of the single electrons of today’s quantum\ncomputers lead naturally to an information encoding of multiplicative sequences as\nthe sum of logarithms in base (equal to the number of available states) two, each p=\n0.5 choice called, /og2(0.5) = 1, a bit. Shannon’s 1938 master’s thesis mapped\nGeorge Boole’s algebraic scheme for doing yes-no, either-or computation onto\ncurrent switching devices such that circuit closed was “true” and circuit open was\n“false.” Using Boole’s laws such as “Not(A and B)” always equals “(Not A) or (Not\nB)” led to schemes for circuit routing through electronic gates which also serve for\ninformation storage in gadgets ranging from cell phone directories to computer hard\ndisks.\n\nFollowing Claude Shannon, each logarithmically additive entropy term is\nexpressed as the sums, ~%, of its probability, p,, times the probability’s logarithm,\n=.(p.x /ogz) (p,in base two. A logarithm is an exponent of its relevant base such that,\nfor example, the logarithm, base two, of 2 x 2 x 2, 2° = 3 and 3 bits can encode\neight binary (0,1) numbers: (000, 001, 010,011,100,101,110, and 111). Shannon\n\nused a hill-like, called convex, entropy function S (p)= -X(p In (p)). The amount of\n\n77\n\nHOUSE_OVERSIGHT_013577",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013577.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2435,
+    "word_count": 397,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:48.636032",
+    "prefix": "IMAGES-002"
+  }
+}

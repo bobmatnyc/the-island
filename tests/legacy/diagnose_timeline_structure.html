@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline DOM Structure Diagnostic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .diagnostic-panel {
+            background: white;
+            border: 2px solid #0969da;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .status-good { color: #1a7f37; font-weight: bold; }
+        .status-bad { color: #d73a4a; font-weight: bold; }
+        .code-block {
+            background: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 12px;
+            overflow-x: auto;
+        }
+        button {
+            background: #0969da;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #0550ae;
+        }
+    </style>
+</head>
+<body>
+    <h1>Timeline DOM Structure Diagnostic</h1>
+    <p>This diagnostic tool checks if the <code>.page-content</code> wrapper exists and timeline events are positioned correctly.</p>
+
+    <div class="diagnostic-panel">
+        <h2>Test Controls</h2>
+        <button onclick="openMainApp()">Open Main App in New Tab</button>
+        <button onclick="runDiagnostic()">Run Diagnostic on Current Page</button>
+        <button onclick="inspectTimeline()">Inspect Timeline Structure</button>
+    </div>
+
+    <div class="diagnostic-panel">
+        <h2>Diagnostic Results</h2>
+        <div id="results">Click "Run Diagnostic" to check the DOM structure...</div>
+    </div>
+
+    <div class="diagnostic-panel">
+        <h2>DOM Structure Visualization</h2>
+        <div id="domTree" class="code-block">Will display after running diagnostic...</div>
+    </div>
+
+    <script>
+        function openMainApp() {
+            window.open('http://localhost:8000/', '_blank');
+            alert('Main app opened. Switch to Timeline tab, then return here and click "Run Diagnostic".');
+        }
+
+        function runDiagnostic() {
+            const results = [];
+
+            // Open the main app in an iframe to test it
+            const iframe = document.createElement('iframe');
+            iframe.style.display = 'none';
+            iframe.src = 'http://localhost:8000/';
+            document.body.appendChild(iframe);
+
+            iframe.onload = function() {
+                try {
+                    const doc = iframe.contentDocument;
+
+                    // Check 1: Timeline view exists
+                    const timelineView = doc.getElementById('timeline-view');
+                    results.push({
+                        test: 'Timeline View (#timeline-view) exists',
+                        passed: !!timelineView,
+                        details: timelineView ? 'Found' : 'NOT FOUND'
+                    });
+
+                    if (timelineView) {
+                        // Check 2: Page content wrapper exists
+                        const pageContent = timelineView.querySelector('.page-content');
+                        results.push({
+                            test: '.page-content wrapper exists inside #timeline-view',
+                            passed: !!pageContent,
+                            details: pageContent ? 'Found' : 'NOT FOUND - THIS IS THE BUG!'
+                        });
+
+                        // Check 3: Timeline events container
+                        const timelineEvents = doc.getElementById('timeline-events');
+                        results.push({
+                            test: '#timeline-events container exists',
+                            passed: !!timelineEvents,
+                            details: timelineEvents ? 'Found' : 'NOT FOUND'
+                        });
+
+                        if (timelineEvents) {
+                            // Check 4: Is timeline-events inside page-content?
+                            const isInsidePageContent = pageContent && pageContent.contains(timelineEvents);
+                            results.push({
+                                test: '#timeline-events is inside .page-content',
+                                passed: isInsidePageContent,
+                                details: isInsidePageContent ? 'Correctly nested' : 'WRONG - timeline-events is OUTSIDE page-content!'
+                            });
+
+                            // Check 5: Get position
+                            const rect = timelineEvents.getBoundingClientRect();
+                            results.push({
+                                test: '#timeline-events vertical position',
+                                passed: rect.top < 500,
+                                details: `Top: ${Math.round(rect.top)}px (should be < 500px to be visible)`
+                            });
+
+                            // Check 6: Count events
+                            const events = timelineEvents.querySelectorAll('.timeline-event');
+                            results.push({
+                                test: 'Timeline events rendered',
+                                passed: events.length > 0,
+                                details: `Found ${events.length} events`
+                            });
+                        }
+
+                        // Check 7: DOM structure
+                        const structure = getTimelineStructure(timelineView);
+                        document.getElementById('domTree').innerHTML = structure;
+                    }
+
+                    // Display results
+                    displayResults(results);
+
+                } catch (error) {
+                    document.getElementById('results').innerHTML =
+                        `<div class="status-bad">❌ Error: ${error.message}</div>
+                         <p>This might be due to CORS restrictions. Try opening the main app in a new tab and using browser DevTools instead.</p>`;
+                }
+
+                document.body.removeChild(iframe);
+            };
+        }
+
+        function inspectTimeline() {
+            // Generate inspection code that can be run in browser console
+            const inspectionCode = `
+// TIMELINE STRUCTURE INSPECTION CODE
+// Copy and run this in the main app's browser console
+
+console.log('='.repeat(80));
+console.log('TIMELINE STRUCTURE INSPECTION');
+console.log('='.repeat(80));
+
+const timelineView = document.getElementById('timeline-view');
+console.log('1. #timeline-view exists:', !!timelineView);
+
+if (timelineView) {
+    const pageContent = timelineView.querySelector('.page-content');
+    console.log('2. .page-content wrapper exists:', !!pageContent);
+
+    if (!pageContent) {
+        console.error('❌ BUG FOUND: .page-content wrapper is MISSING!');
+        console.log('Children of #timeline-view:');
+        timelineView.childNodes.forEach((node, i) => {
+            if (node.nodeType === 1) {
+                console.log(\`  [\${i}] <\${node.tagName.toLowerCase()}> class="\${node.className}"\`);
+            }
+        });
+    }
+
+    const timelineEvents = document.getElementById('timeline-events');
+    console.log('3. #timeline-events exists:', !!timelineEvents);
+
+    if (timelineEvents) {
+        console.log('4. #timeline-events parent:', timelineEvents.parentElement.tagName, timelineEvents.parentElement.className);
+        const rect = timelineEvents.getBoundingClientRect();
+        console.log('5. #timeline-events position:', \`top=\${Math.round(rect.top)}px left=\${Math.round(rect.left)}px\`);
+
+        if (pageContent) {
+            console.log('6. Is #timeline-events inside .page-content?', pageContent.contains(timelineEvents));
+        }
+    }
+}
+
+console.log('='.repeat(80));
+            `.trim();
+
+            // Display in a modal
+            const modal = document.createElement('div');
+            modal.style.cssText = `
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: white;
+                border: 2px solid #0969da;
+                border-radius: 8px;
+                padding: 20px;
+                max-width: 800px;
+                max-height: 80vh;
+                overflow-y: auto;
+                z-index: 9999;
+                box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+            `;
+
+            modal.innerHTML = `
+                <h2>Browser Console Inspection Code</h2>
+                <p>1. Open the main app at <strong>http://localhost:8000/</strong></p>
+                <p>2. Open Browser DevTools (F12)</p>
+                <p>3. Copy the code below and paste into the Console tab</p>
+                <div class="code-block" style="background: #1f2937; color: #10b981; padding: 15px; max-height: 400px; overflow-y: auto;">
+                    <pre style="margin: 0; white-space: pre-wrap;">${inspectionCode.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
+                </div>
+                <button onclick="this.parentElement.parentElement.removeChild(this.parentElement)">Close</button>
+                <button onclick="navigator.clipboard.writeText(\`${inspectionCode.replace(/`/g, '\\`')}\`);">Copy Code</button>
+            `;
+
+            const overlay = document.createElement('div');
+            overlay.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0,0,0,0.5);
+                z-index: 9998;
+            `;
+            overlay.onclick = () => {
+                document.body.removeChild(overlay);
+                document.body.removeChild(modal);
+            };
+
+            document.body.appendChild(overlay);
+            document.body.appendChild(modal);
+        }
+
+        function displayResults(results) {
+            let html = '<table style="width: 100%; border-collapse: collapse;">';
+            html += '<tr><th style="text-align: left; padding: 8px; border-bottom: 2px solid #ddd;">Test</th><th style="text-align: left; padding: 8px; border-bottom: 2px solid #ddd;">Result</th><th style="text-align: left; padding: 8px; border-bottom: 2px solid #ddd;">Details</th></tr>';
+
+            results.forEach(r => {
+                const statusClass = r.passed ? 'status-good' : 'status-bad';
+                const icon = r.passed ? '✅' : '❌';
+                html += `<tr>
+                    <td style="padding: 8px; border-bottom: 1px solid #eee;">${r.test}</td>
+                    <td style="padding: 8px; border-bottom: 1px solid #eee;"><span class="${statusClass}">${icon} ${r.passed ? 'PASS' : 'FAIL'}</span></td>
+                    <td style="padding: 8px; border-bottom: 1px solid #eee;">${r.details}</td>
+                </tr>`;
+            });
+            html += '</table>';
+
+            document.getElementById('results').innerHTML = html;
+
+            // Summary
+            const passed = results.filter(r => r.passed).length;
+            const total = results.length;
+            const summaryClass = passed === total ? 'status-good' : 'status-bad';
+            html += `<div style="margin-top: 20px; padding: 15px; background: #f6f8fa; border-radius: 6px;">
+                <strong class="${summaryClass}">Summary: ${passed}/${total} tests passed</strong>
+            </div>`;
+            document.getElementById('results').innerHTML += html;
+        }
+
+        function getTimelineStructure(element, indent = 0) {
+            let html = '';
+            const tag = element.tagName.toLowerCase();
+            const id = element.id ? ` id="${element.id}"` : '';
+            const className = element.className ? ` class="${element.className}"` : '';
+
+            html += '&nbsp;'.repeat(indent * 4) + `&lt;${tag}${id}${className}&gt;<br>`;
+
+            Array.from(element.children).forEach(child => {
+                if (child.id === 'timeline-view' || child.classList.contains('page-content') || child.classList.contains('page-header') || child.classList.contains('sticky-filter-bar') || child.id === 'timeline-events') {
+                    html += getTimelineStructure(child, indent + 1);
+                }
+            });
+
+            return html;
+        }
+    </script>
+</body>
+</html>

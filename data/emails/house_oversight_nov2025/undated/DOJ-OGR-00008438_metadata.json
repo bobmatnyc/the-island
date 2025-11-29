@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00008438",
+  "email_index": 54,
+  "extracted_at": "2025-11-17T04:14:45.452459",
+  "from_address": null,
+  "to_address": null,
+  "cc_address": "Counsel of record DOJ-OGR-00008438",
+  "subject": null,
+  "date": "12/19/21",
+  "body": null,
+  "confidence": 0.7,
+  "email_addresses": [
+    "besternheim@mac.com"
+  ]
+}

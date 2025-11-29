@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013112",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013112.txt",
+  "text": "196 11 Stages of Cognitive Development\n\nStage 1: Infantile\n\nInference Rules\na %\ni Knowledge about New\nI World _ Knowledge\n| .\n\nInference Control Strategy |\n\nFig. 11.4: Uncertain Inference in the Infantile Stage\n\nword-object associations: e.g. learning that when the word “ball” is uttered in various contexts\n(“Get me the ball,” “That’s a nice ball,” etc.) it generally refers to a certain type of object.\nThe key point regarding these “infantile” inference problems, from the CogPrime perspective,\nis that assuming one provides the inference system with an appropriate set of perceptual and\nmotor ConceptNodes and SchemaNodes, the chains of inference involved are short. They involve\nabout a dozen inferences, and this means that the search tree of possible PLN inference rules\nwalked by the PLN backward-chainer is relatively shallow. Sophisticated inference control is\nnot required: standard AI heuristics are sufficient.\n\nIn short, textbook narrow-AI reasoning methods, utilized with appropriate uncertainty-savvy\ntruth value formulas and coupled with appropriate representations of perceptual and motor\ninputs and outputs, correspond roughly to Piaget’s infantile stage of cognition. The simplistic\napproach of these narrow-AI methods may be viewed as a method of creating building blocks\nfor subsequent, more sophisticated heuristics.\n\nIn our theory Piaget’s preoperational phase appears as transitional between the infantile and\nconcrete operational phases.\n\n11.4.2 The Concrete Stage\n\nAt this stage, the mind is able to carry out more complex chains of reasoning regarding the\nworld, via using inference control schemata that adapt behavior based on experience (reasoning\nabout a given case in a manner similar to prior cases).\n\nIn the concrete operational stage (Figure 11.5), an entity is able to carry out more complex\nchains of reasoning about the world. Inference control schemata which adapt behavior based on\nexperience, using experientially learned heuristics (including those learned in the prior stage),\nare applied to both analysis of and interaction with the sensory surround / world.\n\nConcrete Operational stage tasks include:\n\nHOUSE_OVERSIGHT_013112",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013112.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2171,
+    "word_count": 320,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:46.638248",
+    "prefix": "IMAGES-002"
+  }
+}

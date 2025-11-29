@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015765",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015765.txt",
+  "text": "Understanding 75\n\n‘The sister test in robotics is equally hard. The goal is to simulate the\nphysical human form, its movements and mannerisms. It’s easy to get\nclose, but close is not good enough. The term “Uncanny Valley’ has been\ncoined to describe the discomfort humans have with something that tries\nto simulate a human being but does not quite get there. I think it is part\nof the reason Madam Tussaud’s waxworks are so fascinating. Humans\nhave a love-hate relationship with facsimiles of themselves. They love\nthe flattery but feel a sense of revulsion at anything that comes too close.\n\nSearle and Turing\n\nIn the Turing Test, we limited our senses to the purely symbolic: using\nonly typed words on a screen. I could break the lock on the door and go\ninto the room to see what was there.\n\n“Aha!” I would say.\n\n“I can see you're a computer, I, therefore, know you'll be good at\nsums and bad at creativity”\n\nBut Turing wants us to see if the difference is given away purely\nthrough intellect. He argues there is no way to tell. But if you follow my\nargument from chapter 1, there is one way: ask the computer to find a\nnon-computable solution to a mathematical puzzle. This is, in practice,\na difficult test to pose because it might take a very long time. Twenty-\nfive billion people have lived on planet Earth during the last 350 years,\nand about 5 million of them were mathematicians. None of them was\nable to solve the problem posed by Pierre de Fermat until Andrew Wiles\nturned up but this is a clear difference between humans and computers.\nHowever long you give a computer it would never be able to solve the\nproblem.\n\nThis creativity test would take centuries to run if non-computable\nthought was rare, but I think we see it often — on display even when we\ntell jokes. In which case computers and humans should be easy to tell\napart: humans are the funny ones. I am not saying you can't build a brain;\nour brains are physical devices, after all. I just believe a computer or a\nmechanistic machine, cannot think like a human being.\n\nI like the Searle argument but qualitative arguments are insufficient.\nWe need a quantitative argument. In the forthcoming chapters, I am\ngoing to look at the mathematical argument underlying the difference\nbetween human intelligence and computer processing. Before we do this\nlet’s take one last look at a qualitative difference; the way computers and\nhumans communicate.\n\nHOUSE_OVERSIGHT_015765",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015765.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2439,
+    "word_count": 427,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:48.614708",
+    "prefix": "IMAGES-003"
+  }
+}

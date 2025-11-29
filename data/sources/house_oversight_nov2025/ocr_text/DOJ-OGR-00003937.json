@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00003937.pdf",
+  "ocr_date": "2025-11-16T21:00:04.552240",
+  "text_length": 1756,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "smccawley@bsfllp.com",
+    "dboies@bsfllp.com"
+  ]
+}

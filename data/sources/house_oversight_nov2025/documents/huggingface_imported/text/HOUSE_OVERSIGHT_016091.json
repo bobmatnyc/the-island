@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016091",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016091.txt",
+  "text": "Appendix 5\n\n~~\n\nIndex of Theorems\n\nhave explained a number famous theorems in this book along with\n[= ideas of my own. Here is a list of the most notable.\n1. Mind over Computer\nTuring Test — How to tell whether a computer is intelligent, even\nthough we cannot agree on a definition of intelligence.\nFlynn Effect — The observation that human intelligence appears\nto be improving over time.\nKurzweil Singularity Proposal — The conjecture that Moore's\nLaw will result in computers acquiring near infinite power\nrelatively soon.\nLucas Argument — Minds are in a different class to computers as\nthey are not limited by the incompleteness theorem.\nHumor Hypothesist — Humor and jokes are a display of non-\ncomputable intelligence.\n\n2. Understanding\nTufte’s Assertion —- That communication of understanding\nexceeds the capability of many presentation tools, particularly\nPowerPoint.\nChinese Room - John Searle’s paradox challenging the idea that\nunderstanding can be mechanically simulated.\n\nHOUSE_OVERSIGHT_016091",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016091.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1006,
+    "word_count": 155,
+    "line_count": 29,
+    "import_date": "2025-11-19T21:47:48.680866",
+    "prefix": "IMAGES-003"
+  }
+}

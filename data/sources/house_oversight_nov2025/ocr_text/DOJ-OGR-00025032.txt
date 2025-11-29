@@ -1,0 +1,69 @@
+Page 579
+Page 13
+Log Assignment
+Date/Time User Action Alias Post Shiftdate Watch Type Mndtry
+07/22/19 21:27 [PO OO Signed Up for OT DXB): (OX7XE) N/A 08/07/19 NIA NIA oO
+Selected Lists: Selected Shifts:
+BPT ARMED _ESCOR EW
+07/22/19 21:27 Signed Up for OT N/A 08/07/19 N/A N/A I
+Selected Lists: Selected Shifts:
+BPT ARMED ESCORT DAW
+07/22/19 21:26 BOP1899 Signed Up for OT N/A 07/31/19 N/A N/A Cl
+Selected Lists: Selected Shifts:
+BPT ARMED ESCORT E/W
+07/22/19 21:26 Signed Up for OT N/A 07/31/19 N/A NIA Oo
+Selected Lists: Selected Shifts:
+BPT ARMED ORT DAW
+07/22/19 28 fo Signed Up for OT N/A 07/30/19 N/A N/A Q
+Selected Lists- Selected Shifts:
+BPT m2 io | DAV
+07/22/19 21:26 Signed Up for OT N/A 07/29/19 NIA N/A Cj
+Selected Lists: Selected Shifts:
+BPT ARMED ESCORT DAW
+07/22/19 21:26 call la Up for OT N/A 08/06/19 N/A NIA oO
+Selected Lists: Selected Shifts:
+BPT ARMED ESCORT D/W
+07/22/19 21:25 Signed Up for OT N/A 08/05/19 N/A NIA o
+Selected Lists: Selected Shifts:
+BPT ARMED ESCOR DW
+07/22/19 21:25 Signed Up for OT N/A 08/27/19 NIA NIA 0
+Selected Lists: Selected Shifts:
+BPT ARMED OR DW
+07/22/19 21:25 Signed Up for OT N/A 07/2919 NIA N/A 3]
+Selected Lists: Selected Shifts:
+BPT ARMED ESCORT DAW
+07/22/19 21:14 OT Assigned SHU #2 07/23/19 MW _ List Exempt C]
+cpd roster aaa
+07/22/19 21:14 OT Removed - Mgmt Cancell¢ SHU #2 07/23/19 MW _ Signup List O
+cpd roster adjustment -LAST OT DATE SET TO 7/14/2019 7:22:20 AM - REMOVED
+FROM [Sick / Annual]
+07/22/19 20:19 BOP5797 Quarterly Shift Preference N/A N/A N/A C)
+QUARTERLY PREFERENCE MADE FOR: 4TH QTR 2019 ist!) EW S Sa 7 NORTH
+2nd: VAR W Th ER-5
+| would perfer to stay on E/W if none of the picks are selected. 3rd: EW W Th,F ER-3
+4th: EW M T 7 SOUTH
+— SYS) TONTNG] 5th: EW S M OSP #1
+DMG} (DNTNC) . : .
+07/22/19 20:16 OT Assigned 10 SOUTH #1 07/26/19 D/W Signup List oO
+agreed List Selected: [All]
+07/22/19 20:12 OT Assigned ESCORT OFF #2 o7/26/19 D/W Signup List
+agreed List Selected: [All]
+07/22/19 20:02 OT Removed - Mgmt Cancel OPS LT 08/03/19 D/W List Exempt C]
+; - REMOVED FROM [Sick / Annual]
+07/22/19 20:01 Signed Up for OT N/A 07/26/19 N/A N/A C]
+Selected Li Selected Shifts:
+[At} DAW
+07/22/19 20:01 OT Assigned OPS LT 08/03/19 D/W List Exempt C)
+07/22/19 20:01 Deleted OT Sign Up - Day N/A O7/25/19 NA NIA O
+07/22/19 20:01 Deleted OT Sign Up - Day N/A 07/24/19 NIA N/A C}
+07/22/19 19:58 Deleted OT Sign Up - Day N/A 07/22/19 N/A N/A Ly
+07/22/19 19:58 Quarterly Shift Preference N/A N/A N/A a
+QUARTERLY PREFERENCE MADE FOR: 4TH QTR 2015 ist! VAR F Sa ER4
+2nd: EW S Sa UNIT 2
+3rd: VAR Th F 10 SOUTH #1
+4th: EW Th F ER-2
+BYG), (YFKE) " ———— ath: VAR Th F LOBBY ;
+07/22/19 19:21 OT Assigned 11 SOUTH 07/23/19 MMW  Mandtry List vj
+agreed
+5/19/2020 10:35:51 AM
+DOJ-OGR-00025032

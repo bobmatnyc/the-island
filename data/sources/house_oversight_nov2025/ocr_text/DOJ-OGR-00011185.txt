@@ -1,0 +1,29 @@
+Case 1:20-cr-00330-PAE Document 701 Filed 07/12/22 Page6of10
+metadata). The defendant understood this to be a disclosure that concerned metadata. 11/23/21
+Tr. at 21 (“Mr. Flatley was disclosed by the government for similar purposes to talk about the
+retrieval of metadata from some of the devices that were seized from Epstein’s home.”). In any
+event, the Government made that both explicit and highly specific in the November 26 letter, three
+days after the defendant expressed concerns about notice. The November 26 letter identifies the
+precise exhibits about which Flatley will testify, including the exhibits that display metadata fields
+(which were produced on October 11, 2021), and it provides detail about the methods and metadata
+about which he will testify. The sufficiency of the Government’s notice is evidenced by the fact
+that the defendant noticed a rebuttal expert on November 1, 2021, and they likewise have had
+ample time to prepare any cross-examination on metadata. Thus, to the extent the Court has any
+doubt as to whether Flatley’s testimony constitutes expert opinion, the Government would seek to
+qualify him as an expert on the relevant subjects.
+
+Second, the remainder of Flatley’s expected testimony stated in the November 26 letter is
+clearly fact testimony. As the letter explains, Flatley will testify that he examined Government
+Exhibits 54 and 55 and determined that particular other Government exhibits were stored there.
+(Ex. A at 2). And he will testify that he, personally, made images of Government Exhibits 54 and
+55. (Ex. A at 1).
+
+Third, the “newly and untimely-disclosed expert opinion testimony” (Def. Letter at 5) is
+no such thing:
+
+e The primary defense concern appears to be about the statement, reflected in the 3500
+material, that Flatley examined metadata to determine the number of times the “ghislaine” user
+account accessed Government Exhibit 54, as reflected in the notes for December 2. This is not
+
+6
+DOJ-OGR-00011185

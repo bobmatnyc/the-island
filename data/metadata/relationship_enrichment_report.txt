@@ -1,0 +1,44 @@
+================================================================================
+ENTITY RELATIONSHIP ENRICHMENT REPORT
+================================================================================
+Generated: 2025-11-17T00:10:08.100493
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Relationships: 2,228
+Entities with Relationships: 395
+
+RELATIONSHIP TYPES
+--------------------------------------------------------------------------------
+  associate           : 2,222 relationships
+  sibling_of          :    4 relationships
+  child_of            :    2 relationships
+
+SOURCE BREAKDOWN
+--------------------------------------------------------------------------------
+  flight_log          : 2,221 sources
+  web_search          :    7 sources
+
+SAMPLE RELATIONSHIPS
+--------------------------------------------------------------------------------
+
+ASSOCIATE (2222 total):
+  • Celina      Celina Dubin ↔ Female (1) (sources: flight_log, confidence: 0.95)
+  • Celina      Celina Dubin ↔ Je        Je Epstein (sources: flight_log, confidence: 0.95)
+  • Celina      Celina Dubin ↔ Eva         Eva Dubin (sources: flight_log, confidence: 0.95)
+  • Celina      Celina Dubin ↔ Glenn       Glenn Dubin (sources: flight_log, confidence: 0.95)
+  • Celina      Celina Dubin ↔ Matt       Matt Grippi (sources: flight_log, confidence: 0.95)
+
+CHILD_OF (2 total):
+  • Ghislaine Maxwell ↔ Robert Maxwell (sources: web_search, confidence: 1.00)
+  • Ghislaine Maxwell ↔ Elisabeth Meynard (sources: web_search, confidence: 1.00)
+
+SIBLING_OF (4 total):
+  • Ghislaine Maxwell ↔ Christine Maxwell (sources: web_search, confidence: 1.00)
+  • Ghislaine Maxwell ↔ Isabel Maxwell (sources: web_search, confidence: 1.00)
+  • Ghislaine Maxwell ↔ Ian Maxwell (sources: web_search, confidence: 1.00)
+  • Ghislaine Maxwell ↔ Kevin Maxwell (sources: web_search, confidence: 1.00)
+
+================================================================================
+END OF REPORT
+================================================================================

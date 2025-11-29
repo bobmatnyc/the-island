@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biography Fix Verification</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 1200px; margin: 20px auto; padding: 20px; }
+        .entity { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 8px; }
+        .entity h3 { margin: 0 0 10px 0; color: #333; }
+        .bio-text { background: #f5f5f5; padding: 10px; border-radius: 4px; margin: 10px 0; }
+        .status { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+        .status.has-bio { background: #d4edda; color: #155724; }
+        .status.has-summary { background: #fff3cd; color: #856404; }
+        .status.missing { background: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <h1>Biography Fix Verification</h1>
+    <p>Testing that EntityBio component will render both 'biography' and 'summary' fields.</p>
+    <div id="results"></div>
+
+    <script>
+        async function testBiographies() {
+            try {
+                const response = await fetch('http://localhost:8081/api/v2/entities/jeffrey_epstein');
+                const entity = await response.json();
+                
+                const results = document.getElementById('results');
+                
+                // Simulate the frontend component logic
+                const bioText = entity.bio?.biography || entity.bio?.summary;
+                
+                results.innerHTML += `
+                    <div class="entity">
+                        <h3>${entity.name}</h3>
+                        <div>
+                            <span class="status ${entity.bio?.biography ? 'has-bio' : entity.bio?.summary ? 'has-summary' : 'missing'}">
+                                ${entity.bio?.biography ? 'Has Biography' : entity.bio?.summary ? 'Has Summary' : 'Missing'}
+                            </span>
+                        </div>
+                        ${bioText ? `<div class="bio-text">${bioText}</div>` : '<p>No biography available</p>'}
+                    </div>
+                `;
+                
+                // Test Ghislaine Maxwell
+                const response2 = await fetch('http://localhost:8081/api/v2/entities/ghislaine_maxwell');
+                const entity2 = await response2.json();
+                const bioText2 = entity2.bio?.biography || entity2.bio?.summary;
+                
+                results.innerHTML += `
+                    <div class="entity">
+                        <h3>${entity2.name}</h3>
+                        <div>
+                            <span class="status ${entity2.bio?.biography ? 'has-bio' : entity2.bio?.summary ? 'has-summary' : 'missing'}">
+                                ${entity2.bio?.biography ? 'Has Biography' : entity2.bio?.summary ? 'Has Summary' : 'Missing'}
+                            </span>
+                        </div>
+                        ${bioText2 ? `<div class="bio-text">${bioText2}</div>` : '<p>No biography available</p>'}
+                    </div>
+                `;
+                
+                // Test entity with 'biography' field
+                const response3 = await fetch('http://localhost:8081/api/v2/entities/larry_morrison');
+                const entity3 = await response3.json();
+                const bioText3 = entity3.bio?.biography || entity3.bio?.summary;
+                
+                results.innerHTML += `
+                    <div class="entity">
+                        <h3>${entity3.name}</h3>
+                        <div>
+                            <span class="status ${entity3.bio?.biography ? 'has-bio' : entity3.bio?.summary ? 'has-summary' : 'missing'}">
+                                ${entity3.bio?.biography ? 'Has Biography' : entity3.bio?.summary ? 'Has Summary' : 'Missing'}
+                            </span>
+                        </div>
+                        ${bioText3 ? `<div class="bio-text">${bioText3}</div>` : '<p>No biography available</p>'}
+                    </div>
+                `;
+                
+            } catch (error) {
+                document.getElementById('results').innerHTML = `
+                    <div class="entity" style="background: #f8d7da;">
+                        <h3>Error</h3>
+                        <p>${error.message}</p>
+                        <p>Make sure backend is running: <code>python3 server/app.py 8081</code></p>
+                    </div>
+                `;
+            }
+        }
+        
+        testBiographies();
+    </script>
+</body>
+</html>

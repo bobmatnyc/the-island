@@ -1,0 +1,82 @@
+Invoice Number: 4-495-75031 $
+e Invoice Date: Dee 23, 2002
+Account Number: 1144-2081-6
+Page: 21 of 21
+FedEx Ground Reference Chart
+FEDEX HOME DELIVERY SERVICE CODES ZONE DEFINITIONS
+800 AautoPOD Prepaid 28 Ground Service 48 contiguous states
+FedEx Ground 04 Propadd 3 Seidce tc tiaieel
+ana Signature, Prepaid 10 Sendca tn Puerto Rico
+015  AulloPOD, Prepaid, Domestic 810 «= Evaning, AutoPOD, Prapaid 14 Senvica to Oahu
+016 COD Prepaid Domestic au Evening Prepaid 7 Service fo Alaska
+017 ~=ECOD Prepaid Domestic 818 Evering Signature Prepaid 22 Service within Aaska
+018 = FadiEx Ground, PRP, Prepaid, Dameste 82 ~— Datla Certain, AutoPOD, Prapaid 23 Sarvica from Alaska
+019) Prepaid, Domestic 824 «= Date Certain, Prepaid 25 Sarvca tom Aiaska
+020 © AuloPOD Collect Domestic Date Certain Signature Prepaid 51 & 54 Servies to Canada
+021 Collect Domestic 830 Appointment, AutoPOO Prepaid 92 & 96 Servics trom Hawaii (Deterred}
+030 4 8©=©COD Collect Domestic 8% Appainiment Prepaid
+031 ECOD, Collect, Domesiic Aas Adal AutoPOD, Prepaid
+022 Cash COD, Collea, Domestic am Adult Signa, Prapaid
+033  Guaranieed Funds COD Coliect Donesic 837 Evenng AdsIPOD Prepaid
+136 Ground Prepaid Retum Manager 838 Evering Adult Si
+408 Guaranteed Funds COD, Prepaid, Domestic ana Dale Coaea hae tone naan Papill OTHER CHARGE CODE DEFINTIONS
+408 = Cash COD, Prepaid, Damastic 840 ~——dData Certain, Adu! Sgnanwe, Prepad
+410 AutoPOD COD Prepaid Domestic 841 Appointment, Adut Signature, Prepaid
+4n AutloPOD COD Collec! Domestic 842 Appointment, AdullPOD Prepaid a) C OD (Collecton Daivery)
+412 AulOPOD, ECOD, Prepaki, Domestic ano Bill ard Panty 2) AQD (Acknowedgement of Delivery)
+413° = AutloPOD, ECOD, Callac, Domestic ast Bil 2d Party, Auw POD 8) Cal Tag
+414 = AuloPOD PRP Prepaid Domestic 852 Bil ¢d Pady Signature (4) Oversize > 84" Combinad Length and Gan
+416 = AuloPOD, Cash COD, Prepaid, Domastic 854 = Evering, Bil 3rd Party, AuwPOD 6) Address Correction
+417 Bill ret Party, Domestic 855 Evening, Bal 3d Panty, Signanra @) Hazadaus Maternal
+418 —Bill Sr Party, AuloPOD Domestic 856 Date Certain Bill 3rd Party @) Automatic Proot ot Delivery
+419 Bill 3rd Party. COD Domestic 857 Date Certam Bill 3rd Party AulbPOD 8) Additional Handing
+420 Bill 3rd Party, Guaranised Funds COD Dan 858 Date Certain Ba! SrdPaity Signature (10) Oversim Extra Service Fee
+421 ‘Bil ani Party, Cash COD, Domestic 859 = Appointment, Bal 3rd Pacy (11) Overweight > 150 bs.
+422 Bill! Racipient, Domestic 860 = Appointment, Bil 3rd Panty, AuloPOD (12 Eectronic C.0.D., 24 hours
+423 _ Bil Recipient AutoPOD Domestic 861 ‘Bill 3a Paily Adul AutoPOD (13 Elecronic.C.0.D., 48 hours
+424 Bil Recipient COD Domestic Bil 3d Party Aduil Signature (14) FedEx Ground Residential
+425 Bill Recipient, Guarantead Funds COD, Dam 863 Evaring, Bil 3rd Party, Adut AuloPOD (15) FedEx Ground Residential - Rural _
+426 ‘Bil Recipient, Casn COD, Dan 864 = Evering, Bil 3rd Panty, Adult Signature (16) Reanum Manager Transmission Fee =
+427 AutoPOD CashCOD. Collec! Domestic 865 Date Certain, Bill 2rd Panty, Adult AutoPOD (20) Fadi€x Signature Home Delivery -=
+428 AuloPOD Guaranteed Funds COD Collect Dom. 866 Dale Certain Billi 3rd Parly Adull Signatue en Fad€x Date Canain Home Delivery =
+422 «= ECOD, Bill 3rd Party, Domestic 869 Bil Reapent (22) FedEx Appointment Home Delivery =
+42) — AutoPOD, COD, Bill Sai Party, Domestic 87 _ Bil Recipient, AutoPOD 23) FedEx Evening Home Deivery =
+431 AuloPOD ECOD Bil 3rd Parly Domesic avi Bill Racipient, Signature (24) Fad€x Home Delivery Residential -—|
+432  AuloPOD CashCOD Bil 3rd Party. Domestic 872 Evering Bill Recipient (25) —- FaciEx Home Delivery Residertial Rural =
+433 AuloPOD, Guarantead Funds COD, Bil Sad Party, Dom 872 —_Evering, Bal Recipient, AuwPOD (28) Cah COD Charge =
+434 — ECOD, Bill Racipient, Domestic 874 —- Evaning, Bil Recipient, Signatira (27) CasnhCOD High Densily Charge =
+435  AtoPOD COD Bil Recipient Domestic 875 Date Certain Gil Recipient (28) CasnhC OD ECxtra Ditemnca Grane =
+436 AutoPOD ECOD Bil Recipient Domestic 876 Date Cetain 6a) Recipient AulbPOD (29) —- Proof of Dalivary Advantage Charge =
+437 AatoPOD CashCOD Bil Recipied Domestic 877 Date Certain Gill Recipient Signatre 0) FedEx Home Delivery Forced Appointmert
+438 = AatoPOD, Guarameed Funds COD, Bill Recipiant, Dam 878 = Appointment, Bal Racipient (31) FedEx Home Delivery Surcharge - Out of Service Area
+872 = Appointment, Bill Recipient, AuoPOD 2) FadiEx Home Dalivary Surcharge Hazarious Maternal
+FedEx International Ground a ee SS ee ee eee eee
+881 Bil Recipient Adull Signature 84 FedEx Home Delivery Surcharge - COD Package
+8A2 = Evering, Bil Recipient, Adult AuloPOD 5) “Fuel Surcharge
+022 = AuloFOD, Prapaid 883 Evaring, Bil Recipient, Adult Signatura @6) Oversize > 108° Combiner Length and Gah
+023. «COD Prepaid 884 = Data Certain, Bil! Recipient, Adwt AuinPOD (37) Oversize > 108° in Langth
+024 ECOD Prepaid 885 Date Certain Gili Recipient Ack it Signature (38) = Oversize > 130° Combined Length and Gian
+025 =~ PRP Prepaid 886 = Appointment Ell Recipient, Adull Sigrature 9) = Supplemental Oversize Package Charge
+0260 = Prepaid 887 Appointment, BH Recipient, Adull AuloPOD (40) Canada Goods & Sevices Tax - GST
+027 = AutoFOD, Collact (41) Canada Harmonized and Service Tax - HST
+028 = Collect (42) Canada Quebec Sales Tax - QST
+478 Guaranteed Funds COD Prepaid 43) = Resaved
+479 CashCOb, Prepaid (44) Retum Manager
+49 = AuloPOD, COD, Prepad (45) Credit Cant Dec‘ine Surcharge
+481 — AultoPOD Collect (46) Consolidated Returns Palybag
+482 AuloPOD ECOD Prepaid (47) Consolidated Returns Package 2x2x4 - 2x6x8
+483 © AutoPOD, ECOD, Cailact 48) Consolidated Returns Package 4:4x8 - 4x@x12
+484 = AutoPOD, PRP, Prapaid (49) Consolidated Ranuns Package 6xfx10 - 6x 10x16
+485  AuloPOD Guaranieed Funds COD Prepaid 0) — Consolidated Renns Package && 1x1 2 - 10x12x16
+486 AuloPOD CashCOD Prepaid (51) Consolidated Returns Package Fill Charge
+487 Bil 9d Panty (52) Consolidated Returns Oversize Package Chaige
+488 «= Bil Ari Party, AutloPOD 8) Ship Manage oRet m Managar
+489 Bill 3rd Party COD 6  Sacurty Surcharge
+490 Bil! 3rd Party Guaranteed Funds COD
+491 Bill 3rd Party. Cash COD
+492 Bil! Racipient
+482 Bill Recipient, AutaPOD
+494 Bil! Recipient, COD
+495 Bil Recipient Guararteed Funds COD
+49% Bil! Recipient, Casn COD
+DOJ-OGR-00016084

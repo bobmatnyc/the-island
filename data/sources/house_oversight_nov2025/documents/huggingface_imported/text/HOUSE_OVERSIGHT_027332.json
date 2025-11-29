@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027332",
+  "filename": "TEXT-001-HOUSE_OVERSIGHT_027332.txt",
+  "text": "Source Entry: H\\Macintosh HD\\root\\Users\\jee\\Library\\Messages\\Archive\\2018-07-23\\II \non 2018-07-23 at 05.02.16.ichat \nService: IMessage \nStart Time: 07/23/18 02:02:16 AM (554029336) \nEnd Time: 07/23/18 05:34:06 AM (554042046) \nLast Message ID: 17720 \nChat Room: \nParticipants: jee, \nPresentity IDs: e:jeeitunes@gmail.com, \nMessages - \nSender: e:jeeitunes@gmail.com \nTime: 07/23/18 02:02:16 AM (554029336) \nFlags: 1085445 \nIs Read: No \nIs Invitation: No \nGUID: EE232627-17BE-4951-9918-BA3F548ACBE8 \nMessage: Trump threatened Iran ;) \nSender: \nTime: 07/23/18 05:34:06 AM (554042046) \nFlags: 1060865 \nIs Read: Yes \nIs Invitation: No \nGUID: 02455B24-2BBB-4A5B-AADC-F27394281FDA \nMessage: Yes, I saw that and immediately remember our conversation \nHOUSE OVERSIGHT 027332",
+  "metadata": {
+    "original_filename": "TEXT-001-HOUSE_OVERSIGHT_027332.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 764,
+    "word_count": 86,
+    "line_count": 25,
+    "import_date": "2025-11-19T21:47:46.259290",
+    "prefix": "TEXT-001"
+  }
+}

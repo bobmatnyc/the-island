@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010967",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010967.txt",
+  "text": "In this book I will usually be modeling risk and return at the collective scale or at the\ncohort one. A cohort means the set of all same-aged individuals. It turns out that the\nratio of females to males tends to rise with each older cohort, for reasons Bob\nTrivers explains, as does wealth up to a point. But in cohort analysis, both effects\n(wealth and sex ratio) are incorporated into effects of cohort age. That will simplify\n\nmodeling.\n\nMy risk theory is another example of what looks to be surprise and novelty until\nshown otherwise. The unusual idea lies in projecting the owner’s time\npreference/return rate onto the asset rather than conversely. Thus all the owner’s\nassets of both factors are selected or modified to fit her current risk profile. This\nwould count her liquid securities portfolio, cap weighted, as a single asset. All other\nassets are too illiquid for practical rebalancing. We own the assets best suited to our\nrisk profiles, if for no better reason than that we wouldn’t be the winning bidders\nfor any others if we wanted them. As our risk profiles evolve with age, we modify or\ntrade them. We will tend to have anticipated this need, and to have factored\nmodification or trading costs into our bid price. It turns out that this interpretation\n\ncan simplify the math of present value and present cost.\n\nIt helps in supporting the pay rule, and explaining age-wage profiles, by rebutting a\nhypothesis, sometimes argued, that productivity of human capital might rise with\nage. Productivity, rate of return and time preference rate all mean the same. My risk\ntheory argues that we knowa cohort’s risk tolerance from the return to its cap-\nweighted securities portfolio as a whole. All other assets of the same cohort,\nincluding human capital, will tend to agree with it in return. Return to security\nportfolios tends to be transparent. It declines with adult cohort age. | infer that\n\nreturn to human capital does the same.\n\nMy risk theory and depreciation theory together add a finishing touch to the pay\nrule. The key supporting evidence is age-wage profiles. Depreciation theory offers\n\nsolid logic, in the face of apparent contrary data, that pay is all human depreciation\n\nChapter 2: Fast Forward 1/06/16 27\n\nHOUSE_OVERSIGHT_010967",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010967.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2260,
+    "word_count": 380,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:44.486006",
+    "prefix": "IMAGES-001"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00033217.pdf",
+  "ocr_date": "2025-11-16T22:15:35.959299",
+  "text_length": 1438,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "Villafana@usdoj.gov"
+  ]
+}

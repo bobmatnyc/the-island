@@ -1,0 +1,32 @@
+# Development Dependencies for Epstein Document Archive
+# Install with: pip install -r requirements-dev.txt
+
+# Linting and Formatting
+ruff>=0.1.0              # Fast Python linter (replaces flake8, pylint, isort)
+black>=23.11.0           # Opinionated code formatter
+isort>=5.12.0            # Import sorting
+
+# Type Checking
+mypy>=1.7.0              # Static type checker
+types-requests>=2.31.0   # Type stubs for requests
+types-beautifulsoup4>=4.12.0  # Type stubs for beautifulsoup4
+
+# Testing
+pytest>=7.4.0            # Test framework
+pytest-cov>=4.1.0        # Coverage plugin for pytest
+pytest-asyncio>=0.21.0   # Async support for pytest
+pytest-mock>=3.12.0      # Mocking plugin for pytest
+httpx-mock>=0.7.0        # Mock httpx requests for testing
+
+# Development Tools
+ipython>=8.17.0          # Enhanced Python shell
+ipdb>=0.13.13            # IPython debugger
+rich>=13.7.0             # Beautiful terminal output
+
+# Documentation
+sphinx>=7.2.0            # Documentation generator
+sphinx-rtd-theme>=2.0.0  # Read the Docs theme
+
+# Optional: Performance profiling
+memory-profiler>=0.61.0  # Memory usage profiler
+py-spy>=0.3.14           # Sampling profiler

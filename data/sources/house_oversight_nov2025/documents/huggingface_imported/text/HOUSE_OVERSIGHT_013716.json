@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013716",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013716.txt",
+  "text": "operationally defined “energy states.” Smooth changes along the path of the\nnonlinear parameter manifold generated discontinuous changes in energy levels\nindicating states of the observable. Crossing a wrinkle in an “independent variable”\n(some call it “order parameter” to indicate its emergence rather than availability for\npredictable manipulation) such as the nonlinear parameter surface of the\ncountervailing influences of survival fear and financial cost, may lead to a bifurcation\n\nin behavior from peace (“low energy”) to war (“high energy”) (Zeeman, 1977).\n\nIn a similar geometric spirit but dealing with nonequilibrium systems. in\nmotion, the conditions such that one could “smoothly” embed a trajectory like a\ncontinuously recorded EEG record, a complicatedly coiled snake into a three or\nhigher dimensional box without loss of its essential dynamical or statistically\nmeasureable properties, was settled by Whitney in what is now referred to as the\n“embedding theorem” (Whitney, 1936). Starting with a tangled knot of overlapping\nvectorial orbits with apparent “non-invertable points” (given a point, one cannot\nchose among or between the more than one point that it apparently came from), it\ncan always be unwrapped into a non-crossing trajectory satisfying uniqueness when\nreconstructed in a box of a little more than twice the parameter-determined\n\ndimension of the original space of observables.\n\nA common technique for the spatial reconstruction of the output of a\ndynamical system is called a “time delay embedding.” This approach, first\n\nsuggested by Ruelle (1987, pg. 28) replaced the value, x, versus the time\n\nderivative, = phase portrait plot described for a continuously perturbed bob on a\n\nspring above. A sequence of observables over time, in, for example, three\ndimensional “phase space” (Packard et al, 1980; Takens, 1981; Sauer et al, 1991),\nis depicted by a curve representing the system’s trajectory at times 4, f, fs, by\nsliding one-by-one down the series and plotting each pj, Po, ps, location with\nrespect to each other along the x, y and z axes respectively. The choice of time\ninterval between the points, the delay, can be delicate and usually some standard\nfraction of the decay time of the sequence’s autocorrelation length, “the decay time\n\nof mutual information” is chosen. There are many technical considerations,\n\n216\n\nHOUSE_OVERSIGHT_013716",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013716.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2384,
+    "word_count": 364,
+    "line_count": 42,
+    "import_date": "2025-11-19T21:47:47.091122",
+    "prefix": "IMAGES-002"
+  }
+}

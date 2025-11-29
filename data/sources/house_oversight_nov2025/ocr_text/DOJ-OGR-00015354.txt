@@ -1,0 +1,53 @@
+Fed=< Invoice Number: 4-447-80862
+2 Invoice Date: Nov 18, 2002
+Account Number: 1144-2081-6
+Page: 10 of 14
+FedEx Express Shipment Detail By Payment Type (Original)
+Dropped off: Nov 13, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 7
+Package sent from: 87505 zip code
+FedEx has audited this shipment for correct packages, weight, and service. Any changes made are reflected in the invoice amount.
+Tracking ID 827487051470 Sender Recipient
+Service Type FedEx 2Day KATE BALERYD NICK SIMMONDS
+Package Type Customer Packaging JEFFREY E EPSTE N J EPSTE N INTERESTS
+Zone ii 457 MADISON AVE 457 MADISON AVE 4TH FL
+Packages 1 NEW YORK NY 10022-6843 US NEW YORK NY 10022 US
+Weight 40.0 Ibs, 18.2 kgs
+Delivered Nov 15, 2002 12:10 Transportation Charge 76.00
+SvcArea AM Discount 7.80
+Signed by K.STEEN Fuel Surcharge 2.74
+FedEx Use  319110460/06090/_ ————
+Total Transportation Charges USD $ 71.14
+Dropped off: Nov 13, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 7
+Package sent from: 87505 zip code
+Tracking ID 827487051480 Sender Recipient
+Service Type FedEx 2Day KATE BALERUD NICK SIMMONDS
+Package Type Customer Packaging JEFFREY E EPSTE N J EPSTE N INTERESTS
+Zone 7 457 MADISON AVE 457 MADISON AVE 4TH FL
+Packages 1 NEW YORK NY 10022-6843 US NEW YORK NY 10022 US
+Weight 65.0 Ibs, 29.5 kgs
+Delivered Nov 15, 2002 12:10 Transportation Charge 117.25
+SvcAred =A Discount -11.73
+Signed by KCSTEEN Fuel Surcharge 4.22
+FedEx Use  319110460/06090/_ ———
+Total Transportation Charges USD $ 109.74
+Picked up: Nov 13, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+Distance Based Pricing, Zone 6
+Package sent from: 33404 zip code
+Tracking ID 827487160076 Sender Recipient
+Service Type FedEx Priority Overnight LARRY VISOSKI HELEN
+Package Type FedEx Envelope JEFFREY E EPSTEN JEPSTEN&CO
+Zone 6 457 MADISON AVE 457 MADISON AVE
+Packages 1 NEW YORK NY 10022-6843 US NEW YORK NY 10022 US
+Weight 1.0 Ibs, 0.5 kgs
+Delivered Nov 14, 2002 09:21 Transportation Charge 16.00
+SvcArea AI Discount -2.56
+Signed by W-DOOLIN Fuel Surcharge 0.54
+FedEx Use 318087420/00230/_ Courier Pickup Charge 0.00
+Total Transportation Charges USD $ 13.98
+SDNY_GM_00340707 45
+DOJ-OGR-00015354

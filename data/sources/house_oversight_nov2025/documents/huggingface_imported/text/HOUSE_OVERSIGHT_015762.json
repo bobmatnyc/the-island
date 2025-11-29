@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015762",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015762.txt",
+  "text": "72 Are the Androids Dreaming Yet?\n\nwould be very hard for a human but easy for a computer. If you got a\nvery quick answer; the computer would have given itself away. But, the\ncomputer has been programmed not to give itself away, and it is free to\ngive the answer slowly or even reply that the calculation is too hard. Our\ncomputer can say anything it likes, including lying to pass the test! If the\ncomputer can fool a questioner into believing it is a human then Turing\nargued the computer has shown it is at least as intelligent as we are.\n\nIt used to be assumed that the field of broad general knowledge\nwould be hard for a computer, but Watson has shown this is not so. With\nenough storage and a reasonable algorithm, winning a pub quiz is well\nwithin the capability of a modern computer.\n\nThe really difficult questions for a computer are philosophical ones,\nnovel questions and things that don’t fall into a pattern. For example,\n\n“Are you happy?”\n\n“What do you think of Shakespeare’s Hamlet?”\n\n“Ts there life after death?”\n\n“How went it?”\n\n“Think Differ...”\n\nIf a computer could plausibly answer this sort of questioning for an\nextended period, say fifteen minutes, should we conclude it is intelligent,\nor do we need more time to be certain?\n\nTuring’s approach to certainty was simple. Just ask lots of questions.\nAs you ask more and more questions, you will become increasingly\ncertain you are talking to an intelligent being. He characterized it\nas a linear process; after 15 minutes of questioning you might be\n99% certain and after a few hours 99.9% certain and after a few days\ncompletely certain. The problem with this approach is it does not flush\nout discontinuities. What if the questioning suddenly stopped without\nwarning or explanation? A human responder is likely to worry that the\nquestioner has had a heart attack and do something to find out what is\ngoing on including leaving the room. Humans can make creative leaps,\nsolve non-computable puzzles or come up with a clever new joke. A\nhumans could even announce the test is a waste of time and walk off.\nThey just exercised free will! A computer cannot do these things.\n\nEach year a group of scientists enters a competition run by\nCambridge University to win the Loebner prize, a competition to see\nhow close a machine can come to passing the Turing Test. If you can beat\nthe test you win $100,000. So far no one has come close and scientists are\nbeginning to realize just how hard it is.\n\nHOUSE_OVERSIGHT_015762",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015762.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2486,
+    "word_count": 438,
+    "line_count": 53,
+    "import_date": "2025-11-19T21:47:49.134939",
+    "prefix": "IMAGES-003"
+  }
+}

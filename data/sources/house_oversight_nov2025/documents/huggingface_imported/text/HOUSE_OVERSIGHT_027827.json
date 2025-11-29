@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027827",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027827.txt",
+  "text": "Message: He would be onboard correct ???\n\nTime: 06/28/19 09:55:04 AM (583433704)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: A226C61A-3372-44B1-AlE9-AC64D8 6ES5D2B\n\nMessage: Or should I ask?\n\nTime: 06/28/19 09:55:08 AM (583433708)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: OFES5C81-994F-4380-B687-1CFCO8F14DE1\n\nr\n\nMessage: Easy for me\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/28/19 09:55:18 AM (583433718)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: D2EC900B-CDE2-47CC-B1C4-6C46FCO0D9D4\n\nMessage: Ask. And yes\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/28/19 09:55:25 AM (583433725)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 599372A0-DE85-4B5A-A8 6E-1E6DDC 64DBAB\n\nMessage: I could of course\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/28/19 09:55:41 AM (583433741)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 2A8FCBD5-E4AD-491F-A874-DC05C1517466\n\nMessage: Im dealing with Ehud in Israel. Making me crazy\n\nHOUSE_OVERSIGHT_027827",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027827.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 978,
+    "word_count": 121,
+    "line_count": 65,
+    "import_date": "2025-11-19T21:47:48.353098",
+    "prefix": "IMAGES-009"
+  }
+}

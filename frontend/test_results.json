@@ -1,0 +1,62 @@
+{
+  "issue1": {
+    "timelineCard": {
+      "title": "Timeline Events",
+      "value": "0",
+      "isTBD": false,
+      "expectedValue": "98",
+      "issue": "WORKING: Shows correct value"
+    },
+    "allCards": [
+      {
+        "title": "Timeline Events",
+        "value": "0",
+        "isTBD": false
+      },
+      {
+        "title": "Entities",
+        "value": "1,702",
+        "isTBD": false
+      },
+      {
+        "title": "Flight Logs",
+        "value": "TBD",
+        "isTBD": true
+      },
+      {
+        "title": "Documents",
+        "value": "38,482",
+        "isTBD": false
+      }
+    ],
+    "summary": "Found 4 stat cards. Timeline Events shows: 0"
+  },
+  "issue2": {
+    "sidebarExists": true,
+    "sidebarVisible": true,
+    "sidebarStyles": {
+      "display": "block",
+      "visibility": "visible",
+      "width": "300px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "opacity": "1",
+      "position": "relative",
+      "left": "0px"
+    },
+    "searchHistoryVisible": true,
+    "searchHistoryContent": "Search History",
+    "newChatVisible": true,
+    "newChatContent": "New",
+    "viewportWidth": 1920,
+    "isMobile": false,
+    "toggleButtonVisible": false,
+    "issue": "WORKING: Sidebar is visible",
+    "expectedBehavior": "On desktop (1920px), sidebar should be visible by default",
+    "actualBehavior": "Sidebar is visible"
+  },
+  "consoleMessages": {
+    "total": 6,
+    "errors": [],
+    "hasErrors": false
+  }
+}

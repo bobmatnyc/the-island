@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013166",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013166.txt",
+  "text": "250 13 Local, Global and Glocal Knowledge Representation\n\nImplicationLink\nInheritanceLink $X animal\nEvaluationLink\n\nPredicateNode: eat\nListLink\n\n\\$X\n\nConceptNode: food\n\nis\nAverageLink $X\nImplicationLink\nInheritanceLink $X animal\nEvaluationLink\nPredicateNode: eat\nListLink\n\n\\$X\nConceptNode: food\n\nThe AverageLink invokes an estimation of the average TruthValue of the embedded expression\n(in this case an ImplicationLink) over all possible values of the variable $X. If there are type\nrestrictions regarding the variable $X, these are taken into account in conducting the averaging.\nFor AllLink and Exist s-Link may be used in the same places as AverageLink, with uncertain\ntruth value semantics defined in PLN theory using third-order probabilities. There is also a\nScholemLink used to indicate variable dependencies for existentially quantified variables, used\nin cases of multiply nested existential quantifiers.\n\nEvaluationLink and MemberLink have overlapping semantics, allowing expression of the\nsame conceptual/logical relationships in terms of predicates or sets, i.e.\n\nEvaluationLink\nPredicateNode: eat\nListLink\n$X\nConceptNode: food\n\nhas the same semantics as\n\nMemberLink\nListLink\n$X\nConceptNode: food\nConceptNode: EatingEvents\n\nThe relation between the predicate \"eat\" and the concept \"EatingEvents\" is formally given by\n\nExtensionalEquivalenceLink\nConceptNode: EatingEvents\nSatisfyingSetLink\n\nPredicateNode: eal\n\nIn other words, we say that \"EatingEvents\" is the SatisfyingSet of the predicate \"eat\": it is the\nset of entities that satisfy the predicate \"eat\". Note that the truth values of MemberLink and\nEvaluationLink are fuzzy rather than probabilistic.\n\nHOUSE_OVERSIGHT_013166",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013166.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1691,
+    "word_count": 224,
+    "line_count": 62,
+    "import_date": "2025-11-19T21:47:48.472766",
+    "prefix": "IMAGES-002"
+  }
+}

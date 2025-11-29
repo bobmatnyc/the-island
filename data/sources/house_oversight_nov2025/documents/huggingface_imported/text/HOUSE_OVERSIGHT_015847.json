@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015847",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015847.txt",
+  "text": "Kittens & Gorillas 157\n\nand numbers had not yet been properly invented. Euclid used distances\nrather than numbers for all his proofs but I will use the word ‘number’ in\nthis explanation.\n\nFirst a little revision. A prime number is a number that can only\nbe divided by itself and one, for example three, five, seven, and eleven.\nAll numbers can be split into primes using a couple of tricks. First, all\nnumbers are divisible by a set of primes. Ten is five times two — two\nprimes. We are also fairly sure we can form any number by adding two\nprimes together. This is Goldbach’s Conjecture, set as a question in a\nletter written to Euler in 1742. It is still unproven!\n\nEuclid proved there are an infinite number of primes by using\nreductio ad absurdum. Imagine we have a complete list of prime numbers\n— James’ list of primes. It contains every prime number. (This is the setup.\nWe are proposing something we suspect is incorrect and will lead to a\nparadox or contradiction. When it does, we will have proven the opposite\nfact. The proof relies on the fact that a number can either be prime or not\nprime. There is no middle ground.)\n\nLet’s make a new number by multiplying all the numbers on my list\ntogether and adding one. There are two possibilities: this new number is\neither prime or not prime.\n\nIf the number is prime, it is a new prime number that was not on\nmy list and I have disproved the theory.\n\nIf it is not prime then it must be divisible by two prime numbers\nalready on my list. However, neither of these numbers could have been\non my list, because dividing by one of them would give me a remainder\nof one. Remember I multiplied all prime numbers together and added\none. It must, therefore, be a new prime number, which had previously\nnot been on my list. Once again, I disprove the theory.\n\nSince both routes fail, James’ list of prime numbers is not complete\nand, therefore, prime numbers are infinite.\n\nFeynman's Proof\n\nMy favorite piece of logic is Richard Feynman's disproof of the existence\nof polywater. It’s a strange logical proof bordering on philosophy, but it\nshows just how far you can take logic.\n\nIn 1969, an urban legend spread around the world that there was a\nsubstance called polywater. It even made it into an episode of Star Trek.\nPolywater was believed to be a lower energy state of water, more viscous\nthan ordinary water. If this substance did exist, it would be possible\nto mine the oceans of the world converting water to polywater and\n\nHOUSE_OVERSIGHT_015847",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015847.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2499,
+    "word_count": 450,
+    "line_count": 52,
+    "import_date": "2025-11-19T21:47:47.837534",
+    "prefix": "IMAGES-003"
+  }
+}

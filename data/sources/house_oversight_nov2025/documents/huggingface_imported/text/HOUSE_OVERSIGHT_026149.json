@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026149",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_026149.txt",
+  "text": "Ukrsibbank\n\nQ1 2017 Q1 2016\nInterest income 29 38\nInterest expense -6 -14\nNet interest income 23 24\nNet commission income 12 10\nTrading & other income 3 7\nEmployee costs -10 9\nDepreciation -1 “1\nAdministrative and other -6 -6\noperating costs\nOther provisions 0 0\nGeneral & Admin. -18 -16\nExpenses\nPre Provision Income 20 25\nProvision for loan 9 -56\nimpairment\nProfit before tax 11 -31\nIncome tax expense -2 -0\nNet profit 8 -31\n\nPlease see summary of 2016 audited financial statements for Ukrsib, Ukrgas\nand Raiffeisen as well as their 1Q17 statements in Appendix I.\n\nThe bank is overcapitalised at 21.37% CAD mainly due to subordinated debt\nprovided by EBRD in USD during the years of crisis. About EUR 135 million\nwere outstanding at 1.5% (1Q17: EUR 104 million) with their contribution to\nregulatory capital being EUR 73 million which is equivalent to 7.51% CAD\nratio. The minimum CAD required by NBU is 10%. 71% of the subordinated is\ndue to be repaid in 2019.\n\n16\n\nHOUSE_OVERSIGHT_026149",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_026149.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 991,
+    "word_count": 172,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:44.012833",
+    "prefix": "IMAGES-008"
+  }
+}

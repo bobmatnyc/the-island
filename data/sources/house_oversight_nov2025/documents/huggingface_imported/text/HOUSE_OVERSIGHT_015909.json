@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015909",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015909.txt",
+  "text": "Turing’s Machine 219\n\nneeded to get hold of Enigma machines, ideally without the Germans’\nknowledge. The film U-571 merges two such capture stories into one,\ntaking a few dramatic liberties along the way, but it’s well worth watching.\n\nEven with a captured machine, the codes were hard to break. You\nneeded a starting point — a crib to give you a clue what the machine\nsettings were. Helpfully, the German Army often began their messages\nwith a weather report. Everyone knows the German word for weather —\n‘Wetter’. Decode the first 20 letters of a message until you found “Wetter’\nand the message is unlocked. The German Navy, however, was less chatty\nand avoided obvious words in their messages. One way the Allies could\nfind a crib was to blow something up. They would sail to some point in\nthe Atlantic, fill an old boat with oil drums, and set it alight. The German\nNavy would get wind of this and go to investigate. The first thing they\nwould do is to radio a message back to base with the coordinates of\nthe wreckage, which, of course, the British already knew. This gave the\nBritish a crib, and once they were in, they could decode messages for\nseveral days in a row because the Enigma machines often cycled through\na repeating pattern.\n\nThroughout the War, the German military never suspected the\nBritish had cracked their codes and thought they must have traitors giving\naway their secrets. The Enigma machine was an elegant compromise\nbetween a truly unbreakable code and a simple cipher. Unfortunately for\nthe Germans, Turing was on the side of the Allies.\n\nIn the 1930s almost all mathematics, accounting, and code-breaking\nwere performed by humans using pencil and paper. It was the science\nbehind this process Turing sought to understand. We'll take a step back\nin time again to 1935 and Turing’s discovery ofa solution to the Decision\nProblem — the Entscheidungsproblem.\n\nHOUSE_OVERSIGHT_015909",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015909.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1910,
+    "word_count": 325,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:47.142338",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015907",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015907.txt",
+  "text": "Turing’s Machine 217\n\nThe Perfect Code\n\nThe proof that a one-time pad is perfectly secret is straightforward.\nImagine I take a coin and flip it 1000 times. PI write down some of the\nresults as follows:\n\nHHTHHHTTHTTTHTTTTTHTH...\n\nI give you a copy of my results and keep one for myself. Now we\neach have the same random set of Heads and Tails recorded on a piece\nof paper. I can convert any message from letters to binary numbers: ‘a\n= 00000001, ‘b’ = 00000010, ‘’ = 00000011 and so on. If you are not\nfamiliar with binary just assume I have a code where we only ever use\ncombinations of 0s or 1s. To encrypt the message we flip each bit — 0 goes\nto 1 or 1 goes to 0 — using my random list of heads and tails according\nto the following rule: If I have a head flip the bit, otherwise leave it the\nsame. I now have a randomized message, and it really is truly random. To\nconvince yourself, imagine answering the question, do you like coffee or\ntea? Think of your answer and flip a coin. If the coin lands heads change\nyour answer otherwise leave it the same. Now write your answer down.\nTry it out a few times. Do you see you end up with a totally random set\nof decisions — tea, coffee, coffee, tea, tea, tea. If you don't record the coin\ntoss there is no way to determine your true answer.\n\nSimilarly, the message I encoded above now looks like a completely\nrandom stream of 1s and 0s and the only person who can decode it is the\nparty with the other record of the coin tosses. Apply this to the message\nand, as if by magic, the message reappears. Any other random sequence\nwill yield gibberish. It has to be the SAME random sequence I used in\nthe first place.\n\nMathematically, the proof involves working out that the probability\nof getting the right answer by applying a random sequence is 1 in 2\" and\nthe probability I could guess the answer is also 1 in 2\"? The same! So the\nchance of decrypting the message knowing the encryption method is the\nsame as simply guessing the message and getting lucky. Therefore, the\nmessage is perfectly encrypted.\n\nQuantum Cryptography\n\nIt turns out there is one other perfect encryption method that involves\nthinking about the nature of secrets. Normally we consider the primary\nproblem with sending a secret message is coding it so that it can’t be read\n\nHOUSE_OVERSIGHT_015907",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015907.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2313,
+    "word_count": 428,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:46.195354",
+    "prefix": "IMAGES-003"
+  }
+}

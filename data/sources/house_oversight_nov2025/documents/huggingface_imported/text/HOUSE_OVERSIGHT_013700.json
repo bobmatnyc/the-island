@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013700",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013700.txt",
+  "text": "21...) (Shenker and Kadanoff, 1982). Similar quantitative scaling properties were\n\nalso discovered in the parametric period adding route (Kaneko, 1983).\n\nAll of these scaling numbers have been found in experiments and in\nremarkable agreement with theory. Examples have been discovered in electronic\ncircuits, hydrodynamic and mercury flows, acoustic systems, laser dynamics and\noscillating chemical reactions (see Cvitanovic’, 1989, for representative list of\nreferences). Whereas qualitative evidence for all of these bifurcation scenarios have\nbeen found in brain relevant experiments, there is yet to be a bifurcating\nexperimental biological system with adequate precision across a sufficient range of\nmagnitudes such that quantitative universality could be demonstrated across a\nsufficient range of values to be convincing. We remind ourselves that in order to\nestablish a Fiegenbaum number, each period doubling bifurcation of the several\nrequired necessitates about a five-fold improvement in the experimenter’s ability to\n\nspecify the control parameter.\n\nUsing Invariant Measures of Dynamical Neurobiological Systems\n\nBefore the modern era of dissipatively forced (energy utilizing) dynamical\nsystems research, the known attactors of an experiment’s initial values resulted\nfrom their convergence onto either a fixed point or a limit cycle. An attractor can be\nregarded as a set which remains in bounded space and to which all orbits in this\nneighborhood converge (Milnor, 1985). Since by the rules of differential equations,\norbits are required to be both smooth (graphable without lifting the pencil) and\nunique (different trajectories don’t intersect since the point of intersection would no\nlonger be unique), the foundational Poincare-Bendixon theorem says that any such\norbit confined to a two dimensional phase space that doesn’t converge to a fixed\npoint must, no matter how long it irregularly wanders, must, eventually intersect with\nitself and then go around the same route again in a (perhaps very long) cycle. In\nmost neuroscience research as well, we have generally regarded our data as\n\nmanifesting either tolerable (or intolerable) fluctuations around mean values (fixed\n\n200\n\nHOUSE_OVERSIGHT_013700",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013700.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2222,
+    "word_count": 321,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:46.589089",
+    "prefix": "IMAGES-002"
+  }
+}

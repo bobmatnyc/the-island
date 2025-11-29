@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016900",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016900.txt",
+  "text": "Romanian-born Anca Dragan’s research focuses on algorithms that will enable robots\nto work with, around, and in support of people. She runs the InterACT Laboratory at\nBerkeley, where her students work across different applications, from assistive robots to\nmanufacturing to autonomous cars, and draw from optimal control, planning, estimation,\nlearning, and cognitive science. Barely into her thirties herself, she has co-authored a\nnumber of papers with her veteran Berkeley colleague and mentor Stuart Russell which\naddress various aspects of machine learning and the knotty problems of value alignment.\n\nShe shares Stuart’s preoccupation with AI safety: “An immediate risk is agents\nproducing unwanted, surprising behavior,” she told an interviewer from the Future of\nLife Institute. “Even ifwe plan to use AI for good, things can go wrong, precisely\nbecause we are bad at specifying objectives and constraints for AI agents. Their\nsolutions are often not what we had in mind.”\n\nHer principal goal is therefore to help robots and programmers alike to overcome\nthe many conflicts that arise because of a lack of transparency about each other's\nintentions. Robots, she says, need to ask us questions. They should wonder about their\nassignments, and they should pester their human programmers until everybody is on the\nsame page—so as to avoid what she has euphemistically called “unexpected side\n\neffects.”\n\n97\n\nHOUSE_OVERSIGHT_016900",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016900.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1435,
+    "word_count": 218,
+    "line_count": 25,
+    "import_date": "2025-11-19T21:47:48.287774",
+    "prefix": "IMAGES-004"
+  }
+}

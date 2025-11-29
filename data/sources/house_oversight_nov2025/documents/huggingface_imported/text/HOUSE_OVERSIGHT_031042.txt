@@ -1,0 +1,70 @@
+Source Entry: H\Macintosh HD\root\Users\jee\Library\Messages\Archive\2018-01-26\Anil
+Ambani on 2018-01-26 at 05.05.50.ichat
+
+Service: iMessag
+
+Start Time: 01/26/18 02:05:50 AM (538653950)
+End Time: 01/26/18 02:15:13 AM (538654513)
+Last Message ID: 12026
+
+Chat Room:
+
+Participants: jee, Anil Ambani
+
+Presentity IDs: e:jeeitunes@gmail.com, [ER
+
+Messages -
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 01/26/18 02:05:50 AM (538653950)
+Flags: 1093637
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 4A4822E6-E703-4DC7-8D30-S5FBC4E6277F0
+
+Message: <Unsupported Message Content>
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 01/26/18 02:06:16 AM (538653976)
+Flags: 1093637
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: BD/7EOCEC-8151-45FC-BO9E-BAC585C96835
+
+Message: I have your signed dedicated copy
+
+Sender: iy
+
+Time: 01/26/18 02:06:40 AM (538654000)
+Flags: 1060865
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 30A949A4-94CD-4599-806E-C40B9455DACC
+
+Message: By whom
+
+Sender: e:jeeitunes@gmail.com
+
+Time: 01/26/18 02:07:08 AM (538654028)
+Flags: 1093637
+
+Is Read: Yes
+
+Is Invitation: No
+
+GUID: 52EF45DD-48E1-4ED5-900F-CCB73F4421FF
+
+Message: To you by both bannon and Wolfe
+
+HOUSE_OVERSIGHT_031042

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014644",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014644.txt",
+  "text": "US - Transportation Coverage Cluster\nBofA Merrill Lynch\n\nInvestment rating Company ticker Bloomberg symbol Analyst\nBUY\nCanadian Pacific Railway cP CPUS Ken Hoexter\nCSX Corporation CSX CSX US Ken Hoexter\nFedEx Corp. FDX FDX US Ken Hoexter\nFortress Transportation & Infrastructure FTAI FTAI US Ariel Rosa\nGolar LNG Limited GLNG GLNG US Ken Hoexter\nGolar LNG Partners LP GMLP GMLP US Ken Hoexter\nHoegh LNG Partners LP HMLP HMLP US Ken Hoexter\nJ.B. Hunt Transport Services JBHT JBHT US Ken Hoexter\nNorfolk Southern NSC NSC US Ken Hoexter\nScorpio Tankers Inc. STNG STNG US Ken Hoexter\nSwift Transportation SWFT SWFT US Ken Hoexter\nTriton International, Ltd TRIN TRIN US Ken Hoexter\nUnion Pacific UNP UNP US Ken Hoexter\nUPS UPS UPS US Ken Hoexter\nNEUTRAL\nArcBest Corporation ARCB ARCB US Ken Hoexter\nGenesee & Wyoming GWR GWR US Ken Hoexter\nKansas City Southern KSU KSU US Ken Hoexter\nKnight Transport KNX KNX US Ken Hoexter\nNavios Maritime Midstream Partners L.P. NAP NAP US Ken Hoexter\nThe Greenbrier Companies GBX GBX US Ken Hoexter\nWorld Fuel Services INT INT US Ken Hoexter\nUNDERPERFORM\nC.H. Robinson CHRW CHRW US Ken Hoexter\nCanadian National CNI CNIUS Ken Hoexter\nKirby Corp KEX KEX US Ken Hoexter\nOld Dominion Freight Line ODFL ODFL US Ariel Rosa\nSeaspan Corp SSW SSW US Ken Hoexter\nTeekay Tankers Limited TNK TNK US Ken Hoexter\nWerner Enterprises WERN WERN US Ken Hoexter\nme peorlgalinll Top 10 US Ideas Quarterly | 03 January 2017-23\n\nHOUSE_OVERSIGHT_014644",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014644.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1461,
+    "word_count": 245,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:48.369433",
+    "prefix": "IMAGES-003"
+  }
+}

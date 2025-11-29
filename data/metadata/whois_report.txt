@@ -1,0 +1,32 @@
+================================================================================
+ENTITY WHOIS ENRICHMENT REPORT
+================================================================================
+Generated: 2025-11-19T22:47:47.082689
+Duration: 1327.5 seconds (22.1 minutes)
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total entities: 1639
+Entities processed: 1639
+Bios added: 1409
+Bios skipped (already sufficient): 0
+Generic entities skipped: 46
+Errors (no Wikipedia entry): 184
+
+COVERAGE
+--------------------------------------------------------------------------------
+Entities with bios: 1409/1639 (86.0%)
+Target coverage: 80%
+Status: ✓ TARGET MET
+
+PERFORMANCE
+--------------------------------------------------------------------------------
+Average time per entity: 0.81s
+Entities per minute: 74.1
+
+SUCCESS CRITERIA
+--------------------------------------------------------------------------------
+✓ All entities have whois_checked flag: True
+✓ Bio coverage ≥ 80%: True
+
+================================================================================

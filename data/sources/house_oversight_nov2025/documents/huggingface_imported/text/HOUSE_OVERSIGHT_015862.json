@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015862",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015862.txt",
+  "text": "172 Are the Androids Dreaming Yet?\n\nat some point in the future. The only way to know is to build a perfect\nmodel of the system and see what happens. Poincaré won a valuable\nprize for his proof from the King of Bavaria. You can see some amazingly\ncomplex orbits plotted below. Remember these are still deterministic and\npredictable — after all, they were calculated with a computer — they are\njust chaotic.\n\nFour Body Problem\n\nButterflies and Sliding Doors\n\nAfter Poincaré, the field of chaos remained fairly quiet until Edward\nLorenz began studying weather patterns using computers in the 1960s.\nThe story goes, one day his computer was misbehaving and he had to re-\nkey some data into the machine. Rather than using eight decimal places\nhe used only six to save time, and was amazed when the results of his\nprogram came out completely different. Dropping the seventh and eighth\ndecimal place represents a change of only one part in a million, yet the\npatterns of weather predicted by the computer were completely altered.\n\nHOUSE_OVERSIGHT_015862",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015862.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1047,
+    "word_count": 177,
+    "line_count": 23,
+    "import_date": "2025-11-19T21:47:45.290922",
+    "prefix": "IMAGES-003"
+  }
+}

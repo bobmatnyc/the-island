@@ -1,0 +1,185 @@
+{
+  "timestamp": "2025-11-20T12:57:41.708458",
+  "success_criteria": {
+    "All endpoints return 200 OK": true,
+    "No 500 errors": true,
+    "p50 latency <300ms": true,
+    "p95 latency <500ms": true,
+    "Fuzzy matching accuracy >90%": true,
+    "Boolean operators work": true,
+    "Error handling is graceful": true,
+    "Concurrent requests succeed": true
+  },
+  "success_rate": 100.0,
+  "detailed_results": {
+    "performance": {
+      "Simple entity": {
+        "latency_ms": 213.2,
+        "status_code": 200,
+        "success": true,
+        "result_count": 5
+      },
+      "Multi-word": {
+        "latency_ms": 67.54,
+        "status_code": 200,
+        "success": true,
+        "result_count": 9
+      },
+      "Boolean AND": {
+        "latency_ms": 66.26,
+        "status_code": 200,
+        "success": true,
+        "result_count": 5
+      },
+      "Boolean OR": {
+        "latency_ms": 67.47,
+        "status_code": 200,
+        "success": true,
+        "result_count": 2
+      },
+      "Boolean NOT": {
+        "latency_ms": 67.59,
+        "status_code": 200,
+        "success": true,
+        "result_count": 4
+      },
+      "Fuzzy typo": {
+        "latency_ms": 61.57,
+        "status_code": 200,
+        "success": true,
+        "result_count": 2
+      },
+      "Date filtered": {
+        "latency_ms": 56.79,
+        "status_code": 200,
+        "success": true,
+        "result_count": 5
+      },
+      "Field filtered": {
+        "latency_ms": 10.86,
+        "status_code": 200,
+        "success": true,
+        "result_count": 10
+      },
+      "Empty results": {
+        "latency_ms": 67.04,
+        "status_code": 200,
+        "success": true,
+        "result_count": 0
+      },
+      "Large result set": {
+        "latency_ms": 55.29,
+        "status_code": 200,
+        "success": true,
+        "result_count": 0
+      }
+    },
+    "functionality": {
+      "unified_search": {
+        "success": true,
+        "status": 200,
+        "total": 5,
+        "result_types": {
+          "entity": 5
+        }
+      },
+      "autocomplete": {
+        "success": true,
+        "avg_latency_ms": 0.74,
+        "target_met": true
+      },
+      "analytics": {
+        "success": true,
+        "status": 200,
+        "total_searches": 83
+      },
+      "clear_history": {
+        "success": true,
+        "status": 200
+      }
+    },
+    "fuzzy_matching": {
+      "Ghisline": {
+        "target": "Ghislaine",
+        "found": true,
+        "result_count": 2
+      },
+      "Maxwel": {
+        "target": "Maxwell",
+        "found": true,
+        "result_count": 11
+      },
+      "Jeffry": {
+        "target": "Jeffrey",
+        "found": true,
+        "result_count": 4
+      },
+      "Epstien": {
+        "target": "Epstein",
+        "found": true,
+        "result_count": 3
+      },
+      "overall_accuracy": 100.0
+    },
+    "boolean_logic": {
+      "AND": {
+        "query": "Epstein AND Maxwell",
+        "success": true,
+        "result_count": 5
+      },
+      "OR": {
+        "query": "Epstein OR Clinton",
+        "success": true,
+        "result_count": 2
+      },
+      "NOT": {
+        "query": "Epstein NOT Maxwell",
+        "success": true,
+        "result_count": 4
+      },
+      "COMPLEX": {
+        "query": "(Epstein OR Clinton) AND NOT Maxwell",
+        "success": true,
+        "result_count": 0
+      }
+    },
+    "error_handling": {
+      "Empty query": {
+        "status_code": 200,
+        "graceful": true
+      },
+      "Special chars": {
+        "status_code": 200,
+        "graceful": true
+      },
+      "Very long query": {
+        "status_code": 200,
+        "graceful": true
+      },
+      "Invalid params": {
+        "status_code": 422,
+        "graceful": true
+      },
+      "Malformed boolean": {
+        "status_code": 200,
+        "graceful": true
+      }
+    },
+    "concurrent_load": {
+      "total_requests": 10,
+      "successful": 10,
+      "avg_latency_ms": 318.21,
+      "min_latency_ms": 59.91,
+      "max_latency_ms": 575.58,
+      "all_succeeded": true
+    },
+    "percentiles": {
+      "p50": 66.65,
+      "p95": 278.73,
+      "p99": 342.8,
+      "p50_target_met": true,
+      "p95_target_met": true,
+      "p99_target_met": true
+    }
+  }
+}

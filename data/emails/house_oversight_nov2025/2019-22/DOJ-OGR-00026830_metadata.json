@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00026830",
+  "email_index": 259,
+  "extracted_at": "2025-11-17T04:14:45.517224",
+  "from_address": null,
+  "to_address": "10074 New York Office of Chief Medical Examiner Workorder . Laek44?H9",
+  "cc_address": null,
+  "subject": null,
+  "date": "08/22/2019",
+  "body": "New York Office of Chief Medical Examiner Workorder .  Laek44?H9\nAttn: Department of Toxicology .\n520 First Avenue\nNew York, NY 10016 Page 1 of 2\nPositive Findings:\nSee Detailed Findings section for additional information\nTesting Requested:\nAnalysis Cade Description\n95608 Synthetic Cannabinoids Screen (2019 Scope), Blood\nSpecimens Received:\n10 =Tube/Contalner Volume! Collection Matrix Source Miscellaneous\nMass Date/Time Information\n001 Gray Top Tuke 4.25 mL Not Given Femoral Blood\nAll sample volumes/weights are approximations.\nSpecimens received on 08/14/2019.\nNMS v.18.0",
+  "confidence": 0.7,
+  "email_addresses": [
+    "nms@nmslabs.com"
+  ]
+}

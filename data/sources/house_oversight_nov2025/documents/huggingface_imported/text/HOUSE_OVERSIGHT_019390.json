@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019390",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019390.txt",
+  "text": "Automated Serial Permanent Charge-Out\nFD-Sa (1-5-94)\n\nCase ID: 31E-MM-108062 Serial: 29\n\nDescription of Document:\n\nType :\nDate bs 2\nTo j\nFrom : US DIST COURT\nTopic: EXECUTED FGJ SUBPOENA\nReason for Permanent Charge-Out:\ntransfer to subpoena sub\nTransferred to:\n\nCase ID: 31LE-MM-108062-SBP Serial: 62\n\nEmployee: [___\n\nDate: 06/21/07 Time: 14:03\n\nb7¢ -2\n\n03956-104\nSIE yt-=/0F0CI-20\n\nHOUSE_OVERSIGHT_019390",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019390.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 405,
+    "word_count": 57,
+    "line_count": 28,
+    "import_date": "2025-11-19T21:47:46.010541",
+    "prefix": "IMAGES-005"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011093",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011093.txt",
+  "text": "If it stopped at that point, the omnibus fund would probably attract few investors. It\nwould offer the aggregate return and risk of the publicity-traded corporate sector as\nif it had never borrowed or issued debt. Aggregate means average. No one is exactly\naverage. Some like me and my father happen to be more risk-tolerant, and opt for\nthe higher returns that tend to come from higher risk. Some prefer the opposite.\n\nHow can the omnibus fund attract both?\n\nThe answer is derivatives. Derivatives are obligations whose benefits depend on\noutcomes imperfectly foreseen. I said in the forward that I’m all in favor of them so\nlong as we respect and manage the risks. Equities themselves are the classical\nexample. Mortgage-backed securities give another. Common forms include futures\nand swaps. The idea is about the same. Each typically picks an index, often the S&P\n500. One party, the “short leg”, bets so much money, the “notional amount”, that the\nS&P 500 index will go down tomorrow. Another party, the “long leg”, bets it will go\nup. The short leg gets so much, say Libor plus 20 basis points (hundredths of a\npercent) of the notional amount, in any outcome. The long leg gets the index change,\n\nwhether up or down, times the same notional amount.\n\nNo one actually invests the notional amount. It is called “notional” for good reason.\nRather each side (leg) commits a cash reserve, held by the firm managing the swap\nor future, in this case the omnibus fund itself, of 20% of the notional amount. The\nreserve is drawn down to meet payments required when market swings are averse,\nand replenished when favorable. When it falls to 10% of the notional amount, it is\nconsidered unsafe and the swap or future ends prematurely. Parties are warned,\n\nand new reserves can be committed in time.\nMonitoring of the reserve is continuous during market hours. Whenever the reserve\n\nfalls to 10%, even in the middle of the day, the account is closed immediately. This\n\ndiscipline keeps the other party safe.\n\nChapter 8 Banks, Money and Macroeconomics 2/8/16 4\n\nHOUSE_OVERSIGHT_011093",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011093.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2076,
+    "word_count": 351,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:48.161960",
+    "prefix": "IMAGES-001"
+  }
+}

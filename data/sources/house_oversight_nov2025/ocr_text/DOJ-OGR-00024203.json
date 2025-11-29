@@ -1,0 +1,12 @@
+{
+  "source_pdf": "DOJ-OGR-00024203.pdf",
+  "ocr_date": "2025-11-16T21:53:50.599493",
+  "text_length": 754,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "Q@nysd.uscourts.gov",
+    "BermanNYSDChambers@nysd.uscourts.gov",
+    "SDChambers@nysd.uscourts.gov"
+  ]
+}

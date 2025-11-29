@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013760",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013760.txt",
+  "text": "Ehlers, C.L., Havstad, J., Prichard, D., Theiler, J. (1998) Low doses of ethanol\n\nreduce evidence for nonlinear structure in brain activity. J Neurosci 18:7474-86\n\nEhlers, C., Havstad, J.W., Schuckit, M.A. (1995) EEG dimension in sons of\nalcoholics. Alcohol Clin. Exp Res 19:992-998\n\nElbert, T., Lutzenberger, W., Rockstroh, B., Berg, P., Cohen, R.(1992) Physical\naspects of the EEG in schizophrenics. Biol Psychiatry 32:595-606\n\nErdos, P., Renyi, A. (1970). On a new law of large numbers. J. Anal. Math. 22:103-\n111\n\nFarmer, D., Crutchfield, J., Froehling, H., Packard, N., Shaw, R. (1980) Power\nspectra and mixing properties of strange attractors. Ann. N.Y. Acad. Sci. 357:453-\n\n472\n\nFarmer, J.D., Ott, E., Yorke, J.A. (1983) The dimension of chaotic attractors.\nPhysica D7: 153-180\n\nFeder, J. (1988) Fractals. Plenum. N.Y.\n\nFeigenbaum, M.J. (1979) The universal metric properties of nonlinear\ntransformations, J. Stat. Phys. 21:669-702\n\nFell, J.,Roschke, J., Beckmann, P. (1993) Deterministic chaos and the first positive\nLyapunov exponent: a nonlinear analysis of the human electroencephalogram\n\nduring sleep. Biol Cybern 69:139-46\n\nFell, J., Roschke, J., Schaffner, C. (1996) Surrogate data analysis of sleep\n\nelectroencephalograms reveals evidence for nonlinearity. Biol Cybern 75:85-92\n\n260\n\nHOUSE_OVERSIGHT_013760",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013760.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1321,
+    "word_count": 187,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:48.433100",
+    "prefix": "IMAGES-002"
+  }
+}

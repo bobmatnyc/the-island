@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013687",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013687.txt",
+  "text": "essential) can find easy-to-use algorithmic help in Cambridge University Press’s\nNumerical Recipes series (Press et al, 1991).\n\nThe conceptual and communication gaps between applied mathematicians\nand physicists and the bench practitioners of the neurosciences, that inevitably lead\none or the other, most often both, to surrender their deepest intuitions to jointly\nshared images that are inevitably more simplistic, are no longer inevitable. With her\nown hands on both the quantitative conjectural and experimental machinery, the\nmotivated practicing neuroscientist can honor her own insights, read about and\nconstruct symbolic representations from her intuitions and do her own quantitative\ntheory. Computerized numerical techniques have become so powerful and\naccessible that, even in academic settings, there is debate about whether\nfundamental analytic tools, such as series expansions, should be taught in\nundergraduate courses about differential equations.\n\nThe practice of “try it and see what happens\", with the current name of\nexperimental, computational mathematics, is accessible to all. In addition to the\npowerful general mathematical programs noted above, there exist several sets of\nmore specifically targeted software with the capacity to generate, portray and\nquantify the behavior of nonlinear continuous and discrete abstract and real\ndynamical systems. These often also include algorithmic modules that are useful in\ntailoring new models and measures (see for examples, Parker and Chua, 1989;\nBaker and Gollub, 1991; Nusse and Yorke, 1991; Sprott and Rowlands, 1991;\nSprott, 1993; Korsch and Jodl, 1994; Enns and McGuire, 1997). Learning from and\nusing this software, along with only a little programming in the high level languages\nand computer algebra programs listed above, permit the non-mathematician\nneuroscientist, willing to read in the literature such as that described below, to do\nindependent, cutting edge research in applied dynamical systems.\n\nDescribed below will be the computational discoveries in abstract systems\nand real neuroscientific data that have led to multiple contexts of quantitative\ndescription. These include those that are: (1) Geometric and conserve metric\ndistances; (2) Topological and conserve relative positions but not distances; (3)\n\nSingle or multiple global quantitative descriptors such as scaling numbers or scaling\n\n187\n\nHOUSE_OVERSIGHT_013687",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013687.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2409,
+    "word_count": 343,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:46.231720",
+    "prefix": "IMAGES-002"
+  }
+}

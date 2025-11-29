@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012984",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012984.txt",
+  "text": "68 4 Brief Survey of Cognitive Architectures\n\nHierarchical control system\n\n| sensor | | actuator | sensor actuator\nsensations] actions sensations actions\n\ny ¥\n\nControlled system, controlled process, or environment\n\\ ' |\n\nFig. 4.5: A standard, general-purpose hierarchical control architecture. DeSTIN’s control hi-\nerarchy exemplifies this architecture, with the difference lying mainly in the DeSTIN control\nhierarchy’s tight integration with the state inference (perception) and critic (reinforcement)\nhierarchies.\n\nbetween such units. However, this paradigm has its limitations; for instance, these approaches\ndo not represent temporal information with the same ease as spatial structure. Moreover, some\nkey constraints are imposed on the learning schemes driving these architectures, namely the\nneed for layer-by-layer training, and oftentimes pre-training. DeSTIN overcomes the limitations\nof prior deep learning approaches to perception processing, and also extends beyond perception\nto action and reinforcement learning.\n\n4.3.1.2 DeSTIN for Perception Processing\n\nThe hierarchical architecture of DeSTIN’s spatiotemporal inference network comprises an ar-\nrangement into multiple layers of “nodes” comprising multiple instantiations of an identical\ncortical circuit. Each node corresponds to a particular spatiotemporal region, and uses a sta-\ntistical learning algorithm to characterize the sequences of patterns that are presented to it by\nnodes in the layer beneath it. More specifically,\n\ne At the very lowest layer of the hierarchy nodes receive as input raw data (e.g. pixels of an\nimage) and continuously construct a belief state that attempts to characterize the sequences\nof patterns viewed.\n\nHOUSE_OVERSIGHT_012984",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012984.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1731,
+    "word_count": 239,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:45.363910",
+    "prefix": "IMAGES-002"
+  }
+}

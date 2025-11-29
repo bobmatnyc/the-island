@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline Structure Fix - Verification Test</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        .test-panel {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .test-result {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border-left: 4px solid;
+        }
+        .pass {
+            background: #d1f2e4;
+            border-color: #1a7f37;
+            color: #1a7f37;
+        }
+        .fail {
+            background: #ffe8e8;
+            border-color: #d73a4a;
+            color: #d73a4a;
+        }
+        button {
+            background: #0969da;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #0550ae;
+        }
+        .code {
+            background: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 12px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 12px;
+            overflow-x: auto;
+        }
+        h1 { color: #24292f; }
+        h2 { color: #57606a; font-size: 1.2em; margin-top: 30px; }
+        .summary {
+            background: #0969da;
+            color: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .instructions {
+            background: #fff8c5;
+            border: 2px solid #f0c80d;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-panel">
+        <h1>Timeline Structure Fix - Verification Test</h1>
+
+        <div class="instructions">
+            <strong>📋 Instructions:</strong>
+            <ol>
+                <li>Ensure the server is running at <code>http://localhost:8000</code></li>
+                <li>Click <strong>"Run Full Test"</strong> below</li>
+                <li>Review the test results</li>
+                <li>Open the main app to verify visually</li>
+            </ol>
+        </div>
+
+        <button onclick="runFullTest()">🧪 Run Full Test</button>
+        <button onclick="location.href='http://localhost:8000/'">🌐 Open Main App</button>
+        <button onclick="location.reload()">🔄 Reload Test Page</button>
+
+        <div id="summary" style="margin-top: 20px;"></div>
+
+        <h2>Test Results</h2>
+        <div id="results">Click "Run Full Test" to start...</div>
+
+        <h2>DOM Structure Visualization</h2>
+        <div class="code" id="domTree">Will display after test runs...</div>
+
+        <h2>Console Logs</h2>
+        <div class="code" id="consoleLogs">Console output will appear here...</div>
+    </div>
+
+    <script>
+        let consoleLogs = [];
+
+        // Capture console messages
+        const originalLog = console.log;
+        const originalWarn = console.warn;
+        const originalError = console.error;
+
+        console.log = function(...args) {
+            consoleLogs.push({ type: 'log', msg: args.join(' ') });
+            originalLog.apply(console, args);
+        };
+        console.warn = function(...args) {
+            consoleLogs.push({ type: 'warn', msg: args.join(' ') });
+            originalWarn.apply(console, args);
+        };
+        console.error = function(...args) {
+            consoleLogs.push({ type: 'error', msg: args.join(' ') });
+            originalError.apply(console, args);
+        };
+
+        async function runFullTest() {
+            const results = [];
+            consoleLogs = []; // Reset logs
+
+            // Create hidden iframe to load main app
+            const iframe = document.createElement('iframe');
+            iframe.style.display = 'none';
+            iframe.src = 'http://localhost:8000/';
+            document.body.appendChild(iframe);
+
+            // Wait for iframe to load
+            await new Promise((resolve, reject) => {
+                iframe.onload = resolve;
+                iframe.onerror = () => reject(new Error('Failed to load main app'));
+                setTimeout(() => reject(new Error('Timeout loading app')), 10000);
+            });
+
+            try {
+                const doc = iframe.contentWindow.document;
+
+                // Wait a bit for JavaScript to execute
+                await new Promise(resolve => setTimeout(resolve, 1000));
+
+                // Test 1: Timeline view exists
+                const timelineView = doc.getElementById('timeline-view');
+                results.push({
+                    name: 'Timeline View Exists',
+                    passed: !!timelineView,
+                    details: timelineView ? '✅ #timeline-view found' : '❌ #timeline-view NOT found'
+                });
+
+                if (!timelineView) {
+                    displayResults(results);
+                    return;
+                }
+
+                // Test 2: Page content wrapper exists
+                const pageContent = timelineView.querySelector('.page-content');
+                results.push({
+                    name: '.page-content Wrapper Exists',
+                    passed: !!pageContent,
+                    details: pageContent ?
+                        '✅ .page-content found inside #timeline-view' :
+                        '❌ .page-content NOT found - THIS IS THE BUG!'
+                });
+
+                // Test 3: Timeline events container exists
+                const timelineEvents = doc.getElementById('timeline-events');
+                results.push({
+                    name: '#timeline-events Container Exists',
+                    passed: !!timelineEvents,
+                    details: timelineEvents ? '✅ #timeline-events found' : '❌ #timeline-events NOT found'
+                });
+
+                if (pageContent && timelineEvents) {
+                    // Test 4: Correct nesting
+                    const isNested = pageContent.contains(timelineEvents);
+                    results.push({
+                        name: 'Correct DOM Nesting',
+                        passed: isNested,
+                        details: isNested ?
+                            '✅ #timeline-events is correctly nested inside .page-content' :
+                            '❌ #timeline-events is OUTSIDE .page-content (orphaned)'
+                    });
+
+                    // Test 5: Position
+                    const rect = timelineEvents.getBoundingClientRect();
+                    const positionGood = rect.top < 500;
+                    results.push({
+                        name: 'Timeline Events Visible Position',
+                        passed: positionGood,
+                        details: `${positionGood ? '✅' : '⚠️'} Top position: ${Math.round(rect.top)}px ${positionGood ? '(visible)' : '(off-screen!)'}`
+                    });
+
+                    // Test 6: Has timeline-container class
+                    const hasClass = timelineEvents.classList.contains('timeline-container');
+                    results.push({
+                        name: 'Timeline Container Class',
+                        passed: hasClass,
+                        details: hasClass ?
+                            '✅ #timeline-events has timeline-container class' :
+                            '⚠️ Missing timeline-container class'
+                    });
+
+                    // Test 7: Events rendered
+                    const events = timelineEvents.querySelectorAll('.timeline-event');
+                    results.push({
+                        name: 'Timeline Events Rendered',
+                        passed: events.length > 0,
+                        details: `${events.length > 0 ? '✅' : '⚠️'} Found ${events.length} timeline events`
+                    });
+
+                    // Generate DOM tree visualization
+                    document.getElementById('domTree').innerHTML = visualizeDOM(timelineView);
+                } else {
+                    document.getElementById('domTree').innerHTML = 'Cannot visualize - required elements missing';
+                }
+
+                displayResults(results);
+
+                // Display console logs
+                displayConsoleLogs();
+
+            } catch (error) {
+                results.push({
+                    name: 'Test Execution',
+                    passed: false,
+                    details: `❌ Error: ${error.message}`
+                });
+                displayResults(results);
+            } finally {
+                document.body.removeChild(iframe);
+            }
+        }
+
+        function displayResults(results) {
+            let html = '';
+            let passed = 0;
+            let total = results.length;
+
+            results.forEach(result => {
+                const className = result.passed ? 'pass' : 'fail';
+                html += `<div class="test-result ${className}">
+                    <strong>${result.name}:</strong> ${result.details}
+                </div>`;
+                if (result.passed) passed++;
+            });
+
+            document.getElementById('results').innerHTML = html;
+
+            // Summary
+            const allPassed = passed === total;
+            const summaryClass = allPassed ? 'pass' : 'fail';
+            document.getElementById('summary').innerHTML = `
+                <div class="summary" style="background: ${allPassed ? '#1a7f37' : '#d73a4a'}">
+                    ${allPassed ? '✅' : '❌'} Test Results: ${passed}/${total} Passed
+                    ${allPassed ? '- Timeline Structure Fix Working!' : '- Issues Detected'}
+                </div>
+            `;
+        }
+
+        function visualizeDOM(element, indent = 0) {
+            let html = '';
+            const tag = element.tagName.toLowerCase();
+            const id = element.id ? ` id="${element.id}"` : '';
+            const classes = element.className ? ` class="${element.className}"` : '';
+
+            html += '  '.repeat(indent) + `&lt;${tag}${id}${classes}&gt;\n`;
+
+            // Only show relevant children
+            Array.from(element.children).forEach(child => {
+                if (
+                    child.classList.contains('page-header') ||
+                    child.classList.contains('sticky-filter-bar') ||
+                    child.classList.contains('page-content') ||
+                    child.id === 'timeline-events' ||
+                    child.classList.contains('timeline-event')
+                ) {
+                    html += visualizeDOM(child, indent + 1);
+                    // Limit timeline-event children
+                    if (child.classList.contains('timeline-event') && indent > 3) {
+                        return;
+                    }
+                }
+            });
+
+            return html;
+        }
+
+        function displayConsoleLogs() {
+            if (consoleLogs.length === 0) {
+                document.getElementById('consoleLogs').innerHTML = 'No console output captured.';
+                return;
+            }
+
+            let html = '';
+            consoleLogs.forEach(log => {
+                const color = log.type === 'error' ? '#d73a4a' :
+                             log.type === 'warn' ? '#bf8700' :
+                             '#24292f';
+                html += `<div style="color: ${color}; margin: 4px 0;">
+                    [${log.type.toUpperCase()}] ${log.msg}
+                </div>`;
+            });
+
+            document.getElementById('consoleLogs').innerHTML = html;
+        }
+    </script>
+</body>
+</html>

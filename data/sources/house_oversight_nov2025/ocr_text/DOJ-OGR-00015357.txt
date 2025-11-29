@@ -1,0 +1,33 @@
+Fed =< Invoice Number: 4-447-80862
+2 Invoice Date: Nov 18, 2002
+Account Number: 1144-2081-6
+Page: 13 of 14
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Nov 05, 2002 Payor: Recipient Reference: FR2, ORD. # 5546
+
+Fuel Surcharge - FedEx has applied a fuel surcharge of 4.00% to this shipment.
+
+Distance Based Pricing, Zone 8
+
+1st attempt Nov 07, 2002 at 07:45 AM.
+
+Incorrect recipient address.
+
+FedEx has audited this shipment for correct packages, weight, and service. Any changes made are reflected in the invoice amount.
+Powership Sender Recipient
+Tracking D 495221714342 BOGDAN DUICAN NICK S MMONDS
+Service Type FedEx 2Day MEDSPACE J. EPSTE N & COMPANY
+Package Type Customer Packaging Po 457 MADISON AVENUE
+Zone 8 Po NEW YORK NY 10022 US
+Packages 1
+Weight 10 0 Ibs, 4.5 kgs Transportation Charge 26.75
+Delivered Nov 07, 2002 13 52 Discount -2 68
+Sve Area Al Address Correction 10 00
+Signed by K.SARAUW Fuel Surcharge 096
+FedEx Use 047740627/06112/03 TTT
+
+Total Transportation Charges USD $ 35.03
+Shipment Detall Subtotal) se icicisicececcieerssssscererennieersenenennenvenenvennennneennnnnen SDS 35.03
+SDNY_GM_00340710 48
+DOJ-OGR-00015357

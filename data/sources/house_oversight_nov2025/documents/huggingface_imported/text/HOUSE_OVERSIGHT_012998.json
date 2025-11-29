@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012998",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012998.txt",
+  "text": "82 4 Brief Survey of Cognitive Architectures\n\nand (except for the lowest level) supervenes over children whose spatiotemporal scope is a sub-\nset of its own. The action hierarchy takes care of decomposing tasks into subtasks; whereas the\nsensation hierarchy takes care of grouping signals into entities and events. The modeling /guid-\nance hierarchy mediates interactions between perception and action based on its understanding\nof the world and the system’s goals.\n\nIn his book [AMO01] Albus describes methods for extending 4D/RCS into a complete cognitive\narchitecture, but these extensions have not been elaborated in full detail nor implemented.\n\nPlans for next 24 hours\nDaily schedule of tasks\n\n500 km maps jE wo [8G |\" SURROGATE BATTALION\n\nPlans for next 2 hours\n\n50 km maps SP | war |BG | SURROGATE PLATOON Tasks relative to distant objects\n\nS a =\n\n5 km maps SP [wa |8¢ | suRROGATE SECTION Plans for next 10 minutes\nTasks relative to nearby objects\n500 m maps SP | wM|BG ] veHIcLe Plans for next 50 seconds\n\nTask to be done on objects of attention\n\nLocomotion = SUBSYSTEM\n\nSP fea\non\n\nSubitask on object surface\nObstacle-free paths\n\nacl — [s®fwm|se]— —\n\nOPERATOR INTERFACE\n\n0.5 second plans\nSteering, speed\n\n0.05 second plans\n' Actuator output\n\nSENSORS AND ACTUATORS\n\nFig. 4.11: Albus’s 4D-RCS architecture for a single vehicle\n\n4.5.5 PolyScheme\n\nNick Cassimatis’s PolyScheme architecture [Cas07| shares with GLAIR the use of multiple\nlogical reasoning methods on a common knowledge store. While its underlying ideas are quite\ngeneral, currently PolyScheme is being developed in the context of the “object tracking’ domain\n(construed very broadly). As a logic framework PolyScheme is fairly conventional (unlike GLATR\nor NARS with their novel underlying formalisms), but PolyScheme has some unique conceptual\naspects, for instance its connection with Cassimatis’s theory of mind, which holds that the same\ncore set of logical concepts and relationships underlies both language and physical reasoning\n[Cas04]. This ties in with the use of a common knowledge store for multiple cognitive processes;\nfor instance it suggests that\n\ne the same core relationships can be used for physical reasoning and parsing, but that each\nof these domains may involve some additional relationships.\n\ne language processing may be done via physical-reasoning-based cognitive processes, plus the\nadditional activity of some language-specific processes\n\nHOUSE_OVERSIGHT_012998",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012998.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2459,
+    "word_count": 380,
+    "line_count": 69,
+    "import_date": "2025-11-19T21:47:46.661069",
+    "prefix": "IMAGES-002"
+  }
+}

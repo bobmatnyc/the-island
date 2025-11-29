@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_028996",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_028996.txt",
+  "text": "Pricing Model for Customers\n\nNo. of Impressions Cost\n(Monthly Subscription) (USD)\n\n0-100,000 $999\n100,00 1-250,000 $1999\n\n500,00 1-1000,000 $3500\n\n250,00 1-500,000 $2600\n1000,001-2000,000 $5000\n\n*Impression = 1 Facebook comment or 1 Tweet\n\nHOUSE_OVERSIGHT_028996",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_028996.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 262,
+    "word_count": 33,
+    "line_count": 16,
+    "import_date": "2025-11-19T21:47:49.335519",
+    "prefix": "IMAGES-010"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013099",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013099.txt",
+  "text": "10.6 Conclusion 183\n\nCorrespondence Principle tells us something about what this \"tuning\" should involve — namely,\nmaking a system possessing mind-state sequences that correspond meaningfully to world-state\nsequences. CogPrime’s overall design and particular cognitive processes are reasonably well\ninterpreted as an attempt to achieve this for everyday human goals and environments.\n\nOne way of extending these theoretical ideas into a more rigorous theory is explored in Ap-\npendix ??. The key ideas involved there are: modeling multiple memory types as mathematical\ncategories (with functors mapping between them), modeling memory items as probability dis-\ntributions, and measuring distance between memory items using two metrics, one based on\nalgorithmic information theory and one on classical information geometry. Building on these\nideas, core hypotheses are then presented:\n\n® asyntax-semantics correlation principle, stating that in a successful AGI system, these\ntwo metrics should be roughly correlated\n\ne a cognitive geometrodynamics principle, stating that on the whole intelligent minds\ntend to follow geodesics (shortest paths) in mindspace, according to various appropriately\ndefined metrics (e.g. the metric measuring the distance between two entities in terms of the\nlength and/or runtime of the shortest programs computing one from the other).\n\n® acognitive synergy principle, stating that shorter paths may be found through the com-\nposite mindspace formed by considering multiple memory types together, than by following\nthe geodesics in the mindspaces corresponding to individual memory types.\n\nThe material is relegated to an appendix because it is so speculative, and it’s not yet clear\nwhether it will really be useful in advancing or interpreting CogPrime or other AGI systems\n(unlike the material from the present chapter, which has at least been useful in interpreting\nand tweaking the CogPrime design, even though it can’t be claimed that CogPrime was derived\ndirectly from these theoretical ideas). However, this sort of speculative exploration is, in our\nview, exactly the sort of thing that’s needed as a first phase in transitioning the ideas of the\npresent chapter into a more powerful and directly actionable theory.\n\nHOUSE_OVERSIGHT_013099",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013099.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2276,
+    "word_count": 334,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:46.559914",
+    "prefix": "IMAGES-002"
+  }
+}

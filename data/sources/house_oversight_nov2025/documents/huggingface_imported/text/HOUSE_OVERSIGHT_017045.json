@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017045",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_017045.txt",
+  "text": "Figure S6\n\n100%\n\n80%\n\n60%\n\n40%\n\n20%\n\nAHD words with frequency < X\n\n0%\n\nWord frequency (log)\n\nFig. S6. Frequency distribution of words in the dictionary. We compute the frequency in our year 2000\nlexicon for all 116,156 words (1-grams) in the AHD (year 2000). We represent the percentage of these\nwords whose frequency is smaller than the value on the x-axis (logarithmic scale, base 10). 90% of all\nwords in AHD are more frequent than 1 part per billion (10°), but only 75% are more frequent than 1\npart per 100 million (10°).\n\nHOUSE_OVERSIGHT_017045",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_017045.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 550,
+    "word_count": 95,
+    "line_count": 25,
+    "import_date": "2025-11-19T21:47:45.994344",
+    "prefix": "IMAGES-004"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027824",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027824.txt",
+  "text": "sender:\n\nTime: 06/25/19 09:12:18 AM (583171938)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: D8939CA8-O0AC6-4C7E-AD22-F879D8DD9D9B\n\nMessage: Epic epic epic\n\nTime: 06/26/19 07:34:51 AM (583252491)\n\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 3EB63BA2-03A3-4962-81E2-928266E8F4E5\n\nMessage: Are we doing Tucson ???\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/26/19 07:35:15 AM (583252515)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 6443229B-15B6-4950-B364-1040E657A68\n\nGl\n\nMessage: We?\n\nTime: 06/26/19 08:01:00 AM (583254060)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: EOBSODAA-844E-4F2A-A720-73871354053!1\n\nGl\n\nMessage: My team\n\nTime: 06/26/19 08:01:09 AM (583254069)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: BBOD60ED-1704-4F7/C-BALE-7ACD8B725838\n\nMessage: Don't need you for this\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/26/19 09:43:46 AM (583260226)\n\nHOUSE_OVERSIGHT_027824",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027824.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 925,
+    "word_count": 109,
+    "line_count": 66,
+    "import_date": "2025-11-19T21:47:47.951134",
+    "prefix": "IMAGES-009"
+  }
+}

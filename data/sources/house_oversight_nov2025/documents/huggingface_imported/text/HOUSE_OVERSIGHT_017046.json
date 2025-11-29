@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_017046",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_017046.txt",
+  "text": "Figure S7\n\n600K\nOED\nao)\n& 400k\n> w3\nz\noO\n=\n(a\na\nE 200K\nz\nAHD\n0\n4900 1950 2000\n\nDecade\n\nFig. S7. Lexical trends excluding proper nouns. We compute the number of words that are 1-grams in\nthe categories “P”, “B” and “R”. The same upward trend starting in 1950 is observed. The size of the\n\nlexicon in the year 2000 is still larger than the OED or W3.\n\nHOUSE_OVERSIGHT_017046",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_017046.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 372,
+    "word_count": 73,
+    "line_count": 26,
+    "import_date": "2025-11-19T21:47:46.307547",
+    "prefix": "IMAGES-004"
+  }
+}

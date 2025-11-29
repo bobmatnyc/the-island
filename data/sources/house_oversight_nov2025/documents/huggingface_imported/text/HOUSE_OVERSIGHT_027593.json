@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027593",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027593.txt",
+  "text": "Time: 03/07/19 04:42:14 AM (573655334)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 3046A6D5-8834-4E69-9ROE-1E3A65E74D5D\nMessage: This is awesome-- what is it\nSender: e:jeeitunes@gmail.com\n\nTime: 03/07/19 04:42:31 AM (573655351)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: F26DBEC1-1A8B-4EAD-83DC-E2A38BC35D3F\n\nMessage: This is what Kathy suggests we tell Waco\n\nSender: e:jeeitunes@gmail.com\n\nTime: 03/07/19 04:42:39 AM (573655359)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 1313A663-0E2B-49C2-8B39-C74E27BA2776\n\nMessage: Wapo\n\nHOUSE_OVERSIGHT_027593",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027593.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 580,
+    "word_count": 68,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:45.114140",
+    "prefix": "IMAGES-009"
+  }
+}

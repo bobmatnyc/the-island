@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013694",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013694.txt",
+  "text": "computer experimental findings had already been anticipated in a remarkable\n\nmathematical proof by Sharkovskii (1964).\n\nThe dynamical richness of these simple, single maximum, one dimensional\nmaps was computationally explored in the context of ecological and epidemiological\nissues in the classical studies of Robert May (1976). It has been possible to relate\nthe individually characteristic L, R sequence behavior of human subjects on a\ncomputer task to a unique parameter of a tent map generating those sequences\nwhich predicted age and discriminated subclinical obsessive compulsive from\nborderline syndromes (Selz and Mandell, 1993). The dynamical entropy of\nunstructured L,R behavior also discriminated a population of schizophrenic patients\nfrom normals (Paulus et al, 1996). More generally, parameter dependent dynamical\ncoding, built into the universal behavior of its constitutive equations, is a mechanism\nwith which a nonlinear dynamical system, such as nerve membrane equations as\nabove, or in the aggregate, the middle layer of a completely connected neural\n\nnetwork, can encode, Morse code-like, messages (Paulus et al, 1989).\n\nBifurcations in Biologically Relevant Dynamical Systems\n\nBifurcations, “splitting into (two) branches,” are observed over a smooth\nchange in control parameter(s) (independent variables), as a discontinuous and\nqualitative change in the dynamical (time-dependent) pattern of the observable\n(Guckenheimer and Holmes, 1993; Wiggens, 1990; see Strogatz, 1994, for a\nparticularly intuitive description). Qualitative here means how the dynamics of the\ntrajectory appear as a geometric-topological (relative shaped not necessarily sized)\npattern in phase space. In such a space, the orbital points are located along the x-\naxis by their value, x at time f, and along the y-axis by their time rate of change at\nthat ¢, = To visualize a representative phase portrait in the plane, start by\nimagining the pattern made by mass hanging on a linear spring at rest as\n\ndx\n\nrepresented by a point centered at x=0,y= a 0. When perturbed from rest, the\n\n194\n\nHOUSE_OVERSIGHT_013694",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013694.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2106,
+    "word_count": 312,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:45.747435",
+    "prefix": "IMAGES-002"
+  }
+}

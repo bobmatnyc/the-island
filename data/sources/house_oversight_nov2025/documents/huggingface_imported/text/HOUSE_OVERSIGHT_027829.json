@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027829",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027829.txt",
+  "text": "Flags: 1060865\nIs Read: Yes\nIs Invitation: No\n\nGUID: O9BFFF44-44F1-469C-9B96-S51A35F960951\n\nMessage: Dangerous\n\nTime: 06/28/19 10:44:33 AM (583436673)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: O0998ERA6E-41CF-4C93-8A96-EA7D40032F4B\n\nMessage: Did u ever send dan your footage on Noam ???\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/28/19 11:58:34 AM (583441114)\nFlags: 1150981\n\nIs Read: No\n\nIs Invitation: No\n\nT,\n\nGUID: 26F65865-A36F-46BE-B373-73BC47D9DF92\n\nMessage: https://www.nytimes.com/2019/06/27/us/politics/tillerson-mattis-kushner-\nbannon-foreign-policy.html\n\nTime: 06/28/19 12:04:08 PM (583441448)\n\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: E1LE6C300-2C39-48A7-8256-1257D91C96F8\n\nMessage: check the date of the dinner\n\nSender: e:jeeitunes@gmail.com\n\nTime: 06/28/19 02:04:41 PM (583448681)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 8574FD7/9-E5E9-4FE0-928E-E4BE2A301A8C\n\nMessage: ?\n\nSender: ay\n\nTime: 06/28/19 02:05:14 PM (583448714)\nFlags: 1126401\n\nIs Read: Yes\n\nHOUSE_OVERSIGHT_027829",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027829.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1026,
+    "word_count": 113,
+    "line_count": 66,
+    "import_date": "2025-11-19T21:47:45.202779",
+    "prefix": "IMAGES-009"
+  }
+}

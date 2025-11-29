@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00000736",
+  "email_index": 4,
+  "extracted_at": "2025-11-17T04:14:45.436000",
+  "from_address": null,
+  "to_address": "Clerk of Court United States District Court Southern District of New York The undersigned attorney respectfully requests that the Clerk note his appearance in this case as counsel for the United States of America and add him as a Filing User to whom Notices of Electronic Filing will be transmitted in this case.",
+  "cc_address": null,
+  "subject": null,
+  "date": "New York, New York",
+  "body": "July 21, 2025\nRespectfully submitted,\nJAY CLAYTON\nUnited States Attorney for the\nSouthern District of New York\nBy: /s/ Jeffrey Oestericher\nJEFFREY OESTERICHER\nAssistant United States Attorney\n86 Chambers Street, 3\" Floor\nNew York, New York 10007\nTelephone: (212) 637-2695\nFacsimile: (212) 637-0033\nEmail: Jeffrey.Oestericher@usdoj.gov",
+  "confidence": 0.7,
+  "email_addresses": [
+    "Jeffrey.Oestericher@usdoj.gov"
+  ]
+}

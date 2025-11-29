@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027481",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027481.txt",
+  "text": "GUID: 4900CF2A-939A-4756-87B4-4E58205BCB4D\n\nMessage: Seeing if we can make it\n\nSender: e:jeeitunes@gmail.com\n\nTime: 11/16/18 10:40:38 AM (564086438)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 43B84F0F-1300-4AAF-99F7-4B280D3BAEC8\n\nr,\n\nMessage: There. Is a gulf air that leaves at 950 with a stop in Bahrain\n\nSender: e:jeeitunes@gmail.com\n\nTime: 11/16/18 10:40:51 AM (564086451)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 30CA9217-566A-4433-A360-149C62584865\n\nMessage: Arrives. 1130\n\nSender: e:jeeitunes@gmail.com\n\nTime: 11/16/18 10:40:53 AM (564086453)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 35580324-A18E\n\nT\nus\n\nE26-85DE-9877AE0D980C\n\n=\n\nMessage: am\n\nsender:\n\nTime: 11/16/18 10:41:11 AM (564086471)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 9560199B-F029-4B53-B87B-25D7B1523D6A\n\nMessage: On it\n\nTime: 11/16/18 10:41:54 AM (564086514)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: BCO5C097-5290-4D59-8AF2-79F4DF2506F1\n\nMessage: U r an amazing assistant\n\nHOUSE_OVERSIGHT_027481",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027481.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1033,
+    "word_count": 126,
+    "line_count": 76,
+    "import_date": "2025-11-19T21:47:45.479719",
+    "prefix": "IMAGES-009"
+  }
+}

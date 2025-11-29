@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011129",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011129.txt",
+  "text": "simplifies to gift. Transfer in gained by the owner’s total capital, net of the same\n\ninternal transfers, is gift received. The math becomes\nT=¥, Y=¥y,-y¥, &-F =7,+¢, , F=y_ and F=y+C, (A1.5)\n\nat the scale of each individual's total capital as a whole. Here y (gamma) is net gift,\n\ny, isgiftand y_ is gift received.\nDivide (A1.1) by K, to find\n\nK, F\n=—14—, (A1.6)\nK,\n\noS:\nK, K,\n\nDefine these three terms as productivity or rate of return r, total capital growth rate\n\ng and cash flow rate f. Then (A1.6) can be reexpressed as\nr=gtf. (A1.6a)\n(A1.3) combines with (A1.6) to show\nK. C\n\nT\n\nY Ay, , at the collective scale. (A1.7)\nK, K,. K,\n\nDefine “pure consumption rate” C, as C, /K,,, and substitute to show\n\nr=gtc,, at the collective scale. (A1.7a)\nAPPENDIX A: The Argument in Notation 3/7/16 3\n\nHOUSE_OVERSIGHT_011129",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011129.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 817,
+    "word_count": 145,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:44.917289",
+    "prefix": "IMAGES-001"
+  }
+}

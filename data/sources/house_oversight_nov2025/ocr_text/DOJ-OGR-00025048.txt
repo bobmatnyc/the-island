@@ -1,0 +1,102 @@
+Page 595
+Page 6
+
+Log Assignment
+
+Date/Time User Action Alias Post Shiftdate Watch Type Mndtry
+
+08/09/19 14:41 [2° | OT Assigned Noam DRY CELL 08/09/19 EM List Exempt oO
+list exausted
+
+08/09/19 14:30 OT Assigned LATE RELIEF 08/02/19 PIM List Exempt O
+late relief fram_lob D' ;
+
+08/09/19 i340 Pore) OT Removed - Staff Cancelled SHU #4 08/0919 EW List Exempt i
+staff canceled - REMOVED FROM [Sick / Annual]
+
+08/09/19 12:42 [°° Deleted OT Sign Up - Day N/A 08/0919 N/A NIA O
+
+08/09/19 12:19 Signed Up for OT N/A 08/09/19 N/A N/A oa
+Selected Lis Selected Shifts:
+[All] EW
+
+08/09/19 11:32 OT Assigned 11 SOUTH os/os/19 EW Signup List O
+accepted List Selected: [All]
+
+08/09/19 11:28 OT By-passed 11 SOUTH 08/09/19 EW Signup List C]
+shift conflict List Selected: [All]
+
+08/09/19 11:28 OT By-passed 11 SOUTH 08/09/19 E/W Signup List CT)
+The staff member{Oie). C17C)§) is already working this w, List Selected: [All]
+
+08/09/19 11:28 auld a" OT Refused 11 SOUTH 08/09/19 EW Signup List C}
+refused List Selected: [All]
+
+08/09/19 11:28 OT Refused 11 SOUTH 08/09/19 EW Signup List CO
+refused List Selected: [All] .
+
+08/09/19 11:28 OT Refused 11 SOUTH 08/0919 EW _— Signup List C]
+refused List Selected; [All]
+
+08/09/19 11:28 OT By-passed 11 SOUTH 08/09/19 EW — Signup List C]
+left message List Selected: [All]
+
+08/09/19 11:27 OT By-passed 11 SOUTH 08/09/19 E/W Signup List C]
+left message List Selected: [All]
+
+08/09/19 11:27 OT By-passed 11 SOUTH 08/09/19 E/W _ Signup List [2]
+The staff member fer myrnc) is already working t List Selected: [All]
+
+08/09/19 11:27 Bern) OT By-passed 11 SOUTH 08/09/19 E/W _ Signup List a
+shift conflict List Selected: [All]
+
+08/09/19 11:27 OT By-passed 11 SOUTH 08/09/19 E/W Signup List C]
+left message List Selected: [All]
+
+08/09/19 11:27 OT By-passed 11 SOUTH 08/09/19 E/W _ Signup List Oo
+left message List Selected: [All]
+
+08/09/19 11:27 OT By-passed 11 SOUTH 08/09/19 EW Signup List ‘a
+left message List Selected: [All]
+
+08/09/19 11:27 OT By-passed 11 SOUTH 08/09/19 EW Signup List O
+shift conflict List Selected: [All]
+
+08/09/19 11:27 OT By-passed 11 SOUTH 08/09/19 EW _ Signup List }
+The staff member $) is already working this wa List Selected: [All]
+
+08/09/19 11:27 Bey OT By-passed 11 SOUTH 08/09/19 EW _ Signup List Cc]
+tad List Selected: [All]
+
+08/09/19 11:27 OT By-passed 11 SOUTH 08/09/19 EW _ Signup List C]
+ieft message List Selected: [All]
+
+08/09/19 11:26 OT By-passed 11 SOUTH 08/09/19 EW Signup List O
+left message List Selected: [All]
+
+08/09/19 11:26 OT By-passed 11 SOUTH 08/09/19 EW _ Signup List |
+left message; List Selected: [All]
+
+08/09/19 11:12 OT Assigned SHU #1 08/09/19 E/W _ Signup List fy
+accepted List Selected: [All]
+
+08/09/19 11:10 OT By-passed SHU #1 08/09/19 E/W Signup List Oo
+The staff member $) is already working this w List Selected: [All]
+
+08/09/19 11:10 nad * OT Refused SHU #1 08/09/19 EW — Signup List LJ
+refused List Selected: [All]
+
+08/09/19 11:08 OT Refused SHU #1 08/09/19 EW Signup List |
+refused List Selected: [All]
+
+08/09/19 11:07 OT By-passed SHU #1 08/0919 EW _ Signup List CJ
+left message List Selected: [All]
+
+08/09/19 11:06 OT Refused SHU #1 08/09/19. EW _ Signup List oO
+refused List Selected: [All]
+
+08/09/19 11:05 OT By-passed SHU #1 08/09/19 EW _ Signup List CO
+left message List Selected: [All]
+
+5/19/2020 10:37:33 AM
+DOJ-OGR-00025048

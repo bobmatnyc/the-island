@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015750",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015750.txt",
+  "text": "60 Are the Androids Dreaming Yet?\n\nReview of Test Data Indicates Conservatism for Tile\nPenetration\n\n@ The existing SOFI on tile test data used to create Crater\nwas reviewed along with STS-87 Southwest Research data\n— Crater overpredicted penetration of tile coating\nsignificantly\n+ Initial penetration to described by normal velocity\n* Varies with volume/mass of projectile (e.g., 200ft/sec for\n3cu. In)\n+ Significant energy is required for the softer SOFI particle\nto penetrate the relatively hard tile coating\n* Test results do show that it is possible at sufficient mass\nand velocity\n* Conversely, once tile is penetrated SOF! can cause\nsignificant damage\n\n* Minor variations in total energy (above penetration level)\ncan cause significant tile damage\n\n— Flight condition is significantly outside of test database\n* Volume of ramp is 1920cu in vs 3 cu in for test\n\n{~-Seae@ 2/21/03 6\n\nNASA Internal Slide\n\nWHAT DO YOU UNDERSTAND FROM THE SLIDE?\n\nSome images of the launch are shown on the right\n\nHere is what you should have understood from the slide: tiles are\nreally tough but if the foam dislodged from the fuel tank broke through\nthe outer coating it would cause significant damage. The estimated speed\nof the foam hitting the tile was 640 times greater than anything previously\ntested. Worried?\n\nIs this a proper understanding of the problem? You have the slide\nand the images. Take another look and think hard. If you want, you can\ncheck a video of a similar launch on YouTube to get a feel for the scale of\nthings, but the still frames shown all the information you need to make\nyour conclusion.\n\nHOUSE_OVERSIGHT_015750",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015750.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1629,
+    "word_count": 273,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:44.483695",
+    "prefix": "IMAGES-003"
+  }
+}

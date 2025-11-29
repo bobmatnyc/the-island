@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014390",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_014390.txt",
+  "text": "US - Brokers, Asset Managers, & Exchanges Coverage Cluster\nBofA Merrill Lynch\n\nInvestment rating Company ticker Bloomberg symbol Analyst\n\nBUY\nAffiliated Mgrs. AMG AMG US Michael Carrier, CFA\nAllianceBernstein AB ABUS Michael Carrier, CFA\nBlackRock, Inc. BLK BLK US Michael Carrier, CFA\nCharles Schwab Corp. SCHW SCHW US Michael Carrier, CFA\nCME Group CME CME US Michael Carrier, CFA\nCohen & Steers CNS CNS US Michael Carrier, CFA\nGoldman Sachs GS GS US Michael Carrier, CFA\nHoulihan Lokey HLI HLIUS Michael Carrier, CFA\nIntercontinentalExchange ICE ICEUS Michael Carrier, CFA\nInvesco IVZ IVZ US Michael Carrier, CFA\nKKR & Co. KKR KKRUS Michael Carrier, CFA\nLegg Mason LM LM US Michael Carrier, CFA\nMorgan Stanley MS MS US Michael Carrier, CFA\nOaktree Capital Group OAK OAK US Michael Carrier, CFA\nOld Mutual Asset Management OMAM OMAM US Michael Carrier, CFA\nTD Ameritrade AMTD AMTD US Michael Carrier, CFA\n\nNEUTRAL\nApollo Global Management APO APO US Michael Carrier, CFA\nAres Management ARES ARES US Michael Carrier, CFA\nE*TRADE Financial ETFC ETFC US Michael Carrier, CFA\nFranklin Resources BEN BEN US Michael Carrier, CFA\nJanus Capital JNS JNS US Michael Carrier, CFA\nNasdaq Inc NDAQ NDAQ US Michael Carrier, CFA\nOch-Ziff OZM OZM US Michael Carrier, CFA\nT. Rowe Price TROW TROW US Michael Carrier, CFA\nThe Blackstone Group BX BX US Michael Carrier, CFA\nThe Carlyle Group CG CGUS Michael Carrier, CFA\nWisdomTree WETF WETF US Michael Carrier, CFA\n\nUNDERPERFORM\nArtisan Partners APAM APAM US Michael Carrier, CFA\nCBOE Holdings CBOE CBOE US Michael Carrier, CFA\nEaton Vance EV EVUS Michael Carrier, CFA\nFederated Inv. Fil FIL US Michael Carrier, CFA\nVirtus Investment Partners VRTS VRTS US Michael Carrier, CFA\nWaddell & Reed WDR WDR US Michael Carrier, CFA\n\nRSTR\nBats Global Markets, Inc. BATS BATS US Michael Carrier, CFA\n\n76 2016 Future of Financials Conference | 17 November 2016 Bankof America <>\n\nMerrill Lynch\n\nHOUSE_OVERSIGHT_014390",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_014390.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1940,
+    "word_count": 314,
+    "line_count": 52,
+    "import_date": "2025-11-19T21:47:48.181916",
+    "prefix": "IMAGES-002"
+  }
+}

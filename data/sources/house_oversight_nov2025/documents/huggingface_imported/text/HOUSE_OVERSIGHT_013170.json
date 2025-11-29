@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013170",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013170.txt",
+  "text": "254 13 Local, Global and Glocal Knowledge Representation\n\nThe asymmetric HebbianLink indicates that when the first argument is present in a situation,\nthe second is also often present. The symmetric (default) version indicates that this relationship\nholds in both directions. The inverse versions indicate the negative relationship: e.g. when one\nargument is present in a situation, the other argument is often not present.\n\n13.3.6 Procedure Nodes\n\nThere are nodes representing various sorts of procedures; these are kinds of ProcedureNode,\ne.g.\n\ne SchemaNode, indicating any procedure\n\ne GroundedSchemaNode, indicating any procedure associated in the system with a Combo\nprogram or C++ function allowing the procedure to be executed\n\ne PredicateNode, indicating any predicate that associates a list of arguments with an output\ntruth value\n\ne GroundedPredicateNode, indicating a predicate associated in the system with a Combo\nprogram or C++ function allowing the predicate’s truth value to be evaluated on a given\nspecific list of arguments\n\nExecutionLinks and EvaluationLinks record the activity of SchemaNodes and PredicateN-\nodes. We have seen many examples of EvaluationLinks in the above. Example ExecutionLinks\nwould be:\n\nExecutionLink step\\_forward\nExecutionLink step\\_forward 5\nExecutilonLink\n+\nListLink\nNumberNode: 2\nNumberNode: 3\n\nThe first example indicates that the schema \"step forward\" has been executed. The second\nexample indicates that it has been executed with an argument of \"5\" (meaning, perhaps, that 5\nsteps forward have been attempted). The last example indicates that the \"++\" schema has been\nexecuted on the argument list (2,3), presumably resulting in an output of 5.\nThe output of a schema execution may be indicated using an ExecutionOutputLink, e.g.\n\nExecutilonOutput Link\n\n+\n\nListLink\n\nNumberNode: 2\nNumberNode: 3\n\nrefers to the value \"5\" (as a NumberNode).\n\n13.3.7 Links for Special External Data Types\n\nFinally, there are also Atom types referring to specific types of data important to using OpenCog\nin specific contexts.\n\nHOUSE_OVERSIGHT_013170",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013170.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2079,
+    "word_count": 305,
+    "line_count": 59,
+    "import_date": "2025-11-19T21:47:48.188363",
+    "prefix": "IMAGES-002"
+  }
+}

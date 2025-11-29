@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013883",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013883.txt",
+  "text": "e » Floppy drives and USB ports disabled\n\ne» BS779 certification for accomplished international security\nstandards\n\ne > 128-bit encryption technology for all data exchange\n\ne » Secure VPN connection\n\nI bet there is a fair chance that sensitive data is 100 times safer with Brickwork than on your own\ncomputer.\n\nStill, information theft is best thought of as inevitable in a digital world, and precautions should be\ntaken with damage control in mind. There are two rules that I use to minimize damage and allow for fast\nrepair.\n\n1. Never use debit cards for online transactions or with remote assistants. Reversing unauthorized credit\ncard charges, particularly with American Express, is painless and near instantaneous. Recovering funds\nwithdrawn from your checking account via unauthorized debit card use takes dozens of hours in\npaperwork alone and can take months to receive, if approved at all.\n\n2. If your VA will be accessing websites on your behalf, create a new unique login and password to be\nused on those sites. Most of us reuse both logins and passwords on multiple sites, and taking this\nprecaution limits possible damage. Instruct them to use these unique logins to create accounts on new\nsites if needed. Note that this is particularly important when using assistants who have access to live\ncommercial websites (developers, programmers, etc.).\n\nIf information or identity theft hasn’t hit you, it will. Use these guidelines and you'll realize when it\nhappens that, just like most nightmares, it’s not that big a deal and is reversible.\n\nThe Complicated Art of Simplicity:\nCommon Complaints\n\nM, assistant is an idiot! It took him 23 hours to book an interview! This was the first complaint I\nhad, for sure. 23 hours! I was heated up for a shouting match. My original e-mail to this first assistant\n\nseemed clear enough.\n\nDear Abdul,\n\nHere are the first tasks, due at the end of next Tuesday. Please call or e-mail with any questions:\n\n1. Go to this article http://www.msnbc.msn.com/id/12666060/site/newsweek/, get the phone/e-\n\nmail/website contacts for Carol Milligan and Marc and Julie Szekely. Also find the same info for Rob\n\nLong here http://www.msnbc.msn.com/id/12652789/site/newsweek/.\n\nHOUSE_OVERSIGHT_013883",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013883.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2231,
+    "word_count": 354,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:47.402090",
+    "prefix": "IMAGES-002"
+  }
+}

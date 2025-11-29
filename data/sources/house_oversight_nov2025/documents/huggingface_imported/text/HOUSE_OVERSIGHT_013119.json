@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013119",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013119.txt",
+  "text": "11.4 Piaget’s Stages in the Context of Uncertain Inference 203\n\nStage 4:Reflexive (Post-formal)\n\n{ Inference Rules\nNew\nKnowledge\n\n4 }\n| Knowledge about)\ni World >\n\naaa\nInference Control Strategy |\n\nKnowledge about how to\ncontrol inference\n\n>\n\n( Inference Rules )\n\na\ni}\n\nNew\nKnowledge\nabout how to\ncontrol\ninference\n\n:\nInference Control Strategy\n\n4 ?) \\\n¢\n\\ “ { Inference Rules\n\\ ;\n‘ c “ y’\n\\\n\n\\ | Knowledge about New knowledge about\n‘ | inference rules [ > 7 inference rules\nee\nInference Control Strategy\n\nwy\n\n~~\n~~\n\nFig. 11.8: The Reflexive Stage\n\nstage adds an entire new feedback loop for reasoning about inference control itself, as shown in\nFigure 11.8.\n\nAs a very concrete example, in later chapters we will see that, while PLN is founded on\nprobability theory, it also contains a variety of heuristic assumptions that inevitably introduce a\ncertain amount of error into its inferences. For example, PLN’s probabilistic deduction embodies\na heuristic independence assumption. Thus PLN contains an alternate deduction formula called\nthe “concept geometry formula’ that is better in some contexts, based on the assumption that\nConceptNodes embody concepts that are roughly spherically-shaped in attribute space. A highly\nadvanced CogPrime system could potentially augment the independence-based and concept-\ngeometry-based deduction formulas with additional formulas of its own derivation, optimized\nto minimize error in various contexts. This is a simple and straightforward example of reflexive\ncognition — it illustrates the power accessible to a cognitive system that has formalized and\nreflected upon its own inference processes, and that possesses at least some capability to modify\nthese.\n\nIn general, AGI systems can be expected to have much broader and deeper capabilities for\nself-modification than human beings. Ultimately it may make sense to view the AGI systems\nwe implement as merely “initial conditions\" for ongoing self-modification and selforganization.\nChapter ?? discusses some of the potential technical details underlying this sort of thorough-\ngoing AGI self-modification.\n\nHOUSE_OVERSIGHT_013119",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013119.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2123,
+    "word_count": 325,
+    "line_count": 76,
+    "import_date": "2025-11-19T21:47:45.732305",
+    "prefix": "IMAGES-002"
+  }
+}

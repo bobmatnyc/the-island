@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015935",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015935.txt",
+  "text": "Software 245\n\nK —tProgram\nK— Input\n\nHalting Flowchart\n\nNow we create a third program called RunMe. RunMe runs\nHaltcrash on itself. Still following this? Now execute RunMe with RunMe\nas its own input. What happens? The analysis is as follows:\n\n1. RUNME started on input RUNME halts. If RUNME started on\nRUMME halts, then Haltcrash started on RUNME with input\nRUNME halts. If Haltcrash started on RUNME with input\nRUNME halts, then HALT decided that RUNME started on\nRUNME does not halt!\n\nTherefore,\n\nRUNME started on input RUNME halts implies that RUNME\nstarted on input RUNME does not halt. (contradiction)\n\n2. RUNME started on input RUNME does not halt. If RUNME\nstarted on RUNME does not halt, then Haltcrash started on\nRUNME with input RUNME does not halt. If Haltcrash started\non RUNME with input RUNME does not halt, then Halt decided\nthat RUNME started on RUNME halts!\n\nTherefore,\n\nRUNME started on input RUNME does not halt implies that\nRUMME started on input RUNME halts. (contradiction)\n\nHOUSE_OVERSIGHT_015935",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015935.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1019,
+    "word_count": 167,
+    "line_count": 34,
+    "import_date": "2025-11-19T21:47:47.134953",
+    "prefix": "IMAGES-003"
+  }
+}

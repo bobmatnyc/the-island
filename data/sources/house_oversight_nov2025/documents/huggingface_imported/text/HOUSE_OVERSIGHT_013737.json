@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013737",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013737.txt",
+  "text": "period doubling bifurcations accumulate (Grassberger, 1981). This is a dust-like\nregion, which when endlessly dilated looks like the same dust. Some\nmathematicians call these objects “Lebesgue points” because even though at low\nmagnifications when they look rather solid, they are not. Composed of points, they\n\nhave topological measure zero (a line has measure one) and non-integer fractal\n\ndimension. These 4=0, D = Integer, period doubling accumulation points can be\nfound in a wide variety of attractors, though in each case the parameter space in\nwhich they are located is so small (in point set topology also called “Lebesgue\nmeasure zero”) that they are very difficult to locate and therefore have little chance\n\nof being physiologically significant.\n\nThis constrasts with a relatively new category of dynamical systems which\npromises to be important in studies of the nervous system. These are ones that are\ndriven by two or more independent frequencies (called quasiperiodic driving). We\nfound them to be relevant to brain stem, thalamocortical neurophysiology of\n\nperceptual processes and states of consciousness. They have the properties,\n\nA=0, Do and D; # integer and a characteristic scaling “spectral distribution\nfunction” (see below). They have been named “strange nonchaotic attractors”\n(Grebogi et al, 1984; Romeiras et al, 1987; Ding et al, 1989). In addition, the\nstrange nonchaotic behavior of these quasiperiodically-driven, nonlinear oscillators\nhas positive (>0) measure in parameter space and thus is of potential physiological\nsignificance. A good demonstration of a multiple frequency driven strange\nnonchaotic attractor can be found and manipulated in the software package of\nNusse and Yorke (1991).\n\nThe neurobiological substrate for this system is the brain stem neuronal\nmodulatory driving of on- going thalamocortcal oscillatory brain waves (once called\n“recruitment waves” in the 7-14 Hz, 6 to a, day dreaming to quiet alert range) and\nas perturbed by multifrequency driving in what was once called “reticular formation\narousal” are realized as dominant EEG modes and associated states of perceptual\nacuity and consciousness (Moruzzi and Magoun 1949; Moruzzi, 1960; Klemm,\n1990; Steriade and McCarley, 1990; Contreras et al, 1997). In addition to intrinsic\n\n237\n\nHOUSE_OVERSIGHT_013737",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013737.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2318,
+    "word_count": 345,
+    "line_count": 41,
+    "import_date": "2025-11-19T21:47:45.761123",
+    "prefix": "IMAGES-002"
+  }
+}

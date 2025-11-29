@@ -1,0 +1,44 @@
+SHOPPING LIST
+The following items should be in stock at all times
+** Regardless of quantity used, all open packets must be replaced after each visit **
+Beverages
+_| Fiji water (large and small)
+“] Maxwell House coffee
+“| Starbucks ground Colombian coffee
+“| Diet Coke
+| Coke
+‘] Sprite
+-] Diet Sprite
+| Pepsi
+| Diet Pepsi
+J Tonic Water
+_| Club Soda
+J Perrier Water
+4 Vitamin Water
+_| Cranberry juice
+_] English breakfast tea (packets and tea leaves)
+‘) Earl Grey tea (packets and tea leaves)
+_| Mint tea
+_| Chamomile tea
+_| White wine - Chablis Premier Cru (6 bottles)
+‘} Red wine — Broully (6 bottles)
+-] Veuve-Clicquot champagne (4 bottles)
+_| Absolut Vodka
+-! Tanqueray Gin
+Whiskey
+_ Heineken Beer (6 pack)
+_| Corona Beer (6 pack)
+Spices and condiments
+—~  Hellmann’s mayonnaise
+— Dijon mustard
+_| 6 Low sodium chicken stock
+| Colivita extra virgin olive oil
+= Sea salt
+“ Sugar (White, Brown)
++ Sweet & Low
+| Equal
+Canned goods
+_ Pomi tomatoes chopped and strained
+‘] Tomato paste
+2/14/2005 Et
+DOJ-OGR-00015760

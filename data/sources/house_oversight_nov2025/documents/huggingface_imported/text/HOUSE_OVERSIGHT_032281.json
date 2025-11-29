@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_032281",
+  "filename": "IMAGES-011-HOUSE_OVERSIGHT_032281.txt",
+  "text": "US Presidential Election Report\n\nThis report is based on data collected from 1st September till date. We have processed\naround 8.6 million tweets during this period, a little more than 4 million tweets for each\n\ncandidate. However not all tweets have a geographical location.\n\nDonald Trump\n\nOut of 4.2 million Trump impressions 17.72% are positive and 63.76% are negative.\nRemaining are neutral. He was doing OK this month but became very unpopular after\n9th September.\n\nHe is most popular in New York. 18.71% of his positive impressions are in NY. He is\ngetting hammered in Florida. Only 2.98% positive and 12.56% of negative impressions\n\nare in FL. The table below shows top states with positive and negative impressions of\n\nTrump.\nNew York — (18.71%) California — (19.85%)\nColorado — (17.70%) North Carolina — (18.86%)\nCalifornia — (13.86%) Florida — (12.56%)\nNorth Carolina — (8.07%) Texas — (11.36%)\nTexas — (6.71%) Louisiana — (7.71%)\nArizona — (5.53%) Arizona — (7.40%)\nIllinois — (5.15%) New York — (5.75%)\nNew Jersey — (3.16%) Ohio — (2.83%)\nFlorida — (2.98%) Washington — (2.45%)\nLouisiana — (2.96%) Georgia — (1.91%)\nHillary Clinton\n\nOut of 4.4 million Clinton impressions 4.07% are positive and 89.84% negative.\n\nqin\n\nRemaining are neutral. 1 September was her worst day of this month. She had\n\naround 0.7 million negative impressions on that day and 0.4 million on 14\" September.\n\nHOUSE_OVERSIGHT_032281",
+  "metadata": {
+    "original_filename": "IMAGES-011-HOUSE_OVERSIGHT_032281.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1416,
+    "word_count": 229,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:46.069096",
+    "prefix": "IMAGES-011"
+  }
+}

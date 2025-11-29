@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026851",
+  "filename": "TEXT-001-HOUSE_OVERSIGHT_026851.txt",
+  "text": "﻿Who Lies More: A Comparison \nPolitiFact, an independent fact-checking website, has graded \nmore than 50 statements since 2007 from each of these \ncandidates. Here is how they rank. \n• Pants On Fire: False: Mostly False: Half True: Mostly True: • Tru \nTrump \nBachmann \nCruz \nGingrich \nPali, \nSantorum \nWalker \nPerry \nRyan \nMcCain \nRubio \nRomney \nRand Paul \nChristie \nRider \nKasich \nSanders \nJ Bush \nH Clinton \nObama \n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% \n0 Robert Mann \n14 V61 \n•••",
+  "metadata": {
+    "original_filename": "TEXT-001-HOUSE_OVERSIGHT_026851.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 488,
+    "word_count": 81,
+    "line_count": 29,
+    "import_date": "2025-11-19T21:47:44.593463",
+    "prefix": "TEXT-001"
+  }
+}

@@ -1,0 +1,14 @@
+# News Article Scraping Dependencies
+# Install: pip install -r requirements.txt
+
+# Core scraping
+requests>=2.31.0
+trafilatura>=1.6.0
+beautifulsoup4>=4.12.0
+tqdm>=4.66.0
+
+# Optional: Archive.org fallback
+waybackpy>=3.0.0
+
+# Entity extraction (already in main requirements)
+python-Levenshtein>=0.23.0

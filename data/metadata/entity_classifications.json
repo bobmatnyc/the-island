@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "generated": "2025-11-25T16:45:24.922398+00:00",
+    "classifier": "grok-beta",
+    "total_entities": 3,
+    "successful": 3,
+    "failed": 0,
+    "statistics": {
+      "total_processed": 3,
+      "successful": 3,
+      "failed": 0,
+      "retries": 0,
+      "total_tokens_used": 0,
+      "total_api_calls": 0,
+      "start_time": "2025-11-25T16:45:24.922091+00:00"
+    },
+    "average_significance_score": 5.0,
+    "connection_strength_distribution": {
+      "Documented Only": 3
+    }
+  },
+  "classifications": {
+    "jeffrey_epstein": {
+      "entity_id": "jeffrey_epstein",
+      "entity_name": "Epstein, Jeffrey",
+      "primary_role": "[DRY RUN]",
+      "connection_strength": "Documented Only",
+      "professional_category": "[DRY RUN]",
+      "temporal_activity": [
+        "2000s"
+      ],
+      "significance_score": 5,
+      "justification": "Dry run classification",
+      "metadata": {
+        "dry_run": true,
+        "flight_count": 1018,
+        "document_count": 6998,
+        "connection_count": 191
+      }
+    },
+    "ghislaine_maxwell": {
+      "entity_id": "ghislaine_maxwell",
+      "entity_name": "Maxwell, Ghislaine",
+      "primary_role": "[DRY RUN]",
+      "connection_strength": "Documented Only",
+      "professional_category": "[DRY RUN]",
+      "temporal_activity": [
+        "2000s"
+      ],
+      "significance_score": 5,
+      "justification": "Dry run classification",
+      "metadata": {
+        "dry_run": true,
+        "flight_count": 502,
+        "document_count": 4421,
+        "connection_count": 102
+      }
+    },
+    "sarah_kellen": {
+      "entity_id": "sarah_kellen",
+      "entity_name": "Kellen, Sarah",
+      "primary_role": "[DRY RUN]",
+      "connection_strength": "Documented Only",
+      "professional_category": "[DRY RUN]",
+      "temporal_activity": [
+        "2000s"
+      ],
+      "significance_score": 5,
+      "justification": "Dry run classification",
+      "metadata": {
+        "dry_run": true,
+        "flight_count": 293,
+        "document_count": 173,
+        "connection_count": 63
+      }
+    }
+  }
+}

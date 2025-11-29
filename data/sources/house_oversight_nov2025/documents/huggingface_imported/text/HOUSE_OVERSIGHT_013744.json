@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013744",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013744.txt",
+  "text": "ht and 4(+) have been analogized to what is called algorithmic complexity,\n\nwhich quantifies a computer algorithm’s minimal representation of a symbol\nsequence as it grows longer (Chaitin, 1974; Bennett, C.H., 1982; Nicolis, 1986;\nRissanen, 1982; Crutchfield and Young, 1989b). Examples of applications of a\npseudocomputational compression scheme have quantified differences among\nprotein sequences (Ebling and Jimenez-Montano, 1980), discriminated therapist-\ndirected “transference” manifestations in verbally encoded processes in\npsychotherapy (Rapp et al, 1991), characterized neural spike train patterns in a\npenicillin kindled spike focus (Rapp et al, 1994), differentiated among spike\nsequence patterns of biogenic amine families of brain stem neurons (Mandell and\nSelz, 1994) and as a sample length-dependent rate, in content-free, mouse driven\ncomputer tasks differentiated borderline from obsessive-compulsive personality\npatterns (Selz and Mandell, 1997).\n\nComputation of lexical complexity is a good example of this approach. This\nprocedure recursively surveys the sequence of symbols for the longest word, where\n“words” are subsequences that appear at least three times if they contain two letters\nor at least twice if they contain more than two letters. Upon finding a longest\nrepeated word, the compression algorithm replaces all occurances of this word with\na single distinct (new) symbol and looks again for the longest repeated word in the\nmodified sequence. When the sequence cannot be further recursively compressed,\nthere may remain identical adjacent symbols in the sequence. These are coded as\nthe symbol raised to the power of the number of its adjacent occurances. This\nexponent cannot exceed five because six adjacent identical symbols would be two\noccurances of a three letter word. The numerical value of the lexical complexity is\nsimply the sum of the number of distinct symbols and the (sum of the) logarithm of\n\nthe exponents of the symbol sequences (Ebling and Jimenez-Montano, 1980).\n\nA clear account of algorithmic and lexical complexity in relationship to other\nmeasures of “complexity” in the context of brain relevant research data can be\nfound in Rapp and Schmah (1996). The relationship between thermodynamic and\n\nergodic, measure theories in relationship to forced-dissipative dynamics and the\n\n244\n\nHOUSE_OVERSIGHT_013744",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013744.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2361,
+    "word_count": 344,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:44.605457",
+    "prefix": "IMAGES-002"
+  }
+}

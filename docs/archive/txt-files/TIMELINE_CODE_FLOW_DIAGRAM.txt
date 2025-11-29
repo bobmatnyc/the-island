@@ -1,0 +1,298 @@
+═══════════════════════════════════════════════════════════════════════════════
+  TIMELINE TAB - CODE EXECUTION FLOW
+═══════════════════════════════════════════════════════════════════════════════
+
+CURRENT FLOW (with potential failure points marked with ❌)
+───────────────────────────────────────────────────────────────────────────────
+
+1. USER CLICKS TIMELINE TAB
+   │
+   ├─> Tab button: <button onclick="switchTab('timeline')">
+   │
+   └─> Calls switchTab('timeline')                    [app.js:1131]
+
+2. SWITCHTAB FUNCTION EXECUTES
+   │
+   ├─> Remove 'active' from all tabs                  [app.js:1141]
+   ├─> Add 'active' to clicked tab                    [app.js:1147]
+   ├─> Remove 'active' from all views                 [app.js:1151]
+   ├─> Add 'active' to timeline-view                  [app.js:1152]
+   │   └─> #timeline-view now has display: flex (visible)
+   │
+   └─> Detect tab === 'timeline'                      [app.js:1179]
+       │
+       └─> setTimeout(150ms)
+           │
+           ├─> ❌ FAILURE POINT A: loadTimeline not defined yet?
+           │   Check: typeof loadTimeline === 'function'
+           │   If false → console.error('loadTimeline not found!')
+           │   If true → Continue...
+           │
+           └─> Call loadTimeline()
+
+3. LOADTIMELINE FUNCTION
+   │
+   ├─> Log: '🔍 loadTimeline() called'               [app.js:3588]
+   ├─> Log: '📊 Baseline events: X'                  [app.js:3589]
+   │
+   ├─> Fetch API: /api/timeline                      [app.js:3596]
+   │   │
+   │   ├─> Success (response.ok)
+   │   │   └─> Merge baselineEvents + API events
+   │   │       └─> timelineData = [...baseline, ...api]
+   │   │
+   │   └─> Failure
+   │       └─> Use baseline only
+   │           └─> timelineData = [...baseline]
+   │
+   ├─> Sort by date                                   [app.js:3618]
+   ├─> updateTimelineStats()                          [app.js:3621]
+   │   └─> Updates stat counters in header
+   │
+   ├─> filteredTimelineData = [...timelineData]      [app.js:3624]
+   ├─> Log: '🎨 About to render X events'            [app.js:3625]
+   │
+   └─> Call renderTimeline()                          [app.js:3626]
+
+4. RENDERTIMELINE FUNCTION
+   │
+   ├─> Log: '🎨 renderTimeline() called'             [app.js:3657]
+   ├─> Log: '📊 filteredTimelineData.length: X'      [app.js:3658]
+   │
+   ├─> Get container element                          [app.js:3660]
+   │   const container = document.getElementById('timeline-events');
+   │
+   ├─> ❌ FAILURE POINT B: Container not found?
+   │   if (!container)
+   │     └─> Log: '❌ CRITICAL: Container not found!'
+   │         └─> return (EXIT FUNCTION)
+   │
+   ├─> Check if filteredTimelineData is empty        [app.js:3668]
+   │   if (length === 0)
+   │     └─> Show empty state: "No events match"
+   │
+   └─> ✅ SUCCESS PATH: Render events
+       │
+       ├─> Generate HTML for each event              [app.js:3685]
+       │   container.innerHTML = filteredTimelineData.map(...)
+       │
+       ├─> Create timeline item HTML with:
+       │   • Date
+       │   • Category badge
+       │   • Title
+       │   • Description
+       │   • Source info
+       │   • Entity tags
+       │
+       └─> Initialize Lucide icons                    [app.js:3724]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+TIMING DIAGRAM (showing race condition potential)
+───────────────────────────────────────────────────────────────────────────────
+
+Time    Browser                 switchTab()              loadTimeline()
+────────────────────────────────────────────────────────────────────────────
+0ms     User clicks
+        "Timeline" tab
+                                ↓
+50ms                            Remove/add active
+                                to tabs and views
+                                ↓
+100ms                           #timeline-view now
+                                visible (display:flex)
+                                ↓
+150ms                           setTimeout fires
+                                ↓
+200ms                           Check if loadTimeline
+                                exists
+                                ↓                        ❓ Function defined?
+250ms                           Call loadTimeline() ──→  ↓
+                                                         Fetch /api/timeline
+300ms                                                    ↓
+350ms                                                    Await response
+400ms                                                    ↓
+450ms                                                    Response received
+500ms                                                    ↓
+550ms                                                    Call renderTimeline()
+                                                         ↓
+600ms                                                    Get #timeline-events
+                                                         ↓                   ❓ Exists?
+650ms                                                    Generate HTML
+700ms                                                    ↓
+750ms                           ✅ Timeline rendered
+
+❌ POTENTIAL FAILURE POINTS:
+   • 200ms: loadTimeline might not be defined yet (unlikely if at global scope)
+   • 600ms: #timeline-events might not be in DOM yet (unlikely after 600ms)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+DOM STRUCTURE (what should exist)
+───────────────────────────────────────────────────────────────────────────────
+
+<div class="view active" id="timeline-view">           ← Must have 'active'
+  <div class="page-header sticky-page-header">
+    <h2>Timeline of Events</h2>
+    <div class="page-stats">                          ← Stats updated here
+      <div id="timeline-total">0</div>
+      <div id="timeline-case">0</div>
+      <div id="timeline-life">0</div>
+      <div id="timeline-docs">0</div>
+    </div>
+  </div>
+
+  <div class="timeline-filters">                      ← Filter buttons
+    ...
+  </div>
+
+  <div class="page-content">
+    <div class="timeline-container"                   ← CRITICAL ELEMENT
+         id="timeline-events">                        ← Must exist for render
+      <!-- Events rendered here -->
+    </div>
+  </div>
+</div>
+
+═══════════════════════════════════════════════════════════════════════════════
+
+VARIABLE STATE TRACKING
+───────────────────────────────────────────────────────────────────────────────
+
+At Page Load:
+  baselineEvents = [9 hardcoded events]              [app.js:3419]
+  timelineData = []                                  [app.js:3409]
+  filteredTimelineData = []                          [app.js:3410]
+
+After loadTimeline() runs:
+  baselineEvents = [9 events] (unchanged)
+  timelineData = [107 events] (9 baseline + 98 API)
+  filteredTimelineData = [107 events] (copy of timelineData)
+
+After filtering (if user applies filters):
+  baselineEvents = [9 events] (unchanged)
+  timelineData = [107 events] (unchanged)
+  filteredTimelineData = [subset based on filters]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+EXPECTED CONSOLE OUTPUT (successful execution)
+───────────────────────────────────────────────────────────────────────────────
+
+[User clicks Timeline tab]
+
+🔄 Tab switched to timeline - calling loadTimeline()
+                                        ↑
+                                    [app.js:1180]
+
+🔍 loadTimeline() called
+                                        ↑
+                                    [app.js:3588]
+
+📊 Baseline events: 9
+                                        ↑
+                                    [app.js:3589]
+
+📡 Fetching from: http://localhost:8081/api/timeline
+                                        ↑
+                                    [app.js:3594]
+
+📊 Response status: 200 OK
+                                        ↑
+                                    [app.js:3600]
+
+✅ API data received: {total: 98, events: Array(98)}
+                                        ↑
+                                    [app.js:3604]
+
+📊 API events count: 98
+                                        ↑
+                                    [app.js:3605]
+
+📋 Total timeline data: 107 events
+                                        ↑
+                                    [app.js:3615]
+
+🎨 About to render 107 events
+                                        ↑
+                                    [app.js:3625]
+
+🎨 renderTimeline() called
+                                        ↑
+                                    [app.js:3657]
+
+📊 filteredTimelineData.length: 107
+                                        ↑
+                                    [app.js:3658]
+
+📦 Container element: <div class="timeline-container" id="timeline-events">
+                                        ↑
+                                    [app.js:3661]
+
+✅ Rendering 107 events to container
+                                        ↑
+                                    [app.js:3683]
+
+[Timeline now visible with all events]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+FAILURE SCENARIO A: loadTimeline Not Found
+───────────────────────────────────────────────────────────────────────────────
+
+[User clicks Timeline tab]
+
+🔄 Tab switched to timeline - calling loadTimeline()
+❌ loadTimeline function not found!
+                                        ↑
+                                    [app.js:1186]
+
+[Timeline view visible but empty - still shows "Loading timeline events..."]
+
+DIAGNOSIS: loadTimeline not defined or not in scope
+FIX: Ensure loadTimeline is defined at global scope before switchTab
+
+───────────────────────────────────────────────────────────────────────────────
+
+FAILURE SCENARIO B: Container Not Found
+───────────────────────────────────────────────────────────────────────────────
+
+[User clicks Timeline tab]
+
+🔄 Tab switched to timeline - calling loadTimeline()
+🔍 loadTimeline() called
+📊 Baseline events: 9
+📡 Fetching from: http://localhost:8081/api/timeline
+📊 Response status: 200 OK
+✅ API data received: {total: 98, events: Array(98)}
+📊 API events count: 98
+📋 Total timeline data: 107 events
+🎨 About to render 107 events
+🎨 renderTimeline() called
+📊 filteredTimelineData.length: 107
+❌ CRITICAL: Container #timeline-events not found in DOM!
+                                        ↑
+                                    [app.js:3664]
+
+[Timeline view visible but empty - data loaded but not rendered]
+
+DIAGNOSIS: Container element not in DOM when render attempts
+FIX: Add retry logic or ensure container exists before calling loadTimeline
+
+───────────────────────────────────────────────────────────────────────────────
+
+FAILURE SCENARIO C: Silent Failure (No Console Output)
+───────────────────────────────────────────────────────────────────────────────
+
+[User clicks Timeline tab]
+
+(no console output at all)
+
+[Timeline view might or might not be visible]
+
+DIAGNOSIS: switchTab() not being called, or timeline condition not met
+FIX: Check tab button onclick attribute, verify switchTab is called
+
+═══════════════════════════════════════════════════════════════════════════════
+  END FLOW DIAGRAM
+═══════════════════════════════════════════════════════════════════════════════

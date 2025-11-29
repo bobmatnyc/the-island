@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013663",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013663.txt",
+  "text": "real part a, plus b times the imaginary part, b/’; that is, z = a + bi. We can then set\nup a geometric space to represent z by imagining a two dimensional plane with the\nhorizontal real axis extending from left to right, the usual x axis, and the vertical\ndimension, called the imaginary axis, extending from bottom to top like the standard\ny axis. These two axes, going from negative values to positive ones, left to right and\nbottom to top, cross at the shared value of 0. Thus a and 6 can be visualized as the\nrectangular coordinates of a point in the plane and the point locates the complex\nnumber, z = a + bi. Since real parts and imaginary parts are like apples and pears\nand for addition, like must be added to like, if two complex numbers, a+ bi and c +\ndi are equal, then a = c and b = d and their sum Is written (a+ c)+(b+d)i.\n\nNow that we’ve set up a point z on the plane, located with a complex number\nat z = a + bi, we can then draw an arrow, called a vector, from the intersection of the\nimaginary and real axis at 0 to this point z. Its length from 0 to z, 0z, we'll call that\nlength p, is the size or amplitude-like modulus of the complex number, z = a +i.\nThe angle this 0z vector makes with the real, Oa-axis, lets call this angle ¢, is called\nthe argument of complex number z = a +bi. p is a length that can grow or shrink, ¢\nis an angle that can rotate. We imagine vectorial movement like that of a variable\nlength hand of a clock. This geometric explication of complex numbers prepares us\nto visualize complex numbered eigenvalue solutions to matrices representing the\nrelevant equations that bifurcate to limit cycles and directional good and evil\n\nsplitting. represents the dilatable clock’s radial amplitude of circular motion and\n¢, the angle of vectorial turning from the 0a-axis.\n\nThe complex conjugate of the complex number, a + bi is the complex number\na — bi in which the sign of the imaginary part is reversed. Geometrically, this means\nthat a pair of complex conjugate numbers with the »’s of both having below zero\nvalues relative to the Oa-axis, that is negative real parts, could be imagined as the\npoints indicated by two same sized, mirror image, clock hands pointing at 8:00 and\n10:00 o’clock. Note that the ¢, the angle of vectorial deviation of the arrow pair from\nthe Oa-axis, turn in opposite directions in these mirror image moving clock hand\n\nvectors. Without going deeper into the representation of the actions of the system in\n\n163\n\nHOUSE_OVERSIGHT_013663",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013663.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2501,
+    "word_count": 463,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:46.962006",
+    "prefix": "IMAGES-002"
+  }
+}

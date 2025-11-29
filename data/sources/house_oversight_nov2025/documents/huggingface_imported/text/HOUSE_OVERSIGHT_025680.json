@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025680",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025680.txt",
+  "text": "Investment\n\nBitcoin’s Market Cap is Dislocated Relative to that of Payment yee\nProcessors Division\n\nRelative Transaction Volume and Market Cap\n\na 12m Transaction Volume ($Trillion)\n$10 | Market Cap as % of 12m Transaction Volume (Right)\n\n96.8% -~ 100%\nSd\n\n$8.9\n\n$9 -\n$8 -\n+ 15%\n$7 -\n$6 -\n\n$5 - + 50%\n\n+ 25%\n\n- 0%\nVisa Mastercard Bitcoin\n\n\" Traditional payment processors, Visa and Mastercard, each processed several trillion worth of transaction volumes in\n2016. Bitcoin has processed $111 billion of transactions over the last 12 months.\n\n—  Bitcoin’s slow transaction time precipitated its recent “hard fork” in attempt to enhance processing capacity.\n\n= Whereas traditional payment processors’ market cap represents ~3% of their transaction volume, Bitcoin’s represents\n97%, suggesting its valuation is dislocated from its fundamental value and that speculation has driven its price.\n(1) “Future of Finance Payment Ecosystems,” Goldman Sachs Global Investment Research, August 3, 2017.\n17\nHOUSE_OVERSIGHT_025680\n\nSource: Investment Strategy Group, Bloomberg, Corporate Annual Reports, Cryptocompare.com.",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025680.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1106,
+    "word_count": 164,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:44.217060",
+    "prefix": "IMAGES-008"
+  }
+}

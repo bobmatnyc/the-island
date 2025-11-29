@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011163",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011163.txt",
+  "text": "40 -\noO\n30 7\n[o}\noO\nStd. Dev. 20-\nce)\n[e} oO\n10 -\n[o}\nQo\n| |\n0 20 40 60 80\n\nMean\n\nFigure 4: Mean and Standard Deviation of Age-specific Fertility\nBased on the following sets of fertility data: 1906 Taiwan [11], Standard Natural Fertility [4], 1973 Libya\nand 19th century Utah [6].\n\n3 Uncertainty about recipients\n\nThus far, I have assumed that the recipient is known with certainty at the time the investment\nis made. No allowance has yet been made for the possibility that the benefit may eventually go\nto someone other than the intended recipient. As in my previous paper on time preference, I\nwill incorporate uncertainty by assuming that when the benefit arrives, it will be allocated among\npotential recipients (including the donor herself) so as to maximize its discounted value to the\ndonor. As before, I rule out the possibility of distributing the benefit among several recipients.\nThe development below differs from that of my previous paper in two ways. First, it allows the\ninteraction to affect fertility as well as survival. Second, it will incorporate diminishing marginal\nreturns to consumption.\n\n3.1 Model\n\nWe begin as before, with table 1. The difference is that, under uncertainty it is not the row-sum\nitself that must equal zero, but the expected value of this sum. I assume changes in fertility and\nsurvival are caused by changes in consumption, as discussed above in section 2.2.2. In addition, I\nuse the model of diminishing marginal returns defined above in section 2.3. Thus, equations 6-7\nand 11-12 allow equation 5 to be re-expressed as\n\n0= An (am + BPYY) [KO\n+ Ane?\" Bf (am) + BPA) /n (14)\n\nwhere £ denotes the expectation. In taking this expectation, I define v@) = 0 when there is no\nrecipient at all.\n\nHOUSE_OVERSIGHT_011163",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011163.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1756,
+    "word_count": 303,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:46.508437",
+    "prefix": "IMAGES-001"
+  }
+}

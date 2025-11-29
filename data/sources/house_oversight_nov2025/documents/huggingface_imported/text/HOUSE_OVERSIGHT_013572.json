@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013572",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013572.txt",
+  "text": "temperature, T. Thus, one definition of entropy change is dS = dQ/T. In classical\ncontexts, dS is expressed in units of heat called Joules per degree of absolute\ntemperature in units Kelvin, the temperature in Centigrade plus 273.16°. The best-\nknown physical image involves the heat-energy transfer to and from heat baths\ncalled reservoirs as intermediate actions of the work of the heat driven engine\nexecuting what has come to be known as the Carnot Cycle. The same formulation\nemerges in this more concrete context: the heat, Q, transfer, dQ, at a particular\nabsolute temperature, T, dQ/T, has been used to define an entropy change, dS =\ndQ/T related to some not-need-to-know-about specific alteration(s) in a system’s\ninternal physical properties.\n\nlf one allows some loose thinking about heat-induced increases in the\nStatistical randomness of molecular motion in the above reservoir that is associated\nwith the loss of useable energy, the positive entropy change, dS > 0, is vaguely\nrelatable to the kinds of information entropies to be discussed below. If a gas\ntrapped in an insulated, physically isolated, closed cylinder is allowed to expand\ninfinitely slowly, reversibly, called adiabatically, pushing up the piston that closed off\nits end, the gas will become cooler, energy having been expended doing the work of\nlifting the piston. Defined as an isolated system (of course no where in the real, non-\nlaboratory, world can this condition of absent exchanges of energy or matter with\nthe environment be found), it is a reversible process, because returning the energy\nof the work by, again, infinitely slowly pushing down on the piston and compressing\nthe gas to its original volume, returns it to its former temperature-defined energy\nstate. In this historically prominent thought-toy of physics, there has been a\nreversible change in energy but no changes in the entropy, dS = 0. The gas’s heat,\ntemperature (and energy and volume) can be completely restored in this\nmetaphysically mythic classical thermodynmical tale of an entropy-conserving,\n\nreversible process.\n\nWhile fixed entropy and independence of the specific path is the case for the\nabove noted abstract reversible cycle, in the real, irreversible orbits of most physical\nand all biological systems, entropy increases, dS > 0. Walter Nernst’s 1907 heat\n\ntheorem yields a zero point from which to determine a difference measure in the\n\n72\n\nHOUSE_OVERSIGHT_013572",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013572.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2438,
+    "word_count": 385,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:49.009364",
+    "prefix": "IMAGES-002"
+  }
+}

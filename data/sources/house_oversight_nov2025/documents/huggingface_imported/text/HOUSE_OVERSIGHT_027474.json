@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027474",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027474.txt",
+  "text": "GUID: 7E4A9450-2AC1-46F0-B615-6C9C2EFBD327\n\nMessage: Yes\n\nSender:\n\nTime: 11/16/18 02:48:54 AM (564058134)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 3296A0D5-DC05-480E-B8D3-AC701645B1F9\n\nMessage: Can u contact?\n\nSender: e:jeeitunes@gmail.com\n\nTime: 11/16/18 02:49:38 AM (564058178)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 456FC74B-608C-4224-9C4F-11C30163C7CC\n\nMessage: Are you going to AD\n\nTime: 11/16/18 02:49:40 AM (564058180)\nFlags: 1126401\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 7F67A7A8-35A9-4016-A94A-5C6770E9SCOFF\n\nMessage: The guys are trying to move on. may today / tomorrow and I'm having a meeting\nright now\n\nSender: e:jeeitunes@gmail.com\n\nTime: 11/16/18 02:49:48 AM (564058188)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 33ED5E55-706E-4F7B-9BA5-5BDF9444827D\n\nce\n\nMessage: Great\n\nTime: 11/16/18 02:50:05 AM (564058205)\nFlags: 1126401\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 46D/738E2-5E36-4831-A151-D4CBD3D630B9\n\nMessage: Trying to get to AD tomorrow\n\nHOUSE_OVERSIGHT_027474",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027474.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1022,
+    "word_count": 124,
+    "line_count": 68,
+    "import_date": "2025-11-19T21:47:47.097285",
+    "prefix": "IMAGES-009"
+  }
+}

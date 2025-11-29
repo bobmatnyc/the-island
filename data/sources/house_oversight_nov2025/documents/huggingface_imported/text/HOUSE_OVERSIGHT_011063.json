@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011063",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011063.txt",
+  "text": "and Ricardo and Malthus and Mill, until the marginalist revolution shifted focus\nfrom objectives to the mechanics in supply, demand and price. Bioeconomics awoke\na century later, largely it seems in response to the challenge of Hamilton’s rule. Now\n\nI will look at it too.\n\nMy term “lineage survival” is unusual. It is meant not to take sides between “kin\nselection” and “group selection.” The kin selection idea was another word for\nHamilton’s rule from his doctorial thesis in 1964. It said that genes encoding\ninvestment in close kin encode investment in likeliest sharers of those genes, and\nshould tend to entrench and perpetuate themselves. His condition for investment\n\nwas r)bc.r here meant relatedness: ¥% for offspring or siblings, % for nephews or\n\nnieces or grandoffspring, and so forth. b meant benefit to the donee, and c meant\ncost to the investor. The sign > means “greater than”. The cost and benefit were\nmeasured in fitness itself, meaning chances to survive and breed. But that too meant\n“inclusive fitness” where investing in kin counted as breeding when adjusted for\nrelatedness. The idea was that I give up some of my chances if I can increase yours\nto my net genic advantage in the long run. Hamilton allowed for exceptions\nincluding meiotic drive, which sometimes forecloses gene competition. His rule\nprevailed because it made mostly good predictions. Humans and creatures in\ngeneral usually care for their own young first, if they have any, and for closely\n\nrelated young if not.\n\nHamilton made it clear that cost c and benefit b in his hurdle rb>c respectively\nmeant fitness given up by the investor and fitness grained by the investee. He\nfurther made it clear that fitness could be measured as R. A. Fisher’s “reproductive\n\nvalue” V(x) published in 1930 and 1957. V(x) meant likelihood at age x of\nreaching each successive age times expected offspring at that age. V(x), or Bob\nTrivers’ “reproductive success” RS, which simplifies V(x) to expected remaining\n\noffspring, is implicitly constant at the population scale unless there is population\n\ngrowth (Fisher’s “Malthusian parameter”). For creatures other than us, the\n\nChapter 7 Petty’s Idea 2/3/16 4\n\nHOUSE_OVERSIGHT_011063",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011063.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2206,
+    "word_count": 358,
+    "line_count": 41,
+    "import_date": "2025-11-19T21:47:44.740585",
+    "prefix": "IMAGES-001"
+  }
+}

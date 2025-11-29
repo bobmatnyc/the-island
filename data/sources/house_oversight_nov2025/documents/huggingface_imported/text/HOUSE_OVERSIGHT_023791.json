@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_023791",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_023791.txt",
+  "text": "CHAPTER 4\n\nMZ\ni\nCG:\n\ni\n\nTwelve Cognitive Processes That\nUnderlie Learning\n\nThose who know how to think need no teachers.\n—Mahatma Ganchi\n\nNot everything we would like to teach can be taught, as we have seen.\nSimilarly, not everything we would like to learn can be learned, espe-\ncially if we are taking the wrong approach to learning. In the previous\nchapter we discussed what can’t be taught. Now, let’s talk about what\ncan be taught.\n\nOne problem in such a discussion is that we are used to (because we\nwent to school) thinking about what needs to be taught and learned\nin terms of subjects (English, math, science, etc.). We think this way\nbecause school originally was organized by professors who had spe-\ncialties in these subject areas. These professors were scholars and they\nset up the lower schools on the basis of the specialties that they had.\n\nWhen I was working in artificial intelligence, I began to realize\nthat what I needed to teach the computer to do in order for it be smart\nwas a far cry from what people thought needed to be taught. People\nassumed that we needed to tell the computer facts about the world of\nthe type that children learn in school, and that this would make the\nmachine smart. (Quite recently, I attended a meeting of AI people who\nwere planning a project to allow computers to pass SAT tests as a way\nof showing that the computer was smart!)\n\nBut what computers lack is intelligent capabilities, not information.\nIt is easy enough to fill a machine with information, but when you are\ndone, it would be able to tell you only what you told it. (If that was what\na child did, you would think that he was brain damaged.) Intelligence\nand the learning required to create useful new knowledge are really a\nresult of an amalgamation of cognitive processes. Intelligent computers,\nand intelligent people, need those processes to be working well.\n\n45\n\nHOUSE_OVERSIGHT_023791",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_023791.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1903,
+    "word_count": 334,
+    "line_count": 47,
+    "import_date": "2025-11-19T21:47:47.170861",
+    "prefix": "IMAGES-007"
+  }
+}

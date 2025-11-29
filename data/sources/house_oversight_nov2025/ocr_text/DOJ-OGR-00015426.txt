@@ -1,0 +1,30 @@
+Invoice Number: 7-153-86959
+a Invoice Date: Dec 13, 2002
+- 4 & Account Number: 1144-2081-6
+Page: 4of 6
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Shipped: Dec 02,2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+Tracking ID 830273245338 Sender _ Recipient
+Service Type =. FedEx Intl Priority E SIMMONDS K VAUCHAN EDWARDS.
+Package Type Customer Packaging JEFFREY E EPSTEIN
+Orig/Dest FLU/LON 457 MADISON AVE
+Packages 0 NEW YORK NY 10022-6843 US
+Weight 0
+Delivered Dec 02, 2002 - Conversion Rate UKL USD 1.5855855860
+Signed by Transportation Charge 0.00
+Bundle ID To
+FedEx Use: 35054/_/_ Total Transportation Charges USD $ 0.00
+
+Original VAT UKL 27.75 44.00
+Customs Advancement Fee UKL 4.50 7.13
+Entry Date Dec 04, 2002 Total Duties, Tax, Customs, Other Fees USD $ 51.13
+Entry No. HMC000000019032
+
+Shipment Total USD $ 51.13
+
+Shipment Detail Subtotal en USD $ 51.13
+FDX..*50410*.5048454001.16541.16541..........FEDXDTY.......000004258.1 14420816
+
+SDNY_GM_00342916 117
+DOJ-OGR-00015426

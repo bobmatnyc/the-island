@@ -1,0 +1,11 @@
+{
+  "source_pdf": "DOJ-OGR-00033156.pdf",
+  "ocr_date": "2025-11-16T22:15:27.846702",
+  "text_length": 1464,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "BBurns@sa15.state.fl.us",
+    "sloane.carmen@mail.dc.state.fl.us"
+  ]
+}

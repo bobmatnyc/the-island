@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027743",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027743.txt",
+  "text": "GUID: EFB361BD-E02F-43A9-9F21-301BDBO01E6E\nMessage: Where r u now???\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/25/19 08:16:28 AM (580490188)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 3BO0C6B24-949C-451E-92EA-122BA7 9A0E12\n\nMessage: Santa fe\n\nTime: 05/25/19 08:16:38 AM (580490198)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 4810CCA1-350B-46EF-B7/2C-5BA49970D99D\n\nMessage: How is it?\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/25/19 08:16:47 AM (580490207)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 326CDAA9-FFEA-4622-Bl1A3-54363A7E719F\n\nMessage: Amazing\n\nTime: 05/25/19 08:17:11 AM (580490231)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: DOE6F158-CE6C-49DD-B0O73-A7D3FF1E7983\n\nMessage: I do not get how u hang out in NYC\n\nSender: e:jeeitunes@gmail.com\n\nTime: 05/25/19 08:18:00 AM (580490280)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 280107F1-A139-425C-85C8-242F4E9RF181\n\nMessage: If i want ny smarts there is no other place\n\nHOUSE_OVERSIGHT_027743",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027743.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1003,
+    "word_count": 121,
+    "line_count": 64,
+    "import_date": "2025-11-19T21:47:44.136436",
+    "prefix": "IMAGES-009"
+  }
+}

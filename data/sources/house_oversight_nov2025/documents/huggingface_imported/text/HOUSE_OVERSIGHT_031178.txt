@@ -1,0 +1,88 @@
+{"results":{"537686746": {"artwork"™: {"width":3000, "url":"https://is2-
+ssl.mzstatic.com/image/thumb/Video/v4/be/3d/3c/be3d3ccl1-0c0d-9101-2196
+609cfd6341c2/mzl.sbohosbu.lsr/{w}x{h}bb. {£}", "height":3000, "textColor3":"ccccce", "textc
+olor2":"d5babe", "textColor4":"ab9599", "hasAlpha": true, "textColorl":"fffff£", "bgColor"™:"
+030202", "hasP3":false, "supportsLayeredImage":true}, "artistName":"Jefferson\u0027s
+Secret Bible", "url": "https://itunes.apple.com/us/tv-season/jeffersons-secret-bibl
+season-1/1i1d537686746", "shortUrl":"https://itunes.apple.com/us/tv-season/jeffersons-
+secret-bible-season-1/id537686746", "genreNames": ["Nonfiction", "TV
+
+Shows"], "trackCount":1, "nameSortValue":"Jefferson\u0027s Secret Bible, Season
+1™,"id":"537686746", "releaseDate":"2012-02-
+
+20", "userRating"™:{"value":3.5, "ratingCount":85}, "contentRatingsBySystem"™: {"us-
+
+tv": {"name"™:"TV-G", "value"™:300, "rank":3}},"name":"Jefferson\u0027s Secret Bible, Season
+1","artistUrl":"https://itunes.apple.com/us/artist/jeffersons-secret
+
+bible/537686743", "formerIds":[],"nameRaw":"Jefferson\u0027s Secret Bible, Season
+1","seasonNumber":1,"editorialArtwork": {"storeFlowcase": {"width":4320,"url":"https://is
+5-ssl.mzstatic.com/image/thumb/Features118/v4/ba/c6/53/bac65373-292c-7814-357f
+9357c3b14f11/source/{w}x{h}{c}.{£}", "height":1080, "textColor3":"cOclcl", "textColor2":"d
+bdadb", "textColor4":"afaeafi", "hasAlpha"™:true, "textColor1l":"f0f1f1i", "bgColor":"000000","
+hasP3":false, "supportsLayeredimage":true}, "contentLogo": {"width":2400,"url":"https://is
+4-ssl.mzstatic.com/image/thumb/Features118/v4/60/d7/52/60d7525d-a59b-e290-892a
+0d40371034e4/source/{w}x{h}{c}.{£}", "height":390, "textColor3":"cbhcbcb", "textColor2":"ff
+TEfi", "textColor4":"cbhcbcb", "hasAlpha"™:true, "textColori":"ffffFffF", "bgColor":"000000", "h
+asP3":false, "supportsLayeredimage":false}},"kind":"tvSeason", "copyright":"A© 2012
+SNI/SI Networks L.L.C. All rights reserved. Smithsonian Channel is a trademark of
+Smithsonian Institution. SNI/SI Networks L.L.C. is an authorized user.
+","artistId":"537686743", "genres": [{"genreId": "4006", "name":"Nonfiction", "url": "https: /
+/itunes.apple.com/us/genre/id4006", "mediaType": "4"}, {"genreId™:"32", "name": "TV
+
+Shows", "url":"https://itunes.apple.com/us/genre/id32","mediaType":"4"}],"offers": [{"act
+i
+
+S)
+
+onText":{"short":"Buy", "medium": "Buy", "Long": "Buy
+
+eason", "downloaded": "Downloaded", "downloading": "Downloading"}, "type": "buy", "priceForma
+tted™:"S1.99", "price":1.99, "buyParams": "productType=P\u0026price=1990\u0026salableAdamI
+d=537686746\u0026pricingParameters=STDQ\u0026pg=default"}, {"actionText":{"short":"Buy",
+"medium": "Buy", "long": "Buy
+
+Season", "downloaded": "Downloaded", "downloading": "Downloading"}, "type": "buy", "priceForma
+tted™:"S2.99", "price":2.99, "buyParams": "productType=P\u0026price=2990\u0026salableAdamI
+d=537686746\u0026pricingParameters=HDBUY\u0026pg=default", "variant™:"HD"}]},"%732034109"
+:{"artwork™: {"width":3000, "url": "https://is3-
+ssl.mzstatic.com/image/thumb/Video/v4/5a/58/b3/5a58b391-0830-77cb-5ce11
+055146409960/mzl.xveyydnk.lsr/{w}x{h}bb.{f}", "height"™:3000, "textColor3":"33353c", "textc
+olor2":"3c0a0b", "textColor4":"633b3c", "hasAlpha": true, "textColor1l":"00030c", "bgColor"™:"
+fffrfff", "hasP3":false, "supportsLayeredimage": true}, "artistName": "American
+
+Experience", "url":"https://itunes.apple.com/us/tv-
+
+season/jf£k/id732034109", "shortUrl":"https://itunes.apple.com/us/tv-
+season/jf£k/id732034109", "genreNames": ["Nonfiction", "TV
+
+Shows"], "trackCount":4, "nameSortValue": "JFK", "id™:"732034109", "releaseDate"™:"2013-11-
+11","userRating":{"value":4, "ratingCount":17},"contentRatingsBySystem": {"us-
+tv":{"name"™:"TV-
+
+PG", "value":400, "rank":4}},"name":"JFK", "artistUrl":"https://itunes.apple.com/us/artist
+/american-
+experience/309335561", "formeriIds": [], "nameRaw": "JFK", "editorialArtwork":{"originalFlowe
+aseBrick": {"width":3200, "url": "https://is2-
+ssl.mzstatic.com/image/thumb/Features/v4/26/e3/05/26e30522-d952-570b-5ff4
+901c030865ee/source/{w}x{h}{c}.{£}", "height":600, "textColor3":"423939","textColor2":"le
+120d", "textColor4":"4b413d", "hasAlpha":false, "textColor1":"120708", "bgColor":"ffffff","
+hasP3":false, "supportsLayeredImage":false}},"kind":"tvSeason", "copyright":"A© 2013 WGBH
+Educational
+
+Foundation", "artistId":"309335561", "genres": [{"genreId":"4006", "name": "Nonfiction", "url
+":"https://itunes.apple.com/us/genre/id4006", "mediaType"™:"4"}, {"genreId":"32", "name": "T
+Vv
+
+Shows", "url":"https://itunes.apple.com/us/genre/id32","mediaType":"4"}],"“offers": [{"act
+lonText":{"short"™: "Buy", "medium": "Buy", "Long": "Buy
+
+Season", "downloaded": "Downloaded", "downloading": "Downloading"}, "type": "buy", "priceForma
+tted™:"S6.99", "price":6.99, "buyParams": "productType=P\u0026price=6990\u0026salableAdamI
+d=732034109\u0026pricingParameters=STDQ\u0026pg=default"}, {"actionText":{"short":"Buy",
+"medium": "Buy", "long": "Buy
+
+Season", "downloaded": "Downloaded", "downloading": "Downloading"}, "type": "buy", "priceForma
+tted™:"S9.99", "price":9.99, "buyParams": "productType=P\u0026price=9990\u0026salableAdamI
+
+HOUSE_OVERSIGHT_031178

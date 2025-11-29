@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015827",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015827.txt",
+  "text": "Knowledge 137\n\n\"Twas brillig, and the slithy toves\n\nDid gyre and gimble in the wabe;\n\nAll mimsy were the borogoves,\n\nAnd the mome raths outgrabe.\n\n“Beware the Jabberwock, my son!\n\nThe jaws that bite, the claws that catch!\nBeware the Jubjub bird, and shun\n\nThe frumious Bandersnatch!”\n\nHe took his vorpal sword in hand:\n\nLong time the manxome foe he sought—\nSo rested he by the Tumtum tree,\n\nAnd stood awhile in thought.\n\nAnd as in uffish thought he stood,\n\nThe Jabberwock, with eyes of flame,\nCame whiffling through the tulgey wood,\nAnd burbled as it came!_\n\nOne, two! One, two! and through and through\nThe vorpal blade went snicker-snack!\n\nHe left it dead, and with its head\n\nHe went galumphing back.\n\n“And hast thou slain the Jabberwock?\nCome to my arms, my beamish boy!\nO frabjous day! Callooh! Callay!”\n\nHe chortled in his joy.\n\nTwas brillig, and the slithy toves\n\nDid gyre and gimble in the wabe;\n\nAll mimsy were the borogoves,\n\nAnd the mome raths outgrabe.\n\nThe Jabberwocky Spell Check\n\nMicrosoft Verdict on the Poem\n\n39 of the 166 words in the poem are unknown to Word’s spelling checker\nand this is an optimistic analysis of how the algorithm would fare. Many\nof the words are in the spelling checker because of the poem: galumphing,\nfor example. Lewis Carroll’s work was sufficiently influential that part of\n\nHOUSE_OVERSIGHT_015827",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015827.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1341,
+    "word_count": 229,
+    "line_count": 61,
+    "import_date": "2025-11-19T21:47:48.964537",
+    "prefix": "IMAGES-003"
+  }
+}

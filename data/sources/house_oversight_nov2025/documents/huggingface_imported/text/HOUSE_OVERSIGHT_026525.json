@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026525",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026525.txt",
+  "text": "Similarly, a strategy for player 2 dictates whether he will continue or exit as a function\nof everything player 1 has done in the past. One relatively simple strategy for player 2\nis to continue so long as player 1 has cooperated. If both players play according to this\npair of strategies, each time the temptation is low, player 1 cooperates and gets a, player\n2 gets b, and the game continues with probability w until the first time the temptation\nis high. Then, player 1 defects and gets c, and player 2 gets d. Some straightforward\ncalculations yield the players’ expected payoffs: player 1’s is [ap + c,(1 — p)] / [1 — pw]\nand player 2’s is [bp + d(1 — p)| / [1 — pw]. Because a strategy specifies players’ moves in\nevery period and the game’s length is undetermined, infinitely many possible strategies\nexist. We are primarily interested in the seven strategies represented in Figure 2, which\nshows the expected payoff for each player for each strategy pair of interest.\n\nOf particular interest is the strategy pair designated in the top left corner of figure 2),\nin which player 2 discriminates between cooperators who look and those who do not\nlook, and player 1 cooperates without looking (CWOL). The following simple argument\ndemonstrates that this strategy pair is a Nash Equilibrium (which means no player has\nan incentive to unilaterally deviate) whenever ~*~ > qp+cp(1—p). This condition has a\nnatural interpretation: player 1’s expected temptation from defection is less than the gains\nfrom an ongoing cooperative interaction. Thus, player 1 would lose from deviating, for\n\nexample by looking, because this would end the lucrative ongoing relationship, reducing\n\na\nLe\n\nplayer 1’s payoff from an expected to 0. Player 2 would also lose from deviating, by\nchoosing to exit, because when player 1 is always cooperating, she expects oo from the\nrelationship, and exiting yields 0.\n\nOne potential concern with this equilibrium is that, since player 2 is not worse off by\n\nnot attending to looking, he might not do so. This turns out to not be the case. The\n\nintuition is that if there is even a small probability player 1 looks, player 2 is better off\n\nHOUSE_OVERSIGHT_026525",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026525.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2185,
+    "word_count": 372,
+    "line_count": 36,
+    "import_date": "2025-11-19T21:47:49.391664",
+    "prefix": "IMAGES-009"
+  }
+}

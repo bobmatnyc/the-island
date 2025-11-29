@@ -1,0 +1,107 @@
+======================================================================
+ENTITY STATISTICS SUMMARY
+======================================================================
+
+Total entities: 1702
+Entities in documents: 1604
+Entities with connections: 261
+Billionaires: 33
+
+TOP 20 ENTITIES BY DOCUMENT MENTIONS:
+----------------------------------------------------------------------
+ 1. Mark      Mark Epstein              
+    Documents:   6 (administrative:1, contact_book:1, flight_log:2, personal:1, media:1)
+ 2. Jeffrey Epstein                     
+    Documents:   6 (administrative:1, flight_log:2, media:1, contact_book:1, personal:1)
+ 3. Paula      Paula Epstein            
+    Documents:   6 (administrative:1, contact_book:1, flight_log:2, personal:1, media:1)
+ 4. Ed Epstein                          
+    Documents:   6 (administrative:1, contact_book:1, flight_log:2, personal:1, media:1)
+ 5. EPSTEIN- PORTABLES                  
+    Documents:   6 (administrative:1, contact_book:1, flight_log:2, personal:1, media:1)
+ 6. Je        Je Epstein                🔗162
+    Documents:   6 (administrative:1, contact_book:1, flight_log:2, personal:1, media:1)
+ 7. Karen     Karen Epstein             
+    Documents:   6 (administrative:1, contact_book:1, flight_log:2, personal:1, media:1)
+ 8. Theresa Roberts                     
+    Documents:   5 (administrative:1, flight_log:2, media:1, personal:1)
+ 9. Deb Roberts                         
+    Documents:   5 (administrative:1, flight_log:2, media:1, personal:1)
+10. Jordan        Jordan Dubin          
+    Documents:   5 (administrative:1, flight_log:2, media:1, personal:1)
+11. No      No Passengers               
+    Documents:   5 (administrative:1, flight_log:2, personal:1, media:1)
+12. Jack     Jack Robertson             
+    Documents:   5 (administrative:1, flight_log:2, media:1, personal:1)
+13. Virginia   Virginia Roberts         
+    Documents:   5 (administrative:1, flight_log:2, media:1, personal:1)
+14. Glenn       Glenn Dubin             💰
+    Documents:   4 (administrative:1, flight_log:2, media:1)
+15. Kevin       Kevin Spacey            
+    Documents:   4 (flight_log:2, personal:1, media:1)
+16. Steve    Steve Tuckerman            
+    Documents:   4 (flight_log:2, personal:1, media:1)
+17. Chris       Chris Tucker            
+    Documents:   4 (flight_log:2, personal:1, media:1)
+18. Nadia     Nadia Bjorlin             
+    Documents:   4 (administrative:1, flight_log:2, media:1)
+19. Leon Black                          💰
+    Documents:   4 (administrative:1, contact_book:1, flight_log:1, media:1)
+20. Conrad Black                        💰
+    Documents:   4 (administrative:1, contact_book:1, flight_log:1, media:1)
+
+TOP 20 MOST CONNECTED ENTITIES:
+----------------------------------------------------------------------
+ 1. Ghislaine Ghislaine                 
+    Connections: 256 (top: Je        Je Epstein - 228 flights)
+ 2. Je        Je Epstein                
+    Connections: 162 (top: Ghislaine Ghislaine - 228 flights)
+ 3. Sarah       Sarah Kellen            
+    Connections: 110 (top: Je         Je Epstein - 146 flights)
+ 4. Nadia Nadia                         
+    Connections:  62 (top: Larry Visoski - 87 flights)
+ 5. Emmy       Emmy Tayler              
+    Connections:  58 (top: Je        Je Epstein - 106 flights)
+ 6. Female (1)                          
+    Connections:  54 (top: Ghislaine Ghislaine - 38 flights)
+ 7. Andrea   Andrea Mitrovich           
+    Connections:  52 (top: Je         Je Epstein - 49 flights)
+ 8. Cindy        Cindy Lopez            
+    Connections:  48 (top: Je         Je Epstein - 22 flights)
+ 9. Luc Brunel                          
+    Connections:  39 (top: Ghislaine Ghislaine - 17 flights)
+10. Eva         Eva Dubin               
+    Connections:  35 (top: Celina      Celina Dubin - 17 flights)
+11. Celina      Celina Dubin            
+    Connections:  33 (top: Je        Je Epstein - 17 flights)
+12. Gwendolyn    Gwendolyn Beck         
+    Connections:  31 (top: Je        Je Epstein - 17 flights)
+13. Nanny (1)                           
+    Connections:  30 (top: Celina      Celina Dubin - 10 flights)
+14. Didier                              
+    Connections:  28 (top: Ghislaine Ghislaine - 22 flights)
+15. Chauntae    Chauntae Davies         
+    Connections:  28 (top: Je         Je Epstein - 11 flights)
+16. Glenn       Glenn Dubin             💰
+    Connections:  24 (top: Celina      Celina Dubin - 12 flights)
+17. Sophie     Sophie Biddle            
+    Connections:  23 (top: Je        Je Epstein - 15 flights)
+18. Lang                                
+    Connections:  23 (top: Ghislaine Ghislaine - 11 flights)
+19. Teala       Teala Davies            
+    Connections:  21 (top: Je         Je Epstein - 22 flights)
+20. Ryan Dionne                         
+    Connections:  20 (top: Ghislaine Ghislaine - 12 flights)
+
+TOP 10 BILLIONAIRES BY DOCUMENT MENTIONS:
+----------------------------------------------------------------------
+ 1. Glenn       Glenn Dubin            :   4 docs (administrative:1, flight_log:2, media:1)
+ 2. Leon Black                         :   4 docs (administrative:1, contact_book:1, flight_log:1, media:1)
+ 3. Conrad Black                       :   4 docs (administrative:1, contact_book:1, flight_log:1, media:1)
+ 4. Prince Bandar bin Sultan           :   3 docs (administrative:1, flight_log:1, media:1)
+ 5. Donald      Donald Trump           :   2 docs (personal:1, media:1)
+ 6. Ivanka Trump                       :   2 docs (personal:1, media:1)
+ 7. Mort Zuckerman                     :   2 docs (personal:1, media:1)
+ 8. Edouard de Rothschild              :   2 docs (personal:1, media:1)
+ 9. Evelyn de Rothschild               :   2 docs (personal:1, media:1)
+10. Julio Mario Santo Domingo          :   2 docs (personal:1, media:1)

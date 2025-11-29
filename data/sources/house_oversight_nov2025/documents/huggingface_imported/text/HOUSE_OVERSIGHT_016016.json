@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016016",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016016.txt",
+  "text": "326 Are the Androids Dreaming Yet?\n\n<§¥—_ —\n—_>\nHalf silvered\nMirror\nLight —\n¥ Detector\nInterferometer\n\nif only one photon is traveling at a time, still no light comes out in one\ndirection and all the photons come out the other. The wave functions\nof each photon interfere with each other constructively or destructively.\nThe only conclusion available is the photon must be traveling along both\npaths! They are said to be in ‘superposition. If you introduce a measuring\ndevice half way around the experiment, it will destroy the superposition\nand the photons behave in the common sense way. Remove the measuring\ndevice and, once again, the photons seem to take both paths. Richard\nFeynman pointed out that you really have to imagine that the photons\ntake every possible path, not only the straight line paths. He received his\nNobel Prize for demonstrating how to add up these infinite paths to get\na finite answer with his ‘sum over histories method. Superposition is a\nstrange idea when limited to the realm of small particles but what about\nlarger things? — cats for example.\n\nErwin Schrédinger’s unfortunate cat is trotted out to demonstrate\nthe paradox so often that Stephen Hawking is on record for wanting to\nreach for a gun every time he hears mention of it.\n\nThe thought experiment works like this. A cat is put in a box with\na radioactive substance, a Geiger counter and a vial of poison. If the\ncounter detects a radioactive decay it breaks the bottle and the cat dies, if\nno decay is detected the cat lives.\n\nHOUSE_OVERSIGHT_016016",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016016.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1542,
+    "word_count": 266,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:46.497740",
+    "prefix": "IMAGES-003"
+  }
+}

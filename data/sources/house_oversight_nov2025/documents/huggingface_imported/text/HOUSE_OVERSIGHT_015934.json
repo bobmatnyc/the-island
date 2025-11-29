@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015934",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015934.txt",
+  "text": "244 Are the Androids Dreaming Yet?\n\nImpossible Shape\n\nThat is Turing’s argument in a nutshell. But if that was too large a\nstep, let’s take the argument a little more slowly and prove it a couple of\ndifferent ways. First, we will use a proof by counterexample, known by\nmathematicians as an ‘indirect proof: These may tax your brain. If you\nwant a visual image to help with the idea of an indirect proof, take a look\nat the impossible shape. It is paradoxical, which means it does not exist.\nQED.\n\nThe Proofs\n\nThere are several ways to prove the non-existence of the Halting Program.\nI am going to present a few in the hope one of them will hit the mark and\nallow you to see why. The first proof uses a software flowchart. I have\nlaid this out on the assumption the program exists and then attempted\nto apply it to itself. Unfortunately, the flowchart contains a paradox\nand thus there can be no Halting Program. The paradox is at once\nstraightforward and confusing. It is a more elaborate version of the liar’s\nparadox: “This sentence is a lie” If the sentence is true it must be false,\nand if the sentence is false then it must be true.\n\nThe Halting Program\n\nLet us suppose there is a Halting Program. Remember that a Halting\nProgram simply takes another program as input and predicts if it will\nhalt or not. It follows there must also be a program called Haltcrash.\nHaltcrash goes into an infinite loop if it examines a program with input\nthat halts, otherwise it halts itself.\n\nHOUSE_OVERSIGHT_015934",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015934.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1504,
+    "word_count": 271,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:46.883554",
+    "prefix": "IMAGES-003"
+  }
+}

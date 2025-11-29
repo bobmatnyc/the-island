@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011168",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011168.txt",
+  "text": "14\n\nThe result of this analysis is shown in figure 6, along with the age-20 curve from figure 5. It\nshows that\n\ne The long-term tendency is toward a rate of roughly 2% in all cases. Thus, conclusions about\nthe interest rate are unaffected by the difference between these models.\n\ne When consumption affects survival (i.e. when y = 0), the curve differs little from that of the\nearlier analysis.\n\ne When consumption affects fertility, the discount function peaks in the late thirties and early\nforties.\n\nI’m not sure what to make of this. Perhaps:\n\ne young people are prone to risk their lives in return for immediate gratification (fast driving,\nsky diving, high crime rates), but middle aged people are more prone to take risks affecting\nfertility.\n\nReferences\n\n[1] Elizabeth A. Cashdan. Natural fertility, birth spacing, and the “first demographic transition”.\nAmerican Anthropologist, 87(3):650—-653, Sept. 1985.\n\n[2] Brian Charlesworth. Evolution in Age-Structured Populations. Cambridge University Press,\nCambridge, England, 1980.\n\n[3] Ansley J. Coale and Paul Demeny. Regional Model Life Tables and Stable Populations.\nAcademic Press, New York, 2nd edition, 1983.\n\n[4] Ansley J. Coale and T. J. Trussell. Model fertility schedules: Variations in the age structure\nof childbearing in human populations. Population Index, 40(2):185—258, April 1974.\n\n[5] James F. Crow and Motoo Kimura. An Introduction to Population Genetics Theory. Harper\nand Row, New York, 1970.\n\n[6] Mahjoub A. El-Faedy and Lee L. Bean. Differential paternity in Libya. Journal of Biosocial\nScience, 19(4):395-403, Oct. 1987.\n\n[7] Caleb E. Finch. Longevity, Senescence, and the Genome. University of Chicago Press,\nChicago, 1990.\n\n[8] Ronald A. Fisher. The Genetical Theory of Natural Selection. Dover, New York, 2nd edition,\n1958.\n\n[9] William D. Hamilton. The genetical evolution of social behavior, I. Journal of Theoretical\nBiology, 7(1):1-16, July 1964.\n\nHOUSE_OVERSIGHT_011168",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011168.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1956,
+    "word_count": 295,
+    "line_count": 50,
+    "import_date": "2025-11-19T21:47:47.181807",
+    "prefix": "IMAGES-001"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00029095.pdf",
+  "ocr_date": "2025-11-16T22:04:31.574159",
+  "text_length": 639,
+  "is_email": false,
+  "email_confidence": 0.4,
+  "email_addresses": [
+    "CSTrialTeam@mail.sprint.com"
+  ]
+}

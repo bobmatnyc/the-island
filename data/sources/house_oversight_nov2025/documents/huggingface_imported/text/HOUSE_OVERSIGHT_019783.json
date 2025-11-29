@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019783",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019783.txt",
+  "text": "The “War on Terror” After Snowden | 295\n\nsecretly briefed on in 2009. Dianne Feinstein, the chair of the Sen-\nate Select Committee, pointed out with privileged knowledge that it\nsaved “subway cars stuffed to the gunwales with people”; Represen-\ntative Mike Rogers also spoke with privileged knowledge when he\nsaid on June 9, 2013, referring to the 702 program, “I can tell you in\nthe Zazi case in New York, it’s exactly the program that was used.”\nThe third NSA program of interest to terrorists that Snowden\nrevealed was called XKeyscore. Using Internet data from PRISM, the\nNSA had created the equivalent of digital fingerprints for suspected\nforeign terrorists on watch lists. The “fingerprint” for each suspect\nwas based on his or her search pattern on the Internet. These algo-\nrithms made it difficult for suspects to hide on the Internet by using\naliases. Once a suspect was “fingerprinted,” any attempt to evade\nsurveillance by using a different computer and another user name\nwould be detected by the XKeyscore algorithms. The “fingerprints”\nonly worked so long as XKeyscore remained secret from those on\nthe watch list. After Snowden exposed it, suspects could evade sur-\nveillance by changing their search patterns when they changed their\n© aliases, ®\nFurther enabling furtive Internet users to evade the surveillance\nof the government, Snowden offered specific tips about the secret\nsources and methods used by both the NSA and the British GCHQ.\nHe revealed in a public interview, for example, that the GCHQ\nhad deployed the first “full-take” Internet interceptor that “snarfs\neverything, in a rolling buffer to allow retroactive investigation\nwithout missing a single bit.” When asked how to circumvent it,\nhe replied, “You should never route through or peer with the UK\nunder any circumstances. Their fibers are radioactive, and even the\nQueen’s selfies to the pool boy get logged.” Aside from this warning\nabout using Internet providers whose wiring passes through Britain,\nhe also warned Internet users about trusting the encryption of any\nU.S.-based Internet company because of their secret relationships\nwith the NSA. He added that the NSA considered “telecom collabo-\nrators to be the jewels in their crown of omniscience.” He also gave a\nwarning about the attention the NSA was paying to “jihadi forums.”\nHe said that to avoid being automatically “targeted” by the NSA,\none needed to avoid them.\n\n| | Epst_9780451494566_2p_all_r1.indd 295 ® 9/30/16 8:13AM | |\n\nHOUSE_OVERSIGHT_019783",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019783.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2503,
+    "word_count": 403,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:46.474984",
+    "prefix": "IMAGES-005"
+  }
+}

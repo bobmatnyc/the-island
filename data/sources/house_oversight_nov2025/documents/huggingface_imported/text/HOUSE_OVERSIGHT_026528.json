@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026528",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026528.txt",
+  "text": "ts 2 ap+e@(l—p). This equilibrium condition has a natural interpretation as well:\nin order to sustain CWOL, the long term gains to player 1 from the ongoing relationship\nmust suffice for player 1 to cooperate when player 1 expects the temptation to sometimes\nbe high. That is, not looking makes the expected—as opposed to realized-gains from\ndefection relevant, in a sense smoothing the temptation to defection. Thus, the range\nwhere CWOL is an equilibrium and CWL is not, ep + e@(1 — p) < <5 < @, has the\nfollowing interpretation: the expected temptation is low but the maximal temptation is\nhigh. In the appendix, we confirm this result using our subgame perfections analysis. We\nalso use dynamics to show that, CWOL increases relative to CWL when we increase the\nmaximal temptation, but hold the mean temptation constant.\n\nWe identify a second condition under which people will be most likely to avoid and\ndetect looking by relaxing the assumption d > reel Then, in the region where d < raretlD\nthere is a fourth equilibrium. It is the strategy pair where player 2 always continues if\nplayer 1 cooperates when the temptation is low, and player 1 looks and cooperates only\nwhen the temptation is low (we refer to this as the ONLYL equilibrium). In contrast,\nCWOL is an equilibrium for all values of d. CWOL is thus the only cooperative equilibrium\nin the parameter region d > eat which has the interpretation: defection is sufficiently\nharmful to player 2 such that player 2 prefers to avoid the interaction if player 1 only\ncooperates some of the time.\n\nNote that CWOL is an equilibrium over a wider parameter region than both CWL\nand ONLYL, and thus that the ability to avoid looking and to detect whether others look\nincreases the parameter space over which cooperation is feasible. To see this, consider re-\nmoving player 1’s strategy which consists of not looking. Alternatively, consider removing\n\nplayer 2’s strategy where he conditions his behavior on whether player 1 has looked. In\n\neither case, cooperation is only sustained in a Nash Equilibrium if +. > ap+c2(1—p) or\n\nHOUSE_OVERSIGHT_026528",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026528.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2105,
+    "word_count": 355,
+    "line_count": 31,
+    "import_date": "2025-11-19T21:47:44.003358",
+    "prefix": "IMAGES-009"
+  }
+}

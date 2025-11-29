@@ -1,0 +1,33 @@
+_ rT ET nn
+153497 . ; ate . rilae®
+Calls to Destination 3G DAS cingular
+
+12/14/2005
+Run Date: 12/19/05
+Run Time: Lia2259
+ATLYS Voice Usage For (917) 855-3363
+Account Number 0043811863 Bill Cycle: 2
+
+Item Date Time Calling Number Number Called Calls To Mins Rate Charge Description Charge
+
+Used
+
+302 10/05/05 05:25P (740) 802-4061 (917) 855-3363 INCOMING a 0.00 400 ADD'L ANYTME MIN
+
+303 10/05/05 05:28P (212)'535-3030 (917) 855-3363 INCOMING 1 0.00 400 ADD'L ANYTME MIN
+
+304 10/05/05 07:24P (646) 232-3311 (917) 855-3363 INCOMING 15 0.00
+
+305 10/05/05 07:49P (222)'879-9366 (917) 855-3363 INCOMING 3 0.00
+
+306 10/05/05 08:44P (646) 286-7000 (917) 855-3363 INCOMING 4 0.00
+
+* - indicates the first time the calling number appears on the report
+All "Calls to Destination" and "Subscriber Activity" reports are recorded in Local Switch Time.
+This data provided may be in pre-bill format. Due to possible data losses it is not necessarily a complete record of all calls, and is not the
+Same as an invoice received by a subscriber.
+MAT PROPRIETARY AND CONFIDENTIAL Page 16
+Not for use or disclosure outside Cingular Wireless and its Affiliates
+except under written agreement.
+07/26/17 Page 81 of 82 Public Records Request No.: 17-295
+DOJ-OGR-00030799

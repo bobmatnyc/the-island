@@ -1,0 +1,535 @@
+{
+  "metadata": {
+    "batch_name": "november_2025_import",
+    "created_at": "2025-11-25T14:30:00.000000Z",
+    "description": "High-priority news articles from November 2025 covering Epstein Files Transparency Act, House Oversight document releases, Larry Summers resignation, and Ghislaine Maxwell prison controversy",
+    "total_articles": 15,
+    "date_range": {
+      "earliest": "2025-11-10",
+      "latest": "2025-11-24"
+    },
+    "sources_included": [
+      "NPR",
+      "NBC News",
+      "CNN",
+      "ABC News",
+      "Al Jazeera",
+      "PBS NewsHour",
+      "Axios",
+      "CNBC",
+      "CBS News"
+    ]
+  },
+  "articles": [
+    {
+      "id": "nov2025-001",
+      "title": "Trump signs bill requiring the Justice Department to release its files on Jeffrey Epstein",
+      "publication": "NBC News",
+      "author": "NBC News Staff",
+      "published_date": "2025-11-19",
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-epstein-files-congress-comey-saudi-arabia-ukraine-live-updates-rcna244157",
+      "archive_url": null,
+      "content_excerpt": "President Donald Trump signed the Epstein Files Transparency Act into law on November 19, 2025, requiring the Department of Justice to make publicly available all files pertaining to the prosecution of Jeffrey Epstein within 30 days. The House voted 427-1 to pass the act, and the Senate unanimously approved it before sending it to the White House.",
+      "word_count": 850,
+      "entities_mentioned": [
+        "Jeffrey Epstein",
+        "Donald Trump"
+      ],
+      "entity_mention_counts": {
+        "Jeffrey Epstein": 1,
+        "Donald Trump": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.92,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "legislation",
+        "transparency act",
+        "document release",
+        "legal proceedings"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-002",
+      "title": "What's in the Epstein files — and when could they be released? Here's what to know after Trump signs bill",
+      "publication": "NBC News",
+      "author": "NBC News Staff",
+      "published_date": "2025-11-19",
+      "url": "https://www.nbcnews.com/politics/justice-department/what-in-epstein-files-when-release-house-bill-vote-trump-sign-rcna244799",
+      "archive_url": null,
+      "content_excerpt": "Following Trump's signing of the Epstein Files Transparency Act, the Justice Department has 30 days to release documents related to Jeffrey Epstein's prosecution. The legislation requires the DOJ to make the files publicly available in a searchable and downloadable format, marking a significant shift after Trump previously opposed their release.",
+      "word_count": 1200,
+      "entities_mentioned": [
+        "Jeffrey Epstein",
+        "Donald Trump"
+      ],
+      "entity_mention_counts": {
+        "Jeffrey Epstein": 1,
+        "Donald Trump": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.92,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "document release",
+        "transparency",
+        "legal proceedings",
+        "investigation"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-003",
+      "title": "Trump says he signed bill to release Epstein files",
+      "publication": "Al Jazeera",
+      "author": "Al Jazeera Staff",
+      "published_date": "2025-11-20",
+      "url": "https://www.aljazeera.com/news/2025/11/20/trump-says-he-signed-bill-to-release-epstein-files",
+      "archive_url": null,
+      "content_excerpt": "President Donald Trump announced on Truth Social that he signed the Epstein Files Transparency Act into law after months of pressure to disclose the full extent of Jeffrey Epstein's crimes and connections to elites. The move represents a reversal from Trump's previous stance against releasing the files.",
+      "word_count": 750,
+      "entities_mentioned": [
+        "Jeffrey Epstein",
+        "Donald Trump"
+      ],
+      "entity_mention_counts": {
+        "Jeffrey Epstein": 1,
+        "Donald Trump": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.88,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "legislation",
+        "document release",
+        "transparency"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-004",
+      "title": "After Trump signs Epstein files bill, focus shifts to release timeline",
+      "publication": "ABC News",
+      "author": "ABC News Staff",
+      "published_date": "2025-11-19",
+      "url": "https://abcnews.go.com/Politics/after-trump-signs-epstein-files-bill-focus-shifts/story?id=127700652",
+      "archive_url": null,
+      "content_excerpt": "With President Trump signing the Epstein Files Transparency Act, attention now turns to the 30-day deadline for the Justice Department to release the documents. The legislation requires DOJ to make the files public no later than December 19, 2025, in a searchable and downloadable format.",
+      "word_count": 680,
+      "entities_mentioned": [
+        "Jeffrey Epstein",
+        "Donald Trump"
+      ],
+      "entity_mention_counts": {
+        "Jeffrey Epstein": 1,
+        "Donald Trump": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.90,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "document release",
+        "timeline",
+        "legal proceedings"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-005",
+      "title": "House committee releases over 20,000 documents from Epstein estate",
+      "publication": "NPR",
+      "author": "NPR Staff",
+      "published_date": "2025-11-13",
+      "url": "https://www.npr.org/2025/11/13/nx-s1-5607057/house-committee-releases-over-20-000-documents-from-epstein-estate",
+      "archive_url": null,
+      "content_excerpt": "The House Committee on Oversight and Government Reform released an additional 20,000 pages of documents received from Jeffrey Epstein's estate. The Epstein Estate released a total of 23,000 documents that the Oversight Committee is currently reviewing, revealing correspondence with powerful figures after his 2008 conviction.",
+      "word_count": 950,
+      "entities_mentioned": [
+        "Jeffrey Epstein"
+      ],
+      "entity_mention_counts": {
+        "Jeffrey Epstein": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.95,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "document release",
+        "house oversight",
+        "investigation"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-006",
+      "title": "The latest Epstein emails reveal the powerful people who sought his counsel",
+      "publication": "NPR",
+      "author": "NPR Staff",
+      "published_date": "2025-11-20",
+      "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats",
+      "archive_url": null,
+      "content_excerpt": "Newly released emails from the House Oversight Committee show Jeffrey Epstein courted prominent politicos from both sides of the aisle and impressed academics. The documents reveal Epstein used his connections to push back on negative stories about his alleged crimes, with notable correspondence involving Larry Summers showing 'intimate personal chats.'",
+      "word_count": 1100,
+      "entities_mentioned": [
+        "Jeffrey Epstein",
+        "Larry Summers"
+      ],
+      "entity_mention_counts": {
+        "Jeffrey Epstein": 1,
+        "Larry Summers": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.95,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "emails",
+        "document release",
+        "connections",
+        "political"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-007",
+      "title": "Larry Summers going on leave at Harvard, resigns from OpenAI board after Epstein emails",
+      "publication": "NBC News",
+      "author": "NBC News Staff",
+      "published_date": "2025-11-19",
+      "url": "https://www.nbcnews.com/tech/tech-news/larry-summers-resigns-openai-board-jeffrey-epstein-emails-rcna244766",
+      "archive_url": null,
+      "content_excerpt": "Larry Summers announced his resignation from the OpenAI board and is stepping aside from his teaching duties at Harvard University while the school investigates his ties to convicted sex offender Jeffrey Epstein. The resignation follows the House Oversight Committee's release of more than 20,000 documents showing extensive email exchanges between Summers and Epstein.",
+      "word_count": 980,
+      "entities_mentioned": [
+        "Larry Summers",
+        "Jeffrey Epstein"
+      ],
+      "entity_mention_counts": {
+        "Larry Summers": 1,
+        "Jeffrey Epstein": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.92,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "resignation",
+        "openai",
+        "harvard",
+        "consequences"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-008",
+      "title": "Larry Summers leaves OpenAI board, Harvard instructor role as scrutiny over Epstein emails intensifies",
+      "publication": "CNN",
+      "author": "CNN Staff",
+      "published_date": "2025-11-19",
+      "url": "https://edition.cnn.com/2025/11/19/business/larry-summers-openai-board-epstein",
+      "archive_url": null,
+      "content_excerpt": "In addition to resigning from OpenAI's board, Larry Summers stepped down from positions with Bloomberg News, The New York Times, the Brookings Institution's Hamilton Project, the Center for American Progress, the Peterson Institute for International Economics and the Yale Budget Lab. The widespread resignations come amid revelations about his regular communications with Jeffrey Epstein during the last years of Epstein's life.",
+      "word_count": 850,
+      "entities_mentioned": [
+        "Larry Summers",
+        "Jeffrey Epstein"
+      ],
+      "entity_mention_counts": {
+        "Larry Summers": 1,
+        "Jeffrey Epstein": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.90,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "resignation",
+        "openai",
+        "consequences",
+        "connections"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-009",
+      "title": "Larry Summers resigns from OpenAI board amid Epstein revelations",
+      "publication": "Axios",
+      "author": "Axios Staff",
+      "published_date": "2025-11-19",
+      "url": "https://www.axios.com/2025/11/19/epstein-larry-summers-openai",
+      "archive_url": null,
+      "content_excerpt": "Larry Summers resigned from OpenAI's board of directors on November 19, 2025, following new revelations about his ties to Jeffrey Epstein. The move came after emails showed Summers and Epstein communicated regularly, even as the accused sex trafficker's public infamy grew. Summers had joined OpenAI's board in November 2023.",
+      "word_count": 620,
+      "entities_mentioned": [
+        "Larry Summers",
+        "Jeffrey Epstein"
+      ],
+      "entity_mention_counts": {
+        "Larry Summers": 1,
+        "Jeffrey Epstein": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.88,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "resignation",
+        "openai",
+        "technology",
+        "consequences"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-010",
+      "title": "Ghislaine Maxwell gets special treatment in prison, Rep. Jamie Raskin says a whistleblower told him",
+      "publication": "CNN",
+      "author": "CNN Staff",
+      "published_date": "2025-11-10",
+      "url": "https://www.cnn.com/2025/11/10/politics/ghislaine-maxwell-special-treatment-commutation-raskin-whistleblower",
+      "archive_url": null,
+      "content_excerpt": "Rep. Jamie Raskin revealed that a whistleblower informed him that Ghislaine Maxwell is receiving special treatment in federal prison and is in the process of filing a commutation application. The allegations include customized meals, special visiting privileges with computers, and after-hours access to the prison exercise area.",
+      "word_count": 920,
+      "entities_mentioned": [
+        "Ghislaine Maxwell"
+      ],
+      "entity_mention_counts": {
+        "Ghislaine Maxwell": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.90,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "prison conditions",
+        "whistleblower",
+        "special treatment",
+        "investigation"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-011",
+      "title": "Ghislaine Maxwell's prison emails show she is 'happier' at minimum-security Texas facility",
+      "publication": "NBC News",
+      "author": "NBC News Staff",
+      "published_date": "2025-11-14",
+      "url": "https://www.nbcnews.com/news/us-news/ghislaine-maxwell-prison-emails-minimum-security-bryan-texas-rcna242218",
+      "archive_url": null,
+      "content_excerpt": "Emails from Ghislaine Maxwell reveal her contentment at the Federal Prison Camp in Bryan, Texas, where she writes about the cleanliness and safety of the facility. The communications came to light after a prison nurse was fired for sharing Maxwell's emails with members of the House Judiciary Committee, raising questions about special treatment.",
+      "word_count": 830,
+      "entities_mentioned": [
+        "Ghislaine Maxwell"
+      ],
+      "entity_mention_counts": {
+        "Ghislaine Maxwell": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.92,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "prison conditions",
+        "emails",
+        "whistleblower"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-012",
+      "title": "Whistleblower Speaks Out on Ghislaine Maxwell's Special Treatment in Prison",
+      "publication": "Newsweek",
+      "author": "Newsweek Staff",
+      "published_date": "2025-11-18",
+      "url": "https://www.newsweek.com/whistleblower-speaks-out-on-ghislaine-maxwells-special-treatment-in-prison-11069637",
+      "archive_url": null,
+      "content_excerpt": "A nurse named Noella Turnage was fired from the Federal Prison Camp in Bryan, Texas for sharing communications from Ghislaine Maxwell with members of the House Judiciary Committee. The whistleblower allegations detail special privileges including customized meals, service dog access, and unlimited toilet paper, contrasting with treatment of other inmates.",
+      "word_count": 760,
+      "entities_mentioned": [
+        "Ghislaine Maxwell"
+      ],
+      "entity_mention_counts": {
+        "Ghislaine Maxwell": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.85,
+      "credibility_factors": {
+        "tier": "tier_2"
+      },
+      "tags": [
+        "whistleblower",
+        "prison conditions",
+        "special treatment",
+        "controversy"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-013",
+      "title": "DOJ asks judges to authorize release of Epstein and Maxwell grand jury material",
+      "publication": "ABC News",
+      "author": "ABC News Staff",
+      "published_date": "2025-11-24",
+      "url": "https://abcnews.go.com/US/doj-asks-judges-authorize-release-epstein-maxwell-grand/story?id=127836139",
+      "archive_url": null,
+      "content_excerpt": "Facing a 30-day deadline to release the Epstein files, the Department of Justice asked two judges in the Southern District of New York to authorize the release of grand jury transcripts and exhibits from the prosecutions of Jeffrey Epstein and Ghislaine Maxwell. This represents a renewed push after previous requests were denied in August 2025.",
+      "word_count": 880,
+      "entities_mentioned": [
+        "Jeffrey Epstein",
+        "Ghislaine Maxwell"
+      ],
+      "entity_mention_counts": {
+        "Jeffrey Epstein": 1,
+        "Ghislaine Maxwell": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.90,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "grand jury",
+        "legal proceedings",
+        "document release",
+        "investigation"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-014",
+      "title": "DOJ renews request to unseal Jeffrey Epstein grand jury materials",
+      "publication": "PBS NewsHour",
+      "author": "PBS Staff",
+      "published_date": "2025-11-24",
+      "url": "https://www.pbs.org/newshour/nation/doj-renews-request-to-unseal-jeffrey-epstein-grand-jury-materials",
+      "archive_url": null,
+      "content_excerpt": "The Justice Department again asked federal judges to unseal grand jury material from the criminal cases against Jeffrey Epstein and Ghislaine Maxwell, citing the recently enacted Epstein Files Transparency Act. U.S. Attorney Jay Clayton signed the submission requesting an expedited ruling to meet the 30-day deadline imposed by the new law.",
+      "word_count": 720,
+      "entities_mentioned": [
+        "Jeffrey Epstein",
+        "Ghislaine Maxwell"
+      ],
+      "entity_mention_counts": {
+        "Jeffrey Epstein": 1,
+        "Ghislaine Maxwell": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.93,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "grand jury",
+        "legal proceedings",
+        "document release"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    },
+    {
+      "id": "nov2025-015",
+      "title": "Epstein victims expect death threats to rise as US release of files nears",
+      "publication": "Al Jazeera",
+      "author": "Al Jazeera Staff",
+      "published_date": "2025-11-22",
+      "url": "https://www.aljazeera.com/news/2025/11/22/epstein-victims-expect-death-threats-to-rise-as-us-release-of-files-nears",
+      "archive_url": null,
+      "content_excerpt": "Nearly 30 Jeffrey Epstein survivors said they have received death threats amid the ongoing push to release investigation files. In a statement titled 'What we're bracing for,' the survivors demanded accountability and legal support, noting 'Many of us have already received death threats and other threats of harm. We are bracing for these to escalate.' The appeal was signed by 18 named survivors and 10 Jane Does.",
+      "word_count": 790,
+      "entities_mentioned": [
+        "Jeffrey Epstein"
+      ],
+      "entity_mention_counts": {
+        "Jeffrey Epstein": 1
+      },
+      "related_timeline_events": [],
+      "credibility_score": 0.88,
+      "credibility_factors": {
+        "tier": "tier_1"
+      },
+      "tags": [
+        "survivors",
+        "victims",
+        "death threats",
+        "safety concerns"
+      ],
+      "language": "en",
+      "access_type": "public",
+      "scraped_at": "2025-11-25T14:30:00.000000",
+      "last_verified": "2025-11-25T14:30:00.000000",
+      "archive_status": "not_archived"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# Giuffre v. Maxwell Collection - Internet Archive Sources
+
+## Confirmed Collections:
+
+1. Part 1 (July 23, 2020 release)
+   - URL: https://archive.org/details/1_20210130_202101
+   - Identifier: 1_20210130_202101
+   - Pages: 103 pages
+   - Size: 340.4M
+
+2. Part 3 (July 23, 2020 release)
+   - URL: https://archive.org/details/attachment-26_202101
+   - Identifier: attachment-26_202101
+   - Files: 20 PDFs (Main Document + 19 Attachments)
+   - Size: 313.4M
+
+3. Part 5 (January 19, 2021 release)
+   - URL: https://archive.org/details/attachment-1
+   - Identifier: attachment-1
+   - Files: 28 PDFs (Main Document + 27 Attachments)
+   - Size: ~18M total
+
+4. Part 8 (January 19, 2021 release)
+   - URL: https://archive.org/details/main-document
+   - Identifier: main-document
+   - Files: Main Document.pdf (3.5M)
+
+5. Part 9 (January 2021 release)
+   - URL: https://archive.org/details/main-document-2
+   - Identifier: main-document-2
+
+6. 2024 Unsealed Documents (January 3, 2024 release)
+   - URL: https://archive.org/details/final-epstein-documents
+   - Identifier: final-epstein-documents
+   - Pages: 943 pages
+   - Size: 22.8M PDF
+   
+## Missing Parts:
+- Part 2, Part 4, Part 6, Part 7 (need to locate)
+

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_030288",
+  "filename": "IMAGES-010-HOUSE_OVERSIGHT_030288.txt",
+  "text": "21\n\nprominent neuroscientist Elizabeth Phelps suggest that directing our\nthoughts of the future toward the positive is a result of our frontal\ncortex's communicating with subcortical regions deep in our brain.\nThe frontal cortex, a large area behind the forehead, is the most\nrecently evolved part of the brain. It is larger in humans than in other\nprimates and is critical for many complex human functions such as\nlanguage and goal setting.\n\nUsing a functional magnetic resonance imaging ({MRI) scanner, we\nrecorded brain activity in volunteers as they imagined specific events\nthat might occur to them in the future. Some of the events that I asked\nthem to imagine were desirable (a great date or winning a large sum\nof money), and some were undesirable (losing a wallet, ending a\nromantic relationship). The volunteers reported that their images of\nsought-after events were richer and more vivid than those of\nunwanted events.\n\nThis matched the enhanced activity we observed in two critical\nregions of the brain: the amygdala, a small structure deep in the brain\nthat is central to the processing of emotion, and the rostral anterior\ncingulate cortex (rACC), an area of the frontal cortex that modulates\nemotion and motivation. The rACC acts like a traffic conductor,\nenhancing the flow of positive emotions and associations. The more\noptimistic a person was, the higher the activity in these regions was\nwhile imagining positive future events (relative to negative ones) and\nthe stronger the connectivity between the two structures. The findings\nwere particularly fascinating because these precise regions — the\namygdala and the rACC — show abnormal activity in depressed\nindividuals. While healthy people expect the future to be slightly\nbetter than it ends up being, people with severe depression tend to be\npessimistically biased: they expect things to be worse than they end\nup being. People with mild depression are relatively accurate when\npredicting future events. They see the world as it is. In other words,\n\nHOUSE_OVERSIGHT_030288",
+  "metadata": {
+    "original_filename": "IMAGES-010-HOUSE_OVERSIGHT_030288.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2044,
+    "word_count": 326,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:49.383159",
+    "prefix": "IMAGES-010"
+  }
+}

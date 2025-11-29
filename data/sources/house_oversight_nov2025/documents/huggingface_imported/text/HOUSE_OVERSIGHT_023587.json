@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_023587",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_023587.txt",
+  "text": "Chart 24: The V2X Aug17/Sep17/Oct17 futures fly reached 3.7v on 31-\nMay. This is higher than equivalent flies at the same number of days\nbefore both the UK referendum and recently concluded French elections\n\n=== |talian/German election (Aug/Sep/Oct) fly\nItalian referendum (Oct16/Nov16/Dec16) fly\n16 7 UK referendum (May16/Jun16/Jul16) fly\nFrench election (Mar/Apr/May) fly\n\n120 110 100 90 80 70 60 50 40 30 20 10 O\nTrading days to event\nSource: BofA Merrill Lynch Global Research. Data: 8-Jan-16 to 5-Jun-17.\n\nChart 26: The current price of the V2X Aug/Sep/Oct fly would have\noverestimated the value of a 1d/26d/46d fly (i.e., equivalent to the\nAug/Sep/Oct fly 1d before the Aug expiry) 94% of the time since Jun-09\n\nFrench elections (~13 vols) ——\n\nUK referendum (~4 vols) ——»\n\n| 1\nSa TS A |\n\noo BM ON Fk ®\n\n‘09 ‘10 ‘11 12 13 14 15 ‘16\nPrice of 1d / 26d / 46d fly* (equiv. of Aug/Sep/Oct fly 1d before Aug expiry)\n=== Current price of Aug/Sep/Oct fly\n\nSource: BofA Merrill Lynch Global Research. Data: 2-Jun-16 to 1-Jun-17. *Using constant maturity\nfutures.\n\nChart 25: The V2X Sep17-Oct17 spread is actually significantly lower\nthan the equivalent UK referendum and French election spreads,\nsuggesting the majority of excess volatility is being priced in SX5E\nSep/Oct fwd vol\n\n8 == Italian/German election (Sep-Oct) spread\nItalian referendum (Nov16-Dec16) spread\n—— UK referendum (Jun16-Jul16) spread\nFrench election (Apr-May) spread\n\n120 110 100 90 80 70 60 50 40 30 20 10 0\nTrading days to event\n\nSource: BofA Merrill Lynch Global Research. Data: 8-Jan-16 to 5-Jun-17.\n\nThe current price of the V2X Aug/Sep/Oct fly would have\noverestimated the value of a 1d/26d/46d fly (i.e., equivalent\ntenor to the Aug/Sep/Oct fly 1d before the Aug expiry) 94% of\nthe time since Jun-09. This suggests it has ample room to trade\nlower should political uncertainty abate by Aug. However, if\ninstead implied risk becomes more concentrated in the 20-Sep\nto 20-Oct period ahead of the Aug expiry (due to, say, political\ndevelopments in Italy or Germany increasing risk perception),\nthe fly would stand to gain considerably.\n\nBankof America\nMerrill Lynch\n\nGlobal Equity Volatility Insights | 06 June 2017 13\n\nHOUSE_OVERSIGHT_023587",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_023587.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2214,
+    "word_count": 362,
+    "line_count": 64,
+    "import_date": "2025-11-19T21:47:47.134089",
+    "prefix": "IMAGES-007"
+  }
+}

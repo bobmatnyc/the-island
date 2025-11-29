@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00025373.pdf",
+  "ocr_date": "2025-11-16T21:56:35.309832",
+  "text_length": 892,
+  "is_email": true,
+  "email_confidence": 0.7,
+  "email_addresses": [
+    "FORTSRCU@fdle.statefl.us"
+  ]
+}

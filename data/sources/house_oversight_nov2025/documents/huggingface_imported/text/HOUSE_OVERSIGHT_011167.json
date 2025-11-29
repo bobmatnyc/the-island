@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011167",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011167.txt",
+  "text": "13\n\n0.08 - Females\no direct effect on mort.\n\n0.06 + * marg. fert. (y = 1)\nO marg. surv. (y = 0)\n\n0.04 =\n\nN(x, y) (In2)/Try , Ax. ge By.\n0.02 -\n0.00 +\n| T\n\n0 10 20 30 40 50 60 70 80 90 100\n\ny, future age\n\n0.08 - Males\n\nI I I I T !\n0 10 20 30 40 50 60 70 80 90 100\n\ny, future age\n\nFigure 6: Evolutionary Discount Function\nA(x, y) is the average evolutionary discount rate within a five-year age interval. All curves refer to 20-year-\nold investors. “Future age,” y, refers to ages beyond the age at investment. The dotted lines show the rate of\ninterest predicted by equation 10, where the generation time is T'y = 27.98 for females and T,, = 30.45 for\nmales,\nBased on male and female fertility of 19th century Utah Mormons [6], and on the Model West life table\n(mortality level 12, eg = 47.5 for females and 44.5 for males).\n\nHOUSE_OVERSIGHT_011167",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011167.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 847,
+    "word_count": 171,
+    "line_count": 35,
+    "import_date": "2025-11-19T21:47:45.217676",
+    "prefix": "IMAGES-001"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012938",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012938.txt",
+  "text": "22 2 What Is Human-Like General Intelligence?\n\n— Dualcoding theories\n— Mental models\n\ne Language\n\n— Grammar and linguistics\n— Phonetics and phonology\n— Language acquisition\n\ne Thinking\n\n— Choice\n\n— Concept formation\n\n— Judgment and decision making\n\n— Logic, formal and natural reasoning\n— Problem solving\n\n— Planning\n\n— Numerical cognition\n\n— Creativity\n\ne Consciousness\n\n— Attention and Filtering (the ability to focus mental effort on specific stimuli whilst\nexcluding other stimuli from consideration)\n\n— Access consciousness\n\n— Phenomenal consciousness\n\ne Social Intelligence\n\n— Distributed Cognition\n— Empathy\n\nIf there’s nothing surprising to you in the above list, I’m not surprised! If you’ve read a\nbit in the modern cognitive science literature, the list may even seem trivial. But it’s worth\nreflecting that 50 years ago, no such list could have been produced with the same level of broad\nacceptance. And less than 100 years ago, the Western world’s scientific understanding of the\nmind was dominated by Freudian thinking; and not too long after that, by behaviorist thinking,\nwhich argued that theorizing about what went on inside the mind made no sense, and science\nshould focus entirely on analyzing external behavior. The progress of cognitive science hasn't\nmade as many headlines as contemporaneous progress in neuroscience or computing hardware\nand software, but it’s certainly been dramatic. One of the reasons that AGI is more achievable\nnow than in the 1950s and 60s when the AI field began, is that now we understand the structures\nand processes characterizing human thinking a lot better.\n\nIn spite of all the theoretical and empirical progress in the cognitive science field, however,\nthere is still no consensus among experts on how the various aspects of intelligence in the above\n“human intelligence feature list” are achieved and interrelated. In these pages, however, for\nthe purpose of motivating CogPrime, we assume a broad integrative understanding roughly as\nfollows:\n\ne Perception: There is significant evidence that human visual perception occurs using a\nspatiotemporal hierarchy of pattern recognition modules, in which higher-level modules\n\nHOUSE_OVERSIGHT_012938",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012938.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2200,
+    "word_count": 336,
+    "line_count": 64,
+    "import_date": "2025-11-19T21:47:48.069809",
+    "prefix": "IMAGES-002"
+  }
+}

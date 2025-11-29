@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013729",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013729.txt",
+  "text": "research, “random” (if it doesn’t mean measurement error) indicates unknown\n\ndegrees of freedom, this Do> 5 rule is also without relevance for brain research.\n\nD, is called the “information dimension” and is computed by counting the\nnumber of e-cubes, M(g), it takes to cover the points constituting some fixed fraction\nof all of the points of the set of orbital points on the attractor and can be regarded as\nthe “core dimension” (without the outliers) of the set. The counterintuitive finding is\nthat D, is nearly constant across a range of fixed fractions that are less than the\n\nwhole measure (Farmer et al, 1983). The invariance of D; can even be taken to the\n\nextreme by computing the D, = lim in (4)\n\naround (typical, not all) single points. In\n\nthis context, D; is called the “pointwise dimension” or “singularity exponent” and, as\n\nmight be anticipated, its value is usually less than that of Do.\n\nThe scaling exponent that is both sensitive to point densities and easiest to\ncompute from real data is the “correlation dimension,” D2 Here, analogous to the\nrelationship between the amplitudes of the variance and the correlation function in\n\nconventional statistics, the measure squared is of interest for the computation of Dz,\n\nM(e)\ne.g. /(2,¢€)= SLAC, )F (see below for this use of measure u on sum = of cubes C)).\ni=l\n\nThe selection of Dz as the fractal measure dominates the studies that invoke scaling\nexponents to quantify the distributions of points on the attractor as reconstructed\nfrom time series in the neurosciences (Grassberger and Procaccia, 1983; Mayer-\nKress, 1986; Ott et al, 1994). Several sets of programs are available for its\ncomputation (for example, Sprott and Rowlands, 1991). Generally, a correlation\nsum (“integral’, R(e) ) is computed from a starting point by counting all subsequent\npoint pairs with distances between them less than ¢ as e—>0 and plotting\n__ lim In(R(e)\né€—>0 Ine)\n\n, . D2 is computed for increasing embedding (and therefore\n\nhypercube) dimension, d, until Dz achieves an asymptotic plateau, it “saturates”\n(Ding et al, 1993).\nIt is generally the case that Do > D;> Dz (Farmer et al, 1983).\n\n229\n\nHOUSE_OVERSIGHT_013729",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013729.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2175,
+    "word_count": 360,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:46.766052",
+    "prefix": "IMAGES-002"
+  }
+}

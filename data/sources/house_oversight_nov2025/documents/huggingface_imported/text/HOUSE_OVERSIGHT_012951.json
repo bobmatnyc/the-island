@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012951",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012951.txt",
+  "text": "Chapter 3\nA Patternist Philosophy of Mind\n\n3.1 Introduction\n\nIn the last chapter we discussed human intelligence from a fairly down-to-earth perspective,\nlooking at the particular intelligent functions that human beings carry out in their everyday\nlives. And we strongly feel this practical perspective is important: Without this concreteness, it’s\ntoo easy for AGI research to get distracted by appealing (or frightening) abstractions of various\nsorts. However, it’s also important to look at the nature of mind and intelligence from a more\ngeneral and conceptual perspective, to avoid falling into an approach that follows the particulars\nof human capability but ignores the deeper structures and dynamics of mind that ultimately\nallow human minds to be so capable. In this chapter we very briefly review some ideas from the\npatternist philosophy of mind, a general conceptual framework on intelligence which has\nbeen inspirational for many key aspects of the CogPrime design, and which has been ongoingly\ndeveloped by one of the authors (Ben Goertzel) during the last two decades (in a series of\npublications beginning in 1991, most recently The Hidden Pattern |[Goe06al). Some of the ideas\ndescribed are quite broad and conceptual, and are related to CogPrime only via serving as\ngeneral inspirations; others are more concrete and technical, and are actually utilized within\nthe design itself.\n\nCogPrime is an integrative design formed via the combination of a number of different\nphilosophical, scientific and engineering ideas. The success or failure of the design doesn’t depend\non any particular philosophical understanding of intelligence. In that sense, the more abstract\nnotions presented in this chapter should be considered “optional” rather than critical in a\nCogPrime context. However, due to the core role patternism has played in the development of\nCogPrime, understanding a few things about general patternist philosophy will be helpful for\nunderstanding CogPrime, even for those readers who are not philosophically inclined. Those\nreaders who are philosophically inclined, on the other hand, are urged to read The Hidden\nPattern and then interpret the particulars of CogPrime in this light.\n\n3.2 Some Patternist Principles\n\nThe patternist philosophy of mind is a general approach to thinking about intelligent systems.\nIt is based on the very simple premise that mind is made of pattern — and that a mind is a\n\n35\n\nHOUSE_OVERSIGHT_012951",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012951.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2456,
+    "word_count": 379,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:45.642482",
+    "prefix": "IMAGES-002"
+  }
+}

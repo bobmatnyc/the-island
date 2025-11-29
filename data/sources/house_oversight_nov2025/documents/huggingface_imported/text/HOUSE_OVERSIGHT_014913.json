@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014913",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014913.txt",
+  "text": "Table 17: Match estimate summary\n\n1017 2017 2017 2018\nRevenue\nBofA ML est. $293 $315 $1,285 $1,484\nGrowth Y/Y% 20% 20% 16% 15%\nStreet $308 $322 $1,325 $1,484\nBofA ML vs Street Below Below Below Above\nEBITDA\nBofA ML est. $79 $112 $462 $562\nStreet $77 $113 $459 $544\nBofA ML vs Street Above Below Above Above\nEPS\nBofA ML est. $0.14 $0.23 $0.95 $1.14\nStreet $0.13 $0.21 $0.88 $1.07\nBofA ML vs Street In-Line In-Line Above Above\nStreet EBITDA margins 25% 35% 35% 37%\n\nSource: BofA Merrill Lynch Global Research estimates, Bloomberg, as of 4/4/2017\n\nBankofAmerica <2 ; ;\nMerrill Lynch Internet/e-Commerce | 06 April2017 27\n\nHOUSE_OVERSIGHT_014913",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014913.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 641,
+    "word_count": 108,
+    "line_count": 24,
+    "import_date": "2025-11-19T21:47:48.895642",
+    "prefix": "IMAGES-003"
+  }
+}

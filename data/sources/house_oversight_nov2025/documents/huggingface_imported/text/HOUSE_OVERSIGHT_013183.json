@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013183",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013183.txt",
+  "text": "13.6 Glocal Memory 267\n\n=e\n3\n\"s “i\noe. |\nfo\n\" et\n\"eel | i ia\n\nFig. 138.2: Calvin’s Model of Distributed Attractors in the Brain\n\nhypotheses interesting and highly promising, yet feel it is also important to separate out the\nnotion of glocal memory for separate consideration.\n\nRegarding specifics, our suggestion is that Calvin’s approach may overemphasize the dis-\ntributed aspect of memory, not giving sufficient due to the relatively localized aspect as ac-\ncounted for in the [QKIKF08] results discussed above. In Calvin’s glocal approach, global mem-\nories are attractors and local memories are parts of attractors. We suggest a possible alternative,\nin which global memories are attractors and local memories are particular neuronal subnetworks\nsuch as the specialized ones identified by [QIXIKF 08]. However, this alternative does not seem\ncontradictory to Calvin’s overall conceptual approach, even though it is different from the par-\nticular proposals made in [Cal96].\n\nThe above paragraphs are far from a complete survey of the relevant neuroscience literature;\nthere are literally dozens of studies one could survey pointing toward the glocality of various\nsorts of human memory. Yet experimental neuroscience tools are still relatively primitive, and\nevery one of these studies could be interpreted in various other ways. In the next couple decades,\nas neuroscience tools improve in accuracy, our understanding of the role of glocality in human\nmemory will doubtless improve tremendously.\n\nHOUSE_OVERSIGHT_013183",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013183.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1525,
+    "word_count": 232,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:45.139700",
+    "prefix": "IMAGES-002"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_012978",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_012978.txt",
+  "text": "62 4 Brief Survey of Cognitive Architectures\n\n_{ Interior VLPFC\n{\n[\n\nFusiform gyrus\n\nae a,\n| FTTH\n\nVisual\n\nFig. 4.3: Conjectured Mapping Between ACT-R and the Brain\n\npsychological data. Opinions differ as to whether this sort of modeling is valuable for achieving\nAGI goals. CogPrime is not designed to support this kind of modeling, as it intentionally does\nmany things very differently from humans.\n\nACT-R in its original form did not say much about perceptual and motor operations, but\nrecent versions have incorporated EPIC, an independent cognitive architecture focused on mod-\neling these aspects of human behavior.\n\n4.2.3 Cyc and Texai\n\nOur review of cognitive architectures would be incomplete without mentioning Cye [LG90],\none of the best known and best funded AGIL-oriented projects in history. While the main focus\nof the Cyc project has been on the hand-coding of large amounts of declarative knowledge,\nthere is also a cognitive architecture of sorts there. The center of Cyc is an engine for logical\ndeduction, acting on knowledge represented in predicate logic. A natural language engine has\nbeen associated with the logic engine, which enables one to ask English questions and get\nEnglish replies.\n\nStephen Reed, while an engineer at Cycorp, designed a perceptual-motor front end for Cyc\nbased on James Albus’ Reference Model Architecture; the ensuing system, called Cognitive-\nCyc, would have been the first full-fledged cognitive architecture based on Cyc, but was not\nimplemented. Reed left Cycorp and is now building a system called Texai, which has many\nsimilarities to Cyc (and relies upon the OpenCyc knowledge base, a subset of Cyc’s overall\nknowledge base), but incorporates a CognitiveCyc style cognitive architecture.\n\nHOUSE_OVERSIGHT_012978",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_012978.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1769,
+    "word_count": 274,
+    "line_count": 41,
+    "import_date": "2025-11-19T21:47:45.698253",
+    "prefix": "IMAGES-002"
+  }
+}

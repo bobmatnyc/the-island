@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013686",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013686.txt",
+  "text": "APPENDIX\nAN INTUITIVE GUIDE TO THE IDEAS AND METHODS OF DYNAMICAL\nSYSTEMS FOR THE LIFE SCIENCES\nArnold J. Mandell and Karen A. Selz\n\nBiological Scientists Can Understand and Use Ideas and Methods of\nNonlinear Science\n\nA yield of advances in computer hardware and software is that even quite\ndifficult applied nonlinear mathematics can become accessible to experimentally\noriented biological scientists. Before this time, the development and analysis of a\nparticular set of nonlinear differential equations, describing the actions of a\nneurobiological system in motion, involved decades of specialty training, rare insight\nand many hours of highly skilled, trial and error computations by hand. Since the\nidiosyncrasies of each nonlinear system were considered unique, the results of their\nanalyses were thought to concern only the particular nonlinear system being\nstudied. Often a shift in hypothetical mechanism meant starting the long and painful\nprocess all over again. In addition, these findings were usually communicated only\nto a small and arcane mathematical community in the form of dense theorems and\ndifficult to follow proofs, insurmountable language barriers to biological researchers\nwishing to use them to better describe and understand their experimental\nobservations.\n\nFor today’s neuroscientist with a desktop computer, an inclination to program\nand access to computer algebra and numerical software such as Maple,\nMathematica or MatLab, operational definitions and computational empiricism can\nreplace the theorem and proof continuity required to do old style applied\nmathematics. For those of us without sufficient facility in algebraic manipulation to\neasily follow the arguments of professional mathematicians, a computer algebra\nprogram such as Maple serves as a delightfully accessible consultant with which to\n“check out what the guy is saying\". Those motivated enough to write their own data\n\ngenerating or analytic programs in C, Fortran, Pascal or Basic (though not\n\n186\n\nHOUSE_OVERSIGHT_013686",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013686.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2023,
+    "word_count": 296,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:46.388699",
+    "prefix": "IMAGES-002"
+  }
+}

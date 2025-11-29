@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015876",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015876.txt",
+  "text": "186 Are the Androids Dreaming Yet?\n\n“Ah, no,” says the tour guide. “The first bus you accommodated\nhad a man in the first seat but this has a woman. The second bus had\na woman in the second seat but this one has a man and so on. This\nbus has a different gender in at least one seat to every bus you so far\naccommodated. It is a new bus.”\n\nThe manager finds room for the passengers from the new bus but\nthe tour guide comes back a moment later.\n\n“You have missed another bus. This one has a different gender\nin at least one seat to every previous bus, including the one you just\naccommodated. It looks like there are an infinite number of buses you\nmissed, all lined up to get into the infinite hotel.”\n\nWhat is it about these buses that make them so difficult to\naccommodate? They are all just filled with people after all.\n\nThe manager is defeated by the more complex information held in\nthe contents of the buses. An infinitely large bus full of binary information\nhas more information in it than an infinitely large bus specified only by its\nsize. This is a larger infinity than the counting infinity. The permutation\nof all the possible options for the occupants of the bus is larger than\ninfinity.\n\nReal Numbers\n\nWhat about the real world we live in? Is the larger infinity we failed to\nfit into Hilbert’s Hotel present, or was it just a mathematical fiction?\nHold up your thumb and index finger for a moment. The gap between\nthem is a distance. Most likely this is a whole number with an infinite\ndecimal digits after it — say 2.2320394386.... centimeters. The infinite set\nof decimal digits in this measurement is the larger type of infinity: called\nthe continuum. Distances in space form a continuous unbroken line of\npoints, with no gaps in between. The counting numbers, on the other\nhand, form a broken line. We take discrete steps from one number to the\nnext. This is a hard distinction to grasp but it is the same distinction we\nused in Hilbert’s Hotel. Imagine you believe you have a list of all the real\nnumbers in the world. You can take the first decimal digit from the first\nnumber and add one, the second digit from the second number add one\nand so on generating new numbers not on the original list. Therefore,\nyou cannot have a list all the real numbers; they are not countable. Let’s\ntake a closer look at these real numbers.\n\nHere’s a quick test. Which is the larger number, the first or the second?\n\nHOUSE_OVERSIGHT_015876",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015876.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2446,
+    "word_count": 448,
+    "line_count": 48,
+    "import_date": "2025-11-19T21:47:45.297549",
+    "prefix": "IMAGES-003"
+  }
+}

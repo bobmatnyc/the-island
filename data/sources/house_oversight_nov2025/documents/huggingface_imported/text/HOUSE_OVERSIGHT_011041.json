@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011041",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011041.txt",
+  "text": "as the sum of growth and cash flow, and specifically negative unrealized output.\n\nThen\n\ndeadweight loss = unrecovered decapitalization\n= negative output\n= negative unrealized output\n= max (0, - output)\n\n= max (0, - unrealized output). (6.10)\n\nAlso\npositive unrealized output = max (0, proprietary output), (6.11)\n\nand\noutput = unrealized output + realized output. (6.12)\n\nThe Growth Truism\n\nIn general,\ngrowth = capitalization from outside + capitalization from inside\n- decapitalization. (6.13)\nHere\n\ncapitalization from outside = negative cash flow = transfer in, and\ncapitalization from inside = positive unrealized output + plowback.\n\nAlso\ndecapitalization = recovered decapitalization + unrecovered decapitalization\n= recovered decapitalization + deadweight loss.\nThen\n\ngrowth = transfer in + positive unrealized output + plowback\n— recovered decapitalization - deadweight loss, (6.14)\n\nor more simply\n\nChapter 6: Parallels with the Firm 2/4/16 7\n\nHOUSE_OVERSIGHT_011041",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011041.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 975,
+    "word_count": 139,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:49.268678",
+    "prefix": "IMAGES-001"
+  }
+}

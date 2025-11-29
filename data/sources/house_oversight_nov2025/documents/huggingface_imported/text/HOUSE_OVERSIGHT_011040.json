@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011040",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011040.txt",
+  "text": "The terms gross cash flow, earned revenue and gross realized output will be used\n\ninterchangeably. “Realized” and “recovered” will likewise be synonymous, as will be\n\ntt\n\n“proprietary”, “unrealized” and self-invested”.\n\n(A6.1) allows\n\nrealized output = cash flow + plowback + transfer in\n- recovered decapitalizaiton. (6.1a)\n\nDefine\n\nunrealized output = output - realized output\n= growth + cash flow - realized output\n= growth - plowback - transfer in\n+ recovered decapitalization, (6.9)\n\nby (6.1a) and the total return truism.\n\nProprietary Output and Deadweight Loss\n\nUnrealized or proprietary or self-invested output of the firm is creation of value not\nyet sold or not meant to be sold. This can be something as workaday and\nperfunctory and automatic as output to inventory. Other illustrations could be\nwhere a construction firm builds its own offices, or a car manufacturer makes cars\nfor its executive fleet. (6.9) shows that it includes all growth not explained by\nplowback plus transfer in less recovered decapitalization. This implicitly includes all\nfree growth. Judging from my charts and tables, free growth seems to mean all of\n\ngrowth at the collective scale. What effect might it have on the firm?\n\nFree growth includes random windfall gain and deadweight loss as well as the\noverall upward trend expressing new ideas. Deadweight loss is unrecovered\n\ndecapitalization, meaning not recovered in cash flow, That makes it negative output\n\nChapter 6: Parallels with the Firm 2/4/16 6\n\nHOUSE_OVERSIGHT_011040",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011040.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1518,
+    "word_count": 236,
+    "line_count": 42,
+    "import_date": "2025-11-19T21:47:49.215317",
+    "prefix": "IMAGES-001"
+  }
+}

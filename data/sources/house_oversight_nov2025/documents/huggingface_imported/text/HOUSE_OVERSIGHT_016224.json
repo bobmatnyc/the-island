@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016224",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016224.txt",
+  "text": "Stuart Russell is a professor of computer science and Smith-Zadeh Professor in\nEngineering at UC Berkeley. He is the coauthor (with Peter Norvig) of Artificial\nIntelligence: A Modern Approach.\n\nJaan Tallin, a computer programmer, theoretical physicist, and investor, 1s a co-\ndeveloper of Skype and Kazaa.\n\nMax Tegmark is an MIT physicist and AI researcher; president of the Future of Life\nInstitute; scientific director of the Foundational Questions Institute; and the author of Our\nMathematical Universe and Life 3.0: Being Human in the Age of Artificial Intelligence.\n\nFrank Wilczek is Herman Feshbach Professor of Physics at MIT, recipient of the 2004\nNobel Prize in physics, and the author of A Beautiful Question: Finding Nature’s Deep\nDesign.\n\nStephen Wolfram 1s a scientist, inventor, and the founder and CEO of Wolfram\nResearch. He is the creator of the symbolic computation program Mathematica and its\nprogramming language, Wolfram Language, as well as the knowledge engine\nWolfram|Alpha. He is also the author of A New Kind of Science.\n\nHOUSE_OVERSIGHT_016224",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016224.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1070,
+    "word_count": 165,
+    "line_count": 21,
+    "import_date": "2025-11-19T21:47:46.756701",
+    "prefix": "IMAGES-003"
+  }
+}

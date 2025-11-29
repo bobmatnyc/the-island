@@ -1,0 +1,68 @@
+age 604
+Page 2
+Log Assignment
+Date/Time User Action Alias Post Shiftdate Watch Type Mndtry
+07/23/19 11:21 [EN) 7)| OT Assigned BNE). (ONC) SHU PROPERTY 07/23/19 E/W List Exempt O
+07/23/19 11:06 OT Assigned 5 NORTH 07/28/19 M/W _ Signup List i
+07/23/19 10:40 Quarterly Shift Preference N/A N/A N/A 0
+07/23/19 10:39 Quarterly Shift Preference N/A N/A N/A i
+07/23/19 10:32 OT Removed - Mgmt Cancelle 10 SOUTH #2 07/24/19 P/M List Exempt ti
+07/23/19 10:32 OT Removed - Mgmt Cancelle SHU #4 07/23/19 EW _ Signup List Oo
+07/23/19 10:30 OT Assigned 3 SALLY OFF 07/2519 OW _ Signup List ae
+07/23/19 10:29 OT By-passed 3 SALLY OFF 07/25/19 DW _ Signup List Ey
+07/23/19 10:29 OT By-passed 3 SALLY OFF 07/25/19 DW _ Signup List en
+07/23/19 10:29 OT By-passed 3 SALLY OFF 07/25/19 DW _ Signup List i
+07/23/19 10:29 OT By-passed 3 SALLY OFF 07/25/19 DW _ Signup List i
+07/23/49 10:29 OT By-passed 3 SALLY OFF 07/25/19 DW _ Signup List ii
+07/23/19 10:04 Quarterly Shift Preference N/A N/A NIA fu
+07/23/19 10:01 OT Assigned SHU #4 07/25/19 EW List Exempt fii
+07/23/19 9:58 OT Assigned SIS LT #2 07/23/19 DW List Exempt Cl
+07/23/19 9:58 OT Assigned LOBBY #2 07/23/19 P/M List Exempt fia]
+07/23/19 9:52 OT Assigned 11 NORTH 07/2319 DW List Exempt fy
+07/23/19 9:43 OT Assigned OSP #1 o7/27/19 EW _ Signup List ia
+07/23/19 9:40 Signed Up for OT N/A o7/27/19 NIA N/A E]
+07/23/19 9:37 Quarterly Shift Preference NIA NIA N/A cE
+07/23/19 9:32 Quarterly Shift Preference N/A N/A NIA Fy
+07/23/19 9:31 OT Assigned SHU #1 07/26/19 DW _ Signup List oO
+07/23/19 9:31 OT By-passed SHU #1 07/26/19 DW _ Signup List (J
+07/23/19 9:30 OT By-passed SHU #1 07/26/19 DW _ Signup List ")
+07/23/19 9:30 OT By-passed SHU #1 07/26/19 D/W _ Signup List am
+07/23/19 9:27 OT Assigned 5 SOUTH 07/27/19 EW List Exempt O
+07/23/19 9:26 OT Assigned 9 NORTH 07/28/19 MMW _ Signup List ny
+07/23/19 9:26 OT By-passed 9 NORTH 07/28/19 MMW __ Signup List TC
+07/23/19 9:26 OT By-passed 9 NORTH 07/28/19 M/W _ Signup List Wa
+07/23/19 9:23 Deleted OT Sign Up - Day N/A 07/24/19 N/A N/A ful
+07/23/19 9:23 Signed Up for OT N/A 07/24/19 N/A WIA (i
+07/23/19 9:23 Deleted OT Sign Up - Watch N/A 07/25/19 EW N/A i
+07/23/19 9:18 OT Assigned SHU #4 07/24/19 DW _ Signup List itll
+07/23/19 9:18 OT By-passed SHU #4 07/24/19 DW _ Signup List fi
+07/23/19 9:18 OT By-passed SHU #4 07/24/19 DW _ Signup List i |
+07/23/19 9:18 OT By-passed SHU #4 07/2449 DM _ Signup List 0
+07/23/19 9:18 OT By-passed SHU #4 07/2419 OM _ Signup List ia
+07/23/19 9:18 OT By-passed SHU #4 07/24/19 DW _ Signup List a
+07/23/19 9:18 OT By-passed SHU #4 07/2419 DW _ Signup List ea |
+07/23/19 9:18 OT By-passed SHU #4 07/24/19 DAW _ Signup List )
+07/23/19 9:18 OT By-passed SHU #4 07/24/19 DW _ Signup List a
+07/23/19 9:09 OT Assigned SHU #3 07/24/19 AJM _ Signup List Oo
+07/23/19 9:09 OT By-passed SHU #3 07/24/19 AMM Signup List 0)
+07/23/19 9:09 OT By-passed SHU #3 07/24/19 AIM _ Signup List |
+07/23/19 9:09 OT By-passed SHU #3 07/24/19 AM Signup List Oo
+07/23/19 9:08 OT By-passed SHU #3 07/24/19 A/M Signup List bl |
+07/23/19 9:08 OT By-passed SHU #3 07/24/19 AMM Signup List i |
+| 07/23/19 9:08 OT By-passed SHU #3 07/24/19 AIM _ Signup List Ci
+07/23/19 9:07 OT Assigned SHU #4 07/23/19 EW _ Signup List "7
+| 07/23/19 9:07 OT By-passed SHU #4 07/23/19 EW _ Signup List my
+07/23/19 9:07 OT By-passed SHU #4 07/23/19 E/W _ Signup List tC)
+07/23/19 9:07 OT By-passed SHU #4 07/23/19 EW _ Signup List it
+07/23/19 9:06 OT By-passed SHU #4 07/23/19 EW _ Signup List oO
+07/23/19 9:06 OT By-passed SHU #4 07/23/19 EW _ Signup List Bid
+07/23/19 9:06 OT By-passed SHU #4 07/23/19 EW _ Signup List oO
+07/23/19 9:06 OT By-passed SHU #4 07/23/19 EW _ Signup List Ea
+07/23/19 8:34 OT Assigned INTERNAL 07/27/19 DAW List Exempt cy
+07/23/19 8:28 OT Assigned ATTY CONF 07/23/19 EW _ Signup List |
+07/23/19 8:28 OT By-passed ATTY CONF 07/23/19 EW _ Signup List 0
+07/23/19 8:28 OT By-passed ATTY CONF 07/23/19 EW _ Signup List Aa
+07/23/19 8:28 OT By-passed ATTY CONF 07/23/19 EW _ Signup List Ea
+07/23/19 8:28 OT By-passed ATTY CONF 07/23/19 EW _ Signup List CT
+5/19/2020 10:36:42 AM
+DOJ-OGR-00025057

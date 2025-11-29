@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025560",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025560.txt",
+  "text": "Morgan Stanley | RESEARCH\n\nExhibit 10:\n\nWe see more favorable risk-reward skew at APO given greater concen-\ntration of fee related earnings vs. performance fees\n\nEstimated Change to Curent Share Price\n\n30%\nPCE 26% Downside m Upside\n10% 14% 15%\n\"21% 20% “8%\n\n-20% -27%\n-30%\n-40%\n\nAPO OAK KKR BX ARES CG Avg.\n\nSource: Company Data, Morgan Stanley Research estimates\n\nARES Conversion Largely Priced In\n\nWith the recent run up of ARES stock price, the market seems to\nhave already priced in a good portion of the upside from conver-\nsion. Year to date, ARES has out performed peers by ~10% likely on\nthe back of this expected conversion. As a result we have looked at\nthe share price of ARES at several time periods to assess what is\n\nembedded in the price already.\n\nWe see the market valuing ARES@FRE at 18.3x, with about 3.4x turns\nof multiple expansion YTD and pricing in a large degree of the poten-\ntial benefit from C-corp conversion. This is just under half of the total\n7.5x turns of FRE multiple expansion that we expect to see in our\nupside scenario for the Alts. As a result, our upside/downside from\nfor ARES has a less favorable risk reward skew, as much of the upside\n\nis already baked in.\n\nNORTH AMERICA INSIGHT ~~\n\nHow do we arrive as such an estimate? We start with the 12/31/2017\nshare price of $20.00. We then gross up this starting point for the\nbroader performance of peers to isolate just the outperformance of\nARES vs the group. The alts group ex ARES YTD is up +10% so we use\na starting price for ARES of $21.90.\n\ne We first estimate the implied multiple on future carry for\nARES at the pro forma stock price before C-corp conversoin\nbegan to be priced in. (we explain this in process in greater\ndetail in the section on Deconstructing Ourlmplied Carry Val-\nuation).\n\n@ We then take the current share price today and assume that\nthe run up in price was a result purely from multiple expan-\nsion on fee related earnings. In doing this we hold the per-\nformance fee multiple and value of future performance fees\nconstant.\n\ne@ We then back into an implied value of FRE using the various\ncomponents of the SOTP and the current share price. We\ndivide that value by our 2018e FRE to determine our estimate\nfor baked in multiple expansion at ARES. (Please see Ares\n\nManagement SOTP and Sensitivity Analysis for more\ndetails.)\n\nHOUSE_OVERSIGHT_025560",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025560.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2362,
+    "word_count": 420,
+    "line_count": 70,
+    "import_date": "2025-11-19T21:47:47.009804",
+    "prefix": "IMAGES-008"
+  }
+}

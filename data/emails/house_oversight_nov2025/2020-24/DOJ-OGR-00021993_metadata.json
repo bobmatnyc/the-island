@@ -1,0 +1,15 @@
+{
+  "document_id": "DOJ-OGR-00021993",
+  "email_index": 81,
+  "extracted_at": "2025-11-17T04:14:45.461000",
+  "from_address": null,
+  "to_address": "The clerk of court and all parties of record I am admitted or otherwise authorized to practice in this court, and I appear in this case as counsel for: the United States .",
+  "cc_address": null,
+  "subject": null,
+  "date": "01/24/2020 Is/",
+  "body": "Attorney\u2019s signature\nJessica Lonergan\nPrinted name and bar number\nU.S. Attorney's Office, SDNY\nOne St. Andrew's Plaza\nNew York, New York 10007\nAddress\njessica.lonergan@usdoj.gov\nE-mail address\n(212) 637-1038\nTelephone number\n(212) 637-2615\nFAX number",
+  "confidence": 0.7,
+  "email_addresses": [
+    "jessica.lonergan@usdoj.gov"
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "description": "Entity enrichment data structure with full source provenance tracking",
+  "entity_template": {
+    "entity_id": "unique_identifier",
+    "name": "Primary name as it appears in archive",
+    "name_variations": [
+      "Alternative spellings",
+      "Nicknames",
+      "Maiden names",
+      "Full legal names"
+    ],
+    "biographical_data": {
+      "full_legal_name": {
+        "value": "Full legal name",
+        "confidence": "high|medium|low",
+        "sources": [
+          {
+            "type": "court_document|journalism|public_record|biographical_database",
+            "citation": "Exact citation with date and URL/location",
+            "date_accessed": "YYYY-MM-DD",
+            "reliability_tier": 1,
+            "quote": "Direct quote if applicable"
+          }
+        ]
+      },
+      "birth_date": {
+        "value": "YYYY-MM-DD or YYYY-MM or YYYY",
+        "precision": "exact|approximate|estimated",
+        "confidence": "high|medium|low",
+        "sources": []
+      },
+      "birth_place": {
+        "value": "City, Country",
+        "sources": []
+      },
+      "nationality": {
+        "value": "Country or countries",
+        "sources": []
+      },
+      "occupation": {
+        "primary": "Main occupation",
+        "historical": ["Previous occupations"],
+        "sources": []
+      },
+      "education": {
+        "institutions": [
+          {
+            "name": "Institution name",
+            "degree": "Degree obtained",
+            "year": "YYYY",
+            "sources": []
+          }
+        ]
+      },
+      "known_residences": [
+        {
+          "location": "City, Country",
+          "period": "YYYY-YYYY or current",
+          "sources": []
+        }
+      ]
+    },
+    "epstein_relationship": {
+      "relationship_summary": "Brief description of connection",
+      "relationship_type": "business|social|employment|family|legal|unknown",
+      "first_documented_connection": {
+        "date": "YYYY-MM-DD or approximate",
+        "description": "How connection was established",
+        "sources": []
+      },
+      "documented_interactions": [
+        {
+          "date": "YYYY-MM-DD or YYYY",
+          "type": "flight|meeting|business_transaction|social_event|phone_contact|other",
+          "description": "Description of interaction",
+          "location": "Where it occurred if known",
+          "sources": [
+            {
+              "type": "flight_logs|court_document|testimony|journalism|phone_records",
+              "citation": "Full citation",
+              "date_accessed": "YYYY-MM-DD",
+              "reliability_tier": 1,
+              "document_reference": "Path to document in archive if available"
+            }
+          ]
+        }
+      ],
+      "public_statements": [
+        {
+          "date": "YYYY-MM-DD",
+          "statement_type": "denial|acknowledgment|explanation|no_comment",
+          "statement_text": "Direct quote",
+          "context": "What prompted the statement",
+          "sources": []
+        }
+      ],
+      "legal_involvement": [
+        {
+          "role": "witness|victim|defendant|mentioned_in_testimony",
+          "case_name": "Legal case name",
+          "case_number": "Court case number",
+          "jurisdiction": "Court jurisdiction",
+          "date": "YYYY-MM-DD",
+          "description": "Nature of involvement",
+          "sources": []
+        }
+      ]
+    },
+    "network_relationships": {
+      "relationships_to_other_entities": [
+        {
+          "entity_name": "Name of other entity",
+          "relationship_type": "business_partner|family|employee|friend|associate",
+          "relationship_description": "Description",
+          "co_occurrences": {
+            "flights": 0,
+            "black_book": false,
+            "other_documents": []
+          },
+          "sources": []
+        }
+      ]
+    },
+    "archive_metadata": {
+      "appears_in_sources": ["black_book", "flight_logs", "court_documents"],
+      "total_flights": 0,
+      "flight_date_range": "YYYY-MM-DD to YYYY-MM-DD",
+      "black_book_page": "Page number",
+      "contact_information_in_archive": {
+        "phone_numbers": [],
+        "addresses": [],
+        "email_addresses": []
+      },
+      "mentions_in_documents": [
+        {
+          "document_path": "Path to document in archive",
+          "document_type": "email|court_filing|etc",
+          "page_numbers": [],
+          "context": "Brief context of mention"
+        }
+      ]
+    },
+    "research_metadata": {
+      "research_date": "YYYY-MM-DD",
+      "researcher": "Name or system",
+      "research_completeness": "comprehensive|partial|minimal",
+      "verification_status": "verified|unverified|conflicting",
+      "notes": "Any important research notes",
+      "requires_human_review": false,
+      "review_reasons": []
+    }
+  },
+  "source_reliability_tiers": {
+    "tier_1": {
+      "description": "Court documents - highest reliability",
+      "examples": ["Depositions", "Trial testimony", "Court exhibits", "Judicial orders"]
+    },
+    "tier_2": {
+      "description": "Investigative journalism - high reliability",
+      "examples": ["Miami Herald", "New York Times", "Wall Street Journal", "ProPublica"]
+    },
+    "tier_3": {
+      "description": "Public records - verified",
+      "examples": ["Flight manifests", "Property records", "SEC filings", "Corporate registrations"]
+    },
+    "tier_4": {
+      "description": "Biographical databases - general",
+      "examples": ["Wikipedia", "Forbes", "IMDb", "LinkedIn"]
+    },
+    "tier_5": {
+      "description": "Secondary sources - requires verification",
+      "examples": ["News aggregators", "Blogs", "Social media"]
+    }
+  },
+  "ethical_guidelines": {
+    "include": [
+      "Publicly reported information",
+      "Court-documented facts",
+      "Verified journalism from reputable sources",
+      "Public statements by entities themselves",
+      "Public records accessible to anyone"
+    ],
+    "exclude": [
+      "Unverified allegations",
+      "Social media rumors",
+      "Tabloid speculation without verification",
+      "Information about minors (unless adults who publicly identified)",
+      "Private information not in public record"
+    ]
+  },
+  "verification_requirements": {
+    "biographical_facts": "Minimum 2 independent sources",
+    "epstein_connections": "Prefer court documents or flight logs",
+    "all_sources_must": "Be dated and accessible",
+    "unverified_information": "Must be clearly flagged"
+  }
+}

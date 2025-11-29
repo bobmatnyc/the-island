@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011002",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011002.txt",
+  "text": "That still leaves the mystery only half solved. How exogenous (sourced from\noutside) are the genius and happenstance? Can we coax them along by policy? That\nisn’t really my field. What seems reasonably clear is that growth flourishes in\nsecular free markets with solid infrastructure and rule of law. How to get those\nthings is the problem. I will suggest that the answers, whatever they are, will be\n\ndeveloped outside the usual marginalist perspective of supply and demand.\n\nThe Free Growth Equations\n\nNow back to Mill’s argument. Notice first that he puts it all in the present tense.\nModern growth economists have preferred what I called the lagged flows method:\nspikes in investment are compared to later ones in output. Mill here is substituting\nwhat I called a concurrent rates method: he compares changes in consumption rate\nto changes in capital growth rate at the same time. He writes that “whatever\nincreases the productive power of labor ... enables capital to be enlarged ...\n\nconcurrently with an increase of personal consumption.”\n\nLet’s follow that. Mill’s root assumption is the Y =I +C equation in its net form\n\n(4.1b). Put the ex post version as\n\noutput = growth + consumption, (4.2)\nmeaning net output, growth of physical capital and all consumption. The Y rule says\nthe same with the hidden asterisks after growth and consumption. So it will\ncontinue for the rest of this discussion. (4.2) shows that less consumption implies\nmore growth, or less output, or some of both. Mill was asking which. To show how\nto find out, first arrange (4.2) as\n\ngrowth = output —- consumption, (4.2a)\n\nagain because terms can change sides if they change signs.\n\nChapter 4 Mill’s Idea 1/11/16 11\n\nHOUSE_OVERSIGHT_011002",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011002.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1721,
+    "word_count": 286,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:46.277512",
+    "prefix": "IMAGES-001"
+  }
+}

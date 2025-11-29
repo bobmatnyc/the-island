@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015893",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015893.txt",
+  "text": "Known Unknowns 203\n\nYou have to step back and think about the problem in the round and then\ndevise some additional rules to handle the circumstances. Mathematics\nis like this also.\n\nHere is how Gédel proved his result.\n\nIt is easy to turn logic or any text into numbers. That’s how this\nbook is stored on my laptop. All we need do is translate sentences into\nASCII or Unicode. In this way, any theory can be reduced to a string of\nnumbers.\n\nSince Gédel’s proof predates the invention of the computer, he had\nto come up with a novel way to store information. He deployed an old\nRoman invention; a substitution code. The number one was represented\nby 1, two by 2 and the symbols by larger numbers, for example, ‘=’ was\ncoded as 15 and so on. He then raised a sequence of prime numbers to\nthe power of each of these codes and multiplied all the results together.\nThis generated a single enormous but unique number that he could later\nfactor back into its constituent parts to recover the information. This is\na truly complicated solution to a very simple problem. Today we would\nsolve it by storing each number in the memory of a computer as an array.\n\nLet’s use the easier table method to store things and code as follows:\n000 will stand for ‘start of proof’ Each step in the proof will start with 00\nand each symbol in the proof starts and ends with a zero. This way we\ncan code one plus one equals two as follows.\n\n0000001110454011101210222000000\n\nI think this is simple enough for you to guess the coding scheme.\nHint: 111 stands for 1. The scheme is on my website if you can’t work\nit out. Using this technique, any series of mathematical statements can\nbe turned into a number. As a series of mathematical statements is a\nproof, we can generate proof numbers. They are just the sequential list of\nall the instructions. These numbers are sometimes referred to as Godel\nnumbers.\n\nGédel’s next step was to say one number demonstrates the proof of\nanother number. For example, the number 000820962 might demonstrate\nthe proof of another number 000398... This is the mathematical equivalent\nof my saying a Word file demonstrates the truth of your mathematical\ntheorem. Any statement can be represented by numbers, provided\nyou have a consistent coding scheme that allows you to get back to the\nmeaning.\n\nNow Gédel set up his paradox:\n\nHOUSE_OVERSIGHT_015893",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015893.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2355,
+    "word_count": 417,
+    "line_count": 50,
+    "import_date": "2025-11-19T21:47:47.458045",
+    "prefix": "IMAGES-003"
+  }
+}

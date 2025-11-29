@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_018784",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_018784.txt",
+  "text": "SELECT LUXURY RESORTS AND CASINOS\n\nARIA RESORT & CASINO\n\nHotel Summary\n\nOwner MGM Resorts Intl.\nHeight 600\n\nAcres n/a\n\nTotal Guest Rooms 4,004\n\n2014 Average Daily Rate $217\n\n2014 Occupancy 93%\n\n2014 RevPar $202\n\nCasino/Gaming Summary\n\nTotal Square Feet 150,000\n\n# of Slot Machines 1,969\n\n# of Tables 122\n2014 Casino Revenue $422,979,000\n\nRetail Summary\n\nRetail The Shops at Crystals\nTotal Square Feet 500,000\n\n# of Shops 57\n\nKey Tenants Louis Vuitton, Dolce &\n\nGabbana, Tiffany & Co.,\nRoberto Vavalli, Bulgari,\nCartier, Van Cleef &\nArpels, Mikimoto\n\nEntertainment Summary\n\n# of Restaurants 16\n# of Bars & Nightclubs 10\nConvention/Meeting SF 300,000\nSpa Square SF 80,000\n\nBELLAGIO\n\nMGM Resorts Intl.\n508\n76.00\n3,933\n$254\n93%\n$236\n\n156,000\n1,895\n132\nn/a\n\nVia Bellagio\n44,000\n12\n\nBottega Veneta, Breguet,\nChanel, Dior, Fendi,\nGiorgio Armani, Gucci,\nHarry Winston,\nHermes, Louis Vuitton,\nPrada, Tiffany & Co.\n\n20\n\n7\n200,000\n55,000\n\nTHE COSMOPOLITAN VENETIAN / PALLAZZO\n\nBlackstone\n\n604\n8.45\n2,959\n$307\n94%\n$287\n\n99,719\n\n1,373\n129\n\n$203,247,000\n\nn/a\n\n35,744\n\n16\n\nAllsaints, Spitalfields,\nSneaker Boutique,\nDna2050, Jason of\nBeverly Hills, Molly\n\nBrown’s Swimwear, Rent\nthe Runway, Stitched\n\n13\n8\n\n151,500\n50,000\n\nLas Vegas Sands Corp.\n\n642\n67.00\n7,095\n$223\n88%\n$196\n\n225,000\n\n2,350\n240\n\n$509,205,000\n\nGrand Canal Shoppes\n875,000\n\n160\n\nBarney’s, Christian\nLouboutin, Tory Burch,\nJimmy choo, Burberry,\n\nFendi, Diane von\nFurstenberg, Michael\nKors, Sephora,\nSwarovski\n\n38\n11\n\n2,300,000\n134,000\n\nWYNN / ENCORE\n\nWynn Resorts Ltd.\n631\n215.00\n4,750\n$274\n87%\n$238\n\n186,000\n1,864\n235\n$687,436,000\n\nWynn Esplanade\n99,000\n25\n\nAlexander McQueen,\nCartier, Chanel, Dior,\nGivenchy, Hermés, Louis\nVuitton, Manolo Blahnik,\nOscar de la Renta, Rolex\n\n13\n\n11\n284,000\n\nn/a\n\nHOUSE_OVERSIGHT_018784",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_018784.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1769,
+    "word_count": 265,
+    "line_count": 188,
+    "import_date": "2025-11-19T21:47:48.167879",
+    "prefix": "IMAGES-005"
+  }
+}

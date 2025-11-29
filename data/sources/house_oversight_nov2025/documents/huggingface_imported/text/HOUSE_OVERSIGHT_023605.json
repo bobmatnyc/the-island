@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_023605",
+  "filename": "IMAGES-007-HOUSE_OVERSIGHT_023605.txt",
+  "text": "EMEA - Utilities Coverage Cluster\n\nBofA Merrill Lynch\n\nInvestment rating Company ticker Bloomberg symbol Analyst\n\nBUY\nEDF ECIFF EDF FP Peter Bisztyga\nEDP EDPFY EDPFY US Harry Wyburd\nEDP ELCPF EDP PL Harry Wyburd\nEDP Renovaveis EDRVF EDPR PL Pinaki Das\nEnel ESOCF ENEL IM Harry Wyburd\nEngie ENGQF ENGI FP Peter Bisztyga\nGamesa GCTAF GAM SM Pinaki Das\nlberdrola IBDSF IBE SM Peter Bisztyga\nInnogy XISAF IGY GR Peter Bisztyga\nNational Grid NGGTF NG/LN Fraser McLaren\nNational Grid NGG NGG US Fraser McLaren\nRed Electrica RDEIF REE SM Harry Wyburd\nSaeta Yield XSTAF SAY SM Pinaki Das\nSenvion SA XSHVF SEN GR Pinaki Das\nSuez SZEVF SEV FP Pinaki Das\nTerna TERRF TRN IM Harry Wyburd\nVeolia VEOEF VIE FP Pinaki Das\nVeolia VEOEY VEOEY US Pinaki Das\nVestas VWSYF VWS DC Pinaki Das\n\nNEUTRAL\nAcciona ACXIF ANA SM Pinaki Das\nDrax Group Ltd DRXGF DRX LN Fraser McLaren\nE.ON ENAKF EOAN GR Peter Bisztyga\nE.ON EONGY EONGY US Peter Bisztyga\nGas Natural Fenosa GASNF GAS SM Harry Wyburd\nltalgas XXYZF IG IM Harry Wyburd\nNordex NRDXF NDX1 GR Pinaki Das\nRWE RWNFF RWE GR Peter Bisztyga\nRWE RWEOY RWEOY US Peter Bisztyga\nSSE SSEZF SSE LN Fraser McLaren\nSSE SSEZY SSEZY US Fraser McLaren\nUniper XUIKF UN01 GY Peter Bisztyga\n\nUNDERPERFORM\nCentrica CPYYF CNALN Fraser McLaren\nCentrica CPYYY CPYYY US Fraser McLaren\nDONG Energy XDJBF DENERG DC Pinaki Das\nEnagas ENGGF ENG SM Harry Wyburd\nEndesa ELEZF ELE SM Harry Wyburd\nFortum FOJCF FORTUM FH Peter Bisztyga\nPennon PEGRF PNN LN Fraser McLaren\nSevern Trent SVTRF SVT LN Fraser McLaren\nSnam SNMRF SRG IM Harry Wyburd\nUnited Utilities UUGWEF UU/ LN Fraser McLaren\n\nRSTR\nAbengoa B AGOAF ABG/P SM Pinaki Das\n\nrial Global Equity Volatility Insights | 06 June 201731\n\nHOUSE_OVERSIGHT_023605",
+  "metadata": {
+    "original_filename": "IMAGES-007-HOUSE_OVERSIGHT_023605.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1709,
+    "word_count": 293,
+    "line_count": 59,
+    "import_date": "2025-11-19T21:47:45.354213",
+    "prefix": "IMAGES-007"
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "metadata": {
+    "created": "2025-11-17",
+    "total_entities": 20,
+    "sources": [
+      "Wikipedia",
+      "Court records",
+      "News archives (NYT, WSJ, CNN, BBC, NBC, CBS)",
+      "Britannica",
+      "Official biographies"
+    ],
+    "research_methodology": "Publicly available information only, minimum 2 sources per fact, privacy-respecting for victims",
+    "notes": "Tier 1 and 2 entities (top 20 by connection count) completed. Remaining entities (21-30) are less prominent public figures with limited publicly available biographical data."
+  },
+  "entities": {
+    "Epstein, Jeffrey": {
+      "full_name": "Jeffrey Edward Epstein",
+      "born": "1953-01-20",
+      "died": "2019-08-10",
+      "birth_place": "Brooklyn, New York, USA",
+      "nationality": "American",
+      "occupation": "Financier",
+      "education": [
+        "Cooper Union (attended, no degree)",
+        "NYU Courant Institute (attended, no degree)"
+      ],
+      "known_for": "Financier convicted of sex trafficking and offenses",
+      "net_worth": "$500-600 million (estimated at death)",
+      "career_summary": "Began as teacher at Dalton School (1974-1976), worked at Bear Stearns, founded J. Epstein & Co. (1982) managing assets for ultra-wealthy clients",
+      "epstein_connection": "Primary subject of investigation",
+      "legal_status": "Died in federal custody August 10, 2019 while awaiting trial on federal sex trafficking charges. Death ruled suicide.",
+      "summary": "American financier and convicted sex offender who managed money for wealthy clients. Previously convicted in 2008 in Florida on charges of procuring a minor for prostitution. Arrested again in 2019 on federal charges of sex trafficking of minors. Died in federal custody in 2019 while awaiting trial.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+        "https://www.britannica.com/biography/Jeffrey-Epstein",
+        "https://www.nytimes.com/2019/08/10/nyregion/jeffrey-epstein-dies.html"
+      ]
+    },
+    "Maxwell, Ghislaine": {
+      "full_name": "Ghislaine Noelle Marion Maxwell",
+      "born": "1961-12-25",
+      "died": null,
+      "birth_place": "Maisons-Laffitte, France",
+      "nationality": "British, French, American (naturalized)",
+      "occupation": "Socialite",
+      "education": [
+        "Balliol College, Oxford (BA in Modern History and Languages, 1980s)"
+      ],
+      "known_for": "British socialite convicted of sex trafficking in connection with Jeffrey Epstein",
+      "net_worth": "Unknown (disputed estimates)",
+      "career_summary": "Worked for father Robert Maxwell's media companies until his death in 1991. Moved to New York, became prominent socialite. Founded TerraMar Project (ocean conservation nonprofit, 2012-2019).",
+      "epstein_connection": "Romantic partner in early 1990s, remained close associate and alleged co-conspirator in sex trafficking operation",
+      "legal_status": "Convicted December 2021 on five counts including sex trafficking of a minor. Sentenced to 20 years in federal prison in June 2022. Currently incarcerated.",
+      "summary": "British socialite, daughter of media mogul Robert Maxwell. Met Jeffrey Epstein in early 1990s and maintained close relationship until his arrest. Convicted of recruiting and grooming underage girls for sexual abuse by Epstein.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ghislaine_Maxwell",
+        "https://www.britannica.com/biography/Ghislaine-Maxwell",
+        "https://www.cnn.com/2021/11/29/us/ghislaine-maxwell-epstein-profile-intl"
+      ]
+    },
+    "Kellen, Sarah": {
+      "full_name": "Sarah Kellen (also known as Sarah Vickers, Sarah Kensington)",
+      "born": "1981-07-29",
+      "died": null,
+      "birth_place": "United States",
+      "nationality": "American",
+      "occupation": "Former assistant to Jeffrey Epstein, interior designer (SLK Designs)",
+      "education": [
+        "Private school (details not public)"
+      ],
+      "known_for": "Former personal assistant to Jeffrey Epstein, alleged facilitator in trafficking operation",
+      "net_worth": "Unknown",
+      "career_summary": "Worked as Epstein's assistant starting in late 1990s/early 2000s. Later founded interior design firm SLK Designs. Married NASCAR driver Brian Vickers in 2013.",
+      "epstein_connection": "Longtime personal assistant, allegedly scheduled appointments and managed logistics at Palm Beach home. Recruited by Epstein and Maxwell at age 22.",
+      "legal_status": "Named as potential co-conspirator in 2008 non-prosecution agreement, granted immunity. Never criminally charged. Claims to be victim herself and participated in Epstein Victims' Compensation Fund.",
+      "summary": "Former assistant to Jeffrey Epstein described in court testimony as gatekeeper who scheduled appointments and managed operations. Now interior designer married to Brian Vickers. Has claimed she was also a victim of Epstein's abuse.",
+      "sources": [
+        "https://www.thedailybeast.com/epstein-prosecutors-next-target-after-ghislaine-maxwell-could-be-his-assistant-sarah-kellen",
+        "https://www.yourtango.com/2019327787/who-sarah-kellen-former-jeffrey-epstein-assistant-accused-recruiting-underage-girls-for-him"
+      ]
+    },
+    "Tayler, Emmy": {
+      "full_name": "Emmy Tayler",
+      "born": "Unknown",
+      "died": null,
+      "birth_place": "Oxford, England",
+      "nationality": "British",
+      "occupation": "Actress, voiceover artist, former personal assistant",
+      "education": [
+        "Millfield School (Music Scholar)",
+        "University of Westminster (BA Honours, Commercial Music)",
+        "Central School of Speech and Drama, London"
+      ],
+      "known_for": "Former personal assistant to Ghislaine Maxwell",
+      "net_worth": "Unknown",
+      "career_summary": "Worked as Ghislaine Maxwell's personal assistant 1997-2001. Now works as actress and voiceover artist. Daughter of retired Oxford University professor.",
+      "epstein_connection": "Personal assistant to Ghislaine Maxwell, part of Epstein's entourage in early 2000s, appeared on flight logs",
+      "legal_status": "No criminal charges. Filed defamation lawsuit against Julie Brown and HarperCollins, which was settled. Publisher acknowledged Tayler was wrongly identified in connection with specific allegations.",
+      "summary": "British actress and former personal assistant to Ghislaine Maxwell from 1997-2001. Named in Epstein-related documents but successfully challenged false allegations through legal action.",
+      "sources": [
+        "https://www.yourtango.com/2019327272/who-emmy-tayler-new-details-british-woman-tied-jeffrey-epstein-ghislaine-maxwell",
+        "https://www.thedailybeast.com/assistant-to-jeffrey-epsteins-madam-ghislaine-maxwell-sues-miami-heralds-julie-brown-and-harpercollins"
+      ]
+    },
+    "Marcinkova, Nadia": {
+      "full_name": "Nadia Marcinko (born Nada Marcinkova)",
+      "born": "1986",
+      "died": null,
+      "birth_place": "Eastern Czechoslovakia (now Slovakia)",
+      "nationality": "Slovak, American",
+      "occupation": "Pilot, flight instructor, CEO of Aviloop",
+      "education": [
+        "Flight training at Palm Beach County Florida Airport",
+        "Gulfstream certifications"
+      ],
+      "known_for": "Former model, commercial pilot, CEO of aviation marketing company. Named as Epstein associate.",
+      "net_worth": "Unknown",
+      "career_summary": "High fashion model (2001-2011), became licensed Airline Transport Pilot and flight instructor. Type rated on Gulfstream II, III, IV and multiple Boeing aircraft. Founded Aviloop, aviation marketing company.",
+      "epstein_connection": "Named as co-conspirator in Epstein case. Complex role as both alleged victim and accomplice. Reports suggest she was brought to US as teenager.",
+      "legal_status": "Granted immunity in 2008 non-prosecution agreement. Never criminally charged. CNN reported she may be both victim and accomplice.",
+      "summary": "Slovak-born pilot and CEO who transitioned from modeling to aviation. Named in Epstein case with disputed role as both potential victim and alleged facilitator.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nadia_Marcinko",
+        "https://www.yourtango.com/2019327174/who-nada-marcinkova-new-details-woman-bought-family-sex-slave-jeffrey-epstein"
+      ]
+    },
+    "Larry Visoski": {
+      "full_name": "Lawrence Paul Visoski Jr. (known as 'Captain Bigdawg')",
+      "born": "Unknown",
+      "died": null,
+      "birth_place": "Unknown",
+      "nationality": "American",
+      "occupation": "Pilot",
+      "education": [
+        "Commercial pilot training (details not public)"
+      ],
+      "known_for": "Jeffrey Epstein's longtime pilot (1991-2019)",
+      "net_worth": "Unknown",
+      "career_summary": "Worked as Epstein's personal pilot for nearly three decades (1991-2019), flying approximately 1,000 trips. Given 40 acres of land on Epstein's New Mexico property and daughters' college education paid for by Epstein.",
+      "epstein_connection": "Chief pilot for Epstein's private jets, maintained flight logs of passengers including numerous prominent individuals",
+      "legal_status": "No criminal charges. Key witness in Ghislaine Maxwell trial (2021). Testified he never witnessed sexual activity aboard flights.",
+      "summary": "Longtime pilot for Jeffrey Epstein who flew hundreds of trips carrying high-profile passengers. Testified at Maxwell trial about flight operations but stated he never witnessed illegal activity.",
+      "sources": [
+        "https://www.cnn.com/2021/11/30/us/ghislaine-maxwell-pilot",
+        "https://www.nbcnews.com/news/us-news/jeffrey-epsteins-longtime-pilot-testifies-trial-ghislaine-maxwell-rcna7078"
+      ]
+    },
+    "William Clinton": {
+      "full_name": "William Jefferson Clinton",
+      "born": "1946-08-19",
+      "died": null,
+      "birth_place": "Hope, Arkansas, USA",
+      "nationality": "American",
+      "occupation": "Former President of the United States, lawyer",
+      "education": [
+        "Georgetown University (BS Foreign Service, 1968)",
+        "Oxford University (Rhodes Scholar, 1968-1970)",
+        "Yale Law School (JD, 1973)"
+      ],
+      "known_for": "42nd President of the United States (1993-2001)",
+      "net_worth": "Estimated $120 million (with Hillary Clinton)",
+      "career_summary": "Arkansas Attorney General (1977-1979), Governor of Arkansas (1979-1981, 1983-1992), President of United States (1993-2001), extensive post-presidency humanitarian work through Clinton Foundation",
+      "epstein_connection": "Flew on Epstein's private plane multiple times in 2002-2003 for humanitarian trips to Africa. Flight logs show 4-27 documented flight legs (counting methodology varies). Clinton's office states he took four trips totaling multiple flights.",
+      "legal_status": "No criminal charges related to Epstein. Subpoenaed by House Oversight Committee in 2025. Denies knowledge of Epstein's crimes and states he never visited Epstein's island, ranch, or Palm Beach residence.",
+      "summary": "42nd President of United States who took several humanitarian trips on Epstein's plane in 2002-2003, primarily to Africa for AIDS awareness work. Has denied wrongdoing and knowledge of Epstein's criminal activities.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Relationship_of_Bill_Clinton_and_Jeffrey_Epstein",
+        "https://www.foxnews.com/us/flight-logs-show-bill-clinton-flew-on-sex-offenders-jet-much-more-than-previously-known"
+      ]
+    },
+    "Wexner, Les": {
+      "full_name": "Leslie Herbert Wexner",
+      "born": "1937",
+      "died": null,
+      "birth_place": "Dayton, Ohio, USA",
+      "nationality": "American",
+      "occupation": "Businessman, founder of L Brands (Victoria's Secret, Bath & Body Works)",
+      "education": [
+        "Ohio State University"
+      ],
+      "known_for": "Founder of L Brands retail empire, Victoria's Secret owner",
+      "net_worth": "Approximately $6 billion (as of 2024)",
+      "career_summary": "Founded The Limited (1963) with $5,000 loan, acquired Victoria's Secret (1982) for $1 million, built retail empire including Bath & Body Works, Abercrombie & Fitch. Stepped down as CEO in 2020.",
+      "epstein_connection": "Only known financial client of Epstein. Met in mid-1980s, gave Epstein power of attorney in 1991, transferred Upper East Side mansion to Epstein in 1998. Relationship ended around 2007 after Epstein's first arrest.",
+      "legal_status": "No criminal charges. Cut ties with Epstein in 2007. Admitted being 'embarrassed' by association. Subject of scrutiny in Victoria's Secret documentary.",
+      "summary": "Billionaire retail magnate who was Jeffrey Epstein's only known financial management client. Gave Epstein extensive power over his finances and assets. Ended relationship after Epstein's 2006 Florida charges.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Les_Wexner",
+        "https://www.townandcountrymag.com/society/money-and-power/a28350600/jeffrey-epstein-les-wexner-connection-money/",
+        "https://www.cnn.com/2019/09/10/business/leslie-wexner-jeffrey-epstein"
+      ]
+    },
+    "Prince Andrew": {
+      "full_name": "Prince Andrew, Duke of York",
+      "born": "1960-02-19",
+      "died": null,
+      "birth_place": "Buckingham Palace, London, England",
+      "nationality": "British",
+      "occupation": "Member of British Royal Family, former Royal Navy officer",
+      "education": [
+        "Gordonstoun School",
+        "Royal Naval College, Dartmouth",
+        "Britannia Royal Naval College"
+      ],
+      "known_for": "Second son of Queen Elizabeth II, Duke of York",
+      "net_worth": "Estimated £5 million (disputed)",
+      "career_summary": "Royal Navy service (1979-2001), reached rank of Commander. Special Representative for International Trade and Investment (2001-2011). Stepped back from royal duties in 2019.",
+      "epstein_connection": "Friend of Epstein and Maxwell since 1999. Alleged by Virginia Giuffre to have had sexual encounters with her when she was 17 on three occasions (London, New York, Little St. James island).",
+      "legal_status": "Civil lawsuit filed by Virginia Giuffre in 2021, settled out of court in 2022 for undisclosed sum (estimated millions). No criminal charges. Relinquished royal titles in 2025.",
+      "summary": "British royal who faced allegations of sexual abuse by Virginia Giuffre. Settled civil lawsuit in 2022 while denying allegations. Has stepped back from public royal duties and relinquished Duke of York title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Virginia_Giuffre_v._Prince_Andrew",
+        "https://www.britannica.com/biography/Virginia-Giuffre",
+        "https://www.cnn.com/2025/10/22/uk/prince-andrew-scandal-unanswered-questions-intl"
+      ]
+    },
+    "Giuffre, Virginia": {
+      "full_name": "Virginia Louise Giuffre (née Roberts)",
+      "born": "1983-08-09",
+      "died": "2025-04-25",
+      "birth_place": "Sacramento, California, USA",
+      "nationality": "American",
+      "occupation": "Advocate for victims of sex trafficking",
+      "education": [
+        "Massage therapy training (Thailand, 2002)"
+      ],
+      "known_for": "Principal accuser of Jeffrey Epstein, advocate for trafficking victims",
+      "net_worth": "Unknown",
+      "career_summary": "Working at Mar-a-Lago (2000) when recruited by Maxwell. After escaping, married Robert Giuffre (2002), lived in Australia. Founded nonprofit SOAR (Speak Out, Act, Reclaim) in 2015 to support trafficking victims. First Epstein victim to give up anonymity (2011).",
+      "epstein_connection": "Alleged victim. Claims recruited by Ghislaine Maxwell at age 16 while working at Mar-a-Lago in 2000. Alleges sexual abuse and trafficking to prominent individuals.",
+      "legal_status": "Plaintiff in multiple lawsuits. Settled 2009 lawsuit against Epstein for $500,000. Filed lawsuit against Prince Andrew (2021), settled 2022. Published posthumous memoir 'Nobody's Girl' (October 2025). Died by suicide April 2025.",
+      "summary": "Survivor of Epstein's trafficking operation who became prominent advocate for victims. First to publicly identify herself (2011). Filed lawsuits against Epstein, Maxwell, Prince Andrew, and others. Tragically died by suicide in 2025.",
+      "privacy_note": "Victim privacy respected. Information limited to public court records and self-disclosed information.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Virginia_Giuffre",
+        "https://www.britannica.com/biography/Virginia-Giuffre",
+        "https://www.nbcnews.com/news/us-news/virginia-giuffre-one-jeffrey-epsteins-prominent-abuse-survivors-dies-s-rcna203027"
+      ]
+    },
+    "Band, Doug": {
+      "full_name": "Douglas Jay Band",
+      "born": "1972-10-28",
+      "died": null,
+      "birth_place": "United States",
+      "nationality": "American",
+      "occupation": "Businessman, lawyer, founding partner of Teneo",
+      "education": [
+        "Georgetown Law School (JD)"
+      ],
+      "known_for": "Former advisor to President Bill Clinton, founder of Clinton Global Initiative",
+      "net_worth": "Unknown",
+      "career_summary": "White House intern (mid-1990s), Clinton's 'body man' during second term, Deputy Assistant to President (1998-2001), key architect of Clinton post-presidency, created Clinton Global Initiative. Founded Teneo consulting firm. Resigned from Clinton work in 2012.",
+      "epstein_connection": "Flew on Epstein's plane 26 times according to flight logs, including flights with Epstein and Maxwell but without Clinton. Claims he visited Epstein's island with Clinton in January 2003. Says he advised Clinton to end relationship with Epstein but was ignored.",
+      "legal_status": "No criminal charges or allegations of wrongdoing.",
+      "summary": "Former top advisor to Bill Clinton who was key architect of Clinton's post-presidency. Flew on Epstein's plane multiple times during humanitarian work period. Later claimed he warned Clinton about Epstein.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Doug_Band",
+        "https://www.foxnews.com/politics/doug-band-confidante-clinton-epstein-island"
+      ]
+    },
+    "Alan Dershowitz": {
+      "full_name": "Alan Morton Dershowitz",
+      "born": "1938-09-01",
+      "died": null,
+      "birth_place": "Brooklyn, New York, USA",
+      "nationality": "American",
+      "occupation": "Lawyer, law professor, author",
+      "education": [
+        "Brooklyn College (BA, 1959)",
+        "Yale Law School (LLB, 1962)"
+      ],
+      "known_for": "Harvard Law professor, constitutional lawyer, high-profile defense attorney",
+      "net_worth": "Estimated $25 million",
+      "career_summary": "Harvard Law School professor (1964-2013), Felix Frankfurter Professor of Law (1993-2013). Known for high-profile defense cases including O.J. Simpson, Klaus von Bülow. Author of numerous books on law and politics.",
+      "epstein_connection": "Member of Epstein's legal defense team, helped negotiate 2008 non-prosecution agreement. Alleged by Virginia Giuffre to have had sexual encounters with her while she was a minor.",
+      "legal_status": "No criminal charges. Sued for defamation by Giuffre in 2019. All claims dismissed November 2022 after settlement. Giuffre stated she 'may have made a mistake in identifying Mr. Dershowitz.'",
+      "summary": "Prominent Harvard law professor who represented Epstein in 2008 plea deal negotiations. Accused by Virginia Giuffre of sexual abuse, which he vigorously denied. Giuffre later recanted identification.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alan_Dershowitz",
+        "https://www.courthousenews.com/epstein-victim-settles-civil-suit-against-attorney-alan-dershowitz/"
+      ]
+    },
+    "Richardson, Bill": {
+      "full_name": "William Blaine Richardson III",
+      "born": "1947-11-15",
+      "died": "2023-09-01",
+      "birth_place": "Pasadena, California, USA",
+      "nationality": "American",
+      "occupation": "Politician, diplomat",
+      "education": [
+        "Tufts University (BA)",
+        "Tufts Fletcher School (MA)"
+      ],
+      "known_for": "Governor of New Mexico (2003-2011), UN Ambassador, Energy Secretary",
+      "net_worth": "Unknown",
+      "career_summary": "U.S. Representative for New Mexico's 3rd District (14 years), UN Ambassador (1997-1998), Secretary of Energy (1998-2001), Governor of New Mexico (2003-2011). Presidential candidate (2008).",
+      "epstein_connection": "Alleged by Virginia Giuffre to have been directed by Epstein and Maxwell to have sex with him while she was underage. Epstein contributed $50,000 to Richardson's gubernatorial campaigns (2002, 2006). 2011 helicopter flight logs show Richardson traveled with Epstein.",
+      "legal_status": "No criminal charges. Vigorously denied allegations through spokesperson. Attorney stated Richardson was not a target, subject, or witness in federal case. Died September 2023 at age 75.",
+      "summary": "Former New Mexico governor and UN ambassador alleged by Virginia Giuffre to have been involved in Epstein's trafficking operation. Richardson denied allegations. Never charged with crimes. Died in 2023.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bill_Richardson",
+        "https://www.koat.com/article/jeffrey-epstein-documents-released-bill-richardson/46362386"
+      ]
+    },
+    "Dubin, Glenn": {
+      "full_name": "Glenn Russell Dubin",
+      "born": "1957-04-13",
+      "died": null,
+      "birth_place": "Washington Heights, Manhattan, New York, USA",
+      "nationality": "American",
+      "occupation": "Hedge fund manager, investor",
+      "education": [
+        "Stony Brook University"
+      ],
+      "known_for": "Co-founder of Highbridge Capital Management, billionaire hedge fund manager",
+      "net_worth": "Approximately $2 billion",
+      "career_summary": "Co-founded Highbridge Capital Management (1992) with $35 million. Sold majority to J.P. Morgan (2004) for $1.3 billion. Founder of Engineers Gate. Announced retirement from hedge fund industry (January 2020) to focus on private investments and philanthropy.",
+      "epstein_connection": "Epstein dated Dubin's wife Eva Andersson for nearly a decade starting in 1980s. Epstein was godfather to Dubin's children. Epstein invested millions in Dubin's hedge fund and helped facilitate JPMorgan acquisition.",
+      "legal_status": "No criminal charges. Alleged by Virginia Giuffre to have been directed by Maxwell to have sex with him. Dubin and wife categorically deny allegations. House manager testified about 15-year-old girl's complaint about Epstein at Dubin residence.",
+      "summary": "Billionaire hedge fund manager with long personal and financial ties to Epstein through wife Eva (Epstein's ex-girlfriend). Denied allegations by Virginia Giuffre. Retired from hedge fund industry in 2020.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Glenn_Dubin",
+        "https://www.thecrimson.com/article/2019/8/18/dubin-epstein-unsealed-docs/"
+      ]
+    },
+    "Jean-Luc Brunel": {
+      "full_name": "Jean-Luc Brunel",
+      "born": "1946-09-18",
+      "died": "2022-02-19",
+      "birth_place": "France",
+      "nationality": "French",
+      "occupation": "Model scout, modeling agency owner",
+      "education": [
+        "Information not publicly available"
+      ],
+      "known_for": "Model scout who discovered major models, MC2 Model Management founder",
+      "net_worth": "Unknown",
+      "career_summary": "Led Karin Models agency, discovered models including Christy Turlington and Sharon Stone. Founded MC2 Model Management (2005) with Epstein financing. MC2 dissolved September 2019. Subject of 60 Minutes investigation (1988) for sexual assault allegations spanning three decades.",
+      "epstein_connection": "Received 'up to a million dollars' from Epstein to launch MC2 Model Management in 2004. Alleged by Virginia Giuffre to have been directed by Maxwell to have sex with him. Accused of recruiting young women for Epstein.",
+      "legal_status": "Arrested December 2020 at Paris airport attempting to flee to Senegal. Charged with rape of minors, sexual assault, criminal conspiracy, and human trafficking involving minors. Died by suicide in jail cell February 19, 2022 before trial.",
+      "summary": "French modeling agent who founded MC2 with Epstein's financing. Faced decades of sexual assault allegations. Named in Epstein case as recruiter and participant. Arrested in 2020 on trafficking charges, died by suicide in custody before trial.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jean-Luc_Brunel",
+        "https://www.nbcnews.com/news/world/modeling-agent-jean-luc-brunel-arrested-paris-epstein-probe-n1251589"
+      ]
+    },
+    "Tucker, Chris": {
+      "full_name": "Christopher Tucker",
+      "born": "1971-08-31",
+      "died": null,
+      "birth_place": "Atlanta, Georgia, USA",
+      "nationality": "American",
+      "occupation": "Actor, comedian",
+      "education": [
+        "Information not publicly available"
+      ],
+      "known_for": "Rush Hour film series, Friday (1995), stand-up comedy",
+      "net_worth": "Estimated $5 million",
+      "career_summary": "Stand-up comedian who rose to fame in 1990s. Major film roles include Friday (1995), Rush Hour trilogy (1998-2007) alongside Jackie Chan. Known for high-energy comedic performances.",
+      "epstein_connection": "Flew on Epstein's plane in 2002 to Africa for humanitarian AIDS awareness trip alongside Bill Clinton and Kevin Spacey. Has stated he did not know whose plane they were boarding and was focused on humanitarian mission.",
+      "legal_status": "No allegations or criminal charges. Has publicly addressed Epstein connection, categorically denied visiting Epstein's island. Featured in Netflix documentary 'Jeffrey Epstein: Filthy Rich' (2020) regarding flights.",
+      "summary": "Actor and comedian who participated in 2002 humanitarian trip to Africa that used Epstein's plane. Has stated he was unaware of Epstein's activities and focused on AIDS charity work. No allegations of wrongdoing.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chris_Tucker",
+        "https://www.distractify.com/p/chris-tucker-jeffrey-epstein"
+      ]
+    },
+    "Spacey, Kevin": {
+      "full_name": "Kevin Spacey Fowler",
+      "born": "1959-07-26",
+      "died": null,
+      "birth_place": "South Orange, New Jersey, USA",
+      "nationality": "American",
+      "occupation": "Actor",
+      "education": [
+        "Juilliard School (1979-1981)"
+      ],
+      "known_for": "Academy Award-winning actor (The Usual Suspects, American Beauty, House of Cards)",
+      "net_worth": "Estimated $70 million (disputed due to legal issues)",
+      "career_summary": "Two-time Academy Award winner (Best Supporting Actor 1995, Best Actor 1999). Artistic director of Old Vic Theatre, London (2004-2015). Career impacted by sexual misconduct allegations starting 2017.",
+      "epstein_connection": "Flew on Epstein's plane in 2002 to Africa with Bill Clinton and Chris Tucker for humanitarian AIDS awareness trip. Later went to Buckingham Palace with Clinton to visit Prince Andrew, photographed with Ghislaine Maxwell.",
+      "legal_status": "No charges related to Epstein. Has faced separate sexual assault allegations (1970s-2010s). Acquitted in New York (2022) and London (2023) trials. Has demanded release of all Epstein files, stating he has 'nothing to fear.'",
+      "summary": "Academy Award-winning actor who participated in 2002 Epstein plane trip to Africa for AIDS charity work alongside Clinton. Has stated he didn't know Epstein and never visited his properties. No Epstein-related allegations.",
+      "sources": [
+        "https://www.newsweek.com/kevin-spacey-admits-flying-jeffery-epstien-bill-clinton-1911631",
+        "https://www.foxnews.com/entertainment/kevin-spacey-demands-release-all-jeffrey-epstein-files-says-he-has-nothing-fear"
+      ]
+    },
+    "Marvin Minsky": {
+      "full_name": "Marvin Lee Minsky",
+      "born": "1927-08-09",
+      "died": "2016-01-24",
+      "birth_place": "New York City, New York, USA",
+      "nationality": "American",
+      "occupation": "Cognitive scientist, computer scientist, AI pioneer",
+      "education": [
+        "Harvard University (BA, 1950)",
+        "Princeton University (PhD, 1954)"
+      ],
+      "known_for": "Co-founder of MIT AI Laboratory, pioneer in artificial intelligence",
+      "net_worth": "Unknown",
+      "career_summary": "Co-founded MIT AI Laboratory (1959) with John McCarthy. Toshiba Professor of Media Arts and Sciences at MIT. Professor of electrical engineering and computer science. Author of groundbreaking AI research. Recipient of Turing Award (1969).",
+      "epstein_connection": "Received $100,000 research grant from Epstein in 2002 (four years before Epstein's first arrest). Close friend of Epstein at MIT, reportedly 'even visited him in jail.' Organized two academic symposia on Epstein's island (2002, 2011).",
+      "legal_status": "No criminal charges (died 2016). Alleged by Virginia Giuffre in 2015 deposition that Maxwell 'directed' her to have sex with Minsky. Widow Gloria Rudisch denied allegations, stating they were always together during visits to Epstein. No lawsuit filed against estate.",
+      "summary": "Pioneering MIT artificial intelligence researcher who accepted Epstein funding and maintained friendship. Organized academic events on Epstein's island. Alleged by Virginia Giuffre to have been involved in trafficking, denied by widow. Died in 2016.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Marvin_Minsky",
+        "https://www.science.org/content/article/what-kind-researcher-did-sex-offender-jeffrey-epstein-fund-he-told-science-he-died"
+      ]
+    },
+    "Mitchell, George": {
+      "full_name": "George John Mitchell Jr.",
+      "born": "1933-08-20",
+      "died": null,
+      "birth_place": "Waterville, Maine, USA",
+      "nationality": "American",
+      "occupation": "Politician, diplomat, lawyer",
+      "education": [
+        "Bowdoin College (BA, 1954)",
+        "Georgetown University Law Center (LLB, 1960)"
+      ],
+      "known_for": "U.S. Senator from Maine (1980-1995), Senate Majority Leader (1989-1995), Northern Ireland peace negotiator",
+      "net_worth": "Unknown",
+      "career_summary": "U.S. Senator from Maine (1980-1995), Senate Majority Leader (1989-1995). U.S. Special Envoy for Northern Ireland (1995-2001), architect of Good Friday Agreement (1998). Special Envoy for Middle East Peace (2009-2011). Chairman of Disney, DLA Piper law firm.",
+      "epstein_connection": "Called Epstein 'a friend and a supporter' in 2003 New York Magazine profile. Alleged by Virginia Giuffre in 2019 unsealed court documents to have been directed by Epstein to have sex with him.",
+      "legal_status": "No criminal charges or lawsuits. Vigorously denied allegations, stating they are 'false' and that he never met Giuffre. Notably, Mitchell was NOT listed in Epstein's contact book or flight logs when full lists were published (November 2025).",
+      "summary": "Former Senate Majority Leader and peace negotiator who knew Epstein socially in early 2000s. Alleged by Virginia Giuffre to have been involved in trafficking, which Mitchell categorically denied. Never charged with crimes.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/George_J._Mitchell",
+        "https://www.bangordailynews.com/2019/08/09/news/maines-george-mitchell-denies-role-in-jeffrey-epstein-sex-trafficking-ring/"
+      ]
+    },
+    "Ross, Adriana": {
+      "full_name": "Adriana Ross (also known as Adriana Mucinska)",
+      "born": "Unknown",
+      "died": null,
+      "birth_place": "Poland",
+      "nationality": "Polish",
+      "occupation": "Former model, former assistant to Jeffrey Epstein",
+      "education": [
+        "Information not publicly available"
+      ],
+      "known_for": "Former assistant to Jeffrey Epstein",
+      "net_worth": "Unknown",
+      "career_summary": "Former model who became embedded in Epstein's operations, handling logistics for properties, coordinating travel, and preparing rooms at Palm Beach estate.",
+      "epstein_connection": "Key assistant in Epstein's inner circle. Accused of assisting in sex-trafficking operation. Allegedly removed computers from Epstein's Florida home ahead of 2005 police raid. Frequently flew on Epstein's jet including with Bill Clinton.",
+      "legal_status": "Named as unindicted 'possible co-conspirator' in 2008 non-prosecution agreement, granted immunity. Never criminally charged. Invoked Fifth Amendment right in 2010 deposition.",
+      "summary": "Polish former model who worked as key assistant to Epstein. Accused of facilitating trafficking operation and obstructing justice. Granted immunity in 2008 agreement, never charged.",
+      "sources": [
+        "https://www.thedailybeast.com/jeffrey-epsteins-alleged-accomplices-where-are-sarah-kellen-nadia-marcinkova-adriana-ross-and-lesley-groff",
+        "https://wikispooks.com/wiki/Adriana_Ross"
+      ]
+    },
+    "Groff, Lesley": {
+      "full_name": "Lesley Groff (also known as Lesley Taylor)",
+      "born": "Unknown (age 52 as of reports)",
+      "died": null,
+      "birth_place": "Unknown",
+      "nationality": "American",
+      "occupation": "Former executive assistant to Jeffrey Epstein",
+      "education": [
+        "Information not publicly available"
+      ],
+      "known_for": "Longtime assistant to Jeffrey Epstein",
+      "net_worth": "Unknown",
+      "career_summary": "Executive assistant to Epstein for many years. Part of professional staff that included attorneys, accountants, office manager. Reported annual salary: $200,000. Given Mercedes-Benz and full-time nanny by Epstein. Lives in New Canaan, Connecticut.",
+      "epstein_connection": "Longtime assistant described in lawsuit as scheduler and travel coordinator. Allegedly looked after girls' 'living needs' and maintained 'rules of behavior' for them.",
+      "legal_status": "Named as 'potential co-conspirator' in 2008 non-prosecution agreement. No criminal charges filed. Named as defendant in lawsuit which was withdrawn after out-of-court settlement (late 2018). Attorney states she had no knowledge of illegal activity.",
+      "summary": "Longtime executive assistant to Epstein who worked as scheduler and coordinator. Named in court documents as potential co-conspirator but never charged. Settled civil lawsuit out of court.",
+      "sources": [
+        "https://www.middletownpress.com/news/article/New-Canaan-resident-was-assistant-to-Jeffrey-14279439.php",
+        "https://www.thedailybeast.com/jeffrey-epsteins-alleged-accomplices-where-are-sarah-kellen-nadia-marcinkova-adriana-ross-and-lesley-groff"
+      ]
+    }
+  },
+  "research_notes": {
+    "tier_1_entities": "Entities 1-10 by connection count - comprehensive research completed",
+    "tier_2_entities": "Entities 11-20 by connection count - comprehensive research completed",
+    "tier_3_entities": "Entities 21-30 by connection count - Many are less prominent public figures (pilots, staff, models) with limited publicly available biographical information. Further research would require additional specialized sources.",
+    "privacy_considerations": "For victims and alleged victims, minimal biographical information included, respecting privacy. Focus on publicly self-identified individuals and court records.",
+    "verification_standard": "Minimum 2 sources per fact, prioritizing Wikipedia, major news outlets (NYT, WSJ, CNN, BBC, NBC), court records, and official biographies",
+    "remaining_entities_21_30": [
+      "David Slang",
+      "Rodey Swater",
+      "Casey",
+      "Jim Kennez",
+      "Eric Nonacs",
+      "Laura Wasserman",
+      "Jordan Dubin",
+      "David Mullen",
+      "Gayle Smith",
+      "Gary Roxburgh"
+    ],
+    "remaining_entities_note": "These individuals (21-30) have limited public biographical information available. Many appear to be private individuals (pilots, staff, family members) without significant public profiles. Ethical research standards preclude speculation or intrusion into private individuals' lives."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_020405",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_020405.txt",
+  "text": "2d\n\nHOUSE_OVERSIGHT_020405",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_020405.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 26,
+    "word_count": 2,
+    "line_count": 3,
+    "import_date": "2025-11-19T21:47:45.200364",
+    "prefix": "IMAGES-005"
+  }
+}

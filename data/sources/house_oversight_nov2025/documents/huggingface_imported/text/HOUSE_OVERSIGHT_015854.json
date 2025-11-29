@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015854",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015854.txt",
+  "text": "164 Are the Androids Dreaming Yet?\n\nMathematicians have catalogued the universe of problems into\nclasses rather as biologists have catalogued animals into species. Each\nproblem is examined and put into a genus with a name. Sadly the names\nare not as readable as the Latin names for animals. For example, ‘nlogn’\nis the complexity class of most sorting programs, while traversing a maze\ntypically sits in the class NP or P/POLY. Although the classifications look\ncomplex the basis of cataloging is simple, a class name signifies the time\nneeded to solve a problem using the best possible algorithm, and the\nscale this is measured in is ‘Big O°\n\nBig O\n\nEvery problem has a complexity. In mathematics this is expressed using\n‘Big O’ notation, where ‘O’ stands for order-of-magnitude. The simplest\nproblems have order 1.\n\nIf I am working at my computer on a Word document and I press\nprint, the printer will spring to action and print the document. This\nproblem is of flat complexity, notated O(1). It does not matter how large\nthe file is; one click is all I need. I am, of course, assuming sufficient\npaper in the printer and ink in the cartridges.\n\nThe next complexity class is a linear problem, O(n). For example,\nwalking to the store to buy a pint of milk. The farther the store, the longer\nthe walk. The time needed to get to the store is directly proportional to\nthe distance: if ] am walking, a single step multiplied by the number of\nsteps required to cover the distance.\n\nYou might think adding two numbers together is a linear problem\n— the bigger the number, the harder the problem — but there's a clever\ntrick to speed it up. You can get 10 people to add each column in parallel.\nThey'll need to coordinate when someone ends up with a number larger\nthan ten and has to carry the extra digit but this can be easily solved. A\nproblem gets its classification only once we’ve used the cleverest possible\ntrick to solve it.\n\nMost problems we meet in mathematics are somewhere in between\nflat and linear but there are some that are much harder. The most common\nhard problem we come across in our daily lives is sorting. Rather than\ngo through a tedious written description, check out the video link on my\nwebsite. Sorting without using any spare space requires a bubble sort.\nThis is an example of something that needs n squared operations and,\nsince n squared is the simplest example of a polynomial, it is said to be in\nthe polynomial time, or ‘P’ time classification.\n\nHOUSE_OVERSIGHT_015854",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015854.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2497,
+    "word_count": 440,
+    "line_count": 48,
+    "import_date": "2025-11-19T21:47:46.915248",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016831",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016831.txt",
+  "text": "Computer scientist Stuart Russell, along with Elon Musk, Stephen Hawking, Max\nTegmark, and numerous others, has insisted that attention be paid to the potential\ndangers in creating an intelligence on the superhuman (or even the human) level—an\nAGI, or artificial general intelligence, whose programmed purposes may not necessarily\nalign with our own.\n\nHis early work was on understanding the notion of “bounded optimality” as a\nformal definition of intelligence that you can work on. He developed the technique of\nrational meta-reasoning, “which is, roughly speaking, that you do the computations that\nyou expect to improve the quality of your ultimate decision as quickly as possible.” He\nhas also worked on the unification of probability theory and first-order logic—resulting\nin a new and far more effective monitoring system for the Comprehensive Nuclear Test\nBan Treaty—and on the problem of decision making over long timescales (his\npresentations on the latter topic are usually titled, “Life: Play and Win in 20 trillion\nmoves”’).\n\nHe is very concerned with the continuing development of autonomous weapons,\nsuch as lethal micro-drones, which are potentially scalable into weapons of mass\ndestruction. He drafted the letter from forty of the world’s leading AI researchers to\nPresident Obama which resulted in high-level national-security meetings.\n\nHis current work centers on the creation of what he calls “provably beneficial”\nAI. He wants to ensure AI safety by “imbuing systems with explicit uncertainty” about\nthe objectives of their human programmers, an approach that would amount to a fairly\nradical reordering of current AI research.\n\nStuart is also on the radar of anyone who has taken a course in computer science\nin the last twenty-odd years. He is co-author of “the” definitive AI textbook, with an\nestimated 5-million-plus English-language readers.\n\n28\n\nHOUSE_OVERSIGHT_016831",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016831.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1898,
+    "word_count": 289,
+    "line_count": 33,
+    "import_date": "2025-11-19T21:47:45.914559",
+    "prefix": "IMAGES-004"
+  }
+}

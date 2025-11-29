@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026510",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026510.txt",
+  "text": "www.larrysummers.com\n\nOn Sep 11, 2018, at 6:05 PM, Maskin, Eric (> wrote:\nHi Larry,\n\nThank you very much for taking the meeting this morning. I’m glad you found it worthwhile, and I agree with\nyou that Adam Friedman’s commitment to the project is impressive.\n\nI AM serious about working on this---it’s a nice opportunity to make important practical use of some\ninteresting theory. Voting rules may seem nerdy and dry, but they can make an enormous difference to actual\npolitics\n\nThe formal argument that RCV promotes centrism better than the current system (plurality rule) is\nstraightforward. Suppose that most voters vote ideologically in the sense that the closer a candidate is to their\nown position on the left-right spectrum, the more like they are to vote for him. Then under majority rule (my\nfavorite voting system)---in which voters rank candidates and the winner is the candidate who beats all other in\npairwise comparisons----the winner will be the median voter’s favorite candidate ----- in other words, the most\ncentrist candidate gets elected (this assumes that there are enough candidates running so that there is one who\nis reasonably close to the median voter). Now observe that RCV is in between majority rule and plurality rule,\nand so will promote centrism better than plurality rule.\n\nBest wishes, Eric\n\nFrom: Lis <a\n\nSent: Tuesday, September 11, 2018 4:16 PM\nTo: Maskin, Eric\n\nCe: lhsoffice\n\nSubject: This morning '\n\nIt was fun and interesting.\n\nI admire your friends determination.\n\nAre you serious about working on this?\n\nHas anyone done a full analysis of this and polarization.\n\nSeems like on one hand it might encourage Ralph Nader cuz he d get more first round votes and not elect\nGeorge bush. This might be bad.\n\nHOUSE_OVERSIGHT_026510",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026510.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1765,
+    "word_count": 290,
+    "line_count": 44,
+    "import_date": "2025-11-19T21:47:45.192623",
+    "prefix": "IMAGES-009"
+  }
+}

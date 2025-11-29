@@ -1,0 +1,51 @@
+Originally published in Business Entities, July/August 2009. Reprinted with permission of Thomson Reuters/RIA.
+
+DISREGARDED ENTITIES
+
+Disregarded Entities: To Be Or Not To Be?
+
+Exceptions to the general rule that a disregarded entity is treated as a “tax nothing” for tax
+purposes have burgeoned over the last several years.
+
+Author: BRAD A. BIRMINGHAM and JAMES M. BANDOBLU, JR.
+
+Brad A. Birmingham is a tax partner practicing in the Buffalo, New York, office of the
+law firm Hodgson Russ LLP. James M Bandoblu, Jr. is a tax associate in the same
+office.
+
+As practitioners regularly use disregarded entities (DREs) in estate, corporate, and tax planning,
+it is very important that they consider during the course of planning the growing number of
+instances in which DREs are considered to exist, in whole or in part, for tax purposes.
+
+Various provisions of the Code and regulations confer “disregarded” status on an entity. This
+article briefly describes the four most common forms of DREs and their origins and outlines some
+of the more significant—but often overlooked—exceptions and modifications to the general rule
+that DREs are treated as “tax nothings.” Because the forms of DREs originate in different
+statutory and regulatory provisions, some of the exceptions and modifications are specific to only
+certain forms of DREs, others apply to all forms of DREs, and some are unique to grantor trusts.
+Practitioners should be attentive to this growing class of exceptions and modifications when tax
+planning for their clients.
+
+Types of Disregarded Entities
+
+The discussion below gives a general overview of four of the more frequently used types of DREs
+and their legislative creation, but there are also other miscellaneous DREs that arise primarily
+through the combined use of one DRE. For example, a partnership between a taxpayer and a
+DRE that is wholly-owned by the taxpayer does not constitute a partnership for federal tax
+purposes; rather, the partnership is a DRE, absent an election (under the check-the-box
+regulations discussed below) to be treated as a corporation. +
+
+Grantor Trust Rules.
+
+The oldest form of a disregarded entity is the grantor trust. While the development of the
+grantor trust rules began in the early 1900s, Congress did not issue statutory guidance until
+1954. That statutory guidance developed into what is commonly known today as the grantor
+trust rules, which are found in Subpart E of Subchapter J of the Code. 2
+
+In short, the primary result of the grantor trust rules is to tax the grantor of a trust on the trust's
+income if the grantor retains dominion and control over the trust (or a portion of it). 2 In doing
+so, the grantor trust rules treat the grantor of a trust as the “owner” of the trust (or relevant
+portion thereof) for income tax purposes. “ As a result, in calculating his or her taxable income,
+the grantor includes the applicable portion of the trust's income, deductions, and credits. =
+
+HOUSE_OVERSIGHT_026584

@@ -1,0 +1,46 @@
+Case 1:20-cr-00330-PAE Document 753 Filed 08/10/22 Page 54 of 264 1480
+LC7Cmax2 Flatley - direct
+
+1 Q. Mr. Flatley, let's walk through the information listed in
+
+2 Government Exhibit 419. What is listed as the install date for
+3 Government Exhibit 54?
+
+4 A. It's February 22nd, 2001.
+
+5 Q. What is listed as the product name here?
+
+6 A. Microsoft Windows 2000.
+
+7 Q. Do you see where it says registered organization?
+
+8 A. Yes, I do.
+
+9 Q. What is registered organization mean?
+
+10 A. It's a standard user inputtable field that Windows displays
+11 to you when you first set up the computer and it asks for
+
+12 basically the company name that owns the computer.
+
+13 Q. You just mentioned user inputtable. Just briefly, what
+
+14 does that mean?
+
+15 A. That means when you first start the computer, it asks who
+16 is the organization, who owns this, and you answer, you type in
+17 on a keyboard.
+
+18 Q. What is listed as the registered organization?
+
+19 A. Gmax.
+20 Q. And what is registered owner?
+21 A. It's the same kind of field as registered organization.
+22 It's user inputtable field that's put in when you first start
+23 the computer.
+24 Q. What is listed as the registered owner here?
+25 A. Gmax.
+
+SOUTHERN DISTRICT REPORTERS, P.C.
+(212) 805-0300
+DOJ-OGR-00018652

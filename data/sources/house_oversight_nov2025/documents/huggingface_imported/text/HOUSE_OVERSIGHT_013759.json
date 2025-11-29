@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013759",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013759.txt",
+  "text": "Eckmann, J.-P. (1981): Roads to turbulence in dissipative dynamical systems. Rev.\nMod. Phys. 53:643-654\n\nEckmann, J., Ruelle, D. (1985) Ergodic theory of chaos and strange attractors. Rev.\nMod. Phys. 57:617-656\n\nEckmann, J.P., Ruelle, D. (1992) Fundamental limitations for estimating dimensions\n\nand Lyapounov exponents in dynamical systems. Physica 56D:185-187\n\nEckmann, J.-P., Kamphorst, S.O., Ruelle, D., Cilberto, S. (1986) Lyapounov\nexponents from time series. Phys. Rev. A34:4971-4979\n\nEdwards, D.H., Griffith, T.M. (1997) Entrained ion transport systems generate the\nmembrane component of chaotic agonist-induced vasomotion. Am J Physiol\n273:H909-920\n\nEfremova, T.M., Kulikov, M.A.(1997) The chaotic component of the high-frequency\nEEG of the rabbit cerebral cortex in the formation of a defensive conditioned reflex.\n\nZh Vyssh Nerv Deiat Im | P Pavlova 47:858-869\n\nElger,C., Lehnertz, K. (1998) Seizure prediction by non-linear time series analysis of\n\nbrain electrical activity. Eur J Neurosci.10:786-789\n\nEnns, R.H., McGuire, G.C. (1997) Nonlinear Physics with Maple for Scientists and\n\nEngineers. Birkhauser. Boston\n\nEhlers, C.L. (1995) Chaos and complexity. Arch. Gen. Psychiat. 52:960-964\n\nEhlers, C.L., Havstad, J.W., Garfinkel, A., Kupfer, D.J. (1991) Nonlinear analysis of\nEEG sleep states. Neuropsychopharmacology 5:167-176\n\n259\n\nHOUSE_OVERSIGHT_013759",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013759.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1369,
+    "word_count": 181,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:48.753498",
+    "prefix": "IMAGES-002"
+  }
+}

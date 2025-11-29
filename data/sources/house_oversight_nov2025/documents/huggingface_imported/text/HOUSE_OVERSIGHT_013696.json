@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013696",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013696.txt",
+  "text": "nonharmonic frequency encoding parameter spaces fusing, resulting in new periods\nthat are the sums of their adjacent ones: period 2 + period 3 = period 5, in what is\ncalled the “period adding route”. Technically precise classification of bifurcations\ninvolve much more careful definitions and well studied technical constraints\ninvolving such issues as the symmetries and dimensionality of the system of\nobservables, how many control parameters (“codimensions”) are required to\nreasonably realize the bifurcation and the particular way the fixed points of the\nsystem become unstable, all of which are directly explorable when the equations\nare known or can be hypothetically inferred from the qualitative behavior of real\n\ndata.\n\nWe note a few examples from the wide variety of bifurcating systems that\ncan be found in the biomedical literature of interest for the biological sciences. With\nsubstrate input rate as the bifurcation parameter, the phosphofructokinase regulated\nglycolytic cycle in yeast extract was found to change among steady state, periodic\nand period doubling (subharmonic) regimes (Boiteux et al, 1975). Transitions\nbetween steady state, oscillatory and chaotic patterns have been reported in variety\nof physiological measures in man including respiratory rhythms and circulating\nblood cell concentrations over time (Mackey and Glass, 1977; Glass and Mackey,\n1988 ) and models of dopamine cell dynamics (King et al, 1984). Flow rate\nparameter sensitive periodic, bursting and chaotic behavior has been found in a\nperoxidase-oxidase system (Olsen and Degn, 1977). A brain enzyme, substantia\nnigral dopaminergic tyrosine hydroxylase, manifested different saturation and\nfluctuation patterns, including bursting and periodicity, in experiments in which low\n(physiological) levels of tetrahydrobiopterin cofactor were the bifurcation parameters\n\nand adrenergic drugs were used as modulators (Mandell and Russo, 1981).\n\nAll four of the generic bifurcation routes to chaos, period doubling, changing\nmultifrequency (quasiperiodicity), period adding and bursting (called “intermittency”)\nwere observed in self-sustained oscillations induced in the neural membranes of\nspace clamped, giant squid axons that were immersed in a 550mM NaCl, and\nelectrically stimulated over changing amplitudes and frequencies (Aihara et al,\n\n1986; Takahashi et al, 1990). With external stimulus current level as the control\n\n196\n\nHOUSE_OVERSIGHT_013696",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013696.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2445,
+    "word_count": 347,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:45.297060",
+    "prefix": "IMAGES-002"
+  }
+}

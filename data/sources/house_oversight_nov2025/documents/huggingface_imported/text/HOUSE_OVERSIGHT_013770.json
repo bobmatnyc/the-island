@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013770",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013770.txt",
+  "text": "Levinson, N. (1949): A second order differential equation with singular solutions..\nAnn. Math. 50:127-153\n\nLi, T.Y., Yorke, J.A. (1975): Period three implies chaos. Amer. Math. Mon. 82:985-\n992\n\nLiebovitch, L.S. (1989) Analysis of fractal ion channel gating kinetics: kinetic rates,\n\nenergy levels, and activation energies. Math Biosci. 93:97-115\n\nLiebovitch, L.S. (1998) Fractals and Chaos; Simplified for the Life Sciences. Oxford\nUniversity Press, Oxford.\n\nLiebovitch,L.S., Sullivan, J.M. (1987) Fractal analysis of a voltage-dependent\npotassium channel from cultured mouse hippocampal neurons. Biophys J. 52:979-\n\n88\n\nLiebovitch, L.S., Todorov, A.T. Using fractals and nonlinear dynamics to determine\n\nthe physical properties of ion channel proteins. (1996) Crit Rev Neurobiol 10:169-87\n\nLiebovitch, L.S., Todorov, A.T. (1996) Invited editorial. J. Appl. Physiol. 80:1446-\n1447\n\nLiebert, W., Pawelzik, K., Schuster, H.G. (1991) Optimal embeddings of chaotic\n\nattractors from topological considerations. Europhys. Lett. 14:521-526\n\nLorenz, E.N. (1963): Deterministic nonperiodic flow. J. Atmos. Sci. 20:130-141\n\nLowen, S.B.,Teich, M.C.(1992) Auditory-nerve action potentials form a nonrenewal\n\npoint process over short as well as long time scales. J Acoust Soc Am 92:803-6\n\n270\n\nHOUSE_OVERSIGHT_013770",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013770.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1304,
+    "word_count": 172,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:48.980902",
+    "prefix": "IMAGES-002"
+  }
+}

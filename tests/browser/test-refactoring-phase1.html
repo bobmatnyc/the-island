@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase 1 Refactoring Test Suite</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #007acc;
+            padding-bottom: 10px;
+        }
+        .test-suite {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-result {
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 4px;
+            border-left: 4px solid;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .test-result.pass {
+            background: #e8f5e9;
+            border-color: #4caf50;
+        }
+        .test-result.fail {
+            background: #ffebee;
+            border-color: #f44336;
+        }
+        .test-name {
+            font-weight: 500;
+            flex: 1;
+        }
+        .test-status {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .test-details {
+            font-size: 12px;
+            color: #666;
+            margin-top: 4px;
+        }
+        .summary {
+            background: #e3f2fd;
+            border: 2px solid #2196f3;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .summary h2 {
+            margin-top: 0;
+            color: #1976d2;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .stat {
+            background: white;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 32px;
+            font-weight: bold;
+            color: #1976d2;
+        }
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+        .error-detail {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 4px;
+            padding: 10px;
+            margin-top: 8px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Phase 1 Refactoring Test Suite</h1>
+    <div id="summary" class="summary"></div>
+    <div id="test-results" class="test-suite"></div>
+
+    <!-- Toast element for testing -->
+    <div id="toast" style="display: none;"></div>
+
+    <script type="module">
+        import { appState } from './core/state-manager.js';
+        import { domCache } from './utils/dom-cache.js';
+        import {
+            formatEntityName,
+            escapeHtml,
+            escapeForJS,
+            formatDate,
+            formatNumber,
+            truncate,
+            capitalize
+        } from './utils/formatter.js';
+        import { Toast } from './components/toast.js';
+        import {
+            loadMarkedJS,
+            renderMarkdown,
+            isMarkedLoaded
+        } from './utils/markdown.js';
+        import { eventBus } from './core/event-bus.js';
+
+        const tests = [];
+        const startTime = performance.now();
+
+        // State Manager Tests
+        tests.push({
+            suite: 'State Manager',
+            name: 'get/set network data',
+            test: () => {
+                appState.set('network.data', { test: 'data', value: 123 });
+                const data = appState.get('network.data');
+                return data.test === 'data' && data.value === 123;
+            }
+        });
+
+        tests.push({
+            suite: 'State Manager',
+            name: 'get nested path',
+            test: () => {
+                appState.set('entities.bios', { 'Test Entity': 'Bio text' });
+                return appState.get('entities.bios')['Test Entity'] === 'Bio text';
+            }
+        });
+
+        tests.push({
+            suite: 'State Manager',
+            name: 'subscribe to changes',
+            test: () => {
+                let called = false;
+                appState.subscribe('network.selectedNode', (value) => {
+                    called = value === 'test-node';
+                });
+                appState.set('network.selectedNode', 'test-node');
+                return called;
+            }
+        });
+
+        tests.push({
+            suite: 'State Manager',
+            name: 'visible nodes Set',
+            test: () => {
+                const nodes = appState.get('network.visibleNodes');
+                nodes.add('node1');
+                nodes.add('node2');
+                return nodes.size === 2 && nodes.has('node1');
+            }
+        });
+
+        // DOM Cache Tests
+        tests.push({
+            suite: 'DOM Cache',
+            name: 'cache element lookup',
+            test: () => {
+                const div = document.createElement('div');
+                div.id = 'test-cache-1';
+                document.body.appendChild(div);
+                const cached = domCache.get('test-cache-1');
+                return cached === div;
+            }
+        });
+
+        tests.push({
+            suite: 'DOM Cache',
+            name: 'return null for missing element',
+            test: () => {
+                return domCache.get('non-existent-element-12345') === null;
+            }
+        });
+
+        tests.push({
+            suite: 'DOM Cache',
+            name: 'cache invalidation',
+            test: () => {
+                const div = document.createElement('div');
+                div.id = 'test-cache-2';
+                document.body.appendChild(div);
+                domCache.get('test-cache-2'); // Cache it
+                domCache.invalidate('test-cache-2');
+                return !domCache.cache.has('test-cache-2');
+            }
+        });
+
+        tests.push({
+            suite: 'DOM Cache',
+            name: 'statistics tracking',
+            test: () => {
+                domCache.clear();
+                domCache.get('test-results'); // Should exist, miss then hit
+                domCache.get('test-results'); // Hit
+                const stats = domCache.getStats();
+                return stats.hits >= 1 && stats.lookups >= 2;
+            }
+        });
+
+        // Formatter Tests
+        tests.push({
+            suite: 'Formatter',
+            name: 'format entity name (comma separated)',
+            test: () => {
+                return formatEntityName('Epstein, Jeffrey') === 'Jeffrey Epstein';
+            }
+        });
+
+        tests.push({
+            suite: 'Formatter',
+            name: 'format entity name (already formatted)',
+            test: () => {
+                return formatEntityName('Jeffrey Epstein') === 'Jeffrey Epstein';
+            }
+        });
+
+        tests.push({
+            suite: 'Formatter',
+            name: 'escape HTML',
+            test: () => {
+                const escaped = escapeHtml('<script>alert("xss")</script>');
+                return escaped.includes('&lt;') && escaped.includes('&gt;');
+            }
+        });
+
+        tests.push({
+            suite: 'Formatter',
+            name: 'escape for JavaScript',
+            test: () => {
+                const escaped = escapeForJS("It's a \"test\"\nwith\ttabs");
+                return escaped.includes("\\'") && escaped.includes('\\"') &&
+                       escaped.includes('\\n') && escaped.includes('\\t');
+            }
+        });
+
+        tests.push({
+            suite: 'Formatter',
+            name: 'format number',
+            test: () => {
+                return formatNumber(1234567) === '1,234,567';
+            }
+        });
+
+        tests.push({
+            suite: 'Formatter',
+            name: 'truncate text',
+            test: () => {
+                const text = 'A'.repeat(150);
+                const truncated = truncate(text, 100);
+                return truncated.length === 103 && truncated.endsWith('...');
+            }
+        });
+
+        tests.push({
+            suite: 'Formatter',
+            name: 'capitalize text',
+            test: () => {
+                return capitalize('hello world') === 'Hello World';
+            }
+        });
+
+        // Toast Tests
+        tests.push({
+            suite: 'Toast',
+            name: 'show toast notification',
+            test: () => {
+                Toast.show('Test message', 'info', 1000);
+                const toast = document.getElementById('toast');
+                return toast.textContent === 'Test message' &&
+                       toast.classList.contains('show');
+            }
+        });
+
+        tests.push({
+            suite: 'Toast',
+            name: 'backward compatibility (window.showToast)',
+            test: () => {
+                return typeof window.showToast === 'function';
+            }
+        });
+
+        // Markdown Tests
+        tests.push({
+            suite: 'Markdown',
+            name: 'load marked.js library',
+            test: async () => {
+                await loadMarkedJS();
+                return isMarkedLoaded();
+            }
+        });
+
+        tests.push({
+            suite: 'Markdown',
+            name: 'render markdown to HTML',
+            test: async () => {
+                const html = await renderMarkdown('# Test\n\nParagraph with **bold**');
+                return html.includes('<h1>') && html.includes('<strong>');
+            }
+        });
+
+        // Event Bus Tests
+        tests.push({
+            suite: 'Event Bus',
+            name: 'emit and receive events',
+            test: () => {
+                let received = false;
+                eventBus.on('test-event', (data) => {
+                    received = data.value === 'test';
+                });
+                eventBus.emit('test-event', { value: 'test' });
+                return received;
+            }
+        });
+
+        tests.push({
+            suite: 'Event Bus',
+            name: 'once listener',
+            test: () => {
+                let count = 0;
+                eventBus.once('once-event', () => count++);
+                eventBus.emit('once-event');
+                eventBus.emit('once-event');
+                return count === 1;
+            }
+        });
+
+        tests.push({
+            suite: 'Event Bus',
+            name: 'unsubscribe',
+            test: () => {
+                let count = 0;
+                const unsubscribe = eventBus.on('unsub-event', () => count++);
+                eventBus.emit('unsub-event');
+                unsubscribe();
+                eventBus.emit('unsub-event');
+                return count === 1;
+            }
+        });
+
+        // Backward Compatibility Tests
+        tests.push({
+            suite: 'Backward Compatibility',
+            name: 'window.__appState exists',
+            test: () => typeof window.__appState !== 'undefined'
+        });
+
+        tests.push({
+            suite: 'Backward Compatibility',
+            name: 'window.__domCache exists',
+            test: () => typeof window.__domCache !== 'undefined'
+        });
+
+        tests.push({
+            suite: 'Backward Compatibility',
+            name: 'window.__formatter exists',
+            test: () => typeof window.__formatter !== 'undefined'
+        });
+
+        tests.push({
+            suite: 'Backward Compatibility',
+            name: 'window.__Toast exists',
+            test: () => typeof window.__Toast !== 'undefined'
+        });
+
+        // Run all tests
+        async function runTests() {
+            const results = [];
+
+            for (const t of tests) {
+                try {
+                    const result = t.test();
+                    const passed = result instanceof Promise ? await result : result;
+                    results.push({
+                        ...t,
+                        passed,
+                        error: null
+                    });
+                } catch (error) {
+                    results.push({
+                        ...t,
+                        passed: false,
+                        error: error.message
+                    });
+                }
+            }
+
+            return results;
+        }
+
+        // Render results
+        async function displayResults() {
+            const results = await runTests();
+            const endTime = performance.now();
+            const duration = (endTime - startTime).toFixed(2);
+
+            const passed = results.filter(r => r.passed).length;
+            const failed = results.filter(r => !r.passed).length;
+            const total = results.length;
+            const passRate = ((passed / total) * 100).toFixed(1);
+
+            // Group by suite
+            const suites = {};
+            results.forEach(r => {
+                if (!suites[r.suite]) suites[r.suite] = [];
+                suites[r.suite].push(r);
+            });
+
+            // Render summary
+            document.getElementById('summary').innerHTML = `
+                <h2>Test Summary</h2>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-value">${total}</div>
+                        <div class="stat-label">Total Tests</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value" style="color: #4caf50;">${passed}</div>
+                        <div class="stat-label">Passed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value" style="color: #f44336;">${failed}</div>
+                        <div class="stat-label">Failed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">${passRate}%</div>
+                        <div class="stat-label">Pass Rate</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">${duration}ms</div>
+                        <div class="stat-label">Duration</div>
+                    </div>
+                </div>
+            `;
+
+            // Render test results
+            let html = '';
+            for (const [suite, tests] of Object.entries(suites)) {
+                html += `<h3>${suite}</h3>`;
+                tests.forEach(r => {
+                    html += `
+                        <div class="test-result ${r.passed ? 'pass' : 'fail'}">
+                            <span class="test-status">${r.passed ? '✅' : '❌'}</span>
+                            <div style="flex: 1;">
+                                <div class="test-name">${r.name}</div>
+                                ${r.error ? `<div class="error-detail">Error: ${r.error}</div>` : ''}
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+
+            document.getElementById('test-results').innerHTML = html;
+
+            // Log to console
+            console.log(`\n${'='.repeat(60)}`);
+            console.log(`Phase 1 Refactoring Test Results`);
+            console.log(`${'='.repeat(60)}`);
+            console.log(`Total: ${total} | Passed: ${passed} | Failed: ${failed}`);
+            console.log(`Pass Rate: ${passRate}% | Duration: ${duration}ms`);
+            console.log(`${'='.repeat(60)}\n`);
+
+            if (failed > 0) {
+                console.error('❌ Some tests failed. See details above.');
+                results.filter(r => !r.passed).forEach(r => {
+                    console.error(`  - ${r.suite}: ${r.name}`);
+                    if (r.error) console.error(`    Error: ${r.error}`);
+                });
+            } else {
+                console.log('✅ All tests passed!');
+            }
+
+            // DOM Cache stats
+            console.log('\nDOM Cache Statistics:');
+            console.log(domCache.getStats());
+        }
+
+        // Run tests on load
+        displayResults();
+    </script>
+</body>
+</html>

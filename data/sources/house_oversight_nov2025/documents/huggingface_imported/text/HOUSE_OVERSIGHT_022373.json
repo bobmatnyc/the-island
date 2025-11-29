@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_022373",
+  "filename": "IMAGES-006-HOUSE_OVERSIGHT_022373.txt",
+  "text": "Contents\n\nElection results 2\nSenate profile 4\nHouse profile 6\nAdministration and agenda 8\nLame-duck session 2016 11\nTax 13\nHealth 17\nEnergy 19\nFinancial services 21\n\nEY 1 | Election 2016\n\nHOUSE_OVERSIGHT_022373",
+  "metadata": {
+    "original_filename": "IMAGES-006-HOUSE_OVERSIGHT_022373.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 210,
+    "word_count": 33,
+    "line_count": 15,
+    "import_date": "2025-11-19T21:47:47.058561",
+    "prefix": "IMAGES-006"
+  }
+}

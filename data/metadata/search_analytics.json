@@ -1,0 +1,148 @@
+{
+  "total_searches": 105,
+  "popular_queries": {
+    "Epstein": 12,
+    "Trump": 1,
+    "island": 1,
+    "Ghislaine Maxwell": 3,
+    "Epstein AND Maxwell": 6,
+    "Epstein OR Clinton": 6,
+    "Epstein NOT Maxwell": 6,
+    "Ghisline": 6,
+    "Maxwell": 3,
+    "xyznonexistentquery123": 3,
+    "flight": 3,
+    "Maxwel": 3,
+    "Jeffry": 3,
+    "Epstien": 3,
+    "(Epstein OR Clinton) AND NOT Maxwell": 3,
+    "": 3,
+    "!@#$%^&*()": 3,
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": 3,
+    "AND OR NOT": 3,
+    "test_query_0": 3,
+    "test_query_1": 3,
+    "test_query_3": 3,
+    "test_query_5": 3,
+    "test_query_2": 3,
+    "test_query_6": 3,
+    "test_query_4": 3,
+    "test_query_8": 3,
+    "test_query_9": 3,
+    "test_query_7": 3,
+    "test": 1
+  },
+  "recent_searches": [
+    {
+      "query": "test_query_9",
+      "timestamp": "2025-11-20T17:57:41.651536",
+      "fields": "all"
+    },
+    {
+      "query": "test_query_4",
+      "timestamp": "2025-11-20T17:57:41.594826",
+      "fields": "all"
+    },
+    {
+      "query": "test_query_1",
+      "timestamp": "2025-11-20T17:57:41.537439",
+      "fields": "all"
+    },
+    {
+      "query": "test_query_7",
+      "timestamp": "2025-11-20T17:57:41.480293",
+      "fields": "all"
+    },
+    {
+      "query": "test_query_3",
+      "timestamp": "2025-11-20T17:57:41.421402",
+      "fields": "all"
+    },
+    {
+      "query": "test_query_8",
+      "timestamp": "2025-11-20T17:57:41.363817",
+      "fields": "all"
+    },
+    {
+      "query": "test_query_6",
+      "timestamp": "2025-11-20T17:57:41.306306",
+      "fields": "all"
+    },
+    {
+      "query": "test_query_5",
+      "timestamp": "2025-11-20T17:57:41.248072",
+      "fields": "all"
+    },
+    {
+      "query": "test_query_2",
+      "timestamp": "2025-11-20T17:57:41.191802",
+      "fields": "all"
+    },
+    {
+      "query": "test_query_0",
+      "timestamp": "2025-11-20T17:57:41.133117",
+      "fields": "all"
+    },
+    {
+      "query": "AND OR NOT",
+      "timestamp": "2025-11-20T17:57:41.072532",
+      "fields": "all"
+    },
+    {
+      "query": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "timestamp": "2025-11-20T17:57:40.916017",
+      "fields": "all"
+    },
+    {
+      "query": "!@#$%^&*()",
+      "timestamp": "2025-11-20T17:57:40.864012",
+      "fields": "all"
+    },
+    {
+      "query": "",
+      "timestamp": "2025-11-20T17:57:40.812373",
+      "fields": "all"
+    },
+    {
+      "query": "(Epstein OR Clinton) AND NOT Maxwell",
+      "timestamp": "2025-11-20T17:57:40.734571",
+      "fields": "all"
+    },
+    {
+      "query": "Epstein NOT Maxwell",
+      "timestamp": "2025-11-20T17:57:40.669048",
+      "fields": "all"
+    },
+    {
+      "query": "Epstein OR Clinton",
+      "timestamp": "2025-11-20T17:57:40.603750",
+      "fields": "all"
+    },
+    {
+      "query": "Epstein AND Maxwell",
+      "timestamp": "2025-11-20T17:57:40.538329",
+      "fields": "all"
+    },
+    {
+      "query": "Epstien",
+      "timestamp": "2025-11-20T17:57:40.477869",
+      "fields": "all"
+    },
+    {
+      "query": "Jeffry",
+      "timestamp": "2025-11-20T17:57:40.419496",
+      "fields": "all"
+    },
+    {
+      "query": "Maxwel",
+      "timestamp": "2025-11-20T17:57:40.362529",
+      "fields": "all"
+    },
+    {
+      "query": "Ghisline",
+      "timestamp": "2025-11-20T17:57:40.304506",
+      "fields": "all"
+    }
+  ],
+  "last_updated": "2025-11-20T17:57:41.651565"
+}

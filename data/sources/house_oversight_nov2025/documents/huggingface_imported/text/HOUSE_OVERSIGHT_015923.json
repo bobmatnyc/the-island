@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015923",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015923.txt",
+  "text": "Silver Bullets\nCan't be Fired\n\numan brains are wonderfully creative things. We can compose\nH music, play golf, write novels, and turn our hands to all manner\n\nof problems. Many people use their brains to write software. In\nour modern-day lives we use software all the time: when we access the\nweb, type on a word processor or play a computer game. Software also\ninhabits many apparently dumb devices. Modern cars contain dozens\nof computers quietly working away; providing entertainment and\nnavigation, controlling the engine, and helping the car brake safely. In\nmy living room I count over a hundred computers. Many are tiny, like\nthe one in my TV remote control, while others are hidden as parts of\nlarger machines. The laptop on which I write has over twenty computers\ninside it, besides the main Intel processor.\n\nOne thing all these computers have in common is that a human\nbeing sat for many hours writing their software. Software is formal logic\nwritten in something resembling English.\n\nIf I go to my ATM and try to withdraw cash, a programmer will\nhave written out the logic for the transaction as a set of rules.\n\nWhen I put my bankcard in the slot, and type in my PIN, a line of\nsoftware will ask: If the bank balance of ‘James Tagg’ is less than twenty\ndollars and I have pressed ‘withdraw for an amount in excess of twenty\ndollars, then display, “We are sorry we cannot process the transaction at\nthis time.” and return the card. There seems to be an unwritten rule that\nthe things a computer says should be accurate but unhelpful!\n\nHOUSE_OVERSIGHT_015923",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015923.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1569,
+    "word_count": 274,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:46.569311",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,238 @@
+# Canonicalization Rules
+# Controls deduplication behavior and version selection
+
+deduplication:
+  # Similarity thresholds (0.0-1.0)
+  thresholds:
+    exact_match: 1.0          # Must be identical
+    fuzzy_match: 0.90         # 90% similar for OCR variations
+    metadata_match: 0.95      # 95% similar for email metadata
+    partial_overlap_min: 0.10 # Minimum overlap to detect (avoid exact duplicates)
+    partial_overlap_max: 0.90 # Maximum overlap to detect (avoid exact duplicates)
+
+  # Detection methods (in priority order)
+  methods:
+    - name: "file_hash"
+      description: "Exact binary match (same PDF file)"
+      weight: 1.0
+      enabled: true
+
+    - name: "content_hash"
+      description: "Normalized text match (same content, different format)"
+      weight: 1.0
+      enabled: true
+
+    - name: "fuzzy_hash"
+      description: "ssdeep for OCR variations"
+      weight: 0.95
+      enabled: true
+      requires: "ssdeep"
+
+    - name: "metadata"
+      description: "Email metadata (from/to/date/subject)"
+      weight: 0.95
+      enabled: true
+      applies_to: ["email"]
+
+    - name: "page_hash"
+      description: "Individual page comparison"
+      weight: 0.80
+      enabled: true
+
+  # Version selection criteria (weights sum to 1.0)
+  selection_priority:
+    ocr_quality:
+      weight: 0.40
+      description: "OCR quality score (0.0-1.0)"
+      thresholds:
+        high: 0.90
+        medium: 0.70
+        low: 0.50
+
+    redactions:
+      weight: 0.25
+      description: "Prefer versions with fewer redactions"
+      scoring:
+        no_redactions: 1.0
+        some_redactions: 0.5
+        heavy_redactions: 0.0
+
+    completeness:
+      weight: 0.20
+      description: "Document completeness"
+      scoring:
+        complete: 1.0
+        partial: 0.5
+        fragment: 0.0
+
+    source_authority:
+      weight: 0.10
+      description: "Authority of source"
+      scoring:
+        court_record: 1.0
+        government_foia: 0.8
+        official_release: 0.6
+        archive: 0.4
+        media: 0.2
+
+    file_quality:
+      weight: 0.05
+      description: "File quality metrics"
+      factors:
+        - resolution
+        - file_size
+        - format_quality
+
+# Quality assessment
+quality:
+  ocr:
+    min_quality: 0.70              # Minimum acceptable OCR quality
+    max_corruption_rate: 0.05      # Maximum character corruption rate
+    word_dictionary: "built-in"    # Use built-in common words
+
+    quality_levels:
+      high:
+        min_score: 0.90
+        min_word_match: 0.85
+      medium:
+        min_score: 0.70
+        min_word_match: 0.70
+      low:
+        min_score: 0.50
+        min_word_match: 0.50
+
+  completeness:
+    detect_missing_pages: true
+    detect_truncation: true
+    require_complete: false        # Don't reject partial documents
+
+  redactions:
+    detect_patterns:
+      - "[REDACTED]"
+      - "█"
+      - "▓"
+      - "■"
+      - "[SEALED]"
+      - "[CONFIDENTIAL]"
+      - "XXXXXXXXXX"
+      - "[WITHHELD]"
+
+# Metadata extraction
+metadata:
+  email:
+    extract_fields:
+      - from
+      - to
+      - cc
+      - bcc
+      - subject
+      - date
+      - attachments
+
+    patterns:
+      from: 'From:\s*([^\n]+)'
+      to: 'To:\s*([^\n]+)'
+      cc: 'CC:\s*([^\n]+)'
+      subject: 'Subject:\s*([^\n]+)'
+      date: 'Date:\s*([^\n]+)'
+
+  court_filing:
+    extract_fields:
+      - case_number
+      - court
+      - filing_type
+      - filing_date
+      - parties
+
+# Output format
+output:
+  format: "markdown"
+  frontmatter_format: "yaml"
+
+  directory_structure:
+    by_type: true          # Organize by document type
+    by_year: true          # Create year subdirectories
+    by_source: false       # Don't organize by source (that's in sources/ dir)
+
+  filename_format: "{canonical_id}.md"
+
+  frontmatter_required_fields:
+    - canonical_id
+    - document_type
+    - title
+    - date
+    - sources
+    - content_hash
+
+  frontmatter_optional_fields:
+    - category
+    - tags
+    - from
+    - to
+    - subject
+    - case_number
+    - court
+    - ocr_quality
+    - duplicates_found
+
+# Processing
+processing:
+  batch_size: 100           # Process in batches
+  max_file_size_mb: 100     # Skip files larger than this
+  timeout_seconds: 300      # Timeout for single document
+
+  logging:
+    level: "INFO"
+    log_file: "data/metadata/canonicalization.log"
+    log_to_console: true
+
+  error_handling:
+    on_ocr_failure: "warn"     # warn|skip|fail
+    on_metadata_failure: "warn"
+    on_duplicate_conflict: "select_best"
+
+# Statistics
+statistics:
+  track_metrics:
+    - total_documents
+    - duplicates_found
+    - quality_distribution
+    - sources_per_document
+    - documents_by_type
+    - documents_by_year
+
+  generate_reports:
+    - deduplication_summary
+    - quality_report
+    - source_coverage
+    - processing_log
+
+# Edge cases
+edge_cases:
+  partial_overlaps:
+    action: "create_both"    # Create both documents, note overlap
+    link_documents: true
+    min_overlap: 0.10
+    max_overlap: 0.90
+
+  metadata_conflicts:
+    resolution: "authoritative_source"  # Use most authoritative source
+    log_conflicts: true
+    note_in_frontmatter: true
+
+  missing_pages:
+    mark_as_partial: true
+    note_missing_pages: true
+    prefer_complete: true
+
+  format_differences:
+    normalize_to: "markdown"
+    preserve_original: true
+    note_format: true
+
+# Optimization
+optimization:
+  use_cache: true
+  cache_hashes: true
+  parallel_processing: false  # Not implemented yet
+  max_workers: 4

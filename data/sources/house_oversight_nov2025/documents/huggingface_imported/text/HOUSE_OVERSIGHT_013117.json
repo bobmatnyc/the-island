@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013117",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013117.txt",
+  "text": "11.4 Piaget’s Stages in the Context of Uncertain Inference 201\n\nStage 3:Formal\n\nInference Rules\n\nInference Control Strategy |\n\ni Inference Rules }\n\nInference Control Strategy |\n\n| Knowledge about New\n1 World Knowledge\n1\n\nKnowledge about how to\ncontrol inference\n\nNew\nKnowledge\nabout how to\ncontrol\ninference\n\nFig. 11.7: Uncertain Inference in the Formal Stage\n\n2. Scientific experimentation and other rigorous observational testing of abstract formaliza-\ntions.\n\n3. Social and philosophical modeling, and other advanced applications of empathy and the\nTheory of Mind.\n\nIn terms of inference control this stage sees not just perception of new knowledge about\ninference control itself, but inference controlled reasoning about that knowledge and the creation\nof abstract formalizations about inference control which are reasoned-upon, tested, and verified\nor debunked.\n\n11.4.3.1 Systematic Experimentation\n\nThe Piagetan formal phase is a particularly subtle one from the perspective of uncertain in-\nference. In a sense, AGI inference engines already have strong capability for formal reasoning\nbuilt in. Ironically, however, no existing inference engine is capable of deploying its reasoning\nrules in a powerfully effective way, and this is because of the lack of inference control heuris-\ntics adequate for controlling abstract formal reasoning. These heuristics are what arise during\nPiaget’s formal stage, and we propose that in the content of uncertain inference systems, they\ninvolve the application of inference itself to the problem of refining inference control.\n\nHOUSE_OVERSIGHT_013117",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013117.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1593,
+    "word_count": 230,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:47.672017",
+    "prefix": "IMAGES-002"
+  }
+}

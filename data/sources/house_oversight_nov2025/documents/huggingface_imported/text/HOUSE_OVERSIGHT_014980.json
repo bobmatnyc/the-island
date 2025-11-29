@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014980",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014980.txt",
+  "text": "Volatility in Europe\nBuy EU banks dispersion: (+) basket call, (-) worst-of calls\n\nTrade: Long Dec17 105% call on an equally weighted basket of SAN, BNP, ING,\nISP & DBK*, short Dec17 ATM worst-of call on the same basket for 1.8% indic.\n(correl bid: 81%).\n\n* We pick the top 5 stocks with the largest market cap within the SX7E (EU banks sector\n\nindex) corresponding to 5 different countries\n\nWe have previously highlighted our preference for vol dispersion trades both in the US\nand the EU — with the most recent recommendation being sector dispersion\nopportunities within the EU. In a similar vein, we suggest positioning for greater\ndispersion within EU banks via buying a call on a basket of Santander, BNP Paribas, ING,\nIntesa and Deutsche Bank part-financed by selling a worst-of call on the same basket as:\n\n¢ Improving macro/earnings, sensitivity to rates and regulatory headwinds likely\nto lead to greater differentiation within banks: An improving macro backdrop in\nEurope & ongoing improvement in EPS revisions (see Style Cycle) paint a bullish\npicture for EU banks as they are seen as leveraged macro plays within the EU.\nHowever, we believe there is a potential for greater differentiation within banks as\nour bank analysts have argued before (here and here} that: (i) some banks stand to\nbenefit more than others based on their earnings power should the uptick in the\nearnings cycle continue, (ii) banks’ gearing to interest rate cycles, and therefore\nlikely impact from a more hawkish ECB, varies between different banks and (iii)\nFrench and Benelux banks are likely to be most impacted under potential Basel IV\nregulations.\n\n+ Entry point is attractive given historically low implied vols: The structure\nbenefits from its long vol bias as average 6M implied vol on the basket of 5\nEuropean banks is historically low (13% %-ile since Jan-08, Chart 16).\n\n¢ High implied correlation beneficial for structure’s short correlation bias: Chart\n17 shows the average pairwise 6M and 3M realised correlations between the 5 EU\nbanks, which are historically low. Despite this recent drop in realised correlations,\nimplied correlation is priced higher, thus providing an interesting entry point for the\n(short-correlation) trade.\n\nBankof America <> ; dee Ios\nMerrill Lynch Global Equity Volatility Insights | 20 June 2017 9\n\nHOUSE_OVERSIGHT_014980",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014980.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2349,
+    "word_count": 380,
+    "line_count": 43,
+    "import_date": "2025-11-19T21:47:45.375152",
+    "prefix": "IMAGES-003"
+  }
+}

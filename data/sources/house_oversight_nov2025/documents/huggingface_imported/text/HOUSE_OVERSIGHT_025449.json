@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025449",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025449.txt",
+  "text": "Flags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: D4E23F4E-17DA-4C51-A871-FC2C8349C181\n\nMessage: 100%\n\nTime: 03/30/19 10:17:30 AM (575659050)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: D/7C80AEF-CCCO0O-4872-BCF1-918177A50BO0C\n\nMessage: Will have so much fun\n\nSender: i’\n\nTime: 03/30/19 10:17:40 AM (575659060)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: A42AA571-1506-4876-B84A-79767BE6AEEA\n\nMessage: Who is the guy in the pic?\n\nSender: e:jeeitunes@gmail.com\n\nTime: 03/30/19 10:56:22 AM (575661382)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: 2C7D57A2-23DD-4592-BE3E-6417BEA36F94\n\nMessage: Jacques Lang\n\nSender: e:jeeitunes@gmail.com\n\nTime: 03/30/19 11:00:55 AM (575661655)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: OD/7D4B15-6BC5-499F-82A0-E4B7C4660557\n\nMessage: Or do you mean me\n\nTime: 03/30/19 11:02:58 AM (575661778)\nFlags: 1060865\n\nIs Read: Yes\n\nHOUSE_OVERSIGHT_025449",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025449.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 921,
+    "word_count": 112,
+    "line_count": 63,
+    "import_date": "2025-11-19T21:47:47.959261",
+    "prefix": "IMAGES-008"
+  }
+}

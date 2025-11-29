@@ -1,0 +1,221 @@
+{
+  "summary": {
+    "duration": "7.01s",
+    "totalChecks": 42,
+    "passed": 7,
+    "failed": 2,
+    "warnings": 0
+  },
+  "results": [
+    {
+      "timestamp": "2025-11-24T19:24:32.403Z",
+      "type": "info",
+      "message": "=== Starting E2E Tests for Bio Summary & GUID URLs ==="
+    },
+    {
+      "timestamp": "2025-11-24T19:24:32.404Z",
+      "type": "info",
+      "message": "Base URL: http://localhost:5173"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:32.404Z",
+      "type": "info",
+      "message": "Test Time: 2025-11-24T19:24:32.404Z"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:32.404Z",
+      "type": "info",
+      "message": "\nLaunching browser..."
+    },
+    {
+      "timestamp": "2025-11-24T19:24:32.532Z",
+      "type": "info",
+      "message": "\n=== Inspecting Entities Page Structure ==="
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.551Z",
+      "type": "info",
+      "message": "Full page screenshot captured"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.555Z",
+      "type": "info",
+      "message": "Total links found: 114"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.734Z",
+      "type": "info",
+      "message": "Entity links found: 100"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.734Z",
+      "type": "info",
+      "message": "GUID-based links found: 100"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.734Z",
+      "type": "success",
+      "message": "✓ Found 100 GUID-based entity URLs"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.734Z",
+      "type": "info",
+      "message": "  - AbbyPersonConnections:0Documents:0Black BookSources: black_book: /entities/8889edfa-d770-54e4-8192-dc900cdd2257/abby"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.734Z",
+      "type": "info",
+      "message": "  - King, AbbyPersonConnections:0Documents:0Black BookSources: black_book: /entities/8e0f7e1f-3a6a-5e26-a922-0ceb12cb346a/abby-king"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.734Z",
+      "type": "info",
+      "message": "  - Shelly, AboffPersonConnections:0Documents:0Black BookSources: black_book: /entities/8201befc-1528-5946-abfe-8271c77dcd50/aboff-shelly"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.734Z",
+      "type": "info",
+      "message": "  - Dell, AdamPersonConnections:0Documents:0Black BookSources: black_book: /entities/6a08be92-0877-59ba-940f-0a8a4e879833/adam-dell"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.734Z",
+      "type": "info",
+      "message": "  - Gardner, AdamPersonConnections:0Documents:0Black BookSources: black_book: /entities/13d3f0eb-d41d-5102-9e67-303bee55633b/adam-gardner"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:33.734Z",
+      "type": "info",
+      "message": "\n=== Testing: Jeffrey Epstein ==="
+    },
+    {
+      "timestamp": "2025-11-24T19:24:34.540Z",
+      "type": "error",
+      "message": "✗ Entity link not found: Jeffrey Epstein"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:34.540Z",
+      "type": "info",
+      "message": "\n=== Testing Direct GUID Navigation: Jeffrey Epstein ==="
+    },
+    {
+      "timestamp": "2025-11-24T19:24:34.540Z",
+      "type": "info",
+      "message": "Navigating to: http://localhost:5173/entities/43886eef-f28a-549d-8ae0-8409c2be68c4/jeffrey-epstein"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:34.573Z",
+      "type": "info",
+      "message": "HTTP Status: 200"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:34.573Z",
+      "type": "success",
+      "message": "✓ GUID URL with slug works (HTTP 200)"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:35.139Z",
+      "type": "info",
+      "message": "Page title: Epstein Archive"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:35.173Z",
+      "type": "info",
+      "message": "Screenshot captured"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:35.173Z",
+      "type": "info",
+      "message": "Testing without slug: http://localhost:5173/entities/43886eef-f28a-549d-8ae0-8409c2be68c4"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:35.205Z",
+      "type": "success",
+      "message": "✓ GUID-only URL works (HTTP 200)"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:35.205Z",
+      "type": "info",
+      "message": "\n=== Testing Bio Consistency: Jeffrey Epstein ==="
+    },
+    {
+      "timestamp": "2025-11-24T19:24:36.600Z",
+      "type": "success",
+      "message": "✓ Bio content found in detail view"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:36.605Z",
+      "type": "info",
+      "message": "Detail content preview: Back to EntitiesEpstein, JeffreyPersonAlso known as: Epstein, Jeffrey, Epstein, JeffreyBlack BookMultiple SourcesBioView full biographyDocs0 itemsFlig..."
+    },
+    {
+      "timestamp": "2025-11-24T19:24:36.605Z",
+      "type": "info",
+      "message": "\n=== Testing: Ghislaine Maxwell ==="
+    },
+    {
+      "timestamp": "2025-11-24T19:24:37.373Z",
+      "type": "error",
+      "message": "✗ Entity link not found: Ghislaine Maxwell"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:37.373Z",
+      "type": "info",
+      "message": "\n=== Testing Direct GUID Navigation: Ghislaine Maxwell ==="
+    },
+    {
+      "timestamp": "2025-11-24T19:24:37.373Z",
+      "type": "info",
+      "message": "Navigating to: http://localhost:5173/entities/2b3bdb1f-adb2-5050-b437-e16a1fb476e8/ghislaine-maxwell"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:37.403Z",
+      "type": "info",
+      "message": "HTTP Status: 200"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:37.403Z",
+      "type": "success",
+      "message": "✓ GUID URL with slug works (HTTP 200)"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:37.969Z",
+      "type": "info",
+      "message": "Page title: Epstein Archive"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:37.999Z",
+      "type": "info",
+      "message": "Screenshot captured"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:37.999Z",
+      "type": "info",
+      "message": "Testing without slug: http://localhost:5173/entities/2b3bdb1f-adb2-5050-b437-e16a1fb476e8"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:38.031Z",
+      "type": "success",
+      "message": "✓ GUID-only URL works (HTTP 200)"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:38.031Z",
+      "type": "info",
+      "message": "\n=== Testing Bio Consistency: Ghislaine Maxwell ==="
+    },
+    {
+      "timestamp": "2025-11-24T19:24:39.408Z",
+      "type": "success",
+      "message": "✓ Bio content found in detail view"
+    },
+    {
+      "timestamp": "2025-11-24T19:24:39.413Z",
+      "type": "info",
+      "message": "Detail content preview: Back to EntitiesMaxwell, GhislainePersonAlso known as: Maxwell, Ghislaine, Maxwell, GhislaineBlack BookMultiple SourcesBioView full biographyDocs0 ite..."
+    },
+    {
+      "timestamp": "2025-11-24T19:24:39.413Z",
+      "type": "info",
+      "message": "\n=== Generating Final Report ==="
+    }
+  ]
+}

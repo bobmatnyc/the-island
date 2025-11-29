@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015806",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015806.txt",
+  "text": "You can see just how intensively the brain works on a given problem,\nthrowing away all unnecessary information.\n\nThe brain contains mirror neurons, a type of brain cell that\nresponds when we see another human do something. These neurons\nfire as if we were performing the action ourselves even though we are\nmerely witnessing it. It is one of the ways we learn a skill. If] watch Tiger\nWoods's golf swing, my mirror neurons will fire as if I were practicing\nhis swing. Later when I practice the swing for real, my neurons will have\nalready been partially programmed. This effect is presumably the reason\nwe enjoy watching sports; our mirror neurons allow us to begin acquiring\na skill while sitting in an armchair! This is clearly a useful evolutionary\ntrait but you do also need to practice for real!\n\nMirror neurons also fire in response to witnessing emotions. When\nwe see an actor laugh or cry, we experience their emotion as if for real.\nThis helps us empathize with the person we are watching and is part of\nthe reason we enjoy movies and plays.\n\n~ Output\n\nNeural Network\n\nHOUSE_OVERSIGHT_015806",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015806.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1100,
+    "word_count": 191,
+    "line_count": 24,
+    "import_date": "2025-11-19T21:47:44.785382",
+    "prefix": "IMAGES-003"
+  }
+}

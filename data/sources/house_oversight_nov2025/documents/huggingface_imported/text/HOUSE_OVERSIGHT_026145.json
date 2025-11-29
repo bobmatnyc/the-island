@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026145",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_026145.txt",
+  "text": "31th of December 2016 31th of December 2015\n\nAssets Fair value of Assets Fair value\nbalance collaterals balance value of\nvalue collateral\ns\nMortgages\nNeither past due nor impaired 65 213 109 393\nPast due but not impaired 3 12 10 27\nLoans determined to be 31 168 104 242\nimpaired\nOther mortgages\nNeither past due nor impaired 15 62 78 192\nPast due but not impaired 0.3 4 9 7\nLoans determined to be 28 97 31 109\nimpaired\nConsumer loans\nNeither past due nor impaired 41 5 30 8\nPast due but not impaired 1 0.2 1 0.3\nLoans determined to be 0.1 2 0.3 2\nimpaired\nOverdrafts\nNeither past due nor impaired 7 2 6 4\nPast due but not impaired 0.1 0.2\nLoans determined to be\nimpaired\nOther loans\nNeither past due nor impaired 519 150 419 98\nPast due but not impaired 0.1 0.1 0.1 0.3\nLoans determined to be 17.4 33 3 10\nimpaired\nTotal 728 748.3 800.6 1092.6\nTotal loans net of 76.5 300 138.3 363\nimpairment\nCollateral coverage 392% 262%\n12\n\nHOUSE_OVERSIGHT_026145",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_026145.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 949,
+    "word_count": 180,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:49.093318",
+    "prefix": "IMAGES-008"
+  }
+}

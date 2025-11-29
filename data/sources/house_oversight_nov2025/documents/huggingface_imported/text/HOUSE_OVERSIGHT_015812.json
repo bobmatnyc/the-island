@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015812",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015812.txt",
+  "text": "122 Are the Androids Dreaming Yet?\n\ninhibitors and activators like in real synapses. An individual neuron will\nfire if the sum of all the connections multiplied by the weights reaches a\ncertain pre-determined threshold.\n\nA neural network does not run a program in the conventional\nsense, and must be trained through experience rather like a human\nbrain. The training process allows the weights in the network table to\nbe adjusted to give the correct result. But, unlike the brain, you can read\nthe weights and even save them to a disk. The neural network tables\nstart with random settings. You show the network the letter ‘A’ and\nadjust the weights in the tables until it gives a positive answer: ‘It’s an\nA. Repeat the process with the other letters until the network correctly\ndistinguishes them. As you do this a computer algorithm constantly\nadjusts the weighting tables using a method called ‘back propagation.\n\nAt the end of the training process you can show the network some\nnew input and see how it does. For example, a letter ‘A that is in a slightly\ndifferent font to anything in the training set. Trained neural networks\ncan perform complex tasks such as recognizing faces or making clinical\ndiagnoses, and they can be allowed to modify their weighting tables as\nthey work so they learn from experience in a similar way to a human\nbrain. Strong AI proponents believe making a thinking machine is just\na matter of building a really large, fast neural network and working out\nhow to train it efficiently.\n\nQuantum Brains\n\nConventional wisdom says each brain cell is a single processing unit\nmaking an on-off decision — fire, or don't fire - depending on the state\nof its neighbors. But, Stuart Hameroff, Professor of Anesthesiology\nat the University of Arizona, thinks neurons are not the fundamental\ninformation-processing unit in the brain. He suggests that this accolade\nshould go to tubulin. Tubulin is a small, versatile protein that self-\nassembles into filaments rather like the way buckyballs - a magnetic\nchildren’s toy — can be arranged. There are two types of tubulin molecule:\na and B. They slot together and wrap around to form a micro tube about\n25nm in diameter.\n\nTubulin micro tubes do several important things in the body.\nThey form the skeleton of neurons and give them structure. They are\ninvolved in guiding neurons as they grow towards each other to form\nnew connections, and they also operate in the nucleus of a cell to unzip\n\nHOUSE_OVERSIGHT_015812",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015812.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2481,
+    "word_count": 420,
+    "line_count": 46,
+    "import_date": "2025-11-19T21:47:44.787654",
+    "prefix": "IMAGES-003"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015981",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015981.txt",
+  "text": "Hyper-Communication 291\n\nHologram\n\nThere are still problems. The image is stereo but planar. All the\nlight coming into your eye comes from the screen a meter or so away.\nIn the real world objects need you to change the focal length of your\neye to bring them into sharp focus depending on their proximity. Try\nlooking at your hand as you move it towards and away from your face,\ntoo close and your eye can't pull focus any further and it will blur. This\nmismatch between focal depth and the apparent distance implied by\nmotion parallax is one of the reasons you can get headaches watching\n3D images. There is something not quite right about them and your eye\nhas to learn a new behavior.\n\nAudio Field\n\nOur poor friend at the end of the phone is listening to a mere 4700 bits\nper second rendition of the comedian. A compact disk is 64,000, 16-\nbit samples per second in stereo, over a million bits per second. So the\ninformation content of a mobile phone call is very low. It is a miracle\nyou can understand speech at all over such a narrow channel, but this is\nmade possible by two factors. First, human speech uses a limited range\nof frequencies. All the information in our voices lies within about two\noctaves centered on middle C. And, second, you can perform some\n\nHOUSE_OVERSIGHT_015981",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015981.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1290,
+    "word_count": 233,
+    "line_count": 27,
+    "import_date": "2025-11-19T21:47:48.605356",
+    "prefix": "IMAGES-003"
+  }
+}

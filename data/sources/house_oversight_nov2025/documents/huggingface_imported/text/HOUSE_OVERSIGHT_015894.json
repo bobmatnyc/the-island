@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015894",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015894.txt",
+  "text": "204 Are the Androids Dreaming Yet?\n\nEvery correctly formed theorem number has another number,\nwhich demonstrates the proof of that number.\n\nIf this is universally true there should be no contradiction.\nUnfortunately if you apply the theorem to itself you get something\nsimilar to the liar’s paradox.\n\n“This proof number is not a proof of the truth of this theorem\nnumber.”\n\nThe proof number proves the theorem number is true, but the truth\nof the statement is that it can’t be a proof of the statement... Paradox.\n\nThe only way to resolve the paradox is to go back one step and\nrealize that not every correctly formed theorem number has a proof\nnumber using only the rules of that system.\n\nConcisely, Godel’s theorem says, “Within any formal system of\nmathematics there can be statements that are true but are not provable\nusing only the rules of that system”\n\nWhen Hilbert heard of Gédel’s proof, his first reaction was anger.\nAfter all, he had spent 30 years of his life trying to prove mathematics was\ntidy and complete. Gédel had just shown it was not. Hilbert never worked\non formalism again, but the rest of the mathematical establishment\nlargely ignored the result. Godel’s proof did not stop mathematicians\nproving new theorems nor doing useful mathematics. They went on\nmuch as before, using a mixture of intuition and analysis. The only\ndifference was someone had told them analysis alone would not succeed.\nThe repercussions of Gédel’s theory have more to do with understanding\nour place in the Universe and the nature of knowledge discovery. These\nare ‘big’ philosophical questions, which don’t greatly affect the day-to-\nday ability of a mathematician to do their job. However, it is important\nto understand that knowledge discovery is not simply analysis. Knowing\nthis helps us understand human creativity.\n\nInconsistency\n\nIn the proof above, I said the only way to resolve the paradox is by saying\nthere cannot be a proof number for every mathematical statement and\ntherefore mathematics is incomplete. There is one other way to solve the\nparadox, and that is by allowing inconsistency into the system. Gédel’s\nproof assumes you can prove something true or false, but what if you\ncould prove it true and false? In this case, the system is complete but you\ncan prove truths and untruths within it! This may seem an acceptable\nsolution, but inconsistency in a mathematical model is a cancer that will\n\nHOUSE_OVERSIGHT_015894",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015894.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2437,
+    "word_count": 406,
+    "line_count": 50,
+    "import_date": "2025-11-19T21:47:46.640913",
+    "prefix": "IMAGES-003"
+  }
+}

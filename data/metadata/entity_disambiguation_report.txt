@@ -1,0 +1,315 @@
+======================================================================
+ENTITY DISAMBIGUATION REPORT
+======================================================================
+
+Total entities analyzed: 1773
+Duplicate groups found: 67
+Entities with duplicates: 138
+Similarity threshold: 0.85
+
+DUPLICATE GROUPS (showing top 50):
+----------------------------------------------------------------------
+
+1. Canonical: Female (1) (5 variations)
+   Variations:
+      - Female (1)  (trips: 0)
+      - Male (1)  (trips: 0)
+      - Female (2)  (trips: 0)
+      - Female (3)  (trips: 0)
+      - Female (4)  (trips: 0)
+   Merged: 0 total trips, sources: flight_logs
+
+2. Canonical: Mario B. Garnero Jr. (3 variations)
+   Variations:
+      - Mario B. Garnero Jr.  (trips: 0)
+      - Mario Ganero Sr.  (trips: 0)
+      - Mario Ganero Jr.  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+3. Canonical: Glenn       Glenn Dubin (2 variations)
+   Variations:
+      - Glenn Dubin  (trips: 0)
+      - Glenn       Glenn Dubin  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+4. Canonical: Donald      Donald Trump (2 variations)
+   Variations:
+      - Donald Trump  (trips: 0)
+      - Donald      Donald Trump  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+5. Canonical: Ivanka Trump (2 variations)
+   Variations:
+      - Ivanka Trump  (trips: 0)
+      - Ivana Trump  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+6. Canonical: Joel      Joel Pashcow (2 variations)
+   Variations:
+      - Joel Pashcow  (trips: 0)
+      - Joel      Joel Pashcow  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+7. Canonical: Warren    Warren Spector (2 variations)
+   Variations:
+      - Warren Spector  (trips: 0)
+      - Warren    Warren Spector  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+8. Canonical: Frederic    Frederic Fekkai (2 variations)
+   Variations:
+      - Frederic Fekkai  (trips: 0)
+      - Frederic    Frederic Fekkai  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+9. Canonical: Henry    Henry Rosovsky (2 variations)
+   Variations:
+      - Henry Rosovsky  (trips: 0)
+      - Henry    Henry Rosovsky  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+10. Canonical: Mark      Mark Epstein (2 variations)
+   Variations:
+      - Mark Epstein  (trips: 0)
+      - Mark      Mark Epstein  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+11. Canonical: Gary        Gary Kerney (2 variations)
+   Variations:
+      - Gary Kerney  (trips: 0)
+      - Gary        Gary Kerney  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+12. Canonical: Marvin      Marvin Minsky (2 variations)
+   Variations:
+      - Marvin Minsky  (trips: 0)
+      - Marvin      Marvin Minsky  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+13. Canonical: Doug           Doug Band (2 variations)
+   Variations:
+      - Doug Band  (trips: 0)
+      - Doug           Doug Band  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+14. Canonical: Anthony    Anthony Barrett (2 variations)
+   Variations:
+      - Anthony Barrett  (trips: 0)
+      - Anthony    Anthony Barrett  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+15. Canonical: David Ross (2 variations)
+   Variations:
+      - David Ross  (trips: 0)
+      - David Doss  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+16. Canonical: Kevin       Kevin Spacey (2 variations)
+   Variations:
+      - Kevin Spacey  (trips: 0)
+      - Kevin       Kevin Spacey  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+17. Canonical: Steve    Steve Tuckerman (2 variations)
+   Variations:
+      - Steve Tuckerman  (trips: 0)
+      - Steve    Steve Tuckerman  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+18. Canonical: Alaistar Cudro (2 variations)
+   Variations:
+      - Alaistar Cudro  (trips: 0)
+      - Alistar Kudrow  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+19. Canonical: Alan    Alan Dershowitz (2 variations)
+   Variations:
+      - Alan Dershowitz  (trips: 0)
+      - Alan    Alan Dershowitz  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+20. Canonical: Alberto     Alberto Pinto (2 variations)
+   Variations:
+      - Alberto Pinto  (trips: 0)
+      - Alberto     Alberto Pinto  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+21. Canonical: Andrea   Andrea Mitrovich (2 variations)
+   Variations:
+      - Andrea Mitrovich  (trips: 0)
+      - Andrea   Andrea Mitrovich  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+22. Canonical: Anne Maxwell (2 variations)
+   Variations:
+      - Anne Maxwell  (trips: 0)
+      - Ian Maxwell  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+23. Canonical: Ariadne Calvo-Platero (2 variations)
+   Variations:
+      - Ariadne Calvo-Platero  (trips: 0)
+      - Mario Calvo-Platero  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+24. Canonical: Brenda Schad (2 variations)
+   Variations:
+      - Brenda Schad  (trips: 0)
+      - Brenda Shad  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+25. Canonical: Brent      Brent Tindall (2 variations)
+   Variations:
+      - Brent Tindall  (trips: 0)
+      - Brent      Brent Tindall  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+26. Canonical: Brook Johnson (2 variations)
+   Variations:
+      - Brook Hanson  (trips: 0)
+      - Brook Johnson  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+27. Canonical: Catherine    Catherine Derby (2 variations)
+   Variations:
+      - Catherine Derby  (trips: 0)
+      - Catherine    Catherine Derby  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+28. Canonical: Charlie Kirwan-Taylor (2 variations)
+   Variations:
+      - Charlie Kirwan-Taylor  (trips: 0)
+      - Helen Kirwan-Taylor  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+29. Canonical: Chris Steinkampf (2 variations)
+   Variations:
+      - Chris Steenkamp  (trips: 0)
+      - Chris Steinkampf  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+30. Canonical: Chris       Chris Tucker (2 variations)
+   Variations:
+      - Chris Tucker  (trips: 0)
+      - Chris       Chris Tucker  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+31. Canonical: Cristalle   Cristalle Wasche (2 variations)
+   Variations:
+      - Cristalle Wasche  (trips: 0)
+      - Cristalle   Cristalle Wasche  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+32. Canonical: Mrs. Singleton (2 variations)
+   Variations:
+      - Dr. Singleton  (trips: 0)
+      - Mrs. Singleton  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+33. Canonical: Emmy       Emmy Tayler (2 variations)
+   Variations:
+      - Emmy Tayler  (trips: 0)
+      - Emmy       Emmy Tayler  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+34. Canonical: Perri Ruttenberg (2 variations)
+   Variations:
+      - Eric Ruttenberg  (trips: 0)
+      - Perri Ruttenberg  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+35. Canonical: Felicia     Felicia Taylor (2 variations)
+   Variations:
+      - Felicia Taylor  (trips: 0)
+      - Felicia     Felicia Taylor  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+36. Canonical: Helen Schifter (2 variations)
+   Variations:
+      - Helen Schifter  (trips: 0)
+      - Helen Shifter  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+37. Canonical: Hugo Squire (2 variations)
+   Variations:
+      - Hugo Squire  (trips: 0)
+      - Hugo Swire  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+38. Canonical: Jeffrey Epstein (2 variations)
+   Variations:
+      - Jeffrey Epstein  (trips: 0)
+      - Jeffrey Steiner  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+39. Canonical: Joe        Joe Pagano (2 variations)
+   Variations:
+      - Joe Pagano  (trips: 0)
+      - Joe        Joe Pagano  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+40. Canonical: Julian Metcalfe (2 variations)
+   Variations:
+      - Julian Metcalfe  (trips: 0)
+      - Justin Metcalfe  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+41. Canonical: Kate Murray Philipson (2 variations)
+   Variations:
+      - Kate Murray Philipson  (trips: 0)
+      - Murray Philipson  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+42. Canonical: Kelly       Kelly Bovino (2 variations)
+   Variations:
+      - Kelly Bovino  (trips: 0)
+      - Kelly       Kelly Bovino  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+43. Canonical: Larry     Larry Morrison (2 variations)
+   Variations:
+      - Larry Morrison  (trips: 0)
+      - Larry     Larry Morrison  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+44. Canonical: Larry      Larry Visoski (2 variations)
+   Variations:
+      - Larry Visoski  (trips: 0)
+      - Larry      Larry Visoski  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+45. Canonical: Laura Laura Wasserman (2 variations)
+   Variations:
+      - Laura Wasserman  (trips: 0)
+      - Laura Laura Wasserman  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+46. Canonical: Luca Guissaini (2 variations)
+   Variations:
+      - Luca Giussani  (trips: 0)
+      - Luca Guissaini  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+47. Canonical: Mandy     Mandy Ellison (2 variations)
+   Variations:
+      - Mandy Ellison  (trips: 0)
+      - Mandy     Mandy Ellison  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+48. Canonical: Melinda      Melinda Luntz (2 variations)
+   Variations:
+      - Melinda Luntz  (trips: 0)
+      - Melinda      Melinda Luntz  (trips: 0)
+   Merged: 0 total trips, sources: black_book, flight_logs
+
+49. Canonical: Michael Reynal (2 variations)
+   Variations:
+      - Michael Rena  (trips: 0)
+      - Michael Reynal  (trips: 0)
+   Merged: 0 total trips, sources: black_book
+
+50. Canonical: Mrs. Heseltine (2 variations)
+   Variations:
+      - Mr. Heseltine  (trips: 0)
+      - Mrs. Heseltine  (trips: 0)
+   Merged: 0 total trips, sources: black_book

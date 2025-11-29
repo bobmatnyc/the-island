@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015979",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015979.txt",
+  "text": "Hyper-Communication 289\n\nMy in-person experience has much higher bandwidth than even\na DVD. It may even have infinite bandwidth. Physicists argue whether\nspace-time is quantized but, for now, we will look at what would be\nneeded to reproduce the experience faithfully on modern digital\nrecording equipment.\n\nDigitization\nWhen something is converted to digital form, it goes through a number\nof steps. First, some way must be found to chop the thing into small parts\nin space and time. Then each of these parts is sampled with a sensor to\ngive an electrical signal and, finally, this signal is measured and turned\ninto a number.\n\nOld microphones used carbon granules. As the sound waves passed\nthrough them, the granules were shaken and made better contact with\neach other. Connecting a battery across the granules gave a varying\nvoltage. Modern microphones use a variety of technologies. The\npreference of most recording artists today is the electret microphone.\nA coil moves inside a magnet generating a varying voltage which is\ntranslated into a voltage as before.\n\nNext we use a fast running clock and measure the voltage on each\ntick giving us a sequence of numbers. We have created a near perfect\nrecord of the sound, and we can prove this by recreating the sound\nthrough a loudspeaker. This is what happens every time you listen to\nyour iPod.\n\nTo digitize film, each frame must be split in space as well as time.\nOn each tick of the clock, a process scans left to right and top to bottom\nto form a one-dimensional stream of numbers that records the image.\nThe system cuts the picture up into little elements called pixels, standing\nfor picture elements. Each small square has its average color measured\nfor red, green, and blue content coded as a number.\n\nDigitization techniques have become the dominant way electronics\nwork in the home, and digitization circuits are now ubiquitous.\n\nReality\n\nHow big is reality? Setting aside for a moment the problem that it might\n\nbe infinite, we need to reproduce all the elements that go to make it up.\nA normal DVD has an image of 720 by 576 pixels with 16 bits of\n\ncolor depth and a frame rate of 25 frames per second. The eye, however,\n\nis considerably better than this and a DVD does not fool it. HD video\n\nHOUSE_OVERSIGHT_015979",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015979.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2279,
+    "word_count": 392,
+    "line_count": 51,
+    "import_date": "2025-11-19T21:47:49.115404",
+    "prefix": "IMAGES-003"
+  }
+}

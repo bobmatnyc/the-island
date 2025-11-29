@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_024839",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_024839.txt",
+  "text": "COWEN\n\nCOLLABORATIVE INSIGHTS February 25, 2019\n\nBackground On Separations Technology And Market\n\n2\n\nLiquid Chromatography And Gas Chromatography - How Does It Work?\n\nLC instrumentation is generally composed of: (1) solvent delivery system, (2) sample\ninjector, (3) separation column, (4) detector, and (5) data acquisition unit. The solvent\ndelivery unit pumps the solvent through the LC system while the sample injector\nintroduces the sample into the solvent flow (known as the mobile phase). The\nchromatography column then separates the sample into its components for analysis by\nthe detector, which measures the presence and amount of constituents. The data\nacquisition unit then records and stores the information from the detector. The\nunderlying principles of GC are similar to those of LC, with the key difference being that\nthe mobile phase is a gas instead of a liquid.\n\nLC Is Often Combined With Mass Spec\n\nTo obtain the mass spectrum of a single compound in a mixture, the individual\ncomponents must be separated prior to MS analysis. Separation is necessary for\nunambiguous identification because multiple compounds present simultaneously create\nan overlapping or mixed spectrum. The most common separation techniques used in\ncombination with MS are gas chromatography (GC) and liquid chromatography (LC). LC\nand MS from different vendors can be combined. LC is more commonly used as high\ntemperatures required for GC make it incompatible with the compounds under analysis -\nthis is a key reason why some cannabis testing labs prefer testing THC using liquid\nchromatography (to be clear, analysis using gas chromatography requires heating THC\nwhich changes its properties).\n\nChromatography Market Estimates\n\nFigure 14 Overall Chromatography Market (SMM) Figure 15 Chromatography Market Shares\n$9,400\n$9,200 +\nAgilent, 17%\n$9,000 +\n$8,800 +\nOther, 36%\nw\n& $8,600 +\n= $8,400 - Waters, 16%\n$8,200 + .\n$8,000 +\n$7,800 Shimadzu, 8%\n, 7 T Fi\nMerck KGaA/ a a\n$7,600 4 T T T T Sigma Aldrich,\n2014 2015 2016 2017 2018E 10%\nSource: Company reports and Cowen and Company Source: Company reports and Cowen and Company\n\nFigure 16 Chromatography Market by Configuration\n\nH/UPLC GC IC LPLC Flash Other\n‘Market Leaders WAT A TO GE Teledyne\nA Shimadzu Metrohm BIO Biotage\nSource: Company reports and Cowen and Company\nCOWEN.COM 23\n\nHOUSE_OVERSIGHT_024839",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_024839.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2350,
+    "word_count": 371,
+    "line_count": 63,
+    "import_date": "2025-11-19T21:47:48.182850",
+    "prefix": "IMAGES-008"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025015",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025015.txt",
+  "text": "[9\n\nElaraby: That shouldn't be happening. It's wrong, and we do say that\nto them. Palestinian President Mahmoud Abbas constantly implores\nthem to stop condoning the firing of rockets. The fact is that there are\nextremists on both sides.\n\nSPIEGEL: Will there ever be another war between an Arab country\nand Israel over Palestine?\n\nElaraby: Completely out of the question.\n\nSPIEGEL: You took the position of secretary-general two months\nago, during a turbulent time. Do you think it's possible that you will\nresign if the pressure becomes unbearable?\n\nElaraby: Yes, absolutely. It's in my nature. Indeed, I'm not sure that I\ncan stand it much longer.\n\nHOUSE_OVERSIGHT_025015",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025015.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 672,
+    "word_count": 107,
+    "line_count": 20,
+    "import_date": "2025-11-19T21:47:47.458350",
+    "prefix": "IMAGES-008"
+  }
+}

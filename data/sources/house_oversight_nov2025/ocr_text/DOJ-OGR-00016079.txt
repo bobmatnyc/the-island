@@ -1,0 +1,49 @@
+Fed =< Invoice Number: 4-495-75031
+e Invoice Date: Dec 23, 2002
+Account Number: 1144-2081-6
+Page: 16 of 21
+
+FedEx Express Shipment Detail By Payment Type (Original)
+Picked up: Dec 18, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fud Surcharge FedEx has applied a [uel surcharge of 4.00% |o this shipment
+
+Cistance Based Pricing, Zone 3
+
+Weather delay Thunderstorm.
+
+Release signature on file.
+InterneiShip Sender Reapient
+Tracking ID 792794801284 HELEN H KIM ELLA DERSHOWITZ
+Service Type FedEx Priority Ovemight JEFFREY E EPSTEIN
+Pachage Type FedEx Box 457 MADISON AVE
+Zone 3 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 2.0 Ibs, 0.9 kgs Transporiation Charge 18.75
+Delivered Dec 19, 2002 11:10 Discount 1.88
+SvoAra =A Fuel Surcharge 0.67
+Signed by 805899 Residential Delivery 1.35
+FedExUse 523220718/01508/02 ———————
+
+Total Transportation Charges USD $ 18.89
+
+Picked up: Dec 19, 2002 Payor: Shipper Reference: NO REFERENCE INFORMATION
+
+Fuel Surcharge Fed&x has applied a [uel surchamge of 4.00% \o this shipment.
+
+Cistance Based Pricing, Zone 6
+
+Weather delay Thundersiorm.
+InternetShip Sender Becipient
+Tracking ID 792795331100 CECILIA STEEN DOTTIE
+Service Type Fed&x Priorily Overnight JEFFREY E EPSTEIN |AL BANK
+Package Type FedEx Envelope 457 MADISON AVE
+Zone 6 NEW YORK NY 10022-6843 US
+Packages 1
+Weight 1.0 Ibs, 0.5 kgs qT tation Charg 16.00
+Delivered Dec 20, 2002 13:36 Resi . 256
+Svc Area = AA Fuel Surcharge 054
+Signed by M.BROWN Seer eee eee eee eee ee
+FedExUse  523413915/00230/TS Total Transportation Charges USD $ 13.98
+
+DOJ-OGR-00016079

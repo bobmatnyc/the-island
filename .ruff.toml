@@ -1,0 +1,136 @@
+# Ruff Configuration for Epstein Document Archive
+# Ruff is a fast Python linter written in Rust, replacing flake8, isort, and more
+# Documentation: https://docs.astral.sh/ruff/
+
+# Target Python 3.9+ (for compatibility with older systems)
+target-version = "py39"
+
+# Line length to match Black's default
+line-length = 100
+
+# Enable automatic fixing when possible
+fix = true
+
+# Exclude generated files, virtual environments, and data directories
+exclude = [
+    ".venv",
+    "venv",
+    "__pycache__",
+    "*.pyc",
+    ".git",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".ruff_cache",
+    "build",
+    "dist",
+    "*.egg-info",
+    "data/",  # Exclude data directory
+    "scripts/DEPRECATED", # Exclude deprecated scripts
+    "tests/legacy",       # Exclude legacy tests
+]
+
+[lint]
+# Enable comprehensive rule sets
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # pyflakes
+    "I",      # isort (import sorting)
+    "N",      # pep8-naming
+    "UP",     # pyupgrade (modernize Python code)
+    "B",      # flake8-bugbear (find likely bugs)
+    "C4",     # flake8-comprehensions
+    "DTZ",    # flake8-datetimez (prevent timezone bugs)
+    "T10",    # flake8-debugger (prevent debug code in production)
+    "EM",     # flake8-errmsg (improve error messages)
+    "ISC",    # flake8-implicit-str-concat
+    "ICN",    # flake8-import-conventions
+    "PIE",    # flake8-pie (miscellaneous lints)
+    "PT",     # flake8-pytest-style
+    "Q",      # flake8-quotes
+    "RSE",    # flake8-raise (improve exception raising)
+    "RET",    # flake8-return (improve return statements)
+    "SLF",    # flake8-self (prevent private member access)
+    "SIM",    # flake8-simplify
+    "ARG",    # flake8-unused-arguments
+    "PTH",    # flake8-use-pathlib (prefer pathlib over os.path)
+    "PL",     # Pylint rules
+    "RUF",    # Ruff-specific rules
+]
+
+# Ignore specific rules that conflict with project style or are too strict
+ignore = [
+    "E501",    # Line too long (handled by formatter)
+    "PLR0913", # Too many arguments (sometimes necessary for APIs)
+    "PLR0912", # Too many branches (acceptable for complex logic)
+    "PLR2004", # Magic value comparison (acceptable for constants)
+    "ISC001",  # Implicit string concatenation (conflicts with formatter)
+    "SIM108",  # Use ternary operator (prefer explicit if/else sometimes)
+    "DTZ005",  # datetime.now() without tz (acceptable for logs)
+    "EM101",   # Exception message as string literal (common pattern)
+    "EM102",   # Exception message as f-string (common pattern)
+    "B008",    # Function call in argument defaults (FastAPI dependency pattern)
+    "RET504",  # Unnecessary variable assignment before return (readability)
+    "SLF001",  # Private member access (needed for testing)
+]
+
+[lint.per-file-ignores]
+# Allow print statements in scripts (not server code)
+"scripts/**/*.py" = ["T201"]  # print() found
+
+# Allow unused imports in __init__.py files
+"__init__.py" = ["F401"]
+
+# Test files can have additional flexibility
+"tests/**/*.py" = [
+    "PLR2004",  # Magic value comparisons in tests
+    "S101",     # Use of assert (required for pytest)
+    "ARG001",   # Unused function arguments (fixtures)
+    "PTH123",   # Allow open() in tests
+    "PLR0915",  # Allow long test functions
+    "E402",     # Allow imports not at top (e.g. sys.path hacks)
+    "PT028",    # Allow default arguments in test functions
+    "PLC0415",  # Allow local imports
+]
+
+[lint.isort]
+# Import sorting configuration (mimics isort)
+force-single-line = false
+force-sort-within-sections = false
+lines-after-imports = 2
+known-first-party = ["scripts", "server"]
+section-order = [
+    "future",
+    "standard-library",
+    "third-party",
+    "first-party",
+    "local-folder"
+]
+
+[lint.flake8-quotes]
+# Prefer double quotes (matches Black default)
+docstring-quotes = "double"
+inline-quotes = "double"
+multiline-quotes = "double"
+
+[lint.pydocstyle]
+# Docstring convention: Google style
+convention = "google"
+
+[lint.pylint]
+# Pylint-specific settings
+max-args = 10  # Allow up to 10 arguments
+max-branches = 15  # Allow up to 15 branches
+max-returns = 8  # Allow up to 8 return statements
+max-statements = 60  # Allow up to 60 statements per function
+
+[format]
+# Formatting options (Ruff's formatter is Black-compatible)
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+# Documentation comments
+docstring-code-format = true
+docstring-code-line-length = 88

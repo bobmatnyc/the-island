@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015711",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015711.txt",
+  "text": "Mind over Computer 21\n\nhair, or approximately two hundred atoms wide. To match the complexity\nof a brain we will need to pack an order of ten million more gates into\na silicon chip. One way to achieve this is to simply shrink the wires, but\nwhen we get down to around ten atoms wide, quantum effects begin to\ndominate. Signals in today’s chips involve tens of thousands of electrons.\nWe normally think of these electrons as a group, but in these tiny circuits\nwe need to consider the behavior of each individual electron. Problems\narise as this behavior is subject to quantum uncertainty. With only ten\nelectrons there is a finite probability that none of them will be where you\nwere expecting them to be. This causes problems for digital logic. You\ncan't put a ‘1’ ina memory location and be sure when you come to read it\nyou will get a ‘1’ back. You have to factor in the possibility of error.\n\nQuantum effects can be annoying - requiring us to devise all\nmanner of error checking hardware — but they can also be helpful.\nRichard Feynman proposed using quantum bits, ‘qubits, to perform\ncomputation. Quantum computers can calculate many times faster than\na classical computer because a single bit can represent more than one\npiece of information. Enterprising entrepreneurs are making use of this\neffect to build the next generation of devices, and you can already buy a\n512 qubit computer from a Canadian company called D-Wave.\n\nThe biggest problem with building more powerful conventional\nchips is their area is reaching the manufacturing limit for economic\nviability. Silicon wafers contain random spots of damage and, as a\nchip gets larger, the chance it will have one of these spots approaches\n\ncertainty. One solution is to use the third dimension and print the logic\n\nHOUSE_OVERSIGHT_015711",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015711.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1799,
+    "word_count": 307,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:46.765129",
+    "prefix": "IMAGES-003"
+  }
+}

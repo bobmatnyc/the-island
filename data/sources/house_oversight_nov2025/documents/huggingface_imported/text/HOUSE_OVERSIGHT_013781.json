@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013781",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013781.txt",
+  "text": "Porta, A., Baselli, G., Montano, N., Gnecchi-Ruscone, T., Lombardi, F., Malliani, A.,\nCerutti, S. (1996): Classification of coupling patterns among spontaneous rhythms\nand ventilation in the sympathetic discharge of decerebrate cats. Biol Cybern.\n75:163-172\n\nPradhan, N. Sadasivan, P.K. (1996) The nature of dominant Lyapunov exponent\n\nand attractor dimension curves of EEG in sleep. Comput Biol Med 26:419-428\n\nPress, W.H., Flannery, B.P., Teukolsky, S.A., Vetterling, W.T. (1991) Numerical\nRecipies; The Art of Scientific Computing. Cambridge University Press, Cambridge.\n\nPritchard, W.S. (1992) The brain in fractal time: 1/f-like power spectrum scaling of\n\nthe human electroencephalogram. Int J Neurosci 66:119-129\n\nPritchard, W.S., Krieble, K.K., Duke, D.W. (1996) Application of dimension\nestimation and surrogate data to the time evolution of EEG topographic variables.\nInt. J. Psychophysiol. 24:189-195\n\nRapp, P. E. (1993) Chaos in the neurosciences: Cautionary tales from the frontier.\nThe Biologist (London) 40:89-94.\n\nRapp, P.E. (1994) A guide to dynamical analysis. Integrat. Physiol. Behavioral. Sci.\n29:311-327\n\nRapp, P.E. (1995) Is there evidence for chaos in the human central nervous system.\nIn (ed. R. Robertson and A. Combs) Chaos Theory in Psychology and the Life\n\nSciences. Larence Erlbaum. Mahway, N.J. pp 89-100\n\nRapp, P. E., Bashore, T.R., Martinerie, J.M., Albano, A.M., Mees, A.I. (1989)\nDynamics of brain electrical activity. Brain Topolography 2:99-118\n\n281\n\nHOUSE_OVERSIGHT_013781",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013781.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1509,
+    "word_count": 210,
+    "line_count": 37,
+    "import_date": "2025-11-19T21:47:44.030400",
+    "prefix": "IMAGES-002"
+  }
+}

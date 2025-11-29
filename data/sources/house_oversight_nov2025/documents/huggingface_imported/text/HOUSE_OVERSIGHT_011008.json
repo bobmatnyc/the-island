@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_011008",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_011008.txt",
+  "text": "former. I neglected “government wealth” net of national debt, which is small and\noften negative, as I don’t feel that I understand it well enough. I took consumption as\nthe sum of personal consumption expenditure (PCE) and government consumption\nexpenditure (GCE). I also downloaded real stock market rates of growth, dividends\n\nand return from the Global Financial Data website for the same years and countries.\n\nYearly change in capital in each country gave each year’s capital growth as a flow. I\nadded this to consumption to give what call market-valued output. I said earlier\nthat Piketty and Zucman should logically have done the same. This gave the values\n\nfor (4.1) and (4.1a).\n\nI then divided by year-end capital to give values for (4.3). 1 next found annual\nchanges in those three to give acceleration, productivity gain and thrift gain as\nshown in (4.5) and (4.5a), and divided by acceleration to find the two indexes of\n\n(4.6) and (4.6a).\n\nThe test from Global Financial Data took fewer steps. Stock market growth rate, rate\nof return and dividend rate were downloaded directly. | took them as corresponding\nrespectively to growth rate, capital productivity and consumption rate in (3.3a). |\nfound their annual changes to find values for (3.4a), and again divided by\n\nacceleration to reach (3.5a).\n\nThis allows tests of Mill’s idea from national accounts data for all eight nations\nreported at the Piketty-Zucman website, and over their entire reporting periods\nthrough 2010. (The website also reports for Spain, but only since 1993 and without\ndata for consumption.) In each year, for each country, change in capital growth rate\nis compared to change in consumption rate (consumption/capital). If consumption\nrate grows faster than capital growth rate while both grow, or declines faster if both\ndecline, the free growth index in that year is greater than one. If they change at the\nsame rate in the same direction it is one exactly. If both change in the same direction,\n\nbut consumption changes less, the free growth index is between zero and one. If\n\nChapter 4 Mill’s Idea 1/11/16 17\n\nHOUSE_OVERSIGHT_011008",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_011008.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2123,
+    "word_count": 347,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:47.321717",
+    "prefix": "IMAGES-001"
+  }
+}

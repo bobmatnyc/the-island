@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016311",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016311.txt",
+  "text": "Tom Griffiths’ approach to the AI issue of “value alignment’ —the study of how,\nexactly, we can keep the latest of our serial models of Al from turning the planet into\npaper clips—is human-centered;, i.e., that of a cognitive scientist, which is what he is.\nThe key to machine learning, he believes, is, necessarily, human learning, which he\nstudies at Princeton using mathematical and computational tools.\n\nTom once remarked to me that “one of the mysteries of human intelligence is that\nwe're able to do so much with so little.”” Like machines, human beings use algorithms to\nmake decisions or solve problems; the remarkable difference lies in the human brain’s\noverall level of success despite the comparative limits on computational resources.\n\nThe efficacy of human algorithms springs from what AI researchers refer to as\n“bounded optimality.” As psychologist Daniel Kahneman has notably pointed out,\nhuman beings are rational only up to a point. If you were perfectly rational, you would\nrisk dropping dead before making an important decision—whom to hire, whom to marry,\nand so on—depending on the number of options available for your review.\n\n“With all of the successes of Al over the last few years, we’ve got good models of\nthings like images and text, but what we’re missing are good models of people,” Tom\nsays. “Human beings are still the best example we have of thinking machines. By\nidentifying the quantity and the nature of the preconceptions that inform human cognition\nwe can lay the groundwork for bringing computers even closer to human performance.”\n\n91\n\nHOUSE_OVERSIGHT_016311",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016311.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1599,
+    "word_count": 259,
+    "line_count": 26,
+    "import_date": "2025-11-19T21:47:44.435397",
+    "prefix": "IMAGES-003"
+  }
+}

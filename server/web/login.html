@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Epstein Document Archive</title>
+    <style>
+        :root {
+            /* Light theme (default) */
+            --bg-primary: #ffffff;
+            --bg-secondary: #f6f8fa;
+            --bg-tertiary: #f0f3f5;
+            --border-color: #d0d7de;
+            --text-primary: #24292f;
+            --text-secondary: #57606a;
+            --text-tertiary: #6e7781;
+            --accent-blue: #0969da;
+            --accent-blue-hover: #0550ae;
+            --shadow-color: rgba(31, 35, 40, 0.12);
+            --input-bg: #ffffff;
+            --error-color: #d1242f;
+            --error-bg: #fff1f0;
+        }
+
+        [data-theme="dark"] {
+            /* Dark theme */
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-tertiary: #1c2128;
+            --border-color: #30363d;
+            --text-primary: #c9d1d9;
+            --text-secondary: #8b949e;
+            --text-tertiary: #6e7681;
+            --accent-blue: #58a6ff;
+            --accent-blue-hover: #1f6feb;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+            --input-bg: #21262d;
+            --error-color: #f85149;
+            --error-bg: #2d1517;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .login-container {
+            width: 100%;
+            max-width: 420px;
+        }
+
+        .login-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 32px;
+            box-shadow: 0 4px 12px var(--shadow-color);
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        .project-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .project-subtitle {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px 12px;
+            font-size: 14px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--input-bg);
+            color: var(--text-primary);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.1);
+        }
+
+        [data-theme="dark"] .form-input:focus {
+            box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.1);
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .checkbox-input {
+            margin-top: 3px;
+            cursor: pointer;
+            accent-color: var(--accent-blue);
+        }
+
+        .checkbox-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            user-select: none;
+            line-height: 1.5;
+        }
+
+        .checkbox-label a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        .checkbox-label a:hover {
+            text-decoration: underline;
+        }
+
+        .remember-group {
+            margin-bottom: 20px;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 12px;
+            font-size: 14px;
+            font-weight: 500;
+            color: white;
+            background: var(--accent-blue);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .login-button:hover:not(:disabled) {
+            background: var(--accent-blue-hover);
+        }
+
+        .login-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .error-message {
+            background: var(--error-bg);
+            color: var(--error-color);
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            margin-bottom: 20px;
+            display: none;
+            border: 1px solid var(--error-color);
+        }
+
+        .error-message.show {
+            display: block;
+        }
+
+        .tos-section {
+            margin-top: 24px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+
+        .tos-toggle {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-primary);
+            padding: 12px;
+            background: var(--bg-tertiary);
+            border-radius: 6px;
+            transition: background-color 0.2s ease;
+        }
+
+        .tos-toggle:hover {
+            background: var(--border-color);
+        }
+
+        .tos-toggle-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .tos-toggle-icon.expanded {
+            transform: rotate(180deg);
+        }
+
+        .tos-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            font-size: 13px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        .tos-content.expanded {
+            max-height: 600px;
+            overflow-y: auto;
+            margin-top: 16px;
+            padding-right: 8px;
+        }
+
+        .tos-content h3 {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+
+        .tos-content h3:first-child {
+            margin-top: 0;
+        }
+
+        .tos-content ul {
+            margin-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        .tos-content li {
+            margin-bottom: 6px;
+        }
+
+        .tos-content p {
+            margin-bottom: 12px;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 8px 12px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            color: var(--text-primary);
+            transition: background-color 0.2s ease;
+        }
+
+        .theme-toggle:hover {
+            background: var(--bg-tertiary);
+        }
+
+        /* Scrollbar styling */
+        .tos-content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .tos-content::-webkit-scrollbar-track {
+            background: var(--bg-tertiary);
+            border-radius: 4px;
+        }
+
+        .tos-content::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+
+        .tos-content::-webkit-scrollbar-thumb:hover {
+            background: var(--text-tertiary);
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span id="themeIcon">🌙</span>
+    </button>
+
+    <div class="login-container">
+        <div class="login-card">
+            <div class="header-section">
+                <h1 class="project-title">Epstein Document Archive</h1>
+                <p class="project-subtitle">Public Record Research Database</p>
+            </div>
+
+            <div class="error-message" id="errorMessage" role="alert"></div>
+
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username" class="form-label">Username</label>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        class="form-input"
+                        required
+                        autocomplete="username"
+                        aria-required="true"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        class="form-input"
+                        required
+                        autocomplete="current-password"
+                        aria-required="true"
+                    >
+                </div>
+
+                <div class="checkbox-group">
+                    <input
+                        type="checkbox"
+                        id="rememberMe"
+                        name="rememberMe"
+                        class="checkbox-input"
+                    >
+                    <label for="rememberMe" class="checkbox-label">
+                        Remember me
+                    </label>
+                </div>
+
+                <div class="checkbox-group">
+                    <input
+                        type="checkbox"
+                        id="tosAccepted"
+                        name="tosAccepted"
+                        class="checkbox-input"
+                        required
+                        aria-required="true"
+                    >
+                    <label for="tosAccepted" class="checkbox-label">
+                        I accept the <a href="#" id="tosLink">Terms of Service</a> and acknowledge the protection statement below
+                    </label>
+                </div>
+
+                <button type="submit" class="login-button" id="loginButton" disabled>
+                    Log In
+                </button>
+            </form>
+
+            <div class="tos-section">
+                <div class="tos-toggle" id="tosToggle" role="button" tabindex="0" aria-expanded="false">
+                    <span>Terms of Service & Protection Statement</span>
+                    <span class="tos-toggle-icon" id="tosIcon">▼</span>
+                </div>
+                <div class="tos-content" id="tosContent">
+                    <h3>Protection Statement</h3>
+                    <p>By logging in, you acknowledge and agree to the following:</p>
+                    <ul>
+                        <li>This archive contains public records compiled for research and educational purposes only</li>
+                        <li>All content is sourced from court documents, government releases, and publicly available records</li>
+                        <li>The site authors and operators are not affiliated with, endorsed by, or connected to any parties mentioned in the documents</li>
+                        <li>Use of this archive is strictly for educational, research, and journalistic purposes</li>
+                        <li>The information presented is provided as-is, without warranty of any kind</li>
+                    </ul>
+
+                    <h3>User Responsibilities</h3>
+                    <p>Users of this archive agree to:</p>
+                    <ul>
+                        <li>Cite sources appropriately when referencing information from this archive</li>
+                        <li>Not misrepresent the provenance or context of information obtained from this archive</li>
+                        <li>Verify information independently before making any claims or assertions</li>
+                        <li>Respect the privacy and dignity of all individuals mentioned in the documents</li>
+                        <li>Use the archive responsibly and ethically</li>
+                    </ul>
+
+                    <h3>Liability Protection</h3>
+                    <p>The site authors and operators are protected from liability for:</p>
+                    <ul>
+                        <li>User actions taken based on information in this archive</li>
+                        <li>Inaccuracies or errors in source documents (which are preserved in their original form)</li>
+                        <li>Third-party interpretations or misuse of archived materials</li>
+                        <li>Any damages arising from the use or inability to use this archive</li>
+                    </ul>
+
+                    <h3>Data Sources</h3>
+                    <p>Documents in this archive are obtained from:</p>
+                    <ul>
+                        <li>U.S. House Oversight Committee releases</li>
+                        <li>Federal court filings and unsealed documents</li>
+                        <li>Freedom of Information Act (FOIA) releases</li>
+                        <li>Public government records and archives</li>
+                        <li>Other publicly available legal and governmental sources</li>
+                    </ul>
+
+                    <h3>Research Purpose</h3>
+                    <p>
+                        This archive is maintained to provide researchers, journalists, and the public with organized
+                        access to publicly available documents. The goal is to facilitate transparency and informed
+                        public discourse on matters of public interest.
+                    </p>
+
+                    <h3>No Legal Advice</h3>
+                    <p>
+                        This archive does not provide legal advice. The presence of a document in this archive does
+                        not constitute an endorsement of its contents or any legal interpretation thereof.
+                    </p>
+
+                    <h3>Acceptance</h3>
+                    <p>
+                        By accessing this archive, you confirm that you have read, understood, and agree to be bound
+                        by these terms. If you do not agree to these terms, you may not access or use this archive.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Theme management
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const savedTheme = localStorage.getItem('theme') || 'light';
+
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('theme', theme);
+        }
+
+        setTheme(savedTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+        });
+
+        // TOS toggle
+        const tosToggle = document.getElementById('tosToggle');
+        const tosContent = document.getElementById('tosContent');
+        const tosIcon = document.getElementById('tosIcon');
+        const tosLink = document.getElementById('tosLink');
+
+        function toggleTOS(e) {
+            e.preventDefault();
+            const isExpanded = tosContent.classList.contains('expanded');
+            tosContent.classList.toggle('expanded');
+            tosIcon.classList.toggle('expanded');
+            tosToggle.setAttribute('aria-expanded', !isExpanded);
+        }
+
+        tosToggle.addEventListener('click', toggleTOS);
+        tosToggle.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                toggleTOS(e);
+            }
+        });
+        tosLink.addEventListener('click', toggleTOS);
+
+        // Form validation
+        const loginForm = document.getElementById('loginForm');
+        const tosAccepted = document.getElementById('tosAccepted');
+        const loginButton = document.getElementById('loginButton');
+        const errorMessage = document.getElementById('errorMessage');
+
+        // Enable/disable login button based on TOS acceptance
+        tosAccepted.addEventListener('change', () => {
+            loginButton.disabled = !tosAccepted.checked;
+        });
+
+        // Handle form submission
+        loginForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const rememberMe = document.getElementById('rememberMe').checked;
+
+            if (!tosAccepted.checked) {
+                showError('You must accept the Terms of Service to continue');
+                return;
+            }
+
+            // Show loading state
+            loginButton.disabled = true;
+            loginButton.textContent = 'Logging in...';
+            errorMessage.classList.remove('show');
+
+            try {
+                // Collect browser profiling data
+                const browserData = {
+                    user_agent: navigator.userAgent,
+                    screen_resolution: `${screen.width}x${screen.height}`,
+                    timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+                    language: navigator.language || navigator.userLanguage
+                };
+
+                const response = await fetch('/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    credentials: 'include', // Important: include cookies in request
+                    body: JSON.stringify({
+                        username,
+                        password,
+                        remember: rememberMe,
+                        tos_accepted: tosAccepted.checked,
+                        browser_data: browserData
+                    }),
+                });
+
+                if (response.ok) {
+                    // Cookie is set automatically by server
+                    // No need to store token in localStorage/sessionStorage
+                    // Just redirect to main app
+                    window.location.href = '/static/index.html';
+                } else {
+                    const error = await response.json();
+                    showError(error.detail || 'Invalid username or password');
+                    loginButton.disabled = false;
+                    loginButton.textContent = 'Log In';
+                }
+            } catch (error) {
+                showError('Connection error. Please try again.');
+                loginButton.disabled = false;
+                loginButton.textContent = 'Log In';
+            }
+        });
+
+        function showError(message) {
+            errorMessage.textContent = message;
+            errorMessage.classList.add('show');
+        }
+
+        // Check if already logged in (via session cookie)
+        fetch('/api/verify-session', {
+            credentials: 'include' // Include cookies
+        })
+        .then(response => {
+            if (response.ok) {
+                // Already logged in, redirect to main app
+                window.location.href = '/static/index.html';
+            }
+            // If not logged in (401), stay on login page
+        })
+        .catch(() => {
+            // Network error, stay on login page
+        });
+    </script>
+</body>
+</html>

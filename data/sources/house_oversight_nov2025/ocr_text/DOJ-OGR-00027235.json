@@ -1,0 +1,10 @@
+{
+  "source_pdf": "DOJ-OGR-00027235.pdf",
+  "ocr_date": "2025-11-16T22:00:42.013721",
+  "text_length": 1142,
+  "is_email": true,
+  "email_confidence": 0.8999999999999999,
+  "email_addresses": [
+    "Indiaye@bop.gov"
+  ]
+}

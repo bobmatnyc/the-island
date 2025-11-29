@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016346",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016346.txt",
+  "text": "fact, enabling to it. What was constraining to cybernetics was the presumption of an\nanalogy of structure between the controller and the controlled. By the 1930s, Kurt Gédel,\nAlonzo Church, and Alan Turing had all described universal systems of computation, in\nwhich the computation required no structural analogy to functions that were computed.\nThese universal computers could also compute the functions of control.\n\nThe analogy of structure between the controller and the controlled was central to\nthe cybernetic perspective. Just as digital coding collapses the space of possible\nmessages into a simplified version that represents only the difference that makes a\ndifference, so the control system collapses the state space of a controlled system into a\nsimplified model that reflects only the goals of the controller. Ashby’s Law does not\nimply that every controller must model every state of the system but only those states that\nmatter for advancing the controller’s goals. Thus, in cybernetics, the goal of the\ncontroller becomes the perspective from which the world 1s viewed.\n\nNorbert Wiener adopted the perspective of the individual human relating to vast\norganizations and trying to “live effectively within that environment.” He took the\nperspective of the weak trying to influence the strong. Perhaps this is why he was able to\nnotice the emergent goals of the “machines of flesh and blood” and anticipate some of the\nhuman challenges posed by these new intelligences, hybrid machine intelligences with\ngoals of their own.\n\n126\n\nHOUSE_OVERSIGHT_016346",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016346.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1565,
+    "word_count": 243,
+    "line_count": 25,
+    "import_date": "2025-11-19T21:47:46.934366",
+    "prefix": "IMAGES-003"
+  }
+}

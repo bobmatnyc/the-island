@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014990",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014990.txt",
+  "text": "Chart 27: Both HSCEI and NKY term structures are near record steeps;\nwe favor calendar puts to hedge downside risks\n\n15%\n\n10%\n\n5%\n\n0%\n\n-5%\n\n2 2 OO TT NN OO TT OO Oo Oo\nSSSSESSESSESESE8S8 35\n———NKY 3M-12M ATM Vol = ===HSCEI 3M-12M ATM Vol\nSource: BofA Merrill Lynch Global Research Data as of 2-Jan-09 to 16-Jun-17\nChart 28: The Nikkei/Topix ratio and its volatility is capped with the\nBo)’s ongoing yield curve control\n; O06\n3 2.9 04 3\n5 27 02 §\ng 12.5 0 >\na& 12.3 02 3\n> 04 2\na 12.1 9\n= 18 06 &\nc os ©\n17 { o\n11.5 1.2\n\nNNN OO MO DS Tt OO ODO Oo Oo LE\nc<ct SBE aQoaesz oH ER WE SE\nSSSERSR2RFSEPES\n\n——=NKY/TPX Ratio === 10Y JGB Yield\n\nSource: BofA Merrill Lynch Global Research\n\nData from 2-Jan-12 to 16-Jun-17\n\nAS51 3M ATM IV over HSCEI is at its 4-year high\nTable 4 lists Asian index pairs with the highest IV ratio vs their 4-year histories. For\n\ninstance, the ratio of AS51 3M ATM IV over HSCEI is at its 4-year high.\n\nCalendar puts are attractively priced given the steep term\nstructure\n\nWith the continuous low realized volatility environment, both\nNKY and HSCEI 3-month minus 12-month term structures\nsteepened to -3.7 vol points, which are near multi-year lows.\n\nAs our Strategists think the Fed now appears concerned about\nsurging asset prices, investors should consider downside\nhedges. Calendar puts, i.e. buying short-dated ATM puts and\nselling long-dated OTM puts, are attractively priced given the\nsteep term structure.\n\nCurrently, we still have an open trade on NKY calendar puts (buy\nJul-17 19,500 puts vs sell Dec-17 17,500 puts) to hedge\ndownside risks.\n\nThe Bo)’s ongoing yield curve control has capped the\nNikkel/Topix ratio and its volatility\n\nJapanese government bond (JGB) yield has been on a downward\ntrend over the last few years and has negatively impacted bank\nearnings. As the Topix has higher weightings in banks than the\n\nNikkei, the NKY/TPX ratio has been grinding higher.\n\nHowever, the NKY/TPX ratio appears to have flattened out since\nthe Bo}’s commitment to maintain the 10-year JGB yield at\naround 0% in September 2016. With global central banks\nincreasingly advocating tighter monetary policies, the market\nmay start to speculate Bo)’s exit strategy and this may reverse\nNKY/TPX’s upward trend. With TPX vol trading below NKY vol,\nbuying TPX calls funded by NKY calls may perform well in such a\nscenario.\n\nBankof America\nMerrill Lynch\n\nGlobal Equity Volatility Insights | 20 June 2017 19\n\nHOUSE_OVERSIGHT_014990",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014990.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2446,
+    "word_count": 425,
+    "line_count": 87,
+    "import_date": "2025-11-19T21:47:46.301929",
+    "prefix": "IMAGES-003"
+  }
+}

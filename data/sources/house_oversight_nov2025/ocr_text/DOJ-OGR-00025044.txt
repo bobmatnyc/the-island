@@ -1,0 +1,68 @@
+Page 591
+Page 2
+Log Assignment
+Date/Time User Action Alias Post Shiftdate Watch Type Mndtry
+08/10/19 20:25 [P15 PNT] OT Assigned nee SHU #1 08/11/19 MMW List Exempt O
+cpd adjust
+08/10/19 20:24 OT Assigned SHU #2 08/11/19 MW List Exempt oO
+cpd adjust
+08/10/19 20:23 OT Removed - Mgmt Cancelle SHU #1 08/11/19 M/W List Exempt i
+cpd adjus - REMOVED FROM (Sick / Annual]
+08/10/19 20:21 OT Assigned SHU #1 08/11/19 M/W List Exempt O
+cpd adjust
+08/10/19 20:20 OT Removed - Mgmt Cancelle INTERNAL #2 08/11/19 M/W List Exempt C)
+cpd adjust - REMOVED FROM [Sick / Annual]
+08/10/19 20:16 OT Assigned INTERNAL #2 08/11/19 MAW List Exempt [4
+cpd adjustm
+08/10/19 20:15 OT Assigned OSP #1 08/11/19 MW _ List Exempt (ay
+cpd adjus!
+08/10/19 20:15 OT Removed - Staff Cancelled OSP #1 08/11/19 MMW List Exempt C]
+staff cancel - REMOVED FROM [Sick / Annual]
+08/10/19 20:14 OT Removed - Staff Cancelled INTERNAL #2 08/1119 MW List Exempt in
+staff cancel - REMOVED FROM [Sick / Annual]
+08/10/19 19:25 OT Assigned 11 SOUTH 08/1119 MW _ List Exempt oO
+CPD ADJUS
+08/10/19 18:18 OT Assigned INTERNAL #2 08/12/19 M/W List Exempt TC
+CPD ADJUS
+08/10/19 18:15 OT Assigned CONTROL #1 08/12/19 M/W List Exempt ‘By
+CPD ADJUS
+08/10/19 18:14 OT Assigned 7 SOUTH 08/12/19 EW List Exempt Cc]
+CPD ADJUS
+08/10/19 17:32 OT Assigned 10 SOUTH #1 08/11/19 M/W List Exempt ‘il
+OT LIST EX
+08/10/19 17:26 “ox s~ Signed Up for OT N/A 08/16/19 N/A NIA Cl
+Selected Lists: Selected Shifts:
+(All by6}; (N7NC) DIW
+08/10/19 17:26 Signed Up for OT NIA 08/15/19 N/A N/A a
+Selected Lis Selected Shifts:
+{Ail] DAW
+08/10/19 16:22 OT Removed - Mgmt Cancelle DRY CELL 08/10/19 EW List Exempt =
+: - REMOVED FROM [Sick / Annual]
+08/10/19 15:52 OT Assigned SHU #2 08/10/19 EW List Exempt EI
+cpd adjustm
+08/10/19 14:24 OT Assigned EMERGENCY 08/10/19 P/M List Exempt C]
+It
+08/10/19 14:16 OT Assigned CST 08/10/19 DAW List Exempt C]
+CPD ADJUS
+08/10/19 14:06 OT Assigned SHU #3 08/10/19 AJM List Exempt Bil
+list exausted
+08/10/19 14:06 OT Assigned SHU #4 08/10/19 DW List Exempt Cj
+list exausted
+08/10/19 14:05 OT Removed - Mgmt Cancelle SHU #3 08/10/19 A/M List Exempt J
+roster adj - REMOVED FROM [Sick / Annual]
+08/10/19 14:05 OT Removed - Mgmt Cancelle SHU #4 08/10/19 DAW List Exempt Cc)
+roster adjust - REMOVED FROM (Sick / Annual)
+08/10/19 13:39 OT Assigned UNIT 2 08/10/19 EW List Exempt [za]
+cpd adjustm
+08/10/19 13:36 OT Removed - Mgmt Cancelle ESCORT #2 08/10/19 D/W List Exempt LC}
+, - REMOVED FROM (Sick / Annual]
+08/10/19 13:07 OT Assigned ACT LT 08/10/19 P/M List Exempt C]
+It
+08/10/19 13:07 Last MNDTRY OT Date Set N/A NIA N/A C]
+mandated LAST MANDATORY OT ASSIGNMENT SET TO: 08/10/19 12:16
+08/10/19 13:06 OT Assigned 11 SOUTH #2 08/10/19 EW List Exempt oO
+list exausted
+08/10/19 13:06 Last MNDTRY OT Date Set N/A NIA N/A Cc]
+mandated LAST MANDATORY OT ASSIGNMENT SET TO: 08/10/19 11:18
+5/19/2020 10:37:33 AM
+DOJ-OGR-00025044

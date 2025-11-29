@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_010964",
+  "filename": "IMAGES-001-HOUSE_OVERSIGHT_010964.txt",
+  "text": "My model is the same as Ben-Porath’s from birth to independence. All consumption\nand all work are invested, for modeling purposes, until schooling ends at full-time\njob entry. I model this transition at age 20. Pay, realized work, human depreciation\nand pure consumption all begin at that point, although human depreciation begins\n\nat essentially zero.\n\nSelf-invested work continues as an important but diminishing share of work until\nlate in careers, just as in Ben-Porath. | differ from him mildly in that I model all adult\nconsumption as pure consumption. Ben-Porath allows adult invested consumption\nwithout assuming it. | regard it as real but negligible. Age-wage profiles are\n\nexplained by self-invested work and depreciation theory alone.\n\nI model this self-invested work as subliminal accumulation of job experience. My\nreason is personal observation. What I have seen in plants and offices is people\nworking full time on the job. We don’t take time off to learn. Experience simply\narrives, much as free growth does. | think that my view on this contradicts Ben-\nPorath’s marginally. He seems to allow some such allocation of time to help explain\n\nage-wage profiles.\n\nNext comes retirement. | model this as just shown. Later I will expand this model to\ninclude acquisition and disposal of physical capital too. The combined model will\n\ngive most of the math and mechanics of next generation theory.\n\nRisk Theory\n\nFor practical purposes, economic risk is usually measured as expected standard\ndeviation in rate of return. Safer assets vary less from their return norms. Short-\nterm treasuries are thought safest because they combine fixed nominal return with\nfast liquidity in case inflation threatens. The market overall bids safer expected\noutputs up and riskier ones down. Since asset value is the denominator in rate of\n\nreturn, and output the numerator, the effect is make risker assets higher in return.\n\nChapter 2: Fast Forward 1/06/16 24\n\nHOUSE_OVERSIGHT_010964",
+  "metadata": {
+    "original_filename": "IMAGES-001-HOUSE_OVERSIGHT_010964.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1977,
+    "word_count": 313,
+    "line_count": 40,
+    "import_date": "2025-11-19T21:47:44.209583",
+    "prefix": "IMAGES-001"
+  }
+}

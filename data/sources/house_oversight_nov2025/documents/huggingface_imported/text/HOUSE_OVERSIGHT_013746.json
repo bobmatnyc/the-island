@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013746",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013746.txt",
+  "text": "made on their attractors when they were much more densely filled (Lathrop and\nKostelich , 1989). Bowen’s “shadow lemma” in support of a thin film of points over\nthe skelton of unstable fixed points of attractors is the fundamental reason that short\nsample length time series can often discriminate between control and experimental\n\nconditions in brain research studies.\n\nAnother recently implemented entropy, called “approximate entropy,” is\nexploiting the underlying unstable fixed point skeletal shadowing principle in\nexpansive dynamical systems to find statistically significant differences between\ncontrol and experimental results in reasonably short, physiologically realistic,\nsample lengths (Pincus, 1991; Pincus et al, 1991). This algorithm is somewhat\nderivative of those involved in the computation of the correlation dimension (see\nabove). Instead of computing across a range (and taking the limits) of embedding\ndimensions, d, and sequential paired-vectorial distances, ¢«, it empirically tailors and\nfixes them to compute a “logarithmic likelihood” that points remains close through\nincremental change in the time series. The “approximate entropy” is not easily\nrelatable to either hy and hy. One is tempted to predict that this geometrically\n\noriented algorithm might be fooled into a postive entropy diagnosis if applied to\nstrange, nonchaotic dynamical systems with fractal dimension but no 4(+) -related\n\nmixing. Since sequence position is conserved in this computation, two\nsimultaneously studied (“multiparameter”) systems can be examined for their mutual\ncoherence as the “cross approximate entropy.” Among the interesting findings from\napplications of this index to neuroendocrine studies are an increase in approximate\nentropy in LH and FSH secretory patterns with age in both sexes, perhaps\nquantitatively heralding menopause (Pincus and Minkin, 1998) and decreased cross\napproximate entropy, a decrease in regulatory coupling between ACTH and cortisol\n\nsecretion patterns in patients with Cushing’s syndrome (Roelfsema et al, 1998).\n\nAmong the many of other empirically derived entropies, one is called “power\nspectral entropy,” which is equivalent to the normalized variance of the distribution\nof frequencies in a power spectral transformation of a time series (Farmer et al,\n\n1980). This has been successfully applied to brain enzyme and receptor fluctuations\n\n246\n\nHOUSE_OVERSIGHT_013746",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013746.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2416,
+    "word_count": 344,
+    "line_count": 41,
+    "import_date": "2025-11-19T21:47:45.154179",
+    "prefix": "IMAGES-002"
+  }
+}

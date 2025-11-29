@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016062",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_016062.txt",
+  "text": "“Prediction is very hard,\nespecially about the future.”\n\nNiels Bohr\n\n“The Moving Finger writes: and,\nhaving writ, Moves on: nor all\nthy Piety nor Wit Shall lure it\nback to cancel half a Line, Nor\n\nall thy Tears wash out a Word of\nit.”\n\nRubaiyat of Omar Khayyam,\nEdward FitzGerald\n\nMEGS Fe tule\n\nHOUSE_OVERSIGHT_016062",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_016062.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 317,
+    "word_count": 54,
+    "line_count": 19,
+    "import_date": "2025-11-19T21:47:44.836607",
+    "prefix": "IMAGES-003"
+  }
+}

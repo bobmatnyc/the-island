@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_025435",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_025435.txt",
+  "text": "Flags: 1085445\nIs Read: No\nIs Invitation: No\n\nGUID: 0295D722-A710-4BE2-9C93-D101D97596B7\n\nMessage: were you surprised by the rabid republican defense\n\nTime: 02/27/19 08:14:54 PM (573020094)\nFlags: 1060865\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 54762CB4-2482-4F63-9CE1-S501E493C929A\n\nMessage: Of course not\n\nHOUSE_OVERSIGHT_025435",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_025435.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 329,
+    "word_count": 39,
+    "line_count": 19,
+    "import_date": "2025-11-19T21:47:45.790403",
+    "prefix": "IMAGES-008"
+  }
+}

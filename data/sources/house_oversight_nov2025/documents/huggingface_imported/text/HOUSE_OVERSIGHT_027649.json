@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_027649",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_027649.txt",
+  "text": "Sender: e:jeeitunes@gmail.com\n\nTime: 03/31/19 10:53:18 AM (575747598)\nFlags: 1085445\nTs Read: No\n\nIs Invitation: No\n\nGUID: 77C3B1D2-9460-48D4-A30C-1ED42AF183A\n\nr\n\nMessage: Done\n\nTime: 03/31/19 01:08:58 PM (575755738)\nFlags: 1060865\n\nIs Read: Yes\n\nIs Invitation: No\n\nGUID: 4B262623-39C7-4830-8920-3021A224E703\n\nMessage: Enroute\n\nSender: e:jeeitunes@gmail.com\n\nTime: 03/31/19 01:09:51 PM (575755791)\nFlags: 1085445\n\nIs Read: No\n\nIs Invitation: No\n\nGUID: ESIELCBC-76A3-467F-B477-C80579597020\n\nMessage: Ok\n\nHOUSE_OVERSIGHT_027649",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_027649.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 525,
+    "word_count": 57,
+    "line_count": 39,
+    "import_date": "2025-11-19T21:47:46.809558",
+    "prefix": "IMAGES-009"
+  }
+}

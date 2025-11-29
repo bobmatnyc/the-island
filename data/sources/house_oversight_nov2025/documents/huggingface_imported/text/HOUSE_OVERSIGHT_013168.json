@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013168",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013168.txt",
+  "text": "252 13 Local, Global and Glocal Knowledge Representation\n\nImplicationLink\nEvaluationLink\neat\nListLink\n$X\naan,\nInheritanceLink $X sick\n\nor\n\nForAllLink $X, $Y, $2\nExtensionalEquivalenceLink\nEquivalenceLink\n$Z\nEvaluationLink\n+\nListLink\n$X\n$Y\nEquivalenceLink\n$Z\nEvaluationLink\n+\nListLink\n$Y\n$X\n\nNote, the latter is given as an extensional equivalence because it’s a pure mathematical equiv-\nalence. This is not the only case of pure extensional equivalence, but it’s an important one.\n\n13.3.4 Temporal Links\n\nThere are also temporal versions of these links, such as\n\nPredictiveImplicationLink\nPredictiveAttractionLink\nSequentialANDLink\nSimultaneousANDLink\n\nwhich combine logical relation between the argument with temporal relation between their\narguments. For instance, we might say\nPredictivelImplicationLink\n\nPredicateNode: Jumpoffcliff\nPredicateNode: Dead\n\nor including arguments,\n\nPredictiveImplicationLink\nEvaluationLink JumpOffCliff $x\nEvaluationLink Dead $X\n\nThe former version, without variable arguments given, shows the possibility of using higher-\norder logical links to join predicates without any explicit variables. Via using this format exclu-\nsively, one could avoid VariableAtoms entirely, using only higher-order functions in the manner\n\nHOUSE_OVERSIGHT_013168",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013168.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1275,
+    "word_count": 160,
+    "line_count": 59,
+    "import_date": "2025-11-19T21:47:45.093732",
+    "prefix": "IMAGES-002"
+  }
+}

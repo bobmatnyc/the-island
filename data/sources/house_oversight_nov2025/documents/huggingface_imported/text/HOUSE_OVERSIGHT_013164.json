@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_013164",
+  "filename": "IMAGES-002-HOUSE_OVERSIGHT_013164.txt",
+  "text": "248 13 Local, Global and Glocal Knowledge Representation\n\nindicates the simple and uninteresting ConceptNode grouping three objects owned by Ben\n(note that the above-given Atoms don’t indicate the ownership relationship, they just link the\nthree objects with textual descriptions). In this example, the ConceptNode links transparently\nto physical objects and English descriptions, but in general this won’t be the case — most\nConceptNodes will look to the human eye like groupings of links of various types, that link to\nother nodes consisting of groupings of links of various types, etc.\n\nThere are Atoms referring to basic, useful mathematical objects, e.g. NumberNodes like\n\nNumberNode #4\nNumberNode #3.44\n\nThe numerical value of a NumberNode is explicitly referenced within the Atom.\n\nA core distinction is made between ordered links and unordered links; these are handled\ndifferently in the Atomspace software. A basic unordered link is the SetLink, which groups its\narguments into a set. For instance, the ConceptNode C defined by\nConceptNode C\n\nMemberLink A C\nMemberLink BC\n\nis equivalent to\n\nSetLink AB\n\nOn the other hand, ListLinks are like SetLinks but ordered, and they play a fundamental role\ndue to their relationship to predicates. Most predicates are assumed to take ordered arguments,\nsO we may say €.g.\n\nEvaluationLink\nPredicateNode eat\nListLink\n\nConceptNode cat\nConceptNode mouse\n\nto indicate that cats eat mice.\nNote that by an expression like\n\nConceptNode cat\n\nis meant\n\nConceptNode C\nReferenceLink WC\nWordNode W #cat\n\nsince it’s WordNodes rather than ConceptNodes that refer to words. (And note that the strength\nof the ReferenceLink would not be 1 in this case, because the word \"cat\" has multiple senses.)\nHowever, there is no harm nor formal incorrectness in the \"ConceptNode cat\" usage, since \"cat\"\nis just as valid a name for a ConceptNode as, say, \"C.\"\n\nWe've already introduced above the MemberLink, which is a link joining a member to the\nset that contains it. Notable is that the truth value of a MemberLink is fuzzy rather than\nprobabilistic, and that PLN is able to inter-operate fuzzy and probabilistic values.\n\nSubsetLinks also exist, with the obvious meaning, e.g.\n\nConceptNode cat\n\nConceptNode animal\nSubsetLink cat animal\n\nHOUSE_OVERSIGHT_013164",
+  "metadata": {
+    "original_filename": "IMAGES-002-HOUSE_OVERSIGHT_013164.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2282,
+    "word_count": 355,
+    "line_count": 67,
+    "import_date": "2025-11-19T21:47:48.189902",
+    "prefix": "IMAGES-002"
+  }
+}

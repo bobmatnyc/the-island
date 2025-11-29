@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026532",
+  "filename": "IMAGES-009-HOUSE_OVERSIGHT_026532.txt",
+  "text": "the phenomena of taboo trade-offs, then it provides a novel prediction: taboo trade-offs\nwill prevail precisely in situations where there is large but infrequent temptation to defect\nand defection is harmful, such as selling a child, betraying a country, or sleeping with\nsomeone for a million dollars. It remains to be shown that taboo trade-offs demonstrate\nthis characteristic. It also provides an important policy prescription regarding policies\nforbidding taboo trade-offs, for example, the ban on euthanasia: such policies are socially\nsuboptimal, since the benefits of cooperating without looking accrue to the individuals\nwho advocate them, but the costs are borne by society.\n\nFinally, our model offers an explanation for emotions such as love, and can thus be\nthought of as a formalization of Frank (1988). Love has the property that we behave\naltruistically towards our partners regardless of what temptations arise [30], as illustrated\nby the wedding vow, “for better or for worse, for richer, for poorer, in sickness and in\nhealth.” For example, love causes individuals to ignore other potential mates, even if those\nmates are better than one’s current mate, as Shakespeare’s Juliet did when her love for\nRomeo led her to rebuff the advances of the otherwise-more-suitable Paris.\n\nWhy does love have this property? Our model suggests that those in love will more\noften be chosen as long-term partners. If this argument in fact underlies love, then it\nis crucial that love is observable, and that it necessarily cannot be displayed while still\nattending to costs. There is evidence consistent with this: related emotions are observable\n[31], cannot be faked [32], and are relied upon by partners when choosing whether to\ncooperate [33]. There is also reason to believe love and related emotions would be hard\nto fake, given their autonomic origins, and the costs of placing their activation under\nconscious control [30, 28]. However, it remains to be shown that love in particular has\nthese attributes, and that it cannot be displayed while attending to costs.\n\nOur formalism adds novel insights to Frank’s argument about love. First, our model\n\nIZ\n\nHOUSE_OVERSIGHT_026532",
+  "metadata": {
+    "original_filename": "IMAGES-009-HOUSE_OVERSIGHT_026532.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2184,
+    "word_count": 345,
+    "line_count": 32,
+    "import_date": "2025-11-19T21:47:49.010872",
+    "prefix": "IMAGES-009"
+  }
+}

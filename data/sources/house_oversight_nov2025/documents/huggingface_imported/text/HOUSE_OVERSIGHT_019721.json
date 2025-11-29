@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_019721",
+  "filename": "IMAGES-005-HOUSE_OVERSIGHT_019721.txt",
+  "text": "The Russians Are Coming | 233\n\nit targets Tor software. It even offered a cash prize to anyone in the\nhacking community who could break Tor. Prior to 2013, according\nto cyber-security experts, it spent over a decade building cyber tools\naimed at unraveling the Tor networks used by hacktivists, criminal\nenterprises, political dissidents, and rival intelligence operatives. To\nthis end, it reportedly attempted to map out computers that served\nas major Tor exit nodes (such as the one Snowden operated in 2012\nnear an NSA regional base in Hawaii). It also reportedly attached\nthe equivalent of “electronic ink” to messages, which would allow\nit to trace the path of messages that passed through them. Through\nthis technology, it could tag and follow Tor users as their commu-\nnications traveled across the Internet. It could even borrow their\nInternet identities. To be sure, the NSA also had such a capability.\nThe Silk Road founder, Ross Ulbricht, discovered to his distress that\nhis Tor software did not make his computer server in Iceland invis-\nible. According to a former top official in the Justice Department, the\nNSA was able to locate it by cracking the Tor software (Ulbricht is\ncurrently serving a life sentence for his activities). Unlike adversary\n\n© services, however, the NSA needs a warrant to investigate U.S. citi- ®\nzens who use Tor.\n\nThe NSA is hardly immune from an attack on its own computers.\nAs the former CIA deputy director Morell wrote in his 2015 book,\nThe Great War of Our Time, many financial institutions have “better\ncyber security than the NSA.” The Internet certainly helped make\nthe activities of U.S. intelligence workers visible to the SVR.\n\nBut to achieve its goals, the SVR still had to find at least one dis-\ngruntled civilian contractor inside the NSA who had access to the\nsealed-off computer networks. Did it find its man? If so, was it before\nor after Snowden arrived in Hong Kong with the Level 3 NSA files?\n\n| | Epst_9780451494566_2p_all_r1.indd 233 ® 9/30/16 8:13AM | |\n\nHOUSE_OVERSIGHT_019721",
+  "metadata": {
+    "original_filename": "IMAGES-005-HOUSE_OVERSIGHT_019721.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2041,
+    "word_count": 342,
+    "line_count": 38,
+    "import_date": "2025-11-19T21:47:44.626465",
+    "prefix": "IMAGES-005"
+  }
+}

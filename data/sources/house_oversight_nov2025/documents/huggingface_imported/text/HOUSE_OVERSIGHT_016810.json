@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_016810",
+  "filename": "IMAGES-004-HOUSE_OVERSIGHT_016810.txt",
+  "text": "Steven Pinker: Tech Prophecy and the Underappreciated Causal Power of Ideas\nThere is no law of complex systems that says that intelligent agents must turn into\nruthless megalomaniacs.\n\nDavid Deutsch: Beyond Reward and Punishment\nMisconceptions about human thinking and human origins are causing corresponding\nmisconceptions about AGI and how it might be created.\n\nTom Griffiths: The Artificial Use of Human Beings\nAutomated intelligent systems that will make good inferences about what people want\nmust have good generative models for human behavior.\n\nAnca Dragan: Putting the Human into the AI Equation\nIn the real world, an AI must interact with people and reason about them. People will\nhave to formally enter the AI problem definition somewhere.\n\nChris Anderson: Gradient Descent\n\nJust because Al systems sometimes end up in local minima, don’t conclude that this\nmakes them any less like life. Humans—indeed, probably all life-forms—are often stuck\nin local minima.\n\nDavid Kaiser: “Information” for Wiener, for Shannon, and for Us\n\nMany of the central arguments in The Human Use of Human Beings seem closer to the\n19th century than the 21st. Wiener seems not to have fully embraced Shannon’s notion of\ninformation as consisting of irreducible, meaning-free bits.\n\nNeil Gershenfeld: Scaling\nAlthough machine making and machine thinking might appear to be unrelated trends,\nthey lie in each other’s futures.\n\nW. Daniel Hillis: The First Machine Intelligences\n\nHybrid superintelligences such as nation states and corporations have their own\nemergent goals and their actions are not always aligned to the interests of the people\nwho created them.\n\nVenki Ramakrishnan: Will Computers Become Our Overlords?\nOur fears about AI reflect the belief that our intelligence is what makes us special.\n\nAlex “Sandy” Pentland: The Human Strategy\n\nHow can we make a good human-artificial ecosystem, something that’s not a machine\nsociety but a cyberculture in which we can all live as humans—a culture with a human\nfeel to it?\n\nHOUSE_OVERSIGHT_016810",
+  "metadata": {
+    "original_filename": "IMAGES-004-HOUSE_OVERSIGHT_016810.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2038,
+    "word_count": 314,
+    "line_count": 48,
+    "import_date": "2025-11-19T21:47:47.283546",
+    "prefix": "IMAGES-004"
+  }
+}

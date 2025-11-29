@@ -1,0 +1,55 @@
+======================================================================
+ENTITY RELATIONSHIP NETWORK (Flight Co-Occurrences)
+======================================================================
+
+NETWORK STATISTICS:
+----------------------------------------------------------------------
+  Total entities: 284
+  Total connections: 1624
+  Average connections per entity: 11.4
+
+TOP 20 MOST CONNECTED ENTITIES:
+----------------------------------------------------------------------
+  Jeffrey Epstein                    : 262 connections 
+  Maxwell, Ghislaine                 : 188 connections 
+  Sarah Kellen                       : 135 connections 
+  Emmy Tayler                        :  82 connections 
+  Andrea Mitrovich                   :  52 connections 
+  Cindy Lopez                        :  51 connections 
+  Larry Morrison                     :  46 connections 
+  Nadia                              :  45 connections 
+  Eva Dubin                          :  44 connections 
+  Larry Visoski                      :  44 connections 
+  Celina Dubin                       :  42 connections 
+  Brent Tindall                      :  39 connections 
+  Gwendolyn Beck                     :  36 connections 
+  Gary Roxburgh                      :  31 connections 
+  Luc Brunel                         :  31 connections 
+  Jordan Dubin                       :  30 connections 
+  Illegible Illegible                :  30 connections 
+  Teala Davies                       :  30 connections 
+  Glenn Dubin                        :  29 connections 
+  Chauntae Davies                    :  29 connections 
+
+TOP 20 STRONGEST RELATIONSHIPS:
+----------------------------------------------------------------------
+  Jeffrey Epstein                ↔ Maxwell, Ghislaine            : 478 flights together
+  Jeffrey Epstein                ↔ Sarah Kellen                  : 291 flights together
+  Jeffrey Epstein                ↔ Emmy Tayler                   : 194 flights together
+  Maxwell, Ghislaine             ↔ Emmy Tayler                   : 156 flights together
+  Maxwell, Ghislaine             ↔ Sarah Kellen                  : 129 flights together
+  Jeffrey Epstein                ↔ Larry Visoski                 : 122 flights together
+  Jeffrey Epstein                ↔ Nadia                         : 120 flights together
+  Nadia                          ↔ Larry Visoski                 :  90 flights together
+  Sarah Kellen                   ↔ Larry Visoski                 :  81 flights together
+  Jeffrey Epstein                ↔ Larry Morrison                :  77 flights together
+  Sarah Kellen                   ↔ Nadia                         :  73 flights together
+  Larry Morrison                 ↔ Larry Visoski                 :  73 flights together
+  Larry Morrison                 ↔ Nadia                         :  63 flights together
+  Jeffrey Epstein                ↔ Brent Tindall                 :  58 flights together
+  Jeffrey Epstein                ↔ Andrea Mitrovich              :  56 flights together
+  Sarah Kellen                   ↔ Larry Morrison                :  55 flights together
+  Jeffrey Epstein                ↔ Teala Davies                  :  48 flights together
+  Sarah Kellen                   ↔ Andrea Mitrovich              :  43 flights together
+  Jeffrey Epstein                ↔ Shelley Lewis                 :  38 flights together
+  Sarah Kellen                   ↔ Brent Tindall                 :  36 flights together

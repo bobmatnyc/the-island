@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUID Hydration Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .test-case {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .success { background-color: #d4edda; }
+        .error { background-color: #f8d7da; }
+        .pending { background-color: #fff3cd; }
+    </style>
+</head>
+<body>
+    <h1>GUID Hydration Test</h1>
+    <p>Testing entity name hydration from GUID</p>
+
+    <div id="test-results"></div>
+
+    <script>
+        const API_BASE_URL = 'http://localhost:8081';
+        const TEST_GUID = '43886eef-f28a-549d-8ae0-8409c2be68c4';
+        const EXPECTED_NAME = 'Epstein, Jeffrey';
+
+        function isGuid(value) {
+            const guidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+            return guidRegex.test(value);
+        }
+
+        async function hydrateEntityName(identifier) {
+            if (!isGuid(identifier)) {
+                return identifier;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/v3/entities/${identifier}`);
+
+                if (!response.ok) {
+                    console.warn(`API error for ${identifier}: ${response.status}`);
+                    return identifier;
+                }
+
+                const data = await response.json();
+
+                if (!data || typeof data.name !== 'string') {
+                    console.error('Invalid response format:', data);
+                    return identifier;
+                }
+
+                return data.name;
+            } catch (error) {
+                console.error('Failed to fetch entity name:', error);
+                return identifier;
+            }
+        }
+
+        function createTestResult(name, status, message) {
+            const div = document.createElement('div');
+            div.className = `test-case ${status}`;
+            div.innerHTML = `
+                <h3>${name}</h3>
+                <p>${message}</p>
+            `;
+            return div;
+        }
+
+        async function runTests() {
+            const resultsContainer = document.getElementById('test-results');
+
+            // Test 1: isGuid function
+            resultsContainer.appendChild(
+                createTestResult(
+                    'Test 1: isGuid validation',
+                    isGuid(TEST_GUID) ? 'success' : 'error',
+                    isGuid(TEST_GUID)
+                        ? `✓ Correctly identified ${TEST_GUID} as a GUID`
+                        : `✗ Failed to identify ${TEST_GUID} as a GUID`
+                )
+            );
+
+            // Test 2: Non-GUID string
+            const nonGuid = 'jeffrey_epstein';
+            resultsContainer.appendChild(
+                createTestResult(
+                    'Test 2: Non-GUID detection',
+                    !isGuid(nonGuid) ? 'success' : 'error',
+                    !isGuid(nonGuid)
+                        ? `✓ Correctly identified "${nonGuid}" as NOT a GUID`
+                        : `✗ Incorrectly identified "${nonGuid}" as a GUID`
+                )
+            );
+
+            // Test 3: GUID hydration
+            resultsContainer.appendChild(
+                createTestResult(
+                    'Test 3: GUID hydration',
+                    'pending',
+                    'Fetching entity name from API...'
+                )
+            );
+
+            try {
+                const hydratedName = await hydrateEntityName(TEST_GUID);
+                const testCase = resultsContainer.lastChild;
+
+                if (hydratedName === EXPECTED_NAME) {
+                    testCase.className = 'test-case success';
+                    testCase.innerHTML = `
+                        <h3>Test 3: GUID hydration</h3>
+                        <p>✓ Successfully hydrated GUID to "${hydratedName}"</p>
+                    `;
+                } else {
+                    testCase.className = 'test-case error';
+                    testCase.innerHTML = `
+                        <h3>Test 3: GUID hydration</h3>
+                        <p>✗ Expected "${EXPECTED_NAME}" but got "${hydratedName}"</p>
+                    `;
+                }
+            } catch (error) {
+                const testCase = resultsContainer.lastChild;
+                testCase.className = 'test-case error';
+                testCase.innerHTML = `
+                    <h3>Test 3: GUID hydration</h3>
+                    <p>✗ Error: ${error.message}</p>
+                `;
+            }
+
+            // Test 4: Non-GUID passthrough
+            const nonGuidName = 'jeffrey_epstein';
+            const result = await hydrateEntityName(nonGuidName);
+            resultsContainer.appendChild(
+                createTestResult(
+                    'Test 4: Non-GUID passthrough',
+                    result === nonGuidName ? 'success' : 'error',
+                    result === nonGuidName
+                        ? `✓ Non-GUID identifier passed through unchanged: "${result}"`
+                        : `✗ Non-GUID identifier was modified: "${nonGuidName}" → "${result}"`
+                )
+            );
+        }
+
+        runTests();
+    </script>
+</body>
+</html>

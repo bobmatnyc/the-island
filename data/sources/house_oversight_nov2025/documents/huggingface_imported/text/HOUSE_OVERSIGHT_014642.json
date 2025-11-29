@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_014642",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_014642.txt",
+  "text": "US - Internet Coverage Cluster\nBofA Merrill Lynch\n\nInvestment rating Company ticker Bloomberg symbol Analyst\n\nBUY\nAlphabet GOOGL GOOGL US Justin Post\nAlphabet GOOG GOOG US Justin Post\nAmazon.com AMZN AMZN US Justin Post\nBankrate RATE RATE US Nat Schindler\neBay EBAY EBAY US Justin Post\nExpedia EXPE EXPE US Justin Post\nFacebook FB FB US Justin Post\nGrubHub GRUB GRUB US Nat Schindler\nIAC InterActive IAC IAC US Nat Schindler\nLendingTree TREE TREE US Nat Schindler\nMatch Group MTCH MTCH US Nat Schindler\nNetflix, Inc. NFLX NFLX US Nat Schindler\nOnDeck Capital ONDK ONDK US Nat Schindler\npriceline.com PCLN PCLN US Justin Post\nTake-Two Interactive TTWO TTWO US Justin Post\nWix.com WIX WIX US Nat Schindler\nYahoo! YHOO YHOO US Justin Post\nZillow ZG ZGUS Nat Schindler\nZillow Z ZUS Nat Schindler\n\nNEUTRAL\nActivision ATVI ATVIUS Justin Post\nElectronic Arts EA EAUS Justin Post\nQuotient Technology Inc QUOT QUOT US Nat Schindler\nWayfair Ww WUS Justin Post\nYelp YELP YELP US Justin Post\n\nUNDERPERFORM\nCare.com CRCM CRCM US Justin Post\nFitbit FIT FITUS Nat Schindler\nGoPro GPRO GPRO US Jason Mitchell\nPandora Media, Inc. P PUS Nat Schindler\nTripAdvisor TRIP TRIP US Nat Schindler\nTwitter TWIR TWIRUS Justin Post\nZYNGA ZNGA ZNGA US Justin Post\n\nRVW\nChegg CHGG CHGG US Nat Schindler\n\nme peorlgalinll Top 10 US Ideas Quarterly | 03 January 201721\n\nHOUSE_OVERSIGHT_014642",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_014642.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1359,
+    "word_count": 225,
+    "line_count": 48,
+    "import_date": "2025-11-19T21:47:49.088695",
+    "prefix": "IMAGES-003"
+  }
+}

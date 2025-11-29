@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015858",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015858.txt",
+  "text": "168 Are the Androids Dreaming Yet?\n\nImagine you wanted to find the center of a maze. Is there a way to\nspeed searching the maze, so you do not have to test every branch? If\nyou can provide a mathematical proof that there is or is not, you win the\nprize.\n\nPlaces Game\n\nWhile it is commonly assumed NP problems are the hardest, this is not\nthe case. There are quite a few that are harder still. One such is called a\nPSPACE problem. It’s quite difficult to explain but luckily many of you\nwill have played a form of it on long car trips when you were a child: My\nfamily calls it The Places Game.\n\nI will pick a place —- “London; and you must then pick another place,\nsay, ‘New York, that starts with the letter my place ends with. Pll then\npick ‘Canterbury’ and my kids will laugh at my dyslexia and I'll have to\nswitch to ‘Kansas’ and so on. Once you use a place you can’t use it again.\n\nThe mathematical question is to predict who will win given each\nplayer has a finite list of places they know? It turns out this type of\nproblem is even harder to solve than an NP problem. This is because\non each turn a player gets to pick any name from their list. With the\ntraveling salesman problem, there is only one ‘player’ — the salesman -\nso we can write out a route and check it. In the Places Game there is\nno single route through the game because, after I pick my favorite town\n‘London; you can pick any place beginning with ‘N’ I have to anticipate\nan enormous table of possible paths through the game. The table takes\nhuge physical space — which is where PSPACE gets its name.\n\nRemember I’m just playing the simplest mathematical games with\nbits of paper and discrete ideas. I haven't strayed into the quantum\nworld yet. That brings with it a whole new level of complexity to explore.\nComplexity is such a diverse subject that Scott Aaronson of MIT has\ncreated a web site called the complexity zoo to catalogue all the different\n‘species. It is much to complex to reproduce here but let me provide a\n\nsketch.\n\nThe Complexity Hierarchy\n\nMy table below represents the hierarchical complexity of knowledge.\nWe start off with the problems both humans and computers find easy,\nthen rapidly move onto problems that even the fastest machines find\ndifficult: a perfect game of chess or predicting the weather. Above these\ncomputable problems are the non-computable ones which no computer\n\nHOUSE_OVERSIGHT_015858",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015858.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 2401,
+    "word_count": 438,
+    "line_count": 49,
+    "import_date": "2025-11-19T21:47:45.913461",
+    "prefix": "IMAGES-003"
+  }
+}

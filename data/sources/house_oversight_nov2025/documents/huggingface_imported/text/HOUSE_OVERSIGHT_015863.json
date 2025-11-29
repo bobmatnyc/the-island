@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_015863",
+  "filename": "IMAGES-003-HOUSE_OVERSIGHT_015863.txt",
+  "text": "Complexity & Chaos 173\n\nLorenz went on to study the effect and created a new branch of\nmathematics. His quote about the beat of a butterfly wing creating\ntornados has entered the public psyche and is central to the plot of\nnumerous Hollywood movies. One of his functions —- known as the Lorenz\nAttractor — nicely illustrates the nature of chaos. A very simple equation\nplots the beautiful, apparently three-dimensional, non-repeating shape.\n\nChaosville\n\nChaos, taken to its logical conclusion could explain our Universe. Stephen\nWolfram in A New Kind of Science, makes the argument that simple rules\ncould explain the extraordinary complexity we see in our Universe. He\napplies rules to elements in a two-dimensional grid programmed on\nthe computer which form ‘cellular automaton’ that function a little like\nsimple animals, generating all manner of complex shapes and behaviors.\nThe inspiration for this approach is almost certainly Conway’s Game of\nLife developed by John Conway in the 1960’s. In his computer game,\nanimals and machines seem to appear on the screen but in truth they\nderive from the most simple set of rules. You can check out the website\nto see a live version of Conway’s Game of Life. It’s a lot of fun. Wolfram’s\n\nStrange Attractor\n\nHOUSE_OVERSIGHT_015863",
+  "metadata": {
+    "original_filename": "IMAGES-003-HOUSE_OVERSIGHT_015863.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 1277,
+    "word_count": 208,
+    "line_count": 26,
+    "import_date": "2025-11-19T21:47:45.445877",
+    "prefix": "IMAGES-003"
+  }
+}

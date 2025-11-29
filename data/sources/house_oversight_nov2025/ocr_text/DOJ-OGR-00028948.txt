@@ -1,0 +1,24 @@
+Automated Serial Permanent Charge-Out
+FD-Sa (1-5-94)
+Date: 02/06/07 Time: 14:34
+Case ID: 31E-MM-108062 Serial: 63
+Description of Document:
+Type : OTHER
+Date ;: 01/23/07
+To : b3 -2
+From : US DISR COURT pe -3
+Topic: EXECUTIVE FGI SUBPOENA [ bic -3
+Reason for Permanent Charge-Out:
+transfer to the sub sbp
+Transferred to:
+Case ID: 31E-MM-108062-SBP Serial: 3
+b6 -2
+;
+|
+|
+I
+|
+03956-344
+BIE - 14 -/07062- 68
+ee
+DOJ-OGR-00028948

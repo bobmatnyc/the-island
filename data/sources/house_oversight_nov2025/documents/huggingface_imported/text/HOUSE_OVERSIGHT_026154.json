@@ -1,0 +1,14 @@
+{
+  "document_id": "HOUSE_OVERSIGHT_026154",
+  "filename": "IMAGES-008-HOUSE_OVERSIGHT_026154.txt",
+  "text": "Ukrsibbank Ukrgasbank Raiffeisen Bank\nAval\n2016 2015 2016 2015 2016 2015\nInterest income 142 157 193 134 232 237\nInterest expence -44 -65 -167 -106 -58 -86\nNet interest income 98 93 25 28 174 151\nNet commission 46 61 12 8 67 65\nincome\nTrading&other income 20 12 -0 -1 30 25\nEmployee costs -38 -40 -20 -16 -53 -50\nDepreciation -6 -8 -4 -2 -12 -13\nAdministrative and -23 -29 -22 -18 -50 -50\nother operating costs\nOther provisions 0 0 -1 +5 9 0\nGeneral & Admin. -67 -76 -48 -41 -124 -113\nExpenses\nPre Provision Income 98 90 -11 -5 147 129\nProvision for loan -127 -93 20 17 1 -191\nimpairment\nProfit before tax -33 1 9 12 147 -62\nIncome tax expense -2 -0 1 -2 -13 7\nNet profit -35 1 10 10 134 -55\n\n21\n\nHOUSE_OVERSIGHT_026154",
+  "metadata": {
+    "original_filename": "IMAGES-008-HOUSE_OVERSIGHT_026154.txt",
+    "source_dataset": "huggingface:tensonaut/EPSTEIN_FILES_20K",
+    "character_count": 719,
+    "word_count": 144,
+    "line_count": 26,
+    "import_date": "2025-11-19T21:47:47.960352",
+    "prefix": "IMAGES-008"
+  }
+}

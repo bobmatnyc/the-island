@@ -1,0 +1,62 @@
+Case 1:20-cr-00330-PAE Document 397-2 Filed 10/29/21 Page 40 of 45
+lva A. E. Bicanic et al.
+factor identified in the univariate analyses with a sig- Table 2. Victim assailant relationship (N =323) in valid
+nificant OR (p <0.05) was entered as a predictor variable percentages
+into the multivariable model, using a stepwise forward oo
+logistic regression (LR) analysis with delayed disclosure N %
+as the outcome variable. The Hosmer—Lemeshow goodness- Sanger ttti(‘i‘“‘“‘<‘z S!”!SSC GS
+of-fit chi-square was used to calculate how well the .
+Sead (Ex-)Boyfriend 32 10.0
+data fit the model. For all statistical analyses, a p-value Pana - anh
+of <0.05 was considered statistically significant. .
+oe ; Acquaintance 61 19.1
+All statistical analyses were conducted using SPSS Person ane wlurney rifofilfi 30 BA
+(IBM SPSS Statistics for Windows, Version 20.0, IBM Second-deqeaa relative 45 47
+Corp., Armonk, NY). Person seen only once 15 4.7
+Person from school 14 4.4
+Results Person met on the internet 12 3.8
+Colleague 10 3.1
+Socio-demographic characteristics Mentor 3 1.0
+Socio-demographic characteristics of the sample are pre- TO. —<22J§
+sented in Table 1. Victims’ age ranged from 12 to 25 higher [1(269) = 24.297, p <0.001] compared to the gen-
+years, with a mean age of 16.7 years (SD=2.7) and a era] population (M=118.28, SD =32.38; Arrindell &
+median age of 16.1 years. Victims’ mean age at time of Ettema, 1986). For the CDI, mean scores were in the
+rape was 14.3 years (SD =2.7) and a median age of 13.9 clinical range (M=17.2, SD=4.6) and rape victims
+years. Penetration occurred in 79.6% of the cases. None had significantly higher mean scores (t(230) = 15,923,
+of the welaiis reported prior chronic child sexual abuse. p <0.001), in comparison to previously reported data of
+Data about victim—assailant relationship are presented in the general population of adolescent girls (Timbremont,
+Table 2. Victims first disclosed after a mean 20.8 weeks Braet, & Roelofs, 2008; M=9.01, SD =6.45).
+(SD = 56.8, range 1-624 weeks), although 58.5% of the
+cases told within | week. First disclosure was to a friend Differences between early and delayed disclosers
+(45.8%), parent(s) (17.1%), (ex) boy-friend (9.4%), family Fifty-nine percent of the sample consisted of early dis-
+member (6.8%), professional (5.8%), or other adult closers (disclosure within 1 week). No significant differ-
+(15.2%). With regard to postamape SETVICES, 33.84 of all ences in demographic characteristics were found between
+victims consulted a doctor for medical care and 51.4% early and delayed disclosers, except that there were
+reported to the police. On average, victims were admitted more delayed disclosers in the age category 12-17 years
+to the centre 59.8 weeks post-rape (SD =93.7, range compared to the early disclosers group (72 (1) = 6.96;
+1-676). The mean Gal of the rape victims on the SCL-90- p =0.008). For rape characteristics, significant differences
+R (M= 209.7, SD =61.8) Was comparable with previously between groups were found for the use of penetration,
+reported data of psychiatric populations [Af = 203.55, with more victims of penetration in the delayed disclosers
+SD = 61.60; (269) = 1.629, p =0.104] and was substantially group compared to the early disclosers group (7? (1) =
+_ . . — 5.37; p =0.02). Also, the delayed disclosers group pre-
+Table 1, Demographic characteristics of rape victims sented more victims of verbal and/or weapon threats
+(F325) in valid percentages than the early disclosers group (7? (1) =5.35; p =0.02).
+nn ne Furthermore, among the delayed disclosers more victims
+identified the assailant as a close person compared to the
+Dutch origin? 274 84.8 early disclosers (y* (1) = 10.84; p =0.001). Alcohol was
+Education level? used more often in the early disclosers group compared
+Low 182 58.0 to the delayed disclosers group (7’ (1) = 20.24; p <0.001).
+Medium 76 24,2 With respect to post-rape characteristics, a significantly
+High 56 17.8 smaller proportion of the delayed disclosers (15.9%)
+Parents divorced 102 31.9 utilized medical services following the rape compared
+Lives at parental home 273 85.3 to the early disclosers (30.3%; y? (1) =5.32; p=0.02).
+Current relationship 81 26.5 Similarly, a significantly smaller proportion of the delayed
+Prior negative sex 46 14.8 disclosers (14.6%) compared to the early disclosers
+Fo (34.3%) reported the rape to the police (y* (1) =16.15;
+“Dutch origin was defined as being a child from parents born in ; ‘ Fit ;
+the Netherlands; "after 6 years of general primary school, at the p <0.001). The time since trauma at admission was sig-
+age of 12 years, students enter low (4 years), medium (5 years), nificantly lower for early disclosers (MM=41.1 weeks,
+or high (6 years) secondary education level. SD =79.4) than for delayed disclosers (M = 82.9 weeks,
+4 —_ Citation: European Journal of Psychotraumatology 2015, 6: 25883 _ http://dx.doi.org/10.3402/ejpt.v6.25883
+(page number not for citation purpose)
+DOJ-OGR-00005950

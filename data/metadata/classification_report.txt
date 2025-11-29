@@ -1,0 +1,44 @@
+======================================================================
+EPSTEIN ARCHIVE CLASSIFICATION & SEMANTIC INDEX
+======================================================================
+
+Total documents: 6
+Documents with entities: 6 (100.0%)
+Total entity mentions: 2828
+Average entities per document: 471.3
+
+CLASSIFICATION BREAKDOWN:
+----------------------------------------------------------------------
+  flight_log          :     2 ( 33.3%)
+  administrative      :     1 ( 16.7%)
+  contact_book        :     1 ( 16.7%)
+  personal            :     1 ( 16.7%)
+  media               :     1 ( 16.7%)
+
+CONFIDENCE DISTRIBUTION:
+----------------------------------------------------------------------
+  High confidence (>0.8):      1 ( 16.7%)
+  Low confidence (<0.5):       5 ( 83.3%)
+
+TOP 20 MOST MENTIONED ENTITIES:
+----------------------------------------------------------------------
+  epstein                       :    6 mentions (administrative: 1, contact_book: 1, flight_log: 2, media: 1, personal: 1)
+  roberts                       :    4 mentions (administrative: 1, flight_log: 2, media: 1)
+  ghislaine                     :    4 mentions (administrative: 1, flight_log: 2, media: 1)
+  black                         :    4 mentions (administrative: 1, contact_book: 1, flight_log: 1, media: 1)
+  dubin                         :    4 mentions (administrative: 1, flight_log: 2, media: 1)
+  nadia                         :    4 mentions (administrative: 1, flight_log: 2, media: 1)
+  clinton                       :    4 mentions (administrative: 1, flight_log: 2, media: 1)
+  chris tucker                  :    4 mentions (flight_log: 2, media: 1, personal: 1)
+  spacey                        :    4 mentions (flight_log: 2, media: 1, personal: 1)
+  kevin spacey                  :    4 mentions (flight_log: 2, media: 1, personal: 1)
+  tucker                        :    4 mentions (flight_log: 2, media: 1, personal: 1)
+  bill clinton                  :    3 mentions (administrative: 1, flight_log: 2)
+  band                          :    3 mentions (administrative: 1, flight_log: 1, media: 1)
+  lang                          :    3 mentions (administrative: 1, flight_log: 1, media: 1)
+  davies                        :    3 mentions (administrative: 1, flight_log: 1, media: 1)
+  doug band                     :    3 mentions (administrative: 1, flight_log: 1, media: 1)
+  jeffrey epstein               :    3 mentions (administrative: 1, flight_log: 1, media: 1)
+  sophie biddle                 :    3 mentions (administrative: 1, flight_log: 1, media: 1)
+  nadia nadia                   :    3 mentions (administrative: 1, flight_log: 2)
+  virginia roberts              :    3 mentions (administrative: 1, flight_log: 2)
