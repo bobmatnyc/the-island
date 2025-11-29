@@ -416,69 +416,51 @@ class EntityService:
             return None
 
         try:
-            # Build enhanced prompt with strong keyword indicators
-            prompt = f"""Classify this entity as one of: person, organization, location
+            # Build reasoning-based prompt that uses LLM intelligence
+            prompt = f"""You are classifying entities from Jeffrey Epstein's contact records.
 
 Entity name: "{name}"
 """
 
-            if context:
-                if context.get('bio'):
-                    # Increase bio excerpt to 500 chars for better organizational/location context
-                    bio_excerpt = context['bio'][:500]
-                    prompt += f"\nBio excerpt: {bio_excerpt}..."
-                if context.get('sources'):
-                    sources_list = ', '.join(context['sources'][:3])  # Max 3 sources
-                    prompt += f"\nSources: {sources_list}"
+            if context and context.get('bio'):
+                # Include full biographical context for accurate reasoning
+                bio_excerpt = context['bio'][:1000]  # Use more context
+                prompt += f"""\nBiographical information:
+{bio_excerpt}"""
 
             prompt += """
 
-Classification Rules with Keyword Indicators:
+Task: Classify this entity as EXACTLY ONE of: person, organization, location
 
-**ORGANIZATION** - Companies, agencies, foundations, institutions
-  Examples: "FBI", "CIA", "Clinton Foundation", "Trump Organization", "Interfor Inc", "Southern Trust Company"
-  Keywords: Foundation, Organization, Inc, LLC, Corp, Company, Agency, Bureau, Department, Institute, University, Association, Trust, Bank, Group
+Classification Guidelines:
 
-**LOCATION** - Places, properties, geographic locations
-  Examples: "Little St. James Island", "Zorro Ranch", "Palm Beach", "New York", "Mar-a-Lago"
-  Keywords: Island, Beach, Ranch, Estate, Airport, Hotel, Resort, Street, Avenue, Road, Club, Palace, Villa, City, State, Country
+**PERSON** - An individual human being
+  - Someone with a personal biography, career, relationships
+  - Entries in contact books are typically people
+  - Names with "Last, First" format are usually people
+  - Titles like Dr., Mr., Ms., Prince indicate people
+  - Examples: "Epstein, Jeffrey", "Maxwell, Ghislaine", "Ann Stock", "Anh Duong"
 
-**PERSON** - Individual humans
-  Examples: "Epstein, Jeffrey", "Maxwell, Ghislaine", "Clinton, Bill", "Trump, Donald"
-  Name patterns: Last name + comma + first name, or full names with titles (Dr., Mr., Ms.)
+**ORGANIZATION** - A company, institution, agency, foundation
+  - Only use if explicitly an organization (has "Inc", "LLC", "Foundation", "Company", etc.)
+  - Examples: "FBI", "CIA", "Clinton Foundation", "Trump Organization", "Interfor Inc"
 
-Prioritization (CRITICAL - FOLLOW THIS ORDER):
-1. CHECK KEYWORDS FIRST (highest priority):
-   - If name contains ANY organization keyword (Company, Inc., Corp., Foundation, Bank, Agency, etc.) → organization
-   - If name contains ANY location keyword (Island, Beach, Street, City, County, State, Country, etc.) → location
+**LOCATION** - A geographic place or property
+  - Only use if explicitly a place (has "Island", "Beach", "City", "Street", etc.)
+  - Examples: "Little St. James Island", "Zorro Ranch", "Palm Beach", "New York"
 
-2. CHECK NAME FORMAT (secondary priority - ONLY if no keywords found):
-   - If "Last, First" format AND no keywords → person
-   - If personal titles (Mr., Mrs., Dr., Prince, etc.) AND no keywords → person
-
-3. DEFAULT (fallback - ONLY if no clear indicators):
-   - person
-
-CRITICAL RULE: Keyword matching takes ABSOLUTE PRECEDENCE over name format.
-
-EXAMPLES TO PREVENT MISTAKES:
-❌ "Trump Organization" → person (WRONG! Ignore that "Trump" looks like a person's name)
-✅ "Trump Organization" → organization (CORRECT! Keyword: "Organization")
-
-❌ "Clinton Foundation" → person (WRONG! Ignore that "Clinton" looks like a person's name)
-✅ "Clinton Foundation" → organization (CORRECT! Keyword: "Foundation")
-
-❌ "Little St. James Island" → person (WRONG! Ignore that it contains "James")
-✅ "Little St. James Island" → location (CORRECT! Keyword: "Island")
-
-❌ "Palm Beach" → person (WRONG! Ignore that "Beach" could be a surname)
-✅ "Palm Beach" → location (CORRECT! Keyword: "Beach")
+CRITICAL INSTRUCTIONS:
+1. READ THE BIOGRAPHICAL CONTEXT CAREFULLY - use the content to determine the entity type
+2. Personal names (even single names like "Lang", "Ariane", "Michelle") are PEOPLE unless proven otherwise
+3. Context entries in Jeffrey Epstein's contact book are almost always PEOPLE
+4. Only classify as organization/location if there's EXPLICIT evidence (keywords like "Inc", "Foundation", "Island", "Beach")
+5. When in doubt between person and location/organization, choose PERSON
 
 Common Mistakes to Avoid:
-1. Don't classify "X Organization" as person just because X is a person's name
-2. Don't classify "X Island" as person just because X is a person's name
-3. Don't classify "X Foundation" as person just because X is a person's name
-4. Keyword indicators ALWAYS override name format patterns
+- "Lang" → DO NOT classify as location just because it sounds like a place. It's a person's name (likely surname).
+- "Michelle" → DO NOT classify as location. It's a person's name.
+- "Anh Duong" → DO NOT classify as location. It's a Vietnamese person's name.
+- "Ariane" → DO NOT classify as location. It's a French person's name.
 
 Return ONLY one word: person, organization, or location"""
 

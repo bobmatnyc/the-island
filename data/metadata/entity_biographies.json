@@ -13,13 +13,13 @@
     "entities_without_biographies": 0,
     "categorization_date": "2025-11-28T02:47:54.061603",
     "ontology_version": "1.0.0",
-    "last_classification": "2025-11-29T14:33:53.841790",
+    "last_classification": "2025-11-29T17:54:33.114709",
     "classification_stats": {
       "total_classified": 1637,
       "by_type": {
-        "person": 1494,
-        "organization": 31,
-        "location": 112
+        "person": 1637,
+        "organization": 0,
+        "location": 0
       },
       "by_method": {
         "llm": 1637,
@@ -2332,7 +2332,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "alice_bamford": {
       "id": "alice_bamford",
@@ -5335,7 +5335,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "ann_jones": {
       "id": "ann_jones",
@@ -5465,7 +5465,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "anna_hanks": {
       "id": "anna_hanks",
@@ -6253,7 +6253,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "anthony_busby": {
       "id": "anthony_busby",
@@ -7100,7 +7100,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "arik_gutman": {
       "id": "arik_gutman",
@@ -7214,7 +7214,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "arpad_\"arki\"_busson": {
       "id": "arpad_\"arki\"_busson",
@@ -7940,7 +7940,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "babis_liogos": {
       "id": "babis_liogos",
@@ -8414,7 +8414,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "baroness_francesca_theilmann": {
       "id": "baroness_francesca_theilmann",
@@ -8699,7 +8699,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "bea_hollond": {
       "id": "bea_hollond",
@@ -9380,7 +9380,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "bernard_dreesmann": {
       "id": "bernard_dreesmann",
@@ -9569,7 +9569,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "bettina_von_hase": {
       "id": "bettina_von_hase",
@@ -9738,7 +9738,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "bibi_zecher": {
       "id": "bibi_zecher",
@@ -11688,7 +11688,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "carella_alun_jones": {
       "id": "carella_alun_jones",
@@ -12534,7 +12534,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "carolina_stanburry": {
       "id": "carolina_stanburry",
@@ -13330,7 +13330,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "casey": {
       "id": "casey",
@@ -14299,7 +14299,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "charlene_carvalho": {
       "id": "charlene_carvalho",
@@ -14909,7 +14909,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "charlie_kirwan_taylor": {
       "id": "charlie_kirwan_taylor",
@@ -15109,7 +15109,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "charlotte_assaf": {
       "id": "charlotte_assaf",
@@ -15223,7 +15223,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "charlotte_di_vita": {
       "id": "charlotte_di_vita",
@@ -15278,7 +15278,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "charlotte_duthie": {
       "id": "charlotte_duthie",
@@ -15738,7 +15738,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "christian_gudefin": {
       "id": "christian_gudefin",
@@ -17404,7 +17404,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "cindy_buklarewicz_lopez": {
       "id": "cindy_buklarewicz_lopez",
@@ -17573,7 +17573,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "claire_murray_threipland": {
       "id": "claire_murray_threipland",
@@ -17678,7 +17678,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "clary_polu": {
       "id": "clary_polu",
@@ -17735,7 +17735,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "claude_ott": {
       "id": "claude_ott",
@@ -18270,7 +18270,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "coles,_alan": {
       "id": "coles,_alan",
@@ -18310,7 +18310,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "colin_cowie": {
       "id": "colin_cowie",
@@ -18918,7 +18918,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "courtney_love": {
       "id": "courtney_love",
@@ -19399,7 +19399,7 @@
         "document_appearance": "multiple_sources",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "cynthia_ott": {
       "id": "cynthia_ott",
@@ -20850,7 +20850,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "david_macmilan": {
       "id": "david_macmilan",
@@ -21129,7 +21129,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "david_rocksavage": {
       "id": "david_rocksavage",
@@ -24099,7 +24099,7 @@
         "black_book",
         "flight_logs"
       ],
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "doug_liman": {
       "id": "doug_liman",
@@ -25200,7 +25200,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "duff_lambos": {
       "id": "duff_lambos",
@@ -25240,7 +25240,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "early_mack": {
       "id": "early_mack",
@@ -25280,7 +25280,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "eddie_irvine": {
       "id": "eddie_irvine",
@@ -25440,7 +25440,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "edmondo_di_maya_robilant": {
       "id": "edmondo_di_maya_robilant",
@@ -25640,7 +25640,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "eduardo_teodorani_fabbri": {
       "id": "eduardo_teodorani_fabbri",
@@ -25960,7 +25960,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "edward_stanley,_earl_of_derby": {
       "id": "edward_stanley,_earl_of_derby",
@@ -26381,7 +26381,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "elie_wiesel": {
       "id": "elie_wiesel",
@@ -27830,7 +27830,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "esperanza_sobrino": {
       "id": "esperanza_sobrino",
@@ -28319,7 +28319,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "fabrice_orlando": {
       "id": "fabrice_orlando",
@@ -28713,7 +28713,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "fernando_de_soto": {
       "id": "fernando_de_soto",
@@ -28753,7 +28753,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "fev_micklethwait": {
       "id": "fev_micklethwait",
@@ -28833,7 +28833,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "fi_wilmot_sitwell": {
       "id": "fi_wilmot_sitwell",
@@ -28873,7 +28873,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "fiona_feeley": {
       "id": "fiona_feeley",
@@ -29692,7 +29692,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "freedman_ellis": {
       "id": "freedman_ellis",
@@ -29732,7 +29732,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "freida_lindemann": {
       "id": "freida_lindemann",
@@ -29940,7 +29940,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "gary_baura": {
       "id": "gary_baura",
@@ -30452,7 +30452,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "geoffrey_kent": {
       "id": "geoffrey_kent",
@@ -30816,7 +30816,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "george_khayat": {
       "id": "george_khayat",
@@ -30936,7 +30936,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "george_minot": {
       "id": "george_minot",
@@ -31096,7 +31096,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "georgia_coleridge": {
       "id": "georgia_coleridge",
@@ -31136,7 +31136,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "georgie_keller": {
       "id": "georgie_keller",
@@ -32230,7 +32230,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "governor_andrew_cuomo": {
       "id": "governor_andrew_cuomo",
@@ -32310,7 +32310,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "graham_clempson": {
       "id": "graham_clempson",
@@ -32405,7 +32405,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "greg_carpenter": {
       "name": "Greg Carpenter",
@@ -32948,7 +32948,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "hamish_bowles": {
       "id": "hamish_bowles",
@@ -33508,7 +33508,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "heather_day": {
       "id": "heather_day",
@@ -33687,7 +33687,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "helen_herrero": {
       "id": "helen_herrero",
@@ -33807,7 +33807,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "helena_felix": {
       "id": "helena_felix",
@@ -33927,7 +33927,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "henri_d'abo": {
       "id": "henri_d'abo",
@@ -34605,7 +34605,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "hon._charles_pearson": {
       "id": "hon._charles_pearson",
@@ -35346,7 +35346,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "inca_doerrig": {
       "id": "inca_doerrig",
@@ -35403,7 +35403,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "india_hicks": {
       "id": "india_hicks",
@@ -35443,7 +35443,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "ira_c._magaziner": {
       "id": "ira_c._magaziner",
@@ -35523,7 +35523,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "ira_magaziner": {
       "id": "ira_magaziner",
@@ -36134,7 +36134,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "ishmail": {
       "id": "ishmail",
@@ -36334,7 +36334,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "ivanka_trump": {
       "id": "ivanka_trump",
@@ -36831,7 +36831,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "jacques_villeneuve": {
       "id": "jacques_villeneuve",
@@ -37696,7 +37696,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "jane_hatkoff": {
       "id": "jane_hatkoff",
@@ -38477,7 +38477,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "jean_lawford": {
       "id": "jean_lawford",
@@ -43454,7 +43454,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "julla_verdin": {
       "id": "julla_verdin",
@@ -44909,7 +44909,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "kim_taipale": {
       "id": "kim_taipale",
@@ -45130,7 +45130,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "koo_stark": {
       "id": "koo_stark",
@@ -45250,7 +45250,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "kyle_tayler": {
       "id": "kyle_tayler",
@@ -45387,7 +45387,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "lady_carina_frost": {
       "id": "lady_carina_frost",
@@ -45507,7 +45507,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "lady_hanson": {
       "id": "lady_hanson",
@@ -45627,7 +45627,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "lady_victoria_white_o'gara": {
       "id": "lady_victoria_white_o'gara",
@@ -45707,7 +45707,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "lally_weymouth": {
       "id": "lally_weymouth",
@@ -45802,7 +45802,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "larry_coben": {
       "id": "larry_coben",
@@ -46198,7 +46198,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "laura_andrew": {
       "id": "laura_andrew",
@@ -46998,7 +46998,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "leslie_gelb": {
       "id": "leslie_gelb",
@@ -47281,7 +47281,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "lily_johnson": {
       "id": "lily_johnson",
@@ -47658,7 +47658,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "lionel_wigram": {
       "id": "lionel_wigram",
@@ -49503,7 +49503,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "magali_blachon": {
       "id": "magali_blachon",
@@ -49783,7 +49783,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "mandy_cochrane": {
       "id": "mandy_cochrane",
@@ -50032,7 +50032,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "manilo_marocco": {
       "id": "manilo_marocco",
@@ -50072,7 +50072,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "manny_duban": {
       "name": "Manny Duban",
@@ -50156,7 +50156,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "manuel_espirito_santo": {
       "id": "manuel_espirito_santo",
@@ -50320,7 +50320,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "marc_lundberg": {
       "id": "marc_lundberg",
@@ -50560,7 +50560,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "marcia_palau": {
       "id": "marcia_palau",
@@ -51145,7 +51145,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "marina_de_soto": {
       "id": "marina_de_soto",
@@ -51185,7 +51185,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "marina_rust": {
       "id": "marina_rust",
@@ -51225,7 +51225,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "marine_aron": {
       "id": "marine_aron",
@@ -51265,7 +51265,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "mario_b._garnero_jr.": {
       "id": "mario_b._garnero_jr.",
@@ -51539,7 +51539,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "mark_katzenellenbogen": {
       "id": "mark_katzenellenbogen",
@@ -51920,7 +51920,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "marquis_bunter_worcester": {
       "id": "marquis_bunter_worcester",
@@ -51960,7 +51960,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "martin_burtril": {
       "id": "martin_burtril",
@@ -52240,7 +52240,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "martyn_birchall": {
       "id": "martyn_birchall",
@@ -53358,7 +53358,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "merryl_tisch": {
       "id": "merryl_tisch",
@@ -53398,7 +53398,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "meryl_poster": {
       "id": "meryl_poster",
@@ -53598,7 +53598,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "michael_borrico": {
       "id": "michael_borrico",
@@ -54623,7 +54623,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "minnie_driver": {
       "id": "minnie_driver",
@@ -54943,7 +54943,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "mortimer_zuckerman": {
       "id": "mortimer_zuckerman",
@@ -55103,7 +55103,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "mrs_fallah": {
       "id": "mrs_fallah",
@@ -55267,7 +55267,7 @@
       "source_material": [
         "flight_logs"
       ],
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "muffie_potter": {
       "id": "muffie_potter",
@@ -55829,7 +55829,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "naomi_campbell": {
       "id": "naomi_campbell",
@@ -57197,7 +57197,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "nicola_formby": {
       "id": "nicola_formby",
@@ -57317,7 +57317,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "nicolas_guedroitz": {
       "id": "nicolas_guedroitz",
@@ -57534,7 +57534,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "nina_furstenburg_buravelli": {
       "id": "nina_furstenburg_buravelli",
@@ -57795,7 +57795,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "noona_erba": {
       "id": "noona_erba",
@@ -59930,7 +59930,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "peggy_siegal": {
       "id": "peggy_siegal",
@@ -60806,7 +60806,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "phil_collins": {
       "id": "phil_collins",
@@ -61223,7 +61223,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "pia_marocco": {
       "id": "pia_marocco",
@@ -61263,7 +61263,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "pierre_lemaine": {
       "id": "pierre_lemaine",
@@ -61720,7 +61720,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "prince_salman": {
       "id": "prince_salman",
@@ -62899,7 +62899,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "richard_barnett": {
       "id": "richard_barnett",
@@ -64270,7 +64270,7 @@
         "document_appearance": "multiple_sources",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "robin_rotherwick": {
       "id": "robin_rotherwick",
@@ -64310,7 +64310,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "rocco_forte": {
       "id": "rocco_forte",
@@ -64350,7 +64350,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "roddy_campbell": {
       "id": "roddy_campbell",
@@ -64904,7 +64904,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "ros_espirito_santo": {
       "id": "ros_espirito_santo",
@@ -64944,7 +64944,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "rosa_monckton": {
       "id": "rosa_monckton",
@@ -65144,7 +65144,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "rupert_cordle": {
       "id": "rupert_cordle",
@@ -65304,7 +65304,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "rupert_rittson_thomas": {
       "id": "rupert_rittson_thomas",
@@ -65767,7 +65767,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "sally_faber": {
       "id": "sally_faber",
@@ -66171,7 +66171,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "sara_carello": {
       "id": "sara_carello",
@@ -68134,7 +68134,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "sol_kersner": {
       "id": "sol_kersner",
@@ -68214,7 +68214,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "somers_white": {
       "id": "somers_white",
@@ -68254,7 +68254,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "sonia_puopolo": {
       "id": "sonia_puopolo",
@@ -70185,7 +70185,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "syrie_tollman": {
       "id": "syrie_tollman",
@@ -70225,7 +70225,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "tamara_beckwith": {
       "id": "tamara_beckwith",
@@ -70712,7 +70712,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "teala_davies": {
       "id": "teala_davies",
@@ -72417,7 +72417,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "tracy_edwards": {
       "id": "tracy_edwards",
@@ -72577,7 +72577,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "valdson_cotrin": {
       "id": "valdson_cotrin",
@@ -72672,7 +72672,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "valesca_guerrand_hermès": {
       "id": "valesca_guerrand_hermès",
@@ -72712,7 +72712,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "vanessa_noel": {
       "id": "vanessa_noel",
@@ -73545,7 +73545,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "vor_holding": {
       "name": "Vor Holding",
@@ -73589,7 +73589,7 @@
       "source_material": [
         "flight_logs"
       ],
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "wafic_said": {
       "id": "wafic_said",
@@ -73629,7 +73629,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "organization"
+      "entity_type": "person"
     },
     "waleed_zawauri": {
       "id": "waleed_zawauri",
@@ -73840,7 +73840,7 @@
         "document_appearance": "flight_logs_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "wayne_safro": {
       "id": "wayne_safro",
@@ -74204,7 +74204,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "william_fox": {
       "id": "william_fox",
@@ -74688,7 +74688,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "yara": {
       "id": "yara",
@@ -74728,7 +74728,7 @@
         "document_appearance": "black_book_only",
         "connection_strength": "low"
       },
-      "entity_type": "location"
+      "entity_type": "person"
     },
     "yariv_zghoul": {
       "id": "yariv_zghoul",
