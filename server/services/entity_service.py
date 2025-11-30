@@ -132,26 +132,61 @@ class EntityService:
             if USE_PYDANTIC:
                 self._validate_entities()
 
-        # Load biographies
-        bio_path = self.metadata_dir / "entity_biographies.json"
-        if bio_path.exists():
-            with open(bio_path) as f:
-                data = json.load(f)
-                self.entity_bios = data.get("entities", {})
+        # Load biographies from all three entity files
+        entity_files = [
+            ("entity_biographies.json", "person"),      # 1,637 persons from contact books
+            ("entity_organizations.json", "organization"),  # ~920 orgs from documents
+            ("entity_locations.json", "location")       # ~458 locations from documents
+        ]
 
-            logger.info(f"Loaded {len(self.entity_bios)} entity biographies")
-            logger.info(f"Sample biography keys: {list(self.entity_bios.keys())[:5]}")
+        self.entity_bios = {}
+        total_loaded = 0
+        entity_type_counts = {}
 
-            # Check if larry_morrison bio exists
-            if "larry_morrison" in self.entity_bios:
-                logger.info(f"larry_morrison biography loaded successfully")
-                logger.debug(f"larry_morrison bio keys: {list(self.entity_bios['larry_morrison'].keys())}")
+        for filename, entity_type in entity_files:
+            file_path = self.metadata_dir / filename
+            if file_path.exists():
+                try:
+                    with open(file_path) as f:
+                        data = json.load(f)
+                        entities = data.get("entities", {})
+
+                        # Merge entities, ensuring entity_type is set
+                        for entity_key, entity_data in entities.items():
+                            # Ensure entity_type field exists
+                            if "entity_type" not in entity_data:
+                                entity_data["entity_type"] = entity_type
+
+                            self.entity_bios[entity_key] = entity_data
+
+                        logger.info(f"Loaded {len(entities)} entities from {filename}")
+                        total_loaded += len(entities)
+                        entity_type_counts[entity_type] = len(entities)
+                except Exception as e:
+                    logger.error(f"Error loading {filename}: {e}")
             else:
-                logger.warning("larry_morrison biography NOT found in loaded data")
+                logger.warning(f"Entity file not found: {filename}")
 
-            # Validate with Pydantic if enabled
-            if USE_PYDANTIC:
-                self._validate_biographies()
+        logger.info(f"Total entities loaded: {total_loaded}")
+        logger.info(f"Entity type distribution: {entity_type_counts}")
+        logger.info(f"Sample biography keys: {list(self.entity_bios.keys())[:5]}")
+
+        # Check organization/location keys across all entities
+        all_orgs = [k for k, v in self.entity_bios.items() if v.get("entity_type") == "organization"]
+        all_locs = [k for k, v in self.entity_bios.items() if v.get("entity_type") == "location"]
+        logger.info(f"Organizations in entity_bios: {len(all_orgs)} (sample: {all_orgs[:3]})")
+        logger.info(f"Locations in entity_bios: {len(all_locs)} (sample: {all_locs[:3]})")
+
+        # Check if larry_morrison bio exists
+        if "larry_morrison" in self.entity_bios:
+            logger.info(f"larry_morrison biography loaded successfully")
+            logger.debug(f"larry_morrison bio keys: {list(self.entity_bios['larry_morrison'].keys())}")
+        else:
+            logger.warning("larry_morrison biography NOT found in loaded data")
+
+        # Validate with Pydantic if enabled
+        if USE_PYDANTIC:
+            self._validate_biographies()
 
         # Load tags
         tags_path = self.metadata_dir / "entity_tags.json"
@@ -842,7 +877,53 @@ Return ONLY one word: person, organization, or location"""
                 "limit": Results per page
             }
         """
+        # Start with entity_stats (persons with document statistics)
         entities_list = list(self.entity_stats.values())
+
+        # Add organizations and locations from entity_bios that aren't in entity_stats
+        entity_stats_names = {e.get("name", "") for e in entities_list}
+        entity_stats_ids = {e.get("id", "") for e in entities_list}
+
+        logger.info(f"Starting merge: entity_bios has {len(self.entity_bios)} items, entity_stats has {len(entities_list)} items")
+
+        orgs_added = 0
+        locs_added = 0
+        skipped_in_stats = 0
+        skipped_person = 0
+
+        for entity_key, entity_data in self.entity_bios.items():
+            # Skip if already in entity_stats (persons)
+            if entity_key in entity_stats_names or entity_key in entity_stats_ids:
+                skipped_in_stats += 1
+                continue
+
+            # Skip person entities (they should be in entity_stats)
+            entity_type = entity_data.get("entity_type")
+            if entity_type == "person":
+                skipped_person += 1
+                continue
+
+            # Add organization/location entity with basic structure
+            entities_list.append({
+                "id": entity_key,
+                "name": entity_data.get("name", entity_key),
+                "entity_type": entity_type,
+                "documents": 0,  # Organizations/locations don't have document counts yet
+                "connections": 0,
+                "sources": []
+            })
+
+            if entity_type == "organization":
+                orgs_added += 1
+                if orgs_added <= 3:
+                    logger.info(f"Added org: {entity_key}")
+            elif entity_type == "location":
+                locs_added += 1
+                if locs_added <= 3:
+                    logger.info(f"Added loc: {entity_key}")
+
+        logger.info(f"Merge complete: Added {orgs_added} organizations and {locs_added} locations to entity list")
+        logger.info(f"Skipped: {skipped_in_stats} already in entity_stats, {skipped_person} person entities")
 
         # Filter out generic entities (Male, Female, etc.)
         entities_list = [

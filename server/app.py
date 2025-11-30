@@ -377,20 +377,43 @@ def load_data():
         print(f"  ✗ Entity statistics file not found: {stats_path}")
         entity_stats = {}
 
-    # Entity biographies
-    bios_path = METADATA_DIR / "entity_biographies.json"
-    if bios_path.exists():
-        try:
-            with open(bios_path) as f:
-                data = json.load(f)
-                entity_bios = data.get("entities", {})
-                print(f"  ✓ Loaded {len(entity_bios)} entity biographies")
-        except Exception as e:
-            print(f"  ✗ Failed to load entity_biographies.json: {e}")
-            entity_bios = {}
+    # Entity biographies - load from all three files
+    entity_files = [
+        ("entity_biographies.json", "person"),      # 1,637 persons from contact books
+        ("entity_organizations.json", "organization"),  # ~920 orgs from documents
+        ("entity_locations.json", "location")       # ~458 locations from documents
+    ]
+
+    entity_bios = {}
+    total_loaded = 0
+
+    for filename, entity_type in entity_files:
+        file_path = METADATA_DIR / filename
+        if file_path.exists():
+            try:
+                with open(file_path) as f:
+                    data = json.load(f)
+                    entities = data.get("entities", {})
+
+                    # Merge entities, ensuring entity_type is set
+                    for entity_key, entity_data in entities.items():
+                        # Ensure entity_type field exists
+                        if "entity_type" not in entity_data:
+                            entity_data["entity_type"] = entity_type
+
+                        entity_bios[entity_key] = entity_data
+
+                    print(f"  ✓ Loaded {len(entities)} entities from {filename}")
+                    total_loaded += len(entities)
+            except Exception as e:
+                print(f"  ✗ Failed to load {filename}: {e}")
+        else:
+            print(f"  ✗ Entity file not found: {filename}")
+
+    if total_loaded == 0:
+        print(f"  ✗ No entity biography files found")
     else:
-        print(f"  ✗ Entity biographies file not found: {bios_path}")
-        entity_bios = {}
+        print(f"  ✓ Total entity biographies loaded: {total_loaded}")
 
     # Network
     network_path = METADATA_DIR / "entity_network.json"
@@ -2153,7 +2176,42 @@ async def get_entities(
     Rationale: Exclude non-disambiguatable entities (Male, Female, Nanny (1))
     from API results. These are placeholders, not actual identifiable people.
     """
+    # Start with entity_stats (persons with document statistics)
     entities_list = list(entity_stats.values())
+
+    # Add organizations and locations from entity_bios that aren't in entity_stats
+    entity_stats_names = {e.get("name", "") for e in entities_list}
+    entity_stats_ids = {e.get("id", "") for e in entities_list}
+
+    orgs_added = 0
+    locs_added = 0
+
+    for entity_key, entity_data in entity_bios.items():
+        # Skip if already in entity_stats (persons)
+        if entity_key in entity_stats_names or entity_key in entity_stats_ids:
+            continue
+
+        # Skip person entities (they should be in entity_stats)
+        entity_type = entity_data.get("entity_type")
+        if entity_type == "person":
+            continue
+
+        # Add organization/location entity with basic structure
+        entities_list.append({
+            "id": entity_key,
+            "name": entity_data.get("name", entity_key),
+            "entity_type": entity_type,
+            "total_documents": 0,  # Organizations/locations don't have document counts yet
+            "connection_count": 0,
+            "sources": []
+        })
+
+        if entity_type == "organization":
+            orgs_added += 1
+        elif entity_type == "location":
+            locs_added += 1
+
+    print(f"[API] Added {orgs_added} organizations and {locs_added} locations to entity list")
 
     # Filter out generic entities (Male, Female, etc.)
     entities_list = [e for e in entities_list if not entity_filter.is_generic(e.get("name", ""))]
