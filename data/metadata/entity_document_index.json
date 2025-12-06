@@ -22113,10 +22113,87 @@
           "doc_id": "DOJ-OGR-00032912",
           "filename": "DOJ-OGR-00032912.txt",
           "mentions": 3
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
         }
       ],
-      "mention_count": 31863,
-      "document_count": 4421
+      "mention_count": 31882,
+      "document_count": 4432
     },
     "Epstein, Jeffrey": {
       "documents": [
@@ -57109,10 +57186,157 @@
           "doc_id": "DOJ-OGR-00033283",
           "filename": "DOJ-OGR-00033283.txt",
           "mentions": 3
+        },
+        {
+          "doc_id": "news:f377f563-54e8-4621-8785-d81269f68d5b",
+          "filename": "Grand jury transcripts from abandoned Epstein investigation in Florida ordered released",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/national/2025/12/05/jeffrey-epstein-florida/880caed8-d206-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:33cc5818-cf3b-433f-baf0-8ecb0e79247a",
+          "filename": "What to know about the Justice Department's Jeffrey Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/05/epstein-justice-department-trump-fbi-files/ac357caa-d228-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:8cea3404-3a67-4d88-a69e-0412a46662d4",
+          "filename": "Lawmakers ask Bondi for update on Epstein files as deadline nears",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/03/lawmakers-bondi-release-epstein-files/"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 10,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 9,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 7,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
         }
       ],
-      "mention_count": 43060,
-      "document_count": 6998
+      "mention_count": 43125,
+      "document_count": 7019
     },
     "Kellen, Sarah": {
       "documents": [
@@ -58396,10 +58620,45 @@
           "doc_id": "DOJ-OGR-00033151",
           "filename": "DOJ-OGR-00033151.txt",
           "mentions": 4
+        },
+        {
+          "doc_id": "news:f377f563-54e8-4621-8785-d81269f68d5b",
+          "filename": "Grand jury transcripts from abandoned Epstein investigation in Florida ordered released",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/national/2025/12/05/jeffrey-epstein-florida/880caed8-d206-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:33cc5818-cf3b-433f-baf0-8ecb0e79247a",
+          "filename": "What to know about the Justice Department's Jeffrey Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/05/epstein-justice-department-trump-fbi-files/ac357caa-d228-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
         }
       ],
-      "mention_count": 452,
-      "document_count": 82
+      "mention_count": 460,
+      "document_count": 87
     },
     "Julie": {
       "documents": [
@@ -59746,10 +60005,17 @@
           "doc_id": "DOJ-OGR-00021612",
           "filename": "DOJ-OGR-00021612.txt",
           "mentions": 3
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
         }
       ],
-      "mention_count": 574,
-      "document_count": 125
+      "mention_count": 579,
+      "document_count": 126
     },
     "Nicole": {
       "documents": [
@@ -60508,10 +60774,17 @@
           "doc_id": "DOJ-OGR-00032603",
           "filename": "DOJ-OGR-00032603.txt",
           "mentions": 3
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
         }
       ],
-      "mention_count": 127,
-      "document_count": 31
+      "mention_count": 132,
+      "document_count": 32
     },
     "Dubin, Eva": {
       "documents": [
@@ -60999,10 +61272,94 @@
           "doc_id": "DOJ-OGR-00032110",
           "filename": "DOJ-OGR-00032110.txt",
           "mentions": 4
+        },
+        {
+          "doc_id": "news:33cc5818-cf3b-433f-baf0-8ecb0e79247a",
+          "filename": "What to know about the Justice Department's Jeffrey Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/05/epstein-justice-department-trump-fbi-files/ac357caa-d228-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 17,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
         }
       ],
-      "mention_count": 12,
-      "document_count": 3
+      "mention_count": 52,
+      "document_count": 15
     },
     "Marvin Minsky": {
       "documents": [
@@ -61114,10 +61471,17 @@
           "doc_id": "DOJ-OGR-00017285",
           "filename": "DOJ-OGR-00017285.txt",
           "mentions": 4
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
         }
       ],
-      "mention_count": 20,
-      "document_count": 4
+      "mention_count": 21,
+      "document_count": 5
     },
     "Eva Andersson": {
       "documents": [
@@ -61542,10 +61906,122 @@
           "mentions": 2,
           "doc_type": "news_article",
           "url": "https://www.theguardian.com/uk-news/2025/feb/14/prince-andrew-testify-pressure-us-civil-cases"
+        },
+        {
+          "doc_id": "news:33cc5818-cf3b-433f-baf0-8ecb0e79247a",
+          "filename": "What to know about the Justice Department's Jeffrey Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/05/epstein-justice-department-trump-fbi-files/ac357caa-d228-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 12,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
         }
       ],
-      "mention_count": 24,
-      "document_count": 7
+      "mention_count": 70,
+      "document_count": 23
     },
     "Philip Levine": {
       "documents": [
@@ -61689,10 +62165,157 @@
           "doc_id": "DOJ-OGR-00027153",
           "filename": "DOJ-OGR-00027153.txt",
           "mentions": 4
+        },
+        {
+          "doc_id": "news:f377f563-54e8-4621-8785-d81269f68d5b",
+          "filename": "Grand jury transcripts from abandoned Epstein investigation in Florida ordered released",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/national/2025/12/05/jeffrey-epstein-florida/880caed8-d206-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:33cc5818-cf3b-433f-baf0-8ecb0e79247a",
+          "filename": "What to know about the Justice Department's Jeffrey Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/05/epstein-justice-department-trump-fbi-files/ac357caa-d228-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 9,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 13,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 8,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:8cea3404-3a67-4d88-a69e-0412a46662d4",
+          "filename": "Lawmakers ask Bondi for update on Epstein files as deadline nears",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/03/lawmakers-bondi-release-epstein-files/"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 15,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 15,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 10,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 29,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 29,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 32,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 63,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 14,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 8,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 14,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 13,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 59,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
         }
       ],
-      "mention_count": 46,
-      "document_count": 9
+      "mention_count": 398,
+      "document_count": 30
     },
     "Elaine": {
       "documents": [
@@ -61752,10 +62375,31 @@
           "doc_id": "DOJ-OGR-00032604",
           "filename": "DOJ-OGR-00032604.txt",
           "mentions": 4
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
         }
       ],
-      "mention_count": 22,
-      "document_count": 4
+      "mention_count": 25,
+      "document_count": 7
     },
     "Dana Burns": {
       "documents": [
@@ -62121,6 +62765,2850 @@
       ],
       "document_count": 2,
       "mention_count": 0
+    },
+    "Fabrice Orlando": {
+      "documents": [
+        {
+          "doc_id": "news:f377f563-54e8-4621-8785-d81269f68d5b",
+          "filename": "Grand jury transcripts from abandoned Epstein investigation in Florida ordered released",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/national/2025/12/05/jeffrey-epstein-florida/880caed8-d206-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 3
+    },
+    "Thomas Oates": {
+      "documents": [
+        {
+          "doc_id": "news:f377f563-54e8-4621-8785-d81269f68d5b",
+          "filename": "Grand jury transcripts from abandoned Epstein investigation in Florida ordered released",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/national/2025/12/05/jeffrey-epstein-florida/880caed8-d206-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:33cc5818-cf3b-433f-baf0-8ecb0e79247a",
+          "filename": "What to know about the Justice Department's Jeffrey Epstein files",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/05/epstein-justice-department-trump-fbi-files/ac357caa-d228-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 21,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 12,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 12,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 15,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:8cea3404-3a67-4d88-a69e-0412a46662d4",
+          "filename": "Lawmakers ask Bondi for update on Epstein files as deadline nears",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/03/lawmakers-bondi-release-epstein-files/"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 19,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 29,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 25,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 13,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 82,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 31,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 174,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 61,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 32,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 24,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 14,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 37,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 25,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 67,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 21,
+      "mention_count": 700
+    },
+    "George Case": {
+      "documents": [
+        {
+          "doc_id": "news:f377f563-54e8-4621-8785-d81269f68d5b",
+          "filename": "Grand jury transcripts from abandoned Epstein investigation in Florida ordered released",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/national/2025/12/05/jeffrey-epstein-florida/880caed8-d206-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 13,
+      "mention_count": 37
+    },
+    "Alan Patricof": {
+      "documents": [
+        {
+          "doc_id": "news:f377f563-54e8-4621-8785-d81269f68d5b",
+          "filename": "Grand jury transcripts from abandoned Epstein investigation in Florida ordered released",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/national/2025/12/05/jeffrey-epstein-florida/880caed8-d206-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 3,
+      "mention_count": 5
+    },
+    "Ivanka Trump": {
+      "documents": [
+        {
+          "doc_id": "news:33cc5818-cf3b-433f-baf0-8ecb0e79247a",
+          "filename": "What to know about the Justice Department's Jeffrey Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/05/epstein-justice-department-trump-fbi-files/ac357caa-d228-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:8cea3404-3a67-4d88-a69e-0412a46662d4",
+          "filename": "Lawmakers ask Bondi for update on Epstein files as deadline nears",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/03/lawmakers-bondi-release-epstein-files/"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 33,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 40,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 12,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 20,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 19,
+      "mention_count": 143
+    },
+    "Benjamin Elliot": {
+      "documents": [
+        {
+          "doc_id": "news:33cc5818-cf3b-433f-baf0-8ecb0e79247a",
+          "filename": "What to know about the Justice Department's Jeffrey Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/05/epstein-justice-department-trump-fbi-files/ac357caa-d228-11f0-92cb-561ee4e6a771_story.html"
+        },
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 11,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 12,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 18,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 22,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 17,
+      "mention_count": 101
+    },
+    "Wafic Said": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 47,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 8,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 17,
+      "mention_count": 100
+    },
+    "Lady Anouska Weinberg": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 10,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 14,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 12,
+      "mention_count": 47
+    },
+    "Charles Vivian Smith": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 4,
+      "mention_count": 7
+    },
+    "Blaine Trump": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:8cea3404-3a67-4d88-a69e-0412a46662d4",
+          "filename": "Lawmakers ask Bondi for update on Epstein files as deadline nears",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/03/lawmakers-bondi-release-epstein-files/"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 13,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 9,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 42,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 24,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 20,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 13,
+      "mention_count": 129
+    },
+    "Aboff Shelly": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:8cea3404-3a67-4d88-a69e-0412a46662d4",
+          "filename": "Lawmakers ask Bondi for update on Epstein files as deadline nears",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/03/lawmakers-bondi-release-epstein-files/"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 10,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 13,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 9,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 24,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 14,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 8,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 19,
+      "mention_count": 111
+    },
+    "Frederique Todd": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 2
+    },
+    "Anne Maxwell": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 11,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 11,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 9,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 9,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 7,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 13,
+      "mention_count": 70
+    },
+    "Nessa O'Neil": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 10,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 10,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 11,
+      "mention_count": 37
+    },
+    "Isabel Fraysse": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 9,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 8,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 8,
+      "mention_count": 32
+    },
+    "Alistair McAlpine, Baron of West": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 2
+    },
+    "Alfred Taubman": {
+      "documents": [
+        {
+          "doc_id": "news:42db3df7-69c8-4161-a4c1-1ca67445f704",
+          "filename": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/"
+        },
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 17,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 19,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 7,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 15,
+      "mention_count": 67
+    },
+    "Pandora Maxwell": {
+      "documents": [
+        {
+          "doc_id": "news:55f81021-e9b6-4971-9b20-ec2c105dc636",
+          "filename": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 2
+    },
+    "Adam Nagel": {
+      "documents": [
+        {
+          "doc_id": "news:30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+          "filename": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624"
+        },
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 13,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 7,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+          "filename": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 13,
+      "mention_count": 50
+    },
+    "Heather Day": {
+      "documents": [
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        }
+      ],
+      "document_count": 5,
+      "mention_count": 11
+    },
+    "Dr. Ray": {
+      "documents": [
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Rachel Osbourne": {
+      "documents": [
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 3
+    },
+    "William Clinton": {
+      "documents": [
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 5,
+      "mention_count": 10
+    },
+    "Larry Summers": {
+      "documents": [
+        {
+          "doc_id": "news:62b268de-8d24-4534-99f6-5564c480cef0",
+          "filename": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        }
+      ],
+      "document_count": 5,
+      "mention_count": 16
+    },
+    "Michael White": {
+      "documents": [
+        {
+          "doc_id": "news:8cea3404-3a67-4d88-a69e-0412a46662d4",
+          "filename": "Lawmakers ask Bondi for update on Epstein files as deadline nears",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.washingtonpost.com/politics/2025/12/03/lawmakers-bondi-release-epstein-files/"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 14,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 9,
+      "mention_count": 26
+    },
+    "Toby Young": {
+      "documents": [
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 3
+    },
+    "Selma Ouertani": {
+      "documents": [
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 24,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        }
+      ],
+      "document_count": 8,
+      "mention_count": 35
+    },
+    "Manuela Stoetter": {
+      "documents": [
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 5
+    },
+    "Jamie Grant": {
+      "documents": [
+        {
+          "doc_id": "news:49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+          "filename": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request"
+        },
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 2
+    },
+    "Barbara Black": {
+      "documents": [
+        {
+          "doc_id": "news:0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+          "filename": "Ghislaine Maxwell to seek release from prison: Court filing",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Randy James": {
+      "documents": [
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        }
+      ],
+      "document_count": 4,
+      "mention_count": 4
+    },
+    "Ray John": {
+      "documents": [
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        }
+      ],
+      "document_count": 3,
+      "mention_count": 9
+    },
+    "Charles H. Price II": {
+      "documents": [
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Michael Bloomberg": {
+      "documents": [
+        {
+          "doc_id": "news:52b70170-76f8-4e89-a5fe-45f0336edcae",
+          "filename": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Deborah Green": {
+      "documents": [
+        {
+          "doc_id": "news:615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+          "filename": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 2
+    },
+    "Ralph Ellison": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 9,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 7,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 4,
+      "mention_count": 23
+    },
+    "Mandy Ellison": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        }
+      ],
+      "document_count": 4,
+      "mention_count": 9
+    },
+    "Francis Goldman": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 6
+    },
+    "Oliver Sachs": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 6
+    },
+    "Deb Roberts": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 4
+    },
+    "Mai Yamani": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 6,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 5,
+      "mention_count": 13
+    },
+    "Lottie Lorimer": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 6
+    },
+    "Laura Andrew": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 4,
+      "mention_count": 8
+    },
+    "Ehud Barak": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 2
+    },
+    "Vor Holding": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        },
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        }
+      ],
+      "document_count": 3,
+      "mention_count": 4
+    },
+    "Olaf Hermes": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Marina Rust": {
+      "documents": [
+        {
+          "doc_id": "news:276c452d-6f84-4f61-97d2-987da0558500",
+          "filename": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Dalit Cohen": {
+      "documents": [
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 4
+    },
+    "Todd Lucky": {
+      "documents": [
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Hetty Hoffman": {
+      "documents": [
+        {
+          "doc_id": "news:7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+          "filename": "The latest Epstein emails reveal the powerful people who sought his counsel",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 2
+    },
+    "Elizabeth \"Libet\" Johnson": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 6
+    },
+    "Andrew Fox": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 4,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        },
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 3,
+      "mention_count": 9
+    },
+    "Lady Carina Frost": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 3
+    },
+    "Carolyn Miller": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 3,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 3
+    },
+    "Hamilton South": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:66b7e24a-fb5b-436a-9644-958992887c35",
+          "filename": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 3
+    },
+    "Prince Salman": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 2
+    },
+    "James Dowd": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Adam Lindemann": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Juliet Gore": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Cornelia Guest": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Eduardo Teodorani-Fabbri": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 3
+    },
+    "Georgina Hunter Gordon": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Lisa Phillips": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Freedman Ellis": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Ludovic Lindsey": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Michael Jackson": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        },
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        }
+      ],
+      "document_count": 3,
+      "mention_count": 3
+    },
+    "Dr. Lee": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Marty Trust": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Daniel Heller": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Ethel Kennedy": {
+      "documents": [
+        {
+          "doc_id": "news:c430218b-4751-460a-9c05-f4d834381772",
+          "filename": "November 19, 2025 Trump administration and Epstein files news",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Jack Robertson": {
+      "documents": [
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 2
+    },
+    "Helene Atkin": {
+      "documents": [
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 2
+    },
+    "Tracy Younger": {
+      "documents": [
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 2
+    },
+    "Charlie Glass": {
+      "documents": [
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Alan Mruvka": {
+      "documents": [
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        },
+        {
+          "doc_id": "news:e47154b4-51a2-4a24-85af-c2c033a9da3d",
+          "filename": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592"
+        }
+      ],
+      "document_count": 2,
+      "mention_count": 2
+    },
+    "Bartle Bull": {
+      "documents": [
+        {
+          "doc_id": "news:95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+          "filename": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Ludmila Garcia": {
+      "documents": [
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 2
+    },
+    "Timothy Jeffries": {
+      "documents": [
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 2
+    },
+    "Jill Robert": {
+      "documents": [
+        {
+          "doc_id": "news:096c7119-5f9d-4278-b75f-9764ca0ee417",
+          "filename": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+          "mentions": 1,
+          "doc_type": "news_article",
+          "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 1
+    },
+    "Andrew Edwards": {
+      "documents": [
+        {
+          "doc_id": "news:218df678-ad50-4008-a5b8-c111541b1e13",
+          "filename": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+          "mentions": 5,
+          "doc_type": "news_article",
+          "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 5
+    },
+    "Abby King": {
+      "documents": [
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 2
+    },
+    "Claire Milford Haven": {
+      "documents": [
+        {
+          "doc_id": "news:d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+          "filename": "7 things to know about the Justice Department's Epstein files",
+          "mentions": 2,
+          "doc_type": "news_article",
+          "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files"
+        }
+      ],
+      "document_count": 1,
+      "mention_count": 2
     }
   },
   "statistics": {

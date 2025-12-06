@@ -341,11 +341,23 @@ class NewsArticleScraper:
             >>> api_data = scraper.to_api_format(article)
             >>> # POST api_data to /api/news/articles
         """
+        # Convert credibility_factors numeric values to strings for API
+        credibility_factors_str = {
+            key: str(value) for key, value in article.credibility_factors.items()
+        }
+
+        # Handle missing published_date - use current date if not available
+        published_date = article.published_date
+        if not published_date or published_date.strip() == "":
+            from datetime import datetime
+            published_date = datetime.utcnow().strftime("%Y-%m-%d")
+            logger.warning(f"Missing published_date for {article.title[:50]}, using current date: {published_date}")
+
         return {
             "title": article.title,
             "publication": article.publication,
             "author": article.author,
-            "published_date": article.published_date,
+            "published_date": published_date,
             "url": article.url,
             "archive_url": article.archive_url,
             "content_excerpt": article.content_excerpt,
@@ -353,7 +365,7 @@ class NewsArticleScraper:
             "entities_mentioned": article.entities_mentioned,
             "entity_mention_counts": article.entity_mention_counts,
             "credibility_score": article.credibility_score,
-            "credibility_factors": article.credibility_factors,
+            "credibility_factors": credibility_factors_str,
             "tags": [],  # Could extract from content or metadata
             "language": "en",  # Default to English (could detect)
             "access_type": article.access_type,

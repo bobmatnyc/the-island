@@ -2168,6 +2168,7 @@ async def get_entities(
     sort_by: str = Query("documents", enum=["documents", "connections", "name"]),
     filter_billionaires: bool = Query(False),
     filter_connected: bool = Query(False),
+    entity_type: Optional[str] = Query(None, enum=["person", "organization", "location"]),
     username: str = Depends(get_current_user),
 ):
     """Get list of entities with optional filtering and sorting
@@ -2175,9 +2176,19 @@ async def get_entities(
     Design Decision: Filter Generic Entities
     Rationale: Exclude non-disambiguatable entities (Male, Female, Nanny (1))
     from API results. These are placeholders, not actual identifiable people.
+
+    Bug Fix (2025-12-06): Added entity_type parameter and field
+    - Frontend sends entity_type=person/organization/location for filtering
+    - Person entities from entity_stats now include entity_type="person"
+    - All entities now have connection_count field for slider filtering
     """
     # Start with entity_stats (persons with document statistics)
-    entities_list = list(entity_stats.values())
+    # BUG FIX: Add entity_type field to person entities
+    entities_list = []
+    for entity_data in entity_stats.values():
+        entity_copy = dict(entity_data)
+        entity_copy['entity_type'] = 'person'
+        entities_list.append(entity_copy)
 
     # Add organizations and locations from entity_bios that aren't in entity_stats
     entity_stats_names = {e.get("name", "") for e in entities_list}
@@ -2192,29 +2203,33 @@ async def get_entities(
             continue
 
         # Skip person entities (they should be in entity_stats)
-        entity_type = entity_data.get("entity_type")
-        if entity_type == "person":
+        bio_entity_type = entity_data.get("entity_type")
+        if bio_entity_type == "person":
             continue
 
         # Add organization/location entity with basic structure
         entities_list.append({
             "id": entity_key,
             "name": entity_data.get("name", entity_key),
-            "entity_type": entity_type,
+            "entity_type": bio_entity_type,
             "total_documents": 0,  # Organizations/locations don't have document counts yet
             "connection_count": 0,
             "sources": []
         })
 
-        if entity_type == "organization":
+        if bio_entity_type == "organization":
             orgs_added += 1
-        elif entity_type == "location":
+        elif bio_entity_type == "location":
             locs_added += 1
 
     print(f"[API] Added {orgs_added} organizations and {locs_added} locations to entity list")
 
     # Filter out generic entities (Male, Female, etc.)
     entities_list = [e for e in entities_list if not entity_filter.is_generic(e.get("name", ""))]
+
+    # BUG FIX: Filter by entity_type if specified
+    if entity_type:
+        entities_list = [e for e in entities_list if e.get("entity_type") == entity_type]
 
     if filter_billionaires:
         entities_list = [e for e in entities_list if e.get("is_billionaire", False)]

@@ -75119,5 +75119,15 @@
       ],
       "entity_type": "person"
     }
+  },
+  "Ghislaine Maxwell": {
+    "name": "Ghislaine Maxwell",
+    "entity_type": "person",
+    "summary": "British socialite and close associate of Jeffrey Epstein. Convicted in 2021 on federal charges including sex trafficking of minors.",
+    "metadata": {
+      "corrected_from": "organization",
+      "correction_date": "2025-12-06T02:47:48.557231",
+      "correction_reason": "Misclassified as organization - is actually a person"
+    }
   }
 }

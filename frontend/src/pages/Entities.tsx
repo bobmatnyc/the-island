@@ -32,17 +32,26 @@ export function Entities() {
   const [totalEntities, setTotalEntities] = useState(0);
   const [showOnlyWithBio, setShowOnlyWithBio] = useState(false);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [minConnections, setMinConnections] = useState(1);  // Default: hide 0-connection entities
+  const [maxConnections, setMaxConnections] = useState(100);  // Will be updated from data
 
   // Initialize filters from URL parameters on mount
   useEffect(() => {
     const bioParam = searchParams.get('bio');
     const categoriesParam = searchParams.get('categories');
+    const minConnsParam = searchParams.get('minConnections');
 
     if (bioParam === 'true') {
       setShowOnlyWithBio(true);
     }
     if (categoriesParam) {
       setSelectedCategories(categoriesParam.split(',').filter(Boolean));
+    }
+    if (minConnsParam) {
+      const minConns = parseInt(minConnsParam, 10);
+      if (!isNaN(minConns) && minConns >= 0) {
+        setMinConnections(minConns);
+      }
     }
   }, []);
 
@@ -55,17 +64,17 @@ export function Entities() {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
-  // Load entities when page, search, type, biography, or category filter changes
+  // Load entities when page, search, type, biography, category, or connection filter changes
   useEffect(() => {
     loadEntities();
-  }, [currentPage, debouncedSearch, selectedType, showOnlyWithBio, selectedCategories]);
+  }, [currentPage, debouncedSearch, selectedType, showOnlyWithBio, selectedCategories, minConnections]);
 
   // Reset to page 1 when search or filters change
   useEffect(() => {
     if (currentPage !== 1) {
       setCurrentPage(1);
     }
-  }, [debouncedSearch, selectedType, showOnlyWithBio, selectedCategories]);
+  }, [debouncedSearch, selectedType, showOnlyWithBio, selectedCategories, minConnections]);
 
   const loadEntities = async () => {
     try {
@@ -79,18 +88,29 @@ export function Entities() {
         has_biography: showOnlyWithBio  // Server-side biography filter
       });
 
-      // Apply client-side category filter (OR logic: entity matches ANY selected category)
+      // Apply client-side filters
       let filteredEntities = response.entities;
+
+      // Category filter (OR logic: entity matches ANY selected category)
       if (selectedCategories.length > 0) {
-        filteredEntities = response.entities.filter(entity =>
+        filteredEntities = filteredEntities.filter(entity =>
           selectedCategories.some(selectedCat =>
             entity.bio?.relationship_categories?.some(cat => cat.type === selectedCat)
           )
         );
       }
 
+      // Connection filter (minimum connections)
+      filteredEntities = filteredEntities.filter(entity =>
+        (entity.connection_count || 0) >= minConnections
+      );
+
+      // Calculate max connections from filtered data
+      const maxConns = Math.max(...filteredEntities.map(e => e.connection_count || 0), 100);
+      setMaxConnections(maxConns);
+
       setEntities(filteredEntities);
-      setTotalEntities(selectedCategories.length > 0 ? filteredEntities.length : (response.total || response.entities.length));
+      setTotalEntities(filteredEntities.length);
     } catch (error) {
       console.error('Failed to load entities:', error);
     } finally {
@@ -161,6 +181,19 @@ export function Entities() {
     // Update URL parameter
     const newParams = new URLSearchParams(searchParams);
     newParams.delete('categories');
+    setSearchParams(newParams);
+  };
+
+  const handleMinConnectionsChange = (value: number) => {
+    setMinConnections(value);
+
+    // Update URL parameter
+    const newParams = new URLSearchParams(searchParams);
+    if (value > 0) {
+      newParams.set('minConnections', value.toString());
+    } else {
+      newParams.delete('minConnections');
+    }
     setSearchParams(newParams);
   };
 
@@ -303,6 +336,36 @@ export function Entities() {
             <Sparkles className="h-4 w-4" />
             With Biography
           </button>
+        </div>
+
+        {/* Connection Threshold Slider */}
+        <div className="bg-secondary/30 border border-border rounded-lg p-4">
+          <div className="flex items-center justify-between gap-4 mb-3">
+            <label className="text-sm font-medium">
+              Minimum Connections: <span className="text-primary font-bold">{minConnections}</span>
+            </label>
+            <span className="text-xs text-muted-foreground">
+              (Showing {totalEntities.toLocaleString()} of entities)
+            </span>
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-muted-foreground">0</span>
+            <input
+              type="range"
+              min="0"
+              max={maxConnections}
+              value={minConnections}
+              onChange={(e) => handleMinConnectionsChange(Number(e.target.value))}
+              className="flex-1 h-2 bg-secondary rounded-lg appearance-none cursor-pointer accent-primary"
+              title={`Filter entities with at least ${minConnections} connections`}
+            />
+            <span className="text-xs text-muted-foreground">{maxConnections}</span>
+          </div>
+          <div className="mt-2 text-xs text-muted-foreground">
+            {minConnections === 0 && "Showing all entities (including those with no connections)"}
+            {minConnections === 1 && "Hiding entities with 0 connections (default)"}
+            {minConnections > 1 && `Showing only entities with ${minConnections}+ connections`}
+          </div>
         </div>
       </div>
 
