@@ -1,0 +1,55 @@
+{
+  "status": "failed",
+  "checks_passed": true,
+  "checks_total": 6,
+  "results": {
+    "bidirectional_consistency": true,
+    "network_integrity": true,
+    "coappearance_validity": true,
+    "weight_consistency": false,
+    "no_self_loops": false,
+    "bidirectional_edges": true
+  },
+  "stats": {
+    "bidirectional": {
+      "missing_in_ent_to_doc": 0,
+      "extra_in_doc_to_ent": 0,
+      "missing_in_doc_to_ent": 0,
+      "extra_in_ent_to_doc": 0
+    },
+    "network_integrity": {
+      "total_nodes": 4790,
+      "total_edges": 66193,
+      "missing_sources": 0,
+      "missing_targets": 0
+    },
+    "coappearance_validity": {
+      "total_pairs": 31682,
+      "missing_entities": 0,
+      "invalid_pairs": 0
+    },
+    "weight_consistency": {
+      "total_edges_checked": 66193,
+      "weight_mismatches": 104,
+      "missing_coappearances": 2829
+    },
+    "self_loops": {
+      "total_edges_checked": 66193,
+      "self_loops_found": 1
+    },
+    "bidirectional_edges": {
+      "total_edges": 66193,
+      "unique_edges": 66193,
+      "missing_reverse": 0,
+      "weight_mismatches": 0
+    }
+  },
+  "errors": [
+    "Found 104 edges with mismatched weights",
+    "Found 1 self-loop edges"
+  ],
+  "warnings": [
+    "Found 2,829 edges without co-appearance records (may be below threshold)"
+  ],
+  "timestamp": "2025-12-06T18:27:14.036934"
+}
