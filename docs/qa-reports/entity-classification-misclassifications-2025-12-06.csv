@@ -1,0 +1,54 @@
+entity_name,current_type,correct_type,confidence,pattern,priority
+"Comey, Maurene",organization,person,HIGH,name_format_comma_separated,P0
+"Sternheim, Bobbi",organization,person,HIGH,name_format_comma_separated,P0
+"Villafafia",location,person,HIGH,single_word_surname,P1
+"Lefkowitz",location,person,HIGH,single_word_surname,P1
+"Lugosch",location,person,HIGH,single_word_surname,P1
+"Rocchio",location,person,MEDIUM,single_word_surname,P1
+"Loftus",location,person,MEDIUM,single_word_surname,P1
+"Landgraf",location,person,MEDIUM,single_word_surname,P1
+"Haddon",location,person,MEDIUM,single_word_surname,P1
+"Verizon",location,organization,HIGH,company_no_keywords,P1
+"Miami Herald",location,organization,HIGH,company_article_dependency,P1
+"The Silvio J. Mollo Building",organization,location,HIGH,building_as_organization,P1
+"Suite 715",organization,location,HIGH,address_as_organization,P1
+"WPALMBEACH FL",organization,location,MEDIUM,location_abbreviation,P1
+"Ghislaine Maxwell's",organization,person,HIGH,possessive_breaks_classification,P1
+"A. Ghislaine Maxwell",organization,person,HIGH,prefix_breaks_classification,P1
+"Transportation",organization,NONE,HIGH,generic_term,P0
+"Defense Counsel",organization,NONE,HIGH,role_title,P0
+"ET AL",organization,NONE,HIGH,legal_term,P0
+"UNLIMITED N/WKND MIN",organization,NONE,HIGH,billing_code,P0
+"the Federal Rules of Criminal Procedure",organization,NONE,HIGH,legal_document,P0
+"b3 -1",organization,NONE,HIGH,system_code,P0
+"SSR SSR TKNEAFHK1",organization,NONE,HIGH,system_code,P0
+"Department",organization,AMBIGUOUS,MEDIUM,incomplete_name,P2
+"NYM Housing Units Housing Units",organization,AMBIGUOUS,MEDIUM,ocr_duplication,P2
+"Hall RCW",organization,AMBIGUOUS,LOW,unclear_entity,P2
+"Psychological Observation",organization,AMBIGUOUS,MEDIUM,descriptive_term,P2
+"Martindell",organization,AMBIGUOUS,MEDIUM,could_be_person,P2
+"Charisma Edge",organization,AMBIGUOUS,LOW,unclear_entity,P2
+"Dietz PE",organization,AMBIGUOUS,MEDIUM,could_be_person,P2
+"Bill 3rd Party",organization,AMBIGUOUS,LOW,billing_term,P2
+"Health Services",organization,AMBIGUOUS,MEDIUM,generic_service,P2
+"AMADEUS DCS ALTEA CM",organization,AMBIGUOUS,MEDIUM,system_name,P2
+"TECSII - PRIMARY",organization,AMBIGUOUS,MEDIUM,system_name,P2
+"Michael",person,AMBIGUOUS,LOW,first_name_only,P2
+"Husband",person,AMBIGUOUS,MEDIUM,relationship_term,P2
+"Michelle",person,AMBIGUOUS,LOW,first_name_only,P2
+"Elizabeth",person,AMBIGUOUS,LOW,first_name_only,P2
+"Nadia",person,AMBIGUOUS,LOW,first_name_only,P2
+"Julie",person,AMBIGUOUS,LOW,first_name_only,P2
+"Sally",person,AMBIGUOUS,LOW,first_name_only,P2
+"Peter",person,AMBIGUOUS,LOW,first_name_only,P2
+"Lang",person,AMBIGUOUS,MEDIUM,single_name,P2
+"Edward Epstein",person,AMBIGUOUS,MEDIUM,possible_duplicate,P2
+"Nicole",person,AMBIGUOUS,LOW,first_name_only,P2
+"Casey",person,AMBIGUOUS,LOW,first_name_only,P2
+"Jason",person,AMBIGUOUS,LOW,first_name_only,P2
+"Gramza",person,AMBIGUOUS,MEDIUM,single_name,P2
+"Didier",person,AMBIGUOUS,LOW,first_name_only,P2
+"Elaine",person,AMBIGUOUS,LOW,first_name_only,P2
+"Onondaga",location,AMBIGUOUS,MEDIUM,could_be_person_or_county,P2
+"See United States",location,NONE,MEDIUM,document_reference,P2
+"E.F.",location,AMBIGUOUS,LOW,abbreviation,P2
