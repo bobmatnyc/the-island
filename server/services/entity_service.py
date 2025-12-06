@@ -588,12 +588,93 @@ Return ONLY one word: person, organization, or location"""
             logger.warning(f"NLP classification failed for '{name}': {e}")
             return None
 
+    def _normalize_entity_name_for_classification(self, name: str) -> str:
+        """Normalize entity name before classification (P1 Fix).
+
+        Removes possessives and prefixes that break classification.
+
+        Examples:
+            "Ghislaine Maxwell's" -> "Ghislaine Maxwell"
+            "A. Ghislaine Maxwell" -> "Ghislaine Maxwell"
+
+        Args:
+            name: Raw entity name
+
+        Returns:
+            Normalized name for classification
+        """
+        # Remove possessive 's
+        name = re.sub(r"'s\b", '', name)
+        # Remove leading initials (single letter followed by period and space)
+        name = re.sub(r"^[A-Z]\.\s+", "", name)
+        # Remove extra whitespace
+        name = re.sub(r'\s+', ' ', name).strip()
+        return name
+
+    def _is_valid_entity(self, name: str) -> bool:
+        """Validate that name represents a real entity, not jargon/codes (P0 Fix).
+
+        Filters out:
+        - Generic legal/procedural terms
+        - System codes and alphanumeric gibberish
+        - All-caps multi-word patterns (likely codes)
+        - Billing/system identifiers
+
+        Args:
+            name: Entity name to validate
+
+        Returns:
+            True if valid entity, False if should be filtered
+        """
+        # Invalid entity patterns (codes, jargon)
+        INVALID_ENTITY_PATTERNS = [
+            r'^[A-Z]{2,}\s+[A-Z]{2,}$',  # All caps multi-word (e.g., "ET AL")
+            r'^\w{1,2}\s*-\s*\d+$',      # Codes like "b3 -1"
+            r'^[A-Z]{3,}[0-9]',          # Alphanumeric codes (e.g., "SSR SSR TKNEAFHK1")
+            r'\d{4,}',                    # Long number sequences
+        ]
+
+        # Generic terms that aren't entities
+        GENERIC_TERMS = {
+            "Transportation", "Defense Counsel", "Prosecution", "Court",
+            "Government", "Administration", "ET AL", "VARIOUS", "UNKNOWN",
+            "N/A", "TBD", "Pretrial Services", "Health Services",
+            "the Federal Rules of Criminal Procedure", "Psychological Observation",
+            "Department"  # Too generic without modifier
+        }
+
+        # Legal/billing terms
+        LEGAL_BILLING_TERMS = {
+            "UNLIMITED N/WKND MIN", "Bill 3rd Party"
+        }
+
+        # Check against invalid patterns
+        for pattern in INVALID_ENTITY_PATTERNS:
+            if re.match(pattern, name, re.IGNORECASE):
+                logger.debug(f"Filtered invalid entity pattern: '{name}' (pattern: {pattern})")
+                return False
+
+        # Check against generic terms (case-insensitive)
+        if name in GENERIC_TERMS or name.lower() in {t.lower() for t in GENERIC_TERMS}:
+            logger.debug(f"Filtered generic term: '{name}'")
+            return False
+
+        # Check against legal/billing terms
+        if name in LEGAL_BILLING_TERMS:
+            logger.debug(f"Filtered legal/billing term: '{name}'")
+            return False
+
+        return True
+
     def _classify_entity_type_procedural(self, name: str) -> EntityType:
         """Classify using keyword matching with word boundaries (Tier 3: Last Resort).
 
         Improved keyword matching that uses word boundaries to avoid false positives.
         - "Boardman" will NOT match "board" (word boundary prevents it)
         - "Trump Organization" WILL match "organization" (whole word)
+
+        P0 Fix: Added "LastName, FirstName" pattern detection
+        P1 Fixes: Added missing location keywords, company database, surname recognition
 
         Args:
             name: Entity name
@@ -602,6 +683,11 @@ Return ONLY one word: person, organization, or location"""
             'person', 'organization', or 'location' (always returns a result)
         """
         name_lower = name.lower()
+
+        # P0 FIX: Check "LastName, FirstName" format FIRST (high confidence person)
+        if re.match(r'^[A-Z][a-z]+,\s+[A-Z][a-z]+', name):
+            logger.debug(f"Procedural classified '{name}' as 'person' (LastName, FirstName format)")
+            return 'person'
 
         # Organization keywords (non-profit, government, etc.)
         organization_keywords = [
@@ -618,12 +704,50 @@ Return ONLY one word: person, organization, or location"""
             'trust', 'fund', 'bank', 'financial', 'consulting'
         ]
 
-        # Location keywords
+        # P1 FIX: Known company names without org keywords
+        KNOWN_COMPANIES = {
+            # Telecom
+            "verizon", "at&t", "t-mobile", "sprint", "comcast", "verizon wireless",
+            # Media
+            "miami herald", "new york times", "washington post", "wall street journal",
+            "cnn", "fox news", "msnbc", "the guardian", "reuters", "associated press",
+            # Tech
+            "microsoft", "apple", "google", "facebook", "amazon", "netflix",
+            # Airlines
+            "delta", "american airlines", "united airlines", "southwest", "jetblue",
+            # Others
+            "walmart", "target", "starbucks", "mcdonald's", "nike", "adidas"
+        }
+
+        # P1 FIX: Common surnames to prevent location misclassification
+        COMMON_SURNAMES = {
+            # Jewish surnames (common in this dataset)
+            "lefkowitz", "dershowitz", "epstein", "weinstein", "goldstein",
+            # Other common surnames in dataset
+            "villafafia", "lugosch", "comey", "sternheim", "rocchio",
+            "loftus", "landgraf", "haddon", "boardman"
+        }
+
+        # P1 FIX: Enhanced location keywords (added building, suite, floor, room, office, etc.)
         location_keywords = [
             'island', 'islands', 'ranch', 'estate', 'villa', 'villas',
             'hotel', 'resort', 'airport', 'beach', 'bay', 'tower', 'towers',
-            'building', 'plaza', 'square', 'park', 'gardens'
+            'building', 'plaza', 'square', 'park', 'gardens',
+            # P1 additions:
+            'suite', 'floor', 'room', 'office', 'center', 'complex',
+            'street', 'avenue', 'road', 'boulevard', 'drive', 'place',
+            'manor', 'palace', 'club'
         ]
+
+        # P1 FIX: Check if single-word name is a known surname (person)
+        if ' ' not in name and name_lower in COMMON_SURNAMES:
+            logger.debug(f"Procedural classified '{name}' as 'person' (known surname)")
+            return 'person'
+
+        # P1 FIX: Check if name is a known company
+        if name_lower in KNOWN_COMPANIES:
+            logger.debug(f"Procedural classified '{name}' as 'organization' (known company)")
+            return 'organization'
 
         # Check for organization FIRST (with word boundaries)
         for keyword in organization_keywords:
@@ -646,7 +770,7 @@ Return ONLY one word: person, organization, or location"""
                 logger.debug(f"Procedural classified '{name}' as 'location' (keyword: {keyword})")
                 return 'location'
 
-        # Name format heuristic: "LastName, FirstName" is likely person
+        # Name format heuristic: any comma-separated name is likely person
         if ',' in name:
             logger.debug(f"Procedural classified '{name}' as 'person' (comma format)")
             return 'person'
@@ -710,6 +834,9 @@ Return ONLY one word: person, organization, or location"""
         This replaces the old keyword-only approach with a robust 3-tier system
         that gracefully degrades if LLM/NLP are unavailable.
 
+        P0 Fix: Added entity validation to filter non-entities
+        P1 Fix: Added name normalization before classification
+
         Args:
             entity_name: Entity name to analyze
             context: Optional context (bio, sources) for better LLM accuracy
@@ -721,17 +848,27 @@ Return ONLY one word: person, organization, or location"""
         Rationale: LLM provides best accuracy but may be unavailable (API key, quota).
         NLP provides good fallback. Procedural ensures we always return a result.
         """
-        # Tier 1: LLM classification (primary)
-        result = self._classify_entity_type_llm(entity_name, context)
+        # P0 FIX: Validate entity before classification
+        if not self._is_valid_entity(entity_name):
+            # Return a special marker to signal this should be filtered
+            # Callers should skip entities with this type
+            return 'invalid'
+
+        # P1 FIX: Normalize name before classification
+        normalized_name = self._normalize_entity_name_for_classification(entity_name)
+
+        # Tier 1: LLM classification (primary) - use normalized name
+        result = self._classify_entity_type_llm(normalized_name, context)
         if result:
             return result
 
-        # Tier 2: NLP fallback
-        result = self._classify_entity_type_nlp(entity_name)
+        # Tier 2: NLP fallback - use normalized name
+        result = self._classify_entity_type_nlp(normalized_name)
         if result:
             return result
 
-        # Tier 3: Procedural fallback (always returns result)
+        # Tier 3: Procedural fallback (always returns result) - use ORIGINAL name for pattern matching
+        # (because patterns like "LastName, FirstName" need exact format)
         return self._classify_entity_type_procedural(entity_name)
 
     def detect_entity_type_legacy(self, entity_name: str) -> str:
@@ -971,19 +1108,43 @@ Return ONLY one word: person, organization, or location"""
                 if e.get("id", "") in self.entity_bios or e.get("name", "") in self.entity_bios
             ]
 
-        # Enrich with type and bio/tag data
+        # Enrich with type and bio/tag data, filtering invalid entities
+        enriched_entities = []
         for entity in entities_list:
             entity_name = entity.get("name", "")
             entity_id = entity.get("id", "")
 
             # Use pre-classified entity type from biography data (or detect if not available)
-            entity["entity_type"] = self._get_entity_type(entity_id, entity_name)
+            detected_type = self._get_entity_type(entity_id, entity_name)
+
+            # P0 FIX: Filter out invalid entities
+            if detected_type == 'invalid':
+                logger.debug(f"Filtering invalid entity: '{entity_name}'")
+                continue  # Skip this entity entirely
+
+            entity["entity_type"] = detected_type
 
             # Add bio if available (try ID first, then fallback to name)
             if entity_id in self.entity_bios:
                 entity["bio"] = self.entity_bios[entity_id]
             elif entity_name in self.entity_bios:
                 entity["bio"] = self.entity_bios[entity_name]
+
+            # P0 FIX: Map relationship_categories to categories field (CRITICAL)
+            # This fixes the empty categories[] issue reported in QA
+            bio_data = None
+            if entity_id in self.entity_bios:
+                bio_data = self.entity_bios[entity_id]
+            elif entity_name in self.entity_bios:
+                bio_data = self.entity_bios[entity_name]
+
+            if bio_data and "relationship_categories" in bio_data:
+                # Extract just the 'type' field from relationship_categories
+                # Convert from: [{"type": "co_conspirator", "label": "Co-Conspirator", ...}, ...]
+                # To: ["co_conspirator", "frequent_travelers", ...]
+                entity["categories"] = [cat.get("type") for cat in bio_data.get("relationship_categories", [])]
+            else:
+                entity["categories"] = []
 
             # Add tags if available (try ID first, then fallback to name)
             if entity_id in self.entity_tags:
@@ -996,6 +1157,11 @@ Return ONLY one word: person, organization, or location"""
             # Add news and timeline counts
             entity["news_articles_count"] = self.get_entity_news_count(entity_name)
             entity["timeline_events_count"] = self.get_entity_timeline_count(entity_name)
+
+            enriched_entities.append(entity)
+
+        # Use enriched list for sorting and pagination
+        entities_list = enriched_entities
 
         # Sort
         if sort_by == "documents":

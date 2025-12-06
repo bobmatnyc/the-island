@@ -2269,6 +2269,28 @@ async def get_entities(
 
     print(f"[API] Added {orgs_added} organizations and {locs_added} locations to entity list")
 
+    # P0 CRITICAL FIX: Map relationship_categories to categories field for all entities
+    # This fixes the empty categories[] issue reported in QA (ticket 1M-XXX)
+    for entity in entities_list:
+        entity_id = entity.get("id", "")
+        entity_name = entity.get("name", "")
+
+        # Try to get bio data by ID first, then fallback to name
+        bio_data = None
+        if entity_id and entity_id in entity_bios:
+            bio_data = entity_bios[entity_id]
+        elif entity_name and entity_name in entity_bios:
+            bio_data = entity_bios[entity_name]
+
+        # Map relationship_categories to categories field
+        if bio_data and "relationship_categories" in bio_data:
+            # Extract just the 'type' field from relationship_categories
+            # Convert from: [{"type": "co_conspirator", "label": "Co-Conspirator", ...}, ...]
+            # To: ["co_conspirator", "frequent_travelers", ...]
+            entity["categories"] = [cat.get("type") for cat in bio_data.get("relationship_categories", [])]
+        else:
+            entity["categories"] = []
+
     # Filter out generic entities (Male, Female, etc.)
     entities_list = [e for e in entities_list if not entity_filter.is_generic(e.get("name", ""))]
 
