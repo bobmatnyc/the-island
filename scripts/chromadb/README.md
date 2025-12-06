@@ -1,15 +1,35 @@
 # ChromaDB Indexing System
 
-Vector database system for semantic search and retrieval of Epstein documents and entities.
+Vector database system for semantic search and retrieval of Epstein documents, entities, and relationships.
 
 ## Overview
 
-This system provides two ChromaDB collections:
+This system provides three ChromaDB collections:
 
 1. **Documents Collection** (`epstein_documents`): 38,482 documents with metadata
 2. **Entities Collection** (`epstein_entities`): 2,939 entities (persons, locations, organizations)
+3. **Relationships Collection** (`epstein_relationships`): 32,316 entity connections
 
-Both collections use the `all-MiniLM-L6-v2` sentence transformer model for 384-dimensional embeddings.
+All collections use the `all-MiniLM-L6-v2` sentence transformer model for 384-dimensional embeddings.
+
+## Quick Start
+
+### Hybrid Search (Recommended)
+
+Search across all collections simultaneously:
+
+```bash
+# Basic search
+python scripts/chromadb/hybrid_search.py "Jeffrey Epstein"
+
+# Filter by type
+python scripts/chromadb/hybrid_search.py "flight logs" --type document,entity
+
+# JSON output
+python scripts/chromadb/hybrid_search.py "lawyers" --json --limit 30
+```
+
+See full guide: [CHROMADB_HYBRID_SEARCH.md](../../docs/CHROMADB_HYBRID_SEARCH.md)
 
 ## Components
 
@@ -295,8 +315,157 @@ Filter entities by metadata fields:
 
 Both collections are automatically persisted to disk.
 
+---
+
+## Relationship Indexing
+
+### Indexing Script (`index_relationships.py`)
+Indexes 32,316 entity-to-entity relationships with connection metadata.
+
+**Usage:**
+```bash
+# Index all relationships (initial run or update)
+python scripts/chromadb/index_relationships.py
+
+# Reset collection and reindex from scratch
+python scripts/chromadb/index_relationships.py --reset
+
+# Index only first N relationships (for testing)
+python scripts/chromadb/index_relationships.py --limit 100
+```
+
+**Performance:**
+- Batch size: 100 relationships per batch
+- Full indexing: ~3-5 minutes for 32,316 relationships
+- Upsert support: Safe re-indexing without duplicates
+
+### Query Script (`query_relationships.py`)
+Search entity connections using natural language queries.
+
+**Usage:**
+```bash
+# Basic semantic search
+python scripts/chromadb/query_relationships.py "FBI connections" --limit 5
+
+# Filter by connection type
+python scripts/chromadb/query_relationships.py "flight logs" --connection-type flight_logs
+
+# Filter by entity type
+python scripts/chromadb/query_relationships.py "Jeffrey Epstein organizations" --target-type organization
+
+# Filter by minimum weight
+python scripts/chromadb/query_relationships.py "Jeffrey Epstein" --min-weight 100
+
+# Filter by entity name
+python scripts/chromadb/query_relationships.py "connections" --entity "Ghislaine Maxwell"
+```
+
+## Relationship Schema
+
+Each relationship in ChromaDB contains:
+
+```python
+{
+    "id": "edge_uuid",
+    "document": "descriptive text for embedding",
+    "metadata": {
+        "source_id": "source_entity_uuid",
+        "source_name": "Jeffrey Epstein",
+        "source_type": "person",
+        "target_id": "target_entity_uuid",
+        "target_name": "Ghislaine Maxwell",
+        "target_type": "person",
+        "weight": 150,  # Connection strength
+        "document_count": 142,
+        "flight_log_count": 8,
+        "connection_types": "documents,flight_logs",
+        "primary_doc_type": "government_document",
+        "primary_doc_type_count": 95
+    }
+}
+```
+
+## Relationship Text Content Strategy
+
+Build descriptive text for embeddings:
+
+```
+Jeffrey Epstein (person) connected to Ghislaine Maxwell (person) through 142 document co-appearances and 8 flight log mentions (primarily in government_document documents)
+```
+
+**Statistics from Full Index:**
+- Total relationships: 32,316
+- With document connections: 32,316
+- With flight log connections: 875
+- Average weight: 5.2 documents per connection
+
+---
+
+## Hybrid Search (Unified Search)
+
+### Script (`hybrid_search.py`)
+**⭐ Recommended**: Search across all collections simultaneously.
+
+**Features:**
+- Parallel querying (2-2.5x faster than sequential)
+- Score normalization (consistent 0-1 scores)
+- Type filtering (document, entity, relationship)
+- Faceted results (counts by type)
+- JSON output mode
+
+**Usage:**
+```bash
+python scripts/chromadb/hybrid_search.py "query" [options]
+
+Options:
+  --limit N                Total result limit (default: 20)
+  --type TYPE              Filter: document,entity,relationship
+  --entity-type TYPE       Filter entities: person,location,organization
+  --document-classification CLASS
+  --json                   JSON output
+  --verbose                Show full metadata
+```
+
+**Examples:**
+```bash
+# Find all evidence about a person
+python scripts/chromadb/hybrid_search.py "Ghislaine Maxwell" --limit 50
+
+# Explore locations
+python scripts/chromadb/hybrid_search.py "Little St James" --type entity --entity-type location
+
+# Legal research
+python scripts/chromadb/hybrid_search.py "depositions" --type document --document-classification court_filing
+
+# Flight log analysis
+python scripts/chromadb/hybrid_search.py "private jet" --type document,entity
+```
+
+**Performance:**
+- Query time: 60-120ms (parallel)
+- Collections: 3 queried simultaneously
+- Total items: 73,737 searchable items
+
+See full guide: [CHROMADB_HYBRID_SEARCH.md](../../docs/CHROMADB_HYBRID_SEARCH.md)
+
+---
+
+## Storage
+
+### All Collections
+- **Location**: `data/chromadb/`
+- **Total Size**: ~200MB
+
+| Collection | Items | Size |
+|------------|-------|------|
+| epstein_documents | 38,482 | ~150MB |
+| epstein_entities | 2,939 | ~12MB |
+| epstein_relationships | 32,316 | ~40MB |
+
 ## Related Issues
 
-- Linear Ticket #25: Create ChromaDB indexing for all documents
-- Linear Ticket #26: Create ChromaDB indexing for all entities
-- Project: Fix Data Relationships (M4: Vector Database)
+- Linear Ticket #25: Create ChromaDB indexing for all documents ✅
+- Linear Ticket #26: Create ChromaDB indexing for all entities ✅
+- Linear Ticket #27: Create ChromaDB indexing for relationships ✅
+- Linear Ticket #28: Implement hybrid search across all collections ✅
+- **Milestone M4: Vector Database** - ✅ **COMPLETE**
