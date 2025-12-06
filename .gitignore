@@ -326,3 +326,7 @@ check-*.js
 
 # Added by Claude MPM /mpm-init
 .env.*
+
+# MCP configuration (contains tokens)
+.mcp.json
+data/chromadb/
