@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Entity Classification Taxonomy",
   "description": "Standardized classification system for entities in the Epstein network archive",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "last_updated": "2025-12-06",
   "categories": {
     "relationship": {
@@ -120,6 +120,65 @@
           "bg_color": "#CCFBF1",
           "priority": 6,
           "applies_to": ["organization"]
+        },
+        {
+          "type": "family",
+          "label": "Family",
+          "description": "Family members of Jeffrey Epstein or other key figures",
+          "color": "#A855F7",
+          "bg_color": "#F3E8FF",
+          "priority": 4,
+          "applies_to": ["person"]
+        }
+      ]
+    },
+    "entity_characteristics": {
+      "description": "Additional characteristics and attributes of entities",
+      "classifications": [
+        {
+          "type": "political",
+          "label": "Political Connections",
+          "description": "Entities with significant political connections or roles",
+          "color": "#7C3AED",
+          "bg_color": "#EDE9FE",
+          "priority": 7,
+          "applies_to": ["person", "organization"]
+        },
+        {
+          "type": "celebrity",
+          "label": "Celebrity",
+          "description": "High-profile celebrities, entertainers, or public personalities",
+          "color": "#EC4899",
+          "bg_color": "#FCE7F3",
+          "priority": 7,
+          "applies_to": ["person"]
+        },
+        {
+          "type": "academic",
+          "label": "Academic",
+          "description": "Academic professionals, researchers, or scholars",
+          "color": "#0EA5E9",
+          "bg_color": "#E0F2FE",
+          "priority": 7,
+          "applies_to": ["person", "organization"]
+        },
+        {
+          "type": "medical",
+          "label": "Medical",
+          "description": "Medical professionals or healthcare organizations",
+          "color": "#10B981",
+          "bg_color": "#D1FAE5",
+          "priority": 7,
+          "applies_to": ["person", "organization"]
+        },
+        {
+          "type": "royalty",
+          "label": "Royalty",
+          "description": "Members of royal families or nobility",
+          "color": "#F59E0B",
+          "bg_color": "#FEF3C7",
+          "priority": 6,
+          "applies_to": ["person"]
         }
       ]
     },

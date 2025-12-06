@@ -1,0 +1,480 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Entity Classification Rules",
+  "description": "Rules and keywords for automatic classification of entities in the Epstein network archive",
+  "version": "1.0.0",
+  "last_updated": "2025-12-06",
+  "classification_rules": {
+    "victims": {
+      "keywords": [
+        "victim", "accuser", "plaintiff", "jane doe", "minor", "underage",
+        "trafficked", "abused", "sexual abuse", "assault", "exploitation",
+        "groomed", "recruited", "massaged", "massage", "modeling"
+      ],
+      "context_keywords": [
+        "testified", "deposition", "claimed", "alleged", "stated abuse",
+        "civil suit", "criminal complaint", "settlement"
+      ],
+      "confidence_threshold": {
+        "high": 0.85,
+        "medium": 0.60,
+        "low": 0.40
+      },
+      "evidence_types": {
+        "court_filing": 1.0,
+        "deposition": 0.95,
+        "flight_log": 0.50,
+        "testimony": 0.90,
+        "settlement": 0.85,
+        "news_report": 0.30
+      },
+      "exclusions": [
+        "attorney", "lawyer", "counsel", "investigator", "reporter"
+      ],
+      "multi_classification": true,
+      "notes": "Highest priority classification. Requires careful verification and sensitivity."
+    },
+    "co_conspirators": {
+      "keywords": [
+        "co-conspirator", "co-defendant", "indicted", "charged", "arrested",
+        "plea deal", "convicted", "sentenced", "accomplice", "facilitated",
+        "enabled", "procured", "recruited", "trafficking", "conspiracy"
+      ],
+      "context_keywords": [
+        "criminal charges", "indictment", "guilty plea", "convicted of",
+        "sentenced to", "arrest warrant", "federal charges"
+      ],
+      "confidence_threshold": {
+        "high": 0.90,
+        "medium": 0.70,
+        "low": 0.50
+      },
+      "evidence_types": {
+        "indictment": 1.0,
+        "court_filing": 0.95,
+        "arrest_record": 0.95,
+        "plea_agreement": 1.0,
+        "conviction": 1.0,
+        "deposition": 0.70,
+        "news_report": 0.40
+      },
+      "exclusions": [],
+      "multi_classification": true,
+      "notes": "Requires legal documentation. High evidentiary standard."
+    },
+    "frequent_travelers": {
+      "keywords": [
+        "flight log", "lolita express", "private jet", "flew with",
+        "passenger manifest", "pilot log", "aircraft", "trips"
+      ],
+      "context_keywords": [
+        "multiple flights", "frequent", "regular", "traveled to",
+        "island", "palm beach", "new york", "paris", "caribbean"
+      ],
+      "confidence_threshold": {
+        "high": 0.80,
+        "medium": 0.60,
+        "low": 0.40
+      },
+      "evidence_types": {
+        "flight_log": 0.95,
+        "pilot_log": 0.90,
+        "passenger_manifest": 0.95,
+        "testimony": 0.60,
+        "news_report": 0.30
+      },
+      "min_occurrences": {
+        "high": 5,
+        "medium": 3,
+        "low": 2
+      },
+      "exclusions": ["pilot", "crew", "staff"],
+      "multi_classification": true,
+      "notes": "Frequency matters. Multiple documented flights increase confidence."
+    },
+    "social_contacts": {
+      "keywords": [
+        "black book", "contact", "address book", "phone number",
+        "social circle", "friend", "acquaintance", "party", "event",
+        "dinner", "meeting", "introduced"
+      ],
+      "context_keywords": [
+        "personal contact", "social relationship", "knew", "met",
+        "attended", "invited", "guest"
+      ],
+      "confidence_threshold": {
+        "high": 0.70,
+        "medium": 0.50,
+        "low": 0.30
+      },
+      "evidence_types": {
+        "black_book": 0.80,
+        "flight_log": 0.60,
+        "deposition": 0.70,
+        "photo": 0.65,
+        "testimony": 0.60,
+        "news_report": 0.25
+      },
+      "exclusions": [],
+      "multi_classification": true,
+      "notes": "Broad category. Does not imply knowledge of illegal activity."
+    },
+    "associates": {
+      "keywords": [
+        "business partner", "associate", "worked with", "employed by",
+        "financial relationship", "investment", "client", "advisor",
+        "consultant", "director", "board member", "investor"
+      ],
+      "context_keywords": [
+        "business dealings", "financial ties", "corporate", "entity",
+        "company", "foundation", "partnership", "transaction"
+      ],
+      "confidence_threshold": {
+        "high": 0.75,
+        "medium": 0.55,
+        "low": 0.35
+      },
+      "evidence_types": {
+        "corporate_records": 0.90,
+        "financial_documents": 0.85,
+        "court_filing": 0.75,
+        "deposition": 0.70,
+        "news_report": 0.30
+      },
+      "exclusions": [],
+      "multi_classification": true,
+      "notes": "Professional or business relationships. May overlap with other classifications."
+    },
+    "employees": {
+      "keywords": [
+        "employee", "staff", "assistant", "pilot", "crew", "housekeeper",
+        "butler", "driver", "chef", "worked for", "employed by",
+        "payroll", "salary", "hired", "scheduler", "receptionist"
+      ],
+      "context_keywords": [
+        "job duties", "responsibilities", "paycheck", "employment",
+        "position", "role", "hired", "worked at"
+      ],
+      "confidence_threshold": {
+        "high": 0.85,
+        "medium": 0.65,
+        "low": 0.45
+      },
+      "evidence_types": {
+        "payroll_records": 0.95,
+        "employment_contract": 0.95,
+        "testimony": 0.75,
+        "deposition": 0.80,
+        "news_report": 0.30
+      },
+      "exclusions": [],
+      "multi_classification": true,
+      "notes": "Clear employer-employee relationship. May include contractors."
+    },
+    "witnesses": {
+      "keywords": [
+        "witness", "testified", "deposition", "affidavit", "statement",
+        "sworn testimony", "court appearance", "grand jury", "subpoena",
+        "witness list"
+      ],
+      "context_keywords": [
+        "under oath", "court proceedings", "trial", "hearing",
+        "testimony", "questioned", "cross-examined"
+      ],
+      "confidence_threshold": {
+        "high": 0.90,
+        "medium": 0.70,
+        "low": 0.50
+      },
+      "evidence_types": {
+        "deposition": 0.95,
+        "court_transcript": 0.95,
+        "affidavit": 0.90,
+        "witness_list": 0.85,
+        "subpoena": 0.80,
+        "news_report": 0.30
+      },
+      "exclusions": [],
+      "multi_classification": true,
+      "notes": "Formal legal proceedings role. High evidentiary standard."
+    },
+    "legal_professionals": {
+      "keywords": [
+        "attorney", "lawyer", "counsel", "esquire", "esq", "legal team",
+        "law firm", "prosecutor", "defense attorney", "solicitor",
+        "barrister", "partner", "associate attorney"
+      ],
+      "context_keywords": [
+        "represents", "represented", "legal representation", "retained",
+        "law firm", "legal counsel", "defense", "prosecution"
+      ],
+      "confidence_threshold": {
+        "high": 0.90,
+        "medium": 0.70,
+        "low": 0.50
+      },
+      "evidence_types": {
+        "court_filing": 0.95,
+        "bar_records": 0.95,
+        "case_documents": 0.90,
+        "news_report": 0.40
+      },
+      "exclusions": [],
+      "multi_classification": false,
+      "notes": "Professional role. Clearly defined by legal documents."
+    },
+    "investigators": {
+      "keywords": [
+        "fbi", "police", "detective", "investigator", "agent",
+        "law enforcement", "federal agent", "prosecutor", "district attorney",
+        "us attorney", "special agent", "task force"
+      ],
+      "context_keywords": [
+        "investigation", "raid", "search warrant", "arrest", "case",
+        "criminal investigation", "federal case", "prosecution"
+      ],
+      "confidence_threshold": {
+        "high": 0.90,
+        "medium": 0.70,
+        "low": 0.50
+      },
+      "evidence_types": {
+        "court_filing": 0.90,
+        "law_enforcement_records": 0.95,
+        "case_documents": 0.85,
+        "news_report": 0.40
+      },
+      "exclusions": [],
+      "multi_classification": false,
+      "notes": "Law enforcement and prosecutorial roles."
+    },
+    "public_figures": {
+      "keywords": [
+        "president", "senator", "congressman", "governor", "mayor",
+        "politician", "celebrity", "actor", "prince", "royal", "duke",
+        "minister", "official", "ambassador", "ceo", "billionaire"
+      ],
+      "context_keywords": [
+        "public figure", "prominent", "well-known", "famous", "notable",
+        "high-profile", "elected", "appointed", "administration"
+      ],
+      "confidence_threshold": {
+        "high": 0.75,
+        "medium": 0.55,
+        "low": 0.35
+      },
+      "evidence_types": {
+        "public_records": 0.85,
+        "news_report": 0.60,
+        "flight_log": 0.70,
+        "black_book": 0.65,
+        "photo": 0.60
+      },
+      "exclusions": [],
+      "multi_classification": true,
+      "notes": "Prominence in politics, entertainment, business, or royalty."
+    },
+    "media": {
+      "keywords": [
+        "journalist", "reporter", "news", "magazine", "newspaper",
+        "correspondent", "editor", "publisher", "media outlet",
+        "investigative reporter", "documentary", "producer"
+      ],
+      "context_keywords": [
+        "reported", "published", "investigation", "article", "story",
+        "coverage", "press", "journalism"
+      ],
+      "confidence_threshold": {
+        "high": 0.80,
+        "medium": 0.60,
+        "low": 0.40
+      },
+      "evidence_types": {
+        "byline": 0.95,
+        "publication": 0.90,
+        "press_credentials": 0.85,
+        "news_report": 0.50
+      },
+      "exclusions": [],
+      "multi_classification": false,
+      "notes": "Journalistic or media production role."
+    },
+    "plaintiffs": {
+      "keywords": [
+        "plaintiff", "claimant", "filed suit", "lawsuit", "civil suit",
+        "complaint", "seeking damages", "legal action", "suing"
+      ],
+      "context_keywords": [
+        "v.", "versus", "case number", "civil action", "federal court",
+        "state court", "district court", "complaint filed"
+      ],
+      "confidence_threshold": {
+        "high": 0.95,
+        "medium": 0.80,
+        "low": 0.60
+      },
+      "evidence_types": {
+        "court_filing": 1.0,
+        "complaint": 1.0,
+        "case_docket": 0.95,
+        "news_report": 0.40
+      },
+      "exclusions": [],
+      "multi_classification": true,
+      "notes": "Legal status in civil proceedings. High evidentiary standard."
+    },
+    "defendants": {
+      "keywords": [
+        "defendant", "accused", "charged with", "named in suit",
+        "respondent", "defense", "denies allegations"
+      ],
+      "context_keywords": [
+        "v.", "versus", "case number", "civil action", "criminal case",
+        "indictment", "charges", "allegations"
+      ],
+      "confidence_threshold": {
+        "high": 0.95,
+        "medium": 0.80,
+        "low": 0.60
+      },
+      "evidence_types": {
+        "court_filing": 1.0,
+        "indictment": 1.0,
+        "case_docket": 0.95,
+        "news_report": 0.40
+      },
+      "exclusions": [],
+      "multi_classification": true,
+      "notes": "Legal status in civil or criminal proceedings. High evidentiary standard."
+    },
+    "financial": {
+      "keywords": [
+        "bank", "financial institution", "investment", "hedge fund",
+        "private equity", "wealth management", "trust company",
+        "broker", "financial advisor", "money manager"
+      ],
+      "context_keywords": [
+        "accounts", "transactions", "funds", "assets", "investments",
+        "portfolio", "financial services", "banking"
+      ],
+      "confidence_threshold": {
+        "high": 0.85,
+        "medium": 0.65,
+        "low": 0.45
+      },
+      "evidence_types": {
+        "financial_records": 0.95,
+        "corporate_documents": 0.85,
+        "court_filing": 0.80,
+        "regulatory_filing": 0.90,
+        "news_report": 0.35
+      },
+      "exclusions": [],
+      "multi_classification": false,
+      "notes": "Organizations with financial services or investment role."
+    },
+    "peripheral": {
+      "keywords": [
+        "mentioned", "reference", "appeared", "noted", "cited",
+        "indirect", "tangential", "incidental"
+      ],
+      "context_keywords": [
+        "briefly", "passing reference", "minor", "unrelated",
+        "background", "context"
+      ],
+      "confidence_threshold": {
+        "high": 0.60,
+        "medium": 0.40,
+        "low": 0.20
+      },
+      "evidence_types": {
+        "any": 0.30
+      },
+      "exclusions": [],
+      "multi_classification": true,
+      "notes": "Minimal documented connections. Catch-all for weak associations."
+    }
+  },
+  "classification_strategies": {
+    "keyword_matching": {
+      "description": "Match entity mentions against keyword lists",
+      "weight": 0.40,
+      "requires_context": true,
+      "case_insensitive": true
+    },
+    "evidence_based": {
+      "description": "Score based on document type and source quality",
+      "weight": 0.35,
+      "requires_source_metadata": true
+    },
+    "frequency_analysis": {
+      "description": "Consider frequency of mentions and co-occurrences",
+      "weight": 0.15,
+      "applies_to": ["frequent_travelers", "social_contacts"]
+    },
+    "hierarchical_inference": {
+      "description": "Infer classifications from related entities",
+      "weight": 0.10,
+      "requires_relationship_graph": true
+    }
+  },
+  "multi_classification_rules": {
+    "allowed_combinations": [
+      ["victims", "plaintiffs", "witnesses"],
+      ["associates", "employees", "frequent_travelers"],
+      ["public_figures", "social_contacts", "associates"],
+      ["legal_professionals", "witnesses"],
+      ["co_conspirators", "defendants", "associates"],
+      ["employees", "witnesses"]
+    ],
+    "conflicting_classifications": [
+      ["victims", "co_conspirators"],
+      ["legal_professionals", "defendants"],
+      ["investigators", "defendants"]
+    ],
+    "priority_rules": {
+      "description": "When multiple classifications apply, display in priority order",
+      "resolution": "Show all applicable, sorted by priority field from schema"
+    }
+  },
+  "confidence_calculation": {
+    "formula": "weighted_sum(strategy_scores) * evidence_quality * source_count_factor",
+    "source_count_factor": {
+      "1": 0.7,
+      "2": 0.85,
+      "3": 0.95,
+      "4+": 1.0
+    },
+    "evidence_quality": {
+      "primary_source": 1.0,
+      "secondary_source": 0.7,
+      "tertiary_source": 0.4
+    },
+    "minimum_confidence": 0.30,
+    "notes": [
+      "Confidence scores should be continuously updated as new evidence is added",
+      "Multiple weak sources do not necessarily create high confidence",
+      "Legal documents and official records carry highest weight"
+    ]
+  },
+  "validation_rules": {
+    "required_fields": {
+      "classification_type": "Must match a classification from entity_classifications.json",
+      "confidence_score": "Float between 0.0 and 1.0",
+      "evidence_sources": "Array of source document references",
+      "assigned_date": "ISO 8601 timestamp"
+    },
+    "recommended_fields": {
+      "assigned_by": "User or system identifier",
+      "review_status": "pending, approved, rejected",
+      "notes": "Free text explanation or context"
+    }
+  },
+  "notes": [
+    "Classification rules should be applied programmatically during document ingestion",
+    "Manual review and override should be supported for edge cases",
+    "Confidence scores help prioritize manual review efforts",
+    "Multi-classification support reflects real-world complexity",
+    "Rules should be updated based on feedback and new document patterns"
+  ]
+}
