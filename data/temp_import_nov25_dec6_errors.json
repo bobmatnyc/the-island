@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.bloomberg.com/news/articles/2025-12-05/judge-agrees-to-release-epstein-transcripts-from-florida-case",
+    "publication": "Bloomberg",
+    "error": "Failed to fetch HTML"
+  },
+  {
+    "url": "https://www.axios.com/2025/12/03/epstein-files-release-pam-bondi-lawmakers",
+    "publication": "Axios",
+    "error": "Failed to fetch HTML"
+  },
+  {
+    "url": "https://www.axios.com/2025/11/12/new-epstein-files-emails-released-doj-trump",
+    "publication": "Axios",
+    "error": "Failed to fetch HTML"
+  }
+]

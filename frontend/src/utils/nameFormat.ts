@@ -1,28 +1,27 @@
 /**
- * Format entity name to "Last, First" format
- * Handles both "First Last" and "Last, First" inputs
+ * Format entity name based on entity type
+ * - For persons: Reverses "Last, First" to "First Last" for display
+ * - For organizations/locations: Returns name as-is
  * @param name - The entity name in any format
- * @returns Formatted name as "Last, First"
+ * @param entityType - The type of entity ('person', 'organization', 'location')
+ * @returns Formatted name appropriate for entity type
  */
-export function formatEntityName(name: string): string {
+export function formatEntityName(name: string, entityType?: string): string {
   if (!name) return '';
 
   const trimmedName = name.trim();
 
-  // Already in "Last, First" format
-  if (trimmedName.includes(',')) {
+  // For non-person entities (organizations/locations), return as-is
+  if (entityType === 'organization' || entityType === 'location') {
     return trimmedName;
   }
 
-  // Single word (organization, location, or single name)
-  const parts = trimmedName.split(/\s+/);
-  if (parts.length === 1) {
-    return parts[0];
+  // For person entities, reverse "Last, First" to "First Last"
+  if (trimmedName.includes(',')) {
+    const parts = trimmedName.split(',').map(s => s.trim());
+    return parts.reverse().join(' ');
   }
 
-  // Convert "First Last" to "Last, First"
-  // Assume last word is last name, everything before is first name
-  const lastName = parts[parts.length - 1];
-  const firstName = parts.slice(0, -1).join(' ');
-  return `${lastName}, ${firstName}`;
+  // Already in correct format
+  return trimmedName;
 }

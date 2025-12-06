@@ -1,0 +1,318 @@
+{
+  "research_metadata": {
+    "date_created": "2025-12-06",
+    "gap_period": "2025-11-25 to 2025-12-06",
+    "total_articles": 26,
+    "tier_1_articles": 12,
+    "tier_2_articles": 11,
+    "tier_3_articles": 3,
+    "researcher": "Claude Research Agent"
+  },
+  "articles": [
+    {
+      "priority": "tier_1",
+      "date": "2025-12-05",
+      "title": "Grand jury transcripts from abandoned Epstein investigation in Florida ordered released",
+      "url": "https://www.washingtonpost.com/national/2025/12/05/jeffrey-epstein-florida/880caed8-d206-11f0-92cb-561ee4e6a771_story.html",
+      "source": "Washington Post",
+      "category": "legal_developments",
+      "keywords": ["grand jury", "transcripts", "Florida", "Judge Rodney Smith", "unsealed"],
+      "significance": "Major legal development - transcripts could reveal why federal charges weren't filed in 2000s"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-05",
+      "title": "What to know about the Justice Department's Jeffrey Epstein files",
+      "url": "https://www.washingtonpost.com/politics/2025/12/05/epstein-justice-department-trump-fbi-files/ac357caa-d228-11f0-92cb-561ee4e6a771_story.html",
+      "source": "Washington Post",
+      "category": "explainer",
+      "keywords": ["DOJ", "December 19", "transparency act", "deadline"],
+      "significance": "Comprehensive explainer on upcoming December 19 release"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-05",
+      "title": "Judge Approves Release of Epstein Grand Jury Transcripts in Florida Case",
+      "url": "https://www.bloomberg.com/news/articles/2025-12-05/judge-agrees-to-release-epstein-transcripts-from-florida-case",
+      "source": "Bloomberg",
+      "category": "legal_developments",
+      "keywords": ["grand jury", "Florida", "unsealed", "2005-2007"],
+      "significance": "Financial/business angle on grand jury release"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-05",
+      "title": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida",
+      "url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/",
+      "source": "CBS News",
+      "category": "legal_developments",
+      "keywords": ["grand jury", "unsealed", "Florida"],
+      "significance": "Major broadcaster coverage of transcript release"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-05",
+      "title": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida",
+      "url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida",
+      "source": "PBS NewsHour",
+      "category": "legal_developments",
+      "keywords": ["grand jury", "transcripts", "abandoned investigation"],
+      "significance": "Public broadcasting coverage - accessible format"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-05",
+      "title": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly",
+      "url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624",
+      "source": "NBC News",
+      "category": "legal_developments",
+      "keywords": ["grand jury", "public release", "Florida"],
+      "significance": "Major network coverage"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-03",
+      "title": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files",
+      "url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980",
+      "source": "NBC News",
+      "category": "political_oversight",
+      "keywords": ["Pam Bondi", "congressional oversight", "December 19", "deadline"],
+      "significance": "Bipartisan congressional pressure on AG regarding deadline"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-03",
+      "title": "Lawmakers ask Bondi for update on Epstein files as deadline nears",
+      "url": "https://www.washingtonpost.com/politics/2025/12/03/lawmakers-bondi-release-epstein-files/",
+      "source": "Washington Post",
+      "category": "political_oversight",
+      "keywords": ["Pam Bondi", "deadline", "congressional letter"],
+      "significance": "WaPo coverage of congressional oversight"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-03",
+      "title": "Ghislaine Maxwell will make new plea to judge to let her out of prison",
+      "url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request",
+      "source": "CNN",
+      "category": "maxwell_developments",
+      "keywords": ["Ghislaine Maxwell", "habeas corpus", "prison release", "pro se"],
+      "significance": "Major development - Maxwell seeking release just before deadline"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-03",
+      "title": "Ghislaine Maxwell to seek release from prison: Court filing",
+      "url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing",
+      "source": "Al Jazeera",
+      "category": "maxwell_developments",
+      "keywords": ["Ghislaine Maxwell", "prison release", "court filing"],
+      "significance": "International coverage of Maxwell development"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-03",
+      "title": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts",
+      "url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759",
+      "source": "ABC News",
+      "category": "document_releases",
+      "keywords": ["Little St. James", "photos", "videos", "House Democrats"],
+      "significance": "Visual documentation of Epstein's island released to public"
+    },
+    {
+      "priority": "tier_1",
+      "date": "2025-12-03",
+      "title": "Pam Bondi asked to brief lawmakers on hurdles with releasing Epstein files",
+      "url": "https://www.axios.com/2025/12/03/epstein-files-release-pam-bondi-lawmakers",
+      "source": "Axios",
+      "category": "political_oversight",
+      "keywords": ["Pam Bondi", "congressional briefing", "procedural hurdles"],
+      "significance": "Analysis of potential obstacles to December 19 release"
+    },
+    {
+      "priority": "tier_2",
+      "date": "2025-11-26",
+      "title": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations",
+      "url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records",
+      "source": "CNN",
+      "category": "legal_developments",
+      "keywords": ["DOJ", "court permission", "three cases"],
+      "significance": "Shows DOJ legal process to comply with Transparency Act"
+    },
+    {
+      "priority": "tier_2",
+      "date": "2025-11-25",
+      "title": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator",
+      "url": "https://www.democracynow.org/2025/11/25/anand_giridharadas",
+      "source": "Democracy Now",
+      "category": "analysis",
+      "keywords": ["elite networks", "systemic analysis", "enablers"],
+      "significance": "Important analytical framework for understanding Epstein's network"
+    },
+    {
+      "priority": "tier_2",
+      "date": "2025-11-20",
+      "title": "The latest Epstein emails reveal the powerful people who sought his counsel",
+      "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats",
+      "source": "NPR",
+      "category": "document_releases",
+      "keywords": ["emails", "Noam Chomsky", "Steve Bannon", "Larry Summers"],
+      "significance": "Reveals scope of Epstein's elite connections"
+    },
+    {
+      "priority": "tier_2",
+      "date": "2025-11-19",
+      "title": "November 19, 2025 Trump administration and Epstein files news",
+      "url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25",
+      "source": "CNN",
+      "category": "legislation",
+      "keywords": ["Trump signs bill", "Transparency Act", "30-day deadline"],
+      "significance": "Live coverage of bill signing - starts 30-day clock"
+    },
+    {
+      "priority": "tier_2",
+      "date": "2025-11-14",
+      "title": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?",
+      "url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/",
+      "source": "The Intercept",
+      "category": "media_analysis",
+      "keywords": ["Landon Thomas Jr.", "New York Times", "Trump", "journalism ethics"],
+      "significance": "Investigative journalism examining media's relationship with Epstein"
+    },
+    {
+      "priority": "tier_2",
+      "date": "2025-11-13",
+      "title": "Up First briefing: New Epstein emails; ACA subsidies after shutdown",
+      "url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca",
+      "source": "NPR",
+      "category": "document_releases",
+      "keywords": ["emails", "House Democrats", "Trump"],
+      "significance": "NPR newsletter coverage of email release"
+    },
+    {
+      "priority": "tier_2",
+      "date": "2025-11-12",
+      "title": "Here are all the \"Epstein files\" that have been released — and which haven't",
+      "url": "https://www.axios.com/2025/11/12/new-epstein-files-emails-released-doj-trump",
+      "source": "Axios",
+      "category": "explainer",
+      "keywords": ["comprehensive overview", "released files", "pending files"],
+      "significance": "Excellent reference guide to track what's been released"
+    },
+    {
+      "priority": "tier_2",
+      "date": "2025-12-03",
+      "title": "House Dems release 'never-before-seen' photos, videos of Epstein compound",
+      "url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems",
+      "source": "Fox News",
+      "category": "document_releases",
+      "keywords": ["photos", "videos", "Little St. James", "compound"],
+      "significance": "Conservative outlet coverage of visual evidence release"
+    },
+    {
+      "priority": "tier_2",
+      "date": "2025-12-03",
+      "title": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison",
+      "url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592",
+      "source": "Newsweek",
+      "category": "maxwell_developments",
+      "keywords": ["Ghislaine Maxwell", "petition", "prison release"],
+      "significance": "Additional coverage of Maxwell's legal strategy"
+    },
+    {
+      "priority": "tier_2",
+      "date": "undated",
+      "title": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release",
+      "url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683",
+      "source": "ABC News",
+      "category": "victim_advocacy",
+      "keywords": ["victims", "privacy concerns", "unredacted names"],
+      "significance": "Critical issue - balance between transparency and victim protection"
+    },
+    {
+      "priority": "tier_2",
+      "date": "undated",
+      "title": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files",
+      "url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573",
+      "source": "ABC News",
+      "category": "legal_developments",
+      "keywords": ["Judge Chutkan", "FOIA", "expedited processing", "DOJ integrity"],
+      "significance": "Judicial oversight of DOJ's file handling process"
+    },
+    {
+      "priority": "tier_2",
+      "date": "undated",
+      "title": "7 things to know about the Justice Department's Epstein files",
+      "url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files",
+      "source": "PBS NewsHour",
+      "category": "explainer",
+      "keywords": ["DOJ files", "what to expect", "deadline"],
+      "significance": "Accessible public broadcasting explainer"
+    },
+    {
+      "priority": "tier_3",
+      "date": "2025-11-19",
+      "title": "Donald Trump signs Epstein Files Transparency Act into law",
+      "url": "https://thehill.com/homenews/5614156-trump-signs-epstein-transparency-act/",
+      "source": "The Hill",
+      "category": "legislation",
+      "keywords": ["Trump", "signs bill", "Transparency Act"],
+      "significance": "Political news outlet coverage of signing"
+    },
+    {
+      "priority": "tier_3",
+      "date": "reference",
+      "title": "Epstein Files Transparency Act",
+      "url": "https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act",
+      "source": "Wikipedia",
+      "category": "reference",
+      "keywords": ["legislation", "background", "timeline"],
+      "significance": "Reference documentation of the Act itself"
+    },
+    {
+      "priority": "tier_3",
+      "date": "reference",
+      "title": "The Epstein Files: A Timeline",
+      "url": "https://www.britannica.com/topic/The-Epstein-Files-A-Timeline",
+      "source": "Britannica",
+      "category": "reference",
+      "keywords": ["timeline", "chronology", "comprehensive"],
+      "significance": "Authoritative timeline for reference"
+    }
+  ],
+  "ingestion_notes": {
+    "priority_order": [
+      "tier_1 articles should be scraped first (highest priority)",
+      "tier_2 articles provide important context and analysis",
+      "tier_3 articles are reference materials"
+    ],
+    "potential_issues": [
+      "Washington Post and New York Times articles may be paywalled",
+      "Some URLs may require JavaScript rendering",
+      "Video content in some articles may not be captured by text scraper",
+      "ABC News story IDs may change over time"
+    ],
+    "recommended_approach": [
+      "Test each URL for accessibility before batch processing",
+      "Use appropriate user agent to avoid blocking",
+      "Respect robots.txt for each domain",
+      "Consider using archive.org fallback for inaccessible articles",
+      "Extract metadata: publication date, author, section"
+    ]
+  },
+  "december_19_preparation": {
+    "expected_sources": [
+      "DOJ official website (justice.gov)",
+      "Major news outlets will publish analysis",
+      "Congressional committee statements",
+      "Legal/victim advocacy responses"
+    ],
+    "monitoring_strategy": [
+      "Set up alerts for 'Epstein files December 19'",
+      "Check DOJ press releases daily",
+      "Monitor AG Bondi official statements",
+      "Track congressional oversight committee websites"
+    ],
+    "high_volume_period": "December 19-26, 2025 (expect dozens of articles)"
+  }
+}

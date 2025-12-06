@@ -2,10 +2,22 @@
   "mcpServers": {
     "kuzu-memory": {
       "type": "stdio",
-      "command": "/Users/masa/.local/pipx/venvs/kuzu-memory/bin/kuzu-memory",
+      "command": "kuzu-memory",
       "args": [
         "mcp"
       ]
+    },
+    "mcp-vector-search": {
+      "command": "uv",
+      "args": [
+        "run",
+        "mcp-vector-search",
+        "mcp"
+      ],
+      "env": {
+        "MCP_ENABLE_FILE_WATCHING": "true"
+      },
+      "type": "stdio"
     }
   }
 }

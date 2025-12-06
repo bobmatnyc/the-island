@@ -64,17 +64,18 @@ export function Entities() {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
-  // Load entities when page, search, type, biography, category, or connection filter changes
+  // Load entities when page, search, type, biography, or category changes
+  // NOTE: minConnections is NOT in dependencies - it filters client-side for instant response
   useEffect(() => {
     loadEntities();
-  }, [currentPage, debouncedSearch, selectedType, showOnlyWithBio, selectedCategories, minConnections]);
+  }, [currentPage, debouncedSearch, selectedType, showOnlyWithBio, selectedCategories]);
 
-  // Reset to page 1 when search or filters change
+  // Reset to page 1 when search or filters change (NOT for minConnections - client-side only)
   useEffect(() => {
     if (currentPage !== 1) {
       setCurrentPage(1);
     }
-  }, [debouncedSearch, selectedType, showOnlyWithBio, selectedCategories, minConnections]);
+  }, [debouncedSearch, selectedType, showOnlyWithBio, selectedCategories]);
 
   const loadEntities = async () => {
     try {
@@ -456,7 +457,7 @@ export function Entities() {
                       to={`/entities/${entity.id}`}
                       className="text-xl font-semibold leading-tight break-words hover:text-primary hover:underline transition-colors"
                     >
-                      {formatEntityName(entity.name)}
+                      {formatEntityName(entity.name, entity.entity_type)}
                     </Link>
                   </div>
                   <Button

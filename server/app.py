@@ -296,6 +296,7 @@ network_data = {}
 semantic_index = {}
 classifications = {}
 timeline_data = {}
+document_entity_index = {}  # Document ID -> List of entity names
 
 # Reverse mappings for backward compatibility
 name_to_id = {}  # Name/variation -> ID
@@ -346,10 +347,34 @@ def build_guid_mapping():
     logger.info(f"Built GUID mapping: {len(guid_to_id)} entities indexed")
 
 
+def calculate_entity_connections(entity_name: str) -> int:
+    """
+    Calculate connection count for an entity based on co-occurrences in documents.
+    Returns the number of unique entities mentioned in the same documents.
+    """
+    if not document_entity_index:
+        return 0
+
+    # Normalize entity name for matching (lowercase for comparison)
+    entity_name_lower = entity_name.lower().strip()
+
+    # Find all documents mentioning this entity
+    co_mentioned_entities = set()
+
+    for doc_id, entities_in_doc in document_entity_index.items():
+        # Check if this entity appears in the document (case-insensitive)
+        entities_lower = [e.lower().strip() for e in entities_in_doc]
+        if entity_name_lower in entities_lower:
+            # Add all other entities from this document
+            co_mentioned_entities.update(e for e in entities_in_doc if e.lower().strip() != entity_name_lower)
+
+    return len(co_mentioned_entities)
+
+
 def load_data():
     """Load all JSON data into memory with error handling"""
     global entity_stats, entity_bios, network_data, semantic_index, classifications, timeline_data
-    global name_to_id, id_to_name, guid_to_id
+    global name_to_id, id_to_name, guid_to_id, document_entity_index
 
     print("Loading data...")
 
@@ -414,6 +439,22 @@ def load_data():
         print(f"  ✗ No entity biography files found")
     else:
         print(f"  ✓ Total entity biographies loaded: {total_loaded}")
+
+    # Document-Entity Index (for calculating org/location connections)
+    doc_entity_path = METADATA_DIR / "document_entity_index.json"
+    if doc_entity_path.exists():
+        try:
+            with open(doc_entity_path) as f:
+                data = json.load(f)
+                # Extract document_entities key from the JSON structure
+                document_entity_index = data.get("document_entities", {})
+                print(f"  ✓ Loaded document-entity index for {len(document_entity_index)} documents")
+        except Exception as e:
+            print(f"  ✗ Failed to load document_entity_index.json: {e}")
+            document_entity_index = {}
+    else:
+        print(f"  ✗ Document-entity index not found: {doc_entity_path}")
+        document_entity_index = {}
 
     # Network
     network_path = METADATA_DIR / "entity_network.json"
@@ -2207,13 +2248,17 @@ async def get_entities(
         if bio_entity_type == "person":
             continue
 
-        # Add organization/location entity with basic structure
+        # Calculate real connection count from document co-occurrences
+        entity_name = entity_data.get("name", entity_key)
+        connection_count = calculate_entity_connections(entity_name)
+
+        # Add organization/location entity with calculated connections
         entities_list.append({
             "id": entity_key,
-            "name": entity_data.get("name", entity_key),
+            "name": entity_name,
             "entity_type": bio_entity_type,
-            "total_documents": 0,  # Organizations/locations don't have document counts yet
-            "connection_count": 0,
+            "total_documents": len(entity_data.get("documents", [])),  # Count from documents field
+            "connection_count": connection_count,
             "sources": []
         })
 

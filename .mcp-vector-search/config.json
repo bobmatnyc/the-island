@@ -36,7 +36,8 @@
     "javascript",
     "json",
     "markdown",
-    "python"
+    "python",
+    "typescript"
   ],
   "watch_files": false,
   "cache_embeddings": true,
