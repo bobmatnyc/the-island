@@ -1,0 +1,906 @@
+{
+  "generated_at": "2025-12-06T20:36:00.423896Z",
+  "total_mappings": 100,
+  "mappings": [
+    {
+      "document_id": "e1569467-6b0c-5153-8b70-d351a2e05e31",
+      "legacy_ids": {
+        "sha256": "674c8534bc4b8b4cd05baa9fba50c16b050489f774605553550e65d83d129c01"
+      },
+      "source_path": "data/sources/documentcloud/epstein_docs_6250471.pdf",
+      "document_type": "administrative",
+      "title": "Epstein Docs 6250471"
+    },
+    {
+      "document_id": "f2eb2080-8d79-5d06-b113-c726e6ce61db",
+      "legacy_ids": {
+        "sha256": "0ef53e7de52ac7ae2a4357f7faa60a3f38227d7b9e1e5ec70bba8fdef3dcc017"
+      },
+      "source_path": "data/sources/raw_entities/epstein-birthday-book.pdf",
+      "document_type": "contact_directory",
+      "title": "Epstein Birthday Book"
+    },
+    {
+      "document_id": "f5fcee35-5004-5f27-b287-6ad5de7613f2",
+      "legacy_ids": {
+        "sha256": "73629c8fb1faffa2a297612632cd40444f9b822044ddc1e995353c46802cba3e"
+      },
+      "source_path": "data/sources/house_oversight_sept2024/document_4.pdf",
+      "document_type": "government_document",
+      "title": "Document 4"
+    },
+    {
+      "document_id": "bf516c79-9bb0-54de-b78b-ecb104711220",
+      "legacy_ids": {
+        "sha256": "4ec559f48550e1effe7dc78898527c438197cb706ac36d6c62eb5cda66e82d6c"
+      },
+      "source_path": "data/sources/documentcloud/doj_feb2025_release.pdf",
+      "document_type": "government_document",
+      "title": "Doj Feb2025 Release"
+    },
+    {
+      "document_id": "1fb9bf7a-9bef-5cb7-b36f-839819f5c6f2",
+      "legacy_ids": {
+        "sha256": "16e8291cd6dab68678b11fb708eb4aa9e776443ab558fec186aaa5c2039f19bc"
+      },
+      "source_path": "data/sources/documentcloud/unsealing_jan2024_943pages.pdf",
+      "document_type": "administrative",
+      "title": "Unsealing Jan2024 943pages"
+    },
+    {
+      "document_id": "3573c661-c7f8-5eab-b601-129dde05bcde",
+      "legacy_ids": {
+        "sha256": "c744d707556a62d63fd7d5dd96502a9c7f2a7b65b3be7cd5e3c1bdacdcf473e7"
+      },
+      "source_path": "data/sources/giuffre_maxwell/2024_unsealed/Final_Epstein_documents_2024_943pages.pdf",
+      "document_type": "court_record",
+      "title": "Final Epstein Documents 2024 943pages"
+    },
+    {
+      "document_id": "74645447-315a-5cdb-b9e7-40ea1cc7730d",
+      "legacy_ids": {
+        "sha256": "6b090e42e18a74a88b545792c79d6d899c0e27117a296eda025f83c24c829a67"
+      },
+      "source_path": "data/sources/house_oversight_sept2024/document_3.pdf",
+      "document_type": "government_document",
+      "title": "Document 3"
+    },
+    {
+      "document_id": "253873a2-978e-506e-a6da-d69c8e573d8e",
+      "legacy_ids": {
+        "sha256": "1f9456f4e629327b3c1361acdc6dcd11594a9e1d5ec69e801bcdccdf4ce7f160"
+      },
+      "source_path": "data/sources/house_oversight_sept2024/document_1.pdf",
+      "document_type": "government_document",
+      "title": "Document 1"
+    },
+    {
+      "document_id": "3ad0092d-ea11-5fe3-9bf4-9de90d56ce27",
+      "legacy_ids": {
+        "sha256": "c6fc11e54e6bae261b1286e1bf5da40e0fc6ff56d396ae8877afb455a51cedcd"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1328.17.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1328.17"
+    },
+    {
+      "document_id": "9f60d31a-69fb-5fd7-b9e1-b7edfcc76c88",
+      "legacy_ids": {
+        "sha256": "6170366f3d883cf30514dc31f4cc52fb950af0c670cc8b03564b9686aab65ff4"
+      },
+      "source_path": "data/sources/404media/Epstein docs 2/1320-30.pdf",
+      "document_type": "court_record",
+      "title": "1320 30"
+    },
+    {
+      "document_id": "6763ce10-b75f-5bb9-a493-c0d51195de5c",
+      "legacy_ids": {
+        "sha256": "2c1be9fb4ae9d503e24f20d549d5f5e0530a47a2a82de90ffb8232971f3819bd"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1328.28.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1328.28"
+    },
+    {
+      "document_id": "a294dcfa-a35b-56f7-a2a0-052db00a37af",
+      "legacy_ids": {
+        "sha256": "b8e4245a07825f16dcb8dc97299ee3ff03b11673c56f68d9aec25072d7232ebb"
+      },
+      "source_path": "data/sources/404media/Epstein docs 2/1320-32.pdf",
+      "document_type": "court_record",
+      "title": "1320 32"
+    },
+    {
+      "document_id": "82374325-99cc-58a7-8259-c65b6b58b656",
+      "legacy_ids": {
+        "sha256": "b6e64ed803249cb0667a83d7c12dbc4f0d08ae67f1e17d92c2cfaa91a6259600"
+      },
+      "source_path": "data/sources/404media/1.4.23 Epstein Docs/1325-2.pdf",
+      "document_type": "media_article",
+      "title": "1325 2"
+    },
+    {
+      "document_id": "c9c8df70-a17e-5607-9235-cd9efa333e2f",
+      "legacy_ids": {
+        "sha256": "1deeaeacea9a800a479fdd1207bbca38dd83edfd8f15050d1704c9fc190960fd"
+      },
+      "source_path": "data/sources/fbi_vault/jeffrey_epstein_part_03.pdf",
+      "document_type": "government_document",
+      "title": "Jeffrey Epstein Part 03"
+    },
+    {
+      "document_id": "2e0952ad-b625-5110-b317-f253a920f241",
+      "legacy_ids": {
+        "sha256": "7d7a6c0bdd37bded475f69336bfe24f9efccf2f98bb1d833fe8648f646f932dd"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1328.43_1.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1328.43 1"
+    },
+    {
+      "document_id": "2160d402-1536-5410-b121-69aab429d4f9",
+      "legacy_ids": {
+        "sha256": "f2b81c49c6a05b77baaa8f7168e59e8644543bb0da75a01b206d62d6a197e497"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1327.3_1.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1327.3 1"
+    },
+    {
+      "document_id": "6b343941-ac98-5aba-b5ca-ec6c4639dcc2",
+      "legacy_ids": {
+        "sha256": "0449d28be467be40971dd4a035676214a24b7eae6a69a49abaca37f2d6c6632a"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1328.22_1.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1328.22 1"
+    },
+    {
+      "document_id": "aae94ef6-f8d5-51f0-bc5f-9849b5a4dfea",
+      "legacy_ids": {
+        "sha256": "75c08f34b73e14540fd404bd5546f93bd80221e8c0691be5351c23a299b83c8a"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1328.42_1.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1328.42 1"
+    },
+    {
+      "document_id": "4bae9ca7-105f-5618-8db4-78587293bd0a",
+      "legacy_ids": {
+        "sha256": "9a1ec3c128e78073c57acd3eb5ae22004203006641dd28c78d88a7534f691034"
+      },
+      "source_path": "data/sources/404media/Epstein docs 2/1320-13.pdf",
+      "document_type": "court_record",
+      "title": "1320 13"
+    },
+    {
+      "document_id": "cc6584fa-278a-5a45-a4b7-f5fb6748cd49",
+      "legacy_ids": {
+        "sha256": "b00b5e94214e3f9278a839cd8cbaf42860d732f2d1f580dda13de78845268d39"
+      },
+      "source_path": "data/sources/fbi_vault/jeffrey_epstein_part_18.pdf",
+      "document_type": "government_document",
+      "title": "Jeffrey Epstein Part 18"
+    },
+    {
+      "document_id": "b3fcbba0-b101-5340-ae89-16b20991236c",
+      "legacy_ids": {
+        "sha256": "89c08d2317fa65e8bd51eb517aba8e2228d12db41b7a68063f3d39447d6256d0"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/1331-15.pdf",
+      "document_type": "media_article",
+      "title": "1331 15"
+    },
+    {
+      "document_id": "52f7dfaf-4d69-5688-bfce-48ee869acf50",
+      "legacy_ids": {
+        "sha256": "88aa88bfe939216675fa1e9f18eada3b36afd9fb9bb9f2ef15e7adca2af3d5f2"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1327.11.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1327.11"
+    },
+    {
+      "document_id": "200ccf8b-bfc7-55a5-9298-c89455495045",
+      "legacy_ids": {
+        "sha256": "9846272ae8efcd78fe52161862fa9f468cbc4479acf404b7a868461f8cd71c08"
+      },
+      "source_path": "data/sources/fbi_vault/jeffrey_epstein_part_17.pdf",
+      "document_type": "government_document",
+      "title": "Jeffrey Epstein Part 17"
+    },
+    {
+      "document_id": "1d9fda76-5d45-51aa-93a6-aea7b7c1e6cb",
+      "legacy_ids": {
+        "sha256": "a5727c693d22594d6cb3c22f20be781277a2ba3b30c6fb908d3fc2baf0003e5d"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1327.2.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1327.2"
+    },
+    {
+      "document_id": "42fd8d10-735a-5398-87bc-76a63869de79",
+      "legacy_ids": {
+        "sha256": "fa89ff7f14fb344043370dd126949a6d4bb7e2e9acdd32f1b003dc88231538c8"
+      },
+      "source_path": "data/sources/404media/Epstein docs 2/1320-7.pdf",
+      "document_type": "court_record",
+      "title": "1320 7"
+    },
+    {
+      "document_id": "57657e57-9b80-5961-8b8b-20f058319490",
+      "legacy_ids": {
+        "sha256": "a982307425f9d84d11bfad43cc45dc589bf5438131fbb032543f9912e3140de9"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1328.15.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1328.15"
+    },
+    {
+      "document_id": "ccfde210-81b3-5f8a-bd4a-0b7405f7060d",
+      "legacy_ids": {
+        "sha256": "f46fde67ca2f49a71b8f3d8e2fad59e4f427073e8e5c183931503dfdcd8cf2f5"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_50.2.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 50.2"
+    },
+    {
+      "document_id": "b5235243-d152-5d3d-98f5-103e68b7b3d6",
+      "legacy_ids": {
+        "sha256": "25cc193fc4e1275b32f5caaf1bebbbaca57ed5c84a99eee1c5e06060caa32627"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_153.6.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 153.6"
+    },
+    {
+      "document_id": "5a6f38ed-70f3-529b-9104-170f2981483c",
+      "legacy_ids": {
+        "sha256": "5ae859eaecf00cf072c464d701fd6832edd48f94bb249fb860f002d764bf94a8"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1327.13.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1327.13"
+    },
+    {
+      "document_id": "1a40f728-d459-537b-81d7-6ab6c9039e83",
+      "legacy_ids": {
+        "sha256": "3a316a0a7b58b1dfe592a80e6790eef649834d1a14d73dc9f9304b172eb18924"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_50.1.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 50.1"
+    },
+    {
+      "document_id": "707414d6-00e0-543e-a1b7-928d109b06d2",
+      "legacy_ids": {
+        "sha256": "18efa2b6decb3644dc95f288d75f33ceff932ea2ef50fa73d8c9f55650be58d4"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1330.6_1.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1330.6 1"
+    },
+    {
+      "document_id": "5f141a0e-c395-5ed7-aaf5-cb1886a9c810",
+      "legacy_ids": {
+        "sha256": "5c17ff142e4d16444411e35394a9031965d1cde4a2b8567045170b2d240a8dc2"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_21.2.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 21.2"
+    },
+    {
+      "document_id": "705675c7-5110-5f8b-8e29-d1ae25118e97",
+      "legacy_ids": {
+        "sha256": "11c12479293424b272f0c93748d2624f435691359372c0dda6f61581d3c64151"
+      },
+      "source_path": "data/sources/404media/Epstein docs 2/1320-4.pdf",
+      "document_type": "court_record",
+      "title": "1320 4"
+    },
+    {
+      "document_id": "b546436a-b8d5-58db-84be-6327790224d6",
+      "legacy_ids": {
+        "sha256": "a039bafb8d0a9b2204f457c170f6a6698534547da2de99b033a2f98ebd8744bb"
+      },
+      "source_path": "data/sources/404media/1.4.23 Epstein Docs/1325-18.pdf",
+      "document_type": "media_article",
+      "title": "1325 18"
+    },
+    {
+      "document_id": "9697dd18-71ec-5751-adab-8ed91bd72cc6",
+      "legacy_ids": {
+        "sha256": "a9970c65470c0199a0f8b8e69adb12cb2cd7a90c3a208d93ce0433900465b3d0"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_153.5.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 153.5"
+    },
+    {
+      "document_id": "852fa658-a1cf-5615-8ad1-86e8f83308b7",
+      "legacy_ids": {
+        "sha256": "967fe42d65cba9324070ac1c080dd0acaf6f540a15fe6dabc431efeb78faae6d"
+      },
+      "source_path": "data/sources/404media/1.4.23 Epstein Docs/1325-12.pdf",
+      "document_type": "media_article",
+      "title": "1325 12"
+    },
+    {
+      "document_id": "aea0aa97-8028-5115-b835-47316018d765",
+      "legacy_ids": {
+        "sha256": "9f927cc3dec400d2c7716c5ab69b83a4dcb34777603f831f9fd4e843020202d2"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.13.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.13"
+    },
+    {
+      "document_id": "8f78b765-32ca-57c4-adba-6e7c2d164892",
+      "legacy_ids": {
+        "sha256": "e10da95ddd020e5933bae5e47ad8f5845c95a06652f8dec8d59ab8c8538a304b"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_16.1.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 16.1"
+    },
+    {
+      "document_id": "3267dfb3-eb62-5036-a685-919f9b875fb8",
+      "legacy_ids": {
+        "sha256": "88ab399c516c08faea49f6b1a0a657f11593a064a6ab7abd251fec8b570a6b46"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_36.11.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 36.11"
+    },
+    {
+      "document_id": "ce063078-b0fc-5d8a-a57d-5dba2db7f52b",
+      "legacy_ids": {
+        "sha256": "0ea9fd65590f1e6840c8623f6c212b50ad1124a12f793e08c180c7e3b08c5e42"
+      },
+      "source_path": "data/sources/fbi_vault/jeffrey_epstein_part_12.pdf",
+      "document_type": "government_document",
+      "title": "Jeffrey Epstein Part 12"
+    },
+    {
+      "document_id": "bd9a0c92-8546-53ad-ad9c-eebfe7ff4a16",
+      "legacy_ids": {
+        "sha256": "e6747e7a13077778344cbca470c2100805954c852db1c6ffd2bf2ea33e6247f3"
+      },
+      "source_path": "data/sources/404media/Epstein docs 2/1320-31.pdf",
+      "document_type": "court_record",
+      "title": "1320 31"
+    },
+    {
+      "document_id": "6426f1a0-b1b6-5c9a-9269-65f1d8ba0373",
+      "legacy_ids": {
+        "sha256": "630f8f95b44e87cb8b803f14eb806eb16e09dca5217c5aa85d57736d6ba0e307"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1328.21.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1328.21"
+    },
+    {
+      "document_id": "563a2225-6245-5b3a-8eda-84dbe994bfb1",
+      "legacy_ids": {
+        "sha256": "b8d3ed37b0a1baab90759ba2e3692106b503e3a14763e52ce8638a8455992e93"
+      },
+      "source_path": "data/sources/fbi_vault/jeffrey_epstein_part_14.pdf",
+      "document_type": "government_document",
+      "title": "Jeffrey Epstein Part 14"
+    },
+    {
+      "document_id": "a92aea15-4e4a-5706-921f-b2c204a90f22",
+      "legacy_ids": {
+        "sha256": "4e9ab7f128aae84112ed03728fe31d20cd913b2d91885607472795b8bc6f0efc"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_36.4.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 36.4"
+    },
+    {
+      "document_id": "9b3cba70-e500-56f3-922a-e12aa454a62e",
+      "legacy_ids": {
+        "sha256": "17f8afe36d2cf926e9ef79a34399a0ee56244b3acc56e1fa90eab28829b0fc8d"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_165.5.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 165.5"
+    },
+    {
+      "document_id": "d15fae9e-042b-5174-a0f9-547634bf1cb0",
+      "legacy_ids": {
+        "sha256": "d15e025a1a1183645bcac187c6c6fc369f4c187cd1d4b3acb071d7a4f42f871f"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.4.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.4"
+    },
+    {
+      "document_id": "c6e675bd-a999-5d84-bdfb-8b265787e51b",
+      "legacy_ids": {
+        "sha256": "ea41a83a74e3c44f18da159f179176d579a1ad8b85027098032307f3e92b500a"
+      },
+      "source_path": "data/sources/404media/Epstein docs 2/1320-2.pdf",
+      "document_type": "court_record",
+      "title": "1320 2"
+    },
+    {
+      "document_id": "6845f102-9ab2-508f-80a0-b68343abb7e8",
+      "legacy_ids": {
+        "sha256": "00408dd051013db0d0fcf78401336ba0f846d889a118372efa3e20d807419a2d"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_36.12.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 36.12"
+    },
+    {
+      "document_id": "92e9face-5b98-536c-b707-a4e4ddce5159",
+      "legacy_ids": {
+        "sha256": "559fc4140c43f1711a77c59657aa06d2d1a631db45e81b3bb86b7bb96fe241d3"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.2.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.2"
+    },
+    {
+      "document_id": "d516fe6e-89a7-508f-9cd8-aae91166156a",
+      "legacy_ids": {
+        "sha256": "bd1d78c3bcd194ca83a27efe9d599a5307cf9a2d51465d5219d26ee9767a576c"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_21.3.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 21.3"
+    },
+    {
+      "document_id": "72898d37-172b-5e91-ae68-60ab0b31cb32",
+      "legacy_ids": {
+        "sha256": "a8a13ffc6e88be99db532e6bf87314f5789544302889d841b0105f06e0c398cd"
+      },
+      "source_path": "data/sources/404media/Epstein docs 2/1320-12.pdf",
+      "document_type": "court_record",
+      "title": "1320 12"
+    },
+    {
+      "document_id": "e8d7548a-c5fc-564c-8cee-f1e66488edd2",
+      "legacy_ids": {
+        "sha256": "44c26fca88a6bb616e9b0184581c00374b10570a2592e203ee9e127d76a7debd"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_117.2.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 117.2"
+    },
+    {
+      "document_id": "42a66388-1b05-5979-8f48-1dd444e2754f",
+      "legacy_ids": {
+        "sha256": "6a03e6e691ec50a072f8a76c2bcae704988557e6d38a9e69c636048beae1f4cf"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.14.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.14"
+    },
+    {
+      "document_id": "aeed9140-06c1-577c-893a-cdad55850555",
+      "legacy_ids": {
+        "sha256": "ee6b572f3f0f3f96b1a1552d52f7f20947a55a5bb2756f43476bc2d8cf527c71"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_97.6.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 97.6"
+    },
+    {
+      "document_id": "929b324e-81c6-5e5b-a921-d4b147cac46a",
+      "legacy_ids": {
+        "sha256": "17dbc295c17e058feed3b77c8b4305664ff07487c57f8c683d8a6501f741d44b"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1328.13.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1328.13"
+    },
+    {
+      "document_id": "29aa044d-4072-5f6d-998e-bc37da1c4053",
+      "legacy_ids": {
+        "sha256": "5343a0e259341b3f98fe6f30f0dda9ac0475f3704ff58fd5a09400ff68f7ad48"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.1.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.1"
+    },
+    {
+      "document_id": "2ae776db-2153-50d6-bf59-cc2a16621c21",
+      "legacy_ids": {
+        "sha256": "59c33222e0402f3f749b5cc7661e299deac22f248916d35aa59987894df29f1e"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.3.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.3"
+    },
+    {
+      "document_id": "fb7eaec4-e309-5818-9f97-c307da526669",
+      "legacy_ids": {
+        "sha256": "60fe316945f7a0584aae3f4f1f7ee8596a74eca290bceba223e976bff8d4ff60"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1330.15.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1330.15"
+    },
+    {
+      "document_id": "ea05884c-0722-5a8c-99c2-6621fe669e5d",
+      "legacy_ids": {
+        "sha256": "49b210694fe9f26f07251344f1c522077330eaef4adde29c64b515fe689bb1d2"
+      },
+      "source_path": "data/sources/fbi_vault/jeffrey_epstein_part_21.pdf",
+      "document_type": "government_document",
+      "title": "Jeffrey Epstein Part 21"
+    },
+    {
+      "document_id": "168c6914-f2e6-5221-9b00-9c8c3f7fc2af",
+      "legacy_ids": {
+        "sha256": "9f56be2b9d590276058bea94715179d6ed14838fa1583cdf054833f1356bd0c4"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.22.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.22"
+    },
+    {
+      "document_id": "0329913a-66a6-5bf6-b185-ce11cdb0539e",
+      "legacy_ids": {
+        "sha256": "6c0edc075941d300e1dfacba2492068c7c37c66bd31f4cba1a95ce35a853d27e"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.8.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.8"
+    },
+    {
+      "document_id": "53fff790-a279-5995-9cff-0020ecc6196b",
+      "legacy_ids": {
+        "sha256": "defa57d538c529cfeb2667120ae5f6e8baf9a699be2e332a2066ca75e04ff868"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_50.0.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 50.0"
+    },
+    {
+      "document_id": "294062b9-978a-5a6c-8044-37e3dbc3190c",
+      "legacy_ids": {
+        "sha256": "1d627fb1d0c12d626079465c03a5fdd4f90476cd7a9b00d917bba45b8e315ae7"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.6.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.6"
+    },
+    {
+      "document_id": "929ba945-9d9e-5991-81c9-0503d0fc25fe",
+      "legacy_ids": {
+        "sha256": "9db91bdff12b8f9698bbfe543ea16b40098872ca94809624864dc70ba4dd6f62"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.5.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.5"
+    },
+    {
+      "document_id": "6aaa483e-0f54-5f30-860a-34386512aa47",
+      "legacy_ids": {
+        "sha256": "357927cfb76a9c31e23841f40a931d73d56c2b8589b4104e1d4665ff57f55190"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_153.2.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 153.2"
+    },
+    {
+      "document_id": "7a0f5aed-de92-57de-8f45-a515d7cee2c8",
+      "legacy_ids": {
+        "sha256": "160d301316741751b9508a0316689579e8f6b157a607b1625deed7fb9b23aacb"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1328.44_2.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1328.44 2"
+    },
+    {
+      "document_id": "bf0039a3-e6cd-54ad-a4b6-52dcebe7c149",
+      "legacy_ids": {
+        "sha256": "b49266e89c4202f9a056406cdec5a4bbe2e45913f6cf90d03e6a5821b97df273"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.7.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.7"
+    },
+    {
+      "document_id": "72168c60-74b2-56e6-8756-6e4eae9fd69b",
+      "legacy_ids": {
+        "sha256": "7c292dfa6ecb24c2755b73382189aa9841d2819ec6d67e3fe437ef2b0459758e"
+      },
+      "source_path": "data/sources/fbi_vault/jeffrey_epstein_part_01.pdf",
+      "document_type": "government_document",
+      "title": "Jeffrey Epstein Part 01"
+    },
+    {
+      "document_id": "7038da4b-9399-5ec6-a185-b5ec82d8109f",
+      "legacy_ids": {
+        "sha256": "cc85d37e1e44ae0aa8236a4f827f08d3aa3687015cde51903ffc11e12f1556f6"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_153.3.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 153.3"
+    },
+    {
+      "document_id": "209ef879-810f-5702-af46-003e611ba80e",
+      "legacy_ids": {
+        "sha256": "d93dff33e9320bf7408ca11dff31c5e0a825be8412fa94afbe02478dd0c3ea18"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00011252.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00011252"
+    },
+    {
+      "document_id": "c5b624b8-08e8-5d67-8446-75b4cebd8caa",
+      "legacy_ids": {
+        "sha256": "d0d71bafea3895126dc45b9c34e00ed6a19322ab837900395b82cf094795b603"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.18.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.18"
+    },
+    {
+      "document_id": "e8738856-add2-5b2f-bdff-90139b9389bb",
+      "legacy_ids": {
+        "sha256": "9acfe638626a8e0080f701784715efae664d816143ff8d8e949011287ba6a387"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.19.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.19"
+    },
+    {
+      "document_id": "ebecff21-b9c6-504a-85b6-6dc880e79a92",
+      "legacy_ids": {
+        "sha256": "a95899c1a4f2c8a9e197736b4d6b8f7ed5fb4770e993e8a86bcbbcb5177b3209"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032959.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00032959"
+    },
+    {
+      "document_id": "9bcd0a6c-8026-56fc-8c88-c1e053b13381",
+      "legacy_ids": {
+        "sha256": "472c488f47aad6fb100069e1ee0ea3c7b2c34527796a53889a38d5f4d0b3418e"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032422.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00032422"
+    },
+    {
+      "document_id": "d0317f7f-838b-5e56-a470-37866a12c52b",
+      "legacy_ids": {
+        "sha256": "55b97f8ea968cb793aa5d35ea0eb3d25a19a4eaf68ab61b6d40e5f8b3efed325"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_55.17.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 55.17"
+    },
+    {
+      "document_id": "f57de399-8cd5-5526-a102-3cc3a97ab639",
+      "legacy_ids": {
+        "sha256": "c80e6fd347098132523d1ad687720e873a6333df2ff29fc7551b9067ddc4cedd"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00002034.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00002034"
+    },
+    {
+      "document_id": "0aac4e18-0789-5424-b28e-55d2449c0b5f",
+      "legacy_ids": {
+        "sha256": "1eb754154feee3d6f2f050899b6c0552a50e75298146e7e9f4687cb4c0f2c740"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032069.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00032069"
+    },
+    {
+      "document_id": "f9ee720c-00bb-5164-9bcd-448f9786ef51",
+      "legacy_ids": {
+        "sha256": "130009ace05956e886fe0d9effff1baac43ea93e785b89e50759c8b59c3667f1"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_97.8.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 97.8"
+    },
+    {
+      "document_id": "30238e62-4c3c-5fa0-ac38-93cb791a825f",
+      "legacy_ids": {
+        "sha256": "df629a71cb937b3ccceb73a469cb3758be34c0081118d91e49a2bada659b120e"
+      },
+      "source_path": "data/sources/house_oversight_sept2024/document_2.pdf",
+      "document_type": "government_document",
+      "title": "Document 2"
+    },
+    {
+      "document_id": "7077d78f-11e6-5d41-a9e5-0a17d77bc1f3",
+      "legacy_ids": {
+        "sha256": "593efc7592f7b1531e0c4c5f1ccf325470e561a0ece409223227660daebc3980"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_161.1.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 161.1"
+    },
+    {
+      "document_id": "04ace01e-7b00-568f-ae77-63c6250f75f2",
+      "legacy_ids": {
+        "sha256": "bad81623e4dd7177889b835983466e23f530402ebfffc5b99e5cb44ae64a93bc"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00030372.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00030372"
+    },
+    {
+      "document_id": "3d02eaa0-3e7c-5c2f-9eca-1de9dc890cbc",
+      "legacy_ids": {
+        "sha256": "9ab393f29a73763157bff604e0c23e6c3121b2ae9ab3dec576efac6e2faafac0"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_57.1.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 57.1"
+    },
+    {
+      "document_id": "fcd9ba5c-d342-5e92-bd6d-c2549f067248",
+      "legacy_ids": {
+        "sha256": "bd28ded96e9157d4d4199603c1f9aa43f748fb89552b8c2b47bd70c9fc54a68a"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032051.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00032051"
+    },
+    {
+      "document_id": "c1eeb1f0-6970-553c-8d7a-05d5279da869",
+      "legacy_ids": {
+        "sha256": "d74064474d3e3445544034989bef6233a58889d4e8799afbe4eec9ccedaf1023"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032974.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00032974"
+    },
+    {
+      "document_id": "1436e8d8-913f-5fb5-acdb-a1eee7f5f79b",
+      "legacy_ids": {
+        "sha256": "208d80f3c4a3336c133f88ac4c39d9d4a5bc4fd5174cdd595eef893946d3b7c8"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032114.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00032114"
+    },
+    {
+      "document_id": "882c2cdd-1682-5fde-aa60-a5ef4d51f069",
+      "legacy_ids": {
+        "sha256": "b9d4e6828aae3b18d73d7236299bde4b859364416d35a41a1e239c874d9d7657"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_6.0.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 6.0"
+    },
+    {
+      "document_id": "7b91a0fa-fa28-54a4-87e2-0eb08a7c836c",
+      "legacy_ids": {
+        "sha256": "f76650f09892be3ec39f8e1ea63e13305f3e6f1ffc07c07a69fc34cf2a55364f"
+      },
+      "source_path": "data/sources/fbi_vault/jeffrey_epstein_part_19.pdf",
+      "document_type": "government_document",
+      "title": "Jeffrey Epstein Part 19"
+    },
+    {
+      "document_id": "beead9f0-0b11-5820-8c73-772aeb161130",
+      "legacy_ids": {
+        "sha256": "521fdbc2030306b20f81edaefdbd8a379cc9713c3649d7dff8348760c2a9e01d"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032932.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00032932"
+    },
+    {
+      "document_id": "11634093-802a-5b43-80f4-a536aded0d39",
+      "legacy_ids": {
+        "sha256": "15c0df5848bac5103c4e3657ca3ac0c21097de969bfa322ff4a1e3d45a5b4faf"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1328.16.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1328.16"
+    },
+    {
+      "document_id": "e2eac6ee-5f6e-59ca-912a-f9e68d4320a6",
+      "legacy_ids": {
+        "sha256": "4de2c5f4d74b9d3119875ff97bfe1bb2e24db97cd82ad84c28713db534d554ec"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_21.9.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 21.9"
+    },
+    {
+      "document_id": "28f1912d-0ca3-5c3a-a885-c5cc78b38999",
+      "legacy_ids": {
+        "sha256": "e0dbba3bceb8c933fb29ef0e339540bffa3c4b5ede2b77799428a8fc2a4445cf"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1257.12_1.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1257.12 1"
+    },
+    {
+      "document_id": "2f75b6f5-a161-54d3-8876-849b173944b1",
+      "legacy_ids": {
+        "sha256": "b26a5eea20e1832db65a5cb3082b33a2bfed2791a6a0229431b581832d30c813"
+      },
+      "source_path": "data/sources/courtlistener_giuffre_maxwell/giuffre_maxwell_36.5.pdf",
+      "document_type": "court_record",
+      "title": "Giuffre Maxwell 36.5"
+    },
+    {
+      "document_id": "2e0c6f6f-e14a-54e7-8865-493681996f07",
+      "legacy_ids": {
+        "sha256": "4f6103b0de79c11b3b74cdb76590a65bddc9677977385450c4fc0a1325182d38"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032979.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00032979"
+    },
+    {
+      "document_id": "2dd3be0b-6f2f-5501-9508-07b76041a911",
+      "legacy_ids": {
+        "sha256": "d011d38d8d9e52c91729ee92f1f927b7509e661d98f25158433ae22ce320ea79"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00033145.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00033145"
+    },
+    {
+      "document_id": "d175aad8-60fd-50ea-bedb-5faf83209c9b",
+      "legacy_ids": {
+        "sha256": "a798bc72dc21d75199850d0afb76e4613ac433add6faba9fbd2002a33d94a304"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00032935.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00032935"
+    },
+    {
+      "document_id": "2aba6e98-7212-5374-badb-d35d35d9dbcd",
+      "legacy_ids": {
+        "sha256": "08ff208feeea4619a0b5e9d4c733395924e6d405c5b384f755301aa0fcbf0f33"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00004919.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00004919"
+    },
+    {
+      "document_id": "308744c3-7345-55db-ba66-1699a8f41dc2",
+      "legacy_ids": {
+        "sha256": "6d364faae80ff412339f71daeb3752b2273dba88259e99f5eaa2219ccd310441"
+      },
+      "source_path": "data/sources/house_oversight_nov2025/epstein-pdf/DOJ-OGR-00004904.pdf",
+      "document_type": "government_document",
+      "title": "Doj Ogr 00004904"
+    },
+    {
+      "document_id": "2e6a49a2-11d3-5f3c-b212-dc9aa772a4ab",
+      "legacy_ids": {
+        "sha256": "6537b6d2349538cafab170878e0e23ccc514646e44aec8c95fa5cefcfd643d75"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1330.22_1.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1330.22 1"
+    },
+    {
+      "document_id": "7d026799-4bb7-593e-828f-4fc120b78006",
+      "legacy_ids": {
+        "sha256": "997305fc93d4562fa46ebbc469a88f1c372be5450f4d2fcb02010eab1b9aeefb"
+      },
+      "source_path": "data/sources/404media/Epstein Docs 1.5.24/gov.uscourts.nysd.447706.1327.25.pdf",
+      "document_type": "court_record",
+      "title": "Gov.uscourts.nysd.447706.1327.25"
+    },
+    {
+      "document_id": "4e50315c-30c7-5780-bad7-30a660119374",
+      "legacy_ids": {
+        "sha256": "d3d3ead2fa5cce1b890816d02033153d7648e24bda89182bb6db85bbf0bdc032"
+      },
+      "source_path": "data/sources/404media/1.4.23 Epstein Docs/1325-4.pdf",
+      "document_type": "media_article",
+      "title": "1325 4"
+    }
+  ]
+}

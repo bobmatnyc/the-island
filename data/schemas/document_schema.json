@@ -1,0 +1,167 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://epstein-archive.org/schemas/document.json",
+  "title": "Document",
+  "description": "Canonical schema for all documents in the Epstein archive (PDFs and emails)",
+  "type": "object",
+  "required": ["document_id", "document_type", "title", "source_path", "source_checksum"],
+  "properties": {
+    "document_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "UUID5 generated from source path (deterministic, namespace: 6ba7b810-9dad-11d1-80b4-00c04fd430c8)"
+    },
+    "document_type": {
+      "type": "string",
+      "enum": [
+        "email",
+        "court_record",
+        "flight_log",
+        "fbi_report",
+        "deposition",
+        "correspondence",
+        "financial",
+        "administrative",
+        "contact_directory",
+        "government_document",
+        "media_article",
+        "other"
+      ],
+      "description": "Primary document classification"
+    },
+    "document_subtype": {
+      "type": "string",
+      "description": "Optional fine-grained classification (e.g., 'internal_memo', 'court_filing', 'witness_statement')"
+    },
+    "source_path": {
+      "type": "string",
+      "description": "Relative path to source file from project root (e.g., 'data/sources/fbi_vault/file.pdf')"
+    },
+    "source_checksum": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA256 checksum of source file for integrity verification"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable document title (derived from filename, email subject, or content)"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Primary document date (ISO 8601: YYYY-MM-DD)"
+    },
+    "date_range": {
+      "type": "object",
+      "description": "Date range for documents covering multiple dates (e.g., flight logs)",
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date"
+        },
+        "end": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": ["start", "end"]
+    },
+    "date_raw": {
+      "type": "string",
+      "description": "Original unparsed date string from source (e.g., 'Friday, May 25, 2001 12:05 PM')"
+    },
+    "content_preview": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "First 500 characters of document content for quick reference"
+    },
+    "content_path": {
+      "type": "string",
+      "description": "Path to full extracted text content (if available)"
+    },
+    "extracted_entities": {
+      "type": "array",
+      "description": "UUIDs of entities mentioned in this document (persons, organizations, locations)",
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      }
+    },
+    "classification_confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Confidence score for document_type classification (0.0 = low, 1.0 = high)"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Type-specific metadata fields",
+      "properties": {
+        "email": {
+          "type": "object",
+          "properties": {
+            "from": {"type": "string"},
+            "to": {"type": "string"},
+            "cc": {"type": "string"},
+            "bcc": {"type": "string"},
+            "subject": {"type": "string"},
+            "sent_date": {"type": "string"}
+          }
+        },
+        "court_record": {
+          "type": "object",
+          "properties": {
+            "case_number": {"type": "string"},
+            "court": {"type": "string"},
+            "filing_date": {"type": "string"},
+            "docket_number": {"type": "string"}
+          }
+        },
+        "flight_log": {
+          "type": "object",
+          "properties": {
+            "aircraft_id": {"type": "string"},
+            "origin": {"type": "string"},
+            "destination": {"type": "string"},
+            "passengers": {
+              "type": "array",
+              "items": {"type": "string"}
+            }
+          }
+        },
+        "source_metadata": {
+          "type": "object",
+          "description": "Original metadata from source system",
+          "properties": {
+            "source_collection": {"type": "string"},
+            "source_id": {"type": "string"},
+            "bates_number": {"type": "string"},
+            "original_filename": {"type": "string"},
+            "file_size": {"type": "integer"}
+          }
+        }
+      }
+    },
+    "legacy_ids": {
+      "type": "object",
+      "description": "Mapping of old ID systems to maintain backward compatibility",
+      "properties": {
+        "sha256": {"type": "string"},
+        "bates_number": {"type": "string"},
+        "source_id": {"type": "string"}
+      }
+    },
+    "processing_status": {
+      "type": "object",
+      "description": "Document processing pipeline status",
+      "properties": {
+        "extracted": {"type": "boolean"},
+        "classified": {"type": "boolean"},
+        "entities_linked": {"type": "boolean"},
+        "indexed_chromadb": {"type": "boolean"},
+        "last_updated": {"type": "string", "format": "date-time"}
+      }
+    }
+  }
+}

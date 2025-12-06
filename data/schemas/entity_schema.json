@@ -1,0 +1,227 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Entity Schema",
+  "description": "Canonical schema for entities in the Epstein network archive",
+  "type": "object",
+  "required": ["metadata", "entities"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["generated_at", "total_entities", "entity_type", "namespace"],
+      "properties": {
+        "generated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of file generation"
+        },
+        "total_entities": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total number of entities in this file"
+        },
+        "entity_type": {
+          "type": "string",
+          "enum": ["person", "location", "organization"],
+          "description": "Type of entities in this file"
+        },
+        "namespace": {
+          "type": "string",
+          "format": "uuid",
+          "description": "UUID v5 namespace for entity ID generation"
+        }
+      }
+    },
+    "entities": {
+      "type": "object",
+      "description": "Map of entity_id to entity objects",
+      "patternProperties": {
+        "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$": {
+          "$ref": "#/definitions/entity"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "definitions": {
+    "entity": {
+      "type": "object",
+      "required": ["entity_id", "entity_type", "canonical_name", "normalized_name", "aliases", "classifications"],
+      "properties": {
+        "entity_id": {
+          "type": "string",
+          "format": "uuid",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+          "description": "UUID v5 identifier for entity (deterministic from canonical_name)"
+        },
+        "entity_type": {
+          "type": "string",
+          "enum": ["person", "location", "organization"],
+          "description": "Primary entity type classification"
+        },
+        "canonical_name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Official standardized name for the entity"
+        },
+        "normalized_name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Lowercase, underscore-separated normalized form for matching"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "description": "All known name variations (includes canonical and normalized forms)"
+        },
+        "classifications": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/classification"
+          },
+          "description": "List of classification labels with metadata"
+        },
+        "document_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of documents mentioning this entity"
+        },
+        "news_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of news articles mentioning this entity"
+        },
+        "connection_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of network connections to other entities"
+        },
+        "mention_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total number of mentions across all documents"
+        },
+        "biography": {
+          "type": ["string", "null"],
+          "description": "AI-generated or curated biographical summary"
+        },
+        "quality_score": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Quality score for biography content (0-1)"
+        },
+        "word_count": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Word count of biography text"
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string",
+                "description": "File path to source document (legacy format)"
+              },
+              {
+                "$ref": "#/definitions/source_reference"
+              }
+            ]
+          },
+          "description": "References to source documents and news articles (supports both string paths and structured refs)"
+        },
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "original_file": {
+              "type": "string",
+              "description": "Source file name from which entity was extracted"
+            },
+            "transform_date": {
+              "type": "string",
+              "format": "date-time",
+              "description": "ISO 8601 timestamp of transformation"
+            },
+            "generated_by": {
+              "type": ["string", "null"],
+              "description": "AI model or process that generated biography"
+            },
+            "generated_at": {
+              "type": ["string", "null"],
+              "format": "date-time",
+              "description": "ISO 8601 timestamp of biography generation"
+            }
+          },
+          "additionalProperties": true,
+          "description": "Additional metadata about entity processing"
+        }
+      },
+      "additionalProperties": false
+    },
+    "classification": {
+      "type": "object",
+      "required": ["type", "label", "color", "bg_color", "priority"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Classification type identifier (snake_case)"
+        },
+        "label": {
+          "type": "string",
+          "description": "Human-readable classification label"
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$",
+          "description": "Hex color code for text/icon"
+        },
+        "bg_color": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$",
+          "description": "Hex color code for background"
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Display priority (1=highest, 10=lowest)"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"],
+          "description": "Confidence level for this classification"
+        }
+      },
+      "additionalProperties": false
+    },
+    "source_reference": {
+      "type": "object",
+      "required": ["ref_type", "ref_id"],
+      "properties": {
+        "ref_type": {
+          "type": "string",
+          "enum": ["document", "news", "flight_log", "black_book", "message", "deposition"],
+          "description": "Type of source reference"
+        },
+        "ref_id": {
+          "type": "string",
+          "description": "Unique identifier for referenced source"
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Page number where entity appears (for documents)"
+        },
+        "context": {
+          "type": "string",
+          "description": "Contextual snippet or note about the reference"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

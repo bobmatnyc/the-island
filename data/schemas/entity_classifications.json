@@ -1,0 +1,255 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Entity Classification Taxonomy",
+  "description": "Standardized classification system for entities in the Epstein network archive",
+  "version": "1.0.0",
+  "last_updated": "2025-12-06",
+  "categories": {
+    "relationship": {
+      "description": "Classifications based on relationship to Jeffrey Epstein and network",
+      "classifications": [
+        {
+          "type": "victims",
+          "label": "Victims",
+          "description": "Individuals identified as victims of trafficking or abuse",
+          "color": "#DC2626",
+          "bg_color": "#FEE2E2",
+          "priority": 1,
+          "applies_to": ["person"]
+        },
+        {
+          "type": "co_conspirators",
+          "label": "Co-Conspirators",
+          "description": "Individuals charged or implicated as co-conspirators",
+          "color": "#EA580C",
+          "bg_color": "#FFEDD5",
+          "priority": 2,
+          "applies_to": ["person"]
+        },
+        {
+          "type": "frequent_travelers",
+          "label": "Frequent Travelers",
+          "description": "Individuals with multiple documented flights on Epstein's aircraft",
+          "color": "#F59E0B",
+          "bg_color": "#FEF3C7",
+          "priority": 3,
+          "applies_to": ["person"]
+        },
+        {
+          "type": "social_contacts",
+          "label": "Social Contacts",
+          "description": "Individuals in Epstein's personal contact book or social circle",
+          "color": "#84CC16",
+          "bg_color": "#ECFCCB",
+          "priority": 4,
+          "applies_to": ["person"]
+        },
+        {
+          "type": "associates",
+          "label": "Associates",
+          "description": "Business or professional associates of Epstein",
+          "color": "#10B981",
+          "bg_color": "#D1FAE5",
+          "priority": 5,
+          "applies_to": ["person", "organization"]
+        },
+        {
+          "type": "peripheral",
+          "label": "Peripheral",
+          "description": "Individuals with minimal documented connections",
+          "color": "#6B7280",
+          "bg_color": "#F3F4F6",
+          "priority": 9,
+          "applies_to": ["person", "location", "organization"]
+        }
+      ]
+    },
+    "role": {
+      "description": "Classifications based on professional or functional role",
+      "classifications": [
+        {
+          "type": "legal_professionals",
+          "label": "Legal Professionals",
+          "description": "Attorneys, prosecutors, defense counsel, and legal staff",
+          "color": "#3B82F6",
+          "bg_color": "#DBEAFE",
+          "priority": 6,
+          "applies_to": ["person"]
+        },
+        {
+          "type": "investigators",
+          "label": "Investigators",
+          "description": "Law enforcement, FBI, investigators, and prosecutors",
+          "color": "#6366F1",
+          "bg_color": "#E0E7FF",
+          "priority": 7,
+          "applies_to": ["person"]
+        },
+        {
+          "type": "public_figures",
+          "label": "Public Figures",
+          "description": "Politicians, celebrities, and other prominent individuals",
+          "color": "#8B5CF6",
+          "bg_color": "#EDE9FE",
+          "priority": 8,
+          "applies_to": ["person"]
+        },
+        {
+          "type": "employees",
+          "label": "Employees",
+          "description": "Staff, pilots, assistants, and other employees",
+          "color": "#06B6D4",
+          "bg_color": "#CFFAFE",
+          "priority": 5,
+          "applies_to": ["person"]
+        },
+        {
+          "type": "media",
+          "label": "Media",
+          "description": "Journalists, reporters, and media organizations",
+          "color": "#EC4899",
+          "bg_color": "#FCE7F3",
+          "priority": 8,
+          "applies_to": ["person", "organization"]
+        },
+        {
+          "type": "financial",
+          "label": "Financial",
+          "description": "Financial institutions, banks, and investment firms",
+          "color": "#14B8A6",
+          "bg_color": "#CCFBF1",
+          "priority": 6,
+          "applies_to": ["organization"]
+        }
+      ]
+    },
+    "legal_status": {
+      "description": "Classifications based on legal proceedings and status",
+      "classifications": [
+        {
+          "type": "plaintiffs",
+          "label": "Plaintiffs",
+          "description": "Individuals filing lawsuits or civil claims",
+          "color": "#DC2626",
+          "bg_color": "#FEE2E2",
+          "priority": 2,
+          "applies_to": ["person"]
+        },
+        {
+          "type": "defendants",
+          "label": "Defendants",
+          "description": "Individuals named as defendants in legal proceedings",
+          "color": "#EA580C",
+          "bg_color": "#FFEDD5",
+          "priority": 2,
+          "applies_to": ["person", "organization"]
+        },
+        {
+          "type": "witnesses",
+          "label": "Witnesses",
+          "description": "Individuals providing testimony or depositions",
+          "color": "#3B82F6",
+          "bg_color": "#DBEAFE",
+          "priority": 4,
+          "applies_to": ["person"]
+        }
+      ]
+    },
+    "location_type": {
+      "description": "Classifications for location entities",
+      "classifications": [
+        {
+          "type": "properties",
+          "label": "Properties",
+          "description": "Real estate owned or controlled by Epstein",
+          "color": "#DC2626",
+          "bg_color": "#FEE2E2",
+          "priority": 1,
+          "applies_to": ["location"]
+        },
+        {
+          "type": "travel_destinations",
+          "label": "Travel Destinations",
+          "description": "Locations frequently visited via private aircraft",
+          "color": "#F59E0B",
+          "bg_color": "#FEF3C7",
+          "priority": 3,
+          "applies_to": ["location"]
+        },
+        {
+          "type": "mentioned_locations",
+          "label": "Mentioned Locations",
+          "description": "Locations referenced in documents or testimony",
+          "color": "#6B7280",
+          "bg_color": "#F3F4F6",
+          "priority": 8,
+          "applies_to": ["location"]
+        }
+      ]
+    },
+    "organization_type": {
+      "description": "Classifications for organization entities",
+      "classifications": [
+        {
+          "type": "epstein_entities",
+          "label": "Epstein Entities",
+          "description": "Companies, foundations, and entities controlled by Epstein",
+          "color": "#DC2626",
+          "bg_color": "#FEE2E2",
+          "priority": 1,
+          "applies_to": ["organization"]
+        },
+        {
+          "type": "government_agencies",
+          "label": "Government Agencies",
+          "description": "Government departments, law enforcement, and regulatory bodies",
+          "color": "#6366F1",
+          "bg_color": "#E0E7FF",
+          "priority": 3,
+          "applies_to": ["organization"]
+        },
+        {
+          "type": "law_firms",
+          "label": "Law Firms",
+          "description": "Legal firms involved in Epstein-related cases",
+          "color": "#3B82F6",
+          "bg_color": "#DBEAFE",
+          "priority": 5,
+          "applies_to": ["organization"]
+        },
+        {
+          "type": "educational_institutions",
+          "label": "Educational Institutions",
+          "description": "Universities, schools, and academic organizations",
+          "color": "#8B5CF6",
+          "bg_color": "#EDE9FE",
+          "priority": 7,
+          "applies_to": ["organization"]
+        }
+      ]
+    }
+  },
+  "confidence_levels": {
+    "high": {
+      "description": "Classification supported by multiple primary sources",
+      "min_sources": 3,
+      "examples": ["Documented in court filings", "Multiple flight log entries", "Named in depositions"]
+    },
+    "medium": {
+      "description": "Classification supported by secondary sources or single primary source",
+      "min_sources": 1,
+      "examples": ["Single mention in document", "Black book entry", "News article reference"]
+    },
+    "low": {
+      "description": "Classification inferred from context or minimal evidence",
+      "min_sources": 0,
+      "examples": ["Peripheral mention", "Indirect association", "Inferred relationship"]
+    }
+  },
+  "notes": [
+    "Classifications are not mutually exclusive - entities may have multiple classifications",
+    "Priority determines display order (1=highest priority, 10=lowest priority)",
+    "applies_to field restricts which entity types can receive each classification",
+    "Confidence levels should be assigned based on strength of evidence in source documents"
+  ]
+}

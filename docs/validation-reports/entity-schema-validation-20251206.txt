@@ -1,0 +1,127 @@
+================================================================================
+ENTITY SCHEMA VALIDATION REPORT
+================================================================================
+Generated: 2025-12-06T15:38:19.264048
+Schema: data/schemas/entity_schema.json
+Files Validated: 3
+
+OVERALL SUMMARY
+--------------------------------------------------------------------------------
+Total Entities: 2,939
+Valid Files: 3/3
+Total Errors: 0
+Total Warnings: 1374
+
+entities_locations.json
+--------------------------------------------------------------------------------
+Status: ✅ VALID
+Entities: 423
+Errors: 0
+Warnings: 416
+
+Statistics:
+  - With Biography: 0
+  - With Connections: 0
+  - Source References: 42,248
+
+  Warnings (416):
+    1. normalized_name 'us' not in aliases
+       Path: entities.62c881cd-95eb-5191-9355-43e4793c210d.aliases
+    2. normalized_name 'united states' not in aliases
+       Path: entities.68ef5014-25da-5de7-86a7-1a7de67739da.aliases
+    3. normalized_name 'the united states' not in aliases
+       Path: entities.1077447b-05d6-5e83-93d5-cc2537998ce1.aliases
+    4. normalized_name 'the southern district' not in aliases
+       Path: entities.5336b76a-60b1-592d-83ab-f7f8bec256ed.aliases
+    5. normalized_name 'new york' not in aliases
+       Path: entities.06cacde7-a19e-5339-a4fb-eadd27b4efa5.aliases
+    6. normalized_name 'paducah' not in aliases
+       Path: entities.721d7cb3-4056-5d09-b5ab-dac7940c6b05.aliases
+    7. normalized_name 'new york city' not in aliases
+       Path: entities.eef6d90b-ce96-59fb-b17a-7b309d5c2bdf.aliases
+    8. normalized_name 'new york ny' not in aliases
+       Path: entities.a4d04199-32d1-5819-8ddc-63337de667cd.aliases
+    9. normalized_name 'fedex' not in aliases
+       Path: entities.be8b3eb4-293b-5f0a-8a95-a1e0db02c3e8.aliases
+    10. normalized_name 'po' not in aliases
+       Path: entities.9ab49cfd-6e44-5dcf-8cc7-ae6ec2ff9005.aliases
+    ... and 406 more
+
+entities_organizations.json
+--------------------------------------------------------------------------------
+Status: ✅ VALID
+Entities: 879
+Errors: 0
+Warnings: 872
+
+Statistics:
+  - With Biography: 0
+  - With Connections: 0
+  - Source References: 37,762
+
+  Warnings (872):
+    1. normalized_name 'the department of justice' not in aliases
+       Path: entities.62ec15d2-7b09-57c4-85ae-bd84c550d92f.aliases
+    2. normalized_name 'the federal bureau of investigation' not in aliases
+       Path: entities.3211f541-31b1-5997-8076-cde319dff81d.aliases
+    3. normalized_name 'metropolitan correctional center' not in aliases
+       Path: entities.a0a4a4b3-7993-57bb-b970-bc5bcdf8a84e.aliases
+    4. normalized_name 'park row' not in aliases
+       Path: entities.f8e7fe35-c04c-53d7-8a20-58e31387a39b.aliases
+    5. normalized_name 'harvard foundation' not in aliases
+       Path: entities.0f969276-265c-59f5-8c59-fa016704f71c.aliases
+    6. normalized_name 'harvard university' not in aliases
+       Path: entities.b78a1aa6-d4a8-559a-961a-f595d481a5dc.aliases
+    7. normalized_name 'the year award' not in aliases
+       Path: entities.fb683308-c581-543d-9f40-6806ac78d68a.aliases
+    8. normalized_name 'oxford university' not in aliases
+       Path: entities.82dd23fa-5169-5678-bd9e-0bc76630552c.aliases
+    9. normalized_name 'fedex tax id' not in aliases
+       Path: entities.0901a7cc-1a0c-51eb-aeea-a07699695909.aliases
+    10. normalized_name 'fedex revenue services' not in aliases
+       Path: entities.9643b4b6-38b9-59b5-aacc-4a0358a57467.aliases
+    ... and 862 more
+
+entities_persons.json
+--------------------------------------------------------------------------------
+Status: ✅ VALID
+Entities: 1,637
+Errors: 0
+Warnings: 86
+
+Statistics:
+  - With Biography: 125
+  - With Connections: 0
+  - Avg Quality Score: 0.93
+  - Avg Word Count: 216
+  - Source References: 0
+
+  Top Classifications:
+    - social_contacts: 1,637
+    - peripheral: 1,637
+    - public_figures: 1,426
+    - frequent_travelers: 259
+    - investigators: 63
+
+  Warnings (86):
+    1. normalized_name 'alistair_mcalpine_baron_of_west' not in aliases
+       Path: entities.5ef59e1f-1037-54e1-953b-1d65fbf97818.aliases
+    2. normalized_name 'amr_a_dabbagh' not in aliases
+       Path: entities.d53b678c-efd4-5842-b479-4daea93079f0.aliases
+    3. normalized_name 'anthony_v_dubb' not in aliases
+       Path: entities.fe20a4e5-7f4d-5f93-81bb-1334b74f6e10.aliases
+    4. normalized_name 'arpad_arki_busson' not in aliases
+       Path: entities.8e41e5de-32e4-5a04-8df2-802466678fe2.aliases
+    5. normalized_name 'bobby_kennedy_jr' not in aliases
+       Path: entities.e84ffe3d-2aaa-579c-be5b-3bab633d2f1e.aliases
+    6. normalized_name 'carletto_odonnell' not in aliases
+       Path: entities.d44ab164-658e-5e69-86bc-02f3cff3b7b6.aliases
+    7. normalized_name 'carman_dalessie' not in aliases
+       Path: entities.a6af1640-8373-5304-b248-800b36f1a54a.aliases
+    8. normalized_name 'carmine_s_villani' not in aliases
+       Path: entities.53731fe3-b4cb-5fec-ac14-f43592846f22.aliases
+    9. normalized_name 'charles_h_price_ii' not in aliases
+       Path: entities.871bd2f5-5ff8-5461-9f9f-be7387732f05.aliases
+    10. normalized_name 'christina_a_boothe' not in aliases
+       Path: entities.d00bf2b2-06d1-5fee-8e2d-9d5725e5bc23.aliases
+    ... and 76 more
