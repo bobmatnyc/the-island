@@ -38,7 +38,7 @@ export function Entities() {
   const [entities, setEntities] = useState<Entity[]>([]);
   const [totalEntities, setTotalEntities] = useState(0);
   const [loading, setLoading] = useState(true);
-  const [maxConnections, setMaxConnections] = useState(100);
+  const [globalMaxConnections, setGlobalMaxConnections] = useState(100);
 
   // Unified filter state
   const [filters, setFilters] = useState<FilterState>(() => {
@@ -65,6 +65,31 @@ export function Entities() {
 
     return () => clearTimeout(timer);
   }, [filters.search]);
+
+  // Fetch global max connection count once on mount
+  useEffect(() => {
+    const fetchGlobalMax = async () => {
+      try {
+        // Fetch all entities to find true maximum
+        const response = await api.getEntities({ limit: 2000 });
+
+        // Find the maximum connection_count across ALL entities
+        const max = Math.max(
+          ...response.entities.map(e => e.connection_count || 0),
+          100 // Fallback minimum
+        );
+
+        setGlobalMaxConnections(max);
+        console.log(`Global max connections: ${max}`);
+      } catch (error) {
+        console.error('Failed to fetch global max connections:', error);
+        // Fallback to a reasonable default
+        setGlobalMaxConnections(1500);
+      }
+    };
+
+    fetchGlobalMax();
+  }, []); // Empty dependency array = run once on mount
 
   // Update filters with automatic page reset
   const updateFilter = <K extends keyof FilterState>(
@@ -123,10 +148,6 @@ export function Entities() {
         filteredEntities = filteredEntities.filter(entity =>
           (entity.connection_count || 0) >= filters.minConnections
         );
-
-        // Calculate max connections from filtered data
-        const maxConns = Math.max(...filteredEntities.map(e => e.connection_count || 0), 100);
-        setMaxConnections(maxConns);
 
         setEntities(filteredEntities);
         setTotalEntities(filteredEntities.length);
@@ -313,8 +334,14 @@ export function Entities() {
         {/* Connection Threshold Slider */}
         <div className="bg-secondary/30 border border-border rounded-lg p-4">
           <div className="flex items-center justify-between gap-4 mb-3">
-            <label className="text-sm font-medium">
+            <label className="text-sm font-medium flex items-center gap-2">
               Minimum Connections: <span className="text-primary font-bold">{filters.minConnections}</span>
+              <span
+                className="text-muted-foreground cursor-help"
+                title="Connections represent co-appearances in flight logs. Not all entities appear in the flight network."
+              >
+                ℹ️
+              </span>
             </label>
             <span className="text-xs text-muted-foreground">
               (Showing {totalEntities.toLocaleString()} entities)
@@ -325,13 +352,13 @@ export function Entities() {
             <input
               type="range"
               min="0"
-              max={maxConnections}
+              max={globalMaxConnections}
               value={filters.minConnections}
               onChange={(e) => updateFilter('minConnections', Number(e.target.value))}
               className="flex-1 h-2 bg-secondary rounded-lg appearance-none cursor-pointer accent-primary"
               title={`Filter entities with at least ${filters.minConnections} connections`}
             />
-            <span className="text-xs text-muted-foreground">{maxConnections}</span>
+            <span className="text-xs text-muted-foreground">{globalMaxConnections}</span>
           </div>
           <div className="mt-2 text-xs text-muted-foreground">
             {filters.minConnections === 0 && "Showing all entities (including those with no connections)"}
