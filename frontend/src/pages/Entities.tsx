@@ -569,7 +569,6 @@ export function Entities() {
             <PaginationContent>
               <PaginationItem>
                 <PaginationPrevious
-                  href="#"
                   onClick={(e) => {
                     e.preventDefault();
                     if (filters.page > 1) {
@@ -598,7 +597,6 @@ export function Entities() {
                   pages.push(
                     <PaginationItem key={1}>
                       <PaginationLink
-                        href="#"
                         onClick={(e) => {
                           e.preventDefault();
                           updateFilter('page', 1);
@@ -624,7 +622,6 @@ export function Entities() {
                   pages.push(
                     <PaginationItem key={i}>
                       <PaginationLink
-                        href="#"
                         onClick={(e) => {
                           e.preventDefault();
                           updateFilter('page', i);
@@ -650,7 +647,6 @@ export function Entities() {
                   pages.push(
                     <PaginationItem key={totalPages}>
                       <PaginationLink
-                        href="#"
                         onClick={(e) => {
                           e.preventDefault();
                           updateFilter('page', totalPages);
@@ -669,7 +665,6 @@ export function Entities() {
 
               <PaginationItem>
                 <PaginationNext
-                  href="#"
                   onClick={(e) => {
                     e.preventDefault();
                     const totalPages = Math.ceil(totalEntities / PAGE_SIZE);

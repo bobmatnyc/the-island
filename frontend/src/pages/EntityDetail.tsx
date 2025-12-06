@@ -276,7 +276,7 @@ export function EntityDetail() {
                 {entity.name_variations.length > 0 && (
                   <div className="text-sm text-muted-foreground">
                     <span className="font-medium">Also known as: </span>
-                    {entity.name_variations.map(formatEntityName).join(', ')}
+                    {entity.name_variations.map(name => formatEntityName(name)).join(', ')}
                   </div>
                 )}
               </div>
