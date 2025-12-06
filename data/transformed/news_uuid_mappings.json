@@ -1,0 +1,2104 @@
+{
+  "metadata": {
+    "generated_at": "2025-12-06T20:47:17.955839+00:00",
+    "total_mappings": 262
+  },
+  "mappings": [
+    {
+      "news_id": "2c94eca2-c3f1-5470-9038-4d736abf06a8",
+      "legacy_id": "f66af2c7-20a9-432b-a495-cad453568738",
+      "source_url": "https://www.nbcnews.com/politics/supreme-court/ghislaine-maxwell-urges-supreme-court-hear-criminal-appeal-rcna217150",
+      "publication": "NBC News",
+      "published_date": "2024-11-18",
+      "title": "Ghislaine Maxwell Appeals Reach Supreme Court"
+    },
+    {
+      "news_id": "e0bc6e96-ad0c-5ed8-bb15-c274d1183b97",
+      "legacy_id": "80b77b00-cefa-4534-83d8-27dcc2141a0a",
+      "source_url": "https://www.nbcnews.com/news/us-news/last-batch-unsealed-jeffrey-epstein-documents-released-rcna132936",
+      "publication": "NBC News",
+      "published_date": "2024-01-12",
+      "title": "Last Batch of Unsealed Jeffrey Epstein Documents Released"
+    },
+    {
+      "news_id": "5af8ef0e-d53e-5756-9c51-f2f252961cf4",
+      "legacy_id": "1eaae233-71df-4fde-ad29-a530a35749c7",
+      "source_url": "https://www.npr.org/2024/01/04/1222813430/unsealed-court-documents-reveal-names-of-men-allegedly-linked-to-jeffrey-epstein",
+      "publication": "NPR",
+      "published_date": "2024-01-04",
+      "title": "Unsealed Court Documents Reveal Names Linked to Jeffrey Epstein"
+    },
+    {
+      "news_id": "1c7bf680-1d9e-518b-abef-93a3822f31be",
+      "legacy_id": "e235b032-fd43-4a1e-bb31-8ef5a75e34c2",
+      "source_url": "https://www.aljazeera.com/news/2024/1/4/jeffrey-epstein-list-whose-names-are-on-the-newly-unsealed-documents",
+      "publication": "Al Jazeera",
+      "published_date": "2024-01-04",
+      "title": "Jeffrey Epstein List: Who Are the People Named in Unsealed Documents?"
+    },
+    {
+      "news_id": "e013b126-11a3-5f47-87e3-d78e77a958da",
+      "legacy_id": "a78d25b0-4514-4b12-ad24-def66bc4c23c",
+      "source_url": "https://www.aljazeera.com/news/2024/1/4/initial-tranche-of-nearly-950-epstein-court-documents-released",
+      "publication": "Al Jazeera",
+      "published_date": "2024-01-04",
+      "title": "Initial Tranche of 950 Epstein Court Documents Released"
+    },
+    {
+      "news_id": "c50160d9-ad07-5a9f-b780-cdee4815cff2",
+      "legacy_id": "4df29683-7c2e-407a-83d4-360ba397644c",
+      "source_url": "https://www.washingtonpost.com/politics/2024/01/03/jeffrey-epstein-court-documents-associates-names-release/",
+      "publication": "The Washington Post",
+      "published_date": "2024-01-03",
+      "title": "Jeffrey Epstein Documents Released: What We Know About the Names"
+    },
+    {
+      "news_id": "f25f6f28-49a2-529e-9957-f2ac89297cff",
+      "legacy_id": "69d7de39-0acd-4bd4-86db-0c7d20883b26",
+      "source_url": "https://www.cnn.com/2024/01/03/business/jeffrey-epstein-documents-list-names",
+      "publication": "CNN Business",
+      "published_date": "2024-01-03",
+      "title": "Unsealed Jeffrey Epstein Documents Show Extent of His Network"
+    },
+    {
+      "news_id": "8d904aca-9158-5545-9999-4b01390aa513",
+      "legacy_id": "1fdb4caf-b051-44b3-9ecb-49a6d85d1b05",
+      "source_url": "https://abcnews.go.com/US/federal-judge-orders-documents-naming-jeffrey-epsteins-associates/story?id=105779882",
+      "publication": "ABC News",
+      "published_date": "2023-12-18",
+      "title": "Federal Judge Orders Unsealing of Jeffrey Epstein Documents"
+    },
+    {
+      "news_id": "418e86d9-2728-51a7-bec2-6876ea34d924",
+      "legacy_id": "fcf2fe77-03fd-4058-ad66-73de7e1d90e6",
+      "source_url": "https://www.cnbc.com/2023/09/26/jpmorgan-to-settle-jeffrey-epstein-suit-by-virgin-islands.html",
+      "publication": "CNBC",
+      "published_date": "2023-09-26",
+      "title": "JPMorgan to Pay $75 Million to Settle U.S. Virgin Islands Epstein Lawsuit"
+    },
+    {
+      "news_id": "4fb07f0c-9bde-597a-a60e-2d6ad033323f",
+      "legacy_id": "3d89eac9-97fa-40b4-ac1c-a657e3e6a749",
+      "source_url": "https://www.aljazeera.com/economy/2023/9/26/jpmorgan-to-pay-us-virgin-islands-75m-to-settle-epstein-lawsuit",
+      "publication": "Al Jazeera",
+      "published_date": "2023-09-26",
+      "title": "JPMorgan Agrees to Pay US Virgin Islands $75M Over Epstein Ties"
+    },
+    {
+      "news_id": "a831719c-95c8-57d7-b64b-ef68297d0b0b",
+      "legacy_id": "6f562582-b24b-42b0-869f-4770d365d8a9",
+      "source_url": "https://www.npr.org/2023/06/12/1181675580/epstein-jane-doe-1-290-million-settlement-jpmorgan-chase",
+      "publication": "NPR",
+      "published_date": "2023-06-12",
+      "title": "JPMorgan Reaches $290 Million Settlement With Epstein Victims"
+    },
+    {
+      "news_id": "41b0a7cd-aca8-5671-b972-de18ff5e3dd6",
+      "legacy_id": "d1f4e6b4-4ea8-434a-bcc8-817186a53b94",
+      "source_url": "https://www.cnn.com/2023/06/12/investing/jpmorgan-epstein-victims-settlement",
+      "publication": "CNN Business",
+      "published_date": "2023-06-12",
+      "title": "JPMorgan Chase Settles Epstein Sex Trafficking Suit for $290M"
+    },
+    {
+      "news_id": "c7a7805d-3253-5fcd-ad90-55f62e63abdc",
+      "legacy_id": "858738ab-d73f-4d01-944d-18d98c1736e5",
+      "source_url": "https://www.nbcnews.com/news/us-news/deutsche-bank-pay-75-million-jeffrey-epstein-victims-settle-lawsuit-rcna85016",
+      "publication": "NBC News",
+      "published_date": "2023-05-18",
+      "title": "Deutsche Bank to Pay $75 Million to Jeffrey Epstein Victims"
+    },
+    {
+      "news_id": "07a33b3e-f9fa-5b95-ae40-3bd2136ad584",
+      "legacy_id": "6efecacd-bcc4-4af9-a389-b66be1713ffe",
+      "source_url": "https://www.npr.org/2023/05/04/1173956903/jeffrey-epstein-island-sold-st-james",
+      "publication": "NPR",
+      "published_date": "2023-05-04",
+      "title": "Epstein's Private Islands Sold for $60 Million"
+    },
+    {
+      "news_id": "faf92dc4-7faa-5873-9c47-533117bba676",
+      "legacy_id": "7ead300d-ca22-4cbc-a829-8ff1be9f4fd1",
+      "source_url": "https://www.theguardian.com/us-news/2023/jan/10/ghislaine-maxwell-appeal-conviction-sentence",
+      "publication": "The Guardian",
+      "published_date": "2023-01-10",
+      "title": "Ghislaine Maxwell Appeals Conviction and 20-Year Sentence"
+    },
+    {
+      "news_id": "a5f05254-810b-5ebd-b265-57460f9e053b",
+      "legacy_id": "2a47b6a5-56db-4181-a963-607c8f1ca8fe",
+      "source_url": "https://www.washingtonpost.com/national-security/2022/06/28/ghislaine-maxwell-sentenced-epstein/",
+      "publication": "The Washington Post",
+      "published_date": "2022-06-28",
+      "title": "Ghislaine Maxwell Sentenced to 20 Years in Prison"
+    },
+    {
+      "news_id": "ffe240a3-27d2-59b0-9cba-70ccc982e181",
+      "legacy_id": "95e0d763-3f28-434a-81a5-c948a4466ca2",
+      "source_url": "https://www.aljazeera.com/news/2022/6/28/ghislaine-maxwell-sentenced-to-20-years-for-sex-crimes",
+      "publication": "Al Jazeera",
+      "published_date": "2022-06-28",
+      "title": "Ghislaine Maxwell Given 20-Year Sentence for Sex Trafficking"
+    },
+    {
+      "news_id": "94f1f7b1-12e2-5c41-94dd-f5d687027714",
+      "legacy_id": "20a2057b-8397-4b9d-8618-2021f50191a6",
+      "source_url": "https://www.nbcnews.com/news/amp/rcna26749",
+      "publication": "NBC News",
+      "published_date": "2022-04-01",
+      "title": "Judge Upholds Ghislaine Maxwell's Sex Trafficking Conviction"
+    },
+    {
+      "news_id": "044956f8-3dab-51f0-9a6f-c9d73de9dad6",
+      "legacy_id": "524669ee-0a7a-4069-9d07-e80c5014a1c9",
+      "source_url": "https://www.npr.org/2022/02/19/1081961087/jeffrey-epstein-jean-luc-brunel-dead",
+      "publication": "NPR",
+      "published_date": "2022-02-19",
+      "title": "Jean-Luc Brunel Found Dead in French Prison Cell"
+    },
+    {
+      "news_id": "c177723d-ed69-55ac-becb-3775203973bf",
+      "legacy_id": "09350153-60e1-4f14-ac33-c4dfdda3637f",
+      "source_url": "https://www.cnn.com/2022/02/19/europe/jean-luc-brunel-jeffrey-epstein-death-intl/index.html",
+      "publication": "CNN",
+      "published_date": "2022-02-19",
+      "title": "Epstein Associate Jean-Luc Brunel Found Dead in French Jail"
+    },
+    {
+      "news_id": "09f39362-303f-534e-a347-094700f18ca1",
+      "legacy_id": "0cb3b4d3-6512-4770-b5c1-529bdf8708d4",
+      "source_url": "https://www.npr.org/2022/02/15/1080828750/prince-andrew-settlement-virginia-giuffre",
+      "publication": "NPR",
+      "published_date": "2022-02-15",
+      "title": "Prince Andrew Reaches Settlement With Virginia Giuffre"
+    },
+    {
+      "news_id": "5a12c1a1-1253-5877-a282-5527f6242003",
+      "legacy_id": "5ec92cbe-503c-4cc4-9c44-57253007d7eb",
+      "source_url": "https://www.cbc.ca/news/world/prince-andrew-virginia-giuffre-settlement-1.6352294",
+      "publication": "CBC News",
+      "published_date": "2022-02-15",
+      "title": "Prince Andrew Settles Sexual Abuse Case With Virginia Giuffre"
+    },
+    {
+      "news_id": "9d619622-20b8-5626-969a-8fe553327e7d",
+      "legacy_id": "89b836a1-7b44-4dab-a94e-0e693e43436f",
+      "source_url": "https://www.aljazeera.com/news/2022/1/13/uks-prince-andrew-gives-up-military-titles-patronages-palace",
+      "publication": "Al Jazeera",
+      "published_date": "2022-01-14",
+      "title": "UK's Prince Andrew Stripped of Military Roles and HRH Title"
+    },
+    {
+      "news_id": "341cfff9-e794-5219-93ed-e747e377c779",
+      "legacy_id": "189eee81-8632-4db1-862b-57383a30a966",
+      "source_url": "https://www.npr.org/2022/01/13/1072779687/prince-andrew-royal-privileges-queen",
+      "publication": "NPR",
+      "published_date": "2022-01-13",
+      "title": "Prince Andrew Stripped of Military Titles and Royal Patronages"
+    },
+    {
+      "news_id": "4ad4940a-daa8-55b4-aab8-9cc685194e6e",
+      "legacy_id": "0a03a5b5-9ae9-4b7c-9a2c-8fbdca44511f",
+      "source_url": "https://www.aljazeera.com/news/2021/12/30/ghislaine-maxwell-found-guilty-in-jeffrey-epstein-sex-abuse-case",
+      "publication": "Al Jazeera",
+      "published_date": "2021-12-30",
+      "title": "Ghislaine Maxwell Found Guilty in Jeffrey Epstein Sex Abuse Case"
+    },
+    {
+      "news_id": "00fc544c-9de3-5157-b39d-1c3650903d9b",
+      "legacy_id": "5e3348c5-afbb-4dfb-9357-cb6c93e41e17",
+      "source_url": "https://www.nytimes.com/2021/12/30/business/maxwell-verdict-epstein-victims.html",
+      "publication": "The New York Times",
+      "published_date": "2021-12-30",
+      "title": "Maxwell Verdict Brings Relief to Epstein Victims"
+    },
+    {
+      "news_id": "a0ef8486-fb1d-5f05-8858-fb9247eb4839",
+      "legacy_id": "60a1d736-d7d8-4627-815e-c0e5e76a6ccf",
+      "source_url": "https://www.npr.org/2021/12/29/1068952082/ghislaine-maxwell-guilty-verdict",
+      "publication": "NPR",
+      "published_date": "2021-12-29",
+      "title": "Ghislaine Maxwell found guilty of sex trafficking minors for Jeffrey Epstein"
+    },
+    {
+      "news_id": "7d624fb2-1ab2-531e-8245-a87e6f49c74d",
+      "legacy_id": "dea4fc4b-fcc5-4ac1-94f4-a1f89ea1cb4d",
+      "source_url": "https://www.bbc.com/news/world-us-canada-59827706",
+      "publication": "BBC News",
+      "published_date": "2021-12-29",
+      "title": "Ghislaine Maxwell: Epstein accomplice guilty of sex trafficking"
+    },
+    {
+      "news_id": "c3add926-f2d0-503f-8a41-0be565d72c74",
+      "legacy_id": "b3c2c2b5-99a1-4027-b860-2e302b58ab69",
+      "source_url": "https://www.washingtonpost.com/national-security/ghislaine-maxwell-verdict/2021/12/29/",
+      "publication": "The Washington Post",
+      "published_date": "2021-12-29",
+      "title": "Ghislaine Maxwell Convicted of Sex Trafficking Conspiracy"
+    },
+    {
+      "news_id": "0f568cd0-039f-5ae4-937e-e3dfa73a0ece",
+      "legacy_id": "4f43a977-d3a6-4283-af40-46ff296d5a54",
+      "source_url": "https://www.bbc.com/news/world-us-canada-59740179",
+      "publication": "BBC News",
+      "published_date": "2021-12-20",
+      "title": "Jury Deliberates in Ghislaine Maxwell Trial"
+    },
+    {
+      "news_id": "6b1487a9-41ec-5f4e-a20a-a28e03de7032",
+      "legacy_id": "293ac43c-0b9a-4b6c-96b3-ff0f2fb9d6a3",
+      "source_url": "https://www.wsj.com/articles/u-s-virgin-islands-reaches-105-million-settlement-with-epstein-estate-11638374401",
+      "publication": "The Wall Street Journal",
+      "published_date": "2021-12-01",
+      "title": "U.S. Virgin Islands Reaches $105 Million Settlement With Epstein Estate"
+    },
+    {
+      "news_id": "e2a2bfe1-9cb9-5a30-9685-7f1bcdd98fb0",
+      "legacy_id": "f9a17303-2551-4b50-aa20-6080a36ea47f",
+      "source_url": "https://www.theguardian.com/us-news/2021/nov/30/ghislaine-maxwell-trial-first-witness-testifies",
+      "publication": "The Guardian",
+      "published_date": "2021-11-30",
+      "title": "First Witness Testifies in Ghislaine Maxwell Sex Trafficking Trial"
+    },
+    {
+      "news_id": "654a34dc-623c-5f7f-9fc5-141606057694",
+      "legacy_id": "829d7bbd-837c-49fc-b41b-bded423101db",
+      "source_url": "https://www.nytimes.com/2021/11/29/nyregion/ghislaine-maxwell-trial.html",
+      "publication": "The New York Times",
+      "published_date": "2021-11-29",
+      "title": "Ghislaine Maxwell Trial Begins With Opening Statements"
+    },
+    {
+      "news_id": "b500b346-6ee6-5e5e-868e-f7a998124cc1",
+      "legacy_id": "5a7af28d-ce4d-4cc8-b837-a383d366dfc1",
+      "source_url": "https://www.aljazeera.com/economy/2021/8/9/epstein-victims-fund-ends-claims-process-after-awarding-125m",
+      "publication": "Al Jazeera",
+      "published_date": "2021-08-09",
+      "title": "Epstein Victims' Compensation Fund Completes Claims Process"
+    },
+    {
+      "news_id": "33b4ed9b-1d4c-530f-8e62-3df2052c39bc",
+      "legacy_id": "c6c46a56-55ed-4415-b6bf-dc294504df11",
+      "source_url": "https://www.reuters.com/business/l-brands-agrees-90-million-settlement-over-epstein-ties-2021-07-30/",
+      "publication": "Reuters",
+      "published_date": "2021-07-30",
+      "title": "L Brands Reaches $90 Million Settlement Over Epstein Ties"
+    },
+    {
+      "news_id": "3e201a74-a22d-53ef-8185-2e190c8f040f",
+      "legacy_id": "7aec8668-e2b6-4a4e-9446-6ffe14e5cc7c",
+      "source_url": "https://www.nbcnews.com/news/world/modeling-agent-jean-luc-brunel-charged-rape-minor-jeffrey-epstein-n1251804",
+      "publication": "NBC News",
+      "published_date": "2020-12-18",
+      "title": "Modeling Agent Jean-Luc Brunel Charged With Rape in Epstein Probe"
+    },
+    {
+      "news_id": "742b34c5-b872-554e-a12a-8a8626fb4934",
+      "legacy_id": "56afd338-2f06-4a95-a2a9-2b9352b072ee",
+      "source_url": "https://www.cnn.com/2020/12/17/europe/france-jean-luc-brunel-intl/index.html",
+      "publication": "CNN",
+      "published_date": "2020-12-17",
+      "title": "Jean-Luc Brunel, Modeling Agent Linked to Epstein, Arrested in France"
+    },
+    {
+      "news_id": "b449f2da-0509-522d-b3fa-0bb412848d13",
+      "legacy_id": "6a790cca-eb7e-481f-bbcc-454dcd22abe2",
+      "source_url": "https://www.cnbc.com/2019/11/20/jeffrey-epstein-fallout-les-wexner-under-pressure-as-l-brands-reports-earnings.html",
+      "publication": "CNBC",
+      "published_date": "2020-11-20",
+      "title": "L Brands CEO Les Wexner's Future at Stake as Epstein Ties Haunt Company"
+    },
+    {
+      "news_id": "72091c9f-4469-5684-9f4b-e793b06d2ba1",
+      "legacy_id": "91e8ce80-d22a-42b8-95ab-49c2f6a29a1e",
+      "source_url": "https://www.wsj.com/articles/epstein-estate-settles-lawsuits-with-alleged-victims-11605733801",
+      "publication": "The Wall Street Journal",
+      "published_date": "2020-11-18",
+      "title": "Epstein's Estate Settles Lawsuits With Alleged Victims"
+    },
+    {
+      "news_id": "b939557a-780f-5e35-87a3-1700cc2397c5",
+      "legacy_id": "013643ee-3fd1-41f3-bdb5-07179694a89f",
+      "source_url": "https://www.reuters.com/article/us-people-ghislaine-maxwell-bail-idUSKCN24F2QP",
+      "publication": "Reuters",
+      "published_date": "2020-07-14",
+      "title": "Ghislaine Maxwell Denied Bail in Sex Trafficking Case"
+    },
+    {
+      "news_id": "49040728-de9f-5a52-91ad-0487e7590b22",
+      "legacy_id": "10ffe9bb-43ea-435a-929f-f65c279d2ea3",
+      "source_url": "https://www.cnbc.com/2020/07/07/jeffrey-epstein-case-deutsche-bank-fined-150-million-penalty-for-relationship.html",
+      "publication": "CNBC",
+      "published_date": "2020-07-07",
+      "title": "Deutsche Bank Fined $150 Million Over Epstein Relationship"
+    },
+    {
+      "news_id": "9940a3e0-15d2-5708-b193-b42fb2554056",
+      "legacy_id": "a2ec50cd-b276-4d3b-a37d-080dc7d2b826",
+      "source_url": "https://www.cnn.com/2020/07/07/business/jeffrey-epstein-deutsche-bank-fine/index.html",
+      "publication": "CNN Business",
+      "published_date": "2020-07-07",
+      "title": "Deutsche Bank Slammed With Fine for Failing to Flag Epstein Transactions"
+    },
+    {
+      "news_id": "e42e183f-41ae-5f38-81c2-367d583ed650",
+      "legacy_id": "a979cbd8-747c-4e10-ad66-7db70bebe074",
+      "source_url": "https://www.reuters.com/article/us-people-ghislaine-maxwell-idUSKBN2432XY",
+      "publication": "Reuters",
+      "published_date": "2020-07-02",
+      "title": "Ghislaine Maxwell Arrested on Charges She Helped Jeffrey Epstein"
+    },
+    {
+      "news_id": "fe3d3bdb-0197-5839-9484-365c549fa308",
+      "legacy_id": "0d80434a-3681-4e48-92e6-bee1b5c7a5a7",
+      "source_url": "https://www.nytimes.com/2020/07/02/nyregion/ghislaine-maxwell-arrest-jeffrey-epstein.html",
+      "publication": "The New York Times",
+      "published_date": "2020-07-02",
+      "title": "Ghislaine Maxwell Arrested on Charges Related to Jeffrey Epstein"
+    },
+    {
+      "news_id": "ae6c4d86-ede4-5acd-93e1-67ac8d5d3974",
+      "legacy_id": "2761b051-c32e-4165-8167-cace3669ef57",
+      "source_url": "https://www.washingtonpost.com/national-security/ghislaine-maxwell-arrested-charged-jeffrey-epstein/2020/07/02/",
+      "publication": "The Washington Post",
+      "published_date": "2020-07-02",
+      "title": "FBI Arrests Ghislaine Maxwell in Connection to Epstein Case"
+    },
+    {
+      "news_id": "e075ce2f-1e6c-56a7-b7a5-2ac759a2b765",
+      "legacy_id": "71a15763-80bf-40c1-b137-57c6e0acf4d4",
+      "source_url": "https://www.nbcnews.com/news/crime-courts/compensation-fund-jeffrey-epstein-victims-opens-more-70-women-expected-n1232155",
+      "publication": "NBC News",
+      "published_date": "2020-06-25",
+      "title": "Epstein Victims' Compensation Fund Launches"
+    },
+    {
+      "news_id": "8fbf2e18-ef41-5552-9185-2c0ade740d87",
+      "legacy_id": "103dfe85-c7e4-4eef-9862-fbad3ef260bd",
+      "source_url": "https://www.cnbc.com/2020/02/20/l-brands-ceo-les-wexner-stepping-down.html",
+      "publication": "CNBC",
+      "published_date": "2020-02-20",
+      "title": "Leslie Wexner Steps Down as CEO of L Brands Amid Epstein Fallout"
+    },
+    {
+      "news_id": "62e832e3-6940-54ed-a541-6789659ea8ae",
+      "legacy_id": "873d47f2-bec7-4e96-b7d7-8380ae994810",
+      "source_url": "https://www.npr.org/2020/01/16/797011139/u-s-virgin-islands-officials-epstein-trafficked-girls-on-private-island-until-20",
+      "publication": "NPR",
+      "published_date": "2020-01-16",
+      "title": "U.S. Virgin Islands Sues Jeffrey Epstein's Estate"
+    },
+    {
+      "news_id": "a60d4099-9f72-53b3-86d8-bef87e80f78b",
+      "legacy_id": "4ef957f9-989b-47cc-86ea-3ab4a989ca8a",
+      "source_url": "https://www.cnn.com/2019/12/02/us/ghislaine-maxwell-jeffrey-epstein/index.html",
+      "publication": "CNN",
+      "published_date": "2019-12-02",
+      "title": "Who is Ghislaine Maxwell? Jeffrey Epstein's alleged recruiter"
+    },
+    {
+      "news_id": "5dded09b-4232-5750-ba1b-c1d685efd72a",
+      "legacy_id": "65a17562-de38-4d29-8526-005965563f4b",
+      "source_url": "https://www.theguardian.com/uk-news/2019/nov/20/prince-andrew-to-step-back-from-public-duties-over-epstein-scandal",
+      "publication": "The Guardian",
+      "published_date": "2019-11-20",
+      "title": "Prince Andrew Steps Back From Royal Duties After Epstein Interview"
+    },
+    {
+      "news_id": "3a96f0d0-c053-5f1c-b9b2-40f26828729b",
+      "legacy_id": "9a0c9b20-5f4a-427b-8c72-0e4f3ea9150e",
+      "source_url": "https://www.bbc.com/news/uk-50440340",
+      "publication": "BBC News",
+      "published_date": "2019-11-16",
+      "title": "Prince Andrew Denies Sexual Contact With Epstein Accuser"
+    },
+    {
+      "news_id": "01e4b588-5220-52cb-b108-275d57820c18",
+      "legacy_id": "895dcc68-d48e-4b00-bfac-907bb35f5b7e",
+      "source_url": "https://www.nytimes.com/2019/08/27/business/epstein-victims-fund.html",
+      "publication": "The New York Times",
+      "published_date": "2019-08-27",
+      "title": "Epstein's Victims Speak Out After His Death"
+    },
+    {
+      "news_id": "a1d8eac0-75c9-5c36-86ee-6dbbdb281fd8",
+      "legacy_id": "e3766d99-fcf4-4206-911c-f5164cf748fe",
+      "source_url": "https://www.theguardian.com/us-news/2019/aug/14/jeffrey-epstein-death-investigations-victims",
+      "publication": "The Guardian",
+      "published_date": "2019-08-14",
+      "title": "Jeffrey Epstein: How His Death Could Impact Ongoing Investigations"
+    },
+    {
+      "news_id": "da73ccf0-04e1-5ded-bc46-a4bb75436153",
+      "legacy_id": "d8540b1e-607d-4cbe-86e7-b7f80de601e1",
+      "source_url": "https://www.bbc.com/news/world-us-canada-49317309",
+      "publication": "BBC News",
+      "published_date": "2019-08-12",
+      "title": "The Questions Raised by Jeffrey Epstein's Death"
+    },
+    {
+      "news_id": "03b49251-f7ca-5bb5-b463-f7d8a5a3ea64",
+      "legacy_id": "3a4b5d98-abc1-4cb7-a621-ff9658688826",
+      "source_url": "https://www.washingtonpost.com/national-security/attorney-general-barr-orders-investigation-into-epsteins-death/2019/08/10/",
+      "publication": "The Washington Post",
+      "published_date": "2019-08-11",
+      "title": "Epstein's Death Prompts Conspiracy Theories and Federal Investigation"
+    },
+    {
+      "news_id": "b766bdd5-eb1d-568a-b930-fe373b73c4df",
+      "legacy_id": "f875e30a-659a-417a-8d94-0d66d1991153",
+      "source_url": "https://www.bbc.com/news/world-us-canada-48887131",
+      "publication": "BBC News",
+      "published_date": "2019-08-10",
+      "title": "Jeffrey Epstein: How he died and what happens next"
+    },
+    {
+      "news_id": "e3496e23-6fd5-5171-a447-d080abba9403",
+      "legacy_id": "a0fee812-2323-4d5b-aa5b-9edc2b2ec582",
+      "source_url": "https://www.theguardian.com/us-news/2019/aug/10/jeffrey-epstein-death-what-we-know-so-far",
+      "publication": "The Guardian",
+      "published_date": "2019-08-10",
+      "title": "Jeffrey Epstein death: what we know and don't know"
+    },
+    {
+      "news_id": "48b06346-7d37-5066-860b-48ae3e997846",
+      "legacy_id": "f2857a32-d173-4ee7-9300-c8c44347882d",
+      "source_url": "https://www.npr.org/2019/08/10/750113214/jeffrey-epstein-found-dead-early-saturday-morning",
+      "publication": "NPR",
+      "published_date": "2019-08-10",
+      "title": "Jeffrey Epstein Found Dead in Jail Cell"
+    },
+    {
+      "news_id": "54d7f563-3c0e-5916-bb0c-d9eb65d4ca3c",
+      "legacy_id": "3ab3746b-91be-4f0b-8924-11777f042a60",
+      "source_url": "https://www.nytimes.com/2019/08/07/business/jeffrey-epstein-les-wexner.html",
+      "publication": "The New York Times",
+      "published_date": "2019-08-07",
+      "title": "Les Wexner Says Jeffrey Epstein Misappropriated Millions"
+    },
+    {
+      "news_id": "3c451411-5dda-5348-8284-0143d62592d0",
+      "legacy_id": "0520428c-342c-4491-9515-3ad188774754",
+      "source_url": "https://www.npr.org/2019/07/12/739881163/alexander-acosta-steps-down-as-labor-secretary-amid-epstein-controversy",
+      "publication": "NPR",
+      "published_date": "2019-07-12",
+      "title": "Alexander Acosta Steps Down As Labor Secretary Amid Epstein Controversy"
+    },
+    {
+      "news_id": "66be097f-878d-5540-9b3b-908e4f0c487a",
+      "legacy_id": "8cdb1de0-9610-4711-965a-0d5cfda48662",
+      "source_url": "https://www.cbsnews.com/news/acosta-resigns-us-labor-secretary-announced-resignation-amid-questions-jeffrey-epstein-plea-deal-today-2019-07-12/",
+      "publication": "CBS News",
+      "published_date": "2019-07-12",
+      "title": "Acosta Resigns: U.S. Labor Secretary Amid Questions About Jeffrey Epstein Plea Deal"
+    },
+    {
+      "news_id": "109fdc44-8c0e-50e2-a96c-dde9c0c31a54",
+      "legacy_id": "1de6b30b-3c6e-49e3-935c-f2e848db1b76",
+      "source_url": "https://www.npr.org/2019/07/06/739161719/billionaire-financier-jeffrey-epstein-arrested",
+      "publication": "NPR",
+      "published_date": "2019-07-06",
+      "title": "Jeffrey Epstein Arrested on Sex Trafficking Charges"
+    },
+    {
+      "news_id": "1deb6f68-c315-5894-88cc-a15e4bd999f2",
+      "legacy_id": "c1bfce2c-b180-45ee-b90e-b6414b3ff54a",
+      "source_url": "https://apnews.com/article/jeffrey-epstein-arrested-sex-trafficking-90303d0c6c4a462fa28dedc82fa5ac72",
+      "publication": "Associated Press",
+      "published_date": "2019-07-06",
+      "title": "Financier Jeffrey Epstein charged with sex trafficking"
+    },
+    {
+      "news_id": "36dbf5f5-c2ba-548e-b7bb-2ffd0a7b7ce8",
+      "legacy_id": "1cfa8b09-4493-471d-9f17-25ef00237a67",
+      "source_url": "https://www.reuters.com/article/us-people-jeffrey-epstein-idUSKCN1U10QU",
+      "publication": "Reuters",
+      "published_date": "2019-07-06",
+      "title": "Billionaire Jeffrey Epstein arrested on sex trafficking charges"
+    },
+    {
+      "news_id": "c86509a1-672e-54de-8f90-ccea06a554fa",
+      "legacy_id": "f2051787-8ed6-426c-9157-7f90363469a4",
+      "source_url": "https://www.npr.org/2019/07/06/739161719/billionaire-financier-jeffrey-epstein-arrested-on-sex-trafficking-charges",
+      "publication": "NPR",
+      "published_date": "2019-07-06",
+      "title": "Billionaire Financier Jeffrey Epstein Arrested On Sex Trafficking Charges"
+    },
+    {
+      "news_id": "980a4adf-c3f5-5f87-89b7-bbe68377f469",
+      "legacy_id": "c5846087-f18a-4592-9876-0bc2ab9c2863",
+      "source_url": "https://www.nytimes.com/2019/07/06/nyregion/jeffrey-epstein-arrested-sex-trafficking.html",
+      "publication": "The New York Times",
+      "published_date": "2019-07-06",
+      "title": "Jeffrey Epstein Charged in New York With Sex Trafficking of Minors"
+    },
+    {
+      "news_id": "6ad2cd3c-f803-5f6b-8770-5b76347bed87",
+      "legacy_id": "41de0841-8c4b-4d02-9a41-080259934c99",
+      "source_url": "https://www.washingtonpost.com/national/jeffrey-epstein-arrested-reportedly-on-sex-trafficking-charges/2019/07/06/2c7dbac2-9ff2-11e9-b27f-ed2942f73d70_story.html",
+      "publication": "The Washington Post",
+      "published_date": "2019-07-06",
+      "title": "Jeffrey Epstein arrested on charges of sex trafficking of minors"
+    },
+    {
+      "news_id": "553f1783-0e3e-5bed-95db-bdd7f0f22d5c",
+      "legacy_id": "91c2ed14-6827-4191-837d-c64bcce02b9a",
+      "source_url": "https://www.miamiherald.com/news/local/article222897465.html",
+      "publication": "Miami Herald",
+      "published_date": "2018-11-30",
+      "title": "How Jeffrey Epstein Used His Wealth to Silence His Accusers"
+    },
+    {
+      "news_id": "cd75e50e-050e-5fd4-bf7c-d683f09bd713",
+      "legacy_id": "c61f3c42-5e3a-45ae-8082-1f241059d920",
+      "source_url": "https://www.miamiherald.com/news/local/article222628265.html",
+      "publication": "Miami Herald",
+      "published_date": "2018-11-29",
+      "title": "Even from jail, sex abuser manipulated the system. His victims were kept in the dark"
+    },
+    {
+      "news_id": "1d361320-5fc7-56c3-b84f-ea5c1696b76b",
+      "legacy_id": "news_miamiherald_20181128_99d6de",
+      "source_url": "https://www.miamiherald.com/news/local/article219494920.html",
+      "publication": "Miami Herald",
+      "published_date": "2018-11-28",
+      "title": "How a future Trump Cabinet member gave a serial sex abuser the deal of a lifetime"
+    },
+    {
+      "news_id": "a3e62732-6669-5efd-bc61-e403700e3738",
+      "legacy_id": "cd95c027-bdb1-4dca-a61d-f260c8de8335",
+      "source_url": "https://www.miamiherald.com/news/local/article222516965.html",
+      "publication": "Miami Herald",
+      "published_date": "2018-12-01",
+      "title": "For years, Jeffrey Epstein abused teen girls, police say. A timeline of his case"
+    },
+    {
+      "news_id": "aec9ec29-ebbf-520a-8e96-9ca8cbbaf92c",
+      "legacy_id": "e2f12449-42ca-4245-aa37-daddc6948d5a",
+      "source_url": "https://www.miamiherald.com/news/local/article220097825.html",
+      "publication": "Miami Herald",
+      "published_date": "2018-11-28",
+      "title": "Cops worked to put serial sex abuser in prison. Prosecutors worked to cut him a break"
+    },
+    {
+      "news_id": "818107cd-46a1-5d81-8f04-6aeddbd2d003",
+      "legacy_id": "4d5da47b-3a56-48ad-84b0-4ac025674d25",
+      "source_url": "https://www.miamiherald.com/news/state/florida/article233672772.html",
+      "publication": "Miami Herald",
+      "published_date": "2019-08-09",
+      "title": "Epstein files: New claims about late mogul revealed in unsealed court papers"
+    },
+    {
+      "news_id": "7193ada1-6c62-5246-ad42-45c6e9e31f58",
+      "legacy_id": "a1f5106f-03b3-4058-8779-37d57988b864",
+      "source_url": "https://www.miamiherald.com/news/local/article232919352.html",
+      "publication": "Miami Herald",
+      "published_date": "2019-07-23",
+      "title": "Jeffrey Epstein case: Judge orders more documents unsealed"
+    },
+    {
+      "news_id": "1b75cfbc-5b1e-579e-b9c5-0d5e58d9ec32",
+      "legacy_id": "b1ef84c1-d50c-4c38-8b78-d0b32ba01a0c",
+      "source_url": "https://www.reuters.com/world/us/ghislaine-maxwell-trial-begins-with-jury-selection-new-york-2021-11-16/",
+      "publication": "Reuters",
+      "published_date": "2021-11-16",
+      "title": "Ghislaine Maxwell trial begins with jury selection in New York"
+    },
+    {
+      "news_id": "040be716-35c2-5be4-bdc3-5702d748e7a5",
+      "legacy_id": "a78d64ad-abcc-4fec-85ca-2c4db146d8b2",
+      "source_url": "https://www.bbc.com/news/world-us-canada-59462929",
+      "publication": "BBC News",
+      "published_date": "2021-11-29",
+      "title": "Ghislaine Maxwell trial: Opening statements begin in sex trafficking case"
+    },
+    {
+      "news_id": "74fad6a3-6873-5040-b5a2-0414fbacda66",
+      "legacy_id": "29c74503-80fa-41ab-ae84-8c6cfb0c47f1",
+      "source_url": "https://www.nytimes.com/2021/11/30/nyregion/ghislaine-maxwell-trial.html",
+      "publication": "The New York Times",
+      "published_date": "2021-11-30",
+      "title": "First accuser testifies at Ghislaine Maxwell trial, describing abuse"
+    },
+    {
+      "news_id": "c5c9a702-7c83-5322-a8af-e2f7842a6aeb",
+      "legacy_id": "f047a3ba-382b-461b-b4a1-5da587390d96",
+      "source_url": "https://www.theguardian.com/us-news/2021/nov/30/ghislaine-maxwell-trial-epstein-pilot-testimony",
+      "publication": "The Guardian",
+      "published_date": "2021-11-30",
+      "title": "Ghislaine Maxwell jury hears from pilot who flew for Epstein"
+    },
+    {
+      "news_id": "ac89c70d-f6f2-560e-a53c-58ae77deb7de",
+      "legacy_id": "c1ce53d8-ff6a-4eff-a6a0-2fd0f5ddafb9",
+      "source_url": "https://www.npr.org/2021/12/10/1063107268/ghislaine-maxwell-trial-annie-farmer-testimony",
+      "publication": "NPR",
+      "published_date": "2021-12-10",
+      "title": "Ghislaine Maxwell trial: Annie Farmer testifies about abuse at Epstein ranch"
+    },
+    {
+      "news_id": "f5c37ab6-0fe0-5f29-85ea-742282bca5d9",
+      "legacy_id": "d7d7f444-a6a9-4108-bb31-60fd790d2691",
+      "source_url": "https://www.reuters.com/world/us/defense-rests-ghislaine-maxwell-trial-without-maxwell-testifying-2021-12-17/",
+      "publication": "Reuters",
+      "published_date": "2021-12-17",
+      "title": "Defense rests in Ghislaine Maxwell trial without Maxwell testifying"
+    },
+    {
+      "news_id": "850e70aa-3923-588e-aa62-e00ec3e24332",
+      "legacy_id": "266900d2-ec0e-471b-ac83-addd3fe61592",
+      "source_url": "https://www.washingtonpost.com/national-security/2021/12/20/ghislaine-maxwell-trial-deliberations/",
+      "publication": "The Washington Post",
+      "published_date": "2021-12-20",
+      "title": "Jury begins deliberations in Ghislaine Maxwell sex trafficking trial"
+    },
+    {
+      "news_id": "d8a3274f-26d2-5551-8c6d-51972e4adfe3",
+      "legacy_id": "5f411b03-7a00-4d38-81f1-dcd661dda382",
+      "source_url": "https://www.nytimes.com/2021/12/29/nyregion/ghislaine-maxwell-verdict.html",
+      "publication": "The New York Times",
+      "published_date": "2021-12-29",
+      "title": "Ghislaine Maxwell convicted of sex trafficking minors for Jeffrey Epstein"
+    },
+    {
+      "news_id": "791b5a30-7dcf-5d85-833b-bd3fd26e03a2",
+      "legacy_id": "a1e60ad0-b2b4-4e14-afde-801a073a5cec",
+      "source_url": "https://www.bbc.com/news/uk-50442846",
+      "publication": "BBC News",
+      "published_date": "2019-11-16",
+      "title": "Prince Andrew: How the interview came about"
+    },
+    {
+      "news_id": "446d8788-7515-574a-a0de-b1a378fd20d2",
+      "legacy_id": "a7ae86d0-378b-4361-8c2e-af674fe3cfb7",
+      "source_url": "https://www.bbc.com/news/uk-49385770",
+      "publication": "BBC News",
+      "published_date": "2019-08-16",
+      "title": "Prince Andrew 'appalled' by Epstein abuse claims"
+    },
+    {
+      "news_id": "84afdeb1-6c45-556b-bd9a-566a9718a346",
+      "legacy_id": "1ae7ee5f-1f89-4f5f-80fc-ec22140dea3d",
+      "source_url": "https://www.bbc.com/news/uk-50449339",
+      "publication": "BBC News",
+      "published_date": "2019-11-17",
+      "title": "Prince Andrew: The 'car crash' interview questions"
+    },
+    {
+      "news_id": "df06de8a-7a70-5199-8822-c718e91d3596",
+      "legacy_id": "4c70521b-0767-4e65-be3e-f14737c39ec7",
+      "source_url": "https://www.bbc.com/news/uk-50482581",
+      "publication": "BBC News",
+      "published_date": "2019-11-20",
+      "title": "Prince Andrew: How the fallout unfolded"
+    },
+    {
+      "news_id": "6e810717-d398-5182-a9a5-57b371523b22",
+      "legacy_id": "808feaf6-4b55-490d-9193-bf37b3f77013",
+      "source_url": "https://www.bbc.com/news/uk-58150665",
+      "publication": "BBC News",
+      "published_date": "2021-08-10",
+      "title": "Prince Andrew: Virginia Giuffre sues duke for sexual assault"
+    },
+    {
+      "news_id": "11ab9e32-9be1-5d18-9a88-74da54d2ac1c",
+      "legacy_id": "92db9c70-ff8d-4dc4-b207-88cea66ac050",
+      "source_url": "https://www.bbc.com/news/uk-60392597",
+      "publication": "BBC News",
+      "published_date": "2022-02-15",
+      "title": "Prince Andrew settles US civil case with Virginia Giuffre"
+    },
+    {
+      "news_id": "d2e1794e-f9ba-52d1-a53e-29949a5bdc1c",
+      "legacy_id": "2ce07332-da4f-456d-ae5e-927b80e5f929",
+      "source_url": "https://www.theguardian.com/us-news/2019/jul/15/jeffrey-epstein-money-how-did-he-get-rich",
+      "publication": "The Guardian",
+      "published_date": "2019-07-15",
+      "title": "The mystery of Jeffrey Epstein: how did he get so rich?"
+    },
+    {
+      "news_id": "2efebaf0-8d62-579d-9b6e-c55a40fb5556",
+      "legacy_id": "b71e59e7-401b-43a2-9ac6-4df2318558d6",
+      "source_url": "https://www.theguardian.com/us-news/2019/jul/12/jeffrey-epstein-profile-billionaire-trump-clinton",
+      "publication": "The Guardian",
+      "published_date": "2019-07-12",
+      "title": "Jeffrey Epstein: the rise and fall of a billionaire playboy"
+    },
+    {
+      "news_id": "ddd7c607-0b4e-537a-8d46-e6c47c35bcd7",
+      "legacy_id": "561358d6-b172-4193-bc99-0d4a5cdc002f",
+      "source_url": "https://www.theguardian.com/us-news/2022/jan/08/virginia-giuffre-epstein-british-establishment-prince-andrew",
+      "publication": "The Guardian",
+      "published_date": "2022-01-08",
+      "title": "Virginia Giuffre: how she took on Epstein and the British establishment"
+    },
+    {
+      "news_id": "e99641cd-4846-5310-992b-7fe02fa47167",
+      "legacy_id": "6ce13a49-f01d-4427-b17d-517004b2b605",
+      "source_url": "https://www.theguardian.com/us-news/2021/dec/30/ghislaine-maxwell-verdict-analysis-trial",
+      "publication": "The Guardian",
+      "published_date": "2021-12-30",
+      "title": "Ghislaine Maxwell: Epstein's enabler loses gamble on jury trial"
+    },
+    {
+      "news_id": "9c69ffb8-9ab6-572b-875b-1cab1920c328",
+      "legacy_id": "1fea28f5-ae66-49d4-830d-a341571838eb",
+      "source_url": "https://www.theguardian.com/us-news/2020/may/22/jeffrey-epstein-survivors-victims-netflix-filthy-rich",
+      "publication": "The Guardian",
+      "published_date": "2020-05-22",
+      "title": "The women who took down Jeffrey Epstein: 'We were always brave'"
+    },
+    {
+      "news_id": "b6e5bd46-94b3-51ae-8710-1af0904d2a29",
+      "legacy_id": "8725129d-4d2a-4f1b-95e2-833551c7e329",
+      "source_url": "https://www.wsj.com/articles/what-happened-to-jeffrey-epsteins-money-11580823887",
+      "publication": "The Wall Street Journal",
+      "published_date": "2020-02-04",
+      "title": "What Happened to Jeffrey Epstein's Money?"
+    },
+    {
+      "news_id": "66f608fd-ae1a-5d81-a22e-01edf0a6bf9b",
+      "legacy_id": "5d9a85c9-cf60-4b50-869e-23d9950468fe",
+      "source_url": "https://www.nytimes.com/2021/03/25/business/jeffrey-epstein-victims-compensation-fund.html",
+      "publication": "The New York Times",
+      "published_date": "2021-03-25",
+      "title": "Jeffrey Epstein's Victims Fund Has Paid Out $121 Million"
+    },
+    {
+      "news_id": "b27797ff-b050-56ca-a3fd-bc87c117169f",
+      "legacy_id": "5e6793d1-6551-4536-868f-f4dd3db825e6",
+      "source_url": "https://www.npr.org/2020/07/31/896627505/judge-releases-trove-of-sealed-records-related-to-case-against-ghislaine-maxwell",
+      "publication": "NPR",
+      "published_date": "2020-07-31",
+      "title": "Documents reveal Epstein's aggressive, unapologetic legal strategy"
+    },
+    {
+      "news_id": "e1549539-05de-5684-90b6-176ef2774b1d",
+      "legacy_id": "f925a505-f064-4e1b-97a5-813dd63c1130",
+      "source_url": "https://www.theguardian.com/us-news/2021/dec/22/jeffrey-epstein-caribbean-islands-sale",
+      "publication": "The Guardian",
+      "published_date": "2021-12-22",
+      "title": "Jeffrey Epstein's Caribbean islands put up for sale for $125m"
+    },
+    {
+      "news_id": "2316a1c8-b12c-5d66-940c-09ed3bbe4c13",
+      "legacy_id": "240414fe-eaf8-4c72-ade2-e7e3d8e9d997",
+      "source_url": "https://www.nytimes.com/2022/11/30/us/virgin-islands-epstein-settlement.html",
+      "publication": "The New York Times",
+      "published_date": "2022-11-30",
+      "title": "U.S. Virgin Islands Reaches $105 Million Settlement With Epstein's Estate"
+    },
+    {
+      "news_id": "db0f85cf-c5ac-5487-ba3b-329d5eb3e83c",
+      "legacy_id": "981f2410-4cf8-480c-be72-b1eb0142d020",
+      "source_url": "https://www.miamiherald.com/news/local/article222400815.html",
+      "publication": "Miami Herald",
+      "published_date": "2018-11-28",
+      "title": "Cops: We had Epstein. Prosecutors gave him a pass."
+    },
+    {
+      "news_id": "4328b8dd-bdbc-5f65-b5b2-718c0ccb8fb0",
+      "legacy_id": "b6cc70b1-b010-41f9-b9d7-96299449f2b5",
+      "source_url": "https://www.nytimes.com/2019/07/12/us/politics/acosta-resigns-trump.html",
+      "publication": "The New York Times",
+      "published_date": "2019-07-12",
+      "title": "Acosta to Resign as Labor Secretary Over Jeffrey Epstein Plea Deal"
+    },
+    {
+      "news_id": "15754e9d-d932-5fe5-a8e6-8448d9bef098",
+      "legacy_id": "9a5319bf-cfca-41ae-a6e5-d2f890d081cb",
+      "source_url": "https://www.miamiherald.com/news/state/florida/article226577419.html",
+      "publication": "Miami Herald",
+      "published_date": "2019-02-21",
+      "title": "Federal judge rules Epstein plea deal violated victims' rights"
+    },
+    {
+      "news_id": "f20fb950-36da-5bee-9bfd-61d912dd94af",
+      "legacy_id": "bff748b4-80fd-44ec-aabe-32777cc67d21",
+      "source_url": "https://www.bbc.com/news/world-us-canada-49351156",
+      "publication": "BBC News",
+      "published_date": "2019-08-15",
+      "title": "Jeffrey Epstein: Autopsy finds broken bones in neck"
+    },
+    {
+      "news_id": "105bb890-7726-50d3-b89f-4449db6c9501",
+      "legacy_id": "f18b8428-056e-40b2-afb7-a77ee6a8cf4d",
+      "source_url": "https://www.npr.org/2019/11/19/780794931/correctional-officers-charged-in-connection-with-jeffrey-epsteins-death",
+      "publication": "NPR",
+      "published_date": "2019-11-19",
+      "title": "Two jail guards charged in connection with Jeffrey Epstein's death"
+    },
+    {
+      "news_id": "bd4a5bd0-2737-53d5-948e-ef7d2fd9ab68",
+      "legacy_id": "bf4d87e9-092b-489c-9a77-96ab4b965d66",
+      "source_url": "https://www.washingtonpost.com/national/jeffrey-epsteins-cause-of-death-ruled-a-suicide-by-hanging/2019/08/16/5497e86e-c036-11e9-a5c6-1e74f7ec4a93_story.html",
+      "publication": "The Washington Post",
+      "published_date": "2019-08-16",
+      "title": "Jeffrey Epstein's death ruled a suicide by New York medical examiner"
+    },
+    {
+      "news_id": "8c19a2de-7d71-51ae-97de-9b13ae5f900d",
+      "legacy_id": "2cba0f41-dfeb-432a-ad76-6bbfef397ba7",
+      "source_url": "https://www.bbc.com/news/world-us-canada-49298481",
+      "publication": "BBC News",
+      "published_date": "2019-08-11",
+      "title": "Jeffrey Epstein: Questions raised over his death"
+    },
+    {
+      "news_id": "5a00e422-3526-50e3-9539-7430fb9a4fb1",
+      "legacy_id": "ca2dd188-45d5-4db0-b5f9-c010eeefa22b",
+      "source_url": "https://www.npr.org/2019/08/12/750620166/attorney-general-barr-serious-irregularities-at-jail-where-epstein-died",
+      "publication": "NPR",
+      "published_date": "2019-08-12",
+      "title": "Attorney General Barr: 'Serious irregularities' at jail where Epstein died"
+    },
+    {
+      "news_id": "2a0fcedf-2b01-5b5e-a7fa-fae8b8c6b046",
+      "legacy_id": "fa5f0290-fef1-4e4f-8b25-65df9403f22f",
+      "source_url": "https://www.nytimes.com/2023/05/23/business/jpmorgan-epstein-banker.html",
+      "publication": "The New York Times",
+      "published_date": "2023-05-23",
+      "title": "Jeffrey Epstein's Longtime Banker at JPMorgan Faces Questioning"
+    },
+    {
+      "news_id": "11a6e04b-9360-58a2-8ad4-5fddd8dd97c8",
+      "legacy_id": "cf553e0c-72d5-490b-8be9-bee9977bbf1c",
+      "source_url": "https://www.theguardian.com/us-news/2019/jul/14/leslie-wexner-jeffrey-epstein-relationship",
+      "publication": "The Guardian",
+      "published_date": "2019-07-14",
+      "title": "Leslie Wexner, the billionaire who gave Epstein power of attorney"
+    },
+    {
+      "news_id": "d2425df2-8038-50c5-a348-15eb0370ca5f",
+      "legacy_id": "14e5ec16-7dc3-4d67-85c8-b655bc46bf9d",
+      "source_url": "https://www.cnn.com/2019/07/10/business/victorias-secret-l-brands-epstein/index.html",
+      "publication": "CNN Business",
+      "published_date": "2019-07-10",
+      "title": "Victoria's Secret parent company L Brands reviewing ties to Jeffrey Epstein"
+    },
+    {
+      "news_id": "92ef49ce-14e1-5ab9-a933-29710dbea317",
+      "legacy_id": "224904de-27fe-4fb1-81a3-f1675d116b14",
+      "source_url": "https://www.reuters.com/article/us-deutsche-bank-epstein-penalty-idUSKBN2482EU",
+      "publication": "Reuters",
+      "published_date": "2020-07-07",
+      "title": "Deutsche Bank fined $150 million for Epstein ties"
+    },
+    {
+      "news_id": "cfe73a85-c344-57b0-a6f4-823dd95e8490",
+      "legacy_id": "a45d4a2e-048a-4670-a26a-5078ac7da19e",
+      "source_url": "https://www.bbc.com/news/uk-50449358",
+      "publication": "BBC News",
+      "published_date": "2019-11-17",
+      "title": "Prince Andrew and the Epstein Scandal: The Newsnight Interview"
+    },
+    {
+      "news_id": "da034a46-d098-5550-ab8a-5a8ddf0c0630",
+      "legacy_id": "3c3d93c0-7f2e-4f2a-b32a-f6d77fe33cc0",
+      "source_url": "https://www.cnn.com/2019/11/20/uk/prince-andrew-royal-duties-gbr-intl/index.html",
+      "publication": "CNN",
+      "published_date": "2019-11-20",
+      "title": "Prince Andrew steps back from royal duties over Epstein scandal"
+    },
+    {
+      "news_id": "4b1d3337-7e4d-5f45-8e62-833d3fb13d89",
+      "legacy_id": "1a2d0738-2c89-4f16-9376-9cc4cca28bdb",
+      "source_url": "https://www.theguardian.com/uk-news/2022/jan/13/prince-andrew-military-titles-and-patronages-returned-to-queen",
+      "publication": "The Guardian",
+      "published_date": "2022-01-13",
+      "title": "Queen strips Prince Andrew of military titles over Epstein case"
+    },
+    {
+      "news_id": "ece7bec4-04da-5606-8f81-eb6a60707310",
+      "legacy_id": "97f8331b-cbf9-4883-9957-d27559870ee3",
+      "source_url": "https://www.theguardian.com/uk-news/2022/feb/16/prince-andrews-settlement-does-not-vindicate-him-says-virginia-giuffre-lawyer",
+      "publication": "The Guardian",
+      "published_date": "2022-02-16",
+      "title": "Andrew's settlement does not vindicate him, says Giuffre lawyer"
+    },
+    {
+      "news_id": "83e80aaa-debd-55d1-9b79-7caf1f357979",
+      "legacy_id": "333b9aed-1968-4c17-8c9b-20d6469c343c",
+      "source_url": "https://www.cnn.com/2019/07/18/us/jeffrey-epstein-bail-hearing/index.html",
+      "publication": "CNN",
+      "published_date": "2019-07-18",
+      "title": "Jeffrey Epstein denied bail in sex trafficking case"
+    },
+    {
+      "news_id": "e81bf459-d259-5db5-b5c9-576db176f23c",
+      "legacy_id": "6ccb1854-5a46-413b-8b20-4666d1324007",
+      "source_url": "https://www.npr.org/2019/07/15/741926846/jeffrey-epstein-offered-to-post-100-million-bail-judge-rejects-it",
+      "publication": "NPR",
+      "published_date": "2019-07-15",
+      "title": "Epstein offered to post $100M bail, but judge denied it"
+    },
+    {
+      "news_id": "a327b284-d829-519a-a6ad-bac8f0c2711b",
+      "legacy_id": "455d4511-50d5-4d17-94e4-2f313f1138d5",
+      "source_url": "https://www.nytimes.com/2019/07/17/nyregion/epstein-victims.html",
+      "publication": "The New York Times",
+      "published_date": "2019-07-17",
+      "title": "More women come forward with allegations against Jeffrey Epstein"
+    },
+    {
+      "news_id": "fd164f2c-d478-57da-adba-4c91975bb320",
+      "legacy_id": "b0e6db16-5325-4168-a479-a4c8b9c6d371",
+      "source_url": "https://www.washingtonpost.com/local/legal-issues/epstein-victims-prepare-to-speak-at-hearing-on-dismissed-charges/2019/08/27/b6fc03e6-c8a3-11e9-a4f3-c081a126de70_story.html",
+      "publication": "The Washington Post",
+      "published_date": "2019-08-27",
+      "title": "Epstein victims speak at hearing after his death: 'We have to come forward'"
+    },
+    {
+      "news_id": "a099ac66-f9dc-55a5-a790-dbd77d7b4e88",
+      "legacy_id": "7b3b68f4-4358-4139-b716-d38e509586fd",
+      "source_url": "https://www.reuters.com/legal/jpmorgan-ceo-dimon-was-told-epstein-concerns-2019-documents-show-2023-06-23/",
+      "publication": "Reuters",
+      "published_date": "2023-06-26",
+      "title": "JPMorgan CEO Jamie Dimon knew of Epstein concerns, documents show"
+    },
+    {
+      "news_id": "ba2e20a3-9b18-5e2e-9f72-ba7d6b159d8a",
+      "legacy_id": "cd2a83ff-1661-41c3-873f-3f9b708ea855",
+      "source_url": "https://www.theguardian.com/us-news/2022/dec/06/alan-dershowitz-defamation-lawsuit-virginia-giuffre",
+      "publication": "The Guardian",
+      "published_date": "2022-12-06",
+      "title": "Epstein's former lawyer Alan Dershowitz faces defamation claims"
+    },
+    {
+      "news_id": "038fedcf-c83a-5927-8bb3-8d6bdf184c10",
+      "legacy_id": "bf0ac7aa-2cc1-4297-81d3-3995e506bdfe",
+      "source_url": "https://www.theguardian.com/uk-news/2019/nov/17/prince-andrew-jeffrey-epstein-full-story-royal-paedophile",
+      "publication": "The Guardian",
+      "published_date": "2019-11-17",
+      "title": "The Prince and the Paedophile: The Full Story"
+    },
+    {
+      "news_id": "87f1b911-48cb-5d8c-9a51-d9a57275a016",
+      "legacy_id": "94c9c9e7-98c2-46c3-997c-ff8f7eaedbfd",
+      "source_url": "https://www.bbc.com/news/world-europe-49462765",
+      "publication": "BBC News",
+      "published_date": "2019-08-24",
+      "title": "France opens Epstein probe into rape and sex abuse allegations"
+    },
+    {
+      "news_id": "aa02a7ce-0559-5bbb-b181-4fc5c7ac2503",
+      "legacy_id": "9b3b7ea9-1163-486d-8666-7f38cbe23984",
+      "source_url": "https://www.reuters.com/article/france-brunel-epstein-idUSL1N2IX0VT",
+      "publication": "Reuters",
+      "published_date": "2020-12-17",
+      "title": "Epstein-linked French agent Jean-Luc Brunel charged with rape"
+    },
+    {
+      "news_id": "9c96801f-6a3b-5414-9536-8ffaacdef117",
+      "legacy_id": "019876bd-c04b-48f3-9d9e-40d67c863a34",
+      "source_url": "https://www.theguardian.com/us-news/2019/sep/19/jeffrey-epstein-paris-apartment-search-french-police",
+      "publication": "The Guardian",
+      "published_date": "2019-09-19",
+      "title": "Epstein's Paris apartment searched by French police"
+    },
+    {
+      "news_id": "c01d3aaa-ec8b-5ad6-9741-ddddd7a9bbf0",
+      "legacy_id": "90502b60-2be0-482e-a245-c20845611bb4",
+      "source_url": "https://www.aljazeera.com/news/2019/11/4/virginia-giuffre-accuses-prince-andrew-of-sexual-abuse",
+      "publication": "Al Jazeera",
+      "published_date": "2019-11-04",
+      "title": "Australian broadcaster interviews Epstein accuser Virginia Giuffre"
+    },
+    {
+      "news_id": "4028eb34-2341-53b7-ade9-5ae3fddf4f2a",
+      "legacy_id": "396731b6-4e1f-4fc0-ace4-2075abee469a",
+      "source_url": "https://www.bbc.com/news/world-us-canada-59465718",
+      "publication": "BBC News",
+      "published_date": "2021-11-30",
+      "title": "Sarah Ransome: 'I was a victim of Jeffrey Epstein and Ghislaine Maxwell'"
+    },
+    {
+      "news_id": "10e1210e-a332-5145-a156-618356f951e4",
+      "legacy_id": "85b15c12-d554-499c-bb07-8b86b5783966",
+      "source_url": "https://www.npr.org/2020/11/21/937445795/epstein-survivors-launch-advocacy-group",
+      "publication": "NPR",
+      "published_date": "2020-11-21",
+      "title": "Epstein Survivors Launch Advocacy Group for Trafficking Victims"
+    },
+    {
+      "news_id": "d22ce663-c7cb-56b4-9cbd-e0ad2291465e",
+      "legacy_id": "a65c0237-7fa3-4baa-932f-1fb0d0ec506c",
+      "source_url": "https://www.theguardian.com/tv-and-radio/2020/may/27/jeffrey-epstein-filthy-rich-netflix-review",
+      "publication": "The Guardian",
+      "published_date": "2020-05-27",
+      "title": "Netflix's 'Filthy Rich' gives voice to Epstein's accusers"
+    },
+    {
+      "news_id": "a0ba7ec7-ec35-5068-8433-0f09cdff591e",
+      "legacy_id": "0dca021a-4e01-48c8-af3d-50cef4f43d4c",
+      "source_url": "https://www.bbc.com/news/world-us-canada-48921419",
+      "publication": "BBC News",
+      "published_date": "2019-07-09",
+      "title": "Courtney Wild: The woman who took on Epstein's plea deal"
+    },
+    {
+      "news_id": "2a54ce16-2cff-538b-b504-b8cc0a67960d",
+      "legacy_id": "2fc26691-4200-429f-81a4-ed769208436b",
+      "source_url": "https://www.reuters.com/article/us-people-jeffrey-epstein-lawsuit-idUSKBN1ZE2IA",
+      "publication": "Reuters",
+      "published_date": "2020-01-15",
+      "title": "U.S. Virgin Islands sues Epstein estate for 'decades of harm'"
+    },
+    {
+      "news_id": "0f508f65-a42d-5281-97b1-4e875bff5aed",
+      "legacy_id": "4a70cd18-d59c-4955-b006-062737b45856",
+      "source_url": "https://www.npr.org/2020/01/15/796658080/mit-accepts-responsibility-for-epstein-donations-apologizes",
+      "publication": "NPR",
+      "published_date": "2020-01-15",
+      "title": "MIT accepts responsibility for Epstein donations, apologizes"
+    },
+    {
+      "news_id": "8f54a02b-3b9c-514b-9cec-f6c97cb44af9",
+      "legacy_id": "69b48bc6-c59c-41b5-abe1-da4adb97a353",
+      "source_url": "https://www.theguardian.com/us-news/2019/sep/12/harvard-epstein-donations-returned",
+      "publication": "The Guardian",
+      "published_date": "2019-09-12",
+      "title": "Harvard returns Epstein donations following pressure"
+    },
+    {
+      "news_id": "13dc2b75-3dcf-5d5b-b66e-03a0e11eab75",
+      "legacy_id": "ad0ab837-1552-4cad-93fa-28b5917ba619",
+      "source_url": "https://www.nytimes.com/2021/03/25/arts/design/leon-black-moma.html",
+      "publication": "The New York Times",
+      "published_date": "2021-03-25",
+      "title": "Leon Black steps down from MoMA board over Epstein ties"
+    },
+    {
+      "news_id": "cfd75f2d-1ef2-5f7c-8f9f-850ac3555828",
+      "legacy_id": "d2d791e2-d4a9-402c-a6d3-81aa34ee67db",
+      "source_url": "https://www.washingtonpost.com/national-security/2023/12/18/epstein-documents-release-unsealed/",
+      "publication": "The Washington Post",
+      "published_date": "2023-12-18",
+      "title": "Thousands of pages of Epstein documents to be unsealed"
+    },
+    {
+      "news_id": "c7b3b431-daa9-52de-9ca7-eae02d63962b",
+      "legacy_id": "db76d6ee-5cab-48de-afe0-e0c90ee91ba6",
+      "source_url": "https://www.bbc.com/news/world-us-canada-67868741",
+      "publication": "BBC News",
+      "published_date": "2024-01-05",
+      "title": "Epstein documents: What we learned from the latest batch"
+    },
+    {
+      "news_id": "16c15912-4b1b-53c6-ba94-27c42857182a",
+      "legacy_id": "b5424b0e-b99c-43eb-9d79-16cdf74fcf8e",
+      "source_url": "https://www.theguardian.com/us-news/2021/nov/30/jeffrey-epstein-ghislaine-maxwell-flight-logs-pilot",
+      "publication": "The Guardian",
+      "published_date": "2021-11-30",
+      "title": "Epstein flight logs reveal frequent travelers on private jets"
+    },
+    {
+      "news_id": "00c46419-ec31-567e-8dbb-76dec3425b28",
+      "legacy_id": "60835b23-f354-4751-ba7e-66c6e94820a9",
+      "source_url": "https://www.reuters.com/legal/fbi-releases-documents-epstein-investigation-2023-08-08/",
+      "publication": "Reuters",
+      "published_date": "2023-08-08",
+      "title": "FBI releases documents on Epstein investigation to be made public"
+    },
+    {
+      "news_id": "03f99ca3-1a21-5786-ba0d-07f6b1d565e2",
+      "legacy_id": "ea59ddd6-b5b9-461b-bcbd-812f27d6b289",
+      "source_url": "https://www.nytimes.com/2019/07/30/us/jeffrey-epstein-new-mexico-ranch.html",
+      "publication": "The New York Times",
+      "published_date": "2019-07-30",
+      "title": "Inside Jeffrey Epstein's New Mexico ranch"
+    },
+    {
+      "news_id": "493e814d-8c9f-5574-88c6-939fd863c237",
+      "legacy_id": "ce5f76d8-74a6-48ea-a327-5f8e1d5cbb04",
+      "source_url": "https://www.nytimes.com/2019/08/12/business/jeffrey-epstein-interview.html",
+      "publication": "The New York Times",
+      "published_date": "2019-08-12",
+      "title": "The Day Jeffrey Epstein Told Me He Had Dirt on Powerful People"
+    },
+    {
+      "news_id": "65fda2e3-8a54-56a2-a2dc-ac122ca00a59",
+      "legacy_id": "34701582-796c-404a-8c9b-e7ecaf33f527",
+      "source_url": "https://www.washingtonpost.com/graphics/2019/national/epstein-timeline/",
+      "publication": "The Washington Post",
+      "published_date": "2019-08-10",
+      "title": "The Epstein Case: A Timeline"
+    },
+    {
+      "news_id": "7f02c3f1-d51b-544a-9959-d9bc9eceeeed",
+      "legacy_id": "f5c9383b-ce7f-4992-ae70-5a842d6a961a",
+      "source_url": "https://www.npr.org/2019/07/10/740426739/jeffrey-epsteins-donations-to-science-raise-questions",
+      "publication": "NPR",
+      "published_date": "2019-07-10",
+      "title": "Jeffrey Epstein's donations to science under scrutiny"
+    },
+    {
+      "news_id": "ed3e64fe-05a6-5c10-83d7-e7033f651843",
+      "legacy_id": "1ee386f5-59b4-41b3-9092-e3a9a4b43428",
+      "source_url": "https://www.bbc.com/news/world-us-canada-48953810",
+      "publication": "BBC News",
+      "published_date": "2019-07-15",
+      "title": "Epstein's Little St. James Island: What really happened there?"
+    },
+    {
+      "news_id": "f8b5963f-c3ce-504c-b827-f964cdb70292",
+      "legacy_id": "2ddd522b-fc6f-4d3e-bb2b-eb4febbd7dcf",
+      "source_url": "https://www.theguardian.com/artanddesign/2021/jun/24/jeffrey-epstein-art-collection-auction",
+      "publication": "The Guardian",
+      "published_date": "2021-06-24",
+      "title": "What happened to Jeffrey Epstein's art collection?"
+    },
+    {
+      "news_id": "b27ad8cf-c5f7-5267-a69e-0ddb3c94d704",
+      "legacy_id": "1d8abb20-a2a5-4eb4-8c60-b081598ee071",
+      "source_url": "https://www.cnn.com/2019/07/09/politics/bill-richardson-epstein/index.html",
+      "publication": "CNN",
+      "published_date": "2019-07-09",
+      "title": "Bill Richardson on his interactions with Jeffrey Epstein"
+    },
+    {
+      "news_id": "f0108f03-3821-559f-b75a-8352c3e04c13",
+      "legacy_id": "c2bbd9cb-6497-4836-a2fb-3bf152e29b4c",
+      "source_url": "https://www.theguardian.com/us-news/2024/jan/04/stephen-hawking-jeffrey-epstein-documents",
+      "publication": "The Guardian",
+      "published_date": "2024-01-04",
+      "title": "Stephen Hawking visited Epstein's private island, documents reveal"
+    },
+    {
+      "news_id": "57f64c39-42ab-5167-be92-142faf3fde43",
+      "legacy_id": "20edb9a8-736f-410d-af97-630faced5568",
+      "source_url": "https://www.nbcnews.com/news/us-news/ghislaine-maxwell-moved-low-security-florida-prison-rcna39458",
+      "publication": "NBC News",
+      "published_date": "2022-07-20",
+      "title": "Epstein associate Ghislaine Maxwell moved to low-security Florida prison"
+    },
+    {
+      "news_id": "6796725b-d1c7-57bc-986c-8782c8e3009a",
+      "legacy_id": "675575b8-3e77-4489-8c17-0a0f9ca28dea",
+      "source_url": "https://www.theguardian.com/us-news/2021/dec/01/sarah-kellen-ghislaine-maxwell-trial-jeffrey-epstein",
+      "publication": "The Guardian",
+      "published_date": "2021-12-01",
+      "title": "Sarah Kellen: Epstein scheduler refuses to answer questions"
+    },
+    {
+      "news_id": "9bbd89a8-f241-5ddc-a33c-af074042593d",
+      "legacy_id": "5f9f2197-74de-4816-82af-333a27b2515c",
+      "source_url": "https://www.reuters.com/world/uk/prosecutors-wont-charge-prince-andrew-us-attorney-says-2022-10-13/",
+      "publication": "Reuters",
+      "published_date": "2022-10-13",
+      "title": "Prosecutors wont charge Prince Andrew, US attorney says"
+    },
+    {
+      "news_id": "133534b2-132a-5014-981a-cf1db929a47d",
+      "legacy_id": "0fa81bc7-0aae-4831-80cd-de22e0046d31",
+      "source_url": "https://www.npr.org/2021/11/30/1060274753/ghislaine-maxwell-trial-epstein-pilot-testimony",
+      "publication": "NPR",
+      "published_date": "2021-11-30",
+      "title": "Epstein pilot testifies he flew prominent passengers but saw no abuse"
+    },
+    {
+      "news_id": "f710fd02-dac0-554e-860c-33276bcd3ce1",
+      "legacy_id": "9f07337d-aa56-4239-afdb-37895feb82b7",
+      "source_url": "https://www.nytimes.com/2019/07/13/business/epstein-lawsuits-nda.html",
+      "publication": "The New York Times",
+      "published_date": "2019-07-13",
+      "title": "How Jeffrey Epstein Used the Law to Silence Victims"
+    },
+    {
+      "news_id": "5a06a285-b773-58c4-809c-cf58dd11e308",
+      "legacy_id": "ae052955-7cbf-49d7-8ef8-817ba31ff48e",
+      "source_url": "https://www.theguardian.com/us-news/2020/dec/17/jeffrey-epstein-jean-luc-brunel-arrested-paris",
+      "publication": "The Guardian",
+      "published_date": "2020-12-17",
+      "title": "Jeffrey Epstein: Jean-Luc Brunel arrested in Paris"
+    },
+    {
+      "news_id": "ce367ef6-03de-5f8d-977e-6f290877bb60",
+      "legacy_id": "752585f4-09dc-48c7-acde-bfef43878fbb",
+      "source_url": "https://www.bbc.com/news/world-europe-60458855",
+      "publication": "BBC News",
+      "published_date": "2022-02-19",
+      "title": "Jean-Luc Brunel: Jeffrey Epstein associate found dead in Paris jail"
+    },
+    {
+      "news_id": "1f16c012-a8cd-5e68-b85b-618c60093105",
+      "legacy_id": "06a64363-e498-4ebf-a36c-268db82e5732",
+      "source_url": "https://www.reuters.com/world/europe/france-probes-epsteins-modeling-links-2021-03-15",
+      "publication": "Reuters",
+      "published_date": "2021-03-15",
+      "title": "France probes Jeffrey Epstein's links to modeling agencies"
+    },
+    {
+      "news_id": "fa9f1a9d-f218-54b3-93d0-03ae2a5f1f70",
+      "legacy_id": "0ff851bd-4514-4da0-a14d-e885ecb0766d",
+      "source_url": "https://apnews.com/article/epstein-brunel-charged-paris-rape-minors-a4b3c9d8e7f6",
+      "publication": "Associated Press",
+      "published_date": "2021-01-10",
+      "title": "Epstein associate Jean-Luc Brunel charged in Paris with rape of minors"
+    },
+    {
+      "news_id": "f94b1899-8cd2-5e66-9d49-36d38744ec75",
+      "legacy_id": "b792e5a0-45ca-42a3-a95e-d8b6bbe0b399",
+      "source_url": "https://www.theguardian.com/us-news/2020/aug/12/jeffrey-epstein-paris-apartment-investigation",
+      "publication": "The Guardian",
+      "published_date": "2020-08-12",
+      "title": "Jeffrey Epstein's Paris apartment: French police investigate sex trafficking claims"
+    },
+    {
+      "news_id": "0562ae79-f778-5709-9886-37633ec26484",
+      "legacy_id": "d11f5dbf-c6eb-4631-b89a-d2717db4074c",
+      "source_url": "https://www.bbc.com/news/world-europe-57556789",
+      "publication": "BBC News",
+      "published_date": "2021-06-20",
+      "title": "French investigation into Epstein expands to examine modeling industry links"
+    },
+    {
+      "news_id": "4d0c3ca4-6479-5d35-91a7-a3282ca3b6b8",
+      "legacy_id": "329fe103-7040-4792-95a1-ad009ffa6d2b",
+      "source_url": "https://www.reuters.com/world/europe/brunel-court-appearance-france-2021-02-08",
+      "publication": "Reuters",
+      "published_date": "2021-02-08",
+      "title": "Jean-Luc Brunel appears in French court over rape allegations"
+    },
+    {
+      "news_id": "daa73ea9-ad98-5c16-9868-5f468c5aa9ba",
+      "legacy_id": "f946a859-d9e2-4608-8d98-96b3b24e11b0",
+      "source_url": "https://www.theguardian.com/world/2021/nov/15/models-testify-french-epstein-investigation",
+      "publication": "The Guardian",
+      "published_date": "2021-11-15",
+      "title": "Former models testify about abuse in French Epstein probe"
+    },
+    {
+      "news_id": "839ee070-3e45-552d-97be-50766014d596",
+      "legacy_id": "97cd97c0-f3fe-4762-b31d-142c47cd6bea",
+      "source_url": "https://apnews.com/article/france-us-epstein-cooperation-investigation-b7c4d9f8",
+      "publication": "Associated Press",
+      "published_date": "2020-12-20",
+      "title": "French authorities cooperate with US on Epstein investigation"
+    },
+    {
+      "news_id": "d6f4ffcc-8efb-5bd6-ba03-e41f28cbec4e",
+      "legacy_id": "0781239a-7b68-4237-b3ed-a935a31839e6",
+      "source_url": "https://www.bbc.com/news/world-europe-60686234",
+      "publication": "BBC News",
+      "published_date": "2022-03-10",
+      "title": "France closes investigation into Epstein following Brunel's death"
+    },
+    {
+      "news_id": "2a52ce5d-4c21-56f4-9cf8-eafefa367067",
+      "legacy_id": "cd985615-9e86-46d0-bca7-6cfbf5d7f430",
+      "source_url": "https://www.theguardian.com/uk-news/2022/feb/15/prince-andrew-settles-us-civil-case-virginia-giuffre",
+      "publication": "The Guardian",
+      "published_date": "2022-02-15",
+      "title": "Prince Andrew settles US civil case with Virginia Giuffre"
+    },
+    {
+      "news_id": "9336163a-108a-50c7-997c-09fdaf27754a",
+      "legacy_id": "523326bb-fa0f-473b-9ef9-a408833ea504",
+      "source_url": "https://www.bbc.com/news/uk-60392854",
+      "publication": "BBC News",
+      "published_date": "2022-02-16",
+      "title": "Royal family responds to Prince Andrew settlement with silence"
+    },
+    {
+      "news_id": "fd02a58c-09d5-576b-b438-00e240779309",
+      "legacy_id": "68baef58-d483-40d1-a8a9-3715667257e8",
+      "source_url": "https://www.reuters.com/world/uk/prince-andrew-settlement-details-emerge-2022-02-17",
+      "publication": "Reuters",
+      "published_date": "2022-02-17",
+      "title": "Prince Andrew settlement: Details emerge of multi-million pound deal"
+    },
+    {
+      "news_id": "cc49fe4e-c043-5841-8a0b-a0c86bf35840",
+      "legacy_id": "637a1de3-fa81-4846-ac87-7bb18f70d32f",
+      "source_url": "https://www.theguardian.com/uk-news/2019/nov/18/prince-andrew-bbc-interview-aftermath",
+      "publication": "The Guardian",
+      "published_date": "2019-11-18",
+      "title": "Prince Andrew: The aftermath of the BBC Newsnight interview"
+    },
+    {
+      "news_id": "d6237799-2565-5356-a442-e92fce496bf2",
+      "legacy_id": "b2c7e0e3-8f8c-4ae6-89e9-1f228d9de0fd",
+      "source_url": "https://www.bbc.com/news/uk-58180764",
+      "publication": "BBC News",
+      "published_date": "2021-08-12",
+      "title": "Legal experts analyze Prince Andrew's position in Epstein scandal"
+    },
+    {
+      "news_id": "fbb004b1-a37e-563d-aef0-badc5b1b4b01",
+      "legacy_id": "cd63f145-dd90-4e9d-9d60-3ff23d5ea2a2",
+      "source_url": "https://www.theguardian.com/uk-news/2021/oct/11/metropolitan-police-review-prince-andrew",
+      "publication": "The Guardian",
+      "published_date": "2021-10-11",
+      "title": "Metropolitan Police review Prince Andrew allegations"
+    },
+    {
+      "news_id": "0fc626d9-3209-530c-a0a1-06b055da48d3",
+      "legacy_id": "0c1c5d14-546f-4b4f-8797-9bffad4e26a2",
+      "source_url": "https://www.bbc.com/news/world-us-canada-58151683",
+      "publication": "BBC News",
+      "published_date": "2021-08-10",
+      "title": "Virginia Giuffre files lawsuit against Prince Andrew in New York"
+    },
+    {
+      "news_id": "faadf733-bfb0-5e59-a4a9-f3128829fdde",
+      "legacy_id": "02431132-1278-418e-9571-bbf902407cac",
+      "source_url": "https://www.theguardian.com/uk-news/2022/jan/13/prince-andrew-stripped-military-titles-patronages",
+      "publication": "The Guardian",
+      "published_date": "2022-01-13",
+      "title": "Prince Andrew stripped of military titles and royal patronages"
+    },
+    {
+      "news_id": "a99caedf-e016-551f-bd40-e46c247a0951",
+      "legacy_id": "de1f4eef-16d1-4a4f-969c-d16ddc6ae14a",
+      "source_url": "https://www.smh.com.au/world/europe/giuffre-prince-andrew-lawsuit-australia-20210811",
+      "publication": "Sydney Morning Herald",
+      "published_date": "2021-08-11",
+      "title": "Virginia Giuffre's lawsuit against Prince Andrew: Australia watches closely"
+    },
+    {
+      "news_id": "49dd00b2-9d11-523e-b5a0-6b8c5603cb12",
+      "legacy_id": "463ef4fc-635d-4970-aff2-e7aae05c3b08",
+      "source_url": "https://www.abc.net.au/news/2019-12-10/epstein-scandal-australian-connection/11785634",
+      "publication": "ABC News Australia",
+      "published_date": "2019-12-10",
+      "title": "Australian perspective on Epstein scandal and royal connections"
+    },
+    {
+      "news_id": "4c1855a8-3cc5-57b5-b9c1-e17a21f60cbf",
+      "legacy_id": "a81ab899-5cad-4347-bef5-b9626a01ee1c",
+      "source_url": "https://www.theguardian.com/us-news/2022/may/17/virgin-islands-epstein-estate-settlement",
+      "publication": "The Guardian",
+      "published_date": "2022-05-17",
+      "title": "US Virgin Islands reaches $105 million settlement with Epstein estate"
+    },
+    {
+      "news_id": "95f5d381-a86a-530e-b424-3819d285b5fc",
+      "legacy_id": "4bd4ed15-07da-48f4-b20f-85519f76aa54",
+      "source_url": "https://apnews.com/article/virgin-islands-attorney-general-epstein-lawsuit-c3d8b9f4",
+      "publication": "Associated Press",
+      "published_date": "2022-01-04",
+      "title": "USVI Attorney General Denise George files lawsuit against Epstein estate"
+    },
+    {
+      "news_id": "0cf96e16-8f4b-5c14-9f02-4050db8f7a16",
+      "legacy_id": "5cf8c4f9-677d-412b-af2d-35f576665ce7",
+      "source_url": "https://www.reuters.com/article/us-people-jeffrey-epstein-island/investigation-little-st-james-epstein-idUSKCN1U52A7",
+      "publication": "Reuters",
+      "published_date": "2019-07-10",
+      "title": "Investigation into Little St. James: Inside Epstein's Caribbean hideaway"
+    },
+    {
+      "news_id": "e771a601-0d87-5891-9834-acbd844aa4a1",
+      "legacy_id": "4663b636-e3ed-4588-b05d-7229aeaff78c",
+      "source_url": "https://www.bbc.com/news/world-us-canada-56389742",
+      "publication": "BBC News",
+      "published_date": "2021-03-15",
+      "title": "Epstein estate proceedings in US Virgin Islands court"
+    },
+    {
+      "news_id": "f23bbb06-97ff-5470-807c-84f1b62fb8f9",
+      "legacy_id": "61660fcf-ce58-4a69-8613-2558f6a9253b",
+      "source_url": "https://www.theguardian.com/us-news/2020/jul/15/virgin-islands-banks-epstein-subpoenas",
+      "publication": "The Guardian",
+      "published_date": "2020-07-15",
+      "title": "Virgin Islands issues subpoenas to banks over Epstein accounts"
+    },
+    {
+      "news_id": "313b82a4-2900-57a3-a7e8-78cb46de05b1",
+      "legacy_id": "61db0142-6812-44d9-98b5-30358cb8abf8",
+      "source_url": "https://apnews.com/article/virgin-islands-seize-epstein-islands-d7f8e9c4",
+      "publication": "Associated Press",
+      "published_date": "2021-12-20",
+      "title": "USVI moves to seize Epstein's Caribbean islands"
+    },
+    {
+      "news_id": "ed925a2c-733d-5ed2-9d1f-fa889e5d077a",
+      "legacy_id": "1a54560e-ceca-45a4-9fb6-8ed1cb6566bb",
+      "source_url": "https://www.theguardian.com/us-news/2019/aug/15/jeffrey-epstein-virgin-islands-testimony",
+      "publication": "The Guardian",
+      "published_date": "2019-08-15",
+      "title": "Local residents testify about Epstein's activities in Virgin Islands"
+    },
+    {
+      "news_id": "ae52721b-a5fd-5a70-886c-4af307a1f135",
+      "legacy_id": "cafb249c-0cc7-43f5-9fa4-88c8533f21bd",
+      "source_url": "https://www.reuters.com/world/us/virgin-islands-legal-action-epstein-enablers-2022-02-10",
+      "publication": "Reuters",
+      "published_date": "2022-02-10",
+      "title": "Virgin Islands pursues legal action against Epstein enablers"
+    },
+    {
+      "news_id": "2ef40c21-54f9-5918-92d8-9a47fea00119",
+      "legacy_id": "1ca06d03-53d9-4d1f-b194-a730734c9e46",
+      "source_url": "https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case",
+      "publication": "NPR",
+      "published_date": "2025-07-25",
+      "title": "The Jeffrey Epstein Crimes: A Timeline Of Events In His Legal Case"
+    },
+    {
+      "news_id": "19dfb19f-e37b-554e-9107-8d3e6ad6e23e",
+      "legacy_id": "19dd1e4f-5dae-4053-807a-5558c1fba4b3",
+      "source_url": "https://www.pbs.org/newshour/politics/epstein-grand-jury-transcripts",
+      "publication": "PBS NewsHour",
+      "published_date": "2024-07-01",
+      "title": "Florida releases Jeffrey Epstein grand jury transcripts"
+    },
+    {
+      "news_id": "12ebec7f-1226-5d4c-8e0a-240632aa0c2c",
+      "legacy_id": "e72f2a59-3b25-4b84-b5da-dc3491c70ddd",
+      "source_url": "https://www.cnn.com/2024/07/01/us/jeffrey-epstein-grand-jury-transcripts",
+      "publication": "CNN",
+      "published_date": "2024-07-01",
+      "title": "Jeffrey Epstein grand jury records released in Florida"
+    },
+    {
+      "news_id": "7bf188d7-8512-5d91-a392-72d29a2cd71d",
+      "legacy_id": "2dd1190f-1826-425c-ac13-8cdfcdae67fb",
+      "source_url": "https://www.cbsnews.com/news/jeffrey-epstein-work-release-program-jail-2019",
+      "publication": "CBS News",
+      "published_date": "2019-07-15",
+      "title": "Jeffrey Epstein's work release scandal in Florida jail"
+    },
+    {
+      "news_id": "f8ed5833-14ea-561f-a830-06060773d769",
+      "legacy_id": "ab2dada6-9a10-4869-8e59-1cdd4ab98ddf",
+      "source_url": "https://thehill.com/homenews/state-watch/452340-victims-police-chief-say-prosecutors-ignored-them",
+      "publication": "The Hill",
+      "published_date": "2019-07-09",
+      "title": "Epstein victims say police chief and prosecutors ignored them"
+    },
+    {
+      "news_id": "30b28c29-3e8f-5294-a7ee-84ee03422466",
+      "legacy_id": "713ff7b4-9b02-46ea-b7a6-aab81514bbfc",
+      "source_url": "https://www.washingtonpost.com/politics/acosta-resigns",
+      "publication": "Washington Post",
+      "published_date": "2019-07-12",
+      "title": "Labor Secretary Alexander Acosta resigns over Epstein plea deal"
+    },
+    {
+      "news_id": "2d141170-09dd-5752-8c23-66e65146a3e0",
+      "legacy_id": "e20e2f7b-3b78-46d4-86a7-125c4482bb83",
+      "source_url": "https://www.npr.org/2019/07/10/alexander-acosta-defends-epstein-plea-deal",
+      "publication": "NPR",
+      "published_date": "2019-07-10",
+      "title": "Alexander Acosta defends Jeffrey Epstein plea deal"
+    },
+    {
+      "news_id": "26ccc019-60a6-536a-87c7-90b1a56547a5",
+      "legacy_id": "e1870263-6035-4bb2-b788-d76c0e50a6d4",
+      "source_url": "https://www.pbs.org/newshour/politics/acosta-plea-deal-scrutiny",
+      "publication": "PBS NewsHour",
+      "published_date": "2019-07-11",
+      "title": "Acosta plea deal with Epstein under intense scrutiny"
+    },
+    {
+      "news_id": "5b0037e0-fdd5-500f-ab0a-de8f9bd85742",
+      "legacy_id": "8af9446b-c52b-4db7-ab99-37adb4ec6acb",
+      "source_url": "https://www.washingtonpost.com/national/alexander-acosta-epstein-plea-deal",
+      "publication": "Washington Post",
+      "published_date": "2018-11-28",
+      "title": "The Epstein plea deal that Alexander Acosta negotiated"
+    },
+    {
+      "news_id": "4ace77e9-d9d1-54dc-bb44-5d1a8cbb9720",
+      "legacy_id": "a1bf1bdf-2289-4096-bdb9-caccd91a47da",
+      "source_url": "https://www.washingtonpost.com/national/judge-epstein-victims-rights-violated",
+      "publication": "Washington Post",
+      "published_date": "2019-02-21",
+      "title": "Judge rules Epstein plea deal violated victims' rights"
+    },
+    {
+      "news_id": "65e60714-98fc-5ccd-87ae-977491825c70",
+      "legacy_id": "22256acb-c4c7-4eb4-a7d4-1e80e1515cd0",
+      "source_url": "https://www.npr.org/2019/02/22/epstein-plea-deal-violated-victims-rights",
+      "publication": "NPR",
+      "published_date": "2019-02-22",
+      "title": "Federal ruling: Epstein plea deal violated victims' rights law"
+    },
+    {
+      "news_id": "cccac039-a651-5472-b8bb-6f16859e35e7",
+      "legacy_id": "f95c8dd9-ae2f-4cf5-ae08-094dbb2e35a2",
+      "source_url": "https://www.pbs.org/newshour/show/epstein-victim-compensation-fund",
+      "publication": "PBS NewsHour",
+      "published_date": "2020-11-25",
+      "title": "Epstein victims' compensation fund reaches settlements"
+    },
+    {
+      "news_id": "c9d6c96e-fd3f-53bd-9239-1deaae9f8885",
+      "legacy_id": "ae8b5b24-df92-4ae2-805a-a9292168ac23",
+      "source_url": "https://www.poynter.org/reporting-editing/2018/julie-k-brown-epstein-investigation",
+      "publication": "Poynter Institute",
+      "published_date": "2018-12-10",
+      "title": "How Julie K. Brown's Epstein investigation changed everything"
+    },
+    {
+      "news_id": "2d21c591-ecb2-57a9-a19d-4735eb3054f7",
+      "legacy_id": "dc8e3c0a-e2fa-47a5-ab52-8d7dd5a518f4",
+      "source_url": "https://www.npr.org/2019/07/11/miami-herald-investigation-epstein",
+      "publication": "NPR",
+      "published_date": "2019-07-11",
+      "title": "Miami Herald investigation led to Epstein's arrest"
+    },
+    {
+      "news_id": "df0882e9-4dad-5a8b-a922-30f040be9550",
+      "legacy_id": "8f64fa1d-4df2-46c5-9cb2-95d53a01e01b",
+      "source_url": "https://thehill.com/homenews/house/485932-julie-k-brown-testifies-epstein",
+      "publication": "The Hill",
+      "published_date": "2020-03-04",
+      "title": "Julie K. Brown testifies about Epstein investigation"
+    },
+    {
+      "news_id": "4ea462e4-63e3-5853-ac43-8a095330d483",
+      "legacy_id": "5048b994-fcc9-4625-b14a-7fa60b0daf23",
+      "source_url": "https://www.pbs.org/newshour/nation/palm-beach-police-chief-epstein",
+      "publication": "PBS NewsHour",
+      "published_date": "2019-07-11",
+      "title": "Palm Beach Police Chief Michael Reiter speaks out on Epstein case"
+    },
+    {
+      "news_id": "b86c2dd4-c895-55d7-a07f-5a9298b31c64",
+      "legacy_id": "7a43ab6c-c78a-40d8-a666-5e97807e562f",
+      "source_url": "https://www.cnn.com/2019/02/22/politics/alexander-acosta-jeffrey-epstein",
+      "publication": "CNN",
+      "published_date": "2019-02-22",
+      "title": "Alexander Acosta's role in Epstein case scrutinized"
+    },
+    {
+      "news_id": "6911dd78-3b56-5158-9dcf-942180c46b5d",
+      "legacy_id": "0b90de8f-c08c-48c8-8bf7-18281b448593",
+      "source_url": "https://www.washingtonpost.com/nation/2024/06/28/desantis-epstein-grand-jury",
+      "publication": "Washington Post",
+      "published_date": "2024-06-28",
+      "title": "DeSantis orders release of Epstein grand jury records"
+    },
+    {
+      "news_id": "6845474e-d167-5051-a607-fed2047544b1",
+      "legacy_id": "5c23d5d3-ad51-4a6e-a487-f5c9fed059d1",
+      "source_url": "https://www.npr.org/2019/07/09/florida-epstein-investigation",
+      "publication": "NPR",
+      "published_date": "2019-07-09",
+      "title": "Florida's investigation into Epstein: What went wrong"
+    },
+    {
+      "news_id": "fb5ff572-ee47-5cef-b2e4-75adaaccb1e3",
+      "legacy_id": "cddfbbd9-a92a-475d-a3e1-0fdd795c048e",
+      "source_url": "https://www.pbs.org/newshour/politics/acosta-questioned-epstein",
+      "publication": "PBS NewsHour",
+      "published_date": "2019-07-10",
+      "title": "Acosta questioned over Epstein plea deal decisions"
+    },
+    {
+      "news_id": "9df122e5-c31a-57d5-a158-181197458129",
+      "legacy_id": "5b4cb158-bcfd-4184-a17d-e71f88fab8fd",
+      "source_url": "https://www.washingtonpost.com/politics/2019/07/10/acosta-epstein-nonprosecution",
+      "publication": "Washington Post",
+      "published_date": "2019-07-10",
+      "title": "Inside Acosta's decision on Epstein non-prosecution agreement"
+    },
+    {
+      "news_id": "f6cecb08-233a-5cfc-ba40-037cf31ac600",
+      "legacy_id": "71a6d926-e922-4622-83b3-465ecec03be0",
+      "source_url": "https://www.npr.org/2019/07/12/palm-beach-police-epstein-investigation",
+      "publication": "NPR",
+      "published_date": "2019-07-12",
+      "title": "Palm Beach Police investigation into Epstein detailed"
+    },
+    {
+      "news_id": "561302da-7b5a-544d-bae0-e9442951857b",
+      "legacy_id": "a94e5543-5658-4598-add7-83ef79ad7298",
+      "source_url": "https://www.cnn.com/2019/07/10/politics/jeffrey-epstein-plea-deal-timeline",
+      "publication": "CNN",
+      "published_date": "2019-07-10",
+      "title": "Timeline of Epstein's Florida plea deal negotiations"
+    },
+    {
+      "news_id": "00959562-fba8-5ae0-a90f-53fa386a7782",
+      "legacy_id": "2f97faca-78a0-4dab-bf33-93f02f907dfb",
+      "source_url": "https://www.pbs.org/newshour/show/epstein-sweetheart-deal",
+      "publication": "PBS NewsHour",
+      "published_date": "2019-07-09",
+      "title": "The sweetheart deal that let Jeffrey Epstein avoid prison"
+    },
+    {
+      "news_id": "a81e485e-c25d-5615-bdc6-502b35f9f426",
+      "legacy_id": "15dfe169-c07a-4cff-aae5-ff7a0f289119",
+      "source_url": "https://www.washingtonpost.com/politics/2019/07/08/epstein-2008-case-florida",
+      "publication": "Washington Post",
+      "published_date": "2019-07-08",
+      "title": "How Epstein's 2008 Florida case unfolded"
+    },
+    {
+      "news_id": "2a19ab2e-d3a8-5e6b-8cd3-d87c5a05ebb5",
+      "legacy_id": "ba506d65-746c-42cf-b709-8947e5ba699a",
+      "source_url": "https://www.npr.org/2019/07/11/epstein-civil-lawsuits-florida",
+      "publication": "NPR",
+      "published_date": "2019-07-11",
+      "title": "Epstein's civil lawsuits in Florida courts"
+    },
+    {
+      "news_id": "2fb26ef1-510f-5a0d-8fb9-7f0e6a85296f",
+      "legacy_id": "b25e117a-d708-4dc3-9c8e-758b6778f5a3",
+      "source_url": "https://www.nbcnews.com/news/epstein-work-release-jail",
+      "publication": "NBC News",
+      "published_date": "2019-07-15",
+      "title": "Jeffrey Epstein's work release program: An investigation"
+    },
+    {
+      "news_id": "d49f2e58-1582-5e9b-b28b-ddcd86aef33d",
+      "legacy_id": "aa45fec2-9415-4bf5-8f89-9c95c109ce12",
+      "source_url": "https://www.cbsnews.com/news/barry-krischer-jeffrey-epstein-2019",
+      "publication": "CBS News",
+      "published_date": "2019-07-12",
+      "title": "Barry Krischer's handling of Epstein case scrutinized"
+    },
+    {
+      "news_id": "e45f8247-e66b-5000-b769-0080f18e5c9f",
+      "legacy_id": "ef4e3706-000e-4110-a42c-59f02c9aa4dd",
+      "source_url": "https://thehill.com/regulation/court-battles/517663-epstein-victims-settlement",
+      "publication": "The Hill",
+      "published_date": "2020-09-22",
+      "title": "Epstein victims reach settlements in Florida courts"
+    },
+    {
+      "news_id": "f3d1d3c6-74ec-588b-ba08-040b6aafe69c",
+      "legacy_id": "c7e917e0-0191-4f59-bfb8-8d095792a646",
+      "source_url": "https://www.npr.org/2020/02/18/epstein-florida-property",
+      "publication": "NPR",
+      "published_date": "2020-02-18",
+      "title": "Federal prosecutors seize Epstein's Florida property"
+    },
+    {
+      "news_id": "9e08e415-adbd-5e2e-a541-b527430ad38e",
+      "legacy_id": "1cfac7d2-9af2-4d5f-92be-7103a1ecbac4",
+      "source_url": "https://apnews.com/article/epstein-palm-beach-mansion-358-el-brillo-way",
+      "publication": "Associated Press",
+      "published_date": "2019-07-10",
+      "title": "Inside Jeffrey Epstein's Palm Beach mansion"
+    },
+    {
+      "news_id": "0e6cec74-e594-5ece-a8b4-e0d1a9720a4d",
+      "legacy_id": "73cceb40-c9a7-4e51-8c45-21a6b97465a3",
+      "source_url": "https://www.miamiherald.com/news/state/florida/article232704907.html",
+      "publication": "Miami Herald",
+      "published_date": "2019-07-17",
+      "title": "Barry Krischer's decisions in Epstein grand jury"
+    },
+    {
+      "news_id": "f0eb893c-b2b8-505c-9f7f-75eb1d720f72",
+      "legacy_id": "67481d65-3f8a-4d74-a890-ec3005e7d154",
+      "source_url": "https://www.washingtonpost.com/politics/2019/08/09/fbi-operation-leap-year-epstein",
+      "publication": "Washington Post",
+      "published_date": "2019-08-09",
+      "title": "FBI's Operation Leap Year investigation of Epstein"
+    },
+    {
+      "news_id": "9b4d2db3-516b-54aa-b92c-b4e6664ef1dd",
+      "legacy_id": "583a5031-b2f0-4128-b002-42fedbbfba44",
+      "source_url": "https://www.pbs.org/newshour/show/epstein-victim-impact-statements-florida",
+      "publication": "PBS NewsHour",
+      "published_date": "2019-08-27",
+      "title": "Epstein victims provide impact statements in Florida"
+    },
+    {
+      "news_id": "a86a557d-d673-5db5-8e82-c45b9f280536",
+      "legacy_id": "8319dbbc-2efd-4f23-99e6-d13d6a901d9a",
+      "source_url": "https://www.theguardian.com/us-news/2019/jul/14/palm-beach-florida-epstein-response",
+      "publication": "The Guardian",
+      "published_date": "2019-07-14",
+      "title": "Florida community responds to Epstein case revelations"
+    },
+    {
+      "news_id": "1c369f5b-2130-57d9-99a6-aa26c8d0b43d",
+      "legacy_id": "05b0d267-7e82-4173-859e-5996b1eb9283",
+      "source_url": "https://www.nytimes.com/2024/11/30/business/epstein-estate-settlement-virgin-islands.html",
+      "publication": "The New York Times",
+      "published_date": "2024-11-30",
+      "title": "Jeffrey Epstein's Estate Settles With U.S. Virgin Islands for $105 Million"
+    },
+    {
+      "news_id": "717d87ab-bd33-56d0-8fa7-3985527a5754",
+      "legacy_id": "88c3f7e2-12ae-44ee-8d12-5a27421a2c8d",
+      "source_url": "https://www.washingtonpost.com/national-security/2024/12/18/ghislaine-maxwell-appeal-rejected/",
+      "publication": "The Washington Post",
+      "published_date": "2024-12-18",
+      "title": "Appeals Court Rejects Ghislaine Maxwell's Bid to Overturn Sex Trafficking Conviction"
+    },
+    {
+      "news_id": "306116bc-33b0-5d0a-bd36-4aafd8cfb9c9",
+      "legacy_id": "ebe02233-546e-47cb-a392-8ced44d8eee4",
+      "source_url": "https://www.bloomberg.com/news/articles/2025-01-09/epstein-financial-documents-reveal-offshore-accounts",
+      "publication": "Bloomberg",
+      "published_date": "2025-01-09",
+      "title": "Newly Released Epstein Documents Shed Light on Financial Network"
+    },
+    {
+      "news_id": "3e80c3a2-9bdc-5ce2-9a94-0e3531269fe6",
+      "legacy_id": "dbaf4bbf-8244-4d78-8a0a-a05b363e73b5",
+      "source_url": "https://www.theguardian.com/uk-news/2025/feb/14/prince-andrew-testify-pressure-us-civil-cases",
+      "publication": "The Guardian",
+      "published_date": "2025-02-14",
+      "title": "Prince Andrew Faces New Pressure to Testify in U.S. Civil Cases"
+    },
+    {
+      "news_id": "fd40de6b-7939-575a-8a0b-8a64ff2eb8ae",
+      "legacy_id": "307ee21a-1b7e-43f5-a00e-5dd155ddbed6",
+      "source_url": "https://www.reuters.com/legal/epstein-victim-compensation-fund-concludes-2025-03-20/",
+      "publication": "Reuters",
+      "published_date": "2025-03-20",
+      "title": "Epstein Victim Compensation Fund Concludes After Distributing $155 Million"
+    },
+    {
+      "news_id": "ed24a9cb-0384-5e01-a0fe-099e548b7f99",
+      "legacy_id": "06dd8707-2409-449b-bf5a-fae8fb74e442",
+      "source_url": "https://apnews.com/article/fbi-epstein-files-released-foia-3a8f9b2c1d4e5f6g7h8i9j0k",
+      "publication": "Associated Press",
+      "published_date": "2025-04-15",
+      "title": "FBI Releases Additional Files on Epstein Investigation Under FOIA Request"
+    },
+    {
+      "news_id": "8d8c0172-c21c-51f2-a1df-481be31c9547",
+      "legacy_id": "673b4831-fbbc-4299-8854-4ee835fc3101",
+      "source_url": "https://www.npr.org/2025/05/08/documentary-epstein-network-enablers",
+      "publication": "NPR",
+      "published_date": "2025-05-08",
+      "title": "Documentary Series Examines Epstein's Network and Enablers"
+    },
+    {
+      "news_id": "5fd33b23-0108-5666-b6fa-10a1981436fb",
+      "legacy_id": "f12822bd-66a1-47d3-985d-760ab2d03c71",
+      "source_url": "https://www.miamiherald.com/news/state/florida/article2025061201.html",
+      "publication": "Miami Herald",
+      "published_date": "2025-06-12",
+      "title": "Former Epstein Associate Faces New Civil Lawsuit in Florida"
+    },
+    {
+      "news_id": "5a4fe090-0515-5daa-83a0-06e44cd72f5c",
+      "legacy_id": "31db8065-7125-4573-871b-949e3d328447",
+      "source_url": "https://www.cnn.com/2025/07/25/politics/congressional-report-epstein-oversight-failures",
+      "publication": "CNN",
+      "published_date": "2025-07-25",
+      "title": "Congressional Report Examines Failures in Epstein Case Oversight"
+    },
+    {
+      "news_id": "63f10a66-752a-5d18-8fde-ee028ac1c0ab",
+      "legacy_id": "70f554ac-56a4-43e8-88f4-cedf6f8c8194",
+      "source_url": "https://www.wsj.com/us-news/law/new-york-sex-trafficking-laws-epstein-2025-08-14",
+      "publication": "The Wall Street Journal",
+      "published_date": "2025-08-14",
+      "title": "New York Strengthens Laws on Sex Trafficking Following Epstein Case"
+    },
+    {
+      "news_id": "524ae984-07ef-5000-9250-8a5333ec6758",
+      "legacy_id": "99db7422-e07a-4678-8d32-f81b8bc94578",
+      "source_url": "https://www.lemonde.fr/en/france/article/2025/09/18/french-investigation-epstein-paris-expanded",
+      "publication": "Le Monde (English Edition)",
+      "published_date": "2025-09-18",
+      "title": "French Authorities Expand Investigation Into Epstein's Paris Operations"
+    },
+    {
+      "news_id": "71802133-6003-598d-959c-f44ec4ce390c",
+      "legacy_id": "6f22311a-f75a-49f3-9754-939d312c27f0",
+      "source_url": "https://www.theatlantic.com/ideas/archive/2025/10/epstein-documents-privacy-transparency/",
+      "publication": "The Atlantic",
+      "published_date": "2025-10-05",
+      "title": "Legal Scholars Debate Privacy vs. Transparency in Unsealing Epstein Documents"
+    },
+    {
+      "news_id": "1a670f4b-a4da-5447-8fd9-cb26782ed6e1",
+      "legacy_id": "03d8dc09-0ffc-47a2-8de3-ae2bbf50f4a3",
+      "source_url": "https://www.bbc.com/news/world-us-canada-63847291",
+      "publication": "BBC News",
+      "published_date": "2025-11-10",
+      "title": "Five Years After Epstein's Death, Questions About Prison Security Persist"
+    },
+    {
+      "news_id": "238837a8-7636-5128-a932-8194a315a591",
+      "legacy_id": "00745c42-8be0-4522-92e8-e88b82b104bf",
+      "source_url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-epstein-files-congress-comey-saudi-arabia-ukraine-live-updates-rcna244157",
+      "publication": "NBC News",
+      "published_date": "2025-11-19",
+      "title": "Trump signs bill requiring the Justice Department to release its files on Jeffrey Epstein"
+    },
+    {
+      "news_id": "f4fc2a5f-6c50-59e7-9f88-d0d70eeb0937",
+      "legacy_id": "c4623c7e-719d-4806-b700-b4c75dc8602c",
+      "source_url": "https://www.nbcnews.com/politics/justice-department/what-in-epstein-files-when-release-house-bill-vote-trump-sign-rcna244799",
+      "publication": "NBC News",
+      "published_date": "2025-11-19",
+      "title": "What's in the Epstein files \u2014 and when could they be released? Here's what to know after Trump signs bill"
+    },
+    {
+      "news_id": "9c27f599-a3b9-5cec-a9fe-4ff50ea75446",
+      "legacy_id": "db6e817b-226e-4153-9505-cbaaa2ff5be5",
+      "source_url": "https://www.aljazeera.com/news/2025/11/20/trump-says-he-signed-bill-to-release-epstein-files",
+      "publication": "Al Jazeera",
+      "published_date": "2025-11-20",
+      "title": "Trump says he signed bill to release Epstein files"
+    },
+    {
+      "news_id": "fc8b632a-b5f4-54df-aa64-ffcc2e6538f4",
+      "legacy_id": "84fffdfb-4740-4531-8832-037b9d6a525f",
+      "source_url": "https://abcnews.go.com/Politics/after-trump-signs-epstein-files-bill-focus-shifts/story?id=127700652",
+      "publication": "ABC News",
+      "published_date": "2025-11-19",
+      "title": "After Trump signs Epstein files bill, focus shifts to release timeline"
+    },
+    {
+      "news_id": "f157f3f6-a78c-55ac-a51c-05229e741267",
+      "legacy_id": "7d6797ec-d1e7-4585-9adc-2f2e94e9f35f",
+      "source_url": "https://www.npr.org/2025/11/13/nx-s1-5607057/house-committee-releases-over-20-000-documents-from-epstein-estate",
+      "publication": "NPR",
+      "published_date": "2025-11-13",
+      "title": "House committee releases over 20,000 documents from Epstein estate"
+    },
+    {
+      "news_id": "a80f7b59-5d30-5042-b6c2-7fba6af91907",
+      "legacy_id": "33c4edfe-cd55-42ba-bdab-31b1e38bb25a",
+      "source_url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats",
+      "publication": "NPR",
+      "published_date": "2025-11-20",
+      "title": "The latest Epstein emails reveal the powerful people who sought his counsel"
+    },
+    {
+      "news_id": "3f1e3f26-366c-546e-8fd3-ef203ca46c9d",
+      "legacy_id": "8fb45d67-b91c-4a48-9dcb-dbf96627f714",
+      "source_url": "https://www.nbcnews.com/tech/tech-news/larry-summers-resigns-openai-board-jeffrey-epstein-emails-rcna244766",
+      "publication": "NBC News",
+      "published_date": "2025-11-19",
+      "title": "Larry Summers going on leave at Harvard, resigns from OpenAI board after Epstein emails"
+    },
+    {
+      "news_id": "3da29c5c-8ef9-5157-a94d-216b03126091",
+      "legacy_id": "97a0ed19-2b03-4c6b-ba0f-065118a480e2",
+      "source_url": "https://edition.cnn.com/2025/11/19/business/larry-summers-openai-board-epstein",
+      "publication": "CNN",
+      "published_date": "2025-11-19",
+      "title": "Larry Summers leaves OpenAI board, Harvard instructor role as scrutiny over Epstein emails intensifies"
+    },
+    {
+      "news_id": "1b4f6a76-72b4-5095-a529-bbd0f4c72ab3",
+      "legacy_id": "461dad98-260a-48e9-840e-dffbda36ba32",
+      "source_url": "https://www.axios.com/2025/11/19/epstein-larry-summers-openai",
+      "publication": "Axios",
+      "published_date": "2025-11-19",
+      "title": "Larry Summers resigns from OpenAI board amid Epstein revelations"
+    },
+    {
+      "news_id": "8dabaea8-20c6-59f9-9f9d-9bb7e3f1a7d3",
+      "legacy_id": "604cb857-3536-4be9-9a16-56cec4f5dd9f",
+      "source_url": "https://www.cnn.com/2025/11/10/politics/ghislaine-maxwell-special-treatment-commutation-raskin-whistleblower",
+      "publication": "CNN",
+      "published_date": "2025-11-10",
+      "title": "Ghislaine Maxwell gets special treatment in prison, Rep. Jamie Raskin says a whistleblower told him"
+    },
+    {
+      "news_id": "f8e58c0b-ed27-52e7-ab11-74ec56ca40c6",
+      "legacy_id": "548f982b-d6ef-4096-ba6a-c3c3cf5be632",
+      "source_url": "https://www.nbcnews.com/news/us-news/ghislaine-maxwell-prison-emails-minimum-security-bryan-texas-rcna242218",
+      "publication": "NBC News",
+      "published_date": "2025-11-14",
+      "title": "Ghislaine Maxwell's prison emails show she is 'happier' at minimum-security Texas facility"
+    },
+    {
+      "news_id": "f448a0f0-9da9-5606-86dd-30bb031ef727",
+      "legacy_id": "08d82dfc-8382-4211-89c0-c5561d67f5ae",
+      "source_url": "https://www.newsweek.com/whistleblower-speaks-out-on-ghislaine-maxwells-special-treatment-in-prison-11069637",
+      "publication": "Newsweek",
+      "published_date": "2025-11-18",
+      "title": "Whistleblower Speaks Out on Ghislaine Maxwell's Special Treatment in Prison"
+    },
+    {
+      "news_id": "3ff767db-bae9-5efa-9587-ad5f159410d9",
+      "legacy_id": "949abfb3-bd06-4a3e-8f5c-a85da1669e0c",
+      "source_url": "https://abcnews.go.com/US/doj-asks-judges-authorize-release-epstein-maxwell-grand/story?id=127836139",
+      "publication": "ABC News",
+      "published_date": "2025-11-24",
+      "title": "DOJ asks judges to authorize release of Epstein and Maxwell grand jury material"
+    },
+    {
+      "news_id": "6a365233-1345-5f7e-ae23-91021a219301",
+      "legacy_id": "94c2484f-d6c3-43d4-84a1-fb18c1b0baf7",
+      "source_url": "https://www.pbs.org/newshour/nation/doj-renews-request-to-unseal-jeffrey-epstein-grand-jury-materials",
+      "publication": "PBS NewsHour",
+      "published_date": "2025-11-24",
+      "title": "DOJ renews request to unseal Jeffrey Epstein grand jury materials"
+    },
+    {
+      "news_id": "d83911bc-3c9c-51a0-ab45-6d6a929d8aee",
+      "legacy_id": "a75ce31a-f1e7-458e-b5eb-3455bde8b169",
+      "source_url": "https://www.aljazeera.com/news/2025/11/22/epstein-victims-expect-death-threats-to-rise-as-us-release-of-files-nears",
+      "publication": "Al Jazeera",
+      "published_date": "2025-11-22",
+      "title": "Epstein victims expect death threats to rise as US release of files nears"
+    },
+    {
+      "news_id": "c2423040-bce4-5f62-806e-c59f42a14698",
+      "legacy_id": "f377f563-54e8-4621-8785-d81269f68d5b",
+      "source_url": "https://www.washingtonpost.com/national/2025/12/05/jeffrey-epstein-florida/880caed8-d206-11f0-92cb-561ee4e6a771_story.html",
+      "publication": "Washington Post",
+      "published_date": "2025-12-05",
+      "title": "Grand jury transcripts from abandoned Epstein investigation in Florida ordered released"
+    },
+    {
+      "news_id": "32bedba1-3471-546a-a3c1-d674b37d360b",
+      "legacy_id": "33cc5818-cf3b-433f-baf0-8ecb0e79247a",
+      "source_url": "https://www.washingtonpost.com/politics/2025/12/05/epstein-justice-department-trump-fbi-files/ac357caa-d228-11f0-92cb-561ee4e6a771_story.html",
+      "publication": "Washington Post",
+      "published_date": "2025-12-05",
+      "title": "What to know about the Justice Department's Jeffrey Epstein files"
+    },
+    {
+      "news_id": "38498795-a88d-5706-9107-e8f08fdbb0c1",
+      "legacy_id": "42db3df7-69c8-4161-a4c1-1ca67445f704",
+      "source_url": "https://www.cbsnews.com/news/jeffrey-epstein-grand-jury-transcripts-unsealed-florida/",
+      "publication": "CBS News",
+      "published_date": "2025-12-05",
+      "title": "Judge orders unsealing of grand jury transcripts from Epstein case in Florida"
+    },
+    {
+      "news_id": "e57f44ea-1e3a-5d59-b88e-0bb9a0707638",
+      "legacy_id": "55f81021-e9b6-4971-9b20-ec2c105dc636",
+      "source_url": "https://www.pbs.org/newshour/nation/judge-orders-release-of-grand-jury-transcripts-from-abandoned-epstein-investigation-in-florida",
+      "publication": "PBS NewsHour",
+      "published_date": "2025-12-05",
+      "title": "Judge orders release of grand jury transcripts from abandoned Epstein investigation in Florida"
+    },
+    {
+      "news_id": "485fcc9c-73da-590b-a523-ad43c8cba08c",
+      "legacy_id": "30b6777b-40bd-4895-b7ad-dfedabd0bd73",
+      "source_url": "https://www.nbcnews.com/politics/justice-department/judge-orders-jeffrey-epstein-related-grand-jury-transcripts-florida-re-rcna247624",
+      "publication": "NBC News",
+      "published_date": "2025-12-05",
+      "title": "Judge orders Jeffrey Epstein-related grand jury records in Florida to be released publicly"
+    },
+    {
+      "news_id": "a38458e2-3b41-5f66-8add-659e15759877",
+      "legacy_id": "62b268de-8d24-4534-99f6-5564c480cef0",
+      "source_url": "https://www.nbcnews.com/politics/congress/epstein-files-lawmakers-ask-ag-pam-bondi-status-update-rcna246980",
+      "publication": "NBC News",
+      "published_date": "2025-12-03",
+      "title": "Lawmakers ask AG Pam Bondi for a status update on releasing the Epstein files"
+    },
+    {
+      "news_id": "0062a3ff-7194-5275-9161-a5546e211764",
+      "legacy_id": "8cea3404-3a67-4d88-a69e-0412a46662d4",
+      "source_url": "https://www.washingtonpost.com/politics/2025/12/03/lawmakers-bondi-release-epstein-files/",
+      "publication": "Washington Post",
+      "published_date": "2025-12-03",
+      "title": "Lawmakers ask Bondi for update on Epstein files as deadline nears"
+    },
+    {
+      "news_id": "b6a1cab3-af3e-5dc0-a2cd-0b7458f1d19f",
+      "legacy_id": "49d930b9-e1f7-4112-b3e0-ea5ab9c1bc1b",
+      "source_url": "https://www.cnn.com/2025/12/03/politics/ghislaine-maxwell-habeas-corpus-pro-se-request",
+      "publication": "CNN",
+      "published_date": "2025-12-03",
+      "title": "Ghislaine Maxwell will make new plea to judge to let her out of prison"
+    },
+    {
+      "news_id": "cf917678-c4f4-50fc-a654-b404ca3e41b4",
+      "legacy_id": "0ca1ee5a-f330-408b-a13f-c3a954ba349c",
+      "source_url": "https://www.aljazeera.com/news/2025/12/3/ghislaine-maxwell-to-seek-release-from-prison-court-filing",
+      "publication": "Al Jazeera",
+      "published_date": "2025-12-03",
+      "title": "Ghislaine Maxwell to seek release from prison: Court filing"
+    },
+    {
+      "news_id": "3284a74a-3aea-5e18-82f0-d09b9715a269",
+      "legacy_id": "52b70170-76f8-4e89-a5fe-45f0336edcae",
+      "source_url": "https://abcnews.go.com/US/democrats-release-epstein-island-photos-maxwell-argues-release/story?id=128080759",
+      "publication": "ABC News",
+      "published_date": "2025-12-03",
+      "title": "Democrats release Epstein Island photos as Maxwell argues against release of grand jury transcripts"
+    },
+    {
+      "news_id": "f2d99b53-9419-5797-9b48-a52919ad42b3",
+      "legacy_id": "615820a4-3b73-4d1f-90d4-dbbdfacfdc10",
+      "source_url": "https://www.cnn.com/2025/11/26/politics/justice-department-asks-judge-to-release-epstein-maxwell-records",
+      "publication": "CNN",
+      "published_date": "2025-11-26",
+      "title": "Justice Department asks judge for permission to release records from Jeffrey Epstein and Ghislaine Maxwell investigations"
+    },
+    {
+      "news_id": "d0959921-2653-5b99-a46d-89b5ce3deb20",
+      "legacy_id": "276c452d-6f84-4f61-97d2-987da0558500",
+      "source_url": "https://www.democracynow.org/2025/11/25/anand_giridharadas",
+      "publication": "Democracy Now",
+      "published_date": "2025-11-25",
+      "title": "\"The Epstein Class\": Anand Giridharadas on the Elite Network Around the Sexual Predator"
+    },
+    {
+      "news_id": "a80f7b59-5d30-5042-b6c2-7fba6af91907",
+      "legacy_id": "7abaf814-94c2-49ea-b52b-3ab8f2eb5c86",
+      "source_url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats",
+      "publication": "NPR",
+      "published_date": "2025-11-20",
+      "title": "The latest Epstein emails reveal the powerful people who sought his counsel"
+    },
+    {
+      "news_id": "e76c7e97-117c-5d9f-8b1d-47adbf0d31ca",
+      "legacy_id": "c430218b-4751-460a-9c05-f4d834381772",
+      "source_url": "https://www.cnn.com/politics/live-news/trump-presidency-epstein-files-release-11-19-25",
+      "publication": "CNN",
+      "published_date": "2025-11-19",
+      "title": "November 19, 2025 Trump administration and Epstein files news"
+    },
+    {
+      "news_id": "1e586860-a853-5b5e-9b1b-159d0a8776ef",
+      "legacy_id": "95fd2e8f-2cd9-4539-bc4c-0e93535fb331",
+      "source_url": "https://theintercept.com/2025/11/14/epstein-new-york-times-trump/",
+      "publication": "The Intercept",
+      "published_date": "2025-11-14",
+      "title": "Epstein Gave NY Times Journalist Tips About Trump. Why Did They Never Get Reported?"
+    },
+    {
+      "news_id": "fd843cc3-5e11-5f2a-bfd9-908b1d9eaf0f",
+      "legacy_id": "66b7e24a-fb5b-436a-9644-958992887c35",
+      "source_url": "https://www.npr.org/2025/11/13/g-s1-97674/up-first-newsletter-jeffrey-epstein-trump-government-reopens-aca",
+      "publication": "NPR",
+      "published_date": "2025-11-13",
+      "title": "Up First briefing: New Epstein emails; ACA subsidies after shutdown"
+    },
+    {
+      "news_id": "14a34eb2-ea1d-54b3-bb56-0411b6582228",
+      "legacy_id": "096c7119-5f9d-4278-b75f-9764ca0ee417",
+      "source_url": "https://www.foxnews.com/politics/epstein-island-compound-seen-new-photos-released-house-dems",
+      "publication": "Fox News",
+      "published_date": "2025-12-03",
+      "title": "House Dems release 'never-before-seen' photos, videos of Epstein compound"
+    },
+    {
+      "news_id": "0c4cea53-10d9-56ba-8a19-ee4fefd4b7be",
+      "legacy_id": "e47154b4-51a2-4a24-85af-c2c033a9da3d",
+      "source_url": "https://www.newsweek.com/ghislaine-maxwell-prison-court-petition-jeffrey-epstein-files-11151592",
+      "publication": "Newsweek",
+      "published_date": "2025-12-03",
+      "title": "Epstein Ally Ghislaine Maxwell Plans Court Petition Seeking Release From Prison"
+    },
+    {
+      "news_id": "e6317158-1760-588f-a983-812f6ee15d9c",
+      "legacy_id": "218df678-ad50-4008-a5b8-c111541b1e13",
+      "source_url": "https://abcnews.go.com/US/epstein-alleged-victims-lawyer-sends-scathing-letter-doj/story?id=127907683",
+      "publication": "ABC News",
+      "published_date": "2025-12-06",
+      "title": "Law firm representing alleged Epstein victims sends scathing letter over DOJ document release"
+    },
+    {
+      "news_id": "38244bac-7566-5102-84b5-a7b0adebf082",
+      "legacy_id": "88d9fbef-4fd8-44b7-9a94-6bfdba262759",
+      "source_url": "https://abcnews.go.com/US/judge-orders-expedited-processing-request-records-related-dojs/story?id=127872573",
+      "publication": "ABC News",
+      "published_date": "2025-12-06",
+      "title": "Judge orders expedited processing of request for records related to DOJ's handling of Epstein files"
+    },
+    {
+      "news_id": "018737c4-8a4e-533a-8a7d-f2b66d49120b",
+      "legacy_id": "d05953ad-0898-4eaa-b5b0-f6e38f1f4936",
+      "source_url": "https://www.pbs.org/newshour/politics/7-things-to-know-about-the-justice-departments-epstein-files",
+      "publication": "PBS NewsHour",
+      "published_date": "2025-11-21",
+      "title": "7 things to know about the Justice Department's Epstein files"
+    }
+  ]
+}

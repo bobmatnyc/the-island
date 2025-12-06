@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NewsArticle",
+  "description": "Canonical schema for news articles about the Epstein case. News articles are DISTINCT from authoritative source documents - they track case progression, public narrative, and media coverage.",
+  "type": "object",
+  "required": ["news_id", "source_url", "title", "published_date", "publication"],
+  "properties": {
+    "news_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Deterministic UUID5 generated from source_url"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Original URL of the news article"
+    },
+    "publication": {
+      "type": "string",
+      "description": "Name of the publication (e.g., 'The New York Times', 'BBC News')"
+    },
+    "published_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Publication date in ISO 8601 format (YYYY-MM-DD)"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Article headline/title"
+    },
+    "author": {
+      "type": ["string", "null"],
+      "description": "Article author name (null if not available)"
+    },
+    "content_excerpt": {
+      "type": "string",
+      "description": "Brief excerpt or summary of article content",
+      "maxLength": 2000
+    },
+    "word_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Word count of article content"
+    },
+    "extracted_entities": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "description": "Array of entity UUIDs mentioned in the article"
+    },
+    "entity_mention_counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "description": "Map of entity UUID to mention count"
+    },
+    "credibility_indicator": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "unknown"],
+      "description": "Credibility assessment of the publication"
+    },
+    "article_type": {
+      "type": "string",
+      "enum": [
+        "breaking_news",
+        "investigation",
+        "opinion",
+        "court_coverage",
+        "profile",
+        "timeline",
+        "analysis",
+        "other"
+      ],
+      "description": "Classification of article type"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Topic tags/keywords for the article"
+    },
+    "archive_url": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "URL to archived version of article (null if not archived)"
+    },
+    "archive_status": {
+      "type": "string",
+      "enum": ["archived", "not_archived", "pending"],
+      "description": "Status of article archival"
+    },
+    "legacy_ids": {
+      "type": "object",
+      "properties": {
+        "original_id": {
+          "type": "string",
+          "description": "Original UUID from news_articles_index.json"
+        }
+      },
+      "description": "Legacy identifiers for backward compatibility"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "scraped_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when article was scraped"
+        },
+        "last_verified": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when article was last verified accessible"
+        },
+        "language": {
+          "type": "string",
+          "pattern": "^[a-z]{2}$",
+          "description": "Two-letter ISO language code"
+        },
+        "access_type": {
+          "type": "string",
+          "enum": ["public", "subscription", "paywall"],
+          "description": "Article access requirements"
+        }
+      },
+      "description": "Additional metadata about article collection and status"
+    }
+  }
+}
