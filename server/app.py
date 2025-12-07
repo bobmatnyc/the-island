@@ -62,6 +62,7 @@ from database.models import Entity, EntityBiography
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 METADATA_DIR = DATA_DIR / "metadata"
+TRANSFORMED_DIR = DATA_DIR / "transformed"
 MD_DIR = DATA_DIR / "md"
 LOGS_DIR = PROJECT_ROOT / "logs"
 
@@ -402,18 +403,19 @@ def load_data():
         print(f"  ✗ Entity statistics file not found: {stats_path}")
         entity_stats = {}
 
-    # Entity biographies - load from all three files
+    # Entity biographies - load from transformed files (NEW: Phase 1 UUID implementation)
+    # These files have proper entity_type, entity_id (UUID), and all metadata
     entity_files = [
-        ("entity_biographies.json", "person"),      # 1,637 persons from contact books
-        ("entity_organizations.json", "organization"),  # ~920 orgs from documents
-        ("entity_locations.json", "location")       # ~458 locations from documents
+        ("entities_persons.json", "person"),        # 1,637 persons with entity_type
+        ("entities_organizations.json", "organization"),  # 879 orgs with entity_type
+        ("entities_locations.json", "location")     # 423 locations with entity_type
     ]
 
     entity_bios = {}
     total_loaded = 0
 
     for filename, entity_type in entity_files:
-        file_path = METADATA_DIR / filename
+        file_path = TRANSFORMED_DIR / filename
         if file_path.exists():
             try:
                 with open(file_path) as f:
@@ -422,7 +424,7 @@ def load_data():
 
                     # Merge entities, ensuring entity_type is set
                     for entity_key, entity_data in entities.items():
-                        # Ensure entity_type field exists
+                        # Ensure entity_type field exists (should already be there)
                         if "entity_type" not in entity_data:
                             entity_data["entity_type"] = entity_type
 
@@ -2218,83 +2220,48 @@ async def get_entities(
     Rationale: Exclude non-disambiguatable entities (Male, Female, Nanny (1))
     from API results. These are placeholders, not actual identifiable people.
 
-    Bug Fix (2025-12-06): Added entity_type parameter and field
-    - Frontend sends entity_type=person/organization/location for filtering
-    - Person entities from entity_stats now include entity_type="person"
-    - All entities now have connection_count field for slider filtering
+    Bug Fix (2025-12-06): Use transformed entity files as source of truth
+    - Load all 2,939 entities from entities_persons.json, entities_locations.json, entities_organizations.json
+    - Each entity has proper entity_type field for filtering
+    - Map transformed entity fields to API response format
+    - Filtering by entity_type now works correctly
     """
-    # Start with entity_stats (persons with document statistics)
-    # BUG FIX: Add entity_type field to person entities
     entities_list = []
-    for entity_data in entity_stats.values():
-        entity_copy = dict(entity_data)
-        entity_copy['entity_type'] = 'person'
-        entities_list.append(entity_copy)
 
-    # Add organizations and locations from entity_bios that aren't in entity_stats
-    entity_stats_names = {e.get("name", "") for e in entities_list}
-    entity_stats_ids = {e.get("id", "") for e in entities_list}
-
-    orgs_added = 0
-    locs_added = 0
-
+    # Load ALL entities from transformed files (entity_bios)
+    # These files have proper structure with entity_type already set
     for entity_key, entity_data in entity_bios.items():
-        # Skip if already in entity_stats (persons)
-        if entity_key in entity_stats_names or entity_key in entity_stats_ids:
-            continue
+        # Map transformed entity fields to API response format
+        entity_response = {
+            "id": entity_data.get("entity_id", entity_key),  # Use entity_id (UUID) as id
+            "name": entity_data.get("canonical_name", entity_key),  # Use canonical_name as name
+            "entity_type": entity_data.get("entity_type"),
+            "total_documents": entity_data.get("document_count", 0),  # Map document_count to total_documents
+            "connection_count": entity_data.get("connection_count", 0),
+            "sources": []  # Legacy field, kept for compatibility
+        }
 
-        # Skip person entities (they should be in entity_stats)
-        bio_entity_type = entity_data.get("entity_type")
-        if bio_entity_type == "person":
-            continue
+        # Map classifications to categories (extract type field)
+        # Convert from: [{"type": "co_conspirator", "label": "Co-Conspirator", ...}, ...]
+        # To: ["co_conspirator", "frequent_travelers", ...]
+        classifications = entity_data.get("classifications", [])
+        entity_response["categories"] = [c.get("type") for c in classifications if c.get("type")]
 
-        # Calculate real connection count from document co-occurrences
-        entity_name = entity_data.get("name", entity_key)
-        connection_count = calculate_entity_connections(entity_name)
-
-        # Add organization/location entity with calculated connections
-        entities_list.append({
-            "id": entity_key,
-            "name": entity_name,
-            "entity_type": bio_entity_type,
-            "total_documents": len(entity_data.get("documents", [])),  # Count from documents field
-            "connection_count": connection_count,
-            "sources": []
-        })
-
-        if bio_entity_type == "organization":
-            orgs_added += 1
-        elif bio_entity_type == "location":
-            locs_added += 1
-
-    print(f"[API] Added {orgs_added} organizations and {locs_added} locations to entity list")
-
-    # P0 CRITICAL FIX: Map relationship_categories to categories field for all entities
-    # This fixes the empty categories[] issue reported in QA (ticket 1M-XXX)
-    for entity in entities_list:
-        entity_id = entity.get("id", "")
-        entity_name = entity.get("name", "")
-
-        # Try to get bio data by ID first, then fallback to name
-        bio_data = None
-        if entity_id and entity_id in entity_bios:
-            bio_data = entity_bios[entity_id]
-        elif entity_name and entity_name in entity_bios:
-            bio_data = entity_bios[entity_name]
-
-        # Map relationship_categories to categories field
-        if bio_data and "relationship_categories" in bio_data:
-            # Extract just the 'type' field from relationship_categories
-            # Convert from: [{"type": "co_conspirator", "label": "Co-Conspirator", ...}, ...]
-            # To: ["co_conspirator", "frequent_travelers", ...]
-            entity["categories"] = [cat.get("type") for cat in bio_data.get("relationship_categories", [])]
+        # Check for billionaire status (if available in entity_stats)
+        # This is for backward compatibility with existing filtering
+        if entity_response["id"] in entity_stats:
+            entity_response["is_billionaire"] = entity_stats[entity_response["id"]].get("is_billionaire", False)
         else:
-            entity["categories"] = []
+            entity_response["is_billionaire"] = False
+
+        entities_list.append(entity_response)
+
+    print(f"[API] Loaded {len(entities_list)} total entities from transformed files")
 
     # Filter out generic entities (Male, Female, etc.)
     entities_list = [e for e in entities_list if not entity_filter.is_generic(e.get("name", ""))]
 
-    # BUG FIX: Filter by entity_type if specified
+    # Filter by entity_type if specified
     if entity_type:
         entities_list = [e for e in entities_list if e.get("entity_type") == entity_type]
 
